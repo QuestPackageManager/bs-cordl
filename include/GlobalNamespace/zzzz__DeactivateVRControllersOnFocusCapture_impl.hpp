@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateVRControllersOnFocusCapture::get_loggerPrefix)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5854498;
+  constexpr static std::size_t addrs = 0x5c6a21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(&::GlobalNamespace::DeactivateVRControllersOnFocusCapture::Start)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x58544dc;
+  constexpr static std::size_t addrs = 0x5c6a260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(), { "Start", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)(::GlobalNamespace::XRSystemEventType)>(
     &::GlobalNamespace::DeactivateVRControllersOnFocusCapture::HandleSystemStateChange)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x58549dc;
+  constexpr static std::size_t addrs = 0x5c6a760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(),
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(&::GlobalNamespace::DeactivateVRControllersOnFocusCapture::OnDestroy)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x58549ec;
+  constexpr static std::size_t addrs = 0x5c6a770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(), { "OnDestroy", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(&::GlobalNamespace::DeactivateVRControllersOnFocusCapture::LateUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5854b28;
+  constexpr static std::size_t addrs = 0x5c6a8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(), { "LateUpdate", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateVRControllersOnFocusCapture::UpdateVRControllerActiveState)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x5854730;
+  constexpr static std::size_t addrs = 0x5c6a4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(&::GlobalNamespace::DeactivateVRControllersOnFocusCapture::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5854b2c;
+  constexpr static std::size_t addrs = 0x5c6a8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(), { ".ctor", {}, {} })));

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Resolution::*)()>(&::UnityEngine::Resolution::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a8c180;
+  constexpr static std::size_t addrs = 0x6ee05fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resolution>(), { "get_width", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Resolution::*)()>(&::UnityEngine::Resolution::get_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a8c188;
+  constexpr static std::size_t addrs = 0x6ee0604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resolution>(), { "get_height", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RefreshRate (::UnityEngine::Resolution::*)()>(&::UnityEngine::Resolution::get_refreshRateRatio)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a8c190;
+  constexpr static std::size_t addrs = 0x6ee060c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resolution>(), { "get_refreshRateRatio", {}, {} })));
@@ -43,8 +43,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RefreshRat
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Resolution::*)()>(&::UnityEngine::Resolution::ToString)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6a8c198;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x6ee0614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Resolution>(), { ::i2c::class_of<::UnityEngine::Resolution>(), 3 }));

@@ -61,37 +61,37 @@ public:
   /// @brief Field m_OriginalCameraRotation, offset 0x44, size 0x10
   __declspec(property(get = __cordl_internal_get_m_OriginalCameraRotation, put = __cordl_internal_set_m_OriginalCameraRotation)) ::UnityEngine::Quaternion m_OriginalCameraRotation;
 
-  /// @brief Method GetCameraCount, addr 0x674d3a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetCameraCount, addr 0x6b62e08, size 0x1c, virtual false, abstract: false, final false
   inline int32_t GetCameraCount();
 
-  /// @brief Method GetNextCamera, addr 0x674d450, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetNextCamera, addr 0x6b62eb8, size 0x48, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> GetNextCamera();
 
   static inline ::UnityEngine::Rendering::CameraSwitcher* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x674d3bc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6b62e24, size 0x94, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x674ccf8, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6b62760, size 0x6a8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetCameraIndex, addr 0x674d498, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method SetCameraIndex, addr 0x6b62f00, size 0x234, virtual false, abstract: false, final false
   inline void SetCameraIndex(int32_t index);
 
   /// [CompilerGenerated]
-  /// @brief Method <OnEnable>b__10_0, addr 0x674d6c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__10_0, addr 0x6b63140, size 0x8, virtual false, abstract: false, final false
   inline int32_t _OnEnable_b__10_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <OnEnable>b__10_1, addr 0x674d6d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__10_1, addr 0x6b63148, size 0x4, virtual false, abstract: false, final false
   inline void _OnEnable_b__10_1(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method <OnEnable>b__10_2, addr 0x674d6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__10_2, addr 0x6b6314c, size 0x8, virtual false, abstract: false, final false
   inline int32_t _OnEnable_b__10_2();
 
   /// [CompilerGenerated]
-  /// @brief Method <OnEnable>b__10_3, addr 0x674d6dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__10_3, addr 0x6b63154, size 0x8, virtual false, abstract: false, final false
   inline void _OnEnable_b__10_3(int32_t value);
 
   constexpr ::ArrayW<int32_t> const& __cordl_internal_get_m_CameraIndices() const;
@@ -154,7 +154,7 @@ public:
 
   constexpr void __cordl_internal_set_m_OriginalCameraRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x674d6bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b63134, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -172,7 +172,7 @@ public:
   CameraSwitcher(CameraSwitcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8733 };
 
   /// @brief Field m_Cameras, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Camera>> ___m_Cameras;

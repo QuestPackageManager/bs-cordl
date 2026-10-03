@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ShaderUtils___c__DisplayClass2_0::*)()>(
     &::UnityEngine::Rendering::Universal::ShaderUtils___c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68badb8;
+  constexpr static std::size_t addrs = 0x6cf1ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ShaderUtils___c__DisplayClass2_0::*)(::StringW)>(
     &::UnityEngine::Rendering::Universal::ShaderUtils___c__DisplayClass2_0::_GetEnumFromPath_b__0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68bb0d4;
+  constexpr static std::size_t addrs = 0x6cf220c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::Rendering::Universal::ShaderPathID)>(&::UnityEngine::Rendering::Universal::ShaderUtils::GetShaderPath)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x68baa8c;
+  constexpr static std::size_t addrs = 0x6cf1b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShaderUtils*>(),
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::ShaderPathID (*)(::StringW)>(&::UnityEngine::Rendering::Universal::ShaderUtils::GetEnumFromPath)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x68bacb8;
+  constexpr static std::size_t addrs = 0x6cf1dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Shader*)>(&::UnityEngine::Rendering::Universal::ShaderUtils::IsLWShader)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x68badbc;
+  constexpr static std::size_t addrs = 0x6cf1ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Rendering::Universal::ShaderUtils::get_PersistentDeltaTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x68bae50;
+  constexpr static std::size_t addrs = 0x6cf1f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

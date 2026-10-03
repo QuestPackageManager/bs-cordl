@@ -76,10 +76,10 @@ public:
 
   static inline ::System::Net::Sockets::SocketAsyncResult___c* New_ctor();
 
-  /// @brief Method <Complete>b__27_0, addr 0x636d588, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <Complete>b__27_0, addr 0x67957ec, size 0x7c, virtual false, abstract: false, final false
   inline void _Complete_b__27_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x636d584, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67957e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Sockets::SocketAsyncResult___c* getStaticF___9();
@@ -105,7 +105,7 @@ public:
   SocketAsyncResult___c(SocketAsyncResult___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12719 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -180,34 +180,34 @@ public:
   /// @brief Field socket, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_socket, put = __cordl_internal_set_socket)) ::System::Net::Sockets::Socket* socket;
 
-  /// @brief Method CheckIfThrowDelayedException, addr 0x636d478, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckIfThrowDelayedException, addr 0x67956dc, size 0xa0, virtual false, abstract: false, final false
   inline void CheckIfThrowDelayedException();
 
-  /// @brief Method Complete, addr 0x636842c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x6790690, size 0x1f4, virtual false, abstract: false, final false
   inline void Complete();
 
-  /// @brief Method Complete, addr 0x6367c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x678fe78, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* e);
 
-  /// @brief Method Complete, addr 0x636d524, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x6795788, size 0xc, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* e, bool synch);
 
-  /// @brief Method Complete, addr 0x6367c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x678fe80, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Net::Sockets::Socket* s);
 
-  /// @brief Method Complete, addr 0x6367e94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x67900f8, size 0xc, virtual false, abstract: false, final false
   inline void Complete(::System::Net::Sockets::Socket* s, int32_t total);
 
-  /// @brief Method Complete, addr 0x636d51c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x6795780, size 0x8, virtual false, abstract: false, final false
   inline void Complete(bool synch);
 
-  /// @brief Method Complete, addr 0x6368f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x67911ac, size 0x8, virtual false, abstract: false, final false
   inline void Complete(int32_t total);
 
-  /// @brief Method CompleteDisposed, addr 0x636d518, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CompleteDisposed, addr 0x679577c, size 0x4, virtual true, abstract: false, final false
   inline void CompleteDisposed();
 
-  /// @brief Method Init, addr 0x636d318, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x679557c, size 0xc8, virtual false, abstract: false, final false
   inline void Init(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::System::Object* state, ::System::Net::Sockets::SocketOperation operation);
 
   static inline ::System::Net::Sockets::SocketAsyncResult* New_ctor();
@@ -323,16 +323,16 @@ public:
 
   constexpr void __cordl_internal_set_socket(::System::Net::Sockets::Socket* value);
 
-  /// @brief Method .ctor, addr 0x636d060, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67952c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x636d3e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6795644, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::System::Object* state, ::System::Net::Sockets::SocketOperation operation);
 
-  /// @brief Method get_ErrorCode, addr 0x636d3f0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x6795654, size 0x88, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketError get_ErrorCode();
 
-  /// @brief Method get_Handle, addr 0x636d2f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x6795554, size 0x28, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Handle();
 
 protected:
@@ -350,7 +350,7 @@ public:
   SocketAsyncResult(SocketAsyncResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12720 };
 
   /// @brief Field socket, offset: 0x30, size: 0x8, def value: None
   ::System::Net::Sockets::Socket* ___socket;

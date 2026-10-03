@@ -22,7 +22,7 @@ class ProbeVolumeSceneData;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::ProbeVolumeSceneData*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeVolumeSceneData*, "UnityEngine.Rendering", "ProbeVolumeSceneData");
-// [Obsolete("This class is no longer necessary for APV implementation.")]
+// [Obsolete("This class is no longer necessary for APV implementation. #from(2023.3)")]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -43,8 +43,8 @@ public:
 
   static inline ::UnityEngine::Rendering::ProbeVolumeSceneData* New_ctor(::UnityEngine::Object* parentAsset);
 
-  /// [Obsolete]
-  /// @brief Method SetParentObject, addr 0x6797e58, size 0x8, virtual false, abstract: false, final false
+  /// [Obsolete("#from(2023.3)")]
+  /// @brief Method SetParentObject, addr 0x6bb2fc8, size 0x8, virtual false, abstract: false, final false
   inline void SetParentObject(::UnityEngine::Object* parent);
 
   constexpr ::UnityEngine::Rendering::SerializedDictionary_2<::StringW, bool>* const& __cordl_internal_get_obsoleteHasProbeVolumes() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_parentAsset(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method .ctor, addr 0x6797e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb2fc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Object* parentAsset);
 
 protected:
@@ -83,20 +83,20 @@ public:
   ProbeVolumeSceneData(ProbeVolumeSceneData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9021 };
 
   /// @brief Field parentAsset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Object> ___parentAsset;
 
   /// [SerializeField]
   /// [FormerlySerializedAs("sceneBounds")]
-  /// [Obsolete("This data is now serialized directly in the baking set asset")]
+  /// [Obsolete("This data is now serialized directly in the baking set asset. #from(2023.3)")]
   /// @brief Field obsoleteSceneBounds, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::SerializedDictionary_2<::StringW, ::UnityEngine::Bounds>* ___obsoleteSceneBounds;
 
   /// [SerializeField]
   /// [FormerlySerializedAs("hasProbeVolumes")]
-  /// [Obsolete("This data is now serialized directly in the baking set asset")]
+  /// [Obsolete("This data is now serialized directly in the baking set asset. #from(2023.3)")]
   /// @brief Field obsoleteHasProbeVolumes, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::SerializedDictionary_2<::StringW, bool>* ___obsoleteHasProbeVolumes;
 

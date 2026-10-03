@@ -24,7 +24,7 @@ class CORDL_TYPE GameStageExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method RequiresShaderWarmup, addr 0x3281458, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RequiresShaderWarmup, addr 0x3507d18, size 0x30, virtual false, abstract: false, final false
   static inline bool RequiresShaderWarmup(::BeatSaber::Destinations::DestinationTarget stage);
 
 protected:
@@ -42,7 +42,7 @@ public:
   GameStageExtensions(GameStageExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23827 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

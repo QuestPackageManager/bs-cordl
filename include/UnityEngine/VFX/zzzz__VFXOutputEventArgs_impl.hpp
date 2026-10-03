@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::VFX::VFXOutputEventArgs::*)()>(&::UnityEngine::VFX::VFXOutputEventArgs::get_nameId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e2ddac;
+  constexpr static std::size_t addrs = 0x72c9750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXOutputEventArgs>(), { "get_nameId", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VFXEventAttribute* (::UnityEngine::VFX::VFXOutputEventArgs::*)()>(
     &::UnityEngine::VFX::VFXOutputEventArgs::get_eventAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e2ddb4;
+  constexpr static std::size_t addrs = 0x72c9758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXOutputEventArgs>(), { "get_eventAttribute", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXOutputEventArgs::*)(int32_t, ::UnityEngine::VFX::VFXEventAttribute*)>(
     &::UnityEngine::VFX::VFXOutputEventArgs::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e2ddbc;
+  constexpr static std::size_t addrs = 0x72c9760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXOutputEventArgs>(),

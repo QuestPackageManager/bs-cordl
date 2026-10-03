@@ -3,6 +3,7 @@ module;
 #endif
 
 #pragma once
+#include "UnityEngine/XR/OpenXR/Features/Interactions/AndroidMouseInteractionProfile.hpp"
 #include "UnityEngine/XR/OpenXR/Features/Interactions/DPadInteraction.hpp"
 #include "UnityEngine/XR/OpenXR/Features/Interactions/EyeGazeInteraction.hpp"
 #include "UnityEngine/XR/OpenXR/Features/Interactions/EyeTrackingUsages.hpp"

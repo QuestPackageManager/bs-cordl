@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GfxUpdateBufferRange_def.hpp"
 #include <cstdint>
@@ -38,7 +39,7 @@ MARK_REF_T(::UnityEngine::UIElements::UIR::Page*);
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UIR::Page_DataSet_1);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::Page*, "UnityEngine.UIElements.UIR", "Page");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UIR::Page_DataSet_1, "UnityEngine.UIElements.UIR", "Page/DataSet`1");
-// Dependencies System.Object, Unity.Collections.NativeArray`1<T>, UnityEngine.UIElements.UIR.GfxUpdateBufferRange
+// Dependencies System.Object, Unity.Collections.MemoryLabel, Unity.Collections.NativeArray`1<T>, UnityEngine.UIElements.UIR.GfxUpdateBufferRange
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
@@ -82,6 +83,12 @@ public:
   /// @brief Field m_UpdateRangesSaturated, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get_m_UpdateRangesSaturated, put = __cordl_internal_set_m_UpdateRangesSaturated)) bool m_UpdateRangesSaturated;
 
+  /// @brief Field s_CpuMemoryLabel, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_s_CpuMemoryLabel, put = setStaticF_s_CpuMemoryLabel)) ::Unity::Collections::MemoryLabel s_CpuMemoryLabel;
+
+  /// @brief Field s_RangesMemoryLabel, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_s_RangesMemoryLabel, put = setStaticF_s_RangesMemoryLabel)) ::Unity::Collections::MemoryLabel s_RangesMemoryLabel;
+
   /// @brief Field updateRanges, offset 0x30, size 0x10
   __declspec(property(get = __cordl_internal_get_updateRanges, put = __cordl_internal_set_updateRanges)) ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange>
       updateRanges;
@@ -99,7 +106,7 @@ public:
   inline bool HasMappedBufferRange();
 
   static inline ::UnityEngine::UIElements::UIR::Page_DataSet_1<T>* New_ctor(::UnityEngine::UIElements::UIR::Utility_GPUBufferType bufferType, uint32_t totalCount, uint32_t maxQueuedFrameCount,
-                                                                            uint32_t updateRangePoolSize, bool mockBuffer);
+                                                                            uint32_t updateRangePoolSize);
 
   /// @brief Method RegisterUpdate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RegisterUpdate(uint32_t start, uint32_t size);
@@ -189,7 +196,11 @@ public:
   constexpr void __cordl_internal_set_updateRanges(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::UIR::Utility_GPUBufferType bufferType, uint32_t totalCount, uint32_t maxQueuedFrameCount, uint32_t updateRangePoolSize, bool mockBuffer);
+  inline void _ctor(::UnityEngine::UIElements::UIR::Utility_GPUBufferType bufferType, uint32_t totalCount, uint32_t maxQueuedFrameCount, uint32_t updateRangePoolSize);
+
+  static inline ::Unity::Collections::MemoryLabel getStaticF_s_CpuMemoryLabel();
+
+  static inline ::Unity::Collections::MemoryLabel getStaticF_s_RangesMemoryLabel();
 
   /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -197,6 +208,10 @@ public:
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+  static inline void setStaticF_s_CpuMemoryLabel(::Unity::Collections::MemoryLabel value);
+
+  static inline void setStaticF_s_RangesMemoryLabel(::Unity::Collections::MemoryLabel value);
 
   /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -217,10 +232,10 @@ public:
   Page_DataSet_1(Page_DataSet_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5498 };
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 
@@ -292,13 +307,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6cfb604, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x719195c, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6cfc3a8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x7192650, size 0xa0, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  static inline ::UnityEngine::UIElements::UIR::Page* New_ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
+  static inline ::UnityEngine::UIElements::UIR::Page* New_ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
 
@@ -330,21 +345,21 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::UnityEngine::UIElements::UIR::Page_DataSet_1<::UnityEngine::UIElements::Vertex>* value);
 
-  /// @brief Method .ctor, addr 0x6cfc260, size 0x138, virtual false, abstract: false, final false
-  inline void _ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
+  /// @brief Method .ctor, addr 0x718d638, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount);
 
   /// [CompilerGenerated]
-  /// @brief Method get_disposed, addr 0x6cfc398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x7192640, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_isEmpty, addr 0x6cfc448, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x718d764, size 0x48, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_disposed, addr 0x6cfc3a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x7192648, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -362,10 +377,10 @@ public:
   Page(Page const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5499 };
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(JobManager)
 namespace System {
 class IDisposable;
@@ -60,28 +61,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x6cdb9a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x716aa8c, size 0x64, virtual false, abstract: false, final false
   inline void Add(::by_ref<::UnityEngine::UIElements::UIR::ConvertMeshJobData> job);
 
-  /// @brief Method Add, addr 0x6cdba80, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x716acc0, size 0x64, virtual false, abstract: false, final false
   inline void Add(::by_ref<::UnityEngine::UIElements::UIR::CopyMeshJobData> job);
 
-  /// @brief Method Add, addr 0x6cdda04, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x716c9a8, size 0x64, virtual false, abstract: false, final false
   inline void Add(::by_ref<::UnityEngine::UIElements::UIR::NudgeJobData> job);
 
-  /// @brief Method CompleteConvertMeshJobs, addr 0x6cddc48, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method CompleteConvertMeshJobs, addr 0x716cce0, size 0x1dc, virtual false, abstract: false, final false
   inline void CompleteConvertMeshJobs();
 
-  /// @brief Method CompleteCopyMeshJobs, addr 0x6cdde28, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method CompleteCopyMeshJobs, addr 0x716cebc, size 0x1dc, virtual false, abstract: false, final false
   inline void CompleteCopyMeshJobs();
 
-  /// @brief Method CompleteNudgeJobs, addr 0x6cdda68, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method CompleteNudgeJobs, addr 0x716ca0c, size 0x1dc, virtual false, abstract: false, final false
   inline void CompleteNudgeJobs();
 
-  /// @brief Method Dispose, addr 0x6cde018, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x716d0a8, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6cde080, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x716d110, size 0xd4, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::JobManager* New_ctor();
@@ -116,18 +117,18 @@ public:
 
   constexpr void __cordl_internal_set_m_NudgeJobs(::UnityEngine::UIElements::UIR::NativePagedList_1<::UnityEngine::UIElements::UIR::NudgeJobData>* value);
 
-  /// @brief Method .ctor, addr 0x6cde158, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x716d24c, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_disposed, addr 0x6cde008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x716d098, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_disposed, addr 0x6cde010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x716d0a0, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -145,7 +146,10 @@ public:
   JobManager(JobManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5300 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5407 };
+
+  /// @brief Field k_JobManagerName offset 0xffffffff size 0x8
+  static constexpr ::ConstString k_JobManagerName{ u"Renderer.JobManager" };
 
   /// @brief Field m_NudgeJobs, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::NativePagedList_1<::UnityEngine::UIElements::UIR::NudgeJobData>* ___m_NudgeJobs;
@@ -159,8 +163,8 @@ public:
   /// @brief Field m_JobMerger, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::JobMerger* ___m_JobMerger;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <disposed>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

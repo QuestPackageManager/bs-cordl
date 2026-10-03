@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitialization_CacheInitOp::*)(::System::Func_1<bool>*)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitialization_CacheInitOp::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x646d218;
+  constexpr static std::size_t addrs = 0x6894d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::CacheInitialization_CacheInitOp*>(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AddressableAssets::Initialization::CacheInitialization_CacheInitOp::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitialization_CacheInitOp::InvokeWaitForCompletion)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x646d220;
+  constexpr static std::size_t addrs = 0x6894d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitialization_CacheInitOp::*)(float_t)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitialization_CacheInitOp::Update)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x646d2e0;
+  constexpr static std::size_t addrs = 0x6894e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitialization_CacheInitOp::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitialization_CacheInitOp::Execute)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x646d3bc;
+  constexpr static std::size_t addrs = 0x6894f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitialization_CacheInitOp::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitialization_CacheInitOp::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x646d128;
+  constexpr static std::size_t addrs = 0x6894c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitialization___c__DisplayClass1_0::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitialization___c__DisplayClass1_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x646d124;
+  constexpr static std::size_t addrs = 0x6894c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AddressableAssets::Initialization::CacheInitialization___c__DisplayClass1_0::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitialization___c__DisplayClass1_0::_InitializeAsync_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x646d458;
+  constexpr static std::size_t addrs = 0x6894fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AddressableAssets::Initialization::CacheInitialization::*)(::StringW, ::StringW)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitialization::Initialize)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x646cd98;
+  constexpr static std::size_t addrs = 0x68948ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::CacheInitialization*>(),
@@ -251,7 +251,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceMa
     ::UnityEngine::AddressableAssets::Initialization::CacheInitialization::*)(::UnityEngine::ResourceManagement::ResourceManager*, ::StringW, ::StringW)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitialization::InitializeAsync)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x646cfa0;
+  constexpr static std::size_t addrs = 0x6894af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::CacheInitialization*>(),
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::UnityEngine::AddressableAssets::Initialization::CacheInitialization::get_RootPath)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x646d17c;
+  constexpr static std::size_t addrs = 0x6894cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitialization::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitialization::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x646d214;
+  constexpr static std::size_t addrs = 0x6894d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::AnalyzeTypeIsResult (*)(::System::Linq::Expressions::TypeBinaryExpression*)>(
     &::System::Linq::Expressions::ConstantCheck::AnalyzeTypeIs)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f7a5c0;
+  constexpr static std::size_t addrs = 0x639653c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::ConstantCheck*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::AnalyzeTypeIsResult (*)(::System::Linq::Expressions::Expression*, ::System::Type*)>(
     &::System::Linq::Expressions::ConstantCheck::AnalyzeTypeIs)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x5f7a5d8;
+  constexpr static std::size_t addrs = 0x6396554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

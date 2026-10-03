@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set__useOwnGradient(bool value);
 
-  /// @brief Method .ctor, addr 0x59819a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da0cc8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -161,7 +161,7 @@ public:
   FireworkItemController_FireworkItemParticleSystem(FireworkItemController_FireworkItemParticleSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5896 };
 
   /// @brief Field _particleSystem, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
@@ -210,7 +210,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::FireworkItemController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59819b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da0cd4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -228,7 +228,7 @@ public:
   FireworkItemController_Pool(FireworkItemController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5897 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -275,26 +275,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x59819f0, size 0x248, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5da0d14, size 0x248, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::FireworkItemController__FireCoroutine_d__29* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5981c38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5da0f5c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5981c40, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5da0f64, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5981c78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5da0f9c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x59819ec, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5da0d10, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -334,7 +334,7 @@ public:
   constexpr void __cordl_internal_set__soundTimeToCenter_5__2(float_t value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x598156c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da0890, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -361,7 +361,7 @@ public:
   FireworkItemController__FireCoroutine_d__29(FireworkItemController__FireCoroutine_d__29 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5898 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -473,28 +473,28 @@ public:
 
   __declspec(property(put = set_directionalLightIntensity)) float_t directionalLightIntensity;
 
-  /// @brief Method Awake, addr 0x5981314, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5da0638, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Fire, addr 0x59814f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Fire, addr 0x5da081c, size 0x20, virtual false, abstract: false, final false
   inline void Fire();
 
   /// [IteratorStateMachine(typeof(FireworkItemController::<FireCoroutine>d__29))]
-  /// @brief Method FireCoroutine, addr 0x5981518, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FireCoroutine, addr 0x5da083c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FireCoroutine();
 
-  /// @brief Method InitializeParticleSystem, addr 0x5981678, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method InitializeParticleSystem, addr 0x5da099c, size 0x310, virtual false, abstract: false, final false
   inline void InitializeParticleSystem();
 
   static inline ::GlobalNamespace::FireworkItemController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5981398, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5da06bc, size 0x68, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method PlayExplosionSound, addr 0x5981574, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method PlayExplosionSound, addr 0x5da0898, size 0x104, virtual false, abstract: false, final false
   inline void PlayExplosionSound();
 
-  /// @brief Method SetLightsColor, addr 0x5981400, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SetLightsColor, addr 0x5da0724, size 0xf8, virtual false, abstract: false, final false
   inline void SetLightsColor(float_t intensity);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -605,21 +605,21 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
-  /// @brief Method .ctor, addr 0x5981988, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da0cac, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didFinishEvent, addr 0x5981194, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5da04b8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didFinishEvent, addr 0x5981254, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5da0578, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
-  /// @brief Method set_directionalLight, addr 0x5981184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_directionalLight, addr 0x5da04a8, size 0x8, virtual false, abstract: false, final false
   inline void set_directionalLight(::GlobalNamespace::DirectionalLight* value);
 
-  /// @brief Method set_directionalLightIntensity, addr 0x598118c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_directionalLightIntensity, addr 0x5da04b0, size 0x8, virtual false, abstract: false, final false
   inline void set_directionalLightIntensity(float_t value);
 
 protected:
@@ -637,7 +637,7 @@ public:
   FireworkItemController(FireworkItemController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5899 };
 
   /// [Header("Particle Systems")]
   /// [SerializeField]

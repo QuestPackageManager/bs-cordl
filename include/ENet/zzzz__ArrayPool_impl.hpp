@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)()>(&::ENet::ArrayPool::GetByteBuffer)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5891b70;
+  constexpr static std::size_t addrs = 0x5ca86f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::ArrayPool*>(), { "GetByteBuffer", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::IntPtr> (*)()>(&::ENet::ArrayPool::GetPointerBuffer)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5891c78;
+  constexpr static std::size_t addrs = 0x5ca87f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::ArrayPool*>(), { "GetPointerBuffer", {}, {} })));

@@ -14,7 +14,7 @@ class SpeedTreeWindShaderDef;
 MARK_REF_T(::UnityEngine::Rendering::SpeedTreeWindShaderDef*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::SpeedTreeWindShaderDef*, "UnityEngine.Rendering", "SpeedTreeWindShaderDef");
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\InstanceData\\InstanceWindDataUpdateDefs.cs")] Dependencies System.Object
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\GPUDriven\\InstanceData\\InstanceWindDataUpdateDefs.cs")] Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.SpeedTreeWindShaderDef
@@ -36,7 +36,7 @@ public:
   SpeedTreeWindShaderDef(SpeedTreeWindShaderDef const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18262 };
 
   /// @brief Field kMaxWindParamsCount offset 0xffffffff size 0x4
   static constexpr int32_t kMaxWindParamsCount{ static_cast<int32_t>(0x10) };

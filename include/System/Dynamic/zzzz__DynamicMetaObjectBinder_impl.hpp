@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::DynamicMetaObjectBinder::*)()>(&::System::Dynamic::DynamicMetaObjectBinder::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5fc395c;
+  constexpr static std::size_t addrs = 0x63df8e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::DynamicMetaObjectBinder*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Dynamic::DynamicMetaObjectBinder::*)()>(&::System::Dynamic::DynamicMetaObjectBinder::get_ReturnType)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5fc39b4;
+  constexpr static std::size_t addrs = 0x63df93c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressio
     ::System::Dynamic::DynamicMetaObjectBinder::*)(::ArrayW<::System::Object*>, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*,
                                                    ::System::Linq::Expressions::LabelTarget*)>(&::System::Dynamic::DynamicMetaObjectBinder::Bind)> {
   constexpr static std::size_t size = 0x5cc;
-  constexpr static std::size_t addrs = 0x5fc39e4;
+  constexpr static std::size_t addrs = 0x63df96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Dynami
     ::ArrayW<::System::Object*>, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*)>(
     &::System::Dynamic::DynamicMetaObjectBinder::CreateArgumentMetaObjects)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5fc3fb0;
+  constexpr static std::size_t addrs = 0x63dff38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::DynamicMetaObjectBinder::*)(::System::Type*)>(
     &::System::Dynamic::DynamicMetaObjectBinder::GetUpdateExpression)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5fc4150;
+  constexpr static std::size_t addrs = 0x63e00d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::DynamicMetaObjectBinder::*)()>(&::System::Dynamic::DynamicMetaObjectBinder::get_IsStandardBinder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc4228;
+  constexpr static std::size_t addrs = 0x63e01b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

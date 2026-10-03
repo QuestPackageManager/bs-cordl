@@ -65,6 +65,9 @@ public:
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::List_1<T>* v);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<T>* v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
   /// @brief Method get_keyword, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -85,6 +88,9 @@ public:
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleList_1<T> op_Implicit___UnityEngine__UIElements__StyleList_1_T_(::UnityEngine::UIElements::StyleKeyword keyword);
 
+  /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::StyleList_1<T> op_Implicit___UnityEngine__UIElements__StyleList_1_T_(::System::Collections::Generic::List_1<T>* v);
+
   /// @brief Method set_keyword, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
 
@@ -100,14 +106,16 @@ public:
   constexpr StyleList_1(::UnityEngine::UIElements::StyleKeyword m_Keyword, ::System::Collections::Generic::List_1<T>* m_Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4976 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5045 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [SerializeField]
   /// @brief Field m_Keyword, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleKeyword m_Keyword;
 
+  /// [SerializeField]
   /// @brief Field m_Value, offset: 0x8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* m_Value;
 

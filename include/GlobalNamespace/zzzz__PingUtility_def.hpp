@@ -67,10 +67,10 @@ public:
 
   static inline ::GlobalNamespace::PingUtility___c* New_ctor();
 
-  /// @brief Method <PingAsync>b__0_0, addr 0x333ee00, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <PingAsync>b__0_0, addr 0x35c809c, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Ping* _PingAsync_b__0_0(::System::Net::IPAddress* ip);
 
-  /// @brief Method .ctor, addr 0x333edfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35c8098, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PingUtility___c* getStaticF___9();
@@ -96,7 +96,7 @@ public:
   PingUtility___c(PingUtility___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18252 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18786 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -115,11 +115,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x333ee84, size 0x600, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35c8120, size 0x600, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x333f484, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35c8720, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -141,7 +141,7 @@ public:
                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18253 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18787 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -209,7 +209,7 @@ public:
   using __c = ::GlobalNamespace::PingUtility___c;
 
   /// [AsyncStateMachine(typeof(PingUtility::<PingAsync>d__0))]
-  /// @brief Method PingAsync, addr 0x333ecc4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method PingAsync, addr 0x35c7f60, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<int64_t>* PingAsync(::StringW url);
 
 protected:
@@ -227,7 +227,7 @@ public:
   PingUtility(PingUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18254 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18788 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

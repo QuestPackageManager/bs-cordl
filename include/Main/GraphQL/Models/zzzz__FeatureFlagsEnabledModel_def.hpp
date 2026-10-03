@@ -67,23 +67,23 @@ public:
 
   constexpr void __cordl_internal_set__Feature_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x328b704, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3511e78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Enabled, addr 0x328b6fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Enabled, addr 0x3511e70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_Enabled();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Feature, addr 0x328b6ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Feature, addr 0x3511e60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Feature();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Enabled, addr 0x328b6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Enabled, addr 0x3511e68, size 0x8, virtual false, abstract: false, final false
   inline void set_Enabled(::System::Nullable_1<bool> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Feature, addr 0x328b6e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Feature, addr 0x3511e58, size 0x8, virtual false, abstract: false, final false
   inline void set_Feature(::StringW value);
 
 protected:
@@ -101,7 +101,7 @@ public:
   FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel(FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23710 };
 
   /// [CompilerGenerated]
   /// @brief Field <Feature>k__BackingField, offset: 0x10, size: 0x8, def value: None
@@ -152,15 +152,15 @@ public:
   constexpr void __cordl_internal_set__XocBeatGamesFeaturesEnabledForViewer_k__BackingField(
       ::System::Collections::Generic::List_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel*>* value);
 
-  /// @brief Method .ctor, addr 0x328b6e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3511e54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_XocBeatGamesFeaturesEnabledForViewer, addr 0x328b6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XocBeatGamesFeaturesEnabledForViewer, addr 0x3511e4c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel*>* get_XocBeatGamesFeaturesEnabledForViewer();
 
   /// [CompilerGenerated]
-  /// @brief Method set_XocBeatGamesFeaturesEnabledForViewer, addr 0x328b6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XocBeatGamesFeaturesEnabledForViewer, addr 0x3511e44, size 0x8, virtual false, abstract: false, final false
   inline void set_XocBeatGamesFeaturesEnabledForViewer(
       /* [Nullable(new[] { 1, 2 })] */ ::System::Collections::Generic::List_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel*>* value);
 
@@ -179,7 +179,7 @@ public:
   FeatureFlagsEnabledModel(FeatureFlagsEnabledModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23711 };
 
   /// [Nullable(new[] { 1, 2 })]
   /// [CompilerGenerated]

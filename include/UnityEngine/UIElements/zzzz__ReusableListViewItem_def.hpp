@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(ReusableListViewItem)
 namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
 }
 // Forward declare root types
@@ -37,27 +40,30 @@ public:
 
   __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method DetachElement, addr 0x6c55d7c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method DetachElement, addr 0x709f8bc, size 0x90, virtual true, abstract: false, final false
   inline void DetachElement();
 
-  /// @brief Method Init, addr 0x6c4bc5c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x709f3c0, size 0xc4, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
 
   static inline ::UnityEngine::UIElements::ReusableListViewItem* New_ctor();
 
-  /// @brief Method PreAttachElement, addr 0x6c55cec, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnGeometryChanged, addr 0x709f9dc, size 0x28, virtual true, abstract: false, final false
+  inline void OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
+
+  /// @brief Method PreAttachElement, addr 0x709f82c, size 0x90, virtual true, abstract: false, final false
   inline void PreAttachElement();
 
-  /// @brief Method SetDragGhost, addr 0x6c55e0c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method SetDragGhost, addr 0x709f94c, size 0x90, virtual true, abstract: false, final false
   inline void SetDragGhost(bool dragGhost);
 
-  /// @brief Method SetDragHandleEnabled, addr 0x6c541ac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetDragHandleEnabled, addr 0x709d8fc, size 0xac, virtual false, abstract: false, final false
   inline void SetDragHandleEnabled(bool enabled);
 
-  /// @brief Method UpdateDragHandle, addr 0x6c4c2e4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method UpdateDragHandle, addr 0x709f6e8, size 0x144, virtual false, abstract: false, final false
   inline void UpdateDragHandle(bool needsDragHandle);
 
-  /// @brief Method UpdateHierarchy, addr 0x6c55a88, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method UpdateHierarchy, addr 0x709f484, size 0x264, virtual false, abstract: false, final false
   inline void UpdateHierarchy(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Container() const;
@@ -78,12 +84,12 @@ public:
 
   constexpr void __cordl_internal_set_m_ItemContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x6c55e9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x709fa04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_k_SortingDisablesReorderingTooltip();
 
-  /// @brief Method get_rootElement, addr 0x6c55a70, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x709f3a8, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
   static inline void setStaticF_k_SortingDisablesReorderingTooltip(::StringW value);
@@ -103,7 +109,7 @@ public:
   ReusableListViewItem(ReusableListViewItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4096 };
 
   /// @brief Field m_Container, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Container;

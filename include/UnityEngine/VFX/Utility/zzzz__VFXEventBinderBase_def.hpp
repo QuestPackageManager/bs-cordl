@@ -41,19 +41,19 @@ public:
 
   static inline ::UnityEngine::VFX::Utility::VFXEventBinderBase* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x69e0f64, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6e1e550, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x69e1e04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6e1f3f0, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SendEventToVisualEffect, addr 0x69e1060, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SendEventToVisualEffect, addr 0x6e1e64c, size 0xb0, virtual false, abstract: false, final false
   inline void SendEventToVisualEffect(/* [ParamArray] */ ::ArrayW<::System::Object*> parameters);
 
   /// @brief Method SetEventAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetEventAttribute(::ArrayW<::System::Object*> parameters);
 
-  /// @brief Method UpdateCacheEventAttribute, addr 0x69e1d78, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UpdateCacheEventAttribute, addr 0x6e1f364, size 0x8c, virtual false, abstract: false, final false
   inline void UpdateCacheEventAttribute();
 
   constexpr ::StringW const& __cordl_internal_get_EventName() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::VFX::VisualEffect> value);
 
-  /// @brief Method .ctor, addr 0x69e1394, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e1e980, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   VFXEventBinderBase(VFXEventBinderBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20247 };
 
   /// [SerializeField]
   /// @brief Field target, offset: 0x20, size: 0x8, def value: None

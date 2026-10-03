@@ -4,6 +4,7 @@
 #include "UnityEngine/Rendering/zzzz__Hammersley_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__Hammersley_def.hpp"
+#include "UnityEngine/Rendering/zzzz__IComputeCommandBuffer_def.hpp"
 #include "UnityEngine/zzzz__ComputeShader_def.hpp"
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer(float_t FixedElementField) noexcept {
@@ -67,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::Hammersley::Initialize)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x67a356c;
+  constexpr static std::size_t addrs = 0x6bc2de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Hammersley*>(), { "Initialize", {}, {} })));
@@ -79,12 +80,27 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::ComputeShader*)>(&::UnityEngine::Rendering::Hammersley::BindConstants)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x67a38dc;
+  constexpr static std::size_t addrs = 0x6bc3150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Hammersley*>(),
                                                 { "BindConstants", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::ComputeShader*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Hammersley.BindConstants
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::IComputeCommandBuffer*, ::UnityEngine::ComputeShader*)>(
+    &::UnityEngine::Rendering::Hammersley::BindConstants)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6bc32ac;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Hammersley*>(),
+                                                { "BindConstants", {}, { ::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::UnityEngine::ComputeShader*>() } })));
     return ___internal_method;
   }
 };
@@ -144,6 +160,12 @@ inline void UnityEngine::Rendering::Hammersley::BindConstants(::UnityEngine::Ren
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Hammersley*>(),
                                                            { "BindConstants", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::ComputeShader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, cs);
+}
+inline void UnityEngine::Rendering::Hammersley::BindConstants(::UnityEngine::Rendering::IComputeCommandBuffer* cmd, ::UnityEngine::ComputeShader* cs) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Hammersley*>(),
+                                              { "BindConstants", {}, { ::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::UnityEngine::ComputeShader*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, cs);
 }
 // Ctor Parameters []

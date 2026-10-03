@@ -220,6 +220,9 @@ public:
   /// @brief Method ThrowForEmptyStack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ThrowForEmptyStack();
 
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::ArrayW<T> ToArray();
+
   /// @brief Method TryPop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryPop(::by_ref<T> result);
 

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DESCryptoServiceProvider::*)()>(&::System::Security::Cryptography::DESCryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5af9c7c;
+  constexpr static std::size_t addrs = 0x5f11b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DESCryptoServiceProvider*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::ICryptoTransform* (
     ::System::Security::Cryptography::DESCryptoServiceProvider::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::System::Security::Cryptography::DESCryptoServiceProvider::CreateEncryptor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5af9ea0;
+  constexpr static std::size_t addrs = 0x5f11d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DESCryptoServiceProvider*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::ICryptoTransform* (
     ::System::Security::Cryptography::DESCryptoServiceProvider::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::System::Security::Cryptography::DESCryptoServiceProvider::CreateDecryptor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5af9fd0;
+  constexpr static std::size_t addrs = 0x5f11ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DESCryptoServiceProvider*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DESCryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::DESCryptoServiceProvider::GenerateKey)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5afa100;
+  constexpr static std::size_t addrs = 0x5f11ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DESCryptoServiceProvider*>(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DESCryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::DESCryptoServiceProvider::GenerateIV)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5afa1ec;
+  constexpr static std::size_t addrs = 0x5f120e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DESCryptoServiceProvider*>(),

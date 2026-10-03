@@ -52,7 +52,7 @@ MARK_REF_T(::UnityEngine::Rendering::Universal::ScriptableRendererData_ProbeVolu
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ScriptableRendererData*, "UnityEngine.Rendering.Universal", "ScriptableRendererData");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ScriptableRendererData_DebugShaderResources*, "UnityEngine.Rendering.Universal", "ScriptableRendererData/DebugShaderResources");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ScriptableRendererData_ProbeVolumeResources*, "UnityEngine.Rendering.Universal", "ScriptableRendererData/ProbeVolumeResources");
-// [Obsolete("Moved to UniversalRenderPipelineDebugShaders on GraphicsSettings. #from(2023.3)", false)]
+// [Obsolete("Moved to UniversalRenderPipelineDebugShaders on GraphicsSettings. #from(2023.3)")]
 // [ReloadGroup]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_hdrDebugViewPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6873f04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca2110, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,14 +99,14 @@ public:
   ScriptableRendererData_DebugShaderResources(ScriptableRendererData_DebugShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12951 };
 
-  /// [Obsolete("Moved to UniversalRenderPipelineDebugShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineDebugShaders on GraphicsSettings. #from(2023.3)")]
   /// [Reload("Shaders/Debug/DebugReplacement.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field debugReplacementPS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___debugReplacementPS;
 
-  /// [Obsolete("Moved to UniversalRenderPipelineDebugShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineDebugShaders on GraphicsSettings. #from(2023.3)")]
   /// [Reload("Shaders/Debug/HDRDebugView.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field hdrDebugViewPS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___hdrDebugViewPS;
@@ -122,7 +122,7 @@ static_assert(sizeof(::UnityEngine::Rendering::Universal::ScriptableRendererData
 
 } // namespace UnityEngine::Rendering::Universal
 // [ReloadGroup]
-// [Obsolete("Probe volume debug resource are now in the ProbeVolumeDebugResources class.")]
+// [Obsolete("Probe volume debug resource are now in the ProbeVolumeDebugResources class. #from(2023.3)")]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -197,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set_probeVolumeSamplingDebugShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6873f08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca2114, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -215,33 +215,33 @@ public:
   ScriptableRendererData_ProbeVolumeResources(ScriptableRendererData_ProbeVolumeResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12952 };
 
-  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class.")]
+  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class. #from(2023.3)")]
   /// @brief Field probeVolumeDebugShader, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___probeVolumeDebugShader;
 
-  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class.")]
+  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class. #from(2023.3)")]
   /// @brief Field probeVolumeFragmentationDebugShader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___probeVolumeFragmentationDebugShader;
 
-  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class.")]
+  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class. #from(2023.3)")]
   /// @brief Field probeVolumeOffsetDebugShader, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___probeVolumeOffsetDebugShader;
 
-  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class.")]
+  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class. #from(2023.3)")]
   /// @brief Field probeVolumeSamplingDebugShader, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___probeVolumeSamplingDebugShader;
 
-  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class.")]
+  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class. #from(2023.3)")]
   /// @brief Field probeSamplingDebugMesh, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ___probeSamplingDebugMesh;
 
-  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class.")]
+  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class. #from(2023.3)")]
   /// @brief Field probeSamplingDebugTexture, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___probeSamplingDebugTexture;
 
-  /// [Obsolete("This shader is now in the ProbeVolumeRuntimeResources class.")]
+  /// [Obsolete("This shader is now in the ProbeVolumeRuntimeResources class. #from(2023.3)")]
   /// @brief Field probeVolumeBlendStatesCS, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___probeVolumeBlendStatesCS;
 
@@ -292,6 +292,12 @@ public:
       get = __cordl_internal_get_m_RendererFeatures,
       put = __cordl_internal_set_m_RendererFeatures)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererFeature>>* m_RendererFeatures;
 
+  /// @brief Field m_StripAdditionalLightOffVariants, offset 0x42, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_StripAdditionalLightOffVariants, put = __cordl_internal_set_m_StripAdditionalLightOffVariants)) bool m_StripAdditionalLightOffVariants;
+
+  /// @brief Field m_StripShadowsOffVariants, offset 0x41, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_StripShadowsOffVariants, put = __cordl_internal_set_m_StripShadowsOffVariants)) bool m_StripShadowsOffVariants;
+
   /// @brief Field m_UseNativeRenderPass, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_m_UseNativeRenderPass, put = __cordl_internal_set_m_UseNativeRenderPass)) bool m_UseNativeRenderPass;
 
@@ -301,23 +307,27 @@ public:
 
   __declspec(property(get = get_rendererFeatures)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererFeature>>* rendererFeatures;
 
+  __declspec(property(get = get_stripAdditionalLightOffVariants, put = set_stripAdditionalLightOffVariants)) bool stripAdditionalLightOffVariants;
+
+  __declspec(property(get = get_stripShadowsOffVariants, put = set_stripShadowsOffVariants)) bool stripShadowsOffVariants;
+
   __declspec(property(get = get_useNativeRenderPass, put = set_useNativeRenderPass)) bool useNativeRenderPass;
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* Create();
 
-  /// @brief Method InternalCreateRenderer, addr 0x6873df8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateRenderer, addr 0x6ca2004, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* InternalCreateRenderer();
 
   static inline ::UnityEngine::Rendering::Universal::ScriptableRendererData* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x6873e14, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6ca2020, size 0xc, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x6873e08, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6ca2014, size 0xc, virtual true, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetDirty, addr 0x6873dec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x6ca1ff8, size 0xc, virtual false, abstract: false, final false
   inline void SetDirty();
 
   /// @brief Method TryGetRendererFeature, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -341,6 +351,14 @@ public:
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererFeature>>*& __cordl_internal_get_m_RendererFeatures();
 
+  constexpr bool const& __cordl_internal_get_m_StripAdditionalLightOffVariants() const;
+
+  constexpr bool& __cordl_internal_get_m_StripAdditionalLightOffVariants();
+
+  constexpr bool const& __cordl_internal_get_m_StripShadowsOffVariants() const;
+
+  constexpr bool& __cordl_internal_get_m_StripShadowsOffVariants();
+
   constexpr bool const& __cordl_internal_get_m_UseNativeRenderPass() const;
 
   constexpr bool& __cordl_internal_get_m_UseNativeRenderPass();
@@ -357,28 +375,44 @@ public:
 
   constexpr void __cordl_internal_set_m_RendererFeatures(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererFeature>>* value);
 
+  constexpr void __cordl_internal_set_m_StripAdditionalLightOffVariants(bool value);
+
+  constexpr void __cordl_internal_set_m_StripShadowsOffVariants(bool value);
+
   constexpr void __cordl_internal_set_m_UseNativeRenderPass(bool value);
 
   constexpr void __cordl_internal_set_probeVolumeResources(::UnityEngine::Rendering::Universal::ScriptableRendererData_ProbeVolumeResources* value);
 
-  /// @brief Method .ctor, addr 0x6873e38, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca2044, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isInvalidated, addr 0x6873dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInvalidated, addr 0x6ca1fc0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInvalidated();
 
-  /// @brief Method get_rendererFeatures, addr 0x6873de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rendererFeatures, addr 0x6ca1ff0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererFeature>>* get_rendererFeatures();
 
-  /// @brief Method get_useNativeRenderPass, addr 0x6873e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stripAdditionalLightOffVariants, addr 0x6ca1fe0, size 0x8, virtual true, abstract: false, final false
+  inline bool get_stripAdditionalLightOffVariants();
+
+  /// @brief Method get_stripShadowsOffVariants, addr 0x6ca1fd0, size 0x8, virtual true, abstract: false, final false
+  inline bool get_stripShadowsOffVariants();
+
+  /// @brief Method get_useNativeRenderPass, addr 0x6ca202c, size 0x8, virtual false, abstract: false, final false
   inline bool get_useNativeRenderPass();
 
   /// [CompilerGenerated]
-  /// @brief Method set_isInvalidated, addr 0x6873ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isInvalidated, addr 0x6ca1fc8, size 0x8, virtual false, abstract: false, final false
   inline void set_isInvalidated(bool value);
 
-  /// @brief Method set_useNativeRenderPass, addr 0x6873e28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_stripAdditionalLightOffVariants, addr 0x6ca1fe8, size 0x8, virtual true, abstract: false, final false
+  inline void set_stripAdditionalLightOffVariants(bool value);
+
+  /// @brief Method set_stripShadowsOffVariants, addr 0x6ca1fd8, size 0x8, virtual true, abstract: false, final false
+  inline void set_stripShadowsOffVariants(bool value);
+
+  /// @brief Method set_useNativeRenderPass, addr 0x6ca2034, size 0x10, virtual false, abstract: false, final false
   inline void set_useNativeRenderPass(bool value);
 
 protected:
@@ -396,13 +430,13 @@ public:
   ScriptableRendererData(ScriptableRendererData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12953 };
 
-  /// [Obsolete("Moved to UniversalRenderPipelineDebugShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineDebugShaders on GraphicsSettings. #from(2023.3)")]
   /// @brief Field debugShaders, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::ScriptableRendererData_DebugShaderResources* ___debugShaders;
 
-  /// [Obsolete("Probe volume debug resource are now in the ProbeVolumeDebugResources class.")]
+  /// [Obsolete("Probe volume debug resource are now in the ProbeVolumeDebugResources class. #from(2023.3)")]
   /// @brief Field probeVolumeResources, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::ScriptableRendererData_ProbeVolumeResources* ___probeVolumeResources;
 
@@ -422,6 +456,12 @@ public:
   /// @brief Field m_UseNativeRenderPass, offset: 0x40, size: 0x1, def value: None
   bool ___m_UseNativeRenderPass;
 
+  /// @brief Field m_StripShadowsOffVariants, offset: 0x41, size: 0x1, def value: None
+  bool ___m_StripShadowsOffVariants;
+
+  /// @brief Field m_StripAdditionalLightOffVariants, offset: 0x42, size: 0x1, def value: None
+  bool ___m_StripAdditionalLightOffVariants;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -436,6 +476,10 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRendererDa
 static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRendererData, ___m_RendererFeatureMap) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRendererData, ___m_UseNativeRenderPass) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRendererData, ___m_StripShadowsOffVariants) == 0x41, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRendererData, ___m_StripAdditionalLightOffVariants) == 0x42, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::Rendering::Universal::ScriptableRendererData) == 0x48, "Size mismatch!");
 

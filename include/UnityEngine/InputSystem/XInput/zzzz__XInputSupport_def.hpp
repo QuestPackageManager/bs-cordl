@@ -19,7 +19,7 @@ namespace UnityEngine::InputSystem::XInput {
 class CORDL_TYPE XInputSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x658c4fc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x69b8188, size 0x78, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:
@@ -37,7 +37,7 @@ public:
   XInputSupport(XInputSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10807 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

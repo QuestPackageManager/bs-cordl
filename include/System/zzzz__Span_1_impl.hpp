@@ -47,6 +47,11 @@ template <typename T> inline bool System::Span_1<T>::TryCopyTo(::System::Span_1<
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Span_1<T>>(), { "TryCopyTo", {}, { ::i2c::type_of<::System::Span_1<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, destination);
 }
+template <typename T> inline bool System::Span_1<T>::op_Equality(::System::Span_1<T> left, ::System::Span_1<T> right) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Span_1<T>>(), { "op_Equality", {}, { ::i2c::type_of<::System::Span_1<T>>(), ::i2c::type_of<::System::Span_1<T>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, left, right);
+}
 template <typename T> inline ::System::ReadOnlySpan_1<T> System::Span_1<T>::op_Implicit___System__ReadOnlySpan_1_T_(::System::Span_1<T> span) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Span_1<T>>(), { "op_Implicit", {}, { ::i2c::type_of<::System::Span_1<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::ReadOnlySpan_1<T>>(nullptr, ___internal_method, span);

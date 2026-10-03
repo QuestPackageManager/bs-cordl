@@ -86,7 +86,7 @@ public:
   LRUCache_2_CacheElement(LRUCache_2_CacheElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21282 };
 
   /// @brief Field _key, offset: 0x10, size: 0x8, def value: None
   TKey ____key;
@@ -206,7 +206,7 @@ public:
   LRUCache_2(LRUCache_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21283 };
 
   /// [Nullable(new[] { 2, 1, 1 })]
   /// [CompilerGenerated]

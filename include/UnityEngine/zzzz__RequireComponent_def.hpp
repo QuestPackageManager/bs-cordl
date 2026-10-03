@@ -15,8 +15,8 @@ class RequireComponent;
 // Write type traits
 MARK_REF_T(::UnityEngine::RequireComponent*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::RequireComponent*, "UnityEngine", "RequireComponent");
-// [AttributeUsage((System.AttributeTargets)4, AllowMultiple = true)]
 // [RequiredByNativeCode]
+// [AttributeUsage((System.AttributeTargets)4, AllowMultiple = true)]
 // Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Type2(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6adaaa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f34f40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* requiredComponent);
 
-  /// @brief Method .ctor, addr 0x6adaaa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f34f48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* requiredComponent, ::System::Type* requiredComponent2);
 
 protected:
@@ -76,7 +76,7 @@ public:
   RequireComponent(RequireComponent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9889 };
 
   /// @brief Field m_Type0, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___m_Type0;

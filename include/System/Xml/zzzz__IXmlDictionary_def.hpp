@@ -25,12 +25,15 @@ public:
   /// @brief Method TryLookup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryLookup(int32_t key, ::by_ref<::System::Xml::XmlDictionaryString*> result);
 
+  /// @brief Method TryLookup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool TryLookup(::System::Xml::XmlDictionaryString* value, ::by_ref<::System::Xml::XmlDictionaryString*> result);
+
   // Ctor Parameters [CppParam { name: "", ty: "IXmlDictionary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IXmlDictionary(IXmlDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16302 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

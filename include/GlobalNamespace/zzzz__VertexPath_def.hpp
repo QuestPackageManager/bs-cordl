@@ -47,7 +47,7 @@ public:
   constexpr VertexPath_Vertex(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 tangent, ::UnityEngine::Vector3 normal) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6792 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
@@ -102,26 +102,26 @@ public:
   /// @brief Field vertexCount, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_vertexCount, put = __cordl_internal_set_vertexCount)) int32_t vertexCount;
 
-  /// @brief Method AddVertex, addr 0x5905100, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method AddVertex, addr 0x5d1f724, size 0x56c, virtual false, abstract: false, final false
   inline void AddVertex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p0, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p2,
                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p3, float_t t, ::by_ref<::UnityEngine::Vector3> lastRotationAxis, ::by_ref<float_t> currentPathLength,
                         ::by_ref<::GlobalNamespace::VertexPath_Vertex> lastVertex, ::by_ref<int32_t> vertCount);
 
-  /// @brief Method GetPoint, addr 0x59050c8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x5d1f6ec, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(int32_t index);
 
-  /// @brief Method GetVertex, addr 0x5905068, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetVertex, addr 0x5d1f68c, size 0x60, virtual false, abstract: false, final false
   inline void GetVertex(int32_t index, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Vector3> tangent, ::by_ref<::UnityEngine::Vector3> normal);
 
   static inline ::GlobalNamespace::VertexPath* New_ctor(int32_t numberOfPathSegments);
 
-  /// @brief Method SplitBezierPathIntoFixNumberOfSegments, addr 0x5904ac4, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method SplitBezierPathIntoFixNumberOfSegments, addr 0x5d1f0fc, size 0x558, virtual false, abstract: false, final false
   inline void SplitBezierPathIntoFixNumberOfSegments(::GlobalNamespace::BezierPath* bezierPath, int32_t numberOfVertexSegments);
 
-  /// @brief Method TimeAtPoint, addr 0x5905030, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method TimeAtPoint, addr 0x5d1f654, size 0x38, virtual false, abstract: false, final false
   inline float_t TimeAtPoint(int32_t pointIndex);
 
-  /// @brief Method UpdateByBezierPath, addr 0x590461c, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method UpdateByBezierPath, addr 0x5d1ec38, size 0x4a0, virtual false, abstract: false, final false
   inline void UpdateByBezierPath(::GlobalNamespace::BezierPath* bezierPath);
 
   constexpr ::ArrayW<int32_t> const& __cordl_internal_get__anchorVertexMap() const;
@@ -154,12 +154,12 @@ public:
 
   constexpr void __cordl_internal_set_vertexCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5904538, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d1eb54, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfPathSegments);
 
   static inline ::UnityEngine::Vector3 getStaticF__back();
 
-  /// @brief Method get_length, addr 0x5904abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x5d1f0f4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_length();
 
   static inline void setStaticF__back(::UnityEngine::Vector3 value);
@@ -179,7 +179,7 @@ public:
   VertexPath(VertexPath const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6793 };
 
   /// @brief Field vertexCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___vertexCount;

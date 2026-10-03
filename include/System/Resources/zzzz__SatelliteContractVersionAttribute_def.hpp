@@ -34,11 +34,11 @@ public:
 
   constexpr void __cordl_internal_set__Version_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b74dd0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f8cd24, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW version);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Version, addr 0x5b74e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x5f8cd7c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Version();
 
 protected:

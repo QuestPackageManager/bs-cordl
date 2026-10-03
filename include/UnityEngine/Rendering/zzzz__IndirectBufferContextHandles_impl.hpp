@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::IndirectBufferContextHandles::*)(::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*)>(
     &::UnityEngine::Rendering::IndirectBufferContextHandles::UseForOcclusionTest)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x682fd34;
+  constexpr static std::size_t size = 0x274;
+  constexpr static std::size_t addrs = 0x6c661e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,16 +25,19 @@ inline void UnityEngine::Rendering::IndirectBufferContextHandles::UseForOcclusio
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, builder);
 }
 // Ctor Parameters [CppParam { name: "instanceBuffer", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "instanceInfoBuffer", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "argsBuffer", ty:
+// "instanceInfoBuffer", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dispatchArgsBuffer", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawArgsBuffer", ty:
 // "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawInfoBuffer", ty:
 // "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::IndirectBufferContextHandles::IndirectBufferContextHandles(::UnityEngine::Rendering::RenderGraphModule::BufferHandle instanceBuffer,
                                                                                                ::UnityEngine::Rendering::RenderGraphModule::BufferHandle instanceInfoBuffer,
-                                                                                               ::UnityEngine::Rendering::RenderGraphModule::BufferHandle argsBuffer,
+                                                                                               ::UnityEngine::Rendering::RenderGraphModule::BufferHandle dispatchArgsBuffer,
+                                                                                               ::UnityEngine::Rendering::RenderGraphModule::BufferHandle drawArgsBuffer,
                                                                                                ::UnityEngine::Rendering::RenderGraphModule::BufferHandle drawInfoBuffer) noexcept {
   this->instanceBuffer = instanceBuffer;
   this->instanceInfoBuffer = instanceInfoBuffer;
-  this->argsBuffer = argsBuffer;
+  this->dispatchArgsBuffer = dispatchArgsBuffer;
+  this->drawArgsBuffer = drawArgsBuffer;
   this->drawInfoBuffer = drawInfoBuffer;
 }
 // Ctor Parameters []

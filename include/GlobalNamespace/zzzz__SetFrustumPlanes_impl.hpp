@@ -9,12 +9,12 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetFrustumPlanes::*)()>(&::GlobalNamespace::SetFrustumPlanes::Create)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5f4e01c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x636a0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetFrustumPlanes*>(), { ::i2c::class_of<::GlobalNamespace::SetFrustumPlanes*>(), 5 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetFrustumPlanes*>(), { ::i2c::class_of<::GlobalNamespace::SetFrustumPlanes*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -24,11 +24,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetFrustumPlanes::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::GlobalNamespace::SetFrustumPlanes::AddRenderPasses)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f4e0fc;
+  constexpr static std::size_t addrs = 0x636a16c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetFrustumPlanes*>(), { ::i2c::class_of<::GlobalNamespace::SetFrustumPlanes*>(), 7 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetFrustumPlanes*>(), { ::i2c::class_of<::GlobalNamespace::SetFrustumPlanes*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetFrustumPlanes::*)()>(&::GlobalNamespace::SetFrustumPlanes::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f4e11c;
+  constexpr static std::size_t addrs = 0x636a18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetFrustumPlanes*>(), { ".ctor", {}, {} })));
@@ -69,12 +69,12 @@ constexpr void GlobalNamespace::SetFrustumPlanes::__cordl_internal_set__pass(::G
   this->____pass = value;
 }
 inline void GlobalNamespace::SetFrustumPlanes::Create() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SetFrustumPlanes*>(), 5 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SetFrustumPlanes*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::SetFrustumPlanes::AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
                                                                ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SetFrustumPlanes*>(), 7 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SetFrustumPlanes*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);
 }
 inline void GlobalNamespace::SetFrustumPlanes::_ctor() {

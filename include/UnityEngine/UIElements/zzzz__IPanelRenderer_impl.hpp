@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/IPanelRenderer.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanelRenderer_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureSlotCount_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IPanelRenderer.get_forceGammaRendering
 template <>
 
@@ -53,6 +54,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::IPanelRenderer.set_textureSlotCount
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IPanelRenderer::*)(::UnityEngine::UIElements::TextureSlotCount)>(
+    &::UnityEngine::UIElements::IPanelRenderer::set_textureSlotCount)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IPanelRenderer*>(), { ::i2c::class_of<::UnityEngine::UIElements::IPanelRenderer*>(), 4 }));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::IPanelRenderer.Reset
 template <>
 
@@ -62,7 +77,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IPanelRenderer*>(), { ::i2c::class_of<::UnityEngine::UIElements::IPanelRenderer*>(), 4 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IPanelRenderer*>(), { ::i2c::class_of<::UnityEngine::UIElements::IPanelRenderer*>(), 5 }));
     return ___internal_method;
   }
 };
@@ -75,7 +90,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IPanelRenderer*>(), { ::i2c::class_of<::UnityEngine::UIElements::IPanelRenderer*>(), 5 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IPanelRenderer*>(), { ::i2c::class_of<::UnityEngine::UIElements::IPanelRenderer*>(), 6 }));
     return ___internal_method;
   }
 };
@@ -95,11 +110,15 @@ inline void UnityEngine::UIElements::IPanelRenderer::set_vertexBudget(uint32_t v
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IPanelRenderer*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::UIElements::IPanelRenderer::Reset() {
+inline void UnityEngine::UIElements::IPanelRenderer::set_textureSlotCount(::UnityEngine::UIElements::TextureSlotCount value) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IPanelRenderer*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::IPanelRenderer::Reset() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IPanelRenderer*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::IPanelRenderer::Render() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IPanelRenderer*>(), 5 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IPanelRenderer*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }

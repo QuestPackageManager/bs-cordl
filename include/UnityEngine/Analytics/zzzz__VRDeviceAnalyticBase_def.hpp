@@ -12,8 +12,8 @@ class VRDeviceAnalyticBase;
 // Write type traits
 MARK_REF_T(::UnityEngine::Analytics::VRDeviceAnalyticBase*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Analytics::VRDeviceAnalyticBase*, "UnityEngine.Analytics", "VRDeviceAnalyticBase");
-// [RequiredByNativeCode(GenerateProxy = true)]
 // [ExcludeFromDocs]
+// [RequiredByNativeCode(GenerateProxy = true)]
 // Dependencies UnityEngine.Analytics.AnalyticsEventBase
 namespace UnityEngine::Analytics {
 // Is value type: false
@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Analytics::VRDeviceAnalyticBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e24a74, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72bfca0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   VRDeviceAnalyticBase(VRDeviceAnalyticBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23276 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::UtcTimeProvider::*)()>(&::GlobalNamespace::UtcTimeProvider::GetTimeMs)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x33422b0;
+  constexpr static std::size_t addrs = 0x35cb54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UtcTimeProvider*>(), { "GetTimeMs", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::UtcTimeProvider::*)()>(&::GlobalNamespace::UtcTimeProvider::GetTicks)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x333b1e0;
+  constexpr static std::size_t addrs = 0x35c447c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UtcTimeProvider*>(), { "GetTicks", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UtcTimeProvider::*)()>(&::GlobalNamespace::UtcTimeProvider::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33422dc;
+  constexpr static std::size_t addrs = 0x35cb578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UtcTimeProvider*>(), { ".ctor", {}, {} })));

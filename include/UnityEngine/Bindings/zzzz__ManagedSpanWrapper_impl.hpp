@@ -1,12 +1,13 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Bindings/ManagedSpanWrapper.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::ManagedSpanWrapper._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::ManagedSpanWrapper::*)(void*, int32_t)>(&::UnityEngine::Bindings::ManagedSpanWrapper::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6af41e4;
+  constexpr static std::size_t addrs = 0x6f45b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -18,6 +19,13 @@ inline void UnityEngine::Bindings::ManagedSpanWrapper::_ctor(void* begin, int32_
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bindings::ManagedSpanWrapper>(), { ".ctor", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, begin, length);
+}
+template <typename T> inline ::System::ReadOnlySpan_1<T> UnityEngine::Bindings::ManagedSpanWrapper::ToReadOnlySpan(::UnityEngine::Bindings::ManagedSpanWrapper spanWrapper) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bindings::ManagedSpanWrapper>(),
+                                                           { "ToReadOnlySpan", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::Bindings::ManagedSpanWrapper>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::System::ReadOnlySpan_1<T>>(nullptr, ___internal_method, spanWrapper);
 }
 // Ctor Parameters [CppParam { name: "begin", ty: "void*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}"),
 // comment: None }]

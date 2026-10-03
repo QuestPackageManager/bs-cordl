@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::BeatmapCharacteristicAsyncInstaller::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicAsyncInstaller::get_assetRuntimeKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x376d138;
+  constexpr static std::size_t addrs = 0x39f940c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicAsyncInstaller*>(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicAsyncInstaller::*)()>(&::GlobalNamespace::BeatmapCharacteristicAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x376d17c;
+  constexpr static std::size_t addrs = 0x39f9450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicAsyncInstaller*>(),
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO>> (*)()>(
         &::GlobalNamespace::BeatmapCharacteristicAsyncInstaller::LoadCharacteristicCollectionAsync)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x376d214;
+  constexpr static std::size_t addrs = 0x39f94e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicAsyncInstaller::*)()>(&::GlobalNamespace::BeatmapCharacteristicAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x376d298;
+  constexpr static std::size_t addrs = 0x39f956c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicAsyncInstaller*>(), { ".ctor", {}, {} })));

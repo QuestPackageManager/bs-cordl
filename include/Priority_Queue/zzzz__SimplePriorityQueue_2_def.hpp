@@ -104,7 +104,7 @@ public:
   SimplePriorityQueue_2_SimpleNode(SimplePriorityQueue_2_SimpleNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21248 };
 
   /// [CompilerGenerated]
   /// @brief Field <Data>k__BackingField, offset: 0x28, size: 0x8, def value: None
@@ -298,7 +298,7 @@ public:
   static constexpr int32_t INITIAL_QUEUE_SIZE{ static_cast<int32_t>(0xa) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20494 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21249 };
 
   /// [Nullable(new[] { 1, 1, 0, 0, 1 })]
   /// @brief Field _queue, offset: 0x10, size: 0x8, def value: None

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::Variable::*)(::StringW, ::StringW)>(&::MS::Internal::Xml::XPath::Variable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6276f38;
+  constexpr static std::size_t addrs = 0x669ebdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode_AstType (::MS::Internal::Xml::XPath::Variable::*)()>(&::MS::Internal::Xml::XPath::Variable::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6276f40;
+  constexpr static std::size_t addrs = 0x669ebe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathResultType (::MS::Internal::Xml::XPath::Variable::*)()>(&::MS::Internal::Xml::XPath::Variable::get_ReturnType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6276f48;
+  constexpr static std::size_t addrs = 0x669ebec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

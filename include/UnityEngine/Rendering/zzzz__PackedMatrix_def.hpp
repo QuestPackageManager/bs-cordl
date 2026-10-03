@@ -26,10 +26,10 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE PackedMatrix {
 public:
   // Declarations
-  /// @brief Method FromFloat4x4, addr 0x6827cac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method FromFloat4x4, addr 0x6c5cf0c, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::PackedMatrix FromFloat4x4(/* [IsReadOnly] */ ::by_ref<::Unity::Mathematics::float4x4> m);
 
-  /// @brief Method FromMatrix4x4, addr 0x6827c6c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method FromMatrix4x4, addr 0x6c5cecc, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::PackedMatrix FromMatrix4x4(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m);
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr PackedMatrix(::Unity::Mathematics::float4 packed0, ::Unity::Mathematics::float4 packed1, ::Unity::Mathematics::float4 packed2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18231 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

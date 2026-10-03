@@ -66,11 +66,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x62e7854, size 0x3cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x670f834, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x62e7c20, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x670fc00, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -90,7 +90,7 @@ public:
                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11428 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -152,16 +152,16 @@ public:
   /// @brief Field s_DownloadManager, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_DownloadManager, put = setStaticF_s_DownloadManager)) ::System::Object* s_DownloadManager;
 
-  /// @brief Method GetEntity, addr 0x62e761c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method GetEntity, addr 0x670f5fc, size 0x13c, virtual true, abstract: false, final false
   inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
   /// [AsyncStateMachine(typeof(System.Xml.XmlUrlResolver::<GetEntityAsync>d__15))]
-  /// @brief Method GetEntityAsync, addr 0x62e775c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetEntityAsync, addr 0x670f73c, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
   static inline ::System::Xml::XmlUrlResolver* New_ctor();
 
-  /// @brief Method ResolveUri, addr 0x62e7758, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResolveUri, addr 0x670f738, size 0x4, virtual true, abstract: false, final false
   inline ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
 
   constexpr ::System::Net::Cache::RequestCachePolicy* const& __cordl_internal_get__cachePolicy() const;
@@ -182,12 +182,12 @@ public:
 
   constexpr void __cordl_internal_set__proxy(::System::Net::IWebProxy* value);
 
-  /// @brief Method .ctor, addr 0x62e7618, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x670f5f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_s_DownloadManager();
 
-  /// @brief Method get_DownloadManager, addr 0x62e754c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_DownloadManager, addr 0x670f52c, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDownloadManager* get_DownloadManager();
 
   static inline void setStaticF_s_DownloadManager(::System::Object* value);
@@ -207,7 +207,7 @@ public:
   XmlUrlResolver(XmlUrlResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11429 };
 
   /// @brief Field _credentials, offset: 0x10, size: 0x8, def value: None
   ::System::Net::ICredentials* ____credentials;

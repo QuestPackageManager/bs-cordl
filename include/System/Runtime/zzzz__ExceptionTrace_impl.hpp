@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::ExceptionTrace::*)(::StringW, ::System::Runtime::Diagnostics::EtwDiagnosticTrace*)>(
     &::System::Runtime::ExceptionTrace::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61859b0;
+  constexpr static std::size_t addrs = 0x65ad500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ArgumentOutOfRangeException* (::System::Runtime::ExceptionTrace::*)(::StringW, ::System::Object*, ::StringW)>(
     &::System::Runtime::ExceptionTrace::ArgumentOutOfRange)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x61859b8;
+  constexpr static std::size_t addrs = 0x65ad508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::ExceptionTrace::*)(::System::Exception*, ::System::Diagnostics::TraceEventType)>(
     &::System::Runtime::ExceptionTrace::TraceHandledException)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x6185a64;
+  constexpr static std::size_t addrs = 0x65ad5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::ExceptionTrace::*)(::System::Exception*)>(&::System::Runtime::ExceptionTrace::BreakOnException)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x618676c;
+  constexpr static std::size_t addrs = 0x65ae2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

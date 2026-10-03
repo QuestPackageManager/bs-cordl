@@ -20,18 +20,18 @@ namespace UnityEngine::InputSystem::XR {
 class CORDL_TYPE XRController : public ::UnityEngine::InputSystem::TrackedDevice {
 public:
   // Declarations
-  /// @brief Method FinishSetup, addr 0x65878a4, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x69b3464, size 0xfc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::XR::XRController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x65879ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69b35ac, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_leftHand, addr 0x658774c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_leftHand, addr 0x69b330c, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::XRController* get_leftHand();
 
-  /// @brief Method get_rightHand, addr 0x65877f8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_rightHand, addr 0x69b33b8, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::XRController* get_rightHand();
 
 protected:
@@ -49,7 +49,7 @@ public:
   XRController(XRController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10775 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

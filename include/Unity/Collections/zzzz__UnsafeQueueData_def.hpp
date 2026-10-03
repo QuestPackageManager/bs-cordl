@@ -13,9 +13,6 @@ struct AllocatorManager_AllocatorHandle;
 namespace Unity::Collections {
 struct UnsafeQueueBlockHeader;
 }
-namespace Unity::Collections {
-struct UnsafeQueueBlockPoolData;
-}
 // Forward declare root types
 namespace Unity::Collections {
 struct UnsafeQueueData;
@@ -35,23 +32,22 @@ public:
   /// @brief Method AllocateQueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  static inline void AllocateQueue(::Unity::Collections::AllocatorManager_AllocatorHandle label, ::by_ref<::Unity::Collections::UnsafeQueueData*> outBuf);
+  static inline void AllocateQueue(::Unity::Collections::AllocatorManager_AllocatorHandle allocator, ::by_ref<::Unity::Collections::UnsafeQueueData*> outBuf);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method AllocateWriteBlockMT, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  static inline ::Unity::Collections::UnsafeQueueBlockHeader* AllocateWriteBlockMT(::Unity::Collections::UnsafeQueueData* data, ::Unity::Collections::UnsafeQueueBlockPoolData* pool,
+  static inline ::Unity::Collections::UnsafeQueueBlockHeader* AllocateWriteBlockMT(::Unity::Collections::UnsafeQueueData* data, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator,
                                                                                    int32_t threadIndex);
 
-  /// @brief Method DeallocateQueue, addr 0x64c95e0, size 0x84, virtual false, abstract: false, final false
-  static inline void DeallocateQueue(::Unity::Collections::UnsafeQueueData* data, ::Unity::Collections::UnsafeQueueBlockPoolData* pool,
-                                     ::Unity::Collections::AllocatorManager_AllocatorHandle allocation);
+  /// @brief Method DeallocateQueue, addr 0x68f27b8, size 0x9c, virtual false, abstract: false, final false
+  static inline void DeallocateQueue(::Unity::Collections::UnsafeQueueData* data, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method GetCurrentWriteBlockTLS, addr 0x64c95c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentWriteBlockTLS, addr 0x68f2798, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Collections::UnsafeQueueBlockHeader* GetCurrentWriteBlockTLS(int32_t threadIndex);
 
-  /// @brief Method SetCurrentWriteBlockTLS, addr 0x64c95d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentWriteBlockTLS, addr 0x68f27a8, size 0x10, virtual false, abstract: false, final false
   inline void SetCurrentWriteBlockTLS(int32_t threadIndex, ::Unity::Collections::UnsafeQueueBlockHeader* currentWriteBlock);
 
   // Ctor Parameters []
@@ -64,10 +60,13 @@ public:
   constexpr UnsafeQueueData(::System::IntPtr m_FirstBlock, ::System::IntPtr m_LastBlock, int32_t m_MaxItems, int32_t m_CurrentRead, uint8_t* m_CurrentWriteBlockTLS) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15974 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+
+  /// @brief Field m_BlockSize offset 0xffffffff size 0x4
+  static constexpr int32_t m_BlockSize{ static_cast<int32_t>(0x4000) };
 
   /// @brief Field m_FirstBlock, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr m_FirstBlock;

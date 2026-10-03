@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelDataSO> (*)(::StringW)>(
     &::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::LoadBeatmapLevelDataFromAssetDatabase)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3755bd4;
+  constexpr static std::size_t addrs = 0x39df2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelSO> (*)(::StringW)>(
     &::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::LoadBeatmapLevelFromAssetDatabase)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3755c4c;
+  constexpr static std::size_t addrs = 0x39df32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelPackSO> (*)(::StringW)>(
     &::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::LoadBeatmapLevelPackFromAssetDatabase)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3755cc4;
+  constexpr static std::size_t addrs = 0x39df3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel*>(),

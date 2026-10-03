@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Netw
                                                                                                                                ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*)>(
     &::System::Net::NetworkInformation::LinuxIPInterfaceProperties::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6354604;
+  constexpr static std::size_t addrs = 0x677c570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::NetworkInformation::IPAddressCollection* (::System::Net::NetworkInformation::LinuxIPInterfaceProperties::*)(::StringW)>(
     &::System::Net::NetworkInformation::LinuxIPInterfaceProperties::ParseRouteInfo)> {
   constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x635466c;
+  constexpr static std::size_t addrs = 0x677c5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (::System::Net::NetworkInformation::LinuxIPInterfaceProperties::*)()>(
     &::System::Net::NetworkInformation::LinuxIPInterfaceProperties::get_GatewayAddresses)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6354af0;
+  constexpr static std::size_t addrs = 0x677ca5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::LinuxIPInterfaceProperties*>(),

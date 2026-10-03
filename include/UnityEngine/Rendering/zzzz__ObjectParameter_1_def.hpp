@@ -92,7 +92,7 @@ public:
   ObjectParameter_1___c(ObjectParameter_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12371 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9252 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -174,7 +174,7 @@ public:
   ObjectParameter_1(ObjectParameter_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9253 };
 
   /// [CompilerGenerated]
   /// @brief Field <parameters>k__BackingField, offset: 0x20, size: 0x8, def value: None

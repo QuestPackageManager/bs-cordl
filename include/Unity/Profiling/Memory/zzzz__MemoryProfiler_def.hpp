@@ -55,36 +55,28 @@ public:
   __declspec(property(get = getStaticF_m_SnapshotFinished, put = setStaticF_m_SnapshotFinished)) ::System::Action_2<::StringW, bool>* m_SnapshotFinished;
 
   /// [RequiredByNativeCode]
-  /// @brief Method FinalizeSnapshot, addr 0x6a5ec8c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method FinalizeSnapshot, addr 0x6eb0838, size 0x88, virtual false, abstract: false, final false
   static inline void FinalizeSnapshot(::StringW path, bool result);
 
   /// [RequiredByNativeCode]
-  /// @brief Method PrepareMetadata, addr 0x6a5e940, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method PrepareMetadata, addr 0x6eb04ec, size 0x1f8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> PrepareMetadata();
 
   /// [RequiredByNativeCode]
-  /// @brief Method SaveScreenshotToDisk, addr 0x6a5ed14, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SaveScreenshotToDisk, addr 0x6eb08c0, size 0xf0, virtual false, abstract: false, final false
   static inline void SaveScreenshotToDisk(::StringW path, bool result, ::System::IntPtr pixelsPtr, int32_t pixelsCount, ::UnityEngine::TextureFormat format, int32_t width, int32_t height);
 
-  /// @brief Method WriteIntToByteArray, addr 0x6a5eb38, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method WriteIntToByteArray, addr 0x6eb06e4, size 0x88, virtual false, abstract: false, final false
   static inline int32_t WriteIntToByteArray(::ArrayW<uint8_t> array, int32_t offset, int32_t value);
 
-  /// @brief Method WriteStringToByteArray, addr 0x6a5ebc0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToByteArray, addr 0x6eb076c, size 0x78, virtual false, abstract: false, final false
   static inline int32_t WriteStringToByteArray(::ArrayW<uint8_t> array, int32_t offset, ::StringW value);
-
-  /// [CompilerGenerated]
-  /// @brief Method add_CreatingMetadata, addr 0x6a5e778, size 0xe4, virtual false, abstract: false, final false
-  static inline void add_CreatingMetadata(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* value);
 
   static inline ::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* getStaticF_CreatingMetadata();
 
   static inline ::System::Action_3<::StringW, bool, ::Unity::Profiling::DebugScreenCapture>* getStaticF_m_SaveScreenshotToDisk();
 
   static inline ::System::Action_2<::StringW, bool>* getStaticF_m_SnapshotFinished();
-
-  /// [CompilerGenerated]
-  /// @brief Method remove_CreatingMetadata, addr 0x6a5e85c, size 0xe4, virtual false, abstract: false, final false
-  static inline void remove_CreatingMetadata(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* value);
 
   static inline void setStaticF_CreatingMetadata(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* value);
 
@@ -107,7 +99,7 @@ public:
   MemoryProfiler(MemoryProfiler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9536 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

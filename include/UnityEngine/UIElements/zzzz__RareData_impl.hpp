@@ -2,6 +2,7 @@
 // IWYU pragma private; include "UnityEngine/UIElements/RareData.hpp"
 #include "UnityEngine/UIElements/zzzz__Cursor_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__OverflowClipBox_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__SliceType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextOverflowPosition_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextOverflow_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -14,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::RareData (::UnityEngine::UIElements::RareData::*)()>(&::UnityEngine::UIElements::RareData::Copy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c8ef54;
+  constexpr static std::size_t addrs = 0x70f16a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RareData>(), { "Copy", {}, {} })));
@@ -26,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RareData::*)(::by_ref<::UnityEngine::UIElements::RareData>)>(&::UnityEngine::UIElements::RareData::CopyFrom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c8ef64;
+  constexpr static std::size_t addrs = 0x70f16b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,8 +39,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::RareData, ::UnityEngine::UIElements::RareData)>(&::UnityEngine::UIElements::RareData::op_Equality)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6c8ef6c;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x70f16bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::RareData::*)(::UnityEngine::UIElements::RareData)>(&::UnityEngine::UIElements::RareData::Equals)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c8f08c;
+  constexpr static std::size_t addrs = 0x70f17ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::RareData::*)(::System::Object*)>(&::UnityEngine::UIElements::RareData::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6c8f0d0;
+  constexpr static std::size_t addrs = 0x70f1830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,8 +79,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::RareData::*)()>(&::UnityEngine::UIElements::RareData::GetHashCode)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6c8f174;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x70f18d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,12 +138,13 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::RareData>* UnityEngi
 // def_value: Some("{}"), comment: None }, CppParam { name: "unityOverflowClipBox", ty: "::UnityEngine::UIElements::OverflowClipBox", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
 // name: "unitySliceBottom", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unitySliceLeft", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
 // }, CppParam { name: "unitySliceRight", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unitySliceScale", ty: "float_t", modifiers: "", def_value: Some("{}"),
-// comment: None }, CppParam { name: "unitySliceTop", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityTextOverflowPosition", ty:
-// "::UnityEngine::UIElements::TextOverflowPosition", modifiers: "", def_value: Some("{}"), comment: None }]
+// comment: None }, CppParam { name: "unitySliceTop", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unitySliceType", ty:
+// "::UnityEngine::UIElements::SliceType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityTextOverflowPosition", ty: "::UnityEngine::UIElements::TextOverflowPosition",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::RareData::RareData(::UnityEngine::UIElements::Cursor cursor, ::UnityEngine::UIElements::TextOverflow textOverflow,
                                                         ::UnityEngine::Color unityBackgroundImageTintColor, ::UnityEngine::UIElements::OverflowClipBox unityOverflowClipBox, int32_t unitySliceBottom,
                                                         int32_t unitySliceLeft, int32_t unitySliceRight, float_t unitySliceScale, int32_t unitySliceTop,
-                                                        ::UnityEngine::UIElements::TextOverflowPosition unityTextOverflowPosition) noexcept {
+                                                        ::UnityEngine::UIElements::SliceType unitySliceType, ::UnityEngine::UIElements::TextOverflowPosition unityTextOverflowPosition) noexcept {
   this->cursor = cursor;
   this->textOverflow = textOverflow;
   this->unityBackgroundImageTintColor = unityBackgroundImageTintColor;
@@ -152,6 +154,7 @@ constexpr ::UnityEngine::UIElements::RareData::RareData(::UnityEngine::UIElement
   this->unitySliceRight = unitySliceRight;
   this->unitySliceScale = unitySliceScale;
   this->unitySliceTop = unitySliceTop;
+  this->unitySliceType = unitySliceType;
   this->unityTextOverflowPosition = unityTextOverflowPosition;
 }
 // Ctor Parameters []

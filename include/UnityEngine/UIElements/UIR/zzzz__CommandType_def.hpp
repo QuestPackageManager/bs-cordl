@@ -31,14 +31,11 @@ public:
     __E_PopView = static_cast<int32_t>(0x4),
     __E_PushScissor = static_cast<int32_t>(0x5),
     __E_PopScissor = static_cast<int32_t>(0x6),
-    __E_PushRenderTexture = static_cast<int32_t>(0x7),
-    __E_PopRenderTexture = static_cast<int32_t>(0x8),
-    __E_BlitToPreviousRT = static_cast<int32_t>(0x9),
-    __E_PushDefaultMaterial = static_cast<int32_t>(0xa),
-    __E_PopDefaultMaterial = static_cast<int32_t>(0xb),
-    __E_BeginDisable = static_cast<int32_t>(0xc),
-    __E_EndDisable = static_cast<int32_t>(0xd),
-    __E_CutRenderChain = static_cast<int32_t>(0xe),
+    __E_PushDefaultMaterial = static_cast<int32_t>(0x7),
+    __E_PopDefaultMaterial = static_cast<int32_t>(0x8),
+    __E_BeginDisable = static_cast<int32_t>(0x9),
+    __E_EndDisable = static_cast<int32_t>(0xa),
+    __E_CutRenderChain = static_cast<int32_t>(0xb),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -58,19 +55,16 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CommandType(int32_t value__) noexcept;
 
-  /// @brief Field BeginDisable value: I32(12)
+  /// @brief Field BeginDisable value: I32(9)
   static ::UnityEngine::UIElements::UIR::CommandType const BeginDisable;
 
-  /// @brief Field BlitToPreviousRT value: I32(9)
-  static ::UnityEngine::UIElements::UIR::CommandType const BlitToPreviousRT;
-
-  /// @brief Field CutRenderChain value: I32(14)
+  /// @brief Field CutRenderChain value: I32(11)
   static ::UnityEngine::UIElements::UIR::CommandType const CutRenderChain;
 
   /// @brief Field Draw value: I32(0)
   static ::UnityEngine::UIElements::UIR::CommandType const Draw;
 
-  /// @brief Field EndDisable value: I32(13)
+  /// @brief Field EndDisable value: I32(10)
   static ::UnityEngine::UIElements::UIR::CommandType const EndDisable;
 
   /// @brief Field Immediate value: I32(2)
@@ -79,11 +73,8 @@ public:
   /// @brief Field ImmediateCull value: I32(1)
   static ::UnityEngine::UIElements::UIR::CommandType const ImmediateCull;
 
-  /// @brief Field PopDefaultMaterial value: I32(11)
+  /// @brief Field PopDefaultMaterial value: I32(8)
   static ::UnityEngine::UIElements::UIR::CommandType const PopDefaultMaterial;
-
-  /// @brief Field PopRenderTexture value: I32(8)
-  static ::UnityEngine::UIElements::UIR::CommandType const PopRenderTexture;
 
   /// @brief Field PopScissor value: I32(6)
   static ::UnityEngine::UIElements::UIR::CommandType const PopScissor;
@@ -91,11 +82,8 @@ public:
   /// @brief Field PopView value: I32(4)
   static ::UnityEngine::UIElements::UIR::CommandType const PopView;
 
-  /// @brief Field PushDefaultMaterial value: I32(10)
+  /// @brief Field PushDefaultMaterial value: I32(7)
   static ::UnityEngine::UIElements::UIR::CommandType const PushDefaultMaterial;
-
-  /// @brief Field PushRenderTexture value: I32(7)
-  static ::UnityEngine::UIElements::UIR::CommandType const PushRenderTexture;
 
   /// @brief Field PushScissor value: I32(5)
   static ::UnityEngine::UIElements::UIR::CommandType const PushScissor;
@@ -104,7 +92,7 @@ public:
   static ::UnityEngine::UIElements::UIR::CommandType const PushView;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5501 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

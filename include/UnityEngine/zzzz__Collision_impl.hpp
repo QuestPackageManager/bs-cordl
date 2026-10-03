@@ -6,7 +6,6 @@
 #include "UnityEngine/zzzz__ContactPoint_impl.hpp"
 #include "UnityEngine/zzzz__Collision_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/zzzz__ArticulationBody_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
 #include "UnityEngine/zzzz__Component_def.hpp"
@@ -22,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_impulse)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b714cc;
+  constexpr static std::size_t addrs = 0x6fdce94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_impulse", {}, {} })));
@@ -33,11 +32,23 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_relativeVelocity)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6b714d8;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6fdcea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_relativeVelocity", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Collision.get_thisRigidbody
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rigidbody> (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_thisRigidbody)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6fdcedc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisRigidbody", {}, {} })));
     return ___internal_method;
   }
 };
@@ -46,10 +57,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rigidbody> (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_rigidbody)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6b71504;
+  constexpr static std::size_t addrs = 0x6fdcf78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_rigidbody", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Collision.get_thisArticulationBody
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ArticulationBody> (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_thisArticulationBody)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6fdd014;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisArticulationBody", {}, {} })));
     return ___internal_method;
   }
 };
@@ -58,10 +81,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ArticulationBody> (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_articulationBody)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6b715a0;
+  constexpr static std::size_t addrs = 0x6fdd098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_articulationBody", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Collision.get_thisBody
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_thisBody)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6fdcf60;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisBody", {}, {} })));
     return ___internal_method;
   }
 };
@@ -70,10 +105,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_body)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b71588;
+  constexpr static std::size_t addrs = 0x6fdcffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_body", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Collision.get_thisCollider
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Collider> (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_thisCollider)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6fdd1d4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisCollider", {}, {} })));
     return ___internal_method;
   }
 };
@@ -82,10 +129,70 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Collider> (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_collider)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b716dc;
+  constexpr static std::size_t addrs = 0x6fdd2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_collider", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Collision.get_thisLinearVelocity
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_thisLinearVelocity)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6fdd2e4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisLinearVelocity", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Collision.get_linearVelocity
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_linearVelocity)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6fdd320;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_linearVelocity", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Collision.get_thisAngularVelocity
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_thisAngularVelocity)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6fdd35c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisAngularVelocity", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Collision.get_angularVelocity
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_angularVelocity)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6fdd398;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_angularVelocity", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Collision.get_thisTransform
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_thisTransform)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x6fdd3d4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisTransform", {}, {} })));
     return ___internal_method;
   }
 };
@@ -93,11 +200,23 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::C
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_transform)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6b717d4;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x6fdd400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_transform", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Collision.get_thisGameObject
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_thisGameObject)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x6fdd42c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisGameObject", {}, {} })));
     return ___internal_method;
   }
 };
@@ -105,8 +224,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::T
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_gameObject)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6b7186c;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x6fdd458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_gameObject", {}, {} })));
@@ -118,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_Flipped)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b71904;
+  constexpr static std::size_t addrs = 0x6fdd484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_Flipped", {}, {} })));
@@ -130,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Collision::*)(bool)>(&::UnityEngine::Collision::set_Flipped)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b7190c;
+  constexpr static std::size_t addrs = 0x6fdd48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "set_Flipped", {}, { ::i2c::type_of<bool>() } })));
@@ -142,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_contactCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b71914;
+  constexpr static std::size_t addrs = 0x6fdd494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_contactCount", {}, {} })));
@@ -154,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::ContactPoint> (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_contacts)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b7191c;
+  constexpr static std::size_t addrs = 0x6fdd49c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_contacts", {}, {} })));
@@ -165,8 +284,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::C
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6b71ad0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6fdd650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { ".ctor", {}, {} })));
@@ -179,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Collision::*)(::by_ref<::UnityEngine::ContactPairHeader>, ::by_ref<::UnityEngine::ContactPair>, bool)>(
     &::UnityEngine::Collision::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6b71aec;
+  constexpr static std::size_t addrs = 0x6fdd670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,8 +313,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Collision::*)(::by_ref<::UnityEngine::ContactPairHeader>, ::by_ref<::UnityEngine::ContactPair>)>(
     &::UnityEngine::Collision::Reuse)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6b71b9c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6fdd720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ContactPoint (::UnityEngine::Collision::*)(int32_t)>(&::UnityEngine::Collision::GetContact)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6b71bcc;
+  constexpr static std::size_t addrs = 0x6fdd764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "GetContact", {}, { ::i2c::type_of<int32_t>() } })));
@@ -221,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Collision::*)(::ArrayW<::UnityEngine::ContactPoint>)>(&::UnityEngine::Collision::GetContacts)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6b71dd8;
+  constexpr static std::size_t addrs = 0x6fdd970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,60 +354,12 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Collision::*)(::System::Collections::Generic::List_1<::UnityEngine::ContactPoint>*)>(
     &::UnityEngine::Collision::GetContacts)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6b71e6c;
+  constexpr static std::size_t addrs = 0x6fdda04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "GetContacts", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::ContactPoint>*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Collision.GetEnumerator
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::GetEnumerator)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6b721b8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { ::i2c::class_of<::UnityEngine::Collision*>(), 4 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Collision.get_impactForceSum
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_impactForceSum)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6b721d4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_impactForceSum", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Collision.get_frictionForceSum
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_frictionForceSum)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6b72224;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_frictionForceSum", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Collision.get_other
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::Collision::*)()>(&::UnityEngine::Collision::get_other)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6b72274;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_other", {}, {} })));
     return ___internal_method;
   }
 };
@@ -348,25 +419,65 @@ inline ::UnityEngine::Vector3 UnityEngine::Collision::get_relativeVelocity() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_relativeVelocity", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
 }
+inline ::UnityW<::UnityEngine::Rigidbody> UnityEngine::Collision::get_thisRigidbody() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisRigidbody", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Rigidbody>>(this, ___internal_method);
+}
 inline ::UnityW<::UnityEngine::Rigidbody> UnityEngine::Collision::get_rigidbody() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_rigidbody", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Rigidbody>>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::ArticulationBody> UnityEngine::Collision::get_thisArticulationBody() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisArticulationBody", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::ArticulationBody>>(this, ___internal_method);
 }
 inline ::UnityW<::UnityEngine::ArticulationBody> UnityEngine::Collision::get_articulationBody() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_articulationBody", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::ArticulationBody>>(this, ___internal_method);
 }
+inline ::UnityW<::UnityEngine::Component> UnityEngine::Collision::get_thisBody() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisBody", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Component>>(this, ___internal_method);
+}
 inline ::UnityW<::UnityEngine::Component> UnityEngine::Collision::get_body() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_body", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Component>>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::Collider> UnityEngine::Collision::get_thisCollider() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisCollider", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Collider>>(this, ___internal_method);
 }
 inline ::UnityW<::UnityEngine::Collider> UnityEngine::Collision::get_collider() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_collider", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Collider>>(this, ___internal_method);
 }
+inline ::UnityEngine::Vector3 UnityEngine::Collision::get_thisLinearVelocity() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisLinearVelocity", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector3 UnityEngine::Collision::get_linearVelocity() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_linearVelocity", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector3 UnityEngine::Collision::get_thisAngularVelocity() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisAngularVelocity", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector3 UnityEngine::Collision::get_angularVelocity() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_angularVelocity", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::Transform> UnityEngine::Collision::get_thisTransform() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisTransform", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>>(this, ___internal_method);
+}
 inline ::UnityW<::UnityEngine::Transform> UnityEngine::Collision::get_transform() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_transform", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::Collision::get_thisGameObject() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_thisGameObject", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(this, ___internal_method);
 }
 inline ::UnityW<::UnityEngine::GameObject> UnityEngine::Collision::get_gameObject() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_gameObject", {}, {} })));
@@ -419,22 +530,6 @@ inline int32_t UnityEngine::Collision::GetContacts(::System::Collections::Generi
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "GetContacts", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::ContactPoint>*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, contacts);
-}
-inline ::System::Collections::IEnumerator* UnityEngine::Collision::GetEnumerator() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Collision*>(), 4 })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
-}
-inline ::UnityEngine::Vector3 UnityEngine::Collision::get_impactForceSum() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_impactForceSum", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
-}
-inline ::UnityEngine::Vector3 UnityEngine::Collision::get_frictionForceSum() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_frictionForceSum", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
-}
-inline ::UnityW<::UnityEngine::Component> UnityEngine::Collision::get_other() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { "get_other", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Component>>(this, ___internal_method);
 }
 inline ::UnityEngine::Collision* UnityEngine::Collision::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Collision*>());

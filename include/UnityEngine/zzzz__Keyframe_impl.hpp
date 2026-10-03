@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Keyframe::*)(float_t, float_t)>(&::UnityEngine::Keyframe::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6a65860;
+  constexpr static std::size_t addrs = 0x6eb7b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Keyframe::*)(float_t, float_t, float_t, float_t)>(&::UnityEngine::Keyframe::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6a65870;
+  constexpr static std::size_t addrs = 0x6eb7b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Keyframe::*)()>(&::UnityEngine::Keyframe::get_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a65884;
+  constexpr static std::size_t addrs = 0x6eb7b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Keyframe>(), { "get_time", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Keyframe::*)(float_t)>(&::UnityEngine::Keyframe::set_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a6588c;
+  constexpr static std::size_t addrs = 0x6eb7ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Keyframe>(), { "set_time", {}, { ::i2c::type_of<float_t>() } })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Keyframe::*)()>(&::UnityEngine::Keyframe::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a65894;
+  constexpr static std::size_t addrs = 0x6eb7ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Keyframe>(), { "get_value", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Keyframe::*)(float_t)>(&::UnityEngine::Keyframe::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a6589c;
+  constexpr static std::size_t addrs = 0x6eb7bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Keyframe>(), { "set_value", {}, { ::i2c::type_of<float_t>() } })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Keyframe::*)()>(&::UnityEngine::Keyframe::get_inTangent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a658a4;
+  constexpr static std::size_t addrs = 0x6eb7bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Keyframe>(), { "get_inTangent", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Keyframe::*)(float_t)>(&::UnityEngine::Keyframe::set_inTangent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a658ac;
+  constexpr static std::size_t addrs = 0x6eb7bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Keyframe>(), { "set_inTangent", {}, { ::i2c::type_of<float_t>() } })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Keyframe::*)()>(&::UnityEngine::Keyframe::get_outTangent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a658b4;
+  constexpr static std::size_t addrs = 0x6eb7bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Keyframe>(), { "get_outTangent", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Keyframe::*)(float_t)>(&::UnityEngine::Keyframe::set_outTangent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a658bc;
+  constexpr static std::size_t addrs = 0x6eb7bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Keyframe>(), { "set_outTangent", {}, { ::i2c::type_of<float_t>() } })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Keyframe::*)()>(&::UnityEngine::Keyframe::get_inWeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a658c4;
+  constexpr static std::size_t addrs = 0x6eb7bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Keyframe>(), { "get_inWeight", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Keyframe::*)(float_t)>(&::UnityEngine::Keyframe::set_inWeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a658cc;
+  constexpr static std::size_t addrs = 0x6eb7be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Keyframe>(), { "set_inWeight", {}, { ::i2c::type_of<float_t>() } })));
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Keyframe::*)()>(&::UnityEngine::Keyframe::get_outWeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a658d4;
+  constexpr static std::size_t addrs = 0x6eb7be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Keyframe>(), { "get_outWeight", {}, {} })));
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Keyframe::*)(float_t)>(&::UnityEngine::Keyframe::set_outWeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a658dc;
+  constexpr static std::size_t addrs = 0x6eb7bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Keyframe>(), { "set_outWeight", {}, { ::i2c::type_of<float_t>() } })));
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::WeightedMode (::UnityEngine::Keyframe::*)()>(&::UnityEngine::Keyframe::get_weightedMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a658e4;
+  constexpr static std::size_t addrs = 0x6eb7bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Keyframe>(), { "get_weightedMode", {}, {} })));
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Keyframe::*)(::UnityEngine::WeightedMode)>(&::UnityEngine::Keyframe::set_weightedMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a658ec;
+  constexpr static std::size_t addrs = 0x6eb7c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

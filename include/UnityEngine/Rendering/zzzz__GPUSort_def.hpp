@@ -10,6 +10,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GPUSort)
 namespace UnityEngine::Rendering::RenderGraphModule {
+class IBaseRenderGraphBuilder;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
 struct RenderGraphBuilder;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
@@ -32,6 +35,9 @@ struct GPUSort_SupportResources;
 }
 namespace UnityEngine::Rendering {
 struct GPUSort_SystemResources;
+}
+namespace UnityEngine::Rendering {
+class IComputeCommandBuffer;
 }
 namespace UnityEngine::Rendering {
 struct LocalKeyword;
@@ -77,77 +83,14 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUSort_SystemResources, "UnityEng
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
-// CS Name: UnityEngine.Rendering.GPUSort/Stage
-struct CORDL_TYPE GPUSort_Stage {
-public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
-
-  /// @brief Nested struct __GPUSort_Stage_Unwrapped
-  enum struct __GPUSort_Stage_Unwrapped : int32_t {
-    __E_LocalBMS = static_cast<int32_t>(0x0),
-    __E_LocalDisperse = static_cast<int32_t>(0x1),
-    __E_BigFlip = static_cast<int32_t>(0x2),
-    __E_BigDisperse = static_cast<int32_t>(0x3),
-  };
-
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __GPUSort_Stage_Unwrapped() const noexcept {
-    return static_cast<__GPUSort_Stage_Unwrapped>(this->value__);
-  }
-
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GPUSort_Stage();
-
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
-  constexpr GPUSort_Stage(int32_t value__) noexcept;
-
-  /// @brief Field BigDisperse value: I32(3)
-  static ::UnityEngine::Rendering::GPUSort_Stage const BigDisperse;
-
-  /// @brief Field BigFlip value: I32(2)
-  static ::UnityEngine::Rendering::GPUSort_Stage const BigFlip;
-
-  /// @brief Field LocalBMS value: I32(0)
-  static ::UnityEngine::Rendering::GPUSort_Stage const LocalBMS;
-
-  /// @brief Field LocalDisperse value: I32(1)
-  static ::UnityEngine::Rendering::GPUSort_Stage const LocalDisperse;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12291 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::GPUSort_Stage, value__) == 0x0, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::GPUSort_Stage) == 0x4, "Size mismatch!");
-
-} // namespace UnityEngine::Rendering
-// Dependencies
-namespace UnityEngine::Rendering {
-// Is value type: true
 // CS Name: UnityEngine.Rendering.GPUSort/SupportResources
 struct CORDL_TYPE GPUSort_SupportResources {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x67c4a74, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6be1f74, size 0x38, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Load, addr 0x67c49e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x6be1ee8, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUSort_SupportResources Load(::UnityEngine::Rendering::GPUSort_RenderGraphResources renderGraphResources);
 
   // Ctor Parameters []
@@ -159,7 +102,7 @@ public:
   constexpr GPUSort_SupportResources(::UnityEngine::GraphicsBuffer* sortBufferKeys, ::UnityEngine::GraphicsBuffer* sortBufferValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9169 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -199,7 +142,7 @@ public:
                          ::UnityEngine::Rendering::GPUSort_SupportResources resources, int32_t workGroupCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12292 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9167 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -247,7 +190,12 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE GPUSort_RenderGraphResources {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x67c4900, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6be1d3c, size 0x1ac, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::GPUSort_RenderGraphResources Create(int32_t count, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                                                              ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder);
+
+  /// [Obsolete("This Create signature is deprecated and will be removed in the future. Please use Create(IBaseRenderGraphBuilder) instead. #from(6000.3)")]
+  /// @brief Method Create, addr 0x6be1c54, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUSort_RenderGraphResources Create(int32_t count, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder builder);
 
@@ -260,7 +208,7 @@ public:
   constexpr GPUSort_RenderGraphResources(::UnityEngine::Rendering::RenderGraphModule::BufferHandle sortBufferKeys, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle sortBufferValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9168 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -296,7 +244,7 @@ public:
   constexpr GPUSort_SystemResources(::UnityW<::UnityEngine::ComputeShader> computeAsset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9170 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -310,6 +258,69 @@ public:
 static_assert(offsetof(::UnityEngine::Rendering::GPUSort_SystemResources, computeAsset) == 0x0, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::Rendering::GPUSort_SystemResources) == 0x8, "Size mismatch!");
+
+} // namespace UnityEngine::Rendering
+// Dependencies
+namespace UnityEngine::Rendering {
+// Is value type: true
+// CS Name: UnityEngine.Rendering.GPUSort/Stage
+struct CORDL_TYPE GPUSort_Stage {
+public:
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
+  /// @brief Nested struct __GPUSort_Stage_Unwrapped
+  enum struct __GPUSort_Stage_Unwrapped : int32_t {
+    __E_LocalBMS = static_cast<int32_t>(0x0),
+    __E_LocalDisperse = static_cast<int32_t>(0x1),
+    __E_BigFlip = static_cast<int32_t>(0x2),
+    __E_BigDisperse = static_cast<int32_t>(0x3),
+  };
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __GPUSort_Stage_Unwrapped() const noexcept {
+    return static_cast<__GPUSort_Stage_Unwrapped>(this->value__);
+  }
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GPUSort_Stage();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
+  constexpr GPUSort_Stage(int32_t value__) noexcept;
+
+  /// @brief Field BigDisperse value: I32(3)
+  static ::UnityEngine::Rendering::GPUSort_Stage const BigDisperse;
+
+  /// @brief Field BigFlip value: I32(2)
+  static ::UnityEngine::Rendering::GPUSort_Stage const BigFlip;
+
+  /// @brief Field LocalBMS value: I32(0)
+  static ::UnityEngine::Rendering::GPUSort_Stage const LocalBMS;
+
+  /// @brief Field LocalDisperse value: I32(1)
+  static ::UnityEngine::Rendering::GPUSort_Stage const LocalDisperse;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9171 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::GPUSort_Stage, value__) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::GPUSort_Stage) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.GPUSort::SystemResources, UnityEngine.Rendering.LocalKeyword
@@ -329,19 +340,22 @@ public:
 
   using SystemResources = ::UnityEngine::Rendering::GPUSort_SystemResources;
 
-  /// @brief Method CopyBuffer, addr 0x67c4530, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method CopyBuffer, addr 0x6be17d8, size 0x1e8, virtual false, abstract: false, final false
   inline void CopyBuffer(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* src, ::UnityEngine::GraphicsBuffer* dst);
 
-  /// @brief Method Dispatch, addr 0x67c4728, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x6be1a7c, size 0x1d8, virtual false, abstract: false, final false
   inline void Dispatch(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::GPUSort_Args args);
 
-  /// @brief Method DispatchStage, addr 0x67c4270, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x6be19d0, size 0xac, virtual false, abstract: false, final false
+  inline void Dispatch(::UnityEngine::Rendering::IComputeCommandBuffer* cmd, ::UnityEngine::Rendering::GPUSort_Args args);
+
+  /// @brief Method DispatchStage, addr 0x6be1518, size 0x2c0, virtual false, abstract: false, final false
   inline void DispatchStage(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::GPUSort_Args args, uint32_t h, ::UnityEngine::Rendering::GPUSort_Stage stage);
 
-  /// @brief Method DivRoundUp, addr 0x67c4718, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DivRoundUp, addr 0x6be19c0, size 0x10, virtual false, abstract: false, final false
   static inline int32_t DivRoundUp(int32_t x, int32_t y);
 
-  /// @brief Method .ctor, addr 0x67c40b8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be1360, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::GPUSort_SystemResources resources);
 
   // Ctor Parameters []
@@ -353,7 +367,7 @@ public:
   constexpr GPUSort(::ArrayW<::UnityEngine::Rendering::LocalKeyword> m_Keywords, ::UnityEngine::Rendering::GPUSort_SystemResources resources) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9172 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

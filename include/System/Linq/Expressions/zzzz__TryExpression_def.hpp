@@ -70,14 +70,14 @@ public:
   /// @brief Field <Type>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField)) ::System::Type* _Type_k__BackingField;
 
-  /// @brief Method Accept, addr 0x5f89698, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x63a5614, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
   static inline ::System::Linq::Expressions::TryExpression* New_ctor(::System::Type* type, ::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* finally,
                                                                      ::System::Linq::Expressions::Expression* fault,
                                                                      ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* handlers);
 
-  /// @brief Method Update, addr 0x5f85370, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x63a12ec, size 0x110, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::TryExpression* Update(::System::Linq::Expressions::Expression* body,
                                                             ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::CatchBlock*>* handlers,
                                                             ::System::Linq::Expressions::Expression* finally, ::System::Linq::Expressions::Expression* fault);
@@ -112,31 +112,31 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5f895dc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a5558, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* finally, ::System::Linq::Expressions::Expression* fault,
                     ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* handlers);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Body, addr 0x5f89678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x63a55f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Fault, addr 0x5f89690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Fault, addr 0x63a560c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Fault();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Finally, addr 0x5f89688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Finally, addr 0x63a5604, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Finally();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Handlers, addr 0x5f89680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handlers, addr 0x63a55fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* get_Handlers();
 
-  /// @brief Method get_NodeType, addr 0x5f89670, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x63a55ec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Type, addr 0x5f89668, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x63a55e4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:
@@ -154,7 +154,7 @@ public:
   TryExpression(TryExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16752 };
 
   /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None

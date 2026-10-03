@@ -70,6 +70,7 @@ public:
   // Declarations
   using PropertyBag = ::UnityEngine::UIElements::Cursor_PropertyBag;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_defaultCursorId, put = set_defaultCursorId)) int32_t defaultCursorId;
 
   __declspec(property(get = get_hotspot, put = set_hotspot)) ::UnityEngine::Vector2 hotspot;
@@ -79,87 +80,78 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Cursor>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Cursor>*();
 
-  /// @brief Method Equals, addr 0x6d82b90, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7215f74, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6d82c24, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7216008, size 0xb4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Cursor other);
 
-  /// @brief Method GetHashCode, addr 0x6d82cd8, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x72160bc, size 0xc4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6d82dcc, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x72161b0, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_defaultCursorId, addr 0x6d82b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultCursorId, addr 0x7215f64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_defaultCursorId();
 
-  /// [CompilerGenerated]
-  /// [IsReadOnly]
-  /// @brief Method get_hotspot, addr 0x6d82b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hotspot, addr 0x7215f54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_hotspot();
 
-  /// [IsReadOnly]
-  /// [CompilerGenerated]
-  /// @brief Method get_texture, addr 0x6d82b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x7215f44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Cursor>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Cursor>* i___System__IEquatable_1___UnityEngine__UIElements__Cursor_();
 
-  /// @brief Method op_Equality, addr 0x6d82d9c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x7216180, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Cursor style1, ::UnityEngine::UIElements::Cursor style2);
 
   /// [CompilerGenerated]
-  /// @brief Method set_defaultCursorId, addr 0x6d82b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultCursorId, addr 0x7215f6c, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultCursorId(int32_t value);
 
-  /// [CompilerGenerated]
-  /// @brief Method set_hotspot, addr 0x6d82b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hotspot, addr 0x7215f5c, size 0x8, virtual false, abstract: false, final false
   inline void set_hotspot(::UnityEngine::Vector2 value);
 
-  /// [CompilerGenerated]
-  /// @brief Method set_texture, addr 0x6d82b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_texture, addr 0x7215f4c, size 0x8, virtual false, abstract: false, final false
   inline void set_texture(::UnityEngine::Texture2D* value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Cursor();
 
-  // Ctor Parameters [CppParam { name: "_texture_k__BackingField", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "_hotspot_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "_defaultCursorId_k__BackingField", ty: "int32_t", modifiers: "",
-  // def_value: None, comment: None }]
-  constexpr Cursor(::UnityW<::UnityEngine::Texture2D> _texture_k__BackingField, ::UnityEngine::Vector2 _hotspot_k__BackingField, int32_t _defaultCursorId_k__BackingField) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Hotspot", ty:
+  // "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "_defaultCursorId_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
+  constexpr Cursor(::UnityW<::UnityEngine::Texture2D> m_Texture, ::UnityEngine::Vector2 m_Hotspot, int32_t _defaultCursorId_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4373 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4380 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
-  /// [CompilerGenerated]
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <texture>k__BackingField, offset: 0x0, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Texture2D> _texture_k__BackingField;
+  /// [SerializeField]
+  /// @brief Field m_Texture, offset: 0x0, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Texture2D> m_Texture;
 
-  /// [CompilerGenerated]
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <hotspot>k__BackingField, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::Vector2 _hotspot_k__BackingField;
+  /// [SerializeField]
+  /// @brief Field m_Hotspot, offset: 0x8, size: 0x8, def value: None
+  ::UnityEngine::Vector2 m_Hotspot;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <defaultCursorId>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t _defaultCursorId_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::Cursor, _texture_k__BackingField) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Cursor, m_Texture) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Cursor, _hotspot_k__BackingField) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Cursor, m_Hotspot) == 0x8, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::Cursor, _defaultCursorId_k__BackingField) == 0x10, "Offset mismatch!");
 
@@ -183,12 +175,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6d83120, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7216508, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> GetValue(::by_ref<::UnityEngine::UIElements::Cursor> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6d83128, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7216510, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Cursor> container, ::UnityEngine::Texture2D* value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -203,15 +195,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d82fe4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72163cc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x6d83118, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7216500, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6d83110, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x72164f8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -229,7 +221,7 @@ public:
   PropertyBag_Cursor_TextureProperty(PropertyBag_Cursor_TextureProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4376 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
@@ -268,12 +260,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6d83140, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7216528, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 GetValue(::by_ref<::UnityEngine::UIElements::Cursor> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6d83148, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7216530, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Cursor> container, ::UnityEngine::Vector2 value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -288,15 +280,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d83048, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7216430, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x6d83138, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7216520, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6d83130, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7216518, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -314,7 +306,7 @@ public:
   PropertyBag_Cursor_HotspotProperty(PropertyBag_Cursor_HotspotProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4377 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
@@ -353,12 +345,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6d83160, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7216548, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetValue(::by_ref<::UnityEngine::UIElements::Cursor> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6d83168, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7216550, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Cursor> container, int32_t value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -373,15 +365,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d830ac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7216494, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x6d83158, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7216540, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6d83150, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7216538, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -399,10 +391,10 @@ public:
   PropertyBag_Cursor_DefaultCursorIdProperty(PropertyBag_Cursor_DefaultCursorIdProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4371 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4378 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
@@ -436,7 +428,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Cursor_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d82e80, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7216264, size 0x168, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -454,7 +446,7 @@ public:
   Cursor_PropertyBag(Cursor_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4379 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

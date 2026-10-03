@@ -18,8 +18,8 @@ class UIElementsRuntimeUtilityNative;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*, "UnityEngine.UIElements", "UIElementsRuntimeUtilityNative");
-// [VisibleToOtherModules(new[] { "Unity.UIElements" })]
 // [NativeHeader("Modules/UIElements/Core/Native/UIElementsRuntimeUtilityNative.h")]
+// [VisibleToOtherModules(new[] { "Unity.UIElements" })]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -36,25 +36,34 @@ public:
   /// @brief Field UpdatePanelsCallback, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_UpdatePanelsCallback, put = setStaticF_UpdatePanelsCallback)) ::System::Action* UpdatePanelsCallback;
 
-  /// @brief Method RegisterPlayerloopCallback, addr 0x6db7588, size 0x28, virtual false, abstract: false, final false
-  static inline void RegisterPlayerloopCallback();
+  /// @brief Method RegisterRenderingCallbacks, addr 0x726aa0c, size 0x28, virtual false, abstract: false, final false
+  static inline void RegisterRenderingCallbacks();
 
   /// [RequiredByNativeCode]
-  /// @brief Method RenderOffscreenPanels, addr 0x6db7520, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RenderOffscreenPanels, addr 0x726a8dc, size 0x68, virtual false, abstract: false, final false
   static inline void RenderOffscreenPanels();
 
   /// [RequiredByNativeCode]
-  /// @brief Method RepaintPanels, addr 0x6db74b0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method RepaintPanels, addr 0x726a86c, size 0x70, virtual false, abstract: false, final false
   static inline void RepaintPanels(bool onlyOffscreen);
 
-  /// @brief Method UnregisterPlayerloopCallback, addr 0x6db75b0, size 0x28, virtual false, abstract: false, final false
-  static inline void UnregisterPlayerloopCallback();
+  /// @brief Method SetRenderingCallbacks, addr 0x726a994, size 0x78, virtual false, abstract: false, final false
+  static inline void SetRenderingCallbacks(::System::Action_1<bool>* repaintPanels, ::System::Action* renderOffscreenPanels);
+
+  /// @brief Method SetUpdateCallback, addr 0x726a944, size 0x50, virtual false, abstract: false, final false
+  static inline void SetUpdateCallback(::System::Action* callback);
+
+  /// @brief Method UnregisterRenderingCallbacks, addr 0x726aa9c, size 0x28, virtual false, abstract: false, final false
+  static inline void UnregisterRenderingCallbacks();
+
+  /// @brief Method UnsetRenderingCallbacks, addr 0x726aa34, size 0x68, virtual false, abstract: false, final false
+  static inline void UnsetRenderingCallbacks();
 
   /// [RequiredByNativeCode]
-  /// @brief Method UpdatePanels, addr 0x6db7448, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdatePanels, addr 0x726a804, size 0x68, virtual false, abstract: false, final false
   static inline void UpdatePanels();
 
-  /// @brief Method VisualElementCreation, addr 0x6db75d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method VisualElementCreation, addr 0x726aac4, size 0x28, virtual false, abstract: false, final false
   static inline void VisualElementCreation();
 
   static inline ::System::Action* getStaticF_RenderOffscreenPanelsCallback();
@@ -84,7 +93,7 @@ public:
   UIElementsRuntimeUtilityNative(UIElementsRuntimeUtilityNative const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4631 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4674 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

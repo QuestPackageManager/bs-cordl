@@ -6,9 +6,11 @@
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__EntryPool_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Entry_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MaterialDefinition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureOptions_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::EntryRecorder._ctor
 template <>
@@ -16,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::EntryPool*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6cdbeb4;
+  constexpr static std::size_t addrs = 0x716aef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,10 +30,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(
-    ::UnityEngine::UIElements::UIR::Entry*, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<uint16_t>, ::UnityEngine::Texture*, bool)>(
-    &::UnityEngine::UIElements::UIR::EntryRecorder::DrawMesh)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6cdbf28;
+    ::UnityEngine::UIElements::UIR::Entry*, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<uint16_t>, ::UnityEngine::Texture*,
+    ::UnityEngine::UIElements::TextureOptions)>(&::UnityEngine::UIElements::UIR::EntryRecorder::DrawMesh)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x716af6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +41,28 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
                                                 { "DrawMesh",
                                                   {},
                                                   { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>(), ::i2c::type_of<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>(),
-                                                    ::i2c::type_of<::Unity::Collections::NativeSlice_1<uint16_t>>(), ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<bool>() } })));
+                                                    ::i2c::type_of<::Unity::Collections::NativeSlice_1<uint16_t>>(), ::i2c::type_of<::UnityEngine::Texture*>(),
+                                                    ::i2c::type_of<::UnityEngine::UIElements::TextureOptions>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::EntryRecorder.DrawMesh
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(
+    ::UnityEngine::UIElements::UIR::Entry*, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<uint16_t>, ::UnityEngine::UIElements::TextureId,
+    bool)>(&::UnityEngine::UIElements::UIR::EntryRecorder::DrawMesh)> {
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x7164d80;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
+                                         { "DrawMesh",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>(), ::i2c::type_of<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>(),
+                                             ::i2c::type_of<::Unity::Collections::NativeSlice_1<uint16_t>>(), ::i2c::type_of<::UnityEngine::UIElements::TextureId>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -49,8 +72,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(
     ::UnityEngine::UIElements::UIR::Entry*, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<uint16_t>, ::UnityEngine::Texture*, bool)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::DrawRasterText)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6cdc218;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x716b268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +92,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::UIR::Entry*, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<uint16_t>, ::UnityEngine::Texture*, float_t,
     float_t)>(&::UnityEngine::UIElements::UIR::EntryRecorder::DrawSdfText)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6cdc2a0;
+  constexpr static std::size_t addrs = 0x716b2f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +112,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::UIR::Entry*, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<uint16_t>,
     ::UnityEngine::UIElements::VectorImage*)>(&::UnityEngine::UIElements::UIR::EntryRecorder::DrawGradients)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6cdc328;
+  constexpr static std::size_t addrs = 0x716b37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*, ::System::Action*, bool)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::DrawImmediate)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6cdc394;
+  constexpr static std::size_t addrs = 0x716b3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::DrawChildren)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cdc458;
+  constexpr static std::size_t addrs = 0x716b4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::BeginStencilMask)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cdc508;
+  constexpr static std::size_t addrs = 0x716b55c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::EndStencilMask)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cdc5b8;
+  constexpr static std::size_t addrs = 0x716b60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PopStencilMask)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cdc668;
+  constexpr static std::size_t addrs = 0x716b6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PushClippingRect)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cdc718;
+  constexpr static std::size_t addrs = 0x716b76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PopClippingRect)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cdc7c8;
+  constexpr static std::size_t addrs = 0x716b81c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PushScissors)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cdc878;
+  constexpr static std::size_t addrs = 0x716b8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PopScissors)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cdc928;
+  constexpr static std::size_t addrs = 0x716b97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PushGroupMatrix)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cdc9d8;
+  constexpr static std::size_t addrs = 0x716ba2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PopGroupMatrix)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cdca88;
+  constexpr static std::size_t addrs = 0x716badc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,46 +289,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::UIR::EntryRecorder.PushRenderTexture
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
-    &::UnityEngine::UIElements::UIR::EntryRecorder::PushRenderTexture)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cdcb38;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
-                                                                                           { "PushRenderTexture", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::UIR::EntryRecorder.BlitAndPopRenderTexture
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
-    &::UnityEngine::UIElements::UIR::EntryRecorder::BlitAndPopRenderTexture)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cdcbe8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
-                                                                                           { "BlitAndPopRenderTexture", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>() } })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::EntryRecorder.PushDefaultMaterial
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*, ::UnityEngine::Material*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*, ::UnityEngine::UIElements::MaterialDefinition)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PushDefaultMaterial)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6cdcc98;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x716bb8c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
-                                                             { "PushDefaultMaterial", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>(), ::i2c::type_of<::UnityEngine::Material*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
+                            { "PushDefaultMaterial", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>(), ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>() } })));
     return ___internal_method;
   }
 };
@@ -315,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PopDefaultMaterial)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cdcd50;
+  constexpr static std::size_t addrs = 0x716bc60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
@@ -329,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::CutRenderChain)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cdce00;
+  constexpr static std::size_t addrs = 0x716bd10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::Entry* (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::InsertPlaceholder)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6cdceb0;
+  constexpr static std::size_t addrs = 0x716bdc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
@@ -358,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIR::Entry*, ::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::AppendMeshEntry)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x6cdbfa8;
+  constexpr static std::size_t addrs = 0x716aff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIR::Entry*, ::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::Append)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6cdcf64;
+  constexpr static std::size_t addrs = 0x716be74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -400,14 +396,27 @@ inline void UnityEngine::UIElements::UIR::EntryRecorder::_ctor(::UnityEngine::UI
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, entryPool);
 }
 inline void UnityEngine::UIElements::UIR::EntryRecorder::DrawMesh(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices,
-                                                                  ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Texture* texture, bool skipAtlas) {
+                                                                  ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Texture* texture,
+                                                                  ::UnityEngine::UIElements::TextureOptions textureOptions) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
                                               { "DrawMesh",
                                                 {},
                                                 { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>(), ::i2c::type_of<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>(),
-                                                  ::i2c::type_of<::Unity::Collections::NativeSlice_1<uint16_t>>(), ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parentEntry, vertices, indices, texture, skipAtlas);
+                                                  ::i2c::type_of<::Unity::Collections::NativeSlice_1<uint16_t>>(), ::i2c::type_of<::UnityEngine::Texture*>(),
+                                                  ::i2c::type_of<::UnityEngine::UIElements::TextureOptions>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parentEntry, vertices, indices, texture, textureOptions);
+}
+inline void UnityEngine::UIElements::UIR::EntryRecorder::DrawMesh(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices,
+                                                                  ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::UIElements::TextureId textureId, bool isPremultiplied) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
+                                       { "DrawMesh",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>(), ::i2c::type_of<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>(),
+                                           ::i2c::type_of<::Unity::Collections::NativeSlice_1<uint16_t>>(), ::i2c::type_of<::UnityEngine::UIElements::TextureId>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parentEntry, vertices, indices, textureId, isPremultiplied);
 }
 inline void UnityEngine::UIElements::UIR::EntryRecorder::DrawRasterText(::UnityEngine::UIElements::UIR::Entry* parentEntry,
                                                                         ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices,
@@ -508,22 +517,12 @@ inline void UnityEngine::UIElements::UIR::EntryRecorder::PopGroupMatrix(::UnityE
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(), { "PopGroupMatrix", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parentEntry);
 }
-inline void UnityEngine::UIElements::UIR::EntryRecorder::PushRenderTexture(::UnityEngine::UIElements::UIR::Entry* parentEntry) {
+inline void UnityEngine::UIElements::UIR::EntryRecorder::PushDefaultMaterial(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::UnityEngine::UIElements::MaterialDefinition matDef) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(), { "PushRenderTexture", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parentEntry);
-}
-inline void UnityEngine::UIElements::UIR::EntryRecorder::BlitAndPopRenderTexture(::UnityEngine::UIElements::UIR::Entry* parentEntry) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
-                                                                                         { "BlitAndPopRenderTexture", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parentEntry);
-}
-inline void UnityEngine::UIElements::UIR::EntryRecorder::PushDefaultMaterial(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::UnityEngine::Material* material) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
-                                                           { "PushDefaultMaterial", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>(), ::i2c::type_of<::UnityEngine::Material*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parentEntry, material);
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
+                                       { "PushDefaultMaterial", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>(), ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parentEntry, matDef);
 }
 inline void UnityEngine::UIElements::UIR::EntryRecorder::PopDefaultMaterial(::UnityEngine::UIElements::UIR::Entry* parentEntry) {
   static auto* ___internal_method =

@@ -63,57 +63,57 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Equals, addr 0x668f334, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6a3bd20, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x668f2c8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a3bcb4, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method GetHashCode, addr 0x668f400, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6a3bdec, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x668f47c, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6a3be68, size 0x220, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x668f69c, size 0x236c, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x6a3c088, size 0x21c, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x668ded0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a3a8bc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::uint3 c0, ::Unity::Mathematics::uint3 c1);
 
-  /// @brief Method .ctor, addr 0x668dee4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a3a8d0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t m00, uint32_t m01, uint32_t m10, uint32_t m11, uint32_t m20, uint32_t m21);
 
-  /// @brief Method .ctor, addr 0x668df30, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a3a91c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::bool3x2 v);
 
-  /// @brief Method .ctor, addr 0x668e07c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a3aa68, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::double3x2 v);
 
-  /// @brief Method .ctor, addr 0x668dfc8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a3a9b4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float3x2 v);
 
-  /// @brief Method .ctor, addr 0x668df7c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a3a968, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::int3x2 v);
 
-  /// @brief Method .ctor, addr 0x668df10, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a3a8fc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(bool v);
 
-  /// @brief Method .ctor, addr 0x668e054, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a3aa40, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(double_t v);
 
-  /// @brief Method .ctor, addr 0x668dfa0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a3a98c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t v);
 
-  /// @brief Method .ctor, addr 0x668df60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a3a94c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(int32_t v);
 
-  /// @brief Method .ctor, addr 0x668def4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a3a8e0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t v);
 
   static inline ::Unity::Mathematics::uint3x2 getStaticF_zero();
 
-  /// @brief Method get_Item, addr 0x668f2bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6a3bca8, size 0xc, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Mathematics::uint3> get_Item(int32_t index);
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Mathematics::uint3x2>"
@@ -122,178 +122,178 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Addition, addr 0x668e3f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x6a3ade4, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Addition(::Unity::Mathematics::uint3x2 lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_Addition, addr 0x668e45c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x6a3ae48, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Addition(::Unity::Mathematics::uint3x2 lhs, uint32_t rhs);
 
-  /// @brief Method op_Addition, addr 0x668e49c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x6a3ae88, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Addition(uint32_t lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_BitwiseAnd, addr 0x668f070, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseAnd, addr 0x6a3ba5c, size 0x44, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_BitwiseAnd(::Unity::Mathematics::uint3x2 lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_BitwiseAnd, addr 0x668f0b4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseAnd, addr 0x6a3baa0, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_BitwiseAnd(::Unity::Mathematics::uint3x2 lhs, uint32_t rhs);
 
-  /// @brief Method op_BitwiseAnd, addr 0x668f0f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseAnd, addr 0x6a3bae0, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_BitwiseAnd(uint32_t lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_BitwiseOr, addr 0x668f134, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseOr, addr 0x6a3bb20, size 0x44, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_BitwiseOr(::Unity::Mathematics::uint3x2 lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_BitwiseOr, addr 0x668f178, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseOr, addr 0x6a3bb64, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_BitwiseOr(::Unity::Mathematics::uint3x2 lhs, uint32_t rhs);
 
-  /// @brief Method op_BitwiseOr, addr 0x668f1b8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseOr, addr 0x6a3bba4, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_BitwiseOr(uint32_t lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_Decrement, addr 0x668e80c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method op_Decrement, addr 0x6a3b1f8, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Decrement(::Unity::Mathematics::uint3x2 val);
 
-  /// @brief Method op_Division, addr 0x668e5c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x6a3afac, size 0x50, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Division(::Unity::Mathematics::uint3x2 lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_Division, addr 0x668e610, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x6a3affc, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Division(::Unity::Mathematics::uint3x2 lhs, uint32_t rhs);
 
-  /// @brief Method op_Division, addr 0x668e650, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x6a3b03c, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Division(uint32_t lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_Equality, addr 0x668ede4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6a3b7d0, size 0x80, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_Equality(::Unity::Mathematics::uint3x2 lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_Equality, addr 0x668ee64, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6a3b850, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_Equality(::Unity::Mathematics::uint3x2 lhs, uint32_t rhs);
 
-  /// @brief Method op_Equality, addr 0x668eeb8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6a3b8a4, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_Equality(uint32_t lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_ExclusiveOr, addr 0x668f1f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method op_ExclusiveOr, addr 0x6a3bbe4, size 0x44, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_ExclusiveOr(::Unity::Mathematics::uint3x2 lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_ExclusiveOr, addr 0x668f23c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_ExclusiveOr, addr 0x6a3bc28, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_ExclusiveOr(::Unity::Mathematics::uint3x2 lhs, uint32_t rhs);
 
-  /// @brief Method op_ExclusiveOr, addr 0x668f27c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_ExclusiveOr, addr 0x6a3bc68, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_ExclusiveOr(uint32_t lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_Explicit, addr 0x668e144, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x6a3ab30, size 0x30, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Explicit___Unity__Mathematics__uint3x2(::Unity::Mathematics::bool3x2 v);
 
-  /// @brief Method op_Explicit, addr 0x668e28c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x6a3ac78, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Explicit___Unity__Mathematics__uint3x2(::Unity::Mathematics::double3x2 v);
 
-  /// @brief Method op_Explicit, addr 0x668e1dc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x6a3abc8, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Explicit___Unity__Mathematics__uint3x2(::Unity::Mathematics::float3x2 v);
 
-  /// @brief Method op_Explicit, addr 0x668e190, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x6a3ab7c, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Explicit___Unity__Mathematics__uint3x2(::Unity::Mathematics::int3x2 v);
 
-  /// @brief Method op_Explicit, addr 0x668e124, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x6a3ab10, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Explicit___Unity__Mathematics__uint3x2(bool v);
 
-  /// @brief Method op_Explicit, addr 0x668e264, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x6a3ac50, size 0x28, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Explicit___Unity__Mathematics__uint3x2(double_t v);
 
-  /// @brief Method op_Explicit, addr 0x668e1b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x6a3aba0, size 0x28, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Explicit___Unity__Mathematics__uint3x2(float_t v);
 
-  /// @brief Method op_Explicit, addr 0x668e174, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x6a3ab60, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Explicit___Unity__Mathematics__uint3x2(int32_t v);
 
-  /// @brief Method op_GreaterThan, addr 0x668eab4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x6a3b4a0, size 0x78, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_GreaterThan(::Unity::Mathematics::uint3x2 lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_GreaterThan, addr 0x668eb2c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x6a3b518, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_GreaterThan(::Unity::Mathematics::uint3x2 lhs, uint32_t rhs);
 
-  /// @brief Method op_GreaterThan, addr 0x668eb80, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x6a3b56c, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_GreaterThan(uint32_t lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x668ebd4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x6a3b5c0, size 0x78, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_GreaterThanOrEqual(::Unity::Mathematics::uint3x2 lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x668ec4c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x6a3b638, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_GreaterThanOrEqual(::Unity::Mathematics::uint3x2 lhs, uint32_t rhs);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x668eca4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x6a3b690, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_GreaterThanOrEqual(uint32_t lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_Implicit, addr 0x668e108, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6a3aaf4, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Implicit___Unity__Mathematics__uint3x2(uint32_t v);
 
-  /// @brief Method op_Increment, addr 0x668e7ac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method op_Increment, addr 0x6a3b198, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Increment(::Unity::Mathematics::uint3x2 val);
 
-  /// @brief Method op_Inequality, addr 0x668ef0c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6a3b8f8, size 0x80, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_Inequality(::Unity::Mathematics::uint3x2 lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_Inequality, addr 0x668ef8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6a3b978, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_Inequality(::Unity::Mathematics::uint3x2 lhs, uint32_t rhs);
 
-  /// @brief Method op_Inequality, addr 0x668efe4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6a3b9d0, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_Inequality(uint32_t lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_LeftShift, addr 0x668ed64, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_LeftShift, addr 0x6a3b750, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_LeftShift(::Unity::Mathematics::uint3x2 x, int32_t n);
 
-  /// @brief Method op_LessThan, addr 0x668e86c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x6a3b258, size 0x78, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_LessThan(::Unity::Mathematics::uint3x2 lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_LessThan, addr 0x668e8e4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x6a3b2d0, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_LessThan(::Unity::Mathematics::uint3x2 lhs, uint32_t rhs);
 
-  /// @brief Method op_LessThan, addr 0x668e938, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x6a3b324, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_LessThan(uint32_t lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_LessThanOrEqual, addr 0x668e98c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method op_LessThanOrEqual, addr 0x6a3b378, size 0x78, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_LessThanOrEqual(::Unity::Mathematics::uint3x2 lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_LessThanOrEqual, addr 0x668ea04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_LessThanOrEqual, addr 0x6a3b3f0, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_LessThanOrEqual(::Unity::Mathematics::uint3x2 lhs, uint32_t rhs);
 
-  /// @brief Method op_LessThanOrEqual, addr 0x668ea5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_LessThanOrEqual, addr 0x6a3b448, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3x2 op_LessThanOrEqual(uint32_t lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_Modulus, addr 0x668e690, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Modulus, addr 0x6a3b07c, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Modulus(::Unity::Mathematics::uint3x2 lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_Modulus, addr 0x668e6fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Modulus, addr 0x6a3b0e8, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Modulus(::Unity::Mathematics::uint3x2 lhs, uint32_t rhs);
 
-  /// @brief Method op_Modulus, addr 0x668e754, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Modulus, addr 0x6a3b140, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Modulus(uint32_t lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_Multiply, addr 0x668e314, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x6a3ad00, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Multiply(::Unity::Mathematics::uint3x2 lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_Multiply, addr 0x668e378, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x6a3ad64, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Multiply(::Unity::Mathematics::uint3x2 lhs, uint32_t rhs);
 
-  /// @brief Method op_Multiply, addr 0x668e3b8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x6a3ada4, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Multiply(uint32_t lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_OnesComplement, addr 0x668f03c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_OnesComplement, addr 0x6a3ba28, size 0x34, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_OnesComplement(::Unity::Mathematics::uint3x2 val);
 
-  /// @brief Method op_RightShift, addr 0x668eda4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_RightShift, addr 0x6a3b790, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_RightShift(::Unity::Mathematics::uint3x2 x, int32_t n);
 
-  /// @brief Method op_Subtraction, addr 0x668e4dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x6a3aec8, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Subtraction(::Unity::Mathematics::uint3x2 lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_Subtraction, addr 0x668e540, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x6a3af2c, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Subtraction(::Unity::Mathematics::uint3x2 lhs, uint32_t rhs);
 
-  /// @brief Method op_Subtraction, addr 0x668e580, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x6a3af6c, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_Subtraction(uint32_t lhs, ::Unity::Mathematics::uint3x2 rhs);
 
-  /// @brief Method op_UnaryNegation, addr 0x668ecfc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method op_UnaryNegation, addr 0x6a3b6e8, size 0x44, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_UnaryNegation(::Unity::Mathematics::uint3x2 val);
 
-  /// @brief Method op_UnaryPlus, addr 0x668ed40, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_UnaryPlus, addr 0x6a3b72c, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3x2 op_UnaryPlus(::Unity::Mathematics::uint3x2 val);
 
   static inline void setStaticF_zero(::Unity::Mathematics::uint3x2 value);
@@ -307,7 +307,7 @@ public:
   constexpr uint3x2(::Unity::Mathematics::uint3 c0, ::Unity::Mathematics::uint3 c1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13448 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

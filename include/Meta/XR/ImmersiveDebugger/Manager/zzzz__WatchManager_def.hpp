@@ -83,14 +83,14 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::WatchManager___c* New_ctor();
 
-  /// @brief Method <ProcessType>b__4_0, addr 0x5a695d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ProcessType>b__4_0, addr 0x5e81310, size 0x8, virtual false, abstract: false, final false
   inline bool _ProcessType_b__4_0(::System::Reflection::MemberInfo* info, ::Meta::XR::ImmersiveDebugger::DebugMember* _);
 
-  /// @brief Method <ProcessType>b__4_1, addr 0x5a695e0, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method <ProcessType>b__4_1, addr 0x5e81318, size 0x2c8, virtual false, abstract: false, final false
   inline void _ProcessType_b__4_1(::Meta::XR::ImmersiveDebugger::UserInterface::IMember* memberController, ::System::Reflection::MemberInfo* member,
                                   ::Meta::XR::ImmersiveDebugger::DebugMember* attribute, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instance);
 
-  /// @brief Method .ctor, addr 0x5a695d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e8130c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::WatchManager___c* getStaticF___9();
@@ -120,7 +120,7 @@ public:
   WatchManager___c(WatchManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18998 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -152,25 +152,25 @@ public:
   /// @brief Convert operator to "::Meta::XR::ImmersiveDebugger::Manager::IDebugManager"
   constexpr operator ::Meta::XR::ImmersiveDebugger::Manager::IDebugManager*() noexcept;
 
-  /// @brief Method GetCountPerType, addr 0x5a69450, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method GetCountPerType, addr 0x5e81188, size 0x98, virtual true, abstract: false, final true
   inline int32_t GetCountPerType(::System::Type* type);
 
-  /// @brief Method IsMemberValidForWatch, addr 0x5a67b78, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method IsMemberValidForWatch, addr 0x5e7f8b0, size 0x144, virtual false, abstract: false, final false
   static inline bool IsMemberValidForWatch(::System::Reflection::MemberInfo* member);
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::WatchManager* New_ctor();
 
-  /// @brief Method ProcessType, addr 0x5a68f84, size 0x418, virtual true, abstract: false, final true
+  /// @brief Method ProcessType, addr 0x5e80cbc, size 0x418, virtual true, abstract: false, final true
   inline void ProcessType(::System::Type* type);
 
-  /// @brief Method ProcessTypeFromHierarchy, addr 0x5a693d4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method ProcessTypeFromHierarchy, addr 0x5e8110c, size 0x38, virtual true, abstract: false, final true
   inline void ProcessTypeFromHierarchy(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* item, ::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method ProcessTypeFromInspector, addr 0x5a6939c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method ProcessTypeFromInspector, addr 0x5e810d4, size 0x38, virtual true, abstract: false, final true
   inline void ProcessTypeFromInspector(::System::Type* type, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle handle, ::System::Reflection::MemberInfo* memberInfo,
                                        ::Meta::XR::ImmersiveDebugger::DebugMember* memberAttribute);
 
-  /// @brief Method Setup, addr 0x5a68f7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Setup, addr 0x5e80cb4, size 0x8, virtual true, abstract: false, final true
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* panel, ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* cache);
 
   constexpr ::System::Collections::Generic::Dictionary_2<
@@ -197,10 +197,10 @@ public:
 
   constexpr void __cordl_internal_set__uiPanel(::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* value);
 
-  /// @brief Method .ctor, addr 0x5a694e8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e81220, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TelemetryAnnotation, addr 0x5a6940c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_TelemetryAnnotation, addr 0x5e81144, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_TelemetryAnnotation();
 
   /// @brief Convert to "::Meta::XR::ImmersiveDebugger::Manager::IDebugManager"
@@ -221,7 +221,7 @@ public:
   WatchManager(WatchManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18999 };
 
   /// @brief Field WatchesDict, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<

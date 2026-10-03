@@ -131,7 +131,7 @@ public:
 
   static inline ::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method <UnlockAchievement>b__0, addr 0x5f35298, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <UnlockAchievement>b__0, addr 0x63508fc, size 0x10, virtual false, abstract: false, final false
   inline bool _UnlockAchievement_b__0(::StringW x);
 
   constexpr ::StringW const& __cordl_internal_get_achievementId() const;
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set_achievementId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5f350c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x635072c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -158,7 +158,7 @@ public:
   PlatformUser___c__DisplayClass17_0(PlatformUser___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22944 };
 
   /// @brief Field achievementId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___achievementId;
@@ -184,10 +184,10 @@ public:
 
   static inline ::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <IsAchievementUnlockedAsync>b__0, addr 0x5f352ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <IsAchievementUnlockedAsync>b__0, addr 0x6350910, size 0x10, virtual false, abstract: false, final false
   inline bool _IsAchievementUnlockedAsync_b__0(::StringW x);
 
-  /// @brief Method <IsAchievementUnlockedAsync>b__1, addr 0x5f352bc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <IsAchievementUnlockedAsync>b__1, addr 0x6350920, size 0x40, virtual false, abstract: false, final false
   inline bool _IsAchievementUnlockedAsync_b__1(::Oculus::Platform::Models::AchievementProgress* x);
 
   constexpr ::StringW const& __cordl_internal_get_achievementId() const;
@@ -196,7 +196,7 @@ public:
 
   constexpr void __cordl_internal_set_achievementId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5f352a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x635090c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -214,7 +214,7 @@ public:
   PlatformUser___c__DisplayClass18_0(PlatformUser___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22945 };
 
   /// @brief Field achievementId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___achievementId;
@@ -238,11 +238,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f352fc, size 0x314, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6350960, size 0x314, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f35610, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6350c74, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -260,7 +260,7 @@ public:
                                                     ::OculusStudios::Platform::Oculus::PlatformUser* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22946 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -302,11 +302,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f35690, size 0x38c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6350cf4, size 0x38c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f35a1c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6351080, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -324,7 +324,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22947 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -361,11 +361,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f35a9c, size 0x6e4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6351100, size 0x6e4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f36180, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x63517e4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -385,7 +385,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22948 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -427,11 +427,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f36200, size 0x784, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6351864, size 0x784, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f36984, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6351fe8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -454,7 +454,7 @@ public:
                                                             ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22949 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -511,11 +511,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f36a04, size 0x51c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6352068, size 0x51c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f36f20, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6352584, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -536,7 +536,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22950 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -622,41 +622,41 @@ public:
   /// @brief Convert operator to "::OculusStudios::Platform::Core::IPlatformUser"
   constexpr operator ::OculusStudios::Platform::Core::IPlatformUser*() noexcept;
 
-  /// @brief Method FlushAchievements, addr 0x5f35294, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method FlushAchievements, addr 0x63508f8, size 0x4, virtual true, abstract: false, final true
   inline void FlushAchievements();
 
   /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<GetAccessTokenAsync>d__11))]
-  /// @brief Method GetAccessTokenAsync, addr 0x5f34cdc, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method GetAccessTokenAsync, addr 0x6350340, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetAccessTokenAsync();
 
   /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<GetAgeCategoryAsync>d__15))]
-  /// @brief Method GetAgeCategoryAsync, addr 0x5f34ea4, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method GetAgeCategoryAsync, addr 0x6350508, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::UserAgeCategory>* GetAgeCategoryAsync();
 
-  /// @brief Method GetAllAchievementIds, addr 0x5f34f7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetAllAchievementIds, addr 0x63505e0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::StringW>* GetAllAchievementIds();
 
-  /// @brief Method GetLocale, addr 0x5f34e9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetLocale, addr 0x6350500, size 0x8, virtual true, abstract: false, final true
   inline ::StringW GetLocale();
 
   /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<GetUnlockedAchievementIdsAsync>d__19))]
-  /// @brief Method GetUnlockedAchievementIdsAsync, addr 0x5f351b8, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method GetUnlockedAchievementIdsAsync, addr 0x635081c, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyCollection_1<::StringW>*>* GetUnlockedAchievementIdsAsync();
 
-  /// @brief Method GetXPlatformAccessTokenAsync, addr 0x5f34e98, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetXPlatformAccessTokenAsync, addr 0x63504fc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetXPlatformAccessTokenAsync(bool skipCache);
 
   /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<InternalGetAccessTokenAsync>d__12))]
-  /// @brief Method InternalGetAccessTokenAsync, addr 0x5f34db8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method InternalGetAccessTokenAsync, addr 0x635041c, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* InternalGetAccessTokenAsync();
 
   /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<IsAchievementUnlockedAsync>d__18))]
-  /// @brief Method IsAchievementUnlockedAsync, addr 0x5f350cc, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method IsAchievementUnlockedAsync, addr 0x6350730, size 0xec, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsAchievementUnlockedAsync(::StringW achievementId);
 
   static inline ::OculusStudios::Platform::Oculus::PlatformUser* New_ctor(::OculusStudios::Platform::Core::PlatformInitParams* initParams, ::Oculus::Platform::Models::User* user);
 
-  /// @brief Method UnlockAchievement, addr 0x5f34f84, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method UnlockAchievement, addr 0x63505e8, size 0x144, virtual true, abstract: false, final true
   inline void UnlockAchievement(::StringW achievementId);
 
   constexpr ::StringW const& __cordl_internal_get_accessToken() const;
@@ -689,13 +689,13 @@ public:
 
   constexpr void __cordl_internal_set_user(::Oculus::Platform::Models::User* value);
 
-  /// @brief Method .ctor, addr 0x5f33a30, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x634f094, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::Platform::Core::PlatformInitParams* initParams, ::Oculus::Platform::Models::User* user);
 
-  /// @brief Method get_displayName, addr 0x5f34cb8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_displayName, addr 0x635031c, size 0x24, virtual true, abstract: false, final true
   inline ::StringW get_displayName();
 
-  /// @brief Method get_userId, addr 0x5f34ca0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_userId, addr 0x6350304, size 0x18, virtual true, abstract: false, final true
   inline uint64_t get_userId();
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IPlatformUser"
@@ -716,7 +716,7 @@ public:
   PlatformUser(PlatformUser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22150 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22951 };
 
   /// @brief Field kCancelCheckUserAgeRequestTimeoutSeconds offset 0xffffffff size 0x4
   static constexpr float_t kCancelCheckUserAgeRequestTimeoutSeconds{ static_cast<float_t>(5.0f) };

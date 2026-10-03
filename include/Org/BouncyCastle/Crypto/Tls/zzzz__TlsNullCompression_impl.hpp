@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Crypto::Tls::TlsNullCompression::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsNullCompression::Compress)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3488df8;
+  constexpr static std::size_t addrs = 0x3712094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::TlsNullCompression*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Crypto::Tls::TlsNullCompression::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsNullCompression::Decompress)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3488e00;
+  constexpr static std::size_t addrs = 0x371209c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::TlsNullCompression*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsNullCompression::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsNullCompression::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3488e08;
+  constexpr static std::size_t addrs = 0x37120a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::TlsNullCompression*>(), { ".ctor", {}, {} })));

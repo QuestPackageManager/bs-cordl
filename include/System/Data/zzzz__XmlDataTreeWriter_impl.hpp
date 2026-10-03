@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataTreeWriter::*)(::System::Data::DataSet*)>(&::System::Data::XmlDataTreeWriter::_ctor)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x607e708;
+  constexpr static std::size_t addrs = 0x649aba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataTreeWriter::*)(::System::Data::DataTable*, bool)>(&::System::Data::XmlDataTreeWriter::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x607df30;
+  constexpr static std::size_t addrs = 0x649a3c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataTable*> (::System::Data::XmlDataTreeWriter::*)()>(&::System::Data::XmlDataTreeWriter::CreateToplevelTables)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x60805bc;
+  constexpr static std::size_t addrs = 0x649ca54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::XmlDataTreeWriter*>(), { "CreateToplevelTables", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataTreeWriter::*)(::System::Data::DataTable*)>(&::System::Data::XmlDataTreeWriter::CreateTablesHierarchy)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x6080264;
+  constexpr static std::size_t addrs = 0x649c6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::DataRow*)>(&::System::Data::XmlDataTreeWriter::RowHasErrors)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x607f730;
+  constexpr static std::size_t addrs = 0x649bbc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataTreeWriter::*)(::System::Xml::XmlWriter*, ::System::Collections::Hashtable*)>(
     &::System::Data::XmlDataTreeWriter::SaveDiffgramData)> {
   constexpr static std::size_t size = 0x690;
-  constexpr static std::size_t addrs = 0x607e078;
+  constexpr static std::size_t addrs = 0x649a510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataTreeWriter::*)(::System::Xml::XmlWriter*, bool)>(&::System::Data::XmlDataTreeWriter::Save)> {
   constexpr static std::size_t size = 0x8d4;
-  constexpr static std::size_t addrs = 0x608229c;
+  constexpr static std::size_t addrs = 0x649e734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Data::XmlDataTreeWriter::*)(::System::Data::DataRow*)>(
     &::System::Data::XmlDataTreeWriter::GetNestedChildRelations)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x6082b70;
+  constexpr static std::size_t addrs = 0x649f008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataTreeWriter::*)(::System::Data::DataRow*, ::StringW)>(&::System::Data::XmlDataTreeWriter::XmlDataRowWriter)> {
   constexpr static std::size_t size = 0x19e8;
-  constexpr static std::size_t addrs = 0x60808b4;
+  constexpr static std::size_t addrs = 0x649cd4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::XmlDataTreeWriter*>(),
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*)>(&::System::Data::XmlDataTreeWriter::PreserveSpace)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x60801d4;
+  constexpr static std::size_t addrs = 0x649c66c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

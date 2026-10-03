@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, void*)>(&::Unity::Burst::CompilerServices::Aliasing::ExpectAliased)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64a75f8;
+  constexpr static std::size_t addrs = 0x68cfd4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, void*)>(&::Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64a75fc;
+  constexpr static std::size_t addrs = 0x68cfd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

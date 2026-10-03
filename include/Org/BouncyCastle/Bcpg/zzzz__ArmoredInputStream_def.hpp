@@ -76,50 +76,50 @@ public:
   /// @brief Field start, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_start, put = __cordl_internal_set_start)) bool start;
 
-  /// @brief Method Close, addr 0x36973ac, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3920648, size 0x84, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Decode, addr 0x3696154, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x391f3f0, size 0x254, virtual false, abstract: false, final false
   inline int32_t Decode(int32_t in0, int32_t in1, int32_t in2, int32_t in3, ::ArrayW<int32_t> result);
 
-  /// @brief Method DoReadByte, addr 0x3696e5c, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method DoReadByte, addr 0x39200f8, size 0x29c, virtual false, abstract: false, final false
   inline int32_t DoReadByte();
 
-  /// @brief Method GetArmorHeaderLine, addr 0x3696954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetArmorHeaderLine, addr 0x391fbf0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetArmorHeaderLine();
 
-  /// @brief Method GetArmorHeaders, addr 0x369695c, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method GetArmorHeaders, addr 0x391fbf8, size 0x234, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> GetArmorHeaders();
 
-  /// @brief Method IsClearText, addr 0x3696944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsClearText, addr 0x391fbe0, size 0x8, virtual false, abstract: false, final false
   inline bool IsClearText();
 
-  /// @brief Method IsEndOfStream, addr 0x369694c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsEndOfStream, addr 0x391fbe8, size 0x8, virtual false, abstract: false, final false
   inline bool IsEndOfStream();
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredInputStream* New_ctor(::System::IO::Stream* input);
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredInputStream* New_ctor(::System::IO::Stream* input, bool hasHeaders);
 
-  /// @brief Method ParseHeaders, addr 0x36964e0, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method ParseHeaders, addr 0x391f77c, size 0x464, virtual false, abstract: false, final false
   inline bool ParseHeaders();
 
-  /// @brief Method Read, addr 0x36971d4, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3920470, size 0x1d8, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x36970f8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x3920394, size 0x98, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method ReadByteClearText, addr 0x3696c30, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReadByteClearText, addr 0x391fecc, size 0xd8, virtual false, abstract: false, final false
   inline int32_t ReadByteClearText();
 
-  /// @brief Method ReadClearText, addr 0x3696d08, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ReadClearText, addr 0x391ffa4, size 0x154, virtual false, abstract: false, final false
   inline int32_t ReadClearText(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadIgnoreSpace, addr 0x3696b90, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ReadIgnoreSpace, addr 0x391fe2c, size 0x40, virtual false, abstract: false, final false
   inline int32_t ReadIgnoreSpace();
 
-  /// @brief Method ReadIgnoreWhitespace, addr 0x3696bd0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadIgnoreWhitespace, addr 0x391fe6c, size 0x60, virtual false, abstract: false, final false
   inline int32_t ReadIgnoreWhitespace();
 
   constexpr int32_t const& __cordl_internal_get_bufPtr() const;
@@ -206,10 +206,10 @@ public:
 
   constexpr void __cordl_internal_set_start(bool value);
 
-  /// @brief Method .ctor, addr 0x36963a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x391f644, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x36963b0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x391f64c, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input, bool hasHeaders);
 
   static inline ::ArrayW<uint8_t> getStaticF_decodingTable();

@@ -75,9 +75,6 @@ public:
   /// @brief Field enableMemoryTracker, offset 0xd0, size 0x1
   __declspec(property(get = __cordl_internal_get_enableMemoryTracker, put = __cordl_internal_set_enableMemoryTracker)) bool enableMemoryTracker;
 
-  /// @brief Field forceGameLiftServerEnvironment, offset 0xc1, size 0x1
-  __declspec(property(get = __cordl_internal_get_forceGameLiftServerEnvironment, put = __cordl_internal_set_forceGameLiftServerEnvironment)) bool forceGameLiftServerEnvironment;
-
   /// @brief Field language, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language)) ::StringW language;
 
@@ -174,7 +171,7 @@ public:
   /// @brief Field windowResolutionWidth, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get_windowResolutionWidth, put = __cordl_internal_set_windowResolutionWidth)) int32_t windowResolutionWidth;
 
-  /// @brief Method ApplyTo, addr 0x32c6050, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x3551af4, size 0x144, virtual false, abstract: false, final false
   inline void ApplyTo(::by_ref<::BeatSaber::Settings::Settings> settings);
 
   static inline ::BeatSaber::Settings::LegacySettingsV1* New_ctor();
@@ -242,10 +239,6 @@ public:
   constexpr bool const& __cordl_internal_get_enableMemoryTracker() const;
 
   constexpr bool& __cordl_internal_get_enableMemoryTracker();
-
-  constexpr bool const& __cordl_internal_get_forceGameLiftServerEnvironment() const;
-
-  constexpr bool& __cordl_internal_get_forceGameLiftServerEnvironment();
 
   constexpr ::StringW const& __cordl_internal_get_language() const;
 
@@ -407,8 +400,6 @@ public:
 
   constexpr void __cordl_internal_set_enableMemoryTracker(bool value);
 
-  constexpr void __cordl_internal_set_forceGameLiftServerEnvironment(bool value);
-
   constexpr void __cordl_internal_set_language(::StringW value);
 
   constexpr void __cordl_internal_set_mainEffectGraphicsSettings(int32_t value);
@@ -473,7 +464,7 @@ public:
 
   constexpr void __cordl_internal_set_windowResolutionWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x32c619c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3551c38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -491,7 +482,7 @@ public:
   LegacySettingsV1(LegacySettingsV1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22858 };
 
   /// @brief Field roomCenterX, offset: 0x10, size: 0x4, def value: None
   float_t ___roomCenterX;
@@ -625,9 +616,6 @@ public:
   /// @brief Field useCustomServerEnvironment, offset: 0xc0, size: 0x1, def value: None
   bool ___useCustomServerEnvironment;
 
-  /// @brief Field forceGameLiftServerEnvironment, offset: 0xc1, size: 0x1, def value: None
-  bool ___forceGameLiftServerEnvironment;
-
   /// @brief Field customServerHostName, offset: 0xc8, size: 0x8, def value: None
   ::StringW ___customServerHostName;
 
@@ -730,8 +718,6 @@ static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV1, ___windowResolut
 static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV1, ___windowResolutionHeight) == 0xbc, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV1, ___useCustomServerEnvironment) == 0xc0, "Offset mismatch!");
-
-static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV1, ___forceGameLiftServerEnvironment) == 0xc1, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV1, ___customServerHostName) == 0xc8, "Offset mismatch!");
 

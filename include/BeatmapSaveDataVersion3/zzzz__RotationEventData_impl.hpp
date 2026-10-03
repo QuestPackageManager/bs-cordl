@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::ExecutionTime (::BeatmapSaveDataVersion3::RotationEventData::*)()>(
     &::BeatmapSaveDataVersion3::RotationEventData::get_executionTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375f664;
+  constexpr static std::size_t addrs = 0x39e8d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::RotationEventData*>(), { "get_executionTime", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::RotationEventData::*)()>(&::BeatmapSaveDataVersion3::RotationEventData::get_rotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375f66c;
+  constexpr static std::size_t addrs = 0x39e8d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::RotationEventData*>(), { "get_rotation", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::RotationEventData::*)(float_t, ::BeatmapSaveDataCommon::ExecutionTime, float_t)>(
     &::BeatmapSaveDataVersion3::RotationEventData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x375f674;
+  constexpr static std::size_t addrs = 0x39e8d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

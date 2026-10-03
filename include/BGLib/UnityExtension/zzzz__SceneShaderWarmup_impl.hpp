@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8::*)(int32_t)>(
     &::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33292ac;
+  constexpr static std::size_t addrs = 0x35b2530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8::*)()>(
     &::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x332958c;
+  constexpr static std::size_t addrs = 0x35b2810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8::*)()>(
     &::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x142c;
-  constexpr static std::size_t addrs = 0x3329590;
+  constexpr static std::size_t addrs = 0x35b2814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8::*)()>(
     &::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332a9bc;
+  constexpr static std::size_t addrs = 0x35b3c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8*>(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8::*)()>(
     &::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x332a9c4;
+  constexpr static std::size_t addrs = 0x35b3c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8::*)()>(
     &::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332a9fc;
+  constexpr static std::size_t addrs = 0x35b3c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BGLib::UnityExtension::SceneShaderWarmup::Initialize)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x332919c;
+  constexpr static std::size_t addrs = 0x35b2420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::SceneShaderWarmup*>(), { "Initialize", {}, {} })));
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (*)()>(&::BGLib::UnityExtension::SceneShaderWarmup::WarmupShaders)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3329260;
+  constexpr static std::size_t addrs = 0x35b24e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::SceneShaderWarmup*>(), { "WarmupShaders", {}, {} })));
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::BGLib::UnityExtension::SceneShaderWarmup::Log)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x33292b4;
+  constexpr static std::size_t addrs = 0x35b2538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

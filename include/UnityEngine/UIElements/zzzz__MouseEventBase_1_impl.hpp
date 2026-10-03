@@ -1,9 +1,12 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/MouseEventBase_1.hpp"
+#include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
+#include "UnityEngine/zzzz__Ray_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IMouseEventInternal_def.hpp"
@@ -13,6 +16,7 @@
 #include "UnityEngine/UIElements/zzzz__IPointerOrMouseEvent_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/zzzz__Ray_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 template <typename T> constexpr ::UnityEngine::EventModifiers& UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_get__modifiers_k__BackingField() {
@@ -99,35 +103,41 @@ template <typename T> constexpr void UnityEngine::UIElements::MouseEventBase_1<T
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressedButtons_k__BackingField = value;
 }
-template <typename T> constexpr bool& UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField() {
+template <typename T> constexpr ::UnityEngine::UIElements::IPointerEvent*& UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_get__sourcePointerEvent_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField;
+  return this->____sourcePointerEvent_k__BackingField;
 }
-template <typename T> constexpr bool const& UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField() const {
+template <typename T> constexpr ::UnityEngine::UIElements::IPointerEvent* const& UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_get__sourcePointerEvent_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField;
+  return this->____sourcePointerEvent_k__BackingField;
 }
-template <typename T> constexpr void UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_set__UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField(bool value) {
+template <typename T> constexpr void UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_set__sourcePointerEvent_k__BackingField(::UnityEngine::UIElements::IPointerEvent* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField = value;
+  this->____sourcePointerEvent_k__BackingField = value;
 }
-template <typename T>
-constexpr ::UnityEngine::UIElements::IPointerEvent*&
-UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField() {
+template <typename T> constexpr bool& UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_get__recomputeTopElementUnderMouse_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField;
+  return this->____recomputeTopElementUnderMouse_k__BackingField;
 }
-template <typename T>
-constexpr ::UnityEngine::UIElements::IPointerEvent* const&
-UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField() const {
+template <typename T> constexpr bool const& UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_get__recomputeTopElementUnderMouse_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField;
+  return this->____recomputeTopElementUnderMouse_k__BackingField;
 }
-template <typename T>
-constexpr void
-UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_set__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField(::UnityEngine::UIElements::IPointerEvent* value) {
+template <typename T> constexpr void UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_set__recomputeTopElementUnderMouse_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField = value;
+  this->____recomputeTopElementUnderMouse_k__BackingField = value;
+}
+template <typename T> constexpr ::System::Nullable_1<::UnityEngine::Ray>& UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_get__panelRay_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____panelRay_k__BackingField;
+}
+template <typename T> constexpr ::System::Nullable_1<::UnityEngine::Ray> const& UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_get__panelRay_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____panelRay_k__BackingField;
+}
+template <typename T> constexpr void UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_set__panelRay_k__BackingField(::System::Nullable_1<::UnityEngine::Ray> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____panelRay_k__BackingField = value;
 }
 template <typename T> inline ::UnityEngine::EventModifiers UnityEngine::UIElements::MouseEventBase_1<T>::get_modifiers() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(), { "get_modifiers", {}, {} })));
@@ -192,14 +202,41 @@ template <typename T> inline void UnityEngine::UIElements::MouseEventBase_1<T>::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(), { "set_pressedButtons", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T> inline bool UnityEngine::UIElements::MouseEventBase_1<T>::UnityEngine_UIElements_IMouseEventInternal_get_triggeredByOS() {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(), { "UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS", {}, {} })));
+template <typename T> inline bool UnityEngine::UIElements::MouseEventBase_1<T>::get_ctrlKey() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(), { "get_ctrlKey", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::UIElements::MouseEventBase_1<T>::UnityEngine_UIElements_IMouseEventInternal_set_triggeredByOS(bool value) {
+template <typename T> inline bool UnityEngine::UIElements::MouseEventBase_1<T>::get_commandKey() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(), { "get_commandKey", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template <typename T> inline ::UnityEngine::UIElements::IPointerEvent* UnityEngine::UIElements::MouseEventBase_1<T>::get_sourcePointerEvent() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(), { "get_sourcePointerEvent", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IPointerEvent*>(this, ___internal_method);
+}
+template <typename T> inline void UnityEngine::UIElements::MouseEventBase_1<T>::set_sourcePointerEvent(::UnityEngine::UIElements::IPointerEvent* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(),
-                                                                                         { "UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS", {}, { ::i2c::type_of<bool>() } })));
+                                                                                         { "set_sourcePointerEvent", {}, { ::i2c::type_of<::UnityEngine::UIElements::IPointerEvent*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+template <typename T> inline bool UnityEngine::UIElements::MouseEventBase_1<T>::get_recomputeTopElementUnderMouse() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(), { "get_recomputeTopElementUnderMouse", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template <typename T> inline void UnityEngine::UIElements::MouseEventBase_1<T>::set_recomputeTopElementUnderMouse(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(), { "set_recomputeTopElementUnderMouse", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+template <typename T> inline ::System::Nullable_1<::UnityEngine::Ray> UnityEngine::UIElements::MouseEventBase_1<T>::get_panelRay() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(), { "get_panelRay", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::UnityEngine::Ray>>(this, ___internal_method);
+}
+template <typename T> inline void UnityEngine::UIElements::MouseEventBase_1<T>::set_panelRay(::System::Nullable_1<::UnityEngine::Ray> value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(), { "set_panelRay", {}, { ::i2c::type_of<::System::Nullable_1<::UnityEngine::Ray>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename T> inline ::UnityEngine::UIElements::IPointerEvent* UnityEngine::UIElements::MouseEventBase_1<T>::UnityEngine_UIElements_IMouseEventInternal_get_sourcePointerEvent() {
@@ -207,21 +244,21 @@ template <typename T> inline ::UnityEngine::UIElements::IPointerEvent* UnityEngi
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(), { "UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IPointerEvent*>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::UIElements::MouseEventBase_1<T>::UnityEngine_UIElements_IMouseEventInternal_set_sourcePointerEvent(::UnityEngine::UIElements::IPointerEvent* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(),
-                                              { "UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent", {}, { ::i2c::type_of<::UnityEngine::UIElements::IPointerEvent*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-template <typename T> inline int32_t UnityEngine::UIElements::MouseEventBase_1<T>::UnityEngine_UIElements_IPointerOrMouseEvent_get_pointerId() {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(), { "UnityEngine.UIElements.IPointerOrMouseEvent.get_pointerId", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
-}
 template <typename T> inline ::UnityEngine::Vector3 UnityEngine::UIElements::MouseEventBase_1<T>::UnityEngine_UIElements_IPointerOrMouseEvent_get_position() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(), { "UnityEngine.UIElements.IPointerOrMouseEvent.get_position", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
+}
+template <typename T> inline void UnityEngine::UIElements::MouseEventBase_1<T>::UnityEngine_UIElements_IPointerOrMouseEvent_set_deltaPosition(::UnityEngine::Vector3 value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(),
+                                                           { "UnityEngine.UIElements.IPointerOrMouseEvent.set_deltaPosition", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+template <typename T> inline ::System::Nullable_1<::UnityEngine::Ray> UnityEngine::UIElements::MouseEventBase_1<T>::UnityEngine_UIElements_IPointerOrMouseEvent_get_panelRay() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseEventBase_1<T>*>(), { "UnityEngine.UIElements.IPointerOrMouseEvent.get_panelRay", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::UnityEngine::Ray>>(this, ___internal_method);
 }
 template <typename T> inline void UnityEngine::UIElements::MouseEventBase_1<T>::Init() {
   auto* ___internal_method =

@@ -35,14 +35,14 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x5bf3f08, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x600c1d0, size 0xc0, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// [CLSCompliant(false)]
-  /// @brief Method .ctor, addr 0x5bf3ef4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x600c1bc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* pointer, ::System::Runtime::InteropServices::GCHandle handle, ::System::Buffers::IPinnable* pinnable);
 
-  /// @brief Method get_Pointer, addr 0x5bf3f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pointer, addr 0x600c1c8, size 0x8, virtual false, abstract: false, final false
   inline void* get_Pointer();
 
   /// @brief Convert to "::System::IDisposable"
@@ -57,7 +57,7 @@ public:
   constexpr MemoryHandle(void* _pointer, ::System::Runtime::InteropServices::GCHandle _handle, ::System::Buffers::IPinnable* _pinnable) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3824 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

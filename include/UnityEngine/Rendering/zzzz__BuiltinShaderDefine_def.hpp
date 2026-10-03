@@ -56,11 +56,13 @@ public:
     __E_UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION = static_cast<int32_t>(0x1d),
     __E_UNITY_ASTC_NORMALMAP_ENCODING = static_cast<int32_t>(0x1e),
     __E_SHADER_API_GLES30 = static_cast<int32_t>(0x1f),
-    __E_UNITY_UNIFIED_SHADER_PRECISION_MODEL = static_cast<int32_t>(0x20),
-    __E_UNITY_PLATFORM_SUPPORTS_WAVE_32 = static_cast<int32_t>(0x21),
-    __E_UNITY_PLATFORM_SUPPORTS_WAVE_64 = static_cast<int32_t>(0x22),
-    __E_UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK = static_cast<int32_t>(0x23),
-    __E_UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH = static_cast<int32_t>(0x24),
+    __E_SHADER_API_GLES31 = static_cast<int32_t>(0x20),
+    __E_SHADER_API_GLES32 = static_cast<int32_t>(0x21),
+    __E_UNITY_UNIFIED_SHADER_PRECISION_MODEL = static_cast<int32_t>(0x22),
+    __E_UNITY_PLATFORM_SUPPORTS_WAVE_32 = static_cast<int32_t>(0x23),
+    __E_UNITY_PLATFORM_SUPPORTS_WAVE_64 = static_cast<int32_t>(0x24),
+    __E_UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK = static_cast<int32_t>(0x25),
+    __E_UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH = static_cast<int32_t>(0x26),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -85,6 +87,12 @@ public:
 
   /// @brief Field SHADER_API_GLES30 value: I32(31)
   static ::UnityEngine::Rendering::BuiltinShaderDefine const SHADER_API_GLES30;
+
+  /// @brief Field SHADER_API_GLES31 value: I32(32)
+  static ::UnityEngine::Rendering::BuiltinShaderDefine const SHADER_API_GLES31;
+
+  /// @brief Field SHADER_API_GLES32 value: I32(33)
+  static ::UnityEngine::Rendering::BuiltinShaderDefine const SHADER_API_GLES32;
 
   /// @brief Field SHADER_API_MOBILE value: I32(17)
   static ::UnityEngine::Rendering::BuiltinShaderDefine const SHADER_API_MOBILE;
@@ -134,7 +142,7 @@ public:
   /// @brief Field UNITY_METAL_SHADOWS_USE_POINT_FILTERING value: I32(6)
   static ::UnityEngine::Rendering::BuiltinShaderDefine const UNITY_METAL_SHADOWS_USE_POINT_FILTERING;
 
-  /// @brief Field UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK value: I32(35)
+  /// @brief Field UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK value: I32(37)
   static ::UnityEngine::Rendering::BuiltinShaderDefine const UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK;
 
   /// @brief Field UNITY_NO_CUBEMAP_ARRAY value: I32(7)
@@ -161,13 +169,13 @@ public:
   /// @brief Field UNITY_PBS_USE_BRDF3 value: I32(12)
   static ::UnityEngine::Rendering::BuiltinShaderDefine const UNITY_PBS_USE_BRDF3;
 
-  /// @brief Field UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH value: I32(36)
+  /// @brief Field UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH value: I32(38)
   static ::UnityEngine::Rendering::BuiltinShaderDefine const UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH;
 
-  /// @brief Field UNITY_PLATFORM_SUPPORTS_WAVE_32 value: I32(33)
+  /// @brief Field UNITY_PLATFORM_SUPPORTS_WAVE_32 value: I32(35)
   static ::UnityEngine::Rendering::BuiltinShaderDefine const UNITY_PLATFORM_SUPPORTS_WAVE_32;
 
-  /// @brief Field UNITY_PLATFORM_SUPPORTS_WAVE_64 value: I32(34)
+  /// @brief Field UNITY_PLATFORM_SUPPORTS_WAVE_64 value: I32(36)
   static ::UnityEngine::Rendering::BuiltinShaderDefine const UNITY_PLATFORM_SUPPORTS_WAVE_64;
 
   /// @brief Field UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION value: I32(29)
@@ -179,7 +187,7 @@ public:
   /// @brief Field UNITY_SPECCUBE_BOX_PROJECTION value: I32(14)
   static ::UnityEngine::Rendering::BuiltinShaderDefine const UNITY_SPECCUBE_BOX_PROJECTION;
 
-  /// @brief Field UNITY_UNIFIED_SHADER_PRECISION_MODEL value: I32(32)
+  /// @brief Field UNITY_UNIFIED_SHADER_PRECISION_MODEL value: I32(34)
   static ::UnityEngine::Rendering::BuiltinShaderDefine const UNITY_UNIFIED_SHADER_PRECISION_MODEL;
 
   /// @brief Field UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS value: I32(9)
@@ -192,7 +200,7 @@ public:
   static ::UnityEngine::Rendering::BuiltinShaderDefine const UNITY_VIRTUAL_TEXTURING;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10340 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::FileHelpers::PathIsUrl)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x33245a4;
+  constexpr static std::size_t addrs = 0x35ad68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileHelpers*>(), { "PathIsUrl", {}, { ::i2c::type_of<::StringW>() } })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::FileHelpers::GetEscapedURLForFilePath)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3324610;
+  constexpr static std::size_t addrs = 0x35ad6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::FileHelpers::GetUniqueDirectoryNameByAppendingNumber)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x33246d8;
+  constexpr static std::size_t addrs = 0x35ad7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::StringW, ::System::Collections::Generic::HashSet_1<::StringW>*)>(&::GlobalNamespace::FileHelpers::GetFilePaths)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x33247a8;
+  constexpr static std::size_t addrs = 0x35ad890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::GlobalNamespace::FileHelpers::GetFileNamesFromFilePaths)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x33249fc;
+  constexpr static std::size_t addrs = 0x35adae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

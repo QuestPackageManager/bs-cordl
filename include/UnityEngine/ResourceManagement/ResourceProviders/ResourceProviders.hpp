@@ -10,6 +10,7 @@ module;
 #include "UnityEngine/ResourceManagement/ResourceProviders/AtlasSpriteProvider.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/BinaryDataProvider.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/BundledAssetProvider.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/CachedFileProvider.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/DownloadOnlyLocation.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/IAssetBundleResource.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/IInstanceProvider.hpp"

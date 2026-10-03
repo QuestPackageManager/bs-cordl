@@ -44,10 +44,10 @@ public:
 
   __declspec(property(get = get_prefab)) ::UnityW<::UnityEngine::GameObject> prefab;
 
-  /// @brief Method Apply, addr 0x598dbc4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Apply, addr 0x5da8238, size 0x4, virtual true, abstract: false, final false
   inline void Apply(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::Transform>>* childTransforms, int32_t numberOfElements, int32_t sameIdElements);
 
-  /// @brief Method CopyBaseStateFrom, addr 0x598dbac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CopyBaseStateFrom, addr 0x5da8220, size 0x18, virtual false, abstract: false, final false
   inline void CopyBaseStateFrom(::GlobalNamespace::CompositeLayoutBase* source);
 
   static inline ::GlobalNamespace::CompositeLayoutBase* New_ctor();
@@ -70,16 +70,16 @@ public:
 
   constexpr void __cordl_internal_set__prefab(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x598dae4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da8158, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childParent, addr 0x598db94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childParent, addr 0x5da8208, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_childParent();
 
-  /// @brief Method get_count, addr 0x598dba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x5da8218, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_count();
 
-  /// @brief Method get_prefab, addr 0x598db9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefab, addr 0x5da8210, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_prefab();
 
 protected:
@@ -97,7 +97,7 @@ public:
   CompositeLayoutBase(CompositeLayoutBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5940 };
 
   /// [SerializeField]
   /// @brief Field _childParent, offset: 0x10, size: 0x8, def value: None

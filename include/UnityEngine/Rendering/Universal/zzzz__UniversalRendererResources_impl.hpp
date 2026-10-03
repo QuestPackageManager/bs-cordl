@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::UniversalRendererResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererResources::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b6e44;
+  constexpr static std::size_t addrs = 0x6ce6024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRendererResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererResources::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b6e4c;
+  constexpr static std::size_t addrs = 0x6ce602c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererResources*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRendererResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererResources::get_copyDepthPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b6e54;
+  constexpr static std::size_t addrs = 0x6ce6034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererResources::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRendererResources::set_copyDepthPS)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b6e5c;
+  constexpr static std::size_t addrs = 0x6ce603c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererResources*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRendererResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererResources::get_cameraMotionVector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b6ecc;
+  constexpr static std::size_t addrs = 0x6ce60ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererResources::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRendererResources::set_cameraMotionVector)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b6ed4;
+  constexpr static std::size_t addrs = 0x6ce60b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererResources*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRendererResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererResources::get_stencilDeferredPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b6f44;
+  constexpr static std::size_t addrs = 0x6ce6124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,11 +109,67 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererResources::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRendererResources::set_stencilDeferredPS)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b6f4c;
+  constexpr static std::size_t addrs = 0x6ce612c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererResources*>(),
                                                                                            { "set_stencilDeferredPS", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRendererResources.get_clusterDeferred
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRendererResources::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalRendererResources::get_clusterDeferred)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ce619c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererResources*>(), { "get_clusterDeferred", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRendererResources.set_clusterDeferred
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererResources::*)(::UnityEngine::Shader*)>(
+    &::UnityEngine::Rendering::Universal::UniversalRendererResources::set_clusterDeferred)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6ce61a4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererResources*>(),
+                                                                                           { "set_clusterDeferred", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRendererResources.get_stencilDitherMaskSeedPS
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRendererResources::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalRendererResources::get_stencilDitherMaskSeedPS)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ce6214;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererResources*>(), { "get_stencilDitherMaskSeedPS", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRendererResources.set_stencilDitherMaskSeedPS
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererResources::*)(::UnityEngine::Shader*)>(
+    &::UnityEngine::Rendering::Universal::UniversalRendererResources::set_stencilDitherMaskSeedPS)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6ce621c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererResources*>(),
+                                                                                           { "set_stencilDitherMaskSeedPS", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
     return ___internal_method;
   }
 };
@@ -123,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRendererResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererResources::get_decalDBufferClear)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b6fbc;
+  constexpr static std::size_t addrs = 0x6ce628c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererResources::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRendererResources::set_decalDBufferClear)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b6fc4;
+  constexpr static std::size_t addrs = 0x6ce6294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererResources*>(),
@@ -151,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68b7034;
+  constexpr static std::size_t addrs = 0x6ce6304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererResources*>(), { ".ctor", {}, {} })));
@@ -206,6 +262,30 @@ constexpr void UnityEngine::Rendering::Universal::UniversalRendererResources::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StencilDeferredPS = value;
 }
+constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::UniversalRendererResources::__cordl_internal_get_m_ClusterDeferred() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ClusterDeferred;
+}
+constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::Rendering::Universal::UniversalRendererResources::__cordl_internal_get_m_ClusterDeferred() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ClusterDeferred;
+}
+constexpr void UnityEngine::Rendering::Universal::UniversalRendererResources::__cordl_internal_set_m_ClusterDeferred(::UnityW<::UnityEngine::Shader> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ClusterDeferred = value;
+}
+constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::UniversalRendererResources::__cordl_internal_get_m_StencilDitherMaskSeedPS() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_StencilDitherMaskSeedPS;
+}
+constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::Rendering::Universal::UniversalRendererResources::__cordl_internal_get_m_StencilDitherMaskSeedPS() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_StencilDitherMaskSeedPS;
+}
+constexpr void UnityEngine::Rendering::Universal::UniversalRendererResources::__cordl_internal_set_m_StencilDitherMaskSeedPS(::UnityW<::UnityEngine::Shader> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_StencilDitherMaskSeedPS = value;
+}
 constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::UniversalRendererResources::__cordl_internal_get_m_DBufferClear() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DBufferClear;
@@ -257,6 +337,26 @@ inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::Univer
 inline void UnityEngine::Rendering::Universal::UniversalRendererResources::set_stencilDeferredPS(::UnityEngine::Shader* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererResources*>(),
                                                                                          { "set_stencilDeferredPS", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::UniversalRendererResources::get_clusterDeferred() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererResources*>(), { "get_clusterDeferred", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalRendererResources::set_clusterDeferred(::UnityEngine::Shader* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererResources*>(),
+                                                                                         { "set_clusterDeferred", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::UniversalRendererResources::get_stencilDitherMaskSeedPS() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererResources*>(), { "get_stencilDitherMaskSeedPS", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalRendererResources::set_stencilDitherMaskSeedPS(::UnityEngine::Shader* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererResources*>(),
+                                                                                         { "set_stencilDitherMaskSeedPS", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::UniversalRendererResources::get_decalDBufferClear() {

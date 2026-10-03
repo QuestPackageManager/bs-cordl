@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(int64_t)>(&::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId::KeyIdToBytes)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x36949d8;
+  constexpr static std::size_t addrs = 0x391dc74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId::*)(bool, bool, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3694ab0;
+  constexpr static std::size_t addrs = 0x391dd4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId*>(),
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId::*)(bool, int64_t)>(&::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3694ac8;
+  constexpr static std::size_t addrs = 0x391dd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId::*)()>(&::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId::get_KeyId)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3694b00;
+  constexpr static std::size_t addrs = 0x391dd9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId*>(), { "get_KeyId", {}, {} })));

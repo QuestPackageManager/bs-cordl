@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionToggleSelectableStateController::*)()>(
     &::GlobalNamespace::NoTransitionToggleSelectableStateController::OnEnable)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6446364;
+  constexpr static std::size_t addrs = 0x686e7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionToggleSelectableStateController::*)()>(
     &::GlobalNamespace::NoTransitionToggleSelectableStateController::OnDisable)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x644649c;
+  constexpr static std::size_t addrs = 0x686e920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionToggleSelectableStateController::*)(::HMUI::UISelectionState)>(
     &::GlobalNamespace::NoTransitionToggleSelectableStateController::HandleNoTransitionToggleSelectionStateDidChange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644652c;
+  constexpr static std::size_t addrs = 0x686e9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoTransitionToggleSelectableStateController*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionToggleSelectableStateController::*)(::HMUI::UISelectionState, bool)>(
     &::GlobalNamespace::NoTransitionToggleSelectableStateController::ResolveSelectionState)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x644640c;
+  constexpr static std::size_t addrs = 0x686e890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoTransitionToggleSelectableStateController*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionToggleSelectableStateController::*)()>(
     &::GlobalNamespace::NoTransitionToggleSelectableStateController::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6446534;
+  constexpr static std::size_t addrs = 0x686e9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoTransitionToggleSelectableStateController*>(), { ".ctor", {}, {} })));

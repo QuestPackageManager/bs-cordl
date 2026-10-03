@@ -37,38 +37,38 @@ public:
   /// @brief Field t_threadRandom, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_t_threadRandom, put = setStaticF_t_threadRandom)) ::System::Random* t_threadRandom;
 
-  /// @brief Method GenerateGlobalSeed, addr 0x5c59988, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GenerateGlobalSeed, addr 0x6072dec, size 0x24, virtual false, abstract: false, final false
   static inline int32_t GenerateGlobalSeed();
 
-  /// @brief Method GenerateSeed, addr 0x5c59530, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method GenerateSeed, addr 0x6072994, size 0x20c, virtual false, abstract: false, final false
   static inline int32_t GenerateSeed();
 
-  /// @brief Method GetSampleForLargeRange, addr 0x5c599b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetSampleForLargeRange, addr 0x6072e14, size 0x4c, virtual false, abstract: false, final false
   inline double_t GetSampleForLargeRange();
 
-  /// @brief Method InternalSample, addr 0x5c598f8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InternalSample, addr 0x6072d5c, size 0x90, virtual false, abstract: false, final false
   inline int32_t InternalSample();
 
   static inline ::System::Random* New_ctor();
 
   static inline ::System::Random* New_ctor(int32_t Seed);
 
-  /// @brief Method Next, addr 0x5c599ac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Next, addr 0x6072e10, size 0x4, virtual true, abstract: false, final false
   inline int32_t Next();
 
-  /// @brief Method Next, addr 0x5c59b14, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Next, addr 0x6072f78, size 0xc4, virtual true, abstract: false, final false
   inline int32_t Next(int32_t maxValue);
 
-  /// @brief Method Next, addr 0x5c599fc, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Next, addr 0x6072e60, size 0x118, virtual true, abstract: false, final false
   inline int32_t Next(int32_t minValue, int32_t maxValue);
 
-  /// @brief Method NextBytes, addr 0x5c59be4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x6073048, size 0xac, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t> buffer);
 
-  /// @brief Method NextDouble, addr 0x5c59bd8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method NextDouble, addr 0x607303c, size 0xc, virtual true, abstract: false, final false
   inline double_t NextDouble();
 
-  /// @brief Method Sample, addr 0x5c598d8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Sample, addr 0x6072d3c, size 0x20, virtual true, abstract: false, final false
   inline double_t Sample();
 
   constexpr int32_t const& __cordl_internal_get__inext() const;
@@ -89,10 +89,10 @@ public:
 
   constexpr void __cordl_internal_set__seedArray(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x5c594d0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6072934, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5c5973c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6072ba0, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(int32_t Seed);
 
   static inline ::System::Random* getStaticF_s_globalRandom();

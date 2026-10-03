@@ -10,3 +10,4 @@ constexpr ::UnityEngine::UIElements::MeshGenerationContext_MeshFlags::MeshGenera
 constexpr ::UnityEngine::UIElements::MeshGenerationContext_MeshFlags UnityEngine::UIElements::MeshGenerationContext_MeshFlags::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::MeshGenerationContext_MeshFlags UnityEngine::UIElements::MeshGenerationContext_MeshFlags::SkipDynamicAtlas{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::MeshGenerationContext_MeshFlags UnityEngine::UIElements::MeshGenerationContext_MeshFlags::IsUsingVectorImageGradients{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::UIElements::MeshGenerationContext_MeshFlags UnityEngine::UIElements::MeshGenerationContext_MeshFlags::SliceTiled{ static_cast<int32_t>(0x8) };

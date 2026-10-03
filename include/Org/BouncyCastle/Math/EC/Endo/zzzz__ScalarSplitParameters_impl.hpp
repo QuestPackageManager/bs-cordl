@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::Org::BouncyCastle::Math::BigInteger*>, ::StringW)>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::CheckVector)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x350d20c;
+  constexpr static std::size_t addrs = 0x37964a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*>, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*>, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x350cebc;
+  constexpr static std::size_t addrs = 0x3796158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_V1A)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d288;
+  constexpr static std::size_t addrs = 0x3796524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_V1B)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d290;
+  constexpr static std::size_t addrs = 0x379652c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_V2A)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d298;
+  constexpr static std::size_t addrs = 0x3796534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_V2B)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d2a0;
+  constexpr static std::size_t addrs = 0x379653c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*>(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_G1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d2a8;
+  constexpr static std::size_t addrs = 0x3796544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*>(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_G2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d2b0;
+  constexpr static std::size_t addrs = 0x379654c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*>(),
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_Bits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d2b8;
+  constexpr static std::size_t addrs = 0x3796554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*>(),

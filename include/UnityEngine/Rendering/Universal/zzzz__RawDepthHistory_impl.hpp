@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RawDepthHistory::*)(::UnityEngine::Rendering::BufferedRTHandleSystem*, uint32_t)>(
     &::UnityEngine::Rendering::Universal::RawDepthHistory::OnCreate)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x68783b8;
+  constexpr static std::size_t addrs = 0x6cb7690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RawDepthHistory*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::RawDepthHistory::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::RawDepthHistory::GetCurrentTexture)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6878404;
+  constexpr static std::size_t addrs = 0x6cb76dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::RawDepthHistory::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::RawDepthHistory::GetPreviousTexture)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6878450;
+  constexpr static std::size_t addrs = 0x6cb7728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::RawDepthHistory::*)()>(&::UnityEngine::Rendering::Universal::RawDepthHistory::IsAllocated)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x687849c;
+  constexpr static std::size_t addrs = 0x6cb7774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RawDepthHistory*>(), { "IsAllocated", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::RawDepthHistory::*)(::by_ref<::UnityEngine::RenderTextureDescriptor>)>(
     &::UnityEngine::Rendering::Universal::RawDepthHistory::IsDirty)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x68784b8;
+  constexpr static std::size_t addrs = 0x6cb7790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RawDepthHistory*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RawDepthHistory::*)(::by_ref<::UnityEngine::RenderTextureDescriptor>, bool)>(
     &::UnityEngine::Rendering::Universal::RawDepthHistory::Alloc)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6878524;
+  constexpr static std::size_t addrs = 0x6cb77fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RawDepthHistory::*)()>(&::UnityEngine::Rendering::Universal::RawDepthHistory::Reset)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6878680;
+  constexpr static std::size_t addrs = 0x6cb7958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RawDepthHistory*>(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RenderTextureDescriptor (::UnityEngine::Rendering::Universal::RawDepthHistory::*)(
     ::by_ref<::UnityEngine::RenderTextureDescriptor>)>(&::UnityEngine::Rendering::Universal::RawDepthHistory::GetHistoryDescriptor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x68786e4;
+  constexpr static std::size_t addrs = 0x6cb79bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RawDepthHistory*>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::RawDepthHistory::*)(::by_ref<::UnityEngine::RenderTextureDescriptor>, bool)>(
     &::UnityEngine::Rendering::Universal::RawDepthHistory::Update)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6878710;
+  constexpr static std::size_t addrs = 0x6cb79e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RawDepthHistory::*)()>(&::UnityEngine::Rendering::Universal::RawDepthHistory::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x68787e0;
+  constexpr static std::size_t addrs = 0x6cb7ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RawDepthHistory*>(), { ".ctor", {}, {} })));

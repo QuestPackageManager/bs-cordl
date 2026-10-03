@@ -98,7 +98,7 @@ public:
   static ::GlobalNamespace::OVRControllerHelper_ControllerType const TouchPro;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7987 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -213,51 +213,51 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::OVRInputModule_InputSource"
   constexpr operator ::UnityEngine::EventSystems::OVRInputModule_InputSource*() noexcept;
 
-  /// @brief Method GetHand, addr 0x5ef2ee4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method GetHand, addr 0x630d30c, size 0x10, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRPlugin_Hand GetHand();
 
-  /// @brief Method GetPointerRayTransform, addr 0x5ef2e74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetPointerRayTransform, addr 0x630d29c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> GetPointerRayTransform();
 
-  /// @brief Method InitializeControllerModels, addr 0x5ef1ce8, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method InitializeControllerModels, addr 0x630c110, size 0x544, virtual false, abstract: false, final false
   inline void InitializeControllerModels();
 
-  /// @brief Method InputFocusAquired, addr 0x5ef2d98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InputFocusAquired, addr 0x630d1c0, size 0xc, virtual false, abstract: false, final false
   inline void InputFocusAquired();
 
-  /// @brief Method InputFocusLost, addr 0x5ef2da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InputFocusLost, addr 0x630d1cc, size 0x8, virtual false, abstract: false, final false
   inline void InputFocusLost();
 
-  /// @brief Method IsActive, addr 0x5ef2edc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x630d304, size 0x8, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// @brief Method IsPressed, addr 0x5ef2dac, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method IsPressed, addr 0x630d1d4, size 0x64, virtual true, abstract: false, final true
   inline bool IsPressed();
 
-  /// @brief Method IsReleased, addr 0x5ef2e10, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method IsReleased, addr 0x630d238, size 0x64, virtual true, abstract: false, final true
   inline bool IsReleased();
 
-  /// @brief Method IsValid, addr 0x5ef2e7c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsValid, addr 0x630d2a4, size 0x60, virtual true, abstract: false, final true
   inline bool IsValid();
 
   static inline ::GlobalNamespace::OVRControllerHelper* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5ef2308, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x630c730, size 0xdc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5ef222c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x630c654, size 0xdc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnSceneChanged, addr 0x5ef23e4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnSceneChanged, addr 0x630c80c, size 0x5c, virtual false, abstract: false, final false
   inline void OnSceneChanged(::UnityEngine::SceneManagement::Scene unloading, ::UnityEngine::SceneManagement::Scene loading);
 
-  /// @brief Method Start, addr 0x5ef1c74, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x630c09c, size 0x74, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5ef2440, size 0x958, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x630c868, size 0x958, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePointerRay, addr 0x5ef2ef4, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method UpdatePointerRay, addr 0x630d31c, size 0xfc, virtual true, abstract: false, final true
   inline void UpdatePointerRay(::GlobalNamespace::OVRInputRayData rayData);
 
   constexpr ::UnityW<::GlobalNamespace::OVRRayHelper> const& __cordl_internal_get_RayHelper() const;
@@ -404,7 +404,7 @@ public:
 
   constexpr void __cordl_internal_set_showWhenHandsArePoweredByNaturalControllerPoses(bool value);
 
-  /// @brief Method .ctor, addr 0x5ef2ff0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x630d418, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::EventSystems::OVRInputModule_InputSource"
@@ -425,7 +425,7 @@ public:
   OVRControllerHelper(OVRControllerHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7988 };
 
   /// @brief Field m_modelOculusTouchQuestAndRiftSLeftController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_modelOculusTouchQuestAndRiftSLeftController;

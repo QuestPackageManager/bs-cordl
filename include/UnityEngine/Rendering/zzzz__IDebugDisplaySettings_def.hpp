@@ -24,7 +24,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE IDebugDisplaySettings {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x676d824, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x6b858d0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsData* Add(::UnityEngine::Rendering::IDebugDisplaySettingsData* newData);
 
   /// @brief Method ForEach, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -38,7 +38,7 @@ public:
   IDebugDisplaySettings(IDebugDisplaySettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12042 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8911 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

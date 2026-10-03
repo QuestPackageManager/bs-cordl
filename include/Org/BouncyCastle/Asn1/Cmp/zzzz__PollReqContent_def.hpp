@@ -35,18 +35,18 @@ public:
   /// @brief Field content, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content)) ::Org::BouncyCastle::Asn1::Asn1Sequence* content;
 
-  /// @brief Method GetCertReqIDs, addr 0x33506f0, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method GetCertReqIDs, addr 0x35d998c, size 0x13c, virtual true, abstract: false, final false
   inline ::ArrayW<::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*>> GetCertReqIDs();
 
-  /// @brief Method GetInstance, addr 0x334c9c8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x35d5c64, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PollReqContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PollReqContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method SequenceToDerIntegerArray, addr 0x335082c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SequenceToDerIntegerArray, addr 0x35d9ac8, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*> SequenceToDerIntegerArray(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3350924, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x35d9bc0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_content() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x33506e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d9984, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

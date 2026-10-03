@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator::StartCountdown)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5a0ff48;
+  constexpr static std::size_t addrs = 0x5e2bd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator::*)(bool)>(
     &::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator::StopCountdown)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5a10148;
+  constexpr static std::size_t addrs = 0x5e2bf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator::Move)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5a0ffcc;
+  constexpr static std::size_t addrs = 0x5e2be18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a101e8;
+  constexpr static std::size_t addrs = 0x5e2c034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator*>(), { ".ctor", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator::_Move_b__7_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a101ec;
+  constexpr static std::size_t addrs = 0x5e2c038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

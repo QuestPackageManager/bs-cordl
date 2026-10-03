@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NullAllowedAttribute::*)(::GlobalNamespace::NullAllowedContext)>(&::GlobalNamespace::NullAllowedAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x330b46c;
+  constexpr static std::size_t addrs = 0x3593f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NullAllowedAttribute::*)(::GlobalNamespace::NullAllowedContext)>(
     &::GlobalNamespace::NullAllowedAttribute::IsNullAllowedFor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x330b478;
+  constexpr static std::size_t addrs = 0x3593f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

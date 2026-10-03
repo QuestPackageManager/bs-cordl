@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::EditableModifiersSelectionView::*)()>(
     &::GlobalNamespace::EditableModifiersSelectionView::get_editButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596c040;
+  constexpr static std::size_t addrs = 0x5d8680c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditableModifiersSelectionView*>(), { "get_editButton", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::EditableModifiersSelectionView::*)()>(
     &::GlobalNamespace::EditableModifiersSelectionView::get_clearButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596c048;
+  constexpr static std::size_t addrs = 0x5d86814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditableModifiersSelectionView*>(), { "get_clearButton", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EditableModifiersSelectionView::*)()>(&::GlobalNamespace::EditableModifiersSelectionView::get_interactable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596c050;
+  constexpr static std::size_t addrs = 0x5d8681c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditableModifiersSelectionView*>(), { "get_interactable", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditableModifiersSelectionView::*)(bool)>(&::GlobalNamespace::EditableModifiersSelectionView::set_interactable)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x596c058;
+  constexpr static std::size_t addrs = 0x5d7cecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EditableModifiersSelectionView::*)()>(&::GlobalNamespace::EditableModifiersSelectionView::get_showClearButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596c0b8;
+  constexpr static std::size_t addrs = 0x5d86824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditableModifiersSelectionView*>(), { "get_showClearButton", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditableModifiersSelectionView::*)(bool)>(&::GlobalNamespace::EditableModifiersSelectionView::set_showClearButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596c0c0;
+  constexpr static std::size_t addrs = 0x5d8682c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditableModifiersSelectionView::*)(bool)>(&::GlobalNamespace::EditableModifiersSelectionView::SetVisibility)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x596c0c8;
+  constexpr static std::size_t addrs = 0x5d7c88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditableModifiersSelectionView::*)(bool)>(&::GlobalNamespace::EditableModifiersSelectionView::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596c0f0;
+  constexpr static std::size_t addrs = 0x5d7c884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditableModifiersSelectionView::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::EditableModifiersSelectionView::SetGameplayModifiers)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x596c0f8;
+  constexpr static std::size_t addrs = 0x5d86834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditableModifiersSelectionView::*)()>(&::GlobalNamespace::EditableModifiersSelectionView::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x596c30c;
+  constexpr static std::size_t addrs = 0x5d86a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditableModifiersSelectionView*>(), { ".ctor", {}, {} })));

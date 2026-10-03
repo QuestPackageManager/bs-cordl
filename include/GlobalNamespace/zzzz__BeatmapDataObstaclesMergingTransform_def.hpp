@@ -47,7 +47,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x3705e8c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x398f1f4, size 0x288, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   constexpr ::GlobalNamespace::IReadonlyBeatmapData* const& __cordl_internal_get_beatmapData() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_prevObstacleDataInLines(::ArrayW<::GlobalNamespace::ObstacleData*> value);
 
-  /// @brief Method .ctor, addr 0x3705df8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398f160, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +80,7 @@ public:
   BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0(BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14803 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15042 };
 
   /// @brief Field beatmapData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* ___beatmapData;
@@ -107,10 +107,10 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0;
 
-  /// @brief Method CanBeMerged, addr 0x3705dfc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CanBeMerged, addr 0x398f164, size 0x90, virtual false, abstract: false, final false
   static inline bool CanBeMerged(::GlobalNamespace::ObstacleData* firstObstacle, ::GlobalNamespace::ObstacleData* secondObstacle);
 
-  /// @brief Method CreateTransformedData, addr 0x3705c3c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x398efa4, size 0x1bc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
 protected:
@@ -128,7 +128,7 @@ public:
   BeatmapDataObstaclesMergingTransform(BeatmapDataObstaclesMergingTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15043 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

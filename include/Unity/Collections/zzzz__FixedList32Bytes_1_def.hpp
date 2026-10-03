@@ -404,7 +404,7 @@ public:
   constexpr FixedList32Bytes_1(::Unity::Collections::FixedBytes32Align8 data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15575 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15816 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -475,7 +475,7 @@ public:
   constexpr FixedList32Bytes_1_Enumerator(::Unity::Collections::FixedList32Bytes_1<T> m_List, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15574 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15815 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

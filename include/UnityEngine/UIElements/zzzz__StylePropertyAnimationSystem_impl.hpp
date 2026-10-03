@@ -8,6 +8,8 @@
 #include "UnityEngine/UIElements/zzzz__Background_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__FontDefinition_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__MaterialDefinition_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__Ratio_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Rotate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Scale_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyAnimationSystem_impl.hpp"
@@ -29,11 +31,18 @@
 #include "UnityEngine/UIElements/zzzz__BackgroundRepeat_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundSize_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Background_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FilterFunctionDefinition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FilterFunction_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FilterParameter_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IStylePropertyAnimationSystem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MaterialDefinition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MaterialPropertyValue_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Ratio_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Rotate_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Scale_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyAnimationSystem_def.hpp"
@@ -163,7 +172,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair, ::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair)>(
     &::UnityEngine::UIElements::ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c97a7c;
+  constexpr static std::size_t addrs = 0x710e2b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer::*)(
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair)>(&::UnityEngine::UIElements::ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c97a8c;
+  constexpr static std::size_t addrs = 0x710e2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer::*)()>(
     &::UnityEngine::UIElements::ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c97a78;
+  constexpr static std::size_t addrs = 0x710e2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c97a00;
+  constexpr static std::size_t addrs = 0x710e234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -361,7 +370,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_Values.Update
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_Values::*)(int64_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_Values::*)(double_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_Values::Update)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
@@ -420,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_Values::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_Values::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c97ac4;
+  constexpr static std::size_t addrs = 0x710e2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values*>(), { ".ctor", {}, {} })));
@@ -454,10 +463,10 @@ UnityEngine::UIElements::StylePropertyAnimationSystem_Values::GetAllAnimations(:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve, outPropertyIds);
 }
-inline void UnityEngine::UIElements::StylePropertyAnimationSystem_Values::Update(int64_t currentTimeMs) {
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_Values::Update(double_t currentTime) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values*>(), 9 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentTimeMs);
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentTime);
 }
 inline void UnityEngine::UIElements::StylePropertyAnimationSystem_Values::UpdateValues() {
   auto* ___internal_method =
@@ -635,22 +644,22 @@ UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_TransitionEventsF
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState<T>::Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState() {}
-// Ctor Parameters [CppParam { name: "startTimeMs", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "durationMs", ty: "int32_t", modifiers: "", def_value:
+// Ctor Parameters [CppParam { name: "startTime", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value:
 // Some("{}"), comment: None }, CppParam { name: "easingCurve", ty: "::System::Func_2<float_t,float_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "easedProgress", ty:
 // "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "reversingShorteningFactor", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
-// name: "isStarted", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "delayMs", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+// name: "isStarted", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "delay", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
-constexpr ::UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_TimingData<T>::Values_1_StylePropertyAnimationSystem_TimingData(int64_t startTimeMs, int32_t durationMs,
+constexpr ::UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_TimingData<T>::Values_1_StylePropertyAnimationSystem_TimingData(double_t startTime, float_t duration,
                                                                                                                                            ::System::Func_2<float_t, float_t>* easingCurve,
                                                                                                                                            float_t easedProgress, float_t reversingShorteningFactor,
-                                                                                                                                           bool isStarted, int32_t delayMs) noexcept {
-  this->startTimeMs = startTimeMs;
-  this->durationMs = durationMs;
+                                                                                                                                           bool isStarted, float_t delay) noexcept {
+  this->startTime = startTime;
+  this->duration = duration;
   this->easingCurve = easingCurve;
   this->easedProgress = easedProgress;
   this->reversingShorteningFactor = reversingShorteningFactor;
   this->isStarted = isStarted;
-  this->delayMs = delayMs;
+  this->delay = delay;
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_TimingData<T>::Values_1_StylePropertyAnimationSystem_TimingData() {}
@@ -680,17 +689,17 @@ inline ::UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_EmptyDat
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_EmptyData<T>::Values_1_StylePropertyAnimationSystem_EmptyData() {}
-template <typename T> constexpr int64_t& UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::__cordl_internal_get_m_CurrentTimeMs() {
+template <typename T> constexpr double_t& UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::__cordl_internal_get_m_CurrentTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CurrentTimeMs;
+  return this->___m_CurrentTime;
 }
-template <typename T> constexpr int64_t const& UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::__cordl_internal_get_m_CurrentTimeMs() const {
+template <typename T> constexpr double_t const& UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::__cordl_internal_get_m_CurrentTime() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CurrentTimeMs;
+  return this->___m_CurrentTime;
 }
-template <typename T> constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::__cordl_internal_set_m_CurrentTimeMs(int64_t value) {
+template <typename T> constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::__cordl_internal_set_m_CurrentTime(double_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_CurrentTimeMs = value;
+  this->___m_CurrentTime = value;
 }
 template <typename T>
 constexpr ::UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState<T>*&
@@ -785,6 +794,11 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::C
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, a, b);
 }
+template <typename T> inline T UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::Copy(T value) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, value);
+}
 template <typename T> inline void UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>*>(), { ".ctor", {}, {} })));
@@ -830,20 +844,20 @@ template <typename T> inline void UnityEngine::UIElements::StylePropertyAnimatio
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve, runningIndex);
 }
 template <typename T>
-inline void UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::QueueTransitionCancelEvent(::UnityEngine::UIElements::VisualElement* ve, int32_t runningIndex, int64_t panelElapsedMs) {
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::QueueTransitionCancelEvent(::UnityEngine::UIElements::VisualElement* ve, int32_t runningIndex, double_t panelElapsed) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>*>(),
-                                       { "QueueTransitionCancelEvent", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve, runningIndex, panelElapsedMs);
+                                       { "QueueTransitionCancelEvent", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<double_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve, runningIndex, panelElapsed);
 }
 template <typename T>
-inline void UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::SendTransitionCancelEvent(::UnityEngine::UIElements::VisualElement* ve, int32_t runningIndex, int64_t panelElapsedMs) {
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::SendTransitionCancelEvent(::UnityEngine::UIElements::VisualElement* ve, int32_t runningIndex, double_t panelElapsed) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>*>(),
-                                       { "SendTransitionCancelEvent", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve, runningIndex, panelElapsedMs);
+                                       { "SendTransitionCancelEvent", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<double_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve, runningIndex, panelElapsed);
 }
 template <typename T> inline void UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::CancelAllAnimations() {
   static auto* ___internal_method =
@@ -890,30 +904,28 @@ template <typename T> inline float_t UnityEngine::UIElements::StylePropertyAnima
                                                                                          { "ComputeReversingShorteningFactor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, oldIndex);
 }
-template <typename T>
-inline int32_t UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::ComputeReversingDuration(int32_t newTransitionDurationMs, float_t newReversingShorteningFactor) {
+template <typename T> inline float_t UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::ComputeReversingDuration(float_t newTransitionDuration, float_t newReversingShorteningFactor) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>*>(),
-                                                                                         { "ComputeReversingDuration", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, newTransitionDurationMs, newReversingShorteningFactor);
+                                                                                         { "ComputeReversingDuration", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, newTransitionDuration, newReversingShorteningFactor);
 }
-template <typename T> inline int32_t UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::ComputeReversingDelay(int32_t delayMs, float_t newReversingShorteningFactor) {
+template <typename T> inline float_t UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::ComputeReversingDelay(float_t delay, float_t newReversingShorteningFactor) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>*>(),
-                                                                                         { "ComputeReversingDelay", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, delayMs, newReversingShorteningFactor);
+                                                                                         { "ComputeReversingDelay", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, delay, newReversingShorteningFactor);
 }
 template <typename T>
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::StartTransition(::UnityEngine::UIElements::VisualElement* owner,
-                                                                                               ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, T startValue, T endValue,
-                                                                                               int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve,
-                                                                                               int64_t currentTimeMs) {
+                                                                                               ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, T startValue, T endValue, float_t duration,
+                                                                                               float_t delay, ::System::Func_2<float_t, float_t>* easingCurve, double_t currentTime) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>*>(),
                           { "StartTransition",
                             {},
                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(), ::i2c::type_of<T>(),
-                              ::i2c::type_of<T>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>(), ::i2c::type_of<int64_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve, currentTimeMs);
+                              ::i2c::type_of<T>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>(), ::i2c::type_of<double_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, duration, delay, easingCurve, currentTime);
 }
 template <typename T> inline void UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::ForceComputedStyleEndValue(int32_t runningIndex) {
   static auto* ___internal_method =
@@ -921,20 +933,20 @@ template <typename T> inline void UnityEngine::UIElements::StylePropertyAnimatio
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>*>(), { "ForceComputedStyleEndValue", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, runningIndex);
 }
-template <typename T> inline void UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::Update(int64_t currentTimeMs) {
+template <typename T> inline void UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::Update(double_t currentTime) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>*>(), { "Update", {}, { ::i2c::type_of<int64_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentTimeMs);
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>*>(), { "Update", {}, { ::i2c::type_of<double_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentTime);
 }
 template <typename T> inline void UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::ProcessEventQueue() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>*>(), { "ProcessEventQueue", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::UpdateProgress(int64_t currentTimeMs) {
+template <typename T> inline void UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::UpdateProgress(double_t currentTime) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>*>(), { "UpdateProgress", {}, { ::i2c::type_of<int64_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentTimeMs);
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>*>(), { "UpdateProgress", {}, { ::i2c::type_of<double_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentTime);
 }
 template <typename T> inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>* UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>*>());
@@ -947,7 +959,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<float_t, float_t, bool>* (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c97ac8;
+  constexpr static std::size_t addrs = 0x710e2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat*>(),
@@ -960,7 +972,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t, float_t)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::IsSame)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6c97ad0;
+  constexpr static std::size_t addrs = 0x710e304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat*>(),
@@ -971,13 +983,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t, float_t
 //  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat.Lerp
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::Lerp)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c97b64;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t, ::by_ref<float_t>, float_t)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::Lerp)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x710e398;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat*>(),
-                                                                                           { "Lerp", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat*>(),
+                                                { "Lerp", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<float_t>>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
@@ -987,7 +1000,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::UpdateValues)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c97b74;
+  constexpr static std::size_t addrs = 0x710e3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1001,7 +1014,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6c97bf4;
+  constexpr static std::size_t addrs = 0x710e42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1015,7 +1028,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c97ca0;
+  constexpr static std::size_t addrs = 0x710e4d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1030,7 +1043,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c97d1c;
+  constexpr static std::size_t addrs = 0x710e554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1060,10 +1073,11 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::I
                                                                                          { "IsSame", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline float_t UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::Lerp(float_t a, float_t b, float_t t) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat*>(),
-                                                                                         { "Lerp", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, a, b, t);
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::Lerp(float_t a, float_t b, ::by_ref<float_t> result, float_t t) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat*>(),
+                                                           { "Lerp", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<float_t>>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b, result, t);
 }
 inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::UpdateValues() {
   static auto* ___internal_method =
@@ -1096,7 +1110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<int32_t, int32_t, bool>* (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c97db8;
+  constexpr static std::size_t addrs = 0x710e5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt*>(),
@@ -1109,7 +1123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, int32_t)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::IsSame)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c97dc0;
+  constexpr static std::size_t addrs = 0x710e5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt*>(),
@@ -1122,7 +1136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, float_t)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::Lerp)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c97dcc;
+  constexpr static std::size_t addrs = 0x710e604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt*>(),
@@ -1136,7 +1150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::UpdateValues)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c97ebc;
+  constexpr static std::size_t addrs = 0x710e6f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1150,7 +1164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6c97f58;
+  constexpr static std::size_t addrs = 0x710e790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1164,7 +1178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c98004;
+  constexpr static std::size_t addrs = 0x710e83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1178,7 +1192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c98080;
+  constexpr static std::size_t addrs = 0x710e8b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1243,7 +1257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9811c;
+  constexpr static std::size_t addrs = 0x710e954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength*>(),
@@ -1257,7 +1271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::IsSame)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6c98124;
+  constexpr static std::size_t addrs = 0x710e95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1273,7 +1287,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::by_ref<::UnityEngine::UIElements::Length>, ::by_ref<::UnityEngine::UIElements::Length>)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::ConvertUnits)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c981cc;
+  constexpr static std::size_t addrs = 0x710ea04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1291,7 +1305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Length (*)(::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::Lerp)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6c981f4;
+  constexpr static std::size_t addrs = 0x710ea2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1307,7 +1321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::UpdateValues)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6c98230;
+  constexpr static std::size_t addrs = 0x710ea68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1321,7 +1335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6c982e4;
+  constexpr static std::size_t addrs = 0x710eb1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1335,7 +1349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c98390;
+  constexpr static std::size_t addrs = 0x710ebc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1350,7 +1364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c9840c;
+  constexpr static std::size_t addrs = 0x710ec44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1433,7 +1447,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c984a8;
+  constexpr static std::size_t addrs = 0x710ece0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor*>(),
@@ -1446,7 +1460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Color, ::UnityEngine::Color)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::IsSame)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6c984b0;
+  constexpr static std::size_t addrs = 0x710ece8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor*>(),
@@ -1460,7 +1474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, ::UnityEngine::Color, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::Lerp)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c985f4;
+  constexpr static std::size_t addrs = 0x710ee2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1475,7 +1489,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::UpdateValues)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6c9862c;
+  constexpr static std::size_t addrs = 0x710ee64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1489,7 +1503,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6c986b4;
+  constexpr static std::size_t addrs = 0x710eeec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1503,7 +1517,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c9876c;
+  constexpr static std::size_t addrs = 0x710efa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1518,7 +1532,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c987ec;
+  constexpr static std::size_t addrs = 0x710f024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1623,13 +1637,74 @@ template <typename T> inline ::UnityEngine::UIElements::StylePropertyAnimationSy
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesDiscrete_1<T>::StylePropertyAnimationSystem_ValuesDiscrete_1() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum.UpdateComputedStyle
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::*)()>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::UpdateComputedStyle)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x710f0c0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum*>(), { "UpdateComputedStyle", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum.UpdateComputedStyle
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::*)(int32_t)>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::UpdateComputedStyle)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x710f16c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum*>(), { "UpdateComputedStyle", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::*)()>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::_ctor)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x710f1e8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::UpdateComputedStyle() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum*>(), { "UpdateComputedStyle", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::UpdateComputedStyle(int32_t i) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum*>(), { "UpdateComputedStyle", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, i);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum* UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::StylePropertyAnimationSystem_ValuesEnum() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackground.UpdateComputedStyle
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackground::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackground::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c98888;
+  constexpr static std::size_t addrs = 0x710f234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1643,7 +1718,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackground::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackground::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6c98948;
+  constexpr static std::size_t addrs = 0x710f2f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1658,7 +1733,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackground::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackground::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6c989d8;
+  constexpr static std::size_t addrs = 0x710f384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1693,7 +1768,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFontDefinition::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFontDefinition::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c98a24;
+  constexpr static std::size_t addrs = 0x710f3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1707,7 +1782,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFontDefinition::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFontDefinition::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c98ad4;
+  constexpr static std::size_t addrs = 0x710f480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFontDefinition*>(),
@@ -1721,7 +1796,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFontDefinition::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFontDefinition::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6c98b50;
+  constexpr static std::size_t addrs = 0x710f4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1755,7 +1830,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFont::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFont::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6c98b9c;
+  constexpr static std::size_t addrs = 0x710f548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1769,7 +1844,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFont::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFont::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c98c48;
+  constexpr static std::size_t addrs = 0x710f5f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1783,7 +1858,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFont::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFont::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6c98cc4;
+  constexpr static std::size_t addrs = 0x710f670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1816,7 +1891,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c98d10;
+  constexpr static std::size_t addrs = 0x710f6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow*>(),
@@ -1830,7 +1905,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::IsSame)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c98d18;
+  constexpr static std::size_t addrs = 0x710f6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1845,7 +1920,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextShadow (*)(::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::Lerp)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6c98d5c;
+  constexpr static std::size_t addrs = 0x710f708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1861,7 +1936,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::UpdateValues)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6c98dac;
+  constexpr static std::size_t addrs = 0x710f758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1875,7 +1950,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6c98e70;
+  constexpr static std::size_t addrs = 0x710f81c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1889,7 +1964,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c98f38;
+  constexpr static std::size_t addrs = 0x710f8e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1904,7 +1979,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c98fd4;
+  constexpr static std::size_t addrs = 0x710f980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1978,7 +2053,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c99070;
+  constexpr static std::size_t addrs = 0x710fa1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale*>(),
@@ -1992,7 +2067,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::IsSame)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6c99078;
+  constexpr static std::size_t addrs = 0x710fa24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2007,7 +2082,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c990cc;
+  constexpr static std::size_t addrs = 0x710fa78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2021,7 +2096,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c9917c;
+  constexpr static std::size_t addrs = 0x710fb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2036,7 +2111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Scale (*)(::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::Lerp)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6c991f8;
+  constexpr static std::size_t addrs = 0x710fba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2052,7 +2127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::UpdateValues)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c99250;
+  constexpr static std::size_t addrs = 0x710fbfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2066,7 +2141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c9930c;
+  constexpr static std::size_t addrs = 0x710fcb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2137,7 +2212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c993a8;
+  constexpr static std::size_t addrs = 0x710fd54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate*>(),
@@ -2150,8 +2225,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::IsSame)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c993b0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x710fd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2166,7 +2241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6c99430;
+  constexpr static std::size_t addrs = 0x710fda0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2180,7 +2255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c994f8;
+  constexpr static std::size_t addrs = 0x710fe68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2194,8 +2269,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Rotate (*)(::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::Lerp)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6c99594;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x710ff04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2211,7 +2286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::UpdateValues)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6c996a8;
+  constexpr static std::size_t addrs = 0x71100a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2225,7 +2300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c99784;
+  constexpr static std::size_t addrs = 0x711017c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2291,13 +2366,202 @@ inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate* Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::StylePropertyAnimationSystem_ValuesRotate() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio.get_SameFunc
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio, bool>* (
+    ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::get_SameFunc)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7110218;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(), 13 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio.IsSame
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio)>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::IsSame)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x7110220;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(),
+                                                             { "IsSame", {}, { ::i2c::type_of<::UnityEngine::UIElements::Ratio>(), ::i2c::type_of<::UnityEngine::UIElements::Ratio>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio.ConvertUnits
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::*)(
+    ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::by_ref<::UnityEngine::UIElements::Ratio>, ::by_ref<::UnityEngine::UIElements::Ratio>)>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::ConvertUnits)> {
+  constexpr static std::size_t size = 0x28c;
+  constexpr static std::size_t addrs = 0x7110254;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(),
+                                                             { "ConvertUnits",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Ratio>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Ratio>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio.UpdateComputedStyle
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::*)()>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::UpdateComputedStyle)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x71104e0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(), { "UpdateComputedStyle", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio.UpdateComputedStyle
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::*)(int32_t)>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::UpdateComputedStyle)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x711058c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(), { "UpdateComputedStyle", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio.Lerp
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Ratio (*)(::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio, float_t)>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::Lerp)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x7110608;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(),
+                                         { "Lerp", {}, { ::i2c::type_of<::UnityEngine::UIElements::Ratio>(), ::i2c::type_of<::UnityEngine::UIElements::Ratio>(), ::i2c::type_of<float_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio.UpdateValues
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::*)()>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::UpdateValues)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x7110618;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(), { "UpdateValues", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::*)()>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::_ctor)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x71106a0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Func_3<::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio, bool>*&
+UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::__cordl_internal_get__SameFunc_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____SameFunc_k__BackingField;
+}
+constexpr ::System::Func_3<::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio, bool>* const&
+UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::__cordl_internal_get__SameFunc_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____SameFunc_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::__cordl_internal_set__SameFunc_k__BackingField(
+    ::System::Func_3<::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio, bool>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____SameFunc_k__BackingField = value;
+}
+inline ::System::Func_3<::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio, bool>* UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::get_SameFunc() {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Func_3<::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio, bool>*>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::IsSame(::UnityEngine::UIElements::Ratio a, ::UnityEngine::UIElements::Ratio b) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(),
+                                                           { "IsSame", {}, { ::i2c::type_of<::UnityEngine::UIElements::Ratio>(), ::i2c::type_of<::UnityEngine::UIElements::Ratio>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
+}
+inline bool UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::ConvertUnits(::UnityEngine::UIElements::VisualElement* owner,
+                                                                                            ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::by_ref<::UnityEngine::UIElements::Ratio> a,
+                                                                                            ::by_ref<::UnityEngine::UIElements::Ratio> b) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(),
+                                                           { "ConvertUnits",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Ratio>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Ratio>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, a, b);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::UpdateComputedStyle() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(), { "UpdateComputedStyle", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::UpdateComputedStyle(int32_t i) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(), { "UpdateComputedStyle", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, i);
+}
+inline ::UnityEngine::UIElements::Ratio UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::Lerp(::UnityEngine::UIElements::Ratio a, ::UnityEngine::UIElements::Ratio b, float_t t) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(),
+                                              { "Lerp", {}, { ::i2c::type_of<::UnityEngine::UIElements::Ratio>(), ::i2c::type_of<::UnityEngine::UIElements::Ratio>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Ratio>(nullptr, ___internal_method, a, b, t);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::UpdateValues() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(), { "UpdateValues", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio* UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::StylePropertyAnimationSystem_ValuesRatio() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate.get_SameFunc
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c99820;
+  constexpr static std::size_t addrs = 0x711073c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate*>(),
@@ -2311,7 +2575,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::IsSame)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c99828;
+  constexpr static std::size_t addrs = 0x7110744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2327,7 +2591,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::by_ref<::UnityEngine::UIElements::Translate>,
     ::by_ref<::UnityEngine::UIElements::Translate>)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::ConvertUnits)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c998a8;
+  constexpr static std::size_t addrs = 0x71107c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2345,7 +2609,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6c998c8;
+  constexpr static std::size_t addrs = 0x71107e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2359,7 +2623,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c99990;
+  constexpr static std::size_t addrs = 0x71108ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2374,7 +2638,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Translate (*)(::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::Lerp)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c99a2c;
+  constexpr static std::size_t addrs = 0x7110948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2390,7 +2654,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::UpdateValues)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6c99aac;
+  constexpr static std::size_t addrs = 0x71109c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2404,7 +2668,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c99ba0;
+  constexpr static std::size_t addrs = 0x7110abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2489,7 +2753,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c99c3c;
+  constexpr static std::size_t addrs = 0x7110b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin*>(),
@@ -2503,7 +2767,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::IsSame)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6c99c44;
+  constexpr static std::size_t addrs = 0x7110b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2519,7 +2783,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::by_ref<::UnityEngine::UIElements::TransformOrigin>,
     ::by_ref<::UnityEngine::UIElements::TransformOrigin>)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::ConvertUnits)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c99cac;
+  constexpr static std::size_t addrs = 0x7110bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2538,7 +2802,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6c99ccc;
+  constexpr static std::size_t addrs = 0x7110be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2552,7 +2816,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c99d94;
+  constexpr static std::size_t addrs = 0x7110cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin*>(),
@@ -2566,7 +2830,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TransformOrigin (*)(::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::Lerp)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c99e30;
+  constexpr static std::size_t addrs = 0x7110d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2583,7 +2847,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::UpdateValues)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c99eac;
+  constexpr static std::size_t addrs = 0x7110dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2597,7 +2861,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c99f9c;
+  constexpr static std::size_t addrs = 0x7110eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2684,7 +2948,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundPosition::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundPosition::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c9a038;
+  constexpr static std::size_t addrs = 0x7110f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2698,7 +2962,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundPosition::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundPosition::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6c9a0f8;
+  constexpr static std::size_t addrs = 0x7111014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundPosition*>(),
@@ -2712,7 +2976,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundPosition::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundPosition::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6c9a17c;
+  constexpr static std::size_t addrs = 0x7111098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2746,7 +3010,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundRepeat::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundRepeat::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6c9a1c8;
+  constexpr static std::size_t addrs = 0x71110e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2760,7 +3024,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundRepeat::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundRepeat::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c9a274;
+  constexpr static std::size_t addrs = 0x7111190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundRepeat*>(),
@@ -2774,7 +3038,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundRepeat::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundRepeat::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6c9a2f0;
+  constexpr static std::size_t addrs = 0x711120c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2808,7 +3072,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9a33c;
+  constexpr static std::size_t addrs = 0x7111258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize*>(),
@@ -2822,7 +3086,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::IsSame)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c9a344;
+  constexpr static std::size_t addrs = 0x7111260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2838,7 +3102,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::by_ref<::UnityEngine::UIElements::BackgroundSize>,
     ::by_ref<::UnityEngine::UIElements::BackgroundSize>)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::ConvertUnits)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c9a3a8;
+  constexpr static std::size_t addrs = 0x71112c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2856,7 +3120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6c9a3c8;
+  constexpr static std::size_t addrs = 0x71112e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2870,7 +3134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c9a490;
+  constexpr static std::size_t addrs = 0x71113ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize*>(),
@@ -2884,7 +3148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BackgroundSize (*)(::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::Lerp)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6c9a52c;
+  constexpr static std::size_t addrs = 0x7111448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2900,7 +3164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::UpdateValues)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6c9a57c;
+  constexpr static std::size_t addrs = 0x7111498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2914,7 +3178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c9a640;
+  constexpr static std::size_t addrs = 0x711155c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2994,15 +3258,626 @@ inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundS
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::StylePropertyAnimationSystem_ValuesBackgroundSize() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction.Copy
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* (
+    ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*)>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::Copy)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x71115f8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+                                                            { ::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(), 15 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction.get_SameFunc
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
+    ::System::Func_3<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, bool>* (
+        ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::get_SameFunc)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7111670;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+                                                            { ::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(), 13 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction.IsSame
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<bool (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*)>(
+        &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::IsSame)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x7111678;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+                                                             { "IsSame",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>(),
+                                                                 ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction.ConvertUnits
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::*)(
+    ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>,
+    ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::ConvertUnits)> {
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x7111788;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+                                                             { "ConvertUnits",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                                                 ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>>(),
+                                                                 ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction.AreFilterDefinitionsCompatible
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::FilterFunctionDefinition*, ::UnityEngine::UIElements::FilterFunctionDefinition*)>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::AreFilterDefinitionsCompatible)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x7111920;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+                                         { "AreFilterDefinitionsCompatible",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::UIElements::FilterFunctionDefinition*>(), ::i2c::type_of<::UnityEngine::UIElements::FilterFunctionDefinition*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction.UpdateComputedStyle
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::*)()>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::UpdateComputedStyle)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x71119cc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(), { "UpdateComputedStyle", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction.UpdateComputedStyle
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::*)(int32_t)>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::UpdateComputedStyle)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x7111a78;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+                                                                                           { "UpdateComputedStyle", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction.LerpFilterParameters
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FilterParameter (*)(::UnityEngine::UIElements::FilterParameter, ::UnityEngine::UIElements::FilterParameter, float_t)>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::LerpFilterParameters)> {
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x7111af4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+                            { "LerpFilterParameters",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::UIElements::FilterParameter>(), ::i2c::type_of<::UnityEngine::UIElements::FilterParameter>(), ::i2c::type_of<float_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction.Lerp
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*,
+    ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>, float_t)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::Lerp)> {
+  constexpr static std::size_t size = 0x330;
+  constexpr static std::size_t addrs = 0x7111bc0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+                                                { "Lerp",
+                                                  {},
+                                                  { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>(),
+                                                    ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>(),
+                                                    ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>>(), ::i2c::type_of<float_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction.GetFunctionOrDefault
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FilterFunction (*)(
+    ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>,
+    int32_t)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::GetFunctionOrDefault)> {
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x7111ef0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+                                                { "GetFunctionOrDefault",
+                                                  {},
+                                                  { ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>>(),
+                                                    ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction.UpdateValues
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::*)()>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::UpdateValues)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x711209c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(), { "UpdateValues", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::*)()>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::_ctor)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x7112130;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Func_3<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*,
+                           bool>*&
+UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::__cordl_internal_get__SameFunc_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____SameFunc_k__BackingField;
+}
+constexpr ::System::Func_3<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*,
+                           bool>* const&
+UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::__cordl_internal_get__SameFunc_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____SameFunc_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::__cordl_internal_set__SameFunc_k__BackingField(
+    ::System::Func_3<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, bool>*
+        value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____SameFunc_k__BackingField = value;
+}
+inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*
+UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::Copy(::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>(this, ___internal_method, value);
+}
+inline ::System::Func_3<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, bool>*
+UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::get_SameFunc() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<
+      ::System::Func_3<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, bool>*>(
+      this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::IsSame(::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* a,
+                                                                                                   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* b) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+                                                           { "IsSame",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>(),
+                                                               ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
+}
+inline bool UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::ConvertUnits(
+    ::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
+    ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*> a, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*> b) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+                                                           { "ConvertUnits",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                                               ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>>(),
+                                                               ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, a, b);
+}
+inline bool UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::AreFilterDefinitionsCompatible(::UnityEngine::UIElements::FilterFunctionDefinition* filterDef1,
+                                                                                                                           ::UnityEngine::UIElements::FilterFunctionDefinition* filterDef2) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+                                              { "AreFilterDefinitionsCompatible",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::UIElements::FilterFunctionDefinition*>(), ::i2c::type_of<::UnityEngine::UIElements::FilterFunctionDefinition*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, filterDef1, filterDef2);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::UpdateComputedStyle() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(), { "UpdateComputedStyle", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::UpdateComputedStyle(int32_t i) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+                                                                                         { "UpdateComputedStyle", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, i);
+}
+inline ::UnityEngine::UIElements::FilterParameter UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::LerpFilterParameters(::UnityEngine::UIElements::FilterParameter a,
+                                                                                                                                                       ::UnityEngine::UIElements::FilterParameter b,
+                                                                                                                                                       float_t t) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+          { "LerpFilterParameters", {}, { ::i2c::type_of<::UnityEngine::UIElements::FilterParameter>(), ::i2c::type_of<::UnityEngine::UIElements::FilterParameter>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::FilterParameter>(nullptr, ___internal_method, a, b, t);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::Lerp(::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* a,
+                                                                                                 ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* b,
+                                                                                                 ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*> result,
+                                                                                                 float_t t) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+                                              { "Lerp",
+                                                {},
+                                                { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>(),
+                                                  ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>(),
+                                                  ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b, result, t);
+}
+inline ::UnityEngine::UIElements::FilterFunction UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::GetFunctionOrDefault(
+    ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*> srcList,
+    ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*> refList, int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
+                                              { "GetFunctionOrDefault",
+                                                {},
+                                                { ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>>(),
+                                                  ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::FilterFunction>(nullptr, ___internal_method, srcList, refList, index);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::UpdateValues() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(), { "UpdateValues", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction* UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::StylePropertyAnimationSystem_ValuesListFilterFunction() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition.Copy
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MaterialDefinition (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::*)(
+    ::UnityEngine::UIElements::MaterialDefinition)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::Copy)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x71121cc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
+                                                            { ::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(), 15 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition.get_SameFunc
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition, bool>* (
+    ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::get_SameFunc)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x71121f0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
+                                                            { ::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(), 13 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition.IsSame
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition)>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::IsSame)> {
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x71121f8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
+                                         { "IsSame", {}, { ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>(), ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition.ConvertUnits
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::*)(
+    ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::by_ref<::UnityEngine::UIElements::MaterialDefinition>,
+    ::by_ref<::UnityEngine::UIElements::MaterialDefinition>)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::ConvertUnits)> {
+  constexpr static std::size_t size = 0x254;
+  constexpr static std::size_t addrs = 0x71123d0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
+                            { "ConvertUnits",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MaterialDefinition>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MaterialDefinition>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition.UpdateComputedStyle
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::*)()>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::UpdateComputedStyle)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x7112624;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(), { "UpdateComputedStyle", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition.UpdateComputedStyle
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::*)(int32_t)>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::UpdateComputedStyle)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x71126d4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
+                                                                                           { "UpdateComputedStyle", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition.LerpPropertyValues
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::UnityEngine::UIElements::MaterialPropertyValue (*)(::UnityEngine::UIElements::MaterialPropertyValue, ::UnityEngine::UIElements::MaterialPropertyValue, float_t)>(
+        &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::LerpPropertyValues)> {
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x7112750;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
+                                                                                           { "LerpPropertyValues",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::UnityEngine::UIElements::MaterialPropertyValue>(),
+                                                                                               ::i2c::type_of<::UnityEngine::UIElements::MaterialPropertyValue>(), ::i2c::type_of<float_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition.GetValueOrDefault
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MaterialPropertyValue (*)(
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::MaterialPropertyValue>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::MaterialPropertyValue>*, int32_t)>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::GetValueOrDefault)> {
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x7112848;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
+                                                { "GetValueOrDefault",
+                                                  {},
+                                                  { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::MaterialPropertyValue>*>(),
+                                                    ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::MaterialPropertyValue>*>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition.Lerp
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (*)(::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition, ::by_ref<::UnityEngine::UIElements::MaterialDefinition>, float_t)>(
+        &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::Lerp)> {
+  constexpr static std::size_t size = 0x31c;
+  constexpr static std::size_t addrs = 0x71129bc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
+                                                             { "Lerp",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>(), ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MaterialDefinition>>(), ::i2c::type_of<float_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition.UpdateValues
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::*)()>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::UpdateValues)> {
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x7112cd8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(), { "UpdateValues", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::*)()>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::_ctor)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x7112d70;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Func_3<::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition, bool>*&
+UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::__cordl_internal_get__SameFunc_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____SameFunc_k__BackingField;
+}
+constexpr ::System::Func_3<::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition, bool>* const&
+UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::__cordl_internal_get__SameFunc_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____SameFunc_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::__cordl_internal_set__SameFunc_k__BackingField(
+    ::System::Func_3<::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition, bool>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____SameFunc_k__BackingField = value;
+}
+inline ::UnityEngine::UIElements::MaterialDefinition UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::Copy(::UnityEngine::UIElements::MaterialDefinition value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MaterialDefinition>(this, ___internal_method, value);
+}
+inline ::System::Func_3<::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition, bool>*
+UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::get_SameFunc() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Func_3<::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition, bool>*>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::IsSame(::UnityEngine::UIElements::MaterialDefinition a, ::UnityEngine::UIElements::MaterialDefinition b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
+                                              { "IsSame", {}, { ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>(), ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
+}
+inline bool UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::ConvertUnits(::UnityEngine::UIElements::VisualElement* owner,
+                                                                                                         ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
+                                                                                                         ::by_ref<::UnityEngine::UIElements::MaterialDefinition> a,
+                                                                                                         ::by_ref<::UnityEngine::UIElements::MaterialDefinition> b) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
+                                       { "ConvertUnits",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MaterialDefinition>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MaterialDefinition>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, a, b);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::UpdateComputedStyle() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(), { "UpdateComputedStyle", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::UpdateComputedStyle(int32_t i) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
+                                                                                         { "UpdateComputedStyle", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, i);
+}
+inline ::UnityEngine::UIElements::MaterialPropertyValue
+UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::LerpPropertyValues(::UnityEngine::UIElements::MaterialPropertyValue a,
+                                                                                                   ::UnityEngine::UIElements::MaterialPropertyValue b, float_t t) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
+                          { "LerpPropertyValues",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::UIElements::MaterialPropertyValue>(), ::i2c::type_of<::UnityEngine::UIElements::MaterialPropertyValue>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MaterialPropertyValue>(nullptr, ___internal_method, a, b, t);
+}
+inline ::UnityEngine::UIElements::MaterialPropertyValue
+UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::GetValueOrDefault(::System::Collections::Generic::List_1<::UnityEngine::UIElements::MaterialPropertyValue>* srcList,
+                                                                                                  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::MaterialPropertyValue>* refList,
+                                                                                                  int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
+                                              { "GetValueOrDefault",
+                                                {},
+                                                { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::MaterialPropertyValue>*>(),
+                                                  ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::MaterialPropertyValue>*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MaterialPropertyValue>(nullptr, ___internal_method, srcList, refList, index);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::Lerp(::UnityEngine::UIElements::MaterialDefinition a, ::UnityEngine::UIElements::MaterialDefinition b,
+                                                                                                 ::by_ref<::UnityEngine::UIElements::MaterialDefinition> result, float_t t) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
+                                                           { "Lerp",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>(), ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MaterialDefinition>>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b, result, t);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::UpdateValues() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(), { "UpdateValues", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition* UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::StylePropertyAnimationSystem_ValuesMaterialDefinition() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::_ctor)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6c963e8;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem::_ctor)> {
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x710c8c8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::BaseVisualElementPanel*>() } })));
     return ___internal_method;
   }
 };
@@ -3013,7 +3888,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, float_t, float_t, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6c96500;
+  constexpr static std::size_t addrs = 0x710c9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3033,7 +3908,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, int32_t, int32_t, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6c965d0;
+  constexpr static std::size_t addrs = 0x710caa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3053,7 +3928,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6c966b4;
+  constexpr static std::size_t addrs = 0x710cb84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3073,7 +3948,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::Color, ::UnityEngine::Color, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6c96798;
+  constexpr static std::size_t addrs = 0x710cc68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3086,6 +3961,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem.StartTransitionEnum
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)(
+    ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, int32_t, int32_t, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransitionEnum)> {
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x710cd80;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
+                            { "StartTransitionEnum",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(), ::i2c::type_of<int32_t>(),
+                                ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem.StartTransition
 template <>
 
@@ -3093,7 +3988,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Background, ::UnityEngine::UIElements::Background, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6c968b0;
+  constexpr static std::size_t addrs = 0x710ce64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3113,7 +4008,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::FontDefinition, ::UnityEngine::UIElements::FontDefinition, int32_t,
     int32_t, ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c969a4;
+  constexpr static std::size_t addrs = 0x710cf58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3133,7 +4028,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::Font*, ::UnityEngine::Font*, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6c96a94;
+  constexpr static std::size_t addrs = 0x710d048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3153,7 +4048,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6c96b78;
+  constexpr static std::size_t addrs = 0x710d12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3173,7 +4068,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c96c7c;
+  constexpr static std::size_t addrs = 0x710d230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3193,7 +4088,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6c96d6c;
+  constexpr static std::size_t addrs = 0x710d320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3213,7 +4108,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6c96e70;
+  constexpr static std::size_t addrs = 0x710d424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3230,10 +4125,30 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)(
+    ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio, int32_t, int32_t,
+    ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x710d528;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
+                                                             { "StartTransition",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                                                 ::i2c::type_of<::UnityEngine::UIElements::Ratio>(), ::i2c::type_of<::UnityEngine::UIElements::Ratio>(), ::i2c::type_of<int32_t>(),
+                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem.StartTransition
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, int32_t,
     int32_t, ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6c96f74;
+  constexpr static std::size_t addrs = 0x710d5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3253,7 +4168,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundPosition, ::UnityEngine::UIElements::BackgroundPosition,
     int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c97078;
+  constexpr static std::size_t addrs = 0x710d6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3273,7 +4188,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundRepeat, ::UnityEngine::UIElements::BackgroundRepeat,
     int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6c97168;
+  constexpr static std::size_t addrs = 0x710d7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3293,7 +4208,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, int32_t,
     int32_t, ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6c9724c;
+  constexpr static std::size_t addrs = 0x710d8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3306,13 +4221,55 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem.StartTransition
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)(
+    ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*,
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x710d9d4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
+                                                             { "StartTransition",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                                                 ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>(),
+                                                                 ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>(), ::i2c::type_of<int32_t>(),
+                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem.StartTransition
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)(
+    ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition,
+    int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x710dab8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
+                                                             { "StartTransition",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                                                 ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>(), ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>(),
+                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem.CancelAllAnimations
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem::CancelAllAnimations)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6c97350;
+  constexpr static std::size_t addrs = 0x710dba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3326,7 +4283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem::CancelAllAnimations)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x6c9745c;
+  constexpr static std::size_t addrs = 0x710dcb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
@@ -3340,7 +4297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::CancelAnimation)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6c97698;
+  constexpr static std::size_t addrs = 0x710def0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3356,7 +4313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::UpdateAnimation)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6c97744;
+  constexpr static std::size_t addrs = 0x710df9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3373,7 +4330,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem::GetAllAnimations)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6c977f0;
+  constexpr static std::size_t addrs = 0x710e048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3385,42 +4342,44 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem.CurrentTimeMs
+//  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem.CurrentTimeSeconds
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)()>(
-    &::UnityEngine::UIElements::StylePropertyAnimationSystem::CurrentTimeMs)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)()>(
+    &::UnityEngine::UIElements::StylePropertyAnimationSystem::CurrentTimeSeconds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c97914;
+  constexpr static std::size_t addrs = 0x710e16c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(), { "CurrentTimeMs", {}, {} })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(), { "CurrentTimeSeconds", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StylePropertyAnimationSystem.Update
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::Update)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6c9791c;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)(double_t)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::Update)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x710e174;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(), { "Update", {}, {} })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(), { "Update", {}, { ::i2c::type_of<double_t>() } })));
     return ___internal_method;
   }
 };
-constexpr int64_t& UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_CurrentTimeMs() {
+constexpr double_t& UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_CurrentTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CurrentTimeMs;
+  return this->___m_CurrentTime;
 }
-constexpr int64_t const& UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_CurrentTimeMs() const {
+constexpr double_t const& UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_CurrentTime() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CurrentTimeMs;
+  return this->___m_CurrentTime;
 }
-constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_set_m_CurrentTimeMs(int64_t value) {
+constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_set_m_CurrentTime(double_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_CurrentTimeMs = value;
+  this->___m_CurrentTime = value;
 }
 constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat*& UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_Floats() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -3469,6 +4428,18 @@ constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor* c
 constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_set_m_Colors(::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Colors = value;
+}
+constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum*& UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_Enums() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Enums;
+}
+constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum* const& UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_Enums() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Enums;
+}
+constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_set_m_Enums(::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Enums = value;
 }
 constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackground*& UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_Backgrounds() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -3542,6 +4513,18 @@ constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Rotate = value;
 }
+constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*& UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_Ratio() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Ratio;
+}
+constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio* const& UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_Ratio() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Ratio;
+}
+constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_set_m_Ratio(::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Ratio = value;
+}
 constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate*& UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_Translate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Translate;
@@ -3605,6 +4588,33 @@ constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_BackgroundSize = value;
 }
+constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*& UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_FilterFunctions() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FilterFunctions;
+}
+constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction* const&
+UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_FilterFunctions() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FilterFunctions;
+}
+constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_set_m_FilterFunctions(::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_FilterFunctions = value;
+}
+constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*& UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_MaterialDefinition() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_MaterialDefinition;
+}
+constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition* const&
+UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_MaterialDefinition() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_MaterialDefinition;
+}
+constexpr void
+UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_set_m_MaterialDefinition(::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_MaterialDefinition = value;
+}
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values*>*&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_internal_get_m_AllValues() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -3635,9 +4645,10 @@ constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PropertyToValues = value;
 }
-inline void UnityEngine::UIElements::StylePropertyAnimationSystem::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem::_ctor(::UnityEngine::UIElements::BaseVisualElementPanel* p) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::BaseVisualElementPanel*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, p);
 }
 template <typename T>
   requires(::cordl_internals::default_constructor_constraint<T>)
@@ -3708,6 +4719,18 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
                                                              { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
                                                                ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
                                                                ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransitionEnum(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
+                                                                                       int32_t startValue, int32_t endValue, int32_t durationMs, int32_t delayMs,
+                                                                                       /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
+                          { "StartTransitionEnum",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(), ::i2c::type_of<int32_t>(),
+                              ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
@@ -3795,6 +4818,18 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
+                                                                                   ::UnityEngine::UIElements::Ratio startValue, ::UnityEngine::UIElements::Ratio endValue, int32_t durationMs,
+                                                                                   int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
+                                                           { "StartTransition",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                                               ::i2c::type_of<::UnityEngine::UIElements::Ratio>(), ::i2c::type_of<::UnityEngine::UIElements::Ratio>(), ::i2c::type_of<int32_t>(),
+                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    ::UnityEngine::UIElements::TransformOrigin startValue, ::UnityEngine::UIElements::TransformOrigin endValue,
                                                                                    int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method =
@@ -3842,6 +4877,32 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
                                                                ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
+inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
+                                                                                   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* startValue,
+                                                                                   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* endValue, int32_t durationMs,
+                                                                                   int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
+                                                           { "StartTransition",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                                               ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>(),
+                                                               ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>(), ::i2c::type_of<int32_t>(),
+                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
+                                                                                   ::UnityEngine::UIElements::MaterialDefinition startValue, ::UnityEngine::UIElements::MaterialDefinition endValue,
+                                                                                   int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
+                                                           { "StartTransition",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                                               ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>(), ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>(),
+                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
 inline void UnityEngine::UIElements::StylePropertyAnimationSystem::CancelAllAnimations() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(), { "CancelAllAnimations", {}, {} })));
@@ -3883,16 +4944,18 @@ template <typename T> inline void UnityEngine::UIElements::StylePropertyAnimatio
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, values);
 }
-inline int64_t UnityEngine::UIElements::StylePropertyAnimationSystem::CurrentTimeMs() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(), { "CurrentTimeMs", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<int64_t>(this, ___internal_method);
+inline double_t UnityEngine::UIElements::StylePropertyAnimationSystem::CurrentTimeSeconds() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(), { "CurrentTimeSeconds", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<double_t>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::StylePropertyAnimationSystem::Update() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(), { "Update", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+inline void UnityEngine::UIElements::StylePropertyAnimationSystem::Update(double_t updateTime) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(), { "Update", {}, { ::i2c::type_of<double_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, updateTime);
 }
-inline ::UnityEngine::UIElements::StylePropertyAnimationSystem* UnityEngine::UIElements::StylePropertyAnimationSystem::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::StylePropertyAnimationSystem*>());
+inline ::UnityEngine::UIElements::StylePropertyAnimationSystem* UnityEngine::UIElements::StylePropertyAnimationSystem::New_ctor(::UnityEngine::UIElements::BaseVisualElementPanel* p) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(p));
 }
 /// @brief Convert operator to "::UnityEngine::UIElements::IStylePropertyAnimationSystem"
 constexpr UnityEngine::UIElements::StylePropertyAnimationSystem::operator ::UnityEngine::UIElements::IStylePropertyAnimationSystem*() noexcept {

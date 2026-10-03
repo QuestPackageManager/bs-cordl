@@ -24,11 +24,11 @@ class CORDL_TYPE APIUpdaterRuntimeHelpers : public ::System::Object {
 public:
   // Declarations
   /// [RequiredByNativeCode]
-  /// @brief Method GetMovedFromAttributeDataForType, addr 0x6afae6c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetMovedFromAttributeDataForType, addr 0x6f56058, size 0x134, virtual false, abstract: false, final false
   static inline bool GetMovedFromAttributeDataForType(::System::Type* sourceType, ::by_ref<::StringW> assembly, ::by_ref<::StringW> nsp, ::by_ref<::StringW> klass);
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetObsoleteTypeRedirection, addr 0x6afafa0, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method GetObsoleteTypeRedirection, addr 0x6f5618c, size 0x2c4, virtual false, abstract: false, final false
   static inline bool GetObsoleteTypeRedirection(::System::Type* sourceType, ::by_ref<::StringW> assemblyName, ::by_ref<::StringW> nsp, ::by_ref<::StringW> className);
 
 protected:
@@ -46,7 +46,7 @@ public:
   APIUpdaterRuntimeHelpers(APIUpdaterRuntimeHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10016 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

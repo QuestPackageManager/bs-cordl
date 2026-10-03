@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SliderInt_UxmlFactory::*)()>(&::UnityEngine::UIElements::SliderInt_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6d72254;
+  constexpr static std::size_t addrs = 0x7203e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SliderInt_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::SliderInt_UxmlTraits::Init)> {
-  constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x6d722bc;
+  constexpr static std::size_t size = 0x2d8;
+  constexpr static std::size_t addrs = 0x7203e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SliderInt_UxmlTraits::*)()>(&::UnityEngine::UIElements::SliderInt_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x6d725cc;
+  constexpr static std::size_t addrs = 0x7204174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SliderInt::*)()>(&::UnityEngine::UIElements::SliderInt::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6d71514;
+  constexpr static std::size_t addrs = 0x72030c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ".ctor", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SliderInt::*)(::StringW, int32_t, int32_t, ::UnityEngine::UIElements::SliderDirection, float_t)>(
     &::UnityEngine::UIElements::SliderInt::_ctor)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6d7152c;
+  constexpr static std::size_t addrs = 0x72030d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,11 +185,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::SliderInt::*)()>(&::UnityEngine::UIElements::SliderInt::get_pageSize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6d71684;
+  constexpr static std::size_t addrs = 0x7203230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 159 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 165 }));
     return ___internal_method;
   }
 };
@@ -198,11 +198,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SliderInt::*)(float_t)>(&::UnityEngine::UIElements::SliderInt::set_pageSize)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6d716c8;
+  constexpr static std::size_t addrs = 0x7203274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 160 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 166 }));
     return ___internal_method;
   }
 };
@@ -212,11 +212,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SliderInt::*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, int32_t)>(
     &::UnityEngine::UIElements::SliderInt::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6d717ec;
+  constexpr static std::size_t addrs = 0x7203398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 163 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 169 }));
     return ___internal_method;
   }
 };
@@ -225,11 +225,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::SliderInt::*)(int32_t, int32_t, float_t)>(&::UnityEngine::UIElements::SliderInt::SliderLerpUnclamped)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6d71998;
+  constexpr static std::size_t addrs = 0x7203544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 164 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 170 }));
     return ___internal_method;
   }
 };
@@ -238,11 +238,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::SliderInt::*)(int32_t, int32_t, int32_t)>(&::UnityEngine::UIElements::SliderInt::SliderNormalizeValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6d71a88;
+  constexpr static std::size_t addrs = 0x7203634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 165 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 171 }));
     return ___internal_method;
   }
 };
@@ -251,11 +251,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::SliderInt::*)()>(&::UnityEngine::UIElements::SliderInt::SliderRange)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6d71ab0;
+  constexpr static std::size_t addrs = 0x720365c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 166 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 172 }));
     return ___internal_method;
   }
 };
@@ -263,12 +263,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::U
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::SliderInt::*)(::StringW, ::StringW)>(&::UnityEngine::UIElements::SliderInt::ParseStringToValue)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6d71b3c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x72036e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 167 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 173 }));
     return ___internal_method;
   }
 };
@@ -278,11 +278,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SliderInt::*)(float_t, float_t, float_t, float_t)>(
     &::UnityEngine::UIElements::SliderInt::ComputeValueAndDirectionFromClick)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x6d71bc0;
+  constexpr static std::size_t addrs = 0x72037a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 169 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 175 }));
     return ___internal_method;
   }
 };
@@ -292,11 +292,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SliderInt::*)(::UnityEngine::UIElements::BaseSlider_1_SliderKey<int32_t>, bool)>(
     &::UnityEngine::UIElements::SliderInt::ComputeValueFromKey)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x6d71ec8;
+  constexpr static std::size_t addrs = 0x7203aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 168 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 174 }));
     return ___internal_method;
   }
 };
@@ -332,39 +332,39 @@ inline void UnityEngine::UIElements::SliderInt::_ctor(::StringW label, int32_t s
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, label, start, end, direction, pageSize);
 }
 inline float_t UnityEngine::UIElements::SliderInt::get_pageSize() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 159 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 165 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::SliderInt::set_pageSize(float_t value) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 160 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 166 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void UnityEngine::UIElements::SliderInt::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int32_t startValue) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 163 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 169 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, delta, speed, startValue);
 }
 inline int32_t UnityEngine::UIElements::SliderInt::SliderLerpUnclamped(int32_t a, int32_t b, float_t interpolant) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 164 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 170 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, a, b, interpolant);
 }
 inline float_t UnityEngine::UIElements::SliderInt::SliderNormalizeValue(int32_t currentValue, int32_t lowerValue, int32_t higherValue) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 165 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 171 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, currentValue, lowerValue, higherValue);
 }
 inline int32_t UnityEngine::UIElements::SliderInt::SliderRange() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 166 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 172 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 inline int32_t UnityEngine::UIElements::SliderInt::ParseStringToValue(::StringW previousValue, ::StringW newValue) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 167 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 173 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, previousValue, newValue);
 }
 inline void UnityEngine::UIElements::SliderInt::ComputeValueAndDirectionFromClick(float_t sliderLength, float_t dragElementLength, float_t dragElementPos, float_t dragElementLastPos) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 169 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 175 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sliderLength, dragElementLength, dragElementPos, dragElementLastPos);
 }
 inline void UnityEngine::UIElements::SliderInt::ComputeValueFromKey(::UnityEngine::UIElements::BaseSlider_1_SliderKey<int32_t> sliderKey, bool isShift) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 168 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SliderInt*>(), 174 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sliderKey, isShift);
 }
 inline ::UnityEngine::UIElements::SliderInt* UnityEngine::UIElements::SliderInt::New_ctor() {

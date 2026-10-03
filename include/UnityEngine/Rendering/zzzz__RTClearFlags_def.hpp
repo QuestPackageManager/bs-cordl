@@ -33,6 +33,14 @@ public:
     __E_DepthStencil = static_cast<int32_t>(0x6),
     __E_ColorDepth = static_cast<int32_t>(0x3),
     __E_ColorStencil = static_cast<int32_t>(0x5),
+    __E_Color0 = static_cast<int32_t>(0x8),
+    __E_Color1 = static_cast<int32_t>(0x10),
+    __E_Color2 = static_cast<int32_t>(0x20),
+    __E_Color3 = static_cast<int32_t>(0x40),
+    __E_Color4 = static_cast<int32_t>(0x80),
+    __E_Color5 = static_cast<int32_t>(0x100),
+    __E_Color6 = static_cast<int32_t>(0x200),
+    __E_Color7 = static_cast<int32_t>(0x400),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -58,6 +66,30 @@ public:
   /// @brief Field Color value: I32(1)
   static ::UnityEngine::Rendering::RTClearFlags const Color;
 
+  /// @brief Field Color0 value: I32(8)
+  static ::UnityEngine::Rendering::RTClearFlags const Color0;
+
+  /// @brief Field Color1 value: I32(16)
+  static ::UnityEngine::Rendering::RTClearFlags const Color1;
+
+  /// @brief Field Color2 value: I32(32)
+  static ::UnityEngine::Rendering::RTClearFlags const Color2;
+
+  /// @brief Field Color3 value: I32(64)
+  static ::UnityEngine::Rendering::RTClearFlags const Color3;
+
+  /// @brief Field Color4 value: I32(128)
+  static ::UnityEngine::Rendering::RTClearFlags const Color4;
+
+  /// @brief Field Color5 value: I32(256)
+  static ::UnityEngine::Rendering::RTClearFlags const Color5;
+
+  /// @brief Field Color6 value: I32(512)
+  static ::UnityEngine::Rendering::RTClearFlags const Color6;
+
+  /// @brief Field Color7 value: I32(1024)
+  static ::UnityEngine::Rendering::RTClearFlags const Color7;
+
   /// @brief Field ColorDepth value: I32(3)
   static ::UnityEngine::Rendering::RTClearFlags const ColorDepth;
 
@@ -77,7 +109,7 @@ public:
   static ::UnityEngine::Rendering::RTClearFlags const Stencil;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10348 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

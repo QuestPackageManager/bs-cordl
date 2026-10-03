@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<int32_t>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, int32_t, int32_t)>(
     &::UnityEngine::ProBuilder::SelectPathFaces::GetPath)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x66e7a2c;
+  constexpr static std::size_t addrs = 0x6af3494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, int32_t)>(&::UnityEngine::ProBuilder::SelectPathFaces::Dijkstra)> {
   constexpr static std::size_t size = 0x6dc;
-  constexpr static std::size_t addrs = 0x66e7e04;
+  constexpr static std::size_t addrs = 0x6af386c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,8 +40,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (*)(::U
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(int32_t, int32_t, ::UnityEngine::ProBuilder::ProBuilderMesh*)>(&::UnityEngine::ProBuilder::SelectPathFaces::GetWeight)> {
-  constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x66e84e0;
+  constexpr static std::size_t size = 0x404;
+  constexpr static std::size_t addrs = 0x6af3f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<int32_t>* (*)(::ArrayW<int32_t>, int32_t, int32_t)>(
     &::UnityEngine::ProBuilder::SelectPathFaces::GetMinimalPath)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x66e7cd8;
+  constexpr static std::size_t addrs = 0x6af3740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

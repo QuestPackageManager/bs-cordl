@@ -32,13 +32,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>*();
 
-  /// @brief Method Equals, addr 0x6cf2158, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x71857ec, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6cf21ec, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7185880, size 0xf4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::UIR::TextCoreSettings other);
 
-  /// @brief Method GetHashCode, addr 0x6cf22e0, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7185974, size 0x194, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>"
@@ -56,7 +56,7 @@ public:
                              float_t underlaySoftness) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5351 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5468 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

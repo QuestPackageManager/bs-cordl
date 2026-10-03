@@ -106,7 +106,7 @@ public:
   static ::GlobalNamespace::FlyingScoreSpawner_SpawnPosition const Underground;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5803 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5873 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set_spawnPosition(::GlobalNamespace::FlyingScoreSpawner_SpawnPosition value);
 
-  /// @brief Method .ctor, addr 0x598a0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9b7dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::FlyingScoreSpawner_SpawnPosition spawnPosition);
 
 protected:
@@ -158,7 +158,7 @@ public:
   FlyingScoreSpawner_InitData(FlyingScoreSpawner_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5874 };
 
   /// @brief Field spawnPosition, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::FlyingScoreSpawner_SpawnPosition ___spawnPosition;
@@ -207,26 +207,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x598a0e8, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d9b7e8, size 0x5c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x598a144, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d9b844, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x598a14c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d9b84c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x598a184, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d9b884, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x598a0e4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d9b7e4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -260,7 +260,7 @@ public:
   constexpr void __cordl_internal_set_cutScoreBuffer(::GlobalNamespace::IReadonlyCutScoreBuffer* value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5989d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9af34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -287,7 +287,7 @@ public:
   FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5(FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5875 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -343,19 +343,19 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*() noexcept;
 
-  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x5989fa8, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x5d9b6a8, size 0x130, virtual true, abstract: false, final true
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   static inline ::GlobalNamespace::FlyingScoreSpawner* New_ctor();
 
-  /// @brief Method SpawnFlyingScore, addr 0x5989d20, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method SpawnFlyingScore, addr 0x5d9af3c, size 0x284, virtual false, abstract: false, final false
   inline void SpawnFlyingScore(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, ::UnityEngine::Color color);
 
-  /// @brief Method SpawnFlyingScoreNextFrame, addr 0x5989c70, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SpawnFlyingScoreNextFrame, addr 0x5d9ae8c, size 0x20, virtual false, abstract: false, final false
   inline void SpawnFlyingScoreNextFrame(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, ::UnityEngine::Color color);
 
   /// [IteratorStateMachine(typeof(FlyingScoreSpawner::<SpawnFlyingScoreNextFrameCoroutine>d__5))]
-  /// @brief Method SpawnFlyingScoreNextFrameCoroutine, addr 0x5989c90, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SpawnFlyingScoreNextFrameCoroutine, addr 0x5d9aeac, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SpawnFlyingScoreNextFrameCoroutine(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, ::UnityEngine::Color color);
 
   constexpr ::GlobalNamespace::FlyingScoreEffect_Pool* const& __cordl_internal_get__flyingScoreEffectPool() const;
@@ -370,7 +370,7 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::FlyingScoreSpawner_InitData* value);
 
-  /// @brief Method .ctor, addr 0x598a0d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9b7d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
@@ -391,7 +391,7 @@ public:
   FlyingScoreSpawner(FlyingScoreSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5876 };
 
   /// [Inject]
   /// @brief Field _flyingScoreEffectPool, offset: 0x20, size: 0x8, def value: None

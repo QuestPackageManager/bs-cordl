@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__mousePosition_k__BackingField(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x6d939f0, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7221654, size 0x454, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventBase* e);
 
 protected:
@@ -91,30 +91,30 @@ public:
   DropdownMenuEventInfo(DropdownMenuEventInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4413 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4409 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <modifiers>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::EventModifiers ____modifiers_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <mousePosition>k__BackingField, offset: 0x14, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____mousePosition_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <localMousePosition>k__BackingField, offset: 0x1c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____localMousePosition_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <character>k__BackingField, offset: 0x24, size: 0x2, def value: None
   char16_t ____character_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <keyCode>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::KeyCode ____keyCode_k__BackingField;
 

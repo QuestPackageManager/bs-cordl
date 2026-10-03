@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberPlayerIdentityPacketData::*)(
     ::GlobalNamespace::MultiplayerAvatarsData, ::GlobalNamespace::MultiplayerActiveHand)>(&::GlobalNamespace::BeatSaberPlayerIdentityPacketData::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x32a6e54;
+  constexpr static std::size_t addrs = 0x352ef68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberPlayerIdentityPacketData::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::BeatSaberPlayerIdentityPacketData::Serialize)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x32a80a8;
+  constexpr static std::size_t addrs = 0x352ef80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberPlayerIdentityPacketData::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::BeatSaberPlayerIdentityPacketData::Deserialize)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x32a80e8;
+  constexpr static std::size_t addrs = 0x352efc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

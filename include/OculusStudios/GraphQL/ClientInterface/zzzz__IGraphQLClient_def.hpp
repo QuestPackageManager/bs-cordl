@@ -49,7 +49,7 @@ public:
   inline void Initialize(::StringW endpoint, ::StringW accessToken, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* customAppHeaders,
                          ::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* logger);
 
-  /// @brief Method Mutate, addr 0x5f2c838, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Mutate, addr 0x6347504, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>* Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* request);
 
   /// @brief Method Mutate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -72,7 +72,7 @@ public:
   /// @brief Method PauseRequestQueue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PauseRequestQueue();
 
-  /// @brief Method Query, addr 0x5f2c778, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Query, addr 0x6347444, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>* Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* request);
 
   /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -98,6 +98,9 @@ public:
   /// @brief Method SetApplicationOnline, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetApplicationOnline();
 
+  /// @brief Method SetCustomAppHeaders, addr 0x6347440, size 0x4, virtual true, abstract: false, final false
+  inline void SetCustomAppHeaders(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* customAppHeaders);
+
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update(float_t deltaTime);
 
@@ -106,7 +109,7 @@ public:
   IGraphQLClient(IGraphQLClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22875 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23638 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

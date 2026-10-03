@@ -82,7 +82,7 @@ public:
   EventAttributeValue_1(EventAttributeValue_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20201 };
 
   /// @brief Field m_HasFunc, offset: 0x18, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::VFX::VFXEventAttribute*, int32_t, bool>* ___m_HasFunc;

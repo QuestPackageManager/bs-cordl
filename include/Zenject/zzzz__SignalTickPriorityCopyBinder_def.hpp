@@ -35,7 +35,7 @@ public:
 
   static inline ::Zenject::SignalTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method WithTickPriority, addr 0x6e46584, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithTickPriority, addr 0x72e20dc, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::SignalCopyBinder* WithTickPriority(int32_t priority);
 
   constexpr ::Zenject::SignalDeclarationBindInfo* const& __cordl_internal_get__SignalBindInfo_k__BackingField() const;
@@ -44,15 +44,15 @@ public:
 
   constexpr void __cordl_internal_set__SignalBindInfo_k__BackingField(::Zenject::SignalDeclarationBindInfo* value);
 
-  /// @brief Method .ctor, addr 0x6e46080, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72e1bd8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
   /// [CompilerGenerated]
-  /// @brief Method get_SignalBindInfo, addr 0x6e46574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignalBindInfo, addr 0x72e20cc, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SignalDeclarationBindInfo* get_SignalBindInfo();
 
   /// [CompilerGenerated]
-  /// @brief Method set_SignalBindInfo, addr 0x6e4657c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SignalBindInfo, addr 0x72e20d4, size 0x8, virtual false, abstract: false, final false
   inline void set_SignalBindInfo(::Zenject::SignalDeclarationBindInfo* value);
 
 protected:
@@ -70,7 +70,7 @@ public:
   SignalTickPriorityCopyBinder(SignalTickPriorityCopyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14249 };
 
   /// [CompilerGenerated]
   /// @brief Field <SignalBindInfo>k__BackingField, offset: 0x18, size: 0x8, def value: None

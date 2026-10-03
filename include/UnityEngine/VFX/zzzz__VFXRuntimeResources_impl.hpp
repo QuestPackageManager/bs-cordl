@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ComputeShader> (::UnityEngine::VFX::VFXRuntimeResources::*)()>(
     &::UnityEngine::VFX::VFXRuntimeResources::get_sdfRayMapCS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d81dc;
+  constexpr static std::size_t addrs = 0x6e15308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXRuntimeResources*>(), { "get_sdfRayMapCS", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXRuntimeResources::*)(::UnityEngine::ComputeShader*)>(&::UnityEngine::VFX::VFXRuntimeResources::set_sdfRayMapCS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d81e4;
+  constexpr static std::size_t addrs = 0x6e15310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ComputeShader> (::UnityEngine::VFX::VFXRuntimeResources::*)()>(
     &::UnityEngine::VFX::VFXRuntimeResources::get_sdfNormalsCS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d81ec;
+  constexpr static std::size_t addrs = 0x6e15318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXRuntimeResources*>(), { "get_sdfNormalsCS", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXRuntimeResources::*)(::UnityEngine::ComputeShader*)>(&::UnityEngine::VFX::VFXRuntimeResources::set_sdfNormalsCS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d81f4;
+  constexpr static std::size_t addrs = 0x6e15320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::VFX::VFXRuntimeResources::*)()>(&::UnityEngine::VFX::VFXRuntimeResources::get_sdfRayMapShader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d81fc;
+  constexpr static std::size_t addrs = 0x6e15328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXRuntimeResources*>(), { "get_sdfRayMapShader", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXRuntimeResources::*)(::UnityEngine::Shader*)>(&::UnityEngine::VFX::VFXRuntimeResources::set_sdfRayMapShader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d8204;
+  constexpr static std::size_t addrs = 0x6e15330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::VFX::VFXRuntimeResources> (*)()>(&::UnityEngine::VFX::VFXRuntimeResources::get_runtimeResources)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69d820c;
+  constexpr static std::size_t addrs = 0x6e15338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXRuntimeResources*>(), { "get_runtimeResources", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXRuntimeResources::*)()>(&::UnityEngine::VFX::VFXRuntimeResources::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d82b4;
+  constexpr static std::size_t addrs = 0x6e153e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXRuntimeResources*>(), { ".ctor", {}, {} })));

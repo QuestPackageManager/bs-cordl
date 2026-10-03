@@ -54,7 +54,7 @@ public:
   // Declarations
   using DebugView = ::System::Linq::Expressions::Interpreter::InstructionArray_DebugView;
 
-  /// @brief Method .ctor, addr 0x5f97dd8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63b3d60, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxStackDepth, int32_t maxContinuationDepth, ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*> instructions, ::ArrayW<::System::Object*> objects,
                     ::ArrayW<::System::Linq::Expressions::Interpreter::RuntimeLabel> labels,
                     ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<int32_t, ::System::Object*>>* debugCookies);
@@ -73,7 +73,7 @@ public:
                              ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<int32_t, ::System::Object*>>* DebugCookies) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16909 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -124,13 +124,13 @@ public:
   /// @brief Field _array, offset 0x10, size 0x28
   __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array)) ::System::Linq::Expressions::Interpreter::InstructionArray _array;
 
-  /// @brief Method GetInstructionViews, addr 0x5f97e90, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstructionViews, addr 0x63b3e18, size 0xa0, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::Interpreter::DebugView_InstructionList_InstructionView> GetInstructionViews(bool includeDebugCookies);
 
   static inline ::System::Linq::Expressions::Interpreter::InstructionArray_DebugView* New_ctor(::System::Linq::Expressions::Interpreter::InstructionArray array);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetInstructionViews>b__4_0, addr 0x5f98530, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <GetInstructionViews>b__4_0, addr 0x63b44b8, size 0x34, virtual false, abstract: false, final false
   inline int32_t _GetInstructionViews_b__4_0(int32_t index);
 
   constexpr ::System::Linq::Expressions::Interpreter::InstructionArray const& __cordl_internal_get__array() const;
@@ -139,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set__array(::System::Linq::Expressions::Interpreter::InstructionArray value);
 
-  /// @brief Method .ctor, addr 0x5f97de8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63b3d70, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::InstructionArray array);
 
 protected:
@@ -157,7 +157,7 @@ public:
   InstructionArray_DebugView(InstructionArray_DebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16908 };
 
   /// @brief Field _array, offset: 0x10, size: 0x28, def value: None
   ::System::Linq::Expressions::Interpreter::InstructionArray ____array;

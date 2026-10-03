@@ -34,7 +34,7 @@ public:
 
   __declspec(property(get = get_values, put = set_values)) ::System::Collections::Generic::IEnumerable_1<::StringW>* values;
 
-  /// @brief Method Equals, addr 0x6cc1464, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7148cb4, size 0x148, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UxmlTypeRestriction* other);
 
   static inline ::UnityEngine::UIElements::UxmlEnumeration* New_ctor();
@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Values(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x6cc15ac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7148dfc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_values, addr 0x6cc13fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_values, addr 0x7148c4c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_values();
 
-  /// @brief Method set_values, addr 0x6cc1404, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_values, addr 0x7148c54, size 0x60, virtual false, abstract: false, final false
   inline void set_values(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
 protected:
@@ -69,7 +69,7 @@ public:
   UxmlEnumeration(UxmlEnumeration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5295 };
 
   /// @brief Field m_Values, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_Values;

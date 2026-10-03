@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Net::Mail::DotAtomReader::ReadReverse)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x636e750;
+  constexpr static std::size_t addrs = 0x67969b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

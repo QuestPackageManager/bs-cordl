@@ -13,7 +13,7 @@ class VolumeComponentDeprecated;
 MARK_REF_T(::UnityEngine::Rendering::VolumeComponentDeprecated*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::VolumeComponentDeprecated*, "UnityEngine.Rendering", "VolumeComponentDeprecated");
 // [AttributeUsage((System.AttributeTargets)4)]
-// [Obsolete("VolumeComponentDeprecated has been deprecated (UnityUpgradable) -> [UnityEngine] UnityEngine.HideInInspector", false)]
+// [Obsolete("VolumeComponentDeprecated has been deprecated. #from(2023.1) (UnityUpgradable) -> [UnityEngine] UnityEngine.HideInInspector")]
 // Dependencies System.Attribute
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::VolumeComponentDeprecated* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67cb354, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be95f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   VolumeComponentDeprecated(VolumeComponentDeprecated const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9206 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

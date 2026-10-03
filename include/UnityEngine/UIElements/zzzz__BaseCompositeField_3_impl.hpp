@@ -3,6 +3,7 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseCompositeField_3_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
@@ -10,6 +11,7 @@
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseCompositeField_3_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IDelayedField_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 template <typename TValueType, typename TField, typename TFieldValue>
 inline void UnityEngine::UIElements::FieldDescription_BaseCompositeField_3_WriteDelegate<TValueType, TField, TFieldValue>::_ctor(::System::Object* object, ::System::IntPtr method) {
@@ -62,82 +64,82 @@ template <typename TValueType, typename TField, typename TFieldValue>
 constexpr ::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<TValueType, TField, TFieldValue>::BaseCompositeField_3_FieldDescription() {}
 template <typename TValueType, typename TField, typename TFieldValue>
 constexpr ::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<TValueType, TField, TFieldValue>&
-UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>::__cordl_internal_get_desc() {
+UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>::__cordl_internal_get_desc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___desc;
 }
 template <typename TValueType, typename TField, typename TFieldValue>
 constexpr ::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<TValueType, TField, TFieldValue> const&
-UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>::__cordl_internal_get_desc() const {
+UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>::__cordl_internal_get_desc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___desc;
 }
 template <typename TValueType, typename TField, typename TFieldValue>
-constexpr void UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>::__cordl_internal_set_desc(
+constexpr void UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>::__cordl_internal_set_desc(
     ::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<TValueType, TField, TFieldValue> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___desc = value;
 }
 template <typename TValueType, typename TField, typename TFieldValue>
-constexpr TField& UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>::__cordl_internal_get_field() {
+constexpr TField& UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>::__cordl_internal_get_field() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___field;
 }
 template <typename TValueType, typename TField, typename TFieldValue>
-constexpr TField const& UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>::__cordl_internal_get_field() const {
+constexpr TField const& UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>::__cordl_internal_get_field() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___field;
 }
 template <typename TValueType, typename TField, typename TFieldValue>
-constexpr void UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>::__cordl_internal_set_field(TField value) {
+constexpr void UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>::__cordl_internal_set_field(TField value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___field = value;
 }
 template <typename TValueType, typename TField, typename TFieldValue>
 constexpr ::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*&
-UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>::__cordl_internal_get___4__this() {
+UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TValueType, typename TField, typename TFieldValue>
 constexpr ::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>* const&
-UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>::__cordl_internal_get___4__this() const {
+UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TValueType, typename TField, typename TFieldValue>
-constexpr void UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>::__cordl_internal_set___4__this(
+constexpr void UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>::__cordl_internal_set___4__this(
     ::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-template <typename TValueType, typename TField, typename TFieldValue> inline void UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>::_ctor() {
+template <typename TValueType, typename TField, typename TFieldValue> inline void UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>*>(), { ".ctor", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType, typename TField, typename TFieldValue>
-inline TFieldValue UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>::__ctor_b__0(TFieldValue newValue) {
+inline TFieldValue UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>::__ctor_b__0(TFieldValue newValue) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>*>(),
                                                            { "<.ctor>b__0", {}, { ::i2c::type_of<TFieldValue>() } })));
   return ::cordl_internals::RunMethodRethrow<TFieldValue>(this, ___internal_method, newValue);
 }
 template <typename TValueType, typename TField, typename TFieldValue>
-inline void UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>::__ctor_b__1(::UnityEngine::UIElements::ChangeEvent_1<TFieldValue>* e) {
+inline void UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>::__ctor_b__1(::UnityEngine::UIElements::ChangeEvent_1<TFieldValue>* e) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>*>(),
                                                            { "<.ctor>b__1", {}, { ::i2c::type_of<::UnityEngine::UIElements::ChangeEvent_1<TFieldValue>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e);
 }
 template <typename TValueType, typename TField, typename TFieldValue>
-inline ::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>*
-UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>*>());
+inline ::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>*
+UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>*>());
 }
 // Ctor Parameters []
 template <typename TValueType, typename TField, typename TFieldValue>
-constexpr ::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>::BaseCompositeField_3___c__DisplayClass18_0() {}
+constexpr ::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>::BaseCompositeField_3___c__DisplayClass23_0() {}
 template <typename TValueType, typename TField, typename TFieldValue>
 constexpr ::System::Collections::Generic::List_1<TField>*& UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::__cordl_internal_get_m_Fields() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -182,6 +184,30 @@ template <typename TValueType, typename TField, typename TFieldValue>
 constexpr void UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::__cordl_internal_set_m_ForceUpdateDisplay(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ForceUpdateDisplay = value;
+}
+template <typename TValueType, typename TField, typename TFieldValue>
+constexpr bool& UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::__cordl_internal_get_m_IsDelayed() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsDelayed;
+}
+template <typename TValueType, typename TField, typename TFieldValue>
+constexpr bool const& UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::__cordl_internal_get_m_IsDelayed() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsDelayed;
+}
+template <typename TValueType, typename TField, typename TFieldValue>
+constexpr void UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::__cordl_internal_set_m_IsDelayed(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_IsDelayed = value;
+}
+template <typename TValueType, typename TField, typename TFieldValue>
+inline void UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::setStaticF_isDelayedProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "isDelayedProperty", ::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+template <typename TValueType, typename TField, typename TFieldValue>
+inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::getStaticF_isDelayedProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "isDelayedProperty", ::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*>();
 }
 template <typename TValueType, typename TField, typename TFieldValue>
 inline void UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::setStaticF_ussClassName(::StringW value) {
@@ -257,12 +283,29 @@ inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseCo
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
 }
 template <typename TValueType, typename TField, typename TFieldValue>
+inline ::System::Collections::Generic::List_1<TField>* UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::get_fields() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*>(), { "get_fields", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<TField>*>(this, ___internal_method);
+}
+template <typename TValueType, typename TField, typename TFieldValue>
 inline ::ArrayW<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<TValueType, TField, TFieldValue>>
 UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::DescribeFields() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*>(), 154 })));
+                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*>(), 161 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<TValueType, TField, TFieldValue>>>(this, ___internal_method);
+}
+template <typename TValueType, typename TField, typename TFieldValue> inline bool UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::get_isDelayed() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*>(), { "get_isDelayed", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template <typename TValueType, typename TField, typename TFieldValue> inline void UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::set_isDelayed(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*>(), { "set_isDelayed", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TValueType, typename TField, typename TFieldValue>
 inline void UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::_ctor(::StringW label, int32_t fieldsByLine) {
@@ -279,25 +322,35 @@ template <typename TValueType, typename TField, typename TFieldValue>
 inline void UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::SetValueWithoutNotify(TValueType newValue) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*>(), 153 })));
+                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*>(), 159 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newValue);
 }
 template <typename TValueType, typename TField, typename TFieldValue> inline void UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::OnViewDataReady() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*>(), 132 })));
+                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*>(), 135 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType, typename TField, typename TFieldValue> inline void UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::UpdateMixedValueContent() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*>(), 152 })));
+                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*>(), 158 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType, typename TField, typename TFieldValue>
 inline ::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*
 UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::New_ctor(::StringW label, int32_t fieldsByLine) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*>(label, fieldsByLine));
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IDelayedField"
+template <typename TValueType, typename TField, typename TFieldValue>
+constexpr UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::operator ::UnityEngine::UIElements::IDelayedField*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IDelayedField*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IDelayedField"
+template <typename TValueType, typename TField, typename TFieldValue>
+constexpr ::UnityEngine::UIElements::IDelayedField* UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::i___UnityEngine__UIElements__IDelayedField() noexcept {
+  return static_cast<::UnityEngine::UIElements::IDelayedField*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TValueType, typename TField, typename TFieldValue> constexpr ::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::BaseCompositeField_3() {}

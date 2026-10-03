@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic::*)()>(
     &::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6e25698;
+  constexpr static std::size_t addrs = 0x72c08c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic* (*)()>(
     &::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic::CreatePackageManagerResolvePackageAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e2572c;
+  constexpr static std::size_t addrs = 0x72c0958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,6 +88,42 @@ constexpr ::ArrayW<::StringW> const& UnityEditor::Analytics::PackageManagerResol
 constexpr void UnityEditor::Analytics::PackageManagerResolvePackageAnalytic::__cordl_internal_set_package_types(::ArrayW<::StringW> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___package_types = value;
+}
+constexpr ::ArrayW<::StringW>& UnityEditor::Analytics::PackageManagerResolvePackageAnalytic::__cordl_internal_get_package_compliance_statuses() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___package_compliance_statuses;
+}
+constexpr ::ArrayW<::StringW> const& UnityEditor::Analytics::PackageManagerResolvePackageAnalytic::__cordl_internal_get_package_compliance_statuses() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___package_compliance_statuses;
+}
+constexpr void UnityEditor::Analytics::PackageManagerResolvePackageAnalytic::__cordl_internal_set_package_compliance_statuses(::ArrayW<::StringW> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___package_compliance_statuses = value;
+}
+constexpr ::ArrayW<::StringW>& UnityEditor::Analytics::PackageManagerResolvePackageAnalytic::__cordl_internal_get_package_signature_errorCodes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___package_signature_errorCodes;
+}
+constexpr ::ArrayW<::StringW> const& UnityEditor::Analytics::PackageManagerResolvePackageAnalytic::__cordl_internal_get_package_signature_errorCodes() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___package_signature_errorCodes;
+}
+constexpr void UnityEditor::Analytics::PackageManagerResolvePackageAnalytic::__cordl_internal_set_package_signature_errorCodes(::ArrayW<::StringW> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___package_signature_errorCodes = value;
+}
+constexpr ::ArrayW<::StringW>& UnityEditor::Analytics::PackageManagerResolvePackageAnalytic::__cordl_internal_get_package_publishing_channels() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___package_publishing_channels;
+}
+constexpr ::ArrayW<::StringW> const& UnityEditor::Analytics::PackageManagerResolvePackageAnalytic::__cordl_internal_get_package_publishing_channels() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___package_publishing_channels;
+}
+constexpr void UnityEditor::Analytics::PackageManagerResolvePackageAnalytic::__cordl_internal_set_package_publishing_channels(::ArrayW<::StringW> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___package_publishing_channels = value;
 }
 inline void UnityEditor::Analytics::PackageManagerResolvePackageAnalytic::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic*>(), { ".ctor", {}, {} })));

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Bson::BsonBinaryType (::Newtonsoft::Json::Bson::BsonBinary::*)()>(&::Newtonsoft::Json::Bson::BsonBinary::get_BinaryType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dae880;
+  constexpr static std::size_t addrs = 0x61c8464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Bson::BsonBinary*>(), { "get_BinaryType", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinary::*)(::Newtonsoft::Json::Bson::BsonBinaryType)>(
     &::Newtonsoft::Json::Bson::BsonBinary::set_BinaryType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dae888;
+  constexpr static std::size_t addrs = 0x61c846c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinary::*)(::ArrayW<uint8_t>, ::Newtonsoft::Json::Bson::BsonBinaryType)>(
     &::Newtonsoft::Json::Bson::BsonBinary::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5dae890;
+  constexpr static std::size_t addrs = 0x61c8474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

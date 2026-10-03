@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RSAPKCS1SHA256SignatureDescription::*)()>(
     &::System::Security::Cryptography::RSAPKCS1SHA256SignatureDescription::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5b06e04;
+  constexpr static std::size_t addrs = 0x5f1ecfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

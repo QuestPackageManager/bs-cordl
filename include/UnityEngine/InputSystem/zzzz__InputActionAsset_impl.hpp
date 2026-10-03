@@ -27,11 +27,15 @@
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maps", ty:
-// "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "controlSchemes", ty:
-// "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::InputSystem::InputActionAsset_WriteFileJson::InputActionAsset_WriteFileJson(::StringW name, ::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson> maps,
+// Ctor Parameters []
+constexpr ::UnityEngine::InputSystem::InputActionAsset_JsonVersion::InputActionAsset_JsonVersion() {}
+// Ctor Parameters [CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "controlSchemes", ty: "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::InputSystem::InputActionAsset_WriteFileJson::InputActionAsset_WriteFileJson(int32_t version, ::StringW name,
+                                                                                                     ::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson> maps,
                                                                                                      ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson> controlSchemes) noexcept {
+  this->version = version;
   this->name = name;
   this->maps = maps;
   this->controlSchemes = controlSchemes;
@@ -53,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset_ReadFileJson::*)(::UnityEngine::InputSystem::InputActionAsset*)>(
     &::UnityEngine::InputSystem::InputActionAsset_ReadFileJson::ToAsset)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x64d6a24;
+  constexpr static std::size_t addrs = 0x69001cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset_ReadFileJson>(),
@@ -66,257 +70,259 @@ inline void UnityEngine::InputSystem::InputActionAsset_ReadFileJson::ToAsset(::U
                                                                                          { "ToAsset", {}, { ::i2c::type_of<::UnityEngine::InputSystem::InputActionAsset*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, asset);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maps", ty:
-// "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "controlSchemes", ty:
-// "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::InputSystem::InputActionAsset_ReadFileJson::InputActionAsset_ReadFileJson(::StringW name, ::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson> maps,
+// Ctor Parameters [CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "controlSchemes", ty: "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::InputSystem::InputActionAsset_ReadFileJson::InputActionAsset_ReadFileJson(int32_t version, ::StringW name,
+                                                                                                   ::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson> maps,
                                                                                                    ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson> controlSchemes) noexcept {
+  this->version = version;
   this->name = name;
   this->maps = maps;
   this->controlSchemes = controlSchemes;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionAsset_ReadFileJson::InputActionAsset_ReadFileJson() {}
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32._ctor
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::*)(int32_t)>(
-    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::*)(int32_t)>(
+    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64d79a8;
+  constexpr static std::size_t addrs = 0x6901150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32.System_IDisposable_Dispose
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64d8eb0;
+  constexpr static std::size_t addrs = 0x6902658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(), { "System.IDisposable.Dispose", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32.MoveNext
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::MoveNext)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x64d8eb4;
+  constexpr static std::size_t addrs = 0x690265c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32.System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__get_Current
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33.System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64d9034;
+  constexpr static std::size_t addrs = 0x69027dc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33*>(),
                                                                                            { "System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputAction>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64d903c;
+  constexpr static std::size_t addrs = 0x69027e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64d9074;
+  constexpr static std::size_t addrs = 0x690281c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get___1__state() {
+constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get___1__state() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_set___1__state(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::UnityEngine::InputSystem::InputAction*& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get___2__current() {
+constexpr ::UnityEngine::InputSystem::InputAction*& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::UnityEngine::InputSystem::InputAction* const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get___2__current() const {
+constexpr ::UnityEngine::InputSystem::InputAction* const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_set___2__current(::UnityEngine::InputSystem::InputAction* value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_set___2__current(::UnityEngine::InputSystem::InputAction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset>& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset>& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset> const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset> const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_set___4__this(::UnityW<::UnityEngine::InputSystem::InputActionAsset> value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_set___4__this(::UnityW<::UnityEngine::InputSystem::InputActionAsset> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__i_5__2() {
+constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_get__i_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__i_5__2() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_get__i_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_set__i_5__2(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_set__i_5__2(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__2 = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputAction*>&
-UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__actions_5__3() {
+UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_get__actions_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____actions_5__3;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputAction*> const&
-UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__actions_5__3() const {
+UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_get__actions_5__3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____actions_5__3;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_set__actions_5__3(
+constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_set__actions_5__3(
     ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputAction*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____actions_5__3 = value;
 }
-constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__actionCount_5__4() {
+constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_get__actionCount_5__4() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____actionCount_5__4;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__actionCount_5__4() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_get__actionCount_5__4() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____actionCount_5__4;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_set__actionCount_5__4(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_set__actionCount_5__4(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____actionCount_5__4 = value;
 }
-constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__n_5__5() {
+constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_get__n_5__5() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____n_5__5;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__n_5__5() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_get__n_5__5() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____n_5__5;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_set__n_5__5(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::__cordl_internal_set__n_5__5(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____n_5__5 = value;
 }
-inline void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::_ctor(int32_t __1__state) {
+inline void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_IDisposable_Dispose() {
+inline void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(), { "System.IDisposable.Dispose", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::MoveNext() {
+inline bool UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline ::UnityEngine::InputSystem::InputAction*
-UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(),
+UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33*>(),
                                                                                          { "System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputAction>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputAction*>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_Collections_IEnumerator_Reset() {
+inline void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
 /// @brief [DebuggerHidden]
-inline ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(__1__state));
+inline ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>"
-constexpr UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>*() noexcept {
+constexpr UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>*
-UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__InputAction__() noexcept {
+UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__InputAction__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::operator ::System::IDisposable*() noexcept {
+constexpr UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::InputActionAsset__GetEnumerator_d__32() {}
+constexpr ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__33::InputActionAsset__GetEnumerator_d__33() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)(int32_t)>(
     &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64d5d58;
+  constexpr static std::size_t addrs = 0x68fec80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64d907c;
+  constexpr static std::size_t addrs = 0x6902824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x64d9080;
+  constexpr static std::size_t addrs = 0x6902828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -358,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputBinding (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputBinding__get_Current)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64d91dc;
+  constexpr static std::size_t addrs = 0x6902984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>(),
@@ -372,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64d91ec;
+  constexpr static std::size_t addrs = 0x6902994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -386,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x64d9224;
+  constexpr static std::size_t addrs = 0x69029cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -401,7 +407,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>* (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)()>(
         &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputBinding__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x64d928c;
+  constexpr static std::size_t addrs = 0x6902a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>(),
@@ -415,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64d9324;
+  constexpr static std::size_t addrs = 0x6902acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -625,7 +631,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::get_enabled)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x64d5adc;
+  constexpr static std::size_t addrs = 0x68fea04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "get_enabled", {}, {} })));
@@ -638,7 +644,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputActionMap*> (
     ::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::get_actionMaps)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64d5c28;
+  constexpr static std::size_t addrs = 0x68feb50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "get_actionMaps", {}, {} })));
@@ -651,7 +657,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControlScheme> (
     ::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::get_controlSchemes)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64d5c90;
+  constexpr static std::size_t addrs = 0x68febb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "get_controlSchemes", {}, {} })));
@@ -664,7 +670,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>* (::UnityEngine::InputSystem::InputActionAsset::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset::get_bindings)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x64d5ce8;
+  constexpr static std::size_t addrs = 0x68fec10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "get_bindings", {}, {} })));
@@ -677,7 +683,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> (::UnityEngine::InputSystem::InputActionAsset::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset::get_bindingMask)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64d5d78;
+  constexpr static std::size_t addrs = 0x68feca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "get_bindingMask", {}, {} })));
@@ -690,7 +696,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)(::System::Nullable_1<::UnityEngine::InputSystem::InputBinding>)>(
     &::UnityEngine::InputSystem::InputActionAsset::set_bindingMask)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x64d5d88;
+  constexpr static std::size_t addrs = 0x68fecb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -705,7 +711,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> (
     ::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::get_devices)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x64d5f24;
+  constexpr static std::size_t addrs = 0x68fee4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "get_devices", {}, {} })));
@@ -718,7 +724,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)(
     ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>>)>(&::UnityEngine::InputSystem::InputActionAsset::set_devices)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64d5fe8;
+  constexpr static std::size_t addrs = 0x68fef10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -734,7 +740,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::InputActionAsset::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputActionAsset::get_Item)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64d61b4;
+  constexpr static std::size_t addrs = 0x68ff0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -746,8 +752,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSyste
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::ToJson)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x64d6570;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x68ff498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "ToJson", {}, {} })));
@@ -758,8 +764,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionAsset::LoadFromJson)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x64d6954;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x68ff8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -772,7 +778,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::InputSystem::InputActionAsset> (*)(::StringW)>(&::UnityEngine::InputSystem::InputActionAsset::FromJson)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x64d6ab8;
+  constexpr static std::size_t addrs = 0x6900260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -786,7 +792,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::InputActionAsset::*)(::StringW, bool)>(
     &::UnityEngine::InputSystem::InputActionAsset::FindAction)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x64d6234;
+  constexpr static std::size_t addrs = 0x68ff15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -800,7 +806,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputActionAsset::*)(
     ::UnityEngine::InputSystem::InputBinding, ::by_ref<::UnityEngine::InputSystem::InputAction*>)>(&::UnityEngine::InputSystem::InputActionAsset::FindBinding)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x64d6c84;
+  constexpr static std::size_t addrs = 0x690042c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -816,7 +822,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionMap* (::UnityEngine::InputSystem::InputActionAsset::*)(::StringW, bool)>(
     &::UnityEngine::InputSystem::InputActionAsset::FindActionMap)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x64d6e4c;
+  constexpr static std::size_t addrs = 0x69005f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -830,7 +836,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionMap* (::UnityEngine::InputSystem::InputActionAsset::*)(::System::Guid)>(
     &::UnityEngine::InputSystem::InputActionAsset::FindActionMap)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x64d705c;
+  constexpr static std::size_t addrs = 0x6900804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -844,7 +850,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::InputActionAsset::*)(::System::Guid)>(
     &::UnityEngine::InputSystem::InputActionAsset::FindAction)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x64d70e4;
+  constexpr static std::size_t addrs = 0x690088c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -857,7 +863,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputActionAsset::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionAsset::FindControlSchemeIndex)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x64d719c;
+  constexpr static std::size_t addrs = 0x6900944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -871,7 +877,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme> (::UnityEngine::InputSystem::InputActionAsset::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputActionAsset::FindControlScheme)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x64d7270;
+  constexpr static std::size_t addrs = 0x6900a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -885,7 +891,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputActionAsset::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputActionAsset::IsUsableWithDevice)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x64d7378;
+  constexpr static std::size_t addrs = 0x6900b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(),
@@ -898,7 +904,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::Enable)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x64d75d0;
+  constexpr static std::size_t addrs = 0x6900d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "Enable", {}, {} })));
@@ -910,7 +916,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::Disable)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x64d7754;
+  constexpr static std::size_t addrs = 0x6900efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "Disable", {}, {} })));
@@ -923,7 +929,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputActionAsset::*)(::UnityEngine::InputSystem::InputAction*)>(
     &::UnityEngine::InputSystem::InputActionAsset::Contains)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x64d78b8;
+  constexpr static std::size_t addrs = 0x6901060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -937,7 +943,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>* (::UnityEngine::InputSystem::InputActionAsset::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset::GetEnumerator)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x64d7954;
+  constexpr static std::size_t addrs = 0x69010fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "GetEnumerator", {}, {} })));
@@ -950,7 +956,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::InputSystem::InputActionAsset::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64d79b0;
+  constexpr static std::size_t addrs = 0x6901158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -963,7 +969,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::MarkAsDirty)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64d79b4;
+  constexpr static std::size_t addrs = 0x690115c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "MarkAsDirty", {}, {} })));
@@ -975,7 +981,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::IsEmpty)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64d79b8;
+  constexpr static std::size_t addrs = 0x6901160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "IsEmpty", {}, {} })));
@@ -987,7 +993,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::OnWantToChangeSetup)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x64d7a38;
+  constexpr static std::size_t addrs = 0x69011e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "OnWantToChangeSetup", {}, {} })));
@@ -999,7 +1005,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::OnSetupChanged)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x64d7d18;
+  constexpr static std::size_t addrs = 0x69014c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "OnSetupChanged", {}, {} })));
@@ -1011,7 +1017,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)(bool)>(&::UnityEngine::InputSystem::InputActionAsset::ReResolveIfNecessary)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x64d5ee4;
+  constexpr static std::size_t addrs = 0x68fee0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1024,7 +1030,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::ResolveBindingsIfNecessary)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64d7f3c;
+  constexpr static std::size_t addrs = 0x69016e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1037,10 +1043,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::OnDestroy)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64d7fbc;
+  constexpr static std::size_t addrs = 0x6901764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "OnDestroy", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset.MigrateJson
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)(::by_ref<::UnityEngine::InputSystem::InputActionAsset_ReadFileJson>)>(
+    &::UnityEngine::InputSystem::InputActionAsset::MigrateJson)> {
+  constexpr static std::size_t size = 0x818;
+  constexpr static std::size_t addrs = 0x68ff9b4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(),
+                                                             { "MigrateJson", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputSystem::InputActionAsset_ReadFileJson>>() } })));
     return ___internal_method;
   }
 };
@@ -1049,7 +1070,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64d7fe4;
+  constexpr static std::size_t addrs = 0x690178c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { ".ctor", {}, {} })));
@@ -1300,6 +1321,12 @@ inline void UnityEngine::InputSystem::InputActionAsset::ResolveBindingsIfNecessa
 inline void UnityEngine::InputSystem::InputActionAsset::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { "OnDestroy", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::InputActionAsset::MigrateJson(::by_ref<::UnityEngine::InputSystem::InputActionAsset_ReadFileJson> parsedJson) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(),
+                                                           { "MigrateJson", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputSystem::InputActionAsset_ReadFileJson>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parsedJson);
 }
 inline void UnityEngine::InputSystem::InputActionAsset::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset*>(), { ".ctor", {}, {} })));

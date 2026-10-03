@@ -43,50 +43,59 @@ class CORDL_TYPE ProfilerUnsafeUtility : public ::System::Object {
 public:
   // Declarations
   /// [ThreadSafe]
-  /// @brief Method BeginSample, addr 0x6a5d4dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeginSample, addr 0x6eaf050, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginSample(::System::IntPtr markerPtr);
 
   /// [ThreadSafe]
-  /// @brief Method BeginSampleWithMetadata, addr 0x6a5e66c, size 0x54, virtual false, abstract: false, final false
-  static inline void BeginSampleWithMetadata(::System::IntPtr markerPtr, int32_t metadataCount, void* metadata);
-
-  /// [ThreadSafe]
-  /// @brief Method CreateCategory__Unmanaged, addr 0x6a5e498, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateCategory__Unmanaged, addr 0x6eb000c, size 0x54, virtual false, abstract: false, final false
   static inline uint16_t CreateCategory__Unmanaged(uint8_t* name, int32_t nameLen, ::Unity::Profiling::ProfilerCategoryColor colorIndex);
 
   /// [ThreadSafe]
-  /// @brief Method CreateCounterValue__Unmanaged, addr 0x6a5e6c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CreateCounterValue__Unmanaged, addr 0x6eb01e0, size 0x9c, virtual false, abstract: false, final false
   static inline void* CreateCounterValue__Unmanaged(::by_ref<::System::IntPtr> counterPtr, uint8_t* name, int32_t nameLen, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags,
                                                     uint8_t dataType, uint8_t dataUnit, int32_t dataSize, ::Unity::Profiling::ProfilerCounterOptions counterOptions);
 
   /// [ThreadSafe]
-  /// @brief Method CreateMarker, addr 0x6a5d2d4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker, addr 0x6eaee48, size 0x154, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateMarker(::StringW name, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags, int32_t metadataCount);
 
-  /// @brief Method CreateMarker_Injected, addr 0x6a5e530, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker_Injected, addr 0x6eb00a4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateMarker_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags,
                                                        int32_t metadataCount);
 
   /// [ThreadSafe]
-  /// @brief Method CreateMarker__Unmanaged, addr 0x6a5e58c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker__Unmanaged, addr 0x6eb0100, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateMarker__Unmanaged(uint8_t* name, int32_t nameLen, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags, int32_t metadataCount);
 
   /// [ThreadSafe]
-  /// @brief Method EndSample, addr 0x6a5d564, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EndSample, addr 0x6eaf0d8, size 0x3c, virtual false, abstract: false, final false
   static inline void EndSample(::System::IntPtr markerPtr);
 
   /// [ThreadSafe]
-  /// @brief Method GetCategoryDescription, addr 0x6a5d100, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetCategoryDescription, addr 0x6eaec84, size 0x90, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription GetCategoryDescription(uint16_t categoryId);
 
-  /// @brief Method GetCategoryDescription_Injected, addr 0x6a5e4ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetCategoryDescription_Injected, addr 0x6eb0060, size 0x44, virtual false, abstract: false, final false
   static inline void GetCategoryDescription_Injected(uint16_t categoryId, ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription> ret);
 
+  /// [NativeConditional("ENABLE_MEM_PROFILER")]
+  /// [ThreadSafe(ThrowsException = false)]
+  /// @brief Method GetOrCreateMemLabel, addr 0x6eb027c, size 0x1b4, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetOrCreateMemLabel(::StringW areaName, ::StringW objectName);
+
+  /// @brief Method GetOrCreateMemLabel_Injected, addr 0x6eb0430, size 0x44, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetOrCreateMemLabel_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> areaName, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> objectName);
+
+  /// [ThreadSafe(ThrowsException = false)]
+  /// [NativeConditional("ENABLE_MEM_PROFILER")]
+  /// @brief Method GetOrCreateMemLabel__Unmanaged, addr 0x6eb0474, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetOrCreateMemLabel__Unmanaged(uint8_t* areaName, int32_t areaNameLen, uint8_t* objectName, int32_t objectNameLen);
+
   /// [ThreadSafe]
-  /// @brief Method SetMarkerMetadata__Unmanaged, addr 0x6a5e5f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetMarkerMetadata__Unmanaged, addr 0x6eb016c, size 0x74, virtual false, abstract: false, final false
   static inline void SetMarkerMetadata__Unmanaged(::System::IntPtr markerPtr, int32_t index, uint8_t* name, int32_t nameLen, uint8_t type, uint8_t unit);
 
-  /// @brief Method Utf8ToString, addr 0x6a5d190, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Utf8ToString, addr 0x6eaed14, size 0xe4, virtual false, abstract: false, final false
   static inline ::StringW Utf8ToString(uint8_t* chars, int32_t charsLen);
 
 protected:
@@ -104,7 +113,7 @@ public:
   ProfilerUnsafeUtility(ProfilerUnsafeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9961 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9534 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

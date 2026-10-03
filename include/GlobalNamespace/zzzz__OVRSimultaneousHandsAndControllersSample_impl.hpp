@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::*)()>(&::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::Update)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5ed14f4;
+  constexpr static std::size_t addrs = 0x62eb9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSimultaneousHandsAndControllersSample*>(), { "Update", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::EnableSimultaneousHandsAndControllers)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5ed15f4;
+  constexpr static std::size_t addrs = 0x62ebae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::DisableSimultaneousHandsAndControllers)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5ed1678;
+  constexpr static std::size_t addrs = 0x62ebb6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::*)()>(&::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ed16fc;
+  constexpr static std::size_t addrs = 0x62ebbf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSimultaneousHandsAndControllersSample*>(), { ".ctor", {}, {} })));

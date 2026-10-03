@@ -42,7 +42,7 @@ public:
 
   static inline ::GlobalNamespace::JumpReceiver* New_ctor();
 
-  /// @brief Method OnNotify, addr 0x5859434, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method OnNotify, addr 0x5c6f1e0, size 0x148, virtual true, abstract: false, final true
   inline void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
   constexpr bool const& __cordl_internal_get__jumpToDestinationValid_k__BackingField() const;
@@ -51,18 +51,18 @@ public:
 
   constexpr void __cordl_internal_set__jumpToDestinationValid_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x585957c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c6f328, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_jumpToDestinationValid, addr 0x5859424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jumpToDestinationValid, addr 0x5c6f1d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_jumpToDestinationValid();
 
   /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
   constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_jumpToDestinationValid, addr 0x585942c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_jumpToDestinationValid, addr 0x5c6f1d8, size 0x8, virtual false, abstract: false, final false
   inline void set_jumpToDestinationValid(bool value);
 
 protected:
@@ -80,7 +80,7 @@ public:
   JumpReceiver(JumpReceiver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22162 };
 
   /// [CompilerGenerated]
   /// @brief Field <jumpToDestinationValid>k__BackingField, offset: 0x20, size: 0x1, def value: None

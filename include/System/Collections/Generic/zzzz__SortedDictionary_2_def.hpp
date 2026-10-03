@@ -267,7 +267,7 @@ public:
                                           int32_t _getEnumeratorRetType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12334 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -339,7 +339,7 @@ public:
   constexpr KeyCollection_SortedDictionary_2_Enumerator(::System::Collections::Generic::SortedDictionary_2_Enumerator<TKey, TValue> _dictEnum) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12335 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -402,7 +402,7 @@ public:
   KeyCollection_SortedDictionary_2___c__DisplayClass5_0(KeyCollection_SortedDictionary_2___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11402 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12336 };
 
   /// @brief Field array, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<TKey> ___array;
@@ -465,7 +465,7 @@ public:
   KeyCollection_SortedDictionary_2___c__DisplayClass6_0(KeyCollection_SortedDictionary_2___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12337 };
 
   /// @brief Field index, offset: 0x10, size: 0x4, def value: None
   int32_t ___index;
@@ -597,7 +597,7 @@ public:
   SortedDictionary_2_KeyCollection(SortedDictionary_2_KeyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12338 };
 
   /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedDictionary_2<TKey, TValue>* ____dictionary;
@@ -663,7 +663,7 @@ public:
   constexpr ValueCollection_SortedDictionary_2_Enumerator(::System::Collections::Generic::SortedDictionary_2_Enumerator<TKey, TValue> _dictEnum) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12339 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -726,7 +726,7 @@ public:
   ValueCollection_SortedDictionary_2___c__DisplayClass5_0(ValueCollection_SortedDictionary_2___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12340 };
 
   /// @brief Field array, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<TValue> ___array;
@@ -789,7 +789,7 @@ public:
   ValueCollection_SortedDictionary_2___c__DisplayClass6_0(ValueCollection_SortedDictionary_2___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12341 };
 
   /// @brief Field index, offset: 0x10, size: 0x4, def value: None
   int32_t ___index;
@@ -921,7 +921,7 @@ public:
   SortedDictionary_2_ValueCollection(SortedDictionary_2_ValueCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12342 };
 
   /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedDictionary_2<TKey, TValue>* ____dictionary;
@@ -971,7 +971,7 @@ public:
   SortedDictionary_2_KeyValuePairComparer(SortedDictionary_2_KeyValuePairComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12343 };
 
   /// @brief Field keyComparer, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IComparer_1<TKey>* ___keyComparer;
@@ -1031,7 +1031,7 @@ public:
   SortedDictionary_2___c__DisplayClass34_0(SortedDictionary_2___c__DisplayClass34_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12344 };
 
   /// @brief Field found, offset: 0x10, size: 0x1, def value: None
   bool ___found;
@@ -1095,7 +1095,7 @@ public:
   SortedDictionary_2___c__DisplayClass34_1(SortedDictionary_2___c__DisplayClass34_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12345 };
 
   /// @brief Field valueComparer, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::EqualityComparer_1<TValue>* ___valueComparer;
@@ -1386,7 +1386,7 @@ public:
   SortedDictionary_2(SortedDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11412 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12346 };
 
   /// @brief Field _keys, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedDictionary_2_KeyCollection<TKey, TValue>* ____keys;

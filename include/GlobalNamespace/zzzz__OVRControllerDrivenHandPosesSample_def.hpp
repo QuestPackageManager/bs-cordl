@@ -39,18 +39,18 @@ public:
   /// @brief Field cameraRig, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_cameraRig, put = __cordl_internal_set_cameraRig)) ::UnityW<::GlobalNamespace::OVRCameraRig> cameraRig;
 
-  /// @brief Method Awake, addr 0x5e1e440, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6238154, size 0xfc, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRControllerDrivenHandPosesSample* New_ctor();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x5e1e620, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x6238334, size 0xe8, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToControllerConforming();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x5e1e708, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x623841c, size 0xe8, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToNatural();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x5e1e53c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x6238250, size 0xe4, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToNone();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonConforming() const;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set_cameraRig(::UnityW<::GlobalNamespace::OVRCameraRig> value);
 
-  /// @brief Method .ctor, addr 0x5e1e7f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6238504, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   OVRControllerDrivenHandPosesSample(OVRControllerDrivenHandPosesSample const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7255 };
 
   /// [SerializeField]
   /// @brief Field buttonOff, offset: 0x20, size: 0x8, def value: None

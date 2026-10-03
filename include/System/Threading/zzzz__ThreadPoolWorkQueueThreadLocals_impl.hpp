@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadPoolWorkQueueThreadLocals::*)(::System::Threading::ThreadPoolWorkQueue*)>(
     &::System::Threading::ThreadPoolWorkQueueThreadLocals::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5cb49e0;
+  constexpr static std::size_t addrs = 0x60ce528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadPoolWorkQueueThreadLocals::*)()>(&::System::Threading::ThreadPoolWorkQueueThreadLocals::CleanUp)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5cb6408;
+  constexpr static std::size_t addrs = 0x60cff50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueueThreadLocals*>(), { "CleanUp", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadPoolWorkQueueThreadLocals::*)()>(&::System::Threading::ThreadPoolWorkQueueThreadLocals::Finalize)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5cb64e8;
+  constexpr static std::size_t addrs = 0x60d0030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueueThreadLocals*>(),

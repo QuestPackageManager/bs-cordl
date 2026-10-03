@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerOctetStringParser::*)(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(
     &::Org::BouncyCastle::Asn1::DerOctetStringParser::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3687a10;
+  constexpr static std::size_t addrs = 0x3910cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerOctetStringParser*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Asn1::DerOctetStringParser::*)()>(
     &::Org::BouncyCastle::Asn1::DerOctetStringParser::GetOctetStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36909ac;
+  constexpr static std::size_t addrs = 0x3919c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerOctetStringParser*>(), { "GetOctetStream", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::DerOctetStringParser::*)()>(
     &::Org::BouncyCastle::Asn1::DerOctetStringParser::ToAsn1Object)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x36909b4;
+  constexpr static std::size_t addrs = 0x3919c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerOctetStringParser*>(), { "ToAsn1Object", {}, {} })));

@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "Unity/Properties/zzzz__PropertyBag_1_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(ContainerPropertyBag_1)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -62,6 +63,9 @@ public:
 
   static inline ::Unity::Properties::ContainerPropertyBag_1<TContainer>* New_ctor();
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
+  static inline ::Unity::Properties::ContainerPropertyBag_1<TContainer>* New_ctor(int32_t initialCapacity);
+
   /// @brief Method TryGetProperty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool TryGetProperty(::by_ref<TContainer> container, ::StringW name, ::by_ref<::Unity::Properties::IProperty_1<TContainer>*> property);
 
@@ -79,6 +83,10 @@ public:
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(int32_t initialCapacity);
 
   /// @brief Convert to "::Unity::Properties::INamedProperties_1<TContainer>"
   constexpr ::Unity::Properties::INamedProperties_1<TContainer>* i___Unity__Properties__INamedProperties_1_TContainer_() noexcept;
@@ -98,7 +106,7 @@ public:
   ContainerPropertyBag_1(ContainerPropertyBag_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20723 };
 
   /// @brief Field m_PropertiesList, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<TContainer>*>* ___m_PropertiesList;

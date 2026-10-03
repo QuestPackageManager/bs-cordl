@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::MousePositionDebug* (*)()>(&::UnityEngine::Rendering::MousePositionDebug::get_instance)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x676d844;
+  constexpr static std::size_t addrs = 0x6b858f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "get_instance", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MousePositionDebug::*)()>(&::UnityEngine::Rendering::MousePositionDebug::Build)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x676d8b8;
+  constexpr static std::size_t addrs = 0x6b85968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "Build", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MousePositionDebug::*)()>(&::UnityEngine::Rendering::MousePositionDebug::Cleanup)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x676d8bc;
+  constexpr static std::size_t addrs = 0x6b8596c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "Cleanup", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::MousePositionDebug::*)(float_t, bool)>(
     &::UnityEngine::Rendering::MousePositionDebug::GetMousePosition)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x676d8c0;
+  constexpr static std::size_t addrs = 0x6b85970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::MousePositionDebug::*)()>(
     &::UnityEngine::Rendering::MousePositionDebug::GetInputMousePosition)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x676d8c4;
+  constexpr static std::size_t addrs = 0x6b85974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "GetInputMousePosition", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::MousePositionDebug::*)(float_t)>(
     &::UnityEngine::Rendering::MousePositionDebug::GetMouseClickPosition)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x676d970;
+  constexpr static std::size_t addrs = 0x6b85a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MousePositionDebug::*)()>(&::UnityEngine::Rendering::MousePositionDebug::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x676d8b4;
+  constexpr static std::size_t addrs = 0x6b85964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { ".ctor", {}, {} })));

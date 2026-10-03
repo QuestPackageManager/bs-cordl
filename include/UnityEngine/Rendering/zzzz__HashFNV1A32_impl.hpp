@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/HashFNV1A32.hpp"
 #include "UnityEngine/Rendering/zzzz__HashFNV1A32_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
@@ -10,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::HashFNV1A32 (*)()>(&::UnityEngine::Rendering::HashFNV1A32::Create)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67c53b4;
+  constexpr static std::size_t addrs = 0x6be36dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Create", {}, {} })));
@@ -22,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<int32_t>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x67c53c0;
+  constexpr static std::size_t addrs = 0x6be36e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<uint32_t>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x67c53e0;
+  constexpr static std::size_t addrs = 0x6be3708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<bool>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x67c5400;
+  constexpr static std::size_t addrs = 0x6be3728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<float_t>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x67c5428;
+  constexpr static std::size_t addrs = 0x6be3750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<double_t>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x67c5458;
+  constexpr static std::size_t addrs = 0x6be3780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x67c5490;
+  constexpr static std::size_t addrs = 0x6be37b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67c54d8;
+  constexpr static std::size_t addrs = 0x6be3800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,38 +111,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<::UnityEngine::Vector4>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x67c553c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6be3864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::HashFNV1A32.Append
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::System::Delegate*)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x67c55c0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::System::Delegate*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::HashFNV1A32.GetFuncHashCode
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Delegate*)>(&::UnityEngine::Rendering::HashFNV1A32::GetFuncHashCode)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x67c5634;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "GetFuncHashCode", {}, { ::i2c::type_of<::System::Delegate*>() } })));
     return ___internal_method;
   }
 };
@@ -152,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::HashFNV1A32::*)()>(&::UnityEngine::Rendering::HashFNV1A32::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c5680;
+  constexpr static std::size_t addrs = 0x6be38e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "get_value", {}, {} })));
@@ -164,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::HashFNV1A32::*)()>(&::UnityEngine::Rendering::HashFNV1A32::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c5688;
+  constexpr static std::size_t addrs = 0x6be38e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,16 +196,6 @@ inline void UnityEngine::Rendering::HashFNV1A32::Append(T input) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
-}
-inline void UnityEngine::Rendering::HashFNV1A32::Append(::System::Delegate* del) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::System::Delegate*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, del);
-}
-inline int32_t UnityEngine::Rendering::HashFNV1A32::GetFuncHashCode(::System::Delegate* del) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "GetFuncHashCode", {}, { ::i2c::type_of<::System::Delegate*>() } })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, del);
 }
 inline int32_t UnityEngine::Rendering::HashFNV1A32::get_value() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "get_value", {}, {} })));

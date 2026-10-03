@@ -46,15 +46,18 @@ public:
   /// @brief Field m_Smooth, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Smooth, put = __cordl_internal_set_m_Smooth)) bool m_Smooth;
 
-  /// @brief Method CopyShape, addr 0x670304c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x6b17d54, size 0x98, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Cone* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x6703264, size 0xc68, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x6b17f6c, size 0xc68, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method UpdateBounds, addr 0x67030e4, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method SetParametersToBuiltInShape, addr 0x6b17d40, size 0x14, virtual true, abstract: false, final false
+  inline void SetParametersToBuiltInShape();
+
+  /// @brief Method UpdateBounds, addr 0x6b17dec, size 0x180, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   constexpr int32_t const& __cordl_internal_get_m_NumberOfSides() const;
@@ -75,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Smooth(bool value);
 
-  /// @brief Method .ctor, addr 0x6703ecc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b18bd4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +96,7 @@ public:
   Cone(Cone const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17360 };
 
   /// [Range(3, 64)]
   /// [SerializeField]

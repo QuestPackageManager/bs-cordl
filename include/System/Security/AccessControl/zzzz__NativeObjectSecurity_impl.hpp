@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::NativeObjectSecurity_ExceptionFromErrorCode::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Security::AccessControl::NativeObjectSecurity_ExceptionFromErrorCode::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5b2031c;
+  constexpr static std::size_t addrs = 0x5f38214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::NativeObjectSecurity_ExceptionFromErrorCode*>(),
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (
     ::System::Security::AccessControl::NativeObjectSecurity_ExceptionFromErrorCode::*)(int32_t, ::StringW, ::System::Runtime::InteropServices::SafeHandle*, ::System::Object*)>(
     &::System::Security::AccessControl::NativeObjectSecurity_ExceptionFromErrorCode::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5b203c0;
+  constexpr static std::size_t addrs = 0x5f382b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::NativeObjectSecurity_ExceptionFromErrorCode*>(),
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security:
     bool, ::System::Security::AccessControl::ResourceType, ::System::Security::AccessControl::NativeObjectSecurity_ExceptionFromErrorCode*, ::System::Object*)>(
     &::System::Security::AccessControl::NativeObjectSecurity::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5b1ff68;
+  constexpr static std::size_t addrs = 0x5f37e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::NativeObjectSecurity::*)(
     bool, ::System::Security::AccessControl::ResourceType, ::StringW, ::System::Security::AccessControl::AccessControlSections)>(&::System::Security::AccessControl::NativeObjectSecurity::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b1f698;
+  constexpr static std::size_t addrs = 0x5f37590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security:
     bool, ::System::Security::AccessControl::ResourceType, ::StringW, ::System::Security::AccessControl::AccessControlSections,
     ::System::Security::AccessControl::NativeObjectSecurity_ExceptionFromErrorCode*, ::System::Object*)>(&::System::Security::AccessControl::NativeObjectSecurity::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5b1ff90;
+  constexpr static std::size_t addrs = 0x5f37e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::NativeObjectSecurity::*)()>(
     &::System::Security::AccessControl::NativeObjectSecurity::ClearAccessControlSectionsModified)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5b2009c;
+  constexpr static std::size_t addrs = 0x5f37f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(int32_t, ::StringW, ::System::Runtime::InteropServices::SafeHandle*, ::System::Object*)>(
     &::System::Security::AccessControl::NativeObjectSecurity::DefaultExceptionFromErrorCode)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x5b20180;
+  constexpr static std::size_t addrs = 0x5f38078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::NativeObjectSecurity::*)(
     int32_t, ::StringW, ::System::Runtime::InteropServices::SafeHandle*, ::System::Object*)>(&::System::Security::AccessControl::NativeObjectSecurity::RaiseExceptionOnFailure)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5b20000;
+  constexpr static std::size_t addrs = 0x5f37ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::AccessControl::NativeObjectSecurity::*)(::StringW, ::System::Security::AccessControl::AccessControlSections)>(
     &::System::Security::AccessControl::NativeObjectSecurity::InternalGet)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b20388;
+  constexpr static std::size_t addrs = 0x5f38280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::NativeObjectSecurity*>(),

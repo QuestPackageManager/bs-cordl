@@ -27,6 +27,7 @@ class UniversalRenderPipelineVolumeDebugSettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings*, "UnityEngine.Rendering.Universal", "UniversalRenderPipelineVolumeDebugSettings");
+// [Obsolete("This is not longer supported Please use DebugDisplaySettingsVolume. #from(6000.2)")]
 // Dependencies UnityEngine.Rendering.VolumeDebugSettings`1<T>
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -41,24 +42,24 @@ public:
   __declspec(property(get = get_selectedCameraVolumeStack)) ::UnityEngine::Rendering::VolumeStack* selectedCameraVolumeStack;
 
   /// @brief [Obsolete("This property is obsolete and kept only for not breaking user code. VolumeDebugSettings will use current pipeline when it needs to gather volume component types and paths.
-  /// #from(23.2)", false)]
+  /// #from(2023.2)")]
   __declspec(property(get = get_targetRenderPipeline)) ::System::Type* targetRenderPipeline;
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x68529a4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c8be98, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_selectedCameraLayerMask, addr 0x68533f4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method get_selectedCameraLayerMask, addr 0x6c8bc48, size 0xf0, virtual true, abstract: false, final false
   inline ::UnityEngine::LayerMask get_selectedCameraLayerMask();
 
-  /// @brief Method get_selectedCameraPosition, addr 0x68534e4, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method get_selectedCameraPosition, addr 0x6c8bd38, size 0x100, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedCameraPosition();
 
-  /// @brief Method get_selectedCameraVolumeStack, addr 0x68532a4, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method get_selectedCameraVolumeStack, addr 0x6c8baf8, size 0x150, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::VolumeStack* get_selectedCameraVolumeStack();
 
-  /// @brief Method get_targetRenderPipeline, addr 0x68535e4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_targetRenderPipeline, addr 0x6c8be38, size 0x60, virtual true, abstract: false, final false
   inline ::System::Type* get_targetRenderPipeline();
 
 protected:
@@ -76,7 +77,7 @@ public:
   UniversalRenderPipelineVolumeDebugSettings(UniversalRenderPipelineVolumeDebugSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12671 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12887 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

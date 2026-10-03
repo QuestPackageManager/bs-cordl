@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Security::SslServerAuthenticationOptions* (::Mono::Net::Security::MonoSslServerAuthenticationOptions::*)()>(
     &::Mono::Net::Security::MonoSslServerAuthenticationOptions::get_Options)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fdced0;
+  constexpr static std::size_t addrs = 0x63f8e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoSslServerAuthenticationOptions*>(), { "get_Options", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Net::Security::MonoSslServerAuthenticationOptions::*)()>(
     &::Mono::Net::Security::MonoSslServerAuthenticationOptions::get_ServerMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fdced8;
+  constexpr static std::size_t addrs = 0x63f8e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoSslServerAuthenticationOptions*>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MonoSslServerAuthenticationOptions::*)()>(&::Mono::Net::Security::MonoSslServerAuthenticationOptions::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5fda0b4;
+  constexpr static std::size_t addrs = 0x63f603c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoSslServerAuthenticationOptions*>(), { ".ctor", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MonoSslServerAuthenticationOptions::*)(::System::Security::Cryptography::X509Certificates::X509RevocationMode)>(
     &::Mono::Net::Security::MonoSslServerAuthenticationOptions::set_CertificateRevocationCheckMode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fdcee0;
+  constexpr static std::size_t addrs = 0x63f8e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoSslServerAuthenticationOptions*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MonoSslServerAuthenticationOptions::*)(::System::Net::Security::EncryptionPolicy)>(
     &::Mono::Net::Security::MonoSslServerAuthenticationOptions::set_EncryptionPolicy)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fdcef8;
+  constexpr static std::size_t addrs = 0x63f8e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoSslServerAuthenticationOptions*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Authentication::SslProtocols (::Mono::Net::Security::MonoSslServerAuthenticationOptions::*)()>(
     &::Mono::Net::Security::MonoSslServerAuthenticationOptions::get_EnabledSslProtocols)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fdcf10;
+  constexpr static std::size_t addrs = 0x63f8e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoSslServerAuthenticationOptions*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MonoSslServerAuthenticationOptions::*)(::System::Security::Authentication::SslProtocols)>(
     &::Mono::Net::Security::MonoSslServerAuthenticationOptions::set_EnabledSslProtocols)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fdcf28;
+  constexpr static std::size_t addrs = 0x63f8eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoSslServerAuthenticationOptions*>(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Net::Security::MonoSslServerAuthenticationOptions::*)()>(
     &::Mono::Net::Security::MonoSslServerAuthenticationOptions::get_ClientCertificateRequired)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fdcf40;
+  constexpr static std::size_t addrs = 0x63f8ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoSslServerAuthenticationOptions*>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MonoSslServerAuthenticationOptions::*)(bool)>(
     &::Mono::Net::Security::MonoSslServerAuthenticationOptions::set_ClientCertificateRequired)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5fdcf58;
+  constexpr static std::size_t addrs = 0x63f8ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoSslServerAuthenticationOptions*>(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Net::Security::MonoSslServerAuthenticationOptions::*)()>(
     &::Mono::Net::Security::MonoSslServerAuthenticationOptions::get_TargetHost)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5fdcf74;
+  constexpr static std::size_t addrs = 0x63f8efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoSslServerAuthenticationOptions*>(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MonoSslServerAuthenticationOptions::*)(::StringW)>(
     &::Mono::Net::Security::MonoSslServerAuthenticationOptions::set_TargetHost)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5fdcfac;
+  constexpr static std::size_t addrs = 0x63f8f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoSslServerAuthenticationOptions*>(),
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (::Mono::Net::Security::MonoSslServerAuthenticationOptions::*)()>(
     &::Mono::Net::Security::MonoSslServerAuthenticationOptions::get_ServerCertificate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fdcfe4;
+  constexpr static std::size_t addrs = 0x63f8f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoSslServerAuthenticationOptions*>(),
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MonoSslServerAuthenticationOptions::*)(::System::Security::Cryptography::X509Certificates::X509Certificate*)>(
     &::Mono::Net::Security::MonoSslServerAuthenticationOptions::set_ServerCertificate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fdcffc;
+  constexpr static std::size_t addrs = 0x63f8f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoSslServerAuthenticationOptions*>(),
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateCollection* (::Mono::Net::Security::MonoSslServerAuthenticationOptions::*)()>(
     &::Mono::Net::Security::MonoSslServerAuthenticationOptions::get_ClientCertificates)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5fdd014;
+  constexpr static std::size_t addrs = 0x63f8f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoSslServerAuthenticationOptions*>(),
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MonoSslServerAuthenticationOptions::*)(
     ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&::Mono::Net::Security::MonoSslServerAuthenticationOptions::set_ClientCertificates)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5fdd04c;
+  constexpr static std::size_t addrs = 0x63f8fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoSslServerAuthenticationOptions*>(),

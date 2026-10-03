@@ -34,10 +34,10 @@ public:
   /// @brief Field s_NameToColor, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_NameToColor, put = setStaticF_s_NameToColor)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color32>* s_NameToColor;
 
-  /// @brief Method HexToColor32, addr 0x6d17e1c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HexToColor32, addr 0x71c9144, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 HexToColor32(uint32_t color);
 
-  /// @brief Method TryGetColor, addr 0x6d144bc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TryGetColor, addr 0x71c905c, size 0xe8, virtual false, abstract: false, final false
   static inline bool TryGetColor(::StringW name, ::by_ref<::UnityEngine::Color> color);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color32>* getStaticF_s_NameToColor();
@@ -59,7 +59,7 @@ public:
   StyleSheetColor(StyleSheetColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5466 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5583 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

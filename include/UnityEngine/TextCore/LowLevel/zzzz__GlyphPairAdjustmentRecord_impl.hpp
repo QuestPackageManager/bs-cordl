@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_firstAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bc09b8;
+  constexpr static std::size_t addrs = 0x701ffdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord)>(
     &::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::set_firstAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bc09cc;
+  constexpr static std::size_t addrs = 0x701fff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_secondAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bc09e0;
+  constexpr static std::size_t addrs = 0x7020004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_featureLookupFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bc09f4;
+  constexpr static std::size_t addrs = 0x7020018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)(
     ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord)>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6bc09fc;
+  constexpr static std::size_t addrs = 0x7020020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6bc0a20;
+  constexpr static std::size_t addrs = 0x7020044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)(::System::Object*)>(
     &::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6bc0a8c;
+  constexpr static std::size_t addrs = 0x70200b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(
     &::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6bc0b04;
+  constexpr static std::size_t addrs = 0x7020128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>(),

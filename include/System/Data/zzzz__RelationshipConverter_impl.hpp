@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::RelationshipConverter::*)()>(&::System::Data::RelationshipConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x604c50c;
+  constexpr static std::size_t addrs = 0x64688d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::RelationshipConverter*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::RelationshipConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::Data::RelationshipConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x604c510;
+  constexpr static std::size_t addrs = 0x64688d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Syst
                                                                                                                     ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::Data::RelationshipConverter::ConvertTo)> {
   constexpr static std::size_t size = 0xa9c;
-  constexpr static std::size_t addrs = 0x604c5b4;
+  constexpr static std::size_t addrs = 0x6468978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -108,18 +108,18 @@ public:
 
   constexpr void __cordl_internal_set_stage(::BeatSaber::Destinations::DestinationTarget value);
 
-  /// @brief Method .ctor, addr 0x32812e4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3507ba4, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Destinations::DestinationTarget stage, ::BeatSaber::Destinations::LevelStartDestinationParameters* levelStartDestination,
                     /* [Nullable(new[] { 2, 1 })] */ ::ArrayW<::StringW> arguments, ::BeatSaber::Destinations::DestinationFlags destinationFlags,
                     ::BeatSaber::Destinations::MissionDestinationParameters* missionDestinationParameters, ::GlobalNamespace::GameplayAdditionalInformation* gameplayAdditionalInformation);
 
-  /// @brief Method get_shouldLoadHealthWarning, addr 0x3281400, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_shouldLoadHealthWarning, addr 0x3507cc0, size 0xc, virtual false, abstract: false, final false
   inline bool get_shouldLoadHealthWarning();
 
-  /// @brief Method get_shouldLoadMenu, addr 0x32813f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_shouldLoadMenu, addr 0x3507cb4, size 0xc, virtual false, abstract: false, final false
   inline bool get_shouldLoadMenu();
 
-  /// @brief Method get_shouldMockOnlineServices, addr 0x328140c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_shouldMockOnlineServices, addr 0x3507ccc, size 0xc, virtual false, abstract: false, final false
   inline bool get_shouldMockOnlineServices();
 
 protected:
@@ -137,7 +137,7 @@ public:
   Destination(Destination const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23824 };
 
   /// @brief Field stage, offset: 0x10, size: 0x4, def value: None
   ::BeatSaber::Destinations::DestinationTarget ___stage;

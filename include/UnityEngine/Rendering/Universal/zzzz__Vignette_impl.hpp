@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Vignette::*)()>(&::UnityEngine::Rendering::Universal::Vignette::IsActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x687fe8c;
+  constexpr static std::size_t addrs = 0x6cbf3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Vignette*>(), { "IsActive", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Vignette::*)()>(&::UnityEngine::Rendering::Universal::Vignette::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687febc;
+  constexpr static std::size_t addrs = 0x6cbf414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Vignette*>(), { "IsTileCompatible", {}, {} })));
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Vignette::*)()>(&::UnityEngine::Rendering::Universal::Vignette::_ctor)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x687fec4;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x6cbf41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Vignette*>(), { ".ctor", {}, {} })));

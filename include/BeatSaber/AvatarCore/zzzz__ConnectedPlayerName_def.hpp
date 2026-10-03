@@ -33,7 +33,7 @@ public:
 
   static inline ::BeatSaber::AvatarCore::ConnectedPlayerName* New_ctor();
 
-  /// @brief Method Start, addr 0x326f554, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x34f5dfc, size 0xc8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x326f61c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34f5ec4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   ConnectedPlayerName(ConnectedPlayerName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22376 };
 
   /// [SerializeField]
   /// @brief Field _nameText, offset: 0x20, size: 0x8, def value: None

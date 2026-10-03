@@ -11,7 +11,6 @@
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawFowardEmissiveSystem_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalForwardEmissivePass_def.hpp"
-#include "UnityEngine/Rendering/Universal/zzzz__RenderingData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalCameraData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalLightData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalRenderingData_def.hpp"
@@ -19,7 +18,6 @@
 #include "UnityEngine/Rendering/zzzz__RasterCommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RendererListParams_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RendererList_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderTagId_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData._ctor
 template <>
@@ -27,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6857220;
+  constexpr static std::size_t addrs = 0x6c8f24c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c::*)()>(
     &::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6857d8c;
+  constexpr static std::size_t addrs = 0x6c8f2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,18 +81,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c._RecordRenderGraph_b__10_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c._RecordRenderGraph_b__8_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c::*)(
     ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
-    &::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c::_RecordRenderGraph_b__10_0)> {
+    &::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c::_RecordRenderGraph_b__8_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6857d90;
+  constexpr static std::size_t addrs = 0x6c8f2a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c*>(),
-                                                                                           { "<RecordRenderGraph>b__10_0",
+                                                                                           { "<RecordRenderGraph>b__8_0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -108,30 +106,30 @@ inline void UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c::set
 inline ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c* UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c*, "<>9", ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c*>();
 }
-inline void UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c::setStaticF___9__10_0(
+inline void UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c::setStaticF___9__8_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                    "<>9__10_0", ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c*>(
+                                    "<>9__8_0", ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c::getStaticF___9__10_0() {
+UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c::getStaticF___9__8_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                           "<>9__10_0", ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c*>();
+                                           "<>9__8_0", ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c*>();
 }
 inline void UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c::_RecordRenderGraph_b__10_0(::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData* data,
-                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext) {
+inline void UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c::_RecordRenderGraph_b__8_0(::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData* data,
+                                                                                                       ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c*>(),
-                                                                                         { "<RecordRenderGraph>b__10_0",
+                                                                                         { "<RecordRenderGraph>b__8_0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -147,27 +145,13 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalForwardEmissivePass::*)(::UnityEngine::Rendering::Universal::DecalDrawFowardEmissiveSystem*)>(
     &::UnityEngine::Rendering::Universal::DecalForwardEmissivePass::_ctor)> {
-  constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x6856f44;
+  constexpr static std::size_t size = 0x29c;
+  constexpr static std::size_t addrs = 0x6c8e710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass*>(),
                                                              { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalDrawFowardEmissiveSystem*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass.Execute
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalForwardEmissivePass::*)(
-    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::DecalForwardEmissivePass::Execute)> {
-  constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x6857224;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -177,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalForwardEmissivePass::*)(
     ::by_ref<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData*>)>(&::UnityEngine::Rendering::Universal::DecalForwardEmissivePass::InitPassData)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x685748c;
+  constexpr static std::size_t addrs = 0x6c8e9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +177,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::Universal::UniversalRenderingData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Rendering::Universal::UniversalLightData*)>(
     &::UnityEngine::Rendering::Universal::DecalForwardEmissivePass::InitRendererListParams)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x68574a8;
+  constexpr static std::size_t addrs = 0x6c8e9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass*>(),
@@ -211,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData*,
                                                                 ::UnityEngine::Rendering::RendererList)>(&::UnityEngine::Rendering::Universal::DecalForwardEmissivePass::ExecutePass)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68575dc;
+  constexpr static std::size_t addrs = 0x6c8eafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -229,8 +213,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalForwardEmissivePass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::UnityEngine::Rendering::Universal::DecalForwardEmissivePass::RecordRenderGraph)> {
-  constexpr static std::size_t size = 0x6fc;
-  constexpr static std::size_t addrs = 0x685763c;
+  constexpr static std::size_t size = 0x6f0;
+  constexpr static std::size_t addrs = 0x6c8eb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass*>(),
@@ -276,28 +260,10 @@ constexpr void UnityEngine::Rendering::Universal::DecalForwardEmissivePass::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DrawSystem = value;
 }
-constexpr ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData*& UnityEngine::Rendering::Universal::DecalForwardEmissivePass::__cordl_internal_get_m_PassData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData* const& UnityEngine::Rendering::Universal::DecalForwardEmissivePass::__cordl_internal_get_m_PassData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr void UnityEngine::Rendering::Universal::DecalForwardEmissivePass::__cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_PassData = value;
-}
 inline void UnityEngine::Rendering::Universal::DecalForwardEmissivePass::_ctor(::UnityEngine::Rendering::Universal::DecalDrawFowardEmissiveSystem* drawSystem) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalDrawFowardEmissiveSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, drawSystem);
-}
-inline void UnityEngine::Rendering::Universal::DecalForwardEmissivePass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
-                                                                                 ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass*>(), 10 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::DecalForwardEmissivePass::InitPassData(::by_ref<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData*> passData) {
   static auto* ___internal_method =

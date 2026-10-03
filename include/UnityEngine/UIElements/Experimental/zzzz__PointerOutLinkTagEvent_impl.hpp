@@ -4,6 +4,7 @@
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__PointerOutLinkTagEvent_def.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__PointerOutLinkTagEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent___c._ctor
 template <>
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent___c::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d1f2f8;
+  constexpr static std::size_t addrs = 0x71d0ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent* (::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent___c::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d1f2fc;
+  constexpr static std::size_t addrs = 0x71d0ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent::Init)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6d1f19c;
+  constexpr static std::size_t addrs = 0x71d096c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent*>(),
@@ -75,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent::LocalInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d1f1f4;
+  constexpr static std::size_t addrs = 0x71d09c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent* (*)(::UnityEngine::UIElements::IPointerEvent*, ::StringW)>(
     &::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent::GetPooled)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d1f200;
+  constexpr static std::size_t addrs = 0x71d09d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,10 +105,24 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6d1f24c;
+  constexpr static std::size_t addrs = 0x71d0a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent.Dispatch
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
+    &::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent::Dispatch)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x71d0a74;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -131,6 +146,11 @@ inline ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent* UnityEng
 inline void UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent::Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent*>(), 10 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, panel);
 }
 inline ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent* UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent*>());

@@ -29,12 +29,13 @@ public:
   // Ctor Parameters [CppParam { name: "headSrc", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "headDst", ty: "::System::IntPtr", modifiers: "", def_value:
   // None, comment: None }, CppParam { name: "headCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "tailSrc", ty: "::System::IntPtr", modifiers: "", def_value:
   // None, comment: None }, CppParam { name: "tailDst", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "tailCount", ty: "int32_t", modifiers: "", def_value:
-  // None, comment: None }, CppParam { name: "transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }]
+  // None, comment: None }, CppParam { name: "transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "keepZ", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr NudgeJobData(::System::IntPtr headSrc, ::System::IntPtr headDst, int32_t headCount, ::System::IntPtr tailSrc, ::System::IntPtr tailDst, int32_t tailCount,
-                         ::UnityEngine::Matrix4x4 transform) noexcept;
+                         ::UnityEngine::Matrix4x4 transform, int32_t keepZ) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5301 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5408 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -60,6 +61,9 @@ public:
   /// @brief Field transform, offset: 0x2c, size: 0x40, def value: None
   ::UnityEngine::Matrix4x4 transform;
 
+  /// @brief Field keepZ, offset: 0x6c, size: 0x4, def value: None
+  int32_t keepZ;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -76,6 +80,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::NudgeJobData, tailDst) ==
 static_assert(offsetof(::UnityEngine::UIElements::UIR::NudgeJobData, tailCount) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::NudgeJobData, transform) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::NudgeJobData, keepZ) == 0x6c, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::UIElements::UIR::NudgeJobData) == 0x70, "Size mismatch!");
 

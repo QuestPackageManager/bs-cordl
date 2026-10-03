@@ -40,13 +40,13 @@ public:
 
   static inline ::UnityEngine::UIElements::ScheduledItem___c* New_ctor();
 
-  /// @brief Method <.cctor>b__25_0, addr 0x6dd9990, size 0x8, virtual false, abstract: false, final false
-  inline bool __cctor_b__25_0();
+  /// @brief Method <.cctor>b__26_0, addr 0x7278f70, size 0x8, virtual false, abstract: false, final false
+  inline bool __cctor_b__26_0();
 
-  /// @brief Method <.cctor>b__25_1, addr 0x6dd9998, size 0x8, virtual false, abstract: false, final false
-  inline bool __cctor_b__25_1();
+  /// @brief Method <.cctor>b__26_1, addr 0x7278f78, size 0x8, virtual false, abstract: false, final false
+  inline bool __cctor_b__26_1();
 
-  /// @brief Method .ctor, addr 0x6dd998c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7278f6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ScheduledItem___c* getStaticF___9();
@@ -68,7 +68,7 @@ public:
   ScheduledItem___c(ScheduledItem___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4732 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -114,18 +114,18 @@ public:
   /// @brief Field timerUpdateStopCondition, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_timerUpdateStopCondition, put = __cordl_internal_set_timerUpdateStopCondition)) ::System::Func_1<bool>* timerUpdateStopCondition;
 
-  static inline ::UnityEngine::UIElements::ScheduledItem* New_ctor();
+  static inline ::UnityEngine::UIElements::ScheduledItem* New_ctor(int64_t startMs);
 
-  /// @brief Method OnItemUnscheduled, addr 0x6dd97f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnItemUnscheduled, addr 0x7278dd4, size 0x4, virtual true, abstract: false, final false
   inline void OnItemUnscheduled();
 
   /// @brief Method PerformTimerUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PerformTimerUpdate(::UnityEngine::UIElements::TimerState state);
 
-  /// @brief Method ResetStartTime, addr 0x6dd9794, size 0x60, virtual false, abstract: false, final false
-  inline void ResetStartTime();
+  /// @brief Method ResetStartTime, addr 0x7278dcc, size 0x8, virtual false, abstract: false, final false
+  inline void ResetStartTime(int64_t startMs);
 
-  /// @brief Method ShouldUnschedule, addr 0x6dd97f8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ShouldUnschedule, addr 0x7278dd8, size 0x20, virtual true, abstract: false, final false
   inline bool ShouldUnschedule();
 
   constexpr int64_t const& __cordl_internal_get__delayMs_k__BackingField() const;
@@ -158,27 +158,27 @@ public:
 
   constexpr void __cordl_internal_set_timerUpdateStopCondition(::System::Func_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x6dd9728, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method .ctor, addr 0x7278d58, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(int64_t startMs);
 
   static inline ::System::Func_1<bool>* getStaticF_ForeverCondition();
 
   static inline ::System::Func_1<bool>* getStaticF_OnceCondition();
 
   /// [CompilerGenerated]
-  /// @brief Method get_delayMs, addr 0x6dd9700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_delayMs, addr 0x7278d30, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_delayMs();
 
   /// [CompilerGenerated]
-  /// @brief Method get_endTimeMs, addr 0x6dd9720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_endTimeMs, addr 0x7278d50, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_endTimeMs();
 
   /// [CompilerGenerated]
-  /// @brief Method get_intervalMs, addr 0x6dd9710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intervalMs, addr 0x7278d40, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_intervalMs();
 
   /// [CompilerGenerated]
-  /// @brief Method get_startMs, addr 0x6dd96f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startMs, addr 0x7278d20, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_startMs();
 
   static inline void setStaticF_ForeverCondition(::System::Func_1<bool>* value);
@@ -186,15 +186,15 @@ public:
   static inline void setStaticF_OnceCondition(::System::Func_1<bool>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_delayMs, addr 0x6dd9708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_delayMs, addr 0x7278d38, size 0x8, virtual false, abstract: false, final false
   inline void set_delayMs(int64_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_intervalMs, addr 0x6dd9718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intervalMs, addr 0x7278d48, size 0x8, virtual false, abstract: false, final false
   inline void set_intervalMs(int64_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_startMs, addr 0x6dd96f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startMs, addr 0x7278d28, size 0x8, virtual false, abstract: false, final false
   inline void set_startMs(int64_t value);
 
 protected:
@@ -212,7 +212,7 @@ public:
   ScheduledItem(ScheduledItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4733 };
 
   /// @brief Field timerUpdateStopCondition, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<bool>* ___timerUpdateStopCondition;
@@ -222,8 +222,8 @@ public:
   /// @brief Field <startMs>k__BackingField, offset: 0x18, size: 0x8, def value: None
   int64_t ____startMs_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <delayMs>k__BackingField, offset: 0x20, size: 0x8, def value: None
   int64_t ____delayMs_k__BackingField;
 

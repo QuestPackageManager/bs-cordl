@@ -22,7 +22,7 @@ struct EnumData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::EnumData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::EnumData, "UnityEngine", "EnumData");
-// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule", "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Enum
 namespace UnityEngine {
 // Is value type: true
@@ -43,7 +43,7 @@ public:
                      ::System::Type* underlyingType, bool _cordl_unsigned, bool serializable) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10337 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9924 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

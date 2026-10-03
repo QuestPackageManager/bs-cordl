@@ -56,12 +56,12 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6859f94, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c91444, size 0x4, virtual true, abstract: false, final false
   inline void Dispose();
 
   static inline ::UnityEngine::Rendering::Universal::DecalChunk* New_ctor();
 
-  /// @brief Method Push, addr 0x6859f84, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Push, addr 0x6c91434, size 0x10, virtual true, abstract: false, final false
   inline void Push();
 
   /// @brief Method RemoveAtSwapBack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -75,7 +75,7 @@ public:
   /// @brief Method RemoveAtSwapBack, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveAtSwapBack(int32_t index);
 
-  /// @brief Method ResizeNativeArray, addr 0x6859f98, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ResizeNativeArray, addr 0x6c91448, size 0xe0, virtual false, abstract: false, final false
   inline void ResizeNativeArray(::by_ref<::UnityEngine::Jobs::TransformAccessArray> array, ::ArrayW<::UnityEngine::Rendering::Universal::DecalProjector*> decalProjectors, int32_t capacity);
 
   /// @brief Method SetCapacity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -99,34 +99,34 @@ public:
 
   constexpr void __cordl_internal_set__currentJobHandle_k__BackingField(::Unity::Jobs::JobHandle value);
 
-  /// @brief Method .ctor, addr 0x685a078, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c91528, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_capacity, addr 0x6859f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_capacity, addr 0x6c91410, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_capacity();
 
   /// [CompilerGenerated]
-  /// @brief Method get_count, addr 0x6859f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x6c91400, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_count();
 
   /// [CompilerGenerated]
-  /// @brief Method get_currentJobHandle, addr 0x6859f70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentJobHandle, addr 0x6c91420, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle get_currentJobHandle();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_capacity, addr 0x6859f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_capacity, addr 0x6c91418, size 0x8, virtual false, abstract: false, final false
   inline void set_capacity(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_count, addr 0x6859f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_count, addr 0x6c91408, size 0x8, virtual false, abstract: false, final false
   inline void set_count(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_currentJobHandle, addr 0x6859f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentJobHandle, addr 0x6c9142c, size 0x8, virtual false, abstract: false, final false
   inline void set_currentJobHandle(::Unity::Jobs::JobHandle value);
 
 protected:
@@ -144,7 +144,7 @@ public:
   DecalChunk(DecalChunk const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12906 };
 
   /// [CompilerGenerated]
   /// @brief Field <count>k__BackingField, offset: 0x10, size: 0x4, def value: None

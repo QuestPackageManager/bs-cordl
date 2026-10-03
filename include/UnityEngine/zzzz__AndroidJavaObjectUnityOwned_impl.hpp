@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AndroidJavaObjectUnityOwned::*)(::System::IntPtr)>(&::UnityEngine::AndroidJavaObjectUnityOwned::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a31698;
+  constexpr static std::size_t addrs = 0x6e7fe98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AndroidJavaObjectUnityOwned::*)(bool)>(&::UnityEngine::AndroidJavaObjectUnityOwned::Dispose)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6a3169c;
+  constexpr static std::size_t addrs = 0x6e7fe9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

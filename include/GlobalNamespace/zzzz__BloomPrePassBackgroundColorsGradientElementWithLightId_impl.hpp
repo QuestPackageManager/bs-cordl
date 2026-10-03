@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x586c328;
+  constexpr static std::size_t addrs = 0x5c824fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::ColorWasSet)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x586c260;
+  constexpr static std::size_t addrs = 0x5c82434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId*>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x586c300;
+  constexpr static std::size_t addrs = 0x5c824d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_contractNamespace(::StringW value);
 
-  /// @brief Method get_ClrNamespace, addr 0x613f21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClrNamespace, addr 0x6566958, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ClrNamespace();
 
-  /// @brief Method get_ContractNamespace, addr 0x613f224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContractNamespace, addr 0x6566960, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ContractNamespace();
 
 protected:
@@ -64,7 +64,7 @@ public:
   ContractNamespaceAttribute(ContractNamespaceAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16391 };
 
   /// @brief Field clrNamespace, offset: 0x10, size: 0x8, def value: None
   ::StringW ___clrNamespace;

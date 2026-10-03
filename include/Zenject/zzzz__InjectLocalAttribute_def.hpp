@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Zenject::InjectLocalAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e3d778, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d92c8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -40,7 +40,7 @@ public:
   InjectLocalAttribute(InjectLocalAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22511 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23313 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

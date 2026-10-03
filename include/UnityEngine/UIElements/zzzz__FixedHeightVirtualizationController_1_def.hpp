@@ -33,7 +33,10 @@ template <typename T>
 class CORDL_TYPE FixedHeightVirtualizationController_1 : public ::UnityEngine::UIElements::VerticalVirtualizationController_1<T> {
 public:
   // Declarations
-  /// @brief Field m_ScrolledToItemIndex, offset 0x78, size 0x8
+  /// @brief Field m_ForcedScroll, offset 0x90, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_ForcedScroll, put = __cordl_internal_set_m_ForcedScroll)) bool m_ForcedScroll;
+
+  /// @brief Field m_ScrolledToItemIndex, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ScrolledToItemIndex, put = __cordl_internal_set_m_ScrolledToItemIndex)) ::System::Nullable_1<int32_t> m_ScrolledToItemIndex;
 
   __declspec(property(get = get_resolvedItemHeight)) float_t resolvedItemHeight;
@@ -56,10 +59,13 @@ public:
   static inline ::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView);
 
   /// @brief Method OnGeometryChangedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void OnGeometryChangedEvent(::UnityEngine::UIElements::GeometryChangedEvent* _);
+  inline void OnGeometryChangedEvent(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
   /// @brief Method OnScroll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnScroll(::UnityEngine::Vector2 scrollOffset);
+
+  /// @brief Method OnScrollUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void OnScrollUpdate();
 
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Resize(::UnityEngine::Vector2 size);
@@ -70,9 +76,15 @@ public:
   /// @brief Method VisibleItemPredicate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool VisibleItemPredicate(T i);
 
+  constexpr bool const& __cordl_internal_get_m_ForcedScroll() const;
+
+  constexpr bool& __cordl_internal_get_m_ForcedScroll();
+
   constexpr ::System::Nullable_1<int32_t> const& __cordl_internal_get_m_ScrolledToItemIndex() const;
 
   constexpr ::System::Nullable_1<int32_t>& __cordl_internal_get_m_ScrolledToItemIndex();
+
+  constexpr void __cordl_internal_set_m_ForcedScroll(bool value);
 
   constexpr void __cordl_internal_set_m_ScrolledToItemIndex(::System::Nullable_1<int32_t> value);
 
@@ -97,10 +109,13 @@ public:
   FixedHeightVirtualizationController_1(FixedHeightVirtualizationController_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4093 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4094 };
 
-  /// @brief Field m_ScrolledToItemIndex, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field m_ScrolledToItemIndex, offset: 0x88, size: 0x8, def value: None
   ::System::Nullable_1<int32_t> ___m_ScrolledToItemIndex;
+
+  /// @brief Field m_ForcedScroll, offset: 0x90, size: 0x1, def value: None
+  bool ___m_ForcedScroll;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

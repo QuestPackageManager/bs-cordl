@@ -39,8 +39,11 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE ElementUnderPointer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_IsPickingPointerTemporaries, offset 0x30, size 0x8
+  /// @brief Field m_IsPickingPointerTemporaries, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_IsPickingPointerTemporaries, put = __cordl_internal_set_m_IsPickingPointerTemporaries)) ::ArrayW<bool> m_IsPickingPointerTemporaries;
+
+  /// @brief Field m_IsPrimaryPointer, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_IsPrimaryPointer, put = __cordl_internal_set_m_IsPrimaryPointer)) ::ArrayW<bool> m_IsPrimaryPointer;
 
   /// @brief Field m_PendingTopElementUnderPointer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PendingTopElementUnderPointer, put = __cordl_internal_set_m_PendingTopElementUnderPointer)) ::ArrayW<::UnityEngine::UIElements::VisualElement*>
@@ -56,35 +59,42 @@ public:
   /// @brief Field m_TriggerEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TriggerEvent, put = __cordl_internal_set_m_TriggerEvent)) ::ArrayW<::UnityEngine::UIElements::IPointerOrMouseEvent*> m_TriggerEvent;
 
-  /// @brief Method CommitElementUnderPointers, addr 0x6d96f58, size 0xcac, virtual false, abstract: false, final false
-  inline void CommitElementUnderPointers(::UnityEngine::UIElements::EventDispatcher* dispatcher, ::UnityEngine::UIElements::ContextType contextType);
+  /// @brief Method CommitElementUnderPointers, addr 0x7224fac, size 0x560, virtual false, abstract: false, final false
+  inline bool CommitElementUnderPointers(::UnityEngine::UIElements::EventDispatcher* dispatcher, ::UnityEngine::UIElements::ContextType contextType);
 
-  /// @brief Method GetEventPointerPosition, addr 0x6d96bbc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetEventPointerPosition, addr 0x7224b54, size 0x1c0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetEventPointerPosition(::UnityEngine::UIElements::EventBase* triggerEvent);
 
-  /// @brief Method GetTopElementUnderPointer, addr 0x6d96a28, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetTopElementUnderPointer, addr 0x7224940, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetTopElementUnderPointer(int32_t pointerId);
 
-  /// @brief Method GetTopElementUnderPointer, addr 0x6d969b4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetTopElementUnderPointer, addr 0x72248cc, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetTopElementUnderPointer(int32_t pointerId, ::by_ref<::UnityEngine::Vector2> pickPosition, ::by_ref<bool> isTemporary);
 
   static inline ::UnityEngine::UIElements::ElementUnderPointer* New_ctor();
 
-  /// @brief Method SetElementUnderPointer, addr 0x6d96a58, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method RemoveElementUnderPointer, addr 0x7224970, size 0x78, virtual false, abstract: false, final false
+  inline void RemoveElementUnderPointer(::UnityEngine::UIElements::VisualElement* elementToRemove);
+
+  /// @brief Method SetElementUnderPointer, addr 0x72249f0, size 0x164, virtual false, abstract: false, final false
   inline void SetElementUnderPointer(::UnityEngine::UIElements::VisualElement* newElementUnderPointer, int32_t pointerId, ::UnityEngine::Vector2 pointerPos);
 
-  /// @brief Method SetElementUnderPointer, addr 0x6d96f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetElementUnderPointer, addr 0x72249e8, size 0x8, virtual false, abstract: false, final false
   inline void SetElementUnderPointer(::UnityEngine::UIElements::VisualElement* newElementUnderPointer, int32_t pointerId, ::UnityEngine::UIElements::EventBase* triggerEvent);
 
-  /// @brief Method SetElementUnderPointer, addr 0x6d96d84, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method SetElementUnderPointer, addr 0x7224d1c, size 0x290, virtual false, abstract: false, final false
   inline void SetElementUnderPointer(::UnityEngine::UIElements::VisualElement* newElementUnderPointer, int32_t pointerId, ::UnityEngine::UIElements::EventBase* triggerEvent, bool temporary);
 
-  /// @brief Method SetTemporaryElementUnderPointer, addr 0x6d96d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTemporaryElementUnderPointer, addr 0x7224d14, size 0x8, virtual false, abstract: false, final false
   inline void SetTemporaryElementUnderPointer(::UnityEngine::UIElements::VisualElement* newElementUnderPointer, int32_t pointerId, ::UnityEngine::UIElements::EventBase* triggerEvent);
 
   constexpr ::ArrayW<bool> const& __cordl_internal_get_m_IsPickingPointerTemporaries() const;
 
   constexpr ::ArrayW<bool>& __cordl_internal_get_m_IsPickingPointerTemporaries();
+
+  constexpr ::ArrayW<bool> const& __cordl_internal_get_m_IsPrimaryPointer() const;
+
+  constexpr ::ArrayW<bool>& __cordl_internal_get_m_IsPrimaryPointer();
 
   constexpr ::ArrayW<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_PendingTopElementUnderPointer() const;
 
@@ -104,6 +114,8 @@ public:
 
   constexpr void __cordl_internal_set_m_IsPickingPointerTemporaries(::ArrayW<bool> value);
 
+  constexpr void __cordl_internal_set_m_IsPrimaryPointer(::ArrayW<bool> value);
+
   constexpr void __cordl_internal_set_m_PendingTopElementUnderPointer(::ArrayW<::UnityEngine::UIElements::VisualElement*> value);
 
   constexpr void __cordl_internal_set_m_PickingPointerPositions(::ArrayW<::UnityEngine::Vector2> value);
@@ -112,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TriggerEvent(::ArrayW<::UnityEngine::UIElements::IPointerOrMouseEvent*> value);
 
-  /// @brief Method .ctor, addr 0x6d98200, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72246c0, size 0x20c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -130,7 +142,7 @@ public:
   ElementUnderPointer(ElementUnderPointer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4440 };
 
   /// @brief Field m_PendingTopElementUnderPointer, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::VisualElement*> ___m_PendingTopElementUnderPointer;
@@ -144,7 +156,10 @@ public:
   /// @brief Field m_PickingPointerPositions, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector2> ___m_PickingPointerPositions;
 
-  /// @brief Field m_IsPickingPointerTemporaries, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field m_IsPrimaryPointer, offset: 0x30, size: 0x8, def value: None
+  ::ArrayW<bool> ___m_IsPrimaryPointer;
+
+  /// @brief Field m_IsPickingPointerTemporaries, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<bool> ___m_IsPickingPointerTemporaries;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -158,8 +173,10 @@ static_assert(offsetof(::UnityEngine::UIElements::ElementUnderPointer, ___m_Trig
 
 static_assert(offsetof(::UnityEngine::UIElements::ElementUnderPointer, ___m_PickingPointerPositions) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::ElementUnderPointer, ___m_IsPickingPointerTemporaries) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ElementUnderPointer, ___m_IsPrimaryPointer) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::ElementUnderPointer) == 0x38, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ElementUnderPointer, ___m_IsPickingPointerTemporaries) == 0x38, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::ElementUnderPointer) == 0x40, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

@@ -4,9 +4,9 @@
 #include "UnityEngine/UIElements/zzzz__EventCallbackFunctor_1_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CallbackEventHandler_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CallbackOptions_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TrickleDown_def.hpp"
 template <typename TEventType> constexpr ::UnityEngine::UIElements::EventCallback_1<TEventType>*& UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::__cordl_internal_get_m_Callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -25,13 +25,14 @@ constexpr void UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::__co
 template <typename TEventType>
 inline ::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>*
 UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::GetPooled(int64_t eventTypeId, ::UnityEngine::UIElements::EventCallback_1<TEventType>* callback,
-                                                                       ::UnityEngine::UIElements::InvokePolicy invokePolicy) {
+                                                                       ::UnityEngine::UIElements::CallbackOptions callbackOptions) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>*>(),
-          { "GetPooled", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<::UnityEngine::UIElements::EventCallback_1<TEventType>*>(), ::i2c::type_of<::UnityEngine::UIElements::InvokePolicy>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>*>(nullptr, ___internal_method, eventTypeId, callback, invokePolicy);
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>*>(),
+                          { "GetPooled",
+                            {},
+                            { ::i2c::type_of<int64_t>(), ::i2c::type_of<::UnityEngine::UIElements::EventCallback_1<TEventType>*>(), ::i2c::type_of<::UnityEngine::UIElements::CallbackOptions>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>*>(nullptr, ___internal_method, eventTypeId, callback, callbackOptions);
 }
 template <typename TEventType> inline void UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::Dispose() {
   auto* ___internal_method =

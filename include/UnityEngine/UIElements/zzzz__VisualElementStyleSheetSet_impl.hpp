@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cccae4;
+  constexpr static std::size_t addrs = 0x7157834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,13 +25,27 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(::UnityEngine::UIElements::StyleSheet*)>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::Add)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x6cccaec;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x714f598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(), { "Add", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheet*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElementStyleSheetSet.Insert
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(int32_t, ::UnityEngine::UIElements::StyleSheet*)>(
+    &::UnityEngine::UIElements::VisualElementStyleSheetSet::Insert)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x715789c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(),
+                                                                                           { "Insert", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheet*>() } })));
     return ___internal_method;
   }
 };
@@ -41,12 +55,24 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(::UnityEngine::UIElements::StyleSheet*)>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::Remove)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6ccccd8;
+  constexpr static std::size_t addrs = 0x7157a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(), { "Remove", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheet*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElementStyleSheetSet.get_count
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)()>(&::UnityEngine::UIElements::VisualElementStyleSheetSet::get_count)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x715783c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(), { "get_count", {}, {} })));
     return ___internal_method;
   }
 };
@@ -56,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(::UnityEngine::UIElements::VisualElementStyleSheetSet)>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::Equals)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6ccce28;
+  constexpr static std::size_t addrs = 0x7157b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(),
@@ -70,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(::System::Object*)>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ccce58;
+  constexpr static std::size_t addrs = 0x7157bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(),
@@ -83,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)()>(&::UnityEngine::UIElements::VisualElementStyleSheetSet::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6cccf00;
+  constexpr static std::size_t addrs = 0x7157c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(),
@@ -102,11 +128,20 @@ inline void UnityEngine::UIElements::VisualElementStyleSheetSet::Add(::UnityEngi
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(), { "Add", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheet*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, styleSheet);
 }
+inline void UnityEngine::UIElements::VisualElementStyleSheetSet::Insert(int32_t index, ::UnityEngine::UIElements::StyleSheet* styleSheet) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(),
+                                                                                         { "Insert", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheet*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, index, styleSheet);
+}
 inline bool UnityEngine::UIElements::VisualElementStyleSheetSet::Remove(::UnityEngine::UIElements::StyleSheet* styleSheet) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(), { "Remove", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheet*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, styleSheet);
+}
+inline int32_t UnityEngine::UIElements::VisualElementStyleSheetSet::get_count() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(), { "get_count", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
 inline bool UnityEngine::UIElements::VisualElementStyleSheetSet::Equals(::UnityEngine::UIElements::VisualElementStyleSheetSet other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(),

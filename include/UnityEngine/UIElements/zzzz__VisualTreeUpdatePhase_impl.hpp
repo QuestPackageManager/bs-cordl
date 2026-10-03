@@ -14,4 +14,5 @@ constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase UnityEngine::UIElemen
 constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase UnityEngine::UIElements::VisualTreeUpdatePhase::Layout{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase UnityEngine::UIElements::VisualTreeUpdatePhase::TransformClip{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase UnityEngine::UIElements::VisualTreeUpdatePhase::Repaint{ static_cast<int32_t>(0x6) };
-constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase UnityEngine::UIElements::VisualTreeUpdatePhase::Count{ static_cast<int32_t>(0x7) };
+constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase UnityEngine::UIElements::VisualTreeUpdatePhase::Authoring{ static_cast<int32_t>(0x7) };
+constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase UnityEngine::UIElements::VisualTreeUpdatePhase::Count{ static_cast<int32_t>(0x8) };

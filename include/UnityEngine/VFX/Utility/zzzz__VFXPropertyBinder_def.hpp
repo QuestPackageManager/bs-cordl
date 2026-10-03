@@ -197,7 +197,7 @@ public:
   VFXPropertyBinder__GetPropertyBinders_d__17_1(VFXPropertyBinder__GetPropertyBinders_d__17_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20281 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -253,10 +253,10 @@ public:
   inline T AddPropertyBinder();
 
   /// [Obsolete("Please use ClearPropertyBinders() instead")]
-  /// @brief Method ClearParameterBinders, addr 0x69e9720, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ClearParameterBinders, addr 0x6e26d48, size 0x4, virtual false, abstract: false, final false
   inline void ClearParameterBinders();
 
-  /// @brief Method ClearPropertyBinders, addr 0x69e947c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ClearPropertyBinders, addr 0x6e26aa4, size 0x98, virtual false, abstract: false, final false
   inline void ClearPropertyBinders();
 
   /// [Obsolete("Please use GetPropertyBinders<T>() instead")]
@@ -271,22 +271,22 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
   inline ::System::Collections::Generic::IEnumerable_1<T>* GetPropertyBinders();
 
-  /// @brief Method LateUpdate, addr 0x69e9514, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x6e26b3c, size 0x20c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::UnityEngine::VFX::Utility::VFXPropertyBinder* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x69e92f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6e2691c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x69e9404, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6e26a2c, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Reload, addr 0x69e92f8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Reload, addr 0x6e26920, size 0x10c, virtual false, abstract: false, final false
   inline void Reload();
 
   /// [Obsolete("Please use RemovePropertyBinder() instead")]
-  /// @brief Method RemoveParameterBinder, addr 0x69e97d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RemoveParameterBinder, addr 0x6e26e00, size 0x4, virtual false, abstract: false, final false
   inline void RemoveParameterBinder(::UnityEngine::VFX::Utility::VFXBinderBase* binder);
 
   /// [Obsolete("Please use RemovePropertyBinders<T>() instead")]
@@ -295,7 +295,7 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
   inline void RemoveParameterBinders();
 
-  /// @brief Method RemovePropertyBinder, addr 0x69e9724, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method RemovePropertyBinder, addr 0x6e26d4c, size 0xb4, virtual false, abstract: false, final false
   inline void RemovePropertyBinder(::UnityEngine::VFX::Utility::VFXBinderBase* binder);
 
   /// @brief Method RemovePropertyBinders, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -303,10 +303,10 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
   inline void RemovePropertyBinders();
 
-  /// @brief Method Reset, addr 0x69e9464, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6e26a8c, size 0x18, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SafeDestroy, addr 0x69e9408, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SafeDestroy, addr 0x6e26a30, size 0x5c, virtual false, abstract: false, final false
   static inline void SafeDestroy(::UnityEngine::Object* toDelete);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::VFX::Utility::VFXBinderBase>>* const& __cordl_internal_get_m_Bindings() const;
@@ -327,7 +327,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VisualEffect(::UnityW<::UnityEngine::VFX::VisualEffect> value);
 
-  /// @brief Method .ctor, addr 0x69e97dc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e26e04, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -345,7 +345,7 @@ public:
   VFXPropertyBinder(VFXPropertyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20282 };
 
   /// [SerializeField]
   /// @brief Field m_ExecuteInEditor, offset: 0x20, size: 0x1, def value: None

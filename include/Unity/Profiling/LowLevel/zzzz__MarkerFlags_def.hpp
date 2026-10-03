@@ -34,6 +34,10 @@ public:
     __E_Warning = static_cast<uint16_t>(0x10u),
     __E_Counter = static_cast<uint16_t>(0x80u),
     __E_SampleGPU = static_cast<uint16_t>(0x100u),
+    __E_VerbosityDebug = static_cast<uint16_t>(0x400u),
+    __E_VerbosityInternal = static_cast<uint16_t>(0x800u),
+    __E_VerbosityExternal = static_cast<uint16_t>(0xc00u),
+    __E_VerbosityAdvanced = static_cast<uint16_t>(0x1000u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -77,11 +81,23 @@ public:
   /// @brief Field ScriptInvoke value: U16(32)
   static ::Unity::Profiling::LowLevel::MarkerFlags const ScriptInvoke;
 
+  /// @brief Field VerbosityAdvanced value: U16(4096)
+  static ::Unity::Profiling::LowLevel::MarkerFlags const VerbosityAdvanced;
+
+  /// @brief Field VerbosityDebug value: U16(1024)
+  static ::Unity::Profiling::LowLevel::MarkerFlags const VerbosityDebug;
+
+  /// @brief Field VerbosityExternal value: U16(3072)
+  static ::Unity::Profiling::LowLevel::MarkerFlags const VerbosityExternal;
+
+  /// @brief Field VerbosityInternal value: U16(2048)
+  static ::Unity::Profiling::LowLevel::MarkerFlags const VerbosityInternal;
+
   /// @brief Field Warning value: U16(16)
   static ::Unity::Profiling::LowLevel::MarkerFlags const Warning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9529 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };

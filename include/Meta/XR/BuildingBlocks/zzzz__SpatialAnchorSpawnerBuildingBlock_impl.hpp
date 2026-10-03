@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::get_AnchorPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a36390;
+  constexpr static std::size_t addrs = 0x5e4dc30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)(::UnityEngine::GameObject*)>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::set_AnchorPrefab)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5a36398;
+  constexpr static std::size_t addrs = 0x5e4dc38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock*>(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::get_FollowHand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a365ec;
+  constexpr static std::size_t addrs = 0x5e4de8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)(bool)>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::set_FollowHand)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5a3649c;
+  constexpr static std::size_t addrs = 0x5e4dd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::Awake)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5a365f4;
+  constexpr static std::size_t addrs = 0x5e4de94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock*>(), { "Awake", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::SpawnSpatialAnchor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a3668c;
+  constexpr static std::size_t addrs = 0x5e4df2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::SpawnSpatialAnchor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5a36820;
+  constexpr static std::size_t addrs = 0x5e4e0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a368e8;
+  constexpr static std::size_t addrs = 0x5e4e188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock*>(), { ".ctor", {}, {} })));

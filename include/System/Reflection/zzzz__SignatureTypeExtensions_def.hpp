@@ -35,39 +35,39 @@ class CORDL_TYPE SignatureTypeExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method MatchesExactly, addr 0x5b832e0, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method MatchesExactly, addr 0x5f9b234, size 0x39c, virtual false, abstract: false, final false
   static inline bool MatchesExactly(::System::Reflection::SignatureType* pattern, ::System::Type* actual);
 
   /// [Extension]
-  /// @brief Method MatchesParameterTypeExactly, addr 0x5b83214, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method MatchesParameterTypeExactly, addr 0x5f9b168, size 0xcc, virtual false, abstract: false, final false
   static inline bool MatchesParameterTypeExactly(::System::Type* pattern, ::System::Reflection::ParameterInfo* parameter);
 
   /// [Extension]
-  /// @brief Method TryMakeArrayType, addr 0x5b83a68, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryMakeArrayType, addr 0x5f9b9bc, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Type* TryMakeArrayType(::System::Type* type);
 
   /// [Extension]
-  /// @brief Method TryMakeArrayType, addr 0x5b83b00, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryMakeArrayType, addr 0x5f9ba54, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Type* TryMakeArrayType(::System::Type* type, int32_t rank);
 
   /// [Extension]
-  /// @brief Method TryMakeByRefType, addr 0x5b83b98, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryMakeByRefType, addr 0x5f9baec, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Type* TryMakeByRefType(::System::Type* type);
 
   /// [Extension]
-  /// @brief Method TryMakeGenericType, addr 0x5b83cc8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryMakeGenericType, addr 0x5f9bc1c, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Type* TryMakeGenericType(::System::Type* type, ::ArrayW<::System::Type*> instantiation);
 
   /// [Extension]
-  /// @brief Method TryMakePointerType, addr 0x5b83c30, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryMakePointerType, addr 0x5f9bb84, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Type* TryMakePointerType(::System::Type* type);
 
   /// [Extension]
-  /// @brief Method TryResolve, addr 0x5b836b4, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method TryResolve, addr 0x5f9b608, size 0x3b4, virtual false, abstract: false, final false
   static inline ::System::Type* TryResolve(::System::Reflection::SignatureType* signatureType, ::ArrayW<::System::Type*> genericMethodParameters);
 
   /// [Extension]
-  /// @brief Method TryResolveAgainstGenericMethod, addr 0x5b8367c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method TryResolveAgainstGenericMethod, addr 0x5f9b5d0, size 0x38, virtual false, abstract: false, final false
   static inline ::System::Type* TryResolveAgainstGenericMethod(::System::Reflection::SignatureType* signatureType, ::System::Reflection::MethodInfo* genericMethod);
 
 protected:

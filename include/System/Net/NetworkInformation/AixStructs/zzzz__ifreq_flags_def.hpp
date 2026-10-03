@@ -39,7 +39,7 @@ public:
   constexpr ifreq_flags__ifr_name_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12661 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -132,7 +132,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11728 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12662 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

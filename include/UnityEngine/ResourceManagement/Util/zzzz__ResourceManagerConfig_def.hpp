@@ -36,7 +36,7 @@ namespace UnityEngine::ResourceManagement::Util {
 class CORDL_TYPE ResourceManagerConfig : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateArrayResult, addr 0x6918590, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CreateArrayResult, addr 0x6d4086c, size 0x17c, virtual false, abstract: false, final false
   static inline ::System::Array* CreateArrayResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*> allAssets);
 
   /// @brief Method CreateArrayResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -44,28 +44,28 @@ public:
     requires(::cordl_internals::reference_type_constraint<TObject>)
   static inline TObject CreateArrayResult(::ArrayW<::UnityEngine::Object*> allAssets);
 
-  /// @brief Method CreateListResult, addr 0x691870c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method CreateListResult, addr 0x6d409e8, size 0x1c8, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateListResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*> allAssets);
 
   /// @brief Method CreateListResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> static inline TObject CreateListResult(::ArrayW<::UnityEngine::Object*> allAssets);
 
-  /// @brief Method ExtractKeyAndSubKey, addr 0x6918230, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ExtractKeyAndSubKey, addr 0x6d4050c, size 0xc8, virtual false, abstract: false, final false
   static inline bool ExtractKeyAndSubKey(::System::Object* keyObj, ::by_ref<::StringW> mainKey, ::by_ref<::StringW> subKey);
 
   /// @brief Method IsInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1, typename T2> static inline bool IsInstance();
 
-  /// @brief Method IsPathRemote, addr 0x69182f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsPathRemote, addr 0x6d405d4, size 0x68, virtual false, abstract: false, final false
   static inline bool IsPathRemote(::StringW path);
 
-  /// @brief Method PlatformCanLoadLocallyFromUrlPath, addr 0x6918440, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method PlatformCanLoadLocallyFromUrlPath, addr 0x6d4071c, size 0x150, virtual false, abstract: false, final false
   static inline bool PlatformCanLoadLocallyFromUrlPath();
 
-  /// @brief Method ShouldPathUseWebRequest, addr 0x69183a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ShouldPathUseWebRequest, addr 0x6d40684, size 0x98, virtual false, abstract: false, final false
   static inline bool ShouldPathUseWebRequest(::StringW path);
 
-  /// @brief Method StripQueryParameters, addr 0x6918360, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method StripQueryParameters, addr 0x6d4063c, size 0x48, virtual false, abstract: false, final false
   static inline ::StringW StripQueryParameters(::StringW path);
 
 protected:
@@ -83,7 +83,7 @@ public:
   ResourceManagerConfig(ResourceManagerConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19174 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

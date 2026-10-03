@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68fc160;
+  constexpr static std::size_t addrs = 0x6d22fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,6 +65,18 @@ constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& Unit
 constexpr void UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData::__cordl_internal_set_source(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___source = value;
+}
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData::__cordl_internal_get_destination() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___destination;
+}
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData::__cordl_internal_get_destination() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___destination;
+}
+constexpr void UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData::__cordl_internal_set_destination(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___destination = value;
 }
 constexpr ::UnityEngine::Rendering::Universal::UniversalCameraData*& UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData::__cordl_internal_get_cameraData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -154,25 +166,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68fd5cc;
+  constexpr static std::size_t addrs = 0x6d23030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c._Render_b__38_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c._Render_b__28_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::*)(
     ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
-    &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::_Render_b__38_0)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x68fd5d0;
+    &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::_Render_b__28_0)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x6d23034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c*>(),
-                                                                                           { "<Render>b__38_0",
+                                                                                           { "<Render>b__28_0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -186,30 +198,30 @@ inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::setS
 inline ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c* UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c*, "<>9", ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c*>();
 }
-inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::setStaticF___9__38_0(
+inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::setStaticF___9__28_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                    "<>9__38_0", ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c*>(
+                                    "<>9__28_0", ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::getStaticF___9__38_0() {
+UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::getStaticF___9__28_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                           "<>9__38_0", ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c*>();
+                                           "<>9__28_0", ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c*>();
 }
 inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::_Render_b__38_0(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* data,
+inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::_Render_b__28_0(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* data,
                                                                                             ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c*>(),
-                                                                                         { "<Render>b__38_0",
+                                                                                         { "<Render>b__28_0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -220,87 +232,59 @@ inline ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c* UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::CopyDepthPass___c() {}
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass.get_source
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass.OnCameraSetup
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)()>(
-    &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_source)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fbf20;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(
+    ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::OnCameraSetup)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6d21b74;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), { "get_source", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), 6 }));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass.set_source
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass.Execute
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(::UnityEngine::Rendering::RTHandle*)>(
-    &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::set_source)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fbf28;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(
+    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::Execute)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6d21b78;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(),
-                                                                                           { "set_source", {}, { ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), 9 }));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass.get_destination
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)()>(
-    &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_destination)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fbf30;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), { "get_destination", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass.set_destination
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(::UnityEngine::Rendering::RTHandle*)>(
-    &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::set_destination)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fbf38;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(),
-                                                                                           { "set_destination", {}, { ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass.get_MssaSamples
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass.get_MsaaSamples
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)()>(
-    &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_MssaSamples)> {
+    &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_MsaaSamples)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fbf40;
+  constexpr static std::size_t addrs = 0x6d21b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), { "get_MssaSamples", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), { "get_MsaaSamples", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass.set_MssaSamples
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass.set_MsaaSamples
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(int32_t)>(
-    &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::set_MssaSamples)> {
+    &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::set_MsaaSamples)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fbf48;
+  constexpr static std::size_t addrs = 0x6d21b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), { "set_MssaSamples", {}, { ::i2c::type_of<int32_t>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), { "set_MsaaSamples", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -310,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_CopyToDepth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fbf50;
+  constexpr static std::size_t addrs = 0x6d21b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -324,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(bool)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::set_CopyToDepth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fbf58;
+  constexpr static std::size_t addrs = 0x6d21b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -338,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_CopyToDepthXR)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fbf60;
+  constexpr static std::size_t addrs = 0x6d21b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -352,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(bool)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::set_CopyToDepthXR)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fbf68;
+  constexpr static std::size_t addrs = 0x6d21ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -366,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_CopyToBackbuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fbf70;
+  constexpr static std::size_t addrs = 0x6d21bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(bool)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::set_CopyToBackbuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fbf78;
+  constexpr static std::size_t addrs = 0x6d21bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,8 +377,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Shader*, bool, bool, bool, ::StringW)>(&::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::_ctor)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x68fbf80;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x6d21bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,8 +395,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(
     ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*)>(&::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::Setup)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68fc164;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6d21d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -427,38 +411,10 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::Dispose)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68fc174;
+  constexpr static std::size_t addrs = 0x6d21d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), { "Dispose", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass.OnCameraSetup
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(
-    ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::OnCameraSetup)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68fc1d4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), 6 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass.Execute
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(
-    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::Execute)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x68fc20c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -466,9 +422,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*,
-                                                                ::UnityEngine::Rendering::RTHandle*)>(&::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::ExecutePass)> {
-  constexpr static std::size_t size = 0x618;
-  constexpr static std::size_t addrs = 0x68fc3ec;
+                                                                ::UnityEngine::Rendering::RTHandle*, bool)>(&::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::ExecutePass)> {
+  constexpr static std::size_t size = 0x5e0;
+  constexpr static std::size_t addrs = 0x6d21d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -477,7 +433,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                          { "ExecutePass",
                                            {},
                                            { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*>(),
-                                             ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>() } })));
+                                             ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -486,12 +442,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::OnCameraCleanup)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x68fca04;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6d22368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), 8 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -502,7 +458,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, bool, ::StringW)>(&::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::Render)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x68fcac0;
+  constexpr static std::size_t addrs = 0x6d2236c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -522,8 +478,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
     ::UnityEngine::Rendering::Universal::UniversalResourceData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, bool, ::StringW)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::Render)> {
-  constexpr static std::size_t size = 0x8e8;
-  constexpr static std::size_t addrs = 0x68fcbb8;
+  constexpr static std::size_t size = 0xa9c;
+  constexpr static std::size_t addrs = 0x6d22464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -537,41 +493,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Rendering::RTHandle*& UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_get__source_k__BackingField() {
+constexpr int32_t& UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_get__MsaaSamples_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____source_k__BackingField;
+  return this->____MsaaSamples_k__BackingField;
 }
-constexpr ::UnityEngine::Rendering::RTHandle* const& UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_get__source_k__BackingField() const {
+constexpr int32_t const& UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_get__MsaaSamples_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____source_k__BackingField;
+  return this->____MsaaSamples_k__BackingField;
 }
-constexpr void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_set__source_k__BackingField(::UnityEngine::Rendering::RTHandle* value) {
+constexpr void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_set__MsaaSamples_k__BackingField(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____source_k__BackingField = value;
-}
-constexpr ::UnityEngine::Rendering::RTHandle*& UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_get__destination_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____destination_k__BackingField;
-}
-constexpr ::UnityEngine::Rendering::RTHandle* const& UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_get__destination_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____destination_k__BackingField;
-}
-constexpr void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_set__destination_k__BackingField(::UnityEngine::Rendering::RTHandle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____destination_k__BackingField = value;
-}
-constexpr int32_t& UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_get__MssaSamples_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____MssaSamples_k__BackingField;
-}
-constexpr int32_t const& UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_get__MssaSamples_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____MssaSamples_k__BackingField;
-}
-constexpr void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_set__MssaSamples_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____MssaSamples_k__BackingField = value;
+  this->____MsaaSamples_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_get__CopyToDepth_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -633,57 +565,26 @@ constexpr void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CopyResolvedDepth = value;
 }
-constexpr bool& UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_get_m_ShouldClear() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ShouldClear;
+inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd,
+                                                                                      ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, renderingData);
 }
-constexpr bool const& UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_get_m_ShouldClear() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ShouldClear;
+inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
+                                                                                ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), 9 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
-constexpr void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_set_m_ShouldClear(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_ShouldClear = value;
-}
-constexpr ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*& UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_get_m_PassData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* const& UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_get_m_PassData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::__cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_PassData = value;
-}
-inline ::UnityEngine::Rendering::RTHandle* UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_source() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), { "get_source", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RTHandle*>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::set_source(::UnityEngine::Rendering::RTHandle* value) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(),
-                                                                                         { "set_source", {}, { ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline ::UnityEngine::Rendering::RTHandle* UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_destination() {
+inline int32_t UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_MsaaSamples() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), { "get_destination", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RTHandle*>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::set_destination(::UnityEngine::Rendering::RTHandle* value) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(),
-                                                                                         { "set_destination", {}, { ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline int32_t UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_MssaSamples() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), { "get_MssaSamples", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), { "get_MsaaSamples", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::set_MssaSamples(int32_t value) {
+inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::set_MsaaSamples(int32_t value) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), { "set_MssaSamples", {}, { ::i2c::type_of<int32_t>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), { "set_MsaaSamples", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline bool UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_CopyToDepth() {
@@ -736,33 +637,21 @@ inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::Dispose(
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd,
-                                                                                      ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), 6 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, renderingData);
-}
-inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
-                                                                                ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), 10 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
-}
 inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
                                                                                     ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* passData,
-                                                                                    ::UnityEngine::Rendering::RTHandle* source) {
+                                                                                    ::UnityEngine::Rendering::RTHandle* source, bool yflip) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(),
                                        { "ExecutePass",
                                          {},
                                          { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*>(),
-                                           ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, passData, source);
+                                           ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, passData, source, yflip);
 }
 inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), 8 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd);
 }
 inline void UnityEngine::Rendering::Universal::Internal::CopyDepthPass::Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,

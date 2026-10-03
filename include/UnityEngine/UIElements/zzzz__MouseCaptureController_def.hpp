@@ -24,11 +24,11 @@ class CORDL_TYPE MouseCaptureController : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method CaptureMouse, addr 0x6db6748, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CaptureMouse, addr 0x7269a78, size 0xcc, virtual false, abstract: false, final false
   static inline void CaptureMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
   /// [Extension]
-  /// @brief Method HasMouseCapture, addr 0x6db4f64, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HasMouseCapture, addr 0x726998c, size 0xb4, virtual false, abstract: false, final false
   static inline bool HasMouseCapture(::UnityEngine::UIElements::IEventHandler* handler);
 
 protected:
@@ -46,7 +46,7 @@ public:
   MouseCaptureController(MouseCaptureController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4664 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,15 +3,12 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Unity/Collections/zzzz__Allocator_def.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LayoutList_1)
 namespace System {
 class IDisposable;
-}
-namespace Unity::Collections {
-struct Allocator;
 }
 namespace UnityEngine::UIElements::Layout {
 template <typename T> struct LayoutList_1_Data;
@@ -46,7 +43,7 @@ public:
   constexpr LayoutList_1_Data(int32_t Capacity, int32_t Count, T* Values) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5549 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -65,7 +62,7 @@ public:
 // Non member Declarations
 } // namespace UnityEngine::UIElements::Layout
 // [DefaultMember("Item")]
-// Dependencies Unity.Collections.Allocator
+// Dependencies Unity.Collections.MemoryLabel
 namespace UnityEngine::UIElements::Layout {
 // cpp template
 template <typename T>
@@ -81,6 +78,9 @@ public:
   __declspec(property(get = get_IsCreated)) bool IsCreated;
 
   __declspec(property(get = get_Item)) T Item[];
+
+  /// @brief Field s_Label, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_s_Label, put = setStaticF_s_Label)) ::Unity::Collections::MemoryLabel s_Label;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
@@ -101,7 +101,7 @@ public:
   inline void RemoveAt(int32_t index);
 
   /// @brief Method ResizeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void* ResizeArray(void* fromPtr, int64_t fromCount, int64_t toCount, int64_t size, int32_t align, ::Unity::Collections::Allocator allocator);
+  static inline void* ResizeArray(void* fromPtr, int64_t fromCount, int64_t toCount, int64_t size, int32_t align);
 
   /// @brief Method ResizeCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ResizeCapacity(int32_t capacity);
@@ -110,7 +110,9 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(int32_t initialCapacity, ::Unity::Collections::Allocator allocator);
+  inline void _ctor(int32_t initialCapacity);
+
+  static inline ::Unity::Collections::MemoryLabel getStaticF_s_Label();
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
@@ -124,24 +126,22 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
+  static inline void setStaticF_s_Label(::Unity::Collections::MemoryLabel value);
+
   // Ctor Parameters []
   // @brief default ctor
   constexpr LayoutList_1();
 
-  // Ctor Parameters [CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Data", ty:
-  // "::UnityEngine::UIElements::Layout::LayoutList_1_Data<T>*", modifiers: "", def_value: None, comment: None }]
-  constexpr LayoutList_1(::Unity::Collections::Allocator m_Allocator, ::UnityEngine::UIElements::Layout::LayoutList_1_Data<T>* m_Data) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "::UnityEngine::UIElements::Layout::LayoutList_1_Data<T>*", modifiers: "", def_value: None, comment: None }]
+  constexpr LayoutList_1(::UnityEngine::UIElements::Layout::LayoutList_1_Data<T>* m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5550 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
-  /// @brief Field m_Allocator, offset: 0x0, size: 0x4, def value: None
-  ::Unity::Collections::Allocator m_Allocator;
-
-  /// @brief Field m_Data, offset: 0x8, size: 0x8, def value: None
+  /// @brief Field m_Data, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::UIElements::Layout::LayoutList_1_Data<T>* m_Data;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;

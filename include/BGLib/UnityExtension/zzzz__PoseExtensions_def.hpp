@@ -25,19 +25,19 @@ class CORDL_TYPE PoseExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method InterpolateTo, addr 0x3328fe0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InterpolateTo, addr 0x35b2260, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InterpolateTo(::UnityEngine::Pose a, ::UnityEngine::Pose b, float_t t);
 
   /// [Extension]
-  /// @brief Method Invert, addr 0x3329070, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Invert, addr 0x35b22ec, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose Invert(::UnityEngine::Pose pose);
 
   /// [Extension]
-  /// @brief Method LerpTo, addr 0x33290d8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LerpTo, addr 0x35b2360, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose LerpTo(::UnityEngine::Pose a, ::UnityEngine::Pose b, float_t t);
 
   /// [Extension]
-  /// @brief Method MirrorController, addr 0x3329168, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method MirrorController, addr 0x35b23ec, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose MirrorController(::UnityEngine::Pose pose);
 
 protected:
@@ -55,7 +55,7 @@ public:
   PoseExtensions(PoseExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20797 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21457 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

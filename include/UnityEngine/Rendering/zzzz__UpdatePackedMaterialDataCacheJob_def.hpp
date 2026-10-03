@@ -6,6 +6,7 @@ CORDL_MODULE_INIT
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_def.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenPackedMaterialData_def.hpp"
+#include "UnityEngine/zzzz__EntityId_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UpdatePackedMaterialDataCacheJob)
@@ -20,7 +21,7 @@ struct UpdatePackedMaterialDataCacheJob;
 MARK_VAL_T(::UnityEngine::Rendering::UpdatePackedMaterialDataCacheJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::UpdatePackedMaterialDataCacheJob, "UnityEngine.Rendering", "UpdatePackedMaterialDataCacheJob");
 // [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
-// Dependencies Unity.Collections.NativeArray`1::ReadOnly<T>, Unity.Collections.NativeParallelHashMap`2<TKey, TValue>, UnityEngine.Rendering.GPUDrivenPackedMaterialData
+// Dependencies Unity.Collections.NativeArray`1::ReadOnly<T>, Unity.Collections.NativeParallelHashMap`2<TKey, TValue>, UnityEngine.EntityId, UnityEngine.Rendering.GPUDrivenPackedMaterialData
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.UpdatePackedMaterialDataCacheJob
@@ -30,10 +31,10 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x681cca4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6c4fbc0, size 0x6c, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method ProcessMaterial, addr 0x681cbc0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ProcessMaterial, addr 0x6c4fadc, size 0xe4, virtual false, abstract: false, final false
   inline void ProcessMaterial(int32_t i);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -43,29 +44,30 @@ public:
   // @brief default ctor
   constexpr UpdatePackedMaterialDataCacheJob();
 
-  // Ctor Parameters [CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // Ctor Parameters [CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>", modifiers: "", def_value: None, comment: None }, CppParam { name:
   // "packedMaterialDatas", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "packedMaterialHash", ty: "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: None, comment: None }]
-  constexpr UpdatePackedMaterialDataCacheJob(::Unity::Collections::NativeArray_1_ReadOnly<int32_t> materialIDs,
+  // "packedMaterialHash", ty: "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId,::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: None, comment:
+  // None }]
+  constexpr UpdatePackedMaterialDataCacheJob(::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> materialIDs,
                                              ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDatas,
-                                             ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialHash) noexcept;
+                                             ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialHash) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18193 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// [ReadOnly]
   /// @brief Field materialIDs, offset: 0x0, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> materialIDs;
+  ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> materialIDs;
 
   /// [ReadOnly]
   /// @brief Field packedMaterialDatas, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDatas;
 
   /// @brief Field packedMaterialHash, offset: 0x20, size: 0x10, def value: None
-  ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialHash;
+  ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialHash;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

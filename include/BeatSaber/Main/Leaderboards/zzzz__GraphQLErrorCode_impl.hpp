@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::BeatSaber::Main::Leaderboards::GraphQLErrorCode::IsBeatGamesErrorCode)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x32a58c8;
+  constexpr static std::size_t addrs = 0x352c7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::BeatSaber::Main::Leaderboards::GraphQLErrorCode::IsBeatGamesErrorCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32a4214;
+  constexpr static std::size_t addrs = 0x352b104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

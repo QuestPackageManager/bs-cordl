@@ -4,10 +4,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/zzzz__EntityId_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstddef>
-#include <cstdint>
 CORDL_MODULE_EXPORT(TypeDispatchData)
 namespace System {
 class IDisposable;
@@ -22,7 +22,7 @@ struct TypeDispatchData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TypeDispatchData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TypeDispatchData, "UnityEngine", "TypeDispatchData");
-// Dependencies Unity.Collections.NativeArray`1<T>, UnityEngine.Object
+// Dependencies Unity.Collections.NativeArray`1<T>, UnityEngine.EntityId, UnityEngine.Object
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.TypeDispatchData
@@ -32,7 +32,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6ad46a4, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6f2efb0, size 0x60, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Convert to "::System::IDisposable"
@@ -43,13 +43,13 @@ public:
   constexpr TypeDispatchData();
 
   // Ctor Parameters [CppParam { name: "changed", ty: "::ArrayW<::UnityW<::UnityEngine::Object>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "changedID", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "destroyedID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-  // def_value: None, comment: None }]
-  constexpr TypeDispatchData(::ArrayW<::UnityW<::UnityEngine::Object>> changed, ::Unity::Collections::NativeArray_1<int32_t> changedID,
-                             ::Unity::Collections::NativeArray_1<int32_t> destroyedID) noexcept;
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>", modifiers: "", def_value: None, comment: None }, CppParam { name: "destroyedID", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>", modifiers: "", def_value: None, comment: None }]
+  constexpr TypeDispatchData(::ArrayW<::UnityW<::UnityEngine::Object>> changed, ::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> changedID,
+                             ::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> destroyedID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9849 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -58,10 +58,10 @@ public:
   ::ArrayW<::UnityW<::UnityEngine::Object>> changed;
 
   /// @brief Field changedID, offset: 0x8, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<int32_t> changedID;
+  ::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> changedID;
 
   /// @brief Field destroyedID, offset: 0x18, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<int32_t> destroyedID;
+  ::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> destroyedID;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -108,28 +108,28 @@ public:
 
   constexpr void __cordl_internal_set__modification(::GlobalNamespace::CompositeModification* value);
 
-  /// @brief Method .ctor, addr 0x599307c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dadf64, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_description, addr 0x59932e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_description, addr 0x5dae250, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_description();
 
-  /// @brief Method get_displayName, addr 0x59932dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x5dae248, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_editorCategory, addr 0x59932f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editorCategory, addr 0x5dae260, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_editorCategory();
 
-  /// @brief Method get_editorName, addr 0x59932ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editorName, addr 0x5dae258, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_editorName();
 
-  /// @brief Method get_lightControllerData, addr 0x59932cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightControllerData, addr 0x5dae238, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CompositeLightControllerData* get_lightControllerData();
 
-  /// @brief Method get_lightGroup, addr 0x59932d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x5dae240, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroup> get_lightGroup();
 
-  /// @brief Method get_modification, addr 0x59932c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_modification, addr 0x5dae230, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CompositeModification* get_modification();
 
 protected:
@@ -147,7 +147,7 @@ public:
   CompositeLightControllerSet(CompositeLightControllerSet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5949 };
 
   /// [SerializeField]
   /// @brief Field _modification, offset: 0x10, size: 0x8, def value: None

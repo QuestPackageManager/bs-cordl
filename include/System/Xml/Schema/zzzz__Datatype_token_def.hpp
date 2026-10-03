@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_token* New_ctor();
 
-  /// @brief Method .ctor, addr 0x61c0480, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65e8124, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x61c7b3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x65ef7e0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_TypeCode, addr 0x61c7b34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x65ef7d8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -55,7 +55,7 @@ public:
   Datatype_token(Datatype_token const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9646 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11611 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

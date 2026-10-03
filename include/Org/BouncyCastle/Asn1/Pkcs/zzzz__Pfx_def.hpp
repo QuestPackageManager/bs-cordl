@@ -44,7 +44,7 @@ public:
   /// @brief Field macData, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_macData, put = __cordl_internal_set_macData)) ::Org::BouncyCastle::Asn1::Pkcs::MacData* macData;
 
-  /// @brief Method GetInstance, addr 0x3464904, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x36edba0, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pfx* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pfx* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* contentInfo, ::Org::BouncyCastle::Asn1::Pkcs::MacData* macData);
@@ -52,7 +52,7 @@ public:
   /// @brief [Obsolete("Use \'GetInstance\' instead")]
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pfx* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3464aac, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x36edd48, size 0x1b4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* const& __cordl_internal_get_contentInfo() const;
@@ -67,17 +67,17 @@ public:
 
   constexpr void __cordl_internal_set_macData(::Org::BouncyCastle::Asn1::Pkcs::MacData* value);
 
-  /// @brief Method .ctor, addr 0x3464a94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36edd30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* contentInfo, ::Org::BouncyCastle::Asn1::Pkcs::MacData* macData);
 
   /// [Obsolete("Use \'GetInstance\' instead")]
-  /// @brief Method .ctor, addr 0x34649a4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36edc40, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_AuthSafe, addr 0x3464a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthSafe, addr 0x36edd38, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* get_AuthSafe();
 
-  /// @brief Method get_MacData, addr 0x3464aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MacData, addr 0x36edd40, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::MacData* get_MacData();
 
 protected:

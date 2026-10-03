@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::GetInstance)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3452aec;
+  constexpr static std::size_t addrs = 0x36dbd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::_ctor)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3452c50;
+  constexpr static std::size_t addrs = 0x36dbeec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit*>(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::*)(::StringW, int32_t, int32_t)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3452d70;
+  constexpr static std::size_t addrs = 0x36dc00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit*>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::get_Currency)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3452e40;
+  constexpr static std::size_t addrs = 0x36dc0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::get_Amount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3452e5c;
+  constexpr static std::size_t addrs = 0x36dc0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit*>(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::get_Exponent)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3452e74;
+  constexpr static std::size_t addrs = 0x36dc110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit*>(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::ToAsn1Object)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3452e8c;
+  constexpr static std::size_t addrs = 0x36dc128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit*>(),

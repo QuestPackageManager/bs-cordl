@@ -1,25 +1,29 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenLODGroupData.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
+#include "UnityEngine/zzzz__EntityId_impl.hpp"
 #include "UnityEngine/zzzz__LODFadeMode_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenLODGroupData_def.hpp"
-// Ctor Parameters [CppParam { name: "lodGroupID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodOffset", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodCount", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers:
-// "", def_value: Some("{}"), comment: None }, CppParam { name: "fadeMode", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::LODFadeMode>", modifiers: "", def_value: Some("{}"), comment: None
-// }, CppParam { name: "worldSpaceReferencePoint", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "worldSpaceSize", ty: "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "renderersCount", ty:
-// "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lastLODIsBillboard", ty: "::Unity::Collections::NativeArray_1<bool>",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "invalidLODGroupID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None
-// }, CppParam { name: "lodRenderersCount", ty: "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "lodScreenRelativeTransitionHeight", ty: "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodFadeTransitionWidth", ty:
-// "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: Some("{}"), comment: None }]
+// Ctor Parameters [CppParam { name: "lodGroupID", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "lodOffset", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodCount", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fadeMode", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::LODFadeMode>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "worldSpaceReferencePoint", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "worldSpaceSize", ty:
+// "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "renderersCount", ty: "::Unity::Collections::NativeArray_1<int16_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lastLODIsBillboard", ty: "::Unity::Collections::NativeArray_1<bool>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "forceLODMask", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "invalidLODGroupID", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodRenderersCount", ty:
+// "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodScreenRelativeTransitionHeight", ty:
+// "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodFadeTransitionWidth", ty: "::Unity::Collections::NativeArray_1<float_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUDrivenLODGroupData::GPUDrivenLODGroupData(
-    ::Unity::Collections::NativeArray_1<int32_t> lodGroupID, ::Unity::Collections::NativeArray_1<int32_t> lodOffset, ::Unity::Collections::NativeArray_1<int32_t> lodCount,
+    ::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> lodGroupID, ::Unity::Collections::NativeArray_1<int32_t> lodOffset, ::Unity::Collections::NativeArray_1<int32_t> lodCount,
     ::Unity::Collections::NativeArray_1<::UnityEngine::LODFadeMode> fadeMode, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> worldSpaceReferencePoint,
     ::Unity::Collections::NativeArray_1<float_t> worldSpaceSize, ::Unity::Collections::NativeArray_1<int16_t> renderersCount, ::Unity::Collections::NativeArray_1<bool> lastLODIsBillboard,
-    ::Unity::Collections::NativeArray_1<int32_t> invalidLODGroupID, ::Unity::Collections::NativeArray_1<int16_t> lodRenderersCount,
-    ::Unity::Collections::NativeArray_1<float_t> lodScreenRelativeTransitionHeight, ::Unity::Collections::NativeArray_1<float_t> lodFadeTransitionWidth) noexcept {
+    ::Unity::Collections::NativeArray_1<uint8_t> forceLODMask, ::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> invalidLODGroupID,
+    ::Unity::Collections::NativeArray_1<int16_t> lodRenderersCount, ::Unity::Collections::NativeArray_1<float_t> lodScreenRelativeTransitionHeight,
+    ::Unity::Collections::NativeArray_1<float_t> lodFadeTransitionWidth) noexcept {
   this->lodGroupID = lodGroupID;
   this->lodOffset = lodOffset;
   this->lodCount = lodCount;
@@ -28,6 +32,7 @@ constexpr ::UnityEngine::Rendering::GPUDrivenLODGroupData::GPUDrivenLODGroupData
   this->worldSpaceSize = worldSpaceSize;
   this->renderersCount = renderersCount;
   this->lastLODIsBillboard = lastLODIsBillboard;
+  this->forceLODMask = forceLODMask;
   this->invalidLODGroupID = invalidLODGroupID;
   this->lodRenderersCount = lodRenderersCount;
   this->lodScreenRelativeTransitionHeight = lodScreenRelativeTransitionHeight;

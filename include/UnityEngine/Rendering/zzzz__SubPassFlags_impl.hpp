@@ -11,3 +11,6 @@ constexpr ::UnityEngine::Rendering::SubPassFlags UnityEngine::Rendering::SubPass
 constexpr ::UnityEngine::Rendering::SubPassFlags UnityEngine::Rendering::SubPassFlags::ReadOnlyDepth{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Rendering::SubPassFlags UnityEngine::Rendering::SubPassFlags::ReadOnlyStencil{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::Rendering::SubPassFlags UnityEngine::Rendering::SubPassFlags::ReadOnlyDepthStencil{ static_cast<int32_t>(0x6) };
+constexpr ::UnityEngine::Rendering::SubPassFlags UnityEngine::Rendering::SubPassFlags::UseShadingRateImage{ static_cast<int32_t>(0x8) };
+constexpr ::UnityEngine::Rendering::SubPassFlags UnityEngine::Rendering::SubPassFlags::TileProperties{ static_cast<int32_t>(0x10) };
+constexpr ::UnityEngine::Rendering::SubPassFlags UnityEngine::Rendering::SubPassFlags::MultiviewRenderRegionsCompatible{ static_cast<int32_t>(0x20) };

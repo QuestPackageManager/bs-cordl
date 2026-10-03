@@ -124,7 +124,7 @@ public:
   MirrorRendererFeature_ShaderStatics(MirrorRendererFeature_ShaderStatics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21140 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -150,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_guid(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x5f48aec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6364370, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -168,7 +168,7 @@ public:
   MirrorRendererFeature_IterationHandle(MirrorRendererFeature_IterationHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21141 };
 
   /// @brief Field guid, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___guid;
@@ -197,10 +197,10 @@ public:
 
   static inline ::GlobalNamespace::MirrorRendererFeature___c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method <Create>b__0, addr 0x5f48b60, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method <Create>b__0, addr 0x63643e4, size 0xc8, virtual false, abstract: false, final false
   inline void _Create_b__0(::GlobalNamespace::BloomPrePassEffectSO* bloomFogOverride);
 
-  /// @brief Method <Create>b__1, addr 0x5f48c9c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method <Create>b__1, addr 0x63644dc, size 0x118, virtual false, abstract: false, final false
   inline void _Create_b__1(::GlobalNamespace::MirrorRendererSO* mirrorRenderer);
 
   constexpr ::UnityW<::GlobalNamespace::MirrorRendererFeature> const& __cordl_internal_get___4__this() const;
@@ -215,7 +215,7 @@ public:
 
   constexpr void __cordl_internal_set_currentGuid(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x5f47c1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6363478, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -233,7 +233,7 @@ public:
   MirrorRendererFeature___c__DisplayClass17_0(MirrorRendererFeature___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21142 };
 
   /// @brief Field currentGuid, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___currentGuid;
@@ -293,7 +293,7 @@ public:
   MirrorRendererFeature___c__DisplayClass21_0_1(MirrorRendererFeature___c__DisplayClass21_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21143 };
 
   /// @brief Field onLoadFinished, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<T>* ___onLoadFinished;
@@ -371,19 +371,19 @@ public:
   /// @brief Field _renderPassEvent, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__renderPassEvent, put = __cordl_internal_set__renderPassEvent)) ::UnityEngine::Rendering::Universal::RenderPassEvent _renderPassEvent;
 
-  /// @brief Method AddRenderPasses, addr 0x5f47d74, size 0x864, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x63635d0, size 0x8b0, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x5f478a0, size 0x37c, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x63631b8, size 0x2c0, virtual true, abstract: false, final false
   inline void Create();
 
-  /// @brief Method Dispose, addr 0x5f488bc, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6364168, size 0xd0, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method HandleBeginCameraRendering, addr 0x5f489b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleBeginCameraRendering, addr 0x6364238, size 0x8, virtual false, abstract: false, final false
   inline void HandleBeginCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method HandleEndCameraRendering, addr 0x5f489bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleEndCameraRendering, addr 0x6364240, size 0x7c, virtual false, abstract: false, final false
   inline void HandleEndCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
   /// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -394,10 +394,10 @@ public:
 
   static inline ::GlobalNamespace::MirrorRendererFeature* New_ctor();
 
-  /// @brief Method ReleaseHandles, addr 0x5f47c20, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ReleaseHandles, addr 0x636347c, size 0x154, virtual false, abstract: false, final false
   inline void ReleaseHandles();
 
-  /// @brief Method UnionFrustumPlanes, addr 0x5f485fc, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method UnionFrustumPlanes, addr 0x6363eb4, size 0x284, virtual false, abstract: false, final false
   static inline void UnionFrustumPlanes(::ArrayW<::UnityEngine::Plane> eyeLeft, ::ArrayW<::UnityEngine::Plane> eyeRight, ::UnityEngine::Matrix4x4 reflectedViewLeft,
                                         ::UnityEngine::Matrix4x4 reflectedViewRight, ::ArrayW<::UnityEngine::Plane> result);
 
@@ -492,7 +492,7 @@ public:
 
   constexpr void __cordl_internal_set__renderPassEvent(::UnityEngine::Rendering::Universal::RenderPassEvent value);
 
-  /// @brief Method .ctor, addr 0x5f48a38, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63642bc, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -510,7 +510,7 @@ public:
   MirrorRendererFeature(MirrorRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21144 };
 
   /// [SerializeField]
   /// @brief Field _renderPassEvent, offset: 0x1c, size: 0x4, def value: None

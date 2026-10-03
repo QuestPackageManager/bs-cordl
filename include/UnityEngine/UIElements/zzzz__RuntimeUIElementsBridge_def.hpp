@@ -22,10 +22,10 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::RuntimeUIElementsBridge* New_ctor();
 
-  /// @brief Method SetWantsMouseJumping, addr 0x6cb350c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetWantsMouseJumping, addr 0x71362d0, size 0x4, virtual true, abstract: false, final false
   inline void SetWantsMouseJumping(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6cb3510, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71362d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -43,7 +43,7 @@ public:
   RuntimeUIElementsBridge(RuntimeUIElementsBridge const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5111 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5208 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

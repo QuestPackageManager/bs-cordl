@@ -35,15 +35,15 @@ public:
   /// @brief Field _gameScenesManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x5f42504, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x635dcb8, size 0x18, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerTransitionDidStart(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType, float_t duration);
 
   static inline ::GlobalNamespace::FadeOutOnSceneTransitionStart* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5f423f0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x635dba4, size 0x114, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5f42360, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x635db14, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOut() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  /// @brief Method .ctor, addr 0x5f4251c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x635dcd0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   FadeOutOnSceneTransitionStart(FadeOutOnSceneTransitionStart const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21115 };
 
   /// [Inject]
   /// @brief Field _fadeInOut, offset: 0x20, size: 0x8, def value: None

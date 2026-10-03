@@ -6,6 +6,8 @@
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__InternalRenderGraphContext_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphDefaultResources_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphObjectPool_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureUVOrigin_def.hpp"
 #include "UnityEngine/Rendering/zzzz__UnsafeCommandBuffer_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext.get_defaultResources
 template <>
@@ -13,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* (
     ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::*)()>(&::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::get_defaultResources)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67dbfb8;
+  constexpr static std::size_t addrs = 0x6c032a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* (::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::get_renderGraphPool)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67dbfd0;
+  constexpr static std::size_t addrs = 0x6c032bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,12 +43,27 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::*)(
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*)>(&::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::FromInternalContext)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x67dbfe8;
+  constexpr static std::size_t addrs = 0x6c032d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>(),
                                                              { "FromInternalContext", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext.GetTextureUVOrigin
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin (::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::*)(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(&::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::GetTextureUVOrigin)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6c03378;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>(),
+                                                             { "GetTextureUVOrigin", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
     return ___internal_method;
   }
 };
@@ -56,10 +73,27 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67dc08c;
+  constexpr static std::size_t addrs = 0x6c033e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext.UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin (::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::*)(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
+    &::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c0345c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>(),
+                                                                                           { "UnityEngine.Rendering.RenderGraphModule.IDerivedRendergraphContext.GetTextureUVOrigin",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
     return ___internal_method;
   }
 };
@@ -110,9 +144,25 @@ inline void UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::FromI
                                                            { "FromInternalContext", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context);
 }
+inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin
+UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> textureHandle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>(),
+                                                           { "GetTextureUVOrigin", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin>(this, ___internal_method, textureHandle);
+}
 inline void UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin
+UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin(
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> textureHandle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>(),
+                                                                                         { "UnityEngine.Rendering.RenderGraphModule.IDerivedRendergraphContext.GetTextureUVOrigin",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin>(this, ___internal_method, textureHandle);
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>());

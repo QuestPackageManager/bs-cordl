@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_velocity(float_t value);
 
-  /// @brief Method .ctor, addr 0x59edb54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e09114, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   BlocksBlade_Element(BlocksBlade_Element const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6217 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6337 };
 
   /// @brief Field idx, offset: 0x10, size: 0x4, def value: None
   int32_t ___idx;
@@ -188,16 +188,16 @@ public:
 
   static inline ::GlobalNamespace::BlocksBlade* New_ctor();
 
-  /// @brief Method RandomPointOnCircle, addr 0x59ee0ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method RandomPointOnCircle, addr 0x5e096ac, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 RandomPointOnCircle(float_t radius);
 
-  /// @brief Method SetUpElement, addr 0x59edb58, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method SetUpElement, addr 0x5e09118, size 0x1a4, virtual false, abstract: false, final false
   inline void SetUpElement(::GlobalNamespace::BlocksBlade_Element* element, float_t velocity, ::UnityEngine::Color color);
 
-  /// @brief Method Start, addr 0x59ed8ac, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e08e6c, size 0x2a8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x59edcfc, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e092bc, size 0x3f0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color_k__BackingField() const;
@@ -308,7 +308,7 @@ public:
 
   constexpr void __cordl_internal_set__sizes(::ArrayW<::UnityEngine::Vector4> value);
 
-  /// @brief Method .ctor, addr 0x59ee148, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e09708, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorPropertyID();
@@ -320,7 +320,7 @@ public:
   static inline int32_t getStaticF__zClipPropertyID();
 
   /// [CompilerGenerated]
-  /// @brief Method get_color, addr 0x59ed894, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x5e08e54, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
   static inline void setStaticF__colorPropertyID(int32_t value);
@@ -332,7 +332,7 @@ public:
   static inline void setStaticF__zClipPropertyID(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_color, addr 0x59ed8a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x5e08e60, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -350,7 +350,7 @@ public:
   BlocksBlade(BlocksBlade const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6338 };
 
   /// [SerializeField]
   /// @brief Field _elementMesh, offset: 0x20, size: 0x8, def value: None

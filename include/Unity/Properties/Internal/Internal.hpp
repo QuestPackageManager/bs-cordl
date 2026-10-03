@@ -9,6 +9,7 @@ module;
 #include "Unity/Properties/Internal/IAttributes.hpp"
 #include "Unity/Properties/Internal/IPropertyBagRegister.hpp"
 #include "Unity/Properties/Internal/PropertiesInitialization.hpp"
+#include "Unity/Properties/Internal/PropertyBagLazyInitialization.hpp"
 #include "Unity/Properties/Internal/PropertyBagStore.hpp"
 #include "Unity/Properties/Internal/RectIntPropertyBag.hpp"
 #include "Unity/Properties/Internal/RectPropertyBag.hpp"

@@ -13,8 +13,8 @@ class FormerlySerializedAsAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Serialization::FormerlySerializedAsAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Serialization::FormerlySerializedAsAttribute*, "UnityEngine.Serialization", "FormerlySerializedAsAttribute");
-// [AttributeUsage((System.AttributeTargets)256, AllowMultiple = true, Inherited = false)]
 // [RequiredByNativeCode]
+// [AttributeUsage((System.AttributeTargets)256, AllowMultiple = true, Inherited = false)]
 // Dependencies System.Attribute
 namespace UnityEngine::Serialization {
 // Is value type: false
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_m_oldName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6afeda4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f59f84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW oldName);
 
 protected:
@@ -51,7 +51,7 @@ public:
   FormerlySerializedAsAttribute(FormerlySerializedAsAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10054 };
 
   /// @brief Field m_oldName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_oldName;

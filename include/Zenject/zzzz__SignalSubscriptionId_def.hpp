@@ -38,31 +38,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Zenject::SignalSubscriptionId>"
   constexpr operator ::System::IEquatable_1<::Zenject::SignalSubscriptionId>*();
 
-  /// @brief Method Equals, addr 0x6e47f70, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x72e3ac8, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* that);
 
-  /// @brief Method Equals, addr 0x6e48004, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x72e3b5c, size 0xf4, virtual true, abstract: false, final true
   inline bool Equals(::Zenject::SignalSubscriptionId that);
 
-  /// @brief Method GetHashCode, addr 0x6e47f28, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x72e3a80, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6e47f08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72e3a60, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindingId signalId, ::System::Object* callback);
 
-  /// @brief Method get_Callback, addr 0x6e47f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Callback, addr 0x72e3a78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Callback();
 
-  /// @brief Method get_SignalId, addr 0x6e47f14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_SignalId, addr 0x72e3a6c, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::BindingId get_SignalId();
 
   /// @brief Convert to "::System::IEquatable_1<::Zenject::SignalSubscriptionId>"
   constexpr ::System::IEquatable_1<::Zenject::SignalSubscriptionId>* i___System__IEquatable_1___Zenject__SignalSubscriptionId_();
 
-  /// @brief Method op_Equality, addr 0x6e480f8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x72e3c50, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::Zenject::SignalSubscriptionId left, ::Zenject::SignalSubscriptionId right);
 
-  /// @brief Method op_Inequality, addr 0x6e48128, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x72e3c80, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Inequality(::Zenject::SignalSubscriptionId left, ::Zenject::SignalSubscriptionId right);
 
   // Ctor Parameters []
@@ -74,7 +74,7 @@ public:
   constexpr SignalSubscriptionId(::Zenject::BindingId _signalId, ::System::Object* _callback) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14254 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SecureRandomProvider_SecureRandomState::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::GlobalNamespace::SecureRandomProvider_SecureRandomState::GetBytes)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3340920;
+  constexpr static std::size_t addrs = 0x35c9bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::GlobalNamespace::SecureRandomProvider_SecureRandomState::*)()>(&::GlobalNamespace::SecureRandomProvider_SecureRandomState::GetByte)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3340a34;
+  constexpr static std::size_t addrs = 0x35c9cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SecureRandomProvider_SecureRandomState*>(), { "GetByte", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SecureRandomProvider_SecureRandomState::*)()>(&::GlobalNamespace::SecureRandomProvider_SecureRandomState::FillBuffer)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3340c34;
+  constexpr static std::size_t addrs = 0x35c9ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SecureRandomProvider_SecureRandomState*>(), { "FillBuffer", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SecureRandomProvider_SecureRandomState::*)()>(&::GlobalNamespace::SecureRandomProvider_SecureRandomState::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3340bb4;
+  constexpr static std::size_t addrs = 0x35c9e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SecureRandomProvider_SecureRandomState*>(), { ".ctor", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(int32_t)>(&::GlobalNamespace::SecureRandomProvider::GetBytes)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3340878;
+  constexpr static std::size_t addrs = 0x35c9b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)()>(&::GlobalNamespace::SecureRandomProvider::GetByte)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x33409d0;
+  constexpr static std::size_t addrs = 0x35c9c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SecureRandomProvider*>(), { "GetByte", {}, {} })));
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::GlobalNamespace::SecureRandomProvider::GetBytes)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3330d1c;
+  constexpr static std::size_t addrs = 0x35b9fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>)>(&::GlobalNamespace::SecureRandomProvider::GetBytes)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3340ac8;
+  constexpr static std::size_t addrs = 0x35c9d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

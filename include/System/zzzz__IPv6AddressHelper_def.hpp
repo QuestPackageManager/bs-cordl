@@ -27,28 +27,28 @@ namespace System {
 class CORDL_TYPE IPv6AddressHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindCompressionRange, addr 0x6372250, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method FindCompressionRange, addr 0x679a4b4, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<int32_t, int32_t> FindCompressionRange(::System::ReadOnlySpan_1<uint16_t> numbers);
 
-  /// @brief Method InternalIsValid, addr 0x63732cc, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method InternalIsValid, addr 0x679b530, size 0x304, virtual false, abstract: false, final false
   static inline bool InternalIsValid(char16_t* name, int32_t start, ::by_ref<int32_t> end, bool validateStrictAddress);
 
-  /// @brief Method IsLoopback, addr 0x63731f0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method IsLoopback, addr 0x679b454, size 0xdc, virtual false, abstract: false, final false
   static inline bool IsLoopback(::System::ReadOnlySpan_1<uint16_t> numbers);
 
-  /// @brief Method IsValid, addr 0x63735d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x679b834, size 0x8, virtual false, abstract: false, final false
   static inline bool IsValid(char16_t* name, int32_t start, ::by_ref<int32_t> end);
 
-  /// @brief Method IsValidStrict, addr 0x63723ec, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method IsValidStrict, addr 0x679a650, size 0x38c, virtual false, abstract: false, final false
   static inline bool IsValidStrict(char16_t* name, int32_t start, ::by_ref<int32_t> end);
 
-  /// @brief Method Parse, addr 0x6372778, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x679a9dc, size 0x4c4, virtual false, abstract: false, final false
   static inline void Parse(::System::ReadOnlySpan_1<char16_t> address, uint16_t* numbers, int32_t start, ::by_ref<::StringW> scopeId);
 
-  /// @brief Method ParseCanonicalName, addr 0x6372c3c, size 0x5b4, virtual false, abstract: false, final false
+  /// @brief Method ParseCanonicalName, addr 0x679aea0, size 0x5b4, virtual false, abstract: false, final false
   static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, ::by_ref<bool> isLoopback, ::by_ref<::StringW> scopeId);
 
-  /// @brief Method ShouldHaveIpv4Embedded, addr 0x637231c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ShouldHaveIpv4Embedded, addr 0x679a580, size 0xd0, virtual false, abstract: false, final false
   static inline bool ShouldHaveIpv4Embedded(::System::ReadOnlySpan_1<uint16_t> numbers);
 
 protected:
@@ -66,7 +66,7 @@ public:
   IPv6AddressHelper(IPv6AddressHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11053 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11987 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

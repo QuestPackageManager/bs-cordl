@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cmp::CertificateConfirmationContent::*)(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent*)>(
     &::Org::BouncyCastle::Cmp::CertificateConfirmationContent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36a1a98;
+  constexpr static std::size_t addrs = 0x392ad34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::CertificateConfirmationContent*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cmp::CertificateConfirmationContent::*)(
     ::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent*, ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*)>(&::Org::BouncyCastle::Cmp::CertificateConfirmationContent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36a1aa0;
+  constexpr static std::size_t addrs = 0x392ad3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* (::Org::BouncyCastle::Cmp::CertificateConfirmationContent::*)()>(
     &::Org::BouncyCastle::Cmp::CertificateConfirmationContent::ToAsn1Structure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36a1aa8;
+  constexpr static std::size_t addrs = 0x392ad44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Cmp::CertificateStatus*> (::Org::BouncyCastle::Cmp::CertificateConfirmationContent::*)()>(
     &::Org::BouncyCastle::Cmp::CertificateConfirmationContent::GetStatusMessages)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x36a1ab0;
+  constexpr static std::size_t addrs = 0x392ad4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

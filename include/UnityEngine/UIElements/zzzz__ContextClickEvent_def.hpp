@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::ContextClickEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d9f57c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x722d25c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ContextClickEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d9f578, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x722d258, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ContextClickEvent___c* getStaticF___9();
@@ -59,7 +59,7 @@ public:
   ContextClickEvent___c(ContextClickEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4492 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -76,9 +76,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::ContextClickEvent___c;
 
+  /// @brief Method Init, addr 0x722d1b8, size 0x4c, virtual true, abstract: false, final false
+  inline void Init();
+
+  /// @brief Method LocalInit, addr 0x722d1b4, size 0x4, virtual false, abstract: false, final false
+  inline void LocalInit();
+
   static inline ::UnityEngine::UIElements::ContextClickEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d9f4d8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x722d168, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,11 +102,11 @@ public:
   ContextClickEvent(ContextClickEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4493 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::ContextClickEvent) == 0x98, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::ContextClickEvent) == 0xb8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

@@ -8,18 +8,22 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__RepeatButton_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TabView_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Tab_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::TabView_UxmlFactory._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView_UxmlFactory::*)()>(&::UnityEngine::UIElements::TabView_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6d77e1c;
+  constexpr static std::size_t addrs = 0x720ad90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -40,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::TabView_UxmlTraits::Init)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6d77e84;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x720adf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView_UxmlTraits::*)()>(&::UnityEngine::UIElements::TabView_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6d77fa0;
+  constexpr static std::size_t addrs = 0x720af04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -94,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView_ViewState::*)(::UnityEngine::UIElements::TabView*)>(
     &::UnityEngine::UIElements::TabView_ViewState::Save)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6d7736c;
+  constexpr static std::size_t addrs = 0x720a114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView_ViewState::*)(::UnityEngine::UIElements::TabView*)>(
     &::UnityEngine::UIElements::TabView_ViewState::Apply)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6d771c0;
+  constexpr static std::size_t addrs = 0x72093a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView_ViewState::*)()>(&::UnityEngine::UIElements::TabView_ViewState::OnBeforeSerialize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d78044;
+  constexpr static std::size_t addrs = 0x720afa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView_ViewState*>(), { "OnBeforeSerialize", {}, {} })));
@@ -133,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView_ViewState::*)()>(&::UnityEngine::UIElements::TabView_ViewState::OnAfterDeserialize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d78050;
+  constexpr static std::size_t addrs = 0x720afb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView_ViewState*>(), { "OnAfterDeserialize", {}, {} })));
@@ -145,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView_ViewState::*)()>(&::UnityEngine::UIElements::TabView_ViewState::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6d7805c;
+  constexpr static std::size_t addrs = 0x720afc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView_ViewState*>(), { ".ctor", {}, {} })));
@@ -223,133 +227,140 @@ constexpr ::UnityEngine::ISerializationCallbackReceiver* UnityEngine::UIElements
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TabView_ViewState::TabView_ViewState() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::TabView___c__DisplayClass48_0._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView_TabViewContentContainer.OnChildAdded
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView___c__DisplayClass48_0::*)()>(&::UnityEngine::UIElements::TabView___c__DisplayClass48_0::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d7777c;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView_TabViewContentContainer::*)(::UnityEngine::UIElements::VisualElement*)>(
+    &::UnityEngine::UIElements::TabView_TabViewContentContainer::OnChildAdded)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x720b034;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView___c__DisplayClass48_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView_TabViewContentContainer*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::TabView_TabViewContentContainer*>(), 139 }));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::TabView___c__DisplayClass48_0._OnElementAdded_b__0
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView_TabViewContentContainer.OnChildRemoved
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView___c__DisplayClass48_0::*)(::UnityEngine::UIElements::Tab*)>(
-    &::UnityEngine::UIElements::TabView___c__DisplayClass48_0::_OnElementAdded_b__0)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6d780d0;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView_TabViewContentContainer::*)(::UnityEngine::UIElements::VisualElement*)>(
+    &::UnityEngine::UIElements::TabView_TabViewContentContainer::OnChildRemoved)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x720b0c4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView___c__DisplayClass48_0*>(),
-                                                                                           { "<OnElementAdded>b__0", {}, { ::i2c::type_of<::UnityEngine::UIElements::Tab*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView_TabViewContentContainer*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::TabView_TabViewContentContainer*>(), 140 }));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::UIElements::TabView*& UnityEngine::UIElements::TabView___c__DisplayClass48_0::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView_TabViewContentContainer._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView_TabViewContentContainer::*)()>(&::UnityEngine::UIElements::TabView_TabViewContentContainer::_ctor)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x7209274;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView_TabViewContentContainer*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::TabView_TabViewContentContainer::OnChildAdded(::UnityEngine::UIElements::VisualElement* ve) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TabView_TabViewContentContainer*>(), 139 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve);
 }
-constexpr ::UnityEngine::UIElements::TabView* const& UnityEngine::UIElements::TabView___c__DisplayClass48_0::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
+inline void UnityEngine::UIElements::TabView_TabViewContentContainer::OnChildRemoved(::UnityEngine::UIElements::VisualElement* ve) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TabView_TabViewContentContainer*>(), 140 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve);
 }
-constexpr void UnityEngine::UIElements::TabView___c__DisplayClass48_0::__cordl_internal_set___4__this(::UnityEngine::UIElements::TabView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____4__this = value;
-}
-constexpr int32_t& UnityEngine::UIElements::TabView___c__DisplayClass48_0::__cordl_internal_get_index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___index;
-}
-constexpr int32_t const& UnityEngine::UIElements::TabView___c__DisplayClass48_0::__cordl_internal_get_index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___index;
-}
-constexpr void UnityEngine::UIElements::TabView___c__DisplayClass48_0::__cordl_internal_set_index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___index = value;
-}
-inline void UnityEngine::UIElements::TabView___c__DisplayClass48_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView___c__DisplayClass48_0*>(), { ".ctor", {}, {} })));
+inline void UnityEngine::UIElements::TabView_TabViewContentContainer::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView_TabViewContentContainer*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::TabView___c__DisplayClass48_0::_OnElementAdded_b__0(::UnityEngine::UIElements::Tab* t) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView___c__DisplayClass48_0*>(),
-                                                                                         { "<OnElementAdded>b__0", {}, { ::i2c::type_of<::UnityEngine::UIElements::Tab*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, t);
-}
-inline ::UnityEngine::UIElements::TabView___c__DisplayClass48_0* UnityEngine::UIElements::TabView___c__DisplayClass48_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::TabView___c__DisplayClass48_0*>());
+inline ::UnityEngine::UIElements::TabView_TabViewContentContainer* UnityEngine::UIElements::TabView_TabViewContentContainer::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::TabView_TabViewContentContainer*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::TabView___c__DisplayClass48_0::TabView___c__DisplayClass48_0() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::TabView___c__DisplayClass55_0._ctor
+constexpr ::UnityEngine::UIElements::TabView_TabViewContentContainer::TabView_TabViewContentContainer() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView___c__DisplayClass82_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView___c__DisplayClass55_0::*)()>(&::UnityEngine::UIElements::TabView___c__DisplayClass55_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView___c__DisplayClass82_0::*)()>(&::UnityEngine::UIElements::TabView___c__DisplayClass82_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d77c18;
+  constexpr static std::size_t addrs = 0x720b154;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView___c__DisplayClass55_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView___c__DisplayClass82_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::TabView___c__DisplayClass55_0._FindTabByKey_b__0
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView___c__DisplayClass82_0._FindTabByKey_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TabView___c__DisplayClass55_0::*)(::UnityEngine::UIElements::Tab*)>(
-    &::UnityEngine::UIElements::TabView___c__DisplayClass55_0::_FindTabByKey_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TabView___c__DisplayClass82_0::*)(::UnityEngine::UIElements::Tab*)>(
+    &::UnityEngine::UIElements::TabView___c__DisplayClass82_0::_FindTabByKey_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6d78104;
+  constexpr static std::size_t addrs = 0x720b158;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView___c__DisplayClass55_0*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView___c__DisplayClass82_0*>(),
                                                                                            { "<FindTabByKey>b__0", {}, { ::i2c::type_of<::UnityEngine::UIElements::Tab*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& UnityEngine::UIElements::TabView___c__DisplayClass55_0::__cordl_internal_get_key() {
+constexpr ::StringW& UnityEngine::UIElements::TabView___c__DisplayClass82_0::__cordl_internal_get_key() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
-constexpr ::StringW const& UnityEngine::UIElements::TabView___c__DisplayClass55_0::__cordl_internal_get_key() const {
+constexpr ::StringW const& UnityEngine::UIElements::TabView___c__DisplayClass82_0::__cordl_internal_get_key() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
-constexpr void UnityEngine::UIElements::TabView___c__DisplayClass55_0::__cordl_internal_set_key(::StringW value) {
+constexpr void UnityEngine::UIElements::TabView___c__DisplayClass82_0::__cordl_internal_set_key(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___key = value;
 }
-inline void UnityEngine::UIElements::TabView___c__DisplayClass55_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView___c__DisplayClass55_0*>(), { ".ctor", {}, {} })));
+inline void UnityEngine::UIElements::TabView___c__DisplayClass82_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView___c__DisplayClass82_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::TabView___c__DisplayClass55_0::_FindTabByKey_b__0(::UnityEngine::UIElements::Tab* tab) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView___c__DisplayClass55_0*>(),
+inline bool UnityEngine::UIElements::TabView___c__DisplayClass82_0::_FindTabByKey_b__0(::UnityEngine::UIElements::Tab* tab) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView___c__DisplayClass82_0*>(),
                                                                                          { "<FindTabByKey>b__0", {}, { ::i2c::type_of<::UnityEngine::UIElements::Tab*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, tab);
 }
-inline ::UnityEngine::UIElements::TabView___c__DisplayClass55_0* UnityEngine::UIElements::TabView___c__DisplayClass55_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::TabView___c__DisplayClass55_0*>());
+inline ::UnityEngine::UIElements::TabView___c__DisplayClass82_0* UnityEngine::UIElements::TabView___c__DisplayClass82_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::TabView___c__DisplayClass82_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::TabView___c__DisplayClass55_0::TabView___c__DisplayClass55_0() {}
+constexpr ::UnityEngine::UIElements::TabView___c__DisplayClass82_0::TabView___c__DisplayClass82_0() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::TabView.get_contentContainer
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::TabView::*)()>(
     &::UnityEngine::UIElements::TabView::get_contentContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d769a4;
+  constexpr static std::size_t addrs = 0x72088c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { ::i2c::class_of<::UnityEngine::UIElements::TabView*>(), 135 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { ::i2c::class_of<::UnityEngine::UIElements::TabView*>(), 138 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView.get_contentViewport
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::TabView::*)()>(&::UnityEngine::UIElements::TabView::get_contentViewport)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x72088d0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_contentViewport", {}, {} })));
     return ___internal_method;
   }
 };
@@ -358,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::TabView::*)()>(&::UnityEngine::UIElements::TabView::get_header)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d769ac;
+  constexpr static std::size_t addrs = 0x72088d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_header", {}, {} })));
@@ -371,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::Tab*>* (::UnityEngine::UIElements::TabView::*)()>(
     &::UnityEngine::UIElements::TabView::get_tabs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d769b4;
+  constexpr static std::size_t addrs = 0x72088e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_tabs", {}, {} })));
@@ -384,10 +395,85 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* (::UnityEngine::UIElements::TabView::*)()>(
     &::UnityEngine::UIElements::TabView::get_tabHeaders)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d769bc;
+  constexpr static std::size_t addrs = 0x72088e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_tabHeaders", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView.get_nextButton
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::RepeatButton* (::UnityEngine::UIElements::TabView::*)()>(&::UnityEngine::UIElements::TabView::get_nextButton)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x72088f0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_nextButton", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView.set_nextButton
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)(::UnityEngine::UIElements::RepeatButton*)>(&::UnityEngine::UIElements::TabView::set_nextButton)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x72088f8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "set_nextButton", {}, { ::i2c::type_of<::UnityEngine::UIElements::RepeatButton*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView.get_previousButton
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::RepeatButton* (::UnityEngine::UIElements::TabView::*)()>(&::UnityEngine::UIElements::TabView::get_previousButton)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7208900;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_previousButton", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView.set_previousButton
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)(::UnityEngine::UIElements::RepeatButton*)>(
+    &::UnityEngine::UIElements::TabView::set_previousButton)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7208908;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "set_previousButton", {}, { ::i2c::type_of<::UnityEngine::UIElements::RepeatButton*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView.get_scrollableWidth
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::TabView::*)()>(&::UnityEngine::UIElements::TabView::get_scrollableWidth)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x7208910;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_scrollableWidth", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView.get_needsButtons
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TabView::*)()>(&::UnityEngine::UIElements::TabView::get_needsButtons)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x72089a4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_needsButtons", {}, {} })));
     return ___internal_method;
   }
 };
@@ -396,7 +482,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Tab* (::UnityEngine::UIElements::TabView::*)()>(&::UnityEngine::UIElements::TabView::get_activeTab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d769c4;
+  constexpr static std::size_t addrs = 0x72089c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_activeTab", {}, {} })));
@@ -407,8 +493,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)(::UnityEngine::UIElements::Tab*)>(&::UnityEngine::UIElements::TabView::set_activeTab)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6d769cc;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x720805c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -421,7 +507,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TabView::*)()>(&::UnityEngine::UIElements::TabView::get_reorderable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d76b9c;
+  constexpr static std::size_t addrs = 0x7208a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_reorderable", {}, {} })));
@@ -433,7 +519,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)(bool)>(&::UnityEngine::UIElements::TabView::set_reorderable)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6d76ba4;
+  constexpr static std::size_t addrs = 0x7208a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,8 +531,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)()>(&::UnityEngine::UIElements::TabView::_ctor)> {
-  constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x6d76d50;
+  constexpr static std::size_t size = 0x6c0;
+  constexpr static std::size_t addrs = 0x7208bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { ".ctor", {}, {} })));
@@ -458,11 +544,78 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)()>(&::UnityEngine::UIElements::TabView::OnViewDataReady)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6d770f0;
+  constexpr static std::size_t addrs = 0x72092d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { ::i2c::class_of<::UnityEngine::UIElements::TabView*>(), 132 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { ::i2c::class_of<::UnityEngine::UIElements::TabView*>(), 135 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView.OnDetachFromPanel
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)(::UnityEngine::UIElements::DetachFromPanelEvent*)>(
+    &::UnityEngine::UIElements::TabView::OnDetachFromPanel)> {
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x720954c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "OnDetachFromPanel", {}, { ::i2c::type_of<::UnityEngine::UIElements::DetachFromPanelEvent*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView.OnGeometryChanged
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
+    &::UnityEngine::UIElements::TabView::OnGeometryChanged)> {
+  constexpr static std::size_t size = 0x378;
+  constexpr static std::size_t addrs = 0x7209678;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "OnGeometryChanged", {}, { ::i2c::type_of<::UnityEngine::UIElements::GeometryChangedEvent*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView.OnNextClicked
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)()>(&::UnityEngine::UIElements::TabView::OnNextClicked)> {
+  constexpr static std::size_t size = 0x2e0;
+  constexpr static std::size_t addrs = 0x7209b84;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "OnNextClicked", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView.OnPreviousClicked
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)()>(&::UnityEngine::UIElements::TabView::OnPreviousClicked)> {
+  constexpr static std::size_t size = 0x2b0;
+  constexpr static std::size_t addrs = 0x7209e64;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "OnPreviousClicked", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView.UpdateButtons
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)(::UnityEngine::Vector3)>(&::UnityEngine::UIElements::TabView::UpdateButtons)> {
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x72099f0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "UpdateButtons", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
@@ -471,25 +624,35 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)()>(&::UnityEngine::UIElements::TabView::SaveViewState)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6d76b68;
+  constexpr static std::size_t addrs = 0x72089cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "SaveViewState", {}, {} })));
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView.UpdateIndexes
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)()>(&::UnityEngine::UIElements::TabView::UpdateIndexes)> {
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x720a2fc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "UpdateIndexes", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::TabView.OnElementAdded
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(
-    &::UnityEngine::UIElements::TabView::OnElementAdded)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x6d77554;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::TabView::OnElementAdded)> {
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x720a394;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(),
-                                                             { "OnElementAdded", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "OnElementAdded", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
     return ___internal_method;
   }
 };
@@ -498,8 +661,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::TabView::OnElementRemoved)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6d77780;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x720a598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -512,7 +675,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)(::UnityEngine::UIElements::Tab*)>(&::UnityEngine::UIElements::TabView::OnTabSelected)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d77924;
+  constexpr static std::size_t addrs = 0x720a740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -523,13 +686,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::TabView.OnTabClosed
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)(::UnityEngine::UIElements::Tab*, int32_t)>(&::UnityEngine::UIElements::TabView::OnTabClosed)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6d77928;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)(::UnityEngine::UIElements::Tab*)>(&::UnityEngine::UIElements::TabView::OnTabClosed)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x720a744;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(),
-                                                                                           { "OnTabClosed", {}, { ::i2c::type_of<::UnityEngine::UIElements::Tab*>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "OnTabClosed", {}, { ::i2c::type_of<::UnityEngine::UIElements::Tab*>() } })));
     return ___internal_method;
   }
 };
@@ -537,8 +700,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabView::*)(int32_t, int32_t)>(&::UnityEngine::UIElements::TabView::ReorderTab)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6d77944;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x72069d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -551,7 +714,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Tab* (::UnityEngine::UIElements::TabView::*)(::StringW)>(&::UnityEngine::UIElements::TabView::FindTabByKey)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6d77b38;
+  constexpr static std::size_t addrs = 0x720a770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -559,6 +722,47 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView._OnNextClicked_b__70_0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TabView::*)(::UnityEngine::UIElements::VisualElement*)>(
+    &::UnityEngine::UIElements::TabView::_OnNextClicked_b__70_0)> {
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x720aaf8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "<OnNextClicked>b__70_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TabView._OnPreviousClicked_b__71_0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TabView::*)(::UnityEngine::UIElements::VisualElement*)>(
+    &::UnityEngine::UIElements::TabView::_OnPreviousClicked_b__71_0)> {
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x720ac64;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(),
+                                                                                           { "<OnPreviousClicked>b__71_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::TabView::__cordl_internal_get__contentViewport_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____contentViewport_k__BackingField;
+}
+constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::TabView::__cordl_internal_get__contentViewport_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____contentViewport_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::TabView::__cordl_internal_set__contentViewport_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____contentViewport_k__BackingField = value;
+}
 constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::TabView::__cordl_internal_get_m_HeaderContainer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HeaderContainer;
@@ -655,6 +859,30 @@ constexpr void UnityEngine::UIElements::TabView::__cordl_internal_set_m_Reorderi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Reordering = value;
 }
+constexpr ::UnityEngine::UIElements::RepeatButton*& UnityEngine::UIElements::TabView::__cordl_internal_get__nextButton_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____nextButton_k__BackingField;
+}
+constexpr ::UnityEngine::UIElements::RepeatButton* const& UnityEngine::UIElements::TabView::__cordl_internal_get__nextButton_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____nextButton_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::TabView::__cordl_internal_set__nextButton_k__BackingField(::UnityEngine::UIElements::RepeatButton* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____nextButton_k__BackingField = value;
+}
+constexpr ::UnityEngine::UIElements::RepeatButton*& UnityEngine::UIElements::TabView::__cordl_internal_get__previousButton_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____previousButton_k__BackingField;
+}
+constexpr ::UnityEngine::UIElements::RepeatButton* const& UnityEngine::UIElements::TabView::__cordl_internal_get__previousButton_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____previousButton_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::TabView::__cordl_internal_set__previousButton_k__BackingField(::UnityEngine::UIElements::RepeatButton* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____previousButton_k__BackingField = value;
+}
 constexpr ::System::Action_2<::UnityEngine::UIElements::Tab*, ::UnityEngine::UIElements::Tab*>*& UnityEngine::UIElements::TabView::__cordl_internal_get_activeTabChanged() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___activeTabChanged;
@@ -739,8 +967,30 @@ inline void UnityEngine::UIElements::TabView::setStaticF_verticalUssClassName(::
 inline ::StringW UnityEngine::UIElements::TabView::getStaticF_verticalUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "verticalUssClassName", ::UnityEngine::UIElements::TabView*>();
 }
+inline void UnityEngine::UIElements::TabView::setStaticF_viewportUssClassName(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "viewportUssClassName", ::UnityEngine::UIElements::TabView*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::TabView::getStaticF_viewportUssClassName() {
+  return ::cordl_internals::getStaticField<::StringW, "viewportUssClassName", ::UnityEngine::UIElements::TabView*>();
+}
+inline void UnityEngine::UIElements::TabView::setStaticF_nextButtonUssClassName(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "nextButtonUssClassName", ::UnityEngine::UIElements::TabView*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::TabView::getStaticF_nextButtonUssClassName() {
+  return ::cordl_internals::getStaticField<::StringW, "nextButtonUssClassName", ::UnityEngine::UIElements::TabView*>();
+}
+inline void UnityEngine::UIElements::TabView::setStaticF_previousButtonUssClassName(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "previousButtonUssClassName", ::UnityEngine::UIElements::TabView*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::TabView::getStaticF_previousButtonUssClassName() {
+  return ::cordl_internals::getStaticField<::StringW, "previousButtonUssClassName", ::UnityEngine::UIElements::TabView*>();
+}
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::TabView::get_contentContainer() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TabView*>(), 135 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TabView*>(), 138 })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::TabView::get_contentViewport() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_contentViewport", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::TabView::get_header() {
@@ -754,6 +1004,32 @@ inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Tab*>* 
 inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* UnityEngine::UIElements::TabView::get_tabHeaders() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_tabHeaders", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::RepeatButton* UnityEngine::UIElements::TabView::get_nextButton() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_nextButton", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::RepeatButton*>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::TabView::set_nextButton(::UnityEngine::UIElements::RepeatButton* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "set_nextButton", {}, { ::i2c::type_of<::UnityEngine::UIElements::RepeatButton*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::UIElements::RepeatButton* UnityEngine::UIElements::TabView::get_previousButton() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_previousButton", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::RepeatButton*>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::TabView::set_previousButton(::UnityEngine::UIElements::RepeatButton* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "set_previousButton", {}, { ::i2c::type_of<::UnityEngine::UIElements::RepeatButton*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::UIElements::TabView::get_scrollableWidth() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_scrollableWidth", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::TabView::get_needsButtons() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_needsButtons", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::Tab* UnityEngine::UIElements::TabView::get_activeTab() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "get_activeTab", {}, {} })));
@@ -778,18 +1054,46 @@ inline void UnityEngine::UIElements::TabView::_ctor() {
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::TabView::OnViewDataReady() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TabView*>(), 132 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TabView*>(), 135 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::TabView::OnDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "OnDetachFromPanel", {}, { ::i2c::type_of<::UnityEngine::UIElements::DetachFromPanelEvent*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::TabView::OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "OnGeometryChanged", {}, { ::i2c::type_of<::UnityEngine::UIElements::GeometryChangedEvent*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::TabView::OnNextClicked() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "OnNextClicked", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::TabView::OnPreviousClicked() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "OnPreviousClicked", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::TabView::UpdateButtons(::UnityEngine::Vector3 contentTransform) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "UpdateButtons", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, contentTransform);
 }
 inline void UnityEngine::UIElements::TabView::SaveViewState() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "SaveViewState", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::TabView::OnElementAdded(::UnityEngine::UIElements::VisualElement* ve, int32_t index) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(),
-                                                           { "OnElementAdded", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve, index);
+inline void UnityEngine::UIElements::TabView::UpdateIndexes() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "UpdateIndexes", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::TabView::OnElementAdded(::UnityEngine::UIElements::VisualElement* ve) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "OnElementAdded", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve);
 }
 inline void UnityEngine::UIElements::TabView::OnElementRemoved(::UnityEngine::UIElements::VisualElement* ve) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -801,10 +1105,10 @@ inline void UnityEngine::UIElements::TabView::OnTabSelected(::UnityEngine::UIEle
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "OnTabSelected", {}, { ::i2c::type_of<::UnityEngine::UIElements::Tab*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, tab);
 }
-inline void UnityEngine::UIElements::TabView::OnTabClosed(::UnityEngine::UIElements::Tab* tab, int32_t index) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(),
-                                                                                         { "OnTabClosed", {}, { ::i2c::type_of<::UnityEngine::UIElements::Tab*>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, tab, index);
+inline void UnityEngine::UIElements::TabView::OnTabClosed(::UnityEngine::UIElements::Tab* tab) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "OnTabClosed", {}, { ::i2c::type_of<::UnityEngine::UIElements::Tab*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, tab);
 }
 inline void UnityEngine::UIElements::TabView::ReorderTab(int32_t from, int32_t to) {
   static auto* ___internal_method =
@@ -815,6 +1119,18 @@ inline ::UnityEngine::UIElements::Tab* UnityEngine::UIElements::TabView::FindTab
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "FindTabByKey", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Tab*>(this, ___internal_method, key);
+}
+inline bool UnityEngine::UIElements::TabView::_OnNextClicked_b__70_0(::UnityEngine::UIElements::VisualElement* tab) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "<OnNextClicked>b__70_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, tab);
+}
+inline bool UnityEngine::UIElements::TabView::_OnPreviousClicked_b__71_0(::UnityEngine::UIElements::VisualElement* tab) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabView*>(), { "<OnPreviousClicked>b__71_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, tab);
 }
 inline ::UnityEngine::UIElements::TabView* UnityEngine::UIElements::TabView::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::TabView*>());

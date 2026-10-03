@@ -78,7 +78,7 @@ public:
   constexpr EventDispatcher_EventRecord(::UnityEngine::UIElements::EventBase* m_Event, ::UnityEngine::UIElements::BaseVisualElementPanel* m_Panel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4419 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -115,7 +115,7 @@ public:
   constexpr EventDispatcher_DispatchContext(uint32_t m_GateCount, ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* m_Queue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4420 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -149,10 +149,10 @@ public:
 
   static inline ::UnityEngine::UIElements::EventDispatcher___c* New_ctor();
 
-  /// @brief Method <.cctor>b__35_0, addr 0x6d95c9c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__35_0, addr 0x72239a8, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* __cctor_b__35_0();
 
-  /// @brief Method .ctor, addr 0x6d95c98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72239a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::EventDispatcher___c* getStaticF___9();
@@ -174,7 +174,7 @@ public:
   EventDispatcher___c(EventDispatcher___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4421 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -238,28 +238,28 @@ public:
 
   __declspec(property(put = set_processingEvents)) bool processingEvents;
 
-  /// @brief Method CloseGate, addr 0x6d949e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CloseGate, addr 0x72226e0, size 0x14, virtual false, abstract: false, final false
   inline void CloseGate();
 
-  /// @brief Method CreateDefault, addr 0x6d94c94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateDefault, addr 0x7222994, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventDispatcher* CreateDefault();
 
-  /// @brief Method Dispatch, addr 0x6d94e4c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x7222b4c, size 0x180, virtual false, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::EventBase* evt, /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
-  /// @brief Method HandleRecursiveState, addr 0x6d952f4, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method HandleRecursiveState, addr 0x7223000, size 0x490, virtual false, abstract: false, final false
   inline bool HandleRecursiveState(::UnityEngine::UIElements::EventBase* evt);
 
   /// @brief [Obsolete("Please use EventDispatcher.CreateDefault().")]
   static inline ::UnityEngine::UIElements::EventDispatcher* New_ctor();
 
-  /// @brief Method OpenGate, addr 0x6d94a08, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method OpenGate, addr 0x7222708, size 0x194, virtual false, abstract: false, final false
   inline void OpenGate();
 
-  /// @brief Method ProcessEvent, addr 0x6d95074, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x7222d74, size 0x28c, virtual false, abstract: false, final false
   inline void ProcessEvent(::UnityEngine::UIElements::EventBase* evt, /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method ProcessEventQueue, addr 0x6d95784, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method ProcessEventQueue, addr 0x7223490, size 0x39c, virtual false, abstract: false, final false
   inline void ProcessEventQueue();
 
   constexpr ::UnityEngine::UIElements::PointerDispatchState* const& __cordl_internal_get__pointerState_k__BackingField() const;
@@ -323,22 +323,22 @@ public:
   constexpr void __cordl_internal_set_m_Queue(::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* value);
 
   /// [Obsolete("Please use EventDispatcher.CreateDefault().")]
-  /// @brief Method .ctor, addr 0x6d94ce8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72229e8, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*>* getStaticF_k_EventQueuePool();
 
-  /// @brief Method get_dispatchImmediately, addr 0x6d94e24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_dispatchImmediately, addr 0x7222b24, size 0x20, virtual false, abstract: false, final false
   inline bool get_dispatchImmediately();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerState, addr 0x6d94c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerState, addr 0x722298c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerDispatchState* get_pointerState();
 
   static inline void setStaticF_k_EventQueuePool(::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_processingEvents, addr 0x6d94e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_processingEvents, addr 0x7222b44, size 0x8, virtual false, abstract: false, final false
   inline void set_processingEvents(bool value);
 
 protected:
@@ -356,7 +356,7 @@ public:
   EventDispatcher(EventDispatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4422 };
 
   /// @brief Field k_MaxGateDepth offset 0xffffffff size 0x4
   static constexpr int32_t k_MaxGateDepth{ static_cast<int32_t>(0x1f4) };
@@ -373,8 +373,8 @@ public:
   /// @brief Field m_Queue, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* ___m_Queue;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <pointerState>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::PointerDispatchState* ____pointerState_k__BackingField;
 
@@ -396,8 +396,8 @@ public:
   /// @brief Field m_Immediate, offset: 0x48, size: 0x1, def value: None
   bool ___m_Immediate;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <processingEvents>k__BackingField, offset: 0x49, size: 0x1, def value: None
   bool ____processingEvents_k__BackingField;
 

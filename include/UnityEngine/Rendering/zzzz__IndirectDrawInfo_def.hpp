@@ -14,7 +14,7 @@ struct IndirectDrawInfo;
 MARK_VAL_T(::UnityEngine::Rendering::IndirectDrawInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::IndirectDrawInfo, "UnityEngine.Rendering", "IndirectDrawInfo");
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\InstanceOcclusionCuller.cs", needAccessors = false)] Dependencies
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\GPUDriven\\InstanceOcclusionCuller.cs", needAccessors = false)] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.IndirectDrawInfo
@@ -27,11 +27,11 @@ public:
 
   // Ctor Parameters [CppParam { name: "indexCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstIndex", ty: "uint32_t", modifiers: "", def_value: None,
   // comment: None }, CppParam { name: "baseVertex", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstInstanceGlobalIndex", ty: "uint32_t", modifiers: "",
-  // def_value: None, comment: None }, CppParam { name: "maxInstanceCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
-  constexpr IndirectDrawInfo(uint32_t indexCount, uint32_t firstIndex, uint32_t baseVertex, uint32_t firstInstanceGlobalIndex, uint32_t maxInstanceCount) noexcept;
+  // def_value: None, comment: None }, CppParam { name: "maxInstanceCountAndTopology", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
+  constexpr IndirectDrawInfo(uint32_t indexCount, uint32_t firstIndex, uint32_t baseVertex, uint32_t firstInstanceGlobalIndex, uint32_t maxInstanceCountAndTopology) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18267 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
@@ -48,8 +48,8 @@ public:
   /// @brief Field firstInstanceGlobalIndex, offset: 0xc, size: 0x4, def value: None
   uint32_t firstInstanceGlobalIndex;
 
-  /// @brief Field maxInstanceCount, offset: 0x10, size: 0x4, def value: None
-  uint32_t maxInstanceCount;
+  /// @brief Field maxInstanceCountAndTopology, offset: 0x10, size: 0x4, def value: None
+  uint32_t maxInstanceCountAndTopology;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -62,7 +62,7 @@ static_assert(offsetof(::UnityEngine::Rendering::IndirectDrawInfo, baseVertex) =
 
 static_assert(offsetof(::UnityEngine::Rendering::IndirectDrawInfo, firstInstanceGlobalIndex) == 0xc, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::IndirectDrawInfo, maxInstanceCount) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::IndirectDrawInfo, maxInstanceCountAndTopology) == 0x10, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::Rendering::IndirectDrawInfo) == 0x14, "Size mismatch!");
 

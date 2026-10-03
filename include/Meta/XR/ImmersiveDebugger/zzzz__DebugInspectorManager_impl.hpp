@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::DebugInspectorManager::*)(::Meta::XR::ImmersiveDebugger::DebugInspector*)>(
     &::Meta::XR::ImmersiveDebugger::DebugInspectorManager::RegisterInspector)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a3fc34;
+  constexpr static std::size_t addrs = 0x5e575d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::DebugInspectorManager*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::DebugInspectorManager::*)(::Meta::XR::ImmersiveDebugger::DebugInspector*)>(
     &::Meta::XR::ImmersiveDebugger::DebugInspectorManager::UnregisterInspector)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5a3fd40;
+  constexpr static std::size_t addrs = 0x5e576dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::DebugInspectorManager*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::ImmersiveDebugger::Telemetry_Method (::Meta::XR::ImmersiveDebugger::DebugInspectorManager::*)()>(
     &::Meta::XR::ImmersiveDebugger::DebugInspectorManager::get_Method)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a40c7c;
+  constexpr static std::size_t addrs = 0x5e58618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::DebugInspectorManager*>(),
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::DebugInspectorManager::*)()>(&::Meta::XR::ImmersiveDebugger::DebugInspectorManager::OnReadyInternal)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5a40c84;
+  constexpr static std::size_t addrs = 0x5e58620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::DebugInspectorManager*>(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::DebugInspectorManager::*)(::Meta::XR::ImmersiveDebugger::DebugInspector*)>(
     &::Meta::XR::ImmersiveDebugger::DebugInspectorManager::ProcessInspector)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x5a40494;
+  constexpr static std::size_t addrs = 0x5e57e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::DebugInspectorManager*>(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::DebugInspectorManager::*)(::Meta::XR::ImmersiveDebugger::DebugInspector*)>(
     &::Meta::XR::ImmersiveDebugger::DebugInspectorManager::UnprocessInspector)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x5a40964;
+  constexpr static std::size_t addrs = 0x5e58300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::DebugInspectorManager*>(),
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::DebugInspectorManager::*)(
     ::Meta::XR::ImmersiveDebugger::DebugMember*, ::Meta::XR::ImmersiveDebugger::DebugInspector*)>(&::Meta::XR::ImmersiveDebugger::DebugInspectorManager::UpdateCategory)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5a40ecc;
+  constexpr static std::size_t addrs = 0x5e58868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::ImmersiveDebugger::Manager::Category (*)(::Meta::XR::ImmersiveDebugger::DebugMember*)>(
     &::Meta::XR::ImmersiveDebugger::DebugInspectorManager::FetchCategory)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a40efc;
+  constexpr static std::size_t addrs = 0x5e58898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::DebugInspectorManager*>(),
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::DebugInspectorManager::*)()>(&::Meta::XR::ImmersiveDebugger::DebugInspectorManager::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5a40fcc;
+  constexpr static std::size_t addrs = 0x5e58968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::DebugInspectorManager*>(), { ".ctor", {}, {} })));

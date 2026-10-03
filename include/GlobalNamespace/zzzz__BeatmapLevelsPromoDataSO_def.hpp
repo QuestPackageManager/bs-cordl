@@ -83,19 +83,19 @@ public:
 
   constexpr void __cordl_internal_set__updatedBeatmapLevels(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x374e5d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d7be8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_promotedBeatmapLevelPacks, addr 0x374e5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promotedBeatmapLevelPacks, addr 0x39d7bc8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_promotedBeatmapLevelPacks();
 
-  /// @brief Method get_promotedBeatmapLevels, addr 0x374e5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promotedBeatmapLevels, addr 0x39d7bd8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_promotedBeatmapLevels();
 
-  /// @brief Method get_updatedBeatmapLevelPacks, addr 0x374e5b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updatedBeatmapLevelPacks, addr 0x39d7bd0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_updatedBeatmapLevelPacks();
 
-  /// @brief Method get_updatedBeatmapLevels, addr 0x374e5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updatedBeatmapLevels, addr 0x39d7be0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_updatedBeatmapLevels();
 
 protected:
@@ -113,7 +113,7 @@ public:
   BeatmapLevelsPromoDataSO_BeatmapLevelsPromo(BeatmapLevelsPromoDataSO_BeatmapLevelsPromo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15178 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15419 };
 
   /// [BeatmapLevelOrPackId((BeatmapLevelOrPackIdFilter)1)]
   /// [SerializeField]
@@ -172,13 +172,13 @@ public:
 
   constexpr void __cordl_internal_set__promo(::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo* value);
 
-  /// @brief Method .ctor, addr 0x374e5a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d7bc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_promo, addr 0x374e598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promo, addr 0x39d7bb0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo* get_promo();
 
-  /// @brief Method set_promo, addr 0x374e5a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_promo, addr 0x39d7bb8, size 0x8, virtual false, abstract: false, final false
   inline void set_promo(::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo* value);
 
 protected:
@@ -196,7 +196,7 @@ public:
   BeatmapLevelsPromoDataSO(BeatmapLevelsPromoDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15179 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15420 };
 
   /// [SerializeField]
   /// @brief Field _promo, offset: 0x18, size: 0x8, def value: None

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Bounds::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a7f048;
+  constexpr static std::size_t addrs = 0x6ed1d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Bounds::*)()>(&::UnityEngine::Bounds::GetHashCode)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6a7f070;
+  constexpr static std::size_t addrs = 0x6ed1d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { ::i2c::class_of<::UnityEngine::Bounds>(), 2 }));
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::B
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Bounds::*)(::System::Object*)>(&::UnityEngine::Bounds::Equals)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6a7f110;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x6ed1dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { ::i2c::class_of<::UnityEngine::Bounds>(), 0 }));
@@ -49,11 +49,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Boun
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Bounds::*)(::UnityEngine::Bounds)>(&::UnityEngine::Bounds::Equals)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a7f1d8;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6ed1ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Bounds>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Bounds.Equals
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Bounds::*)(::by_ref<::UnityEngine::Bounds>)>(&::UnityEngine::Bounds::Equals)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6ed1f0c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>() } })));
     return ___internal_method;
   }
 };
@@ -62,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Bounds::*)()>(&::UnityEngine::Bounds::get_center)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a7f22c;
+  constexpr static std::size_t addrs = 0x6ed1f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "get_center", {}, {} })));
@@ -74,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::set_center)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a7f238;
+  constexpr static std::size_t addrs = 0x6ed1f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Bounds::*)()>(&::UnityEngine::Bounds::get_size)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6a7f244;
+  constexpr static std::size_t addrs = 0x6ed1f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "get_size", {}, {} })));
@@ -99,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::set_size)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6a7f25c;
+  constexpr static std::size_t addrs = 0x6ed1fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Bounds::*)()>(&::UnityEngine::Bounds::get_extents)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a7f27c;
+  constexpr static std::size_t addrs = 0x6ed1fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "get_extents", {}, {} })));
@@ -124,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::set_extents)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a7f288;
+  constexpr static std::size_t addrs = 0x6ed1fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Bounds::*)()>(&::UnityEngine::Bounds::get_min)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6a7f294;
+  constexpr static std::size_t addrs = 0x6ed1fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "get_min", {}, {} })));
@@ -149,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::set_min)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6a7f2b4;
+  constexpr static std::size_t addrs = 0x6ed2000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "set_min", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
@@ -161,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Bounds::*)()>(&::UnityEngine::Bounds::get_max)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6a7f304;
+  constexpr static std::size_t addrs = 0x6ed2050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "get_max", {}, {} })));
@@ -173,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::set_max)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6a7f324;
+  constexpr static std::size_t addrs = 0x6ed2070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "set_max", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
@@ -185,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Bounds, ::UnityEngine::Bounds)>(&::UnityEngine::Bounds::op_Equality)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6a7f374;
+  constexpr static std::size_t addrs = 0x6ed20c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Bounds, ::UnityEngine::Bounds)>(&::UnityEngine::Bounds::op_Inequality)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6a7f3e8;
+  constexpr static std::size_t addrs = 0x6ed2134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Bounds::SetMinMax)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6a7f460;
+  constexpr static std::size_t addrs = 0x6ed21ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,12 +235,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Boun
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Bounds.SetMinMax
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bounds::*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Bounds::SetMinMax)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6ed21e4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(),
+                                                             { "SetMinMax", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Bounds.Encapsulate
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::Encapsulate)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6a7f498;
+  constexpr static std::size_t addrs = 0x6ed2230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,9 +265,22 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Boun
 //  Writing Method size for method: ::UnityEngine::Bounds.Encapsulate
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bounds::*)(::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Bounds::Encapsulate)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6ed22a8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Encapsulate", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Bounds.Encapsulate
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Bounds)>(&::UnityEngine::Bounds::Encapsulate)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6a7f510;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x6ed2324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::Expand)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6a7f60c;
+  constexpr static std::size_t addrs = 0x6ed2400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Expand", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
@@ -265,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Bounds::*)(::UnityEngine::Bounds)>(&::UnityEngine::Bounds::Intersects)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6a7f63c;
+  constexpr static std::size_t addrs = 0x6ed2430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -276,9 +316,22 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Boun
 //  Writing Method size for method: ::UnityEngine::Bounds.IntersectRay
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Bounds::*)(::UnityEngine::Ray)>(&::UnityEngine::Bounds::IntersectRay)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6ed24d0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "IntersectRay", {}, { ::i2c::type_of<::UnityEngine::Ray>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Bounds.IntersectRay
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Bounds::*)(::UnityEngine::Ray, ::by_ref<float_t>)>(&::UnityEngine::Bounds::IntersectRay)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6a7f6dc;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6ed2580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -291,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Bounds::*)()>(&::UnityEngine::Bounds::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6a7f7a4;
+  constexpr static std::size_t addrs = 0x6ed25d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { ::i2c::class_of<::UnityEngine::Bounds>(), 3 }));
@@ -302,12 +355,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Bounds::*)(::StringW, ::System::IFormatProvider*)>(&::UnityEngine::Bounds::ToString)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6a7f7b4;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x6ed25e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "ToString", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::IFormatProvider*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Bounds.Internal_Contains
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Bounds::*)(::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Bounds::Internal_Contains)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6ed2730;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Internal_Contains", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
     return ___internal_method;
   }
 };
@@ -316,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::Contains)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6a7f94c;
+  constexpr static std::size_t addrs = 0x6ed2774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -327,14 +393,28 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Boun
 //  Writing Method size for method: ::UnityEngine::Bounds.IntersectRayAABB
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Ray, ::UnityEngine::Bounds, ::by_ref<float_t>)>(&::UnityEngine::Bounds::IntersectRayAABB)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Ray>, ::by_ref<::UnityEngine::Bounds>, ::by_ref<float_t>)>(&::UnityEngine::Bounds::IntersectRayAABB)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a7f750;
+  constexpr static std::size_t addrs = 0x6ed252c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(),
-                                                { "IntersectRayAABB", {}, { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<::UnityEngine::Bounds>(), ::i2c::type_of<::by_ref<float_t>>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(),
+                            { "IntersectRayAABB", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Ray>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Bounds.Internal_ClosestPoint
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Bounds::*)(::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Bounds::Internal_ClosestPoint)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6ed27cc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Internal_ClosestPoint", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
     return ___internal_method;
   }
 };
@@ -342,8 +422,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::ClosestPoint)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6a7fa3c;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6ed2884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -351,47 +431,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (:
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Bounds.Contains_Injected
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bounds>, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Bounds::Contains_Injected)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a7f9a4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(),
-                                                             { "Contains_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Bounds.IntersectRayAABB_Injected
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Ray>, ::by_ref<::UnityEngine::Bounds>, ::by_ref<float_t>)>(&::UnityEngine::Bounds::IntersectRayAABB_Injected)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a7f9e8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Bounds>(),
-            { "IntersectRayAABB_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Ray>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Bounds.ClosestPoint_Injected
+//  Writing Method size for method: ::UnityEngine::Bounds.Internal_ClosestPoint_Injected
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bounds>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(
-    &::UnityEngine::Bounds::ClosestPoint_Injected)> {
-  constexpr static std::size_t size = 0x8c0;
-  constexpr static std::size_t addrs = 0x6a7faa4;
+    &::UnityEngine::Bounds::Internal_ClosestPoint_Injected)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6ed2830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "ClosestPoint_Injected",
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Internal_ClosestPoint_Injected",
                                                                                             {},
                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
@@ -413,6 +463,11 @@ inline bool UnityEngine::Bounds::Equals(::System::Object* other) {
 }
 inline bool UnityEngine::Bounds::Equals(::UnityEngine::Bounds other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Bounds>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
+}
+inline bool UnityEngine::Bounds::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> other) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline ::UnityEngine::Vector3 UnityEngine::Bounds::get_center() {
@@ -473,9 +528,20 @@ inline void UnityEngine::Bounds::SetMinMax(::UnityEngine::Vector3 min, ::UnityEn
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "SetMinMax", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, min, max);
 }
+inline void UnityEngine::Bounds::SetMinMax(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> min, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> max) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "SetMinMax", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, min, max);
+}
 inline void UnityEngine::Bounds::Encapsulate(::UnityEngine::Vector3 point) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Encapsulate", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, point);
+}
+inline void UnityEngine::Bounds::Encapsulate(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> point) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Encapsulate", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, point);
 }
 inline void UnityEngine::Bounds::Encapsulate(::UnityEngine::Bounds bounds) {
@@ -491,6 +557,10 @@ inline bool UnityEngine::Bounds::Intersects(::UnityEngine::Bounds bounds) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Intersects", {}, { ::i2c::type_of<::UnityEngine::Bounds>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, bounds);
 }
+inline bool UnityEngine::Bounds::IntersectRay(::UnityEngine::Ray ray) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "IntersectRay", {}, { ::i2c::type_of<::UnityEngine::Ray>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, ray);
+}
 inline bool UnityEngine::Bounds::IntersectRay(::UnityEngine::Ray ray, ::by_ref<float_t> distance) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "IntersectRay", {}, { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<::by_ref<float_t>>() } })));
@@ -505,38 +575,36 @@ inline ::StringW UnityEngine::Bounds::ToString(::StringW format, ::System::IForm
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "ToString", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::IFormatProvider*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method, format, formatProvider);
 }
+inline bool UnityEngine::Bounds::Internal_Contains(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> point) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Internal_Contains", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, point);
+}
 inline bool UnityEngine::Bounds::Contains(::UnityEngine::Vector3 point) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Contains", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, point);
 }
-inline bool UnityEngine::Bounds::IntersectRayAABB(::UnityEngine::Ray ray, ::UnityEngine::Bounds bounds, ::by_ref<float_t> dist) {
+inline bool UnityEngine::Bounds::IntersectRayAABB(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Ray> ray, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds, ::by_ref<float_t> dist) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(),
-                                              { "IntersectRayAABB", {}, { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<::UnityEngine::Bounds>(), ::i2c::type_of<::by_ref<float_t>>() } })));
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(),
+                          { "IntersectRayAABB", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Ray>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, ray, bounds, dist);
+}
+inline ::UnityEngine::Vector3 UnityEngine::Bounds::Internal_ClosestPoint(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> point) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Internal_ClosestPoint", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(*this, ___internal_method, point);
 }
 inline ::UnityEngine::Vector3 UnityEngine::Bounds::ClosestPoint(::UnityEngine::Vector3 point) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "ClosestPoint", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(*this, ___internal_method, point);
 }
-inline bool UnityEngine::Bounds::Contains_Injected(::by_ref<::UnityEngine::Bounds> _unity_self, ::by_ref<::UnityEngine::Vector3> point) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(),
-                                                           { "Contains_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, point);
-}
-inline bool UnityEngine::Bounds::IntersectRayAABB_Injected(::by_ref<::UnityEngine::Ray> ray, ::by_ref<::UnityEngine::Bounds> bounds, ::by_ref<float_t> dist) {
+inline void UnityEngine::Bounds::Internal_ClosestPoint_Injected(::by_ref<::UnityEngine::Bounds> _unity_self, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> point,
+                                                                ::by_ref<::UnityEngine::Vector3> ret) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Bounds>(),
-          { "IntersectRayAABB_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Ray>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, ray, bounds, dist);
-}
-inline void UnityEngine::Bounds::ClosestPoint_Injected(::by_ref<::UnityEngine::Bounds> _unity_self, ::by_ref<::UnityEngine::Vector3> point, ::by_ref<::UnityEngine::Vector3> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "ClosestPoint_Injected",
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bounds>(), { "Internal_ClosestPoint_Injected",
                                                                                           {},
                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));

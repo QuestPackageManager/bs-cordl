@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::LambdaExpression::*)(::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::LambdaExpression::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5f86944;
+  constexpr static std::size_t addrs = 0x63a28c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Linq::Expressions::LambdaExpression::*)()>(&::System::Linq::Expressions::LambdaExpression::get_Type)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f869a8;
+  constexpr static std::size_t addrs = 0x63a2924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::LambdaExpression*>(), { "get_Type", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::LambdaExpression::*)()>(
     &::System::Linq::Expressions::LambdaExpression::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f869b4;
+  constexpr static std::size_t addrs = 0x63a2930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::LambdaExpression*>(), { "get_NodeType", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::LambdaExpression::*)()>(&::System::Linq::Expressions::LambdaExpression::get_Name)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f869bc;
+  constexpr static std::size_t addrs = 0x63a2938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::LambdaExpression*>(), { "get_Name", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::LambdaExpression::*)()>(&::System::Linq::Expressions::LambdaExpression::get_NameCore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f869cc;
+  constexpr static std::size_t addrs = 0x63a2948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::LambdaExpression::*)()>(
     &::System::Linq::Expressions::LambdaExpression::get_Body)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f869d4;
+  constexpr static std::size_t addrs = 0x63a2950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::LambdaExpression*>(), { "get_Body", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Linq::Expressions::LambdaExpression::*)()>(&::System::Linq::Expressions::LambdaExpression::get_ReturnType)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5f869dc;
+  constexpr static std::size_t addrs = 0x63a2958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::LambdaExpression*>(), { "get_ReturnType", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::LambdaExpression::*)()>(&::System::Linq::Expressions::LambdaExpression::get_TailCall)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f86a68;
+  constexpr static std::size_t addrs = 0x63a29e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::LambdaExpression*>(), { "get_TailCall", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::LambdaExpression::*)()>(&::System::Linq::Expressions::LambdaExpression::get_TailCallCore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f86a78;
+  constexpr static std::size_t addrs = 0x63a29f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::ParameterExpression* (::System::Linq::Expressions::LambdaExpression::*)(int32_t)>(
     &::System::Linq::Expressions::LambdaExpression::System_Linq_Expressions_IParameterProvider_GetParameter)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f86a80;
+  constexpr static std::size_t addrs = 0x63a29fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::LambdaExpression*>(),
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::ParameterExpression* (::System::Linq::Expressions::LambdaExpression::*)(int32_t)>(
     &::System::Linq::Expressions::LambdaExpression::GetParameter)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f86a90;
+  constexpr static std::size_t addrs = 0x63a2a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::LambdaExpression::*)()>(
     &::System::Linq::Expressions::LambdaExpression::System_Linq_Expressions_IParameterProvider_get_ParameterCount)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f86ab8;
+  constexpr static std::size_t addrs = 0x63a2a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::LambdaExpression::*)()>(&::System::Linq::Expressions::LambdaExpression::get_ParameterCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f86ac8;
+  constexpr static std::size_t addrs = 0x63a2a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

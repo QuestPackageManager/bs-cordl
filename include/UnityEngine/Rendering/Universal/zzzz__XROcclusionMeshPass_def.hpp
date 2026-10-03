@@ -11,9 +11,6 @@ namespace UnityEngine::Experimental::Rendering {
 class XRPass;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
-}
-namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
@@ -32,7 +29,7 @@ namespace UnityEngine::Rendering::Universal {
 class XROcclusionMeshPass_PassData;
 }
 namespace UnityEngine::Rendering::Universal {
-class XROcclusionMeshPass___c;
+class XROcclusionMeshPass___c__DisplayClass5_0;
 }
 namespace UnityEngine::Rendering {
 class ContextContainer;
@@ -51,15 +48,15 @@ namespace UnityEngine::Rendering::Universal {
 class XROcclusionMeshPass_PassData;
 }
 namespace UnityEngine::Rendering::Universal {
-class XROcclusionMeshPass___c;
+class XROcclusionMeshPass___c__DisplayClass5_0;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::XROcclusionMeshPass*);
 MARK_REF_T(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData*);
-MARK_REF_T(::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c*);
+MARK_REF_T(::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c__DisplayClass5_0*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::XROcclusionMeshPass*, "UnityEngine.Rendering.Universal", "XROcclusionMeshPass");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData*, "UnityEngine.Rendering.Universal", "XROcclusionMeshPass/PassData");
-DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c*, "UnityEngine.Rendering.Universal", "XROcclusionMeshPass/<>c");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c__DisplayClass5_0*, "UnityEngine.Rendering.Universal", "XROcclusionMeshPass/<>c__DisplayClass5_0");
 // Dependencies System.Object, UnityEngine.Rendering.RenderGraphModule.TextureHandle
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -67,16 +64,15 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE XROcclusionMeshPass_PassData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field cameraColorAttachment, offset 0x18, size 0x10
+  /// @brief Field cameraColorAttachment, offset 0x1c, size 0x10
   __declspec(property(get = __cordl_internal_get_cameraColorAttachment,
                       put = __cordl_internal_set_cameraColorAttachment)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle cameraColorAttachment;
 
-  /// @brief Field cameraDepthAttachment, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get_cameraDepthAttachment,
-                      put = __cordl_internal_set_cameraDepthAttachment)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle cameraDepthAttachment;
-
-  /// @brief Field isActiveTargetBackBuffer, offset 0x38, size 0x1
+  /// @brief Field isActiveTargetBackBuffer, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_isActiveTargetBackBuffer, put = __cordl_internal_set_isActiveTargetBackBuffer)) bool isActiveTargetBackBuffer;
+
+  /// @brief Field shouldYFlip, offset 0x19, size 0x1
+  __declspec(property(get = __cordl_internal_get_shouldYFlip, put = __cordl_internal_set_shouldYFlip)) bool shouldYFlip;
 
   /// @brief Field xr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_xr, put = __cordl_internal_set_xr)) ::UnityEngine::Experimental::Rendering::XRPass* xr;
@@ -87,13 +83,13 @@ public:
 
   constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_cameraColorAttachment();
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_cameraDepthAttachment() const;
-
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_cameraDepthAttachment();
-
   constexpr bool const& __cordl_internal_get_isActiveTargetBackBuffer() const;
 
   constexpr bool& __cordl_internal_get_isActiveTargetBackBuffer();
+
+  constexpr bool const& __cordl_internal_get_shouldYFlip() const;
+
+  constexpr bool& __cordl_internal_get_shouldYFlip();
 
   constexpr ::UnityEngine::Experimental::Rendering::XRPass* const& __cordl_internal_get_xr() const;
 
@@ -101,13 +97,13 @@ public:
 
   constexpr void __cordl_internal_set_cameraColorAttachment(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  constexpr void __cordl_internal_set_cameraDepthAttachment(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
-
   constexpr void __cordl_internal_set_isActiveTargetBackBuffer(bool value);
+
+  constexpr void __cordl_internal_set_shouldYFlip(bool value);
 
   constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x68aa890, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca5b50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -125,90 +121,85 @@ public:
   XROcclusionMeshPass_PassData(XROcclusionMeshPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12965 };
 
   /// @brief Field xr, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Experimental::Rendering::XRPass* ___xr;
 
-  /// @brief Field cameraColorAttachment, offset: 0x18, size: 0x10, def value: None
-  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___cameraColorAttachment;
-
-  /// @brief Field cameraDepthAttachment, offset: 0x28, size: 0x10, def value: None
-  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___cameraDepthAttachment;
-
-  /// @brief Field isActiveTargetBackBuffer, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field isActiveTargetBackBuffer, offset: 0x18, size: 0x1, def value: None
   bool ___isActiveTargetBackBuffer;
+
+  /// @brief Field shouldYFlip, offset: 0x19, size: 0x1, def value: None
+  bool ___shouldYFlip;
+
+  /// @brief Field cameraColorAttachment, offset: 0x1c, size: 0x10, def value: None
+  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___cameraColorAttachment;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData, ___xr) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData, ___cameraColorAttachment) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData, ___isActiveTargetBackBuffer) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData, ___cameraDepthAttachment) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData, ___shouldYFlip) == 0x19, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData, ___isActiveTargetBackBuffer) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData, ___cameraColorAttachment) == 0x1c, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData) == 0x40, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
-// CS Name: UnityEngine.Rendering.Universal.XROcclusionMeshPass/<>c
-class CORDL_TYPE XROcclusionMeshPass___c : public ::System::Object {
+// CS Name: UnityEngine.Rendering.Universal.XROcclusionMeshPass/<>c__DisplayClass5_0
+class CORDL_TYPE XROcclusionMeshPass___c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c* __9;
+  /// @brief Field passData, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_passData, put = __cordl_internal_set_passData)) ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* passData;
 
-  /// @brief Field <>9__6_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__6_0,
-                      put = setStaticF___9__6_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData*,
-                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__6_0;
+  static inline ::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c__DisplayClass5_0* New_ctor();
 
-  static inline ::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c* New_ctor();
+  /// @brief Method <Render>b__0, addr 0x6ca5b54, size 0xa0, virtual false, abstract: false, final false
+  inline void _Render_b__0(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <Render>b__6_0, addr 0x68ab0d0, size 0x8, virtual false, abstract: false, final false
-  inline void _Render_b__6_0(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
+  constexpr ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* const& __cordl_internal_get_passData() const;
 
-  /// @brief Method .ctor, addr 0x68ab0cc, size 0x4, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData*& __cordl_internal_get_passData();
+
+  constexpr void __cordl_internal_set_passData(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* value);
+
+  /// @brief Method .ctor, addr 0x6ca5ab8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
-
-  static inline ::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c* getStaticF___9();
-
-  static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData*,
-                                                                              ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__6_0();
-
-  static inline void setStaticF___9(::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c* value);
-
-  static inline void setStaticF___9__6_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData*,
-                                                                                                       ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr XROcclusionMeshPass___c();
+  constexpr XROcclusionMeshPass___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass___c", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  XROcclusionMeshPass___c(XROcclusionMeshPass___c&&) = delete;
+  XROcclusionMeshPass___c__DisplayClass5_0(XROcclusionMeshPass___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass___c", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XROcclusionMeshPass___c(XROcclusionMeshPass___c const&) = delete;
+  XROcclusionMeshPass___c__DisplayClass5_0(XROcclusionMeshPass___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12966 };
+
+  /// @brief Field passData, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* ___passData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c) == 0x10, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c__DisplayClass5_0, ___passData) == 0x10, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c__DisplayClass5_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
 // Dependencies UnityEngine.Rendering.Universal.ScriptableRenderPass
@@ -220,24 +211,21 @@ public:
   // Declarations
   using PassData = ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData;
 
-  using __c = ::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c;
+  using __c__DisplayClass5_0 = ::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c__DisplayClass5_0;
 
-  /// @brief Field m_IsActiveTargetBackBuffer, offset 0xc0, size 0x1
+  /// @brief Field m_IsActiveTargetBackBuffer, offset 0x5c, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsActiveTargetBackBuffer, put = __cordl_internal_set_m_IsActiveTargetBackBuffer)) bool m_IsActiveTargetBackBuffer;
 
-  /// @brief Field m_PassData, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PassData, put = __cordl_internal_set_m_PassData)) ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* m_PassData;
-
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Execute, addr 0x68aa928, size 0xb0, virtual true, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Execute, addr 0x6ca5338, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x68aa894, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6ca53dc, size 0x8c, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* data);
 
   static inline ::UnityEngine::Rendering::Universal::XROcclusionMeshPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method Render, addr 0x68aa9d8, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6ca5468, size 0x650, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> cameraColorAttachment,
                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> cameraDepthAttachment);
@@ -246,15 +234,9 @@ public:
 
   constexpr bool& __cordl_internal_get_m_IsActiveTargetBackBuffer();
 
-  constexpr ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* const& __cordl_internal_get_m_PassData() const;
-
-  constexpr ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData*& __cordl_internal_get_m_PassData();
-
   constexpr void __cordl_internal_set_m_IsActiveTargetBackBuffer(bool value);
 
-  constexpr void __cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* value);
-
-  /// @brief Method .ctor, addr 0x68aa7a0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca533c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:
@@ -272,21 +254,17 @@ public:
   XROcclusionMeshPass(XROcclusionMeshPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12967 };
 
-  /// @brief Field m_PassData, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* ___m_PassData;
-
-  /// @brief Field m_IsActiveTargetBackBuffer, offset: 0xc0, size: 0x1, def value: None
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Field m_IsActiveTargetBackBuffer, offset: 0x5c, size: 0x1, def value: None
   bool ___m_IsActiveTargetBackBuffer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass, ___m_PassData) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass, ___m_IsActiveTargetBackBuffer) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass, ___m_IsActiveTargetBackBuffer) == 0xc0, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass) == 0xc8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal

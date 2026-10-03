@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ButtonStripField_UxmlFactory::*)()>(&::UnityEngine::UIElements::ButtonStripField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6d39440;
+  constexpr static std::size_t addrs = 0x71ac498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ButtonStripField_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ButtonStripField_UxmlTraits::*)()>(&::UnityEngine::UIElements::ButtonStripField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d394a8;
+  constexpr static std::size_t addrs = 0x71ac500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ButtonStripField_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ButtonStripField::*)()>(&::UnityEngine::UIElements::ButtonStripField::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6d39200;
+  constexpr static std::size_t addrs = 0x71ac278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ButtonStripField*>(), { ".ctor", {}, {} })));
@@ -65,11 +65,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ButtonStripField::*)(int32_t)>(&::UnityEngine::UIElements::ButtonStripField::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6d392c0;
+  constexpr static std::size_t addrs = 0x71ac338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ButtonStripField*>(), { ::i2c::class_of<::UnityEngine::UIElements::ButtonStripField*>(), 153 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ButtonStripField*>(), { ::i2c::class_of<::UnityEngine::UIElements::ButtonStripField*>(), 159 }));
     return ___internal_method;
   }
 };
@@ -77,8 +77,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ButtonStripField::*)()>(&::UnityEngine::UIElements::ButtonStripField::RefreshButtonsState)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6d39358;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x71ac3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ButtonStripField*>(), { "RefreshButtonsState", {}, {} })));
@@ -103,7 +103,7 @@ inline void UnityEngine::UIElements::ButtonStripField::_ctor() {
 }
 inline void UnityEngine::UIElements::ButtonStripField::SetValueWithoutNotify(int32_t newValue) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::ButtonStripField*>(), 153 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::ButtonStripField*>(), 159 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newValue);
 }
 inline void UnityEngine::UIElements::ButtonStripField::RefreshButtonsState() {

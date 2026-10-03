@@ -81,7 +81,7 @@ public:
   static ::Zenject::ZenjectBinding_BindTypes const Self;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14748 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -138,7 +138,7 @@ public:
 
   static inline ::Zenject::ZenjectBinding* New_ctor();
 
-  /// @brief Method Start, addr 0x6e76a30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x7312594, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::ZenjectBinding_BindTypes const& __cordl_internal_get__bindType() const;
@@ -178,31 +178,31 @@ public:
   constexpr void __cordl_internal_set__useSceneContext(bool value);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e76a4c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x73125b0, size 0x148, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e76a34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7312598, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BindType, addr 0x6e76a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindType, addr 0x731258c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ZenjectBinding_BindTypes get_BindType();
 
-  /// @brief Method get_Components, addr 0x6e76a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Components, addr 0x731257c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Component>> get_Components();
 
-  /// @brief Method get_Context, addr 0x6e76a08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Context, addr 0x731256c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Zenject::Context> get_Context();
 
-  /// @brief Method get_Identifier, addr 0x6e76a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x7312584, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Identifier();
 
-  /// @brief Method get_IfNotBound, addr 0x6e76a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IfNotBound, addr 0x7312564, size 0x8, virtual false, abstract: false, final false
   inline bool get_IfNotBound();
 
-  /// @brief Method get_UseSceneContext, addr 0x6e769f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseSceneContext, addr 0x731255c, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseSceneContext();
 
-  /// @brief Method set_Context, addr 0x6e76a10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Context, addr 0x7312574, size 0x8, virtual false, abstract: false, final false
   inline void set_Context(::Zenject::Context* value);
 
 protected:
@@ -220,10 +220,10 @@ public:
   ZenjectBinding(ZenjectBinding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14749 };
 
-  /// [Tooltip("The component to add to the Zenject container")]
   /// [SerializeField]
+  /// [Tooltip("The component to add to the Zenject container")]
   /// @brief Field _components, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Component>> ____components;
 
@@ -244,16 +244,16 @@ public:
 
   /// [FormerlySerializedAs("_compositionRoot")]
   /// [NullAllowed((NullAllowedContext)0)]
+  /// [SerializeField]
   /// [Tooltip("Note: This value is optional and can be ignored in most cases.  This value will determine what container the component gets added to.  If unset, the component will be bound on the most
   /// \'local\' context.  In most cases this will be the SceneContext, unless this component is underneath a GameObjectContext, or ProjectContext, in which case it will bind to that instead by
   /// default.  You can also override this default by providing the Context directly.  This can be useful if you want to bind something that is inside a GameObjectContext to the SceneContext
-  /// container.")] [SerializeField]
+  /// container.")]
   /// @brief Field _context, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::Zenject::Context> ____context;
 
-  /// [SerializeField]
   /// [Tooltip("This value is used to determine how to bind this component.  When set to \'Self\' is equivalent to calling Container.FromInstance inside an installer. When set to \'AllInterfaces\'
-  /// this is equivalent to calling \'Container.BindInterfaces<MyMonoBehaviour>().ToInstance\', and similarly for InterfacesAndSelf")]
+  /// this is equivalent to calling \'Container.BindInterfaces<MyMonoBehaviour>().ToInstance\', and similarly for InterfacesAndSelf")] [SerializeField]
   /// @brief Field _bindType, offset: 0x40, size: 0x4, def value: None
   ::Zenject::ZenjectBinding_BindTypes ____bindType;
 

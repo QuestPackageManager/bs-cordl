@@ -84,7 +84,7 @@ public:
   static ::UnityEngine::InputForUI::CommandEvent_Type const Validate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22474 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -227,7 +227,7 @@ public:
   static ::UnityEngine::InputForUI::CommandEvent_Command const UndoRedoPerformed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22475 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -267,36 +267,36 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputForUI::IEventProperties"
   constexpr operator ::UnityEngine::InputForUI::IEventProperties*();
 
-  /// @brief Method ToString, addr 0x6b586d4, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6fb8394, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_eventModifiers, addr 0x6b586c4, size 0x8, virtual true, abstract: false, final true
+  /// [IsReadOnly]
+  /// @brief Method get_eventModifiers, addr 0x6fb8384, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventModifiers get_eventModifiers();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_eventSource, addr 0x6b586ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_eventSource, addr 0x6fb836c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventSource get_eventSource();
 
   /// @brief Convert to "::UnityEngine::InputForUI::IEventProperties"
   constexpr ::UnityEngine::InputForUI::IEventProperties* i___UnityEngine__InputForUI__IEventProperties();
 
   /// [CompilerGenerated]
-  /// @brief Method set_eventModifiers, addr 0x6b586cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventModifiers, addr 0x6fb838c, size 0x8, virtual false, abstract: false, final false
   inline void set_eventModifiers(::UnityEngine::InputForUI::EventModifiers value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_eventSource, addr 0x6b586b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventSource, addr 0x6fb8374, size 0x8, virtual false, abstract: false, final false
   inline void set_eventSource(::UnityEngine::InputForUI::EventSource value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_playerId, addr 0x6b586bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerId, addr 0x6fb837c, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_timestamp, addr 0x6b586a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timestamp, addr 0x6fb8364, size 0x8, virtual false, abstract: false, final false
   inline void set_timestamp(::Unity::IntegerTime::DiscreteTime value);
 
   // Ctor Parameters []
@@ -313,7 +313,7 @@ public:
                          ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22476 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -339,8 +339,8 @@ public:
   /// @brief Field <playerId>k__BackingField, offset: 0x14, size: 0x4, def value: None
   uint32_t _playerId_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <eventModifiers>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField;
 

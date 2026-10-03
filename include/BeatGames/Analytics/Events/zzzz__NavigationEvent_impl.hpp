@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::NavigationEvent::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::BeatGames::Analytics::Events::NavigationEvent::SetEventData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3257be0;
+  constexpr static std::size_t addrs = 0x34dd2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::NavigationEvent::*)()>(&::BeatGames::Analytics::Events::NavigationEvent::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x32585d8;
+  constexpr static std::size_t addrs = 0x34ddcc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::NavigationEvent*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::NavigationEvent::*)()>(&::BeatGames::Analytics::Events::NavigationEvent::ReturnedToPool)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3258660;
+  constexpr static std::size_t addrs = 0x34ddd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::NavigationEvent::*)()>(&::BeatGames::Analytics::Events::NavigationEvent::ReturnEventToPool)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x32586b0;
+  constexpr static std::size_t addrs = 0x34ddd98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

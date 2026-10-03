@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AndroidJavaRunnableProxy::*)(::UnityEngine::AndroidJavaRunnable*)>(&::UnityEngine::AndroidJavaRunnableProxy::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6a2d6a8;
+  constexpr static std::size_t addrs = 0x6e7bea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AndroidJavaRunnableProxy::*)()>(&::UnityEngine::AndroidJavaRunnableProxy::run)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6a2d798;
+  constexpr static std::size_t addrs = 0x6e7bf98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaRunnableProxy*>(), { "run", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::AndroidJavaRunnableProxy::*)(::StringW, ::System::IntPtr)>(&::UnityEngine::AndroidJavaRunnableProxy::Invoke)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6a2d7b8;
+  constexpr static std::size_t addrs = 0x6e7bfb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

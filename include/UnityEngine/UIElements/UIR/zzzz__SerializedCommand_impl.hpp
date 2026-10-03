@@ -4,26 +4,29 @@
 #include "UnityEngine/UIElements/UIR/zzzz__SerializedCommandType_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__SerializedCommand_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::UIR::SerializedCommandType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vertexBuffer", ty:
 // "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indexBuffer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
 // name: "firstRange", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rangeCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
-// CppParam { name: "textureName", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "gpuDataOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gpuData0", ty: "::UnityEngine::Vector4",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gpuData1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }]
+// CppParam { name: "textureName", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "texturePtr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "gpuDataOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gpuData0", ty: "::UnityEngine::Vector4", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "gpuData1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "userProps", ty:
+// "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::SerializedCommand::SerializedCommand(::UnityEngine::UIElements::UIR::SerializedCommandType type, ::System::IntPtr vertexBuffer, ::System::IntPtr indexBuffer,
-                                                                               int32_t firstRange, int32_t rangeCount, int32_t textureName, ::UnityW<::UnityEngine::Texture> texture,
-                                                                               int32_t gpuDataOffset, ::UnityEngine::Vector4 gpuData0, ::UnityEngine::Vector4 gpuData1) noexcept {
+                                                                               int32_t firstRange, int32_t rangeCount, int32_t textureName, ::System::IntPtr texturePtr, int32_t gpuDataOffset,
+                                                                               ::UnityEngine::Vector4 gpuData0, ::UnityEngine::Vector4 gpuData1,
+                                                                               ::UnityEngine::MaterialPropertyBlock* userProps) noexcept {
   this->type = type;
   this->vertexBuffer = vertexBuffer;
   this->indexBuffer = indexBuffer;
   this->firstRange = firstRange;
   this->rangeCount = rangeCount;
   this->textureName = textureName;
-  this->texture = texture;
+  this->texturePtr = texturePtr;
   this->gpuDataOffset = gpuDataOffset;
   this->gpuData0 = gpuData0;
   this->gpuData1 = gpuData1;
+  this->userProps = userProps;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::SerializedCommand::SerializedCommand() {}

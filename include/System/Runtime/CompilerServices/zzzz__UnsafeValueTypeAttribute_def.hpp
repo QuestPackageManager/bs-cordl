@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::UnsafeValueTypeAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5b708c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f88814, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

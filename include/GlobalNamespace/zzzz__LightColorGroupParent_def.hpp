@@ -28,7 +28,7 @@ public:
 
   static inline ::GlobalNamespace::LightColorGroupParent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5999f38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db4f74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
@@ -49,7 +49,7 @@ public:
   LightColorGroupParent(LightColorGroupParent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6015 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

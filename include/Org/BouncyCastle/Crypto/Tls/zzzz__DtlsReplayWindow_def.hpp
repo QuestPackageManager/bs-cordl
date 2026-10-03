@@ -28,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow* New_ctor();
 
-  /// @brief Method ReportAuthenticated, addr 0x344a120, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ReportAuthenticated, addr 0x36d33bc, size 0xc0, virtual false, abstract: false, final false
   inline void ReportAuthenticated(int64_t seq);
 
-  /// @brief Method Reset, addr 0x344ba80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x36d4d1c, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ShouldDiscard, addr 0x344a0e0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ShouldDiscard, addr 0x36d337c, size 0x38, virtual false, abstract: false, final false
   inline bool ShouldDiscard(int64_t seq);
 
   constexpr int64_t const& __cordl_internal_get_mBitmap() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_mLatestConfirmedSeq(int64_t value);
 
-  /// @brief Method .ctor, addr 0x3447fcc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d1268, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

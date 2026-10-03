@@ -46,19 +46,19 @@ public:
 
   constexpr void __cordl_internal_set__reflectionProbeCubemap2(::UnityW<::UnityEngine::Cubemap> value);
 
-  /// @brief Method .ctor, addr 0x58e4a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cff528, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_reflectionProbeCubemap1, addr 0x58e4a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeCubemap1, addr 0x5cff508, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Cubemap> get_reflectionProbeCubemap1();
 
-  /// @brief Method get_reflectionProbeCubemap2, addr 0x58e4a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeCubemap2, addr 0x5cff518, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Cubemap> get_reflectionProbeCubemap2();
 
-  /// @brief Method set_reflectionProbeCubemap1, addr 0x58e4a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeCubemap1, addr 0x5cff510, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeCubemap1(::UnityEngine::Cubemap* value);
 
-  /// @brief Method set_reflectionProbeCubemap2, addr 0x58e4a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeCubemap2, addr 0x5cff520, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeCubemap2(::UnityEngine::Cubemap* value);
 
 protected:
@@ -76,7 +76,7 @@ public:
   ReflectionProbeDataSO(ReflectionProbeDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6662 };
 
   /// [SerializeField]
   /// @brief Field _reflectionProbeCubemap1, offset: 0x18, size: 0x8, def value: None

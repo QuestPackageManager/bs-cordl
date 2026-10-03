@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Gradient* (::GlobalNamespace::GradientSO::*)()>(&::GlobalNamespace::GradientSO::get_gradient)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f8708;
+  constexpr static std::size_t addrs = 0x39819cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientSO*>(), { "get_gradient", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientSO::*)(::UnityEngine::Gradient*)>(&::GlobalNamespace::GradientSO::SetGradient)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f8710;
+  constexpr static std::size_t addrs = 0x39819d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Gradient* (*)(::GlobalNamespace::GradientSO*)>(&::GlobalNamespace::GradientSO::op_Implicit___UnityEngine__Gradient_)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x36f7d90;
+  constexpr static std::size_t addrs = 0x3981054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientSO::*)()>(&::GlobalNamespace::GradientSO::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x36f8718;
+  constexpr static std::size_t addrs = 0x39819dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientSO*>(), { ".ctor", {}, {} })));

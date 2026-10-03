@@ -29,6 +29,9 @@ public:
   /// @brief Field backButtonText, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_backButtonText, put = __cordl_internal_set_backButtonText)) ::StringW backButtonText;
 
+  /// @brief Field fpfcEnabled, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_fpfcEnabled, put = __cordl_internal_set_fpfcEnabled)) bool fpfcEnabled;
+
   /// @brief Field playmodeOptions, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_playmodeOptions, put = __cordl_internal_set_playmodeOptions)) ::GlobalNamespace::PlaymodeOptions playmodeOptions;
 
@@ -50,11 +53,15 @@ public:
   /// @brief [NullableContext(2)]
   static inline ::GlobalNamespace::GameplayAdditionalInformation* New_ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused,
                                                                            ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath, bool profileSong,
-                                                                           /* [Nullable(1)] */ ::StringW reportDescriptor);
+                                                                           /* [Nullable(1)] */ ::StringW reportDescriptor, bool fpfcEnabled);
 
   constexpr ::StringW const& __cordl_internal_get_backButtonText() const;
 
   constexpr ::StringW& __cordl_internal_get_backButtonText();
+
+  constexpr bool const& __cordl_internal_get_fpfcEnabled() const;
+
+  constexpr bool& __cordl_internal_get_fpfcEnabled();
 
   constexpr ::GlobalNamespace::PlaymodeOptions const& __cordl_internal_get_playmodeOptions() const;
 
@@ -82,6 +89,8 @@ public:
 
   constexpr void __cordl_internal_set_backButtonText(::StringW value);
 
+  constexpr void __cordl_internal_set_fpfcEnabled(bool value);
+
   constexpr void __cordl_internal_set_playmodeOptions(::GlobalNamespace::PlaymodeOptions value);
 
   constexpr void __cordl_internal_set_profileSong(bool value);
@@ -95,9 +104,9 @@ public:
   constexpr void __cordl_internal_set_useTestNoteCutSoundEffects(bool value);
 
   /// [NullableContext(2)]
-  /// @brief Method .ctor, addr 0x370cb04, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3995e5c, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused, ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath, bool profileSong,
-                    /* [Nullable(1)] */ ::StringW reportDescriptor);
+                    /* [Nullable(1)] */ ::StringW reportDescriptor, bool fpfcEnabled);
 
 protected:
   // Ctor Parameters []
@@ -114,7 +123,7 @@ public:
   GameplayAdditionalInformation(GameplayAdditionalInformation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15105 };
 
   /// @brief Field backButtonText, offset: 0x10, size: 0x8, def value: None
   ::StringW ___backButtonText;
@@ -137,6 +146,9 @@ public:
   /// @brief Field reportDescriptor, offset: 0x30, size: 0x8, def value: None
   ::StringW ___reportDescriptor;
 
+  /// @brief Field fpfcEnabled, offset: 0x38, size: 0x1, def value: None
+  bool ___fpfcEnabled;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -154,6 +166,8 @@ static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___prof
 
 static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___reportDescriptor) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::GameplayAdditionalInformation) == 0x38, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___fpfcEnabled) == 0x38, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::GameplayAdditionalInformation) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace

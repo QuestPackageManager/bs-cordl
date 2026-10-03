@@ -2,6 +2,7 @@
 // IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeArrayUnsafeUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__NativeArrayUnsafeUtility_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 template <typename T>
@@ -15,6 +16,17 @@ inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::LowLevel::Unsa
                        { "ConvertExistingDataToNativeArray", { ::i2c::class_of<T>() }, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(nullptr, ___internal_method, dataPointer, length, allocator);
+}
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility::ConvertExistingDataToNativeArray(::System::Span_1<T> data,
+                                                                                                                                               ::Unity::Collections::Allocator allocator) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility*>(),
+                          { "ConvertExistingDataToNativeArray", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Span_1<T>>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(nullptr, ___internal_method, data, allocator);
 }
 template <typename T>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)

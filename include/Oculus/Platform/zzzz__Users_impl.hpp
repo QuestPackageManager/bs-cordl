@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::Oculus::Platform::Users::GetLoggedInUserLocale)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5de2574;
+  constexpr static std::size_t addrs = 0x61fc158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Users*>(), { "GetLoggedInUserLocale", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::User*>* (*)(uint64_t)>(&::Oculus::Platform::Users::Get)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5de265c;
+  constexpr static std::size_t addrs = 0x61fc240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Users*>(), { "Get", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::StringW>* (*)()>(&::Oculus::Platform::Users::GetAccessToken)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de27c4;
+  constexpr static std::size_t addrs = 0x61fc3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Users*>(), { "GetAccessToken", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::BlockedUserList*>* (*)()>(&::Oculus::Platform::Users::GetBlockedUsers)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de291c;
+  constexpr static std::size_t addrs = 0x61fc500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Users*>(), { "GetBlockedUsers", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::LinkedAccountList*>* (*)(::Oculus::Platform::UserOptions*)>(
     &::Oculus::Platform::Users::GetLinkedAccounts)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5de2a74;
+  constexpr static std::size_t addrs = 0x61fc658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::User*>* (*)()>(&::Oculus::Platform::Users::GetLoggedInUser)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de2bf0;
+  constexpr static std::size_t addrs = 0x61fc7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Users*>(), { "GetLoggedInUser", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>* (*)()>(&::Oculus::Platform::Users::GetLoggedInUserFriends)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de2d48;
+  constexpr static std::size_t addrs = 0x61fc92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Users*>(), { "GetLoggedInUserFriends", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::User*>* (*)()>(&::Oculus::Platform::Users::GetLoggedInUserManagedInfo)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de2ea0;
+  constexpr static std::size_t addrs = 0x61fca84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Users*>(), { "GetLoggedInUserManagedInfo", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::OrgScopedID*>* (*)(uint64_t)>(&::Oculus::Platform::Users::GetOrgScopedID)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5de2ff8;
+  constexpr static std::size_t addrs = 0x61fcbdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Users*>(), { "GetOrgScopedID", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::SdkAccountList*>* (*)()>(&::Oculus::Platform::Users::GetSdkAccounts)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de3160;
+  constexpr static std::size_t addrs = 0x61fcd44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Users*>(), { "GetSdkAccounts", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserProof*>* (*)()>(&::Oculus::Platform::Users::GetUserProof)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de32b8;
+  constexpr static std::size_t addrs = 0x61fce9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Users*>(), { "GetUserProof", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::LaunchBlockFlowResult*>* (*)(uint64_t)>(&::Oculus::Platform::Users::LaunchBlockFlow)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5de3410;
+  constexpr static std::size_t addrs = 0x61fcff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Users*>(), { "LaunchBlockFlow", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::LaunchFriendRequestFlowResult*>* (*)(uint64_t)>(
     &::Oculus::Platform::Users::LaunchFriendRequestFlow)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5de3578;
+  constexpr static std::size_t addrs = 0x61fd15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::LaunchUnblockFlowResult*>* (*)(uint64_t)>(
     &::Oculus::Platform::Users::LaunchUnblockFlow)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5de36e0;
+  constexpr static std::size_t addrs = 0x61fd2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::BlockedUserList*>* (*)(::Oculus::Platform::Models::BlockedUserList*)>(
     &::Oculus::Platform::Users::GetNextBlockedUserListPage)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5de3848;
+  constexpr static std::size_t addrs = 0x61fd42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>* (*)(::Oculus::Platform::Models::UserList*)>(
     &::Oculus::Platform::Users::GetNextUserListPage)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5de3a38;
+  constexpr static std::size_t addrs = 0x61fd61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserCapabilityList*>* (*)(::Oculus::Platform::Models::UserCapabilityList*)>(
     &::Oculus::Platform::Users::GetNextUserCapabilityListPage)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5de3c28;
+  constexpr static std::size_t addrs = 0x61fd80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

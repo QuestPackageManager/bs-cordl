@@ -12,13 +12,13 @@ class Tilemap;
 // Write type traits
 MARK_REF_T(::UnityEngine::Tilemaps::Tilemap*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Tilemaps::Tilemap*, "UnityEngine.Tilemaps", "Tilemap");
+// [RequireComponent(typeof(UnityEngine.Transform))]
+// [NativeHeader("Modules/Grid/Public/GridMarshalling.h")]
 // [NativeHeader("Modules/Grid/Public/Grid.h")]
 // [NativeHeader("Runtime/Graphics/SpriteFrame.h")]
 // [NativeHeader("Modules/Tilemap/Public/TilemapTile.h")]
 // [NativeHeader("Modules/Tilemap/Public/TilemapMarshalling.h")]
-// [RequireComponent(typeof(UnityEngine.Transform))]
 // [NativeType(Header = "Modules/Tilemap/Public/Tilemap.h")]
-// [NativeHeader("Modules/Grid/Public/GridMarshalling.h")]
 // Dependencies UnityEngine.GridLayout
 namespace UnityEngine::Tilemaps {
 // Is value type: false
@@ -41,7 +41,7 @@ public:
   Tilemap(Tilemap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23977 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

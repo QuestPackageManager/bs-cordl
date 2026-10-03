@@ -51,22 +51,22 @@ public:
 
   __declspec(property(get = get_start)) double_t start;
 
-  /// @brief Method Create, addr 0x69c5418, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6ded198, size 0x88, virtual false, abstract: false, final false
   inline void Create(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable, ::UnityEngine::Playables::Playable parentMixer);
 
-  /// @brief Method DisableAt, addr 0x69c58bc, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method DisableAt, addr 0x6ded63c, size 0x160, virtual true, abstract: false, final false
   inline void DisableAt(double_t localTime, double_t rootDuration, ::UnityEngine::Playables::FrameData frameData);
 
-  /// @brief Method EvaluateAt, addr 0x69c56c0, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method EvaluateAt, addr 0x6ded440, size 0x1fc, virtual true, abstract: false, final false
   inline void EvaluateAt(double_t localTime, ::UnityEngine::Playables::FrameData frameData);
 
   static inline ::UnityEngine::Timeline::RuntimeClip* New_ctor(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable,
                                                                ::UnityEngine::Playables::Playable parentMixer);
 
-  /// @brief Method SetDuration, addr 0x69c5664, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetDuration, addr 0x6ded3e4, size 0x5c, virtual false, abstract: false, final false
   inline void SetDuration(double_t duration);
 
-  /// @brief Method SetTime, addr 0x69c5608, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetTime, addr 0x6ded388, size 0x5c, virtual false, abstract: false, final false
   inline void SetTime(double_t time);
 
   constexpr ::UnityEngine::Timeline::TimelineClip* const& __cordl_internal_get_m_Clip() const;
@@ -87,25 +87,25 @@ public:
 
   constexpr void __cordl_internal_set_m_Playable(::UnityEngine::Playables::Playable value);
 
-  /// @brief Method .ctor, addr 0x69afb20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6dd76a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable, ::UnityEngine::Playables::Playable parentMixer);
 
-  /// @brief Method get_clip, addr 0x69c54a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x6ded220, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* get_clip();
 
-  /// @brief Method get_duration, addr 0x69c5400, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_duration, addr 0x6ded180, size 0x14, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_mixer, addr 0x69c54a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_mixer, addr 0x6ded228, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable get_mixer();
 
-  /// @brief Method get_playable, addr 0x69c54b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_playable, addr 0x6ded234, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable get_playable();
 
-  /// @brief Method get_start, addr 0x69c53d8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_start, addr 0x6ded158, size 0x28, virtual true, abstract: false, final false
   inline double_t get_start();
 
-  /// @brief Method set_enable, addr 0x69c54c0, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method set_enable, addr 0x6ded240, size 0x148, virtual true, abstract: false, final false
   inline void set_enable(bool value);
 
 protected:
@@ -123,7 +123,7 @@ public:
   RuntimeClip(RuntimeClip const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19314 };
 
   /// @brief Field m_Clip, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Timeline::TimelineClip* ___m_Clip;

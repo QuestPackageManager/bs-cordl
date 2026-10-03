@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set_practiceSettings(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings* value);
 
-  /// @brief Method .ctor, addr 0x3264910, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34eb218, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW gameMode, ::StringW levelID, ::StringW difficulty, ::StringW characteristic, /* [Nullable(2)] */ ::StringW missionID,
                     /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings* practiceSettings,
                     /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers* gameplayModifiers, /* [Nullable(2)] */ ::StringW environmentName,
@@ -138,7 +138,7 @@ public:
   GameAnalyticsBeatmapLevelData(GameAnalyticsBeatmapLevelData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22983 };
 
   /// @brief Field gameMode, offset: 0x10, size: 0x8, def value: None
   ::StringW ___gameMode;

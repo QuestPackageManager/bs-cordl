@@ -72,31 +72,31 @@ public:
 
   constexpr void __cordl_internal_set__Setter_k__BackingField(::System::Action_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x5d2e158, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6147d3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Getter, addr 0x5d2e138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Getter, addr 0x6147d1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::System::Object*>* get_Getter();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MemberType, addr 0x5d2e128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x6147d0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MemberType();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Setter, addr 0x5d2e148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Setter, addr 0x6147d2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::System::Object*, ::System::Object*>* get_Setter();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Getter, addr 0x5d2e140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Getter, addr 0x6147d24, size 0x8, virtual false, abstract: false, final false
   inline void set_Getter(/* [Nullable(new[] { 2, 1, 2 })] */ ::System::Func_2<::System::Object*, ::System::Object*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_MemberType, addr 0x5d2e130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberType, addr 0x6147d14, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberType(::System::Type* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Setter, addr 0x5d2e150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Setter, addr 0x6147d34, size 0x8, virtual false, abstract: false, final false
   inline void set_Setter(/* [Nullable(new[] { 2, 1, 2 })] */ ::System::Action_2<::System::Object*, ::System::Object*>* value);
 
 protected:
@@ -114,7 +114,7 @@ public:
   ReflectionMember(ReflectionMember const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13687 };
 
   /// [CompilerGenerated]
   /// @brief Field <MemberType>k__BackingField, offset: 0x10, size: 0x8, def value: None

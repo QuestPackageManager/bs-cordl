@@ -3,6 +3,7 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/zzzz__CollisionPairEventFlags_impl.hpp"
 #include "UnityEngine/zzzz__CollisionPairFlags_impl.hpp"
+#include "UnityEngine/zzzz__EntityId_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__ContactPair_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,13 +11,14 @@
 #include "UnityEngine/zzzz__Collider_def.hpp"
 #include "UnityEngine/zzzz__ContactPairPoint_def.hpp"
 #include "UnityEngine/zzzz__ContactPoint_def.hpp"
+#include "UnityEngine/zzzz__EntityId_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ContactPair.get_colliderInstanceID
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_colliderInstanceID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b92f80;
+  constexpr static std::size_t addrs = 0x6ffe978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_colliderInstanceID", {}, {} })));
@@ -28,10 +30,34 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_otherColliderInstanceID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b92f88;
+  constexpr static std::size_t addrs = 0x6ffe980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_otherColliderInstanceID", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ContactPair.get_colliderEntityId
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EntityId (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_colliderEntityId)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ffe988;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_colliderEntityId", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ContactPair.get_otherColliderEntityId
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EntityId (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_otherColliderEntityId)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ffe990;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_otherColliderEntityId", {}, {} })));
     return ___internal_method;
   }
 };
@@ -40,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Collider> (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_collider)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b71764;
+  constexpr static std::size_t addrs = 0x6fdd1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_collider", {}, {} })));
@@ -52,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Collider> (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_otherCollider)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b716f4;
+  constexpr static std::size_t addrs = 0x6fdd25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_otherCollider", {}, {} })));
@@ -64,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_contactCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b92f90;
+  constexpr static std::size_t addrs = 0x6ffe998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_contactCount", {}, {} })));
@@ -76,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_impulseSum)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b92f98;
+  constexpr static std::size_t addrs = 0x6ffe9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_impulseSum", {}, {} })));
@@ -88,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_isCollisionEnter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b8f73c;
+  constexpr static std::size_t addrs = 0x6ffb074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_isCollisionEnter", {}, {} })));
@@ -100,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_isCollisionExit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b8f87c;
+  constexpr static std::size_t addrs = 0x6ffb1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_isCollisionExit", {}, {} })));
@@ -112,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_isCollisionStay)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b8f870;
+  constexpr static std::size_t addrs = 0x6ffb1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_isCollisionStay", {}, {} })));
@@ -124,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_hasRemovedCollider)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b8f72c;
+  constexpr static std::size_t addrs = 0x6ffb064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_hasRemovedCollider", {}, {} })));
@@ -137,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ContactPair::*)(::System::Collections::Generic::List_1<::UnityEngine::ContactPoint>*, bool)>(
     &::UnityEngine::ContactPair::ExtractContacts)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x6b71fd4;
+  constexpr static std::size_t addrs = 0x6fddb6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ContactPair::*)(::ArrayW<::UnityEngine::ContactPoint>, bool)>(&::UnityEngine::ContactPair::ExtractContactsArray)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6b7198c;
+  constexpr static std::size_t addrs = 0x6fdd50c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ContactPair::*)(::Unity::Collections::NativeArray_1<::UnityEngine::ContactPairPoint>)>(
     &::UnityEngine::ContactPair::CopyToNativeArray)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b92fa8;
+  constexpr static std::size_t addrs = 0x6ffe9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::ContactPairPoint> (::UnityEngine::ContactPair::*)(int32_t)>(&::UnityEngine::ContactPair::GetContactPoint)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b92fa4;
+  constexpr static std::size_t addrs = 0x6ffe9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "GetContactPoint", {}, { ::i2c::type_of<int32_t>() } })));
@@ -191,8 +217,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::C
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::ContactPair::*)(int32_t)>(&::UnityEngine::ContactPair::GetContactPointFaceIndex)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6b93010;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x6ffea18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ContactPairPoint* (::UnityEngine::ContactPair::*)(int32_t)>(&::UnityEngine::ContactPair::GetContactPoint_Internal)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b71d68;
+  constexpr static std::size_t addrs = 0x6fdd900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_ColliderInstanceID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b930f8;
+  constexpr static std::size_t addrs = 0x6ffeae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_ColliderInstanceID", {}, {} })));
@@ -230,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_OtherColliderInstanceID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b93100;
+  constexpr static std::size_t addrs = 0x6ffeae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_OtherColliderInstanceID", {}, {} })));
@@ -242,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Collider> (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_Collider)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b93108;
+  constexpr static std::size_t addrs = 0x6ffeaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_Collider", {}, {} })));
@@ -254,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Collider> (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_OtherCollider)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b9310c;
+  constexpr static std::size_t addrs = 0x6ffeaf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_OtherCollider", {}, {} })));
@@ -266,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_ContactCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b93110;
+  constexpr static std::size_t addrs = 0x6ffeaf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_ContactCount", {}, {} })));
@@ -278,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_ImpulseSum)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b93118;
+  constexpr static std::size_t addrs = 0x6ffeb00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_ImpulseSum", {}, {} })));
@@ -290,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_IsCollisionEnter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b93124;
+  constexpr static std::size_t addrs = 0x6ffeb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_IsCollisionEnter", {}, {} })));
@@ -302,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_IsCollisionExit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b93130;
+  constexpr static std::size_t addrs = 0x6ffeb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_IsCollisionExit", {}, {} })));
@@ -314,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ContactPair::*)()>(&::UnityEngine::ContactPair::get_IsCollisionStay)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b9313c;
+  constexpr static std::size_t addrs = 0x6ffeb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_IsCollisionStay", {}, {} })));
@@ -328,6 +354,14 @@ inline int32_t UnityEngine::ContactPair::get_colliderInstanceID() {
 inline int32_t UnityEngine::ContactPair::get_otherColliderInstanceID() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_otherColliderInstanceID", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline ::UnityEngine::EntityId UnityEngine::ContactPair::get_colliderEntityId() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_colliderEntityId", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::EntityId>(*this, ___internal_method);
+}
+inline ::UnityEngine::EntityId UnityEngine::ContactPair::get_otherColliderEntityId() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_otherColliderEntityId", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::EntityId>(*this, ___internal_method);
 }
 inline ::UnityW<::UnityEngine::Collider> UnityEngine::ContactPair::get_collider() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_collider", {}, {} })));
@@ -429,13 +463,13 @@ inline bool UnityEngine::ContactPair::get_IsCollisionStay() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPair>(), { "get_IsCollisionStay", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_ColliderID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_OtherColliderID", ty: "int32_t", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "m_StartPtr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_NbPoints", ty: "uint32_t",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::CollisionPairFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "m_Events", ty: "::UnityEngine::CollisionPairEventFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ImpulseSum", ty: "::UnityEngine::Vector3", modifiers: "",
-// def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::ContactPair::ContactPair(int32_t m_ColliderID, int32_t m_OtherColliderID, ::System::IntPtr m_StartPtr, uint32_t m_NbPoints, ::UnityEngine::CollisionPairFlags m_Flags,
-                                                  ::UnityEngine::CollisionPairEventFlags m_Events, ::UnityEngine::Vector3 m_ImpulseSum) noexcept {
+// Ctor Parameters [CppParam { name: "m_ColliderID", ty: "::UnityEngine::EntityId", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_OtherColliderID", ty:
+// "::UnityEngine::EntityId", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StartPtr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_NbPoints", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::CollisionPairFlags", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_Events", ty: "::UnityEngine::CollisionPairEventFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ImpulseSum", ty:
+// "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::ContactPair::ContactPair(::UnityEngine::EntityId m_ColliderID, ::UnityEngine::EntityId m_OtherColliderID, ::System::IntPtr m_StartPtr, uint32_t m_NbPoints,
+                                                  ::UnityEngine::CollisionPairFlags m_Flags, ::UnityEngine::CollisionPairEventFlags m_Events, ::UnityEngine::Vector3 m_ImpulseSum) noexcept {
   this->m_ColliderID = m_ColliderID;
   this->m_OtherColliderID = m_OtherColliderID;
   this->m_StartPtr = m_StartPtr;

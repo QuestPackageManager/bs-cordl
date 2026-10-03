@@ -48,28 +48,28 @@ namespace UnityEngine::InputSystem::UI {
 class CORDL_TYPE ExtendedPointerEventData : public ::UnityEngine::EventSystems::PointerEventData {
 public:
   // Declarations
-  /// @brief Field <control>k__BackingField, offset 0x180, size 0x8
+  /// @brief Field <control>k__BackingField, offset 0x1c0, size 0x8
   __declspec(property(get = __cordl_internal_get__control_k__BackingField, put = __cordl_internal_set__control_k__BackingField)) ::UnityEngine::InputSystem::InputControl* _control_k__BackingField;
 
-  /// @brief Field <device>k__BackingField, offset 0x188, size 0x8
+  /// @brief Field <device>k__BackingField, offset 0x1c8, size 0x8
   __declspec(property(get = __cordl_internal_get__device_k__BackingField, put = __cordl_internal_set__device_k__BackingField)) ::UnityEngine::InputSystem::InputDevice* _device_k__BackingField;
 
-  /// @brief Field <pointerType>k__BackingField, offset 0x194, size 0x4
+  /// @brief Field <pointerType>k__BackingField, offset 0x1d4, size 0x4
   __declspec(property(get = __cordl_internal_get__pointerType_k__BackingField,
                       put = __cordl_internal_set__pointerType_k__BackingField)) ::UnityEngine::InputSystem::UI::UIPointerType _pointerType_k__BackingField;
 
-  /// @brief Field <touchId>k__BackingField, offset 0x190, size 0x4
+  /// @brief Field <touchId>k__BackingField, offset 0x1d0, size 0x4
   __declspec(property(get = __cordl_internal_get__touchId_k__BackingField, put = __cordl_internal_set__touchId_k__BackingField)) int32_t _touchId_k__BackingField;
 
-  /// @brief Field <trackedDeviceOrientation>k__BackingField, offset 0x1a8, size 0x10
+  /// @brief Field <trackedDeviceOrientation>k__BackingField, offset 0x1e8, size 0x10
   __declspec(property(get = __cordl_internal_get__trackedDeviceOrientation_k__BackingField,
                       put = __cordl_internal_set__trackedDeviceOrientation_k__BackingField)) ::UnityEngine::Quaternion _trackedDeviceOrientation_k__BackingField;
 
-  /// @brief Field <trackedDevicePosition>k__BackingField, offset 0x19c, size 0xc
+  /// @brief Field <trackedDevicePosition>k__BackingField, offset 0x1dc, size 0xc
   __declspec(property(get = __cordl_internal_get__trackedDevicePosition_k__BackingField,
                       put = __cordl_internal_set__trackedDevicePosition_k__BackingField)) ::UnityEngine::Vector3 _trackedDevicePosition_k__BackingField;
 
-  /// @brief Field <uiToolkitPointerId>k__BackingField, offset 0x198, size 0x4
+  /// @brief Field <uiToolkitPointerId>k__BackingField, offset 0x1d8, size 0x4
   __declspec(property(get = __cordl_internal_get__uiToolkitPointerId_k__BackingField, put = __cordl_internal_set__uiToolkitPointerId_k__BackingField)) int32_t _uiToolkitPointerId_k__BackingField;
 
   __declspec(property(get = get_control, put = set_control)) ::UnityEngine::InputSystem::InputControl* control;
@@ -86,24 +86,24 @@ public:
 
   __declspec(property(get = get_uiToolkitPointerId, put = set_uiToolkitPointerId)) int32_t uiToolkitPointerId;
 
-  /// @brief Method GetPenPointerId, addr 0x6592bb0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method GetPenPointerId, addr 0x69be83c, size 0x224, virtual false, abstract: false, final false
   static inline int32_t GetPenPointerId(::UnityEngine::InputSystem::Pen* pen);
 
-  /// @brief Method GetTouchPointerId, addr 0x6592dd4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetTouchPointerId, addr 0x69bea60, size 0x104, virtual false, abstract: false, final false
   static inline int32_t GetTouchPointerId(::UnityEngine::InputSystem::Controls::TouchControl* touchControl);
 
-  /// @brief Method MakePointerIdForTouch, addr 0x65928bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MakePointerIdForTouch, addr 0x69be548, size 0x8, virtual false, abstract: false, final false
   static inline int32_t MakePointerIdForTouch(int32_t deviceId, int32_t touchId);
 
   static inline ::UnityEngine::InputSystem::UI::ExtendedPointerEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method ReadDeviceState, addr 0x65928cc, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method ReadDeviceState, addr 0x69be558, size 0x2e4, virtual false, abstract: false, final false
   inline void ReadDeviceState();
 
-  /// @brief Method ToString, addr 0x65922ec, size 0x5d0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69bdf78, size 0x5d0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TouchIdFromPointerId, addr 0x65928c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TouchIdFromPointerId, addr 0x69be550, size 0x8, virtual false, abstract: false, final false
   static inline int32_t TouchIdFromPointerId(int32_t pointerId);
 
   constexpr ::UnityEngine::InputSystem::InputControl* const& __cordl_internal_get__control_k__BackingField() const;
@@ -148,63 +148,63 @@ public:
 
   constexpr void __cordl_internal_set__uiToolkitPointerId_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x659224c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69bded8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
   /// [CompilerGenerated]
-  /// @brief Method get_control, addr 0x6592254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_control, addr 0x69bdee0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
   /// [CompilerGenerated]
-  /// @brief Method get_device, addr 0x6592264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_device, addr 0x69bdef0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerType, addr 0x6592284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerType, addr 0x69bdf10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::UI::UIPointerType get_pointerType();
 
   /// [CompilerGenerated]
-  /// @brief Method get_touchId, addr 0x6592274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchId, addr 0x69bdf00, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_touchId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_trackedDeviceOrientation, addr 0x65922c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_trackedDeviceOrientation, addr 0x69bdf50, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_trackedDeviceOrientation();
 
   /// [CompilerGenerated]
-  /// @brief Method get_trackedDevicePosition, addr 0x65922a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_trackedDevicePosition, addr 0x69bdf30, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_trackedDevicePosition();
 
   /// [CompilerGenerated]
-  /// @brief Method get_uiToolkitPointerId, addr 0x6592294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_uiToolkitPointerId, addr 0x69bdf20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_uiToolkitPointerId();
 
   /// [CompilerGenerated]
-  /// @brief Method set_control, addr 0x659225c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_control, addr 0x69bdee8, size 0x8, virtual false, abstract: false, final false
   inline void set_control(::UnityEngine::InputSystem::InputControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_device, addr 0x659226c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x69bdef8, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointerType, addr 0x659228c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerType, addr 0x69bdf18, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerType(::UnityEngine::InputSystem::UI::UIPointerType value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_touchId, addr 0x659227c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchId, addr 0x69bdf08, size 0x8, virtual false, abstract: false, final false
   inline void set_touchId(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_trackedDeviceOrientation, addr 0x65922d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_trackedDeviceOrientation, addr 0x69bdf64, size 0x14, virtual false, abstract: false, final false
   inline void set_trackedDeviceOrientation(::UnityEngine::Quaternion value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_trackedDevicePosition, addr 0x65922b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_trackedDevicePosition, addr 0x69bdf40, size 0x10, virtual false, abstract: false, final false
   inline void set_trackedDevicePosition(::UnityEngine::Vector3 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_uiToolkitPointerId, addr 0x659229c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_uiToolkitPointerId, addr 0x69bdf28, size 0x8, virtual false, abstract: false, final false
   inline void set_uiToolkitPointerId(int32_t value);
 
 protected:
@@ -222,53 +222,53 @@ public:
   ExtendedPointerEventData(ExtendedPointerEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10822 };
 
   /// [CompilerGenerated]
-  /// @brief Field <control>k__BackingField, offset: 0x180, size: 0x8, def value: None
+  /// @brief Field <control>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputControl* ____control_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <device>k__BackingField, offset: 0x188, size: 0x8, def value: None
+  /// @brief Field <device>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputDevice* ____device_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <touchId>k__BackingField, offset: 0x190, size: 0x4, def value: None
+  /// @brief Field <touchId>k__BackingField, offset: 0x1d0, size: 0x4, def value: None
   int32_t ____touchId_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <pointerType>k__BackingField, offset: 0x194, size: 0x4, def value: None
+  /// @brief Field <pointerType>k__BackingField, offset: 0x1d4, size: 0x4, def value: None
   ::UnityEngine::InputSystem::UI::UIPointerType ____pointerType_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <uiToolkitPointerId>k__BackingField, offset: 0x198, size: 0x4, def value: None
+  /// @brief Field <uiToolkitPointerId>k__BackingField, offset: 0x1d8, size: 0x4, def value: None
   int32_t ____uiToolkitPointerId_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <trackedDevicePosition>k__BackingField, offset: 0x19c, size: 0xc, def value: None
+  /// @brief Field <trackedDevicePosition>k__BackingField, offset: 0x1dc, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____trackedDevicePosition_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <trackedDeviceOrientation>k__BackingField, offset: 0x1a8, size: 0x10, def value: None
+  /// @brief Field <trackedDeviceOrientation>k__BackingField, offset: 0x1e8, size: 0x10, def value: None
   ::UnityEngine::Quaternion ____trackedDeviceOrientation_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData, ____control_k__BackingField) == 0x180, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData, ____control_k__BackingField) == 0x1c0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData, ____device_k__BackingField) == 0x188, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData, ____device_k__BackingField) == 0x1c8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData, ____touchId_k__BackingField) == 0x190, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData, ____touchId_k__BackingField) == 0x1d0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData, ____pointerType_k__BackingField) == 0x194, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData, ____pointerType_k__BackingField) == 0x1d4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData, ____uiToolkitPointerId_k__BackingField) == 0x198, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData, ____uiToolkitPointerId_k__BackingField) == 0x1d8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData, ____trackedDevicePosition_k__BackingField) == 0x19c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData, ____trackedDevicePosition_k__BackingField) == 0x1dc, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData, ____trackedDeviceOrientation_k__BackingField) == 0x1a8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData, ____trackedDeviceOrientation_k__BackingField) == 0x1e8, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData) == 0x1b8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::InputSystem::UI::ExtendedPointerEventData) == 0x1f8, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::UI

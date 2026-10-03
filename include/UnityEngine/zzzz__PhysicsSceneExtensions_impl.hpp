@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PhysicsScene (*)(::UnityEngine::SceneManagement::Scene)>(&::UnityEngine::PhysicsSceneExtensions::GetPhysicsScene)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6b95ce8;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x7001754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PhysicsSce
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PhysicsScene (*)(::UnityEngine::SceneManagement::Scene)>(&::UnityEngine::PhysicsSceneExtensions::GetPhysicsScene_Internal)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6b95dfc;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x7001874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::SceneManagement::Scene>, ::by_ref<::UnityEngine::PhysicsScene>)>(
     &::UnityEngine::PhysicsSceneExtensions::GetPhysicsScene_Internal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b95e44;
+  constexpr static std::size_t addrs = 0x70018c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

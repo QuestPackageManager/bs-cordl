@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::*)(int32_t)>(
     &::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x330c7c4;
+  constexpr static std::size_t addrs = 0x3595288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -559,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x330c7e4;
+  constexpr static std::size_t addrs = 0x35952a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x330c890;
+  constexpr static std::size_t addrs = 0x3595354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3*>(), { "MoveNext", {}, {} })));
@@ -586,7 +586,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x330cebc;
+  constexpr static std::size_t addrs = 0x3595980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -600,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::__m__Finally2)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x330ce08;
+  constexpr static std::size_t addrs = 0x35958cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -614,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<int32_t, int32_t> (::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::System_Collections_Generic_IEnumerator__System_Int32_System_Int32___get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x330cf70;
+  constexpr static std::size_t addrs = 0x3595a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3*>(),
@@ -628,7 +628,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x330cf78;
+  constexpr static std::size_t addrs = 0x3595a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -642,7 +642,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x330cfb0;
+  constexpr static std::size_t addrs = 0x3595a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -657,7 +657,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* (::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::*)()>(
         &::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::System_Collections_Generic_IEnumerable__System_Int32_System_Int32___GetEnumerator)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x330d010;
+  constexpr static std::size_t addrs = 0x3595ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3*>(),
@@ -671,7 +671,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x330d0b8;
+  constexpr static std::size_t addrs = 0x3595b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -916,7 +916,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::System::ValueTuple_2<int32_t, int32_t>>* (*)(::System::Collections::Generic::IEnumerable_1<int32_t>*, ::System::Collections::Generic::IEnumerable_1<int32_t>*, int32_t)>(
     &::GlobalNamespace::ShuffleExtensions::ZipSkipTombstone)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x330c740;
+  constexpr static std::size_t addrs = 0x3595204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

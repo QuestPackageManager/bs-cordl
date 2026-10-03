@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::MarshalByValueComponent::*)()>(&::System::ComponentModel::MarshalByValueComponent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63c2fa0;
+  constexpr static std::size_t addrs = 0x67eb26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::MarshalByValueComponent*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::MarshalByValueComponent::*)()>(&::System::ComponentModel::MarshalByValueComponent::Finalize)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x63c2fa4;
+  constexpr static std::size_t addrs = 0x67eb270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::ISite* (::System::ComponentModel::MarshalByValueComponent::*)()>(
     &::System::ComponentModel::MarshalByValueComponent::get_Site)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63c2ff4;
+  constexpr static std::size_t addrs = 0x67eb2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::MarshalByValueComponent::*)()>(&::System::ComponentModel::MarshalByValueComponent::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x63c2ffc;
+  constexpr static std::size_t addrs = 0x67eb2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::MarshalByValueComponent*>(), { "Dispose", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::MarshalByValueComponent::*)(bool)>(&::System::ComponentModel::MarshalByValueComponent::Dispose)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x63c306c;
+  constexpr static std::size_t addrs = 0x67eb338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::MarshalByValueComponent::*)(::System::Type*)>(
     &::System::ComponentModel::MarshalByValueComponent::GetService)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x63c3310;
+  constexpr static std::size_t addrs = 0x67eb5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::MarshalByValueComponent::*)()>(&::System::ComponentModel::MarshalByValueComponent::ToString)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x63c33d4;
+  constexpr static std::size_t addrs = 0x67eb6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

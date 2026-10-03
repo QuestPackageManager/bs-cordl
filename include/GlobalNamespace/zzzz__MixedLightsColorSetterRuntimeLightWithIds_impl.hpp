@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::ColorWasSet)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x587006c;
+  constexpr static std::size_t addrs = 0x5c86240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds*>(),
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::*)()>(
     &::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x587009c;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x5c86270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds*>(), { ".ctor", {}, {} })));

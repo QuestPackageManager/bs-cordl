@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnchorIntoParent::*)()>(&::GlobalNamespace::AnchorIntoParent::Start)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5851a54;
+  constexpr static std::size_t addrs = 0x5c67848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnchorIntoParent*>(), { "Start", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnchorIntoParent::*)()>(&::GlobalNamespace::AnchorIntoParent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5851b64;
+  constexpr static std::size_t addrs = 0x5c67958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnchorIntoParent*>(), { ".ctor", {}, {} })));

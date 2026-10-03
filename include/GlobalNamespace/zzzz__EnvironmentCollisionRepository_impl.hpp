@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentCollisionRepository::*)(::GlobalNamespace::ColliderEventEffect*)>(
     &::GlobalNamespace::EnvironmentCollisionRepository::RegisterColliderEventEffect)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x59a0ca0;
+  constexpr static std::size_t addrs = 0x5dbbd24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentCollisionRepository*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EnvironmentCollisionRepository::*)(::UnityEngine::Collider*, ::by_ref<::GlobalNamespace::ColliderEventEffect*>)>(
     &::GlobalNamespace::EnvironmentCollisionRepository::TryGetColliderEventEffect)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59a0d30;
+  constexpr static std::size_t addrs = 0x5dbbdb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentCollisionRepository::*)()>(&::GlobalNamespace::EnvironmentCollisionRepository::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x59a0df0;
+  constexpr static std::size_t addrs = 0x5dbbe74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentCollisionRepository*>(), { ".ctor", {}, {} })));

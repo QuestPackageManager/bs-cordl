@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::HardwareCategory>)>(&::GlobalNamespace::HardwareCategories::GetPlatformOverride)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x328decc;
+  constexpr static std::size_t addrs = 0x3514640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HardwareCategories*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::HardwareCategory)>(&::GlobalNamespace::HardwareCategories::SetPlatformOverride)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x328df24;
+  constexpr static std::size_t addrs = 0x3514698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::HardwareCategories::ClearPlatformOverride)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x328df7c;
+  constexpr static std::size_t addrs = 0x35146f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HardwareCategories*>(), { "ClearPlatformOverride", {}, {} })));
@@ -47,11 +47,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::HardwareCategory (*)()>(&::GlobalNamespace::HardwareCategories::GetHardwareCategoryWithEditorOverride)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x328dfc8;
+  constexpr static std::size_t addrs = 0x351473c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HardwareCategories*>(), { "GetHardwareCategoryWithEditorOverride", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HardwareCategories.IsStandaloneMobileGPU
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW)>(&::GlobalNamespace::HardwareCategories::IsStandaloneMobileGPU)> {
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x35147fc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HardwareCategories*>(), { "IsStandaloneMobileGPU", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
@@ -60,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::HardwareCategory (*)()>(&::GlobalNamespace::HardwareCategories::GetHardwareCategory)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x328dfcc;
+  constexpr static std::size_t addrs = 0x3514740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HardwareCategories*>(), { "GetHardwareCategory", {}, {} })));
@@ -98,6 +112,12 @@ inline ::GlobalNamespace::HardwareCategory GlobalNamespace::HardwareCategories::
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HardwareCategories*>(), { "GetHardwareCategoryWithEditorOverride", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::HardwareCategory>(nullptr, ___internal_method);
+}
+inline bool GlobalNamespace::HardwareCategories::IsStandaloneMobileGPU(::StringW graphicsDeviceVendor, ::StringW graphicsDeviceName) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HardwareCategories*>(), { "IsStandaloneMobileGPU", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, graphicsDeviceVendor, graphicsDeviceName);
 }
 inline ::GlobalNamespace::HardwareCategory GlobalNamespace::HardwareCategories::GetHardwareCategory() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HardwareCategories*>(), { "GetHardwareCategory", {}, {} })));

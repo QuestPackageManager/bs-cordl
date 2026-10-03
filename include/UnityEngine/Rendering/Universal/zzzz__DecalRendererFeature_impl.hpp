@@ -32,13 +32,28 @@
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderer_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__SharedDecalEntityManager_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalRendererFeature.SetupRenderPasses
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)(::UnityEngine::Rendering::Universal::ScriptableRenderer*,
+                                                                                                                           ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
+    &::UnityEngine::Rendering::Universal::DecalRendererFeature::SetupRenderPasses)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6ca5bf4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 5 }));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalRendererFeature.get_sharedDecalEntityManager
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::SharedDecalEntityManager* (*)()>(
     &::UnityEngine::Rendering::Universal::DecalRendererFeature::get_sharedDecalEntityManager)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x68ae0f8;
+  constexpr static std::size_t addrs = 0x6ca5bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Rendering::Universal::DecalSettings*> (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)()>(
     &::UnityEngine::Rendering::Universal::DecalRendererFeature::get_settings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae154;
+  constexpr static std::size_t addrs = 0x6ca5c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), { "get_settings", {}, {} })));
@@ -65,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)()>(
     &::UnityEngine::Rendering::Universal::DecalRendererFeature::get_intermediateRendering)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68ae15c;
+  constexpr static std::size_t addrs = 0x6ca5c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)()>(
     &::UnityEngine::Rendering::Universal::DecalRendererFeature::get_requiresDecalLayers)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68ae16c;
+  constexpr static std::size_t addrs = 0x6ca5c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::DecalRendererFeature::get_isGLDevice)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68ae184;
+  constexpr static std::size_t addrs = 0x6ca5c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,11 +120,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)()>(&::UnityEngine::Rendering::Universal::DecalRendererFeature::Create)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x68ae1e4;
+  constexpr static std::size_t addrs = 0x6ca5ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 5 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -120,7 +135,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     bool, bool, ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event>, ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize>)>(
     &::UnityEngine::Rendering::Universal::DecalRendererFeature::RequireRenderingLayers)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x68ae248;
+  constexpr static std::size_t addrs = 0x6ca5d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(),
@@ -134,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DBufferSettings* (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)()>(
     &::UnityEngine::Rendering::Universal::DecalRendererFeature::GetDBufferSettings)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68ae4f8;
+  constexpr static std::size_t addrs = 0x6ca6024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)()>(
     &::UnityEngine::Rendering::Universal::DecalRendererFeature::GetScreenSpaceSettings)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68ae568;
+  constexpr static std::size_t addrs = 0x6ca6094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,8 +176,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DecalTechnique (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRendererData*)>(&::UnityEngine::Rendering::Universal::DecalRendererFeature::GetTechnique)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x68ae5d8;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x6ca6104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,8 +191,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DecalTechnique (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*)>(&::UnityEngine::Rendering::Universal::DecalRendererFeature::GetTechnique)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x68ae71c;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x6ca624c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(),
@@ -190,8 +205,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DecalTechnique (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)(bool, bool, bool)>(
     &::UnityEngine::Rendering::Universal::DecalRendererFeature::GetTechnique)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x68ae310;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x6ca5e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(),
@@ -204,8 +219,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)()>(
     &::UnityEngine::Rendering::Universal::DecalRendererFeature::IsAutomaticDBuffer)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x68ae818;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x6ca638c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +235,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
                                                                                                                            ::by_ref<::UnityEngine::Rendering::Universal::CameraData>)>(
     &::UnityEngine::Rendering::Universal::DecalRendererFeature::RecreateSystemsIfNeeded)> {
   constexpr static std::size_t size = 0x600;
-  constexpr static std::size_t addrs = 0x68ae90c;
+  constexpr static std::size_t addrs = 0x6ca6444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,12 +253,12 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)(::UnityEngine::Rendering::Universal::ScriptableRenderer*,
                                                                                                                            ::by_ref<::UnityEngine::Rendering::Universal::CameraData>)>(
     &::UnityEngine::Rendering::Universal::DecalRendererFeature::OnCameraPreCull)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x68aef0c;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x6ca6a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 6 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -253,41 +268,12 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)(::UnityEngine::Rendering::Universal::ScriptableRenderer*,
                                                                                                                            ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
     &::UnityEngine::Rendering::Universal::DecalRendererFeature::AddRenderPasses)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x68af050;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 7 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalRendererFeature.SupportsNativeRenderPass
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)()>(
-    &::UnityEngine::Rendering::Universal::DecalRendererFeature::SupportsNativeRenderPass)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68af1fc;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x6ca6d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(),
                                                                                           { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 9 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalRendererFeature.SetupRenderPasses
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)(::UnityEngine::Rendering::Universal::ScriptableRenderer*,
-                                                                                                                           ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
-    &::UnityEngine::Rendering::Universal::DecalRendererFeature::SetupRenderPasses)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x68af210;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -296,8 +282,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)(bool)>(
     &::UnityEngine::Rendering::Universal::DecalRendererFeature::Dispose)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x68af3cc;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x6ca6f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(),
@@ -310,8 +296,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)()>(
     &::UnityEngine::Rendering::Universal::DecalRendererFeature::ChangeAdaptivePerformanceDrawDistances)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68af4f0;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x6ca6be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -324,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalRendererFeature::*)()>(&::UnityEngine::Rendering::Universal::DecalRendererFeature::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x68af4f4;
+  constexpr static std::size_t addrs = 0x6ca703c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), { ".ctor", {}, {} })));
@@ -631,6 +617,12 @@ inline ::UnityEngine::Rendering::Universal::SharedDecalEntityManager* UnityEngin
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::SharedDecalEntityManager*, "<sharedDecalEntityManager>k__BackingField",
                                            ::UnityEngine::Rendering::Universal::DecalRendererFeature*>();
 }
+inline void UnityEngine::Rendering::Universal::DecalRendererFeature::SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
+                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);
+}
 inline ::UnityEngine::Rendering::Universal::SharedDecalEntityManager* UnityEngine::Rendering::Universal::DecalRendererFeature::get_sharedDecalEntityManager() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), { "get_sharedDecalEntityManager", {}, {} })));
@@ -656,7 +648,7 @@ inline bool UnityEngine::Rendering::Universal::DecalRendererFeature::get_isGLDev
 }
 inline void UnityEngine::Rendering::Universal::DecalRendererFeature::Create() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 5 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline bool UnityEngine::Rendering::Universal::DecalRendererFeature::RequireRenderingLayers(bool isDeferred, bool needsGBufferAccurateNormals,
@@ -711,24 +703,13 @@ inline bool UnityEngine::Rendering::Universal::DecalRendererFeature::RecreateSys
 inline void UnityEngine::Rendering::Universal::DecalRendererFeature::OnCameraPreCull(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
                                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 6 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, cameraData);
 }
 inline void UnityEngine::Rendering::Universal::DecalRendererFeature::AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
                                                                                      ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 7 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);
-}
-inline bool UnityEngine::Rendering::Universal::DecalRendererFeature::SupportsNativeRenderPass() {
-  auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 9 })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::DecalRendererFeature::SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
-                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::DecalRendererFeature::Dispose(bool disposing) {

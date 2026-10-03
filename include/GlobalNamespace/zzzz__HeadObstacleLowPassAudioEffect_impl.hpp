@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadObstacleLowPassAudioEffect::*)()>(&::GlobalNamespace::HeadObstacleLowPassAudioEffect::Update)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5994a40;
+  constexpr static std::size_t addrs = 0x5dafa74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadObstacleLowPassAudioEffect*>(), { "Update", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadObstacleLowPassAudioEffect::*)()>(&::GlobalNamespace::HeadObstacleLowPassAudioEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5994abc;
+  constexpr static std::size_t addrs = 0x5dafaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadObstacleLowPassAudioEffect*>(), { ".ctor", {}, {} })));

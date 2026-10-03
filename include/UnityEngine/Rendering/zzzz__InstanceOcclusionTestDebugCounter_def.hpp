@@ -14,7 +14,7 @@ struct InstanceOcclusionTestDebugCounter;
 MARK_VAL_T(::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter, "UnityEngine.Rendering", "InstanceOcclusionTestDebugCounter");
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\InstanceOcclusionCuller.cs", needAccessors = false)] Dependencies
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\GPUDriven\\InstanceOcclusionCuller.cs", needAccessors = false)] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.InstanceOcclusionTestDebugCounter
@@ -25,9 +25,11 @@ public:
 
   /// @brief Nested struct __InstanceOcclusionTestDebugCounter_Unwrapped
   enum struct __InstanceOcclusionTestDebugCounter_Unwrapped : int32_t {
-    __E_Occluded = static_cast<int32_t>(0x0),
-    __E_NotOccluded = static_cast<int32_t>(0x1),
-    __E_Count = static_cast<int32_t>(0x2),
+    __E_InstancesOccluded = static_cast<int32_t>(0x0),
+    __E_InstancesNotOccluded = static_cast<int32_t>(0x1),
+    __E_PrimitivesOccluded = static_cast<int32_t>(0x2),
+    __E_PrimitivesNotOccluded = static_cast<int32_t>(0x3),
+    __E_Count = static_cast<int32_t>(0x4),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -47,17 +49,23 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InstanceOcclusionTestDebugCounter(int32_t value__) noexcept;
 
-  /// @brief Field Count value: I32(2)
+  /// @brief Field Count value: I32(4)
   static ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter const Count;
 
-  /// @brief Field NotOccluded value: I32(1)
-  static ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter const NotOccluded;
+  /// @brief Field InstancesNotOccluded value: I32(1)
+  static ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter const InstancesNotOccluded;
 
-  /// @brief Field Occluded value: I32(0)
-  static ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter const Occluded;
+  /// @brief Field InstancesOccluded value: I32(0)
+  static ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter const InstancesOccluded;
+
+  /// @brief Field PrimitivesNotOccluded value: I32(3)
+  static ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter const PrimitivesNotOccluded;
+
+  /// @brief Field PrimitivesOccluded value: I32(2)
+  static ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter const PrimitivesOccluded;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18265 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

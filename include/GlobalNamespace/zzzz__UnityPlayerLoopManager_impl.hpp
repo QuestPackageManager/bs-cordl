@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert::*)(
     ::StringW, ::GlobalNamespace::UnityPlayerLoopManager_InsertPosition, ::UnityEngine::LowLevel::PlayerLoopSystem)>(&::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58532fc;
+  constexpr static std::size_t addrs = 0x5c69080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert>(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityPlayerLoopManager___c__DisplayClass3_0::*)()>(
     &::GlobalNamespace::UnityPlayerLoopManager___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5853fc4;
+  constexpr static std::size_t addrs = 0x5c69d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityPlayerLoopManager___c__DisplayClass3_0*>(), { ".ctor", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UnityPlayerLoopManager___c__DisplayClass3_0::*)(::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert)>(
     &::GlobalNamespace::UnityPlayerLoopManager___c__DisplayClass3_0::_InsertSystems_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5853fc8;
+  constexpr static std::size_t addrs = 0x5c69d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UnityPlayerLoopManager___c__DisplayClass3_0::*)(::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert)>(
     &::GlobalNamespace::UnityPlayerLoopManager___c__DisplayClass3_0::_InsertSystems_b__1)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5854000;
+  constexpr static std::size_t addrs = 0x5c69d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::UnityPlayerLoopManager::InitializePlayerLoop)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x5852efc;
+  constexpr static std::size_t addrs = 0x5c68c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityPlayerLoopManager*>(), { "InitializePlayerLoop", {}, {} })));
@@ -172,7 +172,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevel::
     ::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem>, ::System::Collections::Generic::List_1<::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert>*)>(
     &::GlobalNamespace::UnityPlayerLoopManager::InsertSystems)> {
   constexpr static std::size_t size = 0xa5c;
-  constexpr static std::size_t addrs = 0x5853318;
+  constexpr static std::size_t addrs = 0x5c6909c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem>, ::ArrayW<::System::Type*>)>(
     &::GlobalNamespace::UnityPlayerLoopManager::RemoveDisabledSubsystems)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x5853d74;
+  constexpr static std::size_t addrs = 0x5c69af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

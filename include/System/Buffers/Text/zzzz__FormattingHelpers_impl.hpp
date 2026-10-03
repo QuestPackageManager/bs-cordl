@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t)>(&::System::Buffers::Text::FormattingHelpers::CountDigits)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5bf406c;
+  constexpr static std::size_t addrs = 0x600c334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint32_t)>(&::System::Buffers::Text::FormattingHelpers::CountDigits)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5bf4148;
+  constexpr static std::size_t addrs = 0x600c410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t)>(&::System::Buffers::Text::FormattingHelpers::CountHexDigits)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5bf41b0;
+  constexpr static std::size_t addrs = 0x600c478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

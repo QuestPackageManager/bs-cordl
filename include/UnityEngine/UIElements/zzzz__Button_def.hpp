@@ -79,7 +79,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Button_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d38fc4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ac04c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
   Button_UxmlFactory(Button_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4147 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -116,7 +116,7 @@ public:
   /// @brief Field m_IconImage, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_IconImage, put = __cordl_internal_set_m_IconImage)) ::UnityEngine::UIElements::UxmlImageAttributeDescription* m_IconImage;
 
-  /// @brief Method Init, addr 0x6d390e0, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x71ac168, size 0x110, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::Button_UxmlTraits* New_ctor();
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IconImage(::UnityEngine::UIElements::UxmlImageAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d3902c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ac0b4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -145,7 +145,7 @@ public:
   Button_UxmlTraits(Button_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4148 };
 
   /// @brief Field m_IconImage, offset: 0xd0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlImageAttributeDescription* ___m_IconImage;
@@ -189,19 +189,19 @@ public:
   /// @brief Field imageUSSClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_imageUSSClassName, put = setStaticF_imageUSSClassName)) ::StringW imageUSSClassName;
 
-  /// @brief Field m_Clickable, offset 0x5a8, size 0x8
+  /// @brief Field m_Clickable, offset 0x3d0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Clickable, put = __cordl_internal_set_m_Clickable)) ::UnityEngine::UIElements::Clickable* m_Clickable;
 
-  /// @brief Field m_IconImage, offset 0x5c0, size 0x20
+  /// @brief Field m_IconImage, offset 0x3e8, size 0x20
   __declspec(property(get = __cordl_internal_get_m_IconImage, put = __cordl_internal_set_m_IconImage)) ::UnityEngine::UIElements::Background m_IconImage;
 
-  /// @brief Field m_ImageElement, offset 0x5b8, size 0x8
+  /// @brief Field m_ImageElement, offset 0x3e0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ImageElement, put = __cordl_internal_set_m_ImageElement)) ::UnityEngine::UIElements::Image* m_ImageElement;
 
-  /// @brief Field m_Text, offset 0x5e0, size 0x8
+  /// @brief Field m_Text, offset 0x408, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::StringW m_Text;
 
-  /// @brief Field m_TextElement, offset 0x5b0, size 0x8
+  /// @brief Field m_TextElement, offset 0x3d8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TextElement, put = __cordl_internal_set_m_TextElement)) ::UnityEngine::UIElements::TextElement* m_TextElement;
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
@@ -209,7 +209,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method DoMeasure, addr 0x6d38d24, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x71abbd4, size 0xc0, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode);
 
@@ -219,13 +219,13 @@ public:
 
   static inline ::UnityEngine::UIElements::Button* New_ctor(::UnityEngine::UIElements::Background iconImage, ::System::Action* clickEvent);
 
-  /// @brief Method OnNavigationSubmit, addr 0x6d38ce8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x71abb98, size 0x3c, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
-  /// @brief Method ResetButtonHierarchy, addr 0x6d38660, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ResetButtonHierarchy, addr 0x71ab310, size 0xf0, virtual false, abstract: false, final false
   inline void ResetButtonHierarchy();
 
-  /// @brief Method UpdateButtonHierarchy, addr 0x6d38750, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method UpdateButtonHierarchy, addr 0x71ab400, size 0x204, virtual false, abstract: false, final false
   inline void UpdateButtonHierarchy();
 
   constexpr ::UnityEngine::UIElements::Clickable* const& __cordl_internal_get_m_Clickable() const;
@@ -258,13 +258,13 @@ public:
 
   constexpr void __cordl_internal_set_m_TextElement(::UnityEngine::UIElements::TextElement* value);
 
-  /// @brief Method .ctor, addr 0x6d38adc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ab98c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d38b50, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71aba00, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* clickEvent);
 
-  /// @brief Method .ctor, addr 0x6d38b10, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ab9c0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Background iconImage, ::System::Action* clickEvent);
 
   static inline ::StringW getStaticF_NonEmptyString();
@@ -279,13 +279,13 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_clickable, addr 0x6d383a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickable, addr 0x71ab060, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Clickable* get_clickable();
 
-  /// @brief Method get_iconImage, addr 0x6d38408, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_iconImage, addr 0x71ab0c8, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Background get_iconImage();
 
-  /// @brief Method get_text, addr 0x6d38958, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_text, addr 0x71ab808, size 0x20, virtual true, abstract: false, final false
   inline ::StringW get_text();
 
   static inline void setStaticF_NonEmptyString(::StringW value);
@@ -300,13 +300,13 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_clickable, addr 0x6d383a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_clickable, addr 0x71ab068, size 0x60, virtual false, abstract: false, final false
   inline void set_clickable(::UnityEngine::UIElements::Clickable* value);
 
-  /// @brief Method set_iconImage, addr 0x6d38418, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method set_iconImage, addr 0x71ab0d8, size 0x238, virtual false, abstract: false, final false
   inline void set_iconImage(::UnityEngine::UIElements::Background value);
 
-  /// @brief Method set_text, addr 0x6d38978, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method set_text, addr 0x71ab828, size 0x164, virtual true, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -324,36 +324,36 @@ public:
   Button(Button const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4149 };
 
-  /// @brief Field m_Clickable, offset: 0x5a8, size: 0x8, def value: None
+  /// @brief Field m_Clickable, offset: 0x3d0, size: 0x8, def value: None
   ::UnityEngine::UIElements::Clickable* ___m_Clickable;
 
-  /// @brief Field m_TextElement, offset: 0x5b0, size: 0x8, def value: None
+  /// @brief Field m_TextElement, offset: 0x3d8, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextElement* ___m_TextElement;
 
-  /// @brief Field m_ImageElement, offset: 0x5b8, size: 0x8, def value: None
+  /// @brief Field m_ImageElement, offset: 0x3e0, size: 0x8, def value: None
   ::UnityEngine::UIElements::Image* ___m_ImageElement;
 
-  /// @brief Field m_IconImage, offset: 0x5c0, size: 0x20, def value: None
+  /// @brief Field m_IconImage, offset: 0x3e8, size: 0x20, def value: None
   ::UnityEngine::UIElements::Background ___m_IconImage;
 
-  /// @brief Field m_Text, offset: 0x5e0, size: 0x8, def value: None
+  /// @brief Field m_Text, offset: 0x408, size: 0x8, def value: None
   ::StringW ___m_Text;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::Button, ___m_Clickable) == 0x5a8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Button, ___m_Clickable) == 0x3d0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Button, ___m_TextElement) == 0x5b0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Button, ___m_TextElement) == 0x3d8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Button, ___m_ImageElement) == 0x5b8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Button, ___m_ImageElement) == 0x3e0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Button, ___m_IconImage) == 0x5c0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Button, ___m_IconImage) == 0x3e8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Button, ___m_Text) == 0x5e0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Button, ___m_Text) == 0x408, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::Button) == 0x5e8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::Button) == 0x410, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

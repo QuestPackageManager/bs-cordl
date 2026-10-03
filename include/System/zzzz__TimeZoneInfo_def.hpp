@@ -144,7 +144,7 @@ namespace System {
 struct CORDL_TYPE TimeZoneInfo_TZifType {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x5ba5f88, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbe250, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> data, int32_t index);
 
   // Ctor Parameters []
@@ -248,7 +248,7 @@ namespace System {
 struct CORDL_TYPE TimeZoneInfo_TZifHead {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x5ba5dd8, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbe0a0, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> data, int32_t index);
 
   // Ctor Parameters []
@@ -344,52 +344,52 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
-  /// @brief Method CreateFixedDateRule, addr 0x5ba16c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateFixedDateRule, addr 0x5fb9990, size 0x60, virtual false, abstract: false, final false
   static inline ::System::TimeZoneInfo_TransitionTime CreateFixedDateRule(::System::DateTime timeOfDay, int32_t month, int32_t day);
 
-  /// @brief Method CreateFloatingDateRule, addr 0x5ba52bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateFloatingDateRule, addr 0x5fbd584, size 0x68, virtual false, abstract: false, final false
   static inline ::System::TimeZoneInfo_TransitionTime CreateFloatingDateRule(::System::DateTime timeOfDay, int32_t month, int32_t week, ::System::DayOfWeek dayOfWeek);
 
-  /// @brief Method Equals, addr 0x5babef0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5fc41b8, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5bab030, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5fc32f8, size 0xdc, virtual true, abstract: false, final true
   inline bool Equals(::System::TimeZoneInfo_TransitionTime other);
 
-  /// @brief Method GetHashCode, addr 0x5babf84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5fc424c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5bac2ac, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5fc4574, size 0xf0, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5bac39c, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5fc4664, size 0x1b0, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ValidateTransitionTime, addr 0x5babffc, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method ValidateTransitionTime, addr 0x5fc42c4, size 0x2b0, virtual false, abstract: false, final false
   static inline void ValidateTransitionTime(::System::DateTime timeOfDay, int32_t month, int32_t week, int32_t day, ::System::DayOfWeek dayOfWeek);
 
-  /// @brief Method .ctor, addr 0x5bac54c, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc4814, size 0x338, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5babf8c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc4254, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime timeOfDay, int32_t month, int32_t week, int32_t day, ::System::DayOfWeek dayOfWeek, bool isFixedDateRule);
 
-  /// @brief Method get_Day, addr 0x5babed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Day, addr 0x5fc41a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Day();
 
-  /// @brief Method get_DayOfWeek, addr 0x5babee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DayOfWeek, addr 0x5fc41a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::DayOfWeek get_DayOfWeek();
 
-  /// @brief Method get_IsFixedDateRule, addr 0x5babee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsFixedDateRule, addr 0x5fc41b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsFixedDateRule();
 
-  /// @brief Method get_Month, addr 0x5babec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Month, addr 0x5fc4190, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Month();
 
-  /// @brief Method get_TimeOfDay, addr 0x5babec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TimeOfDay, addr 0x5fc4188, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_TimeOfDay();
 
-  /// @brief Method get_Week, addr 0x5babed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Week, addr 0x5fc4198, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Week();
 
   /// @brief Convert to "::System::IEquatable_1<::System::TimeZoneInfo_TransitionTime>"
@@ -401,7 +401,7 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
 
-  /// @brief Method op_Inequality, addr 0x5baaffc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5fc32c4, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::TimeZoneInfo_TransitionTime t1, ::System::TimeZoneInfo_TransitionTime t2);
 
   // Ctor Parameters []
@@ -509,25 +509,25 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CreateAdjustmentRule, addr 0x5ba1728, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CreateAdjustmentRule, addr 0x5fb99f0, size 0x118, virtual false, abstract: false, final false
   static inline ::System::TimeZoneInfo_AdjustmentRule* CreateAdjustmentRule(::System::DateTime dateStart, ::System::DateTime dateEnd, ::System::TimeSpan daylightDelta,
                                                                             ::System::TimeZoneInfo_TransitionTime daylightTransitionStart, ::System::TimeZoneInfo_TransitionTime daylightTransitionEnd);
 
-  /// @brief Method CreateAdjustmentRule, addr 0x5ba412c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CreateAdjustmentRule, addr 0x5fbc3f4, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::TimeZoneInfo_AdjustmentRule* CreateAdjustmentRule(::System::DateTime dateStart, ::System::DateTime dateEnd, ::System::TimeSpan daylightDelta,
                                                                             ::System::TimeZoneInfo_TransitionTime daylightTransitionStart, ::System::TimeZoneInfo_TransitionTime daylightTransitionEnd,
                                                                             ::System::TimeSpan baseUtcOffsetDelta, bool noDaylightTransitions);
 
-  /// @brief Method Equals, addr 0x5ba7dc8, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5fc0090, size 0x154, virtual true, abstract: false, final true
   inline bool Equals(::System::TimeZoneInfo_AdjustmentRule* other);
 
-  /// @brief Method GetHashCode, addr 0x5bab10c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5fc33d4, size 0x5c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsEndDateMarkerForEndOfYear, addr 0x5ba935c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method IsEndDateMarkerForEndOfYear, addr 0x5fc1624, size 0x120, virtual false, abstract: false, final false
   inline bool IsEndDateMarkerForEndOfYear();
 
-  /// @brief Method IsStartDateMarkerForBeginningOfYear, addr 0x5ba923c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method IsStartDateMarkerForBeginningOfYear, addr 0x5fc1504, size 0x120, virtual false, abstract: false, final false
   inline bool IsStartDateMarkerForBeginningOfYear();
 
   static inline ::System::TimeZoneInfo_AdjustmentRule* New_ctor();
@@ -538,13 +538,13 @@ public:
 
   static inline ::System::TimeZoneInfo_AdjustmentRule* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5bab738, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5fc3a00, size 0x118, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5bab850, size 0x248, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5fc3b18, size 0x248, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ValidateAdjustmentRule, addr 0x5bab224, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method ValidateAdjustmentRule, addr 0x5fc34ec, size 0x4d8, virtual false, abstract: false, final false
   static inline void ValidateAdjustmentRule(::System::DateTime dateStart, ::System::DateTime dateEnd, ::System::TimeSpan daylightDelta, ::System::TimeZoneInfo_TransitionTime daylightTransitionStart,
                                             ::System::TimeZoneInfo_TransitionTime daylightTransitionEnd, bool noDaylightTransitions);
 
@@ -590,38 +590,38 @@ public:
 
   constexpr void __cordl_internal_set__noDaylightTransitions(bool value);
 
-  /// @brief Method .ctor, addr 0x5babe84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc414c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5bab168, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc3430, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime dateStart, ::System::DateTime dateEnd, ::System::TimeSpan daylightDelta, ::System::TimeZoneInfo_TransitionTime daylightTransitionStart,
                     ::System::TimeZoneInfo_TransitionTime daylightTransitionEnd, ::System::TimeSpan baseUtcOffsetDelta, bool noDaylightTransitions);
 
-  /// @brief Method .ctor, addr 0x5baba98, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc3d60, size 0x3ec, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_BaseUtcOffsetDelta, addr 0x5baafec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseUtcOffsetDelta, addr 0x5fc32b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_BaseUtcOffsetDelta();
 
-  /// @brief Method get_DateEnd, addr 0x5baafb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateEnd, addr 0x5fc327c, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_DateEnd();
 
-  /// @brief Method get_DateStart, addr 0x5baafac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateStart, addr 0x5fc3274, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_DateStart();
 
-  /// @brief Method get_DaylightDelta, addr 0x5baafbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DaylightDelta, addr 0x5fc3284, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_DaylightDelta();
 
-  /// @brief Method get_DaylightTransitionEnd, addr 0x5baafd8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_DaylightTransitionEnd, addr 0x5fc32a0, size 0x14, virtual false, abstract: false, final false
   inline ::System::TimeZoneInfo_TransitionTime get_DaylightTransitionEnd();
 
-  /// @brief Method get_DaylightTransitionStart, addr 0x5baafc4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_DaylightTransitionStart, addr 0x5fc328c, size 0x14, virtual false, abstract: false, final false
   inline ::System::TimeZoneInfo_TransitionTime get_DaylightTransitionStart();
 
-  /// @brief Method get_HasDaylightSaving, addr 0x5ba6dc8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method get_HasDaylightSaving, addr 0x5fbf090, size 0x160, virtual false, abstract: false, final false
   inline bool get_HasDaylightSaving();
 
-  /// @brief Method get_NoDaylightTransitions, addr 0x5baaff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NoDaylightTransitions, addr 0x5fc32bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_NoDaylightTransitions();
 
   /// @brief Convert to "::System::IEquatable_1<::System::TimeZoneInfo_AdjustmentRule*>"
@@ -703,10 +703,10 @@ public:
   /// @brief Field _localTimeZone, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__localTimeZone, put = __cordl_internal_set__localTimeZone)) ::System::TimeZoneInfo* _localTimeZone;
 
-  /// @brief Method CreateLocal, addr 0x5bac884, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method CreateLocal, addr 0x5fc4b4c, size 0x180, virtual false, abstract: false, final false
   inline ::System::TimeZoneInfo* CreateLocal();
 
-  /// @brief Method GetCorrespondingKind, addr 0x5ba6594, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetCorrespondingKind, addr 0x5fbe85c, size 0x90, virtual false, abstract: false, final false
   inline ::System::DateTimeKind GetCorrespondingKind(::System::TimeZoneInfo* timeZone);
 
   static inline ::System::TimeZoneInfo_CachedData* New_ctor();
@@ -717,10 +717,10 @@ public:
 
   constexpr void __cordl_internal_set__localTimeZone(::System::TimeZoneInfo* value);
 
-  /// @brief Method .ctor, addr 0x5baaf6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc3234, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Local, addr 0x5ba6500, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Local, addr 0x5fbe7c8, size 0x18, virtual false, abstract: false, final false
   inline ::System::TimeZoneInfo* get_Local();
 
 protected:
@@ -779,7 +779,7 @@ public:
 
   static inline ::System::TimeZoneInfo___c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method <FindTimeZoneId>b__0, addr 0x5baca04, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <FindTimeZoneId>b__0, addr 0x5fc4ccc, size 0x108, virtual false, abstract: false, final false
   inline bool _FindTimeZoneId_b__0(::StringW filePath);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_buffer() const;
@@ -818,7 +818,7 @@ public:
 
   constexpr void __cordl_internal_set_timeZoneDirectory(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5ba2a0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbacd4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -905,25 +905,25 @@ public:
 
   static inline ::System::TimeZoneInfo___c* New_ctor();
 
-  /// @brief Method <CreateLocalUnity>b__161_0, addr 0x5bacca0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <CreateLocalUnity>b__161_0, addr 0x5fc4f68, size 0x88, virtual false, abstract: false, final false
   inline int32_t _CreateLocalUnity_b__161_0(::System::TimeZoneInfo_AdjustmentRule* rule1, ::System::TimeZoneInfo_AdjustmentRule* rule2);
 
-  /// @brief Method <TZif_ParsePosixDate>b__37_0, addr 0x5bacc78, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <TZif_ParsePosixDate>b__37_0, addr 0x5fc4f40, size 0x18, virtual false, abstract: false, final false
   inline bool _TZif_ParsePosixDate_b__37_0(char16_t c);
 
-  /// @brief Method <TZif_ParsePosixName>b__34_0, addr 0x5bacb74, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <TZif_ParsePosixName>b__34_0, addr 0x5fc4e3c, size 0x44, virtual false, abstract: false, final false
   inline bool _TZif_ParsePosixName_b__34_0(char16_t c);
 
-  /// @brief Method <TZif_ParsePosixName>b__34_1, addr 0x5bacb64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <TZif_ParsePosixName>b__34_1, addr 0x5fc4e2c, size 0x10, virtual false, abstract: false, final false
   inline bool _TZif_ParsePosixName_b__34_1(char16_t c);
 
-  /// @brief Method <TZif_ParsePosixOffset>b__35_0, addr 0x5bacc1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <TZif_ParsePosixOffset>b__35_0, addr 0x5fc4ee4, size 0x5c, virtual false, abstract: false, final false
   inline bool _TZif_ParsePosixOffset_b__35_0(char16_t c);
 
-  /// @brief Method <TZif_ParsePosixTime>b__38_0, addr 0x5bacc90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <TZif_ParsePosixTime>b__38_0, addr 0x5fc4f58, size 0x10, virtual false, abstract: false, final false
   inline bool _TZif_ParsePosixTime_b__38_0(char16_t c);
 
-  /// @brief Method .ctor, addr 0x5bacb60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc4e28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::TimeZoneInfo___c* getStaticF___9();
@@ -1059,160 +1059,160 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CheckIsDst, addr 0x5ba947c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method CheckIsDst, addr 0x5fc1744, size 0x250, virtual false, abstract: false, final false
   static inline bool CheckIsDst(::System::DateTime startTime, ::System::DateTime time, ::System::DateTime endTime, bool ignoreYearAdjustment, ::System::TimeZoneInfo_AdjustmentRule* rule);
 
-  /// @brief Method CompareAdjustmentRuleToDateTime, addr 0x5ba8b6c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method CompareAdjustmentRuleToDateTime, addr 0x5fc0e34, size 0x1b0, virtual false, abstract: false, final false
   inline int32_t CompareAdjustmentRuleToDateTime(::System::TimeZoneInfo_AdjustmentRule* rule, ::System::TimeZoneInfo_AdjustmentRule* previousRule, ::System::DateTime dateTime,
                                                  ::System::DateTime dateOnly, bool dateTimeisUtc);
 
-  /// @brief Method CompareTimeZoneFile, addr 0x5ba2a10, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method CompareTimeZoneFile, addr 0x5fbacd8, size 0x39c, virtual false, abstract: false, final false
   static inline bool CompareTimeZoneFile(::StringW filePath, ::ArrayW<uint8_t> buffer, ::ArrayW<uint8_t> rawData);
 
-  /// @brief Method ConvertFromUtc, addr 0x5ba8ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ConvertFromUtc, addr 0x5fc11a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime ConvertFromUtc(::System::DateTime dateTime, ::System::TimeSpan daylightDelta, ::System::TimeSpan baseUtcOffsetDelta);
 
-  /// @brief Method ConvertTime, addr 0x5ba6624, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ConvertTime, addr 0x5fbe8ec, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::DateTime ConvertTime(::System::DateTime dateTime, ::System::TimeZoneInfo* sourceTimeZone, ::System::TimeZoneInfo* destinationTimeZone, ::System::TimeZoneInfoOptions flags);
 
-  /// @brief Method ConvertTime, addr 0x5ba68c0, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method ConvertTime, addr 0x5fbeb88, size 0x458, virtual false, abstract: false, final false
   static inline ::System::DateTime ConvertTime(::System::DateTime dateTime, ::System::TimeZoneInfo* sourceTimeZone, ::System::TimeZoneInfo* destinationTimeZone, ::System::TimeZoneInfoOptions flags,
                                                ::System::TimeZoneInfo_CachedData* cachedData);
 
-  /// @brief Method ConvertTimeToUtc, addr 0x5ba79ec, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ConvertTimeToUtc, addr 0x5fbfcb4, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::DateTime ConvertTimeToUtc(::System::DateTime dateTime, ::System::TimeZoneInfoOptions flags);
 
-  /// @brief Method ConvertToFromUtc, addr 0x5ba8d24, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ConvertToFromUtc, addr 0x5fc0fec, size 0x1b4, virtual false, abstract: false, final false
   inline ::System::DateTime ConvertToFromUtc(::System::DateTime dateTime, ::System::TimeSpan daylightDelta, ::System::TimeSpan baseUtcOffsetDelta, bool convertToUtc);
 
-  /// @brief Method ConvertToUtc, addr 0x5ba8d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ConvertToUtc, addr 0x5fc0fe4, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime ConvertToUtc(::System::DateTime dateTime, ::System::TimeSpan daylightDelta, ::System::TimeSpan baseUtcOffsetDelta);
 
-  /// @brief Method ConvertUtcToTimeZone, addr 0x5ba77c8, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ConvertUtcToTimeZone, addr 0x5fbfa90, size 0x224, virtual false, abstract: false, final false
   static inline ::System::DateTime ConvertUtcToTimeZone(int64_t ticks, ::System::TimeZoneInfo* destinationTimeZone, ::by_ref<bool> isAmbiguousLocalDst);
 
-  /// @brief Method CreateAdjustmentRule, addr 0x5baa588, size 0x87c, virtual false, abstract: false, final false
+  /// @brief Method CreateAdjustmentRule, addr 0x5fc2850, size 0x87c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>* CreateAdjustmentRule(int32_t year, ::by_ref<::ArrayW<int64_t>> data,
                                                                                                                      ::by_ref<::ArrayW<::StringW>> names);
 
-  /// @brief Method CreateCustomTimeZone, addr 0x5ba8070, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CreateCustomTimeZone, addr 0x5fc0338, size 0x98, virtual false, abstract: false, final false
   static inline ::System::TimeZoneInfo* CreateCustomTimeZone(::StringW id, ::System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName);
 
-  /// @brief Method CreateCustomTimeZone, addr 0x5ba8108, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CreateCustomTimeZone, addr 0x5fc03d0, size 0x108, virtual false, abstract: false, final false
   static inline ::System::TimeZoneInfo* CreateCustomTimeZone(::StringW id, ::System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName, ::StringW daylightDisplayName,
                                                              ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*> adjustmentRules, bool disableDaylightSavingTime);
 
-  /// @brief Method CreateLocalUnity, addr 0x5ba2f68, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method CreateLocalUnity, addr 0x5fbb230, size 0x4e8, virtual false, abstract: false, final false
   static inline ::System::TimeZoneInfo* CreateLocalUnity();
 
-  /// @brief Method EnumerateFilesRecursively, addr 0x5ba246c, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method EnumerateFilesRecursively, addr 0x5fba734, size 0x5a0, virtual false, abstract: false, final false
   static inline void EnumerateFilesRecursively(::StringW path, ::System::Predicate_1<::StringW>* condition);
 
-  /// @brief Method Equals, addr 0x5ba7ca4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5fbff6c, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5ba7ae4, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5fbfdac, size 0x50, virtual true, abstract: false, final true
   inline bool Equals(::System::TimeZoneInfo* other);
 
-  /// @brief Method FindTimeZoneId, addr 0x5ba2058, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method FindTimeZoneId, addr 0x5fba320, size 0x294, virtual false, abstract: false, final false
   static inline ::StringW FindTimeZoneId(::ArrayW<uint8_t> rawData);
 
-  /// @brief Method FindTimeZoneIdUsingReadLink, addr 0x5ba1f3c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method FindTimeZoneIdUsingReadLink, addr 0x5fba204, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW FindTimeZoneIdUsingReadLink(::StringW tzFilePath);
 
-  /// @brief Method GetAdjustmentRuleForTime, addr 0x5ba89b8, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetAdjustmentRuleForTime, addr 0x5fc0c80, size 0x1b4, virtual false, abstract: false, final false
   inline ::System::TimeZoneInfo_AdjustmentRule* GetAdjustmentRuleForTime(::System::DateTime dateTime, bool dateTimeisUtc, ::by_ref<::System::Nullable_1<int32_t>> ruleIndex);
 
-  /// @brief Method GetAdjustmentRuleForTime, addr 0x5ba6dbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAdjustmentRuleForTime, addr 0x5fbf084, size 0xc, virtual false, abstract: false, final false
   inline ::System::TimeZoneInfo_AdjustmentRule* GetAdjustmentRuleForTime(::System::DateTime dateTime, ::by_ref<::System::Nullable_1<int32_t>> ruleIndex);
 
-  /// @brief Method GetAdjustmentRules, addr 0x5ba125c, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method GetAdjustmentRules, addr 0x5fb9524, size 0x46c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*> GetAdjustmentRules();
 
-  /// @brief Method GetDateTimeNowUtcOffsetFromUtc, addr 0x5ba348c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetDateTimeNowUtcOffsetFromUtc, addr 0x5fbb754, size 0x78, virtual false, abstract: false, final false
   static inline ::System::TimeSpan GetDateTimeNowUtcOffsetFromUtc(::System::DateTime time, ::by_ref<bool> isAmbiguousLocalDst);
 
-  /// @brief Method GetDaylightSavingsEndOffsetFromUtc, addr 0x5ba9b54, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetDaylightSavingsEndOffsetFromUtc, addr 0x5fc1e1c, size 0x84, virtual false, abstract: false, final false
   inline ::System::TimeSpan GetDaylightSavingsEndOffsetFromUtc(::System::TimeSpan baseUtcOffset, ::System::TimeZoneInfo_AdjustmentRule* rule);
 
-  /// @brief Method GetDaylightSavingsStartOffsetFromUtc, addr 0x5ba9a7c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetDaylightSavingsStartOffsetFromUtc, addr 0x5fc1d44, size 0xd8, virtual false, abstract: false, final false
   inline ::System::TimeSpan GetDaylightSavingsStartOffsetFromUtc(::System::TimeSpan baseUtcOffset, ::System::TimeZoneInfo_AdjustmentRule* rule, ::System::Nullable_1<int32_t> ruleIndex);
 
-  /// @brief Method GetDaylightTime, addr 0x5ba6f28, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetDaylightTime, addr 0x5fbf1f0, size 0x11c, virtual false, abstract: false, final false
   inline ::System::Globalization::DaylightTimeStruct GetDaylightTime(int32_t year, ::System::TimeZoneInfo_AdjustmentRule* rule, ::System::Nullable_1<int32_t> ruleIndex);
 
-  /// @brief Method GetDirectoryEntryFullPath, addr 0x5ba22ec, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetDirectoryEntryFullPath, addr 0x5fba5b4, size 0x180, virtual false, abstract: false, final false
   static inline ::StringW GetDirectoryEntryFullPath(::by_ref<::GlobalNamespace::Sys_Interop_DirectoryEntry> dirent, ::StringW currentPath);
 
-  /// @brief Method GetHashCode, addr 0x5ba7d14, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5fbffdc, size 0xb4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetIsAmbiguousTime, addr 0x5ba96cc, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method GetIsAmbiguousTime, addr 0x5fc1994, size 0x3b0, virtual false, abstract: false, final false
   static inline bool GetIsAmbiguousTime(::System::DateTime time, ::System::TimeZoneInfo_AdjustmentRule* rule, ::System::Globalization::DaylightTimeStruct daylightTime);
 
-  /// @brief Method GetIsDaylightSavings, addr 0x5ba73fc, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method GetIsDaylightSavings, addr 0x5fbf6c4, size 0x3cc, virtual false, abstract: false, final false
   static inline bool GetIsDaylightSavings(::System::DateTime time, ::System::TimeZoneInfo_AdjustmentRule* rule, ::System::Globalization::DaylightTimeStruct daylightTime,
                                           ::System::TimeZoneInfoOptions flags);
 
-  /// @brief Method GetIsDaylightSavingsFromUtc, addr 0x5ba9bd8, size 0x7bc, virtual false, abstract: false, final false
+  /// @brief Method GetIsDaylightSavingsFromUtc, addr 0x5fc1ea0, size 0x7bc, virtual false, abstract: false, final false
   static inline bool GetIsDaylightSavingsFromUtc(::System::DateTime time, int32_t year, ::System::TimeSpan utc, ::System::TimeZoneInfo_AdjustmentRule* rule, ::System::Nullable_1<int32_t> ruleIndex,
                                                  ::by_ref<bool> isAmbiguousLocalDst, ::System::TimeZoneInfo* zone);
 
-  /// @brief Method GetIsInvalidTime, addr 0x5ba7044, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method GetIsInvalidTime, addr 0x5fbf30c, size 0x3b8, virtual false, abstract: false, final false
   static inline bool GetIsInvalidTime(::System::DateTime time, ::System::TimeZoneInfo_AdjustmentRule* rule, ::System::Globalization::DaylightTimeStruct daylightTime);
 
-  /// @brief Method GetLocalTimeZone, addr 0x5ba1840, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetLocalTimeZone, addr 0x5fb9b08, size 0x50, virtual false, abstract: false, final false
   static inline ::System::TimeZoneInfo* GetLocalTimeZone(::System::TimeZoneInfo_CachedData* cachedData);
 
-  /// @brief Method GetLocalTimeZoneFromTzFile, addr 0x5ba1890, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetLocalTimeZoneFromTzFile, addr 0x5fb9b58, size 0x16c, virtual false, abstract: false, final false
   static inline ::System::TimeZoneInfo* GetLocalTimeZoneFromTzFile();
 
-  /// @brief Method GetLocalUtcOffset, addr 0x5ba6468, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetLocalUtcOffset, addr 0x5fbe730, size 0x98, virtual false, abstract: false, final false
   static inline ::System::TimeSpan GetLocalUtcOffset(::System::DateTime dateTime, ::System::TimeZoneInfoOptions flags);
 
-  /// @brief Method GetPreviousAdjustmentRule, addr 0x5ba6140, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetPreviousAdjustmentRule, addr 0x5fbe408, size 0x104, virtual false, abstract: false, final false
   inline ::System::TimeZoneInfo_AdjustmentRule* GetPreviousAdjustmentRule(::System::TimeZoneInfo_AdjustmentRule* rule, ::System::Nullable_1<int32_t> ruleIndex);
 
-  /// @brief Method GetTimeZoneDirectory, addr 0x5ba1de0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetTimeZoneDirectory, addr 0x5fba0a8, size 0x15c, virtual false, abstract: false, final false
   static inline ::StringW GetTimeZoneDirectory();
 
-  /// @brief Method GetTimeZoneDirectoryUnity, addr 0x5baa574, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetTimeZoneDirectoryUnity, addr 0x5fc283c, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW GetTimeZoneDirectoryUnity();
 
-  /// @brief Method GetTimeZoneFromTzData, addr 0x5ba2dac, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method GetTimeZoneFromTzData, addr 0x5fbb074, size 0x1bc, virtual false, abstract: false, final false
   static inline ::System::TimeZoneInfo* GetTimeZoneFromTzData(::ArrayW<uint8_t> rawData, ::StringW id);
 
-  /// @brief Method GetTzEnvironmentVariable, addr 0x5ba1bc4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetTzEnvironmentVariable, addr 0x5fb9e8c, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW GetTzEnvironmentVariable();
 
-  /// @brief Method GetUtcOffset, addr 0x5baa4a8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetUtcOffset, addr 0x5fc2770, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::TimeSpan GetUtcOffset(::System::TimeSpan baseUtcOffset, ::System::TimeZoneInfo_AdjustmentRule* adjustmentRule);
 
-  /// @brief Method GetUtcOffset, addr 0x5ba6244, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetUtcOffset, addr 0x5fbe50c, size 0x78, virtual false, abstract: false, final false
   inline ::System::TimeSpan GetUtcOffset(::System::DateTime dateTime);
 
-  /// @brief Method GetUtcOffset, addr 0x5ba6518, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetUtcOffset, addr 0x5fbe7e0, size 0x7c, virtual false, abstract: false, final false
   inline ::System::TimeSpan GetUtcOffset(::System::DateTime dateTime, ::System::TimeZoneInfoOptions flags);
 
-  /// @brief Method GetUtcOffset, addr 0x5ba62bc, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetUtcOffset, addr 0x5fbe584, size 0x1ac, virtual false, abstract: false, final false
   inline ::System::TimeSpan GetUtcOffset(::System::DateTime dateTime, ::System::TimeZoneInfoOptions flags, ::System::TimeZoneInfo_CachedData* cachedData);
 
-  /// @brief Method GetUtcOffset, addr 0x5ba6720, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method GetUtcOffset, addr 0x5fbe9e8, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::TimeSpan GetUtcOffset(::System::DateTime time, ::System::TimeZoneInfo* zone, ::System::TimeZoneInfoOptions flags);
 
-  /// @brief Method GetUtcOffsetFromUtc, addr 0x5ba66b0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetUtcOffsetFromUtc, addr 0x5fbe978, size 0x70, virtual false, abstract: false, final false
   static inline ::System::TimeSpan GetUtcOffsetFromUtc(::System::DateTime time, ::System::TimeZoneInfo* zone);
 
-  /// @brief Method GetUtcOffsetFromUtc, addr 0x5ba8ee0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetUtcOffsetFromUtc, addr 0x5fc11a8, size 0x84, virtual false, abstract: false, final false
   static inline ::System::TimeSpan GetUtcOffsetFromUtc(::System::DateTime time, ::System::TimeZoneInfo* zone, ::by_ref<bool> isDaylightSavings);
 
-  /// @brief Method GetUtcOffsetFromUtc, addr 0x5ba3584, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method GetUtcOffsetFromUtc, addr 0x5fbb84c, size 0x2f4, virtual false, abstract: false, final false
   static inline ::System::TimeSpan GetUtcOffsetFromUtc(::System::DateTime time, ::System::TimeZoneInfo* zone, ::by_ref<bool> isDaylightSavings, ::by_ref<bool> isAmbiguousLocalDst);
 
-  /// @brief Method HasSameRules, addr 0x5ba7b34, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method HasSameRules, addr 0x5fbfdfc, size 0x170, virtual false, abstract: false, final false
   inline bool HasSameRules(::System::TimeZoneInfo* other);
 
-  /// @brief Method IsValidAdjustmentRuleOffest, addr 0x5ba4224, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsValidAdjustmentRuleOffest, addr 0x5fbc4ec, size 0x78, virtual false, abstract: false, final false
   static inline bool IsValidAdjustmentRuleOffest(::System::TimeSpan baseUtcOffset, ::System::TimeZoneInfo_AdjustmentRule* adjustmentRule);
 
   static inline ::System::TimeZoneInfo* New_ctor();
@@ -1224,108 +1224,108 @@ public:
 
   static inline ::System::TimeZoneInfo* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method NormalizeAdjustmentRuleOffset, addr 0x5ba429c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method NormalizeAdjustmentRuleOffset, addr 0x5fbc564, size 0x230, virtual false, abstract: false, final false
   static inline void NormalizeAdjustmentRuleOffset(::System::TimeSpan baseUtcOffset, ::by_ref<::System::TimeZoneInfo_AdjustmentRule*> adjustmentRule);
 
-  /// @brief Method ParseTimeOfDay, addr 0x5ba4e64, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method ParseTimeOfDay, addr 0x5fbd12c, size 0x270, virtual false, abstract: false, final false
   static inline ::System::DateTime ParseTimeOfDay(::StringW time);
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5ba8210, size 0x1fc, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5fc04d8, size 0x1fc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5ba840c, size 0x1dc, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5fc06d4, size 0x1dc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method TZif_CalculateTransitionOffsetFromBase, addr 0x5ba4000, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method TZif_CalculateTransitionOffsetFromBase, addr 0x5fbc2c8, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::TimeSpan TZif_CalculateTransitionOffsetFromBase(::System::TimeSpan transitionOffset, ::System::TimeSpan timeZoneBaseUtcOffset);
 
-  /// @brief Method TZif_CreateAdjustmentRuleForPosixFormat, addr 0x5ba44cc, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method TZif_CreateAdjustmentRuleForPosixFormat, addr 0x5fbc794, size 0x3b8, virtual false, abstract: false, final false
   static inline ::System::TimeZoneInfo_AdjustmentRule* TZif_CreateAdjustmentRuleForPosixFormat(::StringW posixFormat, ::System::DateTime startTransitionDate, ::System::TimeSpan timeZoneBaseUtcOffset);
 
-  /// @brief Method TZif_CreateTransitionTimeFromPosixRule, addr 0x5ba4c58, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method TZif_CreateTransitionTimeFromPosixRule, addr 0x5fbcf20, size 0x20c, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::System::TimeZoneInfo_TransitionTime> TZif_CreateTransitionTimeFromPosixRule(::StringW date, ::StringW time);
 
-  /// @brief Method TZif_GenerateAdjustmentRule, addr 0x5ba3878, size 0x6e8, virtual false, abstract: false, final false
+  /// @brief Method TZif_GenerateAdjustmentRule, addr 0x5fbbb40, size 0x6e8, virtual false, abstract: false, final false
   static inline void TZif_GenerateAdjustmentRule(::by_ref<int32_t> index, ::System::TimeSpan timeZoneBaseUtcOffset,
                                                  ::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>* rulesList, ::ArrayW<::System::DateTime> dts,
                                                  ::ArrayW<uint8_t> typeOfLocalTime, ::ArrayW<::System::TimeZoneInfo_TZifType> transitionTypes, ::ArrayW<bool> StandardTime, ::ArrayW<bool> GmtTime,
                                                  ::StringW futureTransitionsPosixFormat);
 
-  /// @brief Method TZif_GenerateAdjustmentRules, addr 0x5ba0dac, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method TZif_GenerateAdjustmentRules, addr 0x5fb9074, size 0x158, virtual false, abstract: false, final false
   static inline void TZif_GenerateAdjustmentRules(::by_ref<::ArrayW<::System::TimeZoneInfo_AdjustmentRule*>> rules, ::System::TimeSpan baseUtcOffset, ::ArrayW<::System::DateTime> dts,
                                                   ::ArrayW<uint8_t> typeOfLocalTime, ::ArrayW<::System::TimeZoneInfo_TZifType> transitionType, ::ArrayW<bool> StandardTime, ::ArrayW<bool> GmtTime,
                                                   ::StringW futureTransitionsPosixFormat);
 
-  /// @brief Method TZif_GetEarlyDateTransitionType, addr 0x5ba3f60, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method TZif_GetEarlyDateTransitionType, addr 0x5fbc228, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::TimeZoneInfo_TZifType TZif_GetEarlyDateTransitionType(::ArrayW<::System::TimeZoneInfo_TZifType> transitionTypes);
 
-  /// @brief Method TZif_GetZoneAbbreviation, addr 0x5ba0d48, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method TZif_GetZoneAbbreviation, addr 0x5fb9010, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW TZif_GetZoneAbbreviation(::StringW zoneAbbreviations, int32_t index);
 
-  /// @brief Method TZif_ParseJulianDay, addr 0x5ba5324, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method TZif_ParseJulianDay, addr 0x5fbd5ec, size 0x1b0, virtual false, abstract: false, final false
   static inline void TZif_ParseJulianDay(::StringW date, ::by_ref<int32_t> month, ::by_ref<int32_t> day);
 
-  /// @brief Method TZif_ParseMDateRule, addr 0x5ba50d4, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method TZif_ParseMDateRule, addr 0x5fbd39c, size 0x1e8, virtual false, abstract: false, final false
   static inline bool TZif_ParseMDateRule(::StringW dateRule, ::by_ref<int32_t> month, ::by_ref<int32_t> week, ::by_ref<::System::DayOfWeek> dayOfWeek);
 
-  /// @brief Method TZif_ParseOffsetString, addr 0x5ba4a80, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method TZif_ParseOffsetString, addr 0x5fbcd48, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::System::TimeSpan> TZif_ParseOffsetString(::StringW offset);
 
-  /// @brief Method TZif_ParsePosixDate, addr 0x5ba59b8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method TZif_ParsePosixDate, addr 0x5fbdc80, size 0x114, virtual false, abstract: false, final false
   static inline ::StringW TZif_ParsePosixDate(::StringW posixFormat, ::by_ref<int32_t> index);
 
-  /// @brief Method TZif_ParsePosixDateTime, addr 0x5ba582c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TZif_ParsePosixDateTime, addr 0x5fbdaf4, size 0xe8, virtual false, abstract: false, final false
   static inline void TZif_ParsePosixDateTime(::StringW posixFormat, ::by_ref<int32_t> index, ::by_ref<::StringW> date, ::by_ref<::StringW> time);
 
-  /// @brief Method TZif_ParsePosixFormat, addr 0x5ba4884, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method TZif_ParsePosixFormat, addr 0x5fbcb4c, size 0x1fc, virtual false, abstract: false, final false
   static inline bool TZif_ParsePosixFormat(::StringW posixFormat, ::by_ref<::StringW> standardName, ::by_ref<::StringW> standardOffset, ::by_ref<::StringW> daylightSavingsName,
                                            ::by_ref<::StringW> daylightSavingsOffset, ::by_ref<::StringW> start, ::by_ref<::StringW> startTime, ::by_ref<::StringW> end, ::by_ref<::StringW> endTime);
 
-  /// @brief Method TZif_ParsePosixName, addr 0x5ba54d4, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method TZif_ParsePosixName, addr 0x5fbd79c, size 0x244, virtual false, abstract: false, final false
   static inline ::StringW TZif_ParsePosixName(::StringW posixFormat, ::by_ref<int32_t> index);
 
-  /// @brief Method TZif_ParsePosixOffset, addr 0x5ba5718, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method TZif_ParsePosixOffset, addr 0x5fbd9e0, size 0x114, virtual false, abstract: false, final false
   static inline ::StringW TZif_ParsePosixOffset(::StringW posixFormat, ::by_ref<int32_t> index);
 
-  /// @brief Method TZif_ParsePosixString, addr 0x5ba5914, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method TZif_ParsePosixString, addr 0x5fbdbdc, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW TZif_ParsePosixString(::StringW posixFormat, ::by_ref<int32_t> index, ::System::Func_2<char16_t, bool>* breakCondition);
 
-  /// @brief Method TZif_ParsePosixTime, addr 0x5ba5acc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method TZif_ParsePosixTime, addr 0x5fbdd94, size 0x114, virtual false, abstract: false, final false
   static inline ::StringW TZif_ParsePosixTime(::StringW posixFormat, ::by_ref<int32_t> index);
 
-  /// @brief Method TZif_ParseRaw, addr 0x5ba0834, size 0x514, virtual false, abstract: false, final false
+  /// @brief Method TZif_ParseRaw, addr 0x5fb8afc, size 0x514, virtual false, abstract: false, final false
   static inline void TZif_ParseRaw(::ArrayW<uint8_t> data, ::by_ref<::System::TimeZoneInfo_TZifHead> t, ::by_ref<::ArrayW<::System::DateTime>> dts, ::by_ref<::ArrayW<uint8_t>> typeOfLocalTime,
                                    ::by_ref<::ArrayW<::System::TimeZoneInfo_TZifType>> transitionType, ::by_ref<::StringW> zoneAbbreviations, ::by_ref<::ArrayW<bool>> StandardTime,
                                    ::by_ref<::ArrayW<bool>> GmtTime, ::by_ref<::StringW> futureTransitionsPosixFormat);
 
-  /// @brief Method TZif_ToInt32, addr 0x5ba5be0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method TZif_ToInt32, addr 0x5fbdea8, size 0x30, virtual false, abstract: false, final false
   static inline int32_t TZif_ToInt32(::ArrayW<uint8_t> value, int32_t startIndex);
 
-  /// @brief Method TZif_ToInt64, addr 0x5ba5c10, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method TZif_ToInt64, addr 0x5fbded8, size 0x30, virtual false, abstract: false, final false
   static inline int64_t TZif_ToInt64(::ArrayW<uint8_t> value, int32_t startIndex);
 
-  /// @brief Method TZif_ToUnixTime, addr 0x5ba5c40, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TZif_ToUnixTime, addr 0x5fbdf08, size 0x9c, virtual false, abstract: false, final false
   static inline int64_t TZif_ToUnixTime(::ArrayW<uint8_t> value, int32_t startIndex, ::System::TimeZoneInfo_TZVersion version);
 
-  /// @brief Method TZif_UnixTimeToDateTime, addr 0x5ba5cdc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method TZif_UnixTimeToDateTime, addr 0x5fbdfa4, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::DateTime TZif_UnixTimeToDateTime(int64_t unixTime);
 
-  /// @brief Method ToString, addr 0x5ba7f1c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5fc01e4, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TransitionTimeToDateTime, addr 0x5ba8f64, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method TransitionTimeToDateTime, addr 0x5fc122c, size 0x2d8, virtual false, abstract: false, final false
   static inline ::System::DateTime TransitionTimeToDateTime(int32_t year, ::System::TimeZoneInfo_TransitionTime transitionTime);
 
-  /// @brief Method TryGetLocalTzFile, addr 0x5ba19fc, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method TryGetLocalTzFile, addr 0x5fb9cc4, size 0x1c8, virtual false, abstract: false, final false
   static inline bool TryGetLocalTzFile(::by_ref<::ArrayW<uint8_t>> rawData, ::by_ref<::StringW> id);
 
-  /// @brief Method TryLoadTzFile, addr 0x5ba1c48, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method TryLoadTzFile, addr 0x5fb9f10, size 0x198, virtual false, abstract: false, final false
   static inline bool TryLoadTzFile(::StringW tzFilePath, ::by_ref<::ArrayW<uint8_t>> rawData, ::by_ref<::StringW> id);
 
-  /// @brief Method UtcOffsetOutOfRange, addr 0x5baa394, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method UtcOffsetOutOfRange, addr 0x5fc265c, size 0xdc, virtual false, abstract: false, final false
   static inline bool UtcOffsetOutOfRange(::System::TimeSpan offset);
 
-  /// @brief Method ValidateTimeZoneInfo, addr 0x5ba0f04, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method ValidateTimeZoneInfo, addr 0x5fb91cc, size 0x358, virtual false, abstract: false, final false
   static inline void ValidateTimeZoneInfo(::StringW id, ::System::TimeSpan baseUtcOffset, ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*> adjustmentRules, ::by_ref<bool> adjustmentRulesSupportDst);
 
   constexpr ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*> const& __cordl_internal_get__adjustmentRules() const;
@@ -1370,17 +1370,17 @@ public:
 
   constexpr void __cordl_internal_set__supportsDaylightSavingTime(bool value);
 
-  /// @brief Method .ctor, addr 0x5baaf70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc3238, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5ba0384, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb864c, size 0x4b0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> data, ::StringW id, bool dstDisabled);
 
-  /// @brief Method .ctor, addr 0x5ba7f98, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc0260, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName, ::StringW daylightDisplayName,
                     ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*> adjustmentRules, bool disableDaylightSavingTime);
 
-  /// @brief Method .ctor, addr 0x5ba85e8, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc08b0, size 0x3d0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::TimeSpan getStaticF_MaxOffset();
@@ -1395,25 +1395,25 @@ public:
 
   static inline ::System::TimeZoneInfo* getStaticF_s_utcTimeZone();
 
-  /// @brief Method get_BaseUtcOffset, addr 0x5ba6130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseUtcOffset, addr 0x5fbe3f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_BaseUtcOffset();
 
-  /// @brief Method get_DaylightName, addr 0x5ba6110, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_DaylightName, addr 0x5fbe3d8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_DaylightName();
 
-  /// @brief Method get_DisplayName, addr 0x5ba60d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x5fbe398, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_Local, addr 0x5ba3504, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Local, addr 0x5fbb7cc, size 0x80, virtual false, abstract: false, final false
   static inline ::System::TimeZoneInfo* get_Local();
 
-  /// @brief Method get_StandardName, addr 0x5ba60f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_StandardName, addr 0x5fbe3b8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_StandardName();
 
-  /// @brief Method get_SupportsDaylightSavingTime, addr 0x5ba6138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SupportsDaylightSavingTime, addr 0x5fbe400, size 0x8, virtual false, abstract: false, final false
   inline bool get_SupportsDaylightSavingTime();
 
-  /// @brief Method get_Utc, addr 0x5ba7f3c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Utc, addr 0x5fc0204, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::TimeZoneInfo* get_Utc();
 
   /// @brief Convert to "::System::IEquatable_1<::System::TimeZoneInfo*>"

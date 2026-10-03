@@ -8,6 +8,7 @@ module;
 #include "UnityEngine/Networking/DownloadHandlerAssetBundle.hpp"
 #include "UnityEngine/Networking/DownloadHandlerAudioClip.hpp"
 #include "UnityEngine/Networking/DownloadHandlerBuffer.hpp"
+#include "UnityEngine/Networking/DownloadHandlerFile.hpp"
 #include "UnityEngine/Networking/DownloadHandlerTexture.hpp"
 #include "UnityEngine/Networking/DownloadedTextureFlags.hpp"
 #include "UnityEngine/Networking/DownloadedTextureParams.hpp"

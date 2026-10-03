@@ -13,8 +13,8 @@ struct LeakCategory;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::LeakCategory);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LeakCategory, "Unity.Collections", "LeakCategory");
-// [UsedByNativeCode]
 // [VisibleToOtherModules(new[] { "UnityEngine.AIModule" })]
+// [UsedByNativeCode]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -82,7 +82,7 @@ public:
   static ::Unity::Collections::LeakCategory const TransformAccessArray;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9991 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9565 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

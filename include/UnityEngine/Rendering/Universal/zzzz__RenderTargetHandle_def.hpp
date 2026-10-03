@@ -27,7 +27,7 @@ struct RenderTargetHandle;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::RenderTargetHandle);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::RenderTargetHandle, "UnityEngine.Rendering.Universal", "RenderTargetHandle");
-// [Obsolete("Deprecated in favor of RTHandle", true)]
+// [Obsolete("Deprecated in favor of RTHandle. #from(2022.1) #breakingFrom(2023.1)", true)]
 // Dependencies UnityEngine.Rendering.RenderTargetIdentifier
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -42,62 +42,62 @@ public:
 
   __declspec(property(get = get_rtid, put = set_rtid)) ::UnityEngine::Rendering::RenderTargetIdentifier rtid;
 
-  /// @brief Method Equals, addr 0x68b8084, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ce6a88, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x68b7f40, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ce6974, size 0x114, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::Rendering::Universal::RenderTargetHandle other);
 
-  /// @brief Method GetCameraTarget, addr 0x68b7c04, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetCameraTarget, addr 0x6ce6610, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::RenderTargetHandle GetCameraTarget(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method GetHashCode, addr 0x68b814c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6ce6b50, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method HasInternalRenderTargetId, addr 0x68b7ee0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HasInternalRenderTargetId, addr 0x6ce6914, size 0x60, virtual false, abstract: false, final false
   inline bool HasInternalRenderTargetId();
 
-  /// @brief Method Identifier, addr 0x68b7dd4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Identifier, addr 0x6ce67e0, size 0x134, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier Identifier();
 
-  /// @brief Method Init, addr 0x68b7d58, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6ce6764, size 0x7c, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Rendering::RenderTargetIdentifier renderTargetIdentifier);
 
-  /// @brief Method Init, addr 0x68b7ce0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6ce66ec, size 0x78, virtual false, abstract: false, final false
   inline void Init(::StringW shaderProperty);
 
-  /// @brief Method .ctor, addr 0x68b7990, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce6348, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderTargetIdentifier renderTargetIdentifier);
 
-  /// @brief Method .ctor, addr 0x68b7a0c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce63c4, size 0x24c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RTHandle* rtHandle);
 
   static inline ::UnityEngine::Rendering::Universal::RenderTargetHandle getStaticF_CameraTarget();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_id, addr 0x68b7958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x6ce6310, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_rtid, addr 0x68b7978, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_rtid, addr 0x6ce6330, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_rtid();
 
-  /// @brief Method op_Equality, addr 0x68b81a4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6ce6ba8, size 0x88, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::Universal::RenderTargetHandle c1, ::UnityEngine::Rendering::Universal::RenderTargetHandle c2);
 
-  /// @brief Method op_Inequality, addr 0x68b822c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6ce6c30, size 0x8c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::Universal::RenderTargetHandle c1, ::UnityEngine::Rendering::Universal::RenderTargetHandle c2);
 
   static inline void setStaticF_CameraTarget(::UnityEngine::Rendering::Universal::RenderTargetHandle value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_id, addr 0x68b7950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x6ce6308, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_rtid, addr 0x68b7960, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_rtid, addr 0x6ce6318, size 0x18, virtual false, abstract: false, final false
   inline void set_rtid(::UnityEngine::Rendering::RenderTargetIdentifier value);
 
   // Ctor Parameters []
@@ -109,7 +109,7 @@ public:
   constexpr RenderTargetHandle(int32_t _id_k__BackingField, ::UnityEngine::Rendering::RenderTargetIdentifier _rtid_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13143 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

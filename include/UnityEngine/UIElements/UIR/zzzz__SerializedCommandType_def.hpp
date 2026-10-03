@@ -27,6 +27,7 @@ public:
     __E_DrawRanges = static_cast<int32_t>(0x0),
     __E_SetTexture = static_cast<int32_t>(0x1),
     __E_ApplyBatchProps = static_cast<int32_t>(0x2),
+    __E_ApplyUserProps = static_cast<int32_t>(0x3),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -49,6 +50,9 @@ public:
   /// @brief Field ApplyBatchProps value: I32(2)
   static ::UnityEngine::UIElements::UIR::SerializedCommandType const ApplyBatchProps;
 
+  /// @brief Field ApplyUserProps value: I32(3)
+  static ::UnityEngine::UIElements::UIR::SerializedCommandType const ApplyUserProps;
+
   /// @brief Field DrawRanges value: I32(0)
   static ::UnityEngine::UIElements::UIR::SerializedCommandType const DrawRanges;
 
@@ -56,7 +60,7 @@ public:
   static ::UnityEngine::UIElements::UIR::SerializedCommandType const SetTexture;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5386 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

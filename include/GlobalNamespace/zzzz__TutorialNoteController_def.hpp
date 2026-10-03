@@ -67,7 +67,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::TutorialNoteController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58d9654, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cefe34, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   TutorialNoteController_Pool(TutorialNoteController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5814 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -130,30 +130,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteMirrorable"
   constexpr operator ::GlobalNamespace::INoteMirrorable*() noexcept;
 
-  /// @brief Method Awake, addr 0x58d8e34, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5cef648, size 0xec, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleBeforeNoteWasCutBySaber, addr 0x58d90d0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleBeforeNoteWasCutBySaber, addr 0x5cef8e4, size 0xdc, virtual false, abstract: false, final false
   inline void HandleBeforeNoteWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HandleCoreWasCutBySaber, addr 0x58d91ac, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method HandleCoreWasCutBySaber, addr 0x5cef9c0, size 0x440, virtual false, abstract: false, final false
   inline void HandleCoreWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HiddenStateDidChange, addr 0x58d9620, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method HiddenStateDidChange, addr 0x5cefe00, size 0x20, virtual true, abstract: false, final false
   inline void HiddenStateDidChange(bool hide);
 
-  /// @brief Method Init, addr 0x58d8d9c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5cef5b0, size 0x98, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t cutAngleTolerance, float_t uniformScale);
 
   static inline ::GlobalNamespace::TutorialNoteController* New_ctor();
 
-  /// @brief Method NoteDidPassMissedMarker, addr 0x58d9088, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method NoteDidPassMissedMarker, addr 0x5cef89c, size 0x48, virtual true, abstract: false, final false
   inline void NoteDidPassMissedMarker();
 
-  /// @brief Method OnDestroy, addr 0x58d8f20, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5cef734, size 0x168, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x58d9640, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x5cefe20, size 0x10, virtual true, abstract: false, final false
   inline void Pause(bool pause);
 
   constexpr bool const& __cordl_internal_get__beforeNoteCutWasOk() const;
@@ -186,16 +186,16 @@ public:
 
   constexpr void __cordl_internal_set__wrapperGO(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x58d9650, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cefe30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameplayType, addr 0x58d8d94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gameplayType, addr 0x5cef5a8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteData_GameplayType get_gameplayType();
 
-  /// @brief Method get_noteMovement, addr 0x58d8d84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noteMovement, addr 0x5cef598, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::NoteMovement> get_noteMovement();
 
-  /// @brief Method get_noteVisualModifierType, addr 0x58d8d8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noteVisualModifierType, addr 0x5cef5a0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
   /// @brief Convert to "::GlobalNamespace::IGameNoteMirrorable"
@@ -219,7 +219,7 @@ public:
   TutorialNoteController(TutorialNoteController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5815 };
 
   /// [SerializeField]
   /// @brief Field _cuttableBySaberCore, offset: 0x88, size: 0x8, def value: None

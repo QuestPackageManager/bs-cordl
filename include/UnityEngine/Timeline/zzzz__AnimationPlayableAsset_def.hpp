@@ -159,7 +159,7 @@ public:
   static ::UnityEngine::Timeline::AnimationPlayableAsset_LoopMode const UseSourceAsset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19154 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19262 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -214,7 +214,7 @@ public:
   static ::UnityEngine::Timeline::AnimationPlayableAsset_Versions const RotationAsEuler;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19155 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19263 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -237,7 +237,7 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE AnimationPlayableAsset_AnimationPlayableAssetUpgrade : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertRotationToEuler, addr 0x69adef8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ConvertRotationToEuler, addr 0x6dd5ae0, size 0x48, virtual false, abstract: false, final false
   static inline void ConvertRotationToEuler(::UnityEngine::Timeline::AnimationPlayableAsset* asset);
 
 protected:
@@ -255,7 +255,7 @@ public:
   AnimationPlayableAsset_AnimationPlayableAssetUpgrade(AnimationPlayableAsset_AnimationPlayableAssetUpgrade const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19264 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -303,34 +303,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x69ae0a8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6dd5c44, size 0x80, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::UnityEngine::Timeline::AnimationPlayableAsset__get_outputs_d__45* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x69ae1d4, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x6dd5d70, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable_UnityEngine_Playables_PlayableBinding__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x69ae128, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x6dd5cc4, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69ae26c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6dd5e08, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69ae138, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6dd5cd4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69ae170, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6dd5d0c, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x69ae0a4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6dd5c40, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -358,7 +358,7 @@ public:
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x69ad5ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6dd51bc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>"
@@ -393,7 +393,7 @@ public:
   AnimationPlayableAsset__get_outputs_d__45(AnimationPlayableAsset__get_outputs_d__45 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19265 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -512,38 +512,38 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x69ad6e8, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x6dd52b8, size 0x480, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::AnimationClip* clip, ::UnityEngine::Vector3 positionOffset,
                                                                   ::UnityEngine::Vector3 eulerOffset, bool removeStartOffset, ::UnityEngine::Timeline::AppliedOffsetMode mode, bool applyFootIK,
                                                                   ::UnityEngine::Timeline::AnimationPlayableAsset_LoopMode loop);
 
-  /// @brief Method CreatePlayable, addr 0x69ad60c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x6dd51dc, size 0xdc, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
-  /// @brief Method GatherProperties, addr 0x69add44, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method GatherProperties, addr 0x6dd592c, size 0xb8, virtual true, abstract: false, final true
   inline void GatherProperties(::UnityEngine::Playables::PlayableDirector* director, ::UnityEngine::Timeline::IPropertyCollector* driver);
 
-  /// @brief Method HasRootTransforms, addr 0x69ad34c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HasRootTransforms, addr 0x6dd4f1c, size 0xd0, virtual false, abstract: false, final false
   static inline bool HasRootTransforms(::UnityEngine::AnimationClip* clip);
 
   static inline ::UnityEngine::Timeline::AnimationPlayableAsset* New_ctor();
 
-  /// @brief Method OnUpgradeFromVersion, addr 0x69adee8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnUpgradeFromVersion, addr 0x6dd5ad0, size 0x10, virtual false, abstract: false, final false
   inline void OnUpgradeFromVersion(int32_t oldVersion);
 
-  /// @brief Method ResetOffsets, addr 0x69adcd4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ResetOffsets, addr 0x6dd58bc, size 0x70, virtual false, abstract: false, final false
   inline void ResetOffsets();
 
-  /// @brief Method ShouldApplyOffset, addr 0x69adb68, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ShouldApplyOffset, addr 0x6dd5750, size 0x84, virtual false, abstract: false, final false
   static inline bool ShouldApplyOffset(::UnityEngine::Timeline::AppliedOffsetMode mode, ::UnityEngine::AnimationClip* clip);
 
-  /// @brief Method ShouldApplyScaleRemove, addr 0x69adb50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ShouldApplyScaleRemove, addr 0x6dd5738, size 0x18, virtual false, abstract: false, final false
   static inline bool ShouldApplyScaleRemove(::UnityEngine::Timeline::AppliedOffsetMode mode);
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x69ade60, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6dd5a48, size 0x88, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x69addfc, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6dd59e4, size 0x64, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
   constexpr ::UnityEngine::Timeline::AppliedOffsetMode const& __cordl_internal_get__appliedOffsetMode_k__BackingField() const;
@@ -612,53 +612,53 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x69adf44, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6dd5b28, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_k_LatestVersion();
 
   /// [CompilerGenerated]
-  /// @brief Method get_appliedOffsetMode, addr 0x69ad41c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_appliedOffsetMode, addr 0x6dd4fec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::AppliedOffsetMode get_appliedOffsetMode();
 
-  /// @brief Method get_applyFootIK, addr 0x69ad280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_applyFootIK, addr 0x6dd4e50, size 0x8, virtual false, abstract: false, final false
   inline bool get_applyFootIK();
 
-  /// @brief Method get_clip, addr 0x69ad42c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x6dd4ffc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AnimationClip> get_clip();
 
-  /// @brief Method get_clipCaps, addr 0x69adbec, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x6dd57d4, size 0xe8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
-  /// @brief Method get_duration, addr 0x69ad4f4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_duration, addr 0x6dd50c4, size 0x88, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_eulerAngles, addr 0x69ad238, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_eulerAngles, addr 0x6dd4e08, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_eulerAngles();
 
-  /// @brief Method get_hasRootTransforms, addr 0x69ad2a0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_hasRootTransforms, addr 0x6dd4e70, size 0xac, virtual false, abstract: false, final false
   inline bool get_hasRootTransforms();
 
-  /// @brief Method get_loop, addr 0x69ad290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loop, addr 0x6dd4e60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::AnimationPlayableAsset_LoopMode get_loop();
 
-  /// @brief Method get_matchTargetFields, addr 0x69ad260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_matchTargetFields, addr 0x6dd4e30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::MatchTargetFields get_matchTargetFields();
 
   /// [IteratorStateMachine(typeof(UnityEngine.Timeline.AnimationPlayableAsset::<get_outputs>d__45))]
-  /// @brief Method get_outputs, addr 0x69ad57c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x6dd514c, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
-  /// @brief Method get_position, addr 0x69ad1b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x6dd4d54, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_removeStartOffset, addr 0x69ad270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_removeStartOffset, addr 0x6dd4e40, size 0x8, virtual false, abstract: false, final false
   inline bool get_removeStartOffset();
 
-  /// @brief Method get_rotation, addr 0x69ad1cc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x6dd4d6c, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method get_useTrackMatchFields, addr 0x69ad250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useTrackMatchFields, addr 0x6dd4e20, size 0x8, virtual false, abstract: false, final false
   inline bool get_useTrackMatchFields();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -673,34 +673,34 @@ public:
   static inline void setStaticF_k_LatestVersion(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_appliedOffsetMode, addr 0x69ad424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_appliedOffsetMode, addr 0x6dd4ff4, size 0x8, virtual false, abstract: false, final false
   inline void set_appliedOffsetMode(::UnityEngine::Timeline::AppliedOffsetMode value);
 
-  /// @brief Method set_applyFootIK, addr 0x69ad288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_applyFootIK, addr 0x6dd4e58, size 0x8, virtual false, abstract: false, final false
   inline void set_applyFootIK(bool value);
 
-  /// @brief Method set_clip, addr 0x69ad434, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_clip, addr 0x6dd5004, size 0xc0, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::AnimationClip* value);
 
-  /// @brief Method set_eulerAngles, addr 0x69ad244, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_eulerAngles, addr 0x6dd4e14, size 0xc, virtual false, abstract: false, final false
   inline void set_eulerAngles(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_loop, addr 0x69ad298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_loop, addr 0x6dd4e68, size 0x8, virtual false, abstract: false, final false
   inline void set_loop(::UnityEngine::Timeline::AnimationPlayableAsset_LoopMode value);
 
-  /// @brief Method set_matchTargetFields, addr 0x69ad268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_matchTargetFields, addr 0x6dd4e38, size 0x8, virtual false, abstract: false, final false
   inline void set_matchTargetFields(::UnityEngine::Timeline::MatchTargetFields value);
 
-  /// @brief Method set_position, addr 0x69ad1c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x6dd4d60, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_removeStartOffset, addr 0x69ad278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_removeStartOffset, addr 0x6dd4e48, size 0x8, virtual false, abstract: false, final false
   inline void set_removeStartOffset(bool value);
 
-  /// @brief Method set_rotation, addr 0x69ad1fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x6dd4db8, size 0x50, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_useTrackMatchFields, addr 0x69ad258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useTrackMatchFields, addr 0x6dd4e28, size 0x8, virtual false, abstract: false, final false
   inline void set_useTrackMatchFields(bool value);
 
 protected:
@@ -718,7 +718,7 @@ public:
   AnimationPlayableAsset(AnimationPlayableAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19266 };
 
   /// [SerializeField]
   /// @brief Field m_Clip, offset: 0x18, size: 0x8, def value: None

@@ -35,6 +35,11 @@ template <typename TKey, typename TValue> inline void Unity::Collections::Native
                                                                                          { "Add", {}, { ::i2c::type_of<TKey>(), ::i2c::type_of<TValue>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, key, item);
 }
+template <typename TKey, typename TValue> inline void Unity::Collections::NativeParallelMultiHashMap_2_ParallelWriter<TKey, TValue>::Add(TKey key, TValue item, int32_t threadIndexOverride) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeParallelMultiHashMap_2_ParallelWriter<TKey, TValue>>(),
+                                                                                         { "Add", {}, { ::i2c::type_of<TKey>(), ::i2c::type_of<TValue>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, key, item, threadIndexOverride);
+}
 // Ctor Parameters [CppParam { name: "m_Writer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelMultiHashMap_2_ParallelWriter<TKey,TValue>", modifiers: "", def_value: Some("{}"), comment:
 // None }]
 template <typename TKey, typename TValue>

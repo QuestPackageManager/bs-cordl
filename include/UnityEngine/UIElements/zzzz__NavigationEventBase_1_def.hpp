@@ -60,9 +60,6 @@ public:
   /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::UIElements::NavigationDeviceType deviceType, ::UnityEngine::EventModifiers modifiers);
 
-  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline T GetPooled(::UnityEngine::EventModifiers modifiers);
-
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
 
@@ -126,15 +123,15 @@ public:
   NavigationEventBase_1(NavigationEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4514 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
   /// @brief Field <modifiers>k__BackingField, offset: 0x64, size: 0x4, def value: None
   ::UnityEngine::EventModifiers ____modifiers_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <deviceType>k__BackingField, offset: 0x68, size: 0x4, def value: None
   ::UnityEngine::UIElements::NavigationDeviceType ____deviceType_k__BackingField;
 

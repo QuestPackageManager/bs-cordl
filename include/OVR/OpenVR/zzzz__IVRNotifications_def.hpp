@@ -63,20 +63,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRNotifications__CreateNotification : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5e3e61c, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6258414, size 0x140, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, ::OVR::OpenVR::EVRNotificationType type, ::StringW pchText, ::OVR::OpenVR::EVRNotificationStyle style,
                                              ::by_ref<::OVR::OpenVR::NotificationBitmap_t> pImage, ::by_ref<uint32_t> pNotificationId, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5e3e75c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6258554, size 0x30, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRNotificationError EndInvoke(::by_ref<::OVR::OpenVR::NotificationBitmap_t> pImage, ::by_ref<uint32_t> pNotificationId, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5e3e604, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x62583fc, size 0x18, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRNotificationError Invoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, ::OVR::OpenVR::EVRNotificationType type, ::StringW pchText,
                                                     ::OVR::OpenVR::EVRNotificationStyle style, ::by_ref<::OVR::OpenVR::NotificationBitmap_t> pImage, ::by_ref<uint32_t> pNotificationId);
 
   static inline ::OVR::OpenVR::IVRNotifications__CreateNotification* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5e3e598, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6258390, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -94,7 +94,7 @@ public:
   IVRNotifications__CreateNotification(IVRNotifications__CreateNotification const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8428 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -110,18 +110,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRNotifications__RemoveNotification : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5e3e80c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6258604, size 0x58, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t notificationId, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5e3e864, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x625865c, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRNotificationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5e3e7f8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x62585f0, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRNotificationError Invoke(uint32_t notificationId);
 
   static inline ::OVR::OpenVR::IVRNotifications__RemoveNotification* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5e3e78c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6258584, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -139,7 +139,7 @@ public:
   IVRNotifications__RemoveNotification(IVRNotifications__RemoveNotification const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8429 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -167,7 +167,7 @@ public:
   constexpr IVRNotifications(::OVR::OpenVR::IVRNotifications__CreateNotification* CreateNotification, ::OVR::OpenVR::IVRNotifications__RemoveNotification* RemoveNotification) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8311 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8430 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -34,6 +34,7 @@ module;
 #include "UnityEngine/EventSystems/ISubmitHandler.hpp"
 #include "UnityEngine/EventSystems/IUpdateSelectedHandler.hpp"
 #include "UnityEngine/EventSystems/MoveDirection.hpp"
+#include "UnityEngine/EventSystems/NavigationDeviceType.hpp"
 #include "UnityEngine/EventSystems/OVRInputModule.hpp"
 #include "UnityEngine/EventSystems/OVRPhysicsRaycaster.hpp"
 #include "UnityEngine/EventSystems/OVRPointerEventData.hpp"

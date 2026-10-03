@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IConnectedPlayer* (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(
     &::GlobalNamespace::MultiplayerBadgeAwardData::get_awardedPlayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3735258;
+  constexpr static std::size_t addrs = 0x39be848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeAwardData*>(), { "get_awardedPlayer", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&::GlobalNamespace::MultiplayerBadgeAwardData::get_titleLocalizationKey)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3735260;
+  constexpr static std::size_t addrs = 0x39be850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeAwardData*>(), { "get_titleLocalizationKey", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&::GlobalNamespace::MultiplayerBadgeAwardData::get_title)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3735278;
+  constexpr static std::size_t addrs = 0x39be868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeAwardData*>(), { "get_title", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&::GlobalNamespace::MultiplayerBadgeAwardData::get_subtitle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3735280;
+  constexpr static std::size_t addrs = 0x39be870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeAwardData*>(), { "get_subtitle", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&::GlobalNamespace::MultiplayerBadgeAwardData::get_icon)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3735288;
+  constexpr static std::size_t addrs = 0x39be878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeAwardData*>(), { "get_icon", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBadgeAwardData::*)(
     ::GlobalNamespace::IBeatSaberConnectedPlayer*, float_t, ::StringW, ::StringW, ::GlobalNamespace::MultiplayerBadgeDataSO*)>(&::GlobalNamespace::MultiplayerBadgeAwardData::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x37335b0;
+  constexpr static std::size_t addrs = 0x39bcba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MultiplayerBadgeAwardData::*)(::System::Object*)>(&::GlobalNamespace::MultiplayerBadgeAwardData::CompareTo)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3735290;
+  constexpr static std::size_t addrs = 0x39be880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

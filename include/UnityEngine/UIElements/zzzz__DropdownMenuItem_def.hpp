@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::DropdownMenuItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d93e44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7221aa8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   DropdownMenuItem(DropdownMenuItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4410 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

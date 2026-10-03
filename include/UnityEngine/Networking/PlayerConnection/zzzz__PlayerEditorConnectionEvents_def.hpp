@@ -72,7 +72,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b03934, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f5edc8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   PlayerEditorConnectionEvents_MessageEvent(PlayerEditorConnectionEvents_MessageEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10250 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -107,7 +107,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b0397c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f5ee10, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -125,7 +125,7 @@ public:
   PlayerEditorConnectionEvents_ConnectionChangeEvent(PlayerEditorConnectionEvents_ConnectionChangeEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10251 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -172,13 +172,13 @@ public:
 
   constexpr void __cordl_internal_set_subscriberCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6b038ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f5ed40, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MessageTypeId, addr 0x6b03470, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_MessageTypeId, addr 0x6f5e904, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Guid get_MessageTypeId();
 
-  /// @brief Method set_MessageTypeId, addr 0x6b03908, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_MessageTypeId, addr 0x6f5ed9c, size 0x2c, virtual false, abstract: false, final false
   inline void set_MessageTypeId(::System::Guid value);
 
 protected:
@@ -196,7 +196,7 @@ public:
   PlayerEditorConnectionEvents_MessageTypeSubscribers(PlayerEditorConnectionEvents_MessageTypeSubscribers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10252 };
 
   /// [SerializeField]
   /// @brief Field m_messageTypeId, offset: 0x10, size: 0x8, def value: None
@@ -253,18 +253,18 @@ public:
       get = get_messageTypeSubscribers)) ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*
       messageTypeSubscribers;
 
-  /// @brief Method AddAndCreate, addr 0x6b02158, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method AddAndCreate, addr 0x6f5d5ec, size 0x1cc, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* AddAndCreate(::System::Guid messageId);
 
-  /// @brief Method BuildLookup, addr 0x6b03518, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method BuildLookup, addr 0x6f5e9ac, size 0x394, virtual false, abstract: false, final false
   inline void BuildLookup();
 
-  /// @brief Method InvokeMessageIdSubscribers, addr 0x6b02fac, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method InvokeMessageIdSubscribers, addr 0x6f5e440, size 0x184, virtual false, abstract: false, final false
   inline void InvokeMessageIdSubscribers(::System::Guid messageId, ::ArrayW<uint8_t> data, int32_t playerId);
 
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* New_ctor();
 
-  /// @brief Method UnregisterManagedCallback, addr 0x6b024d8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method UnregisterManagedCallback, addr 0x6f5d96c, size 0x148, virtual false, abstract: false, final false
   inline void UnregisterManagedCallback(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
 
   constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* const& __cordl_internal_get_connectionEvent() const;
@@ -296,10 +296,10 @@ public:
   constexpr void __cordl_internal_set_m_SubscriberLookup(
       ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* value);
 
-  /// @brief Method .ctor, addr 0x6b03354, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f5e7e8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_messageTypeSubscribers, addr 0x6b03510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_messageTypeSubscribers, addr 0x6f5e9a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* get_messageTypeSubscribers();
 
 protected:
@@ -317,7 +317,7 @@ public:
   PlayerEditorConnectionEvents(PlayerEditorConnectionEvents const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10253 };
 
   /// [SerializeField]
   /// @brief Field m_MessageTypeSubscribers, offset: 0x10, size: 0x8, def value: None

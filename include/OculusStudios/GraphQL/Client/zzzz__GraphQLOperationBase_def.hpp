@@ -35,7 +35,7 @@ public:
   /// @brief Field _params, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__params, put = __cordl_internal_set__params)) ::System::Collections::Generic::SortedDictionary_2<::StringW, ::System::Object*>* _params;
 
-  /// @brief Method GetParams, addr 0x5f21cec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetParams, addr 0x633c968, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>* GetParams();
 
   /// @brief Method GetVariableNames, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__params(::System::Collections::Generic::SortedDictionary_2<::StringW, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x5f21c68, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x633c8e4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   GraphQLOperationBase(GraphQLOperationBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21045 };
 
   /// @brief Field _params, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedDictionary_2<::StringW, ::System::Object*>* ____params;

@@ -90,15 +90,15 @@ public:
   PointerCaptureEventBase_1(PointerCaptureEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4423 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <relatedTarget>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::UIElements::IEventHandler* ____relatedTarget_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <pointerId>k__BackingField, offset: 0x70, size: 0x4, def value: None
   int32_t ____pointerId_k__BackingField;
 

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::Mono::Security::Cryptography::PKCS1::Compare)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5aa1258;
+  constexpr static std::size_t addrs = 0x5eb913c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, int32_t)>(&::Mono::Security::Cryptography::PKCS1::I2OSP)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5aa12c8;
+  constexpr static std::size_t addrs = 0x5eb91ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&::Mono::Security::Cryptography::PKCS1::OS2IP)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5aa1358;
+  constexpr static std::size_t addrs = 0x5eb923c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::System::Security::Cryptography::RSA*, ::ArrayW<uint8_t>)>(&::Mono::Security::Cryptography::PKCS1::RSAVP1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5aa1428;
+  constexpr static std::size_t addrs = 0x5eb930c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::Cryptography::RSA*, ::System::Security::Cryptography::HashAlgorithm*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool)>(
     &::Mono::Security::Cryptography::PKCS1::Verify_v15)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x5aa1440;
+  constexpr static std::size_t addrs = 0x5eb9324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::System::Security::Cryptography::HashAlgorithm*, ::ArrayW<uint8_t>, int32_t)>(
     &::Mono::Security::Cryptography::PKCS1::Encode_v15)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x5aa1658;
+  constexpr static std::size_t addrs = 0x5eb953c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, bool)>(&::Mono::Security::Cryptography::PKCS1::HashNameFromOid)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x5aa1974;
+  constexpr static std::size_t addrs = 0x5eb9858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::HashAlgorithm* (*)(::StringW)>(&::Mono::Security::Cryptography::PKCS1::CreateFromOid)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5aa1dd0;
+  constexpr static std::size_t addrs = 0x5eb9cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::HashAlgorithm* (*)(::StringW)>(&::Mono::Security::Cryptography::PKCS1::CreateFromName)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x5aa1e30;
+  constexpr static std::size_t addrs = 0x5eb9d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

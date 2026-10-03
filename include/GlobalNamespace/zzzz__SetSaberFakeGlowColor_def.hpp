@@ -54,10 +54,10 @@ public:
 
   static inline ::GlobalNamespace::SetSaberFakeGlowColor* New_ctor();
 
-  /// @brief Method SetColors, addr 0x59f0f88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x5e0c550, size 0x5c, virtual false, abstract: false, final false
   inline void SetColors();
 
-  /// @brief Method Start, addr 0x59f0fe4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e0c5ac, size 0x94, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
@@ -90,10 +90,10 @@ public:
 
   constexpr void __cordl_internal_set__tintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x59f1078, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e0c640, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_saberType, addr 0x59f0b28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_saberType, addr 0x5e0c0f0, size 0xc, virtual false, abstract: false, final false
   inline void set_saberType(::GlobalNamespace::SaberType value);
 
 protected:
@@ -111,7 +111,7 @@ public:
   SetSaberFakeGlowColor(SetSaberFakeGlowColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6241 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6361 };
 
   /// [SerializeField]
   /// @brief Field _tintColor, offset: 0x20, size: 0x10, def value: None

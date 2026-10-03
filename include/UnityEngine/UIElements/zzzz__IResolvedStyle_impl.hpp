@@ -10,12 +10,16 @@
 #include "UnityEngine/UIElements/zzzz__DisplayStyle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EasingFunction_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EditorTextRenderingMode_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FilterFunction_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FlexDirection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Justify_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MaterialDefinition_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Position_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Ratio_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Rotate_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Scale_def.hpp"
+#include "UnityEngine/UIElements/zzzz__SliceType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleFloat_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyName_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextOverflowPosition_def.hpp"
@@ -70,6 +74,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::IResolvedStyle.get_aspectRatio
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Ratio (::UnityEngine::UIElements::IResolvedStyle::*)()>(
+    &::UnityEngine::UIElements::IResolvedStyle::get_aspectRatio)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 3 }));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::IResolvedStyle.get_backgroundColor
 template <>
 
@@ -79,7 +97,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 3 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 4 }));
     return ___internal_method;
   }
 };
@@ -93,7 +111,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 4 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 5 }));
     return ___internal_method;
   }
 };
@@ -107,7 +125,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 5 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 6 }));
     return ___internal_method;
   }
 };
@@ -121,7 +139,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 6 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -135,7 +153,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 7 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -149,7 +167,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 8 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -162,7 +180,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 9 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -175,7 +193,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 10 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -188,7 +206,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 11 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 12 }));
     return ___internal_method;
   }
 };
@@ -201,7 +219,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 12 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 13 }));
     return ___internal_method;
   }
 };
@@ -214,7 +232,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 13 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 14 }));
     return ___internal_method;
   }
 };
@@ -227,7 +245,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 14 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 15 }));
     return ___internal_method;
   }
 };
@@ -240,7 +258,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 15 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 16 }));
     return ___internal_method;
   }
 };
@@ -253,7 +271,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 16 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 17 }));
     return ___internal_method;
   }
 };
@@ -266,7 +284,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 17 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 18 }));
     return ___internal_method;
   }
 };
@@ -279,7 +297,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 18 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 19 }));
     return ___internal_method;
   }
 };
@@ -292,7 +310,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 19 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 20 }));
     return ___internal_method;
   }
 };
@@ -305,7 +323,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 20 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 21 }));
     return ___internal_method;
   }
 };
@@ -318,7 +336,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 21 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 22 }));
     return ___internal_method;
   }
 };
@@ -331,7 +349,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 22 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 23 }));
     return ___internal_method;
   }
 };
@@ -345,7 +363,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 23 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 24 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IResolvedStyle.get_filter
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::FilterFunction>* (::UnityEngine::UIElements::IResolvedStyle::*)()>(
+    &::UnityEngine::UIElements::IResolvedStyle::get_filter)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 25 }));
     return ___internal_method;
   }
 };
@@ -359,7 +391,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 24 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 26 }));
     return ___internal_method;
   }
 };
@@ -373,7 +405,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 25 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 27 }));
     return ___internal_method;
   }
 };
@@ -386,7 +418,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 26 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 28 }));
     return ___internal_method;
   }
 };
@@ -399,7 +431,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 27 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 29 }));
     return ___internal_method;
   }
 };
@@ -412,7 +444,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 28 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 30 }));
     return ___internal_method;
   }
 };
@@ -425,7 +457,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 29 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 31 }));
     return ___internal_method;
   }
 };
@@ -438,7 +470,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 30 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 32 }));
     return ___internal_method;
   }
 };
@@ -452,7 +484,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 31 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 33 }));
     return ___internal_method;
   }
 };
@@ -465,7 +497,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 32 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 34 }));
     return ___internal_method;
   }
 };
@@ -478,7 +510,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 33 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 35 }));
     return ___internal_method;
   }
 };
@@ -491,7 +523,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 34 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 36 }));
     return ___internal_method;
   }
 };
@@ -504,7 +536,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 35 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 37 }));
     return ___internal_method;
   }
 };
@@ -517,7 +549,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 36 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 38 }));
     return ___internal_method;
   }
 };
@@ -530,7 +562,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 37 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 39 }));
     return ___internal_method;
   }
 };
@@ -544,7 +576,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 38 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 40 }));
     return ___internal_method;
   }
 };
@@ -558,7 +590,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 39 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 41 }));
     return ___internal_method;
   }
 };
@@ -572,7 +604,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 40 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 42 }));
     return ___internal_method;
   }
 };
@@ -586,7 +618,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 41 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 43 }));
     return ___internal_method;
   }
 };
@@ -599,7 +631,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 42 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 44 }));
     return ___internal_method;
   }
 };
@@ -612,7 +644,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 43 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 45 }));
     return ___internal_method;
   }
 };
@@ -625,7 +657,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 44 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 46 }));
     return ___internal_method;
   }
 };
@@ -638,7 +670,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 45 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 47 }));
     return ___internal_method;
   }
 };
@@ -651,7 +683,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 46 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 48 }));
     return ___internal_method;
   }
 };
@@ -665,7 +697,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 47 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 49 }));
     return ___internal_method;
   }
 };
@@ -678,7 +710,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 48 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 50 }));
     return ___internal_method;
   }
 };
@@ -691,7 +723,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 49 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 51 }));
     return ___internal_method;
   }
 };
@@ -704,7 +736,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 50 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 52 }));
     return ___internal_method;
   }
 };
@@ -718,7 +750,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 51 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 53 }));
     return ___internal_method;
   }
 };
@@ -731,7 +763,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 52 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 54 }));
     return ___internal_method;
   }
 };
@@ -744,7 +776,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (:
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 53 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 55 }));
     return ___internal_method;
   }
 };
@@ -758,7 +790,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 54 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 56 }));
     return ___internal_method;
   }
 };
@@ -772,7 +804,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 55 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 57 }));
     return ___internal_method;
   }
 };
@@ -786,7 +818,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 56 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 58 }));
     return ___internal_method;
   }
 };
@@ -800,7 +832,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 57 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 59 }));
     return ___internal_method;
   }
 };
@@ -813,7 +845,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (:
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 58 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 60 }));
     return ___internal_method;
   }
 };
@@ -827,7 +859,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 59 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 61 }));
     return ___internal_method;
   }
 };
@@ -841,7 +873,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 60 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 62 }));
     return ___internal_method;
   }
 };
@@ -854,7 +886,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::F
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 61 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 63 }));
     return ___internal_method;
   }
 };
@@ -868,7 +900,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 62 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 64 }));
     return ___internal_method;
   }
 };
@@ -882,7 +914,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::FontStyle 
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 63 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 65 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IResolvedStyle.get_unityMaterial
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MaterialDefinition (::UnityEngine::UIElements::IResolvedStyle::*)()>(
+    &::UnityEngine::UIElements::IResolvedStyle::get_unityMaterial)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 66 }));
     return ___internal_method;
   }
 };
@@ -895,7 +941,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 64 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 67 }));
     return ___internal_method;
   }
 };
@@ -908,7 +954,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 65 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 68 }));
     return ___internal_method;
   }
 };
@@ -921,7 +967,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 66 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 69 }));
     return ___internal_method;
   }
 };
@@ -934,7 +980,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 67 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 70 }));
     return ___internal_method;
   }
 };
@@ -947,7 +993,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 68 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 71 }));
     return ___internal_method;
   }
 };
@@ -960,7 +1006,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 69 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 72 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IResolvedStyle.get_unitySliceType
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::SliceType (::UnityEngine::UIElements::IResolvedStyle::*)()>(
+    &::UnityEngine::UIElements::IResolvedStyle::get_unitySliceType)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 73 }));
     return ___internal_method;
   }
 };
@@ -973,7 +1033,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextAnchor
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 70 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 74 }));
     return ___internal_method;
   }
 };
@@ -987,7 +1047,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextGenera
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 71 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 75 }));
     return ___internal_method;
   }
 };
@@ -1000,7 +1060,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 72 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 76 }));
     return ___internal_method;
   }
 };
@@ -1013,7 +1073,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 73 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 77 }));
     return ___internal_method;
   }
 };
@@ -1027,7 +1087,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 74 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 78 }));
     return ___internal_method;
   }
 };
@@ -1041,7 +1101,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 75 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 79 }));
     return ___internal_method;
   }
 };
@@ -1055,7 +1115,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 76 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 80 }));
     return ___internal_method;
   }
 };
@@ -1068,7 +1128,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 77 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 81 }));
     return ___internal_method;
   }
 };
@@ -1081,7 +1141,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 78 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 82 }));
     return ___internal_method;
   }
 };
@@ -1097,376 +1157,396 @@ inline ::UnityEngine::UIElements::Align UnityEngine::UIElements::IResolvedStyle:
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Align>(this, ___internal_method);
 }
-inline ::UnityEngine::Color UnityEngine::UIElements::IResolvedStyle::get_backgroundColor() {
+inline ::UnityEngine::UIElements::Ratio UnityEngine::UIElements::IResolvedStyle::get_aspectRatio() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 3 })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Ratio>(this, ___internal_method);
+}
+inline ::UnityEngine::Color UnityEngine::UIElements::IResolvedStyle::get_backgroundColor() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::Background UnityEngine::UIElements::IResolvedStyle::get_backgroundImage() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 4 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Background>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::BackgroundPosition UnityEngine::UIElements::IResolvedStyle::get_backgroundPositionX() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 5 })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BackgroundPosition>(this, ___internal_method);
-}
-inline ::UnityEngine::UIElements::BackgroundPosition UnityEngine::UIElements::IResolvedStyle::get_backgroundPositionY() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BackgroundPosition>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::BackgroundRepeat UnityEngine::UIElements::IResolvedStyle::get_backgroundRepeat() {
+inline ::UnityEngine::UIElements::BackgroundPosition UnityEngine::UIElements::IResolvedStyle::get_backgroundPositionY() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BackgroundPosition>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::BackgroundRepeat UnityEngine::UIElements::IResolvedStyle::get_backgroundRepeat() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BackgroundRepeat>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::BackgroundSize UnityEngine::UIElements::IResolvedStyle::get_backgroundSize() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 8 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BackgroundSize>(this, ___internal_method);
 }
 inline ::UnityEngine::Color UnityEngine::UIElements::IResolvedStyle::get_borderBottomColor() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 9 })));
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_borderBottomLeftRadius() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 10 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_borderBottomRightRadius() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 11 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_borderBottomWidth() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 12 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline ::UnityEngine::Color UnityEngine::UIElements::IResolvedStyle::get_borderLeftColor() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 13 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_borderLeftWidth() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 14 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline ::UnityEngine::Color UnityEngine::UIElements::IResolvedStyle::get_borderRightColor() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 15 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 16 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_borderRightWidth() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 16 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 17 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline ::UnityEngine::Color UnityEngine::UIElements::IResolvedStyle::get_borderTopColor() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 17 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_borderTopLeftRadius() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 18 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 19 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_borderTopRightRadius() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 19 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 20 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_borderTopWidth() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 20 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 21 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_bottom() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 21 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 22 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline ::UnityEngine::Color UnityEngine::UIElements::IResolvedStyle::get_color() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 22 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 23 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::DisplayStyle UnityEngine::UIElements::IResolvedStyle::get_display() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 23 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 24 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::DisplayStyle>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::FilterFunction>* UnityEngine::UIElements::IResolvedStyle::get_filter() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 25 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::FilterFunction>*>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::StyleFloat UnityEngine::UIElements::IResolvedStyle::get_flexBasis() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 24 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 26 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleFloat>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::FlexDirection UnityEngine::UIElements::IResolvedStyle::get_flexDirection() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 25 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 27 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::FlexDirection>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_flexGrow() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 26 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 28 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_flexShrink() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 27 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 29 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::Wrap UnityEngine::UIElements::IResolvedStyle::get_flexWrap() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 28 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 30 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Wrap>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_fontSize() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 29 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 31 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_height() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 30 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 32 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::Justify UnityEngine::UIElements::IResolvedStyle::get_justifyContent() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 31 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 33 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Justify>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_left() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 32 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 34 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_letterSpacing() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 33 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 35 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_marginBottom() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 34 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 36 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_marginLeft() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 35 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 37 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_marginRight() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 36 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 38 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_marginTop() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 37 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 39 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::StyleFloat UnityEngine::UIElements::IResolvedStyle::get_maxHeight() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 38 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 40 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleFloat>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::StyleFloat UnityEngine::UIElements::IResolvedStyle::get_maxWidth() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 39 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 41 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleFloat>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::StyleFloat UnityEngine::UIElements::IResolvedStyle::get_minHeight() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 40 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 42 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleFloat>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::StyleFloat UnityEngine::UIElements::IResolvedStyle::get_minWidth() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 41 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 43 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleFloat>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_opacity() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 42 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 44 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_paddingBottom() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 43 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 45 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_paddingLeft() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 44 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 46 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_paddingRight() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 45 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 47 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_paddingTop() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 46 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 48 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::Position UnityEngine::UIElements::IResolvedStyle::get_position() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 47 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 49 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Position>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_right() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 48 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 50 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::Rotate UnityEngine::UIElements::IResolvedStyle::get_rotate() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 49 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 51 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Rotate>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::Scale UnityEngine::UIElements::IResolvedStyle::get_scale() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 50 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 52 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Scale>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::TextOverflow UnityEngine::UIElements::IResolvedStyle::get_textOverflow() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 51 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 53 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TextOverflow>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_top() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 52 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 54 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector3 UnityEngine::UIElements::IResolvedStyle::get_transformOrigin() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 53 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 55 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TimeValue>* UnityEngine::UIElements::IResolvedStyle::get_transitionDelay() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 54 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 56 })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TimeValue>*>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TimeValue>* UnityEngine::UIElements::IResolvedStyle::get_transitionDuration() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 55 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 57 })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TimeValue>*>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StylePropertyName>* UnityEngine::UIElements::IResolvedStyle::get_transitionProperty() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 56 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 58 })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StylePropertyName>*>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::EasingFunction>* UnityEngine::UIElements::IResolvedStyle::get_transitionTimingFunction() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 57 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 59 })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::EasingFunction>*>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector3 UnityEngine::UIElements::IResolvedStyle::get_translate() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 58 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 60 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
 }
 inline ::UnityEngine::Color UnityEngine::UIElements::IResolvedStyle::get_unityBackgroundImageTintColor() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 59 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 61 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::EditorTextRenderingMode UnityEngine::UIElements::IResolvedStyle::get_unityEditorTextRenderingMode() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 60 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 62 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EditorTextRenderingMode>(this, ___internal_method);
 }
 inline ::UnityW<::UnityEngine::Font> UnityEngine::UIElements::IResolvedStyle::get_unityFont() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 61 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 63 })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Font>>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::FontDefinition UnityEngine::UIElements::IResolvedStyle::get_unityFontDefinition() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 62 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 64 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::FontDefinition>(this, ___internal_method);
 }
 inline ::UnityEngine::FontStyle UnityEngine::UIElements::IResolvedStyle::get_unityFontStyleAndWeight() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 63 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 65 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::FontStyle>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::MaterialDefinition UnityEngine::UIElements::IResolvedStyle::get_unityMaterial() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 66 })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MaterialDefinition>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_unityParagraphSpacing() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 64 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 67 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline int32_t UnityEngine::UIElements::IResolvedStyle::get_unitySliceBottom() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 65 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 68 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 inline int32_t UnityEngine::UIElements::IResolvedStyle::get_unitySliceLeft() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 66 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 69 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 inline int32_t UnityEngine::UIElements::IResolvedStyle::get_unitySliceRight() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 67 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 70 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_unitySliceScale() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 68 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 71 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline int32_t UnityEngine::UIElements::IResolvedStyle::get_unitySliceTop() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 69 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 72 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::SliceType UnityEngine::UIElements::IResolvedStyle::get_unitySliceType() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 73 })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::SliceType>(this, ___internal_method);
 }
 inline ::UnityEngine::TextAnchor UnityEngine::UIElements::IResolvedStyle::get_unityTextAlign() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 70 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 74 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextAnchor>(this, ___internal_method);
 }
 inline ::UnityEngine::TextGeneratorType UnityEngine::UIElements::IResolvedStyle::get_unityTextGenerator() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 71 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 75 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextGeneratorType>(this, ___internal_method);
 }
 inline ::UnityEngine::Color UnityEngine::UIElements::IResolvedStyle::get_unityTextOutlineColor() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 72 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 76 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_unityTextOutlineWidth() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 73 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 77 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::TextOverflowPosition UnityEngine::UIElements::IResolvedStyle::get_unityTextOverflowPosition() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 74 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 78 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TextOverflowPosition>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::Visibility UnityEngine::UIElements::IResolvedStyle::get_visibility() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 75 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 79 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Visibility>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::WhiteSpace UnityEngine::UIElements::IResolvedStyle::get_whiteSpace() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 76 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 80 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::WhiteSpace>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_width() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 77 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 81 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::IResolvedStyle::get_wordSpacing() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 78 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IResolvedStyle*>(), 82 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }

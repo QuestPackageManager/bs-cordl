@@ -60,37 +60,37 @@ public:
   /// @brief Field s_EmptyName, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_EmptyName, put = setStaticF_s_EmptyName)) ::UnityEngine::Rendering::ShaderTagId s_EmptyName;
 
-  /// @brief Method ConvertToParameters, addr 0x6b2e464, size 0x750, virtual false, abstract: false, final false
+  /// @brief Method ConvertToParameters, addr 0x6f8bf00, size 0x750, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RendererListParams ConvertToParameters(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc> desc);
 
-  /// @brief Method IsValid, addr 0x6b2e340, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6f8bddc, size 0x124, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_s_EmptyName();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_batchLayerMask, addr 0x6b2e314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_batchLayerMask, addr 0x6f8bdb0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_batchLayerMask();
 
-  /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_camera, addr 0x6b2e328, size 0x8, virtual false, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method get_camera, addr 0x6f8bdc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_camera();
 
-  /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_cullingResult, addr 0x6b2e31c, size 0xc, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_cullingResult, addr 0x6f8bdb8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CullingResults get_cullingResult();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_passName, addr 0x6b2e330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_passName, addr 0x6f8bdcc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShaderTagId get_passName();
 
-  /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_passNames, addr 0x6b2e338, size 0x8, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_passNames, addr 0x6f8bdd4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::ShaderTagId> get_passNames();
 
   static inline void setStaticF_s_EmptyName(::UnityEngine::Rendering::ShaderTagId value);
@@ -118,7 +118,7 @@ public:
                              ::UnityEngine::Rendering::ShaderTagId _passName_k__BackingField, ::ArrayW<::UnityEngine::Rendering::ShaderTagId> _passNames_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10506 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };
@@ -150,8 +150,8 @@ public:
   /// @brief Field renderingLayerMask, offset: 0x98, size: 0x4, def value: None
   uint32_t renderingLayerMask;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <batchLayerMask>k__BackingField, offset: 0x9c, size: 0x4, def value: None
   uint32_t _batchLayerMask_k__BackingField;
 
@@ -161,8 +161,8 @@ public:
   /// @brief Field overrideShaderPassIndex, offset: 0xa4, size: 0x4, def value: None
   int32_t overrideShaderPassIndex;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <cullingResult>k__BackingField, offset: 0xa8, size: 0x10, def value: None
   ::UnityEngine::Rendering::CullingResults _cullingResult_k__BackingField;
 
@@ -176,8 +176,8 @@ public:
   /// @brief Field <passName>k__BackingField, offset: 0xc0, size: 0x4, def value: None
   ::UnityEngine::Rendering::ShaderTagId _passName_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <passNames>k__BackingField, offset: 0xc8, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::ShaderTagId> _passNames_k__BackingField;
 

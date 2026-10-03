@@ -73,7 +73,7 @@ public:
   static ::GlobalNamespace::TextFadeTransitions_State const NotInTransition;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6400 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -120,21 +120,21 @@ public:
   /// @brief Field _textLabel, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__textLabel, put = __cordl_internal_set__textLabel)) ::UnityW<::TMPro::TextMeshProUGUI> _textLabel;
 
-  /// @brief Method Awake, addr 0x59f7cc4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e1328c, size 0x80, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::TextFadeTransitions* New_ctor();
 
-  /// @brief Method RefreshState, addr 0x59f7e1c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method RefreshState, addr 0x5e133e4, size 0x174, virtual false, abstract: false, final false
   inline void RefreshState();
 
-  /// @brief Method RefreshTextAlpha, addr 0x59f7d44, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method RefreshTextAlpha, addr 0x5e1330c, size 0xd4, virtual false, abstract: false, final false
   inline void RefreshTextAlpha();
 
-  /// @brief Method ShowText, addr 0x59ecbfc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ShowText, addr 0x5e081a8, size 0x80, virtual false, abstract: false, final false
   inline void ShowText(::StringW text, float_t delay);
 
-  /// @brief Method Update, addr 0x59f7e18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e133e0, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
@@ -179,7 +179,7 @@ public:
 
   constexpr void __cordl_internal_set__textLabel(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x59f7f90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e13558, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -197,7 +197,7 @@ public:
   TextFadeTransitions(TextFadeTransitions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6401 };
 
   /// [SerializeField]
   /// @brief Field _textLabel, offset: 0x20, size: 0x8, def value: None

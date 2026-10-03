@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (
     ::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)()>(&::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::get_Location)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69119dc;
+  constexpr static std::size_t addrs = 0x6d3962c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)(
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::set_Location)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69119e4;
+  constexpr static std::size_t addrs = 0x6d39634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)(
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x690d46c;
+  constexpr static std::size_t addrs = 0x6d34fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)()>(
     &::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69119ec;
+  constexpr static std::size_t addrs = 0x6d3963c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)(::StringW)>(
     &::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69119f0;
+  constexpr static std::size_t addrs = 0x6d39640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)(::StringW, ::System::Exception*)>(
     &::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69119f4;
+  constexpr static std::size_t addrs = 0x6d39644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException*>(),
@@ -100,7 +100,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Reso
                                                                                                                                                  ::System::Runtime::Serialization::StreamingContext)>(
     &::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69119f8;
+  constexpr static std::size_t addrs = 0x6d39648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)()>(
     &::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::get_Message)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x69119fc;
+  constexpr static std::size_t addrs = 0x6d3964c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException*>(),
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)()>(
     &::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6911b88;
+  constexpr static std::size_t addrs = 0x6d397d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException*>(),

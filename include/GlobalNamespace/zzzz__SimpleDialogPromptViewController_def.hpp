@@ -48,7 +48,7 @@ public:
 
   static inline ::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <DidActivate>b__0, addr 0x5a22e94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__0, addr 0x5e3e0a0, size 0x30, virtual false, abstract: false, final false
   inline void _DidActivate_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> const& __cordl_internal_get___4__this() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_buttonNum(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5a22cb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e3dec0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   SimpleDialogPromptViewController___c__DisplayClass5_0(SimpleDialogPromptViewController___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6596 };
 
   /// @brief Field buttonNum, offset: 0x10, size: 0x4, def value: None
   int32_t ___buttonNum;
@@ -123,19 +123,19 @@ public:
   /// @brief Field _titleText, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__titleText, put = __cordl_internal_set__titleText)) ::UnityW<::TMPro::TextMeshProUGUI> _titleText;
 
-  /// @brief Method DidActivate, addr 0x5a22b44, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5e3dd50, size 0x170, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5a22cb8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5e3dec4, size 0xc, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Init, addr 0x5a17dec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5e33ef8, size 0x10, virtual false, abstract: false, final false
   inline void Init(::StringW title, ::StringW message, ::StringW buttonText, ::System::Action_1<int32_t>* didFinishAction);
 
-  /// @brief Method Init, addr 0x5a22e88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5e3e094, size 0xc, virtual false, abstract: false, final false
   inline void Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::System::Action_1<int32_t>* didFinishAction);
 
-  /// @brief Method Init, addr 0x5a22cc4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5e3ded0, size 0x1c4, virtual false, abstract: false, final false
   inline void Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::StringW thirdButtonText, ::System::Action_1<int32_t>* didFinishAction);
 
   static inline ::GlobalNamespace::SimpleDialogPromptViewController* New_ctor();
@@ -170,7 +170,7 @@ public:
 
   constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x5a17e00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e33f0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -188,7 +188,7 @@ public:
   SimpleDialogPromptViewController(SimpleDialogPromptViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6597 };
 
   /// [SerializeField]
   /// @brief Field _titleText, offset: 0x78, size: 0x8, def value: None

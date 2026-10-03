@@ -25,6 +25,7 @@ module;
 #include "UnityEngine/Rendering/UI/DebugUIHandlerPanel.hpp"
 #include "UnityEngine/Rendering/UI/DebugUIHandlerPersistentCanvas.hpp"
 #include "UnityEngine/Rendering/UI/DebugUIHandlerProgressBar.hpp"
+#include "UnityEngine/Rendering/UI/DebugUIHandlerRenderingLayerField.hpp"
 #include "UnityEngine/Rendering/UI/DebugUIHandlerRow.hpp"
 #include "UnityEngine/Rendering/UI/DebugUIHandlerToggle.hpp"
 #include "UnityEngine/Rendering/UI/DebugUIHandlerToggleHistory.hpp"

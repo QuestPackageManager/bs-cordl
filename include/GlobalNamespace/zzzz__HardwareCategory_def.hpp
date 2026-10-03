@@ -29,6 +29,7 @@ public:
     __E_Quest2 = static_cast<int32_t>(0x2),
     __E_Quest3 = static_cast<int32_t>(0x3),
     __E_QuestPro = static_cast<int32_t>(0x4),
+    __E_MobileGPU = static_cast<int32_t>(0x5),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -48,6 +49,9 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HardwareCategory(int32_t value__) noexcept;
 
+  /// @brief Field MobileGPU value: I32(5)
+  static ::GlobalNamespace::HardwareCategory const MobileGPU;
+
   /// @brief Field Quest1 value: I32(1)
   static ::GlobalNamespace::HardwareCategory const Quest1;
 
@@ -64,7 +68,7 @@ public:
   static ::GlobalNamespace::HardwareCategory const Standalone;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22771 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

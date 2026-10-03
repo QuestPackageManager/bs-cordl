@@ -31,16 +31,16 @@ namespace System::Data {
 class CORDL_TYPE DefaultValueTypeConverter : public ::System::ComponentModel::StringConverter {
 public:
   // Declarations
-  /// @brief Method ConvertFrom, addr 0x6035e7c, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x64520cc, size 0x198, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x6035cf8, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x6451f48, size 0x184, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::Data::DefaultValueTypeConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6035cf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6451f44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   DefaultValueTypeConverter(DefaultValueTypeConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14045 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

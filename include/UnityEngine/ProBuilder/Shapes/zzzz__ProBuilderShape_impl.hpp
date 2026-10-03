@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Shapes::Shape* (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shape)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6707eb0;
+  constexpr static std::size_t addrs = 0x6b1ccb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>(), { "get_shape", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_size)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6707eb8;
+  constexpr static std::size_t addrs = 0x6b1ccbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>(), { "get_size", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_size)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6707ec4;
+  constexpr static std::size_t addrs = 0x6b1ccc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shapeRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6707f84;
+  constexpr static std::size_t addrs = 0x6b1cd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>(), { "get_shapeRotation", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_shapeRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6707f90;
+  constexpr static std::size_t addrs = 0x6b1cd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shapeWorldCenter)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6707f9c;
+  constexpr static std::size_t addrs = 0x6b1cda0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,8 +96,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_editionBounds)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6707fc8;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6b1cdcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>(), { "get_editionBounds", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shapeLocalBounds)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6708080;
+  constexpr static std::size_t addrs = 0x6b1ce30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shapeWorldBounds)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x67080b4;
+  constexpr static std::size_t addrs = 0x6b1ce64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(&::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_isEditable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x67080fc;
+  constexpr static std::size_t addrs = 0x6b1ceac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>(), { "get_isEditable", {}, {} })));
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_mesh)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6708124;
+  constexpr static std::size_t addrs = 0x6b1ced4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>(), { "get_mesh", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(&::UnityEngine::ProBuilder::Shapes::ProBuilderShape::OnValidate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6708228;
+  constexpr static std::size_t addrs = 0x6b1cfd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>(), { "OnValidate", {}, {} })));
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(&::UnityEngine::ProBuilder::Shapes::ProBuilderShape::UpdateShape)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x67082d0;
+  constexpr static std::size_t addrs = 0x6b1d080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>(), { "UpdateShape", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::Bounds)>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::UpdateBounds)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6708568;
+  constexpr static std::size_t addrs = 0x6b1d318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Bounds)>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::Rebuild)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x670844c;
+  constexpr static std::size_t addrs = 0x6b1d1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::Bounds, ::UnityEngine::Quaternion)>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::Rebuild)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6708784;
+  constexpr static std::size_t addrs = 0x6b1d534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(&::UnityEngine::ProBuilder::Shapes::ProBuilderShape::Rebuild)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6708630;
+  constexpr static std::size_t addrs = 0x6b1d3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>(), { "Rebuild", {}, {} })));
@@ -243,8 +243,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::SetShape)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6708838;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x6b1d5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::RotateInsideBounds)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6708948;
+  constexpr static std::size_t addrs = 0x6b1d790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(&::UnityEngine::ProBuilder::Shapes::ProBuilderShape::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6708ad8;
+  constexpr static std::size_t addrs = 0x6b1d920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>(), { ".ctor", {}, {} })));

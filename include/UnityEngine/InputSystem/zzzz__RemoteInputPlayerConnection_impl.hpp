@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection_Subscriber::*)()>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection_Subscriber::Dispose)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x65657dc;
+  constexpr static std::size_t addrs = 0x6991024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection_Subscriber::*)()>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection_Subscriber::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65650f0;
+  constexpr static std::size_t addrs = 0x6990938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection*, bool)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::Bind)> {
   constexpr static std::size_t size = 0x724;
-  constexpr static std::size_t addrs = 0x6564750;
+  constexpr static std::size_t addrs = 0x698ff98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IDisposable* (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>*)>(
         &::UnityEngine::InputSystem::RemoteInputPlayerConnection::Subscribe)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x6564f50;
+  constexpr static std::size_t addrs = 0x6990798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(int32_t)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnConnected)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6564e74;
+  constexpr static std::size_t addrs = 0x69906bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(int32_t)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnDisconnected)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6565204;
+  constexpr static std::size_t addrs = 0x6990a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnNewDevice)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65652e0;
+  constexpr static std::size_t addrs = 0x6990b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnNewLayout)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65652ec;
+  constexpr static std::size_t addrs = 0x6990b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnNewEvents)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65652f8;
+  constexpr static std::size_t addrs = 0x6990b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnRemoveDevice)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6565304;
+  constexpr static std::size_t addrs = 0x6990b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnChangeUsages)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6565310;
+  constexpr static std::size_t addrs = 0x6990b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnStartSending)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x656531c;
+  constexpr static std::size_t addrs = 0x6990b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnStopSending)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6565328;
+  constexpr static std::size_t addrs = 0x6990b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Inpu
                                                                                                                          ::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::SendToSubscribers)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x65650f4;
+  constexpr static std::size_t addrs = 0x699093c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(::UnityEngine::InputSystem::InputRemoting_Message)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnNext)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x6565334;
+  constexpr static std::size_t addrs = 0x6990b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(::System::Exception*)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnError)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65655e0;
+  constexpr static std::size_t addrs = 0x6990e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)()>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnCompleted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65655e4;
+  constexpr static std::size_t addrs = 0x6990e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::RemoteInputPlayerConnection*>(),
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)()>(&::UnityEngine::InputSystem::RemoteInputPlayerConnection::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65655e8;
+  constexpr static std::size_t addrs = 0x6990e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::RemoteInputPlayerConnection*>(), { ".ctor", {}, {} })));

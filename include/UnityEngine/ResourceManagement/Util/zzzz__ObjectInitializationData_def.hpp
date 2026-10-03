@@ -39,19 +39,19 @@ public:
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> inline TObject CreateInstance(::StringW idOverride);
 
-  /// @brief Method GetAsyncInitHandle, addr 0x691802c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method GetAsyncInitHandle, addr 0x6d40308, size 0x204, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle GetAsyncInitHandle(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW idOverride);
 
-  /// @brief Method ToString, addr 0x6917f74, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6d40250, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Data, addr 0x6917f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x6d40248, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Data();
 
-  /// @brief Method get_Id, addr 0x6917f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x6d40230, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_ObjectType, addr 0x6917f5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x6d40238, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Util::SerializedType get_ObjectType();
 
   // Ctor Parameters []
@@ -64,7 +64,7 @@ public:
   constexpr ObjectInitializationData(::StringW m_Id, ::UnityEngine::ResourceManagement::Util::SerializedType m_ObjectType, ::StringW m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18757 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19173 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

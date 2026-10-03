@@ -35,15 +35,15 @@ public:
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckIndexRange, addr 0x64cfd8c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CheckIndexRange, addr 0x68f8b84, size 0xcc, virtual false, abstract: false, final false
   static inline void CheckIndexRange(int32_t index, int32_t capacity);
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckMemSwapOverlap, addr 0x64cfd24, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CheckMemSwapOverlap, addr 0x68f8b1c, size 0x68, virtual false, abstract: false, final false
   static inline void CheckMemSwapOverlap(uint8_t* dst, uint8_t* src, int64_t size);
 
-  /// @brief Method MemSwap, addr 0x64cfc0c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method MemSwap, addr 0x68f8a04, size 0x118, virtual false, abstract: false, final false
   static inline void MemSwap(void* ptr, void* otherPtr, int64_t size);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
@@ -73,7 +73,7 @@ public:
   UnsafeUtilityExtensions(UnsafeUtilityExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16068 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

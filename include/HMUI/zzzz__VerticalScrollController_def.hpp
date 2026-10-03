@@ -73,24 +73,24 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerDownHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerDownHandler*() noexcept;
 
-  /// @brief Method Awake, addr 0x588a8c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5ca125c, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetDragPosition, addr 0x588aa84, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetDragPosition, addr 0x5ca14c4, size 0xb8, virtual false, abstract: false, final false
   static inline float_t GetDragPosition(::UnityEngine::EventSystems::PointerEventData* eventData, ::UnityEngine::Rect scrollRect, ::UnityEngine::Rect handleRect);
 
   static inline ::HMUI::VerticalScrollController* New_ctor();
 
-  /// @brief Method OnDrag, addr 0x588aac4, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method OnDrag, addr 0x5ca157c, size 0xa4, virtual true, abstract: false, final true
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnInitializePotentialDrag, addr 0x588ab64, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method OnInitializePotentialDrag, addr 0x5ca1620, size 0x14, virtual true, abstract: false, final true
   inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerDown, addr 0x588a9c0, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerDown, addr 0x5ca135c, size 0x168, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnValidate, addr 0x588a8dc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5ca1278, size 0xe4, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__handleRectTransform() const;
@@ -117,11 +117,11 @@ public:
 
   constexpr void __cordl_internal_set_updateScrollPositionEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x588ab78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca1634, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_updateScrollPositionEvent, addr 0x5888284, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_updateScrollPositionEvent, addr 0x5c9eb78, size 0xc0, virtual false, abstract: false, final false
   inline void add_updateScrollPositionEvent(::System::Action_1<float_t>* value);
 
   /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
@@ -137,7 +137,7 @@ public:
   constexpr ::UnityEngine::EventSystems::IPointerDownHandler* i___UnityEngine__EventSystems__IPointerDownHandler() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_updateScrollPositionEvent, addr 0x58886c0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_updateScrollPositionEvent, addr 0x5c9f008, size 0xc0, virtual false, abstract: false, final false
   inline void remove_updateScrollPositionEvent(::System::Action_1<float_t>* value);
 
 protected:
@@ -155,7 +155,7 @@ public:
   VerticalScrollController(VerticalScrollController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19110 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19665 };
 
   /// [CompilerGenerated]
   /// @brief Field updateScrollPositionEvent, offset: 0x20, size: 0x8, def value: None

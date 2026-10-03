@@ -41,7 +41,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ShaderVariantCollection_ShaderVariant {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6af0310, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f4afdc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Shader* shader, ::UnityEngine::Rendering::PassType passType, /* [ParamArray] */ ::ArrayW<::StringW> keywords);
 
   // Ctor Parameters []
@@ -53,7 +53,7 @@ public:
   constexpr ShaderVariantCollection_ShaderVariant(::UnityW<::UnityEngine::Shader> shader, ::UnityEngine::Rendering::PassType passType, ::ArrayW<::StringW> keywords) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9988 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -94,48 +94,48 @@ public:
 
   __declspec(property(get = get_warmedUpVariantCount)) int32_t warmedUpVariantCount;
 
-  /// @brief Method Add, addr 0x6af02fc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6f4afc8, size 0x14, virtual false, abstract: false, final false
   inline bool Add(::UnityEngine::ShaderVariantCollection_ShaderVariant variant);
 
-  /// @brief Method AddVariant, addr 0x6af0040, size 0xd8, virtual false, abstract: false, final false
-  inline bool AddVariant(::UnityEngine::Shader* shader, ::UnityEngine::Rendering::PassType passType, /* [Unmarshalled] */ ::ArrayW<::StringW> keywords);
+  /// @brief Method AddVariant, addr 0x6f4ad1c, size 0xd0, virtual false, abstract: false, final false
+  inline bool AddVariant(::UnityEngine::Shader* shader, ::UnityEngine::Rendering::PassType passType, /* [UnityMarshalAs((UnityEngine.Bindings.NativeType)0)] */ ::ArrayW<::StringW> keywords);
 
-  /// @brief Method AddVariant_Injected, addr 0x6af0118, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AddVariant_Injected, addr 0x6f4adec, size 0x5c, virtual false, abstract: false, final false
   static inline bool AddVariant_Injected(::System::IntPtr _unity_self, ::System::IntPtr shader, ::UnityEngine::Rendering::PassType passType, ::ArrayW<::StringW> keywords);
 
   /// [NativeName("CreateFromScript")]
-  /// @brief Method Internal_Create, addr 0x6af0248, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x6f4af14, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Create(/* [Writable] */ ::UnityEngine::ShaderVariantCollection* svc);
 
   static inline ::UnityEngine::ShaderVariantCollection* New_ctor();
 
   /// [NativeName("WarmupShadersProgressively")]
-  /// @brief Method WarmUpProgressively, addr 0x6af0174, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method WarmUpProgressively, addr 0x6f4ae48, size 0x88, virtual false, abstract: false, final false
   inline bool WarmUpProgressively(int32_t variantCount);
 
-  /// @brief Method WarmUpProgressively_Injected, addr 0x6af0204, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method WarmUpProgressively_Injected, addr 0x6f4aed0, size 0x44, virtual false, abstract: false, final false
   static inline bool WarmUpProgressively_Injected(::System::IntPtr _unity_self, int32_t variantCount);
 
-  /// @brief Method .ctor, addr 0x6af0284, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f4af50, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [NativeName("IsWarmedUp")]
-  /// @brief Method get_isWarmedUp, addr 0x6aeff84, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_isWarmedUp, addr 0x6f4ac68, size 0x78, virtual false, abstract: false, final false
   inline bool get_isWarmedUp();
 
-  /// @brief Method get_isWarmedUp_Injected, addr 0x6af0004, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isWarmedUp_Injected, addr 0x6f4ace0, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isWarmedUp_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_variantCount, addr 0x6aefe0c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_variantCount, addr 0x6f4ab00, size 0x78, virtual false, abstract: false, final false
   inline int32_t get_variantCount();
 
-  /// @brief Method get_variantCount_Injected, addr 0x6aefe8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_variantCount_Injected, addr 0x6f4ab78, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_variantCount_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_warmedUpVariantCount, addr 0x6aefec8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_warmedUpVariantCount, addr 0x6f4abb4, size 0x78, virtual false, abstract: false, final false
   inline int32_t get_warmedUpVariantCount();
 
-  /// @brief Method get_warmedUpVariantCount_Injected, addr 0x6aeff48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_warmedUpVariantCount_Injected, addr 0x6f4ac2c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_warmedUpVariantCount_Injected(::System::IntPtr _unity_self);
 
 protected:
@@ -153,7 +153,7 @@ public:
   ShaderVariantCollection(ShaderVariantCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9989 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

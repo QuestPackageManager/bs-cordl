@@ -25,46 +25,46 @@ namespace System {
 class CORDL_TYPE Object : public Il2CppObject {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x5c977dc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60b1324, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5c977e8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x60b1330, size 0x2c, virtual false, abstract: false, final false
   static inline bool Equals(::System::Object* objA, ::System::Object* objB);
 
-  /// @brief Method FieldGetter, addr 0x5c97874, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FieldGetter, addr 0x60b13bc, size 0x4, virtual false, abstract: false, final false
   inline void FieldGetter(::StringW typeName, ::StringW fieldName, ::by_ref<::System::Object*> val);
 
-  /// @brief Method FieldSetter, addr 0x5c97878, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FieldSetter, addr 0x60b13c0, size 0x4, virtual false, abstract: false, final false
   inline void FieldSetter(::StringW typeName, ::StringW fieldName, ::System::Object* val);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method Finalize, addr 0x5c97814, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x60b135c, size 0x4, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetHashCode, addr 0x5c97818, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x60b1360, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetType, addr 0x5c8a654, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetType, addr 0x60a419c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Type* GetType();
 
-  /// @brief Method InternalGetHashCode, addr 0x5c9782c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method InternalGetHashCode, addr 0x60b1374, size 0x14, virtual false, abstract: false, final false
   static inline int32_t InternalGetHashCode(::System::Object* o);
 
-  /// @brief Method MemberwiseClone, addr 0x5c91e34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MemberwiseClone, addr 0x60ab97c, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* MemberwiseClone();
 
   /// @brief [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   static inline ::System::Object* New_ctor();
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method ReferenceEquals, addr 0x5c97868, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReferenceEquals, addr 0x60b13b0, size 0xc, virtual false, abstract: false, final false
   static inline bool ReferenceEquals(::System::Object* objA, ::System::Object* objB);
 
-  /// @brief Method ToString, addr 0x5c97840, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x60b1388, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
-  /// @brief Method .ctor, addr 0x5c89f1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60a3a64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

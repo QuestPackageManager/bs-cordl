@@ -27,18 +27,18 @@ public:
   // Declarations
   __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method Init, addr 0x6c54900, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x709e160, size 0x3bc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* container, ::UnityEngine::UIElements::Columns* columns);
 
-  /// @brief Method Init, addr 0x6c55f74, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x709fadc, size 0x4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item);
 
   static inline ::UnityEngine::UIElements::ReusableMultiColumnTreeViewItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c56424, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x709ff8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rootElement, addr 0x6c55f6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x709fad4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
 protected:
@@ -56,11 +56,11 @@ public:
   ReusableMultiColumnTreeViewItem(ReusableMultiColumnTreeViewItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4098 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::ReusableMultiColumnTreeViewItem) == 0xa0, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::ReusableMultiColumnTreeViewItem) == 0xa8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

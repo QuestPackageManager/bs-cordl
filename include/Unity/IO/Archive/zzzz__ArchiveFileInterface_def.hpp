@@ -12,9 +12,9 @@ class ArchiveFileInterface;
 // Write type traits
 MARK_REF_T(::Unity::IO::Archive::ArchiveFileInterface*);
 DEFINE_IL2CPP_CLASS(::Unity::IO::Archive::ArchiveFileInterface*, "Unity.IO.Archive", "ArchiveFileInterface");
-// [RequiredByNativeCode]
-// [StaticAccessor("GetManagedArchiveSystem()", (UnityEngine.Bindings.StaticAccessorType)0)]
 // [NativeHeader("Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveFileHandle.h")]
+// [StaticAccessor("GetManagedArchiveSystem()", (UnityEngine.Bindings.StaticAccessorType)0)]
+// [RequiredByNativeCode]
 // Dependencies System.Object
 namespace Unity::IO::Archive {
 // Is value type: false
@@ -37,7 +37,7 @@ public:
   ArchiveFileInterface(ArchiveFileInterface const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9981 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9554 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

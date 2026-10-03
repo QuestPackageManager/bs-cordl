@@ -21,22 +21,22 @@ namespace Unity::Collections::LowLevel::Unsafe {
 struct CORDL_TYPE UnsafeAtomicCounter64 {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x64cddd4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x68f6b14, size 0x5c, virtual false, abstract: false, final false
   inline int64_t Add(int64_t value);
 
-  /// @brief Method AddSat, addr 0x64cde8c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddSat, addr 0x68f6bcc, size 0x90, virtual false, abstract: false, final false
   inline int64_t AddSat(int64_t value, int64_t max);
 
-  /// @brief Method Reset, addr 0x64cddc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x68f6b08, size 0xc, virtual false, abstract: false, final false
   inline void Reset(int64_t value);
 
-  /// @brief Method Sub, addr 0x64cde30, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Sub, addr 0x68f6b70, size 0x5c, virtual false, abstract: false, final false
   inline int64_t Sub(int64_t value);
 
-  /// @brief Method SubSat, addr 0x64cdf1c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SubSat, addr 0x68f6c5c, size 0x90, virtual false, abstract: false, final false
   inline int64_t SubSat(int64_t value, int64_t min);
 
-  /// @brief Method .ctor, addr 0x64cddc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68f6b00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(void* ptr);
 
   // Ctor Parameters []
@@ -47,7 +47,7 @@ public:
   constexpr UnsafeAtomicCounter64(int64_t* Counter) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15998 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

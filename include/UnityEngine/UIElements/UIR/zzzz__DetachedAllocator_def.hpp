@@ -16,10 +16,16 @@ namespace UnityEngine::UIElements::UIR {
 template <typename T> class TempAllocator_1;
 }
 namespace UnityEngine::UIElements {
+struct FillGradient;
+}
+namespace UnityEngine::UIElements {
 class MeshWriteData;
 }
 namespace UnityEngine::UIElements {
 struct Vertex;
+}
+namespace UnityEngine {
+class Texture;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -35,13 +41,34 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE DetachedAllocator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_Disposed, offset 0x2c, size 0x1
+  /// @brief Field m_Disposed, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Disposed, put = __cordl_internal_set_m_Disposed)) bool m_Disposed;
+
+  /// @brief Field m_FillGradientDataCount, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_FillGradientDataCount, put = __cordl_internal_set_m_FillGradientDataCount)) int32_t m_FillGradientDataCount;
+
+  /// @brief Field m_FillGradientMeshIndices, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_FillGradientMeshIndices,
+                      put = __cordl_internal_set_m_FillGradientMeshIndices)) ::System::Collections::Generic::List_1<int32_t>* m_FillGradientMeshIndices;
+
+  /// @brief Field m_FillGradients, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_FillGradients,
+                      put = __cordl_internal_set_m_FillGradients)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FillGradient>* m_FillGradients;
+
+  /// @brief Field m_FillTextureDataCount, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_FillTextureDataCount, put = __cordl_internal_set_m_FillTextureDataCount)) int32_t m_FillTextureDataCount;
+
+  /// @brief Field m_FillTextureMeshIndices, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_FillTextureMeshIndices,
+                      put = __cordl_internal_set_m_FillTextureMeshIndices)) ::System::Collections::Generic::List_1<int32_t>* m_FillTextureMeshIndices;
+
+  /// @brief Field m_FillTextures, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_FillTextures, put = __cordl_internal_set_m_FillTextures)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture>>* m_FillTextures;
 
   /// @brief Field m_IndexPool, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_IndexPool, put = __cordl_internal_set_m_IndexPool)) ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* m_IndexPool;
 
-  /// @brief Field m_MeshWriteDataCount, offset 0x28, size 0x4
+  /// @brief Field m_MeshWriteDataCount, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MeshWriteDataCount, put = __cordl_internal_set_m_MeshWriteDataCount)) int32_t m_MeshWriteDataCount;
 
   /// @brief Field m_MeshWriteDataPool, offset 0x20, size 0x8
@@ -54,10 +81,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6cd5c9c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x7164004, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6cd5d04, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x716406c, size 0xa0, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::DetachedAllocator* New_ctor();
@@ -65,6 +92,30 @@ public:
   constexpr bool const& __cordl_internal_get_m_Disposed() const;
 
   constexpr bool& __cordl_internal_get_m_Disposed();
+
+  constexpr int32_t const& __cordl_internal_get_m_FillGradientDataCount() const;
+
+  constexpr int32_t& __cordl_internal_get_m_FillGradientDataCount();
+
+  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_FillGradientMeshIndices() const;
+
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_FillGradientMeshIndices();
+
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FillGradient>* const& __cordl_internal_get_m_FillGradients() const;
+
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FillGradient>*& __cordl_internal_get_m_FillGradients();
+
+  constexpr int32_t const& __cordl_internal_get_m_FillTextureDataCount() const;
+
+  constexpr int32_t& __cordl_internal_get_m_FillTextureDataCount();
+
+  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_FillTextureMeshIndices() const;
+
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_FillTextureMeshIndices();
+
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture>>* const& __cordl_internal_get_m_FillTextures() const;
+
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture>>*& __cordl_internal_get_m_FillTextures();
 
   constexpr ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* const& __cordl_internal_get_m_IndexPool() const;
 
@@ -84,6 +135,18 @@ public:
 
   constexpr void __cordl_internal_set_m_Disposed(bool value);
 
+  constexpr void __cordl_internal_set_m_FillGradientDataCount(int32_t value);
+
+  constexpr void __cordl_internal_set_m_FillGradientMeshIndices(::System::Collections::Generic::List_1<int32_t>* value);
+
+  constexpr void __cordl_internal_set_m_FillGradients(::System::Collections::Generic::List_1<::UnityEngine::UIElements::FillGradient>* value);
+
+  constexpr void __cordl_internal_set_m_FillTextureDataCount(int32_t value);
+
+  constexpr void __cordl_internal_set_m_FillTextureMeshIndices(::System::Collections::Generic::List_1<int32_t>* value);
+
+  constexpr void __cordl_internal_set_m_FillTextures(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture>>* value);
+
   constexpr void __cordl_internal_set_m_IndexPool(::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* value);
 
   constexpr void __cordl_internal_set_m_MeshWriteDataCount(int32_t value);
@@ -92,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VertsPool(::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* value);
 
-  /// @brief Method .ctor, addr 0x6cd5b78, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7163dd8, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -113,7 +176,7 @@ public:
   DetachedAllocator(DetachedAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5284 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5391 };
 
   /// @brief Field m_VertsPool, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* ___m_VertsPool;
@@ -124,10 +187,28 @@ public:
   /// @brief Field m_MeshWriteDataPool, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::MeshWriteData*>* ___m_MeshWriteDataPool;
 
-  /// @brief Field m_MeshWriteDataCount, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field m_FillGradientMeshIndices, offset: 0x28, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<int32_t>* ___m_FillGradientMeshIndices;
+
+  /// @brief Field m_FillGradients, offset: 0x30, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FillGradient>* ___m_FillGradients;
+
+  /// @brief Field m_FillGradientDataCount, offset: 0x38, size: 0x4, def value: None
+  int32_t ___m_FillGradientDataCount;
+
+  /// @brief Field m_FillTextureMeshIndices, offset: 0x40, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<int32_t>* ___m_FillTextureMeshIndices;
+
+  /// @brief Field m_FillTextures, offset: 0x48, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture>>* ___m_FillTextures;
+
+  /// @brief Field m_FillTextureDataCount, offset: 0x50, size: 0x4, def value: None
+  int32_t ___m_FillTextureDataCount;
+
+  /// @brief Field m_MeshWriteDataCount, offset: 0x54, size: 0x4, def value: None
   int32_t ___m_MeshWriteDataCount;
 
-  /// @brief Field m_Disposed, offset: 0x2c, size: 0x1, def value: None
+  /// @brief Field m_Disposed, offset: 0x58, size: 0x1, def value: None
   bool ___m_Disposed;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -139,10 +220,22 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::DetachedAllocator, ___m_I
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::DetachedAllocator, ___m_MeshWriteDataPool) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::DetachedAllocator, ___m_MeshWriteDataCount) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DetachedAllocator, ___m_FillGradientMeshIndices) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::DetachedAllocator, ___m_Disposed) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DetachedAllocator, ___m_FillGradients) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::UIR::DetachedAllocator) == 0x30, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DetachedAllocator, ___m_FillGradientDataCount) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DetachedAllocator, ___m_FillTextureMeshIndices) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DetachedAllocator, ___m_FillTextures) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DetachedAllocator, ___m_FillTextureDataCount) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DetachedAllocator, ___m_MeshWriteDataCount) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DetachedAllocator, ___m_Disposed) == 0x58, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::UIR::DetachedAllocator) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR

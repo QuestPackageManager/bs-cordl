@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)()>(&::GlobalNamespace::MultiplayerCenterTextAnimator::Awake)> {
   constexpr static std::size_t size = 0x5f4;
-  constexpr static std::size_t addrs = 0x59d0784;
+  constexpr static std::size_t addrs = 0x5debcc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerCenterTextAnimator*>(), { "Awake", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)()>(&::GlobalNamespace::MultiplayerCenterTextAnimator::OnDestroy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x59d0d78;
+  constexpr static std::size_t addrs = 0x5dec2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerCenterTextAnimator*>(), { "OnDestroy", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(::UnityEngine::Color, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::AnimateTextColor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x59d0e04;
+  constexpr static std::size_t addrs = 0x5dec340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(float_t, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::AnimateFontSize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x59d0e9c;
+  constexpr static std::size_t addrs = 0x5dec3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(::UnityEngine::Vector3, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::AnimatePositionOffsetSize)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x59d0ee0;
+  constexpr static std::size_t addrs = 0x5dec41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(bool, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::AnimateEnabled)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x59d0f6c;
+  constexpr static std::size_t addrs = 0x5dec4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(::StringW)>(&::GlobalNamespace::MultiplayerCenterTextAnimator::SetText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59d10b8;
+  constexpr static std::size_t addrs = 0x5dec5f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)()>(&::GlobalNamespace::MultiplayerCenterTextAnimator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59d10d8;
+  constexpr static std::size_t addrs = 0x5dec614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerCenterTextAnimator*>(), { ".ctor", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(float_t)>(&::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x59d10dc;
+  constexpr static std::size_t addrs = 0x5dec618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(float_t)>(&::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_1)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x59d1158;
+  constexpr static std::size_t addrs = 0x5dec694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)()>(&::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_5)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x59d11d4;
+  constexpr static std::size_t addrs = 0x5dec710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerCenterTextAnimator*>(), { "<Awake>b__8_5", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(float_t)>(&::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59d1200;
+  constexpr static std::size_t addrs = 0x5dec73c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_3)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59d1218;
+  constexpr static std::size_t addrs = 0x5dec754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_4)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59d1238;
+  constexpr static std::size_t addrs = 0x5dec774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

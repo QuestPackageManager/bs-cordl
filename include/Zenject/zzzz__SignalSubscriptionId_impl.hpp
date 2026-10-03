@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalSubscriptionId::*)(::Zenject::BindingId, ::System::Object*)>(&::Zenject::SignalSubscriptionId::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e47f08;
+  constexpr static std::size_t addrs = 0x72e3a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::BindingId (::Zenject::SignalSubscriptionId::*)()>(&::Zenject::SignalSubscriptionId::get_SignalId)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e47f14;
+  constexpr static std::size_t addrs = 0x72e3a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalSubscriptionId>(), { "get_SignalId", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Zenject::SignalSubscriptionId::*)()>(&::Zenject::SignalSubscriptionId::get_Callback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e47f20;
+  constexpr static std::size_t addrs = 0x72e3a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalSubscriptionId>(), { "get_Callback", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Zenject::SignalSubscriptionId::*)()>(&::Zenject::SignalSubscriptionId::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6e47f28;
+  constexpr static std::size_t addrs = 0x72e3a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::SignalSubscriptionId::*)(::System::Object*)>(&::Zenject::SignalSubscriptionId::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6e47f70;
+  constexpr static std::size_t addrs = 0x72e3ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::SignalSubscriptionId::*)(::Zenject::SignalSubscriptionId)>(&::Zenject::SignalSubscriptionId::Equals)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6e48004;
+  constexpr static std::size_t addrs = 0x72e3b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscriptionId)>(&::Zenject::SignalSubscriptionId::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6e480f8;
+  constexpr static std::size_t addrs = 0x72e3c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscriptionId)>(&::Zenject::SignalSubscriptionId::op_Inequality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6e48128;
+  constexpr static std::size_t addrs = 0x72e3c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

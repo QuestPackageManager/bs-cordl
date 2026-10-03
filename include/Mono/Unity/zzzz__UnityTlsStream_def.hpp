@@ -37,13 +37,13 @@ namespace Mono::Unity {
 class CORDL_TYPE UnityTlsStream : public ::Mono::Net::Security::MobileAuthenticatedStream {
 public:
   // Declarations
-  /// @brief Method CreateContext, addr 0x5fd60bc, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CreateContext, addr 0x63f2044, size 0x6c, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::MobileTlsContext* CreateContext(::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 
   static inline ::Mono::Unity::UnityTlsStream* New_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::SslStream* owner,
                                                         ::Mono::Security::Interface::MonoTlsSettings* settings, ::Mono::Net::Security::MobileTlsProvider* provider);
 
-  /// @brief Method .ctor, addr 0x5fd55b4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f153c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::SslStream* owner, ::Mono::Security::Interface::MonoTlsSettings* settings,
                     ::Mono::Net::Security::MobileTlsProvider* provider);
 
@@ -62,7 +62,7 @@ public:
   UnityTlsStream(UnityTlsStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11938 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

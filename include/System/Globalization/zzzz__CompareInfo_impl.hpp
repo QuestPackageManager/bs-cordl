@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, ::StringW, int32_t, int32_t, bool)>(&::System::Globalization::CompareInfo::InvariantIndexOf)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5b945a8;
+  constexpr static std::size_t addrs = 0x5fac4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,12 +28,28 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, ::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Globalization::CompareInfo.InvariantIndexOf
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, bool)>(
+    &::System::Globalization::CompareInfo::InvariantIndexOf)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5fac9a4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
+                            { "InvariantIndexOf", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Globalization::CompareInfo.InvariantLastIndexOf
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, ::StringW, int32_t, int32_t, bool)>(&::System::Globalization::CompareInfo::InvariantLastIndexOf)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5b94a50;
+  constexpr static std::size_t addrs = 0x5faca58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(char16_t*, int32_t, char16_t*, int32_t, bool, bool)>(&::System::Globalization::CompareInfo::InvariantFindString)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x5b9465c;
+  constexpr static std::size_t addrs = 0x5fac5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t)>(&::System::Globalization::CompareInfo::InvariantToUpper)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5b94b0c;
+  constexpr static std::size_t addrs = 0x5facb14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::SortKey* (::System::Globalization::CompareInfo::*)(::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::InvariantCreateSortKey)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x5b94b24;
+  constexpr static std::size_t addrs = 0x5facb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CompareInfo::*)(::System::Globalization::CultureInfo*)>(&::System::Globalization::CompareInfo::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5b94dac;
+  constexpr static std::size_t addrs = 0x5facdb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::CompareInfo* (*)(::StringW)>(&::System::Globalization::CompareInfo::GetCompareInfo)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5b94ddc;
+  constexpr static std::size_t addrs = 0x5facde4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CompareInfo::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::CompareInfo::OnDeserializing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b94e98;
+  constexpr static std::size_t addrs = 0x5facea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
@@ -134,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CompareInfo::*)(::System::Object*)>(
     &::System::Globalization::CompareInfo::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b94ea0;
+  constexpr static std::size_t addrs = 0x5facea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CompareInfo::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::CompareInfo::OnDeserialized)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b94f50;
+  constexpr static std::size_t addrs = 0x5facf58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
@@ -162,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CompareInfo::*)()>(&::System::Globalization::CompareInfo::OnDeserialized)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5b94ea4;
+  constexpr static std::size_t addrs = 0x5faceac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(), { "OnDeserialized", {}, {} })));
@@ -175,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CompareInfo::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::CompareInfo::OnSerializing)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5b94f54;
+  constexpr static std::size_t addrs = 0x5facf5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::CompareInfo::*)()>(&::System::Globalization::CompareInfo::get_Name)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5b94fe4;
+  constexpr static std::size_t addrs = 0x5facfec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW)>(&::System::Globalization::CompareInfo::Compare)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b95070;
+  constexpr static std::size_t addrs = 0x5fad078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::Compare)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x5b95080;
+  constexpr static std::size_t addrs = 0x5fad088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::System::ReadOnlySpan_1<char16_t>, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::Compare)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x5b9561c;
+  constexpr static std::size_t addrs = 0x5fad624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,13 +256,28 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Global
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Globalization::CompareInfo.CompareOptionNone
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>)>(
+    &::System::Globalization::CompareInfo::CompareOptionNone)> {
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x5fada24;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
+                                                { "CompareOptionNone", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Globalization::CompareInfo.CompareOptionIgnoreCase
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>)>(
     &::System::Globalization::CompareInfo::CompareOptionIgnoreCase)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5b95a1c;
+  constexpr static std::size_t addrs = 0x5fadc74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t,
                                                                                                          ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::Compare)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x5b95c54;
+  constexpr static std::size_t addrs = 0x5faddd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -274,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t)>(&::System::Globalization::CompareInfo::CompareOrdinalIgnoreCase)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5b9613c;
+  constexpr static std::size_t addrs = 0x5fae2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -291,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>)>(
     &::System::Globalization::CompareInfo::CompareOrdinalIgnoreCase)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x5b95338;
+  constexpr static std::size_t addrs = 0x5fad340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -306,11 +337,29 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::IsPrefix)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x5b963f8;
+  constexpr static std::size_t addrs = 0x5fae57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(), { ::i2c::class_of<::System::Globalization::CompareInfo*>(), 9 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Globalization::CompareInfo.IsPrefix
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::CompareInfo::*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>,
+                                                                                                      ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::IsPrefix)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5fae928;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(), { "IsPrefix",
+                                                                                        {},
+                                                                                        { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(),
+                                                                                          ::i2c::type_of<::System::Globalization::CompareOptions>() } })));
     return ___internal_method;
   }
 };
@@ -320,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::IsSuffix)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x5b967a4;
+  constexpr static std::size_t addrs = 0x5fae984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -334,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::CompareInfo::*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>,
                                                                                                       ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::IsSuffix)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b96b4c;
+  constexpr static std::size_t addrs = 0x5faed2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -352,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, char16_t, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::IndexOf)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5b96ba8;
+  constexpr static std::size_t addrs = 0x5faed88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -366,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::IndexOf)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5b96c14;
+  constexpr static std::size_t addrs = 0x5faedf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, char16_t, int32_t, int32_t, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::IndexOf)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x5b96c80;
+  constexpr static std::size_t addrs = 0x5faee60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -394,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::IndexOf)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x5b97104;
+  constexpr static std::size_t addrs = 0x5faf2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -405,10 +454,44 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Global
 //  Writing Method size for method: ::System::Globalization::CompareInfo.IndexOfOrdinal
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, bool)>(
+    &::System::Globalization::CompareInfo::IndexOfOrdinal)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5faf58c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
+                            { "IndexOfOrdinal", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Globalization::CompareInfo.IndexOf
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>,
+                                                                                                         ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::IndexOf)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5faf618;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(), { "IndexOf",
+                                                                                        {},
+                                                                                        { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(),
+                                                                                          ::i2c::type_of<::System::Globalization::CompareOptions>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Globalization::CompareInfo.IndexOfOrdinal
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, int32_t, int32_t, bool)>(
     &::System::Globalization::CompareInfo::IndexOfOrdinal)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5b96f7c;
+  constexpr static std::size_t addrs = 0x5faf15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -424,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::LastIndexOf)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5b973fc;
+  constexpr static std::size_t addrs = 0x5faf6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -438,7 +521,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::LastIndexOf)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x5b97468;
+  constexpr static std::size_t addrs = 0x5faf730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -452,7 +535,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, int32_t, int32_t, bool)>(
     &::System::Globalization::CompareInfo::LastIndexOfOrdinal)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5b977bc;
+  constexpr static std::size_t addrs = 0x5fafa84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -468,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::SortKey* (::System::Globalization::CompareInfo::*)(::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::GetSortKey)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5b97934;
+  constexpr static std::size_t addrs = 0x5fafbfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -481,7 +564,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::CompareInfo::*)(::System::Object*)>(&::System::Globalization::CompareInfo::Equals)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5b97abc;
+  constexpr static std::size_t addrs = 0x5fafd84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -494,7 +577,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)()>(&::System::Globalization::CompareInfo::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5b97b7c;
+  constexpr static std::size_t addrs = 0x5fafe44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -507,7 +590,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::System::Globalization::CompareInfo::GetIgnoreCaseHash)> {
   constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x5b97ba4;
+  constexpr static std::size_t addrs = 0x5fafe6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -521,7 +604,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::GetHashCodeOfString)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x5b9806c;
+  constexpr static std::size_t addrs = 0x5fb0334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -536,7 +619,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::GetHashCode)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5b98258;
+  constexpr static std::size_t addrs = 0x5fb0520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -549,7 +632,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::CompareInfo::*)()>(&::System::Globalization::CompareInfo::ToString)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5b9835c;
+  constexpr static std::size_t addrs = 0x5fb0624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -562,7 +645,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Globalization::CompareInfo::get_UseManagedCollation)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5b983c0;
+  constexpr static std::size_t addrs = 0x5fb0688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(), { "get_UseManagedCollation", {}, {} })));
@@ -574,7 +657,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::ISimpleCollator* (::System::Globalization::CompareInfo::*)()>(&::System::Globalization::CompareInfo::GetCollator)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x5b98528;
+  constexpr static std::size_t addrs = 0x5fb07f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(), { "GetCollator", {}, {} })));
@@ -587,7 +670,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::SortKey* (::System::Globalization::CompareInfo::*)(::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::CreateSortKeyCore)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5b988ac;
+  constexpr static std::size_t addrs = 0x5fb0b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -602,7 +685,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, int32_t, int32_t, ::StringW, ::System::Globalization::CompareOptions, bool)>(
     &::System::Globalization::CompareInfo::internal_index_switch)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5b989f0;
+  constexpr static std::size_t addrs = 0x5fb0cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -620,7 +703,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
     ::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::internal_compare_switch)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5b9551c;
+  constexpr static std::size_t addrs = 0x5fad524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -638,7 +721,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
     ::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::internal_compare_managed)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5b98de8;
+  constexpr static std::size_t addrs = 0x5fb10b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -656,7 +739,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, int32_t, int32_t, ::StringW, ::System::Globalization::CompareOptions, bool)>(
     &::System::Globalization::CompareInfo::internal_index_managed)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5b98bf0;
+  constexpr static std::size_t addrs = 0x5fb0eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -674,7 +757,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(char16_t*, int32_t, char16_t*, int32_t, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::internal_compare_icall)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b98ef4;
+  constexpr static std::size_t addrs = 0x5fb11bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -692,7 +775,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::internal_compare)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5b98d38;
+  constexpr static std::size_t addrs = 0x5fb1000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -709,7 +792,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(char16_t*, int32_t, int32_t, char16_t*, int32_t, bool)>(&::System::Globalization::CompareInfo::internal_index_icall)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b98ef8;
+  constexpr static std::size_t addrs = 0x5fb11c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -725,7 +808,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t, int32_t, ::StringW, bool)>(&::System::Globalization::CompareInfo::internal_index)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5b98b48;
+  constexpr static std::size_t addrs = 0x5fb0e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -740,7 +823,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CompareInfo::*)(::System::Globalization::CultureInfo*)>(&::System::Globalization::CompareInfo::InitSort)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5b94dc4;
+  constexpr static std::size_t addrs = 0x5facdcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -753,7 +836,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(char16_t*, int32_t, char16_t*, int32_t)>(&::System::Globalization::CompareInfo::CompareStringOrdinalIgnoreCase)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5b96274;
+  constexpr static std::size_t addrs = 0x5fae3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -768,7 +851,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, ::StringW, int32_t, int32_t, bool)>(&::System::Globalization::CompareInfo::IndexOfOrdinalCore)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5b973d0;
+  constexpr static std::size_t addrs = 0x5faf698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -783,7 +866,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, ::StringW, int32_t, int32_t, bool)>(&::System::Globalization::CompareInfo::LastIndexOfOrdinalCore)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5b97908;
+  constexpr static std::size_t addrs = 0x5fafbd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -800,7 +883,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::LastIndexOfCore)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5b978f0;
+  constexpr static std::size_t addrs = 0x5fafbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -817,8 +900,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions, int32_t*)>(
     &::System::Globalization::CompareInfo::IndexOfCore)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5b970b0;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x5faf290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -830,13 +913,47 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Global
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Globalization::CompareInfo.IndexOfCore
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
+    ::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::Globalization::CompareOptions, int32_t*)>(&::System::Globalization::CompareInfo::IndexOfCore)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5faf620;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(), { "IndexOfCore",
+                                                                                        {},
+                                                                                        { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(),
+                                                                                          ::i2c::type_of<::System::Globalization::CompareOptions>(), ::i2c::type_of<int32_t*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Globalization::CompareInfo.IndexOfOrdinalCore
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, bool)>(
+    &::System::Globalization::CompareInfo::IndexOfOrdinalCore)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5faf590;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
+                            { "IndexOfOrdinalCore", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Globalization::CompareInfo.CompareString
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::System::ReadOnlySpan_1<char16_t>, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::CompareString)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5b959b8;
+  constexpr static std::size_t addrs = 0x5fad9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -853,7 +970,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
     ::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::CompareString)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5b95b80;
+  constexpr static std::size_t addrs = 0x5fadba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -871,7 +988,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::SortKey* (::System::Globalization::CompareInfo::*)(::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::CreateSortKey)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5b97a04;
+  constexpr static std::size_t addrs = 0x5fafccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -886,12 +1003,30 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::StartsWith)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5b96628;
+  constexpr static std::size_t addrs = 0x5fae7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
                                                 { "StartsWith", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Globalization::CompareOptions>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Globalization::CompareInfo.StartsWith
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::CompareInfo::*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>,
+                                                                                                      ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::StartsWith)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5fae92c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(), { "StartsWith",
+                                                                                        {},
+                                                                                        { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(),
+                                                                                          ::i2c::type_of<::System::Globalization::CompareOptions>() } })));
     return ___internal_method;
   }
 };
@@ -901,7 +1036,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::EndsWith)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5b969d4;
+  constexpr static std::size_t addrs = 0x5faebb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -916,7 +1051,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::CompareInfo::*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>,
                                                                                                       ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::EndsWith)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5b96b50;
+  constexpr static std::size_t addrs = 0x5faed30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -934,7 +1069,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::GetHashCodeOfStringCore)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5b9822c;
+  constexpr static std::size_t addrs = 0x5fb04f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -948,7 +1083,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CompareInfo::*)()>(&::System::Globalization::CompareInfo::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5b98f8c;
+  constexpr static std::size_t addrs = 0x5fb1254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(), { ".ctor", {}, {} })));
@@ -1047,6 +1182,13 @@ inline int32_t System::Globalization::CompareInfo::InvariantIndexOf(::StringW so
                           { "InvariantIndexOf", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, source, value, startIndex, count, ignoreCase);
 }
+inline int32_t System::Globalization::CompareInfo::InvariantIndexOf(::System::ReadOnlySpan_1<char16_t> source, ::System::ReadOnlySpan_1<char16_t> value, bool ignoreCase) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
+                          { "InvariantIndexOf", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, source, value, ignoreCase);
+}
 inline int32_t System::Globalization::CompareInfo::InvariantLastIndexOf(::StringW source, ::StringW value, int32_t startIndex, int32_t count, bool ignoreCase) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1130,6 +1272,12 @@ inline int32_t System::Globalization::CompareInfo::Compare(::System::ReadOnlySpa
                           { "Compare", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Globalization::CompareOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, string1, string2, options);
 }
+inline int32_t System::Globalization::CompareInfo::CompareOptionNone(::System::ReadOnlySpan_1<char16_t> string1, ::System::ReadOnlySpan_1<char16_t> string2) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
+                                              { "CompareOptionNone", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, string1, string2);
+}
 inline int32_t System::Globalization::CompareInfo::CompareOptionIgnoreCase(::System::ReadOnlySpan_1<char16_t> string1, ::System::ReadOnlySpan_1<char16_t> string2) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
@@ -1159,6 +1307,14 @@ inline bool System::Globalization::CompareInfo::IsPrefix(::StringW source, ::Str
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Globalization::CompareInfo*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, source, prefix, options);
 }
+inline bool System::Globalization::CompareInfo::IsPrefix(::System::ReadOnlySpan_1<char16_t> source, ::System::ReadOnlySpan_1<char16_t> prefix, ::System::Globalization::CompareOptions options) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
+                                                                                         { "IsPrefix",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(),
+                                                                                             ::i2c::type_of<::System::Globalization::CompareOptions>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, source, prefix, options);
+}
 inline bool System::Globalization::CompareInfo::IsSuffix(::StringW source, ::StringW suffix, ::System::Globalization::CompareOptions options) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Globalization::CompareInfo*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, source, suffix, options);
@@ -1186,6 +1342,21 @@ inline int32_t System::Globalization::CompareInfo::IndexOf(::StringW source, cha
 inline int32_t System::Globalization::CompareInfo::IndexOf(::StringW source, ::StringW value, int32_t startIndex, int32_t count, ::System::Globalization::CompareOptions options) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Globalization::CompareInfo*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, source, value, startIndex, count, options);
+}
+inline int32_t System::Globalization::CompareInfo::IndexOfOrdinal(::System::ReadOnlySpan_1<char16_t> source, ::System::ReadOnlySpan_1<char16_t> value, bool ignoreCase) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
+                          { "IndexOfOrdinal", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, source, value, ignoreCase);
+}
+inline int32_t System::Globalization::CompareInfo::IndexOf(::System::ReadOnlySpan_1<char16_t> source, ::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::CompareOptions options) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
+                                                                                         { "IndexOf",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(),
+                                                                                             ::i2c::type_of<::System::Globalization::CompareOptions>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, source, value, options);
 }
 inline int32_t System::Globalization::CompareInfo::IndexOfOrdinal(::StringW source, ::StringW value, int32_t startIndex, int32_t count, bool ignoreCase) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1370,6 +1541,22 @@ inline int32_t System::Globalization::CompareInfo::IndexOfCore(::StringW source,
                                                                                         ::i2c::type_of<::System::Globalization::CompareOptions>(), ::i2c::type_of<int32_t*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, source, target, startIndex, count, options, matchLengthPtr);
 }
+inline int32_t System::Globalization::CompareInfo::IndexOfCore(::System::ReadOnlySpan_1<char16_t> source, ::System::ReadOnlySpan_1<char16_t> target, ::System::Globalization::CompareOptions options,
+                                                               int32_t* matchLengthPtr) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
+                                                                                         { "IndexOfCore",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(),
+                                                                                             ::i2c::type_of<::System::Globalization::CompareOptions>(), ::i2c::type_of<int32_t*>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, source, target, options, matchLengthPtr);
+}
+inline int32_t System::Globalization::CompareInfo::IndexOfOrdinalCore(::System::ReadOnlySpan_1<char16_t> source, ::System::ReadOnlySpan_1<char16_t> value, bool ignoreCase) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
+                          { "IndexOfOrdinalCore", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, source, value, ignoreCase);
+}
 inline int32_t System::Globalization::CompareInfo::CompareString(::System::ReadOnlySpan_1<char16_t> string1, ::StringW string2, ::System::Globalization::CompareOptions options) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1396,6 +1583,14 @@ inline bool System::Globalization::CompareInfo::StartsWith(::StringW source, ::S
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
                                               { "StartsWith", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Globalization::CompareOptions>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, source, prefix, options);
+}
+inline bool System::Globalization::CompareInfo::StartsWith(::System::ReadOnlySpan_1<char16_t> source, ::System::ReadOnlySpan_1<char16_t> prefix, ::System::Globalization::CompareOptions options) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CompareInfo*>(),
+                                                                                         { "StartsWith",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(),
+                                                                                             ::i2c::type_of<::System::Globalization::CompareOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, source, prefix, options);
 }
 inline bool System::Globalization::CompareInfo::EndsWith(::StringW source, ::StringW suffix, ::System::Globalization::CompareOptions options) {

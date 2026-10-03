@@ -34,21 +34,21 @@ public:
   /// @brief Field _xrSession, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__xrSession, put = setStaticF__xrSession)) uint64_t _xrSession;
 
-  /// @brief Method FBGetFoveationDynamic, addr 0x5e50610, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FBGetFoveationDynamic, addr 0x626a3a4, size 0x7c, virtual false, abstract: false, final false
   static inline void FBGetFoveationDynamic(::by_ref<uint32_t> dynamic);
 
-  /// @brief Method FBGetFoveationLevel, addr 0x5e50404, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FBGetFoveationLevel, addr 0x626a198, size 0x7c, virtual false, abstract: false, final false
   static inline void FBGetFoveationLevel(::by_ref<uint32_t> level);
 
-  /// @brief Method FBSetFoveationLevel, addr 0x5e504e8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method FBSetFoveationLevel, addr 0x626a27c, size 0xa4, virtual false, abstract: false, final false
   static inline void FBSetFoveationLevel(uint64_t session, uint32_t level, float_t verticalOffset, uint32_t dynamic);
 
   static inline ::Meta::XR::MetaXRFoveationFeature* New_ctor();
 
-  /// @brief Method OnSessionCreate, addr 0x5e50398, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnSessionCreate, addr 0x626a12c, size 0x50, virtual true, abstract: false, final false
   inline void OnSessionCreate(uint64_t xrSession);
 
-  /// @brief Method .ctor, addr 0x5e5068c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x626a420, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline uint32_t getStaticF__foveatedRenderingLevel();
@@ -57,10 +57,10 @@ public:
 
   static inline uint64_t getStaticF__xrSession();
 
-  /// @brief Method get_foveatedRenderingLevel, addr 0x5e503e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_foveatedRenderingLevel, addr 0x626a17c, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRManager_FoveatedRenderingLevel get_foveatedRenderingLevel();
 
-  /// @brief Method get_useDynamicFoveatedRendering, addr 0x5e5058c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_useDynamicFoveatedRendering, addr 0x626a320, size 0x24, virtual false, abstract: false, final false
   static inline bool get_useDynamicFoveatedRendering();
 
   static inline void setStaticF__foveatedRenderingLevel(uint32_t value);
@@ -69,10 +69,10 @@ public:
 
   static inline void setStaticF__xrSession(uint64_t value);
 
-  /// @brief Method set_foveatedRenderingLevel, addr 0x5e50480, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_foveatedRenderingLevel, addr 0x626a214, size 0x68, virtual false, abstract: false, final false
   static inline void set_foveatedRenderingLevel(::GlobalNamespace::OVRManager_FoveatedRenderingLevel value);
 
-  /// @brief Method set_useDynamicFoveatedRendering, addr 0x5e505b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_useDynamicFoveatedRendering, addr 0x626a344, size 0x60, virtual false, abstract: false, final false
   static inline void set_useDynamicFoveatedRendering(bool value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   MetaXRFoveationFeature(MetaXRFoveationFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8563 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8682 };
 
   /// @brief Field extensionList offset 0xffffffff size 0x8
   static constexpr ::ConstString extensionList{ u"XR_FB_foveation XR_FB_foveation_configuration XR_FB_foveation_vulkan " };
@@ -101,6 +101,6 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::Meta::XR::MetaXRFoveationFeature) == 0x50, "Size mismatch!");
+static_assert(sizeof(::Meta::XR::MetaXRFoveationFeature) == 0x70, "Size mismatch!");
 
 } // namespace Meta::XR

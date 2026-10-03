@@ -89,41 +89,41 @@ public:
 
   __declspec(property(get = get_tileMode, put = set_tileMode)) ::UnityEngine::SpriteTileMode tileMode;
 
-  /// @brief Method GetCurrentMeshData, addr 0x6a6241c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentMeshData, addr 0x6eb4268, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Mesh_MeshDataArray GetCurrentMeshData();
 
-  /// @brief Method GetCurrentMeshDataPtr, addr 0x6a62360, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentMeshDataPtr, addr 0x6eb41ac, size 0x80, virtual false, abstract: false, final false
   inline ::System::IntPtr GetCurrentMeshDataPtr();
 
-  /// @brief Method GetCurrentMeshDataPtr_Injected, addr 0x6a623e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentMeshDataPtr_Injected, addr 0x6eb422c, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetCurrentMeshDataPtr_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetSecondaryTextureProperties, addr 0x6a62584, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetSecondaryTextureProperties, addr 0x6eb43d0, size 0xd0, virtual false, abstract: false, final false
   inline void GetSecondaryTextureProperties(/* [NotNull] */ ::UnityEngine::MaterialPropertyBlock* mbp);
 
-  /// @brief Method GetSecondaryTextureProperties_Injected, addr 0x6a62654, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSecondaryTextureProperties_Injected, addr 0x6eb44a0, size 0x44, virtual false, abstract: false, final false
   static inline void GetSecondaryTextureProperties_Injected(::System::IntPtr _unity_self, ::System::IntPtr mbp);
 
-  /// @brief Method GetSpriteBounds, addr 0x6a62698, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSpriteBounds, addr 0x6eb44e4, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds GetSpriteBounds();
 
   /// [NativeMethod(Name = "GetSpriteBounds")]
-  /// @brief Method Internal_GetSpriteBounds, addr 0x6a62474, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetSpriteBounds, addr 0x6eb42c0, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds Internal_GetSpriteBounds(::UnityEngine::SpriteDrawMode mode);
 
-  /// @brief Method Internal_GetSpriteBounds_Injected, addr 0x6a62530, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetSpriteBounds_Injected, addr 0x6eb437c, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_GetSpriteBounds_Injected(::System::IntPtr _unity_self, ::UnityEngine::SpriteDrawMode mode, ::by_ref<::UnityEngine::Bounds> ret);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeSpriteChanged, addr 0x6a60e8c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method InvokeSpriteChanged, addr 0x6eb2cd8, size 0xfc, virtual false, abstract: false, final false
   inline void InvokeSpriteChanged();
 
   static inline ::UnityEngine::SpriteRenderer* New_ctor();
 
-  /// @brief Method RegisterSpriteChangeCallback, addr 0x6a60cac, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method RegisterSpriteChangeCallback, addr 0x6eb2af8, size 0xb8, virtual false, abstract: false, final false
   inline void RegisterSpriteChangeCallback(::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>* callback);
 
-  /// @brief Method UnregisterSpriteChangeCallback, addr 0x6a60df4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method UnregisterSpriteChangeCallback, addr 0x6eb2c40, size 0x98, virtual false, abstract: false, final false
   inline void UnregisterSpriteChangeCallback(::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>* callback);
 
   constexpr ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>* const& __cordl_internal_get_m_SpriteChangeEvent() const;
@@ -132,146 +132,146 @@ public:
 
   constexpr void __cordl_internal_set_m_SpriteChangeEvent(::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>* value);
 
-  /// @brief Method .ctor, addr 0x6a626dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eb4528, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_adaptiveModeThreshold, addr 0x6a6183c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_adaptiveModeThreshold, addr 0x6eb3688, size 0x80, virtual false, abstract: false, final false
   inline float_t get_adaptiveModeThreshold();
 
-  /// @brief Method get_adaptiveModeThreshold_Injected, addr 0x6a618bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_adaptiveModeThreshold_Injected, addr 0x6eb3708, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_adaptiveModeThreshold_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_color, addr 0x6a61b64, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x6eb39b0, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_color_Injected, addr 0x6a61c00, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_color_Injected, addr 0x6eb3a4c, size 0x44, virtual false, abstract: false, final false
   static inline void get_color_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Color> ret);
 
-  /// @brief Method get_drawMode, addr 0x6a614f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_drawMode, addr 0x6eb3344, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::SpriteDrawMode get_drawMode();
 
-  /// @brief Method get_drawMode_Injected, addr 0x6a61578, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_drawMode_Injected, addr 0x6eb33c4, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::SpriteDrawMode get_drawMode_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_flipX, addr 0x6a61eb0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_flipX, addr 0x6eb3cfc, size 0x80, virtual false, abstract: false, final false
   inline bool get_flipX();
 
-  /// @brief Method get_flipX_Injected, addr 0x6a61f30, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_flipX_Injected, addr 0x6eb3d7c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_flipX_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_flipY, addr 0x6a62040, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_flipY, addr 0x6eb3e8c, size 0x80, virtual false, abstract: false, final false
   inline bool get_flipY();
 
-  /// @brief Method get_flipY_Injected, addr 0x6a620c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_flipY_Injected, addr 0x6eb3f0c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_flipY_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_hasSpriteChangeEvents, addr 0x6a61168, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_hasSpriteChangeEvents, addr 0x6eb2fb4, size 0x80, virtual false, abstract: false, final false
   inline bool get_hasSpriteChangeEvents();
 
-  /// @brief Method get_hasSpriteChangeEvents_Injected, addr 0x6a611e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasSpriteChangeEvents_Injected, addr 0x6eb3034, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_hasSpriteChangeEvents_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_maskInteraction, addr 0x6a61d20, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_maskInteraction, addr 0x6eb3b6c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::SpriteMaskInteraction get_maskInteraction();
 
-  /// @brief Method get_maskInteraction_Injected, addr 0x6a61da0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_maskInteraction_Injected, addr 0x6eb3bec, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::SpriteMaskInteraction get_maskInteraction_Injected(::System::IntPtr _unity_self);
 
   /// [NativeMethod("ShouldSupportTiling")]
-  /// @brief Method get_shouldSupportTiling, addr 0x6a610ac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_shouldSupportTiling, addr 0x6eb2ef8, size 0x80, virtual false, abstract: false, final false
   inline bool get_shouldSupportTiling();
 
-  /// @brief Method get_shouldSupportTiling_Injected, addr 0x6a6112c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_shouldSupportTiling_Injected, addr 0x6eb2f78, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_shouldSupportTiling_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_size, addr 0x6a61688, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x6eb34d4, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_size();
 
-  /// @brief Method get_size_Injected, addr 0x6a61720, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_size_Injected, addr 0x6eb356c, size 0x44, virtual false, abstract: false, final false
   static inline void get_size_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_sprite, addr 0x6a61268, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x6eb30b4, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method get_spriteSortPoint, addr 0x6a621d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_spriteSortPoint, addr 0x6eb401c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::SpriteSortPoint get_spriteSortPoint();
 
-  /// @brief Method get_spriteSortPoint_Injected, addr 0x6a62250, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spriteSortPoint_Injected, addr 0x6eb409c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::SpriteSortPoint get_spriteSortPoint_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_sprite_Injected, addr 0x6a613b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite_Injected, addr 0x6eb3204, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_sprite_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_tileMode, addr 0x6a619d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_tileMode, addr 0x6eb3820, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::SpriteTileMode get_tileMode();
 
-  /// @brief Method get_tileMode_Injected, addr 0x6a61a54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_tileMode_Injected, addr 0x6eb38a0, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::SpriteTileMode get_tileMode_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_adaptiveModeThreshold, addr 0x6a618f8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_adaptiveModeThreshold, addr 0x6eb3744, size 0x90, virtual false, abstract: false, final false
   inline void set_adaptiveModeThreshold(float_t value);
 
-  /// @brief Method set_adaptiveModeThreshold_Injected, addr 0x6a61988, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_adaptiveModeThreshold_Injected, addr 0x6eb37d4, size 0x4c, virtual false, abstract: false, final false
   static inline void set_adaptiveModeThreshold_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_color, addr 0x6a61c44, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x6eb3a90, size 0x98, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_color_Injected, addr 0x6a61cdc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_color_Injected, addr 0x6eb3b28, size 0x44, virtual false, abstract: false, final false
   static inline void set_color_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Color> value);
 
-  /// @brief Method set_drawMode, addr 0x6a615b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_drawMode, addr 0x6eb3400, size 0x90, virtual false, abstract: false, final false
   inline void set_drawMode(::UnityEngine::SpriteDrawMode value);
 
-  /// @brief Method set_drawMode_Injected, addr 0x6a61644, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_drawMode_Injected, addr 0x6eb3490, size 0x44, virtual false, abstract: false, final false
   static inline void set_drawMode_Injected(::System::IntPtr _unity_self, ::UnityEngine::SpriteDrawMode value);
 
-  /// @brief Method set_flipX, addr 0x6a61f6c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_flipX, addr 0x6eb3db8, size 0x90, virtual false, abstract: false, final false
   inline void set_flipX(bool value);
 
-  /// @brief Method set_flipX_Injected, addr 0x6a61ffc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_flipX_Injected, addr 0x6eb3e48, size 0x44, virtual false, abstract: false, final false
   static inline void set_flipX_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_flipY, addr 0x6a620fc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_flipY, addr 0x6eb3f48, size 0x90, virtual false, abstract: false, final false
   inline void set_flipY(bool value);
 
-  /// @brief Method set_flipY_Injected, addr 0x6a6218c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_flipY_Injected, addr 0x6eb3fd8, size 0x44, virtual false, abstract: false, final false
   static inline void set_flipY_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_hasSpriteChangeEvents, addr 0x6a60d64, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_hasSpriteChangeEvents, addr 0x6eb2bb0, size 0x90, virtual false, abstract: false, final false
   inline void set_hasSpriteChangeEvents(bool value);
 
-  /// @brief Method set_hasSpriteChangeEvents_Injected, addr 0x6a61224, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_hasSpriteChangeEvents_Injected, addr 0x6eb3070, size 0x44, virtual false, abstract: false, final false
   static inline void set_hasSpriteChangeEvents_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_maskInteraction, addr 0x6a61ddc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_maskInteraction, addr 0x6eb3c28, size 0x90, virtual false, abstract: false, final false
   inline void set_maskInteraction(::UnityEngine::SpriteMaskInteraction value);
 
-  /// @brief Method set_maskInteraction_Injected, addr 0x6a61e6c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_maskInteraction_Injected, addr 0x6eb3cb8, size 0x44, virtual false, abstract: false, final false
   static inline void set_maskInteraction_Injected(::System::IntPtr _unity_self, ::UnityEngine::SpriteMaskInteraction value);
 
-  /// @brief Method set_size, addr 0x6a61764, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_size, addr 0x6eb35b0, size 0x94, virtual false, abstract: false, final false
   inline void set_size(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_size_Injected, addr 0x6a617f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_size_Injected, addr 0x6eb3644, size 0x44, virtual false, abstract: false, final false
   static inline void set_size_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_sprite, addr 0x6a613f4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x6eb3240, size 0xc0, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_spriteSortPoint, addr 0x6a6228c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_spriteSortPoint, addr 0x6eb40d8, size 0x90, virtual false, abstract: false, final false
   inline void set_spriteSortPoint(::UnityEngine::SpriteSortPoint value);
 
-  /// @brief Method set_spriteSortPoint_Injected, addr 0x6a6231c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_spriteSortPoint_Injected, addr 0x6eb4168, size 0x44, virtual false, abstract: false, final false
   static inline void set_spriteSortPoint_Injected(::System::IntPtr _unity_self, ::UnityEngine::SpriteSortPoint value);
 
-  /// @brief Method set_sprite_Injected, addr 0x6a614b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sprite_Injected, addr 0x6eb3300, size 0x44, virtual false, abstract: false, final false
   static inline void set_sprite_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
-  /// @brief Method set_tileMode, addr 0x6a61a90, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_tileMode, addr 0x6eb38dc, size 0x90, virtual false, abstract: false, final false
   inline void set_tileMode(::UnityEngine::SpriteTileMode value);
 
-  /// @brief Method set_tileMode_Injected, addr 0x6a61b20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_tileMode_Injected, addr 0x6eb396c, size 0x44, virtual false, abstract: false, final false
   static inline void set_tileMode_Injected(::System::IntPtr _unity_self, ::UnityEngine::SpriteTileMode value);
 
 protected:
@@ -289,7 +289,7 @@ public:
   SpriteRenderer(SpriteRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9619 };
 
   /// @brief Field m_SpriteChangeEvent, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>* ___m_SpriteChangeEvent;

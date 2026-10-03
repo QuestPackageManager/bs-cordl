@@ -31,9 +31,6 @@ class CapturePass___c;
 namespace UnityEngine::Rendering::Universal {
 struct RenderPassEvent;
 }
-namespace UnityEngine::Rendering::Universal {
-struct RenderingData;
-}
 namespace UnityEngine::Rendering {
 class CommandBuffer;
 }
@@ -41,13 +38,7 @@ namespace UnityEngine::Rendering {
 class ContextContainer;
 }
 namespace UnityEngine::Rendering {
-class RTHandle;
-}
-namespace UnityEngine::Rendering {
 struct RenderTargetIdentifier;
-}
-namespace UnityEngine::Rendering {
-struct ScriptableRenderContext;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::Universal {
@@ -97,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_source(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x6881b4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc0e20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,7 +106,7 @@ public:
   CapturePass_UnsafePassData(CapturePass_UnsafePassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13064 };
 
   /// @brief Field source, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___source;
@@ -144,28 +135,28 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::CapturePass___c* __9;
 
-  /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__4_0,
-                      put = setStaticF___9__4_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::CapturePass_UnsafePassData*,
-                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* __9__4_0;
+  /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__2_0,
+                      put = setStaticF___9__2_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::CapturePass_UnsafePassData*,
+                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* __9__2_0;
 
   static inline ::UnityEngine::Rendering::Universal::CapturePass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__4_0, addr 0x6881ba8, size 0x260, virtual false, abstract: false, final false
-  inline void _RecordRenderGraph_b__4_0(::UnityEngine::Rendering::Universal::CapturePass_UnsafePassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* unsafeContext);
+  /// @brief Method <RecordRenderGraph>b__2_0, addr 0x6cc0e7c, size 0x260, virtual false, abstract: false, final false
+  inline void _RecordRenderGraph_b__2_0(::UnityEngine::Rendering::Universal::CapturePass_UnsafePassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* unsafeContext);
 
-  /// @brief Method .ctor, addr 0x6881ba4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc0e78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::CapturePass___c* getStaticF___9();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::CapturePass_UnsafePassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*
-  getStaticF___9__4_0();
+  getStaticF___9__2_0();
 
   static inline void setStaticF___9(::UnityEngine::Rendering::Universal::CapturePass___c* value);
 
-  static inline void setStaticF___9__4_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::CapturePass_UnsafePassData*,
+  static inline void setStaticF___9__2_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::CapturePass_UnsafePassData*,
                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* value);
 
 protected:
@@ -183,7 +174,7 @@ public:
   CapturePass___c(CapturePass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13065 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -202,25 +193,12 @@ public:
 
   using __c = ::UnityEngine::Rendering::Universal::CapturePass___c;
 
-  /// @brief Field m_CameraColorHandle, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CameraColorHandle, put = __cordl_internal_set_m_CameraColorHandle)) ::UnityEngine::Rendering::RTHandle* m_CameraColorHandle;
-
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Execute, addr 0x6881424, size 0x2a0, virtual true, abstract: false, final false
-  inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
-
   static inline ::UnityEngine::Rendering::Universal::CapturePass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method RecordRenderGraph, addr 0x68816c4, size 0x488, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6cc09a8, size 0x478, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get_m_CameraColorHandle() const;
-
-  constexpr ::UnityEngine::Rendering::RTHandle*& __cordl_internal_get_m_CameraColorHandle();
-
-  constexpr void __cordl_internal_set_m_CameraColorHandle(::UnityEngine::Rendering::RTHandle* value);
-
-  /// @brief Method .ctor, addr 0x688135c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc0908, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:
@@ -238,16 +216,11 @@ public:
   CapturePass(CapturePass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12827 };
-
-  /// @brief Field m_CameraColorHandle, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::Rendering::RTHandle* ___m_CameraColorHandle;
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13066 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Universal::CapturePass, ___m_CameraColorHandle) == 0xb8, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::Universal::CapturePass) == 0xc0, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::CapturePass) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal

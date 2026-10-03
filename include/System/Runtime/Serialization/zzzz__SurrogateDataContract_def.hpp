@@ -73,10 +73,10 @@ public:
 
   constexpr void __cordl_internal_set_serializationSurrogate(::System::Runtime::Serialization::ISerializationSurrogate* value);
 
-  /// @brief Method .ctor, addr 0x6160b34, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65886f0, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::ISerializationSurrogate* serializationSurrogate);
 
-  /// @brief Method get_SerializationSurrogate, addr 0x6161a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializationSurrogate, addr 0x6589304, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ISerializationSurrogate* get_SerializationSurrogate();
 
 protected:
@@ -94,7 +94,7 @@ public:
   SurrogateDataContract_SurrogateDataContractCriticalHelper(SurrogateDataContract_SurrogateDataContractCriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16493 };
 
   /// @brief Field serializationSurrogate, offset: 0x48, size: 0x8, def value: None
   ::System::Runtime::Serialization::ISerializationSurrogate* ___serializationSurrogate;
@@ -121,25 +121,25 @@ public:
   /// @brief Field helper, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper)) ::System::Runtime::Serialization::SurrogateDataContract_SurrogateDataContractCriticalHelper* helper;
 
-  /// @brief Method GetRealObject, addr 0x6161214, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetRealObject, addr 0x6588ae8, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Object* GetRealObject(::System::Runtime::Serialization::IObjectReference* obj, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetUninitializedObject, addr 0x61612cc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetUninitializedObject, addr 0x6588ba0, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Object* GetUninitializedObject(::System::Type* objType);
 
   static inline ::System::Runtime::Serialization::SurrogateDataContract* New_ctor(::System::Type* type, ::System::Runtime::Serialization::ISerializationSurrogate* serializationSurrogate);
 
-  /// @brief Method ReadXmlValue, addr 0x6161328, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method ReadXmlValue, addr 0x6588bfc, size 0x254, virtual true, abstract: false, final false
   inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
 
-  /// @brief Method SerializationSurrogateGetObjectData, addr 0x6160d68, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SerializationSurrogateGetObjectData, addr 0x6588928, size 0xdc, virtual false, abstract: false, final false
   inline void SerializationSurrogateGetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* serInfo, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SerializationSurrogateSetObjectData, addr 0x6161130, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SerializationSurrogateSetObjectData, addr 0x6588a04, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Object* SerializationSurrogateSetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* serInfo,
                                                                ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method WriteXmlValue, addr 0x6160c04, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlValue, addr 0x65887c0, size 0xe0, virtual true, abstract: false, final false
   inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
 
   constexpr ::System::Runtime::Serialization::SurrogateDataContract_SurrogateDataContractCriticalHelper* const& __cordl_internal_get_helper() const;
@@ -148,10 +148,10 @@ public:
 
   constexpr void __cordl_internal_set_helper(::System::Runtime::Serialization::SurrogateDataContract_SurrogateDataContractCriticalHelper* value);
 
-  /// @brief Method .ctor, addr 0x61597bc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65813b0, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::ISerializationSurrogate* serializationSurrogate);
 
-  /// @brief Method get_SerializationSurrogate, addr 0x6160bec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_SerializationSurrogate, addr 0x65887a8, size 0x18, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ISerializationSurrogate* get_SerializationSurrogate();
 
 protected:
@@ -169,7 +169,7 @@ public:
   SurrogateDataContract(SurrogateDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16494 };
 
   /// @brief Field helper, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::Serialization::SurrogateDataContract_SurrogateDataContractCriticalHelper* ___helper;

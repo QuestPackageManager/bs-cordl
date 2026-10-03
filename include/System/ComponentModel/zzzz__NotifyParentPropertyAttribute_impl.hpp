@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::NotifyParentPropertyAttribute::*)(bool)>(&::System::ComponentModel::NotifyParentPropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63eaca0;
+  constexpr static std::size_t addrs = 0x6812f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::NotifyParentPropertyAttribute::*)()>(
     &::System::ComponentModel::NotifyParentPropertyAttribute::get_NotifyParent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63eaca8;
+  constexpr static std::size_t addrs = 0x6812f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::NotifyParentPropertyAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::NotifyParentPropertyAttribute::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x63eacb0;
+  constexpr static std::size_t addrs = 0x6812f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::NotifyParentPropertyAttribute*>(),
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::NotifyParentPropertyAttribute::*)()>(&::System::ComponentModel::NotifyParentPropertyAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ead3c;
+  constexpr static std::size_t addrs = 0x6813008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::NotifyParentPropertyAttribute*>(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::NotifyParentPropertyAttribute::*)()>(
     &::System::ComponentModel::NotifyParentPropertyAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x63ead44;
+  constexpr static std::size_t addrs = 0x6813010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::NotifyParentPropertyAttribute*>(),

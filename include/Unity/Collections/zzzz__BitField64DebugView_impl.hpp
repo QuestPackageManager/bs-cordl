@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::BitField64DebugView::*)(::Unity::Collections::BitField64)>(&::Unity::Collections::BitField64DebugView::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64abe04;
+  constexpr static std::size_t addrs = 0x68d480c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (::Unity::Collections::BitField64DebugView::*)()>(&::Unity::Collections::BitField64DebugView::get_Bits)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x64abe0c;
+  constexpr static std::size_t addrs = 0x68d4814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::BitField64DebugView*>(), { "get_Bits", {}, {} })));

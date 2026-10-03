@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerMarker (::UnityEngine::UIElements::VisualElementAnimationSystem::*)()>(
     &::UnityEngine::UIElements::VisualElementAnimationSystem::get_profilerMarker)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6ccd3d8;
+  constexpr static std::size_t addrs = 0x715814c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementAnimationSystem*>(),
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerMarker (*)()>(&::UnityEngine::UIElements::VisualElementAnimationSystem::get_stylePropertyAnimationProfilerMarker)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6ccd434;
+  constexpr static std::size_t addrs = 0x71581a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementAnimationSystem::*)(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*)>(
     &::UnityEngine::UIElements::VisualElementAnimationSystem::UnregisterAnimation)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6ccd490;
+  constexpr static std::size_t addrs = 0x7158204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementAnimationSystem::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>*)>(&::UnityEngine::UIElements::VisualElementAnimationSystem::UnregisterAnimations)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6ccd500;
+  constexpr static std::size_t addrs = 0x7158274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementAnimationSystem::*)(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*)>(
     &::UnityEngine::UIElements::VisualElementAnimationSystem::RegisterAnimation)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6ccd634;
+  constexpr static std::size_t addrs = 0x71583a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementAnimationSystem::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>*)>(&::UnityEngine::UIElements::VisualElementAnimationSystem::RegisterAnimations)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6ccd6b0;
+  constexpr static std::size_t addrs = 0x7158424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,8 +102,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementAnimationSystem::*)()>(&::UnityEngine::UIElements::VisualElementAnimationSystem::Update)> {
-  constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x6ccd7f0;
+  constexpr static std::size_t size = 0x3ec;
+  constexpr static std::size_t addrs = 0x7158564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementAnimationSystem*>(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementAnimationSystem::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(&::UnityEngine::UIElements::VisualElementAnimationSystem::OnVersionChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ccdbd4;
+  constexpr static std::size_t addrs = 0x7158958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementAnimationSystem*>(),
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementAnimationSystem::*)()>(&::UnityEngine::UIElements::VisualElementAnimationSystem::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6ccdbd8;
+  constexpr static std::size_t addrs = 0x715895c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementAnimationSystem*>(), { ".ctor", {}, {} })));
@@ -191,15 +191,15 @@ constexpr void UnityEngine::UIElements::VisualElementAnimationSystem::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IterationListDirty = value;
 }
-constexpr int64_t& UnityEngine::UIElements::VisualElementAnimationSystem::__cordl_internal_get_lastUpdate() {
+constexpr double_t& UnityEngine::UIElements::VisualElementAnimationSystem::__cordl_internal_get_lastUpdate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastUpdate;
 }
-constexpr int64_t const& UnityEngine::UIElements::VisualElementAnimationSystem::__cordl_internal_get_lastUpdate() const {
+constexpr double_t const& UnityEngine::UIElements::VisualElementAnimationSystem::__cordl_internal_get_lastUpdate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastUpdate;
 }
-constexpr void UnityEngine::UIElements::VisualElementAnimationSystem::__cordl_internal_set_lastUpdate(int64_t value) {
+constexpr void UnityEngine::UIElements::VisualElementAnimationSystem::__cordl_internal_set_lastUpdate(double_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastUpdate = value;
 }

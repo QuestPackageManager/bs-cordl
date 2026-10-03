@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OnWillRenderObjectTrigger::*)()>(&::GlobalNamespace::OnWillRenderObjectTrigger::OnEnable)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x5872cac;
+  constexpr static std::size_t addrs = 0x5c88e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OnWillRenderObjectTrigger*>(), { "OnEnable", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OnWillRenderObjectTrigger::*)()>(&::GlobalNamespace::OnWillRenderObjectTrigger::OnDisable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x58730ac;
+  constexpr static std::size_t addrs = 0x5c89280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OnWillRenderObjectTrigger*>(), { "OnDisable", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OnWillRenderObjectTrigger::*)()>(&::GlobalNamespace::OnWillRenderObjectTrigger::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58730dc;
+  constexpr static std::size_t addrs = 0x5c892b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OnWillRenderObjectTrigger*>(), { ".ctor", {}, {} })));

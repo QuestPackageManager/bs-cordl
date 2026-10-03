@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/GenericDropdownMenu.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__AbstractGenericMenu_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__GenericDropdownMenu_def.hpp"
@@ -10,11 +11,11 @@
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DropdownMenuSizeMode_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusOutEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__GenericDropdownMenu_def.hpp"
 #include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IGenericMenu_def.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardNavigationManipulator_def.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardNavigationOperation_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerDownEvent_def.hpp"
@@ -28,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu_MenuItem::*)()>(&::UnityEngine::UIElements::GenericDropdownMenu_MenuItem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d460e4;
+  constexpr static std::size_t addrs = 0x71b7674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu_MenuItem*>(), { ".ctor", {}, {} })));
@@ -94,75 +95,75 @@ inline ::UnityEngine::UIElements::GenericDropdownMenu_MenuItem* UnityEngine::UIE
 constexpr ::UnityEngine::UIElements::GenericDropdownMenu_MenuItem::GenericDropdownMenu_MenuItem() {}
 // Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::UIElements::GenericDropdownMenu*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "selectedIndex", ty:
 // "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0::GenericDropdownMenu___c__DisplayClass48_0(::UnityEngine::UIElements::GenericDropdownMenu* __4__this,
+constexpr ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0::GenericDropdownMenu___c__DisplayClass56_0(::UnityEngine::UIElements::GenericDropdownMenu* __4__this,
                                                                                                                           int32_t selectedIndex) noexcept {
   this->__4__this = __4__this;
   this->selectedIndex = selectedIndex;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0::GenericDropdownMenu___c__DisplayClass48_0() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0._ctor
+constexpr ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0::GenericDropdownMenu___c__DisplayClass56_0() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0::*)()>(
-    &::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0::*)()>(
+    &::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d460e8;
+  constexpr static std::size_t addrs = 0x71b7794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0._UpdateItem_b__0
+//  Writing Method size for method: ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0._UpdateItem_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0::*)(::UnityEngine::UIElements::GenericDropdownMenu_MenuItem*)>(
-    &::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0::_UpdateItem_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0::*)(::UnityEngine::UIElements::GenericDropdownMenu_MenuItem*)>(
+    &::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0::_UpdateItem_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6d460ec;
+  constexpr static std::size_t addrs = 0x71b99ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0*>(),
                                                              { "<UpdateItem>b__0", {}, { ::i2c::type_of<::UnityEngine::UIElements::GenericDropdownMenu_MenuItem*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0::__cordl_internal_get_itemName() {
+constexpr ::StringW& UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0::__cordl_internal_get_itemName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___itemName;
 }
-constexpr ::StringW const& UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0::__cordl_internal_get_itemName() const {
+constexpr ::StringW const& UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0::__cordl_internal_get_itemName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___itemName;
 }
-constexpr void UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0::__cordl_internal_set_itemName(::StringW value) {
+constexpr void UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0::__cordl_internal_set_itemName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___itemName = value;
 }
-inline void UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0::_ctor() {
+inline void UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0::_UpdateItem_b__0(::UnityEngine::UIElements::GenericDropdownMenu_MenuItem* x) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0*>(),
+inline bool UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0::_UpdateItem_b__0(::UnityEngine::UIElements::GenericDropdownMenu_MenuItem* x) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0*>(),
                                                                                          { "<UpdateItem>b__0", {}, { ::i2c::type_of<::UnityEngine::UIElements::GenericDropdownMenu_MenuItem*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x);
 }
-inline ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0* UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0*>());
+inline ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0* UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0::GenericDropdownMenu___c__DisplayClass63_0() {}
+constexpr ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0::GenericDropdownMenu___c__DisplayClass71_0() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::GenericDropdownMenu.get_isSingleSelectionDropdown
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::GenericDropdownMenu::*)()>(&::UnityEngine::UIElements::GenericDropdownMenu::get_isSingleSelectionDropdown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d42800;
+  constexpr static std::size_t addrs = 0x71b591c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(bool)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::set_isSingleSelectionDropdown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d42808;
+  constexpr static std::size_t addrs = 0x71b5924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::GenericDropdownMenu::*)()>(&::UnityEngine::UIElements::GenericDropdownMenu::get_closeOnParentResize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d42810;
+  constexpr static std::size_t addrs = 0x71b592c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { "get_closeOnParentResize", {}, {} })));
@@ -201,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(bool)>(&::UnityEngine::UIElements::GenericDropdownMenu::set_closeOnParentResize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d42818;
+  constexpr static std::size_t addrs = 0x71b5934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::GenericDropdownMenu::*)()>(
     &::UnityEngine::UIElements::GenericDropdownMenu::get_contentContainer)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d42820;
+  constexpr static std::size_t addrs = 0x71b593c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { "get_contentContainer", {}, {} })));
@@ -227,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)()>(&::UnityEngine::UIElements::GenericDropdownMenu::_ctor)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x6d3fe14;
+  constexpr static std::size_t addrs = 0x71b595c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { ".ctor", {}, {} })));
@@ -239,8 +240,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::AttachToPanelEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnAttachToPanel)> {
-  constexpr static std::size_t size = 0x500;
-  constexpr static std::size_t addrs = 0x6d42840;
+  constexpr static std::size_t size = 0x4fc;
+  constexpr static std::size_t addrs = 0x71b5c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
@@ -254,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::DetachFromPanelEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnDetachFromPanel)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x6d42d40;
+  constexpr static std::size_t addrs = 0x71b6178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
@@ -266,8 +267,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(bool)>(&::UnityEngine::UIElements::GenericDropdownMenu::Hide)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6d43118;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x71b6550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(
     ::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::GenericDropdownMenu::Apply)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6d43238;
+  constexpr static std::size_t addrs = 0x71b66b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::KeyboardNavigationOperation)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::Apply)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x6d43264;
+  constexpr static std::size_t addrs = 0x71b66dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
@@ -311,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::PointerDownEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnPointerDown)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6d43660;
+  constexpr static std::size_t addrs = 0x71b6ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
@@ -325,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnPointerMove)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6d43864;
+  constexpr static std::size_t addrs = 0x71b6cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
@@ -339,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnPointerUp)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6d43950;
+  constexpr static std::size_t addrs = 0x71b6dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::FocusOutEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnFocusOut)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6d43aa8;
+  constexpr static std::size_t addrs = 0x71b6f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -369,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnParentResized)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d43c20;
+  constexpr static std::size_t addrs = 0x71b7098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
@@ -383,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::UpdateSelection)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6d4374c;
+  constexpr static std::size_t addrs = 0x71b6bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
@@ -397,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::ChangeSelectedIndex)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6d43c34;
+  constexpr static std::size_t addrs = 0x71b70ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::GenericDropdownMenu::*)()>(&::UnityEngine::UIElements::GenericDropdownMenu::GetSelectedIndex)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6d43444;
+  constexpr static std::size_t addrs = 0x71b68bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { "GetSelectedIndex", {}, {} })));
@@ -424,12 +425,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::StringW, bool, ::System::Action*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::AddItem)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6d43d60;
+  constexpr static std::size_t addrs = 0x71b71d8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
-                                                             { "AddItem", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Action*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { ::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), 4 }));
     return ___internal_method;
   }
 };
@@ -439,14 +439,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::StringW, bool, ::System::Action_1<::System::Object*>*, ::System::Object*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::AddItem)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d440f8;
+  constexpr static std::size_t addrs = 0x71b7588;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
-                         { "AddItem", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Action_1<::System::Object*>*>(), ::i2c::type_of<::System::Object*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { ::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), 5 }));
     return ___internal_method;
   }
 };
@@ -455,12 +452,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::StringW, bool)>(&::UnityEngine::UIElements::GenericDropdownMenu::AddDisabledItem)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d44118;
+  constexpr static std::size_t addrs = 0x71b75a8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { "AddDisabledItem", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { ::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), 6 }));
     return ___internal_method;
   }
 };
@@ -469,11 +465,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::StringW)>(&::UnityEngine::UIElements::GenericDropdownMenu::AddSeparator)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6d44124;
+  constexpr static std::size_t addrs = 0x71b75b4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { "AddSeparator", {}, { ::i2c::type_of<::StringW>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { ::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -482,8 +478,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::GenericDropdownMenu_MenuItem* (
     ::UnityEngine::UIElements::GenericDropdownMenu::*)(::StringW, bool, bool, ::System::Object*)>(&::UnityEngine::UIElements::GenericDropdownMenu::AddItem)> {
-  constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x6d43d84;
+  constexpr static std::size_t size = 0x38c;
+  constexpr static std::size_t addrs = 0x71b71fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -496,8 +492,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::StringW, bool)>(&::UnityEngine::UIElements::GenericDropdownMenu::UpdateItem)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6d441e4;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x71b7678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -510,13 +506,55 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*, bool)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::DropDown)> {
-  constexpr static std::size_t size = 0xa54;
-  constexpr static std::size_t addrs = 0x6d44308;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x71b7798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
                                                 { "DropDown", {}, { ::i2c::type_of<::UnityEngine::Rect>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::GenericDropdownMenu.DropDown
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(
+    ::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::DropdownMenuSizeMode)>(&::UnityEngine::UIElements::GenericDropdownMenu::DropDown)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x71b77bc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { ::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), 8 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::GenericDropdownMenu.DoDropDown
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*, bool)>(
+    &::UnityEngine::UIElements::GenericDropdownMenu::DoDropDown)> {
+  constexpr static std::size_t size = 0xbe8;
+  constexpr static std::size_t addrs = 0x71b78e0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
+                                                { "DoDropDown", {}, { ::i2c::type_of<::UnityEngine::Rect>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::GenericDropdownMenu.SetFitContentWidth
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(bool)>(&::UnityEngine::UIElements::GenericDropdownMenu::SetFitContentWidth)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x71b7844;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { "SetFitContentWidth", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -526,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::DetachFromPanelEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnTargetElementDetachFromPanel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d45758;
+  constexpr static std::size_t addrs = 0x71b9010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -541,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnContainerGeometryChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d45760;
+  constexpr static std::size_t addrs = 0x71b9018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -556,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnInitialDisplay)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d45764;
+  constexpr static std::size_t addrs = 0x71b901c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
@@ -568,8 +606,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)()>(&::UnityEngine::UIElements::GenericDropdownMenu::EnsureVisibilityInParent)> {
-  constexpr static std::size_t size = 0x9fc;
-  constexpr static std::size_t addrs = 0x6d44d5c;
+  constexpr static std::size_t size = 0xb48;
+  constexpr static std::size_t addrs = 0x71b84c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -581,45 +619,45 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::GenericDropdownMenu::*)()>(&::UnityEngine::UIElements::GenericDropdownMenu::GetLargestItemWidth)> {
-  constexpr static std::size_t size = 0x734;
-  constexpr static std::size_t addrs = 0x6d45784;
+  constexpr static std::size_t size = 0x784;
+  constexpr static std::size_t addrs = 0x71b903c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { "GetLargestItemWidth", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::GenericDropdownMenu._Apply_g__UpdateSelectionDown_48_0
+//  Writing Method size for method: ::UnityEngine::UIElements::GenericDropdownMenu._Apply_g__UpdateSelectionDown_56_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(
-    int32_t, ::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0>)>(&::UnityEngine::UIElements::GenericDropdownMenu::_Apply_g__UpdateSelectionDown_48_0)> {
+    int32_t, ::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0>)>(&::UnityEngine::UIElements::GenericDropdownMenu::_Apply_g__UpdateSelectionDown_56_0)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6d43598;
+  constexpr static std::size_t addrs = 0x71b6a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
-            { "<Apply>g__UpdateSelectionDown|48_0", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0>>() } })));
+            { "<Apply>g__UpdateSelectionDown|56_0", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0>>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::GenericDropdownMenu._Apply_g__UpdateSelectionUp_48_1
+//  Writing Method size for method: ::UnityEngine::UIElements::GenericDropdownMenu._Apply_g__UpdateSelectionUp_56_1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(
-    int32_t, ::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0>)>(&::UnityEngine::UIElements::GenericDropdownMenu::_Apply_g__UpdateSelectionUp_48_1)> {
+    int32_t, ::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0>)>(&::UnityEngine::UIElements::GenericDropdownMenu::_Apply_g__UpdateSelectionUp_56_1)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6d434ec;
+  constexpr static std::size_t addrs = 0x71b6964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(
                          ::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
-                         { "<Apply>g__UpdateSelectionUp|48_1", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0>>() } })));
+                         { "<Apply>g__UpdateSelectionUp|56_1", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0>>() } })));
     return ___internal_method;
   }
 };
@@ -803,6 +841,30 @@ constexpr void UnityEngine::UIElements::GenericDropdownMenu::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____closeOnParentResize_k__BackingField = value;
 }
+constexpr ::System::Action*& UnityEngine::UIElements::GenericDropdownMenu::__cordl_internal_get_onOpen() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___onOpen;
+}
+constexpr ::System::Action* const& UnityEngine::UIElements::GenericDropdownMenu::__cordl_internal_get_onOpen() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___onOpen;
+}
+constexpr void UnityEngine::UIElements::GenericDropdownMenu::__cordl_internal_set_onOpen(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___onOpen = value;
+}
+constexpr ::System::Action*& UnityEngine::UIElements::GenericDropdownMenu::__cordl_internal_get_onClose() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___onClose;
+}
+constexpr ::System::Action* const& UnityEngine::UIElements::GenericDropdownMenu::__cordl_internal_get_onClose() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___onClose;
+}
+constexpr void UnityEngine::UIElements::GenericDropdownMenu::__cordl_internal_set_onClose(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___onClose = value;
+}
 constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::GenericDropdownMenu::__cordl_internal_get_m_MousePosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MousePosition;
@@ -965,26 +1027,23 @@ inline int32_t UnityEngine::UIElements::GenericDropdownMenu::GetSelectedIndex() 
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::GenericDropdownMenu::AddItem(::StringW itemName, bool isChecked, ::System::Action* action) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
-                                                           { "AddItem", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Action*>() } })));
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, itemName, isChecked, action);
 }
 inline void UnityEngine::UIElements::GenericDropdownMenu::AddItem(::StringW itemName, bool isChecked, ::System::Action_1<::System::Object*>* action, ::System::Object* data) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
-                          { "AddItem", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Action_1<::System::Object*>*>(), ::i2c::type_of<::System::Object*>() } })));
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, itemName, isChecked, action, data);
 }
 inline void UnityEngine::UIElements::GenericDropdownMenu::AddDisabledItem(::StringW itemName, bool isChecked) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { "AddDisabledItem", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, itemName, isChecked);
 }
 inline void UnityEngine::UIElements::GenericDropdownMenu::AddSeparator(::StringW path) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { "AddSeparator", {}, { ::i2c::type_of<::StringW>() } })));
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, path);
 }
 inline ::UnityEngine::UIElements::GenericDropdownMenu_MenuItem* UnityEngine::UIElements::GenericDropdownMenu::AddItem(::StringW itemName, bool isChecked, bool isEnabled, ::System::Object* data) {
@@ -1003,6 +1062,23 @@ inline void UnityEngine::UIElements::GenericDropdownMenu::DropDown(::UnityEngine
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
                                               { "DropDown", {}, { ::i2c::type_of<::UnityEngine::Rect>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, position, targetElement, anchored);
+}
+inline void UnityEngine::UIElements::GenericDropdownMenu::DropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement,
+                                                                   ::UnityEngine::UIElements::DropdownMenuSizeMode dropdownMenuSizeMode) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, position, targetElement, dropdownMenuSizeMode);
+}
+inline void UnityEngine::UIElements::GenericDropdownMenu::DoDropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement, bool anchored) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
+                                              { "DoDropDown", {}, { ::i2c::type_of<::UnityEngine::Rect>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, position, targetElement, anchored);
+}
+inline void UnityEngine::UIElements::GenericDropdownMenu::SetFitContentWidth(bool fit) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(), { "SetFitContentWidth", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, fit);
 }
 inline void UnityEngine::UIElements::GenericDropdownMenu::OnTargetElementDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt) {
   static auto* ___internal_method =
@@ -1030,35 +1106,27 @@ inline float_t UnityEngine::UIElements::GenericDropdownMenu::GetLargestItemWidth
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline void
-UnityEngine::UIElements::GenericDropdownMenu::_Apply_g__UpdateSelectionDown_48_0(int32_t newIndex,
-                                                                                 ::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0> _cordl_fixed_empty_name_whitespace) {
+UnityEngine::UIElements::GenericDropdownMenu::_Apply_g__UpdateSelectionDown_56_0(int32_t newIndex,
+                                                                                 ::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0> _cordl_fixed_empty_name_whitespace) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
                        ::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
-                       { "<Apply>g__UpdateSelectionDown|48_0", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0>>() } })));
+                       { "<Apply>g__UpdateSelectionDown|56_0", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newIndex, _cordl_fixed_empty_name_whitespace);
 }
 inline void
-UnityEngine::UIElements::GenericDropdownMenu::_Apply_g__UpdateSelectionUp_48_1(int32_t newIndex,
-                                                                               ::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0> _cordl_fixed_empty_name_whitespace) {
+UnityEngine::UIElements::GenericDropdownMenu::_Apply_g__UpdateSelectionUp_56_1(int32_t newIndex,
+                                                                               ::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0> _cordl_fixed_empty_name_whitespace) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
                        ::i2c::class_of<::UnityEngine::UIElements::GenericDropdownMenu*>(),
-                       { "<Apply>g__UpdateSelectionUp|48_1", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0>>() } })));
+                       { "<Apply>g__UpdateSelectionUp|56_1", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newIndex, _cordl_fixed_empty_name_whitespace);
 }
 inline ::UnityEngine::UIElements::GenericDropdownMenu* UnityEngine::UIElements::GenericDropdownMenu::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::GenericDropdownMenu*>());
-}
-/// @brief Convert operator to "::UnityEngine::UIElements::IGenericMenu"
-constexpr UnityEngine::UIElements::GenericDropdownMenu::operator ::UnityEngine::UIElements::IGenericMenu*() noexcept {
-  return static_cast<::UnityEngine::UIElements::IGenericMenu*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IGenericMenu"
-constexpr ::UnityEngine::UIElements::IGenericMenu* UnityEngine::UIElements::GenericDropdownMenu::i___UnityEngine__UIElements__IGenericMenu() noexcept {
-  return static_cast<::UnityEngine::UIElements::IGenericMenu*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::GenericDropdownMenu::GenericDropdownMenu() {}

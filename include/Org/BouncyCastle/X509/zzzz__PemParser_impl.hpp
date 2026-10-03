@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::X509::PemParser::*)(::StringW)>(&::Org::BouncyCastle::X509::PemParser::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3644c40;
+  constexpr static std::size_t addrs = 0x38cdedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::X509::PemParser::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::X509::PemParser::ReadLine)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3644d5c;
+  constexpr static std::size_t addrs = 0x38cdff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (::Org::BouncyCastle::X509::PemParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::X509::PemParser::ReadPemObject)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x3644e40;
+  constexpr static std::size_t addrs = 0x38ce0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -27,15 +27,15 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void* Allocate(int32_t count);
 
-  /// @brief Method Allocate, addr 0x64cf0d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x68f7ec8, size 0x3c, virtual false, abstract: false, final false
   inline void* Allocate(int32_t sizeInBytes, int32_t alignmentInBytes);
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckAllocationDoesNotExceedCapacity, addr 0x64cf004, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CheckAllocationDoesNotExceedCapacity, addr 0x68f7dfc, size 0xcc, virtual false, abstract: false, final false
   inline void CheckAllocationDoesNotExceedCapacity(uint64_t requestedSize);
 
-  /// @brief Method .ctor, addr 0x64ceff8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68f7df0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* ptr, int32_t capacityInBytes);
 
   // Ctor Parameters []
@@ -47,7 +47,7 @@ public:
   constexpr UnsafeScratchAllocator(void* m_Pointer, int32_t m_LengthInBytes, int32_t m_CapacityInBytes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16055 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

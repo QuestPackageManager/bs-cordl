@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MoveInDirectionEffect::*)()>(&::GlobalNamespace::MoveInDirectionEffect::Awake)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5997ab8;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x5db2aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MoveInDirectionEffect*>(), { "Awake", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MoveInDirectionEffect::*)(int32_t, int32_t, float_t)>(&::GlobalNamespace::MoveInDirectionEffect::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5997bd8;
+  constexpr static std::size_t addrs = 0x5db2c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MoveInDirectionEffect::*)(int32_t, int32_t, float_t)>(&::GlobalNamespace::MoveInDirectionEffect::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5997c24;
+  constexpr static std::size_t addrs = 0x5db2c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MoveInDirectionEffect::*)(float_t)>(&::GlobalNamespace::MoveInDirectionEffect::Move)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5997bdc;
+  constexpr static std::size_t addrs = 0x5db2c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MoveInDirectionEffect::*)()>(&::GlobalNamespace::MoveInDirectionEffect::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5997c28;
+  constexpr static std::size_t addrs = 0x5db2c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MoveInDirectionEffect*>(), { ".ctor", {}, {} })));

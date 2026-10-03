@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Nat
     ::by_ref<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout>, ::by_ref<::UnityEngine::Rendering::CullingResults>)>(
     &::UnityEngine::Rendering::Universal::ShadowCulling::CullShadowCasters)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x68bb0f4;
+  constexpr static std::size_t addrs = 0x6cf222c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,8 +41,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::UnityEngine::Rendering::Universal::UniversalShadowData*, ::by_ref<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout>, ::by_ref<::UnityEngine::Rendering::CullingResults>,
     ::by_ref<::UnityEngine::Rendering::ShadowCastersCullingInfos>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos>>)>(
     &::UnityEngine::Rendering::Universal::ShadowCulling::ComputeShadowCasterCullingInfos)> {
-  constexpr static std::size_t size = 0x84c;
-  constexpr static std::size_t addrs = 0x68bb1d8;
+  constexpr static std::size_t size = 0x848;
+  constexpr static std::size_t addrs = 0x6cf2310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::BatchCullingProjectionType (*)(::UnityEngine::LightType)>(
     &::UnityEngine::Rendering::Universal::ShadowCulling::GetCullingProjectionType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68bbe60;
+  constexpr static std::size_t addrs = 0x6cf2f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

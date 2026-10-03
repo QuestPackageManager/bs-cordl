@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::PhysicsRaycasterWithCache_CachedRaycast::*)(bool, ::UnityEngine::Ray, ::UnityEngine::RaycastHit, float_t, int32_t)>(
     &::VRUIControls::PhysicsRaycasterWithCache_CachedRaycast::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e3ae6c;
+  constexpr static std::size_t addrs = 0x72d693c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,8 +51,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::VRUIControls::PhysicsRaycasterWithCache::*)(::UnityEngine::Ray, ::by_ref<::UnityEngine::RaycastHit>, float_t, int32_t)>(
     &::VRUIControls::PhysicsRaycasterWithCache::Raycast)> {
-  constexpr static std::size_t size = 0x4cc;
-  constexpr static std::size_t addrs = 0x6e3a9a0;
+  constexpr static std::size_t size = 0x4d0;
+  constexpr static std::size_t addrs = 0x72d646c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::PhysicsRaycasterWithCache::*)()>(&::VRUIControls::PhysicsRaycasterWithCache::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e3aea8;
+  constexpr static std::size_t addrs = 0x72d6978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::PhysicsRaycasterWithCache*>(), { ".ctor", {}, {} })));

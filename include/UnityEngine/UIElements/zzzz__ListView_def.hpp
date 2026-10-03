@@ -68,7 +68,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ListView_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d4fa9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71dec68, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   ListView_UxmlFactory(ListView_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4244 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -106,7 +106,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ItemTemplate,
                       put = __cordl_internal_set_m_ItemTemplate)) ::UnityEngine::UIElements::UxmlAssetAttributeDescription_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* m_ItemTemplate;
 
-  /// @brief Method Init, addr 0x6d4fb04, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x71decd0, size 0x128, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::ListView_UxmlTraits* New_ctor();
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ItemTemplate(::UnityEngine::UIElements::UxmlAssetAttributeDescription_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* value);
 
-  /// @brief Method .ctor, addr 0x6d4fc3c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71dedf8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -135,7 +135,7 @@ public:
   ListView_UxmlTraits(ListView_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4245 };
 
   /// @brief Field m_ItemTemplate, offset: 0x108, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlAssetAttributeDescription_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* ___m_ItemTemplate;
@@ -177,22 +177,22 @@ public:
   /// @brief Field itemTemplateProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_itemTemplateProperty, put = setStaticF_itemTemplateProperty)) ::UnityEngine::UIElements::BindingId itemTemplateProperty;
 
-  /// @brief Field m_BindItem, offset 0x6b8, size 0x8
+  /// @brief Field m_BindItem, offset 0x4e8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_BindItem, put = __cordl_internal_set_m_BindItem)) ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* m_BindItem;
 
-  /// @brief Field m_DestroyItem, offset 0x6c8, size 0x8
+  /// @brief Field m_DestroyItem, offset 0x4f8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DestroyItem, put = __cordl_internal_set_m_DestroyItem)) ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* m_DestroyItem;
 
-  /// @brief Field m_ItemTemplate, offset 0x6b0, size 0x8
+  /// @brief Field m_ItemTemplate, offset 0x4e0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ItemTemplate, put = __cordl_internal_set_m_ItemTemplate)) ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> m_ItemTemplate;
 
-  /// @brief Field m_MakeItem, offset 0x6a0, size 0x8
+  /// @brief Field m_MakeItem, offset 0x4d0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_MakeItem, put = __cordl_internal_set_m_MakeItem)) ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* m_MakeItem;
 
-  /// @brief Field m_TemplateMakeItem, offset 0x6a8, size 0x8
+  /// @brief Field m_TemplateMakeItem, offset 0x4d8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TemplateMakeItem, put = __cordl_internal_set_m_TemplateMakeItem)) ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* m_TemplateMakeItem;
 
-  /// @brief Field m_UnbindItem, offset 0x6c0, size 0x8
+  /// @brief Field m_UnbindItem, offset 0x4f0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_UnbindItem, put = __cordl_internal_set_m_UnbindItem)) ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* m_UnbindItem;
 
   /// @brief [CreateProperty]
@@ -207,15 +207,15 @@ public:
   /// @brief Field unbindItemProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_unbindItemProperty, put = setStaticF_unbindItemProperty)) ::UnityEngine::UIElements::BindingId unbindItemProperty;
 
-  /// @brief Method CreateViewController, addr 0x6d4f668, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method CreateViewController, addr 0x71de834, size 0x44, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::CollectionViewController* CreateViewController();
 
-  /// @brief Method HasValidDataAndBindings, addr 0x6d4f60c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method HasValidDataAndBindings, addr 0x71de7d8, size 0x5c, virtual true, abstract: false, final false
   inline bool HasValidDataAndBindings();
 
   static inline ::UnityEngine::UIElements::ListView* New_ctor();
 
-  /// @brief Method TemplateMakeItem, addr 0x6d4f2ec, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TemplateMakeItem, addr 0x71de4b8, size 0xec, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* TemplateMakeItem();
 
   constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* const& __cordl_internal_get_m_BindItem() const;
@@ -254,7 +254,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UnbindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x6d4f6ac, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71de878, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_bindItemProperty();
@@ -267,19 +267,19 @@ public:
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_unbindItemProperty();
 
-  /// @brief Method get_bindItem, addr 0x6d4f3d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindItem, addr 0x71de5a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_bindItem();
 
-  /// @brief Method get_destroyItem, addr 0x6d4f554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destroyItem, addr 0x71de720, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* get_destroyItem();
 
-  /// @brief Method get_itemTemplate, addr 0x6d4f1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_itemTemplate, addr 0x71de3a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> get_itemTemplate();
 
-  /// @brief Method get_makeItem, addr 0x6d4f118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeItem, addr 0x71de2e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeItem();
 
-  /// @brief Method get_unbindItem, addr 0x6d4f49c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unbindItem, addr 0x71de668, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_unbindItem();
 
   static inline void setStaticF_bindItemProperty(::UnityEngine::UIElements::BindingId value);
@@ -292,19 +292,19 @@ public:
 
   static inline void setStaticF_unbindItemProperty(::UnityEngine::UIElements::BindingId value);
 
-  /// @brief Method set_bindItem, addr 0x6d4f3e0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_bindItem, addr 0x71de5ac, size 0xbc, virtual false, abstract: false, final false
   inline void set_bindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
 
-  /// @brief Method set_destroyItem, addr 0x6d4f55c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_destroyItem, addr 0x71de728, size 0xb0, virtual false, abstract: false, final false
   inline void set_destroyItem(::System::Action_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_itemTemplate, addr 0x6d4f1e4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method set_itemTemplate, addr 0x71de3b0, size 0x108, virtual false, abstract: false, final false
   inline void set_itemTemplate(::UnityEngine::UIElements::VisualTreeAsset* value);
 
-  /// @brief Method set_makeItem, addr 0x6d4f120, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_makeItem, addr 0x71de2ec, size 0xbc, virtual false, abstract: false, final false
   inline void set_makeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_unbindItem, addr 0x6d4f4a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_unbindItem, addr 0x71de670, size 0xb0, virtual false, abstract: false, final false
   inline void set_unbindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
 
 protected:
@@ -322,41 +322,41 @@ public:
   ListView(ListView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4241 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4246 };
 
-  /// @brief Field m_MakeItem, offset: 0x6a0, size: 0x8, def value: None
+  /// @brief Field m_MakeItem, offset: 0x4d0, size: 0x8, def value: None
   ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* ___m_MakeItem;
 
-  /// @brief Field m_TemplateMakeItem, offset: 0x6a8, size: 0x8, def value: None
+  /// @brief Field m_TemplateMakeItem, offset: 0x4d8, size: 0x8, def value: None
   ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* ___m_TemplateMakeItem;
 
-  /// @brief Field m_ItemTemplate, offset: 0x6b0, size: 0x8, def value: None
+  /// @brief Field m_ItemTemplate, offset: 0x4e0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> ___m_ItemTemplate;
 
-  /// @brief Field m_BindItem, offset: 0x6b8, size: 0x8, def value: None
+  /// @brief Field m_BindItem, offset: 0x4e8, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* ___m_BindItem;
 
-  /// @brief Field m_UnbindItem, offset: 0x6c0, size: 0x8, def value: None
+  /// @brief Field m_UnbindItem, offset: 0x4f0, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* ___m_UnbindItem;
 
-  /// @brief Field m_DestroyItem, offset: 0x6c8, size: 0x8, def value: None
+  /// @brief Field m_DestroyItem, offset: 0x4f8, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* ___m_DestroyItem;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_MakeItem) == 0x6a0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_MakeItem) == 0x4d0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_TemplateMakeItem) == 0x6a8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_TemplateMakeItem) == 0x4d8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_ItemTemplate) == 0x6b0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_ItemTemplate) == 0x4e0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_BindItem) == 0x6b8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_BindItem) == 0x4e8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_UnbindItem) == 0x6c0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_UnbindItem) == 0x4f0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_DestroyItem) == 0x6c8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_DestroyItem) == 0x4f8, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::ListView) == 0x6d0, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::ListView) == 0x500, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

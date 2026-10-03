@@ -4,33 +4,47 @@
 #include "UnityEngine/TextCore/Text/zzzz__TextHandlePermanentCache_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextCacheEntry_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextHandle_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextInfo_def.hpp"
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextHandlePermanentCache.AddTextInfoToCache
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextHandlePermanentCache.AddToCache
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandlePermanentCache::*)(::UnityEngine::TextCore::Text::TextHandle*)>(
-    &::UnityEngine::TextCore::Text::TextHandlePermanentCache::AddTextInfoToCache)> {
-  constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x6c10a58;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandlePermanentCache*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::TextCore::Text::TextHandlePermanentCache*>(), 4 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextHandlePermanentCache.RemoveTextInfoFromCache
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandlePermanentCache::*)(::UnityEngine::TextCore::Text::TextHandle*)>(
-    &::UnityEngine::TextCore::Text::TextHandlePermanentCache::RemoveTextInfoFromCache)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6c10c8c;
+    &::UnityEngine::TextCore::Text::TextHandlePermanentCache::AddToCache)> {
+  constexpr static std::size_t size = 0x290;
+  constexpr static std::size_t addrs = 0x7063c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandlePermanentCache*>(),
-                                                                                           { "RemoveTextInfoFromCache", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextHandle*>() } })));
+                                                                                           { "AddToCache", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextHandle*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextHandlePermanentCache.RemoveFromCache
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandlePermanentCache::*)(::UnityEngine::TextCore::Text::TextHandle*)>(
+    &::UnityEngine::TextCore::Text::TextHandlePermanentCache::RemoveFromCache)> {
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x7064050;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandlePermanentCache*>(),
+                                                                                           { "RemoveFromCache", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextHandle*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextHandlePermanentCache.ResetEntryState
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandlePermanentCache::*)(::UnityEngine::TextCore::Text::TextHandle*)>(
+    &::UnityEngine::TextCore::Text::TextHandlePermanentCache::ResetEntryState)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x70641ac;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandlePermanentCache*>(),
+                                                                                           { "ResetEntryState", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextHandle*>() } })));
     return ___internal_method;
   }
 };
@@ -39,26 +53,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandlePermanentCache::*)()>(&::UnityEngine::TextCore::Text::TextHandlePermanentCache::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6c10db8;
+  constexpr static std::size_t addrs = 0x706424c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandlePermanentCache*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextInfo*>*& UnityEngine::TextCore::Text::TextHandlePermanentCache::__cordl_internal_get_s_TextInfoPool() {
+constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>*& UnityEngine::TextCore::Text::TextHandlePermanentCache::__cordl_internal_get_s_Cache() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___s_TextInfoPool;
+  return this->___s_Cache;
 }
-constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextInfo*>* const&
-UnityEngine::TextCore::Text::TextHandlePermanentCache::__cordl_internal_get_s_TextInfoPool() const {
+constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>* const&
+UnityEngine::TextCore::Text::TextHandlePermanentCache::__cordl_internal_get_s_Cache() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___s_TextInfoPool;
+  return this->___s_Cache;
 }
-constexpr void
-UnityEngine::TextCore::Text::TextHandlePermanentCache::__cordl_internal_set_s_TextInfoPool(::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextInfo*>* value) {
+constexpr void UnityEngine::TextCore::Text::TextHandlePermanentCache::__cordl_internal_set_s_Cache(::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___s_TextInfoPool = value;
+  this->___s_Cache = value;
 }
 constexpr ::System::Object*& UnityEngine::TextCore::Text::TextHandlePermanentCache::__cordl_internal_get_syncRoot() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -72,15 +85,20 @@ constexpr void UnityEngine::TextCore::Text::TextHandlePermanentCache::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___syncRoot = value;
 }
-inline void UnityEngine::TextCore::Text::TextHandlePermanentCache::AddTextInfoToCache(::UnityEngine::TextCore::Text::TextHandle* textHandle) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::TextCore::Text::TextHandlePermanentCache*>(), 4 })));
+inline void UnityEngine::TextCore::Text::TextHandlePermanentCache::AddToCache(::UnityEngine::TextCore::Text::TextHandle* textHandle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandlePermanentCache*>(),
+                                                                                         { "AddToCache", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextHandle*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, textHandle);
 }
-inline void UnityEngine::TextCore::Text::TextHandlePermanentCache::RemoveTextInfoFromCache(::UnityEngine::TextCore::Text::TextHandle* textHandle) {
+inline void UnityEngine::TextCore::Text::TextHandlePermanentCache::RemoveFromCache(::UnityEngine::TextCore::Text::TextHandle* textHandle) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandlePermanentCache*>(),
-                                                                                         { "RemoveTextInfoFromCache", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextHandle*>() } })));
+                                                                                         { "RemoveFromCache", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextHandle*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, textHandle);
+}
+inline void UnityEngine::TextCore::Text::TextHandlePermanentCache::ResetEntryState(::UnityEngine::TextCore::Text::TextHandle* handle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandlePermanentCache*>(),
+                                                                                         { "ResetEntryState", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextHandle*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, handle);
 }
 inline void UnityEngine::TextCore::Text::TextHandlePermanentCache::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandlePermanentCache*>(), { ".ctor", {}, {} })));

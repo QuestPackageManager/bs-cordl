@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::DateTimeFacetsChecker::*)(::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::DateTimeFacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x61d3498;
+  constexpr static std::size_t addrs = 0x65fb13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::DateTimeFacetsChecker::*)(::System::DateTime, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::DateTimeFacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x61d34fc;
+  constexpr static std::size_t addrs = 0x65fb1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::DateTimeFacetsChecker::*)(
     ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::DateTimeFacetsChecker::MatchEnumeration)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61d3a0c;
+  constexpr static std::size_t addrs = 0x65fb6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::DateTimeFacetsChecker::*)(
     ::System::DateTime, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::DateTimeFacetsChecker::MatchEnumeration)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x61d38c4;
+  constexpr static std::size_t addrs = 0x65fb568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DateTimeFacetsChecker::*)()>(&::System::Xml::Schema::DateTimeFacetsChecker::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61bf7e0;
+  constexpr static std::size_t addrs = 0x65e7484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DateTimeFacetsChecker*>(), { ".ctor", {}, {} })));

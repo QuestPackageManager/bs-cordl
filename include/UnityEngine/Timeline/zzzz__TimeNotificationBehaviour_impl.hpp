@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry::*)()>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry::get_triggerInEditor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69cb1b4;
+  constexpr static std::size_t addrs = 0x6df3220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry::*)()>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry::get_prewarm)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69cb1a8;
+  constexpr static std::size_t addrs = 0x6df3214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry::*)()>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry::get_triggerOnce)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69ca930;
+  constexpr static std::size_t addrs = 0x6df299c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour___c::*)()>(&::UnityEngine::Timeline::TimeNotificationBehaviour___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69cb288;
+  constexpr static std::size_t addrs = 0x6df32f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimeNotificationBehaviour___c*>(), { ".ctor", {}, {} })));
@@ -105,7 +105,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::T
                                                                                                                            ::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry)>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour___c::_SortNotifications_b__12_0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69cb28c;
+  constexpr static std::size_t addrs = 0x6df32f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimeNotificationBehaviour___c*>(),
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour::set_timeSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ca43c;
+  constexpr static std::size_t addrs = 0x6df24a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeNotificationBehaviour*> (*)(
     ::UnityEngine::Playables::PlayableGraph, double_t, ::UnityEngine::Playables::DirectorWrapMode)>(&::UnityEngine::Timeline::TimeNotificationBehaviour::Create)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x69ca444;
+  constexpr static std::size_t addrs = 0x6df24b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)(
     double_t, ::UnityEngine::Playables::INotification*, ::UnityEngine::Timeline::NotificationFlags)>(&::UnityEngine::Timeline::TimeNotificationBehaviour::AddNotification)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x69ca56c;
+  constexpr static std::size_t addrs = 0x6df25d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour::OnGraphStart)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x69ca660;
+  constexpr static std::size_t addrs = 0x6df26cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour::OnBehaviourPause)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x69ca93c;
+  constexpr static std::size_t addrs = 0x6df29a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour::PrepareFrame)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x69cab5c;
+  constexpr static std::size_t addrs = 0x6df2bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)()>(&::UnityEngine::Timeline::TimeNotificationBehaviour::SortNotifications)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x69ca814;
+  constexpr static std::size_t addrs = 0x6df2880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimeNotificationBehaviour*>(), { "SortNotifications", {}, {} })));
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry, ::UnityEngine::Playables::FrameData, double_t, double_t)>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour::CanRestoreNotification)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x69cb168;
+  constexpr static std::size_t addrs = 0x6df31d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)(
     double_t, double_t, ::UnityEngine::Playables::FrameData, ::UnityEngine::Playables::Playable, bool)>(&::UnityEngine::Timeline::TimeNotificationBehaviour::TriggerNotificationsInRange)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x69caf88;
+  constexpr static std::size_t addrs = 0x6df2ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour::SyncDurationWithExternalSource)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x69cae7c;
+  constexpr static std::size_t addrs = 0x6df2ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimeNotificationBehaviour*>(),
@@ -310,7 +310,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::PlayableOutput, ::by_ref<::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry>)>(
         &::UnityEngine::Timeline::TimeNotificationBehaviour::Trigger_internal)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69caad0;
+  constexpr static std::size_t addrs = 0x6df2b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry>)>(
     &::UnityEngine::Timeline::TimeNotificationBehaviour::Restore_internal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cb1a0;
+  constexpr static std::size_t addrs = 0x6df320c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TimeNotificationBehaviour::*)()>(&::UnityEngine::Timeline::TimeNotificationBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x69cb1c0;
+  constexpr static std::size_t addrs = 0x6df322c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimeNotificationBehaviour*>(), { ".ctor", {}, {} })));

@@ -65,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set_owner(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Console> value);
 
-  /// @brief Method <.ctor>b__0, addr 0x5a54154, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0, addr 0x5e6baf0, size 0x44, virtual false, abstract: false, final false
   inline void __ctor_b__0();
 
-  /// @brief Method .ctor, addr 0x5a54148, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e6bae4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   SeverityEntry___c__DisplayClass9_0(SeverityEntry___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18376 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18910 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::UserInterface::SeverityEntry* _____4__this;
@@ -142,7 +142,7 @@ public:
                                                                                       ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* imageStyle,
                                                                                       ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* pillStyle);
 
-  /// @brief Method Reset, addr 0x5a4c2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x5e63c60, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> const& __cordl_internal_get__PillStyle_k__BackingField() const;
@@ -175,27 +175,27 @@ public:
 
   constexpr void __cordl_internal_set__owner(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Console> value);
 
-  /// @brief Method .ctor, addr 0x5a4aa10, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e623ac, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::Meta::XR::ImmersiveDebugger::UserInterface::Console* owner, ::StringW label, ::UnityEngine::Texture2D* icon,
                     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* imageStyle, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* pillStyle);
 
-  /// @brief Method get_Count, addr 0x5a5414c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x5e6bae8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Owner, addr 0x5a54138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Owner, addr 0x5e6bad4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Console> get_Owner();
 
   /// [CompilerGenerated]
-  /// @brief Method get_PillStyle, addr 0x5a54140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PillStyle, addr 0x5e6badc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> get_PillStyle();
 
-  /// @brief Method get_ShouldShow, addr 0x5a4c2cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldShow, addr 0x5e63c68, size 0x18, virtual false, abstract: false, final false
   inline bool get_ShouldShow();
 
-  /// @brief Method set_Count, addr 0x5a4bb60, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_Count, addr 0x5e634fc, size 0x54, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
-  /// @brief Method set_ShouldShow, addr 0x5a4ab6c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_ShouldShow, addr 0x5e62508, size 0x54, virtual false, abstract: false, final false
   inline void set_ShouldShow(bool value);
 
 protected:
@@ -213,7 +213,7 @@ public:
   SeverityEntry(SeverityEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18377 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18911 };
 
   /// @brief Field _owner, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Console> ____owner;

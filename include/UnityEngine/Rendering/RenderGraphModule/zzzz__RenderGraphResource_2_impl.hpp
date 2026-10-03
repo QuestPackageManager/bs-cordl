@@ -78,18 +78,20 @@ template <typename DescType, typename ResType> inline bool UnityEngine::Renderin
 }
 template <typename DescType, typename ResType> inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2<DescType, ResType>::ReleaseGraphicsResource() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass,
-                                                                                  { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2<DescType, ResType>*>(), 15 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-template <typename DescType, typename ResType> inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2<DescType, ResType>::CreatePooledGraphicsResource() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass,
-                                                                                  { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2<DescType, ResType>*>(), 11 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-template <typename DescType, typename ResType> inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2<DescType, ResType>::ReleasePooledGraphicsResource(int32_t frameIndex) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass,
                                                                                   { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2<DescType, ResType>*>(), 14 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, frameIndex);
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template <typename DescType, typename ResType>
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2<DescType, ResType>::CreatePooledGraphicsResource(int32_t frameIndex, int32_t executionCount) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass,
+                                                                                  { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2<DescType, ResType>*>(), 10 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, frameIndex, executionCount);
+}
+template <typename DescType, typename ResType>
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2<DescType, ResType>::ReleasePooledGraphicsResource(int32_t frameIndex, int32_t executionCount) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass,
+                                                                                  { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2<DescType, ResType>*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, frameIndex, executionCount);
 }
 template <typename DescType, typename ResType>
 inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2<DescType, ResType>* UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2<DescType, ResType>::New_ctor() {

@@ -24,7 +24,7 @@ class CORDL_TYPE TileSizeExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method IsValid, addr 0x68c225c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6cf96ec, size 0x20, virtual false, abstract: false, final false
   static inline bool IsValid(::UnityEngine::Rendering::Universal::TileSize tileSize);
 
 protected:
@@ -42,7 +42,7 @@ public:
   TileSizeExtensions(TileSizeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13222 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

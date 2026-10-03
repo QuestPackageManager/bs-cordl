@@ -74,22 +74,22 @@ public:
   /// @brief Field signedData, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_signedData, put = setStaticF_signedData)) ::ArrayW<uint8_t> signedData;
 
-  /// @brief Method Clone, addr 0x63a9670, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x67d193c, size 0x68, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Clone();
 
-  /// @brief Method GetDSAPrivateKey, addr 0x63a9d90, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetDSAPrivateKey, addr 0x67d205c, size 0x90, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::DSA* GetDSAPrivateKey();
 
-  /// @brief Method GetRSAPrivateKey, addr 0x63a9d00, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetRSAPrivateKey, addr 0x67d1fcc, size 0x90, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::RSA* GetRSAPrivateKey();
 
-  /// @brief Method GetRawCertData, addr 0x63a96f4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetRawCertData, addr 0x67d19c0, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetRawCertData();
 
-  /// @brief Method ImportPkcs12, addr 0x63a9618, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ImportPkcs12, addr 0x67d18e4, size 0x58, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* ImportPkcs12(::ArrayW<uint8_t> rawData, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password);
 
-  /// @brief Method ImportPkcs12, addr 0x63a9e20, size 0x738, virtual false, abstract: false, final false
+  /// @brief Method ImportPkcs12, addr 0x67d20ec, size 0x738, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* ImportPkcs12(::ArrayW<uint8_t> rawData, ::StringW password);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono* New_ctor(::Mono::Security::X509::X509Certificate* cert);
@@ -100,7 +100,7 @@ public:
                                                                                                        ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
   /// [MonoTODO("by default this depends on the incomplete X509Chain")]
-  /// @brief Method Verify, addr 0x63aa6a0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Verify, addr 0x67d296c, size 0x8c, virtual true, abstract: false, final false
   inline bool Verify(::System::Security::Cryptography::X509Certificates::X509Certificate2* thisCertificate);
 
   constexpr ::Mono::Security::X509::X509Certificate* const& __cordl_internal_get__cert() const;
@@ -115,42 +115,42 @@ public:
 
   constexpr void __cordl_internal_set_intermediateCerts(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* value);
 
-  /// @brief Method .ctor, addr 0x63a943c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67d1708, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::X509::X509Certificate* cert);
 
-  /// @brief Method .ctor, addr 0x63a9448, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67d1714, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono* other);
 
-  /// @brief Method .ctor, addr 0x63a94d0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67d179c, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> rawData, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
   static inline ::StringW getStaticF_empty_error();
 
   static inline ::ArrayW<uint8_t> getStaticF_signedData();
 
-  /// @brief Method get_Cert, addr 0x63a96d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Cert, addr 0x67d19a4, size 0x1c, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* get_Cert();
 
-  /// @brief Method get_HasPrivateKey, addr 0x63a972c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_HasPrivateKey, addr 0x67d19f8, size 0x24, virtual true, abstract: false, final false
   inline bool get_HasPrivateKey();
 
-  /// @brief Method get_IntermediateCertificates, addr 0x63aa7d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IntermediateCertificates, addr 0x67d2a9c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* get_IntermediateCertificates();
 
-  /// @brief Method get_IsValid, addr 0x63a942c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x67d16f8, size 0x10, virtual true, abstract: false, final false
   inline bool get_IsValid();
 
-  /// @brief Method get_MonoCertificate, addr 0x63aa7d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MonoCertificate, addr 0x67d2aa4, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* get_MonoCertificate();
 
-  /// @brief Method get_PrivateKey, addr 0x63a9750, size 0x418, virtual true, abstract: false, final false
+  /// @brief Method get_PrivateKey, addr 0x67d1a1c, size 0x418, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::AsymmetricAlgorithm* get_PrivateKey();
 
   static inline void setStaticF_empty_error(::StringW value);
 
   static inline void setStaticF_signedData(::ArrayW<uint8_t> value);
 
-  /// @brief Method set_PrivateKey, addr 0x63a9b68, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method set_PrivateKey, addr 0x67d1e34, size 0x198, virtual true, abstract: false, final false
   inline void set_PrivateKey(::System::Security::Cryptography::AsymmetricAlgorithm* value);
 
 protected:
@@ -168,7 +168,7 @@ public:
   X509Certificate2ImplMono(X509Certificate2ImplMono const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12129 };
 
   /// @brief Field intermediateCerts, offset: 0xb0, size: 0x8, def value: None
   ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* ___intermediateCerts;

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Collections::ExcludeFromBurstCompatTestingAttribute::*)()>(
     &::Unity::Collections::ExcludeFromBurstCompatTestingAttribute::get_Reason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64c205c;
+  constexpr static std::size_t addrs = 0x68eb190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::ExcludeFromBurstCompatTestingAttribute::*)(::StringW)>(
     &::Unity::Collections::ExcludeFromBurstCompatTestingAttribute::set_Reason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64c2064;
+  constexpr static std::size_t addrs = 0x68eb198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::ExcludeFromBurstCompatTestingAttribute::*)(::StringW)>(
     &::Unity::Collections::ExcludeFromBurstCompatTestingAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64c206c;
+  constexpr static std::size_t addrs = 0x68eb1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

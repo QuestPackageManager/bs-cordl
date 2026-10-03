@@ -34,12 +34,12 @@ public:
   /// @brief Field _analyticsManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__analyticsManager, put = __cordl_internal_set__analyticsManager)) ::UnityW<::OSCE::Analytics::AnalyticsManager> _analyticsManager;
 
-  /// @brief Method GetSegmentName, addr 0x3264040, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetSegmentName, addr 0x34ea948, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW GetSegmentName(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData* levelData);
 
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::EventSenderBase* New_ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager);
 
-  /// @brief Method SendEventsBatch, addr 0x3264118, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SendEventsBatch, addr 0x34eaa20, size 0x98, virtual false, abstract: false, final false
   inline void SendEventsBatch(::BeatSaber::Analytics::Gameplay::EventsBuilder* eventsBuilder);
 
   constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager> const& __cordl_internal_get__analyticsManager() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__analyticsManager(::UnityW<::OSCE::Analytics::AnalyticsManager> value);
 
-  /// @brief Method .ctor, addr 0x3263d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34ea638, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager);
 
 protected:
@@ -66,7 +66,7 @@ public:
   EventSenderBase(EventSenderBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22268 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22987 };
 
   /// @brief Field _analyticsManager, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::OSCE::Analytics::AnalyticsManager> ____analyticsManager;

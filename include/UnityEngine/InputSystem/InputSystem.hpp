@@ -58,6 +58,7 @@ module;
 #include "UnityEngine/InputSystem/InputValue.hpp"
 #include "UnityEngine/InputSystem/Joystick.hpp"
 #include "UnityEngine/InputSystem/Key.hpp"
+#include "UnityEngine/InputSystem/KeyEx.hpp"
 #include "UnityEngine/InputSystem/Keyboard.hpp"
 #include "UnityEngine/InputSystem/LightSensor.hpp"
 #include "UnityEngine/InputSystem/LinearAccelerationSensor.hpp"

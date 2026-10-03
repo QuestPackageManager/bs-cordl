@@ -5,15 +5,45 @@
 #include "UnityEngine/zzzz__Texture2D_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__PostProcessData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__PostProcessData_def.hpp"
+#include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_def.hpp"
+#include "UnityEngine/Rendering/zzzz__IRenderPipelineResources_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources.get_version
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::*)()>(
+    &::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::get_version)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c75c7c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources*>(), { "get_version", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources.get_isAvailableInPlayerBuild
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::*)()>(
+    &::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::get_isAvailableInPlayerBuild)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c75c84;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources*>(), { "get_isAvailableInPlayerBuild", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x683cfcc;
+  constexpr static std::size_t addrs = 0x6c75c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,6 +243,28 @@ constexpr void UnityEngine::Rendering::Universal::PostProcessData_ShaderResource
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___finalPostPassPS = value;
 }
+constexpr int32_t& UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::__cordl_internal_get_m_ShaderResourcesVersion() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ShaderResourcesVersion;
+}
+constexpr int32_t const& UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::__cordl_internal_get_m_ShaderResourcesVersion() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ShaderResourcesVersion;
+}
+constexpr void UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::__cordl_internal_set_m_ShaderResourcesVersion(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ShaderResourcesVersion = value;
+}
+inline int32_t UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::get_version() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources*>(), { "get_version", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::get_isAvailableInPlayerBuild() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources*>(), { "get_isAvailableInPlayerBuild", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
 inline void UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources*>(), { ".ctor", {}, {} })));
@@ -221,15 +273,60 @@ inline void UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::
 inline ::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources* UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources*>());
 }
+/// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineResources"
+constexpr UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::operator ::UnityEngine::Rendering::IRenderPipelineResources*() noexcept {
+  return static_cast<::UnityEngine::Rendering::IRenderPipelineResources*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
+constexpr ::UnityEngine::Rendering::IRenderPipelineResources* UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::i___UnityEngine__Rendering__IRenderPipelineResources() noexcept {
+  return static_cast<::UnityEngine::Rendering::IRenderPipelineResources*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
+constexpr UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::operator ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*() noexcept {
+  return static_cast<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
+constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*
+UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept {
+  return static_cast<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources::PostProcessData_ShaderResources() {}
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::PostProcessData_TextureResources.get_version
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::PostProcessData_TextureResources::*)()>(
+    &::UnityEngine::Rendering::Universal::PostProcessData_TextureResources::get_version)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c75c90;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessData_TextureResources*>(), { "get_version", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::PostProcessData_TextureResources.get_isAvailableInPlayerBuild
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::PostProcessData_TextureResources::*)()>(
+    &::UnityEngine::Rendering::Universal::PostProcessData_TextureResources::get_isAvailableInPlayerBuild)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c75c98;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessData_TextureResources*>(), { "get_isAvailableInPlayerBuild", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::PostProcessData_TextureResources._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessData_TextureResources::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessData_TextureResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x683cfd0;
+  constexpr static std::size_t addrs = 0x6c75ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,6 +382,28 @@ constexpr void UnityEngine::Rendering::Universal::PostProcessData_TextureResourc
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smaaSearchTex = value;
 }
+constexpr int32_t& UnityEngine::Rendering::Universal::PostProcessData_TextureResources::__cordl_internal_get_m_TexturesResourcesVersion() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TexturesResourcesVersion;
+}
+constexpr int32_t const& UnityEngine::Rendering::Universal::PostProcessData_TextureResources::__cordl_internal_get_m_TexturesResourcesVersion() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TexturesResourcesVersion;
+}
+constexpr void UnityEngine::Rendering::Universal::PostProcessData_TextureResources::__cordl_internal_set_m_TexturesResourcesVersion(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_TexturesResourcesVersion = value;
+}
+inline int32_t UnityEngine::Rendering::Universal::PostProcessData_TextureResources::get_version() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessData_TextureResources*>(), { "get_version", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::Universal::PostProcessData_TextureResources::get_isAvailableInPlayerBuild() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessData_TextureResources*>(), { "get_isAvailableInPlayerBuild", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
 inline void UnityEngine::Rendering::Universal::PostProcessData_TextureResources::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessData_TextureResources*>(), { ".ctor", {}, {} })));
@@ -293,6 +412,23 @@ inline void UnityEngine::Rendering::Universal::PostProcessData_TextureResources:
 inline ::UnityEngine::Rendering::Universal::PostProcessData_TextureResources* UnityEngine::Rendering::Universal::PostProcessData_TextureResources::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::PostProcessData_TextureResources*>());
 }
+/// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineResources"
+constexpr UnityEngine::Rendering::Universal::PostProcessData_TextureResources::operator ::UnityEngine::Rendering::IRenderPipelineResources*() noexcept {
+  return static_cast<::UnityEngine::Rendering::IRenderPipelineResources*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
+constexpr ::UnityEngine::Rendering::IRenderPipelineResources* UnityEngine::Rendering::Universal::PostProcessData_TextureResources::i___UnityEngine__Rendering__IRenderPipelineResources() noexcept {
+  return static_cast<::UnityEngine::Rendering::IRenderPipelineResources*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
+constexpr UnityEngine::Rendering::Universal::PostProcessData_TextureResources::operator ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*() noexcept {
+  return static_cast<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
+constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*
+UnityEngine::Rendering::Universal::PostProcessData_TextureResources::i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept {
+  return static_cast<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::PostProcessData_TextureResources::PostProcessData_TextureResources() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::PostProcessData._ctor
@@ -300,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessData::*)()>(&::UnityEngine::Rendering::Universal::PostProcessData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x683cfc4;
+  constexpr static std::size_t addrs = 0x6c75c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessData*>(), { ".ctor", {}, {} })));

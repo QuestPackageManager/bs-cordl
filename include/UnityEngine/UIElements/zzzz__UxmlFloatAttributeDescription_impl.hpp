@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlFloatAttributeDescription___c::*)()>(
     &::UnityEngine::UIElements::UxmlFloatAttributeDescription___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cbe728;
+  constexpr static std::size_t addrs = 0x714528c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlFloatAttributeDescription___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::UxmlFloatAttributeDescription___c::*)(::StringW, float_t)>(
     &::UnityEngine::UIElements::UxmlFloatAttributeDescription___c::_GetValueFromBag_b__3_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cbe72c;
+  constexpr static std::size_t addrs = 0x7145290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlFloatAttributeDescription___c*>(),
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlFloatAttributeDescription::*)()>(&::UnityEngine::UIElements::UxmlFloatAttributeDescription::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6cbe404;
+  constexpr static std::size_t addrs = 0x7144f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlFloatAttributeDescription*>(), { ".ctor", {}, {} })));
@@ -79,8 +79,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::UxmlFloatAttributeDescription::*)(
     ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::UxmlFloatAttributeDescription::GetValueFromBag)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6cbe4a4;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x7145028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlFloatAttributeDescription*>(),
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::StringW, float_t)>(&::UnityEngine::UIElements::UxmlFloatAttributeDescription::ConvertValueToFloat)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6cbe63c;
+  constexpr static std::size_t addrs = 0x71451a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlFloatAttributeDescription*>(),

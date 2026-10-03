@@ -89,7 +89,7 @@ public:
                                                                                 ::System::Linq::Expressions::Interpreter::InstructionArray instructions,
                                                                                 ::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*> debugInfos);
 
-  /// @brief Method Run, addr 0x5f9ea64, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x63ba9ec, size 0x74, virtual false, abstract: false, final false
   inline void Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* const&
@@ -137,28 +137,28 @@ public:
 
   constexpr void __cordl_internal_set__objects(::ArrayW<::System::Object*> value);
 
-  /// @brief Method .ctor, addr 0x5f9e998, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63ba920, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Linq::Expressions::Interpreter::LocalVariables* locals, ::System::Linq::Expressions::Interpreter::InstructionArray instructions,
                     ::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*> debugInfos);
 
   static inline ::System::Object* getStaticF_NoValue();
 
-  /// @brief Method get_ClosureSize, addr 0x5f9e9ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_ClosureSize, addr 0x63ba974, size 0x5c, virtual false, abstract: false, final false
   inline int32_t get_ClosureSize();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ClosureVariables, addr 0x5f9ea5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClosureVariables, addr 0x63ba9e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* get_ClosureVariables();
 
-  /// @brief Method get_Instructions, addr 0x5f9ea48, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Instructions, addr 0x63ba9d0, size 0x14, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::InstructionArray get_Instructions();
 
   /// [CompilerGenerated]
-  /// @brief Method get_LocalCount, addr 0x5f9e9e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalCount, addr 0x63ba96c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LocalCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x5f9e9dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x63ba964, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
   static inline void setStaticF_NoValue(::System::Object* value);
@@ -178,7 +178,7 @@ public:
   Interpreter(Interpreter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16915 };
 
   /// @brief Field _instructions, offset: 0x10, size: 0x28, def value: None
   ::System::Linq::Expressions::Interpreter::InstructionArray ____instructions;

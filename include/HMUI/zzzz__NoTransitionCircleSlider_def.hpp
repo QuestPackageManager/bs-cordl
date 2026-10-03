@@ -75,7 +75,7 @@ public:
   static ::HMUI::NoTransitionCircleSlider_SelectionState const Pressed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19671 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -109,7 +109,7 @@ public:
   __declspec(property(get = __cordl_internal_get_selectionStateDidChangeEvent,
                       put = __cordl_internal_set_selectionStateDidChangeEvent)) ::System::Action_1<::HMUI::NoTransitionCircleSlider_SelectionState>* selectionStateDidChangeEvent;
 
-  /// @brief Method DoStateTransition, addr 0x588c194, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method DoStateTransition, addr 0x5ca2c50, size 0x40, virtual true, abstract: false, final false
   inline void DoStateTransition(::UnityEngine::UI::Selectable_SelectionState state, bool instant);
 
   static inline ::HMUI::NoTransitionCircleSlider* New_ctor();
@@ -126,18 +126,18 @@ public:
 
   constexpr void __cordl_internal_set_selectionStateDidChangeEvent(::System::Action_1<::HMUI::NoTransitionCircleSlider_SelectionState>* value);
 
-  /// @brief Method .ctor, addr 0x588c1d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca2c90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_selectionStateDidChangeEvent, addr 0x588c014, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_selectionStateDidChangeEvent, addr 0x5ca2ad0, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::NoTransitionCircleSlider_SelectionState>* value);
 
-  /// @brief Method get_selectionState, addr 0x588c00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectionState, addr 0x5ca2ac8, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::NoTransitionCircleSlider_SelectionState get_selectionState();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x588c0d4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x5ca2b90, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::NoTransitionCircleSlider_SelectionState>* value);
 
 protected:
@@ -155,7 +155,7 @@ public:
   NoTransitionCircleSlider(NoTransitionCircleSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19117 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19672 };
 
   /// [CompilerGenerated]
   /// @brief Field selectionStateDidChangeEvent, offset: 0x130, size: 0x8, def value: None

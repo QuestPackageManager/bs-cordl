@@ -55,16 +55,16 @@ public:
   /// @brief Field UserData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_UserData, put = __cordl_internal_set_UserData)) ::System::Object* UserData;
 
-  /// @brief Method FromBytes, addr 0x58a11f0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method FromBytes, addr 0x5cb7d70, size 0x120, virtual false, abstract: false, final false
   inline bool FromBytes(::ArrayW<uint8_t> data, int32_t start, int32_t packetSize);
 
-  /// @brief Method GetHeaderSize, addr 0x589da8c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetHeaderSize, addr 0x5cb460c, size 0x68, virtual false, abstract: false, final false
   inline int32_t GetHeaderSize();
 
-  /// @brief Method GetHeaderSize, addr 0x58a2de4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetHeaderSize, addr 0x5cb9964, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t GetHeaderSize(::LiteNetLib::PacketProperty property);
 
-  /// @brief Method MarkFragmented, addr 0x58a41ec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method MarkFragmented, addr 0x5cbad6c, size 0x30, virtual false, abstract: false, final false
   inline void MarkFragmented();
 
   static inline ::LiteNetLib::NetPacket* New_ctor(::LiteNetLib::PacketProperty property, int32_t size);
@@ -89,59 +89,59 @@ public:
 
   constexpr void __cordl_internal_set_UserData(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x58a432c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cbaeac, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::PacketProperty property, int32_t size);
 
-  /// @brief Method .ctor, addr 0x58a42c8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cbae48, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
   static inline int32_t getStaticF_LastProperty();
 
-  /// @brief Method get_ChannelId, addr 0x58a421c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_ChannelId, addr 0x5cbad9c, size 0x2c, virtual false, abstract: false, final false
   inline uint8_t get_ChannelId();
 
-  /// @brief Method get_ConnectionNumber, addr 0x58a4174, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectionNumber, addr 0x5cbacf4, size 0x2c, virtual false, abstract: false, final false
   inline uint8_t get_ConnectionNumber();
 
-  /// @brief Method get_FragmentId, addr 0x58a4274, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_FragmentId, addr 0x5cbadf4, size 0xc, virtual false, abstract: false, final false
   inline uint16_t get_FragmentId();
 
-  /// @brief Method get_FragmentPart, addr 0x58a4290, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_FragmentPart, addr 0x5cbae10, size 0xc, virtual false, abstract: false, final false
   inline uint16_t get_FragmentPart();
 
-  /// @brief Method get_FragmentsTotal, addr 0x58a42ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_FragmentsTotal, addr 0x5cbae2c, size 0xc, virtual false, abstract: false, final false
   inline uint16_t get_FragmentsTotal();
 
-  /// @brief Method get_IsFragmented, addr 0x58a41c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_IsFragmented, addr 0x5cbad40, size 0x2c, virtual false, abstract: false, final false
   inline bool get_IsFragmented();
 
-  /// @brief Method get_Property, addr 0x58a1310, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Property, addr 0x5cb7e90, size 0x2c, virtual false, abstract: false, final false
   inline ::LiteNetLib::PacketProperty get_Property();
 
-  /// @brief Method get_Sequence, addr 0x58a41a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Sequence, addr 0x5cbad20, size 0xc, virtual false, abstract: false, final false
   inline uint16_t get_Sequence();
 
   static inline void setStaticF_LastProperty(int32_t value);
 
-  /// @brief Method set_ChannelId, addr 0x58a4248, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_ChannelId, addr 0x5cbadc8, size 0x2c, virtual false, abstract: false, final false
   inline void set_ChannelId(uint8_t value);
 
-  /// @brief Method set_ConnectionNumber, addr 0x58a088c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_ConnectionNumber, addr 0x5cb740c, size 0x34, virtual false, abstract: false, final false
   inline void set_ConnectionNumber(uint8_t value);
 
-  /// @brief Method set_FragmentId, addr 0x58a4280, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_FragmentId, addr 0x5cbae00, size 0x10, virtual false, abstract: false, final false
   inline void set_FragmentId(uint16_t value);
 
-  /// @brief Method set_FragmentPart, addr 0x58a429c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_FragmentPart, addr 0x5cbae1c, size 0x10, virtual false, abstract: false, final false
   inline void set_FragmentPart(uint16_t value);
 
-  /// @brief Method set_FragmentsTotal, addr 0x58a42b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_FragmentsTotal, addr 0x5cbae38, size 0x10, virtual false, abstract: false, final false
   inline void set_FragmentsTotal(uint16_t value);
 
-  /// @brief Method set_Property, addr 0x58a2e10, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_Property, addr 0x5cb9990, size 0x34, virtual false, abstract: false, final false
   inline void set_Property(::LiteNetLib::PacketProperty value);
 
-  /// @brief Method set_Sequence, addr 0x58a41ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_Sequence, addr 0x5cbad2c, size 0x10, virtual false, abstract: false, final false
   inline void set_Sequence(uint16_t value);
 
 protected:
@@ -159,7 +159,7 @@ public:
   NetPacket(NetPacket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20556 };
 
   /// @brief Field RawData, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t> ___RawData;

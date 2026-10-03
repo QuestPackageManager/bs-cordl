@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SwitchSettingsController::*)()>(&::GlobalNamespace::SwitchSettingsController::Awake)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5922ff4;
+  constexpr static std::size_t addrs = 0x5d3d6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SwitchSettingsController*>(), { "Awake", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SwitchSettingsController::*)()>(&::GlobalNamespace::SwitchSettingsController::OnDestroy)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x59230dc;
+  constexpr static std::size_t addrs = 0x5d3d7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SwitchSettingsController*>(), { "OnDestroy", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SwitchSettingsController::*)()>(&::GlobalNamespace::SwitchSettingsController::OnEnable)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x59231c4;
+  constexpr static std::size_t addrs = 0x5d3d8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SwitchSettingsController*>(), { "OnEnable", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SwitchSettingsController::*)()>(&::GlobalNamespace::SwitchSettingsController::RefreshUI)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5923200;
+  constexpr static std::size_t addrs = 0x5d3d904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SwitchSettingsController*>(), { "RefreshUI", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SwitchSettingsController::*)(bool)>(&::GlobalNamespace::SwitchSettingsController::HandleToggleValueDidChange)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5923220;
+  constexpr static std::size_t addrs = 0x5d3d924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SwitchSettingsController::*)()>(&::GlobalNamespace::SwitchSettingsController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x592322c;
+  constexpr static std::size_t addrs = 0x5d3d930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SwitchSettingsController*>(), { ".ctor", {}, {} })));

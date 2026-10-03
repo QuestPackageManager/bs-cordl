@@ -34,15 +34,15 @@ public:
 
   constexpr void __cordl_internal_set__order_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6a83858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ed689c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t order);
 
   /// [CompilerGenerated]
-  /// @brief Method get_order, addr 0x6a83848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x6ed688c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
   /// [CompilerGenerated]
-  /// @brief Method set_order, addr 0x6a83850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_order, addr 0x6ed6894, size 0x8, virtual false, abstract: false, final false
   inline void set_order(int32_t value);
 
 protected:
@@ -60,7 +60,7 @@ public:
   BeforeRenderOrderAttribute(BeforeRenderOrderAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9696 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]

@@ -37,15 +37,15 @@ public:
   /// @brief Field _wasEnabled, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__wasEnabled, put = __cordl_internal_set__wasEnabled)) bool _wasEnabled;
 
-  /// @brief Method HandleSystemStateChange, addr 0x5854430, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method HandleSystemStateChange, addr 0x5c6a1b4, size 0x64, virtual false, abstract: false, final false
   inline void HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType);
 
   static inline ::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58542f4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5c6a078, size 0x13c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58541d4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5c69f58, size 0x120, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__wasEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x5854494, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c6a218, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   DeactivateAnimatorOnInputFocusCapture(DeactivateAnimatorOnInputFocusCapture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22108 };
 
   /// [SerializeField]
   /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None

@@ -46,18 +46,18 @@ namespace Unity::Jobs {
 class CORDL_TYPE EarlyInitHelpers_EarlyInitFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x64a7b00, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x68d02ac, size 0x1c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x64a7b1c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x68d02c8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x64a7aec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x68d0298, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x64a7a84, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68d0230, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -75,7 +75,7 @@ public:
   EarlyInitHelpers_EarlyInitFunction(EarlyInitHelpers_EarlyInitFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15502 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15743 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -96,18 +96,18 @@ public:
   __declspec(property(get = getStaticF_s_PendingDelegates,
                       put = setStaticF_s_PendingDelegates)) ::System::Collections::Generic::List_1<::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction*>* s_PendingDelegates;
 
-  /// @brief Method AddEarlyInitFunction, addr 0x64a78ac, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AddEarlyInitFunction, addr 0x68d0058, size 0x154, virtual false, abstract: false, final false
   static inline void AddEarlyInitFunction(::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction* func);
 
-  /// @brief Method FlushEarlyInits, addr 0x64a76fc, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method FlushEarlyInits, addr 0x68cfea8, size 0x1b0, virtual false, abstract: false, final false
   static inline void FlushEarlyInits();
 
-  /// @brief Method JobReflectionDataCreationFailed, addr 0x64a7a00, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method JobReflectionDataCreationFailed, addr 0x68d01ac, size 0x80, virtual false, abstract: false, final false
   static inline void JobReflectionDataCreationFailed(::System::Exception* ex);
 
   static inline ::Unity::Jobs::EarlyInitHelpers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x64a7a80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68d022c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction*>* getStaticF_s_PendingDelegates();
@@ -129,7 +129,7 @@ public:
   EarlyInitHelpers(EarlyInitHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15744 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

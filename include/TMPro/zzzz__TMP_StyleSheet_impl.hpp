@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* (::TMPro::TMP_StyleSheet::*)()>(&::TMPro::TMP_StyleSheet::get_styles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a25c8;
+  constexpr static std::size_t addrs = 0x6da996c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_StyleSheet*>(), { "get_styles", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_StyleSheet::*)()>(&::TMPro::TMP_StyleSheet::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69a25d0;
+  constexpr static std::size_t addrs = 0x6da9974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_StyleSheet*>(), { "Reset", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_Style* (::TMPro::TMP_StyleSheet::*)(int32_t)>(&::TMPro::TMP_StyleSheet::GetStyle)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69a2940;
+  constexpr static std::size_t addrs = 0x6da9ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_StyleSheet*>(), { "GetStyle", {}, { ::i2c::type_of<int32_t>() } })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_Style* (::TMPro::TMP_StyleSheet::*)(::StringW)>(&::TMPro::TMP_StyleSheet::GetStyle)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x69a29cc;
+  constexpr static std::size_t addrs = 0x6da9d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_StyleSheet*>(), { "GetStyle", {}, { ::i2c::type_of<::StringW>() } })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_StyleSheet::*)()>(&::TMPro::TMP_StyleSheet::RefreshStyles)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69a2a8c;
+  constexpr static std::size_t addrs = 0x6da9e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_StyleSheet*>(), { "RefreshStyles", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_StyleSheet::*)()>(&::TMPro::TMP_StyleSheet::LoadStyleDictionaryInternal)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x69a25d4;
+  constexpr static std::size_t addrs = 0x6da9978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_StyleSheet*>(), { "LoadStyleDictionaryInternal", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_StyleSheet::*)()>(&::TMPro::TMP_StyleSheet::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x69a2a90;
+  constexpr static std::size_t addrs = 0x6da9e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_StyleSheet*>(), { ".ctor", {}, {} })));

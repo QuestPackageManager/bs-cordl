@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IMouseEvent*,
                                                                 ::UnityEngine::Vector2)>(&::UnityEngine::UIElements::MouseEventsHelper::SendMouseOverMouseOut)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x6d97f50;
+  constexpr static std::size_t addrs = 0x722585c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

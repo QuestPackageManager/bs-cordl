@@ -1,21 +1,34 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/ConverterGroup.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__TypeConverterRegistry_impl.hpp"
+#include "Unity/Properties/zzzz__ConversionRegistry_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ConverterGroup_def.hpp"
+#include "Unity/Properties/zzzz__ConversionRegistry_def.hpp"
 #include "Unity/Properties/zzzz__PropertyPath_def.hpp"
 #include "Unity/Properties/zzzz__VisitReturnCode_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TypeConverterRegistry_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::ConverterGroup.get_registry
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TypeConverterRegistry (::UnityEngine::UIElements::ConverterGroup::*)()>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::ConversionRegistry (::UnityEngine::UIElements::ConverterGroup::*)()>(
     &::UnityEngine::UIElements::ConverterGroup::get_registry)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c32744;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x7087fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroup*>(), { "get_registry", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ConverterGroup.get_registerRef
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Properties::ConversionRegistry> (::UnityEngine::UIElements::ConverterGroup::*)()>(
+    &::UnityEngine::UIElements::ConverterGroup::get_registerRef)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7087fd4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroup*>(), { "get_registerRef", {}, {} })));
     return ___internal_method;
   }
 };
@@ -23,8 +36,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ConverterGroup::*)(::StringW, ::StringW, ::StringW)>(&::UnityEngine::UIElements::ConverterGroup::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c3274c;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x7087fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,21 +82,25 @@ constexpr void UnityEngine::UIElements::ConverterGroup::__cordl_internal_set__de
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____description_k__BackingField = value;
 }
-constexpr ::UnityEngine::UIElements::TypeConverterRegistry& UnityEngine::UIElements::ConverterGroup::__cordl_internal_get__registry_k__BackingField() {
+constexpr ::Unity::Properties::ConversionRegistry& UnityEngine::UIElements::ConverterGroup::__cordl_internal_get_m_Registry() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____registry_k__BackingField;
+  return this->___m_Registry;
 }
-constexpr ::UnityEngine::UIElements::TypeConverterRegistry const& UnityEngine::UIElements::ConverterGroup::__cordl_internal_get__registry_k__BackingField() const {
+constexpr ::Unity::Properties::ConversionRegistry const& UnityEngine::UIElements::ConverterGroup::__cordl_internal_get_m_Registry() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____registry_k__BackingField;
+  return this->___m_Registry;
 }
-constexpr void UnityEngine::UIElements::ConverterGroup::__cordl_internal_set__registry_k__BackingField(::UnityEngine::UIElements::TypeConverterRegistry value) {
+constexpr void UnityEngine::UIElements::ConverterGroup::__cordl_internal_set_m_Registry(::Unity::Properties::ConversionRegistry value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____registry_k__BackingField = value;
+  this->___m_Registry = value;
 }
-inline ::UnityEngine::UIElements::TypeConverterRegistry UnityEngine::UIElements::ConverterGroup::get_registry() {
+inline ::Unity::Properties::ConversionRegistry UnityEngine::UIElements::ConverterGroup::get_registry() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroup*>(), { "get_registry", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TypeConverterRegistry>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Unity::Properties::ConversionRegistry>(this, ___internal_method);
+}
+inline ::by_ref<::Unity::Properties::ConversionRegistry> UnityEngine::UIElements::ConverterGroup::get_registerRef() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroup*>(), { "get_registerRef", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::by_ref<::Unity::Properties::ConversionRegistry>>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::ConverterGroup::_ctor(::StringW id, ::StringW displayName, ::StringW description) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroup*>(),

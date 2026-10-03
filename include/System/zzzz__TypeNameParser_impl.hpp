@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::Str
                                                                            ::System::Func_4<::System::Reflection::Assembly*, ::StringW, bool, ::System::Type*>*, bool, bool,
                                                                            ::by_ref<::System::Threading::StackCrawlMark>)>(&::System::TypeNameParser::GetType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5c8ec58;
+  constexpr static std::size_t addrs = 0x60a87a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

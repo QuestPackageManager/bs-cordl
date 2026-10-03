@@ -39,7 +39,7 @@ public:
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) float_t value;
 
   /// [NullableContext(1)]
-  /// @brief Method ApplyBasicFields, addr 0x32655d4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ApplyBasicFields, addr 0x34e9f94, size 0x1c, virtual true, abstract: false, final false
   inline void ApplyBasicFields(::OSCE::Analytics::AnalyticsManager* manager);
 
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricEvent* New_ctor();
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x3262970, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34e8058, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   SpaceshipMetricEvent(SpaceshipMetricEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22975 };
 
   /// @brief Field build_version, offset: 0x68, size: 0x8, def value: None
   ::StringW ___build_version;

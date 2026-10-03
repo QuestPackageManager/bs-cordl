@@ -18,8 +18,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AbstractProgressBar_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::AbstractProgressBar_UxmlTraits::Init)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6d64784;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x71f4584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar_UxmlTraits*>(),
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AbstractProgressBar_UxmlTraits::*)()>(&::UnityEngine::UIElements::AbstractProgressBar_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6d6496c;
+  constexpr static std::size_t addrs = 0x71f4744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::AbstractProgressBar::*)()>(&::UnityEngine::UIElements::AbstractProgressBar::get_title)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d63948;
+  constexpr static std::size_t addrs = 0x71f3634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), { "get_title", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AbstractProgressBar::*)(::StringW)>(&::UnityEngine::UIElements::AbstractProgressBar::set_title)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6d63968;
+  constexpr static std::size_t addrs = 0x71f3654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::AbstractProgressBar::*)()>(&::UnityEngine::UIElements::AbstractProgressBar::get_lowValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d63a54;
+  constexpr static std::size_t addrs = 0x71f3740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), { "get_lowValue", {}, {} })));
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AbstractProgressBar::*)(float_t)>(&::UnityEngine::UIElements::AbstractProgressBar::set_lowValue)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6d63a5c;
+  constexpr static std::size_t addrs = 0x71f3748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::AbstractProgressBar::*)()>(&::UnityEngine::UIElements::AbstractProgressBar::get_highValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d63c94;
+  constexpr static std::size_t addrs = 0x71f3980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), { "get_highValue", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AbstractProgressBar::*)(float_t)>(&::UnityEngine::UIElements::AbstractProgressBar::set_highValue)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6d63c9c;
+  constexpr static std::size_t addrs = 0x71f3988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AbstractProgressBar::*)()>(&::UnityEngine::UIElements::AbstractProgressBar::_ctor)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x6d63da8;
+  constexpr static std::size_t addrs = 0x71f3a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), { ".ctor", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AbstractProgressBar::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::AbstractProgressBar::OnGeometryChanged)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6d64070;
+  constexpr static std::size_t addrs = 0x71f3d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(),
@@ -208,11 +208,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::AbstractProgressBar::*)()>(&::UnityEngine::UIElements::AbstractProgressBar::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d64094;
+  constexpr static std::size_t addrs = 0x71f3d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), { ::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), 141 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), { ::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), 146 }));
     return ___internal_method;
   }
 };
@@ -221,11 +221,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AbstractProgressBar::*)(float_t)>(&::UnityEngine::UIElements::AbstractProgressBar::set_value)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x6d6409c;
+  constexpr static std::size_t addrs = 0x71f3d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), { ::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), 142 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), { ::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), 147 }));
     return ___internal_method;
   }
 };
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AbstractProgressBar::*)(float_t)>(&::UnityEngine::UIElements::AbstractProgressBar::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6d64308;
+  constexpr static std::size_t addrs = 0x71f3ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AbstractProgressBar::*)(float_t)>(&::UnityEngine::UIElements::AbstractProgressBar::SetProgress)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6d63b68;
+  constexpr static std::size_t addrs = 0x71f3854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,16 +255,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::AbstractProgressBar.CalculateProgressWidth
+//  Writing Method size for method: ::UnityEngine::UIElements::AbstractProgressBar.CalculateOppositeProgressWidth
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::AbstractProgressBar::*)(float_t)>(&::UnityEngine::UIElements::AbstractProgressBar::CalculateProgressWidth)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6d64330;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::AbstractProgressBar::*)(float_t)>(
+    &::UnityEngine::UIElements::AbstractProgressBar::CalculateOppositeProgressWidth)> {
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x71f401c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), { "CalculateProgressWidth", {}, { ::i2c::type_of<float_t>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), { "CalculateOppositeProgressWidth", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
@@ -440,12 +441,12 @@ inline void UnityEngine::UIElements::AbstractProgressBar::OnGeometryChanged(::Un
 }
 inline float_t UnityEngine::UIElements::AbstractProgressBar::get_value() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), 141 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), 146 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::AbstractProgressBar::set_value(float_t value) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), 142 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), 147 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void UnityEngine::UIElements::AbstractProgressBar::SetValueWithoutNotify(float_t newValue) {
@@ -458,9 +459,9 @@ inline void UnityEngine::UIElements::AbstractProgressBar::SetProgress(float_t p)
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), { "SetProgress", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, p);
 }
-inline float_t UnityEngine::UIElements::AbstractProgressBar::CalculateProgressWidth(float_t width) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), { "CalculateProgressWidth", {}, { ::i2c::type_of<float_t>() } })));
+inline float_t UnityEngine::UIElements::AbstractProgressBar::CalculateOppositeProgressWidth(float_t width) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AbstractProgressBar*>(), { "CalculateOppositeProgressWidth", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, width);
 }
 inline ::UnityEngine::UIElements::AbstractProgressBar* UnityEngine::UIElements::AbstractProgressBar::New_ctor() {

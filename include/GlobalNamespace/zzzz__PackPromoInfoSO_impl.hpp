@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo::*)()>(&::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo::get_levelID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372f5c4;
+  constexpr static std::size_t addrs = 0x39b8ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*>(), { "get_levelID", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::PromoBannerInfoSO> (::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo::*)()>(
     &::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo::get_promoBannerInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372f5cc;
+  constexpr static std::size_t addrs = 0x39b8bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*>(), { "get_promoBannerInfo", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo::*)(::GlobalNamespace::PromoBannerInfoSO*)>(
     &::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo::set_promoBannerInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372f5d4;
+  constexpr static std::size_t addrs = 0x39b8bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LevelPromoInfo_PackPromoInfoSO_PromoMode (::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo::*)()>(
     &::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo::get_promoMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372f5dc;
+  constexpr static std::size_t addrs = 0x39b8bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*>(), { "get_promoMode", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo::*)()>(&::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo::get_isExcluded)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x372f5e4;
+  constexpr static std::size_t addrs = 0x39b8bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*>(), { "get_isExcluded", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo::*)(::StringW, ::GlobalNamespace::PromoBannerInfoSO*)>(
     &::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372f5f4;
+  constexpr static std::size_t addrs = 0x39b8bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*>(),
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::PromoBannerInfoSO> (::GlobalNamespace::PackPromoInfoSO::*)()>(
     &::GlobalNamespace::PackPromoInfoSO::get_promoBannerInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372f3f0;
+  constexpr static std::size_t addrs = 0x39b89d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackPromoInfoSO*>(), { "get_promoBannerInfo", {}, {} })));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackPromoInfoSO::*)(::GlobalNamespace::PromoBannerInfoSO*)>(&::GlobalNamespace::PackPromoInfoSO::set_promoBannerInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372f3f8;
+  constexpr static std::size_t addrs = 0x39b89dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*> (::GlobalNamespace::PackPromoInfoSO::*)()>(
     &::GlobalNamespace::PackPromoInfoSO::get_levelPromoInfos)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x372f400;
+  constexpr static std::size_t addrs = 0x39b89e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackPromoInfoSO*>(), { "get_levelPromoInfos", {}, {} })));
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PackPromoInfoSO::*)()>(&::GlobalNamespace::PackPromoInfoSO::get_hasLevelPromos)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x372f4a4;
+  constexpr static std::size_t addrs = 0x39b8a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackPromoInfoSO*>(), { "get_hasLevelPromos", {}, {} })));
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackPromoInfoSO::*)(::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*)>(
     &::GlobalNamespace::PackPromoInfoSO::AddLevelPromoInfo)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x372f4c4;
+  constexpr static std::size_t addrs = 0x39b8aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackPromoInfoSO*>(),
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackPromoInfoSO::*)()>(&::GlobalNamespace::PackPromoInfoSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372f5bc;
+  constexpr static std::size_t addrs = 0x39b8ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackPromoInfoSO*>(), { ".ctor", {}, {} })));

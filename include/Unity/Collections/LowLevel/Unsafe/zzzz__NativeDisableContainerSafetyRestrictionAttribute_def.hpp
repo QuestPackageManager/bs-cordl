@@ -12,8 +12,8 @@ class NativeDisableContainerSafetyRestrictionAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeDisableContainerSafetyRestrictionAttribute");
-// [RequiredByNativeCode]
 // [AttributeUsage((System.AttributeTargets)256)]
+// [RequiredByNativeCode]
 // Dependencies System.Attribute
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a5fe74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eb1b50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   NativeDisableContainerSafetyRestrictionAttribute(NativeDisableContainerSafetyRestrictionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

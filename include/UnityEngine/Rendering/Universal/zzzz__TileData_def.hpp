@@ -30,7 +30,7 @@ public:
   constexpr TileData(uint32_t tileID, uint32_t listBitMask, uint32_t relLightOffset, uint32_t unused) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13263 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

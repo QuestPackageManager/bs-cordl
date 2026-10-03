@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::ProBuilderSnapping::IsCardinalDirection)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x66dbd98;
+  constexpr static std::size_t addrs = 0x6aef9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::ProBuilder::ProBuilderSnapping::Snap)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x66dbf90;
+  constexpr static std::size_t addrs = 0x6aefb98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::ProBuilderSnapping::Snap)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x66dc030;
+  constexpr static std::size_t addrs = 0x6aefc38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ProBuilderSnapping*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<int32_t>*, ::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::ProBuilderSnapping::SnapVertices)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x66dc0d0;
+  constexpr static std::size_t addrs = 0x6aefcd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::ProBuilderSnapping::GetSnappingMaskBasedOnNormalVector)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x66dc460;
+  constexpr static std::size_t addrs = 0x6af0068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ProBuilderSnapping*>(),
@@ -82,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Ray, float_t, float_t, ::UnityEngine::ProBuilder::Vector3Mask)>(
     &::UnityEngine::ProBuilder::ProBuilderSnapping::SnapValueOnRay)> {
-  constexpr static std::size_t size = 0x71c;
-  constexpr static std::size_t addrs = 0x66dc53c;
+  constexpr static std::size_t size = 0x690;
+  constexpr static std::size_t addrs = 0x6af0144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

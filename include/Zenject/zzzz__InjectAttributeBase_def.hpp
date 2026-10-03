@@ -61,31 +61,31 @@ public:
 
   constexpr void __cordl_internal_set__Source_k__BackingField(::Zenject::InjectSources value);
 
-  /// @brief Method .ctor, addr 0x6e3d770, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d92c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Id, addr 0x6e3d750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x72d92a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Id();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Optional, addr 0x6e3d740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Optional, addr 0x72d9290, size 0x8, virtual false, abstract: false, final false
   inline bool get_Optional();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Source, addr 0x6e3d760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Source, addr 0x72d92b0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectSources get_Source();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Id, addr 0x6e3d758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x72d92a8, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::System::Object* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Optional, addr 0x6e3d748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Optional, addr 0x72d9298, size 0x8, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Source, addr 0x6e3d768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Source, addr 0x72d92b8, size 0x8, virtual false, abstract: false, final false
   inline void set_Source(::Zenject::InjectSources value);
 
 protected:
@@ -103,7 +103,7 @@ public:
   InjectAttributeBase(InjectAttributeBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23311 };
 
   /// [CompilerGenerated]
   /// @brief Field <Optional>k__BackingField, offset: 0x10, size: 0x1, def value: None

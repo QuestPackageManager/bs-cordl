@@ -85,7 +85,7 @@ public:
   Observable___c__DisplayClass6_0_1(Observable___c__DisplayClass6_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11146 };
 
   /// @brief Field subscription, offset: 0x10, size: 0x8, def value: None
   ::System::IDisposable* ___subscription;
@@ -119,7 +119,7 @@ public:
   static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source);
 
   /// [Extension]
-  /// @brief Method ForDevice, addr 0x65070fc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ForDevice, addr 0x692ff98, size 0xac, virtual false, abstract: false, final false
   static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
                                                                                                         ::UnityEngine::InputSystem::InputDevice* device);
 
@@ -155,7 +155,7 @@ public:
   Observable(Observable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11147 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t* (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)()>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::get_valuePtr)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6507778;
+  constexpr static std::size_t addrs = 0x6930614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::PrimitiveValue>(), { "get_valuePtr", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TypeCode (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6507780;
+  constexpr static std::size_t addrs = 0x693061c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::PrimitiveValue>(), { "get_type", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)()>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::get_isEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64fa4f8;
+  constexpr static std::size_t addrs = 0x692334c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::PrimitiveValue>(), { "get_isEmpty", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(bool)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6507788;
+  constexpr static std::size_t addrs = 0x6930624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(char16_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65077a0;
+  constexpr static std::size_t addrs = 0x693063c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(uint8_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65077b8;
+  constexpr static std::size_t addrs = 0x6930654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(int8_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65077d0;
+  constexpr static std::size_t addrs = 0x693066c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(int16_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65077e8;
+  constexpr static std::size_t addrs = 0x6930684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(uint16_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6507800;
+  constexpr static std::size_t addrs = 0x693069c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(int32_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6507818;
+  constexpr static std::size_t addrs = 0x69306b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(uint32_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6507828;
+  constexpr static std::size_t addrs = 0x69306c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(int64_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6507838;
+  constexpr static std::size_t addrs = 0x69306d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(uint64_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x650784c;
+  constexpr static std::size_t addrs = 0x69306e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(float_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6507860;
+  constexpr static std::size_t addrs = 0x69306fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(double_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6507874;
+  constexpr static std::size_t addrs = 0x6930710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::TypeCode)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ConvertTo)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x6505cec;
+  constexpr static std::size_t addrs = 0x692eb88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::UnityEngine::InputSystem::Utilities::PrimitiveValue)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::Equals)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6507e60;
+  constexpr static std::size_t addrs = 0x6930cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::PrimitiveValue>(),
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::Equals)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6507ed4;
+  constexpr static std::size_t addrs = 0x6930d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::PrimitiveValue>(),
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::PrimitiveValue, ::UnityEngine::InputSystem::Utilities::PrimitiveValue)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Equality)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6505f40;
+  constexpr static std::size_t addrs = 0x692eddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::PrimitiveValue, ::UnityEngine::InputSystem::Utilities::PrimitiveValue)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Inequality)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6508464;
+  constexpr static std::size_t addrs = 0x6931300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)()>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::GetHashCode)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65060bc;
+  constexpr static std::size_t addrs = 0x692ef58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::PrimitiveValue>(),
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)()>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToString)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x65084d8;
+  constexpr static std::size_t addrs = 0x6931374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::PrimitiveValue>(),
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(::StringW)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromString)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x65064f4;
+  constexpr static std::size_t addrs = 0x692f390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TypeCode (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::GetTypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6508914;
+  constexpr static std::size_t addrs = 0x69317b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::PrimitiveValue>(), { "GetTypeCode", {}, {} })));
@@ -337,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToBoolean)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6507888;
+  constexpr static std::size_t addrs = 0x6930724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToByte)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6507aa8;
+  constexpr static std::size_t addrs = 0x6930944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToChar)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6507a5c;
+  constexpr static std::size_t addrs = 0x69308f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToDateTime)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x650891c;
+  constexpr static std::size_t addrs = 0x69317b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToDecimal)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6508968;
+  constexpr static std::size_t addrs = 0x6931804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToDouble)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6507d50;
+  constexpr static std::size_t addrs = 0x6930bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToInt16)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6507af0;
+  constexpr static std::size_t addrs = 0x693098c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToInt32)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6507b14;
+  constexpr static std::size_t addrs = 0x69309b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -449,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToInt64)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6507b34;
+  constexpr static std::size_t addrs = 0x69309d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -463,7 +463,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToSByte)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6507acc;
+  constexpr static std::size_t addrs = 0x6930968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -477,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToSingle)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64fa508;
+  constexpr static std::size_t addrs = 0x692335c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -491,7 +491,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65089b4;
+  constexpr static std::size_t addrs = 0x6931850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -505,7 +505,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::Type*, ::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x65089b8;
+  constexpr static std::size_t addrs = 0x6931854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::PrimitiveValue>(),
@@ -519,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToUInt16)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65089f0;
+  constexpr static std::size_t addrs = 0x693188c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -533,7 +533,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToUInt32)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6508a00;
+  constexpr static std::size_t addrs = 0x693189c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -547,7 +547,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToUInt64)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6507c48;
+  constexpr static std::size_t addrs = 0x6930ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -561,7 +561,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToObject)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6506a30;
+  constexpr static std::size_t addrs = 0x692f8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::PrimitiveValue>(), { "ToObject", {}, {} })));
@@ -574,7 +574,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromObject)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x650804c;
+  constexpr static std::size_t addrs = 0x6930ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -588,7 +588,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(bool)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x65064d8;
+  constexpr static std::size_t addrs = 0x692f374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -602,7 +602,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(char16_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6507a94;
+  constexpr static std::size_t addrs = 0x6930930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -616,7 +616,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint8_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6507ab8;
+  constexpr static std::size_t addrs = 0x6930954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int8_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6507adc;
+  constexpr static std::size_t addrs = 0x6930978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -644,7 +644,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int16_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6507b00;
+  constexpr static std::size_t addrs = 0x693099c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -658,7 +658,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint16_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6508a10;
+  constexpr static std::size_t addrs = 0x69318ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -672,7 +672,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int32_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6507b24;
+  constexpr static std::size_t addrs = 0x69309c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -686,7 +686,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint32_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6508a24;
+  constexpr static std::size_t addrs = 0x69318c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -700,7 +700,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int64_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6507c2c;
+  constexpr static std::size_t addrs = 0x6930ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -714,7 +714,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint64_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6507d34;
+  constexpr static std::size_t addrs = 0x6930bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -728,7 +728,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(float_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64fa6f4;
+  constexpr static std::size_t addrs = 0x6923548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -742,7 +742,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(double_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6507e44;
+  constexpr static std::size_t addrs = 0x6930ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -755,7 +755,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(bool)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromBoolean)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6508a34;
+  constexpr static std::size_t addrs = 0x69318d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -768,7 +768,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(char16_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromChar)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6508a50;
+  constexpr static std::size_t addrs = 0x69318ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -781,7 +781,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint8_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromByte)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6508a64;
+  constexpr static std::size_t addrs = 0x6931900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -794,7 +794,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int8_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromSByte)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6508a78;
+  constexpr static std::size_t addrs = 0x6931914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -807,7 +807,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int16_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromInt16)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6508a8c;
+  constexpr static std::size_t addrs = 0x6931928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -820,7 +820,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint16_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromUInt16)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6508aa0;
+  constexpr static std::size_t addrs = 0x693193c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -833,7 +833,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int32_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromInt32)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6508ab4;
+  constexpr static std::size_t addrs = 0x6931950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -846,7 +846,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint32_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromUInt32)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6508ac4;
+  constexpr static std::size_t addrs = 0x6931960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -859,7 +859,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int64_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromInt64)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6508ad4;
+  constexpr static std::size_t addrs = 0x6931970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -872,7 +872,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint64_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromUInt64)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6508af0;
+  constexpr static std::size_t addrs = 0x693198c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -885,7 +885,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(float_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromSingle)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6508b0c;
+  constexpr static std::size_t addrs = 0x69319a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -898,7 +898,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(double_t)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromDouble)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6508b20;
+  constexpr static std::size_t addrs = 0x69319bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

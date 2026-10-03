@@ -26,6 +26,7 @@ public:
 
   /// @brief Nested struct __PseudoStates_Unwrapped
   enum struct __PseudoStates_Unwrapped : int32_t {
+    __E_None = static_cast<int32_t>(0x0),
     __E_Active = static_cast<int32_t>(0x1),
     __E_Hover = static_cast<int32_t>(0x2),
     __E_Checked = static_cast<int32_t>(0x8),
@@ -66,11 +67,14 @@ public:
   /// @brief Field Hover value: I32(2)
   static ::UnityEngine::UIElements::PseudoStates const Hover;
 
+  /// @brief Field None value: I32(0)
+  static ::UnityEngine::UIElements::PseudoStates const None;
+
   /// @brief Field Root value: I32(128)
   static ::UnityEngine::UIElements::PseudoStates const Root;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5321 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

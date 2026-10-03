@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::ObstacleShaderWarmup* New_ctor();
 
-  /// @brief Method Start, addr 0x58db604, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cf1dcc, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::ObstacleMaterialSetter> const& __cordl_internal_get__obstacleMaterialSetter() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x58db654, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf1e1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   ObstacleShaderWarmup(ObstacleShaderWarmup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5708 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5826 };
 
   /// [SerializeField]
   /// @brief Field _obstacleMaterialSetter, offset: 0x20, size: 0x8, def value: None

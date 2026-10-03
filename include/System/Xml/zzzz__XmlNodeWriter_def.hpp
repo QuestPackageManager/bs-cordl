@@ -82,8 +82,11 @@ public:
   /// @brief Method WriteEndElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteEndElement(::StringW prefix, ::StringW localName);
 
-  /// @brief Method WriteEndElement, addr 0x6127fc0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method WriteEndElement, addr 0x654fc54, size 0xb0, virtual true, abstract: false, final false
   inline void WriteEndElement(::ArrayW<uint8_t> prefixBuffer, int32_t prefixOffset, int32_t prefixLength, ::ArrayW<uint8_t> localNameBuffer, int32_t localNameOffset, int32_t localNameLength);
+
+  /// @brief Method WriteEndListText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void WriteEndListText();
 
   /// @brief Method WriteEndStartElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteEndStartElement(bool isEmpty);
@@ -112,6 +115,9 @@ public:
   /// @brief Method WriteInt64Text, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteInt64Text(int64_t value);
 
+  /// @brief Method WriteListSeparator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void WriteListSeparator();
+
   /// @brief Method WriteQualifiedName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteQualifiedName(::StringW prefix, ::System::Xml::XmlDictionaryString* localName);
 
@@ -121,7 +127,7 @@ public:
   /// @brief Method WriteStartAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteStartAttribute(::StringW prefix, ::System::Xml::XmlDictionaryString* localName);
 
-  /// @brief Method WriteStartAttribute, addr 0x6128120, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method WriteStartAttribute, addr 0x654fdb4, size 0xb0, virtual true, abstract: false, final false
   inline void WriteStartAttribute(::ArrayW<uint8_t> prefixBuffer, int32_t prefixOffset, int32_t prefixLength, ::ArrayW<uint8_t> localNameBuffer, int32_t localNameOffset, int32_t localNameLength);
 
   /// @brief Method WriteStartElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -130,8 +136,11 @@ public:
   /// @brief Method WriteStartElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteStartElement(::StringW prefix, ::System::Xml::XmlDictionaryString* localName);
 
-  /// @brief Method WriteStartElement, addr 0x6127f14, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x654fba8, size 0xac, virtual true, abstract: false, final false
   inline void WriteStartElement(::ArrayW<uint8_t> prefixBuffer, int32_t prefixOffset, int32_t prefixLength, ::ArrayW<uint8_t> localNameBuffer, int32_t localNameOffset, int32_t localNameLength);
+
+  /// @brief Method WriteStartListText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void WriteStartListText();
 
   /// @brief Method WriteText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteText(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
@@ -160,10 +169,10 @@ public:
   /// @brief Method WriteXmlnsAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteXmlnsAttribute(::StringW prefix, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method WriteXmlnsAttribute, addr 0x6128070, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlnsAttribute, addr 0x654fd04, size 0xb0, virtual true, abstract: false, final false
   inline void WriteXmlnsAttribute(::ArrayW<uint8_t> prefixBuffer, int32_t prefixOffset, int32_t prefixLength, ::ArrayW<uint8_t> nsBuffer, int32_t nsOffset, int32_t nsLength);
 
-  /// @brief Method .ctor, addr 0x61281d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x654fe64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -181,7 +190,7 @@ public:
   XmlNodeWriter(XmlNodeWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16990 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16368 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

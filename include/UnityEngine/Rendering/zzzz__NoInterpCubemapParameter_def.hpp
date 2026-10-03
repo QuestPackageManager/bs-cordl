@@ -24,12 +24,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE NoInterpCubemapParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityW<::UnityEngine::Cubemap>> {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x67ce1e8, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6bec1ec, size 0x104, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::NoInterpCubemapParameter* New_ctor(::UnityEngine::Cubemap* value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x67ce184, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bec188, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Cubemap* value, bool overrideState);
 
 protected:
@@ -47,7 +47,7 @@ public:
   NoInterpCubemapParameter(NoInterpCubemapParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9251 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

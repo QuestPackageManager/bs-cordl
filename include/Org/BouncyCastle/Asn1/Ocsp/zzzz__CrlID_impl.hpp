@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::CrlID::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::Ocsp::CrlID::_ctor)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x345a870;
+  constexpr static std::size_t addrs = 0x36e3b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerIA5String* (::Org::BouncyCastle::Asn1::Ocsp::CrlID::*)()>(&::Org::BouncyCastle::Asn1::Ocsp::CrlID::get_CrlUrl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x345ac00;
+  constexpr static std::size_t addrs = 0x36e3e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Ocsp::CrlID*>(), { "get_CrlUrl", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Ocsp::CrlID::*)()>(&::Org::BouncyCastle::Asn1::Ocsp::CrlID::get_CrlNum)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x345ac08;
+  constexpr static std::size_t addrs = 0x36e3ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Ocsp::CrlID*>(), { "get_CrlNum", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::Ocsp::CrlID::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::CrlID::get_CrlTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x345ac10;
+  constexpr static std::size_t addrs = 0x36e3eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Ocsp::CrlID*>(), { "get_CrlTime", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Ocsp::CrlID::*)()>(&::Org::BouncyCastle::Asn1::Ocsp::CrlID::ToAsn1Object)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x345ac18;
+  constexpr static std::size_t addrs = 0x36e3eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

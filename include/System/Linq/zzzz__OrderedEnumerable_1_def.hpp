@@ -180,7 +180,7 @@ public:
   OrderedEnumerable_1__GetEnumerator_d__1(OrderedEnumerable_1__GetEnumerator_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16618 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -277,7 +277,7 @@ public:
   OrderedEnumerable_1(OrderedEnumerable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16619 };
 
   /// @brief Field source, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<TElement>* ___source;

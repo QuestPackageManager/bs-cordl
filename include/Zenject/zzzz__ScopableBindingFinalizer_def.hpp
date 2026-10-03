@@ -70,7 +70,7 @@ public:
 
   static inline ::Zenject::ScopableBindingFinalizer___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <FinalizeBindingConcrete>b__0, addr 0x6e6757c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingConcrete>b__0, addr 0x73030d4, size 0x34, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingConcrete_b__0(::Zenject::DiContainer* _, ::System::Type* concreteType);
 
   constexpr ::Zenject::ScopableBindingFinalizer* const& __cordl_internal_get___4__this() const;
@@ -85,14 +85,14 @@ public:
 
   constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreate, addr 0x6e675b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x7303108, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e675f4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x730314c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e67574, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x73030cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,7 +110,7 @@ public:
   ScopableBindingFinalizer___c__DisplayClass3_0(ScopableBindingFinalizer___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14321 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14560 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::ScopableBindingFinalizer* _____4__this;
@@ -144,7 +144,7 @@ public:
 
   static inline ::Zenject::ScopableBindingFinalizer___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <FinalizeBindingSelf>b__0, addr 0x6e67788, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingSelf>b__0, addr 0x73032e0, size 0x34, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingSelf_b__0(::Zenject::DiContainer* _, ::System::Type* contractType);
 
   constexpr ::Zenject::ScopableBindingFinalizer* const& __cordl_internal_get___4__this() const;
@@ -159,14 +159,14 @@ public:
 
   constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreate, addr 0x6e677bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x7303314, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e67800, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x7303358, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e67578, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x73030d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -184,7 +184,7 @@ public:
   ScopableBindingFinalizer___c__DisplayClass4_0(ScopableBindingFinalizer___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14561 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::ScopableBindingFinalizer* _____4__this;
@@ -218,15 +218,15 @@ public:
   __declspec(property(get = __cordl_internal_get__providerFactory,
                       put = __cordl_internal_set__providerFactory)) ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* _providerFactory;
 
-  /// @brief Method FinalizeBindingConcrete, addr 0x6e67428, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method FinalizeBindingConcrete, addr 0x7302f80, size 0x14c, virtual false, abstract: false, final false
   inline void FinalizeBindingConcrete(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes);
 
-  /// @brief Method FinalizeBindingSelf, addr 0x6e67318, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method FinalizeBindingSelf, addr 0x7302e70, size 0x110, virtual false, abstract: false, final false
   inline void FinalizeBindingSelf(::Zenject::DiContainer* container);
 
   static inline ::Zenject::ScopableBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method OnFinalizeBinding, addr 0x6e67284, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method OnFinalizeBinding, addr 0x7302ddc, size 0x94, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
   constexpr ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* const& __cordl_internal_get__providerFactory() const;
@@ -235,7 +235,7 @@ public:
 
   constexpr void __cordl_internal_set__providerFactory(::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* value);
 
-  /// @brief Method .ctor, addr 0x6e6727c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7302dd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
 protected:
@@ -253,7 +253,7 @@ public:
   ScopableBindingFinalizer(ScopableBindingFinalizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14562 };
 
   /// @brief Field _providerFactory, offset: 0x20, size: 0x8, def value: None
   ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* ____providerFactory;

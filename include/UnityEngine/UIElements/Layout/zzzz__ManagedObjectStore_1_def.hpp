@@ -29,22 +29,29 @@ template <typename T>
 class CORDL_TYPE ManagedObjectStore_1 : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field m_ChunkSize, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_ChunkSize, put = __cordl_internal_set_m_ChunkSize)) int32_t m_ChunkSize;
+
   /// @brief Field m_Chunks, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Chunks, put = __cordl_internal_set_m_Chunks)) ::System::Collections::Generic::List_1<::ArrayW<T>>* m_Chunks;
 
   /// @brief Field m_Free, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Free, put = __cordl_internal_set_m_Free)) ::System::Collections::Generic::Queue_1<int32_t>* m_Free;
 
-  /// @brief Field m_Length, offset 0x10, size 0x4
+  /// @brief Field m_Length, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Length, put = __cordl_internal_set_m_Length)) int32_t m_Length;
 
   /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T GetValue(int32_t index);
 
-  static inline ::UnityEngine::UIElements::Layout::ManagedObjectStore_1<T>* New_ctor();
+  static inline ::UnityEngine::UIElements::Layout::ManagedObjectStore_1<T>* New_ctor(int32_t chunkSize);
 
   /// @brief Method UpdateValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateValue(::by_ref<int32_t> index, T value);
+
+  constexpr int32_t const& __cordl_internal_get_m_ChunkSize() const;
+
+  constexpr int32_t& __cordl_internal_get_m_ChunkSize();
 
   constexpr ::System::Collections::Generic::List_1<::ArrayW<T>>* const& __cordl_internal_get_m_Chunks() const;
 
@@ -58,6 +65,8 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_Length();
 
+  constexpr void __cordl_internal_set_m_ChunkSize(int32_t value);
+
   constexpr void __cordl_internal_set_m_Chunks(::System::Collections::Generic::List_1<::ArrayW<T>>* value);
 
   constexpr void __cordl_internal_set_m_Free(::System::Collections::Generic::Queue_1<int32_t>* value);
@@ -65,7 +74,7 @@ public:
   constexpr void __cordl_internal_set_m_Length(int32_t value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+  inline void _ctor(int32_t chunkSize);
 
 protected:
   // Ctor Parameters []
@@ -82,9 +91,12 @@ public:
   ManagedObjectStore_1(ManagedObjectStore_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5511 };
 
-  /// @brief Field m_Length, offset: 0x10, size: 0x4, def value: None
+  /// @brief Field m_ChunkSize, offset: 0x10, size: 0x4, def value: None
+  int32_t ___m_ChunkSize;
+
+  /// @brief Field m_Length, offset: 0x14, size: 0x4, def value: None
   int32_t ___m_Length;
 
   /// @brief Field m_Chunks, offset: 0x18, size: 0x8, def value: None

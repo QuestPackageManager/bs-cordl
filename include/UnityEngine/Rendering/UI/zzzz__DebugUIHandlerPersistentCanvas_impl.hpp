@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass3_0::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x680540c;
+  constexpr static std::size_t addrs = 0x6c33fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass3_0::*)(::UnityEngine::Rendering::UI::DebugUIHandlerValue*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass3_0::_Toggle_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6805a48;
+  constexpr static std::size_t addrs = 0x6c3460c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass3_0*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass5_0::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6805794;
+  constexpr static std::size_t addrs = 0x6c34358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass5_0::*)(::UnityEngine::Rendering::DebugUI_ValueTuple*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass5_0::_Toggle_b__0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6805a68;
+  constexpr static std::size_t addrs = 0x6c3462c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass5_0*>(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::*)(::UnityEngine::Rendering::DebugUI_Value*, ::StringW)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::Toggle)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x6805124;
+  constexpr static std::size_t addrs = 0x6c33ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::*)(
     ::UnityEngine::Rendering::DebugUI_ValueTuple*, ::System::Nullable_1<int32_t>)>(&::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::Toggle)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x6805410;
+  constexpr static std::size_t addrs = 0x6c33fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::IsEmpty)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6805798;
+  constexpr static std::size_t addrs = 0x6c3435c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas*>(), { "IsEmpty", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::Clear)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x68057f0;
+  constexpr static std::size_t addrs = 0x6c343b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas*>(), { "Clear", {}, {} })));
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6805988;
+  constexpr static std::size_t addrs = 0x6c3454c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas*>(), { ".ctor", {}, {} })));

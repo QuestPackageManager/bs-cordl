@@ -37,55 +37,55 @@ public:
 
   static inline ::UnityEngine::ConstantForce* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b83a0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fef344, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_force, addr 0x6b8330c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_force, addr 0x6feec44, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_force();
 
-  /// @brief Method get_force_Injected, addr 0x6b833ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_force_Injected, addr 0x6feece4, size 0x44, virtual false, abstract: false, final false
   static inline void get_force_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_relativeForce, addr 0x6b8368c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_relativeForce, addr 0x6feefc4, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_relativeForce();
 
-  /// @brief Method get_relativeForce_Injected, addr 0x6b8372c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_relativeForce_Injected, addr 0x6fef064, size 0x44, virtual false, abstract: false, final false
   static inline void get_relativeForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_relativeTorque, addr 0x6b8384c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_relativeTorque, addr 0x6fef184, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_relativeTorque();
 
-  /// @brief Method get_relativeTorque_Injected, addr 0x6b838ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_relativeTorque_Injected, addr 0x6fef224, size 0x44, virtual false, abstract: false, final false
   static inline void get_relativeTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_torque, addr 0x6b834cc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_torque, addr 0x6feee04, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_torque();
 
-  /// @brief Method get_torque_Injected, addr 0x6b8356c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_torque_Injected, addr 0x6feeea4, size 0x44, virtual false, abstract: false, final false
   static inline void get_torque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method set_force, addr 0x6b833f0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_force, addr 0x6feed28, size 0x98, virtual false, abstract: false, final false
   inline void set_force(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_force_Injected, addr 0x6b83488, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_force_Injected, addr 0x6feedc0, size 0x44, virtual false, abstract: false, final false
   static inline void set_force_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_relativeForce, addr 0x6b83770, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_relativeForce, addr 0x6fef0a8, size 0x98, virtual false, abstract: false, final false
   inline void set_relativeForce(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_relativeForce_Injected, addr 0x6b83808, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_relativeForce_Injected, addr 0x6fef140, size 0x44, virtual false, abstract: false, final false
   static inline void set_relativeForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_relativeTorque, addr 0x6b83930, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_relativeTorque, addr 0x6fef268, size 0x98, virtual false, abstract: false, final false
   inline void set_relativeTorque(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_relativeTorque_Injected, addr 0x6b839c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_relativeTorque_Injected, addr 0x6fef300, size 0x44, virtual false, abstract: false, final false
   static inline void set_relativeTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_torque, addr 0x6b835b0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_torque, addr 0x6feeee8, size 0x98, virtual false, abstract: false, final false
   inline void set_torque(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_torque_Injected, addr 0x6b83648, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_torque_Injected, addr 0x6feef80, size 0x44, virtual false, abstract: false, final false
   static inline void set_torque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
 
 protected:
@@ -103,7 +103,7 @@ public:
   ConstantForce(ConstantForce const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19053 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

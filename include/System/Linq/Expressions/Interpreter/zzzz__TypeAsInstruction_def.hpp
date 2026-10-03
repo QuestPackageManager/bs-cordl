@@ -38,10 +38,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::TypeAsInstruction* New_ctor(::System::Type* type);
 
-  /// @brief Method Run, addr 0x5fbeba4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x63dab2c, size 0x6c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x5fbec10, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x63dab98, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Type* const& __cordl_internal_get__type() const;
@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5fbeb48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63daad0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_ConsumedStack, addr 0x5fbeb50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x63daad8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5fbeb60, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x63daae8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5fbeb58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x63daae0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -77,7 +77,7 @@ public:
   TypeAsInstruction(TypeAsInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17119 };
 
   /// @brief Field _type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____type;

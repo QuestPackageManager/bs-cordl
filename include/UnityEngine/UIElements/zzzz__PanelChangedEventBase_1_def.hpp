@@ -94,15 +94,15 @@ public:
   PanelChangedEventBase_1(PanelChangedEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4525 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4522 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <originPanel>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPanel* ____originPanel_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <destinationPanel>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPanel* ____destinationPanel_k__BackingField;
 

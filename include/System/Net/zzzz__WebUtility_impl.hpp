@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebUtility_UrlDecoder::*)()>(&::System::Net::WebUtility_UrlDecoder::FlushBytes)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x641563c;
+  constexpr static std::size_t addrs = 0x683d908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebUtility_UrlDecoder*>(), { "FlushBytes", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebUtility_UrlDecoder::*)(int32_t, ::System::Text::Encoding*)>(&::System::Net::WebUtility_UrlDecoder::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6415310;
+  constexpr static std::size_t addrs = 0x683d5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebUtility_UrlDecoder::*)(char16_t)>(&::System::Net::WebUtility_UrlDecoder::AddChar)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6415454;
+  constexpr static std::size_t addrs = 0x683d720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebUtility_UrlDecoder::*)(uint8_t)>(&::System::Net::WebUtility_UrlDecoder::AddByte)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x64153b0;
+  constexpr static std::size_t addrs = 0x683d67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::WebUtility_UrlDecoder::*)()>(&::System::Net::WebUtility_UrlDecoder::GetString)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x64154b4;
+  constexpr static std::size_t addrs = 0x683d780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebUtility_UrlDecoder*>(), { "GetString", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Net::WebUtility::HtmlEncode)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6414994;
+  constexpr static std::size_t addrs = 0x683cc60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebUtility*>(), { "HtmlEncode", {}, { ::i2c::type_of<::StringW>() } })));
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::IO::TextWriter*)>(&::System::Net::WebUtility::HtmlEncode)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x6414bd4;
+  constexpr static std::size_t addrs = 0x683cea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Net::WebUtility::IndexOfHtmlEncodingChars)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6414abc;
+  constexpr static std::size_t addrs = 0x683cd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Configuration::UnicodeEncodingConformance (*)()>(&::System::Net::WebUtility::get_HtmlEncodeConformance)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6414f74;
+  constexpr static std::size_t addrs = 0x683d240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebUtility*>(), { "get_HtmlEncodeConformance", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::Text::Encoding*)>(&::System::Net::WebUtility::UrlDecodeInternal)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x6415104;
+  constexpr static std::size_t addrs = 0x683d3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Net::WebUtility::UrlDecode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6415504;
+  constexpr static std::size_t addrs = 0x683d7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebUtility*>(), { "UrlDecode", {}, { ::i2c::type_of<::StringW>() } })));
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<char16_t*>, ::by_ref<int32_t>)>(&::System::Net::WebUtility::GetNextUnicodeScalarValueFromUtf16Surrogate)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6415060;
+  constexpr static std::size_t addrs = 0x683d32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(char16_t)>(&::System::Net::WebUtility::HexToInt)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x641537c;
+  constexpr static std::size_t addrs = 0x683d648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebUtility*>(), { "HexToInt", {}, { ::i2c::type_of<char16_t>() } })));

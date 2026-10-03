@@ -4,10 +4,8 @@
 #include "UnityEngine/UIElements/zzzz__TemplateAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TemplateAsset_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlSerializedData_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeAsset_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::TemplateAsset_AttributeOverride.NamesPathMatchesElementNamesPath
 template <>
@@ -15,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TemplateAsset_AttributeOverride::*)(::System::Collections::Generic::IList_1<::StringW>*)>(
     &::UnityEngine::UIElements::TemplateAsset_AttributeOverride::NamesPathMatchesElementNamesPath)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x6cbd280;
+  constexpr static std::size_t addrs = 0x7143e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,43 +52,28 @@ constexpr ::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride::T
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride::TemplateAsset_UxmlSerializedDataOverride() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::TemplateAsset.get_templateAlias
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::TemplateAsset::*)()>(&::UnityEngine::UIElements::TemplateAsset::get_templateAlias)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7143dec;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TemplateAsset*>(), { "get_templateAlias", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::TemplateAsset.get_attributeOverrides
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* (
     ::UnityEngine::UIElements::TemplateAsset::*)()>(&::UnityEngine::UIElements::TemplateAsset::get_attributeOverrides)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cbbb30;
+  constexpr static std::size_t addrs = 0x7143df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TemplateAsset*>(), { "get_attributeOverrides", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::TemplateAsset.get_serializedDataOverrides
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>* (
-    ::UnityEngine::UIElements::TemplateAsset::*)()>(&::UnityEngine::UIElements::TemplateAsset::get_serializedDataOverrides)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cbbb38;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TemplateAsset*>(), { "get_serializedDataOverrides", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::TemplateAsset.Instantiate
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::TemplateAsset::*)(::UnityEngine::UIElements::CreationContext)>(
-    &::UnityEngine::UIElements::TemplateAsset::Instantiate)> {
-  constexpr static std::size_t size = 0x794;
-  constexpr static std::size_t addrs = 0x6cbbb40;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TemplateAsset*>(), { ::i2c::class_of<::UnityEngine::UIElements::TemplateAsset*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -100,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry>* (
     ::UnityEngine::UIElements::TemplateAsset::*)()>(&::UnityEngine::UIElements::TemplateAsset::get_slotUsages)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cbd278;
+  constexpr static std::size_t addrs = 0x7143dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TemplateAsset*>(), { "get_slotUsages", {}, {} })));
@@ -133,21 +116,6 @@ UnityEngine::UIElements::TemplateAsset::__cordl_internal_set_m_AttributeOverride
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AttributeOverrides = value;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*&
-UnityEngine::UIElements::TemplateAsset::__cordl_internal_get_m_SerializedDataOverride() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_SerializedDataOverride;
-}
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>* const&
-UnityEngine::UIElements::TemplateAsset::__cordl_internal_get_m_SerializedDataOverride() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_SerializedDataOverride;
-}
-constexpr void UnityEngine::UIElements::TemplateAsset::__cordl_internal_set_m_SerializedDataOverride(
-    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_SerializedDataOverride = value;
-}
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry>*& UnityEngine::UIElements::TemplateAsset::__cordl_internal_get_m_SlotUsages() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SlotUsages;
@@ -160,17 +128,19 @@ constexpr void UnityEngine::UIElements::TemplateAsset::__cordl_internal_set_m_Sl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SlotUsages = value;
 }
+inline void UnityEngine::UIElements::TemplateAsset::setStaticF_UxmlInstanceTypeName(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "UxmlInstanceTypeName", ::UnityEngine::UIElements::TemplateAsset*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::TemplateAsset::getStaticF_UxmlInstanceTypeName() {
+  return ::cordl_internals::getStaticField<::StringW, "UxmlInstanceTypeName", ::UnityEngine::UIElements::TemplateAsset*>();
+}
+inline ::StringW UnityEngine::UIElements::TemplateAsset::get_templateAlias() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TemplateAsset*>(), { "get_templateAlias", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
 inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* UnityEngine::UIElements::TemplateAsset::get_attributeOverrides() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TemplateAsset*>(), { "get_attributeOverrides", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*>(this, ___internal_method);
-}
-inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>* UnityEngine::UIElements::TemplateAsset::get_serializedDataOverrides() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TemplateAsset*>(), { "get_serializedDataOverrides", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*>(this, ___internal_method);
-}
-inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::TemplateAsset::Instantiate(::UnityEngine::UIElements::CreationContext cc) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TemplateAsset*>(), 7 })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method, cc);
 }
 inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry>* UnityEngine::UIElements::TemplateAsset::get_slotUsages() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TemplateAsset*>(), { "get_slotUsages", {}, {} })));

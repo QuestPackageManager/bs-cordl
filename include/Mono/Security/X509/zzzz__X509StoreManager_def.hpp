@@ -46,19 +46,19 @@ public:
 
   static inline ::Mono::Security::X509::X509Stores* getStaticF__userStore();
 
-  /// @brief Method get_CurrentUser, addr 0x5a995a0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentUser, addr 0x5eb1484, size 0x90, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509Stores* get_CurrentUser();
 
-  /// @brief Method get_CurrentUserPath, addr 0x5a993b0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentUserPath, addr 0x5eb1294, size 0x104, virtual false, abstract: false, final false
   static inline ::StringW get_CurrentUserPath();
 
-  /// @brief Method get_LocalMachine, addr 0x5a9963c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_LocalMachine, addr 0x5eb1520, size 0x90, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509Stores* get_LocalMachine();
 
-  /// @brief Method get_LocalMachinePath, addr 0x5a994b4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_LocalMachinePath, addr 0x5eb1398, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW get_LocalMachinePath();
 
-  /// @brief Method get_TrustedRootCertificates, addr 0x5a9765c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_TrustedRootCertificates, addr 0x5eaf540, size 0xd0, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509CertificateCollection* get_TrustedRootCertificates();
 
   static inline void setStaticF__localMachinePath(::StringW value);
@@ -84,7 +84,7 @@ public:
   X509StoreManager(X509StoreManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19801 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

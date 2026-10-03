@@ -24,7 +24,7 @@ namespace BeatSaber::AvatarCore {
 struct CORDL_TYPE AvatarPoseData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x326b5e4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34f1934, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Pose headPose, ::UnityEngine::Pose leftHandPose, ::UnityEngine::Pose rightHandPose);
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
   constexpr AvatarPoseData(::UnityEngine::Pose headPose, ::UnityEngine::Pose leftHandPose, ::UnityEngine::Pose rightHandPose) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22360 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };

@@ -81,7 +81,7 @@ public:
   constexpr LayoutComputedData__Border_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5523 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -119,7 +119,7 @@ public:
   constexpr LayoutComputedData__Dimensions_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5524 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -139,8 +139,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutComputedData__Di
 static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutComputedData__Dimensions_e__FixedBuffer) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Layout
-// [CompilerGenerated]
 // [UnsafeValueType]
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
@@ -157,7 +157,7 @@ public:
   constexpr LayoutComputedData__Margin_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5525 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -195,7 +195,7 @@ public:
   constexpr LayoutComputedData__MeasuredDimensions_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5526 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -215,8 +215,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutComputedData__Me
 static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutComputedData__MeasuredDimensions_e__FixedBuffer) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Layout
-// [CompilerGenerated]
 // [UnsafeValueType]
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
@@ -233,7 +233,7 @@ public:
   constexpr LayoutComputedData__Padding_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5527 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -271,7 +271,7 @@ public:
   constexpr LayoutComputedData__Position_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5528 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -318,16 +318,16 @@ public:
 
   __declspec(property(get = get_PaddingBuffer)) float_t* PaddingBuffer;
 
-  /// @brief Method get_BorderBuffer, addr 0x6d02dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BorderBuffer, addr 0x7198c0c, size 0x8, virtual false, abstract: false, final false
   inline float_t* get_BorderBuffer();
 
-  /// @brief Method get_Default, addr 0x6cff530, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x7198ad4, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutComputedData get_Default();
 
-  /// @brief Method get_MarginBuffer, addr 0x6d02da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarginBuffer, addr 0x7198c04, size 0x8, virtual false, abstract: false, final false
   inline float_t* get_MarginBuffer();
 
-  /// @brief Method get_PaddingBuffer, addr 0x6d02db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PaddingBuffer, addr 0x7198c14, size 0x8, virtual false, abstract: false, final false
   inline float_t* get_PaddingBuffer();
 
   // Ctor Parameters []
@@ -354,7 +354,7 @@ public:
                                ::UnityEngine::UIElements::Layout::LayoutComputedData__MeasuredDimensions_e__FixedBuffer MeasuredDimensions) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5529 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x84 };

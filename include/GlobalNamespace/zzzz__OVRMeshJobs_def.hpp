@@ -61,7 +61,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x5f01a98, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x631bed0, size 0x9c, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -89,7 +89,7 @@ public:
                                                  ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector4s> MeshBoneIndices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8048 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
@@ -155,7 +155,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x5f01b34, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x631bf6c, size 0x20, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -170,7 +170,7 @@ public:
   constexpr OVRMeshJobs_TransformTrianglesJob(::Unity::Collections::NativeArray_1<uint32_t> Triangles, ::Unity::Collections::NativeArray_1<int16_t> MeshIndices, int32_t NumIndices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8049 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -227,7 +227,7 @@ public:
   constexpr OVRMeshJobs_NativeArrayHelper_1(::Unity::Collections::NativeArray_1<T> UnityNativeArray, ::System::Runtime::InteropServices::GCHandle _handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8050 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -257,7 +257,7 @@ public:
 
   static inline ::GlobalNamespace::OVRMeshJobs* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5f01a94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x631becc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -275,7 +275,7 @@ public:
   OVRMeshJobs(OVRMeshJobs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8051 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

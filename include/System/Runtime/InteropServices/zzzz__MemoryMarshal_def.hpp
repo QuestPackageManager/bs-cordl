@@ -48,6 +48,12 @@ public:
   /// @brief Method AsMemory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Memory_1<T> AsMemory(::System::ReadOnlyMemory_1<T> memory);
 
+  /// @brief Method Cast, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TFrom, typename TTo>
+    requires(::cordl_internals::value_type_constraint<TFrom> && ::cordl_internals::default_constructor_constraint<TFrom> && ::cordl_internals::value_type_constraint<TTo> &&
+             ::cordl_internals::default_constructor_constraint<TTo>)
+  static inline ::System::Span_1<TTo> Cast(::System::Span_1<TFrom> span);
+
   /// @brief Method CreateReadOnlySpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::ReadOnlySpan_1<T> CreateReadOnlySpan(::by_ref<T> reference, int32_t length);
 

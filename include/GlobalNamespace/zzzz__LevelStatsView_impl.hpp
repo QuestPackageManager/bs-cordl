@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelStatsView::*)()>(&::GlobalNamespace::LevelStatsView::Hide)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5a24d70;
+  constexpr static std::size_t addrs = 0x5cf2d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelStatsView*>(), { "Hide", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelStatsView::*)(::by_ref<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::PlayerData*)>(
     &::GlobalNamespace::LevelStatsView::ShowStats)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5a24d94;
+  constexpr static std::size_t addrs = 0x5cf2d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelStatsView::*)(::GlobalNamespace::PlayerLevelStatsData*)>(&::GlobalNamespace::LevelStatsView::ShowStats)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5a24dc0;
+  constexpr static std::size_t addrs = 0x5cf2d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelStatsView::*)()>(&::GlobalNamespace::LevelStatsView::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a24f30;
+  constexpr static std::size_t addrs = 0x5cf2edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelStatsView*>(), { ".ctor", {}, {} })));

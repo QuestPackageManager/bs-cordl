@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightTransformGroupType (::GlobalNamespace::LightRotationGroup::*)()>(
     &::GlobalNamespace::LightRotationGroup::get_transformGroupType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x599a5bc;
+  constexpr static std::size_t addrs = 0x5db55f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationGroup::*)()>(&::GlobalNamespace::LightRotationGroup::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x599a5c4;
+  constexpr static std::size_t addrs = 0x5db5600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationGroup*>(), { ".ctor", {}, {} })));

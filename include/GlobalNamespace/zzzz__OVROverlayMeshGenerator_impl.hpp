@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)()>(&::GlobalNamespace::OVROverlayMeshGenerator::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e9a0e0;
+  constexpr static std::size_t addrs = 0x62b4394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayMeshGenerator*>(), { "OnEnable", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)()>(&::GlobalNamespace::OVROverlayMeshGenerator::OnDestroy)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5e9a24c;
+  constexpr static std::size_t addrs = 0x62b4500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayMeshGenerator*>(), { "OnDestroy", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)()>(&::GlobalNamespace::OVROverlayMeshGenerator::Initialize)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5e9a0e4;
+  constexpr static std::size_t addrs = 0x62b4398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayMeshGenerator*>(), { "Initialize", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)(::GlobalNamespace::OVROverlay*)>(&::GlobalNamespace::OVROverlayMeshGenerator::SetOverlay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e9ab34;
+  constexpr static std::size_t addrs = 0x62b4f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,8 +87,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)()>(&::GlobalNamespace::OVROverlayMeshGenerator::TryUpdateMesh)> {
-  constexpr static std::size_t size = 0x744;
-  constexpr static std::size_t addrs = 0x5e9a3f0;
+  constexpr static std::size_t size = 0x8c8;
+  constexpr static std::size_t addrs = 0x62b46a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayMeshGenerator*>(), { "TryUpdateMesh", {}, {} })));
@@ -102,7 +102,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                             ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Rect, bool)>(
     &::GlobalNamespace::OVROverlayMeshGenerator::UpdateMesh)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x5e9ab3c;
+  constexpr static std::size_t addrs = 0x62b4f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::System::Collections::Generic::List_1<int32_t>*, ::GlobalNamespace::OVROverlay_OverlayShape, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Rect)>(
     &::GlobalNamespace::OVROverlayMeshGenerator::GenerateMesh)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5e9ad40;
+  constexpr static std::size_t addrs = 0x62b5178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, float_t)>(
     &::GlobalNamespace::OVROverlayMeshGenerator::InverseTransformVert)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5e9c95c;
+  constexpr static std::size_t addrs = 0x62b6e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayMeshGenerator*>(),
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(float_t, float_t, float_t)>(&::GlobalNamespace::OVROverlayMeshGenerator::GetSphereUV)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e9c998;
+  constexpr static std::size_t addrs = 0x62b6e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(float_t, float_t)>(&::GlobalNamespace::OVROverlayMeshGenerator::GetSphereVert)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e9c9d0;
+  constexpr static std::size_t addrs = 0x62b6ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,8 +187,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*,
                                                                 ::System::Collections::Generic::List_1<int32_t>*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3,
                                                                 ::UnityEngine::Rect, float_t, int32_t, int32_t, float_t)>(&::GlobalNamespace::OVROverlayMeshGenerator::BuildSphere)> {
-  constexpr static std::size_t size = 0x6d0;
-  constexpr static std::size_t addrs = 0x5e9ae40;
+  constexpr static std::size_t size = 0x710;
+  constexpr static std::size_t addrs = 0x62b5278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::GlobalNamespace::OVROverlayMeshGenerator_CubeFace, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::OVROverlayMeshGenerator::GetCubeUV)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5e9ca24;
+  constexpr static std::size_t addrs = 0x62b6f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayMeshGenerator*>(),
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::OVROverlayMeshGenerator_CubeFace, float_t, float_t)>(
     &::GlobalNamespace::OVROverlayMeshGenerator::GetCubeVert)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5e9cb08;
+  constexpr static std::size_t addrs = 0x62b7008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,8 +243,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collec
                                                                 ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, ::System::Collections::Generic::List_1<int32_t>*,
                                                                 ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, float_t, int32_t, float_t)>(
     &::GlobalNamespace::OVROverlayMeshGenerator::BuildCube)> {
-  constexpr static std::size_t size = 0x83c;
-  constexpr static std::size_t addrs = 0x5e9b510;
+  constexpr static std::size_t size = 0x838;
+  constexpr static std::size_t addrs = 0x62b5988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -264,8 +264,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*,
                                                                 ::System::Collections::Generic::List_1<int32_t>*, ::UnityEngine::Rect)>(&::GlobalNamespace::OVROverlayMeshGenerator::BuildQuad)> {
-  constexpr static std::size_t size = 0x644;
-  constexpr static std::size_t addrs = 0x5e9bd4c;
+  constexpr static std::size_t size = 0x66c;
+  constexpr static std::size_t addrs = 0x62b61c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,8 +284,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*,
                                                                 ::System::Collections::Generic::List_1<int32_t>*, ::UnityEngine::Vector3, ::UnityEngine::Rect, int32_t)>(
     &::GlobalNamespace::OVROverlayMeshGenerator::BuildHemicylinder)> {
-  constexpr static std::size_t size = 0x5cc;
-  constexpr static std::size_t addrs = 0x5e9c390;
+  constexpr static std::size_t size = 0x630;
+  constexpr static std::size_t addrs = 0x62b682c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)()>(&::GlobalNamespace::OVROverlayMeshGenerator::_ctor)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5e9cc08;
+  constexpr static std::size_t addrs = 0x62b7108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayMeshGenerator*>(), { ".ctor", {}, {} })));

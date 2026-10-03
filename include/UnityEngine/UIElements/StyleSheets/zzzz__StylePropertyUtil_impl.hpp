@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleSheets::StyleEnumType, ::StringW, ::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyUtil::TryGetEnumIntValue)> {
-  constexpr static std::size_t size = 0x1260;
-  constexpr static std::size_t addrs = 0x6d09550;
+  constexpr static std::size_t size = 0x12f0;
+  constexpr static std::size_t addrs = 0x719fdc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyUtil::IsMatchingShorthand)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x6d0c7c0;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x71a32c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,12 +41,40 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::U
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::StylePropertyUtil.get_propertyNameToStylePropertyId
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyId>* (*)()>(
+    &::UnityEngine::UIElements::StyleSheets::StylePropertyUtil::get_propertyNameToStylePropertyId)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x71a3490;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StylePropertyUtil*>(), { "get_propertyNameToStylePropertyId", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::StylePropertyUtil.get_stylePropertyIdToPropertyName
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::StringW>* (*)()>(
+    &::UnityEngine::UIElements::StyleSheets::StylePropertyUtil::get_stylePropertyIdToPropertyName)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x71a34ec;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StylePropertyUtil*>(), { "get_stylePropertyIdToPropertyName", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::StylePropertyUtil.IsAnimatable
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StyleSheets::StylePropertyUtil::IsAnimatable)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6d0c9b0;
+  constexpr static std::size_t addrs = 0x71a3548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StylePropertyUtil*>(),
@@ -128,6 +156,18 @@ inline bool UnityEngine::UIElements::StyleSheets::StylePropertyUtil::IsMatchingS
           ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StylePropertyUtil*>(),
           { "IsMatchingShorthand", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, shorthand, id);
+}
+inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyId>*
+UnityEngine::UIElements::StyleSheets::StylePropertyUtil::get_propertyNameToStylePropertyId() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StylePropertyUtil*>(), { "get_propertyNameToStylePropertyId", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>(nullptr, ___internal_method);
+}
+inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::StringW>*
+UnityEngine::UIElements::StyleSheets::StylePropertyUtil::get_stylePropertyIdToPropertyName() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StylePropertyUtil*>(), { "get_stylePropertyIdToPropertyName", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::StringW>*>(nullptr, ___internal_method);
 }
 inline bool UnityEngine::UIElements::StyleSheets::StylePropertyUtil::IsAnimatable(::UnityEngine::UIElements::StyleSheets::StylePropertyId id) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StylePropertyUtil*>(),

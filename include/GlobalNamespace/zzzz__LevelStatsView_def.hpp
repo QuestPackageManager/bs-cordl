@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(LevelStatsView)
 namespace GlobalNamespace {
 struct BeatmapKey;
@@ -41,15 +40,15 @@ public:
   /// @brief Field _maxRankText, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__maxRankText, put = __cordl_internal_set__maxRankText)) ::UnityW<::TMPro::TextMeshProUGUI> _maxRankText;
 
-  /// @brief Method Hide, addr 0x5a24d70, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x5cf2d1c, size 0x24, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::GlobalNamespace::LevelStatsView* New_ctor();
 
-  /// @brief Method ShowStats, addr 0x5a24d94, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ShowStats, addr 0x5cf2d40, size 0x2c, virtual false, abstract: false, final false
   inline void ShowStats(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData);
 
-  /// @brief Method ShowStats, addr 0x5a24dc0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ShowStats, addr 0x5cf2d6c, size 0x170, virtual false, abstract: false, final false
   inline void ShowStats(::GlobalNamespace::PlayerLevelStatsData* playerLevelStats);
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__highScoreText() const;
@@ -70,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__maxRankText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x5a24f30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf2edc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,10 +87,7 @@ public:
   LevelStatsView(LevelStatsView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6489 };
-
-  /// @brief Field kStatsFullComboLocalizationKey offset 0xffffffff size 0x8
-  static constexpr ::ConstString kStatsFullComboLocalizationKey{ u"STATS_FULL_COMBO" };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6609 };
 
   /// [SerializeField]
   /// @brief Field _highScoreText, offset: 0x20, size: 0x8, def value: None

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> (*)(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Math::EC::SimpleLookupTable::Copy)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x35326c0;
+  constexpr static std::size_t addrs = 0x37bb95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::SimpleLookupTable::*)(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Math::EC::SimpleLookupTable::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35327c4;
+  constexpr static std::size_t addrs = 0x37bba60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::SimpleLookupTable::*)()>(&::Org::BouncyCastle::Math::EC::SimpleLookupTable::get_Size)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x35327e8;
+  constexpr static std::size_t addrs = 0x37bba84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::SimpleLookupTable::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::SimpleLookupTable::Lookup)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3532800;
+  constexpr static std::size_t addrs = 0x37bba9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::SimpleLookupTable::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::SimpleLookupTable::LookupVar)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x353284c;
+  constexpr static std::size_t addrs = 0x37bbae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

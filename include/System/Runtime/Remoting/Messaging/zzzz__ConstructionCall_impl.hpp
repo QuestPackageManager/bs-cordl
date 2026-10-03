@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionCall::*)(::System::Type*)>(
     &::System::Runtime::Remoting::Messaging::ConstructionCall::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5b3267c;
+  constexpr static std::size_t addrs = 0x5f4a574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionCall::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Remoting::Messaging::ConstructionCall::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b433a0;
+  constexpr static std::size_t addrs = 0x5f5b298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(
     &::System::Runtime::Remoting::Messaging::ConstructionCall::InitDictionary)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5b4344c;
+  constexpr static std::size_t addrs = 0x5f5b344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionCall*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(
     &::System::Runtime::Remoting::Messaging::ConstructionCall::get_IsContextOk)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b43578;
+  constexpr static std::size_t addrs = 0x5f5b470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionCall::*)(bool)>(
     &::System::Runtime::Remoting::Messaging::ConstructionCall::set_IsContextOk)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b43580;
+  constexpr static std::size_t addrs = 0x5f5b478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(
     &::System::Runtime::Remoting::Messaging::ConstructionCall::get_ActivationType)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5b43588;
+  constexpr static std::size_t addrs = 0x5f5b480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(
     &::System::Runtime::Remoting::Messaging::ConstructionCall::get_ActivationTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b43634;
+  constexpr static std::size_t addrs = 0x5f5b52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Activation::IActivator* (::System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(
     &::System::Runtime::Remoting::Messaging::ConstructionCall::get_Activator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b4363c;
+  constexpr static std::size_t addrs = 0x5f5b534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionCall*>(), { "get_Activator", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionCall::*)(::System::Runtime::Remoting::Activation::IActivator*)>(
     &::System::Runtime::Remoting::Messaging::ConstructionCall::set_Activator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b43644;
+  constexpr static std::size_t addrs = 0x5f5b53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionCall*>(),
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(
     &::System::Runtime::Remoting::Messaging::ConstructionCall::get_CallSiteActivationAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b4364c;
+  constexpr static std::size_t addrs = 0x5f5b544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionCall::*)(::ArrayW<::System::Object*>)>(
     &::System::Runtime::Remoting::Messaging::ConstructionCall::SetActivationAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b43654;
+  constexpr static std::size_t addrs = 0x5f5b54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionCall*>(),
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(
     &::System::Runtime::Remoting::Messaging::ConstructionCall::get_ContextProperties)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5b4365c;
+  constexpr static std::size_t addrs = 0x5f5b554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionCall::*)(::StringW, ::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::ConstructionCall::InitMethodProperty)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x5b436c4;
+  constexpr static std::size_t addrs = 0x5f5b5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionCall*>(),
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionCall::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Remoting::Messaging::ConstructionCall::GetObjectData)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x5b43db4;
+  constexpr static std::size_t addrs = 0x5f5bcac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionCall*>(),
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(
     &::System::Runtime::Remoting::Messaging::ConstructionCall::get_Properties)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5b443c0;
+  constexpr static std::size_t addrs = 0x5f5c2b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionCall*>(),
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Proxies::RemotingProxy* (::System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(
     &::System::Runtime::Remoting::Messaging::ConstructionCall::get_SourceProxy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b44420;
+  constexpr static std::size_t addrs = 0x5f5c318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionCall::*)(::System::Runtime::Remoting::Proxies::RemotingProxy*)>(
     &::System::Runtime::Remoting::Messaging::ConstructionCall::set_SourceProxy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b44428;
+  constexpr static std::size_t addrs = 0x5f5c320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionCall*>(),

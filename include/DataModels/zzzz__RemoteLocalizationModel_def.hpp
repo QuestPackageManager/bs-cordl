@@ -60,11 +60,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3760304, size 0x898, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39e99e4, size 0x898, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3760b9c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39ea27c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -89,7 +89,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15664 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -164,14 +164,14 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method HandleDidCatalogLoadOrUpdate, addr 0x37602e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleDidCatalogLoadOrUpdate, addr 0x39e99c8, size 0x1c, virtual false, abstract: false, final false
   inline void HandleDidCatalogLoadOrUpdate();
 
-  /// @brief Method Initialize, addr 0x37601fc, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x39e98dc, size 0x28, virtual true, abstract: false, final true
   inline void Initialize();
 
   /// [AsyncStateMachine(typeof(DataModels.RemoteLocalizationModel::<LoadAdditionalLocalizationAsync>d__6))]
-  /// @brief Method LoadAdditionalLocalizationAsync, addr 0x3760224, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method LoadAdditionalLocalizationAsync, addr 0x39e9904, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadAdditionalLocalizationAsync(/* [Nullable(2)] */ ::System::Threading::Tasks::Task* prevLoadingTask);
 
   static inline ::DataModels::RemoteLocalizationModel* New_ctor(::BGLib::Polyglot::LocalizationModel* localizationModel, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* metaRemoteAssetsManager);
@@ -194,7 +194,7 @@ public:
 
   constexpr void __cordl_internal_set__metaRemoteAssetsManager(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* value);
 
-  /// @brief Method .ctor, addr 0x376015c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e983c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::BGLib::Polyglot::LocalizationModel* localizationModel, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* metaRemoteAssetsManager);
 
   /// @brief Convert to "::Zenject::IInitializable"
@@ -215,7 +215,7 @@ public:
   RemoteLocalizationModel(RemoteLocalizationModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15665 };
 
   /// @brief Field _localizationModel, offset: 0x10, size: 0x8, def value: None
   ::BGLib::Polyglot::LocalizationModel* ____localizationModel;

@@ -22,10 +22,10 @@ namespace BeatSaber::Init {
 class CORDL_TYPE BSRuntimePlatform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPlatformType, addr 0x3299848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformType, addr 0x352050c, size 0x8, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::RuntimePlatformType GetPlatformType();
 
-  /// @brief Method get_IsSteam, addr 0x3299850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSteam, addr 0x3520514, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsSteam();
 
 protected:
@@ -43,7 +43,7 @@ public:
   BSRuntimePlatform(BSRuntimePlatform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23497 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -101,7 +101,7 @@ public:
   constexpr DynamicArray_1_Iterator(::UnityEngine::Rendering::DynamicArray_1<T>* owner, int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8766 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -149,7 +149,7 @@ public:
   constexpr RangeEnumerable_DynamicArray_1_RangeIterator(::UnityEngine::Rendering::DynamicArray_1<T>* owner, int32_t index, int32_t first, int32_t last) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8767 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -192,7 +192,7 @@ public:
   constexpr DynamicArray_1_RangeEnumerable(::UnityEngine::Rendering::RangeEnumerable_DynamicArray_1_RangeIterator<T> iterator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8768 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -242,7 +242,7 @@ public:
   DynamicArray_1_SortComparer(DynamicArray_1_SortComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8769 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -291,6 +291,9 @@ public:
 
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Contains(T item);
+
+  /// @brief Method FindIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t FindIndex(::System::Predicate_1<T>* match);
 
   /// @brief Method FindIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t FindIndex(int32_t startIndex, int32_t count, ::System::Predicate_1<T>* match);
@@ -374,7 +377,7 @@ public:
   inline int32_t get_size();
 
   /// [Obsolete("This is deprecated because it returns an incorrect value. It may returns an array with elements beyond the size. Please use Span/ReadOnly if you want safe raw access to the
-  /// DynamicArray memory.", false)]
+  /// DynamicArray memory. #from(2023.2)")]
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::ArrayW<T> op_Implicit___ArrayW_T_(::UnityEngine::Rendering::DynamicArray_1<T>* array);
 
@@ -403,7 +406,7 @@ public:
   DynamicArray_1(DynamicArray_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8770 };
 
   /// @brief Field m_Array, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T> ___m_Array;

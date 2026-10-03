@@ -22,6 +22,9 @@ struct BatchDrawCommand;
 namespace UnityEngine::Rendering {
 struct BatchDrawRange;
 }
+namespace UnityEngine {
+struct EntityId;
+}
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct BatchCullingOutputDrawCommands;
@@ -45,21 +48,21 @@ public:
   // "::UnityEngine::Rendering::BatchDrawCommandProcedural*", modifiers: "", def_value: None, comment: None }, CppParam { name: "proceduralIndirectDrawCommands", ty:
   // "::UnityEngine::Rendering::BatchDrawCommandProceduralIndirect*", modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleInstances", ty: "int32_t*", modifiers: "", def_value:
   // None, comment: None }, CppParam { name: "drawRanges", ty: "::UnityEngine::Rendering::BatchDrawRange*", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "instanceSortingPositions", ty: "float_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawCommandPickingInstanceIDs", ty: "int32_t*", modifiers: "", def_value: None,
-  // comment: None }, CppParam { name: "drawCommandCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectDrawCommandCount", ty: "int32_t", modifiers: "",
-  // def_value: None, comment: None }, CppParam { name: "proceduralDrawCommandCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "instanceSortingPositions", ty: "float_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawCommandPickingEntityIds", ty: "::UnityEngine::EntityId*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "drawCommandCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectDrawCommandCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "proceduralDrawCommandCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
   // "proceduralIndirectDrawCommandCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleInstanceCount", ty: "int32_t", modifiers: "", def_value: None,
   // comment: None }, CppParam { name: "drawRangeCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "instanceSortingPositionFloatCount", ty: "int32_t", modifiers:
   // "", def_value: None, comment: None }]
   constexpr BatchCullingOutputDrawCommands(::UnityEngine::Rendering::BatchDrawCommand* drawCommands, ::UnityEngine::Rendering::BatchDrawCommandIndirect* indirectDrawCommands,
                                            ::UnityEngine::Rendering::BatchDrawCommandProcedural* proceduralDrawCommands,
                                            ::UnityEngine::Rendering::BatchDrawCommandProceduralIndirect* proceduralIndirectDrawCommands, int32_t* visibleInstances,
-                                           ::UnityEngine::Rendering::BatchDrawRange* drawRanges, float_t* instanceSortingPositions, int32_t* drawCommandPickingInstanceIDs, int32_t drawCommandCount,
-                                           int32_t indirectDrawCommandCount, int32_t proceduralDrawCommandCount, int32_t proceduralIndirectDrawCommandCount, int32_t visibleInstanceCount,
-                                           int32_t drawRangeCount, int32_t instanceSortingPositionFloatCount) noexcept;
+                                           ::UnityEngine::Rendering::BatchDrawRange* drawRanges, float_t* instanceSortingPositions, ::UnityEngine::EntityId* drawCommandPickingEntityIds,
+                                           int32_t drawCommandCount, int32_t indirectDrawCommandCount, int32_t proceduralDrawCommandCount, int32_t proceduralIndirectDrawCommandCount,
+                                           int32_t visibleInstanceCount, int32_t drawRangeCount, int32_t instanceSortingPositionFloatCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10863 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10469 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -85,8 +88,8 @@ public:
   /// @brief Field instanceSortingPositions, offset: 0x30, size: 0x8, def value: None
   float_t* instanceSortingPositions;
 
-  /// @brief Field drawCommandPickingInstanceIDs, offset: 0x38, size: 0x8, def value: None
-  int32_t* drawCommandPickingInstanceIDs;
+  /// @brief Field drawCommandPickingEntityIds, offset: 0x38, size: 0x8, def value: None
+  ::UnityEngine::EntityId* drawCommandPickingEntityIds;
 
   /// @brief Field drawCommandCount, offset: 0x40, size: 0x4, def value: None
   int32_t drawCommandCount;
@@ -126,7 +129,7 @@ static_assert(offsetof(::UnityEngine::Rendering::BatchCullingOutputDrawCommands,
 
 static_assert(offsetof(::UnityEngine::Rendering::BatchCullingOutputDrawCommands, instanceSortingPositions) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::BatchCullingOutputDrawCommands, drawCommandPickingInstanceIDs) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::BatchCullingOutputDrawCommands, drawCommandPickingEntityIds) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::BatchCullingOutputDrawCommands, drawCommandCount) == 0x40, "Offset mismatch!");
 

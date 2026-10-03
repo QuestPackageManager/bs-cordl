@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextClickEvent___c::*)()>(&::UnityEngine::UIElements::ContextClickEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d9f578;
+  constexpr static std::size_t addrs = 0x722d258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextClickEvent___c*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ContextClickEvent* (::UnityEngine::UIElements::ContextClickEvent___c::*)()>(
     &::UnityEngine::UIElements::ContextClickEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d9f57c;
+  constexpr static std::size_t addrs = 0x722d25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextClickEvent___c*>(), { "<.cctor>b__0_0", {}, {} })));
@@ -54,15 +54,49 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextClickEvent::*)()>(&::UnityEngine::UIElements::ContextClickEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d9f4d8;
+  constexpr static std::size_t addrs = 0x722d168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextClickEvent*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextClickEvent.Init
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextClickEvent::*)()>(&::UnityEngine::UIElements::ContextClickEvent::Init)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x722d1b8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextClickEvent*>(), { ::i2c::class_of<::UnityEngine::UIElements::ContextClickEvent*>(), 13 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextClickEvent.LocalInit
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextClickEvent::*)()>(&::UnityEngine::UIElements::ContextClickEvent::LocalInit)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x722d1b4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextClickEvent*>(), { "LocalInit", {}, {} })));
+    return ___internal_method;
+  }
+};
 inline void UnityEngine::UIElements::ContextClickEvent::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextClickEvent*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::ContextClickEvent::Init() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::ContextClickEvent*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::ContextClickEvent::LocalInit() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextClickEvent*>(), { "LocalInit", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::ContextClickEvent* UnityEngine::UIElements::ContextClickEvent::New_ctor() {

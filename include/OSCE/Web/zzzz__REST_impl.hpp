@@ -11,6 +11,7 @@
 #include "OSCE/Analytics/zzzz__LoggerAnalyticsBatch_def.hpp"
 #include "OSCE/Web/zzzz__FailedPostRequest_def.hpp"
 #include "OSCE/Web/zzzz__REST_def.hpp"
+#include "OculusStudios/MetaNetworking/Utils/zzzz__IMetaApiUserAgentProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
 #include "System/Net/Http/zzzz__HttpClientHandler_def.hpp"
@@ -30,8 +31,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d::*)()>(&::OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d::MoveNext)> {
-  constexpr static std::size_t size = 0x760;
-  constexpr static std::size_t addrs = 0x5f37cb8;
+  constexpr static std::size_t size = 0x764;
+  constexpr static std::size_t addrs = 0x63533dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d>(), { "MoveNext", {}, {} })));
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f38418;
+  constexpr static std::size_t addrs = 0x6353b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d>(),
@@ -102,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST___c__DisplayClass10_0::*)()>(&::OSCE::Web::REST___c__DisplayClass10_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f37bec;
+  constexpr static std::size_t addrs = 0x6353310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST___c__DisplayClass10_0*>(), { ".ctor", {}, {} })));
@@ -115,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::OSCE::Web::REST___c__DisplayClass10_0::*)(::System::Threading::CancellationToken)>(
     &::OSCE::Web::REST___c__DisplayClass10_0::_PostAsync_b__0)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5f37bf0;
+  constexpr static std::size_t addrs = 0x6353314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,6 +135,18 @@ constexpr ::OSCE::Web::REST* const& OSCE::Web::REST___c__DisplayClass10_0::__cor
 constexpr void OSCE::Web::REST___c__DisplayClass10_0::__cordl_internal_set___4__this(::OSCE::Web::REST* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
+}
+constexpr ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*& OSCE::Web::REST___c__DisplayClass10_0::__cordl_internal_get_metaApiUserAgentProvider() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___metaApiUserAgentProvider;
+}
+constexpr ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* const& OSCE::Web::REST___c__DisplayClass10_0::__cordl_internal_get_metaApiUserAgentProvider() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___metaApiUserAgentProvider;
+}
+constexpr void OSCE::Web::REST___c__DisplayClass10_0::__cordl_internal_set_metaApiUserAgentProvider(::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___metaApiUserAgentProvider = value;
 }
 constexpr ::StringW& OSCE::Web::REST___c__DisplayClass10_0::__cordl_internal_get_json() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -214,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__BuildQueryString_d__12::*)()>(&::OSCE::Web::REST__BuildQueryString_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x5f38484;
+  constexpr static std::size_t addrs = 0x6353bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__BuildQueryString_d__12>(), { "MoveNext", {}, {} })));
@@ -227,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__BuildQueryString_d__12::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::OSCE::Web::REST__BuildQueryString_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f38798;
+  constexpr static std::size_t addrs = 0x6353ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__BuildQueryString_d__12>(),
@@ -276,8 +289,8 @@ constexpr ::OSCE::Web::REST__BuildQueryString_d__12::REST__BuildQueryString_d__1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__BuildUri_d__11::*)()>(&::OSCE::Web::REST__BuildUri_d__11::MoveNext)> {
-  constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x5f38818;
+  constexpr static std::size_t size = 0x3e8;
+  constexpr static std::size_t addrs = 0x6353f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__BuildUri_d__11>(), { "MoveNext", {}, {} })));
@@ -290,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__BuildUri_d__11::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::OSCE::Web::REST__BuildUri_d__11::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f38c74;
+  constexpr static std::size_t addrs = 0x6354328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__BuildUri_d__11>(),
@@ -337,8 +350,8 @@ constexpr ::OSCE::Web::REST__BuildUri_d__11::REST__BuildUri_d__11() {}
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__PostAsync_d__10::*)()>(&::OSCE::Web::REST__PostAsync_d__10::MoveNext)> {
-  constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x5f38cf4;
+  constexpr static std::size_t size = 0x478;
+  constexpr static std::size_t addrs = 0x63543a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__PostAsync_d__10>(), { "MoveNext", {}, {} })));
@@ -351,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__PostAsync_d__10::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::OSCE::Web::REST__PostAsync_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f39168;
+  constexpr static std::size_t addrs = 0x6354820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__PostAsync_d__10>(),
@@ -378,22 +391,27 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* OSCE::Web::RE
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::OSCE::Web::REST*", modifiers:
-// "", def_value: Some("{}"), comment: None }, CppParam { name: "json", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "auth", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "queryParams", ty:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "metaApiUserAgentProvider", ty: "::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "json", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "auth", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "queryParams", ty:
 // "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "attempts", ty: "int32_t", modifiers: "", def_value:
 // Some("{}"), comment: None }, CppParam { name: "cancel", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__1", ty:
 // "::OSCE::Web::REST___c__DisplayClass10_0*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchToSend", ty: "::OSCE::Analytics::LoggerAnalyticsBatch*", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "onFail", ty: "::System::Action_2<::System::Exception*,::OSCE::Web::FailedPostRequest>*", modifiers: "", def_value: Some("{}"), comment:
 // None }, CppParam { name: "onSucceed", ty: "::System::Action_2<::StringW,::OSCE::Analytics::LoggerAnalyticsBatch*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
 // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::OSCE::Web::REST__PostAsync_d__10::REST__PostAsync_d__10(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder, ::OSCE::Web::REST* __4__this, ::StringW json, ::StringW path, ::StringW auth,
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams, int32_t attempts, ::System::Threading::CancellationToken cancel, ::OSCE::Web::REST___c__DisplayClass10_0* __8__1,
-    ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend, ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail,
-    ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
+constexpr ::OSCE::Web::REST__PostAsync_d__10::REST__PostAsync_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
+                                                                    ::OSCE::Web::REST* __4__this, ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider,
+                                                                    ::StringW json, ::StringW path, ::StringW auth, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams,
+                                                                    int32_t attempts, ::System::Threading::CancellationToken cancel, ::OSCE::Web::REST___c__DisplayClass10_0* __8__1,
+                                                                    ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend,
+                                                                    ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail,
+                                                                    ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed,
+                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
+  this->metaApiUserAgentProvider = metaApiUserAgentProvider;
   this->json = json;
   this->path = path;
   this->auth = auth;
@@ -413,7 +431,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__PostRequest_d__7::*)()>(&::OSCE::Web::REST__PostRequest_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x5f391e8;
+  constexpr static std::size_t addrs = 0x63548a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__PostRequest_d__7>(), { "MoveNext", {}, {} })));
@@ -426,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__PostRequest_d__7::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::OSCE::Web::REST__PostRequest_d__7::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3948c;
+  constexpr static std::size_t addrs = 0x6354b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__PostRequest_d__7>(),
@@ -458,12 +476,14 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* OSCE::Web::RE
 // "::System::Action_2<::StringW,::OSCE::Analytics::LoggerAnalyticsBatch*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "onFail", ty:
 // "::System::Action_2<::System::Exception*,::OSCE::Web::FailedPostRequest>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "attempts", ty: "int32_t", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "queryParams", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: Some("{}"), comment: None
-// }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }]
+// }, CppParam { name: "metaApiUserAgentProvider", ty: "::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OSCE::Web::REST__PostRequest_d__7::REST__PostRequest_d__7(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::StringW path, ::StringW authToken,
                                                                       ::StringW json, ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend,
                                                                       ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed,
                                                                       ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail, int32_t attempts,
                                                                       ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams,
+                                                                      ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider,
                                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
@@ -475,6 +495,7 @@ constexpr ::OSCE::Web::REST__PostRequest_d__7::REST__PostRequest_d__7(int32_t __
   this->onFail = onFail;
   this->attempts = attempts;
   this->queryParams = queryParams;
+  this->metaApiUserAgentProvider = metaApiUserAgentProvider;
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
@@ -484,7 +505,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST::*)()>(&::OSCE::Web::REST::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f375ac;
+  constexpr static std::size_t addrs = 0x6352c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST*>(), { ".ctor", {}, {} })));
@@ -494,11 +515,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST::
 //  Writing Method size for method: ::OSCE::Web::REST.PostRequest
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    ::StringW, ::StringW, ::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*, ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>*,
-    ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>*, int32_t, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::OSCE::Web::REST::PostRequest)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5f373a0;
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (*)(::StringW, ::StringW, ::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*, ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>*,
+                         ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>*, int32_t, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*,
+                         ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*)>(&::OSCE::Web::REST::PostRequest)> {
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x6352a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -508,19 +530,23 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
                                                   { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::OSCE::Analytics::LoggerAnalyticsBatch*>(),
                                                     ::i2c::type_of<::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>*>(),
                                                     ::i2c::type_of<::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>*>(), ::i2c::type_of<int32_t>(),
-                                                    ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>() } })));
+                                                    ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>(),
+                                                    ::i2c::type_of<::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OSCE::Web::REST.CreateClient
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::HttpClient* (::OSCE::Web::REST::*)()>(&::OSCE::Web::REST::CreateClient)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5f37660;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::HttpClient* (::OSCE::Web::REST::*)(::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*)>(
+    &::OSCE::Web::REST::CreateClient)> {
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x6352ce0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST*>(), { "CreateClient", {}, {} })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST*>(), { "CreateClient", {}, { ::i2c::type_of<::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*>() } })));
     return ___internal_method;
   }
 };
@@ -529,7 +555,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::HttpClientHandler* (::OSCE::Web::REST::*)()>(&::OSCE::Web::REST::GetHandler)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5f376d4;
+  constexpr static std::size_t addrs = 0x6352df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST*>(), { "GetHandler", {}, {} })));
@@ -542,9 +568,9 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (
     ::OSCE::Web::REST::*)(::StringW, ::StringW, ::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*, ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>*,
                           ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>*, ::System::Threading::CancellationToken, int32_t,
-                          ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::OSCE::Web::REST::PostAsync)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5f37868;
+                          ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*, ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*)>(&::OSCE::Web::REST::PostAsync)> {
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x6352f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -555,7 +581,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
                                            { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::OSCE::Analytics::LoggerAnalyticsBatch*>(),
                                              ::i2c::type_of<::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>*>(),
                                              ::i2c::type_of<::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>*>(), ::i2c::type_of<::System::Threading::CancellationToken>(),
-                                             ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>() } })));
+                                             ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>(),
+                                             ::i2c::type_of<::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*>() } })));
     return ___internal_method;
   }
 };
@@ -565,7 +592,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Uri*>* (
     ::OSCE::Web::REST::*)(::StringW, ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::OSCE::Web::REST::BuildUri)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5f379a8;
+  constexpr static std::size_t addrs = 0x63530cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -581,7 +608,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (*)(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*, bool)>(
     &::OSCE::Web::REST::BuildQueryString)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5f37a9c;
+  constexpr static std::size_t addrs = 0x63531c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -645,7 +672,8 @@ inline void OSCE::Web::REST::_ctor() {
 inline void OSCE::Web::REST::PostRequest(::StringW path, ::StringW authToken, ::StringW json, ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend,
                                          ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed,
                                          ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail, int32_t attempts,
-                                         ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams) {
+                                         ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams,
+                                         ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST*>(),
                                               { "PostRequest",
@@ -653,12 +681,15 @@ inline void OSCE::Web::REST::PostRequest(::StringW path, ::StringW authToken, ::
                                                 { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::OSCE::Analytics::LoggerAnalyticsBatch*>(),
                                                   ::i2c::type_of<::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>*>(),
                                                   ::i2c::type_of<::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>*>(), ::i2c::type_of<int32_t>(),
-                                                  ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, path, authToken, json, batchToSend, onSucceed, onFail, attempts, queryParams);
+                                                  ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>(),
+                                                  ::i2c::type_of<::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, path, authToken, json, batchToSend, onSucceed, onFail, attempts, queryParams, metaApiUserAgentProvider);
 }
-inline ::System::Net::Http::HttpClient* OSCE::Web::REST::CreateClient() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST*>(), { "CreateClient", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::System::Net::Http::HttpClient*>(this, ___internal_method);
+inline ::System::Net::Http::HttpClient* OSCE::Web::REST::CreateClient(::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST*>(), { "CreateClient", {}, { ::i2c::type_of<::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::Http::HttpClient*>(this, ___internal_method, metaApiUserAgentProvider);
 }
 inline ::System::Net::Http::HttpClientHandler* OSCE::Web::REST::GetHandler() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST*>(), { "GetHandler", {}, {} })));
@@ -668,7 +699,8 @@ inline ::System::Threading::Tasks::Task_1<::StringW>* OSCE::Web::REST::PostAsync
                                                                                  ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed,
                                                                                  ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail,
                                                                                  ::System::Threading::CancellationToken cancel, int32_t attempts,
-                                                                                 ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams) {
+                                                                                 ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams,
+                                                                                 ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST*>(),
                                               { "PostAsync",
@@ -676,8 +708,10 @@ inline ::System::Threading::Tasks::Task_1<::StringW>* OSCE::Web::REST::PostAsync
                                                 { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::OSCE::Analytics::LoggerAnalyticsBatch*>(),
                                                   ::i2c::type_of<::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>*>(),
                                                   ::i2c::type_of<::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>*>(), ::i2c::type_of<::System::Threading::CancellationToken>(),
-                                                  ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*>(this, ___internal_method, path, auth, json, batchToSend, onSucceed, onFail, cancel, attempts, queryParams);
+                                                  ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>(),
+                                                  ::i2c::type_of<::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*>(this, ___internal_method, path, auth, json, batchToSend, onSucceed, onFail, cancel, attempts, queryParams,
+                                                                                             metaApiUserAgentProvider);
 }
 inline ::System::Threading::Tasks::Task_1<::System::Uri*>* OSCE::Web::REST::BuildUri(::StringW path, ::StringW auth, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* query) {
   static auto* ___internal_method = THROW_UNLESS(

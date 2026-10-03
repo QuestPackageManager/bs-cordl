@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5996a68;
+  constexpr static std::size_t addrs = 0x5db1a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5996b90;
+  constexpr static std::size_t addrs = 0x5db1bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::*)()>(
     &::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::OnValidate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5996b94;
+  constexpr static std::size_t addrs = 0x5db1bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::*)(float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::SetFloat)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5996a6c;
+  constexpr static std::size_t addrs = 0x5db1aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::*)()>(
     &::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::LateUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5996c40;
+  constexpr static std::size_t addrs = 0x5db1c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::*)()>(
     &::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::SetMaterialsIfNeeded)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5996b98;
+  constexpr static std::size_t addrs = 0x5db1bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::*)()>(
     &::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5996c44;
+  constexpr static std::size_t addrs = 0x5db1c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

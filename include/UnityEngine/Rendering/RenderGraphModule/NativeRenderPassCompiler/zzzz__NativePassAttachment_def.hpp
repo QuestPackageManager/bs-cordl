@@ -9,6 +9,15 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativePassAttachment)
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct ResourceHandle;
+}
+namespace UnityEngine::Rendering {
+struct RenderBufferLoadAction;
+}
+namespace UnityEngine::Rendering {
+struct RenderBufferStoreAction;
+}
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct NativePassAttachment;
@@ -17,6 +26,7 @@ struct NativePassAttachment;
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassAttachment);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassAttachment, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler",
                     "NativePassAttachment");
+// [IsReadOnly]
 // [DebuggerDisplay("Res({handle.index}) : {loadAction} : {storeAction} : {memoryless}")]
 // Dependencies UnityEngine.Rendering.RenderBufferLoadAction, UnityEngine.Rendering.RenderBufferStoreAction, UnityEngine.Rendering.RenderGraphModule.ResourceHandle
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
@@ -25,6 +35,10 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE NativePassAttachment {
 public:
   // Declarations
+  /// @brief Method .ctor, addr 0x6c282c8, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> handle, ::UnityEngine::Rendering::RenderBufferLoadAction loadAction,
+                    ::UnityEngine::Rendering::RenderBufferStoreAction storeAction, bool memoryless, int32_t mipLevel, int32_t depthSlice);
+
   // Ctor Parameters []
   // @brief default ctor
   constexpr NativePassAttachment();
@@ -37,7 +51,7 @@ public:
                                  ::UnityEngine::Rendering::RenderBufferStoreAction storeAction, bool memoryless, int32_t mipLevel, int32_t depthSlice) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9409 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

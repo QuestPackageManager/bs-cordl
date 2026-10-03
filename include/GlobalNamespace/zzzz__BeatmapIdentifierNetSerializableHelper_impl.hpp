@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKey (*)(::GlobalNamespace::BeatmapKeyNetSerializable*)>(
     &::GlobalNamespace::BeatmapIdentifierNetSerializableHelper::ToBeatmapKey)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3720dd8;
+  constexpr static std::size_t addrs = 0x39aa2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapIdentifierNetSerializableHelper*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKeyNetSerializable* (*)(::GlobalNamespace::BeatmapKey)>(
     &::GlobalNamespace::BeatmapIdentifierNetSerializableHelper::ToIdentifier)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3720ea0;
+  constexpr static std::size_t addrs = 0x39aa3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

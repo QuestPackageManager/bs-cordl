@@ -59,31 +59,31 @@ public:
 
   constexpr void __cordl_internal_set__Target_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e3e064, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d9bb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Editable, addr 0x6e3e044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Editable, addr 0x72d9b94, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Editable();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Expression, addr 0x6e3e034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x72d9b84, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Expression();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Target, addr 0x6e3e054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Target, addr 0x72d9ba4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Target();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Editable, addr 0x6e3e04c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Editable, addr 0x72d9b9c, size 0x8, virtual false, abstract: false, final false
   inline void set_Editable(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Expression, addr 0x6e3e03c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Expression, addr 0x72d9b8c, size 0x8, virtual false, abstract: false, final false
   inline void set_Expression(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Target, addr 0x6e3e05c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Target, addr 0x72d9bac, size 0x8, virtual false, abstract: false, final false
   inline void set_Target(::StringW value);
 
 protected:
@@ -101,7 +101,7 @@ public:
   MacroAttribute(MacroAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23362 };
 
   /// [CompilerGenerated]
   /// @brief Field <Expression>k__BackingField, offset: 0x10, size: 0x8, def value: None

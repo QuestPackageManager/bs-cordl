@@ -48,7 +48,7 @@ public:
   /// @brief Field _rowsFromCenter, offset 0x44, size 0x1
   __declspec(property(get = __cordl_internal_get__rowsFromCenter, put = __cordl_internal_set__rowsFromCenter)) bool _rowsFromCenter;
 
-  /// @brief Method Apply, addr 0x598db04, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Apply, addr 0x5da8178, size 0x4, virtual true, abstract: false, final false
   inline void Apply(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::Transform>>* childTransforms, int32_t numberOfElements, int32_t sameIdElements);
 
   static inline ::GlobalNamespace::CompositeGridLayout* New_ctor();
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__rowsFromCenter(bool value);
 
-  /// @brief Method .ctor, addr 0x598db08, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da817c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   CompositeGridLayout(CompositeGridLayout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5939 };
 
   /// [SerializeField]
   /// [Min(1)]

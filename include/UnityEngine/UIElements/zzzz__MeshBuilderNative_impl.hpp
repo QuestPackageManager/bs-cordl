@@ -127,45 +127,45 @@ constexpr ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams::MeshBui
 //  Writing Method size for method: ::UnityEngine::UIElements::MeshBuilderNative.MakeBorder
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams, float_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams>)>(
     &::UnityEngine::UIElements::MeshBuilderNative::MakeBorder)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6db6b58;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x7269e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                                             { "MakeBorder", {}, { ::i2c::type_of<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams>(), ::i2c::type_of<float_t>() } })));
+                                                             { "MakeBorder", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::MeshBuilderNative.MakeSolidRect
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams, float_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>)>(
     &::UnityEngine::UIElements::MeshBuilderNative::MakeSolidRect)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6db6c24;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x7269f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                                             { "MakeSolidRect", {}, { ::i2c::type_of<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>(), ::i2c::type_of<float_t>() } })));
+                                                             { "MakeSolidRect", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::MeshBuilderNative.MakeTexturedRect
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams, float_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>)>(
     &::UnityEngine::UIElements::MeshBuilderNative::MakeTexturedRect)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6db6cf0;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x7269fe0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                                { "MakeTexturedRect", {}, { ::i2c::type_of<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>(), ::i2c::type_of<float_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
+                                                             { "MakeTexturedRect", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>>() } })));
     return ___internal_method;
   }
 };
@@ -176,7 +176,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::ArrayW<::UnityEngine::UIElements::Vertex>, ::ArrayW<uint16_t>, float_t, float_t, ::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::ScaleMode, ::UnityEngine::Color,
     ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6db6dbc;
+  constexpr static std::size_t addrs = 0x726a08c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::ArrayW<::UnityEngine::UIElements::Vertex>, ::ArrayW<uint16_t>, float_t, float_t, ::UnityEngine::Rect, ::UnityEngine::Vector4, ::UnityEngine::Color,
     ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6db7004;
+  constexpr static std::size_t addrs = 0x726a2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,55 +212,51 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 //  Writing Method size for method: ::UnityEngine::UIElements::MeshBuilderNative.MakeBorder_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams>, float_t,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams>,
                                                                 ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeBorder_Injected)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6db6bd0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x7269ef0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                                             { "MakeBorder_Injected",
-                                                               {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams>>(), ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
+                                                                                           { "MakeBorder_Injected",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams>>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::MeshBuilderNative.MakeSolidRect_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>, float_t,
-                                                                ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeSolidRect_Injected)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6db6c9c;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>, ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
+    &::UnityEngine::UIElements::MeshBuilderNative::MakeSolidRect_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x7269f9c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                                             { "MakeSolidRect_Injected",
-                                                               {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>>(), ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
+                                                                                           { "MakeSolidRect_Injected",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::MeshBuilderNative.MakeTexturedRect_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>, float_t, ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
-        &::UnityEngine::UIElements::MeshBuilderNative::MakeTexturedRect_Injected)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6db6d68;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>, ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
+    &::UnityEngine::UIElements::MeshBuilderNative::MakeTexturedRect_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x726a048;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                                             { "MakeTexturedRect_Injected",
-                                                               {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>>(), ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
+                                                                                           { "MakeTexturedRect_Injected",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
     return ___internal_method;
   }
 };
@@ -272,7 +268,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
                                                                 ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>, ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
     &::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground_Injected)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6db6f60;
+  constexpr static std::size_t addrs = 0x726a230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -295,7 +291,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
                                                                 ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>, ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
     &::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground_Injected)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6db719c;
+  constexpr static std::size_t addrs = 0x726a46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -310,26 +306,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::MeshWriteDataInterface UnityEngine::UIElements::MeshBuilderNative::MakeBorder(::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams borderParams,
-                                                                                                                float_t posZ) {
+inline ::UnityEngine::UIElements::MeshWriteDataInterface
+UnityEngine::UIElements::MeshBuilderNative::MakeBorder(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams> borderParams) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                                           { "MakeBorder", {}, { ::i2c::type_of<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams>(), ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshWriteDataInterface>(nullptr, ___internal_method, borderParams, posZ);
+                                                           { "MakeBorder", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshWriteDataInterface>(nullptr, ___internal_method, borderParams);
 }
-inline ::UnityEngine::UIElements::MeshWriteDataInterface UnityEngine::UIElements::MeshBuilderNative::MakeSolidRect(::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams rectParams,
-                                                                                                                   float_t posZ) {
+inline ::UnityEngine::UIElements::MeshWriteDataInterface UnityEngine::UIElements::MeshBuilderNative::MakeSolidRect(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                                           { "MakeSolidRect", {}, { ::i2c::type_of<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>(), ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshWriteDataInterface>(nullptr, ___internal_method, rectParams, posZ);
+                                                           { "MakeSolidRect", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshWriteDataInterface>(nullptr, ___internal_method, rectParams);
 }
-inline ::UnityEngine::UIElements::MeshWriteDataInterface UnityEngine::UIElements::MeshBuilderNative::MakeTexturedRect(::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams rectParams,
-                                                                                                                      float_t posZ) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                              { "MakeTexturedRect", {}, { ::i2c::type_of<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>(), ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshWriteDataInterface>(nullptr, ___internal_method, rectParams, posZ);
+inline ::UnityEngine::UIElements::MeshWriteDataInterface
+UnityEngine::UIElements::MeshBuilderNative::MakeTexturedRect(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
+                                                           { "MakeTexturedRect", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshWriteDataInterface>(nullptr, ___internal_method, rectParams);
 }
 inline ::UnityEngine::UIElements::MeshWriteDataInterface
 UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground(::ArrayW<::UnityEngine::UIElements::Vertex> svgVertices, ::ArrayW<uint16_t> svgIndices, float_t svgWidth,
@@ -359,35 +354,34 @@ UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground(:
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshWriteDataInterface>(nullptr, ___internal_method, svgVertices, svgIndices, svgWidth, svgHeight, targetRect, sliceLTRB, tint,
                                                                                                 colorPage);
 }
-inline void UnityEngine::UIElements::MeshBuilderNative::MakeBorder_Injected(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams> borderParams, float_t posZ,
+inline void UnityEngine::UIElements::MeshBuilderNative::MakeBorder_Injected(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams> borderParams,
                                                                             ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface> ret) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                                           { "MakeBorder_Injected",
-                                                             {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams>>(), ::i2c::type_of<float_t>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, borderParams, posZ, ret);
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
+                                                                                         { "MakeBorder_Injected",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams>>(),
+                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, borderParams, ret);
 }
-inline void UnityEngine::UIElements::MeshBuilderNative::MakeSolidRect_Injected(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams, float_t posZ,
+inline void UnityEngine::UIElements::MeshBuilderNative::MakeSolidRect_Injected(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams,
                                                                                ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface> ret) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                                           { "MakeSolidRect_Injected",
-                                                             {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>>(), ::i2c::type_of<float_t>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rectParams, posZ, ret);
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(), { "MakeSolidRect_Injected",
+                                                                                                           {},
+                                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>>(),
+                                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rectParams, ret);
 }
-inline void UnityEngine::UIElements::MeshBuilderNative::MakeTexturedRect_Injected(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams, float_t posZ,
+inline void UnityEngine::UIElements::MeshBuilderNative::MakeTexturedRect_Injected(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams,
                                                                                   ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface> ret) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                                           { "MakeTexturedRect_Injected",
-                                                             {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>>(), ::i2c::type_of<float_t>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rectParams, posZ, ret);
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(), { "MakeTexturedRect_Injected",
+                                                                                                           {},
+                                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>>(),
+                                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rectParams, ret);
 }
 inline void UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground_Injected(
     ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> svgVertices, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> svgIndices, float_t svgWidth, float_t svgHeight,

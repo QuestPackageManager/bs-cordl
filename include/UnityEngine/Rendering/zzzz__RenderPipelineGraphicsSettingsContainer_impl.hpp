@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* (
     ::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::*)()>(&::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::get_settingsList)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67a2ea0;
+  constexpr static std::size_t addrs = 0x6bbda1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::*)()>(
     &::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67a2eb8;
+  constexpr static std::size_t addrs = 0x6bbda34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::*)()>(
     &::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67a2ebc;
+  constexpr static std::size_t addrs = 0x6bbda38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::*)()>(
     &::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67a2ec0;
+  constexpr static std::size_t addrs = 0x6bbda3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

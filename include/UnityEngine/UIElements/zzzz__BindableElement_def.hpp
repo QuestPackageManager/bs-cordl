@@ -58,7 +58,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::BindableElement_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c30620, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7085d20, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   BindableElement_UxmlFactory(BindableElement_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4019 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -95,7 +95,7 @@ public:
   /// @brief Field m_PropertyPath, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PropertyPath, put = __cordl_internal_set_m_PropertyPath)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_PropertyPath;
 
-  /// @brief Method Init, addr 0x6c30718, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x7085e18, size 0x148, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::BindableElement_UxmlTraits* New_ctor();
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PropertyPath(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6c30688, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7085d88, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,7 +124,7 @@ public:
   BindableElement_UxmlTraits(BindableElement_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4020 };
 
   /// @brief Field m_PropertyPath, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_PropertyPath;
@@ -148,10 +148,10 @@ public:
 
   using UxmlTraits = ::UnityEngine::UIElements::BindableElement_UxmlTraits;
 
-  /// @brief Field <bindingPath>k__BackingField, offset 0x4b0, size 0x8
+  /// @brief Field <bindingPath>k__BackingField, offset 0x2d0, size 0x8
   __declspec(property(get = __cordl_internal_get__bindingPath_k__BackingField, put = __cordl_internal_set__bindingPath_k__BackingField)) ::StringW _bindingPath_k__BackingField;
 
-  /// @brief Field <binding>k__BackingField, offset 0x4a8, size 0x8
+  /// @brief Field <binding>k__BackingField, offset 0x2c8, size 0x8
   __declspec(property(get = __cordl_internal_get__binding_k__BackingField, put = __cordl_internal_set__binding_k__BackingField)) ::UnityEngine::UIElements::IBinding* _binding_k__BackingField;
 
   __declspec(property(get = get_binding)) ::UnityEngine::UIElements::IBinding* binding;
@@ -175,18 +175,18 @@ public:
 
   constexpr void __cordl_internal_set__binding_k__BackingField(::UnityEngine::UIElements::IBinding* value);
 
-  /// @brief Method .ctor, addr 0x6c305c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7085cc4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_binding, addr 0x6c305b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_binding, addr 0x7085cb4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IBinding* get_binding();
 
   /// @brief Convert to "::UnityEngine::UIElements::IBindable"
   constexpr ::UnityEngine::UIElements::IBindable* i___UnityEngine__UIElements__IBindable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_bindingPath, addr 0x6c305bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_bindingPath, addr 0x7085cbc, size 0x8, virtual true, abstract: false, final true
   inline void set_bindingPath(::StringW value);
 
 protected:
@@ -204,28 +204,28 @@ public:
   BindableElement(BindableElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4021 };
 
   /// @brief Field k_BindingPathTooltip offset 0xffffffff size 0x8
   static constexpr ::ConstString k_BindingPathTooltip{ u"Default method to define a path to a serialized property. Most often used for Editor extensions and inspectors." };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <binding>k__BackingField, offset: 0x4a8, size: 0x8, def value: None
+  /// @brief Field <binding>k__BackingField, offset: 0x2c8, size: 0x8, def value: None
   ::UnityEngine::UIElements::IBinding* ____binding_k__BackingField;
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <bindingPath>k__BackingField, offset: 0x4b0, size: 0x8, def value: None
+  /// @brief Field <bindingPath>k__BackingField, offset: 0x2d0, size: 0x8, def value: None
   ::StringW ____bindingPath_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::BindableElement, ____binding_k__BackingField) == 0x4a8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BindableElement, ____binding_k__BackingField) == 0x2c8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BindableElement, ____bindingPath_k__BackingField) == 0x4b0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BindableElement, ____bindingPath_k__BackingField) == 0x2d0, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::BindableElement) == 0x4b8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::BindableElement) == 0x2d8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

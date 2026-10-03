@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::*)(
     ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*, ::Org::BouncyCastle::Bcpg::InputStreamPacket*)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3583230;
+  constexpr static std::size_t addrs = 0x380c4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::GetInputStream)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x35881ac;
+  constexpr static std::size_t addrs = 0x3811448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData*>(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::*)(::ArrayW<char16_t>)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::GetDataStream)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x35881c4;
+  constexpr static std::size_t addrs = 0x3811460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::*)(::ArrayW<char16_t>)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::GetDataStreamUtf8)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3588ae0;
+  constexpr static std::size_t addrs = 0x3811d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::GetDataStreamRaw)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3588b0c;
+  constexpr static std::size_t addrs = 0x3811da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::*)(::ArrayW<uint8_t>, bool)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::DoGetDataStream)> {
   constexpr static std::size_t size = 0x8f0;
-  constexpr static std::size_t addrs = 0x35881f0;
+  constexpr static std::size_t addrs = 0x381148c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData*>(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBufferedCipher* (
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::*)(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::CreateStreamCipher)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3588b14;
+  constexpr static std::size_t addrs = 0x3811db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData*>(),

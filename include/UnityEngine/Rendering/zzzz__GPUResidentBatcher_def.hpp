@@ -74,6 +74,9 @@ namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
+struct EntityId;
+}
+namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
@@ -97,25 +100,25 @@ public:
 
   __declspec(property(get = get_instanceCullingBatcher)) ::UnityEngine::Rendering::InstanceCullingBatcher* instanceCullingBatcher;
 
-  /// @brief Field m_BatchersContext, offset 0x10, size 0x8
+  /// @brief Field m_BatchersContext, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_BatchersContext, put = __cordl_internal_set_m_BatchersContext)) ::UnityEngine::Rendering::RenderersBatchersContext* m_BatchersContext;
 
-  /// @brief Field m_GPUDrivenProcessor, offset 0x18, size 0x8
+  /// @brief Field m_GPUDrivenProcessor, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_GPUDrivenProcessor, put = __cordl_internal_set_m_GPUDrivenProcessor)) ::UnityEngine::Rendering::GPUDrivenProcessor* m_GPUDrivenProcessor;
 
-  /// @brief Field m_InstanceCullingBatcher, offset 0x30, size 0x8
+  /// @brief Field m_InstanceCullingBatcher, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_m_InstanceCullingBatcher,
                       put = __cordl_internal_set_m_InstanceCullingBatcher)) ::UnityEngine::Rendering::InstanceCullingBatcher* m_InstanceCullingBatcher;
 
-  /// @brief Field m_ProcessedThisFrameTreeBits, offset 0x38, size 0x20
+  /// @brief Field m_ProcessedThisFrameTreeBits, offset 0x10, size 0x20
   __declspec(property(get = __cordl_internal_get_m_ProcessedThisFrameTreeBits,
                       put = __cordl_internal_set_m_ProcessedThisFrameTreeBits)) ::UnityEngine::Rendering::ParallelBitArray m_ProcessedThisFrameTreeBits;
 
-  /// @brief Field m_UpdateRendererBatchesCallback, offset 0x28, size 0x8
+  /// @brief Field m_UpdateRendererBatchesCallback, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_UpdateRendererBatchesCallback,
                       put = __cordl_internal_set_m_UpdateRendererBatchesCallback)) ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* m_UpdateRendererBatchesCallback;
 
-  /// @brief Field m_UpdateRendererInstancesAndBatchesCallback, offset 0x20, size 0x8
+  /// @brief Field m_UpdateRendererInstancesAndBatchesCallback, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_UpdateRendererInstancesAndBatchesCallback,
                       put = __cordl_internal_set_m_UpdateRendererInstancesAndBatchesCallback)) ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* m_UpdateRendererInstancesAndBatchesCallback;
 
@@ -124,22 +127,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method DestroyDrawInstances, addr 0x681139c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DestroyDrawInstances, addr 0x6c41dc4, size 0x18, virtual false, abstract: false, final false
   inline void DestroyDrawInstances(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method DestroyMaterials, addr 0x6811384, size 0x18, virtual false, abstract: false, final false
-  inline void DestroyMaterials(::Unity::Collections::NativeArray_1<int32_t> destroyedMaterials);
+  /// @brief Method DestroyMaterials, addr 0x6c41dac, size 0x18, virtual false, abstract: false, final false
+  inline void DestroyMaterials(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> destroyedMaterials);
 
-  /// @brief Method DestroyMeshes, addr 0x68113b4, size 0x18, virtual false, abstract: false, final false
-  inline void DestroyMeshes(::Unity::Collections::NativeArray_1<int32_t> destroyedMeshes);
+  /// @brief Method DestroyMeshes, addr 0x6c41ddc, size 0x18, virtual false, abstract: false, final false
+  inline void DestroyMeshes(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> destroyedMeshes);
 
-  /// @brief Method Dispose, addr 0x681121c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c41c44, size 0x80, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FreeRendererGroupInstances, addr 0x68113cc, size 0x158, virtual false, abstract: false, final false
-  inline void FreeRendererGroupInstances(::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs);
+  /// @brief Method FreeRendererGroupInstances, addr 0x6c41df4, size 0x158, virtual false, abstract: false, final false
+  inline void FreeRendererGroupInstances(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> rendererGroupIDs);
 
-  /// @brief Method InstanceOcclusionTest, addr 0x6811524, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InstanceOcclusionTest, addr 0x6c41f4c, size 0x3c, virtual false, abstract: false, final false
   inline void InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
                                     ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest> subviewOcclusionTests);
 
@@ -147,55 +150,55 @@ public:
                                                                        ::UnityEngine::Rendering::InstanceCullingBatcherDesc instanceCullerBatcherDesc,
                                                                        ::UnityEngine::Rendering::GPUDrivenProcessor* gpuDrivenProcessor);
 
-  /// @brief Method OnBeginCameraRendering, addr 0x681130c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnBeginCameraRendering, addr 0x6c41d34, size 0x24, virtual false, abstract: false, final false
   inline void OnBeginCameraRendering(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnBeginContextRendering, addr 0x681129c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnBeginContextRendering, addr 0x6c41cc4, size 0x5c, virtual false, abstract: false, final false
   inline void OnBeginContextRendering();
 
-  /// @brief Method OnEndCameraRendering, addr 0x6811330, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnEndCameraRendering, addr 0x6c41d58, size 0x24, virtual false, abstract: false, final false
   inline void OnEndCameraRendering(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnEndContextRendering, addr 0x68112f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnEndContextRendering, addr 0x6c41d20, size 0x14, virtual false, abstract: false, final false
   inline void OnEndContextRendering();
 
-  /// @brief Method OnFinishedCulling, addr 0x6811f3c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnFinishedCulling, addr 0x6c429cc, size 0x34, virtual false, abstract: false, final false
   inline void OnFinishedCulling(::System::IntPtr customCullingResult);
 
-  /// @brief Method OnSetupAmbientProbe, addr 0x6811b80, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnSetupAmbientProbe, addr 0x6c425c8, size 0x1c, virtual false, abstract: false, final false
   inline void OnSetupAmbientProbe();
 
-  /// @brief Method PostCullBeginCameraRendering, addr 0x6811b6c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method PostCullBeginCameraRendering, addr 0x6c425b4, size 0x14, virtual false, abstract: false, final false
   inline void PostCullBeginCameraRendering(::UnityEngine::Rendering::RenderRequestBatcherContext context);
 
-  /// @brief Method ProcessTrees, addr 0x6811f70, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method ProcessTrees, addr 0x6c41448, size 0x3ac, virtual false, abstract: false, final false
   inline void ProcessTrees();
 
-  /// @brief Method SchedulePackedMaterialCacheUpdate, addr 0x6811b54, size 0x18, virtual false, abstract: false, final false
-  inline ::Unity::Jobs::JobHandle SchedulePackedMaterialCacheUpdate(::Unity::Collections::NativeArray_1<int32_t> materialIDs,
+  /// @brief Method SchedulePackedMaterialCacheUpdate, addr 0x6c4259c, size 0x18, virtual false, abstract: false, final false
+  inline ::Unity::Jobs::JobHandle SchedulePackedMaterialCacheUpdate(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> materialIDs,
                                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDatas);
 
-  /// @brief Method UpdateFrame, addr 0x6811354, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method UpdateFrame, addr 0x6c41d7c, size 0x30, virtual false, abstract: false, final false
   inline void UpdateFrame();
 
-  /// @brief Method UpdateInstanceOccluders, addr 0x6811a34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceOccluders, addr 0x6c4247c, size 0x3c, virtual false, abstract: false, final false
   inline void UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
                                       ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates);
 
-  /// @brief Method UpdateRendererBatches, addr 0x6811df4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method UpdateRendererBatches, addr 0x6c4288c, size 0x140, virtual false, abstract: false, final false
   inline void UpdateRendererBatches(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
                                     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 
-  /// @brief Method UpdateRendererInstancesAndBatches, addr 0x6811b9c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method UpdateRendererInstancesAndBatches, addr 0x6c425e4, size 0x2a8, virtual false, abstract: false, final false
   inline void UpdateRendererInstancesAndBatches(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
                                                 ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                 ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 
-  /// @brief Method UpdateRenderers, addr 0x6811a70, size 0xe4, virtual false, abstract: false, final false
-  inline void UpdateRenderers(::Unity::Collections::NativeArray_1<int32_t> renderersID, bool materialUpdateOnly);
+  /// @brief Method UpdateRenderers, addr 0x6c424b8, size 0xe4, virtual false, abstract: false, final false
+  inline void UpdateRenderers(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> renderersID, bool materialUpdateOnly);
 
-  /// @brief Method UpdateSpeedTreeWindAndUploadWindParamsToGPU, addr 0x6812320, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method UpdateSpeedTreeWindAndUploadWindParamsToGPU, addr 0x6c417f4, size 0x2cc, virtual false, abstract: false, final false
   inline void UpdateSpeedTreeWindAndUploadWindParamsToGPU(::Unity::Collections::NativeArray_1<int32_t> treeRendererIDs,
                                                           ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> treeInstances, bool history);
 
@@ -235,17 +238,17 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdateRendererInstancesAndBatchesCallback(::UnityEngine::Rendering::GPUDrivenRendererDataCallback* value);
 
-  /// @brief Method .ctor, addr 0x68110c0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c41ae8, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderersBatchersContext* batcherContext, ::UnityEngine::Rendering::InstanceCullingBatcherDesc instanceCullerBatcherDesc,
                     ::UnityEngine::Rendering::GPUDrivenProcessor* gpuDrivenProcessor);
 
-  /// @brief Method get_batchersContext, addr 0x6811098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_batchersContext, addr 0x6c41ac0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderersBatchersContext* get_batchersContext();
 
-  /// @brief Method get_instanceCullingBatcher, addr 0x68110b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_instanceCullingBatcher, addr 0x6c41ae0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::InstanceCullingBatcher* get_instanceCullingBatcher();
 
-  /// @brief Method get_occlusionCullingCommon, addr 0x68110a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_occlusionCullingCommon, addr 0x6c41ac8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::OcclusionCullingCommon* get_occlusionCullingCommon();
 
   /// @brief Convert to "::System::IDisposable"
@@ -266,40 +269,40 @@ public:
   GPUResidentBatcher(GPUResidentBatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18126 };
 
-  /// @brief Field m_BatchersContext, offset: 0x10, size: 0x8, def value: None
+  /// @brief Field m_ProcessedThisFrameTreeBits, offset: 0x10, size: 0x20, def value: None
+  ::UnityEngine::Rendering::ParallelBitArray ___m_ProcessedThisFrameTreeBits;
+
+  /// @brief Field m_BatchersContext, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::Rendering::RenderersBatchersContext* ___m_BatchersContext;
 
-  /// @brief Field m_GPUDrivenProcessor, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field m_GPUDrivenProcessor, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::GPUDrivenProcessor* ___m_GPUDrivenProcessor;
 
-  /// @brief Field m_UpdateRendererInstancesAndBatchesCallback, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field m_UpdateRendererInstancesAndBatchesCallback, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* ___m_UpdateRendererInstancesAndBatchesCallback;
 
-  /// @brief Field m_UpdateRendererBatchesCallback, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field m_UpdateRendererBatchesCallback, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* ___m_UpdateRendererBatchesCallback;
 
-  /// @brief Field m_InstanceCullingBatcher, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field m_InstanceCullingBatcher, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Rendering::InstanceCullingBatcher* ___m_InstanceCullingBatcher;
-
-  /// @brief Field m_ProcessedThisFrameTreeBits, offset: 0x38, size: 0x20, def value: None
-  ::UnityEngine::Rendering::ParallelBitArray ___m_ProcessedThisFrameTreeBits;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::GPUResidentBatcher, ___m_BatchersContext) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::GPUResidentBatcher, ___m_ProcessedThisFrameTreeBits) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::GPUResidentBatcher, ___m_GPUDrivenProcessor) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::GPUResidentBatcher, ___m_BatchersContext) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::GPUResidentBatcher, ___m_UpdateRendererInstancesAndBatchesCallback) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::GPUResidentBatcher, ___m_GPUDrivenProcessor) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::GPUResidentBatcher, ___m_UpdateRendererBatchesCallback) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::GPUResidentBatcher, ___m_UpdateRendererInstancesAndBatchesCallback) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::GPUResidentBatcher, ___m_InstanceCullingBatcher) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::GPUResidentBatcher, ___m_UpdateRendererBatchesCallback) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::GPUResidentBatcher, ___m_ProcessedThisFrameTreeBits) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::GPUResidentBatcher, ___m_InstanceCullingBatcher) == 0x50, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::Rendering::GPUResidentBatcher) == 0x58, "Size mismatch!");
 

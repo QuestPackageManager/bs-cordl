@@ -53,18 +53,18 @@ public:
   __declspec(property(get = __cordl_internal_get__randomSoundPicker,
                       put = __cordl_internal_set__randomSoundPicker)) ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* _randomSoundPicker;
 
-  /// @brief Method HandleButtonClickEvent, addr 0x5a00668, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method HandleButtonClickEvent, addr 0x5e1bd04, size 0x1c8, virtual false, abstract: false, final false
   inline void HandleButtonClickEvent();
 
   static inline ::GlobalNamespace::BasicUIAudioManager* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5a00564, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5e1bc00, size 0x104, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5a00448, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5e1bae4, size 0x11c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x5a00378, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e1ba14, size 0xd0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::AudioSource>> const& __cordl_internal_get__audioSources() const;
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set__randomSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* value);
 
-  /// @brief Method .ctor, addr 0x5a00830, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e1becc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,7 +127,7 @@ public:
   BasicUIAudioManager(BasicUIAudioManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6317 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6437 };
 
   /// [SerializeField]
   /// @brief Field _buttonClickEvents, offset: 0x20, size: 0x8, def value: None

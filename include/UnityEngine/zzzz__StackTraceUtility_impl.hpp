@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::StackTraceUtility::SetProjectFolder)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6ae5f2c;
+  constexpr static std::size_t addrs = 0x6f408b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::UnityEngine::StackTraceUtility::ExtractStackTrace)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6ae6014;
+  constexpr static std::size_t addrs = 0x6f40998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::StackTraceUtility*>(), { "ExtractStackTrace", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::by_ref<::StringW>, ::by_ref<::StringW>)>(&::UnityEngine::StackTraceUtility::ExtractStringFromExceptionInternal)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x6ae685c;
+  constexpr static std::size_t addrs = 0x6f41234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,8 +48,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Diagnostics::StackTrace*)>(&::UnityEngine::StackTraceUtility::ExtractFormattedStackTrace)> {
-  constexpr static std::size_t size = 0x6e8;
-  constexpr static std::size_t addrs = 0x6ae6174;
+  constexpr static std::size_t size = 0x73c;
+  constexpr static std::size_t addrs = 0x6f40af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,10 +79,10 @@ inline void UnityEngine::StackTraceUtility::ExtractStringFromExceptionInternal(:
                           { "ExtractStringFromExceptionInternal", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, exceptiono, message, stackTrace);
 }
-inline ::StringW UnityEngine::StackTraceUtility::ExtractFormattedStackTrace(::System::Diagnostics::StackTrace* stackTrace) {
+inline ::StringW UnityEngine::StackTraceUtility::ExtractFormattedStackTrace(::System::Diagnostics::StackTrace* stackFrames) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::StackTraceUtility*>(), { "ExtractFormattedStackTrace", {}, { ::i2c::type_of<::System::Diagnostics::StackTrace*>() } })));
-  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, stackTrace);
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, stackFrames);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::StackTraceUtility::StackTraceUtility() {}

@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache_XmlEvent::*)(::System::Xml::XmlEventCache_XmlEventType)>(&::System::Xml::XmlEventCache_XmlEvent::InitEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x628eeec;
+  constexpr static std::size_t addrs = 0x66b6b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache_XmlEvent::*)(::System::Xml::XmlEventCache_XmlEventType, ::StringW)>(
     &::System::Xml::XmlEventCache_XmlEvent::InitEvent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x628eef4;
+  constexpr static std::size_t addrs = 0x66b6ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache_XmlEvent::*)(::System::Xml::XmlEventCache_XmlEventType, ::StringW, ::StringW)>(
     &::System::Xml::XmlEventCache_XmlEvent::InitEvent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x628ef00;
+  constexpr static std::size_t addrs = 0x66b6bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache_XmlEvent::*)(::System::Xml::XmlEventCache_XmlEventType, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlEventCache_XmlEvent::InitEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x628ef0c;
+  constexpr static std::size_t addrs = 0x66b6bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache_XmlEvent::*)(::System::Xml::XmlEventCache_XmlEventType, ::StringW, ::StringW, ::StringW, ::System::Object*)>(
     &::System::Xml::XmlEventCache_XmlEvent::InitEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x628ef1c;
+  constexpr static std::size_t addrs = 0x66b6bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache_XmlEvent>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache_XmlEvent::*)(::System::Xml::XmlEventCache_XmlEventType, ::System::Object*)>(
     &::System::Xml::XmlEventCache_XmlEvent::InitEvent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x628ef2c;
+  constexpr static std::size_t addrs = 0x66b6bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlEventCache_XmlEventType (::System::Xml::XmlEventCache_XmlEvent::*)()>(&::System::Xml::XmlEventCache_XmlEvent::get_EventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x628ef38;
+  constexpr static std::size_t addrs = 0x66b6be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache_XmlEvent>(), { "get_EventType", {}, {} })));
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlEventCache_XmlEvent::*)()>(&::System::Xml::XmlEventCache_XmlEvent::get_String1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x628ef40;
+  constexpr static std::size_t addrs = 0x66b6bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache_XmlEvent>(), { "get_String1", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlEventCache_XmlEvent::*)()>(&::System::Xml::XmlEventCache_XmlEvent::get_String2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x628ef48;
+  constexpr static std::size_t addrs = 0x66b6bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache_XmlEvent>(), { "get_String2", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlEventCache_XmlEvent::*)()>(&::System::Xml::XmlEventCache_XmlEvent::get_String3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x628ef50;
+  constexpr static std::size_t addrs = 0x66b6bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache_XmlEvent>(), { "get_String3", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::XmlEventCache_XmlEvent::*)()>(&::System::Xml::XmlEventCache_XmlEvent::get_Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x628ef58;
+  constexpr static std::size_t addrs = 0x66b6c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache_XmlEvent>(), { "get_Object", {}, {} })));
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, bool)>(&::System::Xml::XmlEventCache::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61b5fd4;
+  constexpr static std::size_t addrs = 0x65ddb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)()>(&::System::Xml::XmlEventCache::EndEvents)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x61b6c1c;
+  constexpr static std::size_t addrs = 0x65de820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { "EndEvents", {}, {} })));
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlEventCache::EventsToWriter)> {
   constexpr static std::size_t size = 0x734;
-  constexpr static std::size_t addrs = 0x61b6c30;
+  constexpr static std::size_t addrs = 0x65de834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, ::StringW, ::StringW, ::StringW)>(&::System::Xml::XmlEventCache::WriteDocType)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x61b98d8;
+  constexpr static std::size_t addrs = 0x65e14dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 8 }));
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, ::StringW, ::StringW)>(&::System::Xml::XmlEventCache::WriteStartElement)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x61b9960;
+  constexpr static std::size_t addrs = 0x65e1564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 9 }));
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, ::StringW, ::StringW)>(&::System::Xml::XmlEventCache::WriteStartAttribute)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x61b99d8;
+  constexpr static std::size_t addrs = 0x65e15dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 12 }));
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)()>(&::System::Xml::XmlEventCache::WriteEndAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b99ec;
+  constexpr static std::size_t addrs = 0x65e15f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 13 }));
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteCData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61b99f4;
+  constexpr static std::size_t addrs = 0x65e15f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 14 }));
@@ -366,7 +366,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteComment)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61b9a50;
+  constexpr static std::size_t addrs = 0x65e1654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 15 }));
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, ::StringW)>(&::System::Xml::XmlEventCache::WriteProcessingInstruction)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x61b9a5c;
+  constexpr static std::size_t addrs = 0x65e1660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 16 }));
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteWhitespace)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61b9ac8;
+  constexpr static std::size_t addrs = 0x65e16cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 19 }));
@@ -402,7 +402,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteString)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x61b9ad4;
+  constexpr static std::size_t addrs = 0x65e16d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 20 }));
@@ -414,7 +414,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::XmlEventCache::WriteChars)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x61b9af8;
+  constexpr static std::size_t addrs = 0x65e16fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 22 }));
@@ -426,7 +426,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::XmlEventCache::WriteRaw)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x61b9b2c;
+  constexpr static std::size_t addrs = 0x65e1730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 23 }));
@@ -438,7 +438,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteRaw)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61b9b60;
+  constexpr static std::size_t addrs = 0x65e1764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 24 }));
@@ -450,7 +450,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteEntityRef)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61b9b6c;
+  constexpr static std::size_t addrs = 0x65e1770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 17 }));
@@ -462,7 +462,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(char16_t)>(&::System::Xml::XmlEventCache::WriteCharEntity)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x61b9b78;
+  constexpr static std::size_t addrs = 0x65e177c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 18 }));
@@ -474,7 +474,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(char16_t, char16_t)>(&::System::Xml::XmlEventCache::WriteSurrogateCharEntity)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x61b9c00;
+  constexpr static std::size_t addrs = 0x65e1804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 21 }));
@@ -486,7 +486,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlEventCache::WriteBase64)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x61b9c90;
+  constexpr static std::size_t addrs = 0x65e1894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 25 }));
@@ -498,7 +498,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlEventCache::WriteBinHex)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x61b9d74;
+  constexpr static std::size_t addrs = 0x65e1978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 26 }));
@@ -510,7 +510,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)()>(&::System::Xml::XmlEventCache::Close)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b9da0;
+  constexpr static std::size_t addrs = 0x65e19a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 28 }));
@@ -522,7 +522,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)()>(&::System::Xml::XmlEventCache::Flush)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b9da8;
+  constexpr static std::size_t addrs = 0x65e19ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 29 }));
@@ -532,12 +532,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlE
 //  Writing Method size for method: ::System::Xml::XmlEventCache.WriteValue
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteValue)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x61b9db0;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::System::Object*)>(&::System::Xml::XmlEventCache::WriteValue)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x65e19b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 34 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlEventCache.WriteValue
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteValue)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x65e1a54;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 35 }));
     return ___internal_method;
   }
 };
@@ -546,10 +558,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(bool)>(&::System::Xml::XmlEventCache::Dispose)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x61b9dc0;
+  constexpr static std::size_t addrs = 0x65e1a64;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 44 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 45 }));
     return ___internal_method;
   }
 };
@@ -558,10 +570,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::XmlStandalone)>(&::System::Xml::XmlEventCache::WriteXmlDeclaration)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x61b9e98;
+  constexpr static std::size_t addrs = 0x65e1b3c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 46 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 47 }));
     return ___internal_method;
   }
 };
@@ -570,10 +582,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteXmlDeclaration)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61b9f04;
+  constexpr static std::size_t addrs = 0x65e1ba8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 47 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 48 }));
     return ___internal_method;
   }
 };
@@ -582,10 +594,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)()>(&::System::Xml::XmlEventCache::StartElementContent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b9f10;
+  constexpr static std::size_t addrs = 0x65e1bb4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 48 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 49 }));
     return ___internal_method;
   }
 };
@@ -594,10 +606,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, ::StringW, ::StringW)>(&::System::Xml::XmlEventCache::WriteEndElement)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x61b9f18;
+  constexpr static std::size_t addrs = 0x65e1bbc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 50 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 51 }));
     return ___internal_method;
   }
 };
@@ -606,10 +618,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, ::StringW, ::StringW)>(&::System::Xml::XmlEventCache::WriteFullEndElement)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x61b9f2c;
+  constexpr static std::size_t addrs = 0x65e1bd0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 51 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 52 }));
     return ___internal_method;
   }
 };
@@ -618,10 +630,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, ::StringW)>(&::System::Xml::XmlEventCache::WriteNamespaceDeclaration)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x61b9f40;
+  constexpr static std::size_t addrs = 0x65e1be4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 53 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 54 }));
     return ___internal_method;
   }
 };
@@ -630,10 +642,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)()>(&::System::Xml::XmlEventCache::WriteEndBase64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b9f50;
+  constexpr static std::size_t addrs = 0x65e1bf4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 57 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 58 }));
     return ___internal_method;
   }
 };
@@ -642,7 +654,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::XmlEventCache_XmlEventType)>(&::System::Xml::XmlEventCache::AddEvent)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x61b9890;
+  constexpr static std::size_t addrs = 0x65e1494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -655,7 +667,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::XmlEventCache_XmlEventType, ::StringW)>(&::System::Xml::XmlEventCache::AddEvent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x61b9a00;
+  constexpr static std::size_t addrs = 0x65e1604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -670,7 +682,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::XmlEventCache_XmlEventType, ::StringW, ::StringW)>(
     &::System::Xml::XmlEventCache::AddEvent)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61b9a6c;
+  constexpr static std::size_t addrs = 0x65e1670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -685,7 +697,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::XmlEventCache_XmlEventType, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlEventCache::AddEvent)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x61b9974;
+  constexpr static std::size_t addrs = 0x65e1578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -702,7 +714,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::XmlEventCache_XmlEventType, ::StringW, ::StringW, ::StringW, ::System::Object*)>(
     &::System::Xml::XmlEventCache::AddEvent)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x61b98f0;
+  constexpr static std::size_t addrs = 0x65e14f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -719,7 +731,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::XmlEventCache_XmlEventType, ::System::Object*)>(&::System::Xml::XmlEventCache::AddEvent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x61b9bb0;
+  constexpr static std::size_t addrs = 0x65e17b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -733,7 +745,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlEventCache::*)()>(&::System::Xml::XmlEventCache::NewEvent)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x61b9f58;
+  constexpr static std::size_t addrs = 0x65e1bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache*>(), { "NewEvent", {}, {} })));
@@ -745,7 +757,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlEventCache::ToBytes)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x61b9cbc;
+  constexpr static std::size_t addrs = 0x65e18c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -916,40 +928,44 @@ inline void System::Xml::XmlEventCache::Flush() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 29 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Xml::XmlEventCache::WriteValue(::StringW value) {
+inline void System::Xml::XmlEventCache::WriteValue(::System::Object* value) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 34 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
+inline void System::Xml::XmlEventCache::WriteValue(::StringW value) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 35 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
 inline void System::Xml::XmlEventCache::Dispose(bool disposing) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 44 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 45 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
 }
 inline void System::Xml::XmlEventCache::WriteXmlDeclaration(::System::Xml::XmlStandalone standalone) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 46 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 47 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, standalone);
 }
 inline void System::Xml::XmlEventCache::WriteXmlDeclaration(::StringW xmldecl) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 47 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 48 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xmldecl);
 }
 inline void System::Xml::XmlEventCache::StartElementContent() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 48 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 49 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void System::Xml::XmlEventCache::WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 50 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, prefix, localName, ns);
-}
-inline void System::Xml::XmlEventCache::WriteFullEndElement(::StringW prefix, ::StringW localName, ::StringW ns) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 51 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, prefix, localName, ns);
 }
+inline void System::Xml::XmlEventCache::WriteFullEndElement(::StringW prefix, ::StringW localName, ::StringW ns) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 52 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, prefix, localName, ns);
+}
 inline void System::Xml::XmlEventCache::WriteNamespaceDeclaration(::StringW prefix, ::StringW ns) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 53 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 54 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, prefix, ns);
 }
 inline void System::Xml::XmlEventCache::WriteEndBase64() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 57 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlEventCache*>(), 58 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void System::Xml::XmlEventCache::AddEvent(::System::Xml::XmlEventCache_XmlEventType eventType) {

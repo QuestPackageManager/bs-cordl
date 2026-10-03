@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/RaycastHit2D.hpp"
+#include "UnityEngine/zzzz__EntityId_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__RaycastHit2D_def.hpp"
 #include "UnityEngine/zzzz__Collider2D_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::RaycastHit2D::*)()>(&::UnityEngine::RaycastHit2D::get_point)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b70e5c;
+  constexpr static std::size_t addrs = 0x6fd1468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit2D>(), { "get_point", {}, {} })));
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::RaycastHit2D::*)()>(&::UnityEngine::RaycastHit2D::get_normal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b70e64;
+  constexpr static std::size_t addrs = 0x6fd1470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit2D>(), { "get_normal", {}, {} })));
@@ -33,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::RaycastHit2D::*)()>(&::UnityEngine::RaycastHit2D::get_distance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b70e6c;
+  constexpr static std::size_t addrs = 0x6fd1478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit2D>(), { "get_distance", {}, {} })));
@@ -45,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::RaycastHit2D::*)()>(&::UnityEngine::RaycastHit2D::get_fraction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b70e74;
+  constexpr static std::size_t addrs = 0x6fd1480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit2D>(), { "get_fraction", {}, {} })));
@@ -56,8 +57,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Collider2D> (::UnityEngine::RaycastHit2D::*)()>(&::UnityEngine::RaycastHit2D::get_collider)> {
-  constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x6b70e7c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6fd1488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit2D>(), { "get_collider", {}, {} })));
@@ -87,9 +88,9 @@ inline ::UnityW<::UnityEngine::Collider2D> UnityEngine::RaycastHit2D::get_collid
 // Ctor Parameters [CppParam { name: "m_Centroid", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Point", ty: "::UnityEngine::Vector2",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
 // "m_Distance", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Fraction", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
-// name: "m_Collider", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+// name: "m_Collider", ty: "::UnityEngine::EntityId", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::RaycastHit2D::RaycastHit2D(::UnityEngine::Vector2 m_Centroid, ::UnityEngine::Vector2 m_Point, ::UnityEngine::Vector2 m_Normal, float_t m_Distance, float_t m_Fraction,
-                                                    int32_t m_Collider) noexcept {
+                                                    ::UnityEngine::EntityId m_Collider) noexcept {
   this->m_Centroid = m_Centroid;
   this->m_Point = m_Point;
   this->m_Normal = m_Normal;

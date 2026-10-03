@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Rendering::ColorUtils::get_lensImperfectionExposureScale)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x67bcea8;
+  constexpr static std::size_t addrs = 0x6bd8704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ColorUtils*>(), { "get_lensImperfectionExposureScale", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::UnityEngine::Rendering::ColorUtils::StandardIlluminantY)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x67bcf1c;
+  constexpr static std::size_t addrs = 0x6bd8778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(float_t, float_t)>(&::UnityEngine::Rendering::ColorUtils::CIExyToLMS)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x67bcf48;
+  constexpr static std::size_t addrs = 0x6bd87a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(float_t, float_t)>(&::UnityEngine::Rendering::ColorUtils::ColorBalanceToLMSCoeffs)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x67bcfd8;
+  constexpr static std::size_t addrs = 0x6bd8834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_3<::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4> (*)(
     ::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Vector4>)>(&::UnityEngine::Rendering::ColorUtils::PrepareShadowsMidtonesHighlights)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x67bd138;
+  constexpr static std::size_t addrs = 0x6bd8994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_3<::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4> (*)(
     ::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Vector4>)>(&::UnityEngine::Rendering::ColorUtils::PrepareLiftGammaGain)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x67bd3d0;
+  constexpr static std::size_t addrs = 0x6bd8c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::UnityEngine::Vector4, ::UnityEngine::Vector4> (*)(
     ::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Vector4>, float_t)>(&::UnityEngine::Rendering::ColorUtils::PrepareSplitToning)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x67bd790;
+  constexpr static std::size_t addrs = 0x6bd8fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Color>)>(&::UnityEngine::Rendering::ColorUtils::Luminance)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x67bd760;
+  constexpr static std::size_t addrs = 0x6bd8fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::UnityEngine::Rendering::ColorUtils::ComputeEV100)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x67bd81c;
+  constexpr static std::size_t addrs = 0x6bd9078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::UnityEngine::Rendering::ColorUtils::ConvertEV100ToExposure)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x67bd8b4;
+  constexpr static std::size_t addrs = 0x6bd9110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::UnityEngine::Rendering::ColorUtils::ConvertExposureToEV100)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x67bd92c;
+  constexpr static std::size_t addrs = 0x6bd9188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::UnityEngine::Rendering::ColorUtils::ComputeEV100FromAvgLuminance)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x67bd9ec;
+  constexpr static std::size_t addrs = 0x6bd9248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::UnityEngine::Rendering::ColorUtils::ComputeISO)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x67bdab4;
+  constexpr static std::size_t addrs = 0x6bd9310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ColorUtils*>(),
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::UnityEngine::Color)>(&::UnityEngine::Rendering::ColorUtils::ToHex)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x67bdaf0;
+  constexpr static std::size_t addrs = 0x6bd934c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(uint32_t)>(&::UnityEngine::Rendering::ColorUtils::ToRGBA)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x67bdb60;
+  constexpr static std::size_t addrs = 0x6bd93bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

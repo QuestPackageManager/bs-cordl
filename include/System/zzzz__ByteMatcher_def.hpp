@@ -33,18 +33,18 @@ public:
   /// @brief Field starts, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_starts, put = __cordl_internal_set_starts)) ::System::Collections::Hashtable* starts;
 
-  /// @brief Method AddMapping, addr 0x5c9cfcc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddMapping, addr 0x60b6b14, size 0x104, virtual false, abstract: false, final false
   inline void AddMapping(::System::TermInfoStrings key, ::ArrayW<uint8_t> val);
 
-  /// @brief Method Match, addr 0x5c9a97c, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method Match, addr 0x60b44c4, size 0x46c, virtual false, abstract: false, final false
   inline ::System::TermInfoStrings Match(::ArrayW<char16_t> buffer, int32_t offset, int32_t length, ::by_ref<int32_t> used);
 
   static inline ::System::ByteMatcher* New_ctor();
 
-  /// @brief Method Sort, addr 0x5c9d0d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x60b6c18, size 0x4, virtual false, abstract: false, final false
   inline void Sort();
 
-  /// @brief Method StartsWith, addr 0x5c9a928, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x60b4470, size 0x54, virtual false, abstract: false, final false
   inline bool StartsWith(int32_t c);
 
   constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_map() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_starts(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x5c9cf04, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60b6a4c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

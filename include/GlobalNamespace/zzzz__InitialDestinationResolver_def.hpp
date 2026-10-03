@@ -257,11 +257,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3771cfc, size 0x51c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39fb3d4, size 0x51c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3772218, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39fb8f0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -283,7 +283,7 @@ public:
                                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21832 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -349,11 +349,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3772284, size 0x320, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39fb95c, size 0x320, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x37725a4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39fbc7c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -372,7 +372,7 @@ public:
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21833 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -421,11 +421,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3772610, size 0x75c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39fbce8, size 0x760, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3772d6c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39fc448, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -448,7 +448,7 @@ public:
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21012 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21834 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -515,11 +515,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3772dd8, size 0xa7c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39fc4b4, size 0xa80, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3773854, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39fcf34, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -553,7 +553,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21835 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };
@@ -665,11 +665,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x37738c0, size 0x4a0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39fcfa0, size 0x4a0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3773d60, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39fd440, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -692,7 +692,7 @@ public:
                                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21836 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -758,11 +758,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3773dcc, size 0x350, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39fd4ac, size 0x350, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x377411c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39fd7fc, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -781,7 +781,7 @@ public:
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21837 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -831,11 +831,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3774188, size 0x6bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39fd868, size 0x6bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3774844, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39fdf24, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -855,7 +855,7 @@ public:
                                                                          bool shouldReplace, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21838 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -909,11 +909,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x37748b0, size 0x5c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39fdf90, size 0x5c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3774e74, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39fe558, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -935,7 +935,7 @@ public:
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21839 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -1001,11 +1001,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3774ee0, size 0x588, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39fe5c4, size 0x588, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3775468, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39feb4c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1024,7 +1024,7 @@ public:
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21840 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1073,11 +1073,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x37754d4, size 0x3d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39febb8, size 0x3d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x37758a8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39fef8c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1098,7 +1098,7 @@ public:
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21841 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1154,11 +1154,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3775914, size 0x3d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39feff8, size 0x3d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3775ce8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39ff3cc, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1179,7 +1179,7 @@ public:
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21842 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1352,71 +1352,71 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method ClearPreviousState, addr 0x3770a04, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ClearPreviousState, addr 0x39fa0d8, size 0x1bc, virtual false, abstract: false, final false
   inline void ClearPreviousState();
 
-  /// @brief Method DelaySmallAmountOfTime, addr 0x3770c8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DelaySmallAmountOfTime, addr 0x39fa360, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* DelaySmallAmountOfTime();
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToCreditsAsync>d__37))]
-  /// @brief Method GoToCreditsAsync, addr 0x3771234, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GoToCreditsAsync, addr 0x39fa908, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToCreditsAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToMainMenuAsync>d__40))]
-  /// @brief Method GoToMainMenuAsync, addr 0x377148c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GoToMainMenuAsync, addr 0x39fab60, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToMainMenuAsync(bool shouldReplace);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToMissionLevelAsync>d__32))]
-  /// @brief Method GoToMissionLevelAsync, addr 0x3770db4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GoToMissionLevelAsync, addr 0x39fa488, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToMissionLevelAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToMultiplayerLevelAsync>d__39))]
-  /// @brief Method GoToMultiplayerLevelAsync, addr 0x37713bc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GoToMultiplayerLevelAsync, addr 0x39faa90, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToMultiplayerLevelAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToStandardLevelAsync>d__31))]
-  /// @brief Method GoToStandardLevelAsync, addr 0x3770ce4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GoToStandardLevelAsync, addr 0x39fa3b8, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToStandardLevelAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToStartupErrorAsync>d__34))]
-  /// @brief Method GoToStartupErrorAsync, addr 0x3770f3c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GoToStartupErrorAsync, addr 0x39fa610, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToStartupErrorAsync(::BeatSaber::Destinations::Destination* targetDestination);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToTargetDestinationAsync>d__29))]
-  /// @brief Method GoToTargetDestinationAsync, addr 0x3770bc0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GoToTargetDestinationAsync, addr 0x39fa294, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToTargetDestinationAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToTutorialAsync>d__35))]
-  /// @brief Method GoToTutorialAsync, addr 0x3771000, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GoToTutorialAsync, addr 0x39fa6d4, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToTutorialAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
-  /// @brief Method HandleCreditsSceneDidFinish, addr 0x3771304, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleCreditsSceneDidFinish, addr 0x39fa9d8, size 0xb8, virtual false, abstract: false, final false
   inline void HandleCreditsSceneDidFinish(::GlobalNamespace::CreditsScenesTransitionSetupData* setupData);
 
-  /// @brief Method HandleMissionSceneDidFinish, addr 0x3770e84, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionSceneDidFinish, addr 0x39fa558, size 0xb8, virtual false, abstract: false, final false
   inline void HandleMissionSceneDidFinish(::GlobalNamespace::MissionLevelScenesTransitionSetupData* setupData, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method HandleStandardLevelSetupDataFinishEvent, addr 0x3771b00, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method HandleStandardLevelSetupDataFinishEvent, addr 0x39fb1d8, size 0x164, virtual false, abstract: false, final false
   inline void HandleStandardLevelSetupDataFinishEvent(::GlobalNamespace::StandardLevelScenesTransitionSetupData* standardLevelScenesTransitionSetupData,
                                                       ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandleTutorialSceneDidFinish, addr 0x37710d0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method HandleTutorialSceneDidFinish, addr 0x39fa7a4, size 0x164, virtual false, abstract: false, final false
   inline void HandleTutorialSceneDidFinish(::GlobalNamespace::TutorialScenesTransitionSetupData* setupData,
                                            ::GlobalNamespace::TutorialScenesTransitionSetupData_TutorialEndStateType tutorialEndStateType);
 
-  /// @brief Method Initialize, addr 0x3770934, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x39fa008, size 0x1c, virtual true, abstract: false, final true
   inline void Initialize();
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<InitializeScenesAsync>d__27))]
-  /// @brief Method InitializeScenesAsync, addr 0x3770950, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method InitializeScenesAsync, addr 0x39fa024, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* InitializeScenesAsync();
 
-  /// @brief Method InitializeStandardLevelSetupData, addr 0x37716b4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method InitializeStandardLevelSetupData, addr 0x39fad88, size 0x1e0, virtual false, abstract: false, final false
   inline void InitializeStandardLevelSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupData* setupData, ::BeatSaber::Destinations::Destination* targetDestination);
 
   static inline ::GlobalNamespace::InitialDestinationResolver* New_ctor();
 
-  /// @brief Method PrepareParametersForLevelSetupData, addr 0x3771890, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method PrepareParametersForLevelSetupData, addr 0x39faf68, size 0x270, virtual false, abstract: false, final false
   inline void PrepareParametersForLevelSetupData(::BeatSaber::Destinations::LevelStartDestinationParameters* parameters, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapLevelKey,
                                                  ::by_ref<::GlobalNamespace::BeatmapLevel*> beatmapLevel, ::by_ref<::GlobalNamespace::PlayerSpecificSettings*> playerSpecificSettings,
                                                  /* [Nullable(2)] */ ::by_ref<::GlobalNamespace::OverrideEnvironmentSettings*> overrideEnvironmentSettings,
@@ -1424,23 +1424,23 @@ public:
                                                  ::by_ref<::BeatSaber::Destinations::GameplayEnvironmentOverride*> environmentOverride);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<PresentHealthWarningAsync>d__42))]
-  /// @brief Method PresentHealthWarningAsync, addr 0x3771604, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method PresentHealthWarningAsync, addr 0x39facd8, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PresentHealthWarningAsync();
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<PresentShaderWarmUpAsync>d__41))]
-  /// @brief Method PresentShaderWarmUpAsync, addr 0x3771554, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method PresentShaderWarmUpAsync, addr 0x39fac28, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PresentShaderWarmUpAsync();
 
-  /// @brief Method ShouldGoDirectlyToMenu, addr 0x3771c64, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ShouldGoDirectlyToMenu, addr 0x39fb33c, size 0x20, virtual false, abstract: false, final false
   inline bool ShouldGoDirectlyToMenu();
 
   /// [NullableContext(0)]
   /// [CompilerGenerated]
-  /// @brief Method <GoToMissionLevelAsync>b__32_0, addr 0x3771cd8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <GoToMissionLevelAsync>b__32_0, addr 0x39fb3b0, size 0x20, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjective* _GoToMissionLevelAsync_b__32_0(::BeatSaber::Destinations::SimpleMissionObjective* objective);
 
   /// [CompilerGenerated]
-  /// @brief Method <GoToMultiplayerLevelAsync>g__InitializeMultiplayerMocks|39_0, addr 0x3771cf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <GoToMultiplayerLevelAsync>g__InitializeMultiplayerMocks|39_0, addr 0x39fb3d0, size 0x4, virtual false, abstract: false, final false
   static inline void _GoToMultiplayerLevelAsync_g__InitializeMultiplayerMocks_39_0(::Zenject::DiContainer* container);
 
   constexpr ::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitSceneSetupData* const& __cordl_internal_get__appInitSceneSetupData() const;
@@ -1599,7 +1599,7 @@ public:
 
   constexpr void __cordl_internal_set__tutorialScenesTransitionSetupData(::GlobalNamespace::TutorialScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x3771c84, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fb35c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::Destinations::IInitialDestinationResolver"
@@ -1623,7 +1623,7 @@ public:
   InitialDestinationResolver(InitialDestinationResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21843 };
 
   /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0x10, size: 0x8, def value: None

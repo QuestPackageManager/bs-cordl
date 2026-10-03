@@ -42,7 +42,7 @@ public:
   /// @brief Field m_AssetType, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AssetType, put = __cordl_internal_set_m_AssetType)) ::System::Type* m_AssetType;
 
-  /// @brief Method GetValueFromBag, addr 0x6cbfe24, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x7146940, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Background GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlImageAttributeDescription* New_ctor();
@@ -59,11 +59,11 @@ public:
 
   constexpr void __cordl_internal_set_m_AssetType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6cbfd94, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71468b0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_defaultValue, addr 0x6cbfe14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_defaultValue, addr 0x7146930, size 0x10, virtual false, abstract: false, final false
   inline void set_defaultValue(::UnityEngine::UIElements::Background value);
 
 protected:
@@ -81,13 +81,13 @@ public:
   UxmlImageAttributeDescription(UxmlImageAttributeDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5286 };
 
   /// @brief Field m_AssetType, offset: 0x40, size: 0x8, def value: None
   ::System::Type* ___m_AssetType;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <defaultValue>k__BackingField, offset: 0x48, size: 0x20, def value: None
   ::UnityEngine::UIElements::Background ____defaultValue_k__BackingField;
 

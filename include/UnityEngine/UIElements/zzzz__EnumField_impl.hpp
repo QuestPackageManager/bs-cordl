@@ -11,10 +11,10 @@
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AbstractGenericMenu_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EnumField_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IGenericMenu_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseDownEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField_UxmlFactory::*)()>(&::UnityEngine::UIElements::EnumField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6d404e0;
+  constexpr static std::size_t addrs = 0x71b3548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EnumField_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -52,8 +52,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::EnumField_UxmlTraits::Init)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x6d40548;
+  constexpr static std::size_t size = 0x234;
+  constexpr static std::size_t addrs = 0x71b35b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField_UxmlTraits::*)()>(&::UnityEngine::UIElements::EnumField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6d4078c;
+  constexpr static std::size_t addrs = 0x71b37e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EnumField_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField___c::*)()>(&::UnityEngine::UIElements::EnumField___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d4086c;
+  constexpr static std::size_t addrs = 0x71b38c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EnumField___c*>(), { ".ctor", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField___c::*)(::UnityEngine::UIElements::MouseDownEvent*)>(
     &::UnityEngine::UIElements::EnumField___c::__ctor_b__31_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d40870;
+  constexpr static std::size_t addrs = 0x71b38c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::EnumField::*)()>(&::UnityEngine::UIElements::EnumField::get_includeObsoleteValues)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d3f034;
+  constexpr static std::size_t addrs = 0x71b2500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), { "get_includeObsoleteValues", {}, {} })));
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::EnumField::*)()>(&::UnityEngine::UIElements::EnumField::get_text)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d3f03c;
+  constexpr static std::size_t addrs = 0x71b2508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), { "get_text", {}, {} })));
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Enum*)>(&::UnityEngine::UIElements::EnumField::Initialize)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6d3f05c;
+  constexpr static std::size_t addrs = 0x71b2528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)()>(&::UnityEngine::UIElements::EnumField::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d3f1e4;
+  constexpr static std::size_t addrs = 0x71b26b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), { ".ctor", {}, {} })));
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::StringW, ::System::Enum*)>(&::UnityEngine::UIElements::EnumField::_ctor)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x6d3f1f0;
+  constexpr static std::size_t addrs = 0x71b26bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Enum*)>(&::UnityEngine::UIElements::EnumField::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d3f1dc;
+  constexpr static std::size_t addrs = 0x71b26a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Enum*, bool)>(&::UnityEngine::UIElements::EnumField::Init)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6d3f588;
+  constexpr static std::size_t addrs = 0x71b2a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Type*)>(&::UnityEngine::UIElements::EnumField::PopulateDataFromType)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6d3f694;
+  constexpr static std::size_t addrs = 0x71b2b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,11 +285,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Enum*)>(&::UnityEngine::UIElements::EnumField::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6d3f848;
+  constexpr static std::size_t addrs = 0x71b2d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), { ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), 153 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), { ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), 159 }));
     return ___internal_method;
   }
 };
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Enum*)>(&::UnityEngine::UIElements::EnumField::UpdateValueLabel)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6d3f77c;
+  constexpr static std::size_t addrs = 0x71b2c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::UnityEngine::UIElements::PointerDownEvent*)>(
     &::UnityEngine::UIElements::EnumField::OnPointerDownEvent)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d3f91c;
+  constexpr static std::size_t addrs = 0x71b2de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
     &::UnityEngine::UIElements::EnumField::OnPointerMoveEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6d3f978;
+  constexpr static std::size_t addrs = 0x71b2e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::EnumField::*)(int32_t)>(&::UnityEngine::UIElements::EnumField::ContainsPointer)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6d3fa24;
+  constexpr static std::size_t addrs = 0x71b2ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::UnityEngine::UIElements::NavigationSubmitEvent*)>(
     &::UnityEngine::UIElements::EnumField::OnNavigationSubmit)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6d3faac;
+  constexpr static std::size_t addrs = 0x71b2f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
@@ -367,8 +367,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)()>(&::UnityEngine::UIElements::EnumField::ShowMenu)> {
-  constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x6d3fad4;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x71b2fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), { "ShowMenu", {}, {} })));
@@ -380,7 +380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Object*)>(&::UnityEngine::UIElements::EnumField::ChangeValueFromMenu)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d40134;
+  constexpr static std::size_t addrs = 0x71b319c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -393,11 +393,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)()>(&::UnityEngine::UIElements::EnumField::UpdateMixedValueContent)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6d40180;
+  constexpr static std::size_t addrs = 0x71b31e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), { ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), 152 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), { ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), 158 }));
     return ___internal_method;
   }
 };
@@ -406,7 +406,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Object*)>(&::UnityEngine::UIElements::EnumField::_ShowMenu_b__42_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d404dc;
+  constexpr static std::size_t addrs = 0x71b3544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -474,15 +474,15 @@ constexpr void UnityEngine::UIElements::EnumField::__cordl_internal_set_m_EnumDa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_EnumData = value;
 }
-constexpr ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>*& UnityEngine::UIElements::EnumField::__cordl_internal_get_createMenuCallback() {
+constexpr ::System::Func_1<::UnityEngine::UIElements::AbstractGenericMenu*>*& UnityEngine::UIElements::EnumField::__cordl_internal_get_createMenuCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___createMenuCallback;
 }
-constexpr ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* const& UnityEngine::UIElements::EnumField::__cordl_internal_get_createMenuCallback() const {
+constexpr ::System::Func_1<::UnityEngine::UIElements::AbstractGenericMenu*>* const& UnityEngine::UIElements::EnumField::__cordl_internal_get_createMenuCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___createMenuCallback;
 }
-constexpr void UnityEngine::UIElements::EnumField::__cordl_internal_set_createMenuCallback(::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* value) {
+constexpr void UnityEngine::UIElements::EnumField::__cordl_internal_set_createMenuCallback(::System::Func_1<::UnityEngine::UIElements::AbstractGenericMenu*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___createMenuCallback = value;
 }
@@ -560,7 +560,7 @@ inline void UnityEngine::UIElements::EnumField::PopulateDataFromType(::System::T
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, enumType);
 }
 inline void UnityEngine::UIElements::EnumField::SetValueWithoutNotify(::System::Enum* newValue) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), 153 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), 159 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newValue);
 }
 inline void UnityEngine::UIElements::EnumField::UpdateValueLabel(::System::Enum* value) {
@@ -609,7 +609,7 @@ inline void UnityEngine::UIElements::EnumField::ChangeValueFromMenu(::System::Ob
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, menuItem);
 }
 inline void UnityEngine::UIElements::EnumField::UpdateMixedValueContent() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), 152 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), 158 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::EnumField::_ShowMenu_b__42_0(::System::Object* contentView) {

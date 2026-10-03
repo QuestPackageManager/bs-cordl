@@ -90,15 +90,15 @@ public:
   TransitionEventBase_1(TransitionEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4566 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4567 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <stylePropertyNames>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::UIElements::StylePropertyNameCollection ____stylePropertyNames_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <elapsedTime>k__BackingField, offset: 0x70, size: 0x8, def value: None
   double_t ____elapsedTime_k__BackingField;
 

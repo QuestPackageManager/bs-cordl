@@ -46,7 +46,7 @@ public:
   constexpr BitmapAllocator32_Page(uint16_t x, uint16_t y, int32_t freeSlots) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5357 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5474 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -85,28 +85,28 @@ public:
 
   __declspec(property(get = get_entryWidth)) int32_t entryWidth;
 
-  /// @brief Method Allocate, addr 0x6cf427c, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x71878e0, size 0x460, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::BMPAlloc Allocate(::UnityEngine::UIElements::UIR::BaseShaderInfoStorage* storage);
 
-  /// @brief Method Construct, addr 0x6cf3fa0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x7187604, size 0x114, virtual false, abstract: false, final false
   inline void Construct(int32_t pageHeight, int32_t entryWidth, int32_t entryHeight);
 
-  /// @brief Method CountTrailingZeroes, addr 0x6cf472c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CountTrailingZeroes, addr 0x7187d40, size 0x64, virtual false, abstract: false, final false
   static inline uint8_t CountTrailingZeroes(uint32_t val);
 
-  /// @brief Method ForceFirstAlloc, addr 0x6cf40b4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ForceFirstAlloc, addr 0x7187718, size 0x1c8, virtual false, abstract: false, final false
   inline void ForceFirstAlloc(uint16_t firstPageX, uint16_t firstPageY);
 
-  /// @brief Method Free, addr 0x6cf4790, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x7187da4, size 0x150, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method GetAllocPageAtlasLocation, addr 0x6cf48f0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetAllocPageAtlasLocation, addr 0x7187f04, size 0x84, virtual false, abstract: false, final false
   inline void GetAllocPageAtlasLocation(int32_t page, ::by_ref<uint16_t> x, ::by_ref<uint16_t> y);
 
-  /// @brief Method get_entryHeight, addr 0x6cf48e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entryHeight, addr 0x7187efc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_entryHeight();
 
-  /// @brief Method get_entryWidth, addr 0x6cf48e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entryWidth, addr 0x7187ef4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_entryWidth();
 
   // Ctor Parameters []
@@ -121,10 +121,13 @@ public:
                               ::System::Collections::Generic::List_1<uint32_t>* m_AllocMap, int32_t m_EntryWidth, int32_t m_EntryHeight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5475 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+
+  /// @brief Field kPageWidth offset 0xffffffff size 0x4
+  static constexpr int32_t kPageWidth{ static_cast<int32_t>(0x20) };
 
   /// @brief Field m_PageHeight, offset: 0x0, size: 0x4, def value: None
   int32_t m_PageHeight;

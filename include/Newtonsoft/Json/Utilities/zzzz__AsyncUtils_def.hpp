@@ -68,10 +68,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::AsyncUtils___c* New_ctor();
 
-  /// @brief Method <FromCanceled>b__5_0, addr 0x5d1aa88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <FromCanceled>b__5_0, addr 0x613466c, size 0x4, virtual false, abstract: false, final false
   inline void _FromCanceled_b__5_0();
 
-  /// @brief Method .ctor, addr 0x5d1aa84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6134668, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::AsyncUtils___c* getStaticF___9();
@@ -97,7 +97,7 @@ public:
   AsyncUtils___c(AsyncUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13608 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -153,7 +153,7 @@ public:
   AsyncUtils___c__6_1(AsyncUtils___c__6_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13609 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -184,7 +184,7 @@ public:
 
   /// [NullableContext(2)]
   /// [Extension]
-  /// @brief Method CancelIfRequestedAsync, addr 0x5d1a3b8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CancelIfRequestedAsync, addr 0x6133f9c, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* CancelIfRequestedAsync(::System::Threading::CancellationToken cancellationToken);
 
   /// [NullableContext(2)]
@@ -193,7 +193,7 @@ public:
   template <typename T> static inline ::System::Threading::Tasks::Task_1<T>* CancelIfRequestedAsync(::System::Threading::CancellationToken cancellationToken);
 
   /// [Extension]
-  /// @brief Method FromCanceled, addr 0x5d1a464, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method FromCanceled, addr 0x6134048, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* FromCanceled(::System::Threading::CancellationToken cancellationToken);
 
   /// [Extension]
@@ -201,29 +201,29 @@ public:
   template <typename T> static inline ::System::Threading::Tasks::Task_1<T>* FromCanceled(::System::Threading::CancellationToken cancellationToken);
 
   /// [Extension]
-  /// @brief Method IsCompletedSuccessfully, addr 0x5d1a944, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsCompletedSuccessfully, addr 0x6134528, size 0x24, virtual false, abstract: false, final false
   static inline bool IsCompletedSuccessfully(::System::Threading::Tasks::Task* task);
 
   /// [Extension]
-  /// @brief Method ReadAsync, addr 0x5d1a834, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x6134418, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::System::IO::TextReader* reader, ::ArrayW<char16_t> buffer, int32_t index, int32_t count,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
   /// [Extension]
-  /// @brief Method ToAsync, addr 0x5d1a33c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToAsync, addr 0x6133f20, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* ToAsync(bool value);
 
   /// [Extension]
-  /// @brief Method WriteAsync, addr 0x5d1a740, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x6134324, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteAsync(::System::IO::TextWriter* writer, ::ArrayW<char16_t> value, int32_t start, int32_t count,
                                                              ::System::Threading::CancellationToken cancellationToken);
 
   /// [Extension]
-  /// @brief Method WriteAsync, addr 0x5d1a668, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x613424c, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteAsync(::System::IO::TextWriter* writer, /* [Nullable(2)] */ ::StringW value, ::System::Threading::CancellationToken cancellationToken);
 
   /// [Extension]
-  /// @brief Method WriteAsync, addr 0x5d1a590, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x6134174, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteAsync(::System::IO::TextWriter* writer, char16_t value, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::Threading::Tasks::Task* getStaticF_CompletedTask();
@@ -253,7 +253,7 @@ public:
   AsyncUtils(AsyncUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13371 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13610 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

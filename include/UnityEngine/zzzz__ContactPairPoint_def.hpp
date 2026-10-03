@@ -18,8 +18,8 @@ struct ContactPairPoint;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ContactPairPoint);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ContactPairPoint, "UnityEngine", "ContactPairPoint");
-// [UsedByNativeCode]
 // [IsReadOnly]
+// [UsedByNativeCode]
 // Dependencies UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
@@ -47,28 +47,28 @@ public:
 
   __declspec(property(get = get_separation)) float_t separation;
 
-  /// @brief Method get_Impulse, addr 0x6b93194, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Impulse, addr 0x6ffeb7c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Impulse();
 
-  /// @brief Method get_Normal, addr 0x6b93188, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Normal, addr 0x6ffeb70, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Normal();
 
-  /// @brief Method get_Position, addr 0x6b93174, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x6ffeb5c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Position();
 
-  /// @brief Method get_Separation, addr 0x6b93180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Separation, addr 0x6ffeb68, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Separation();
 
-  /// @brief Method get_impulse, addr 0x6b93168, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_impulse, addr 0x6ffeb50, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_impulse();
 
-  /// @brief Method get_normal, addr 0x6b9315c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x6ffeb44, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
-  /// @brief Method get_position, addr 0x6b93148, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x6ffeb30, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_separation, addr 0x6b93154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_separation, addr 0x6ffeb3c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_separation();
 
   // Ctor Parameters []
@@ -83,7 +83,7 @@ public:
                              uint32_t m_InternalFaceIndex1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18667 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19081 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

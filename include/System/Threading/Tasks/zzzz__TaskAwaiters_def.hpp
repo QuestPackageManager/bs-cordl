@@ -27,7 +27,7 @@ class CORDL_TYPE TaskAwaiters : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ForceAsync, addr 0x5cbc758, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ForceAsync, addr 0x60d62a0, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::ForceAsyncAwaiter ForceAsync(::System::Threading::Tasks::Task* task);
 
 protected:

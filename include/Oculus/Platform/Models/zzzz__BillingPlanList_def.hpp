@@ -27,7 +27,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::BillingPlanList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x5dee0cc, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6207cb0, size 0x1dc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:
@@ -45,7 +45,7 @@ public:
   BillingPlanList(BillingPlanList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18561 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

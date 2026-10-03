@@ -71,11 +71,6 @@ template <typename T> inline void UnityEngine::UIElements::NavigationEventBase_1
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigationEventBase_1<T>*>(), { "LocalInit", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::UIElements::NavigationEventBase_1<T>::GetPooled(::UnityEngine::EventModifiers modifiers) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigationEventBase_1<T>*>(), { "GetPooled", {}, { ::i2c::type_of<::UnityEngine::EventModifiers>() } })));
-  return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, modifiers);
-}
 template <typename T> inline T UnityEngine::UIElements::NavigationEventBase_1<T>::GetPooled(::UnityEngine::UIElements::NavigationDeviceType deviceType, ::UnityEngine::EventModifiers modifiers) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigationEventBase_1<T>*>(),

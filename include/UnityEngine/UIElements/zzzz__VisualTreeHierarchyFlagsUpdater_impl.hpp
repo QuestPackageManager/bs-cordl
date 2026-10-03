@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerMarker (::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::get_profilerMarker)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6ccdd70;
+  constexpr static std::size_t addrs = 0x7158af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*>(),
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(&::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::OnVersionChanged)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6ccddcc;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x7158b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElementFlags (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(
     &::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::GetChildrenMustDirtyFlags)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6ccdff0;
+  constexpr static std::size_t addrs = 0x7158c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,19 +51,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater.DirtyHierarchy
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater.DirtyChildrenHierarchy
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElementFlags)>(
-    &::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::DirtyHierarchy)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6ccdeb4;
+    &::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::DirtyChildrenHierarchy)> {
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x7158c84;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*>(),
-                                         { "DirtyHierarchy", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElementFlags>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*>(),
+                            { "DirtyChildrenHierarchy", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElementFlags>() } })));
     return ___internal_method;
   }
 };
@@ -71,8 +71,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::DirtyBoundingBoxHierarchy)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6ccdfa0;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x7158dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*>(),
@@ -85,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElementFlags)>(
     &::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::DirtyParentHierarchy)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6cce024;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x7158e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,8 +100,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::*)()>(&::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::Update)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6cce05c;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x7158f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*>(),
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::*)()>(&::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cce0b8;
+  constexpr static std::size_t addrs = 0x7158fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*>(), { ".ctor", {}, {} })));
@@ -176,11 +176,12 @@ UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::GetChildrenMustDirtyFl
                           { "GetChildrenMustDirtyFlags", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::VersionChangeType>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElementFlags>(nullptr, ___internal_method, ve, versionChangeType);
 }
-inline void UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::DirtyHierarchy(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElementFlags mustDirtyFlags) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*>(),
-                                       { "DirtyHierarchy", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElementFlags>() } })));
+inline void UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::DirtyChildrenHierarchy(::UnityEngine::UIElements::VisualElement* ve,
+                                                                                             ::UnityEngine::UIElements::VisualElementFlags mustDirtyFlags) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*>(),
+                          { "DirtyChildrenHierarchy", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElementFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ve, mustDirtyFlags);
 }
 inline void UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::DirtyBoundingBoxHierarchy(::UnityEngine::UIElements::VisualElement* ve) {

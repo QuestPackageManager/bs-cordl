@@ -3,9 +3,12 @@ module;
 #endif
 
 #pragma once
+#include "UnityEngine/XR/OpenXR/ApiLayers.hpp"
 #include "UnityEngine/XR/OpenXR/Constants.hpp"
 #include "UnityEngine/XR/OpenXR/DiagnosticReport.hpp"
+#include "UnityEngine/XR/OpenXR/InternalConstants.hpp"
 #include "UnityEngine/XR/OpenXR/OpenXRAnalytics.hpp"
+#include "UnityEngine/XR/OpenXR/OpenXRApiVersion.hpp"
 #include "UnityEngine/XR/OpenXR/OpenXRLoader.hpp"
 #include "UnityEngine/XR/OpenXR/OpenXRLoaderBase.hpp"
 #include "UnityEngine/XR/OpenXR/OpenXRLoaderNoPreInit.hpp"

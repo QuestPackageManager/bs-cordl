@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)()>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::inflateInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x363a45c;
+  constexpr static std::size_t addrs = 0x38c36f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::ZStream*>(), { "inflateInit", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)(bool)>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::inflateInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3639f74;
+  constexpr static std::size_t addrs = 0x38c3210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)(int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::inflateInit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x363aa00;
+  constexpr static std::size_t addrs = 0x38c3c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)(int32_t, bool)>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::inflateInit)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x363aa08;
+  constexpr static std::size_t addrs = 0x38c3ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)(int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::inflate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x363a124;
+  constexpr static std::size_t addrs = 0x38c33c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)()>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::inflateEnd)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x363aa88;
+  constexpr static std::size_t addrs = 0x38c3d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::ZStream*>(), { "inflateEnd", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)()>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::inflateSync)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x363aad8;
+  constexpr static std::size_t addrs = 0x38c3d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::ZStream*>(), { "inflateSync", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::ZStream::inflateSetDictionary)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x363aaf0;
+  constexpr static std::size_t addrs = 0x38c3d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::ZStream*>(),
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)(int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::deflateInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x363ab10;
+  constexpr static std::size_t addrs = 0x38c3dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)(int32_t, bool)>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::deflateInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x36398b8;
+  constexpr static std::size_t addrs = 0x38c2b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)(int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::deflateInit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x363ab1c;
+  constexpr static std::size_t addrs = 0x38c3db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)(int32_t, int32_t, bool)>(
     &::Org::BouncyCastle::Utilities::Zlib::ZStream::deflateInit)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x363ab24;
+  constexpr static std::size_t addrs = 0x38c3dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::ZStream*>(),
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)(int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::deflate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3639a2c;
+  constexpr static std::size_t addrs = 0x38c2cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)()>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::deflateEnd)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3639c6c;
+  constexpr static std::size_t addrs = 0x38c2f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::ZStream*>(), { "deflateEnd", {}, {} })));
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)(int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::deflateParams)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x363abc4;
+  constexpr static std::size_t addrs = 0x38c3e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::ZStream::deflateSetDictionary)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x363abec;
+  constexpr static std::size_t addrs = 0x38c3e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::ZStream*>(),
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)()>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::flush_pending)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x363ac14;
+  constexpr static std::size_t addrs = 0x38c3eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::ZStream*>(), { "flush_pending", {}, {} })));
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::ZStream::read_buf)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x363acc0;
+  constexpr static std::size_t addrs = 0x38c3f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)()>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::free)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3639cc4;
+  constexpr static std::size_t addrs = 0x38c2f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::ZStream*>(), { "free", {}, {} })));
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::ZStream::*)()>(&::Org::BouncyCastle::Utilities::Zlib::ZStream::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3639868;
+  constexpr static std::size_t addrs = 0x38c2b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::ZStream*>(), { ".ctor", {}, {} })));

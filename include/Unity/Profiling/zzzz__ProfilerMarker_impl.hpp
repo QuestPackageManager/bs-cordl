@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Profiling::ProfilerMarker_AutoScope::*)(::System::IntPtr)>(&::Unity::Profiling::ProfilerMarker_AutoScope::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6a5d494;
+  constexpr static std::size_t addrs = 0x6eaf008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Profiling::ProfilerMarker_AutoScope::*)()>(&::Unity::Profiling::ProfilerMarker_AutoScope::Dispose)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6a5d518;
+  constexpr static std::size_t addrs = 0x6eaf08c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerMarker_AutoScope>(), { "Dispose", {}, {} })));
@@ -54,24 +54,12 @@ constexpr ::Unity::Profiling::ProfilerMarker_AutoScope::ProfilerMarker_AutoScope
 }
 // Ctor Parameters []
 constexpr ::Unity::Profiling::ProfilerMarker_AutoScope::ProfilerMarker_AutoScope() {}
-//  Writing Method size for method: ::Unity::Profiling::ProfilerMarker.get_Handle
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::Unity::Profiling::ProfilerMarker::*)()>(&::Unity::Profiling::ProfilerMarker::get_Handle)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a5d2a4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerMarker>(), { "get_Handle", {}, {} })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::Unity::Profiling::ProfilerMarker._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Profiling::ProfilerMarker::*)(::StringW)>(&::Unity::Profiling::ProfilerMarker::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a5d2ac;
+  constexpr static std::size_t addrs = 0x6eaee20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerMarker>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -83,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Profiling::ProfilerMarker::*)(::Unity::Profiling::ProfilerCategory, ::StringW)>(&::Unity::Profiling::ProfilerMarker::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6a5d428;
+  constexpr static std::size_t addrs = 0x6eaef9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerMarker>(),
@@ -96,17 +84,13 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerMarker_AutoScope (::Unity::Profiling::ProfilerMarker::*)()>(&::Unity::Profiling::ProfilerMarker::Auto)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6a5d44c;
+  constexpr static std::size_t addrs = 0x6eaefc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerMarker>(), { "Auto", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::System::IntPtr Unity::Profiling::ProfilerMarker::get_Handle() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerMarker>(), { "get_Handle", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(*this, ___internal_method);
-}
 inline void Unity::Profiling::ProfilerMarker::_ctor(::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerMarker>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, name);

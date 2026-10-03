@@ -78,7 +78,7 @@ public:
   ForJobStruct_1_IJobForExtensions_ExecuteJobFunction(ForJobStruct_1_IJobForExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9494 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -115,7 +115,7 @@ public:
   constexpr IJobForExtensions_ForJobStruct_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9495 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -151,6 +151,12 @@ public:
     requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::Unity::Jobs::JobHandle ScheduleParallel(T jobData, int32_t arrayLength, int32_t innerloopBatchCount, ::Unity::Jobs::JobHandle dependency);
 
+  /// [Extension]
+  /// @brief Method ScheduleParallelByRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Jobs::JobHandle ScheduleParallelByRef(::by_ref<T> jobData, int32_t arrayLength, int32_t innerloopBatchCount, ::Unity::Jobs::JobHandle dependency);
+
 protected:
   // Ctor Parameters []
   // @brief default ctor
@@ -166,7 +172,7 @@ public:
   IJobForExtensions(IJobForExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9496 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

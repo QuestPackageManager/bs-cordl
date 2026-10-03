@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)(::UnityEngine::Rendering::DebugUI_Widget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerColor::SetWidget)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x6801504;
+  constexpr static std::size_t addrs = 0x6c30088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)(float_t, bool, bool, bool, bool)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerColor::SetValue)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6801c00;
+  constexpr static std::size_t addrs = 0x6c30784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)(::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerColor::SetupSettings)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6801a30;
+  constexpr static std::size_t addrs = 0x6c305b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)(bool, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerColor::OnSelection)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6801cd0;
+  constexpr static std::size_t addrs = 0x6c30854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::OnDeselection)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6801dbc;
+  constexpr static std::size_t addrs = 0x6c30940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)(bool)>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::OnIncrement)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6801de8;
+  constexpr static std::size_t addrs = 0x6c3096c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)(bool)>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::OnDecrement)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6801e04;
+  constexpr static std::size_t addrs = 0x6c30988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::OnAction)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6801e20;
+  constexpr static std::size_t addrs = 0x6c309a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::UpdateColor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6801b38;
+  constexpr static std::size_t addrs = 0x6c306bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerColor*>(), { "UpdateColor", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerColor::Next)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6801e44;
+  constexpr static std::size_t addrs = 0x6c309c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6801f10;
+  constexpr static std::size_t addrs = 0x6c30a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerColor*>(), { ".ctor", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::_SetWidget_b__9_0)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6801f28;
+  constexpr static std::size_t addrs = 0x6c30aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerColor*>(), { "<SetWidget>b__9_0", {}, {} })));
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)(float_t)>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::_SetWidget_b__9_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6801f88;
+  constexpr static std::size_t addrs = 0x6c30b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::_SetWidget_b__9_2)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6801f9c;
+  constexpr static std::size_t addrs = 0x6c30b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerColor*>(), { "<SetWidget>b__9_2", {}, {} })));
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)(float_t)>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::_SetWidget_b__9_3)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6802004;
+  constexpr static std::size_t addrs = 0x6c30b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::_SetWidget_b__9_4)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6802018;
+  constexpr static std::size_t addrs = 0x6c30b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerColor*>(), { "<SetWidget>b__9_4", {}, {} })));
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)(float_t)>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::_SetWidget_b__9_5)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6802080;
+  constexpr static std::size_t addrs = 0x6c30c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::_SetWidget_b__9_6)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6802094;
+  constexpr static std::size_t addrs = 0x6c30c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerColor*>(), { "<SetWidget>b__9_6", {}, {} })));
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)(float_t)>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::_SetWidget_b__9_7)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68020fc;
+  constexpr static std::size_t addrs = 0x6c30c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::_SetupSettings_b__11_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6802110;
+  constexpr static std::size_t addrs = 0x6c30c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::_SetupSettings_b__11_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6802128;
+  constexpr static std::size_t addrs = 0x6c30cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::UI::DebugUIHandlerColor::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerColor::_SetupSettings_b__11_2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6802140;
+  constexpr static std::size_t addrs = 0x6c30cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

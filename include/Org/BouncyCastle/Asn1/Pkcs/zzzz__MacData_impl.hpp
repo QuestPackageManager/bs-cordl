@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::MacData* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Pkcs::MacData::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3463078;
+  constexpr static std::size_t addrs = 0x36ec314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::MacData::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::MacData::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x34631fc;
+  constexpr static std::size_t addrs = 0x36ec498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::MacData::*)(::Org::BouncyCastle::Asn1::X509::DigestInfo*, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Asn1::Pkcs::MacData::_ctor)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3463384;
+  constexpr static std::size_t addrs = 0x36ec620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::DigestInfo* (::Org::BouncyCastle::Asn1::Pkcs::MacData::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::MacData::get_Mac)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3463470;
+  constexpr static std::size_t addrs = 0x36ec70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::MacData*>(), { "get_Mac", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::Pkcs::MacData::*)()>(&::Org::BouncyCastle::Asn1::Pkcs::MacData::GetSalt)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3463478;
+  constexpr static std::size_t addrs = 0x36ec714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::MacData*>(), { "GetSalt", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Pkcs::MacData::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::MacData::get_IterationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34634f0;
+  constexpr static std::size_t addrs = 0x36ec78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::MacData*>(), { "get_IterationCount", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::MacData::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::MacData::ToAsn1Object)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x34634f8;
+  constexpr static std::size_t addrs = 0x36ec794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

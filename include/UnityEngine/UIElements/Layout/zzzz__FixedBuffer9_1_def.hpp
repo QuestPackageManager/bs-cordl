@@ -39,35 +39,44 @@ public:
   constexpr FixedBuffer9_1(T __0, T __1, T __2, T __3, T __4, T __5, T __6, T __7, T __8) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5541 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
+  /// [SerializeField]
   /// @brief Field __0, offset: 0x0, size: 0x8, def value: None
   T __0;
 
+  /// [SerializeField]
   /// @brief Field __1, offset: 0x8, size: 0x8, def value: None
   T __1;
 
+  /// [SerializeField]
   /// @brief Field __2, offset: 0x10, size: 0x8, def value: None
   T __2;
 
+  /// [SerializeField]
   /// @brief Field __3, offset: 0x18, size: 0x8, def value: None
   T __3;
 
+  /// [SerializeField]
   /// @brief Field __4, offset: 0x20, size: 0x8, def value: None
   T __4;
 
+  /// [SerializeField]
   /// @brief Field __5, offset: 0x28, size: 0x8, def value: None
   T __5;
 
+  /// [SerializeField]
   /// @brief Field __6, offset: 0x30, size: 0x8, def value: None
   T __6;
 
+  /// [SerializeField]
   /// @brief Field __7, offset: 0x38, size: 0x8, def value: None
   T __7;
 
+  /// [SerializeField]
   /// @brief Field __8, offset: 0x40, size: 0x8, def value: None
   T __8;
 

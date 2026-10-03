@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_visualise(bool value);
 
-  /// @brief Method .ctor, addr 0x5f4e80c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x636a8ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   SetFrustumPlanesPass_PassData(SetFrustumPlanesPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21177 };
 
   /// @brief Field cameraData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalCameraData* ___cameraData;
@@ -132,10 +132,10 @@ public:
 
   static inline ::GlobalNamespace::SetFrustumPlanesPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__6_0, addr 0x5f4e868, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__6_0, addr 0x636a948, size 0x70, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__6_0(::GlobalNamespace::SetFrustumPlanesPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x5f4e864, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x636a944, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::SetFrustumPlanesPass___c* getStaticF___9();
@@ -163,7 +163,7 @@ public:
   SetFrustumPlanesPass___c(SetFrustumPlanesPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21178 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -188,18 +188,18 @@ public:
   /// @brief Field _vectorPlanes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__vectorPlanes, put = setStaticF__vectorPlanes)) ::ArrayW<::UnityEngine::Vector4> _vectorPlanes;
 
-  /// @brief Field _visualise, offset 0xb8, size 0x1
+  /// @brief Field _visualise, offset 0x5c, size 0x1
   __declspec(property(get = __cordl_internal_get__visualise, put = __cordl_internal_set__visualise)) bool _visualise;
 
   /// @brief Field kFrustumPlanesId, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_kFrustumPlanesId, put = setStaticF_kFrustumPlanesId)) int32_t kFrustumPlanesId;
 
-  /// @brief Method ExecutePass, addr 0x5f4e4d0, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x636a540, size 0x2d8, virtual false, abstract: false, final false
   static inline void ExecutePass(::GlobalNamespace::SetFrustumPlanesPass_PassData* passData, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
   static inline ::GlobalNamespace::SetFrustumPlanesPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, bool visualise);
 
-  /// @brief Method RecordRenderGraph, addr 0x5f4e12c, size 0x3a4, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x636a19c, size 0x3a4, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
   constexpr bool const& __cordl_internal_get__visualise() const;
@@ -208,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set__visualise(bool value);
 
-  /// @brief Method .ctor, addr 0x5f4e080, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x636a13c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, bool visualise);
 
   static inline ::ArrayW<::UnityEngine::Plane> getStaticF__planes();
@@ -238,16 +238,16 @@ public:
   SetFrustumPlanesPass(SetFrustumPlanesPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21179 };
 
-  /// @brief Field _visualise, offset: 0xb8, size: 0x1, def value: None
+  /// @brief Field _visualise, offset: 0x5c, size: 0x1, def value: None
   bool ____visualise;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::SetFrustumPlanesPass, ____visualise) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetFrustumPlanesPass, ____visualise) == 0x5c, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::SetFrustumPlanesPass) == 0xc0, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::SetFrustumPlanesPass) == 0x60, "Size mismatch!");
 
 } // namespace GlobalNamespace

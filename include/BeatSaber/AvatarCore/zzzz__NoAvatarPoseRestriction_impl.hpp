@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Avatar
     ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>,
     ::by_ref<::UnityEngine::Vector3>)>(&::BeatSaber::AvatarCore::NoAvatarPoseRestriction::RestrictPose)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x327047c;
+  constexpr static std::size_t addrs = 0x34f6cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::NoAvatarPoseRestriction::*)()>(&::BeatSaber::AvatarCore::NoAvatarPoseRestriction::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32704ac;
+  constexpr static std::size_t addrs = 0x34f6d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::NoAvatarPoseRestriction*>(), { ".ctor", {}, {} })));

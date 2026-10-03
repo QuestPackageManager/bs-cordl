@@ -49,16 +49,16 @@ public:
   __declspec(property(get = __cordl_internal_get__multiplayerLevelScenesTransitionSetupData,
                       put = __cordl_internal_set__multiplayerLevelScenesTransitionSetupData)) ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* _multiplayerLevelScenesTransitionSetupData;
 
-  /// @brief Method HandleMultiplayerLevelDidFinish, addr 0x58b2284, size 0xacc, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLevelDidFinish, addr 0x5cc8ddc, size 0xacc, virtual false, abstract: false, final false
   inline void HandleMultiplayerLevelDidFinish(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* multiplayerLevelScenesTransitionSetupData,
                                               ::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
 
   static inline ::GlobalNamespace::MultiplayerLevelAnalytics* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58b21f4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5cc8d4c, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58b2164, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cc8cbc, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerLevelScenesTransitionSetupData(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x58b2d50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc98a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,7 +103,7 @@ public:
   MultiplayerLevelAnalytics(MultiplayerLevelAnalytics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5665 };
 
   /// [Inject]
   /// @brief Field _multiplayerLevelScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None

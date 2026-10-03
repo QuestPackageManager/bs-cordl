@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::Asn1Encodable::*)()>(&::Org::BouncyCastle::Asn1::Asn1Encodable::GetEncoded)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3345fa8;
+  constexpr static std::size_t addrs = 0x35cf244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1Encodable*>(), { "GetEncoded", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::Asn1Encodable::*)(::StringW)>(&::Org::BouncyCastle::Asn1::Asn1Encodable::GetEncoded)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3346060;
+  constexpr static std::size_t addrs = 0x35cf2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::Asn1Encodable::*)()>(&::Org::BouncyCastle::Asn1::Asn1Encodable::GetDerEncoded)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3346168;
+  constexpr static std::size_t addrs = 0x35cf404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1Encodable*>(), { "GetDerEncoded", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::Asn1Encodable::*)()>(&::Org::BouncyCastle::Asn1::Asn1Encodable::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3346230;
+  constexpr static std::size_t addrs = 0x35cf4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1Encodable*>(), { "GetHashCode", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::Asn1Encodable::*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Asn1Encodable::Equals)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3346264;
+  constexpr static std::size_t addrs = 0x35cf500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1Encodable::*)()>(&::Org::BouncyCastle::Asn1::Asn1Encodable::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3346388;
+  constexpr static std::size_t addrs = 0x35cf624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1Encodable*>(), { ".ctor", {}, {} })));

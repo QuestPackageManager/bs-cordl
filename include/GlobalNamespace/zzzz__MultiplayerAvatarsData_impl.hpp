@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerAvatarsData::*)(
     ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>*, ::System::Collections::Generic::IEnumerable_1<uint32_t>*)>(&::GlobalNamespace::MultiplayerAvatarsData::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x377e1d4;
+  constexpr static std::size_t addrs = 0x3a08364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerAvatarsData>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerAvatarsData::*)(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>*,
                                                                                                            ::GlobalNamespace::BitMask128)>(&::GlobalNamespace::MultiplayerAvatarsData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x377e244;
+  constexpr static std::size_t addrs = 0x3a083d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,13 +46,37 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerAvatarsData.get_hasAvatars
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerAvatarsData::*)()>(&::GlobalNamespace::MultiplayerAvatarsData::get_hasAvatars)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x3a083e0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerAvatarsData>(), { "get_hasAvatars", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerAvatarsData.CreateEmpty
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerAvatarsData (*)()>(&::GlobalNamespace::MultiplayerAvatarsData::CreateEmpty)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x3a0843c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerAvatarsData>(), { "CreateEmpty", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerAvatarsData.Serialize
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerAvatarsData::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::MultiplayerAvatarsData::Serialize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x377e250;
+  constexpr static std::size_t addrs = 0x3a084b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerAvatarsData::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::MultiplayerAvatarsData::SerializeAvatarsData)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x377e278;
+  constexpr static std::size_t addrs = 0x3a084dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerAvatarsData (::GlobalNamespace::MultiplayerAvatarsData::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::MultiplayerAvatarsData::CreateFromSerializedData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x377e3f0;
+  constexpr static std::size_t addrs = 0x3a08654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerAvatarsData (*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::MultiplayerAvatarsData::Deserialize)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x377e428;
+  constexpr static std::size_t addrs = 0x3a0868c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* (*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::MultiplayerAvatarsData::DeserializeAvatarsData)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x377e45c;
+  constexpr static std::size_t addrs = 0x3a086c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerAvatarsData::*)(::GlobalNamespace::MultiplayerAvatarsData)>(
     &::GlobalNamespace::MultiplayerAvatarsData::Equals)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x377e5b0;
+  constexpr static std::size_t addrs = 0x3a08814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerAvatarsData::*)(::System::Object*)>(&::GlobalNamespace::MultiplayerAvatarsData::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x377e708;
+  constexpr static std::size_t addrs = 0x3a0896c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MultiplayerAvatarsData::*)()>(&::GlobalNamespace::MultiplayerAvatarsData::GetHashCode)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x377e79c;
+  constexpr static std::size_t addrs = 0x3a08a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerAvatarsData::*)(uint32_t)>(&::GlobalNamespace::MultiplayerAvatarsData::SupportsOptionalAvatarDataType)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x377e90c;
+  constexpr static std::size_t addrs = 0x3a08b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,6 +211,14 @@ inline void GlobalNamespace::MultiplayerAvatarsData::_ctor(::System::Collections
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerAvatarsData>(),
                           { ".ctor", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>*>(), ::i2c::type_of<::GlobalNamespace::BitMask128>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, multiplayerAvatarsData, supportedAvatarTypeIdHashesBloomFilter);
+}
+inline bool GlobalNamespace::MultiplayerAvatarsData::get_hasAvatars() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerAvatarsData>(), { "get_hasAvatars", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerAvatarsData GlobalNamespace::MultiplayerAvatarsData::CreateEmpty() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerAvatarsData>(), { "CreateEmpty", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerAvatarsData>(nullptr, ___internal_method);
 }
 inline void GlobalNamespace::MultiplayerAvatarsData::Serialize(::LiteNetLib::Utils::NetDataWriter* writer) {
   static auto* ___internal_method = THROW_UNLESS(

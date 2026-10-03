@@ -29,11 +29,7 @@ class CORDL_TYPE StyleSheetExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method IsVarFunction, addr 0x6d16844, size 0x14, virtual false, abstract: false, final false
-  static inline bool IsVarFunction(::UnityEngine::UIElements::StyleValueHandle handle);
-
-  /// [Extension]
-  /// @brief Method ReadAsString, addr 0x6d132bc, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x71c362c, size 0x344, virtual false, abstract: false, final false
   static inline ::StringW ReadAsString(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleValueHandle handle);
 
 protected:
@@ -51,7 +47,7 @@ public:
   StyleSheetExtensions(StyleSheetExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5467 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5584 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -60,7 +60,7 @@ public:
   constexpr TempMeshAllocatorImpl_ThreadData(::System::Collections::Generic::List_1<::System::IntPtr>* allocations) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5466 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -111,20 +111,20 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline ::Unity::Collections::NativeSlice_1<T> Allocate(int32_t count, int32_t alignment);
 
-  /// @brief Method AllocateTempMesh, addr 0x6cf1b5c, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method AllocateTempMesh, addr 0x71851f0, size 0x298, virtual false, abstract: false, final false
   inline void AllocateTempMesh(int32_t vertexCount, int32_t indexCount, ::by_ref<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertices,
                                ::by_ref<::Unity::Collections::NativeSlice_1<uint16_t>> indices);
 
-  /// @brief Method Clear, addr 0x6cf1dfc, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x7185490, size 0x230, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CreateNativeHandle, addr 0x6cf1b50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateNativeHandle, addr 0x71851e4, size 0xc, virtual false, abstract: false, final false
   inline void CreateNativeHandle(::by_ref<::UnityEngine::UIElements::TempMeshAllocator> allocator);
 
-  /// @brief Method Dispose, addr 0x6cf203c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x71856d0, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6cf20a4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x7185738, size 0xb4, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl* New_ctor();
@@ -159,18 +159,18 @@ public:
 
   constexpr void __cordl_internal_set_m_VertexPool(::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* value);
 
-  /// @brief Method .ctor, addr 0x6cf1964, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7184ff8, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_disposed, addr 0x6cf202c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x71856c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_disposed, addr 0x6cf2034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x71856c8, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -188,7 +188,7 @@ public:
   TempMeshAllocatorImpl(TempMeshAllocatorImpl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5467 };
 
   /// @brief Field m_GCHandle, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::InteropServices::GCHandle ___m_GCHandle;

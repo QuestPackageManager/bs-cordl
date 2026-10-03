@@ -189,7 +189,7 @@ public:
   LightTransformGroup_3(LightTransformGroup_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5916 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6036 };
 
   /// [Space]
   /// [SerializeField]

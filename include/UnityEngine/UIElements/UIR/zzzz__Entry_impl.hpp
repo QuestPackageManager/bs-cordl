@@ -4,18 +4,20 @@
 #include "Unity/Collections/zzzz__NativeSlice_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__EntryFlags_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__EntryType_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Entry_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::Entry.Reset
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::Entry::*)()>(&::UnityEngine::UIElements::UIR::Entry::Reset)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6cd94c8;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x71686d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Entry*>(), { "Reset", {}, {} })));
@@ -27,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::Entry::*)()>(&::UnityEngine::UIElements::UIR::Entry::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cd949c;
+  constexpr static std::size_t addrs = 0x71686a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Entry*>(), { ".ctor", {}, {} })));
@@ -142,6 +144,18 @@ constexpr void UnityEngine::UIElements::UIR::Entry::__cordl_internal_set_materia
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___material = value;
 }
+constexpr ::UnityEngine::MaterialPropertyBlock*& UnityEngine::UIElements::UIR::Entry::__cordl_internal_get_userProps() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___userProps;
+}
+constexpr ::UnityEngine::MaterialPropertyBlock* const& UnityEngine::UIElements::UIR::Entry::__cordl_internal_get_userProps() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___userProps;
+}
+constexpr void UnityEngine::UIElements::UIR::Entry::__cordl_internal_set_userProps(::UnityEngine::MaterialPropertyBlock* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___userProps = value;
+}
 constexpr ::System::Action*& UnityEngine::UIElements::UIR::Entry::__cordl_internal_get_immediateCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___immediateCallback;
@@ -153,6 +167,18 @@ constexpr ::System::Action* const& UnityEngine::UIElements::UIR::Entry::__cordl_
 constexpr void UnityEngine::UIElements::UIR::Entry::__cordl_internal_set_immediateCallback(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___immediateCallback = value;
+}
+constexpr ::UnityEngine::UIElements::TextureId& UnityEngine::UIElements::UIR::Entry::__cordl_internal_get_textureId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___textureId;
+}
+constexpr ::UnityEngine::UIElements::TextureId const& UnityEngine::UIElements::UIR::Entry::__cordl_internal_get_textureId() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___textureId;
+}
+constexpr void UnityEngine::UIElements::UIR::Entry::__cordl_internal_set_textureId(::UnityEngine::UIElements::TextureId value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___textureId = value;
 }
 constexpr ::UnityEngine::UIElements::UIR::Entry*& UnityEngine::UIElements::UIR::Entry::__cordl_internal_get_nextSibling() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

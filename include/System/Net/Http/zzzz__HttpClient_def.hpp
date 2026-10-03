@@ -85,11 +85,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x60dc2f4, size 0x6d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x64f8874, size 0x6d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x60dc9c4, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x64f8f44, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -115,7 +115,7 @@ public:
                                               ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20927 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -187,11 +187,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x60dca44, size 0x588, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x64f8fc4, size 0x588, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x60dd14c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x64f96cc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -213,7 +213,7 @@ public:
                                              ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::StringW> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20272 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20928 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -270,6 +270,8 @@ public:
 
   using _SendAsyncWorker_d__47 = ::System::Net::Http::HttpClient__SendAsyncWorker_d__47;
 
+  __declspec(property(get = get_DefaultRequestHeaders)) ::System::Net::Http::Headers::HttpRequestHeaders* DefaultRequestHeaders;
+
   __declspec(property(get = get_MaxResponseContentBufferSize)) int64_t MaxResponseContentBufferSize;
 
   __declspec(property(put = set_Timeout)) ::System::TimeSpan Timeout;
@@ -295,14 +297,14 @@ public:
   /// @brief Field timeout, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_timeout, put = __cordl_internal_set_timeout)) ::System::TimeSpan timeout;
 
-  /// @brief Method Dispose, addr 0x60db7ec, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x64f7d6c, size 0x80, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetAsync, addr 0x60db8a4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetAsync, addr 0x64f7e24, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* GetAsync(::System::Uri* requestUri, ::System::Net::Http::HttpCompletionOption completionOption);
 
   /// [AsyncStateMachine(typeof(System.Net.Http.HttpClient::<GetStringAsync>d__53))]
-  /// @brief Method GetStringAsync, addr 0x60dc144, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetStringAsync, addr 0x64f86c4, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetStringAsync(::System::Uri* requestUri);
 
   static inline ::System::Net::Http::HttpClient* New_ctor();
@@ -311,24 +313,24 @@ public:
 
   static inline ::System::Net::Http::HttpClient* New_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
-  /// @brief Method PostAsync, addr 0x60dba34, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method PostAsync, addr 0x64f7fb4, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* PostAsync(::System::Uri* requestUri, ::System::Net::Http::HttpContent* content,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SendAsync, addr 0x60dbd98, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x64f8318, size 0xc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SendAsync, addr 0x60db9c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x64f7f40, size 0x74, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Net::Http::HttpCompletionOption completionOption);
 
-  /// @brief Method SendAsync, addr 0x60dbb40, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x64f80c0, size 0x258, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*
   SendAsync(::System::Net::Http::HttpRequestMessage* request, ::System::Net::Http::HttpCompletionOption completionOption, ::System::Threading::CancellationToken cancellationToken);
 
   /// [AsyncStateMachine(typeof(System.Net.Http.HttpClient::<SendAsyncWorker>d__47))]
-  /// @brief Method SendAsyncWorker, addr 0x60dc038, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SendAsyncWorker, addr 0x64f85b8, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*
   SendAsyncWorker(::System::Net::Http::HttpRequestMessage* request, ::System::Net::Http::HttpCompletionOption completionOption, ::System::Threading::CancellationToken cancellationToken);
 
@@ -370,27 +372,30 @@ public:
 
   /// [DebuggerHidden]
   /// [CompilerGenerated]
-  /// @brief Method <>n__0, addr 0x60dc2bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x64f883c, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* __n__0(::System::Net::Http::HttpRequestMessage* request,
                                                                                                ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method .ctor, addr 0x60db4fc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f79b4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x60db634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f7aec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMessageHandler* handler);
 
-  /// @brief Method .ctor, addr 0x60db56c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f7a24, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
   static inline ::System::TimeSpan getStaticF_TimeoutDefault();
 
-  /// @brief Method get_MaxResponseContentBufferSize, addr 0x60db69c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultRequestHeaders, addr 0x64f7b54, size 0x64, virtual false, abstract: false, final false
+  inline ::System::Net::Http::Headers::HttpRequestHeaders* get_DefaultRequestHeaders();
+
+  /// @brief Method get_MaxResponseContentBufferSize, addr 0x64f7c1c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_MaxResponseContentBufferSize();
 
   static inline void setStaticF_TimeoutDefault(::System::TimeSpan value);
 
-  /// @brief Method set_Timeout, addr 0x60db6a4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method set_Timeout, addr 0x64f7c24, size 0x148, virtual false, abstract: false, final false
   inline void set_Timeout(::System::TimeSpan value);
 
 protected:
@@ -408,7 +413,7 @@ public:
   HttpClient(HttpClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20273 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20929 };
 
   /// @brief Field base_address, offset: 0x20, size: 0x8, def value: None
   ::System::Uri* ___base_address;

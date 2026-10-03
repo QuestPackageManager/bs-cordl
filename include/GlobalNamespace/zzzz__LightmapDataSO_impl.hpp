@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::GlobalNamespace::LightmapDataSO::*)()>(&::GlobalNamespace::LightmapDataSO::get_lightmap1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e4648;
+  constexpr static std::size_t addrs = 0x5cff12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightmapDataSO*>(), { "get_lightmap1", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmapDataSO::*)(::UnityEngine::Texture2D*)>(&::GlobalNamespace::LightmapDataSO::set_lightmap1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e4650;
+  constexpr static std::size_t addrs = 0x5cff134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::GlobalNamespace::LightmapDataSO::*)()>(&::GlobalNamespace::LightmapDataSO::get_lightmap2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e4658;
+  constexpr static std::size_t addrs = 0x5cff13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightmapDataSO*>(), { "get_lightmap2", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmapDataSO::*)(::UnityEngine::Texture2D*)>(&::GlobalNamespace::LightmapDataSO::set_lightmap2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e4660;
+  constexpr static std::size_t addrs = 0x5cff144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmapDataSO::*)()>(&::GlobalNamespace::LightmapDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e4668;
+  constexpr static std::size_t addrs = 0x5cff14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightmapDataSO*>(), { ".ctor", {}, {} })));

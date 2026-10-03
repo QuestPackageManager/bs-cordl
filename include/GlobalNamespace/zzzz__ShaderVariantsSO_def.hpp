@@ -69,13 +69,13 @@ public:
 
   constexpr void __cordl_internal_set__passType(::UnityEngine::Rendering::PassType value);
 
-  /// @brief Method .ctor, addr 0x5f4ee40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x636aedc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::PassType passType, ::StringW keywords);
 
-  /// @brief Method get_keywords, addr 0x5f4ee38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keywords, addr 0x636aed4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_keywords();
 
-  /// @brief Method get_passType, addr 0x5f4ee30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_passType, addr 0x636aecc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::PassType get_passType();
 
 protected:
@@ -93,7 +93,7 @@ public:
   ShaderVariant_ShaderVariantsSO_Variant(ShaderVariant_ShaderVariantsSO_Variant const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21184 };
 
   /// [SerializeField]
   /// @brief Field _passType, offset: 0x10, size: 0x4, def value: None
@@ -146,13 +146,13 @@ public:
 
   constexpr void __cordl_internal_set__variants(::ArrayW<::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant*> value);
 
-  /// @brief Method .ctor, addr 0x5f4ee28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x636aec4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Shader* shader, ::ArrayW<::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant*> variants);
 
-  /// @brief Method get_shader, addr 0x5f4ee20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shader, addr 0x636aebc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_shader();
 
-  /// @brief Method get_variants, addr 0x5f4ee18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_variants, addr 0x636aeb4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant*> get_variants();
 
 protected:
@@ -170,7 +170,7 @@ public:
   ShaderVariantsSO_ShaderVariant(ShaderVariantsSO_ShaderVariant const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21185 };
 
   /// [SerializeField]
   /// @brief Field _variants, offset: 0x10, size: 0x8, def value: None
@@ -204,7 +204,7 @@ public:
 
   __declspec(property(get = get_shaderVariants)) ::ArrayW<::GlobalNamespace::ShaderVariantsSO_ShaderVariant*> shaderVariants;
 
-  /// @brief Method Init, addr 0x5f4ee08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x636aea4, size 0x8, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::ShaderVariantsSO_ShaderVariant*> shaderVariants);
 
   static inline ::GlobalNamespace::ShaderVariantsSO* New_ctor();
@@ -215,10 +215,10 @@ public:
 
   constexpr void __cordl_internal_set__shaderVariants(::ArrayW<::GlobalNamespace::ShaderVariantsSO_ShaderVariant*> value);
 
-  /// @brief Method .ctor, addr 0x5f4ee10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x636aeac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_shaderVariants, addr 0x5f4ee00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shaderVariants, addr 0x636ae9c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::ShaderVariantsSO_ShaderVariant*> get_shaderVariants();
 
 protected:
@@ -236,7 +236,7 @@ public:
   ShaderVariantsSO(ShaderVariantsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21186 };
 
   /// [SerializeField]
   /// @brief Field _shaderVariants, offset: 0x18, size: 0x8, def value: None

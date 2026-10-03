@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements::Internal {
 class CORDL_TYPE MultiColumnHeaderColumnIcon : public ::UnityEngine::UIElements::Image {
 public:
   // Declarations
-  /// @brief Field <isImageInline>k__BackingField, offset 0x4eb, size 0x1
+  /// @brief Field <isImageInline>k__BackingField, offset 0x2fb, size 0x1
   __declspec(property(get = __cordl_internal_get__isImageInline_k__BackingField, put = __cordl_internal_set__isImageInline_k__BackingField)) bool _isImageInline_k__BackingField;
 
   __declspec(property(get = get_isImageInline, put = set_isImageInline)) bool isImageInline;
@@ -33,7 +33,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon* New_ctor();
 
-  /// @brief Method UpdateClassList, addr 0x6d2a3d0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method UpdateClassList, addr 0x71dbdac, size 0x17c, virtual false, abstract: false, final false
   inline void UpdateClassList();
 
   constexpr bool const& __cordl_internal_get__isImageInline_k__BackingField() const;
@@ -43,22 +43,22 @@ public:
   constexpr void __cordl_internal_set__isImageInline_k__BackingField(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <.ctor>b__5_0, addr 0x6d2a5c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__5_0, addr 0x71dbfcc, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__5_0(::UnityEngine::UIElements::CustomStyleResolvedEvent* evt);
 
-  /// @brief Method .ctor, addr 0x6d2a2bc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71dbc98, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isImageInline, addr 0x6d2a2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isImageInline, addr 0x71dbc88, size 0x8, virtual false, abstract: false, final false
   inline bool get_isImageInline();
 
   static inline void setStaticF_ussClassName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isImageInline, addr 0x6d2a2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isImageInline, addr 0x71dbc90, size 0x8, virtual false, abstract: false, final false
   inline void set_isImageInline(bool value);
 
 protected:
@@ -76,18 +76,18 @@ public:
   MultiColumnHeaderColumnIcon(MultiColumnHeaderColumnIcon const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5523 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5640 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <isImageInline>k__BackingField, offset: 0x4eb, size: 0x1, def value: None
+  /// @brief Field <isImageInline>k__BackingField, offset: 0x2fb, size: 0x1, def value: None
   bool ____isImageInline_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon, ____isImageInline_k__BackingField) == 0x4eb, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon, ____isImageInline_k__BackingField) == 0x2fb, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon) == 0x4f0, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon) == 0x300, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Internal

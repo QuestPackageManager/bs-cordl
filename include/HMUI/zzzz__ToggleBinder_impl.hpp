@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder___c__DisplayClass7_0::*)()>(&::HMUI::ToggleBinder___c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58783a0;
+  constexpr static std::size_t addrs = 0x5c8e5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder___c__DisplayClass7_0*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder___c__DisplayClass7_0::*)(bool)>(&::HMUI::ToggleBinder___c__DisplayClass7_0::_AddBinding_b__0)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x587893c;
+  constexpr static std::size_t addrs = 0x5c8eb48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5877f70;
+  constexpr static std::size_t addrs = 0x5c8e17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { ".ctor", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)(
     ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*)>(&::HMUI::ToggleBinder::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5877ff0;
+  constexpr static std::size_t addrs = 0x5c8e1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::Init)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5877f7c;
+  constexpr static std::size_t addrs = 0x5c8e188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { "Init", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)(
     ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*)>(&::HMUI::ToggleBinder::AddBindings)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5878020;
+  constexpr static std::size_t addrs = 0x5c8e22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)(::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*)>(&::HMUI::ToggleBinder::AddBinding)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x587815c;
+  constexpr static std::size_t addrs = 0x5c8e368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)(::UnityEngine::UI::Toggle*, bool, ::System::Action*)>(&::HMUI::ToggleBinder::AddBinding)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5878240;
+  constexpr static std::size_t addrs = 0x5c8e44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::ClearBindings)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x58783a4;
+  constexpr static std::size_t addrs = 0x5c8e5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { "ClearBindings", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::Disable)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x58785b8;
+  constexpr static std::size_t addrs = 0x5c8e7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { "Disable", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::Enable)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5878778;
+  constexpr static std::size_t addrs = 0x5c8e984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { "Enable", {}, {} })));

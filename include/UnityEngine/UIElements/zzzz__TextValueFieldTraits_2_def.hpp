@@ -98,7 +98,7 @@ public:
   TextValueFieldTraits_2(TextValueFieldTraits_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4345 };
 
   /// @brief Field m_PlaceholderText, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_PlaceholderText;

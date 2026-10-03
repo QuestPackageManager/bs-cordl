@@ -95,11 +95,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x590d1e4, size 0x9d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d27864, size 0x9d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x590dbb4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d28234, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -125,7 +125,7 @@ public:
                                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6841 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -263,12 +263,12 @@ public:
 
   __declspec(property(get = get_transformedBeatmapData, put = set_transformedBeatmapData)) ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData;
 
-  /// @brief Method ApplyDisableUpdateAlwaysConfiguration, addr 0x590d0b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ApplyDisableUpdateAlwaysConfiguration, addr 0x5d27734, size 0x7c, virtual false, abstract: false, final false
   inline void ApplyDisableUpdateAlwaysConfiguration();
 
   /// [NullableContext(1)]
   /// [AsyncStateMachine(typeof(GameplayCoreSceneSetupData::<LoadTransformedBeatmapDataAsync>d__31))]
-  /// @brief Method LoadTransformedBeatmapDataAsync, addr 0x590d130, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LoadTransformedBeatmapDataAsync, addr 0x5d277b0, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadTransformedBeatmapDataAsync();
 
   /// @brief [NullableContext(1)]
@@ -402,7 +402,7 @@ public:
   constexpr void __cordl_internal_set_targetEnvironmentInfo(::UnityW<::GlobalNamespace::EnvironmentInfoSO> value);
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x590ce40, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d274c0, size 0x274, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, /* [Nullable(2)] */ ::GlobalNamespace::PracticeSettings* practiceSettings,
                     ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo, ::GlobalNamespace::EnvironmentInfoSO* originalEnvironmentInfo, ::GlobalNamespace::ColorScheme* colorScheme,
@@ -412,27 +412,27 @@ public:
                     /* [Nullable(2)] */ ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, /* [Nullable(2)] */ ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
   /// [CompilerGenerated]
-  /// @brief Method get_beatmapLevelData, addr 0x590ce20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelData, addr 0x5d274a0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
 
   /// [CompilerGenerated]
-  /// @brief Method get_songAudioClip, addr 0x590ce10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songAudioClip, addr 0x5d27490, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_songAudioClip();
 
   /// [CompilerGenerated]
-  /// @brief Method get_transformedBeatmapData, addr 0x590ce30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transformedBeatmapData, addr 0x5d274b0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
 
   /// [CompilerGenerated]
-  /// @brief Method set_beatmapLevelData, addr 0x590ce28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapLevelData, addr 0x5d274a8, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevelData(::GlobalNamespace::IBeatmapLevelData* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_songAudioClip, addr 0x590ce18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songAudioClip, addr 0x5d27498, size 0x8, virtual false, abstract: false, final false
   inline void set_songAudioClip(::UnityEngine::AudioClip* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_transformedBeatmapData, addr 0x590ce38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_transformedBeatmapData, addr 0x5d274b8, size 0x8, virtual false, abstract: false, final false
   inline void set_transformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
 protected:
@@ -450,7 +450,7 @@ public:
   GameplayCoreSceneSetupData(GameplayCoreSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6723 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6842 };
 
   /// @brief Field beatmapKey, offset: 0x10, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey ___beatmapKey;

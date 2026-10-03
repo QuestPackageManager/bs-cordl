@@ -105,7 +105,7 @@ public:
   static ::UnityEngine::UIElements::StyleSheets::Dimension_Unit const Unitless;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5572 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -134,34 +134,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>*();
 
-  /// @brief Method Equals, addr 0x6d12468, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x71c2a98, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6d12448, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x71c2a78, size 0x20, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleSheets::Dimension other);
 
-  /// @brief Method GetHashCode, addr 0x6d124f4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x71c2b24, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToAngle, addr 0x6d123fc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsAngle, addr 0x71c2c4c, size 0x14, virtual false, abstract: false, final false
+  inline bool IsAngle();
+
+  /// @brief Method IsLength, addr 0x71c2c24, size 0x14, virtual false, abstract: false, final false
+  inline bool IsLength();
+
+  /// @brief Method IsTimeValue, addr 0x71c2c38, size 0x14, virtual false, abstract: false, final false
+  inline bool IsTimeValue();
+
+  /// @brief Method ToAngle, addr 0x71c29d4, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Angle ToAngle();
 
-  /// @brief Method ToLength, addr 0x6d123b4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x71c298c, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length ToLength();
 
-  /// @brief Method ToString, addr 0x6d12524, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x71c2b54, size 0xd0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToTime, addr 0x6d123e8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToTime, addr 0x71c29c0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TimeValue ToTime();
 
-  /// @brief Method .ctor, addr 0x6d123a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71c2980, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::StyleSheets::Dimension_Unit unit);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>* i___System__IEquatable_1___UnityEngine__UIElements__StyleSheets__Dimension_();
 
-  /// @brief Method op_Equality, addr 0x6d12428, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x71c2a58, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleSheets::Dimension lhs, ::UnityEngine::UIElements::StyleSheets::Dimension rhs);
 
   // Ctor Parameters []
@@ -173,7 +182,7 @@ public:
   constexpr Dimension(::UnityEngine::UIElements::StyleSheets::Dimension_Unit unit, float_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5573 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

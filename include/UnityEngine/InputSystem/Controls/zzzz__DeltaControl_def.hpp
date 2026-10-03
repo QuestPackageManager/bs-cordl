@@ -51,7 +51,7 @@ public:
   /// @brief [Preserve]
   __declspec(property(get = get_up, put = set_up)) ::UnityEngine::InputSystem::Controls::AxisControl* up;
 
-  /// @brief Method FinishSetup, addr 0x64fade0, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6923c34, size 0xfc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::DeltaControl* New_ctor();
@@ -80,39 +80,39 @@ public:
 
   constexpr void __cordl_internal_set__up_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x64faf9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6923df0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_down, addr 0x64fadb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_down, addr 0x6923c04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_down();
 
   /// [CompilerGenerated]
-  /// @brief Method get_left, addr 0x64fadc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x6923c14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_left();
 
   /// [CompilerGenerated]
-  /// @brief Method get_right, addr 0x64fadd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x6923c24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_right();
 
   /// [CompilerGenerated]
-  /// @brief Method get_up, addr 0x64fada0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_up, addr 0x6923bf4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_up();
 
   /// [CompilerGenerated]
-  /// @brief Method set_down, addr 0x64fadb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_down, addr 0x6923c0c, size 0x8, virtual false, abstract: false, final false
   inline void set_down(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_left, addr 0x64fadc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_left, addr 0x6923c1c, size 0x8, virtual false, abstract: false, final false
   inline void set_left(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_right, addr 0x64fadd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_right, addr 0x6923c2c, size 0x8, virtual false, abstract: false, final false
   inline void set_right(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_up, addr 0x64fada8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_up, addr 0x6923bfc, size 0x8, virtual false, abstract: false, final false
   inline void set_up(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
 protected:
@@ -130,7 +130,7 @@ public:
   DeltaControl(DeltaControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11089 };
 
   /// [CompilerGenerated]
   /// @brief Field <up>k__BackingField, offset: 0x120, size: 0x8, def value: None

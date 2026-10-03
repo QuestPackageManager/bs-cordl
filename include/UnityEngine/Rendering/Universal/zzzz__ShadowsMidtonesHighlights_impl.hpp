@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights::*)()>(
     &::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights::IsActive)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x687f780;
+  constexpr static std::size_t addrs = 0x6cbec6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights::*)()>(
     &::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687f82c;
+  constexpr static std::size_t addrs = 0x6cbed18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights::*)()>(
     &::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights::_ctor)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x687f834;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x6cbed20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights*>(), { ".ctor", {}, {} })));

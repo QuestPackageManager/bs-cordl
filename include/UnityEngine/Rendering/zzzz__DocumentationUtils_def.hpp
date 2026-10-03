@@ -29,7 +29,7 @@ public:
     requires(::cordl_internals::type_constraint<TEnum, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TEnum> && ::cordl_internals::default_constructor_constraint<TEnum>)
   static inline ::StringW GetHelpURL(TEnum mask);
 
-  /// @brief Method TryGetHelpURL, addr 0x678826c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetHelpURL, addr 0x6ba2f10, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetHelpURL(::System::Type* type, ::by_ref<::StringW> url);
 
 protected:
@@ -47,7 +47,7 @@ public:
   DocumentationUtils(DocumentationUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8941 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

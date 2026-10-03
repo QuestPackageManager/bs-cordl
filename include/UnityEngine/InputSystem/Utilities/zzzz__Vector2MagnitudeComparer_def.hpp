@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>*();
 
-  /// @brief Method Compare, addr 0x6500cd8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x6929fe8, size 0x28, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::Vector2 x, ::UnityEngine::Vector2 y);
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>"
@@ -41,7 +41,7 @@ public:
   constexpr Vector2MagnitudeComparer();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9155 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11121 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

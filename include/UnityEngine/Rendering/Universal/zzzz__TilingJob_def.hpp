@@ -35,84 +35,28 @@ namespace UnityEngine::Rendering::Universal {
 struct InclusiveRange;
 }
 namespace UnityEngine::Rendering::Universal {
-struct TilingJob___c__DisplayClass19_0;
+struct TilingJob___c__DisplayClass20_0;
 }
 namespace UnityEngine::Rendering::Universal {
-struct TilingJob___c__DisplayClass20_0;
+struct TilingJob___c__DisplayClass21_0;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::Universal {
 struct TilingJob;
 }
 namespace UnityEngine::Rendering::Universal {
-struct TilingJob___c__DisplayClass19_0;
+struct TilingJob___c__DisplayClass20_0;
 }
 namespace UnityEngine::Rendering::Universal {
-struct TilingJob___c__DisplayClass20_0;
+struct TilingJob___c__DisplayClass21_0;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::TilingJob);
-MARK_VAL_T(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0);
 MARK_VAL_T(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0);
+MARK_VAL_T(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass21_0);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::TilingJob, "UnityEngine.Rendering.Universal", "TilingJob");
-DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0, "UnityEngine.Rendering.Universal", "TilingJob/<>c__DisplayClass19_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0, "UnityEngine.Rendering.Universal", "TilingJob/<>c__DisplayClass20_0");
-// [CompilerGenerated]
-// Dependencies Unity.Mathematics.float3, UnityEngine.Rendering.VisibleLight
-namespace UnityEngine::Rendering::Universal {
-// Is value type: true
-// CS Name: UnityEngine.Rendering.Universal.TilingJob/<>c__DisplayClass19_0
-struct CORDL_TYPE TilingJob___c__DisplayClass19_0 {
-public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TilingJob___c__DisplayClass19_0();
-
-  // Ctor Parameters [CppParam { name: "light", ty: "::UnityEngine::Rendering::VisibleLight", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightPositionVS", ty:
-  // "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightDirectionVS", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment:
-  // None }, CppParam { name: "cosHalfAngle", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "coneHeight", ty: "float_t", modifiers: "", def_value: None, comment:
-  // None }]
-  constexpr TilingJob___c__DisplayClass19_0(::UnityEngine::Rendering::VisibleLight light, ::Unity::Mathematics::float3 lightPositionVS, ::Unity::Mathematics::float3 lightDirectionVS,
-                                            float_t cosHalfAngle, float_t coneHeight) noexcept;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12981 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x94 };
-
-  /// @brief Field light, offset: 0x0, size: 0x74, def value: None
-  ::UnityEngine::Rendering::VisibleLight light;
-
-  /// @brief Field lightPositionVS, offset: 0x74, size: 0xc, def value: None
-  ::Unity::Mathematics::float3 lightPositionVS;
-
-  /// @brief Field lightDirectionVS, offset: 0x80, size: 0xc, def value: None
-  ::Unity::Mathematics::float3 lightDirectionVS;
-
-  /// @brief Field cosHalfAngle, offset: 0x8c, size: 0x4, def value: None
-  float_t cosHalfAngle;
-
-  /// @brief Field coneHeight, offset: 0x90, size: 0x4, def value: None
-  float_t coneHeight;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0, light) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0, lightPositionVS) == 0x74, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0, lightDirectionVS) == 0x80, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0, cosHalfAngle) == 0x8c, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0, coneHeight) == 0x90, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0) == 0x94, "Size mismatch!");
-
-} // namespace UnityEngine::Rendering::Universal
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass21_0, "UnityEngine.Rendering.Universal", "TilingJob/<>c__DisplayClass21_0");
 // [CompilerGenerated]
 // Dependencies Unity.Mathematics.float3, UnityEngine.Rendering.VisibleLight
 namespace UnityEngine::Rendering::Universal {
@@ -125,42 +69,98 @@ public:
   // @brief default ctor
   constexpr TilingJob___c__DisplayClass20_0();
 
-  // Ctor Parameters [CppParam { name: "light", ty: "::UnityEngine::Rendering::VisibleLight", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightPosVS", ty:
-  // "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightDirVS", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment: None
-  // }, CppParam { name: "cosHalfAngle", ty: "float_t", modifiers: "", def_value: None, comment: None }]
-  constexpr TilingJob___c__DisplayClass20_0(::UnityEngine::Rendering::VisibleLight light, ::Unity::Mathematics::float3 lightPosVS, ::Unity::Mathematics::float3 lightDirVS,
-                                            float_t cosHalfAngle) noexcept;
+  // Ctor Parameters [CppParam { name: "light", ty: "::UnityEngine::Rendering::VisibleLight", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightPositionVS", ty:
+  // "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightDirectionVS", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "cosHalfAngle", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "coneHeight", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }]
+  constexpr TilingJob___c__DisplayClass20_0(::UnityEngine::Rendering::VisibleLight light, ::Unity::Mathematics::float3 lightPositionVS, ::Unity::Mathematics::float3 lightDirectionVS,
+                                            float_t cosHalfAngle, float_t coneHeight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13223 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };
 
-  /// @brief Field light, offset: 0x0, size: 0x74, def value: None
+  /// @brief Field light, offset: 0x0, size: 0x80, def value: None
   ::UnityEngine::Rendering::VisibleLight light;
 
-  /// @brief Field lightPosVS, offset: 0x74, size: 0xc, def value: None
-  ::Unity::Mathematics::float3 lightPosVS;
+  /// @brief Field lightPositionVS, offset: 0x80, size: 0xc, def value: None
+  ::Unity::Mathematics::float3 lightPositionVS;
 
-  /// @brief Field lightDirVS, offset: 0x80, size: 0xc, def value: None
-  ::Unity::Mathematics::float3 lightDirVS;
+  /// @brief Field lightDirectionVS, offset: 0x8c, size: 0xc, def value: None
+  ::Unity::Mathematics::float3 lightDirectionVS;
 
-  /// @brief Field cosHalfAngle, offset: 0x8c, size: 0x4, def value: None
+  /// @brief Field cosHalfAngle, offset: 0x98, size: 0x4, def value: None
   float_t cosHalfAngle;
+
+  /// @brief Field coneHeight, offset: 0x9c, size: 0x4, def value: None
+  float_t coneHeight;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0, light) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0, lightPosVS) == 0x74, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0, lightPositionVS) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0, lightDirVS) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0, lightDirectionVS) == 0x8c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0, cosHalfAngle) == 0x8c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0, cosHalfAngle) == 0x98, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0) == 0x90, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0, coneHeight) == 0x9c, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0) == 0xa0, "Size mismatch!");
+
+} // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
+// Dependencies Unity.Mathematics.float3, UnityEngine.Rendering.VisibleLight
+namespace UnityEngine::Rendering::Universal {
+// Is value type: true
+// CS Name: UnityEngine.Rendering.Universal.TilingJob/<>c__DisplayClass21_0
+struct CORDL_TYPE TilingJob___c__DisplayClass21_0 {
+public:
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TilingJob___c__DisplayClass21_0();
+
+  // Ctor Parameters [CppParam { name: "light", ty: "::UnityEngine::Rendering::VisibleLight", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightPosVS", ty:
+  // "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightDirVS", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "cosHalfAngle", ty: "float_t", modifiers: "", def_value: None, comment: None }]
+  constexpr TilingJob___c__DisplayClass21_0(::UnityEngine::Rendering::VisibleLight light, ::Unity::Mathematics::float3 lightPosVS, ::Unity::Mathematics::float3 lightDirVS,
+                                            float_t cosHalfAngle) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13224 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x9c };
+
+  /// @brief Field light, offset: 0x0, size: 0x80, def value: None
+  ::UnityEngine::Rendering::VisibleLight light;
+
+  /// @brief Field lightPosVS, offset: 0x80, size: 0xc, def value: None
+  ::Unity::Mathematics::float3 lightPosVS;
+
+  /// @brief Field lightDirVS, offset: 0x8c, size: 0xc, def value: None
+  ::Unity::Mathematics::float3 lightDirVS;
+
+  /// @brief Field cosHalfAngle, offset: 0x98, size: 0x4, def value: None
+  float_t cosHalfAngle;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass21_0, light) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass21_0, lightPosVS) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass21_0, lightDirVS) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass21_0, cosHalfAngle) == 0x98, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass21_0) == 0x9c, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
 // [BurstCompile(FloatMode = (Unity.Burst.FloatMode)0, DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
@@ -172,9 +172,9 @@ namespace UnityEngine::Rendering::Universal {
 struct CORDL_TYPE TilingJob {
 public:
   // Declarations
-  using __c__DisplayClass19_0 = ::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0;
-
   using __c__DisplayClass20_0 = ::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0;
+
+  using __c__DisplayClass21_0 = ::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass21_0;
 
   /// @brief Field k_CubeLineIndices, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_CubeLineIndices, put = setStaticF_k_CubeLineIndices)) ::ArrayW<::Unity::Mathematics::int4> k_CubeLineIndices;
@@ -185,87 +185,87 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method EvaluateNearConic, addr 0x68c5e9c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method EvaluateNearConic, addr 0x6cfd400, size 0x1e0, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 EvaluateNearConic(float_t near, ::Unity::Mathematics::float3 o, ::Unity::Mathematics::float3 d, float_t r, ::Unity::Mathematics::float3 u,
                                                                ::Unity::Mathematics::float3 v, float_t theta);
 
-  /// @brief Method Execute, addr 0x68c227c, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6cf970c, size 0x118, virtual true, abstract: false, final true
   inline void Execute(int32_t jobIndex);
 
-  /// @brief Method ExpandOrthographic, addr 0x68c7230, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ExpandOrthographic, addr 0x6cfe794, size 0x11c, virtual false, abstract: false, final false
   inline void ExpandOrthographic(::Unity::Mathematics::float3 positionVS);
 
-  /// @brief Method ExpandRangeOrthographic, addr 0x68c743c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ExpandRangeOrthographic, addr 0x6cfe9a0, size 0xdc, virtual false, abstract: false, final false
   inline void ExpandRangeOrthographic(::by_ref<::UnityEngine::Rendering::Universal::InclusiveRange> range, float_t xVS);
 
-  /// @brief Method ExpandY, addr 0x68c5368, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ExpandY, addr 0x6cfc8cc, size 0x11c, virtual false, abstract: false, final false
   inline void ExpandY(::Unity::Mathematics::float3 positionVS);
 
-  /// @brief Method FindNearConicTangentTheta, addr 0x68c5c14, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method FindNearConicTangentTheta, addr 0x6cfd178, size 0x288, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float2 FindNearConicTangentTheta(::Unity::Mathematics::float2 o, ::Unity::Mathematics::float2 d, float_t r, ::Unity::Mathematics::float2 u,
                                                                        ::Unity::Mathematics::float2 v);
 
-  /// @brief Method FindNearConicYTheta, addr 0x68c69a8, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method FindNearConicYTheta, addr 0x6cfdf0c, size 0x478, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float2 FindNearConicYTheta(float_t near, ::Unity::Mathematics::float3 o, ::Unity::Mathematics::float3 d, float_t r, ::Unity::Mathematics::float3 u,
                                                                  ::Unity::Mathematics::float3 v, float_t y);
 
-  /// @brief Method GetCircleClipPoints, addr 0x68c5a00, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method GetCircleClipPoints, addr 0x6cfcf64, size 0x214, virtual false, abstract: false, final false
   static inline bool GetCircleClipPoints(::Unity::Mathematics::float3 circleCenter, ::Unity::Mathematics::float3 circleNormal, float_t circleRadius, float_t near,
                                          ::by_ref<::Unity::Mathematics::float3> p0, ::by_ref<::Unity::Mathematics::float3> p1);
 
-  /// @brief Method GetConeSideTangentPoints, addr 0x68c619c, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method GetConeSideTangentPoints, addr 0x6cfd700, size 0x4e4, virtual false, abstract: false, final false
   static inline void GetConeSideTangentPoints(::Unity::Mathematics::float3 vertex, ::Unity::Mathematics::float3 axis, float_t cosHalfAngle, float_t circleRadius, float_t coneHeight, float_t range,
                                               ::Unity::Mathematics::float3 circleU, ::Unity::Mathematics::float3 circleV, ::by_ref<::Unity::Mathematics::float3> l1,
                                               ::by_ref<::Unity::Mathematics::float3> l2);
 
-  /// @brief Method GetProjectedCircleHorizon, addr 0x68c57f0, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method GetProjectedCircleHorizon, addr 0x6cfcd54, size 0x210, virtual false, abstract: false, final false
   static inline void GetProjectedCircleHorizon(::Unity::Mathematics::float2 center, float_t radius, ::Unity::Mathematics::float2 U, ::Unity::Mathematics::float2 V,
                                                ::by_ref<::Unity::Mathematics::float2> uv1, ::by_ref<::Unity::Mathematics::float2> uv2);
 
-  /// @brief Method GetSphereHorizon, addr 0x68c548c, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method GetSphereHorizon, addr 0x6cfc9f0, size 0x274, virtual false, abstract: false, final false
   static inline void GetSphereHorizon(::Unity::Mathematics::float2 center, float_t radius, float_t near, float_t clipRadius, ::by_ref<::Unity::Mathematics::float2> p0,
                                       ::by_ref<::Unity::Mathematics::float2> p1);
 
-  /// @brief Method GetSphereYPlaneHorizon, addr 0x68c6e20, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method GetSphereYPlaneHorizon, addr 0x6cfe384, size 0x410, virtual false, abstract: false, final false
   static inline void GetSphereYPlaneHorizon(::Unity::Mathematics::float3 center, float_t sphereRadius, float_t near, float_t clipRadius, float_t y, ::by_ref<::Unity::Mathematics::float3> left,
                                             ::by_ref<::Unity::Mathematics::float3> right);
 
-  /// @brief Method IntersectCircleYPlane, addr 0x68c6704, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method IntersectCircleYPlane, addr 0x6cfdc68, size 0x2a4, virtual false, abstract: false, final false
   static inline bool IntersectCircleYPlane(float_t y, ::Unity::Mathematics::float3 circleCenter, ::Unity::Mathematics::float3 circleNormal, ::Unity::Mathematics::float3 circleU,
                                            ::Unity::Mathematics::float3 circleV, float_t circleRadius, ::by_ref<::Unity::Mathematics::float3> p1, ::by_ref<::Unity::Mathematics::float3> p2);
 
-  /// @brief Method IntersectEllipseLine, addr 0x68c758c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method IntersectEllipseLine, addr 0x6cfeaf0, size 0x160, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<float_t, float_t> IntersectEllipseLine(float_t a, float_t b, ::Unity::Mathematics::float3 line);
 
-  /// @brief Method TileLight, addr 0x68c2ffc, size 0x1b90, virtual false, abstract: false, final false
+  /// @brief Method TileLight, addr 0x6cfa484, size 0x1b90, virtual false, abstract: false, final false
   inline void TileLight(int32_t lightIndex);
 
-  /// @brief Method TileLightOrthographic, addr 0x68c2394, size 0xc68, virtual false, abstract: false, final false
+  /// @brief Method TileLightOrthographic, addr 0x6cf9824, size 0xc60, virtual false, abstract: false, final false
   inline void TileLightOrthographic(int32_t lightIndex);
 
-  /// @brief Method TileReflectionProbe, addr 0x68c4b8c, size 0x7dc, virtual false, abstract: false, final false
+  /// @brief Method TileReflectionProbe, addr 0x6cfc014, size 0x8b8, virtual false, abstract: false, final false
   inline void TileReflectionProbe(int32_t index);
 
-  /// @brief Method ViewToTileSpace, addr 0x68c6680, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ViewToTileSpace, addr 0x6cfdbe4, size 0x84, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 ViewToTileSpace(::Unity::Mathematics::float3 positionVS);
 
-  /// @brief Method ViewToTileSpaceOrthographic, addr 0x68c7518, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ViewToTileSpaceOrthographic, addr 0x6cfea7c, size 0x74, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 ViewToTileSpaceOrthographic(::Unity::Mathematics::float3 positionVS);
 
   /// [CompilerGenerated]
-  /// @brief Method <TileLightOrthographic>g__SpherePointIsValid|20_0, addr 0x68c734c, size 0xf0, virtual false, abstract: false, final false
-  static inline bool _TileLightOrthographic_g__SpherePointIsValid_20_0(::Unity::Mathematics::float3 p,
-                                                                       ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0> _cordl_fixed_empty_name_whitespace);
+  /// @brief Method <TileLightOrthographic>g__SpherePointIsValid|21_0, addr 0x6cfe8b0, size 0xf0, virtual false, abstract: false, final false
+  static inline bool _TileLightOrthographic_g__SpherePointIsValid_21_0(::Unity::Mathematics::float3 p,
+                                                                       ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass21_0> _cordl_fixed_empty_name_whitespace);
 
   /// [CompilerGenerated]
-  /// @brief Method <TileLight>g__ConicPointIsValid|19_1, addr 0x68c607c, size 0x120, virtual false, abstract: false, final false
-  static inline bool _TileLight_g__ConicPointIsValid_19_1(::Unity::Mathematics::float3 p,
-                                                          ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0> _cordl_fixed_empty_name_whitespace);
+  /// @brief Method <TileLight>g__ConicPointIsValid|20_1, addr 0x6cfd5e0, size 0x120, virtual false, abstract: false, final false
+  static inline bool _TileLight_g__ConicPointIsValid_20_1(::Unity::Mathematics::float3 p,
+                                                          ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0> _cordl_fixed_empty_name_whitespace);
 
   /// [CompilerGenerated]
-  /// @brief Method <TileLight>g__SpherePointIsValid|19_0, addr 0x68c5700, size 0xf0, virtual false, abstract: false, final false
-  static inline bool _TileLight_g__SpherePointIsValid_19_0(::Unity::Mathematics::float3 p,
-                                                           ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0> _cordl_fixed_empty_name_whitespace);
+  /// @brief Method <TileLight>g__SpherePointIsValid|20_0, addr 0x6cfcc64, size 0xf0, virtual false, abstract: false, final false
+  static inline bool _TileLight_g__SpherePointIsValid_20_0(::Unity::Mathematics::float3 p,
+                                                           ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0> _cordl_fixed_empty_name_whitespace);
 
   static inline ::ArrayW<::Unity::Mathematics::int4> getStaticF_k_CubeLineIndices();
 
@@ -278,7 +278,7 @@ public:
 
   static inline void setStaticF_k_CubePoints(::ArrayW<::Unity::Mathematics::float3> value);
 
-  /// @brief Method square, addr 0x68c5484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method square, addr 0x6cfc9e8, size 0x8, virtual false, abstract: false, final false
   static inline float_t square(float_t x);
 
   // Ctor Parameters []
@@ -286,8 +286,9 @@ public:
   constexpr TilingJob();
 
   // Ctor Parameters [CppParam { name: "lights", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "reflectionProbes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe>", modifiers: "", def_value: None, comment: None }, CppParam { name: "tileRanges",
-  // ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange>", modifiers: "", def_value: None, comment: None }, CppParam { name: "itemsPerTile", ty: "int32_t",
+  // "reflectionProbes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "reflectionProbeRotation", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "tileRanges", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange>", modifiers: "", def_value: None, comment: None }, CppParam { name: "itemsPerTile", ty: "int32_t",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "rangesPerItem", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldToViews", ty:
   // "::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "tileScale", ty: "::Unity::Mathematics::float2",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "tileScaleInv", ty: "::Unity::Mathematics::float2", modifiers: "", def_value: None, comment: None }, CppParam { name:
@@ -299,7 +300,7 @@ public:
   // "m_Offset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ViewIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
   // "m_CenterOffset", ty: "::Unity::Mathematics::float2", modifiers: "", def_value: None, comment: None }]
   constexpr TilingJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> lights,
-                      ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe> reflectionProbes,
+                      ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe> reflectionProbes, bool reflectionProbeRotation,
                       ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange> tileRanges, int32_t itemsPerTile, int32_t rangesPerItem,
                       ::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4> worldToViews, ::Unity::Mathematics::float2 tileScale, ::Unity::Mathematics::float2 tileScaleInv,
                       ::UnityEngine::Rendering::Universal::Fixed2_1<float_t> viewPlaneBottoms, ::UnityEngine::Rendering::Universal::Fixed2_1<float_t> viewPlaneTops,
@@ -307,10 +308,10 @@ public:
                       ::UnityEngine::Rendering::Universal::InclusiveRange m_TileYRange, int32_t m_Offset, int32_t m_ViewIndex, ::Unity::Mathematics::float2 m_CenterOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12983 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13225 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x120 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x128 };
 
   /// [ReadOnly]
   /// @brief Field lights, offset: 0x0, size: 0x10, def value: None
@@ -320,53 +321,57 @@ public:
   /// @brief Field reflectionProbes, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe> reflectionProbes;
 
+  /// [ReadOnly]
+  /// @brief Field reflectionProbeRotation, offset: 0x20, size: 0x1, def value: None
+  bool reflectionProbeRotation;
+
   /// [NativeDisableParallelForRestriction]
-  /// @brief Field tileRanges, offset: 0x20, size: 0x10, def value: None
+  /// @brief Field tileRanges, offset: 0x28, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange> tileRanges;
 
-  /// @brief Field itemsPerTile, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field itemsPerTile, offset: 0x38, size: 0x4, def value: None
   int32_t itemsPerTile;
 
-  /// @brief Field rangesPerItem, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field rangesPerItem, offset: 0x3c, size: 0x4, def value: None
   int32_t rangesPerItem;
 
-  /// @brief Field worldToViews, offset: 0x38, size: 0x80, def value: None
+  /// @brief Field worldToViews, offset: 0x40, size: 0x80, def value: None
   ::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4> worldToViews;
 
-  /// @brief Field tileScale, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field tileScale, offset: 0xc0, size: 0x8, def value: None
   ::Unity::Mathematics::float2 tileScale;
 
-  /// @brief Field tileScaleInv, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field tileScaleInv, offset: 0xc8, size: 0x8, def value: None
   ::Unity::Mathematics::float2 tileScaleInv;
 
-  /// @brief Field viewPlaneBottoms, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field viewPlaneBottoms, offset: 0xd0, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::Fixed2_1<float_t> viewPlaneBottoms;
 
-  /// @brief Field viewPlaneTops, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field viewPlaneTops, offset: 0xd8, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::Fixed2_1<float_t> viewPlaneTops;
 
-  /// @brief Field viewToViewportScaleBiases, offset: 0xd8, size: 0x20, def value: None
+  /// @brief Field viewToViewportScaleBiases, offset: 0xe0, size: 0x20, def value: None
   ::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4> viewToViewportScaleBiases;
 
-  /// @brief Field tileCount, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field tileCount, offset: 0x100, size: 0x8, def value: None
   ::Unity::Mathematics::int2 tileCount;
 
-  /// @brief Field near, offset: 0x100, size: 0x4, def value: None
+  /// @brief Field near, offset: 0x108, size: 0x4, def value: None
   float_t near;
 
-  /// @brief Field isOrthographic, offset: 0x104, size: 0x1, def value: None
+  /// @brief Field isOrthographic, offset: 0x10c, size: 0x1, def value: None
   bool isOrthographic;
 
-  /// @brief Field m_TileYRange, offset: 0x106, size: 0x4, def value: None
+  /// @brief Field m_TileYRange, offset: 0x10e, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::InclusiveRange m_TileYRange;
 
-  /// @brief Field m_Offset, offset: 0x10c, size: 0x4, def value: None
+  /// @brief Field m_Offset, offset: 0x114, size: 0x4, def value: None
   int32_t m_Offset;
 
-  /// @brief Field m_ViewIndex, offset: 0x110, size: 0x4, def value: None
+  /// @brief Field m_ViewIndex, offset: 0x118, size: 0x4, def value: None
   int32_t m_ViewIndex;
 
-  /// @brief Field m_CenterOffset, offset: 0x114, size: 0x8, def value: None
+  /// @brief Field m_CenterOffset, offset: 0x11c, size: 0x8, def value: None
   ::Unity::Mathematics::float2 m_CenterOffset;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -376,38 +381,40 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, lights) =
 
 static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, reflectionProbes) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, tileRanges) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, reflectionProbeRotation) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, itemsPerTile) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, tileRanges) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, rangesPerItem) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, itemsPerTile) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, worldToViews) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, rangesPerItem) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, tileScale) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, worldToViews) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, tileScaleInv) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, tileScale) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, viewPlaneBottoms) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, tileScaleInv) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, viewPlaneTops) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, viewPlaneBottoms) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, viewToViewportScaleBiases) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, viewPlaneTops) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, tileCount) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, viewToViewportScaleBiases) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, near) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, tileCount) == 0x100, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, isOrthographic) == 0x104, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, near) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, m_TileYRange) == 0x106, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, isOrthographic) == 0x10c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, m_Offset) == 0x10c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, m_TileYRange) == 0x10e, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, m_ViewIndex) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, m_Offset) == 0x114, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, m_CenterOffset) == 0x114, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, m_ViewIndex) == 0x118, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::TilingJob) == 0x120, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob, m_CenterOffset) == 0x11c, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::TilingJob) == 0x128, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal

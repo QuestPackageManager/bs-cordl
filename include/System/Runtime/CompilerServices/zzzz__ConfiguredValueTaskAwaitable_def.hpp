@@ -51,19 +51,19 @@ public:
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
   /// [StackTraceHidden]
-  /// @brief Method GetResult, addr 0x5b6fe3c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x5f87d90, size 0x160, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method OnCompleted, addr 0x5b6ff9c, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x5f87ef0, size 0x1a0, virtual true, abstract: false, final true
   inline void OnCompleted(::System::Action* continuation);
 
-  /// @brief Method UnsafeOnCompleted, addr 0x5b70150, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x5f880a4, size 0x1a0, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
-  /// @brief Method .ctor, addr 0x5b6fce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f87c3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
-  /// @brief Method get_IsCompleted, addr 0x5b6fcf0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x5f87c44, size 0x14c, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
@@ -106,10 +106,10 @@ public:
   // Declarations
   using ConfiguredValueTaskAwaiter = ::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter;
 
-  /// @brief Method GetAwaiter, addr 0x5b6fcdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x5f87c30, size 0xc, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter GetAwaiter();
 
-  /// @brief Method .ctor, addr 0x5b6fcd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f87c28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
   // Ctor Parameters []

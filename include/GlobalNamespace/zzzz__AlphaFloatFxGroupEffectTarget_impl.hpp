@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)()>(&::GlobalNamespace::AlphaFloatFxGroupEffectTarget::Awake)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5994ac0;
+  constexpr static std::size_t addrs = 0x5dafaf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlphaFloatFxGroupEffectTarget*>(), { "Awake", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::AlphaFloatFxGroupEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5994b28;
+  constexpr static std::size_t addrs = 0x5dafb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::AlphaFloatFxGroupEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5994c0c;
+  constexpr static std::size_t addrs = 0x5dafc40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)(::UnityEngine::Color)>(&::GlobalNamespace::AlphaFloatFxGroupEffectTarget::SetColor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5994b40;
+  constexpr static std::size_t addrs = 0x5dafb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)()>(&::GlobalNamespace::AlphaFloatFxGroupEffectTarget::InitIfNeeded)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5994af4;
+  constexpr static std::size_t addrs = 0x5dafb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlphaFloatFxGroupEffectTarget*>(), { "InitIfNeeded", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)()>(&::GlobalNamespace::AlphaFloatFxGroupEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5994c24;
+  constexpr static std::size_t addrs = 0x5dafc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlphaFloatFxGroupEffectTarget*>(), { ".ctor", {}, {} })));

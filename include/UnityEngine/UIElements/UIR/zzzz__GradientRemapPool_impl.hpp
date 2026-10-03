@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientRemapPool___c::*)()>(&::UnityEngine::UIElements::UIR::GradientRemapPool___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cf602c;
+  constexpr static std::size_t addrs = 0x718a098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientRemapPool___c*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::GradientRemap* (::UnityEngine::UIElements::UIR::GradientRemapPool___c::*)()>(
     &::UnityEngine::UIElements::UIR::GradientRemapPool___c::__ctor_b__0_0)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6cf6030;
+  constexpr static std::size_t addrs = 0x718a09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientRemapPool___c*>(), { "<.ctor>b__0_0", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientRemapPool___c::*)(::UnityEngine::UIElements::UIR::GradientRemap*)>(
     &::UnityEngine::UIElements::UIR::GradientRemapPool___c::__ctor_b__0_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6cf60e4;
+  constexpr static std::size_t addrs = 0x718a150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientRemapPool___c*>(),
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientRemapPool::*)()>(&::UnityEngine::UIElements::UIR::GradientRemapPool::_ctor)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6cf5e44;
+  constexpr static std::size_t addrs = 0x7189eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientRemapPool*>(), { ".ctor", {}, {} })));

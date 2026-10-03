@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::ShaderPropertyIDAttribute::*)(::StringW, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType)>(
     &::BGLib::UnityExtension::ShaderPropertyIDAttribute::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x332aa20;
+  constexpr static std::size_t addrs = 0x35b3ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

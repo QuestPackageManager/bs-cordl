@@ -7,27 +7,13 @@
 #include "UnityEngine/Rendering/zzzz__IDebugDisplaySettingsData_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IDebugDisplaySettingsPanelDisposable_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IDebugDisplaySettingsQuery_def.hpp"
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel.get_PanelName
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel::*)()>(
-    &::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel::get_PanelName)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x67a2d50;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel*>(), 8 }));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel::*)(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph*)>(
     &::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel::_ctor)> {
-  constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x67a28fc;
+  constexpr static std::size_t size = 0x3a8;
+  constexpr static std::size_t addrs = 0x6bbd38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel*>(),
@@ -35,11 +21,6 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-inline ::StringW UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel::get_PanelName() {
-  auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel*>(), 8 })));
-  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
-}
 inline void UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel::_ctor(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph* _) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph*>() } })));
@@ -55,8 +36,8 @@ constexpr ::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPane
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph::*)()>(&::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph::_ctor)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x67a2728;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x6bbd1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph*>(), { ".ctor", {}, {} })));
@@ -69,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* (::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph::UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x67a28a8;
+  constexpr static std::size_t addrs = 0x6bbd338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,8 +64,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph::get_AreAnySettingsActive)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x67a2bd4;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x6bbd734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -91,23 +91,23 @@ public:
 
   constexpr void __cordl_internal_set__type(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType value);
 
-  /// @brief Method .ctor, addr 0x375fc30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e9310, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataCommon::NoteLineLayer lineLayer, ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType type,
                     ::BeatmapSaveDataCommon::NoteCutDirection cutDirection);
 
-  /// @brief Method get_cutDirection, addr 0x375fc28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutDirection, addr 0x39e9308, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_cutDirection();
 
-  /// @brief Method get_lineIndex, addr 0x375fc10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x39e92f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_lineLayer, addr 0x375fc18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineLayer, addr 0x39e92f8, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteLineLayer get_lineLayer();
 
-  /// @brief Method get_time, addr 0x375fc08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_time, addr 0x39e92e8, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_type, addr 0x375fc20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x39e9300, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType get_type();
 
 protected:
@@ -125,7 +125,7 @@ public:
   NoteData(NoteData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15387 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15628 };
 
   /// [SerializeField]
   /// @brief Field _time, offset: 0x10, size: 0x4, def value: None

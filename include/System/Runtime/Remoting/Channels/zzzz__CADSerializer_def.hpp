@@ -33,19 +33,19 @@ namespace System::Runtime::Remoting::Channels {
 class CORDL_TYPE CADSerializer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DeserializeMessage, addr 0x5b3c5f0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DeserializeMessage, addr 0x5f544e8, size 0x38, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::IMessage* DeserializeMessage(::System::IO::MemoryStream* mem, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method DeserializeObject, addr 0x5b3ca24, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method DeserializeObject, addr 0x5f5491c, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Object* DeserializeObject(::System::IO::MemoryStream* mem);
 
-  /// @brief Method DeserializeObjectSafe, addr 0x5b3c980, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method DeserializeObjectSafe, addr 0x5f54878, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Object* DeserializeObjectSafe(::ArrayW<uint8_t> mem);
 
-  /// @brief Method SerializeMessage, addr 0x5b3c0b4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SerializeMessage, addr 0x5f53fac, size 0x100, virtual false, abstract: false, final false
   static inline ::System::IO::MemoryStream* SerializeMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method SerializeObject, addr 0x5b3cac8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SerializeObject, addr 0x5f549c0, size 0x100, virtual false, abstract: false, final false
   static inline ::System::IO::MemoryStream* SerializeObject(::System::Object* obj);
 
 protected:

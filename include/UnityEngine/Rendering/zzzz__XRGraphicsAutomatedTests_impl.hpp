@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::XRGraphicsAutomatedTests::get_activatedFromCommandLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67cf578;
+  constexpr static std::size_t addrs = 0x6bf0e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,10 +22,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::XRGraphicsAutomatedTests::get_enabled)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67cf580;
+  constexpr static std::size_t addrs = 0x6bf0e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRGraphicsAutomatedTests*>(), { "get_enabled", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::XRGraphicsAutomatedTests.set_enabled
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Rendering::XRGraphicsAutomatedTests::set_enabled)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6bf0ecc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRGraphicsAutomatedTests*>(), { "set_enabled", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -34,8 +47,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Experimental::Rendering::XRLayout*, ::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::XRGraphicsAutomatedTests::OverrideLayout)> {
-  constexpr static std::size_t size = 0x51c;
-  constexpr static std::size_t addrs = 0x67cf5dc;
+  constexpr static std::size_t size = 0x5b8;
+  constexpr static std::size_t addrs = 0x6bf0f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,6 +77,11 @@ inline bool UnityEngine::Rendering::XRGraphicsAutomatedTests::get_activatedFromC
 inline bool UnityEngine::Rendering::XRGraphicsAutomatedTests::get_enabled() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRGraphicsAutomatedTests*>(), { "get_enabled", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
+}
+inline void UnityEngine::Rendering::XRGraphicsAutomatedTests::set_enabled(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRGraphicsAutomatedTests*>(), { "set_enabled", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 inline void UnityEngine::Rendering::XRGraphicsAutomatedTests::OverrideLayout(::UnityEngine::Experimental::Rendering::XRLayout* layout, ::UnityEngine::Camera* camera) {
   static auto* ___internal_method = THROW_UNLESS(

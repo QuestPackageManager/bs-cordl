@@ -14,7 +14,13 @@ namespace System {
 class Array;
 }
 namespace System {
+class Object;
+}
+namespace System {
 template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+class Type;
 }
 namespace UnityEngine {
 template <typename T> class NoAllocHelpers_ListPrivateFieldAccess_1;
@@ -82,7 +88,7 @@ public:
   NoAllocHelpers_ListPrivateFieldAccess_1(NoAllocHelpers_ListPrivateFieldAccess_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9941 };
 
   /// @brief Field _items, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T> ____items;
@@ -97,6 +103,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine
+// [VisibleToOtherModules]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -106,21 +113,26 @@ public:
   // Declarations
   template <typename T> using ListPrivateFieldAccess_1 = ::UnityEngine::NoAllocHelpers_ListPrivateFieldAccess_1<T>;
 
+  /// @brief Method CreateReadOnlySpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::System::ReadOnlySpan_1<T> CreateReadOnlySpan(::System::Collections::Generic::List_1<T>* list);
+
   /// @brief Method EnsureListElemCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void EnsureListElemCount(::System::Collections::Generic::List_1<T>* list, int32_t count);
 
   /// @brief Method ExtractArrayFromList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> ExtractArrayFromList(::System::Collections::Generic::List_1<T>* list);
 
+  /// [RequiredByNativeCode]
+  /// @brief Method PrepareListForNativeFill, addr 0x6f40564, size 0xc0, virtual false, abstract: false, final false
+  static inline ::System::Array* PrepareListForNativeFill(::System::Object* list, ::System::Type* elementType, int32_t newSize);
+
   /// @brief Method ResetListContents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ResetListContents(::System::Collections::Generic::List_1<T>* list, ::System::ReadOnlySpan_1<T> span);
 
   /// @brief Method ResetListSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T>
-    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  static inline void ResetListSize(::System::Collections::Generic::List_1<T>* list, int32_t size);
+  template <typename T> static inline void ResetListSize(::System::Collections::Generic::List_1<T>* list, int32_t size);
 
-  /// @brief Method SafeLength, addr 0x6ae5c90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SafeLength, addr 0x6f40554, size 0x10, virtual false, abstract: false, final false
   static inline int32_t SafeLength(::System::Array* values);
 
   /// @brief Method SafeLength, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -141,7 +153,7 @@ public:
   NoAllocHelpers(NoAllocHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9942 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

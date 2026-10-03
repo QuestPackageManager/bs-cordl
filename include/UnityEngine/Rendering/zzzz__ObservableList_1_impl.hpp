@@ -6,20 +6,34 @@
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Comparison_1_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ListChangedEventHandler_1_def.hpp"
-template <typename T> constexpr ::System::Collections::Generic::IList_1<T>*& UnityEngine::Rendering::ObservableList_1<T>::__cordl_internal_get_m_List() {
+template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& UnityEngine::Rendering::ObservableList_1<T>::__cordl_internal_get_m_List() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_List;
 }
-template <typename T> constexpr ::System::Collections::Generic::IList_1<T>* const& UnityEngine::Rendering::ObservableList_1<T>::__cordl_internal_get_m_List() const {
+template <typename T> constexpr ::System::Collections::Generic::List_1<T>* const& UnityEngine::Rendering::ObservableList_1<T>::__cordl_internal_get_m_List() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_List;
 }
-template <typename T> constexpr void UnityEngine::Rendering::ObservableList_1<T>::__cordl_internal_set_m_List(::System::Collections::Generic::IList_1<T>* value) {
+template <typename T> constexpr void UnityEngine::Rendering::ObservableList_1<T>::__cordl_internal_set_m_List(::System::Collections::Generic::List_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_List = value;
+}
+template <typename T> constexpr ::System::Comparison_1<T>*& UnityEngine::Rendering::ObservableList_1<T>::__cordl_internal_get_m_Comparison() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Comparison;
+}
+template <typename T> constexpr ::System::Comparison_1<T>* const& UnityEngine::Rendering::ObservableList_1<T>::__cordl_internal_get_m_Comparison() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Comparison;
+}
+template <typename T> constexpr void UnityEngine::Rendering::ObservableList_1<T>::__cordl_internal_set_m_Comparison(::System::Comparison_1<T>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Comparison = value;
 }
 template <typename T> constexpr ::UnityEngine::Rendering::ListChangedEventHandler_1<T>*& UnityEngine::Rendering::ObservableList_1<T>::__cordl_internal_get_ItemAdded() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -87,16 +101,16 @@ template <typename T> inline void UnityEngine::Rendering::ObservableList_1<T>::_
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ObservableList_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::Rendering::ObservableList_1<T>::_ctor(int32_t capacity) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ObservableList_1<T>*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, capacity);
+template <typename T> inline void UnityEngine::Rendering::ObservableList_1<T>::_ctor(int32_t capacity, ::System::Comparison_1<T>* comparison) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ObservableList_1<T>*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Comparison_1<T>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, capacity, comparison);
 }
-template <typename T> inline void UnityEngine::Rendering::ObservableList_1<T>::_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection) {
+template <typename T> inline void UnityEngine::Rendering::ObservableList_1<T>::_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection, ::System::Comparison_1<T>* comparison) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ObservableList_1<T>*>(), { ".ctor", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<T>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, collection);
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ObservableList_1<T>*>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<T>*>(), ::i2c::type_of<::System::Comparison_1<T>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, collection, comparison);
 }
 template <typename T> inline void UnityEngine::Rendering::ObservableList_1<T>::OnEvent(::UnityEngine::Rendering::ListChangedEventHandler_1<T>* e, int32_t index, T item) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -161,14 +175,20 @@ template <typename T> inline ::System::Collections::IEnumerator* UnityEngine::Re
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ObservableList_1<T>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+template <typename T> inline void UnityEngine::Rendering::ObservableList_1<T>::Sort() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ObservableList_1<T>*>(), { "Sort", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
 template <typename T> inline ::UnityEngine::Rendering::ObservableList_1<T>* UnityEngine::Rendering::ObservableList_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::ObservableList_1<T>*>());
 }
-template <typename T> inline ::UnityEngine::Rendering::ObservableList_1<T>* UnityEngine::Rendering::ObservableList_1<T>::New_ctor(int32_t capacity) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::ObservableList_1<T>*>(capacity));
+template <typename T> inline ::UnityEngine::Rendering::ObservableList_1<T>* UnityEngine::Rendering::ObservableList_1<T>::New_ctor(int32_t capacity, ::System::Comparison_1<T>* comparison) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::ObservableList_1<T>*>(capacity, comparison));
 }
-template <typename T> inline ::UnityEngine::Rendering::ObservableList_1<T>* UnityEngine::Rendering::ObservableList_1<T>::New_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::ObservableList_1<T>*>(collection));
+template <typename T>
+inline ::UnityEngine::Rendering::ObservableList_1<T>* UnityEngine::Rendering::ObservableList_1<T>::New_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection,
+                                                                                                            ::System::Comparison_1<T>* comparison) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::ObservableList_1<T>*>(collection, comparison));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
 template <typename T> constexpr UnityEngine::Rendering::ObservableList_1<T>::operator ::System::Collections::Generic::IList_1<T>*() noexcept {

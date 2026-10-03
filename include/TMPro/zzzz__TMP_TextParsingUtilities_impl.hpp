@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_TextParsingUtilities* (*)()>(&::TMPro::TMP_TextParsingUtilities::get_instance)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69a6408;
+  constexpr static std::size_t addrs = 0x6dad7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextParsingUtilities*>(), { "get_instance", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::TMPro::TMP_TextParsingUtilities::GetHashCode)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x69a23b4;
+  constexpr static std::size_t addrs = 0x6da9758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::TMPro::TMP_TextParsingUtilities::GetHashCodeCaseSensitive)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x69a64e4;
+  constexpr static std::size_t addrs = 0x6dad898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t)>(&::TMPro::TMP_TextParsingUtilities::ToLowerASCIIFast)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x69a652c;
+  constexpr static std::size_t addrs = 0x6dad8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t)>(&::TMPro::TMP_TextParsingUtilities::ToUpperASCIIFast)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x69a6464;
+  constexpr static std::size_t addrs = 0x6dad818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::TMPro::TMP_TextParsingUtilities::ToUpperASCIIFast)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x69a65ac;
+  constexpr static std::size_t addrs = 0x6dad960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::TMPro::TMP_TextParsingUtilities::ToLowerASCIIFast)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x69a662c;
+  constexpr static std::size_t addrs = 0x6dad9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::TMPro::TMP_TextParsingUtilities::IsHighSurrogate)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69a66ac;
+  constexpr static std::size_t addrs = 0x6dada60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::TMPro::TMP_TextParsingUtilities::IsLowSurrogate)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69a66c0;
+  constexpr static std::size_t addrs = 0x6dada74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::TMPro::TMP_TextParsingUtilities::ConvertToUTF32)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69a66d4;
+  constexpr static std::size_t addrs = 0x6dada88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::TMPro::TMP_TextParsingUtilities::IsDiacriticalMark)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x69a66e8;
+  constexpr static std::size_t addrs = 0x6dada9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,11 +150,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::TMPro::TMP_TextParsingUtilities::IsBaseGlyph)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x69a6728;
+  constexpr static std::size_t addrs = 0x6dadadc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextParsingUtilities*>(), { "IsBaseGlyph", {}, { ::i2c::type_of<uint32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_TextParsingUtilities.IsIgnorableForLigature
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::TMPro::TMP_TextParsingUtilities::IsIgnorableForLigature)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x6dadc0c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextParsingUtilities*>(), { "IsIgnorableForLigature", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
@@ -163,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::TMPro::TMP_TextParsingUtilities::IsEmoji)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x69a6858;
+  constexpr static std::size_t addrs = 0x6dadc40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextParsingUtilities*>(), { "IsEmoji", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -175,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::TMPro::TMP_TextParsingUtilities::IsEmojiPresentationForm)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x69a68e0;
+  constexpr static std::size_t addrs = 0x6dadcc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::TMPro::TMP_TextParsingUtilities::IsHangul)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69a6968;
+  constexpr static std::size_t addrs = 0x6dadd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextParsingUtilities*>(), { "IsHangul", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -199,8 +212,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::TM
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::TMPro::TMP_TextParsingUtilities::IsCJK)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69a69c4;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x6daddac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextParsingUtilities*>(), { "IsCJK", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -212,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_TextParsingUtilities::*)()>(&::TMPro::TMP_TextParsingUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69a6a6c;
+  constexpr static std::size_t addrs = 0x6dadee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextParsingUtilities*>(), { ".ctor", {}, {} })));
@@ -297,6 +310,11 @@ inline bool TMPro::TMP_TextParsingUtilities::IsBaseGlyph(uint32_t c) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextParsingUtilities*>(), { "IsBaseGlyph", {}, { ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline bool TMPro::TMP_TextParsingUtilities::IsIgnorableForLigature(uint32_t cp) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextParsingUtilities*>(), { "IsIgnorableForLigature", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, cp);
 }
 inline bool TMPro::TMP_TextParsingUtilities::IsEmoji(uint32_t c) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextParsingUtilities*>(), { "IsEmoji", {}, { ::i2c::type_of<uint32_t>() } })));

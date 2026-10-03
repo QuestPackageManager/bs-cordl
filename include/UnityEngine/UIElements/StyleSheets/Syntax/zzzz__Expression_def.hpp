@@ -10,6 +10,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__ExpressionType_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
+#include <cmath>
 CORDL_MODULE_EXPORT(Expression)
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct ExpressionType;
@@ -36,8 +37,14 @@ public:
   /// @brief Field dataType, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_dataType, put = __cordl_internal_set_dataType)) ::UnityEngine::UIElements::StyleSheets::Syntax::DataType dataType;
 
-  /// @brief Field keyword, offset 0x30, size 0x8
+  /// @brief Field keyword, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_keyword, put = __cordl_internal_set_keyword)) ::StringW keyword;
+
+  /// @brief Field max, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) float_t max;
+
+  /// @brief Field min, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
 
   /// @brief Field multiplier, offset 0x14, size 0xc
   __declspec(property(get = __cordl_internal_get_multiplier, put = __cordl_internal_set_multiplier)) ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier multiplier;
@@ -62,6 +69,14 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_keyword();
 
+  constexpr float_t const& __cordl_internal_get_max() const;
+
+  constexpr float_t& __cordl_internal_get_max();
+
+  constexpr float_t const& __cordl_internal_get_min() const;
+
+  constexpr float_t& __cordl_internal_get_min();
+
   constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier const& __cordl_internal_get_multiplier() const;
 
   constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier& __cordl_internal_get_multiplier();
@@ -80,13 +95,17 @@ public:
 
   constexpr void __cordl_internal_set_keyword(::StringW value);
 
+  constexpr void __cordl_internal_set_max(float_t value);
+
+  constexpr void __cordl_internal_set_min(float_t value);
+
   constexpr void __cordl_internal_set_multiplier(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier value);
 
   constexpr void __cordl_internal_set_subExpressions(::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*> value);
 
   constexpr void __cordl_internal_set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType value);
 
-  /// @brief Method .ctor, addr 0x6d1ba2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ccef4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type);
 
 protected:
@@ -104,7 +123,7 @@ public:
   Expression(Expression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5592 };
 
   /// @brief Field type, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType ___type;
@@ -121,7 +140,13 @@ public:
   /// @brief Field subExpressions, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*> ___subExpressions;
 
-  /// @brief Field keyword, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field min, offset: 0x30, size: 0x4, def value: None
+  float_t ___min;
+
+  /// @brief Field max, offset: 0x34, size: 0x4, def value: None
+  float_t ___max;
+
+  /// @brief Field keyword, offset: 0x38, size: 0x8, def value: None
   ::StringW ___keyword;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -137,8 +162,12 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::Expressio
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::Expression, ___subExpressions) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::Expression, ___keyword) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::Expression, ___min) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::StyleSheets::Syntax::Expression) == 0x38, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::Expression, ___max) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::Expression, ___keyword) == 0x38, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::StyleSheets::Syntax::Expression) == 0x40, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets::Syntax

@@ -40,21 +40,21 @@ public:
 
   __declspec(property(get = get_styles)) ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* styles;
 
-  /// @brief Method GetStyle, addr 0x69a2940, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetStyle, addr 0x6da9ce4, size 0x8c, virtual false, abstract: false, final false
   inline ::TMPro::TMP_Style* GetStyle(int32_t hashCode);
 
-  /// @brief Method GetStyle, addr 0x69a29cc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetStyle, addr 0x6da9d70, size 0xc0, virtual false, abstract: false, final false
   inline ::TMPro::TMP_Style* GetStyle(::StringW name);
 
-  /// @brief Method LoadStyleDictionaryInternal, addr 0x69a25d4, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method LoadStyleDictionaryInternal, addr 0x6da9978, size 0x36c, virtual false, abstract: false, final false
   inline void LoadStyleDictionaryInternal();
 
   static inline ::TMPro::TMP_StyleSheet* New_ctor();
 
-  /// @brief Method RefreshStyles, addr 0x69a2a8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RefreshStyles, addr 0x6da9e30, size 0x4, virtual false, abstract: false, final false
   inline void RefreshStyles();
 
-  /// @brief Method Reset, addr 0x69a25d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6da9974, size 0x4, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* const& __cordl_internal_get_m_StyleList() const;
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_m_StyleLookupDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>* value);
 
-  /// @brief Method .ctor, addr 0x69a2a90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da9e34, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_styles, addr 0x69a25c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styles, addr 0x6da996c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* get_styles();
 
 protected:
@@ -90,7 +90,7 @@ public:
   TMP_StyleSheet(TMP_StyleSheet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15985 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16202 };
 
   /// [SerializeField]
   /// @brief Field m_StyleList, offset: 0x18, size: 0x8, def value: None

@@ -68,7 +68,7 @@ public:
   static ::UnityEngine::Scripting::GarbageCollector_Mode const Manual;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10479 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10069 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -97,18 +97,18 @@ public:
   /// @brief Field GCModeChanged, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_GCModeChanged, put = setStaticF_GCModeChanged)) ::System::Action_1<::UnityEngine::Scripting::GarbageCollector_Mode>* GCModeChanged;
 
-  /// @brief Method GetMode, addr 0x6aff0bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMode, addr 0x6f5a29c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Scripting::GarbageCollector_Mode GetMode();
 
   /// [NativeThrows]
-  /// @brief Method SetMode, addr 0x6aff0e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetMode, addr 0x6f5a2c4, size 0x3c, virtual false, abstract: false, final false
   static inline void SetMode(::UnityEngine::Scripting::GarbageCollector_Mode mode);
 
   static inline ::System::Action_1<::UnityEngine::Scripting::GarbageCollector_Mode>* getStaticF_GCModeChanged();
 
   static inline void setStaticF_GCModeChanged(::System::Action_1<::UnityEngine::Scripting::GarbageCollector_Mode>* value);
 
-  /// @brief Method set_GCMode, addr 0x6afeffc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_GCMode, addr 0x6f5a1dc, size 0xc0, virtual false, abstract: false, final false
   static inline void set_GCMode(::UnityEngine::Scripting::GarbageCollector_Mode value);
 
 protected:
@@ -126,7 +126,7 @@ public:
   GarbageCollector(GarbageCollector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10480 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10070 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

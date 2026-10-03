@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VertexPath::*)()>(&::GlobalNamespace::VertexPath::get_length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5904abc;
+  constexpr static std::size_t addrs = 0x5d1f0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VertexPath*>(), { "get_length", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VertexPath::*)(int32_t)>(&::GlobalNamespace::VertexPath::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5904538;
+  constexpr static std::size_t addrs = 0x5d1eb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VertexPath*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -43,8 +43,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VertexPath::*)(::GlobalNamespace::BezierPath*)>(&::GlobalNamespace::VertexPath::UpdateByBezierPath)> {
-  constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x590461c;
+  constexpr static std::size_t size = 0x4a0;
+  constexpr static std::size_t addrs = 0x5d1ec38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VertexPath::*)(int32_t)>(&::GlobalNamespace::VertexPath::TimeAtPoint)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5905030;
+  constexpr static std::size_t addrs = 0x5d1f654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VertexPath*>(), { "TimeAtPoint", {}, { ::i2c::type_of<int32_t>() } })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VertexPath::*)(int32_t, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>,
                                                                                                ::by_ref<::UnityEngine::Vector3>)>(&::GlobalNamespace::VertexPath::GetVertex)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5905068;
+  constexpr static std::size_t addrs = 0x5d1f68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VertexPath::*)(int32_t)>(&::GlobalNamespace::VertexPath::GetPoint)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59050c8;
+  constexpr static std::size_t addrs = 0x5d1f6ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VertexPath*>(), { "GetPoint", {}, { ::i2c::type_of<int32_t>() } })));
@@ -99,8 +99,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VertexPath::*)(::GlobalNamespace::BezierPath*, int32_t)>(
     &::GlobalNamespace::VertexPath::SplitBezierPathIntoFixNumberOfSegments)> {
-  constexpr static std::size_t size = 0x56c;
-  constexpr static std::size_t addrs = 0x5904ac4;
+  constexpr static std::size_t size = 0x558;
+  constexpr static std::size_t addrs = 0x5d1f0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,8 +115,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VertexPath::*)(
     ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, float_t, ::by_ref<::UnityEngine::Vector3>,
     ::by_ref<float_t>, ::by_ref<::GlobalNamespace::VertexPath_Vertex>, ::by_ref<int32_t>)>(&::GlobalNamespace::VertexPath::AddVertex)> {
-  constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x5905100;
+  constexpr static std::size_t size = 0x56c;
+  constexpr static std::size_t addrs = 0x5d1f724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

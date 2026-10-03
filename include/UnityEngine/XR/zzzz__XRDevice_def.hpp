@@ -9,14 +9,8 @@ CORDL_MODULE_EXPORT(XRDevice)
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System {
-struct IntPtr;
-}
 namespace UnityEngine::XR {
 struct TrackingSpaceType;
-}
-namespace UnityEngine {
-class Camera;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -25,6 +19,7 @@ class XRDevice;
 // Write type traits
 MARK_REF_T(::UnityEngine::XR::XRDevice*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::XRDevice*, "UnityEngine.XR", "XRDevice");
+// [Obsolete("UnityEngine.VRModule is deprecated and will be removed in a future version. Please use the APIs in the UnityEngine.XRModule instead")]
 // [NativeConditional("ENABLE_VR")]
 // Dependencies System.Object
 namespace UnityEngine::XR {
@@ -36,21 +31,13 @@ public:
   /// @brief Field deviceLoaded, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_deviceLoaded, put = setStaticF_deviceLoaded)) ::System::Action_1<::StringW>* deviceLoaded;
 
-  /// [NativeName("DisableAutoVRCameraTracking")]
-  /// [StaticAccessor("GetIVRDevice()", (UnityEngine.Bindings.StaticAccessorType)3)]
-  /// @brief Method DisableAutoXRCameraTracking, addr 0x6e367e4, size 0xb4, virtual false, abstract: false, final false
-  static inline void DisableAutoXRCameraTracking(/* [NotNull] */ ::UnityEngine::Camera* camera, bool disabled);
-
-  /// @brief Method DisableAutoXRCameraTracking_Injected, addr 0x6e36898, size 0x44, virtual false, abstract: false, final false
-  static inline void DisableAutoXRCameraTracking_Injected(::System::IntPtr camera, bool disabled);
-
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeDeviceLoaded, addr 0x6e368dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InvokeDeviceLoaded, addr 0x72d2190, size 0x70, virtual false, abstract: false, final false
   static inline void InvokeDeviceLoaded(::StringW loadedDeviceName);
 
-  /// [StaticAccessor("GetIVRDevice()", (UnityEngine.Bindings.StaticAccessorType)3)]
   /// [Obsolete("This is obsolete, and should no longer be used.  Please use XRInputSubsystem.TrySetTrackingOriginMode.")]
-  /// @brief Method SetTrackingSpaceType, addr 0x6e367a8, size 0x3c, virtual false, abstract: false, final false
+  /// [StaticAccessor("GetIVRDevice()", (UnityEngine.Bindings.StaticAccessorType)3)]
+  /// @brief Method SetTrackingSpaceType, addr 0x72d2154, size 0x3c, virtual false, abstract: false, final false
   static inline bool SetTrackingSpaceType(::UnityEngine::XR::TrackingSpaceType trackingSpaceType);
 
   static inline ::System::Action_1<::StringW>* getStaticF_deviceLoaded();
@@ -72,7 +59,7 @@ public:
   XRDevice(XRDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23848 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

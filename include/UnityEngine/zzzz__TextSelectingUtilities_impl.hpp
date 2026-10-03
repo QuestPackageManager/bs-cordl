@@ -3,11 +3,15 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__TextEditor_impl.hpp"
 #include "UnityEngine/zzzz__TextSelectingUtilities_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElementInfo_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextHandle_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/zzzz__EventModifiers_def.hpp"
+#include "UnityEngine/zzzz__KeyCode_def.hpp"
+#include "UnityEngine/zzzz__TextEditingUtilities_def.hpp"
 #include "UnityEngine/zzzz__TextEditor_def.hpp"
 #include "UnityEngine/zzzz__TextSelectOp_def.hpp"
 #include "UnityEngine/zzzz__TextSelectingUtilities_def.hpp"
@@ -36,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_hasSelection)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6b51c14;
+  constexpr static std::size_t addrs = 0x6fb3c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "get_hasSelection", {}, {} })));
@@ -48,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_revealCursor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b55e74;
+  constexpr static std::size_t addrs = 0x6fb3d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "get_revealCursor", {}, {} })));
@@ -60,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(bool)>(&::UnityEngine::TextSelectingUtilities::set_revealCursor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6b51c84;
+  constexpr static std::size_t addrs = 0x6fb3d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_m_CharacterCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b55e7c;
+  constexpr static std::size_t addrs = 0x6fb3d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "get_m_CharacterCount", {}, {} })));
@@ -85,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_characterCount)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6b55e94;
+  constexpr static std::size_t addrs = 0x6fb3d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "get_characterCount", {}, {} })));
@@ -98,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo> (::UnityEngine::TextSelectingUtilities::*)()>(
     &::UnityEngine::TextSelectingUtilities::get_m_TextElementInfos)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b55f68;
+  constexpr static std::size_t addrs = 0x6fb3e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "get_m_TextElementInfos", {}, {} })));
@@ -110,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_cursorIndex)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6b51cfc;
+  constexpr static std::size_t addrs = 0x6fb3c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "get_cursorIndex", {}, {} })));
@@ -122,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::set_cursorIndex)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6b51d90;
+  constexpr static std::size_t addrs = 0x6fb3e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_cursorIndexNoValidation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b51dd4;
+  constexpr static std::size_t addrs = 0x6fb3c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "get_cursorIndexNoValidation", {}, {} })));
@@ -147,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::set_cursorIndexNoValidation)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6b51e18;
+  constexpr static std::size_t addrs = 0x6fb3e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::SetCursorIndexWithoutNotify)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b55fb4;
+  constexpr static std::size_t addrs = 0x6fb3ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_selectIndex)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6b51ef4;
+  constexpr static std::size_t addrs = 0x6fb3ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "get_selectIndex", {}, {} })));
@@ -185,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::set_selectIndex)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6b51f88;
+  constexpr static std::size_t addrs = 0x6fb3ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::set_selectIndexNoValidation)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6b51e80;
+  constexpr static std::size_t addrs = 0x6fb3f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::SetSelectIndexWithoutNotify)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b55fbc;
+  constexpr static std::size_t addrs = 0x6fb3efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_selectedText)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6b55fc4;
+  constexpr static std::size_t addrs = 0x6fb3f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "get_selectedText", {}, {} })));
@@ -236,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(::UnityEngine::TextCore::Text::TextHandle*)>(&::UnityEngine::TextSelectingUtilities::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b559d8;
+  constexpr static std::size_t addrs = 0x6fb3698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,13 +251,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Text
 //  Writing Method size for method: ::UnityEngine::TextSelectingUtilities.HandleKeyEvent
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextSelectingUtilities::*)(::UnityEngine::Event*)>(&::UnityEngine::TextSelectingUtilities::HandleKeyEvent)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6b560bc;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextSelectingUtilities::*)(::UnityEngine::KeyCode, ::UnityEngine::EventModifiers)>(
+    &::UnityEngine::TextSelectingUtilities::HandleKeyEvent)> {
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x6fb4028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "HandleKeyEvent", {}, { ::i2c::type_of<::UnityEngine::Event*>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(),
+                                                             { "HandleKeyEvent", {}, { ::i2c::type_of<::UnityEngine::KeyCode>(), ::i2c::type_of<::UnityEngine::EventModifiers>() } })));
     return ___internal_method;
   }
 };
@@ -262,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextSelectingUtilities::*)(::UnityEngine::TextSelectOp)>(&::UnityEngine::TextSelectingUtilities::PerformOperation)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6b566ec;
+  constexpr static std::size_t addrs = 0x6fb433c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -270,29 +276,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Text
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::TextSelectingUtilities.MapKey
+//  Writing Method size for method: ::UnityEngine::TextSelectingUtilities.TextSelectOpFromEnum
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::UnityEngine::TextSelectOp)>(&::UnityEngine::TextSelectingUtilities::MapKey)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6b57558;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::UnityEngine::TextSelectOp> (*)(::UnityEngine::KeyCode, ::UnityEngine::EventModifiers, bool)>(
+    &::UnityEngine::TextSelectingUtilities::TextSelectOpFromEnum)> {
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x6fb410c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MapKey", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::TextSelectOp>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::TextSelectingUtilities.InitKeyActions
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::InitKeyActions)> {
-  constexpr static std::size_t size = 0x508;
-  constexpr static std::size_t addrs = 0x6b561e4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "InitKeyActions", {}, {} })));
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(),
+                                         { "TextSelectOpFromEnum", {}, { ::i2c::type_of<::UnityEngine::KeyCode>(), ::i2c::type_of<::UnityEngine::EventModifiers>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -301,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::ClearCursorPos)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b54e44;
+  constexpr static std::size_t addrs = 0x6fb52dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "ClearCursorPos", {}, {} })));
@@ -313,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(bool)>(&::UnityEngine::TextSelectingUtilities::OnFocus)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6b57600;
+  constexpr static std::size_t addrs = 0x6fb52ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "OnFocus", {}, { ::i2c::type_of<bool>() } })));
@@ -325,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectAll)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6b574ec;
+  constexpr static std::size_t addrs = 0x6fb5228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectAll", {}, {} })));
@@ -337,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectNone)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6b55134;
+  constexpr static std::size_t addrs = 0x6fb5294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectNone", {}, {} })));
@@ -349,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectLeft)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6b568f0;
+  constexpr static std::size_t addrs = 0x6fb4540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectLeft", {}, {} })));
@@ -361,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectRight)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6b569d8;
+  constexpr static std::size_t addrs = 0x6fb4628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectRight", {}, {} })));
@@ -373,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectUp)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b56ac0;
+  constexpr static std::size_t addrs = 0x6fb4710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectUp", {}, {} })));
@@ -385,7 +381,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectDown)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b56b28;
+  constexpr static std::size_t addrs = 0x6fb4778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectDown", {}, {} })));
@@ -397,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectTextEnd)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6b56f28;
+  constexpr static std::size_t addrs = 0x6fb4b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectTextEnd", {}, {} })));
@@ -409,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectTextStart)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b56f00;
+  constexpr static std::size_t addrs = 0x6fb4b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectTextStart", {}, {} })));
@@ -421,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectToStartOfNextWord)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6b56ea8;
+  constexpr static std::size_t addrs = 0x6fb4af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectToStartOfNextWord", {}, {} })));
@@ -433,7 +429,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectToEndOfPreviousWord)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6b56e50;
+  constexpr static std::size_t addrs = 0x6fb4aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectToEndOfPreviousWord", {}, {} })));
@@ -445,7 +441,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectWordRight)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6b56b90;
+  constexpr static std::size_t addrs = 0x6fb47e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectWordRight", {}, {} })));
@@ -457,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectWordLeft)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6b56cf0;
+  constexpr static std::size_t addrs = 0x6fb4940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectWordLeft", {}, {} })));
@@ -468,8 +464,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Text
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectGraphicalLineStart)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6b5743c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6fb50c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectGraphicalLineStart", {}, {} })));
@@ -480,8 +476,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Text
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectGraphicalLineEnd)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6b57494;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6fb512c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectGraphicalLineEnd", {}, {} })));
@@ -493,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectParagraphForward)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6b57120;
+  constexpr static std::size_t addrs = 0x6fb4da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectParagraphForward", {}, {} })));
@@ -505,7 +501,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectParagraphBackward)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6b57290;
+  constexpr static std::size_t addrs = 0x6fb4f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectParagraphBackward", {}, {} })));
@@ -517,7 +513,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectCurrentWord)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6b57908;
+  constexpr static std::size_t addrs = 0x6fb5994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectCurrentWord", {}, {} })));
@@ -529,7 +525,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectCurrentParagraph)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6b57c48;
+  constexpr static std::size_t addrs = 0x6fb5cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "SelectCurrentParagraph", {}, {} })));
@@ -541,7 +537,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveRight)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6b531dc;
+  constexpr static std::size_t addrs = 0x6fb5e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveRight", {}, {} })));
@@ -553,7 +549,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveLeft)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6b530f0;
+  constexpr static std::size_t addrs = 0x6fb5f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveLeft", {}, {} })));
@@ -565,7 +561,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveUp)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6b532d0;
+  constexpr static std::size_t addrs = 0x6fb6048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveUp", {}, {} })));
@@ -577,7 +573,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveDown)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6b533e8;
+  constexpr static std::size_t addrs = 0x6fb6160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveDown", {}, {} })));
@@ -588,8 +584,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Text
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveLineStart)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6b5350c;
+  constexpr static std::size_t size = 0x1c4;
+  constexpr static std::size_t addrs = 0x6fb6284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveLineStart", {}, {} })));
@@ -600,8 +596,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Text
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveLineEnd)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6b53638;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x6fb6448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveLineEnd", {}, {} })));
@@ -612,8 +608,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Text
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveGraphicalLineStart)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6b53f58;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x6fb662c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveGraphicalLineStart", {}, {} })));
@@ -624,8 +620,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Text
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveGraphicalLineEnd)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6b5400c;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x6fb66e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveGraphicalLineEnd", {}, {} })));
@@ -637,7 +633,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveTextStart)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6b53b14;
+  constexpr static std::size_t addrs = 0x6fb67a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveTextStart", {}, {} })));
@@ -649,7 +645,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveTextEnd)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b53b70;
+  constexpr static std::size_t addrs = 0x6fb6800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveTextEnd", {}, {} })));
@@ -661,7 +657,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveParagraphForward)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6b53be8;
+  constexpr static std::size_t addrs = 0x6fb6878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveParagraphForward", {}, {} })));
@@ -673,7 +669,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveParagraphBackward)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x6b53d80;
+  constexpr static std::size_t addrs = 0x6fb6a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveParagraphBackward", {}, {} })));
@@ -685,7 +681,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveWordRight)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6b53784;
+  constexpr static std::size_t addrs = 0x6fb570c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveWordRight", {}, {} })));
@@ -697,7 +693,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveToStartOfNextWord)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6b53890;
+  constexpr static std::size_t addrs = 0x6fb6c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveToStartOfNextWord", {}, {} })));
@@ -709,7 +705,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveToEndOfPreviousWord)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6b5394c;
+  constexpr static std::size_t addrs = 0x6fb6d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveToEndOfPreviousWord", {}, {} })));
@@ -721,7 +717,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveWordLeft)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6b53a08;
+  constexpr static std::size_t addrs = 0x6fb5818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MoveWordLeft", {}, {} })));
@@ -733,7 +729,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(bool)>(&::UnityEngine::TextSelectingUtilities::MouseDragSelectsWholeWords)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b57efc;
+  constexpr static std::size_t addrs = 0x6fb6e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -745,8 +741,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Text
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::ExpandSelectGraphicalLineStart)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6b56f68;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x6fb4bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "ExpandSelectGraphicalLineStart", {}, {} })));
@@ -757,8 +753,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Text
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::ExpandSelectGraphicalLineEnd)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6b57044;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x6fb4cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "ExpandSelectGraphicalLineEnd", {}, {} })));
@@ -771,7 +767,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(::UnityEngine::TextEditor_DblClickSnapping)>(
     &::UnityEngine::TextSelectingUtilities::DblClickSnap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b57f7c;
+  constexpr static std::size_t addrs = 0x6fb6f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -785,7 +781,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(::UnityEngine::Vector2, bool)>(
     &::UnityEngine::TextSelectingUtilities::MoveCursorToPosition_Internal)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6b57f84;
+  constexpr static std::size_t addrs = 0x6fb6f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -799,7 +795,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(::UnityEngine::Vector2)>(&::UnityEngine::TextSelectingUtilities::SelectToPosition)> {
   constexpr static std::size_t size = 0x568;
-  constexpr static std::size_t addrs = 0x6b5801c;
+  constexpr static std::size_t addrs = 0x6fb6fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -812,7 +808,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::FindNextSeperator)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6b57ddc;
+  constexpr static std::size_t addrs = 0x6fb6be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -825,7 +821,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::FindPrevSeperator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6b57e60;
+  constexpr static std::size_t addrs = 0x6fb6de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -838,7 +834,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::FindStartOfNextWord)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x6b54be4;
+  constexpr static std::size_t addrs = 0x6fb53f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -851,7 +847,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::FindEndOfPreviousWord)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6b54ad0;
+  constexpr static std::size_t addrs = 0x6fb55f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -865,7 +861,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t, ::UnityEngine::TextSelectingUtilities_Direction)>(
     &::UnityEngine::TextSelectingUtilities::FindEndOfClassification)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6b57afc;
+  constexpr static std::size_t addrs = 0x6fb5b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -879,7 +875,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::ClampTextIndex)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6b55f90;
+  constexpr static std::size_t addrs = 0x6fb3e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -892,7 +888,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::IndexOfEndOfLine)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6b578c8;
+  constexpr static std::size_t addrs = 0x6fb5954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -905,7 +901,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::PreviousCodePointIndex)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6b54de4;
+  constexpr static std::size_t addrs = 0x6fb5334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -918,7 +914,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::NextCodePointIndex)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6b57648;
+  constexpr static std::size_t addrs = 0x6fb5394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -930,8 +926,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::T
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::GetGraphicalLineStart)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6b576ac;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6fb5924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -943,8 +939,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::T
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::GetGraphicalLineEnd)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6b577b4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6fb593c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -957,7 +953,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::Copy)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6b54fe0;
+  constexpr static std::size_t addrs = 0x6fb5194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "Copy", {}, {} })));
@@ -970,7 +966,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextSelectingUtilities_CharacterType (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::ClassifyChar)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6b58584;
+  constexpr static std::size_t addrs = 0x6fb7508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1146,13 +1142,38 @@ constexpr void UnityEngine::TextSelectingUtilities::__cordl_internal_set_OnRevea
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___OnRevealCursorChange = value;
 }
-inline void UnityEngine::TextSelectingUtilities::setStaticF_s_KeySelectOps(::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextSelectOp>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextSelectOp>*, "s_KeySelectOps", ::UnityEngine::TextSelectingUtilities*>(
-      std::forward<::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextSelectOp>*>(value));
+inline void UnityEngine::TextSelectingUtilities::setStaticF_s_GlobalKeyMappings(
+    ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextSelectOp>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextSelectOp>>*, "s_GlobalKeyMappings",
+                                    ::UnityEngine::TextSelectingUtilities*>(
+      std::forward<::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextSelectOp>>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextSelectOp>* UnityEngine::TextSelectingUtilities::getStaticF_s_KeySelectOps() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextSelectOp>*, "s_KeySelectOps",
-                                           ::UnityEngine::TextSelectingUtilities*>();
+inline ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextSelectOp>>*
+UnityEngine::TextSelectingUtilities::getStaticF_s_GlobalKeyMappings() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextSelectOp>>*,
+                                           "s_GlobalKeyMappings", ::UnityEngine::TextSelectingUtilities*>();
+}
+inline void UnityEngine::TextSelectingUtilities::setStaticF_s_MacKeyMappings(
+    ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextSelectOp>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextSelectOp>>*, "s_MacKeyMappings",
+                                    ::UnityEngine::TextSelectingUtilities*>(
+      std::forward<::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextSelectOp>>*>(value));
+}
+inline ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextSelectOp>>*
+UnityEngine::TextSelectingUtilities::getStaticF_s_MacKeyMappings() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextSelectOp>>*,
+                                           "s_MacKeyMappings", ::UnityEngine::TextSelectingUtilities*>();
+}
+inline void UnityEngine::TextSelectingUtilities::setStaticF_s_WindowsLinuxKeyMappings(
+    ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextSelectOp>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextSelectOp>>*,
+                                    "s_WindowsLinuxKeyMappings", ::UnityEngine::TextSelectingUtilities*>(
+      std::forward<::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextSelectOp>>*>(value));
+}
+inline ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextSelectOp>>*
+UnityEngine::TextSelectingUtilities::getStaticF_s_WindowsLinuxKeyMappings() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextSelectOp>>*,
+                                           "s_WindowsLinuxKeyMappings", ::UnityEngine::TextSelectingUtilities*>();
 }
 inline bool UnityEngine::TextSelectingUtilities::get_hasSelection() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "get_hasSelection", {}, {} })));
@@ -1230,25 +1251,23 @@ inline void UnityEngine::TextSelectingUtilities::_ctor(::UnityEngine::TextCore::
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextHandle*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, textHandle);
 }
-inline bool UnityEngine::TextSelectingUtilities::HandleKeyEvent(::UnityEngine::Event* e) {
+inline bool UnityEngine::TextSelectingUtilities::HandleKeyEvent(::UnityEngine::KeyCode key, ::UnityEngine::EventModifiers modifiers) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "HandleKeyEvent", {}, { ::i2c::type_of<::UnityEngine::Event*>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, e);
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(),
+                                                           { "HandleKeyEvent", {}, { ::i2c::type_of<::UnityEngine::KeyCode>(), ::i2c::type_of<::UnityEngine::EventModifiers>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key, modifiers);
 }
 inline bool UnityEngine::TextSelectingUtilities::PerformOperation(::UnityEngine::TextSelectOp operation) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "PerformOperation", {}, { ::i2c::type_of<::UnityEngine::TextSelectOp>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, operation);
 }
-inline void UnityEngine::TextSelectingUtilities::MapKey(::StringW key, ::UnityEngine::TextSelectOp action) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "MapKey", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::TextSelectOp>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, key, action);
-}
-inline void UnityEngine::TextSelectingUtilities::InitKeyActions() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "InitKeyActions", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+inline ::System::Nullable_1<::UnityEngine::TextSelectOp> UnityEngine::TextSelectingUtilities::TextSelectOpFromEnum(::UnityEngine::KeyCode key, ::UnityEngine::EventModifiers modifiers,
+                                                                                                                   bool IsMacOsFamily) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(),
+                                              { "TextSelectOpFromEnum", {}, { ::i2c::type_of<::UnityEngine::KeyCode>(), ::i2c::type_of<::UnityEngine::EventModifiers>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::UnityEngine::TextSelectOp>>(nullptr, ___internal_method, key, modifiers, IsMacOsFamily);
 }
 inline void UnityEngine::TextSelectingUtilities::ClearCursorPos() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextSelectingUtilities*>(), { "ClearCursorPos", {}, {} })));

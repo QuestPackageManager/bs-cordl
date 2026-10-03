@@ -59,22 +59,22 @@ public:
 
   constexpr void __cordl_internal_set__StubReturnStatement_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bb5f8c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014aec, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW condition);
 
-  /// @brief Method .ctor, addr 0x6bb5f9c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014afc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW condition, ::StringW stubReturnStatement);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Condition, addr 0x6bb5f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Condition, addr 0x7014ad4, size 0x8, virtual false, abstract: false, final false
   inline void set_Condition(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Enabled, addr 0x6bb5f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Enabled, addr 0x7014ae4, size 0x8, virtual false, abstract: false, final false
   inline void set_Enabled(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_StubReturnStatement, addr 0x6bb5f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StubReturnStatement, addr 0x7014adc, size 0x8, virtual false, abstract: false, final false
   inline void set_StubReturnStatement(::StringW value);
 
 protected:
@@ -92,10 +92,10 @@ public:
   NativeConditionalAttribute(NativeConditionalAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23530 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Condition>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Condition_k__BackingField;
 
@@ -104,8 +104,8 @@ public:
   /// @brief Field <StubReturnStatement>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____StubReturnStatement_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Enabled>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____Enabled_k__BackingField;
 

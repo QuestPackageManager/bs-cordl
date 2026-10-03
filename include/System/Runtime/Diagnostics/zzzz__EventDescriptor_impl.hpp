@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::EventDescriptor::*)(int32_t, uint8_t, uint8_t, uint8_t, uint8_t, int32_t, int64_t)>(
     &::System::Runtime::Diagnostics::EventDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6189c5c;
+  constexpr static std::size_t addrs = 0x65b17ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Diagnostics::EventDescriptor::*)()>(&::System::Runtime::Diagnostics::EventDescriptor::get_EventId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6191240;
+  constexpr static std::size_t addrs = 0x65b8d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::EventDescriptor>(), { "get_EventId", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Runtime::Diagnostics::EventDescriptor::*)()>(&::System::Runtime::Diagnostics::EventDescriptor::get_Channel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6191248;
+  constexpr static std::size_t addrs = 0x65b8d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::EventDescriptor>(), { "get_Channel", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Runtime::Diagnostics::EventDescriptor::*)()>(&::System::Runtime::Diagnostics::EventDescriptor::get_Level)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6191250;
+  constexpr static std::size_t addrs = 0x65b8da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::EventDescriptor>(), { "get_Level", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Runtime::Diagnostics::EventDescriptor::*)()>(&::System::Runtime::Diagnostics::EventDescriptor::get_Opcode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6191258;
+  constexpr static std::size_t addrs = 0x65b8da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::EventDescriptor>(), { "get_Opcode", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Runtime::Diagnostics::EventDescriptor::*)()>(&::System::Runtime::Diagnostics::EventDescriptor::get_Keywords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6191260;
+  constexpr static std::size_t addrs = 0x65b8db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::EventDescriptor>(), { "get_Keywords", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Diagnostics::EventDescriptor::*)(::System::Object*)>(&::System::Runtime::Diagnostics::EventDescriptor::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6191268;
+  constexpr static std::size_t addrs = 0x65b8db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Diagnostics::EventDescriptor::*)()>(&::System::Runtime::Diagnostics::EventDescriptor::GetHashCode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x619135c;
+  constexpr static std::size_t addrs = 0x65b8eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Diagnostics::EventDescriptor::*)(::System::Runtime::Diagnostics::EventDescriptor)>(
     &::System::Runtime::Diagnostics::EventDescriptor::Equals)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x61912e8;
+  constexpr static std::size_t addrs = 0x65b8e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

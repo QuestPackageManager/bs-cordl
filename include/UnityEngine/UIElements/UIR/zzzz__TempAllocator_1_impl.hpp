@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UIR/TempAllocator_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TempAllocator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -90,6 +91,12 @@ template <typename T> constexpr bool const& UnityEngine::UIElements::UIR::TempAl
 template <typename T> constexpr void UnityEngine::UIElements::UIR::TempAllocator_1<T>::__cordl_internal_set__disposed_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed_k__BackingField = value;
+}
+template <typename T> inline void UnityEngine::UIElements::UIR::TempAllocator_1<T>::setStaticF_k_MemoryLabel(::Unity::Collections::MemoryLabel value) {
+  ::cordl_internals::setStaticField<::Unity::Collections::MemoryLabel, "k_MemoryLabel", ::UnityEngine::UIElements::UIR::TempAllocator_1<T>*>(std::forward<::Unity::Collections::MemoryLabel>(value));
+}
+template <typename T> inline ::Unity::Collections::MemoryLabel UnityEngine::UIElements::UIR::TempAllocator_1<T>::getStaticF_k_MemoryLabel() {
+  return ::cordl_internals::getStaticField<::Unity::Collections::MemoryLabel, "k_MemoryLabel", ::UnityEngine::UIElements::UIR::TempAllocator_1<T>*>();
 }
 template <typename T> inline void UnityEngine::UIElements::UIR::TempAllocator_1<T>::_ctor(int32_t poolCapacity, int32_t excessMinCapacity, int32_t excessMaxCapacity) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::TempAllocator_1<T>*>(),

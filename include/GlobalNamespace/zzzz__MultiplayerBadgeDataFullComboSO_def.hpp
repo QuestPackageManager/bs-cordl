@@ -38,7 +38,7 @@ public:
   /// @brief Field _weight, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__weight, put = __cordl_internal_set__weight)) float_t _weight;
 
-  /// @brief Method CalculateBadgeData, addr 0x373317c, size 0x434, virtual true, abstract: false, final false
+  /// @brief Method CalculateBadgeData, addr 0x39bc76c, size 0x434, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                           ::GlobalNamespace::PlayerDataModel* playerDataModel, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                           float_t randomMultiplier);
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x37335d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bcbc4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   MultiplayerBadgeDataFullComboSO(MultiplayerBadgeDataFullComboSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15313 };
 
   /// [SerializeField]
   /// @brief Field _weight, offset: 0x30, size: 0x4, def value: None

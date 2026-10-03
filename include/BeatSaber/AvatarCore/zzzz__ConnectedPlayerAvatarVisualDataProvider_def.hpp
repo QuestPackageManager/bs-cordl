@@ -17,6 +17,9 @@ struct MultiplayerAvatarsData;
 namespace System {
 template <typename T> class Action_1;
 }
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
 class ConnectedPlayerAvatarVisualDataProvider;
@@ -31,13 +34,31 @@ namespace BeatSaber::AvatarCore {
 class CORDL_TYPE ConnectedPlayerAvatarVisualDataProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _connectedPlayer, offset 0x10, size 0x8
+  /// @brief Field _connectedPlayer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* _connectedPlayer;
+
+  /// @brief Field _isVisualDataResolved, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__isVisualDataResolved, put = __cordl_internal_set__isVisualDataResolved)) bool _isVisualDataResolved;
 
   __declspec(property(get = get_avatarsData)) ::GlobalNamespace::MultiplayerAvatarsData avatarsData;
 
+  __declspec(property(get = get_isVisualDataResolved)) bool isVisualDataResolved;
+
+  /// @brief Field visualDataDidChangeEvent, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_visualDataDidChangeEvent,
+                      put = __cordl_internal_set_visualDataDidChangeEvent)) ::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>* visualDataDidChangeEvent;
+
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarVisualDataProvider*() noexcept;
+
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method Dispose, addr 0x34f5c1c, size 0xf8, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method HandleAvatarDidChange, addr 0x34f5d14, size 0xe8, virtual false, abstract: false, final false
+  inline void HandleAvatarDidChange(::GlobalNamespace::IBeatSaberConnectedPlayer* player);
 
   static inline ::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider* New_ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
@@ -45,21 +66,41 @@ public:
 
   constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
+  constexpr bool const& __cordl_internal_get__isVisualDataResolved() const;
+
+  constexpr bool& __cordl_internal_get__isVisualDataResolved();
+
+  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>* const& __cordl_internal_get_visualDataDidChangeEvent() const;
+
+  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>*& __cordl_internal_get_visualDataDidChangeEvent();
+
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x326f54c, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__isVisualDataResolved(bool value);
+
+  constexpr void __cordl_internal_set_visualDataDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>* value);
+
+  /// @brief Method .ctor, addr 0x34f5a1c, size 0x200, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
-  /// @brief Method add_visualDataDidChangeEvent, addr 0x326f544, size 0x4, virtual true, abstract: false, final true
+  /// [CompilerGenerated]
+  /// @brief Method add_visualDataDidChangeEvent, addr 0x34f589c, size 0xc0, virtual true, abstract: false, final true
   inline void add_visualDataDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>* value);
 
-  /// @brief Method get_avatarsData, addr 0x326f478, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method get_avatarsData, addr 0x34f57c8, size 0xcc, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_avatarsData();
+
+  /// @brief Method get_isVisualDataResolved, addr 0x34f5894, size 0x8, virtual true, abstract: false, final true
+  inline bool get_isVisualDataResolved();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
   constexpr ::BeatSaber::AvatarCore::IAvatarVisualDataProvider* i___BeatSaber__AvatarCore__IAvatarVisualDataProvider() noexcept;
 
-  /// @brief Method remove_visualDataDidChangeEvent, addr 0x326f548, size 0x4, virtual true, abstract: false, final true
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+  /// [CompilerGenerated]
+  /// @brief Method remove_visualDataDidChangeEvent, addr 0x34f595c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_visualDataDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>* value);
 
 protected:
@@ -77,16 +118,27 @@ public:
   ConnectedPlayerAvatarVisualDataProvider(ConnectedPlayerAvatarVisualDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22375 };
 
-  /// @brief Field _connectedPlayer, offset: 0x10, size: 0x8, def value: None
+  /// [CompilerGenerated]
+  /// @brief Field visualDataDidChangeEvent, offset: 0x10, size: 0x8, def value: None
+  ::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>* ___visualDataDidChangeEvent;
+
+  /// @brief Field _connectedPlayer, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
+
+  /// @brief Field _isVisualDataResolved, offset: 0x20, size: 0x1, def value: None
+  bool ____isVisualDataResolved;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider, ____connectedPlayer) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider, ___visualDataDidChangeEvent) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider) == 0x18, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider, ____connectedPlayer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider, ____isVisualDataResolved) == 0x20, "Offset mismatch!");
+
+static_assert(sizeof(::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider) == 0x28, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore

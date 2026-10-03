@@ -8,8 +8,11 @@
 #include "UnityEngine/UIElements/zzzz__BackgroundRepeat_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundSize_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Background_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FilterFunction_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MaterialDefinition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Ratio_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Rotate_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Scale_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextShadow_def.hpp"
@@ -199,8 +202,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimations::*)(
-    ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, int32_t, int32_t,
-    ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimations::Start)> {
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
+    &::UnityEngine::UIElements::IStylePropertyAnimations::Start)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -214,7 +217,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimations::*)(
-    ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundPosition, ::UnityEngine::UIElements::BackgroundPosition, int32_t, int32_t,
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimations::Start)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
@@ -229,7 +232,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimations::*)(
-    ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundRepeat, ::UnityEngine::UIElements::BackgroundRepeat, int32_t, int32_t,
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundPosition, ::UnityEngine::UIElements::BackgroundPosition, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimations::Start)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
@@ -244,7 +247,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimations::*)(
-    ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, int32_t, int32_t,
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundRepeat, ::UnityEngine::UIElements::BackgroundRepeat, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimations::Start)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
@@ -252,6 +255,52 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(),
                                                                                           { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 15 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimations.Start
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimations::*)(
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, int32_t, int32_t,
+    ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimations::Start)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 16 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimations.Start
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimations::*)(
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*,
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
+    &::UnityEngine::UIElements::IStylePropertyAnimations::Start)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 17 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimations.Start
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimations::*)(
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition, int32_t, int32_t,
+    ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimations::Start)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 18 }));
     return ___internal_method;
   }
 };
@@ -265,7 +314,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 16 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 19 }));
     return ___internal_method;
   }
 };
@@ -279,7 +328,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 17 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 20 }));
     return ___internal_method;
   }
 };
@@ -293,7 +342,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 18 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 21 }));
     return ___internal_method;
   }
 };
@@ -306,7 +355,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 19 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 22 }));
     return ___internal_method;
   }
 };
@@ -320,7 +369,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 20 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 23 }));
     return ___internal_method;
   }
 };
@@ -334,7 +383,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 21 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 24 }));
     return ___internal_method;
   }
 };
@@ -348,7 +397,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 22 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 25 }));
     return ___internal_method;
   }
 };
@@ -362,7 +411,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 23 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 26 }));
     return ___internal_method;
   }
 };
@@ -439,71 +488,92 @@ inline bool UnityEngine::UIElements::IStylePropertyAnimations::Start(::UnityEngi
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, id, from, to, durationMs, delayMs, easingCurve);
 }
+inline bool UnityEngine::UIElements::IStylePropertyAnimations::Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::Ratio from,
+                                                                     ::UnityEngine::UIElements::Ratio to, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 12 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, id, from, to, durationMs, delayMs, easingCurve);
+}
 inline bool UnityEngine::UIElements::IStylePropertyAnimations::Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::TransformOrigin from,
                                                                      ::UnityEngine::UIElements::TransformOrigin to, int32_t durationMs, int32_t delayMs,
                                                                      ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 12 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, id, from, to, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimations::Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::BackgroundPosition from,
                                                                      ::UnityEngine::UIElements::BackgroundPosition to, int32_t durationMs, int32_t delayMs,
                                                                      ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 13 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, id, from, to, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimations::Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::BackgroundRepeat from,
                                                                      ::UnityEngine::UIElements::BackgroundRepeat to, int32_t durationMs, int32_t delayMs,
                                                                      ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 14 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, id, from, to, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimations::Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::BackgroundSize from,
                                                                      ::UnityEngine::UIElements::BackgroundSize to, int32_t durationMs, int32_t delayMs,
                                                                      ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 15 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 16 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, id, from, to, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimations::Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id,
+                                                                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* from,
+                                                                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* to, int32_t durationMs, int32_t delayMs,
+                                                                     ::System::Func_2<float_t, float_t>* easingCurve) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 17 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, id, from, to, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimations::Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::MaterialDefinition from,
+                                                                     ::UnityEngine::UIElements::MaterialDefinition to, int32_t durationMs, int32_t delayMs,
+                                                                     ::System::Func_2<float_t, float_t>* easingCurve) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, id, from, to, durationMs, delayMs, easingCurve);
 }
 inline void UnityEngine::UIElements::IStylePropertyAnimations::UpdateAnimation(::UnityEngine::UIElements::StyleSheets::StylePropertyId id) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 16 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 19 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, id);
 }
 inline void UnityEngine::UIElements::IStylePropertyAnimations::GetAllAnimations(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* outPropertyIds) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 17 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 20 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, outPropertyIds);
 }
 inline void UnityEngine::UIElements::IStylePropertyAnimations::CancelAnimation(::UnityEngine::UIElements::StyleSheets::StylePropertyId id) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 18 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 21 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, id);
 }
 inline void UnityEngine::UIElements::IStylePropertyAnimations::CancelAllAnimations() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 19 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 22 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline int32_t UnityEngine::UIElements::IStylePropertyAnimations::get_runningAnimationCount() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 20 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 23 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::IStylePropertyAnimations::set_runningAnimationCount(int32_t value) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 21 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 24 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline int32_t UnityEngine::UIElements::IStylePropertyAnimations::get_completedAnimationCount() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 22 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 25 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::IStylePropertyAnimations::set_completedAnimationCount(int32_t value) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 23 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimations*>(), 26 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }

@@ -57,16 +57,16 @@ public:
 
   constexpr void __cordl_internal_set_overrideLightshowColors(bool value);
 
-  /// @brief Method .ctor, addr 0x32811e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3507aa8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3281204, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3507ac4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW environment, ::StringW colorScheme, bool overrideLightshowColors);
 
-  /// @brief Method get_overrideColorScheme, addr 0x32811c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_overrideColorScheme, addr 0x3507a88, size 0x20, virtual false, abstract: false, final false
   inline bool get_overrideColorScheme();
 
-  /// @brief Method get_overrideEnvironment, addr 0x32811a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_overrideEnvironment, addr 0x3507a68, size 0x20, virtual false, abstract: false, final false
   inline bool get_overrideEnvironment();
 
 protected:
@@ -84,7 +84,7 @@ public:
   GameplayEnvironmentOverride(GameplayEnvironmentOverride const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23821 };
 
   /// @brief Field environment, offset: 0x10, size: 0x8, def value: None
   ::StringW ___environment;

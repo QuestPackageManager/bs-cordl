@@ -15,9 +15,9 @@ struct TextCoreVertex;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::TextCoreVertex);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextCoreVertex, "UnityEngine.TextCore.Text", "TextCoreVertex");
+// [NativeHeader("Modules/TextCoreTextEngine/Native/TextCoreVertex.h")]
 // [UsedByNativeCode("TextCoreVertex")]
 // [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
-// [NativeHeader("Modules/TextCoreTextEngine/Native/TextCoreVertex.h")]
 // Dependencies UnityEngine.Color32, UnityEngine.Vector2, UnityEngine.Vector3
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
@@ -35,7 +35,7 @@ public:
   constexpr TextCoreVertex(::UnityEngine::Vector3 position, ::UnityEngine::Color32 color, ::UnityEngine::Vector2 uv0, ::UnityEngine::Vector2 uv2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17242 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17837 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

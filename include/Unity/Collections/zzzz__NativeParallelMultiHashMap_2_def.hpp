@@ -110,6 +110,9 @@ public:
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(TKey key, TValue item);
 
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Add(TKey key, TValue item, int32_t threadIndexOverride);
+
   /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
@@ -126,7 +129,7 @@ public:
   constexpr NativeParallelMultiHashMap_2_ParallelWriter(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelMultiHashMap_2_ParallelWriter<TKey, TValue> m_Writer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15911 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -296,8 +299,11 @@ public:
   // Ctor Parameters [CppParam { name: "m_MultiHashMapData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelMultiHashMap_2<TKey,TValue>", modifiers: "", def_value: None, comment: None }]
   constexpr NativeParallelMultiHashMap_2(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelMultiHashMap_2<TKey, TValue> m_MultiHashMapData) noexcept;
 
+  /// @brief Field MaxCapacity offset 0xffffffff size 0x4
+  static constexpr int32_t MaxCapacity{ static_cast<int32_t>(0x3fffffff) };
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15915 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -370,7 +376,7 @@ public:
                                                     ::Unity::Collections::NativeParallelMultiHashMapIterator_1<TKey> iterator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15671 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15912 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -452,7 +458,7 @@ public:
   constexpr NativeParallelMultiHashMap_2_KeyValueEnumerator(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15672 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15913 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -570,7 +576,7 @@ public:
   constexpr NativeParallelMultiHashMap_2_ReadOnly(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelMultiHashMap_2<TKey, TValue> m_MultiHashMapData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15914 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

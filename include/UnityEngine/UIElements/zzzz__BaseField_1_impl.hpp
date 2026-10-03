@@ -6,6 +6,7 @@
 #include "UnityEngine/UIElements/zzzz__DispatchMode_impl.hpp"
 #include "UnityEngine/zzzz__PropertyName_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
@@ -22,6 +23,7 @@
 #include "UnityEngine/UIElements/zzzz__Label_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/zzzz__ExpressionEvaluator_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 template <typename TValueType> constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngine::UIElements::BaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_Label() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -100,6 +102,33 @@ template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElemen
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set_m_VisualInput(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_VisualInput = value;
+}
+template <typename TValueType>
+constexpr ::System::Action_1<::UnityEngine::ExpressionEvaluator_Expression*>*& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_expressionEvaluated() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___expressionEvaluated;
+}
+template <typename TValueType>
+constexpr ::System::Action_1<::UnityEngine::ExpressionEvaluator_Expression*>* const& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_expressionEvaluated() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___expressionEvaluated;
+}
+template <typename TValueType>
+constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set_expressionEvaluated(::System::Action_1<::UnityEngine::ExpressionEvaluator_Expression*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___expressionEvaluated = value;
+}
+template <typename TValueType> constexpr ::System::Action*& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_viewDataRestored() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___viewDataRestored;
+}
+template <typename TValueType> constexpr ::System::Action* const& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_viewDataRestored() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___viewDataRestored;
+}
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set_viewDataRestored(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___viewDataRestored = value;
 }
 template <typename TValueType> constexpr TValueType& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_Value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -341,6 +370,16 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<
 template <typename TValueType> inline ::UnityEngine::UIElements::CustomStyleProperty_1<float_t> UnityEngine::UIElements::BaseField_1<TValueType>::getStaticF_s_LabelBaseMinWidthProperty() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::CustomStyleProperty_1<float_t>, "s_LabelBaseMinWidthProperty", ::UnityEngine::UIElements::BaseField_1<TValueType>*>();
 }
+template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::add_viewDataRestored(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), { "add_viewDataRestored", {}, { ::i2c::type_of<::System::Action*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::remove_viewDataRestored(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), { "remove_viewDataRestored", {}, { ::i2c::type_of<::System::Action*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
 template <typename TValueType> inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseField_1<TValueType>::get_visualInput() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), { "get_visualInput", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
@@ -373,14 +412,19 @@ template <typename TValueType> inline ::UnityEngine::UIElements::DispatchMode Un
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), { "get_dispatchMode", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::DispatchMode>(this, ___internal_method);
 }
+template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::set_dispatchMode(::UnityEngine::UIElements::DispatchMode value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(),
+                                                                                         { "set_dispatchMode", {}, { ::i2c::type_of<::UnityEngine::UIElements::DispatchMode>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
 template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseField_1<TValueType>::get_value() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 143 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 148 })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::set_value(TValueType value) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 144 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 149 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TValueType> inline ::UnityEngine::UIElements::Label* UnityEngine::UIElements::BaseField_1<TValueType>::get_labelElement() {
@@ -411,6 +455,11 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), { "set_showMixedValue", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
+template <typename TValueType> inline bool UnityEngine::UIElements::BaseField_1<TValueType>::get_canSwitchToMixedValue() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 154 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
 template <typename TValueType> inline ::UnityEngine::UIElements::Label* UnityEngine::UIElements::BaseField_1<TValueType>::get_mixedValueLabel() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), { "get_mixedValueLabel", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Label*>(this, ___internal_method);
@@ -438,7 +487,7 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<
 }
 template <typename TValueType> inline bool UnityEngine::UIElements::BaseField_1<TValueType>::EqualsCurrentValue(TValueType value) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 149 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 155 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, value);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* e) {
@@ -453,12 +502,12 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::RegisterEditingCallbacks() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 150 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 156 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::UnregisterEditingCallbacks() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 151 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 157 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::StartEditing(::UnityEngine::UIElements::EventBase* e) {
@@ -504,17 +553,17 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::UpdateMixedValueContent() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 152 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 158 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::SetValueWithoutNotify(TValueType newValue) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 153 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 159 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newValue);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::OnViewDataReady() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 132 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 135 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]

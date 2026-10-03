@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareDataSRP::*)()>(&::UnityEngine::Rendering::LensFlareDataSRP::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x67a26ac;
+  constexpr static std::size_t addrs = 0x6bbd180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareDataSRP*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::LensFlareDataSRP::*)()>(&::UnityEngine::Rendering::LensFlareDataSRP::HasAModulateByLightColorElement)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x67a26c8;
+  constexpr static std::size_t addrs = 0x6bbd19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

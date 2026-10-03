@@ -18,11 +18,11 @@ struct SpriteBone;
 // Write type traits
 MARK_VAL_T(::UnityEngine::U2D::SpriteBone);
 DEFINE_IL2CPP_CLASS(::UnityEngine::U2D::SpriteBone, "UnityEngine.U2D", "SpriteBone");
-// [NativeHeader("Runtime/2D/Common/SpriteDataAccess.h")]
-// [NativeHeader("Runtime/2D/Common/SpriteDataMarshalling.h")]
+// [MovedFrom("UnityEngine.Experimental.U2D")]
 // [RequiredByNativeCode]
 // [NativeType((UnityEngine.Bindings.CodegenOptions)1, "ScriptingSpriteBone")]
-// [MovedFrom("UnityEngine.Experimental.U2D")]
+// [NativeHeader("Runtime/2D/Common/SpriteDataAccess.h")]
+// [NativeHeader("Runtime/2D/Common/SpriteDataMarshalling.h")]
 // Dependencies UnityEngine.Color32, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine::U2D {
 // Is value type: true
@@ -42,23 +42,23 @@ public:
                        ::UnityEngine::Color32 m_Color) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10541 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
-  /// [SerializeField]
   /// [NativeName("name")]
+  /// [SerializeField]
   /// @brief Field m_Name, offset: 0x0, size: 0x8, def value: None
   ::StringW m_Name;
 
-  /// [SerializeField]
   /// [NativeName("guid")]
+  /// [SerializeField]
   /// @brief Field m_Guid, offset: 0x8, size: 0x8, def value: None
   ::StringW m_Guid;
 
-  /// [NativeName("position")]
   /// [SerializeField]
+  /// [NativeName("position")]
   /// @brief Field m_Position, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 m_Position;
 
@@ -67,13 +67,13 @@ public:
   /// @brief Field m_Rotation, offset: 0x1c, size: 0x10, def value: None
   ::UnityEngine::Quaternion m_Rotation;
 
-  /// [NativeName("length")]
   /// [SerializeField]
+  /// [NativeName("length")]
   /// @brief Field m_Length, offset: 0x2c, size: 0x4, def value: None
   float_t m_Length;
 
-  /// [NativeName("parentId")]
   /// [SerializeField]
+  /// [NativeName("parentId")]
   /// @brief Field m_ParentId, offset: 0x30, size: 0x4, def value: None
   int32_t m_ParentId;
 

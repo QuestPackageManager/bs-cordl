@@ -65,27 +65,27 @@ public:
   /// @brief Field _playableDirector, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__playableDirector, put = __cordl_internal_set__playableDirector)) ::UnityW<::UnityEngine::Playables::PlayableDirector> _playableDirector;
 
-  /// @brief Method CreateUIForBatteryEnergyType, addr 0x59aba40, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method CreateUIForBatteryEnergyType, addr 0x5dc552c, size 0x2e4, virtual false, abstract: false, final false
   inline void CreateUIForBatteryEnergyType(int32_t batteryLives);
 
-  /// @brief Method HandleGameEnergyCounterDidInit, addr 0x59ac210, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEnergyCounterDidInit, addr 0x5dc5d28, size 0x4, virtual false, abstract: false, final false
   inline void HandleGameEnergyCounterDidInit();
 
-  /// @brief Method HandleGameEnergyDidChange, addr 0x59ac214, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEnergyDidChange, addr 0x5dc5d2c, size 0x4, virtual false, abstract: false, final false
   inline void HandleGameEnergyDidChange(float_t energy);
 
-  /// @brief Method Init, addr 0x59ab694, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5dc5180, size 0x3ac, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::GameEnergyUIPanel* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59ac014, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dc5b2c, size 0x1fc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshEnergyUI, addr 0x59abcf8, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method RefreshEnergyUI, addr 0x5dc5810, size 0x31c, virtual false, abstract: false, final false
   inline void RefreshEnergyUI(float_t energy);
 
-  /// @brief Method Start, addr 0x59ab508, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5dc4ff4, size 0x18c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr int32_t const& __cordl_internal_get__activeBatteryLifeSegmentsCount() const;
@@ -142,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set__playableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  /// @brief Method .ctor, addr 0x59ac218, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc5d30, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -160,7 +160,7 @@ public:
   GameEnergyUIPanel(GameEnergyUIPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6118 };
 
   /// [SerializeField]
   /// @brief Field _energyBar, offset: 0x20, size: 0x8, def value: None

@@ -97,7 +97,7 @@ public:
   static ::HMUI::ImageView_GradientDirection const Vertical;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20989 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21749 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -124,37 +124,37 @@ public:
   // Declarations
   using GradientDirection = ::HMUI::ImageView_GradientDirection;
 
-  /// @brief Field _color0, offset 0x138, size 0x10
+  /// @brief Field _color0, offset 0x140, size 0x10
   __declspec(property(get = __cordl_internal_get__color0, put = __cordl_internal_set__color0)) ::UnityEngine::Color _color0;
 
-  /// @brief Field _color0So, offset 0x120, size 0x8
+  /// @brief Field _color0So, offset 0x128, size 0x8
   __declspec(property(get = __cordl_internal_get__color0So, put = __cordl_internal_set__color0So)) ::UnityW<::GlobalNamespace::ColorSO> _color0So;
 
-  /// @brief Field _color1, offset 0x148, size 0x10
+  /// @brief Field _color1, offset 0x150, size 0x10
   __declspec(property(get = __cordl_internal_get__color1, put = __cordl_internal_set__color1)) ::UnityEngine::Color _color1;
 
-  /// @brief Field _color1So, offset 0x128, size 0x8
+  /// @brief Field _color1So, offset 0x130, size 0x8
   __declspec(property(get = __cordl_internal_get__color1So, put = __cordl_internal_set__color1So)) ::UnityW<::GlobalNamespace::ColorSO> _color1So;
 
-  /// @brief Field _colorSo, offset 0x118, size 0x8
+  /// @brief Field _colorSo, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get__colorSo, put = __cordl_internal_set__colorSo)) ::UnityW<::GlobalNamespace::ColorSO> _colorSo;
 
-  /// @brief Field _curvedCanvasSettingsHelper, offset 0x160, size 0x8
+  /// @brief Field _curvedCanvasSettingsHelper, offset 0x168, size 0x8
   __declspec(property(get = __cordl_internal_get__curvedCanvasSettingsHelper, put = __cordl_internal_set__curvedCanvasSettingsHelper)) ::HMUI::CurvedCanvasSettingsHelper* _curvedCanvasSettingsHelper;
 
-  /// @brief Field _flipGradientColors, offset 0x15c, size 0x1
+  /// @brief Field _flipGradientColors, offset 0x164, size 0x1
   __declspec(property(get = __cordl_internal_get__flipGradientColors, put = __cordl_internal_set__flipGradientColors)) bool _flipGradientColors;
 
-  /// @brief Field _gradient, offset 0x134, size 0x1
+  /// @brief Field _gradient, offset 0x13c, size 0x1
   __declspec(property(get = __cordl_internal_get__gradient, put = __cordl_internal_set__gradient)) bool _gradient;
 
-  /// @brief Field _gradientDirection, offset 0x158, size 0x4
+  /// @brief Field _gradientDirection, offset 0x160, size 0x4
   __declspec(property(get = __cordl_internal_get__gradientDirection, put = __cordl_internal_set__gradientDirection)) ::HMUI::ImageView_GradientDirection _gradientDirection;
 
-  /// @brief Field _skew, offset 0x130, size 0x4
+  /// @brief Field _skew, offset 0x138, size 0x4
   __declspec(property(get = __cordl_internal_get__skew, put = __cordl_internal_set__skew)) float_t _skew;
 
-  /// @brief Field _useScriptableObjectColors, offset 0x110, size 0x1
+  /// @brief Field _useScriptableObjectColors, offset 0x118, size 0x1
   __declspec(property(get = __cordl_internal_get__useScriptableObjectColors, put = __cordl_internal_set__useScriptableObjectColors)) bool _useScriptableObjectColors;
 
   __declspec(property(get = get_color, put = set_color)) ::UnityEngine::Color color;
@@ -199,64 +199,64 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IComponentRefresher"
   constexpr operator ::GlobalNamespace::IComponentRefresher*() noexcept;
 
-  /// @brief Method AddQuad, addr 0x32fd40c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method AddQuad, addr 0x35859f4, size 0x304, virtual false, abstract: false, final false
   static inline void AddQuad(::UnityEngine::UI::VertexHelper* vertexHelper, ::UnityEngine::Vector2 posMin, ::UnityEngine::Vector2 posMax, ::UnityEngine::Color32 color, ::UnityEngine::Vector2 uv0Min,
                              ::UnityEngine::Vector2 uv0Max, ::UnityEngine::Vector2 uv1Min, ::UnityEngine::Vector2 uv1Max, float_t elementWidthScale, float_t curvedUIRadius, float_t skewFactor,
                              float_t skewOffset);
 
-  /// @brief Method AddQuad, addr 0x32fd710, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method AddQuad, addr 0x3585cf8, size 0x2a0, virtual false, abstract: false, final false
   static inline void AddQuad(::UnityEngine::UI::VertexHelper* vertexHelper, ::UnityEngine::Vector2 posMin, ::UnityEngine::Vector2 posMax, ::UnityEngine::Color32 color, ::UnityEngine::Vector2 uvMin,
                              ::UnityEngine::Vector2 uvMax, float_t elementWidthScale, float_t curvedUIRadius);
 
-  /// @brief Method AddQuad, addr 0x32fd9b0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method AddQuad, addr 0x3585f98, size 0x110, virtual false, abstract: false, final false
   static inline void AddQuad(::UnityEngine::UI::VertexHelper* vertexHelper, ::ArrayW<::UnityEngine::Vector3> quadPositions, ::UnityEngine::Color32 color, ::ArrayW<::UnityEngine::Vector3> quadUVs);
 
-  /// @brief Method AddQuadWithHorizontalGradient, addr 0x32fccd8, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method AddQuadWithHorizontalGradient, addr 0x35852c0, size 0x42c, virtual false, abstract: false, final false
   static inline void AddQuadWithHorizontalGradient(::UnityEngine::UI::VertexHelper* vertexHelper, ::UnityEngine::Vector2 posMin, ::UnityEngine::Vector2 posMax, ::UnityEngine::Color32 color0,
                                                    ::UnityEngine::Color32 color1, ::UnityEngine::Vector2 uv0Min, ::UnityEngine::Vector2 uv0Max, ::UnityEngine::Vector2 uv1Min,
                                                    ::UnityEngine::Vector2 uv1Max, float_t elementWidthScale, float_t curvedUIRadius, float_t skewFactor, float_t skewOffset);
 
-  /// @brief Method AddQuadWithVerticalGradient, addr 0x32fd104, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method AddQuadWithVerticalGradient, addr 0x35856ec, size 0x308, virtual false, abstract: false, final false
   static inline void AddQuadWithVerticalGradient(::UnityEngine::UI::VertexHelper* vertexHelper, ::UnityEngine::Vector2 posMin, ::UnityEngine::Vector2 posMax, ::UnityEngine::Color32 color0,
                                                  ::UnityEngine::Color32 color1, ::UnityEngine::Vector2 uv0Min, ::UnityEngine::Vector2 uv0Max, ::UnityEngine::Vector2 uv1Min,
                                                  ::UnityEngine::Vector2 uv1Max, float_t elementWidthScale, float_t curvedUIRadius, float_t skewFactor, float_t skewOffset);
 
-  /// @brief Method GenerateFilledSprite, addr 0x32fbde0, size 0x9b8, virtual false, abstract: false, final false
+  /// @brief Method GenerateFilledSprite, addr 0x35842b8, size 0x9b8, virtual false, abstract: false, final false
   inline void GenerateFilledSprite(::UnityEngine::UI::VertexHelper* toFill, bool preserveAspect, float_t curvedUIRadius);
 
-  /// @brief Method GenerateSimpleSprite, addr 0x32f9f3c, size 0x6f0, virtual false, abstract: false, final false
+  /// @brief Method GenerateSimpleSprite, addr 0x3582340, size 0x6f0, virtual false, abstract: false, final false
   inline void GenerateSimpleSprite(::UnityEngine::UI::VertexHelper* vh, bool lPreserveAspect, float_t curvedUIRadius);
 
-  /// @brief Method GenerateSlicedSprite, addr 0x32fa62c, size 0xe8c, virtual false, abstract: false, final false
+  /// @brief Method GenerateSlicedSprite, addr 0x3582a30, size 0xf04, virtual false, abstract: false, final false
   inline void GenerateSlicedSprite(::UnityEngine::UI::VertexHelper* toFill, float_t curvedUIRadius);
 
-  /// @brief Method GenerateTiledSprite, addr 0x32fb4b8, size 0x928, virtual false, abstract: false, final false
+  /// @brief Method GenerateTiledSprite, addr 0x3583934, size 0x984, virtual false, abstract: false, final false
   inline void GenerateTiledSprite(::UnityEngine::UI::VertexHelper* toFill, float_t curvedUIRadius);
 
-  /// @brief Method GetAdjustedBorders, addr 0x32fcc58, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetAdjustedBorders, addr 0x35851b4, size 0x10c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetAdjustedBorders(::UnityEngine::Vector4 border, ::UnityEngine::Rect rect);
 
-  /// @brief Method GetDrawingDimensions, addr 0x32fc7a8, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method GetDrawingDimensions, addr 0x3584c80, size 0x498, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetDrawingDimensions(bool shouldPreserveAspect);
 
-  /// @brief Method GetNumberOfElements, addr 0x32fcbbc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetNumberOfElements, addr 0x3585118, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t GetNumberOfElements(float_t curvedUIRadius, float_t width);
 
   static inline ::HMUI::ImageView* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x32f9d8c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3582190, size 0x3c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPopulateMesh, addr 0x32f9dc8, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x35821cc, size 0x174, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* toFill);
 
-  /// @brief Method RadialCut, addr 0x32fdac0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method RadialCut, addr 0x35860a8, size 0x134, virtual false, abstract: false, final false
   static inline bool RadialCut(::ArrayW<::UnityEngine::Vector3> xy, ::ArrayW<::UnityEngine::Vector3> uv, float_t fill, bool invert, int32_t corner);
 
-  /// @brief Method RadialCut, addr 0x32fdbf4, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method RadialCut, addr 0x35861dc, size 0x3f0, virtual false, abstract: false, final false
   static inline void RadialCut(::ArrayW<::UnityEngine::Vector3> xy, float_t cos, float_t sin, bool invert, int32_t corner);
 
-  /// @brief Method __Refresh, addr 0x32fc798, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method __Refresh, addr 0x3584c70, size 0x10, virtual true, abstract: false, final true
   inline void __Refresh();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color0() const;
@@ -325,7 +325,7 @@ public:
 
   constexpr void __cordl_internal_set__useScriptableObjectColors(bool value);
 
-  /// @brief Method .ctor, addr 0x32fdfe4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35865cc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Vector2 getStaticF_kVec2Zero();
@@ -346,22 +346,22 @@ public:
 
   static inline ::ArrayW<::UnityEngine::Vector3> getStaticF_s_Xy();
 
-  /// @brief Method get_color, addr 0x32f9b60, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x3581f64, size 0x90, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_color0, addr 0x32f9c24, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_color0, addr 0x3582028, size 0x94, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color0();
 
-  /// @brief Method get_color1, addr 0x32f9cd8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_color1, addr 0x35820dc, size 0x94, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color1();
 
-  /// @brief Method get_gradient, addr 0x32f9c00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_gradient, addr 0x3582004, size 0x8, virtual true, abstract: false, final false
   inline bool get_gradient();
 
-  /// @brief Method get_skew, addr 0x32f9bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skew, addr 0x3581ffc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_skew();
 
-  /// @brief Method get_useScriptableObjectColors, addr 0x32f9b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useScriptableObjectColors, addr 0x3581f54, size 0x8, virtual false, abstract: false, final false
   inline bool get_useScriptableObjectColors();
 
   /// @brief Convert to "::GlobalNamespace::IComponentRefresher"
@@ -385,19 +385,19 @@ public:
 
   static inline void setStaticF_s_Xy(::ArrayW<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_color, addr 0x32f9bf0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_color, addr 0x3581ff4, size 0x8, virtual true, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_color0, addr 0x32f9cb8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method set_color0, addr 0x35820bc, size 0x20, virtual true, abstract: false, final false
   inline void set_color0(::UnityEngine::Color value);
 
-  /// @brief Method set_color1, addr 0x32f9d6c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method set_color1, addr 0x3582170, size 0x20, virtual true, abstract: false, final false
   inline void set_color1(::UnityEngine::Color value);
 
-  /// @brief Method set_gradient, addr 0x32f9c08, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method set_gradient, addr 0x358200c, size 0x1c, virtual true, abstract: false, final false
   inline void set_gradient(bool value);
 
-  /// @brief Method set_useScriptableObjectColors, addr 0x32f9b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useScriptableObjectColors, addr 0x3581f5c, size 0x8, virtual false, abstract: false, final false
   inline void set_useScriptableObjectColors(bool value);
 
 protected:
@@ -415,79 +415,79 @@ public:
   ImageView(ImageView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20990 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21750 };
 
   /// [SerializeField]
-  /// @brief Field _useScriptableObjectColors, offset: 0x110, size: 0x1, def value: None
+  /// @brief Field _useScriptableObjectColors, offset: 0x118, size: 0x1, def value: None
   bool ____useScriptableObjectColors;
 
   /// [SerializeField]
   /// [NullAllowed((NullAllowedContext)0)]
-  /// @brief Field _colorSo, offset: 0x118, size: 0x8, def value: None
+  /// @brief Field _colorSo, offset: 0x120, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____colorSo;
 
   /// [SerializeField]
   /// [NullAllowed((NullAllowedContext)0)]
-  /// @brief Field _color0So, offset: 0x120, size: 0x8, def value: None
+  /// @brief Field _color0So, offset: 0x128, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____color0So;
 
   /// [SerializeField]
   /// [NullAllowed((NullAllowedContext)0)]
-  /// @brief Field _color1So, offset: 0x128, size: 0x8, def value: None
+  /// @brief Field _color1So, offset: 0x130, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____color1So;
 
   /// [SerializeField]
-  /// @brief Field _skew, offset: 0x130, size: 0x4, def value: None
+  /// @brief Field _skew, offset: 0x138, size: 0x4, def value: None
   float_t ____skew;
 
   /// [SerializeField]
-  /// @brief Field _gradient, offset: 0x134, size: 0x1, def value: None
+  /// @brief Field _gradient, offset: 0x13c, size: 0x1, def value: None
   bool ____gradient;
 
   /// [SerializeField]
-  /// @brief Field _color0, offset: 0x138, size: 0x10, def value: None
+  /// @brief Field _color0, offset: 0x140, size: 0x10, def value: None
   ::UnityEngine::Color ____color0;
 
   /// [SerializeField]
-  /// @brief Field _color1, offset: 0x148, size: 0x10, def value: None
+  /// @brief Field _color1, offset: 0x150, size: 0x10, def value: None
   ::UnityEngine::Color ____color1;
 
   /// [SerializeField]
-  /// @brief Field _gradientDirection, offset: 0x158, size: 0x4, def value: None
+  /// @brief Field _gradientDirection, offset: 0x160, size: 0x4, def value: None
   ::HMUI::ImageView_GradientDirection ____gradientDirection;
 
   /// [SerializeField]
-  /// @brief Field _flipGradientColors, offset: 0x15c, size: 0x1, def value: None
+  /// @brief Field _flipGradientColors, offset: 0x164, size: 0x1, def value: None
   bool ____flipGradientColors;
 
-  /// @brief Field _curvedCanvasSettingsHelper, offset: 0x160, size: 0x8, def value: None
+  /// @brief Field _curvedCanvasSettingsHelper, offset: 0x168, size: 0x8, def value: None
   ::HMUI::CurvedCanvasSettingsHelper* ____curvedCanvasSettingsHelper;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::HMUI::ImageView, ____useScriptableObjectColors) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ImageView, ____useScriptableObjectColors) == 0x118, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ImageView, ____colorSo) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ImageView, ____colorSo) == 0x120, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ImageView, ____color0So) == 0x120, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ImageView, ____color0So) == 0x128, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ImageView, ____color1So) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ImageView, ____color1So) == 0x130, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ImageView, ____skew) == 0x130, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ImageView, ____skew) == 0x138, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ImageView, ____gradient) == 0x134, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ImageView, ____gradient) == 0x13c, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ImageView, ____color0) == 0x138, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ImageView, ____color0) == 0x140, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ImageView, ____color1) == 0x148, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ImageView, ____color1) == 0x150, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ImageView, ____gradientDirection) == 0x158, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ImageView, ____gradientDirection) == 0x160, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ImageView, ____flipGradientColors) == 0x15c, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ImageView, ____flipGradientColors) == 0x164, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ImageView, ____curvedCanvasSettingsHelper) == 0x160, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ImageView, ____curvedCanvasSettingsHelper) == 0x168, "Offset mismatch!");
 
-static_assert(sizeof(::HMUI::ImageView) == 0x168, "Size mismatch!");
+static_assert(sizeof(::HMUI::ImageView) == 0x170, "Size mismatch!");
 
 } // namespace HMUI

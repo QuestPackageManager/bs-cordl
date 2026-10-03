@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithSendInvitesResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithSendInvitesResult::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd7f6c;
+  constexpr static std::size_t addrs = 0x61f1b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::SendInvitesResult* (::Oculus::Platform::MessageWithSendInvitesResult::*)()>(
     &::Oculus::Platform::MessageWithSendInvitesResult::GetSendInvitesResult)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5ddce2c;
+  constexpr static std::size_t addrs = 0x61f6a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::SendInvitesResult* (::Oculus::Platform::MessageWithSendInvitesResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithSendInvitesResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5ddce70;
+  constexpr static std::size_t addrs = 0x61f6a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

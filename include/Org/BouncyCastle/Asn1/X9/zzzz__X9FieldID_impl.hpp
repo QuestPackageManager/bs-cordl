@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X9FieldID::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Asn1::X9::X9FieldID::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x367ef00;
+  constexpr static std::size_t addrs = 0x390819c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X9FieldID::*)(int32_t, int32_t)>(&::Org::BouncyCastle::Asn1::X9::X9FieldID::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x367efa4;
+  constexpr static std::size_t addrs = 0x3908240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X9FieldID::*)(int32_t, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Asn1::X9::X9FieldID::_ctor)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x367efb0;
+  constexpr static std::size_t addrs = 0x390824c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X9FieldID::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X9::X9FieldID::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x367fc70;
+  constexpr static std::size_t addrs = 0x3908f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X9::X9FieldID* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::X9::X9FieldID::GetInstance)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x367ed68;
+  constexpr static std::size_t addrs = 0x3908004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::X9::X9FieldID::*)()>(
     &::Org::BouncyCastle::Asn1::X9::X9FieldID::get_Identifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x367fd2c;
+  constexpr static std::size_t addrs = 0x3908fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::X9FieldID*>(), { "get_Identifier", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X9::X9FieldID::*)()>(
     &::Org::BouncyCastle::Asn1::X9::X9FieldID::get_Parameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x367fd34;
+  constexpr static std::size_t addrs = 0x3908fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::X9FieldID*>(), { "get_Parameters", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X9::X9FieldID::*)()>(
     &::Org::BouncyCastle::Asn1::X9::X9FieldID::ToAsn1Object)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x367fd3c;
+  constexpr static std::size_t addrs = 0x3908fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

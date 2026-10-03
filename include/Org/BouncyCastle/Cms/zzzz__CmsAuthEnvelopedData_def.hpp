@@ -69,7 +69,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsSecureReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsSecureReadable*() noexcept;
 
-  /// @brief Method GetReadable, addr 0x36a8ab0, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method GetReadable, addr 0x3931d4c, size 0x48, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable* New_ctor(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* parent);
@@ -80,13 +80,13 @@ public:
 
   constexpr void __cordl_internal_set_parent(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* value);
 
-  /// @brief Method .ctor, addr 0x36a8a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3931d24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* parent);
 
-  /// @brief Method get_Algorithm, addr 0x36a8a90, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Algorithm, addr 0x3931d2c, size 0x18, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
 
-  /// @brief Method get_CryptoObject, addr 0x36a8aa8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CryptoObject, addr 0x3931d44, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_CryptoObject();
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsSecureReadable"
@@ -198,13 +198,13 @@ public:
 
   constexpr void __cordl_internal_set_unauthAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method .ctor, addr 0x36a8940, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3931bdc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> authEnvData);
 
-  /// @brief Method .ctor, addr 0x36a8a64, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3931d00, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* authEnvData);
 
-  /// @brief Method .ctor, addr 0x36a8964, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3931c00, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
 protected:

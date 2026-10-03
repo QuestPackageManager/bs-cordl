@@ -47,7 +47,7 @@ MARK_REF_T(::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation*, "UnityEngine.InputSystem.EnhancedTouch", "TouchSimulation");
 // [AddComponentMenu("Input/Debug/Touch Simulation")]
 // [ExecuteInEditMode]
-// [HelpURL("https://docs.unity3d.com/Packages/com.unity.inputsystem@1.13/manual/Touch.html#touch-simulation")]
+// [HelpURL("https://docs.unity3d.com/Packages/com.unity.inputsystem@1.19/manual/Touch.html#touch-simulation")]
 // Dependencies UnityEngine.InputSystem.Controls.ButtonControl, UnityEngine.InputSystem.Pointer, UnityEngine.MonoBehaviour, UnityEngine.Vector2
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: false
@@ -96,53 +96,53 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*() noexcept;
 
-  /// @brief Method AddPointer, addr 0x65aa078, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method AddPointer, addr 0x69d5f00, size 0x184, virtual false, abstract: false, final false
   inline void AddPointer(::UnityEngine::InputSystem::Pointer* pointer);
 
-  /// @brief Method Destroy, addr 0x65a9fa0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x69d5e28, size 0xd8, virtual false, abstract: false, final false
   static inline void Destroy();
 
-  /// @brief Method Disable, addr 0x65a9eb8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x69d5d40, size 0xe8, virtual false, abstract: false, final false
   static inline void Disable();
 
-  /// @brief Method Enable, addr 0x65a9cfc, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x69d5b84, size 0x1bc, virtual false, abstract: false, final false
   static inline void Enable();
 
-  /// @brief Method InstallStateChangeMonitors, addr 0x65ab61c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InstallStateChangeMonitors, addr 0x69d74a4, size 0x4, virtual false, abstract: false, final false
   inline void InstallStateChangeMonitors(int32_t startIndex);
 
   static inline ::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation* New_ctor();
 
-  /// @brief Method OnDeviceChange, addr 0x65aac20, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method OnDeviceChange, addr 0x69d6aa8, size 0x150, virtual false, abstract: false, final false
   inline void OnDeviceChange(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputDeviceChange change);
 
-  /// @brief Method OnDisable, addr 0x65ab2dc, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x69d7164, size 0x15c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x65aad70, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x69d6bf8, size 0x3f4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnEvent, addr 0x65aa648, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method OnEvent, addr 0x69d64d0, size 0x568, virtual false, abstract: false, final false
   inline void OnEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method OnSourceControlChangedValue, addr 0x65ab620, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnSourceControlChangedValue, addr 0x69d74a8, size 0x4, virtual false, abstract: false, final false
   inline void OnSourceControlChangedValue(::UnityEngine::InputSystem::InputControl* control, double_t time, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr,
                                           int64_t sourceDeviceAndButtonIndex);
 
-  /// @brief Method RemovePointer, addr 0x65aa1fc, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method RemovePointer, addr 0x69d6084, size 0x1ec, virtual false, abstract: false, final false
   inline void RemovePointer(::UnityEngine::InputSystem::Pointer* pointer);
 
-  /// @brief Method UninstallStateChangeMonitors, addr 0x65ab624, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UninstallStateChangeMonitors, addr 0x69d74ac, size 0x4, virtual false, abstract: false, final false
   inline void UninstallStateChangeMonitors(int32_t startIndex);
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged, addr 0x65ab614, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged, addr 0x69d749c, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyControlStateChanged(::UnityEngine::InputSystem::InputControl* control, double_t time,
                                                                                                   ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, int64_t monitorIndex);
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyTimerExpired, addr 0x65ab618, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyTimerExpired, addr 0x69d74a0, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyTimerExpired(::UnityEngine::InputSystem::InputControl* control, double_t time, int64_t monitorIndex, int32_t timerIndex);
 
-  /// @brief Method UpdateTouch, addr 0x65aa3e8, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method UpdateTouch, addr 0x69d6270, size 0x260, virtual false, abstract: false, final false
   inline void UpdateTouch(int32_t touchIndex, int32_t pointerIndex, ::UnityEngine::InputSystem::TouchPhase phase, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
   constexpr ::UnityEngine::InputSystem::Touchscreen* const& __cordl_internal_get__simulatedTouchscreen_k__BackingField() const;
@@ -205,16 +205,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Touches(::ArrayW<::UnityEngine::InputSystem::Controls::ButtonControl*> value);
 
-  /// @brief Method .ctor, addr 0x65ab628, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d74b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x65a9cb0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x69d5b38, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> get_instance();
 
   /// [CompilerGenerated]
-  /// @brief Method get_simulatedTouchscreen, addr 0x65a9ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_simulatedTouchscreen, addr 0x69d5b28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Touchscreen* get_simulatedTouchscreen();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor"
@@ -223,7 +223,7 @@ public:
   static inline void setStaticF_s_Instance(::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_simulatedTouchscreen, addr 0x65a9ca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_simulatedTouchscreen, addr 0x69d5b30, size 0x8, virtual false, abstract: false, final false
   inline void set_simulatedTouchscreen(::UnityEngine::InputSystem::Touchscreen* value);
 
 protected:
@@ -241,7 +241,7 @@ public:
   TouchSimulation(TouchSimulation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10878 };
 
   /// [CompilerGenerated]
   /// @brief Field <simulatedTouchscreen>k__BackingField, offset: 0x20, size: 0x8, def value: None

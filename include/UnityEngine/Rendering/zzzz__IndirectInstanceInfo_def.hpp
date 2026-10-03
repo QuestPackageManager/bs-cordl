@@ -14,7 +14,7 @@ struct IndirectInstanceInfo;
 MARK_VAL_T(::UnityEngine::Rendering::IndirectInstanceInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::IndirectInstanceInfo, "UnityEngine.Rendering", "IndirectInstanceInfo");
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\InstanceOcclusionCuller.cs", needAccessors = false)] Dependencies
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\GPUDriven\\InstanceOcclusionCuller.cs", needAccessors = false)] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.IndirectInstanceInfo
@@ -30,7 +30,7 @@ public:
   constexpr IndirectInstanceInfo(int32_t drawOffsetAndSplitMask, int32_t instanceIndexAndCrossFade) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18266 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

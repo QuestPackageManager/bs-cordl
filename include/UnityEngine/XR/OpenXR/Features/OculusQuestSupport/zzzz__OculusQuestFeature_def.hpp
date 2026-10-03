@@ -21,10 +21,10 @@ namespace UnityEngine::XR::OpenXR::Features::OculusQuestSupport {
 class CORDL_TYPE OculusQuestFeature : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
   // Declarations
-  /// @brief Field targetQuest, offset 0x4e, size 0x1
+  /// @brief Field targetQuest, offset 0x69, size 0x1
   __declspec(property(get = __cordl_internal_get_targetQuest, put = __cordl_internal_set_targetQuest)) bool targetQuest;
 
-  /// @brief Field targetQuest2, offset 0x4f, size 0x1
+  /// @brief Field targetQuest2, offset 0x6a, size 0x1
   __declspec(property(get = __cordl_internal_get_targetQuest2, put = __cordl_internal_set_targetQuest2)) bool targetQuest2;
 
   static inline ::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature* New_ctor();
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_targetQuest2(bool value);
 
-  /// @brief Method .ctor, addr 0x6a0e5a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e47e18, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,24 +59,24 @@ public:
   OculusQuestFeature(OculusQuestFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24476 };
 
   /// @brief Field featureId offset 0xffffffff size 0x8
   static constexpr ::ConstString featureId{ u"com.unity.openxr.feature.oculusquest" };
 
-  /// @brief Field targetQuest, offset: 0x4e, size: 0x1, def value: None
+  /// @brief Field targetQuest, offset: 0x69, size: 0x1, def value: None
   bool ___targetQuest;
 
-  /// @brief Field targetQuest2, offset: 0x4f, size: 0x1, def value: None
+  /// @brief Field targetQuest2, offset: 0x6a, size: 0x1, def value: None
   bool ___targetQuest2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature, ___targetQuest) == 0x4e, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature, ___targetQuest) == 0x69, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature, ___targetQuest2) == 0x4f, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature, ___targetQuest2) == 0x6a, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature) == 0x50, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature) == 0x70, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR::Features::OculusQuestSupport

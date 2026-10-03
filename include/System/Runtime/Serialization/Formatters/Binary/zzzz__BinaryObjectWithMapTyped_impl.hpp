@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b58e78;
+  constexpr static std::size_t addrs = 0x5f70d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::*)(
     ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b58e7c;
+  constexpr static std::size_t addrs = 0x5f70d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     int32_t, ::StringW, int32_t, ::ArrayW<::StringW>, ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>, ::ArrayW<::System::Object*>, ::ArrayW<int32_t>, int32_t)>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::Set)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5b58e84;
+  constexpr static std::size_t addrs = 0x5f70d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::*)(
     ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::Write)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x5b58eb0;
+  constexpr static std::size_t addrs = 0x5f70da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::*)(
     ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::Read)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x5b59088;
+  constexpr static std::size_t addrs = 0x5f70f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

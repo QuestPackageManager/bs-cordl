@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DfaContentValidator::*)(
     ::ArrayW<::ArrayW<int32_t>>, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::XmlSchemaContentType, bool, bool)>(&::System::Xml::Schema::DfaContentValidator::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6321a78;
+  constexpr static std::size_t addrs = 0x6749a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DfaContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::DfaContentValidator::InitValidation)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6321cc0;
+  constexpr static std::size_t addrs = 0x6749ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::Xml::Schema::DfaContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ::by_ref<int32_t>)>(
         &::System::Xml::Schema::DfaContentValidator::ValidateElement)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6321d24;
+  constexpr static std::size_t addrs = 0x6749d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::DfaContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::DfaContentValidator::CompleteValidation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6321e34;
+  constexpr static std::size_t addrs = 0x6749e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Xml::Schema::DfaContentValidator::*)(::System::Xml::Schema::ValidationState*, bool)>(
     &::System::Xml::Schema::DfaContentValidator::ExpectedElements)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6321e48;
+  constexpr static std::size_t addrs = 0x6749e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::ArrayList* (::System::Xml::Schema::DfaContentValidator::*)(::System::Xml::Schema::ValidationState*, bool, ::System::Xml::Schema::XmlSchemaSet*)>(
         &::System::Xml::Schema::DfaContentValidator::ExpectedParticles)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x632201c;
+  constexpr static std::size_t addrs = 0x6749ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

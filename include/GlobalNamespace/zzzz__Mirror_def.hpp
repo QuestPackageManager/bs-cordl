@@ -77,21 +77,21 @@ public:
 
   __declspec(property(get = get_reflectionPlaneTransform)) ::UnityW<::UnityEngine::Transform> reflectionPlaneTransform;
 
-  /// @brief Method ChangeMirrorEnabledState, addr 0x5f46c40, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ChangeMirrorEnabledState, addr 0x6362344, size 0xf4, virtual false, abstract: false, final false
   inline void ChangeMirrorEnabledState(bool newIsEnabled);
 
   static inline ::GlobalNamespace::Mirror* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5f46bac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x63622b0, size 0x94, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5f46ad8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x63621dc, size 0xd4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResolveActiveMirror, addr 0x5f46dbc, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method ResolveActiveMirror, addr 0x63624c0, size 0x228, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::Mirror> ResolveActiveMirror();
 
-  /// @brief Method Update, addr 0x5f46d34, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6362438, size 0x88, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__isEnabled_k__BackingField() const;
@@ -136,42 +136,42 @@ public:
 
   constexpr void __cordl_internal_set_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x5f46fe4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63626e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_mirrorDidChangeEnabledStateEvent, addr 0x5f46958, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_mirrorDidChangeEnabledStateEvent, addr 0x636205c, size 0xc0, virtual false, abstract: false, final false
   inline void add_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::Mirror>>* getStaticF__activeMirrors();
 
-  /// @brief Method get_activeMirrors, addr 0x5f46800, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_activeMirrors, addr 0x6361f04, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::Mirror>>* get_activeMirrors();
 
-  /// @brief Method get_canReflect, addr 0x5f4685c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_canReflect, addr 0x6361f60, size 0xd4, virtual false, abstract: false, final false
   inline bool get_canReflect();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isEnabled, addr 0x5f46948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEnabled, addr 0x636204c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEnabled();
 
-  /// @brief Method get_mirrorMaterial, addr 0x5f46930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirrorMaterial, addr 0x6362034, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_mirrorMaterial();
 
-  /// @brief Method get_noMirrorMaterial, addr 0x5f46938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noMirrorMaterial, addr 0x636203c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_noMirrorMaterial();
 
-  /// @brief Method get_reflectionPlaneTransform, addr 0x5f46940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionPlaneTransform, addr 0x6362044, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_reflectionPlaneTransform();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_mirrorDidChangeEnabledStateEvent, addr 0x5f46a18, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_mirrorDidChangeEnabledStateEvent, addr 0x636211c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
   static inline void setStaticF__activeMirrors(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::Mirror>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isEnabled, addr 0x5f46950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isEnabled, addr 0x6362054, size 0x8, virtual false, abstract: false, final false
   inline void set_isEnabled(bool value);
 
 protected:
@@ -189,7 +189,7 @@ public:
   Mirror(Mirror const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21137 };
 
   /// [SerializeField]
   /// @brief Field _mirrorRenderer, offset: 0x20, size: 0x8, def value: None
@@ -207,9 +207,8 @@ public:
   /// @brief Field _noMirrorMaterial, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____noMirrorMaterial;
 
-  /// [SerializeField]
   /// [Tooltip("Target reflection plane to use for rendering, default is track mirror because of the gameplay POV. When there are multiple mirrors in a single scene they have to target a single
-  /// transform for performance reasons.")]
+  /// transform for performance reasons.")] [SerializeField]
   /// @brief Field _reflectionPlaneTransform, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____reflectionPlaneTransform;
 

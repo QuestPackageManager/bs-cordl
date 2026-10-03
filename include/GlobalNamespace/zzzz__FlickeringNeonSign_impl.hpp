@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::*)(int32_t)>(
     &::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59a5048;
+  constexpr static std::size_t addrs = 0x5dc020c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::*)()>(
     &::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59a5184;
+  constexpr static std::size_t addrs = 0x5dc0348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::*)()>(
     &::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::MoveNext)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x59a5188;
+  constexpr static std::size_t addrs = 0x5dc034c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::*)()>(
     &::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59a52c0;
+  constexpr static std::size_t addrs = 0x5dc0484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16*>(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::*)()>(
     &::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59a52c8;
+  constexpr static std::size_t addrs = 0x5dc048c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::*)()>(
     &::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59a5300;
+  constexpr static std::size_t addrs = 0x5dc04c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlickeringNeonSign::*)()>(&::GlobalNamespace::FlickeringNeonSign::Awake)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x59a4f14;
+  constexpr static std::size_t addrs = 0x5dc00d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlickeringNeonSign*>(), { "Awake", {}, {} })));
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlickeringNeonSign::*)()>(&::GlobalNamespace::FlickeringNeonSign::Start)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x59a4f98;
+  constexpr static std::size_t addrs = 0x5dc015c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlickeringNeonSign*>(), { "Start", {}, {} })));
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlickeringNeonSign::*)()>(&::GlobalNamespace::FlickeringNeonSign::OnEnable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59a4fd4;
+  constexpr static std::size_t addrs = 0x5dc0198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlickeringNeonSign*>(), { "OnEnable", {}, {} })));
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::FlickeringNeonSign::*)()>(&::GlobalNamespace::FlickeringNeonSign::FlickeringCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x59a4ff4;
+  constexpr static std::size_t addrs = 0x5dc01b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlickeringNeonSign*>(), { "FlickeringCoroutine", {}, {} })));
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlickeringNeonSign::*)(bool)>(&::GlobalNamespace::FlickeringNeonSign::SetOn)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x59a5050;
+  constexpr static std::size_t addrs = 0x5dc0214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlickeringNeonSign*>(), { "SetOn", {}, { ::i2c::type_of<bool>() } })));
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlickeringNeonSign::*)()>(&::GlobalNamespace::FlickeringNeonSign::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x59a5174;
+  constexpr static std::size_t addrs = 0x5dc0338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlickeringNeonSign*>(), { ".ctor", {}, {} })));

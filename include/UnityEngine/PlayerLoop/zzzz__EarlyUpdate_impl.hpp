@@ -11,6 +11,8 @@ constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_GpuTimestamp::EarlyUpdate_GpuTi
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_AnalyticsCoreStatsUpdate::EarlyUpdate_AnalyticsCoreStatsUpdate() {}
 // Ctor Parameters []
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_InsightsUpdate::EarlyUpdate_InsightsUpdate() {}
+// Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UnityWebRequestUpdate::EarlyUpdate_UnityWebRequestUpdate() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateStreamingManager::EarlyUpdate_UpdateStreamingManager() {}
@@ -70,5 +72,7 @@ constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_TangoUpdate::EarlyUpdate_TangoU
 constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ARCoreUpdate::EarlyUpdate_ARCoreUpdate() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_PerformanceAnalyticsUpdate::EarlyUpdate_PerformanceAnalyticsUpdate() {}
+// Ctor Parameters []
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_TilemapRendererEarlyUpdate::EarlyUpdate_TilemapRendererEarlyUpdate() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::EarlyUpdate::EarlyUpdate() {}

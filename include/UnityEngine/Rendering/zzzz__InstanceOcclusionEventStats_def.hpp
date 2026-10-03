@@ -30,15 +30,17 @@ public:
   // "::UnityEngine::Rendering::InstanceOcclusionEventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "occluderVersion", ty: "int32_t", modifiers: "", def_value: None,
   // comment: None }, CppParam { name: "subviewMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionTest", ty: "::UnityEngine::Rendering::OcclusionTest",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleInstances", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "culledInstances", ty:
-  // "int32_t", modifiers: "", def_value: None, comment: None }]
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "visiblePrimitives", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "culledPrimitives", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InstanceOcclusionEventStats(int32_t viewInstanceID, ::UnityEngine::Rendering::InstanceOcclusionEventType eventType, int32_t occluderVersion, int32_t subviewMask,
-                                        ::UnityEngine::Rendering::OcclusionTest occlusionTest, int32_t visibleInstances, int32_t culledInstances) noexcept;
+                                        ::UnityEngine::Rendering::OcclusionTest occlusionTest, int32_t visibleInstances, int32_t culledInstances, int32_t visiblePrimitives,
+                                        int32_t culledPrimitives) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17624 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18139 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
 
   /// @brief Field viewInstanceID, offset: 0x0, size: 0x4, def value: None
   int32_t viewInstanceID;
@@ -61,6 +63,12 @@ public:
   /// @brief Field culledInstances, offset: 0x18, size: 0x4, def value: None
   int32_t culledInstances;
 
+  /// @brief Field visiblePrimitives, offset: 0x1c, size: 0x4, def value: None
+  int32_t visiblePrimitives;
+
+  /// @brief Field culledPrimitives, offset: 0x20, size: 0x4, def value: None
+  int32_t culledPrimitives;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -78,6 +86,10 @@ static_assert(offsetof(::UnityEngine::Rendering::InstanceOcclusionEventStats, vi
 
 static_assert(offsetof(::UnityEngine::Rendering::InstanceOcclusionEventStats, culledInstances) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::InstanceOcclusionEventStats) == 0x1c, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::InstanceOcclusionEventStats, visiblePrimitives) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::InstanceOcclusionEventStats, culledPrimitives) == 0x20, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::InstanceOcclusionEventStats) == 0x24, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering

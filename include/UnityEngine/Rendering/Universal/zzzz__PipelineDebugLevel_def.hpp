@@ -13,7 +13,7 @@ struct PipelineDebugLevel;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::PipelineDebugLevel);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::PipelineDebugLevel, "UnityEngine.Rendering.Universal", "PipelineDebugLevel");
-// [Obsolete("PipelineDebugLevel is replaced to use the profiler and has no effect.", true)]
+// [Obsolete("PipelineDebugLevel is replaced to use the profiler and has no effect. #from(2022.2) #breakingFrom(2023.1)", true)]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -53,7 +53,7 @@ public:
   static ::UnityEngine::Rendering::Universal::PipelineDebugLevel const Profiling;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12810 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

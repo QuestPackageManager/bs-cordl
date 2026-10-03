@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer_UxmlFactory::*)()>(&::UnityEngine::UIElements::IMGUIContainer_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6db59e4;
+  constexpr static std::size_t addrs = 0x726893c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer_UxmlTraits::*)()>(&::UnityEngine::UIElements::IMGUIContainer_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6db5a4c;
+  constexpr static std::size_t addrs = 0x72689a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -65,6 +65,98 @@ inline ::UnityEngine::UIElements::IMGUIContainer_UxmlTraits* UnityEngine::UIElem
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::IMGUIContainer_UxmlTraits::IMGUIContainer_UxmlTraits() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::IMGUIContainer_UITKScope._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer_UITKScope::*)()>(&::UnityEngine::UIElements::IMGUIContainer_UITKScope::_ctor)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x7268a24;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer_UITKScope>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IMGUIContainer_UITKScope.Dispose
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer_UITKScope::*)()>(&::UnityEngine::UIElements::IMGUIContainer_UITKScope::Dispose)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x7268b14;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer_UITKScope>(), { "Dispose", {}, {} })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::IMGUIContainer_UITKScope::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer_UITKScope>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline void UnityEngine::UIElements::IMGUIContainer_UITKScope::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer_UITKScope>(), { "Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr UnityEngine::UIElements::IMGUIContainer_UITKScope::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* UnityEngine::UIElements::IMGUIContainer_UITKScope::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "wasUITK", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::UIElements::IMGUIContainer_UITKScope::IMGUIContainer_UITKScope(bool wasUITK) noexcept {
+  this->wasUITK = wasUITK;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::IMGUIContainer_UITKScope::IMGUIContainer_UITKScope() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::IMGUIContainer_NotUITKScope._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer_NotUITKScope::*)()>(&::UnityEngine::UIElements::IMGUIContainer_NotUITKScope::_ctor)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x7268bb8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer_NotUITKScope>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IMGUIContainer_NotUITKScope.Dispose
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer_NotUITKScope::*)()>(&::UnityEngine::UIElements::IMGUIContainer_NotUITKScope::Dispose)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x7268ca4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer_NotUITKScope>(), { "Dispose", {}, {} })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::IMGUIContainer_NotUITKScope::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer_NotUITKScope>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline void UnityEngine::UIElements::IMGUIContainer_NotUITKScope::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer_NotUITKScope>(), { "Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr UnityEngine::UIElements::IMGUIContainer_NotUITKScope::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* UnityEngine::UIElements::IMGUIContainer_NotUITKScope::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "wasUITK", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::UIElements::IMGUIContainer_NotUITKScope::IMGUIContainer_NotUITKScope(bool wasUITK) noexcept {
+  this->wasUITK = wasUITK;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::IMGUIContainer_NotUITKScope::IMGUIContainer_NotUITKScope() {}
 // Ctor Parameters [CppParam { name: "matrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers:
 // "", def_value: Some("{}"), comment: None }, CppParam { name: "contentColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "backgroundColor",
 // ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
@@ -89,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action* (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::get_onGUIHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db1be4;
+  constexpr static std::size_t addrs = 0x724dea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "get_onGUIHandler", {}, {} })));
@@ -101,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(::System::Action*)>(&::UnityEngine::UIElements::IMGUIContainer::set_onGUIHandler)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6db1bec;
+  constexpr static std::size_t addrs = 0x724deb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ObjectGUIState* (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::get_guiState)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6db1c80;
+  constexpr static std::size_t addrs = 0x724df44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "get_guiState", {}, {} })));
@@ -126,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::get_lastWorldClip)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6db1d60;
+  constexpr static std::size_t addrs = 0x724e024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "get_lastWorldClip", {}, {} })));
@@ -138,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::Rect)>(&::UnityEngine::UIElements::IMGUIContainer::set_lastWorldClip)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6db1d74;
+  constexpr static std::size_t addrs = 0x724e038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::get_cullingEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db1d88;
+  constexpr static std::size_t addrs = 0x724e04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "get_cullingEnabled", {}, {} })));
@@ -163,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(bool)>(&::UnityEngine::UIElements::IMGUIContainer::set_cullingEnabled)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6db1d90;
+  constexpr static std::size_t addrs = 0x724e054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GUILayoutUtility_LayoutCache* (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::get_cache)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6db1e40;
+  constexpr static std::size_t addrs = 0x724e104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "get_cache", {}, {} })));
@@ -189,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::get_layoutMeasuredWidth)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6db1eac;
+  constexpr static std::size_t addrs = 0x724e170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "get_layoutMeasuredWidth", {}, {} })));
@@ -201,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::get_layoutMeasuredHeight)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6db1ed4;
+  constexpr static std::size_t addrs = 0x724e198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "get_layoutMeasuredHeight", {}, {} })));
@@ -214,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ContextType (::UnityEngine::UIElements::IMGUIContainer::*)()>(
     &::UnityEngine::UIElements::IMGUIContainer::get_contextType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db1efc;
+  constexpr static std::size_t addrs = 0x724e1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "get_contextType", {}, {} })));
@@ -227,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::ContextType)>(
     &::UnityEngine::UIElements::IMGUIContainer::set_contextType)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6db1f04;
+  constexpr static std::size_t addrs = 0x724e1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::get_focusOnlyIfHasFocusableControls)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db1f98;
+  constexpr static std::size_t addrs = 0x724e25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::get_canGrabFocus)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6db1fa0;
+  constexpr static std::size_t addrs = 0x724e264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -267,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db2560;
+  constexpr static std::size_t addrs = 0x724e824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { ".ctor", {}, {} })));
@@ -278,8 +370,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(::System::Action*)>(&::UnityEngine::UIElements::IMGUIContainer::_ctor)> {
-  constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x6db2568;
+  constexpr static std::size_t size = 0x2c8;
+  constexpr static std::size_t addrs = 0x724e82c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,8 +383,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(Il2CppObject*)>(&::UnityEngine::UIElements::IMGUIContainer::OnGenerateVisualContent)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6db27c0;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x724eaf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::SaveGlobals)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6db2964;
+  constexpr static std::size_t addrs = 0x724ec90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "SaveGlobals", {}, {} })));
@@ -317,7 +409,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::RestoreGlobals)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x6db2b10;
+  constexpr static std::size_t addrs = 0x724ee3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "RestoreGlobals", {}, {} })));
@@ -329,8 +421,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(
     ::UnityEngine::Event*, ::UnityEngine::Matrix4x4, ::UnityEngine::Rect, bool, ::UnityEngine::Rect, ::System::Action*, bool)>(&::UnityEngine::UIElements::IMGUIContainer::DoOnGUI)> {
-  constexpr static std::size_t size = 0x1030;
-  constexpr static std::size_t addrs = 0x6db2d00;
+  constexpr static std::size_t size = 0x10a8;
+  constexpr static std::size_t addrs = 0x724f02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,7 +439,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::MarkDirtyLayout)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6db3d30;
+  constexpr static std::size_t addrs = 0x72500d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "MarkDirtyLayout", {}, {} })));
@@ -358,8 +450,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::DoIMGUIRepaint)> {
-  constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x6db3d5c;
+  constexpr static std::size_t size = 0x414;
+  constexpr static std::size_t addrs = 0x7250100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "DoIMGUIRepaint", {}, {} })));
@@ -372,7 +464,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::EventBase*, bool, bool)>(
     &::UnityEngine::UIElements::IMGUIContainer::SendEventToIMGUI)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x6db439c;
+  constexpr static std::size_t addrs = 0x725097c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -387,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::EventBase*, bool, bool)>(
     &::UnityEngine::UIElements::IMGUIContainer::SendEventToIMGUIRaw)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6db4608;
+  constexpr static std::size_t addrs = 0x7250be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -402,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::IMGUIContainer::VerifyBounds)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6db46ac;
+  constexpr static std::size_t addrs = 0x7250c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -414,8 +506,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::IsContainerCapturingTheMouse)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6db4758;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x7250d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "IsContainerCapturingTheMouse", {}, {} })));
@@ -428,7 +520,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::IMGUIContainer::IsLocalEvent)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x6db486c;
+  constexpr static std::size_t addrs = 0x7250e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -442,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::IMGUIContainer::IsEventInsideLocalWindow)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6db4aa0;
+  constexpr static std::size_t addrs = 0x7251084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(),
@@ -455,7 +547,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::IMGUIContainer::IsDockAreaMouseUp)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6db4c58;
+  constexpr static std::size_t addrs = 0x725123c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -470,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::Event*, bool)>(
     &::UnityEngine::UIElements::IMGUIContainer::HandleIMGUIEvent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6db474c;
+  constexpr static std::size_t addrs = 0x7250d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(),
@@ -484,7 +576,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::Event*, ::System::Action*, bool)>(
     &::UnityEngine::UIElements::IMGUIContainer::HandleIMGUIEvent)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6db4d94;
+  constexpr static std::size_t addrs = 0x72513d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -498,8 +590,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::Event*, ::UnityEngine::Matrix4x4, ::UnityEngine::Rect, ::System::Action*,
                                                                                                            bool)>(&::UnityEngine::UIElements::IMGUIContainer::HandleIMGUIEvent)> {
-  constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x6db403c;
+  constexpr static std::size_t size = 0x468;
+  constexpr static std::size_t addrs = 0x7250514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -517,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::IMGUIContainer::HandleEventBubbleUpDisabled)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6db5018;
+  constexpr static std::size_t addrs = 0x72515a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -531,7 +623,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::IMGUIContainer::HandleEventBubbleUp)> {
   constexpr static std::size_t size = 0x4cc;
-  constexpr static std::size_t addrs = 0x6db5024;
+  constexpr static std::size_t addrs = 0x72515ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -544,7 +636,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::SetFoldoutDepthClass)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6db54f0;
+  constexpr static std::size_t addrs = 0x7251a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "SetFoldoutDepthClass", {}, {} })));
@@ -556,12 +648,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::IMGUIContainer::*)(
     float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode, float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode)>(&::UnityEngine::UIElements::IMGUIContainer::DoMeasure)> {
-  constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x6db5670;
+  constexpr static std::size_t size = 0x3cc;
+  constexpr static std::size_t addrs = 0x7251bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { ::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), 134 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { ::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), 137 }));
     return ___internal_method;
   }
 };
@@ -569,8 +661,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::GetCurrentClipRect)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6db4d5c;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x7251310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "GetCurrentClipRect", {}, {} })));
@@ -582,8 +674,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::IMGUIContainer*, ::UnityEngine::Event*, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Rect>)>(
     &::UnityEngine::UIElements::IMGUIContainer::GetCurrentTransformAndClip)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6db4e60;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x72514a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -600,7 +692,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::Dispose)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6db5934;
+  constexpr static std::size_t addrs = 0x7251fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "Dispose", {}, {} })));
@@ -612,23 +704,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)(bool)>(&::UnityEngine::UIElements::IMGUIContainer::Dispose)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6db59a8;
+  constexpr static std::size_t addrs = 0x7252038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { ::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), 137 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { ::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), 142 }));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::IMGUIContainer._DoOnGUI_b__59_0
+//  Writing Method size for method: ::UnityEngine::UIElements::IMGUIContainer._DoOnGUI_b__61_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::_DoOnGUI_b__59_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMGUIContainer::*)()>(&::UnityEngine::UIElements::IMGUIContainer::_DoOnGUI_b__61_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6db59c0;
+  constexpr static std::size_t addrs = 0x7252050;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "<DoOnGUI>b__59_0", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "<DoOnGUI>b__61_0", {}, {} })));
     return ___internal_method;
   }
 };
@@ -1085,7 +1177,7 @@ inline void UnityEngine::UIElements::IMGUIContainer::SetFoldoutDepthClass() {
 inline ::UnityEngine::Vector2 UnityEngine::UIElements::IMGUIContainer::DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t desiredHeight,
                                                                                  ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), 134 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), 137 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method, desiredWidth, widthMode, desiredHeight, heightMode);
 }
 inline ::UnityEngine::Rect UnityEngine::UIElements::IMGUIContainer::GetCurrentClipRect() {
@@ -1108,11 +1200,11 @@ inline void UnityEngine::UIElements::IMGUIContainer::Dispose() {
 }
 inline void UnityEngine::UIElements::IMGUIContainer::Dispose(bool disposeManaged) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), 137 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), 142 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposeManaged);
 }
-inline void UnityEngine::UIElements::IMGUIContainer::_DoOnGUI_b__59_0() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "<DoOnGUI>b__59_0", {}, {} })));
+inline void UnityEngine::UIElements::IMGUIContainer::_DoOnGUI_b__61_0() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMGUIContainer*>(), { "<DoOnGUI>b__61_0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::IMGUIContainer* UnityEngine::UIElements::IMGUIContainer::New_ctor() {

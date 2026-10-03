@@ -30,6 +30,7 @@ public:
     __E_DontResetBoneBounds = static_cast<int32_t>(0x2),
     __E_DontNotifyMeshUsers = static_cast<int32_t>(0x4),
     __E_DontRecalculateBounds = static_cast<int32_t>(0x8),
+    __E_DontValidateLodRanges = static_cast<int32_t>(0x10),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -64,8 +65,11 @@ public:
   /// @brief Field DontValidateIndices value: I32(1)
   static ::UnityEngine::Rendering::MeshUpdateFlags const DontValidateIndices;
 
+  /// @brief Field DontValidateLodRanges value: I32(16)
+  static ::UnityEngine::Rendering::MeshUpdateFlags const DontValidateLodRanges;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10302 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

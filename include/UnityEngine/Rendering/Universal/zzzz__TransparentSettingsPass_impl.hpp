@@ -3,16 +3,14 @@
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__TransparentSettingsPass_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderPassEvent_def.hpp"
-#include "UnityEngine/Rendering/Universal/zzzz__RenderingData_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RasterCommandBuffer_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::TransparentSettingsPass._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TransparentSettingsPass::*)(::UnityEngine::Rendering::Universal::RenderPassEvent, bool)>(
     &::UnityEngine::Rendering::Universal::TransparentSettingsPass::_ctor)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x68a8ea8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6cdebe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,24 +25,10 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::TransparentSettingsPass::*)()>(
     &::UnityEngine::Rendering::Universal::TransparentSettingsPass::Setup)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68a8f7c;
+  constexpr static std::size_t addrs = 0x6cdec8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(), { "Setup", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::TransparentSettingsPass.Execute
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TransparentSettingsPass::*)(
-    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::TransparentSettingsPass::Execute)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x68a8f8c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -53,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*)>(&::UnityEngine::Rendering::Universal::TransparentSettingsPass::ExecutePass)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68a9058;
+  constexpr static std::size_t addrs = 0x6cdec9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(),
@@ -82,12 +66,6 @@ inline void UnityEngine::Rendering::Universal::TransparentSettingsPass::_ctor(::
 inline bool UnityEngine::Rendering::Universal::TransparentSettingsPass::Setup() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(), { "Setup", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::TransparentSettingsPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
-                                                                                ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(), 10 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::TransparentSettingsPass::ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* rasterCommandBuffer) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(),

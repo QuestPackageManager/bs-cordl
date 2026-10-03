@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::LineInfo::*)(int32_t, int32_t)>(&::System::Xml::LineInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62cdfe0;
+  constexpr static std::size_t addrs = 0x66f5fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::LineInfo::*)(int32_t, int32_t)>(&::System::Xml::LineInfo::Set)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62cdfe8;
+  constexpr static std::size_t addrs = 0x66f5fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

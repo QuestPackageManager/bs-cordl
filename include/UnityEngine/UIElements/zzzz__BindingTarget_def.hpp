@@ -27,7 +27,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE BindingTarget {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c30b74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70863f8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId);
 
   // Ctor Parameters []
@@ -39,7 +39,7 @@ public:
   constexpr BindingTarget(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::BindingId bindingId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4026 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4028 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };

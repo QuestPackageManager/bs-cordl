@@ -49,8 +49,13 @@ public:
   /// @brief Field m_DebugFontTex, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DebugFontTex, put = __cordl_internal_set_m_DebugFontTex)) ::UnityW<::UnityEngine::Texture2D> m_DebugFontTex;
 
+  /// @brief Field m_StencilDitherTex, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_StencilDitherTex, put = __cordl_internal_set_m_StencilDitherTex)) ::UnityW<::UnityEngine::Texture2D> m_StencilDitherTex;
+
   /// @brief Field m_Version, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Version, put = __cordl_internal_set_m_Version)) int32_t m_Version;
+
+  __declspec(property(get = get_stencilDitherTex)) ::UnityW<::UnityEngine::Texture2D> stencilDitherTex;
 
   __declspec(property(get = get_version)) int32_t version;
 
@@ -62,7 +67,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x68b7590, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6ce5afc, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_m_BayerMatrixTex() const;
@@ -77,6 +82,10 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_m_DebugFontTex();
 
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_m_StencilDitherTex() const;
+
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_m_StencilDitherTex();
+
   constexpr int32_t const& __cordl_internal_get_m_Version() const;
 
   constexpr int32_t& __cordl_internal_get_m_Version();
@@ -87,21 +96,26 @@ public:
 
   constexpr void __cordl_internal_set_m_DebugFontTex(::UnityW<::UnityEngine::Texture2D> value);
 
+  constexpr void __cordl_internal_set_m_StencilDitherTex(::UnityW<::UnityEngine::Texture2D> value);
+
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x68b7700, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce5dd4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bayerMatrixTex, addr 0x68b7610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bayerMatrixTex, addr 0x6ce5b7c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_bayerMatrixTex();
 
-  /// @brief Method get_blueNoise64LTex, addr 0x68b7598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blueNoise64LTex, addr 0x6ce5b04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_blueNoise64LTex();
 
-  /// @brief Method get_debugFontTexture, addr 0x68b7688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_debugFontTexture, addr 0x6ce5bf4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_debugFontTexture();
 
-  /// @brief Method get_version, addr 0x68b7588, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_stencilDitherTex, addr 0x6ce5c6c, size 0x168, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Texture2D> get_stencilDitherTex();
+
+  /// @brief Method get_version, addr 0x6ce5af4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -110,13 +124,13 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_bayerMatrixTex, addr 0x68b7618, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_bayerMatrixTex, addr 0x6ce5b84, size 0x70, virtual false, abstract: false, final false
   inline void set_bayerMatrixTex(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_blueNoise64LTex, addr 0x68b75a0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_blueNoise64LTex, addr 0x6ce5b0c, size 0x70, virtual false, abstract: false, final false
   inline void set_blueNoise64LTex(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_debugFontTexture, addr 0x68b7690, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_debugFontTexture, addr 0x6ce5bfc, size 0x70, virtual false, abstract: false, final false
   inline void set_debugFontTexture(::UnityEngine::Texture2D* value);
 
 protected:
@@ -134,7 +148,7 @@ public:
   UniversalRenderPipelineRuntimeTextures(UniversalRenderPipelineRuntimeTextures const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13140 };
 
   /// [SerializeField]
   /// [HideInInspector]
@@ -156,6 +170,9 @@ public:
   /// @brief Field m_DebugFontTex, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___m_DebugFontTex;
 
+  /// @brief Field m_StencilDitherTex, offset: 0x30, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Texture2D> ___m_StencilDitherTex;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -167,6 +184,8 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRenderPipel
 
 static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures, ___m_DebugFontTex) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures) == 0x30, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures, ___m_StencilDitherTex) == 0x30, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal

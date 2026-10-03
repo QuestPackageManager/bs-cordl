@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::LayerMask, int32_t)>(&::GlobalNamespace::ExtensionMethods::ContainsLayer)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3323b88;
+  constexpr static std::size_t addrs = 0x35acc5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Coroutine* (*)(::UnityEngine::MonoBehaviour*, ::System::Func_1<::System::Collections::IEnumerator*>*)>(
     &::GlobalNamespace::ExtensionMethods::StartUniqueCoroutine)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3323b94;
+  constexpr static std::size_t addrs = 0x35acc68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MonoBehaviour*, ::System::Func_1<::System::Collections::IEnumerator*>*)>(
     &::GlobalNamespace::ExtensionMethods::StopUniqueCoroutine)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3323c18;
+  constexpr static std::size_t addrs = 0x35accec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&::GlobalNamespace::ExtensionMethods::IsDescendantOf)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3323c64;
+  constexpr static std::size_t addrs = 0x35acd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::ExtensionMethods::SetLocalPositionAndRotation)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3323d30;
+  constexpr static std::size_t addrs = 0x35ace04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::Transform*)>(&::GlobalNamespace::ExtensionMethods::GetPath)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3323d88;
+  constexpr static std::size_t addrs = 0x35ace5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,8 +114,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngi
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&::GlobalNamespace::ExtensionMethods::Reflect)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3323e84;
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x35acf58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)(::UnityEngine::RenderTexture*, ::UnityEngine::TextureFormat)>(
     &::GlobalNamespace::ExtensionMethods::CreateTexture2D)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3324010;
+  constexpr static std::size_t addrs = 0x35ad0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, float_t)>(&::GlobalNamespace::ExtensionMethods::Rotate)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x332416c;
+  constexpr static std::size_t addrs = 0x35ad254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ParticleSystem*, uint32_t)>(&::GlobalNamespace::ExtensionMethods::SetSeed)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x33241b4;
+  constexpr static std::size_t addrs = 0x35ad29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ExtensionMethods*>(),
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Transform*)>(&::GlobalNamespace::ExtensionMethods::GetFixedSeed)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3324230;
+  constexpr static std::size_t addrs = 0x35ad318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::GameObject*)>(&::GlobalNamespace::ExtensionMethods::GetFixedSeed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3324398;
+  constexpr static std::size_t addrs = 0x35ad480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Component*)>(&::GlobalNamespace::ExtensionMethods::GetFixedSeed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x33243b4;
+  constexpr static std::size_t addrs = 0x35ad49c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

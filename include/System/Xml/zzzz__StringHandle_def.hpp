@@ -86,7 +86,7 @@ public:
   static ::System::Xml::StringHandle_StringHandleType const UTF8;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16305 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -133,57 +133,60 @@ public:
   /// @brief Field type, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Xml::StringHandle_StringHandleType type;
 
-  /// @brief Method CompareTo, addr 0x61033c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CompareTo, addr 0x651f8e8, size 0x84, virtual false, abstract: false, final false
   inline int32_t CompareTo(::System::Xml::StringHandle* that);
 
-  /// @brief Method Equals, addr 0x6103448, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x651f96c, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals2, addr 0x61030b0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Equals2, addr 0x651f5d4, size 0xd8, virtual false, abstract: false, final false
   inline bool Equals2(int32_t key2, ::System::Xml::XmlBufferReader* bufferReader2);
 
-  /// @brief Method Equals2, addr 0x6103230, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Equals2, addr 0x651f754, size 0xdc, virtual false, abstract: false, final false
   inline bool Equals2(int32_t offset2, int32_t length2, ::System::Xml::XmlBufferReader* bufferReader2);
 
-  /// @brief Method Equals2, addr 0x6102aac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Equals2, addr 0x651efd0, size 0x70, virtual false, abstract: false, final false
   inline bool Equals2(::StringW s2);
 
-  /// @brief Method Equals2, addr 0x610330c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Equals2, addr 0x651f830, size 0x68, virtual false, abstract: false, final false
   inline bool Equals2(::System::Xml::StringHandle* s2);
 
-  /// @brief Method Equals2, addr 0x6103188, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Equals2, addr 0x651f6ac, size 0xa8, virtual false, abstract: false, final false
   inline bool Equals2(::System::Xml::XmlDictionaryString* xmlString2);
 
-  /// @brief Method GetHashCode, addr 0x61034f8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x651fa1c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetString, addr 0x6102e78, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x651f39c, size 0x164, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetString(::by_ref<int32_t> offset, ::by_ref<int32_t> length);
 
-  /// @brief Method GetString, addr 0x6102d84, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x651f2a8, size 0xf4, virtual false, abstract: false, final false
   inline ::StringW GetString();
 
-  /// @brief Method GetString, addr 0x6102c58, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x651f17c, size 0x12c, virtual false, abstract: false, final false
   inline ::StringW GetString(::System::Xml::XmlNameTable* nameTable);
 
   static inline ::System::Xml::StringHandle* New_ctor(::System::Xml::XmlBufferReader* bufferReader);
 
-  /// @brief Method SetValue, addr 0x6102a30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x651ef80, size 0x8, virtual false, abstract: false, final false
+  inline void SetValue(int32_t key);
+
+  /// @brief Method SetValue, addr 0x651ef4c, size 0x10, virtual false, abstract: false, final false
   inline void SetValue(int32_t offset, int32_t length);
 
-  /// @brief Method SetValue, addr 0x6102a40, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x651ef5c, size 0x24, virtual false, abstract: false, final false
   inline void SetValue(int32_t offset, int32_t length, bool escaped);
 
-  /// @brief Method SetValue, addr 0x6102a64, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x651ef88, size 0x18, virtual false, abstract: false, final false
   inline void SetValue(::System::Xml::StringHandle* value);
 
-  /// @brief Method ToPrefixHandle, addr 0x6102c3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ToPrefixHandle, addr 0x651f160, size 0x1c, virtual false, abstract: false, final false
   inline void ToPrefixHandle(::System::Xml::PrefixHandle* prefix);
 
-  /// @brief Method ToString, addr 0x61030ac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x651f5d0, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetDictionaryString, addr 0x6102fdc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method TryGetDictionaryString, addr 0x651f500, size 0xd0, virtual false, abstract: false, final false
   inline bool TryGetDictionaryString(::by_ref<::System::Xml::XmlDictionaryString*> value);
 
   constexpr ::System::Xml::XmlBufferReader* const& __cordl_internal_get_bufferReader() const;
@@ -216,27 +219,27 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Xml::StringHandle_StringHandleType value);
 
-  /// @brief Method .ctor, addr 0x6102a1c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x651ef38, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlBufferReader* bufferReader);
 
   static inline ::ArrayW<::StringW> getStaticF_constStrings();
 
-  /// @brief Method get_IsEmpty, addr 0x6102a7c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x651efa0, size 0x30, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_IsXmlns, addr 0x6102b1c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method get_IsXmlns, addr 0x651f040, size 0x120, virtual false, abstract: false, final false
   inline bool get_IsXmlns();
 
-  /// @brief Method op_Equality, addr 0x6103384, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x651f8a8, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Xml::StringHandle* s1, ::StringW s2);
 
-  /// @brief Method op_Equality, addr 0x61033b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x651f8d8, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Xml::StringHandle* s1, ::System::Xml::StringHandle* s2);
 
-  /// @brief Method op_Equality, addr 0x6103374, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x651f898, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Xml::StringHandle* s1, ::System::Xml::XmlDictionaryString* xmlString2);
 
-  /// @brief Method op_Inequality, addr 0x6103394, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x651f8b8, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Xml::StringHandle* s1, ::StringW s2);
 
   static inline void setStaticF_constStrings(::ArrayW<::StringW> value);
@@ -256,7 +259,7 @@ public:
   StringHandle(StringHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16306 };
 
   /// @brief Field bufferReader, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlBufferReader* ___bufferReader;

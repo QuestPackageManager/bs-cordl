@@ -4,23 +4,47 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__EventModifiers_def.hpp"
+#include "UnityEngine/zzzz__KeyCode_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
+#include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextEditingUtilities)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 class Action;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace UnityEngine::TextCore::Text {
 class TextHandle;
 }
 namespace UnityEngine {
-class Event;
+struct EventModifiers;
+}
+namespace UnityEngine {
+struct KeyCode;
 }
 namespace UnityEngine {
 struct TextEditOp;
+}
+namespace UnityEngine {
+struct TextEditingUtilities_KeyEvent;
 }
 namespace UnityEngine {
 class TextSelectingUtilities;
@@ -32,9 +56,107 @@ struct Vector2;
 namespace UnityEngine {
 class TextEditingUtilities;
 }
+namespace UnityEngine {
+struct TextEditingUtilities_KeyEvent;
+}
 // Write type traits
 MARK_REF_T(::UnityEngine::TextEditingUtilities*);
+MARK_VAL_T(::UnityEngine::TextEditingUtilities_KeyEvent);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextEditingUtilities*, "UnityEngine", "TextEditingUtilities");
+DEFINE_IL2CPP_CLASS(::UnityEngine::TextEditingUtilities_KeyEvent, "UnityEngine", "TextEditingUtilities/KeyEvent");
+// Dependencies UnityEngine.EventModifiers, UnityEngine.KeyCode
+namespace UnityEngine {
+// Is value type: true
+// CS Name: UnityEngine.TextEditingUtilities/KeyEvent
+struct CORDL_TYPE TextEditingUtilities_KeyEvent {
+public:
+  // Declarations
+  __declspec(property(get = get_key)) ::UnityEngine::KeyCode key;
+
+  __declspec(property(get = get_modifiers)) ::UnityEngine::EventModifiers modifiers;
+
+  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextEditingUtilities_KeyEvent>"
+  constexpr operator ::System::IEquatable_1<::UnityEngine::TextEditingUtilities_KeyEvent>*();
+
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
+  /// @brief Method Equals, addr 0x6fb2e5c, size 0x80, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
+  /// @brief Method Equals, addr 0x6fb2cf0, size 0xc0, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::TextEditingUtilities_KeyEvent other);
+
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
+  /// @brief Method GetHashCode, addr 0x6fb2db0, size 0xac, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
+  /// @brief Method PrintMembers, addr 0x6fb2bb4, size 0x124, virtual false, abstract: false, final false
+  inline bool PrintMembers(::System::Text::StringBuilder* builder);
+
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
+  /// @brief Method ToString, addr 0x6fb2ad8, size 0xdc, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x6fb2ac0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::KeyCode key, ::UnityEngine::EventModifiers modifiers);
+
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
+  /// @brief Method get_key, addr 0x6fb2ac8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::KeyCode get_key();
+
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
+  /// @brief Method get_modifiers, addr 0x6fb2ad0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::EventModifiers get_modifiers();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextEditingUtilities_KeyEvent>"
+  constexpr ::System::IEquatable_1<::UnityEngine::TextEditingUtilities_KeyEvent>* i___System__IEquatable_1___UnityEngine__TextEditingUtilities_KeyEvent_();
+
+  /// [CompilerGenerated]
+  /// @brief Method op_Equality, addr 0x6fb2cd8, size 0x18, virtual false, abstract: false, final false
+  static inline bool op_Equality(::UnityEngine::TextEditingUtilities_KeyEvent left, ::UnityEngine::TextEditingUtilities_KeyEvent right);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextEditingUtilities_KeyEvent();
+
+  // Ctor Parameters [CppParam { name: "_key_k__BackingField", ty: "::UnityEngine::KeyCode", modifiers: "", def_value: None, comment: None }, CppParam { name: "_modifiers_k__BackingField", ty:
+  // "::UnityEngine::EventModifiers", modifiers: "", def_value: None, comment: None }]
+  constexpr TextEditingUtilities_KeyEvent(::UnityEngine::KeyCode _key_k__BackingField, ::UnityEngine::EventModifiers _modifiers_k__BackingField) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20076 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
+  /// @brief Field <key>k__BackingField, offset: 0x0, size: 0x4, def value: None
+  ::UnityEngine::KeyCode _key_k__BackingField;
+
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// @brief Field <modifiers>k__BackingField, offset: 0x4, size: 0x4, def value: None
+  ::UnityEngine::EventModifiers _modifiers_k__BackingField;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::TextEditingUtilities_KeyEvent, _key_k__BackingField) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextEditingUtilities_KeyEvent, _modifiers_k__BackingField) == 0x4, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::TextEditingUtilities_KeyEvent) == 0x8, "Size mismatch!");
+
+} // namespace UnityEngine
 // [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies System.Object
 namespace UnityEngine {
@@ -43,6 +165,8 @@ namespace UnityEngine {
 class CORDL_TYPE TextEditingUtilities : public ::System::Object {
 public:
   // Declarations
+  using KeyEvent = ::UnityEngine::TextEditingUtilities_KeyEvent;
+
   /// @brief Field OnTextChanged, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_OnTextChanged, put = __cordl_internal_set_OnTextChanged)) ::System::Action* OnTextChanged;
 
@@ -75,8 +199,20 @@ public:
 
   __declspec(property(put = set_revealCursor)) bool revealCursor;
 
-  /// @brief Field s_KeyEditOps, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_KeyEditOps, put = setStaticF_s_KeyEditOps)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextEditOp>* s_KeyEditOps;
+  /// @brief Field s_GlobalKeyMappings, offset 0xffffffff, size 0x8
+  __declspec(property(
+      get = getStaticF_s_GlobalKeyMappings,
+      put =
+          setStaticF_s_GlobalKeyMappings)) ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextEditOp>>* s_GlobalKeyMappings;
+
+  /// @brief Field s_MacKeyMappings, offset 0xffffffff, size 0x8
+  __declspec(property(
+      get = getStaticF_s_MacKeyMappings,
+      put = setStaticF_s_MacKeyMappings)) ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextEditOp>>* s_MacKeyMappings;
+
+  /// @brief Field s_WindowsLinuxKeyMappings, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_WindowsLinuxKeyMappings, put = setStaticF_s_WindowsLinuxKeyMappings)) ::System::Collections::Generic::List_1<
+      ::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextEditOp>>* s_WindowsLinuxKeyMappings;
 
   __declspec(property(get = get_selectIndex, put = set_selectIndex)) int32_t selectIndex;
 
@@ -91,84 +227,85 @@ public:
   /// @brief Field textHandle, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_textHandle, put = __cordl_internal_set_textHandle)) ::UnityEngine::TextCore::Text::TextHandle* textHandle;
 
-  /// @brief Method Backspace, addr 0x6b541f0, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method Backspace, addr 0x6fb0840, size 0x3b4, virtual false, abstract: false, final false
   inline bool Backspace();
 
-  /// @brief Method CanPaste, addr 0x6b54f74, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CanPaste, addr 0x6fb1464, size 0x68, virtual false, abstract: false, final false
   inline bool CanPaste();
 
-  /// @brief Method Cut, addr 0x6b54450, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Cut, addr 0x6fb0bf4, size 0x28, virtual false, abstract: false, final false
   inline bool Cut();
 
-  /// @brief Method Delete, addr 0x6b540c0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Delete, addr 0x6fb0620, size 0x220, virtual false, abstract: false, final false
   inline bool Delete();
 
-  /// @brief Method DeleteLineBack, addr 0x6b54610, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method DeleteLineBack, addr 0x6fb0e48, size 0x1d8, virtual false, abstract: false, final false
   inline bool DeleteLineBack();
 
-  /// @brief Method DeleteSelection, addr 0x6b54904, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method DeleteSelection, addr 0x6fb1128, size 0x21c, virtual false, abstract: false, final false
   inline bool DeleteSelection();
 
-  /// @brief Method DeleteWordBack, addr 0x6b5452c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method DeleteWordBack, addr 0x6fb0cf8, size 0x150, virtual false, abstract: false, final false
   inline bool DeleteWordBack();
 
-  /// @brief Method DeleteWordForward, addr 0x6b54778, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method DeleteWordForward, addr 0x6fb1020, size 0x108, virtual false, abstract: false, final false
   inline bool DeleteWordForward();
 
-  /// @brief Method EnableCursorPreviewState, addr 0x6b5240c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method EnableCursorPreviewState, addr 0x6fafe44, size 0xec, virtual false, abstract: false, final false
   inline void EnableCursorPreviewState();
 
-  /// @brief Method GeneratePreviewString, addr 0x6b522c0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GeneratePreviewString, addr 0x6fafcac, size 0x108, virtual false, abstract: false, final false
   inline ::StringW GeneratePreviewString(bool richText);
 
-  /// [VisibleToOtherModules]
-  /// @brief Method HandleKeyEvent, addr 0x6b524b0, size 0x130, virtual false, abstract: false, final false
-  inline bool HandleKeyEvent(::UnityEngine::Event* e);
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
+  /// @brief Method HandleKeyEvent, addr 0x6faff30, size 0xe4, virtual false, abstract: false, final false
+  inline bool HandleKeyEvent(::UnityEngine::KeyCode key, ::UnityEngine::EventModifiers modifiers);
 
-  /// @brief Method InitKeyActions, addr 0x6b525e0, size 0x798, virtual false, abstract: false, final false
-  inline void InitKeyActions();
-
-  /// @brief Method Insert, addr 0x6b54e54, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x6fb1344, size 0x120, virtual false, abstract: false, final false
   inline bool Insert(char16_t c);
-
-  /// @brief Method MapKey, addr 0x6b5485c, size 0xa8, virtual false, abstract: false, final false
-  static inline void MapKey(::StringW key, ::UnityEngine::TextEditOp action);
 
   static inline ::UnityEngine::TextEditingUtilities* New_ctor(::UnityEngine::TextSelectingUtilities* selectingUtilities, ::UnityEngine::TextCore::Text::TextHandle* textHandle, ::StringW text);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
-  /// @brief Method OnBlur, addr 0x6b55110, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnBlur, addr 0x6fb1568, size 0x58, virtual false, abstract: false, final false
   inline void OnBlur();
 
-  /// @brief Method Paste, addr 0x6b54474, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Paste, addr 0x6fb0c1c, size 0xdc, virtual false, abstract: false, final false
   inline bool Paste();
 
-  /// @brief Method PerformOperation, addr 0x6b52d78, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method PerformOperation, addr 0x6fb0244, size 0x3dc, virtual false, abstract: false, final false
   inline void PerformOperation(::UnityEngine::TextEditOp operation);
 
-  /// @brief Method ReplaceNewlinesWithSpaces, addr 0x6b55074, size 0x9c, virtual false, abstract: false, final false
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
+  /// @brief Method PhysicalKeyboardCanBeUsed, addr 0x6fb1664, size 0x28, virtual false, abstract: false, final false
+  inline bool PhysicalKeyboardCanBeUsed();
+
+  /// @brief Method ReplaceNewlinesWithSpaces, addr 0x6fb14cc, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW ReplaceNewlinesWithSpaces(::StringW value);
 
-  /// @brief Method ReplaceSelection, addr 0x6b520f0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ReplaceSelection, addr 0x6fafaa4, size 0x150, virtual false, abstract: false, final false
   inline void ReplaceSelection(::StringW replace);
 
-  /// @brief Method RestoreCursorState, addr 0x6b523cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method RestoreCursorState, addr 0x6fafdb4, size 0x90, virtual false, abstract: false, final false
   inline void RestoreCursorState();
 
-  /// @brief Method SetImeWindowPosition, addr 0x6b52210, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetImeWindowPosition, addr 0x6fafbfc, size 0xb0, virtual false, abstract: false, final false
   inline void SetImeWindowPosition(::UnityEngine::Vector2 worldPosition);
 
-  /// @brief Method SetTextWithoutNotify, addr 0x6b52024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTextWithoutNotify, addr 0x6faf9dc, size 0x8, virtual false, abstract: false, final false
   inline void SetTextWithoutNotify(::StringW value);
 
-  /// @brief Method ShouldUpdateImeWindowPosition, addr 0x6b52208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldUpdateImeWindowPosition, addr 0x6fafbf4, size 0x8, virtual false, abstract: false, final false
   inline bool ShouldUpdateImeWindowPosition();
 
-  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
-  /// @brief Method TouchScreenKeyboardShouldBeUsed, addr 0x6b5517c, size 0xa0, virtual false, abstract: false, final false
-  inline bool TouchScreenKeyboardShouldBeUsed();
+  /// @brief Method TextEditOpFromEnum, addr 0x6fb0014, size 0x230, virtual false, abstract: false, final false
+  static inline ::System::Nullable_1<::UnityEngine::TextEditOp> TextEditOpFromEnum(::UnityEngine::KeyCode key, ::UnityEngine::EventModifiers modifiers, bool IsMacOsFamily);
 
-  /// @brief Method UpdateImeState, addr 0x6b52044, size 0xac, virtual false, abstract: false, final false
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
+  /// @brief Method TouchScreenKeyboardCanBeUsed, addr 0x6fb15c0, size 0xa4, virtual false, abstract: false, final false
+  inline bool TouchScreenKeyboardCanBeUsed();
+
+  /// @brief Method UpdateImeState, addr 0x6faf9fc, size 0xa8, virtual false, abstract: false, final false
   inline bool UpdateImeState();
 
   constexpr ::System::Action* const& __cordl_internal_get_OnTextChanged() const;
@@ -225,50 +362,59 @@ public:
 
   constexpr void __cordl_internal_set_textHandle(::UnityEngine::TextCore::Text::TextHandle* value);
 
-  /// @brief Method .ctor, addr 0x6b5202c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6faf9e4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextSelectingUtilities* selectingUtilities, ::UnityEngine::TextCore::Text::TextHandle* textHandle, ::StringW text);
 
-  static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextEditOp>* getStaticF_s_KeyEditOps();
+  static inline ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextEditOp>>* getStaticF_s_GlobalKeyMappings();
 
-  /// @brief Method get_cursorIndex, addr 0x6b51ce8, size 0x14, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextEditOp>>* getStaticF_s_MacKeyMappings();
+
+  static inline ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextEditOp>>* getStaticF_s_WindowsLinuxKeyMappings();
+
+  /// @brief Method get_cursorIndex, addr 0x6faf7fc, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_cursorIndex();
 
-  /// @brief Method get_cursorIndexNoValidation, addr 0x6b51dbc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_cursorIndexNoValidation, addr 0x6faf850, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_cursorIndexNoValidation();
 
-  /// @brief Method get_hasSelection, addr 0x6b51bd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasSelection, addr 0x6faf748, size 0x3c, virtual false, abstract: false, final false
   inline bool get_hasSelection();
 
-  /// @brief Method get_selectIndex, addr 0x6b51ee0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_selectIndex, addr 0x6faf918, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_selectIndex();
 
-  /// @brief Method get_stringCursorIndex, addr 0x6b51cb4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_stringCursorIndex, addr 0x6faf7c4, size 0x38, virtual false, abstract: false, final false
   inline int32_t get_stringCursorIndex();
 
-  /// @brief Method get_stringSelectIndex, addr 0x6b51eac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_stringSelectIndex, addr 0x6faf8e0, size 0x38, virtual false, abstract: false, final false
   inline int32_t get_stringSelectIndex();
 
-  /// @brief Method get_text, addr 0x6b51fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x6faf96c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  static inline void setStaticF_s_KeyEditOps(::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextEditOp>* value);
+  static inline void setStaticF_s_GlobalKeyMappings(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextEditOp>>* value);
 
-  /// @brief Method set_cursorIndex, addr 0x6b51d54, size 0x3c, virtual false, abstract: false, final false
+  static inline void setStaticF_s_MacKeyMappings(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextEditOp>>* value);
+
+  static inline void
+  setStaticF_s_WindowsLinuxKeyMappings(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::TextEditingUtilities_KeyEvent, ::UnityEngine::TextEditOp>>* value);
+
+  /// @brief Method set_cursorIndex, addr 0x6faf814, size 0x3c, virtual false, abstract: false, final false
   inline void set_cursorIndex(int32_t value);
 
-  /// @brief Method set_cursorIndexNoValidation, addr 0x6b51ddc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_cursorIndexNoValidation, addr 0x6faf868, size 0x3c, virtual false, abstract: false, final false
   inline void set_cursorIndexNoValidation(int32_t value);
 
-  /// @brief Method set_revealCursor, addr 0x6b51c44, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_revealCursor, addr 0x6faf784, size 0x40, virtual false, abstract: false, final false
   inline void set_revealCursor(bool value);
 
-  /// @brief Method set_selectIndex, addr 0x6b51f4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_selectIndex, addr 0x6faf930, size 0x3c, virtual false, abstract: false, final false
   inline void set_selectIndex(int32_t value);
 
-  /// @brief Method set_selectIndexNoValidation, addr 0x6b51e44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_selectIndexNoValidation, addr 0x6faf8a4, size 0x3c, virtual false, abstract: false, final false
   inline void set_selectIndexNoValidation(int32_t value);
 
-  /// @brief Method set_text, addr 0x6b51fbc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x6faf974, size 0x68, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -286,7 +432,7 @@ public:
   TextEditingUtilities(TextEditingUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20077 };
 
   /// @brief Field m_TextSelectingUtility, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::TextSelectingUtilities* ___m_TextSelectingUtility;

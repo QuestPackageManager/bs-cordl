@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogParamsBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData,
                                                                                                             ::System::Object*)>(&::GlobalNamespace::BloomFogParamsBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x590767c;
+  constexpr static std::size_t addrs = 0x5d21cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogParamsBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::BloomFogParamsBehaviour::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x59077fc;
+  constexpr static std::size_t addrs = 0x5d21e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogParamsBehaviour::*)()>(&::GlobalNamespace::BloomFogParamsBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5907898;
+  constexpr static std::size_t addrs = 0x5d21f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogParamsBehaviour*>(), { ".ctor", {}, {} })));

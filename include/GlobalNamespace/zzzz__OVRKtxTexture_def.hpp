@@ -25,12 +25,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRKtxTexture : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Load, addr 0x5e62730, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x627c2b8, size 0x264, virtual false, abstract: false, final false
   static inline bool Load(::ArrayW<uint8_t> data, ::by_ref<::GlobalNamespace::OVRTextureData> ktxData);
 
   static inline ::GlobalNamespace::OVRKtxTexture* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5e62994, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x627c51c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   static constexpr uint32_t KTX_TTF_BC7_RGBA{ static_cast<uint32_t>(0x6u) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7225 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7344 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -35,7 +35,7 @@ public:
                            float_t fovTopAngleTangent, float_t fovDownAngleTangent, float_t nearZ, float_t farZ) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23788 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x34 };

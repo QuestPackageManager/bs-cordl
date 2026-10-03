@@ -64,17 +64,17 @@ public:
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BeatmapDataCache_CacheKey>*();
 
   /// [NullableContext(2)]
-  /// @brief Method Equals, addr 0x3711208, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x399a56c, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x37110f8, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x399a45c, size 0xc4, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BeatmapDataCache_CacheKey other);
 
-  /// @brief Method GetHashCode, addr 0x371129c, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x399a600, size 0x18c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x37111bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399a520, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, /* [Nullable(2)] */ ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                     ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, bool screenDisplacementEffects);
@@ -96,7 +96,7 @@ public:
                                       ::GlobalNamespace::BeatmapLevelDataVersion _beatmapLevelDataVersion) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15128 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -160,7 +160,7 @@ public:
   __declspec(property(get = __cordl_internal_get_transformedBeatmapDataTask,
                       put = __cordl_internal_set_transformedBeatmapDataTask)) ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask;
 
-  /// @brief Method AreSameBeatmapDataCached, addr 0x37110c4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method AreSameBeatmapDataCached, addr 0x399a428, size 0x34, virtual false, abstract: false, final false
   inline bool AreSameBeatmapDataCached(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key);
 
   static inline ::GlobalNamespace::BeatmapDataCache*
@@ -179,7 +179,7 @@ public:
 
   constexpr void __cordl_internal_set_transformedBeatmapDataTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* value);
 
-  /// @brief Method .ctor, addr 0x37110a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399a40c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key,
                     /* [Nullable(new[] { 1, 2 })] */ ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask);
 
@@ -198,7 +198,7 @@ public:
   BeatmapDataCache(BeatmapDataCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15129 };
 
   /// [Nullable(new[] { 1, 2 })]
   /// @brief Field transformedBeatmapDataTask, offset: 0x10, size: 0x8, def value: None

@@ -12,7 +12,7 @@ class ProbeTouchupVolume;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::ProbeTouchupVolume*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeTouchupVolume*, "UnityEngine.Rendering", "ProbeTouchupVolume");
-// [Obsolete("ProbeTouchupVolume has been deprecated (UnityUpgradable) -> ProbeAdjustmentVolume", false)]
+// [Obsolete("ProbeTouchupVolume has been deprecated. #from(2023.2) (UnityUpgradable) -> ProbeAdjustmentVolume")]
 // Dependencies UnityEngine.Rendering.ProbeAdjustmentVolume
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::ProbeTouchupVolume* New_ctor();
 
-  /// @brief Method .ctor, addr 0x676fe3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9e6e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -40,7 +40,7 @@ public:
   ProbeTouchupVolume(ProbeTouchupVolume const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8932 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

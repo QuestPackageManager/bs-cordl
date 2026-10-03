@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::LocalAppContext___c::*)()>(&::System::LocalAppContext___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ffd894;
+  constexpr static std::size_t addrs = 0x6419868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::LocalAppContext___c*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::LocalAppContext___c::*)()>(&::System::LocalAppContext___c::_get_DisableCaching_b__6_0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5ffd898;
+  constexpr static std::size_t addrs = 0x641986c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::LocalAppContext___c*>(), { "<get_DisableCaching>b__6_0", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<int32_t>)>(&::System::LocalAppContext::GetCachedSwitchValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5ffd664;
+  constexpr static std::size_t addrs = 0x6419638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<int32_t>)>(&::System::LocalAppContext::GetCachedSwitchValueInternal)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5ffd684;
+  constexpr static std::size_t addrs = 0x6419658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::LocalAppContext::get_DisableCaching)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5ffd71c;
+  constexpr static std::size_t addrs = 0x64196f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::LocalAppContext*>(), { "get_DisableCaching", {}, {} })));

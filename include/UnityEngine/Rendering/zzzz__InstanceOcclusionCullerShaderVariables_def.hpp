@@ -14,7 +14,7 @@ struct InstanceOcclusionCullerShaderVariables;
 MARK_VAL_T(::UnityEngine::Rendering::InstanceOcclusionCullerShaderVariables);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::InstanceOcclusionCullerShaderVariables, "UnityEngine.Rendering", "InstanceOcclusionCullerShaderVariables");
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\InstanceOcclusionCullerShaderVariables.cs", needAccessors = false, generateCBuffer = true)] Dependencies
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\GPUDriven\\InstanceOcclusionCullerShaderVariables.cs", needAccessors = false, generateCBuffer = true)] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.InstanceOcclusionCullerShaderVariables
@@ -35,7 +35,7 @@ public:
                                                    int32_t _InstanceOcclusionCullerPad0) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18279 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

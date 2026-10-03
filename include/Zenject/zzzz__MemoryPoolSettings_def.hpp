@@ -51,7 +51,7 @@ public:
   static inline ::Zenject::MemoryPoolSettings* New_ctor(int32_t initialSize, int32_t maxSize, ::Zenject::PoolExpandMethods expandMethod, bool showExpandWarning);
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method NoDomainReloadInit, addr 0x6e69790, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x73052e8, size 0xc0, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
   constexpr ::Zenject::PoolExpandMethods const& __cordl_internal_get_ExpandMethod() const;
@@ -78,29 +78,29 @@ public:
 
   constexpr void __cordl_internal_set_ShowExpandWarning(bool value);
 
-  /// @brief Method __zenCreate, addr 0x6e698bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x7305414, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e6991c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x7305474, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e696a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7305200, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6e696c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x730521c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialSize, int32_t maxSize, ::Zenject::PoolExpandMethods expandMethod, bool showExpandWarning);
 
   static inline ::Zenject::MemoryPoolSettings* getStaticF__Default_k__BackingField();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Default, addr 0x6e696d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x730522c, size 0x5c, virtual false, abstract: false, final false
   static inline ::Zenject::MemoryPoolSettings* get_Default();
 
   static inline void setStaticF__Default_k__BackingField(::Zenject::MemoryPoolSettings* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Default, addr 0x6e69730, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_Default, addr 0x7305288, size 0x60, virtual false, abstract: false, final false
   static inline void set_Default(::Zenject::MemoryPoolSettings* value);
 
 protected:
@@ -118,7 +118,7 @@ public:
   MemoryPoolSettings(MemoryPoolSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14402 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14641 };
 
   /// @brief Field InitialSize, offset: 0x10, size: 0x4, def value: None
   int32_t ___InitialSize;

@@ -60,7 +60,7 @@ public:
   OptionalArgument_1(OptionalArgument_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19373 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19712 };
 
   /// @brief Field _defaultValue, offset: 0x40, size: 0x8, def value: None
   T ____defaultValue;

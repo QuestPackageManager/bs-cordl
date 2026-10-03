@@ -22,6 +22,9 @@ namespace BeatSaber::Analytics::Gameplay::Events {
 class CORDL_TYPE SpaceshipEventType : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field AttemptMetadata, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_AttemptMetadata, put = setStaticF_AttemptMetadata)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* AttemptMetadata;
+
   /// @brief Field ChangeSetting, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ChangeSetting, put = setStaticF_ChangeSetting)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* ChangeSetting;
 
@@ -59,7 +62,7 @@ public:
 
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* New_ctor(::StringW value);
 
-  /// @brief Method ToString, addr 0x32652a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x34e9c2c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__Value_k__BackingField() const;
@@ -68,8 +71,10 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3265298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34e9c24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
+
+  static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* getStaticF_AttemptMetadata();
 
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* getStaticF_ChangeSetting();
 
@@ -92,8 +97,10 @@ public:
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* getStaticF_Update();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Value, addr 0x3265290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x34e9c1c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
+
+  static inline void setStaticF_AttemptMetadata(::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* value);
 
   static inline void setStaticF_ChangeSetting(::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* value);
 
@@ -130,7 +137,7 @@ public:
   SpaceshipEventType(SpaceshipEventType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22972 };
 
   /// [CompilerGenerated]
   /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None

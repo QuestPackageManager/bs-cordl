@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::Oid::*)()>(&::System::Security::Cryptography::Oid::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63a20a8;
+  constexpr static std::size_t addrs = 0x67ca374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::Oid*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::Oid::*)(::StringW)>(&::System::Security::Cryptography::Oid::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x63a20ac;
+  constexpr static std::size_t addrs = 0x67ca378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::Oid::*)(::StringW, ::StringW)>(&::System::Security::Cryptography::Oid::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63a2130;
+  constexpr static std::size_t addrs = 0x67ca3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::Oid::*)(::System::Security::Cryptography::Oid*)>(&::System::Security::Cryptography::Oid::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x63a2138;
+  constexpr static std::size_t addrs = 0x67ca404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::Oid* (*)(::StringW, ::System::Security::Cryptography::OidGroup)>(
     &::System::Security::Cryptography::Oid::FromOidValue)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x63a219c;
+  constexpr static std::size_t addrs = 0x67ca468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::Oid::*)()>(&::System::Security::Cryptography::Oid::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63a22cc;
+  constexpr static std::size_t addrs = 0x67ca598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::Oid*>(), { "get_Value", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::Oid::*)(::StringW)>(&::System::Security::Cryptography::Oid::set_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63a22d4;
+  constexpr static std::size_t addrs = 0x67ca5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::Oid::*)()>(&::System::Security::Cryptography::Oid::get_FriendlyName)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x63a22dc;
+  constexpr static std::size_t addrs = 0x67ca5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::Oid*>(), { "get_FriendlyName", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::Oid::*)(::StringW, ::StringW, ::System::Security::Cryptography::OidGroup)>(
     &::System::Security::Cryptography::Oid::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63a22c0;
+  constexpr static std::size_t addrs = 0x67ca58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

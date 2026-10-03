@@ -28,16 +28,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE MirrorReflectionMath : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CalculateObliqueMatrix, addr 0x5f472c4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CalculateObliqueMatrix, addr 0x6362a8c, size 0x178, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 CalculateObliqueMatrix(::UnityEngine::Matrix4x4 projection, ::UnityEngine::Vector4 clipPlane);
 
-  /// @brief Method CalculateReflectionMatrix, addr 0x5f471e0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CalculateReflectionMatrix, addr 0x63629a8, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 CalculateReflectionMatrix(::UnityEngine::Vector4 plane);
 
-  /// @brief Method CameraSpacePlane, addr 0x5f470a4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CameraSpacePlane, addr 0x63627a8, size 0x200, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 CameraSpacePlane(::UnityEngine::Matrix4x4 worldToCameraMatrix, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
 
-  /// @brief Method Plane, addr 0x5f47078, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Plane, addr 0x636277c, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 Plane(::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
 
 protected:
@@ -55,7 +55,7 @@ public:
   MirrorReflectionMath(MirrorReflectionMath const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21138 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

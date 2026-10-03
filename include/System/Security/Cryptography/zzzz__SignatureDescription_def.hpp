@@ -67,19 +67,19 @@ public:
 
   constexpr void __cordl_internal_set__strKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b06cdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1ebd4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_DeformatterAlgorithm, addr 0x5b06cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DeformatterAlgorithm, addr 0x5f1ebf0, size 0x8, virtual false, abstract: false, final false
   inline void set_DeformatterAlgorithm(::StringW value);
 
-  /// @brief Method set_DigestAlgorithm, addr 0x5b06ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DigestAlgorithm, addr 0x5f1ebe0, size 0x8, virtual false, abstract: false, final false
   inline void set_DigestAlgorithm(::StringW value);
 
-  /// @brief Method set_FormatterAlgorithm, addr 0x5b06cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FormatterAlgorithm, addr 0x5f1ebe8, size 0x8, virtual false, abstract: false, final false
   inline void set_FormatterAlgorithm(::StringW value);
 
-  /// @brief Method set_KeyAlgorithm, addr 0x5b06ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyAlgorithm, addr 0x5f1ebd8, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyAlgorithm(::StringW value);
 
 protected:

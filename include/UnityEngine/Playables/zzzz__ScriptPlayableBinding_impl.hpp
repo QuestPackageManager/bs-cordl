@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableBinding (*)(::StringW, ::UnityEngine::Object*, ::System::Type*)>(
     &::UnityEngine::Playables::ScriptPlayableBinding::Create)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6b06944;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6f61da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableOutput (*)(::UnityEngine::Playables::PlayableGraph, ::StringW)>(
     &::UnityEngine::Playables::ScriptPlayableBinding::CreateScriptOutput)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b06a04;
+  constexpr static std::size_t addrs = 0x6f61e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::*)(::System::Collections::IDictionary*, ::System::Collections::IList*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3590f6c;
+  constexpr static std::size_t addrs = 0x381a208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3590f74;
+  constexpr static std::size_t addrs = 0x381a210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3590fe8;
+  constexpr static std::size_t addrs = 0x381a284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::_ctor)> {
   constexpr static std::size_t size = 0x564;
-  constexpr static std::size_t addrs = 0x3591068;
+  constexpr static std::size_t addrs = 0x381a304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::get_Size)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x35915cc;
+  constexpr static std::size_t addrs = 0x381a868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle*>(), { "get_Size", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::get_Count)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3591674;
+  constexpr static std::size_t addrs = 0x381a910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle*>(), { "get_Count", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerable* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::GetKeyRings)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x359171c;
+  constexpr static std::size_t addrs = 0x381a9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle*>(), { "GetKeyRings", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerable* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::*)(::StringW)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::GetKeyRings)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3591804;
+  constexpr static std::size_t addrs = 0x381aaa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerable* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::*)(::StringW, bool)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::GetKeyRings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3592024;
+  constexpr static std::size_t addrs = 0x381b2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle*>(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerable* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::*)(::StringW, bool, bool)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::GetKeyRings)> {
   constexpr static std::size_t size = 0x814;
-  constexpr static std::size_t addrs = 0x3591810;
+  constexpr static std::size_t addrs = 0x381aaac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle*>(),
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::*)(int64_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::GetPublicKey)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x359202c;
+  constexpr static std::size_t addrs = 0x381b2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::*)(int64_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::GetPublicKeyRing)> {
   constexpr static std::size_t size = 0x49c;
-  constexpr static std::size_t addrs = 0x3592360;
+  constexpr static std::size_t addrs = 0x381b5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::*)(int64_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::Contains)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x35927fc;
+  constexpr static std::size_t addrs = 0x381ba98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::GetEncoded)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3592814;
+  constexpr static std::size_t addrs = 0x381bab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle*>(), { "GetEncoded", {}, {} })));
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::Encode)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x3592890;
+  constexpr static std::size_t addrs = 0x381bb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle* (*)(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle*, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing*)>(
         &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::AddPublicKeyRing)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x3592ca0;
+  constexpr static std::size_t addrs = 0x381bf3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,7 +241,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle* (*)(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle*, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing*)>(
         &::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::RemovePublicKeyRing)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x3592f70;
+  constexpr static std::size_t addrs = 0x381c20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

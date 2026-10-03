@@ -75,7 +75,7 @@ public:
   static ::HMUI::NoTransitionsButton_SelectionState const Pressed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19635 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -109,7 +109,7 @@ public:
   __declspec(property(get = __cordl_internal_get_selectionStateDidChangeEvent,
                       put = __cordl_internal_set_selectionStateDidChangeEvent)) ::System::Action_1<::HMUI::NoTransitionsButton_SelectionState>* selectionStateDidChangeEvent;
 
-  /// @brief Method DoStateTransition, addr 0x5882310, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method DoStateTransition, addr 0x5c98928, size 0x40, virtual true, abstract: false, final false
   inline void DoStateTransition(::UnityEngine::UI::Selectable_SelectionState state, bool instant);
 
   static inline ::HMUI::NoTransitionsButton* New_ctor();
@@ -126,18 +126,18 @@ public:
 
   constexpr void __cordl_internal_set_selectionStateDidChangeEvent(::System::Action_1<::HMUI::NoTransitionsButton_SelectionState>* value);
 
-  /// @brief Method .ctor, addr 0x5882350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c98968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_selectionStateDidChangeEvent, addr 0x5881658, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_selectionStateDidChangeEvent, addr 0x5c97c00, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::NoTransitionsButton_SelectionState>* value);
 
-  /// @brief Method get_selectionState, addr 0x5882308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectionState, addr 0x5c98920, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::NoTransitionsButton_SelectionState get_selectionState();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x5881880, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x5c97e28, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::NoTransitionsButton_SelectionState>* value);
 
 protected:
@@ -155,7 +155,7 @@ public:
   NoTransitionsButton(NoTransitionsButton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19636 };
 
   /// [CompilerGenerated]
   /// @brief Field selectionStateDidChangeEvent, offset: 0x108, size: 0x8, def value: None

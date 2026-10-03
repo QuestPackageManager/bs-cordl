@@ -19,12 +19,12 @@ struct Hand;
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::Hand);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::Hand, "UnityEngine.XR", "Hand");
+// [StaticAccessor("XRInputDevices::Get()", (UnityEngine.Bindings.StaticAccessorType)0)]
+// [RequiredByNativeCode]
+// [NativeHeader("Modules/XR/Subsystems/Input/Public/XRInputDevices.h")]
 // [NativeConditional("ENABLE_VR")]
 // [NativeHeader("XRScriptingClasses.h")]
 // [NativeHeader("Modules/XR/XRPrefix.h")]
-// [RequiredByNativeCode]
-// [NativeHeader("Modules/XR/Subsystems/Input/Public/XRInputDevices.h")]
-// [StaticAccessor("XRInputDevices::Get()", (UnityEngine.Bindings.StaticAccessorType)0)]
 // Dependencies
 namespace UnityEngine::XR {
 // Is value type: true
@@ -39,19 +39,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::Hand>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::Hand>*();
 
-  /// @brief Method Equals, addr 0x6e379f4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x72d32a8, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6e37a80, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x72d3334, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::Hand other);
 
-  /// @brief Method GetHashCode, addr 0x6e37aa4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x72d3358, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_deviceId, addr 0x6e379e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceId, addr 0x72d3298, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_deviceId();
 
-  /// @brief Method get_featureIndex, addr 0x6e379ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_featureIndex, addr 0x72d32a0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_featureIndex();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::Hand>"
@@ -66,7 +66,7 @@ public:
   constexpr Hand(uint64_t m_DeviceId, uint32_t m_FeatureIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22167 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22685 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

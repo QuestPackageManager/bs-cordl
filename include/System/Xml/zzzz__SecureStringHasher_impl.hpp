@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::SecureStringHasher_HashCodeOfStringDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Xml::SecureStringHasher_HashCodeOfStringDelegate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x61b31b4;
+  constexpr static std::size_t addrs = 0x65dad04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::SecureStringHasher_HashCodeOfStringDelegate*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::SecureStringHasher_HashCodeOfStringDelegate::*)(::StringW, int32_t, int64_t)>(
     &::System::Xml::SecureStringHasher_HashCodeOfStringDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x61b3234;
+  constexpr static std::size_t addrs = 0x65dad84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::SecureStringHasher_HashCodeOfStringDelegate*>(),
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::SecureStringHasher::*)()>(&::System::Xml::SecureStringHasher::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x61b2ffc;
+  constexpr static std::size_t addrs = 0x65dab4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::SecureStringHasher*>(), { ".ctor", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::SecureStringHasher::*)(::StringW, ::StringW)>(&::System::Xml::SecureStringHasher::Equals)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x61b3014;
+  constexpr static std::size_t addrs = 0x65dab64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::SecureStringHasher::*)(::StringW)>(&::System::Xml::SecureStringHasher::GetHashCode)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x61ac27c;
+  constexpr static std::size_t addrs = 0x65d3dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t, int64_t)>(&::System::Xml::SecureStringHasher::GetHashCodeOfString)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x61b3170;
+  constexpr static std::size_t addrs = 0x65dacc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::SecureStringHasher_HashCodeOfStringDelegate* (*)()>(&::System::Xml::SecureStringHasher::GetHashCodeDelegate)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x61b3028;
+  constexpr static std::size_t addrs = 0x65dab78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::SecureStringHasher*>(), { "GetHashCodeDelegate", {}, {} })));

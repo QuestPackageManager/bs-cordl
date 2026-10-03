@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerPlayerPlacement___c::*)()>(&::GlobalNamespace::MultiplayerPlayerPlacement___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59e2ae0;
+  constexpr static std::size_t addrs = 0x5dfd9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerPlayerPlacement___c*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MultiplayerPlayerPlacement___c::*)(::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerPlayerPlacement___c::_SortPlayers_b__4_0)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x59e2ae4;
+  constexpr static std::size_t addrs = 0x5dfd9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(float_t, float_t, ::GlobalNamespace::MultiplayerPlayerLayout)>(
     &::GlobalNamespace::MultiplayerPlayerPlacement::GetPlayerWorldPosition)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x59dc8cc;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x5df79cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(int32_t, int32_t, float_t)>(&::GlobalNamespace::MultiplayerPlayerPlacement::GetOuterCirclePositionAngleForPlayer)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x59dc8bc;
+  constexpr static std::size_t addrs = 0x5df79bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::MultiplayerPlayerPlacement::GetOuterCircleRadius)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x59dc878;
+  constexpr static std::size_t addrs = 0x5df7978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(int32_t, ::GlobalNamespace::MultiplayerPlayerLayout)>(
     &::GlobalNamespace::MultiplayerPlayerPlacement::GetAngleBetweenPlayersWithEvenAdjustment)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59dc858;
+  constexpr static std::size_t addrs = 0x5df7958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerPlayerPlacement::SortPlayers)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x59e26f8;
+  constexpr static std::size_t addrs = 0x5dfd5cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Collections::Generic::IList_1<::GlobalNamespace::IConnectedPlayer*>*, ::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerPlayerPlacement::GetLocalPlayerIndex)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x59e2800;
+  constexpr static std::size_t addrs = 0x5dfd6d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

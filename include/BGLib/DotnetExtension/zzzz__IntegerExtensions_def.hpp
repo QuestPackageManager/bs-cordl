@@ -22,7 +22,7 @@ class CORDL_TYPE IntegerExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ToUInt, addr 0x330d2c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToUInt, addr 0x3595d88, size 0x18, virtual false, abstract: false, final false
   static inline void ToUInt(int32_t number, ::by_ref<uint32_t> uNumber, ::by_ref<bool> isNegative);
 
 protected:
@@ -40,7 +40,7 @@ public:
   IntegerExtensions(IntegerExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20512 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21267 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

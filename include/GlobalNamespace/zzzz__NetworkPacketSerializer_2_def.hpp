@@ -158,7 +158,7 @@ public:
   NetworkPacketSerializer_2___c__12_1(NetworkPacketSerializer_2___c__12_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18762 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -206,7 +206,7 @@ public:
   NetworkPacketSerializer_2___c__DisplayClass10_0_1(NetworkPacketSerializer_2___c__DisplayClass10_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18763 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<TPacket>* ___callback;
@@ -269,7 +269,7 @@ public:
   NetworkPacketSerializer_2___c__DisplayClass11_0_1(NetworkPacketSerializer_2___c__DisplayClass11_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18764 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<TPacket>* ___callback;
@@ -323,7 +323,7 @@ public:
   NetworkPacketSerializer_2___c__DisplayClass13_0_1(NetworkPacketSerializer_2___c__DisplayClass13_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18765 };
 
   /// @brief Field constructor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<TPacket>* ___constructor;
@@ -395,7 +395,7 @@ public:
   NetworkPacketSerializer_2___c__DisplayClass14_0_1(NetworkPacketSerializer_2___c__DisplayClass14_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18766 };
 
   /// @brief Field constructor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<TData, TPacket>* ___constructor;
@@ -452,7 +452,7 @@ public:
   NetworkPacketSerializer_2___c__DisplayClass16_0(NetworkPacketSerializer_2___c__DisplayClass16_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18767 };
 
   /// @brief Field subSubSerializer, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* ___subSubSerializer;
@@ -665,7 +665,7 @@ public:
   NetworkPacketSerializer_2(NetworkPacketSerializer_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18768 };
 
   /// @brief Field _messsageHandlers, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<uint8_t, ::System::Action_3<::LiteNetLib::Utils::NetDataReader*, int32_t, TData>*>* ____messsageHandlers;

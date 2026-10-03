@@ -11,8 +11,14 @@ CORDL_MODULE_EXPORT(RenderGraphDebugParams)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+template <typename TResult> class Func_1;
+}
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraphDebugParams_Strings;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
+class RenderGraphDebugParams___c;
 }
 namespace UnityEngine::Rendering {
 class DebugUI_Panel;
@@ -30,11 +36,16 @@ class RenderGraphDebugParams;
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraphDebugParams_Strings;
 }
+namespace UnityEngine::Rendering::RenderGraphModule {
+class RenderGraphDebugParams___c;
+}
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams*);
 MARK_REF_T(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams_Strings*);
+MARK_REF_T(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams*, "UnityEngine.Rendering.RenderGraphModule", "RenderGraphDebugParams");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams_Strings*, "UnityEngine.Rendering.RenderGraphModule", "RenderGraphDebugParams/Strings");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams___c*, "UnityEngine.Rendering.RenderGraphModule", "RenderGraphDebugParams/<>c");
 // Dependencies System.Object, UnityEngine.Rendering.DebugUI::Widget::NameAndTooltip
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: false
@@ -52,11 +63,11 @@ public:
   /// @brief Field DisablePassCulling, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_DisablePassCulling, put = setStaticF_DisablePassCulling)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip DisablePassCulling;
 
+  /// @brief Field DisablePassMerging, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_DisablePassMerging, put = setStaticF_DisablePassMerging)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip DisablePassMerging;
+
   /// @brief Field EnableLogging, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_EnableLogging, put = setStaticF_EnableLogging)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip EnableLogging;
-
-  /// @brief Field EnableNativeCompiler, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_EnableNativeCompiler, put = setStaticF_EnableNativeCompiler)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip EnableNativeCompiler;
 
   /// @brief Field ImmediateMode, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_ImmediateMode, put = setStaticF_ImmediateMode)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip ImmediateMode;
@@ -73,9 +84,9 @@ public:
 
   static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_DisablePassCulling();
 
-  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_EnableLogging();
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_DisablePassMerging();
 
-  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_EnableNativeCompiler();
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_EnableLogging();
 
   static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_ImmediateMode();
 
@@ -89,9 +100,9 @@ public:
 
   static inline void setStaticF_DisablePassCulling(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-  static inline void setStaticF_EnableLogging(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
+  static inline void setStaticF_DisablePassMerging(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-  static inline void setStaticF_EnableNativeCompiler(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
+  static inline void setStaticF_EnableLogging(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
   static inline void setStaticF_ImmediateMode(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
@@ -114,12 +125,65 @@ public:
   RenderGraphDebugParams_Strings(RenderGraphDebugParams_Strings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9305 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams_Strings) == 0x10, "Size mismatch!");
+
+} // namespace UnityEngine::Rendering::RenderGraphModule
+// [CompilerGenerated]
+// Dependencies System.Object
+namespace UnityEngine::Rendering::RenderGraphModule {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.RenderGraphModule.RenderGraphDebugParams/<>c
+class CORDL_TYPE RenderGraphDebugParams___c : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams___c* __9;
+
+  /// @brief Field <>9__14_8, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__14_8, put = setStaticF___9__14_8)) ::System::Func_1<bool>* __9__14_8;
+
+  static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams___c* New_ctor();
+
+  /// @brief Method <GetWidgetList>b__14_8, addr 0x6c00cd8, size 0x5c, virtual false, abstract: false, final false
+  inline bool _GetWidgetList_b__14_8();
+
+  /// @brief Method .ctor, addr 0x6c00cd4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams___c* getStaticF___9();
+
+  static inline ::System::Func_1<bool>* getStaticF___9__14_8();
+
+  static inline void setStaticF___9(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams___c* value);
+
+  static inline void setStaticF___9__14_8(::System::Func_1<bool>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RenderGraphDebugParams___c();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphDebugParams___c", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RenderGraphDebugParams___c(RenderGraphDebugParams___c&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphDebugParams___c", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RenderGraphDebugParams___c(RenderGraphDebugParams___c const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9306 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::RenderGraphModule
 // Dependencies System.Object, UnityEngine.Rendering.DebugUI::Widget
@@ -130,6 +194,8 @@ class CORDL_TYPE RenderGraphDebugParams : public ::System::Object {
 public:
   // Declarations
   using Strings = ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams_Strings;
+
+  using __c = ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams___c;
 
   __declspec(property(get = get_AreAnySettingsActive)) bool AreAnySettingsActive;
 
@@ -142,10 +208,12 @@ public:
   /// @brief Field disablePassCulling, offset 0x22, size 0x1
   __declspec(property(get = __cordl_internal_get_disablePassCulling, put = __cordl_internal_set_disablePassCulling)) bool disablePassCulling;
 
-  /// @brief Field enableLogging, offset 0x24, size 0x1
-  __declspec(property(get = __cordl_internal_get_enableLogging, put = __cordl_internal_set_enableLogging)) bool enableLogging;
+  /// @brief Field disablePassMerging, offset 0x23, size 0x1
+  __declspec(property(get = __cordl_internal_get_disablePassMerging, put = __cordl_internal_set_disablePassMerging)) bool disablePassMerging;
 
-  /// @brief Field immediateMode, offset 0x23, size 0x1
+  __declspec(property(get = get_enableLogging)) bool enableLogging;
+
+  /// @brief Field immediateMode, offset 0x24, size 0x1
   __declspec(property(get = __cordl_internal_get_immediateMode, put = __cordl_internal_set_immediateMode)) bool immediateMode;
 
   /// @brief Field logFrameInformation, offset 0x25, size 0x1
@@ -163,74 +231,77 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr operator ::UnityEngine::Rendering::IDebugDisplaySettingsQuery*() noexcept;
 
-  /// @brief Method GetWidgetList, addr 0x67d00f8, size 0x774, virtual false, abstract: false, final false
+  /// @brief Method GetWidgetList, addr 0x6bf44d8, size 0x824, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>* GetWidgetList(::StringW name);
 
-  /// @brief Method IsImmediateModeSupported, addr 0x67d086c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method IsImmediateModeSupported, addr 0x6c008d8, size 0xe0, virtual false, abstract: false, final false
   inline bool IsImmediateModeSupported();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams* New_ctor();
 
-  /// @brief Method RegisterDebug, addr 0x67d094c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method RegisterDebug, addr 0x6bf4d78, size 0x180, virtual false, abstract: false, final false
   inline void RegisterDebug(::StringW name, ::UnityEngine::Rendering::DebugUI_Panel* debugPanel);
 
-  /// @brief Method Reset, addr 0x67d00ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6c008cc, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method UnRegisterDebug, addr 0x67d0a70, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ResetLogging, addr 0x6bf52f8, size 0x8, virtual false, abstract: false, final false
+  inline void ResetLogging();
+
+  /// @brief Method UnRegisterDebug, addr 0x6bf4f0c, size 0x68, virtual false, abstract: false, final false
   inline void UnRegisterDebug(::StringW name);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__11_0, addr 0x67d0b14, size 0x8, virtual false, abstract: false, final false
-  inline bool _GetWidgetList_b__11_0();
+  /// @brief Method <GetWidgetList>b__14_0, addr 0x6c009b8, size 0x8, virtual false, abstract: false, final false
+  inline bool _GetWidgetList_b__14_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__11_1, addr 0x67d0b1c, size 0x8, virtual false, abstract: false, final false
-  inline void _GetWidgetList_b__11_1(bool value);
+  /// @brief Method <GetWidgetList>b__14_1, addr 0x6c009c0, size 0x8, virtual false, abstract: false, final false
+  inline void _GetWidgetList_b__14_1(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__11_10, addr 0x67d0b74, size 0x8, virtual false, abstract: false, final false
-  inline void _GetWidgetList_b__11_10(bool value);
+  /// @brief Method <GetWidgetList>b__14_10, addr 0x6c00a00, size 0x8, virtual false, abstract: false, final false
+  inline void _GetWidgetList_b__14_10(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__11_11, addr 0x67d0b7c, size 0x88, virtual false, abstract: false, final false
-  inline void _GetWidgetList_b__11_11();
+  /// @brief Method <GetWidgetList>b__14_11, addr 0x6c00a08, size 0x18, virtual false, abstract: false, final false
+  inline bool _GetWidgetList_b__14_11();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__11_12, addr 0x67d0c04, size 0x88, virtual false, abstract: false, final false
-  inline void _GetWidgetList_b__11_12();
+  /// @brief Method <GetWidgetList>b__14_12, addr 0x6c00a20, size 0xc, virtual false, abstract: false, final false
+  inline void _GetWidgetList_b__14_12();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__11_2, addr 0x67d0b24, size 0x8, virtual false, abstract: false, final false
-  inline bool _GetWidgetList_b__11_2();
+  /// @brief Method <GetWidgetList>b__14_13, addr 0x6c00a2c, size 0xc, virtual false, abstract: false, final false
+  inline void _GetWidgetList_b__14_13();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__11_3, addr 0x67d0b2c, size 0x8, virtual false, abstract: false, final false
-  inline void _GetWidgetList_b__11_3(bool value);
+  /// @brief Method <GetWidgetList>b__14_2, addr 0x6c009c8, size 0x8, virtual false, abstract: false, final false
+  inline bool _GetWidgetList_b__14_2();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__11_4, addr 0x67d0b34, size 0x8, virtual false, abstract: false, final false
-  inline bool _GetWidgetList_b__11_4();
+  /// @brief Method <GetWidgetList>b__14_3, addr 0x6c009d0, size 0x8, virtual false, abstract: false, final false
+  inline void _GetWidgetList_b__14_3(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__11_5, addr 0x67d0b3c, size 0x8, virtual false, abstract: false, final false
-  inline void _GetWidgetList_b__11_5(bool value);
+  /// @brief Method <GetWidgetList>b__14_4, addr 0x6c009d8, size 0x8, virtual false, abstract: false, final false
+  inline bool _GetWidgetList_b__14_4();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__11_6, addr 0x67d0b44, size 0x8, virtual false, abstract: false, final false
-  inline bool _GetWidgetList_b__11_6();
+  /// @brief Method <GetWidgetList>b__14_5, addr 0x6c009e0, size 0x8, virtual false, abstract: false, final false
+  inline void _GetWidgetList_b__14_5(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__11_7, addr 0x67d0b4c, size 0x8, virtual false, abstract: false, final false
-  inline void _GetWidgetList_b__11_7(bool value);
+  /// @brief Method <GetWidgetList>b__14_6, addr 0x6c009e8, size 0x8, virtual false, abstract: false, final false
+  inline bool _GetWidgetList_b__14_6();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__11_8, addr 0x67d0b54, size 0x18, virtual false, abstract: false, final false
-  inline bool _GetWidgetList_b__11_8();
+  /// @brief Method <GetWidgetList>b__14_7, addr 0x6c009f0, size 0x8, virtual false, abstract: false, final false
+  inline void _GetWidgetList_b__14_7(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__11_9, addr 0x67d0b6c, size 0x8, virtual false, abstract: false, final false
-  inline bool _GetWidgetList_b__11_9();
+  /// @brief Method <GetWidgetList>b__14_9, addr 0x6c009f8, size 0x8, virtual false, abstract: false, final false
+  inline bool _GetWidgetList_b__14_9();
 
   constexpr bool const& __cordl_internal_get_clearRenderTargetsAtCreation() const;
 
@@ -244,9 +315,9 @@ public:
 
   constexpr bool& __cordl_internal_get_disablePassCulling();
 
-  constexpr bool const& __cordl_internal_get_enableLogging() const;
+  constexpr bool const& __cordl_internal_get_disablePassMerging() const;
 
-  constexpr bool& __cordl_internal_get_enableLogging();
+  constexpr bool& __cordl_internal_get_disablePassMerging();
 
   constexpr bool const& __cordl_internal_get_immediateMode() const;
 
@@ -274,7 +345,7 @@ public:
 
   constexpr void __cordl_internal_set_disablePassCulling(bool value);
 
-  constexpr void __cordl_internal_set_enableLogging(bool value);
+  constexpr void __cordl_internal_set_disablePassMerging(bool value);
 
   constexpr void __cordl_internal_set_immediateMode(bool value);
 
@@ -286,11 +357,14 @@ public:
 
   constexpr void __cordl_internal_set_m_DebugPanel(::UnityEngine::Rendering::DebugUI_Panel* value);
 
-  /// @brief Method .ctor, addr 0x67d0b10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bf3ffc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AreAnySettingsActive, addr 0x67d0ad8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_AreAnySettingsActive, addr 0x6bf4d10, size 0x48, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
+
+  /// @brief Method get_enableLogging, addr 0x6bf676c, size 0x20, virtual false, abstract: false, final false
+  inline bool get_enableLogging();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr ::UnityEngine::Rendering::IDebugDisplaySettingsQuery* i___UnityEngine__Rendering__IDebugDisplaySettingsQuery() noexcept;
@@ -310,7 +384,7 @@ public:
   RenderGraphDebugParams(RenderGraphDebugParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9307 };
 
   /// @brief Field m_DebugItems, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::DebugUI_Widget*> ___m_DebugItems;
@@ -327,11 +401,11 @@ public:
   /// @brief Field disablePassCulling, offset: 0x22, size: 0x1, def value: None
   bool ___disablePassCulling;
 
-  /// @brief Field immediateMode, offset: 0x23, size: 0x1, def value: None
-  bool ___immediateMode;
+  /// @brief Field disablePassMerging, offset: 0x23, size: 0x1, def value: None
+  bool ___disablePassMerging;
 
-  /// @brief Field enableLogging, offset: 0x24, size: 0x1, def value: None
-  bool ___enableLogging;
+  /// @brief Field immediateMode, offset: 0x24, size: 0x1, def value: None
+  bool ___immediateMode;
 
   /// @brief Field logFrameInformation, offset: 0x25, size: 0x1, def value: None
   bool ___logFrameInformation;
@@ -352,9 +426,9 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::RenderGraphD
 
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams, ___disablePassCulling) == 0x22, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams, ___immediateMode) == 0x23, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams, ___disablePassMerging) == 0x23, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams, ___enableLogging) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams, ___immediateMode) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams, ___logFrameInformation) == 0x25, "Offset mismatch!");
 

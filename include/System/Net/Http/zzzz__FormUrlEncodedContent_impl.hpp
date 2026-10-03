@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::FormUrlEncodedContent::*)(
     ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*)>(&::System::Net::Http::FormUrlEncodedContent::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x60dadc4;
+  constexpr static std::size_t addrs = 0x64f727c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*)>(
     &::System::Net::Http::FormUrlEncodedContent::EncodeContent)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x60dae74;
+  constexpr static std::size_t addrs = 0x64f732c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&::System::Net::Http::FormUrlEncodedContent::SerializeValue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x60db420;
+  constexpr static std::size_t addrs = 0x64f78d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

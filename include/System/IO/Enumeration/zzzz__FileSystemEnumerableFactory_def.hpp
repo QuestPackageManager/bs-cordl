@@ -77,7 +77,7 @@ public:
 
   static inline ::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <UserFiles>b__1, addr 0x5c24608, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <UserFiles>b__1, addr 0x603d100, size 0xa4, virtual false, abstract: false, final false
   inline bool _UserFiles_b__1(::by_ref<::System::IO::Enumeration::FileSystemEntry> entry);
 
   constexpr ::StringW const& __cordl_internal_get_expression() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_options(::System::IO::EnumerationOptions* value);
 
-  /// @brief Method .ctor, addr 0x5c241bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x603ccb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,7 +110,7 @@ public:
   FileSystemEnumerableFactory___c__DisplayClass3_0(FileSystemEnumerableFactory___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3929 };
 
   /// @brief Field expression, offset: 0x10, size: 0x8, def value: None
   ::StringW ___expression;
@@ -150,16 +150,16 @@ public:
 
   static inline ::System::IO::Enumeration::FileSystemEnumerableFactory___c* New_ctor();
 
-  /// @brief Method <UserDirectories>b__4_0, addr 0x5c2470c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <UserDirectories>b__4_0, addr 0x603d204, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _UserDirectories_b__4_0(::by_ref<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method <UserEntries>b__5_0, addr 0x5c24714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <UserEntries>b__5_0, addr 0x603d20c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _UserEntries_b__5_0(::by_ref<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method <UserFiles>b__3_0, addr 0x5c24704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <UserFiles>b__3_0, addr 0x603d1fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _UserFiles_b__3_0(::by_ref<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method .ctor, addr 0x5c24700, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x603d1f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::Enumeration::FileSystemEnumerableFactory___c* getStaticF___9();
@@ -193,7 +193,7 @@ public:
   FileSystemEnumerableFactory___c(FileSystemEnumerableFactory___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3930 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -217,7 +217,7 @@ public:
 
   static inline ::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <UserDirectories>b__1, addr 0x5c2471c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <UserDirectories>b__1, addr 0x603d214, size 0xa4, virtual false, abstract: false, final false
   inline bool _UserDirectories_b__1(::by_ref<::System::IO::Enumeration::FileSystemEntry> entry);
 
   constexpr ::StringW const& __cordl_internal_get_expression() const;
@@ -232,7 +232,7 @@ public:
 
   constexpr void __cordl_internal_set_options(::System::IO::EnumerationOptions* value);
 
-  /// @brief Method .ctor, addr 0x5c24394, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x603ce8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -250,7 +250,7 @@ public:
   FileSystemEnumerableFactory___c__DisplayClass4_0(FileSystemEnumerableFactory___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3931 };
 
   /// @brief Field expression, offset: 0x10, size: 0x8, def value: None
   ::StringW ___expression;
@@ -284,7 +284,7 @@ public:
 
   static inline ::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <UserEntries>b__1, addr 0x5c247c0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <UserEntries>b__1, addr 0x603d2b8, size 0x88, virtual false, abstract: false, final false
   inline bool _UserEntries_b__1(::by_ref<::System::IO::Enumeration::FileSystemEntry> entry);
 
   constexpr ::StringW const& __cordl_internal_get_expression() const;
@@ -299,7 +299,7 @@ public:
 
   constexpr void __cordl_internal_set_options(::System::IO::EnumerationOptions* value);
 
-  /// @brief Method .ctor, addr 0x5c2456c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x603d064, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -317,7 +317,7 @@ public:
   FileSystemEnumerableFactory___c__DisplayClass5_0(FileSystemEnumerableFactory___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3932 };
 
   /// @brief Field expression, offset: 0x10, size: 0x8, def value: None
   ::StringW ___expression;
@@ -353,19 +353,19 @@ public:
   /// @brief Field s_unixEscapeChars, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_unixEscapeChars, put = setStaticF_s_unixEscapeChars)) ::ArrayW<char16_t> s_unixEscapeChars;
 
-  /// @brief Method MatchesPattern, addr 0x5c23ca4, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method MatchesPattern, addr 0x603c79c, size 0x22c, virtual false, abstract: false, final false
   static inline bool MatchesPattern(::StringW expression, ::System::ReadOnlySpan_1<char16_t> name, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method NormalizeInputs, addr 0x5c23460, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method NormalizeInputs, addr 0x603bf58, size 0x494, virtual false, abstract: false, final false
   static inline void NormalizeInputs(::by_ref<::StringW> directory, ::by_ref<::StringW> expression, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method UserDirectories, addr 0x5c241c0, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method UserDirectories, addr 0x603ccb8, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* UserDirectories(::StringW directory, ::StringW expression, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method UserEntries, addr 0x5c24398, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method UserEntries, addr 0x603ce90, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* UserEntries(::StringW directory, ::StringW expression, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method UserFiles, addr 0x5c23fe8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method UserFiles, addr 0x603cae0, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* UserFiles(::StringW directory, ::StringW expression, ::System::IO::EnumerationOptions* options);
 
   static inline ::ArrayW<char16_t> getStaticF_s_unixEscapeChars();
@@ -387,7 +387,7 @@ public:
   FileSystemEnumerableFactory(FileSystemEnumerableFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3933 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

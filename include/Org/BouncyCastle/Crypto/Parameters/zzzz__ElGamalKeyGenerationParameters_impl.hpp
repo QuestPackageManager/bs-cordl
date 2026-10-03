@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters::*)(
     ::Org::BouncyCastle::Security::SecureRandom*, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*)>(&::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3412978;
+  constexpr static std::size_t addrs = 0x369bc14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* (::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters::get_Parameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34129e8;
+  constexpr static std::size_t addrs = 0x369bc84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*)>(
     &::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters::GetStrength)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x34129b4;
+  constexpr static std::size_t addrs = 0x369bc50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters*>(),

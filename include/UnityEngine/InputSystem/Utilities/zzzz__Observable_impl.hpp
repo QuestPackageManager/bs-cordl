@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* (*)(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*,
                                                                                       ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::Utilities::Observable::ForDevice)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x65070fc;
+  constexpr static std::size_t addrs = 0x692ff98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

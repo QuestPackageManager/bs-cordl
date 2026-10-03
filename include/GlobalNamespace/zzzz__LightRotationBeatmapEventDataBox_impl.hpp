@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::*)(int32_t)>(
     &::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x371ae98;
+  constexpr static std::size_t addrs = 0x39a43bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::*)()>(
     &::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x371aeb8;
+  constexpr static std::size_t addrs = 0x39a43dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::*)()>(
     &::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x954;
-  constexpr static std::size_t addrs = 0x371af64;
+  constexpr static std::size_t addrs = 0x39a4488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::*)()>(
     &::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x371b96c;
+  constexpr static std::size_t addrs = 0x39a4e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::*)()>(
     &::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::__m__Finally2)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x371b8b8;
+  constexpr static std::size_t addrs = 0x39a4ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::*)()>(
     &::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x371ba20;
+  constexpr static std::size_t addrs = 0x39a4f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10*>(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::*)()>(
     &::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x371ba28;
+  constexpr static std::size_t addrs = 0x39a4f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::*)()>(
     &::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x371ba60;
+  constexpr static std::size_t addrs = 0x39a4f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* (::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::*)()>(
         &::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x371ba68;
+  constexpr static std::size_t addrs = 0x39a4f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10*>(),
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::*)()>(
     &::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x371bb40;
+  constexpr static std::size_t addrs = 0x39a5064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -575,7 +575,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightRotationBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::LightRotationBeatmapEventDataBox::get_subtypeIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x371ab68;
+  constexpr static std::size_t addrs = 0x39a408c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationBeatmapEventDataBox*>(),
@@ -588,7 +588,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::LightRotationBeatmapEventDataBox::*)()>(&::GlobalNamespace::LightRotationBeatmapEventDataBox::get_beatStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x371ab70;
+  constexpr static std::size_t addrs = 0x39a4094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationBeatmapEventDataBox*>(),
@@ -604,7 +604,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, bool, ::GlobalNamespace::EaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>*)>(
     &::GlobalNamespace::LightRotationBeatmapEventDataBox::_ctor)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x371ab78;
+  constexpr static std::size_t addrs = 0x39a409c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -626,7 +626,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::GlobalNamespace::LightRotationBeatmapEventDataBox::*)(float_t, int32_t, int32_t, int32_t, int32_t, float_t, ::GlobalNamespace::IBeatToTimeConverter*,
                                                             ::GlobalNamespace::IBeatmapLightEventConverter*)>(&::GlobalNamespace::LightRotationBeatmapEventDataBox::Unpack)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x371adcc;
+  constexpr static std::size_t addrs = 0x39a42f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationBeatmapEventDataBox*>(),

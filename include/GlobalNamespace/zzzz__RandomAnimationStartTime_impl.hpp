@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomAnimationStartTime::*)()>(&::GlobalNamespace::RandomAnimationStartTime::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58578f4;
+  constexpr static std::size_t addrs = 0x5c6d678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomAnimationStartTime*>(), { "Start", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomAnimationStartTime::*)()>(&::GlobalNamespace::RandomAnimationStartTime::PlayAnimation)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x58578f8;
+  constexpr static std::size_t addrs = 0x5c6d67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomAnimationStartTime*>(), { "PlayAnimation", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomAnimationStartTime::*)()>(&::GlobalNamespace::RandomAnimationStartTime::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5857bb4;
+  constexpr static std::size_t addrs = 0x5c6d938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomAnimationStartTime*>(), { ".ctor", {}, {} })));

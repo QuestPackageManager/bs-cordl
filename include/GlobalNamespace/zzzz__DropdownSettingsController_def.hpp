@@ -48,21 +48,21 @@ public:
   /// @brief Method GetInitValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetInitValues(::by_ref<int32_t> idx, ::by_ref<int32_t> numberOfElements);
 
-  /// @brief Method HandleDropdownValueDidChange, addr 0x5a141a0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleDropdownValueDidChange, addr 0x5e302ac, size 0x40, virtual false, abstract: false, final false
   inline void HandleDropdownValueDidChange(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
   static inline ::GlobalNamespace::DropdownSettingsController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5a140c8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5e301d4, size 0xd8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5a13ec0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5e2ffcc, size 0xc0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x5a141e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5e302ec, size 0x5c, virtual false, abstract: false, final false
   inline void Refresh(bool applyValue);
 
-  /// @brief Method RefreshUI, addr 0x5a13f80, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x5e3008c, size 0x148, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   /// @brief Method TextForValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -92,15 +92,15 @@ public:
 
   constexpr void __cordl_internal_set_dropDownValueDidChangeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x5a1423c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e30348, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_dropDownValueDidChangeEvent, addr 0x5a13d68, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_dropDownValueDidChangeEvent, addr 0x5e2fe74, size 0xac, virtual false, abstract: false, final false
   inline void add_dropDownValueDidChangeEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_dropDownValueDidChangeEvent, addr 0x5a13e14, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_dropDownValueDidChangeEvent, addr 0x5e2ff20, size 0xac, virtual false, abstract: false, final false
   inline void remove_dropDownValueDidChangeEvent(::System::Action* value);
 
 protected:
@@ -118,7 +118,7 @@ public:
   DropdownSettingsController(DropdownSettingsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6517 };
 
   /// [SerializeField]
   /// @brief Field _dropdown, offset: 0x20, size: 0x8, def value: None

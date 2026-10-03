@@ -44,7 +44,7 @@ public:
 
   static inline ::System::Threading::AbandonedMutexException* New_ctor(int32_t location, ::System::Threading::WaitHandle* handle);
 
-  /// @brief Method SetupException, addr 0x5ca8b60, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetupException, addr 0x60c26a8, size 0x70, virtual false, abstract: false, final false
   inline void SetupException(int32_t location, ::System::Threading::WaitHandle* handle);
 
   constexpr ::System::Threading::Mutex* const& __cordl_internal_get__mutex() const;
@@ -59,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set__mutexIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5ca8a38, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60c2580, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5ca8bd0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60c2718, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5ca8aa0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60c25e8, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(int32_t location, ::System::Threading::WaitHandle* handle);
 
 protected:

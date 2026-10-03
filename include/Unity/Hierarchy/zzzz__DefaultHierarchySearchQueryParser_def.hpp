@@ -33,7 +33,7 @@ public:
 
   static inline ::Unity::Hierarchy::DefaultHierarchySearchQueryParser* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b3818c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f95cc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_s_Filter();
@@ -58,7 +58,7 @@ public:
   DefaultHierarchySearchQueryParser(DefaultHierarchySearchQueryParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22588 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

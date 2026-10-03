@@ -28,19 +28,19 @@ class CORDL_TYPE Vector2Extensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method Clamp, addr 0x33260e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x35af2d4, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Clamp(::UnityEngine::Vector2 value, ::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
 
   /// [Extension]
-  /// @brief Method Clamp, addr 0x3326108, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x35af2f8, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Clamp(::UnityEngine::Vector2 value, ::UnityEngine::Rect within);
 
   /// [Extension]
-  /// @brief Method Cross, addr 0x3326134, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Cross, addr 0x35af3a0, size 0x10, virtual false, abstract: false, final false
   static inline float_t Cross(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
   /// [Extension]
-  /// @brief Method SignedAngleToLine, addr 0x3325f10, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SignedAngleToLine, addr 0x35af114, size 0x1c0, virtual false, abstract: false, final false
   static inline float_t SignedAngleToLine(::UnityEngine::Vector2 vec, ::UnityEngine::Vector2 line);
 
 protected:
@@ -58,7 +58,7 @@ public:
   Vector2Extensions(Vector2Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21406 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

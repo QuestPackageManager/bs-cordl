@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::SortingLayerRange (*)()>(&::UnityEngine::Rendering::SortingLayerRange::get_all)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b21880;
+  constexpr static std::size_t addrs = 0x6f7fbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingLayerRange>(), { "get_all", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SortingLayerRange::*)(::UnityEngine::Rendering::SortingLayerRange)>(
     &::UnityEngine::Rendering::SortingLayerRange::Equals)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6b28aa0;
+  constexpr static std::size_t addrs = 0x6f85e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SortingLayerRange::*)(::System::Object*)>(&::UnityEngine::Rendering::SortingLayerRange::Equals)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6b28ac4;
+  constexpr static std::size_t addrs = 0x6f85e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SortingLayerRange::*)()>(&::UnityEngine::Rendering::SortingLayerRange::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b28b4c;
+  constexpr static std::size_t addrs = 0x6f85ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

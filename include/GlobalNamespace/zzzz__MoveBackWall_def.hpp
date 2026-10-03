@@ -50,10 +50,10 @@ public:
 
   static inline ::GlobalNamespace::MoveBackWall* New_ctor();
 
-  /// @brief Method Start, addr 0x59ebc10, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e071bc, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x59ebc60, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e0720c, size 0xbc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__fadeInRegion() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__thisZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x59ebd1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e072c8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,7 +110,7 @@ public:
   MoveBackWall(MoveBackWall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6324 };
 
   /// [SerializeField]
   /// @brief Field _fadeInRegion, offset: 0x20, size: 0x4, def value: None

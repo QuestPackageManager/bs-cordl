@@ -5,7 +5,14 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
+#include <cstdint>
 CORDL_MODULE_EXPORT(SecondarySpriteTexture)
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
+}
 namespace UnityEngine {
 class Texture2D;
 }
@@ -23,6 +30,27 @@ namespace UnityEngine {
 struct CORDL_TYPE SecondarySpriteTexture {
 public:
   // Declarations
+  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::SecondarySpriteTexture>"
+  constexpr operator ::System::IEquatable_1<::UnityEngine::SecondarySpriteTexture>*();
+
+  /// @brief Method Equals, addr 0x6eb4598, size 0x80, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x6eb4530, size 0x68, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::SecondarySpriteTexture other);
+
+  /// @brief Method GetHashCode, addr 0x6eb4618, size 0x7c, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::SecondarySpriteTexture>"
+  constexpr ::System::IEquatable_1<::UnityEngine::SecondarySpriteTexture>* i___System__IEquatable_1___UnityEngine__SecondarySpriteTexture_();
+
+  /// @brief Method op_Equality, addr 0x6eb4694, size 0x2c, virtual false, abstract: false, final false
+  static inline bool op_Equality(::UnityEngine::SecondarySpriteTexture lhs, ::UnityEngine::SecondarySpriteTexture rhs);
+
+  /// @brief Method op_Inequality, addr 0x6eb46c0, size 0x30, virtual false, abstract: false, final false
+  static inline bool op_Inequality(::UnityEngine::SecondarySpriteTexture lhs, ::UnityEngine::SecondarySpriteTexture rhs);
+
   // Ctor Parameters []
   // @brief default ctor
   constexpr SecondarySpriteTexture();
@@ -32,7 +60,7 @@ public:
   constexpr SecondarySpriteTexture(::StringW name, ::UnityW<::UnityEngine::Texture2D> texture) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9624 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

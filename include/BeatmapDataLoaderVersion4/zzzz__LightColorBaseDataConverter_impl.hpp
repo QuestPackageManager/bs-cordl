@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightColorBaseData* (*)(float_t, ::BeatmapSaveDataVersion4::LightColorEvent)>(
     &::BeatmapDataLoaderVersion4::LightColorBaseDataConverter::Convert)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3764b3c;
+  constexpr static std::size_t addrs = 0x39ee21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

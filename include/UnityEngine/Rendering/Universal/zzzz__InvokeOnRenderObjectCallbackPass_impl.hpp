@@ -10,15 +10,13 @@
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__UnsafeGraphContext_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__InvokeOnRenderObjectCallbackPass_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderPassEvent_def.hpp"
-#include "UnityEngine/Rendering/Universal/zzzz__RenderingData_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68870b8;
+  constexpr static std::size_t addrs = 0x6cc4bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6887110;
+  constexpr static std::size_t addrs = 0x6cc4c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,18 +72,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c._Render_b__3_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c._Render_b__2_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c::*)(
     ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
-    &::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c::_Render_b__3_0)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6887114;
+    &::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c::_Render_b__2_0)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x6cc4c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c*>(),
-                                                                                           { "<Render>b__3_0",
+                                                                                           { "<Render>b__2_0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>() } })));
@@ -100,31 +98,31 @@ inline ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c*, "<>9",
                                            ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c*>();
 }
-inline void UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c::setStaticF___9__3_0(
+inline void UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c::setStaticF___9__2_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*,
-                                    "<>9__3_0", ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c*>(
+                                    "<>9__2_0", ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*
-UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c::getStaticF___9__3_0() {
+UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c::getStaticF___9__2_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*,
-                                           "<>9__3_0", ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c*>();
+                                           "<>9__2_0", ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c*>();
 }
 inline void UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c::_Render_b__3_0(::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData* data,
+inline void UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c::_Render_b__2_0(::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData* data,
                                                                                                     ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c*>(),
-                                                                                         { "<Render>b__3_0",
+                                                                                         { "<Render>b__2_0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>() } })));
@@ -140,27 +138,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass::*)(::UnityEngine::Rendering::Universal::RenderPassEvent)>(
     &::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass::_ctor)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6886b44;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6cc46b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass*>(),
                                                                                            { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::RenderPassEvent>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass.Execute
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass::*)(::UnityEngine::Rendering::ScriptableRenderContext,
-                                                                                                                                       ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
-    &::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass::Execute)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6886c10;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -170,8 +153,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
     &::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass::Render)> {
-  constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x6886c48;
+  constexpr static std::size_t size = 0x460;
+  constexpr static std::size_t addrs = 0x6cc4754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,12 +171,6 @@ inline void UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::RenderPassEvent>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
-}
-inline void UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
-                                                                                         ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass*>(), 10 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass::Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                         ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorTarget,

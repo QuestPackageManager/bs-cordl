@@ -53,7 +53,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::SetShaderDefaultsPass_PassData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5f4ed98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x636ae34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   SetShaderDefaultsPass_PassData(SetShaderDefaultsPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21181 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -97,10 +97,10 @@ public:
 
   static inline ::GlobalNamespace::SetShaderDefaultsPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__2_0, addr 0x5f4edf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__2_0, addr 0x636ae90, size 0xc, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__2_0(::GlobalNamespace::SetShaderDefaultsPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x5f4edf0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x636ae8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::SetShaderDefaultsPass___c* getStaticF___9();
@@ -128,7 +128,7 @@ public:
   SetShaderDefaultsPass___c(SetShaderDefaultsPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21182 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -147,15 +147,15 @@ public:
 
   using __c = ::GlobalNamespace::SetShaderDefaultsPass___c;
 
-  /// @brief Method ExecutePass, addr 0x5f4ed2c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x636adc8, size 0x6c, virtual false, abstract: false, final false
   static inline void ExecutePass(::GlobalNamespace::SetShaderDefaultsPass_PassData* passData, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
   static inline ::GlobalNamespace::SetShaderDefaultsPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method RecordRenderGraph, addr 0x5f4e9d4, size 0x358, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x636aa70, size 0x358, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method .ctor, addr 0x5f4e934, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x636aa18, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:
@@ -173,11 +173,11 @@ public:
   SetShaderDefaultsPass(SetShaderDefaultsPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21183 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::GlobalNamespace::SetShaderDefaultsPass) == 0xb8, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::SetShaderDefaultsPass) == 0x60, "Size mismatch!");
 
 } // namespace GlobalNamespace

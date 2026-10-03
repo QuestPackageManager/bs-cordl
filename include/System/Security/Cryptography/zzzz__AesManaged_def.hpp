@@ -48,25 +48,25 @@ public:
   /// @brief Field m_rijndael, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_rijndael, put = __cordl_internal_set_m_rijndael)) ::System::Security::Cryptography::RijndaelManaged* m_rijndael;
 
-  /// @brief Method CreateDecryptor, addr 0x5f58124, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x63740a0, size 0x20, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor();
 
-  /// @brief Method CreateDecryptor, addr 0x5f58144, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x63740c0, size 0x140, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv);
 
-  /// @brief Method CreateEncryptor, addr 0x5f58284, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x6374200, size 0x20, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor();
 
-  /// @brief Method CreateEncryptor, addr 0x5f582a4, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x6374220, size 0x140, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv);
 
-  /// @brief Method Dispose, addr 0x5f583e4, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6374360, size 0x144, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GenerateIV, addr 0x5f58528, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x63744a4, size 0x20, virtual true, abstract: false, final false
   inline void GenerateIV();
 
-  /// @brief Method GenerateKey, addr 0x5f58548, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0x63744c4, size 0x20, virtual true, abstract: false, final false
   inline void GenerateKey();
 
   static inline ::System::Security::Cryptography::AesManaged* New_ctor();
@@ -77,40 +77,40 @@ public:
 
   constexpr void __cordl_internal_set_m_rijndael(::System::Security::Cryptography::RijndaelManaged* value);
 
-  /// @brief Method .ctor, addr 0x5f57e64, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6373de0, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_FeedbackSize, addr 0x5f57f78, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_FeedbackSize, addr 0x6373ef4, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_FeedbackSize();
 
-  /// @brief Method get_IV, addr 0x5f57f94, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_IV, addr 0x6373f10, size 0x1c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> get_IV();
 
-  /// @brief Method get_Key, addr 0x5f57fcc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x6373f48, size 0x1c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Key();
 
-  /// @brief Method get_KeySize, addr 0x5f58004, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x6373f80, size 0x20, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_Mode, addr 0x5f58044, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Mode, addr 0x6373fc0, size 0x20, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::CipherMode get_Mode();
 
-  /// @brief Method get_Padding, addr 0x5f580e4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Padding, addr 0x6374060, size 0x20, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::PaddingMode get_Padding();
 
-  /// @brief Method set_IV, addr 0x5f57fb0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method set_IV, addr 0x6373f2c, size 0x1c, virtual true, abstract: false, final false
   inline void set_IV(::ArrayW<uint8_t> value);
 
-  /// @brief Method set_Key, addr 0x5f57fe8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method set_Key, addr 0x6373f64, size 0x1c, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t> value);
 
-  /// @brief Method set_KeySize, addr 0x5f58024, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method set_KeySize, addr 0x6373fa0, size 0x20, virtual true, abstract: false, final false
   inline void set_KeySize(int32_t value);
 
-  /// @brief Method set_Mode, addr 0x5f58064, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method set_Mode, addr 0x6373fe0, size 0x80, virtual true, abstract: false, final false
   inline void set_Mode(::System::Security::Cryptography::CipherMode value);
 
-  /// @brief Method set_Padding, addr 0x5f58104, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method set_Padding, addr 0x6374080, size 0x20, virtual true, abstract: false, final false
   inline void set_Padding(::System::Security::Cryptography::PaddingMode value);
 
 protected:
@@ -128,7 +128,7 @@ public:
   AesManaged(AesManaged const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16056 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16576 };
 
   /// @brief Field m_rijndael, offset: 0x48, size: 0x8, def value: None
   ::System::Security::Cryptography::RijndaelManaged* ___m_rijndael;

@@ -35,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set_xpath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x62319c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6659668, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_XPath, addr 0x62319b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XPath, addr 0x6659658, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XPath();
 
-  /// @brief Method set_XPath, addr 0x62319bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XPath, addr 0x6659660, size 0x8, virtual false, abstract: false, final false
   inline void set_XPath(::StringW value);
 
 protected:
@@ -59,7 +59,7 @@ public:
   XmlSchemaXPath(XmlSchemaXPath const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9788 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11753 };
 
   /// @brief Field xpath, offset: 0x50, size: 0x8, def value: None
   ::StringW ___xpath;

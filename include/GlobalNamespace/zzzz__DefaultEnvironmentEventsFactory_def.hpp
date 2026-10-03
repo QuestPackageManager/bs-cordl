@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE DefaultEnvironmentEventsFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InsertDefaultEvents, addr 0x3715c14, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InsertDefaultEvents, addr 0x399f138, size 0xb0, virtual false, abstract: false, final false
   static inline void InsertDefaultEvents(::GlobalNamespace::BeatmapData* beatmapData);
 
 protected:
@@ -40,7 +40,7 @@ public:
   DefaultEnvironmentEventsFactory(DefaultEnvironmentEventsFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15145 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

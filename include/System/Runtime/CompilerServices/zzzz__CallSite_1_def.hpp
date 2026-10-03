@@ -114,7 +114,7 @@ public:
   CallSite_1___c(CallSite_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17146 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -223,7 +223,7 @@ public:
   CallSite_1(CallSite_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17147 };
 
   /// @brief Field Target, offset: 0x20, size: 0x8, def value: None
   T ___Target;

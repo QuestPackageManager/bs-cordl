@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::BasicConnectionRequestHandler::*)()>(&::GlobalNamespace::BasicConnectionRequestHandler::get_secret)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332cc10;
+  constexpr static std::size_t addrs = 0x35b5ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BasicConnectionRequestHandler*>(), { "get_secret", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicConnectionRequestHandler::*)(::StringW)>(&::GlobalNamespace::BasicConnectionRequestHandler::set_secret)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332cc18;
+  constexpr static std::size_t addrs = 0x35b5ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicConnectionRequestHandler::*)(::LiteNetLib::Utils::NetDataWriter*, ::StringW, ::StringW, bool, ::StringW)>(
     &::GlobalNamespace::BasicConnectionRequestHandler::GetConnectionMessage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x332cc20;
+  constexpr static std::size_t addrs = 0x35b5eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BasicConnectionRequestHandler*>(),
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (::GlobalNamespace::BasicConnectionRequestHandler::*)(::LiteNetLib::Utils::NetDataReader*, ::by_ref<::StringW>, ::by_ref<::StringW>, ::by_ref<bool>, ::by_ref<::StringW>)>(
         &::GlobalNamespace::BasicConnectionRequestHandler::ValidateConnectionMessage)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x332cca4;
+  constexpr static std::size_t addrs = 0x35b5f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicConnectionRequestHandler::*)()>(&::GlobalNamespace::BasicConnectionRequestHandler::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x332cd90;
+  constexpr static std::size_t addrs = 0x35b6020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BasicConnectionRequestHandler*>(), { ".ctor", {}, {} })));

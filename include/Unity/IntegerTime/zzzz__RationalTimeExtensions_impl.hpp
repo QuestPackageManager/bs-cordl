@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IntegerTime::RationalTime (*)(::Unity::IntegerTime::RationalTime, ::Unity::IntegerTime::RationalTime_TicksPerSecond)>(
     &::Unity::IntegerTime::RationalTimeExtensions::Convert)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a5cb10;
+  constexpr static std::size_t addrs = 0x6eae694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IntegerTime::RationalTime>, ::by_ref<::Unity::IntegerTime::RationalTime_TicksPerSecond>,
                                                                 ::by_ref<::Unity::IntegerTime::RationalTime>)>(&::Unity::IntegerTime::RationalTimeExtensions::Convert_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a5d01c;
+  constexpr static std::size_t addrs = 0x6eaeba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

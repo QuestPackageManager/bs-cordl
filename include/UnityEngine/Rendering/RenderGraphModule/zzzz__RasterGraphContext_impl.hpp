@@ -5,6 +5,8 @@
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__InternalRenderGraphContext_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphDefaultResources_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphObjectPool_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureUVOrigin_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RasterCommandBuffer_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext.get_defaultResources
 template <>
@@ -12,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* (
     ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::*)()>(&::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::get_defaultResources)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67dbd2c;
+  constexpr static std::size_t addrs = 0x6c02ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* (::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::get_renderGraphPool)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67dbd44;
+  constexpr static std::size_t addrs = 0x6c02ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,12 +42,44 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::*)(
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*)>(&::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::FromInternalContext)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x67dbd5c;
+  constexpr static std::size_t addrs = 0x6c02efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>(),
                                                              { "FromInternalContext", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext.GetTextureUVOrigin
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin (::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::*)(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(&::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::GetTextureUVOrigin)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6c02fa0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>(),
+                                                             { "GetTextureUVOrigin", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext.UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin (::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::*)(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
+    &::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6c03080;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>(),
+                                                                                           { "UnityEngine.Rendering.RenderGraphModule.IDerivedRendergraphContext.GetTextureUVOrigin",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
     return ___internal_method;
   }
 };
@@ -71,6 +105,22 @@ inline void UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::FromI
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>(),
                                                            { "FromInternalContext", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, context);
+}
+inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin
+UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> textureHandle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>(),
+                                                           { "GetTextureUVOrigin", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin>(*this, ___internal_method, textureHandle);
+}
+inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin
+UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin(
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> textureHandle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>(),
+                                                                                         { "UnityEngine.Rendering.RenderGraphModule.IDerivedRendergraphContext.GetTextureUVOrigin",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin>(*this, ___internal_method, textureHandle);
 }
 /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
 constexpr UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::operator ::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*() {

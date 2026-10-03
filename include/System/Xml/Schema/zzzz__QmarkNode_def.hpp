@@ -25,15 +25,15 @@ public:
   // Declarations
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructPos, addr 0x631f964, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x6747944, size 0x1c, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);
 
   static inline ::System::Xml::Schema::QmarkNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x631f988, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6747968, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsNullable, addr 0x631f980, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x6747960, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
 protected:
@@ -51,7 +51,7 @@ public:
   QmarkNode(QmarkNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11562 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

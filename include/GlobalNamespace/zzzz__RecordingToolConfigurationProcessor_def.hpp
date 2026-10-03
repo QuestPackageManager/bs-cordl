@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_r(float_t value);
 
-  /// @brief Method .ctor, addr 0x58fdbd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d18214, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -142,7 +142,7 @@ public:
   RecordingToolConfigurationProcessor_ColorSaveData(RecordingToolConfigurationProcessor_ColorSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6632 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6751 };
 
   /// @brief Field r, offset: 0x10, size: 0x4, def value: None
   float_t ___r;
@@ -219,7 +219,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x58fdbdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d18218, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -237,7 +237,7 @@ public:
   RecordingToolConfigurationProcessor_PlaybackScreenshot(RecordingToolConfigurationProcessor_PlaybackScreenshot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6752 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
@@ -488,7 +488,7 @@ public:
 
   constexpr void __cordl_internal_set_startSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x58fdbe0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d1821c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -506,7 +506,7 @@ public:
   RecordingToolConfigurationProcessor_RecordingConfiguration(RecordingToolConfigurationProcessor_RecordingConfiguration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6754 };
 
   /// @brief Field mode, offset: 0x10, size: 0x8, def value: None
   ::StringW ___mode;
@@ -649,7 +649,7 @@ public:
 
   constexpr void __cordl_internal_set_recordingConfigurations(::ArrayW<::GlobalNamespace::RecordingToolConfigurationProcessor_RecordingConfiguration*> value);
 
-  /// @brief Method .ctor, addr 0x58fc374, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d169b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -667,7 +667,7 @@ public:
   RecordingToolConfigurationProcessor_RecordingToolConfiguration(RecordingToolConfigurationProcessor_RecordingToolConfiguration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6753 };
 
   /// @brief Field recordingConfigurations, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::RecordingToolConfigurationProcessor_RecordingConfiguration*> ___recordingConfigurations;
@@ -711,42 +711,42 @@ public:
   /// @brief Field _posesSerializer, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__posesSerializer, put = __cordl_internal_set__posesSerializer)) ::GlobalNamespace::IPosesSerializer* _posesSerializer;
 
-  /// @brief Method CreateMenuDestinationFromConfiguration, addr 0x58fd8c4, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method CreateMenuDestinationFromConfiguration, addr 0x5d17f00, size 0x314, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MenuDestination* CreateMenuDestinationFromConfiguration(::GlobalNamespace::RecordingSettings* recordingSettings, bool quitAppAfterRun);
 
-  /// @brief Method CreateObjectsMovementRecorderInitDataFromConfiguration, addr 0x58fd7e4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreateObjectsMovementRecorderInitDataFromConfiguration, addr 0x5d17e20, size 0xe0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ObjectsMovementRecorder_InitData* CreateObjectsMovementRecorderInitDataFromConfiguration(::GlobalNamespace::RecordingSettings* recordingSettings);
 
-  /// @brief Method CreateRecordingToolSettingsFromConfiguration, addr 0x58fc684, size 0x10cc, virtual false, abstract: false, final false
+  /// @brief Method CreateRecordingToolSettingsFromConfiguration, addr 0x5d16cc0, size 0x10cc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RecordingToolSettings*
   CreateRecordingToolSettingsFromConfiguration(::GlobalNamespace::RecordingToolConfigurationProcessor_RecordingToolConfiguration* recordingToolConfiguration);
 
-  /// @brief Method DeserializeConfigurationFile, addr 0x58fc13c, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method DeserializeConfigurationFile, addr 0x5d16778, size 0x238, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RecordingToolConfigurationProcessor_RecordingToolConfiguration* DeserializeConfigurationFile(::StringW jsonData);
 
-  /// @brief Method GetConfigFilePath, addr 0x58fbf10, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetConfigFilePath, addr 0x5d1654c, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW GetConfigFilePath();
 
-  /// @brief Method GetDefaultMrcLayersMask, addr 0x58fc394, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultMrcLayersMask, addr 0x5d169d0, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask GetDefaultMrcLayersMask();
 
-  /// @brief Method GetLayerMask, addr 0x58fc3a0, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetLayerMask, addr 0x5d169dc, size 0x1e0, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
 
-  /// @brief Method GetLayersMask, addr 0x58fc580, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetLayersMask, addr 0x5d16bbc, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask GetLayersMask(::ArrayW<::StringW> layerNames);
 
-  /// @brief Method GetLevelPackAndLevelPreviewForLevelId, addr 0x58fc5fc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetLevelPackAndLevelPreviewForLevelId, addr 0x5d16c38, size 0x88, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*>
   GetLevelPackAndLevelPreviewForLevelId(::StringW packId, ::StringW levelId, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
-  /// @brief Method IsRecordingToolEnabled, addr 0x58fbec4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsRecordingToolEnabled, addr 0x5d16500, size 0x4c, virtual false, abstract: false, final false
   inline bool IsRecordingToolEnabled();
 
-  /// @brief Method LoadConfiguration, addr 0x58fc378, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LoadConfiguration, addr 0x5d169b4, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RecordingToolConfigurationProcessor_RecordingToolConfiguration* LoadConfiguration(::StringW filePath);
 
-  /// @brief Method LoadConfigurationFile, addr 0x58fbf5c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method LoadConfigurationFile, addr 0x5d16598, size 0x1e0, virtual false, abstract: false, final false
   inline ::StringW LoadConfigurationFile(::StringW filePath);
 
   static inline ::GlobalNamespace::RecordingToolConfigurationProcessor* New_ctor(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult,
@@ -784,7 +784,7 @@ public:
 
   constexpr void __cordl_internal_set__posesSerializer(::GlobalNamespace::IPosesSerializer* value);
 
-  /// @brief Method .ctor, addr 0x58fbea8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d164e4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult, /* [Inject(Id = "RecordingTool")] */ ::GlobalNamespace::IBeatSaberLogger* logger,
                     ::GlobalNamespace::IPosesSerializer* posesSerializer, ::GlobalNamespace::EnvironmentsListModel* environmentListModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
@@ -803,7 +803,7 @@ public:
   RecordingToolConfigurationProcessor(RecordingToolConfigurationProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6755 };
 
   /// @brief Field kDefaultMrcLayersMask offset 0xffffffff size 0x8
   static constexpr ::ConstString kDefaultMrcLayersMask{ u"DefaultMrcLayers" };

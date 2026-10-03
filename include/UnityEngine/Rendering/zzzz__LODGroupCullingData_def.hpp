@@ -57,7 +57,7 @@ public:
   constexpr LODGroupCullingData__percentageFlags_e__FixedBuffer(bool FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18283 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -95,7 +95,7 @@ public:
   constexpr LODGroupCullingData__sqrDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17754 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18284 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -133,7 +133,7 @@ public:
   constexpr LODGroupCullingData__transitionDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18285 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -175,16 +175,17 @@ public:
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "sqrDistances", ty: "::UnityEngine::Rendering::LODGroupCullingData__sqrDistances_e__FixedBuffer", modifiers: "", def_value: None,
   // comment: None }, CppParam { name: "transitionDistances", ty: "::UnityEngine::Rendering::LODGroupCullingData__transitionDistances_e__FixedBuffer", modifiers: "", def_value: None, comment: None },
   // CppParam { name: "worldSpaceSize", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "percentageFlags", ty:
-  // "::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
+  // "::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "forceLODMask", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr LODGroupCullingData(::Unity::Mathematics::float3 worldSpaceReferencePoint, int32_t lodCount, ::UnityEngine::Rendering::LODGroupCullingData__sqrDistances_e__FixedBuffer sqrDistances,
                                 ::UnityEngine::Rendering::LODGroupCullingData__transitionDistances_e__FixedBuffer transitionDistances, float_t worldSpaceSize,
-                                ::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer percentageFlags) noexcept;
+                                ::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer percentageFlags, uint8_t forceLODMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18286 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x5c };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
   /// @brief Field worldSpaceReferencePoint, offset: 0x0, size: 0xc, def value: None
   ::Unity::Mathematics::float3 worldSpaceReferencePoint;
@@ -207,6 +208,9 @@ public:
   /// @brief Field percentageFlags, offset: 0x54, size: 0x8, def value: None
   ::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer percentageFlags;
 
+  /// @brief Field forceLODMask, offset: 0x5c, size: 0x1, def value: None
+  uint8_t forceLODMask;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -222,6 +226,8 @@ static_assert(offsetof(::UnityEngine::Rendering::LODGroupCullingData, worldSpace
 
 static_assert(offsetof(::UnityEngine::Rendering::LODGroupCullingData, percentageFlags) == 0x54, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::LODGroupCullingData) == 0x5c, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::LODGroupCullingData, forceLODMask) == 0x5c, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::LODGroupCullingData) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SafeHandleAccess::*)(::System::IntPtr)>(&::UnityEngine::UIElements::SafeHandleAccess::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dbcae4;
+  constexpr static std::size_t addrs = 0x72719f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::SafeHandleAccess::*)()>(&::UnityEngine::UIElements::SafeHandleAccess::IsNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6dbcaec;
+  constexpr static std::size_t addrs = 0x7271a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SafeHandleAccess>(), { "IsNull", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::UIElements::SafeHandleAccess)>(&::UnityEngine::UIElements::SafeHandleAccess::op_Implicit___System__IntPtr)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6dbcafc;
+  constexpr static std::size_t addrs = 0x7271a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

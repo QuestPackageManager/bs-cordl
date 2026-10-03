@@ -47,7 +47,7 @@ public:
   /// @brief Field serialNumber, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber)) ::Org::BouncyCastle::Asn1::DerInteger* serialNumber;
 
-  /// @brief Method GetInstance, addr 0x335aba0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x35e3e3c, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name, ::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
@@ -57,7 +57,7 @@ public:
   /// @brief [Obsolete("Use GetInstance() instead")]
   static inline ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x335adec, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x35e4088, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Name* const& __cordl_internal_get_name() const;
@@ -72,20 +72,20 @@ public:
 
   constexpr void __cordl_internal_set_serialNumber(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x335add4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e4070, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name, ::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
 
-  /// @brief Method .ctor, addr 0x335ad60, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e3ffc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name, ::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
   /// [Obsolete("Use GetInstance() instead")]
-  /// @brief Method .ctor, addr 0x335ac40, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e3edc, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Name, addr 0x335addc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x35e4078, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Name();
 
-  /// @brief Method get_SerialNumber, addr 0x335ade4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x35e4080, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
 
 protected:

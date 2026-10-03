@@ -34,7 +34,7 @@ public:
   static inline void GetComponentsInScene(::UnityEngine::SceneManagement::Scene scene, ::System::Collections::Generic::List_1<T>* components, bool includeInactive);
 
   /// [Extension]
-  /// @brief Method SetRootObjectsActive, addr 0x33279d4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetRootObjectsActive, addr 0x35b0c54, size 0xa0, virtual false, abstract: false, final false
   static inline void SetRootObjectsActive(::UnityEngine::SceneManagement::Scene scene, bool active);
 
 protected:
@@ -52,7 +52,7 @@ public:
   UnityScenesHelper(UnityScenesHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21428 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,10 +13,10 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::TextCore::Text {
-class TextHandle;
+struct TextCacheEntry;
 }
 namespace UnityEngine::TextCore::Text {
-class TextInfo;
+class TextHandle;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -36,41 +36,43 @@ public:
   /// @brief Field currentFrame, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_currentFrame, put = __cordl_internal_set_currentFrame)) int32_t currentFrame;
 
-  /// @brief Field s_TextInfoPool, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_s_TextInfoPool,
-                      put = __cordl_internal_set_s_TextInfoPool)) ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextInfo*>* s_TextInfoPool;
+  /// @brief Field s_Cache, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_s_Cache, put = __cordl_internal_set_s_Cache)) ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>* s_Cache;
 
   /// @brief Field syncRoot, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_syncRoot, put = __cordl_internal_set_syncRoot)) ::System::Object* syncRoot;
 
-  /// @brief Method AddTextInfoToCache, addr 0x6c10f48, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method AddTextInfoToCache, addr 0x7064448, size 0x3b0, virtual false, abstract: false, final false
   inline void AddTextInfoToCache(::UnityEngine::TextCore::Text::TextHandle* textHandle, int32_t hashCode);
 
-  /// @brief Method ClearTemporaryCache, addr 0x6c10e44, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ClearTemporaryCache, addr 0x70642d8, size 0x134, virtual false, abstract: false, final false
   inline void ClearTemporaryCache();
 
   static inline ::UnityEngine::TextCore::Text::TextHandleTemporaryCache* New_ctor();
 
-  /// @brief Method RecycleTextInfoFromCache, addr 0x6c11508, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method RecycleTextInfoFromCache, addr 0x70648fc, size 0x18c, virtual false, abstract: false, final false
   inline void RecycleTextInfoFromCache(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
-  /// @brief Method RefreshCaching, addr 0x6c113c8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method RefreshCaching, addr 0x70647f8, size 0x104, virtual false, abstract: false, final false
   inline void RefreshCaching(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
-  /// @brief Method RemoveTextInfoFromCache, addr 0x6c1176c, size 0x1b0, virtual true, abstract: false, final false
-  inline void RemoveTextInfoFromCache(::UnityEngine::TextCore::Text::TextHandle* textHandle);
+  /// @brief Method RemoveFromCache, addr 0x7064a88, size 0x15c, virtual false, abstract: false, final false
+  inline void RemoveFromCache(::UnityEngine::TextCore::Text::TextHandle* handle);
 
-  /// @brief Method UpdateCurrentFrame, addr 0x6c1191c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ResetEntryState, addr 0x706440c, size 0x3c, virtual false, abstract: false, final false
+  inline void ResetEntryState(::UnityEngine::TextCore::Text::TextHandle* handle);
+
+  /// @brief Method UpdateCurrentFrame, addr 0x7064be4, size 0x40, virtual false, abstract: false, final false
   inline void UpdateCurrentFrame();
 
   constexpr int32_t const& __cordl_internal_get_currentFrame() const;
 
   constexpr int32_t& __cordl_internal_get_currentFrame();
 
-  constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextInfo*>* const& __cordl_internal_get_s_TextInfoPool() const;
+  constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>* const& __cordl_internal_get_s_Cache() const;
 
-  constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextInfo*>*& __cordl_internal_get_s_TextInfoPool();
+  constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>*& __cordl_internal_get_s_Cache();
 
   constexpr ::System::Object* const& __cordl_internal_get_syncRoot() const;
 
@@ -78,11 +80,11 @@ public:
 
   constexpr void __cordl_internal_set_currentFrame(int32_t value);
 
-  constexpr void __cordl_internal_set_s_TextInfoPool(::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextInfo*>* value);
+  constexpr void __cordl_internal_set_s_Cache(::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>* value);
 
   constexpr void __cordl_internal_set_syncRoot(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x6c1195c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7064c24, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,13 +102,13 @@ public:
   TextHandleTemporaryCache(TextHandleTemporaryCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17871 };
 
   /// @brief Field s_MinFramesInCache offset 0xffffffff size 0x4
   static constexpr int32_t s_MinFramesInCache{ static_cast<int32_t>(0x2) };
 
-  /// @brief Field s_TextInfoPool, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextInfo*>* ___s_TextInfoPool;
+  /// @brief Field s_Cache, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>* ___s_Cache;
 
   /// @brief Field currentFrame, offset: 0x18, size: 0x4, def value: None
   int32_t ___currentFrame;
@@ -117,7 +119,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextHandleTemporaryCache, ___s_TextInfoPool) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextHandleTemporaryCache, ___s_Cache) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextHandleTemporaryCache, ___currentFrame) == 0x18, "Offset mismatch!");
 

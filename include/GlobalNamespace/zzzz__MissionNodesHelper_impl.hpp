@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>* (*)(::GlobalNamespace::MissionNode*)>(
     &::GlobalNamespace::MissionNodesHelper::GetAllNodesFromRoot)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x593c890;
+  constexpr static std::size_t addrs = 0x5d574b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::MissionNode*, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>*)>(
     &::GlobalNamespace::MissionNodesHelper::VisitAllTree)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x593c910;
+  constexpr static std::size_t addrs = 0x5d57538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::MissionNode*)>(&::GlobalNamespace::MissionNodesHelper::CycleDetection)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x593c9fc;
+  constexpr static std::size_t addrs = 0x5d57624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::GlobalNamespace::MissionNode*, int32_t, ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MissionNode>, int32_t>*)>(
         &::GlobalNamespace::MissionNodesHelper::CycleDetection)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x593ca9c;
+  constexpr static std::size_t addrs = 0x5d576c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::MissionNode*, ::GlobalNamespace::MissionNode*)>(&::GlobalNamespace::MissionNodesHelper::FinalNodeIsFinal)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x593cc18;
+  constexpr static std::size_t addrs = 0x5d57840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::GlobalNamespace::MissionNode*, ::GlobalNamespace::MissionNode*, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>*)>(
         &::GlobalNamespace::MissionNodesHelper::FinalNodeIsFinal)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x593cca0;
+  constexpr static std::size_t addrs = 0x5d578c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodesHelper::*)()>(&::GlobalNamespace::MissionNodesHelper::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593cdd4;
+  constexpr static std::size_t addrs = 0x5d579fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodesHelper*>(), { ".ctor", {}, {} })));

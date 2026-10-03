@@ -3,13 +3,34 @@
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__AccessFlags_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__PassFragmentData_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__AccessFlags_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData::*)(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags, int32_t, int32_t)>(
+    &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData::_ctor)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6c26f2c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData>(),
+                                                { ".ctor",
+                                                  {},
+                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(),
+                                                    ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::AccessFlags>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData.GetHashCode
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData::GetHashCode)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x67f93a8;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6c26f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,8 +45,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData>,
                                                                 ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData>)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData::SameSubResource)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x67f9434;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x6c26fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,6 +58,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
     return ___internal_method;
   }
 };
+inline void
+UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> handle,
+                                                                                             ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags, int32_t mipLevel, int32_t depthSlice) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData>(),
+                                                           { ".ctor",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(),
+                                                               ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::AccessFlags>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, handle, flags, mipLevel, depthSlice);
+}
 inline int32_t UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass,
                                                                                   { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData>(), 2 })));

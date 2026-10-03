@@ -233,12 +233,12 @@ public:
   /// @brief Field s_reference, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_reference, put = setStaticF_s_reference)) ::System::Linq::Expressions::Interpreter::Instruction* s_reference;
 
-  /// @brief Method Create, addr 0x5f92b24, size 0x770, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x63aeaac, size 0x770, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type, bool liftedToNull);
 
   static inline ::System::Linq::Expressions::Interpreter::EqualInstruction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5f92b20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63aeaa8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Boolean();
@@ -291,13 +291,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_reference();
 
-  /// @brief Method get_ConsumedStack, addr 0x5f92acc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x63aea54, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5f92adc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x63aea64, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5f92ad4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x63aea5c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_Boolean(::System::Linq::Expressions::Interpreter::Instruction* value);
@@ -365,7 +365,7 @@ public:
   EqualInstruction(EqualInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16858 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

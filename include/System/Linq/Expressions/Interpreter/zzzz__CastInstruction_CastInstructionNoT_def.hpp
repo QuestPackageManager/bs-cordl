@@ -45,12 +45,12 @@ public:
   /// @brief Method ConvertNull, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ConvertNull(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method Create, addr 0x5fbfb30, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x63dbab8, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::CastInstruction* Create(::System::Type* t);
 
   static inline ::GlobalNamespace::CastInstruction_CastInstructionNoT* New_ctor(::System::Type* t);
 
-  /// @brief Method Run, addr 0x5fbfc18, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x63dbba0, size 0x158, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type* const& __cordl_internal_get__t() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__t(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5fbfc00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63dbb88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
 protected:
@@ -77,7 +77,7 @@ public:
   CastInstruction_CastInstructionNoT(CastInstruction_CastInstructionNoT const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16612 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17132 };
 
   /// @brief Field _t, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____t;

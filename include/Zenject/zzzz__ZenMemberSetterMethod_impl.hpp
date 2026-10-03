@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ZenMemberSetterMethod::*)(::System::Object*, ::System::IntPtr)>(&::Zenject::ZenMemberSetterMethod::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6e3daa4;
+  constexpr static std::size_t addrs = 0x72d95f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ZenMemberSetterMethod::*)(::System::Object*, ::System::Object*)>(&::Zenject::ZenMemberSetterMethod::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e3dbec;
+  constexpr static std::size_t addrs = 0x72d973c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::Zenject::ZenMemberSetterMethod::*)(::System::Object*, ::System::Object*, ::System::AsyncCallback*,
                                                                                                                      ::System::Object*)>(&::Zenject::ZenMemberSetterMethod::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6e3dc00;
+  constexpr static std::size_t addrs = 0x72d9750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ZenMemberSetterMethod::*)(::System::IAsyncResult*)>(&::Zenject::ZenMemberSetterMethod::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e3dc28;
+  constexpr static std::size_t addrs = 0x72d9778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

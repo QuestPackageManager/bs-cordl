@@ -38,9 +38,6 @@ namespace Unity::Collections {
 struct UnsafeQueueBlockHeader;
 }
 namespace Unity::Collections {
-struct UnsafeQueueBlockPoolData;
-}
-namespace Unity::Collections {
 struct UnsafeQueueData;
 }
 namespace Unity::Collections {
@@ -133,7 +130,7 @@ public:
   constexpr UnsafeQueue_1_Enumerator(::Unity::Collections::UnsafeQueueBlockHeader* m_FirstBlock, ::Unity::Collections::UnsafeQueueBlockHeader* m_Block, int32_t m_Index, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15975 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -231,7 +228,7 @@ public:
   constexpr UnsafeQueue_1_ReadOnly(::Unity::Collections::UnsafeQueueData* m_Buffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15976 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -245,7 +242,7 @@ public:
 // Non member Declarations
 } // namespace Unity::Collections
 // [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
-// Dependencies
+// Dependencies Unity.Collections.AllocatorManager::AllocatorHandle
 namespace Unity::Collections {
 // cpp template
 template <typename T>
@@ -264,27 +261,26 @@ public:
   // @brief default ctor
   constexpr UnsafeQueue_1_ParallelWriter();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_QueuePool", ty:
-  // "::Unity::Collections::UnsafeQueueBlockPoolData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ThreadIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None
-  // }]
-  constexpr UnsafeQueue_1_ParallelWriter(::Unity::Collections::UnsafeQueueData* m_Buffer, ::Unity::Collections::UnsafeQueueBlockPoolData* m_QueuePool, int32_t m_ThreadIndex) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AllocatorLabel", ty:
+  // "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ThreadIndex", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
+  constexpr UnsafeQueue_1_ParallelWriter(::Unity::Collections::UnsafeQueueData* m_Buffer, ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel, int32_t m_ThreadIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15977 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::UnsafeQueueData* m_Buffer;
 
-  /// [NativeDisableUnsafePtrRestriction]
-  /// @brief Field m_QueuePool, offset: 0x8, size: 0x8, def value: None
-  ::Unity::Collections::UnsafeQueueBlockPoolData* m_QueuePool;
+  /// @brief Field m_AllocatorLabel, offset: 0x8, size: 0x4, def value: None
+  ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel;
 
   /// [NativeSetThreadIndex]
-  /// @brief Field m_ThreadIndex, offset: 0x10, size: 0x4, def value: None
+  /// @brief Field m_ThreadIndex, offset: 0xc, size: 0x4, def value: None
   int32_t m_ThreadIndex;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -378,46 +374,32 @@ public:
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
-  /// @brief Method get_MemoryBlockSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline int32_t get_MemoryBlockSize();
-
-  /// @brief Method get_PersistentMemoryBlockCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline int32_t get_PersistentMemoryBlockCount();
-
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Convert to "::Unity::Collections::INativeDisposable"
   constexpr ::Unity::Collections::INativeDisposable* i___Unity__Collections__INativeDisposable();
 
-  /// @brief Method set_PersistentMemoryBlockCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void set_PersistentMemoryBlockCount(int32_t value);
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr UnsafeQueue_1();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_QueuePool", ty:
-  // "::Unity::Collections::UnsafeQueueBlockPoolData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AllocatorLabel", ty:
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AllocatorLabel", ty:
   // "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }]
-  constexpr UnsafeQueue_1(::Unity::Collections::UnsafeQueueData* m_Buffer, ::Unity::Collections::UnsafeQueueBlockPoolData* m_QueuePool,
-                          ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel) noexcept;
+  constexpr UnsafeQueue_1(::Unity::Collections::UnsafeQueueData* m_Buffer, ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15978 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::UnsafeQueueData* m_Buffer;
 
   /// [NativeDisableUnsafePtrRestriction]
-  /// @brief Field m_QueuePool, offset: 0x8, size: 0x8, def value: None
-  ::Unity::Collections::UnsafeQueueBlockPoolData* m_QueuePool;
-
-  /// @brief Field m_AllocatorLabel, offset: 0x10, size: 0x4, def value: None
+  /// @brief Field m_AllocatorLabel, offset: 0x8, size: 0x4, def value: None
   ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;

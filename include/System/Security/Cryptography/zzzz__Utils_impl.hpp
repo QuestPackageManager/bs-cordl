@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RNGCryptoServiceProvider* (*)()>(&::System::Security::Cryptography::Utils::get_StaticRandomNumberGenerator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5b08570;
+  constexpr static std::size_t addrs = 0x5f20468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(int32_t)>(&::System::Security::Cryptography::Utils::GenerateRandom)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5b0867c;
+  constexpr static std::size_t addrs = 0x5f20574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, int32_t)>(&::System::Security::Cryptography::Utils::HasAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b0827c;
+  constexpr static std::size_t addrs = 0x5f20174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Security::Cryptography::Utils::DiscardWhiteSpaces)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5b027f0;
+  constexpr static std::size_t addrs = 0x5f1a6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, int32_t, int32_t)>(&::System::Security::Cryptography::Utils::DiscardWhiteSpaces)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5b086f0;
+  constexpr static std::size_t addrs = 0x5f205e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>)>(&::System::Security::Cryptography::Utils::ConvertByteArrayToInt)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5b08870;
+  constexpr static std::size_t addrs = 0x5f20768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(int32_t)>(&::System::Security::Cryptography::Utils::ConvertIntToByteArray)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5b088cc;
+  constexpr static std::size_t addrs = 0x5f207c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&::System::Security::Cryptography::Utils::FixupKeyParity)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5b07f20;
+  constexpr static std::size_t addrs = 0x5f1fe18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t*, int32_t, uint8_t*)>(&::System::Security::Cryptography::Utils::DWORDFromLittleEndian)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5b089f4;
+  constexpr static std::size_t addrs = 0x5f208ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, ::ArrayW<uint32_t>, int32_t)>(&::System::Security::Cryptography::Utils::DWORDToLittleEndian)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5b08a40;
+  constexpr static std::size_t addrs = 0x5f20938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t*, int32_t, uint8_t*)>(&::System::Security::Cryptography::Utils::DWORDFromBigEndian)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5b04030;
+  constexpr static std::size_t addrs = 0x5f1bf28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, ::ArrayW<uint32_t>, int32_t)>(&::System::Security::Cryptography::Utils::DWORDToBigEndian)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5b03f40;
+  constexpr static std::size_t addrs = 0x5f1be38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t*, int32_t, uint8_t*)>(&::System::Security::Cryptography::Utils::QuadWordFromBigEndian)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5b05b6c;
+  constexpr static std::size_t addrs = 0x5f1da64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, ::ArrayW<uint64_t>, int32_t)>(&::System::Security::Cryptography::Utils::QuadWordToBigEndian)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5b059b4;
+  constexpr static std::size_t addrs = 0x5f1d8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Security::Cryptography::Utils::_ProduceLegacyHmacValues)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b08b30;
+  constexpr static std::size_t addrs = 0x5f20a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::Utils*>(), { "_ProduceLegacyHmacValues", {}, {} })));

@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/EventCallbackFunctorBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__InvokePolicy_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__CallbackOptions_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallbackFunctorBase_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EventCallbackFunctorBase::*)()>(&::UnityEngine::UIElements::EventCallbackFunctorBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d98a24;
+  constexpr static std::size_t addrs = 0x72261d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventCallbackFunctorBase*>(), { ".ctor", {}, {} })));
@@ -87,17 +87,17 @@ constexpr void UnityEngine::UIElements::EventCallbackFunctorBase::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___eventTypeId = value;
 }
-constexpr ::UnityEngine::UIElements::InvokePolicy& UnityEngine::UIElements::EventCallbackFunctorBase::__cordl_internal_get_invokePolicy() {
+constexpr ::UnityEngine::UIElements::CallbackOptions& UnityEngine::UIElements::EventCallbackFunctorBase::__cordl_internal_get_callbackOptions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___invokePolicy;
+  return this->___callbackOptions;
 }
-constexpr ::UnityEngine::UIElements::InvokePolicy const& UnityEngine::UIElements::EventCallbackFunctorBase::__cordl_internal_get_invokePolicy() const {
+constexpr ::UnityEngine::UIElements::CallbackOptions const& UnityEngine::UIElements::EventCallbackFunctorBase::__cordl_internal_get_callbackOptions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___invokePolicy;
+  return this->___callbackOptions;
 }
-constexpr void UnityEngine::UIElements::EventCallbackFunctorBase::__cordl_internal_set_invokePolicy(::UnityEngine::UIElements::InvokePolicy value) {
+constexpr void UnityEngine::UIElements::EventCallbackFunctorBase::__cordl_internal_set_callbackOptions(::UnityEngine::UIElements::CallbackOptions value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___invokePolicy = value;
+  this->___callbackOptions = value;
 }
 inline void UnityEngine::UIElements::EventCallbackFunctorBase::Invoke(::UnityEngine::UIElements::EventBase* evt) {
   auto* ___internal_method =

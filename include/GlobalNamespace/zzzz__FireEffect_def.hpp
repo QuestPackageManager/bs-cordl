@@ -109,16 +109,16 @@ public:
 
   static inline ::GlobalNamespace::FireEffect* New_ctor();
 
-  /// @brief Method NotifyAlphaWasChanged, addr 0x58bef1c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method NotifyAlphaWasChanged, addr 0x5cd5784, size 0xf4, virtual false, abstract: false, final false
   inline void NotifyAlphaWasChanged(float_t currentAlpha);
 
-  /// @brief Method OnDestroy, addr 0x58be9e0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5cd5248, size 0x20, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetRenderersEnabled, addr 0x58bec7c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetRenderersEnabled, addr 0x5cd54e4, size 0x80, virtual false, abstract: false, final false
   inline void SetRenderersEnabled(bool enabled);
 
-  /// @brief Method Start, addr 0x58be770, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x5cd4fd8, size 0x12c, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -217,7 +217,7 @@ public:
 
   constexpr void __cordl_internal_set__useEmissionColor(bool value);
 
-  /// @brief Method .ctor, addr 0x58bf08c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd58f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -235,7 +235,7 @@ public:
   FireEffect(FireEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5717 };
 
   /// [SerializeField]
   /// @brief Field _groupId, offset: 0x20, size: 0x4, def value: None

@@ -13,6 +13,12 @@ CORDL_MODULE_EXPORT(RaycastResult)
 namespace UnityEngine::EventSystems {
 class BaseRaycaster;
 }
+namespace UnityEngine::UIElements {
+class UIDocument;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
 namespace UnityEngine {
 class GameObject;
 }
@@ -34,19 +40,19 @@ public:
 
   __declspec(property(get = get_isValid)) bool isValid;
 
-  /// @brief Method Clear, addr 0x6e24610, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x72be144, size 0x11c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ToString, addr 0x6e18db0, size 0x460, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x72b3f6c, size 0x43c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_gameObject, addr 0x6e24564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameObject, addr 0x72be098, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_isValid, addr 0x6e24574, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x72be0a8, size 0x9c, virtual false, abstract: false, final false
   inline bool get_isValid();
 
-  /// @brief Method set_gameObject, addr 0x6e2456c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameObject, addr 0x72be0a0, size 0x8, virtual false, abstract: false, final false
   inline void set_gameObject(::UnityEngine::GameObject* value);
 
   // Ctor Parameters []
@@ -58,18 +64,21 @@ public:
   // }, CppParam { name: "index", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
   // name: "sortingGroupID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sortingGroupOrder", ty: "int32_t", modifiers: "", def_value: None, comment: None },
   // CppParam { name: "sortingLayer", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sortingOrder", ty: "int32_t", modifiers: "", def_value: None, comment: None },
-  // CppParam { name: "worldPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldNormal", ty: "::UnityEngine::Vector3", modifiers: "",
-  // def_value: None, comment: None }, CppParam { name: "screenPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "displayIndex", ty: "int32_t",
+  // CppParam { name: "origin", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "worldNormal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "screenPosition", ty:
+  // "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "displayIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "document", ty: "::UnityW<::UnityEngine::UIElements::UIDocument>", modifiers: "", def_value: None, comment: None }, CppParam { name: "element", ty: "::UnityEngine::UIElements::VisualElement*",
   // modifiers: "", def_value: None, comment: None }]
   constexpr RaycastResult(::UnityW<::UnityEngine::GameObject> m_GameObject, ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> _cordl_module, float_t distance, float_t index, int32_t depth,
-                          int32_t sortingGroupID, int32_t sortingGroupOrder, int32_t sortingLayer, int32_t sortingOrder, ::UnityEngine::Vector3 worldPosition, ::UnityEngine::Vector3 worldNormal,
-                          ::UnityEngine::Vector2 screenPosition, int32_t displayIndex) noexcept;
+                          int32_t sortingGroupID, int32_t sortingGroupOrder, int32_t sortingLayer, int32_t sortingOrder, ::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 worldPosition,
+                          ::UnityEngine::Vector3 worldNormal, ::UnityEngine::Vector2 screenPosition, int32_t displayIndex, ::UnityW<::UnityEngine::UIElements::UIDocument> document,
+                          ::UnityEngine::UIElements::VisualElement* element) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18088 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
 
   /// @brief Field m_GameObject, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> m_GameObject;
@@ -98,17 +107,26 @@ public:
   /// @brief Field sortingOrder, offset: 0x28, size: 0x4, def value: None
   int32_t sortingOrder;
 
-  /// @brief Field worldPosition, offset: 0x2c, size: 0xc, def value: None
+  /// @brief Field origin, offset: 0x2c, size: 0xc, def value: None
+  ::UnityEngine::Vector3 origin;
+
+  /// @brief Field worldPosition, offset: 0x38, size: 0xc, def value: None
   ::UnityEngine::Vector3 worldPosition;
 
-  /// @brief Field worldNormal, offset: 0x38, size: 0xc, def value: None
+  /// @brief Field worldNormal, offset: 0x44, size: 0xc, def value: None
   ::UnityEngine::Vector3 worldNormal;
 
-  /// @brief Field screenPosition, offset: 0x44, size: 0x8, def value: None
+  /// @brief Field screenPosition, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Vector2 screenPosition;
 
-  /// @brief Field displayIndex, offset: 0x4c, size: 0x4, def value: None
+  /// @brief Field displayIndex, offset: 0x58, size: 0x4, def value: None
   int32_t displayIndex;
+
+  /// @brief Field document, offset: 0x60, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::UIElements::UIDocument> document;
+
+  /// @brief Field element, offset: 0x68, size: 0x8, def value: None
+  ::UnityEngine::UIElements::VisualElement* element;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -131,14 +149,20 @@ static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, sortingLayer)
 
 static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, sortingOrder) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, worldPosition) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, origin) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, worldNormal) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, worldPosition) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, screenPosition) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, worldNormal) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, displayIndex) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, screenPosition) == 0x50, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::EventSystems::RaycastResult) == 0x50, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, displayIndex) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, document) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, element) == 0x68, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::EventSystems::RaycastResult) == 0x70, "Size mismatch!");
 
 } // namespace UnityEngine::EventSystems

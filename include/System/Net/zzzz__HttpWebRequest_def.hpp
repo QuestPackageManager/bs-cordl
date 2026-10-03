@@ -258,7 +258,7 @@ public:
   static ::System::Net::HttpWebRequest_NtlmAuthState const Response;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12537 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -287,25 +287,25 @@ public:
 
   __declspec(property(get = get_NtlmAuthState)) ::System::Net::HttpWebRequest_NtlmAuthState NtlmAuthState;
 
-  /// @brief Method CheckAuthorization, addr 0x6334bc8, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method CheckAuthorization, addr 0x675cba8, size 0x34c, virtual false, abstract: false, final false
   inline bool CheckAuthorization(::System::Net::WebResponse* response, ::System::Net::HttpStatusCode code);
 
-  /// @brief Method Reset, addr 0x6335528, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x675d508, size 0x94, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ToString, addr 0x6335708, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x675d6e8, size 0x120, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6330c50, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6758c30, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpWebRequest* request, bool isProxy);
 
-  /// @brief Method get_IsCompleted, addr 0x63356d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x675d6b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method get_IsNtlmAuthenticated, addr 0x63356e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsNtlmAuthenticated, addr 0x675d6c8, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsNtlmAuthenticated();
 
-  /// @brief Method get_NtlmAuthState, addr 0x63356e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NtlmAuthState, addr 0x675d6c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpWebRequest_NtlmAuthState get_NtlmAuthState();
 
   // Ctor Parameters []
@@ -318,7 +318,7 @@ public:
   constexpr HttpWebRequest_AuthorizationState(::System::Net::HttpWebRequest* request, bool isProxy, bool isCompleted, ::System::Net::HttpWebRequest_NtlmAuthState ntlm_auth_state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12538 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -396,7 +396,7 @@ public:
   HttpWebRequest___c__241_1(HttpWebRequest___c__241_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12539 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -441,7 +441,7 @@ public:
                                                           ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12540 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -487,11 +487,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x6335828, size 0xefc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x675d808, size 0xefc, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x6336774, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x675e754, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -528,7 +528,7 @@ public:
                                                           __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12541 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa8 };
@@ -639,11 +639,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x63367f4, size 0x7ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x675e7d4, size 0x7ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x63372d0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x675f2b0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -671,7 +671,7 @@ public:
       ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::BufferOffsetSize*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11608 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12542 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -750,11 +750,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x6337350, size 0x450, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x675f330, size 0x450, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x63377a0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x675f780, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -773,7 +773,7 @@ public:
                                                           ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11609 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12543 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1084,85 +1084,85 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Abort, addr 0x6333574, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method Abort, addr 0x675b554, size 0x110, virtual true, abstract: false, final false
   inline void Abort();
 
-  /// @brief Method BeginGetRequestStream, addr 0x63329f0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginGetRequestStream, addr 0x675a9d0, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginGetRequestStream(::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginGetResponse, addr 0x6333160, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method BeginGetResponse, addr 0x675b140, size 0x1b4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginGetResponse(::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method CheckAuthorization, addr 0x6334bb0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CheckAuthorization, addr 0x675cb90, size 0x18, virtual false, abstract: false, final false
   inline bool CheckAuthorization(::System::Net::WebResponse* response, ::System::Net::HttpStatusCode code);
 
-  /// @brief Method CheckFinalStatus, addr 0x6335114, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method CheckFinalStatus, addr 0x675d0f4, size 0x414, virtual false, abstract: false, final false
   inline ::System::ValueTuple_4<bool, bool, ::System::Threading::Tasks::Task_1<::System::Net::BufferOffsetSize*>*, ::System::Net::WebException*>
   CheckFinalStatus(::System::Net::HttpWebResponse* response);
 
-  /// @brief Method CheckRequestStarted, addr 0x6330cb0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckRequestStarted, addr 0x6758c90, size 0x58, virtual false, abstract: false, final false
   inline void CheckRequestStarted();
 
-  /// @brief Method CreateRequestAbortedException, addr 0x6332928, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CreateRequestAbortedException, addr 0x675a908, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Net::WebException* CreateRequestAbortedException();
 
-  /// @brief Method DoContinueDelegate, addr 0x63336f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DoContinueDelegate, addr 0x675b6d4, size 0x1c, virtual false, abstract: false, final false
   inline void DoContinueDelegate(int32_t statusCode, ::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method DoPreAuthenticate, addr 0x63343f4, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method DoPreAuthenticate, addr 0x675c3d4, size 0x224, virtual false, abstract: false, final false
   inline void DoPreAuthenticate();
 
-  /// @brief Method EndGetRequestStream, addr 0x6332aac, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method EndGetRequestStream, addr 0x675aa8c, size 0x130, virtual true, abstract: false, final false
   inline ::System::IO::Stream* EndGetRequestStream(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndGetResponse, addr 0x6333314, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method EndGetResponse, addr 0x675b2f4, size 0x130, virtual true, abstract: false, final false
   inline ::System::Net::WebResponse* EndGetResponse(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method FlattenException, addr 0x6332eec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method FlattenException, addr 0x675aecc, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Exception* FlattenException(::System::Exception* e);
 
-  /// @brief Method GetHeaders, addr 0x6333ca8, size 0x6c0, virtual false, abstract: false, final false
+  /// @brief Method GetHeaders, addr 0x675bc88, size 0x6c0, virtual false, abstract: false, final false
   inline ::StringW GetHeaders();
 
-  /// @brief Method GetObjectData, addr 0x63336bc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x675b69c, size 0x38, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetRequestHeaders, addr 0x6334618, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method GetRequestHeaders, addr 0x675c5f8, size 0x324, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetRequestHeaders();
 
-  /// @brief Method GetRequestStreamAsync, addr 0x6332c64, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetRequestStreamAsync, addr 0x675ac44, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetRequestStreamAsync();
 
-  /// @brief Method GetResponse, addr 0x6333444, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method GetResponse, addr 0x675b424, size 0x128, virtual true, abstract: false, final false
   inline ::System::Net::WebResponse* GetResponse();
 
   /// [AsyncStateMachine(typeof(System.Net.HttpWebRequest::<GetResponseFromData>d__244))]
-  /// @brief Method GetResponseFromData, addr 0x6332df0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetResponseFromData, addr 0x675add0, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_5<::System::Net::HttpWebResponse*, bool, bool, ::System::Net::BufferOffsetSize*, ::System::Net::WebOperation*>>*
   GetResponseFromData(::System::Net::WebResponseStream* stream, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetRewriteHandler, addr 0x6334f14, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method GetRewriteHandler, addr 0x675cef4, size 0x200, virtual false, abstract: false, final false
   inline ::System::ValueTuple_2<::System::Threading::Tasks::Task_1<::System::Net::BufferOffsetSize*>*, ::System::Net::WebException*> GetRewriteHandler(::System::Net::HttpWebResponse* response,
                                                                                                                                                        bool redirect);
 
-  /// @brief Method GetServicePoint, addr 0x633179c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetServicePoint, addr 0x675977c, size 0x130, virtual false, abstract: false, final false
   inline ::System::Net::ServicePoint* GetServicePoint();
 
-  /// @brief Method GetWebException, addr 0x6332bdc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetWebException, addr 0x675abbc, size 0x88, virtual false, abstract: false, final false
   inline ::System::Net::WebException* GetWebException(::System::Exception* e);
 
-  /// @brief Method GetWebException, addr 0x6332fb0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetWebException, addr 0x675af90, size 0x1b0, virtual false, abstract: false, final false
   static inline ::System::Net::WebException* GetWebException(::System::Exception* e, bool aborted);
 
-  /// @brief Method HandleNtlmAuth, addr 0x633493c, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method HandleNtlmAuth, addr 0x675c91c, size 0x274, virtual false, abstract: false, final false
   inline ::System::ValueTuple_2<::System::Net::WebOperation*, bool> HandleNtlmAuth(::System::Net::WebResponseStream* stream, ::System::Net::HttpWebResponse* response,
                                                                                    ::System::Net::BufferOffsetSize* writeBuffer, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method MyGetRequestStreamAsync, addr 0x633257c, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method MyGetRequestStreamAsync, addr 0x675a55c, size 0x384, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* MyGetRequestStreamAsync(::System::Threading::CancellationToken cancellationToken);
 
   /// [AsyncStateMachine(typeof(System.Net.HttpWebRequest::<MyGetResponseAsync>d__243))]
-  /// @brief Method MyGetResponseAsync, addr 0x6332d00, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method MyGetResponseAsync, addr 0x675ace0, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::HttpWebResponse*>* MyGetResponseAsync(::System::Threading::CancellationToken cancellationToken);
 
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
@@ -1176,13 +1176,13 @@ public:
 
   static inline ::System::Net::HttpWebRequest* New_ctor(::System::Uri* uri, ::Mono::Net::Security::MobileTlsProvider* tlsProvider, ::Mono::Security::Interface::MonoTlsSettings* settings);
 
-  /// @brief Method Redirect, addr 0x6333790, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method Redirect, addr 0x675b770, size 0x518, virtual false, abstract: false, final false
   inline bool Redirect(::System::Net::HttpStatusCode code, ::System::Net::WebResponse* response);
 
-  /// @brief Method ResetAuthorization, addr 0x6330b00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ResetAuthorization, addr 0x6758ae0, size 0x10, virtual false, abstract: false, final false
   inline void ResetAuthorization();
 
-  /// @brief Method RewriteRedirectToGet, addr 0x6333710, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RewriteRedirectToGet, addr 0x675b6f0, size 0x80, virtual false, abstract: false, final false
   inline void RewriteRedirectToGet();
 
   /// @brief Method RunWithTimeout, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1199,19 +1199,19 @@ public:
   static inline ::System::Threading::Tasks::Task_1<T>* RunWithTimeoutWorker(::System::Threading::Tasks::Task_1<T>* workerTask, int32_t timeout, ::System::Action* abort,
                                                                             ::System::Func_1<bool>* aborted, ::System::Threading::CancellationTokenSource* cts);
 
-  /// @brief Method SendRequest, addr 0x63321ac, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method SendRequest, addr 0x675a18c, size 0x258, virtual false, abstract: false, final false
   inline ::System::Net::WebOperation* SendRequest(bool redirecting, ::System::Net::BufferOffsetSize* writeBuffer, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x6333684, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x675b664, size 0x38, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method TryGetHostUri, addr 0x6331248, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method TryGetHostUri, addr 0x6759228, size 0xd8, virtual false, abstract: false, final false
   inline bool TryGetHostUri(::StringW hostName, ::by_ref<::System::Uri*> hostUri);
 
   /// [CompilerGenerated]
   /// [AsyncStateMachine(typeof(System.Net.HttpWebRequest::<<GetRewriteHandler>b__271_0>d))]
-  /// @brief Method <GetRewriteHandler>b__271_0, addr 0x63355bc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method <GetRewriteHandler>b__271_0, addr 0x675d59c, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::BufferOffsetSize*>* _GetRewriteHandler_b__271_0();
 
   /// [CompilerGenerated]
@@ -1544,17 +1544,17 @@ public:
 
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// [Obsolete("This API supports the .NET Framework infrastructure and is not intended to be used directly from your code.", true)]
-  /// @brief Method .ctor, addr 0x633569c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x675d67c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")]
-  /// @brief Method .ctor, addr 0x6330b38, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6758b18, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x6330598, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6758578, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri);
 
-  /// @brief Method .ctor, addr 0x6330b10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6758af0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri, ::Mono::Net::Security::MobileTlsProvider* tlsProvider, ::Mono::Security::Interface::MonoTlsSettings* settings);
 
   static inline ::System::Net::Cache::RequestCachePolicy* getStaticF_defaultCachePolicy();
@@ -1563,107 +1563,107 @@ public:
 
   static inline int32_t getStaticF_defaultMaximumErrorResponseLength();
 
-  /// @brief Method get_Aborted, addr 0x6332900, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Aborted, addr 0x675a8e0, size 0x28, virtual false, abstract: false, final false
   inline bool get_Aborted();
 
-  /// @brief Method get_Address, addr 0x6330c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Address, addr 0x6758c44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_Address();
 
-  /// @brief Method get_AllowWriteStreamBuffering, addr 0x6330c74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AllowWriteStreamBuffering, addr 0x6758c54, size 0x8, virtual true, abstract: false, final false
   inline bool get_AllowWriteStreamBuffering();
 
-  /// @brief Method get_AuthUri, addr 0x6331a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthUri, addr 0x6759a44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_AuthUri();
 
-  /// @brief Method get_AutomaticDecompression, addr 0x6330c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AutomaticDecompression, addr 0x6758c64, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::DecompressionMethods get_AutomaticDecompression();
 
-  /// @brief Method get_ClientCertificates, addr 0x6330e2c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_ClientCertificates, addr 0x6758e0c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
-  /// @brief Method get_ContentLength, addr 0x6330e9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ContentLength, addr 0x6758e7c, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_ContentLength();
 
-  /// @brief Method get_Credentials, addr 0x6330f50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Credentials, addr 0x6758f30, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::ICredentials* get_Credentials();
 
-  /// @brief Method get_DefaultMaximumErrorResponseLength, addr 0x6330f60, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultMaximumErrorResponseLength, addr 0x6758f40, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_DefaultMaximumErrorResponseLength();
 
-  /// @brief Method get_DefaultMaximumResponseHeadersLength, addr 0x63313a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultMaximumResponseHeadersLength, addr 0x6759384, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_DefaultMaximumResponseHeadersLength();
 
-  /// @brief Method get_ExpectContinue, addr 0x6331a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExpectContinue, addr 0x6759a34, size 0x8, virtual false, abstract: false, final false
   inline bool get_ExpectContinue();
 
-  /// @brief Method get_Headers, addr 0x6330fbc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x6758f9c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_Host, addr 0x6330fc4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_Host, addr 0x6758fa4, size 0x10c, virtual false, abstract: false, final false
   inline ::StringW get_Host();
 
-  /// @brief Method get_InternalAllowBuffering, addr 0x6330d08, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_InternalAllowBuffering, addr 0x6758ce8, size 0x14, virtual false, abstract: false, final false
   inline bool get_InternalAllowBuffering();
 
-  /// @brief Method get_KeepAlive, addr 0x6331320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeepAlive, addr 0x6759300, size 0x8, virtual false, abstract: false, final false
   inline bool get_KeepAlive();
 
-  /// @brief Method get_Method, addr 0x6331408, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Method, addr 0x67593e8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Method();
 
-  /// @brief Method get_MethodWithBuffer, addr 0x6330d1c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_MethodWithBuffer, addr 0x6758cfc, size 0x100, virtual false, abstract: false, final false
   inline bool get_MethodWithBuffer();
 
-  /// @brief Method get_ProtocolVersion, addr 0x6331640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProtocolVersion, addr 0x6759620, size 0x8, virtual false, abstract: false, final false
   inline ::System::Version* get_ProtocolVersion();
 
-  /// @brief Method get_Proxy, addr 0x6331768, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Proxy, addr 0x6759748, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::IWebProxy* get_Proxy();
 
-  /// @brief Method get_ProxyQuery, addr 0x6331a6c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_ProxyQuery, addr 0x6759a4c, size 0x30, virtual false, abstract: false, final false
   inline bool get_ProxyQuery();
 
-  /// @brief Method get_ReadWriteTimeout, addr 0x6331400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadWriteTimeout, addr 0x67593e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ReadWriteTimeout();
 
-  /// @brief Method get_RequestUri, addr 0x63318cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequestUri, addr 0x67598ac, size 0x8, virtual true, abstract: false, final false
   inline ::System::Uri* get_RequestUri();
 
-  /// @brief Method get_SendChunked, addr 0x63318d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SendChunked, addr 0x67598b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_SendChunked();
 
-  /// @brief Method get_ServerCertValidationCallback, addr 0x6331a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServerCertValidationCallback, addr 0x6759a7c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServerCertValidationCallback* get_ServerCertValidationCallback();
 
-  /// @brief Method get_ServerCertificateValidationCallback, addr 0x6331aa4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ServerCertificateValidationCallback, addr 0x6759a84, size 0x18, virtual false, abstract: false, final false
   inline ::System::Net::Security::RemoteCertificateValidationCallback* get_ServerCertificateValidationCallback();
 
-  /// @brief Method get_ServicePoint, addr 0x6331900, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_ServicePoint, addr 0x67598e0, size 0x4, virtual false, abstract: false, final false
   inline ::System::Net::ServicePoint* get_ServicePoint();
 
-  /// @brief Method get_ServicePointNoLock, addr 0x6331904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServicePointNoLock, addr 0x67598e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePoint* get_ServicePointNoLock();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ThrowOnError, addr 0x6330f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ThrowOnError, addr 0x6758f18, size 0x8, virtual false, abstract: false, final false
   inline bool get_ThrowOnError();
 
-  /// @brief Method get_Timeout, addr 0x633190c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Timeout, addr 0x67598ec, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Timeout();
 
-  /// @brief Method get_TlsProvider, addr 0x6330e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TlsProvider, addr 0x6758dfc, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::MobileTlsProvider* get_TlsProvider();
 
-  /// @brief Method get_TlsSettings, addr 0x6330e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TlsSettings, addr 0x6758e04, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::MonoTlsSettings* get_TlsSettings();
 
-  /// @brief Method get_TransferEncoding, addr 0x6331970, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_TransferEncoding, addr 0x6759950, size 0x60, virtual false, abstract: false, final false
   inline ::StringW get_TransferEncoding();
 
-  /// @brief Method get_UnsafeAuthenticatedConnectionSharing, addr 0x6331a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnsafeAuthenticatedConnectionSharing, addr 0x6759a2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_UnsafeAuthenticatedConnectionSharing();
 
-  /// @brief Method get_UseDefaultCredentials, addr 0x63319d0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_UseDefaultCredentials, addr 0x67599b0, size 0x7c, virtual true, abstract: false, final false
   inline bool get_UseDefaultCredentials();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -1675,68 +1675,68 @@ public:
 
   static inline void setStaticF_defaultMaximumErrorResponseLength(int32_t value);
 
-  /// @brief Method set_AllowAutoRedirect, addr 0x6330c6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_AllowAutoRedirect, addr 0x6758c4c, size 0x8, virtual true, abstract: false, final false
   inline void set_AllowAutoRedirect(bool value);
 
-  /// @brief Method set_AllowWriteStreamBuffering, addr 0x6330c7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_AllowWriteStreamBuffering, addr 0x6758c5c, size 0x8, virtual true, abstract: false, final false
   inline void set_AllowWriteStreamBuffering(bool value);
 
-  /// @brief Method set_AutomaticDecompression, addr 0x6330c8c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_AutomaticDecompression, addr 0x6758c6c, size 0x24, virtual false, abstract: false, final false
   inline void set_AutomaticDecompression(::System::Net::DecompressionMethods value);
 
-  /// @brief Method set_ConnectionGroupName, addr 0x6330e94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_ConnectionGroupName, addr 0x6758e74, size 0x8, virtual true, abstract: false, final false
   inline void set_ConnectionGroupName(::StringW value);
 
-  /// @brief Method set_ContentLength, addr 0x6330ea4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method set_ContentLength, addr 0x6758e84, size 0x8c, virtual true, abstract: false, final false
   inline void set_ContentLength(int64_t value);
 
-  /// @brief Method set_CookieContainer, addr 0x6330f48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_CookieContainer, addr 0x6758f28, size 0x8, virtual true, abstract: false, final false
   inline void set_CookieContainer(::System::Net::CookieContainer* value);
 
-  /// @brief Method set_Credentials, addr 0x6330f58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Credentials, addr 0x6758f38, size 0x8, virtual true, abstract: false, final false
   inline void set_Credentials(::System::Net::ICredentials* value);
 
-  /// @brief Method set_ExpectContinue, addr 0x6331a5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExpectContinue, addr 0x6759a3c, size 0x8, virtual false, abstract: false, final false
   inline void set_ExpectContinue(bool value);
 
-  /// @brief Method set_FinishedReading, addr 0x633356c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FinishedReading, addr 0x675b54c, size 0x8, virtual false, abstract: false, final false
   inline void set_FinishedReading(bool value);
 
-  /// @brief Method set_Host, addr 0x63310d0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method set_Host, addr 0x67590b0, size 0x178, virtual false, abstract: false, final false
   inline void set_Host(::StringW value);
 
-  /// @brief Method set_InternalContentLength, addr 0x6330f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InternalContentLength, addr 0x6758f10, size 0x8, virtual false, abstract: false, final false
   inline void set_InternalContentLength(int64_t value);
 
-  /// @brief Method set_KeepAlive, addr 0x6331328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeepAlive, addr 0x6759308, size 0x8, virtual false, abstract: false, final false
   inline void set_KeepAlive(bool value);
 
-  /// @brief Method set_MaximumAutomaticRedirections, addr 0x6331330, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_MaximumAutomaticRedirections, addr 0x6759310, size 0x74, virtual false, abstract: false, final false
   inline void set_MaximumAutomaticRedirections(int32_t value);
 
-  /// @brief Method set_Method, addr 0x6331410, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method set_Method, addr 0x67593f0, size 0x228, virtual true, abstract: false, final false
   inline void set_Method(::StringW value);
 
-  /// @brief Method set_PreAuthenticate, addr 0x6331638, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_PreAuthenticate, addr 0x6759618, size 0x8, virtual true, abstract: false, final false
   inline void set_PreAuthenticate(bool value);
 
-  /// @brief Method set_ProtocolVersion, addr 0x6331648, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method set_ProtocolVersion, addr 0x6759628, size 0x120, virtual false, abstract: false, final false
   inline void set_ProtocolVersion(::System::Version* value);
 
-  /// @brief Method set_Proxy, addr 0x6331770, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method set_Proxy, addr 0x6759750, size 0x2c, virtual true, abstract: false, final false
   inline void set_Proxy(::System::Net::IWebProxy* value);
 
-  /// @brief Method set_SendChunked, addr 0x63318dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_SendChunked, addr 0x67598bc, size 0x24, virtual false, abstract: false, final false
   inline void set_SendChunked(bool value);
 
-  /// @brief Method set_ServerCertificateValidationCallback, addr 0x6331abc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_ServerCertificateValidationCallback, addr 0x6759a9c, size 0x78, virtual false, abstract: false, final false
   inline void set_ServerCertificateValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ThrowOnError, addr 0x6330f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ThrowOnError, addr 0x6758f20, size 0x8, virtual false, abstract: false, final false
   inline void set_ThrowOnError(bool value);
 
-  /// @brief Method set_Timeout, addr 0x6331914, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method set_Timeout, addr 0x67598f4, size 0x5c, virtual true, abstract: false, final false
   inline void set_Timeout(int32_t value);
 
 protected:
@@ -1754,7 +1754,7 @@ public:
   HttpWebRequest(HttpWebRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12544 };
 
   /// @brief Field requestUri, offset: 0x38, size: 0x8, def value: None
   ::System::Uri* ___requestUri;

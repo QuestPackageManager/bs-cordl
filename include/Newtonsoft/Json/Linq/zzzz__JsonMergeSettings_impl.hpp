@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(&::Newtonsoft::Json::Linq::JsonMergeSettings::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d7aec8;
+  constexpr static std::size_t addrs = 0x6194aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::MergeArrayHandling (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonMergeSettings::get_MergeArrayHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d7aed4;
+  constexpr static std::size_t addrs = 0x6194ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(), { "get_MergeArrayHandling", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)(::Newtonsoft::Json::Linq::MergeArrayHandling)>(
     &::Newtonsoft::Json::Linq::JsonMergeSettings::set_MergeArrayHandling)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d7aedc;
+  constexpr static std::size_t addrs = 0x6194ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::MergeNullValueHandling (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonMergeSettings::get_MergeNullValueHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d7af38;
+  constexpr static std::size_t addrs = 0x6194b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(), { "get_MergeNullValueHandling", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)(::Newtonsoft::Json::Linq::MergeNullValueHandling)>(
     &::Newtonsoft::Json::Linq::JsonMergeSettings::set_MergeNullValueHandling)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d7af40;
+  constexpr static std::size_t addrs = 0x6194b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::StringComparison (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonMergeSettings::get_PropertyNameComparison)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d7af9c;
+  constexpr static std::size_t addrs = 0x6194b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(), { "get_PropertyNameComparison", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)(::System::StringComparison)>(
     &::Newtonsoft::Json::Linq::JsonMergeSettings::set_PropertyNameComparison)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d7afa4;
+  constexpr static std::size_t addrs = 0x6194b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

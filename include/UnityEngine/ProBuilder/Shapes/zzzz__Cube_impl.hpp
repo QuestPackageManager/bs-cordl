@@ -8,13 +8,26 @@
 #include "UnityEngine/zzzz__Bounds_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::Cube.SetParametersToBuiltInShape
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Cube::*)()>(&::UnityEngine::ProBuilder::Shapes::Cube::SetParametersToBuiltInShape)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b18be8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Cube*>(), { ::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Cube*>(), 7 }));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::Cube.CopyShape
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Cube::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
     &::UnityEngine::ProBuilder::Shapes::Cube::CopyShape)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6703ee0;
+  constexpr static std::size_t addrs = 0x6b18bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Cube::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Cube::RebuildMesh)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x6703ee4;
+  constexpr static std::size_t size = 0x2bc;
+  constexpr static std::size_t addrs = 0x6b18bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Cube::*)()>(&::UnityEngine::ProBuilder::Shapes::Cube::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67040f8;
+  constexpr static std::size_t addrs = 0x6b18eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Cube*>(), { ".ctor", {}, {} })));
@@ -59,6 +72,10 @@ inline void UnityEngine::ProBuilder::Shapes::Cube::setStaticF_k_CubeTriangles(::
 }
 inline ::ArrayW<int32_t> UnityEngine::ProBuilder::Shapes::Cube::getStaticF_k_CubeTriangles() {
   return ::cordl_internals::getStaticField<::ArrayW<int32_t>, "k_CubeTriangles", ::UnityEngine::ProBuilder::Shapes::Cube*>();
+}
+inline void UnityEngine::ProBuilder::Shapes::Cube::SetParametersToBuiltInShape() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Cube*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::ProBuilder::Shapes::Cube::CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Cube*>(), 6 })));

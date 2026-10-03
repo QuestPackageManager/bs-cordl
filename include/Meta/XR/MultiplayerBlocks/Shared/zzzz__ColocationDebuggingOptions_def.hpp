@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_visualizeAlignmentAnchor(bool value);
 
-  /// @brief Method .ctor, addr 0x5a71148, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e88fb0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   ColocationDebuggingOptions(ColocationDebuggingOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21600 };
 
   /// [SerializeField]
   /// [Tooltip("Show the alignment anchor with debug visual, colocated players should be seeing the anchor at the same physical location.")]

@@ -66,13 +66,13 @@ public:
   /// @brief Field readOnly, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_readOnly, put = __cordl_internal_set_readOnly)) bool readOnly;
 
-  /// @brief Method CopyTo, addr 0x6124204, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x654b820, size 0xc0, virtual false, abstract: false, final false
   inline void CopyTo(::System::Xml::XmlDictionaryReaderQuotas* quotas);
 
-  /// @brief Method InternalCopyTo, addr 0x6124344, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InternalCopyTo, addr 0x654b960, size 0x20, virtual false, abstract: false, final false
   inline void InternalCopyTo(::System::Xml::XmlDictionaryReaderQuotas* quotas);
 
-  /// @brief Method MakeReadOnly, addr 0x61242dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MakeReadOnly, addr 0x654b8f8, size 0xc, virtual false, abstract: false, final false
   inline void MakeReadOnly();
 
   static inline ::System::Xml::XmlDictionaryReaderQuotas* New_ctor();
@@ -122,10 +122,10 @@ public:
 
   constexpr void __cordl_internal_set_readOnly(bool value);
 
-  /// @brief Method .ctor, addr 0x6124198, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x654b7b4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x61242c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x654b8e0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxDepth, int32_t maxStringContentLength, int32_t maxArrayLength, int32_t maxBytesPerRead, int32_t maxNameTableCharCount,
                     ::System::Xml::XmlDictionaryReaderQuotaTypes modifiedQuotas);
 
@@ -133,22 +133,22 @@ public:
 
   static inline ::System::Xml::XmlDictionaryReaderQuotas* getStaticF_maxQuota();
 
-  /// @brief Method get_Max, addr 0x61242e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Max, addr 0x654b904, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDictionaryReaderQuotas* get_Max();
 
-  /// @brief Method get_MaxArrayLength, addr 0x612436c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxArrayLength, addr 0x654b988, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxArrayLength();
 
-  /// @brief Method get_MaxBytesPerRead, addr 0x6124374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxBytesPerRead, addr 0x654b990, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxBytesPerRead();
 
-  /// @brief Method get_MaxDepth, addr 0x612437c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxDepth, addr 0x654b998, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxDepth();
 
-  /// @brief Method get_MaxNameTableCharCount, addr 0x6124384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxNameTableCharCount, addr 0x654b9a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxNameTableCharCount();
 
-  /// @brief Method get_MaxStringContentLength, addr 0x6124364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxStringContentLength, addr 0x654b980, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxStringContentLength();
 
   static inline void setStaticF_defaultQuota(::System::Xml::XmlDictionaryReaderQuotas* value);
@@ -170,7 +170,7 @@ public:
   XmlDictionaryReaderQuotas(XmlDictionaryReaderQuotas const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16985 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16363 };
 
   /// @brief Field readOnly, offset: 0x10, size: 0x1, def value: None
   bool ___readOnly;

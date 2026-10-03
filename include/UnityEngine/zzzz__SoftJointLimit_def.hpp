@@ -26,22 +26,22 @@ public:
 
   __declspec(property(get = get_limit, put = set_limit)) float_t limit;
 
-  /// @brief Method get_bounciness, addr 0x6b72310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bounciness, addr 0x6fddd60, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bounciness();
 
-  /// @brief Method get_contactDistance, addr 0x6b72320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contactDistance, addr 0x6fddd70, size 0x8, virtual false, abstract: false, final false
   inline float_t get_contactDistance();
 
-  /// @brief Method get_limit, addr 0x6b72300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_limit, addr 0x6fddd50, size 0x8, virtual false, abstract: false, final false
   inline float_t get_limit();
 
-  /// @brief Method set_bounciness, addr 0x6b72318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bounciness, addr 0x6fddd68, size 0x8, virtual false, abstract: false, final false
   inline void set_bounciness(float_t value);
 
-  /// @brief Method set_contactDistance, addr 0x6b72328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_contactDistance, addr 0x6fddd78, size 0x8, virtual false, abstract: false, final false
   inline void set_contactDistance(float_t value);
 
-  /// @brief Method set_limit, addr 0x6b72308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_limit, addr 0x6fddd58, size 0x8, virtual false, abstract: false, final false
   inline void set_limit(float_t value);
 
   // Ctor Parameters []
@@ -53,7 +53,7 @@ public:
   constexpr SoftJointLimit(float_t m_Limit, float_t m_Bounciness, float_t m_ContactDistance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18614 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19026 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

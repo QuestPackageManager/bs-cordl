@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*,
                                                                 bool)>(&::UnityEngine::UIElements::EventDispatchUtilities::PropagateEvent)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6d99a98;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x7227244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,13 +24,31 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::EventDispatchUtilities.SendEventDirectlyToTarget
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*)>(
+    &::UnityEngine::UIElements::EventDispatchUtilities::SendEventDirectlyToTarget)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x7228798;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
+                                                             { "SendEventDirectlyToTarget",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::UIElements::BaseVisualElementPanel*>(),
+                                                                 ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::EventDispatchUtilities.HandleEventAtTargetAndDefaultPhase
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::HandleEventAtTargetAndDefaultPhase)> {
-  constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x6d9afe0;
+  constexpr static std::size_t size = 0x490;
+  constexpr static std::size_t addrs = 0x72287e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*,
                                                                 bool)>(&::UnityEngine::UIElements::EventDispatchUtilities::HandleEventAcrossPropagationPath)> {
   constexpr static std::size_t size = 0x7c4;
-  constexpr static std::size_t addrs = 0x6d9a81c;
+  constexpr static std::size_t addrs = 0x7227fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +85,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
                                                                 ::UnityEngine::UIElements::VisualElement*, bool)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::HandleEventAcrossPropagationPathWithCompatibilityEvent)> {
   constexpr static std::size_t size = 0xc34;
-  constexpr static std::size_t addrs = 0x6d99be8;
+  constexpr static std::size_t addrs = 0x72273a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*,
                                                                 bool)>(&::UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_DefaultActionAtTarget)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6d9b770;
+  constexpr static std::size_t addrs = 0x7228f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*,
                                                                 bool)>(&::UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_DefaultAction)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6d9b804;
+  constexpr static std::size_t addrs = 0x7229008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_TrickleDownCallbacks)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6d9b898;
+  constexpr static std::size_t addrs = 0x722909c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_BubbleUpCallbacks)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6d9b8c4;
+  constexpr static std::size_t addrs = 0x72290c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*,
                                                                 bool)>(&::UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_TrickleDownHandleEvent)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6d9b8f0;
+  constexpr static std::size_t addrs = 0x72290f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*,
                                                                 bool)>(&::UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_BubbleUpHandleEvent)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6d9b948;
+  constexpr static std::size_t addrs = 0x722914c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*,
                                                                 bool, bool)>(&::UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_BubbleUpAllDefaultActions)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6d9b9a0;
+  constexpr static std::size_t addrs = 0x72291a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::Disabled)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6d9b474;
+  constexpr static std::size_t addrs = 0x7228c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::DispatchToFocusedElementOrPanelRoot)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x6d9bb58;
+  constexpr static std::size_t addrs = 0x722935c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,31 +261,13 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, int32_t, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::DispatchToElementUnderPointerOrPanelRoot)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6d9bea8;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x72296ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                                                              { "DispatchToElementUnderPointerOrPanelRoot",
-                                                               {},
-                                                               { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::UIElements::BaseVisualElementPanel*>(),
-                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::EventDispatchUtilities.DispatchToCachedElementUnderPointerOrPanelRoot
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, int32_t, ::UnityEngine::Vector2)>(
-    &::UnityEngine::UIElements::EventDispatchUtilities::DispatchToCachedElementUnderPointerOrPanelRoot)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6d9bf8c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
-                                                             { "DispatchToCachedElementUnderPointerOrPanelRoot",
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::UIElements::BaseVisualElementPanel*>(),
                                                                  ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::DispatchToAssignedTarget)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6d9c06c;
+  constexpr static std::size_t addrs = 0x722978c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::DefaultDispatch)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6d98444;
+  constexpr static std::size_t addrs = 0x7225c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -311,8 +311,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, int32_t, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::DispatchToCapturingElementOrElementUnderPointer)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6d9c0f8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x7229818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -327,18 +327,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
 //  Writing Method size for method: ::UnityEngine::UIElements::EventDispatchUtilities.DispatchToCapturingElement
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, int32_t, ::UnityEngine::Vector2)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, int32_t)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::DispatchToCapturingElement)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6d9c180;
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x722985c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
-                                                             { "DispatchToCapturingElement",
-                                                               {},
-                                                               { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::UIElements::BaseVisualElementPanel*>(),
-                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
+                            { "DispatchToCapturingElement",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::UIElements::BaseVisualElementPanel*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::DispatchToPanelRoot)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d9c290;
+  constexpr static std::size_t addrs = 0x7229a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::PropagateToRemainingIMGUIContainers)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6d9be40;
+  constexpr static std::size_t addrs = 0x7229644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::PropagateToRemainingIMGUIContainerRecursive)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x6d9c2e4;
+  constexpr static std::size_t addrs = 0x7229a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -401,9 +401,18 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::PropagateEvent(::Un
                                                                ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, target, isCapturingTarget);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEventAtTargetAndDefaultPhase(::UnityEngine::UIElements::EventBase* evt,
-                                                                                                /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
-                                                                                                /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* target) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::SendEventDirectlyToTarget(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+                                                                                       /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* target) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
+                                                           { "SendEventDirectlyToTarget",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::UIElements::BaseVisualElementPanel*>(),
+                                                               ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, target);
+}
+inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEventAtTargetAndDefaultPhase(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+                                                                                                ::UnityEngine::UIElements::VisualElement* target) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                                                            { "HandleEventAtTargetAndDefaultPhase",
@@ -541,17 +550,6 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToElementUn
                                                                ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, pointerId, position);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToCachedElementUnderPointerOrPanelRoot(::UnityEngine::UIElements::EventBase* evt,
-                                                                                                            /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel, int32_t pointerId,
-                                                                                                            ::UnityEngine::Vector2 position) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
-                                                           { "DispatchToCachedElementUnderPointerOrPanelRoot",
-                                                             {},
-                                                             { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::UIElements::BaseVisualElementPanel*>(),
-                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, pointerId, position);
-}
 inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToAssignedTarget(::UnityEngine::UIElements::EventBase* evt,
                                                                                       /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -579,15 +577,14 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToCapturing
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, pointerId, position);
 }
 inline bool UnityEngine::UIElements::EventDispatchUtilities::DispatchToCapturingElement(::UnityEngine::UIElements::EventBase* evt,
-                                                                                        /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel, int32_t pointerId,
-                                                                                        ::UnityEngine::Vector2 position) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
-                                                           { "DispatchToCapturingElement",
-                                                             {},
-                                                             { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::UIElements::BaseVisualElementPanel*>(),
-                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, evt, panel, pointerId, position);
+                                                                                        /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel, int32_t pointerId) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
+                          { "DispatchToCapturingElement",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::UIElements::BaseVisualElementPanel*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, evt, panel, pointerId);
 }
 inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToPanelRoot(::UnityEngine::UIElements::EventBase* evt, /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
   static auto* ___internal_method = THROW_UNLESS(

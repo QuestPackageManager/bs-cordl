@@ -34,8 +34,11 @@ public:
     __E_Resource = static_cast<int32_t>(0x6),
     __E_Url = static_cast<int32_t>(0x7),
     __E_Time = static_cast<int32_t>(0x8),
-    __E_Angle = static_cast<int32_t>(0x9),
-    __E_CustomIdent = static_cast<int32_t>(0xa),
+    __E_FilterFunction = static_cast<int32_t>(0x9),
+    __E_Prop = static_cast<int32_t>(0xa),
+    __E_Angle = static_cast<int32_t>(0xb),
+    __E_CustomIdent = static_cast<int32_t>(0xc),
+    __E_Ratio = static_cast<int32_t>(0xd),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -55,14 +58,17 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DataType(int32_t value__) noexcept;
 
-  /// @brief Field Angle value: I32(9)
+  /// @brief Field Angle value: I32(11)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Angle;
 
   /// @brief Field Color value: I32(5)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Color;
 
-  /// @brief Field CustomIdent value: I32(10)
+  /// @brief Field CustomIdent value: I32(12)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const CustomIdent;
+
+  /// @brief Field FilterFunction value: I32(9)
+  static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const FilterFunction;
 
   /// @brief Field Integer value: I32(2)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Integer;
@@ -79,6 +85,12 @@ public:
   /// @brief Field Percentage value: I32(4)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Percentage;
 
+  /// @brief Field Prop value: I32(10)
+  static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Prop;
+
+  /// @brief Field Ratio value: I32(13)
+  static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Ratio;
+
   /// @brief Field Resource value: I32(6)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Resource;
 
@@ -89,7 +101,7 @@ public:
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Url;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5594 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

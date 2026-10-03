@@ -45,24 +45,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::StyleSelector___c* __9;
 
-  /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0)) ::System::Func_2<::UnityEngine::UIElements::StyleSelectorPart, ::StringW>* __9__10_0;
+  /// @brief Field <>9__11_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__11_0, put = setStaticF___9__11_0)) ::System::Func_2<::UnityEngine::UIElements::StyleSelectorPart, ::StringW>* __9__11_0;
 
   static inline ::UnityEngine::UIElements::StyleSelector___c* New_ctor();
 
-  /// @brief Method <ToString>b__10_0, addr 0x6c9bbf8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW _ToString_b__10_0(::UnityEngine::UIElements::StyleSelectorPart p);
+  /// @brief Method <ToString>b__11_0, addr 0x7115b10, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW _ToString_b__11_0(::UnityEngine::UIElements::StyleSelectorPart p);
 
-  /// @brief Method .ctor, addr 0x6c9bbf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7115b0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::StyleSelector___c* getStaticF___9();
 
-  static inline ::System::Func_2<::UnityEngine::UIElements::StyleSelectorPart, ::StringW>* getStaticF___9__10_0();
+  static inline ::System::Func_2<::UnityEngine::UIElements::StyleSelectorPart, ::StringW>* getStaticF___9__11_0();
 
   static inline void setStaticF___9(::UnityEngine::UIElements::StyleSelector___c* value);
 
-  static inline void setStaticF___9__10_0(::System::Func_2<::UnityEngine::UIElements::StyleSelectorPart, ::StringW>* value);
+  static inline void setStaticF___9__11_0(::System::Func_2<::UnityEngine::UIElements::StyleSelectorPart, ::StringW>* value);
 
 protected:
   // Ctor Parameters []
@@ -79,7 +79,7 @@ public:
   StyleSelector___c(StyleSelector___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5141 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -116,7 +116,7 @@ public:
 
   static inline ::UnityEngine::UIElements::StyleSelector* New_ctor();
 
-  /// @brief Method ToString, addr 0x6c9ba44, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7115968, size 0x150, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<::UnityEngine::UIElements::StyleSelectorPart> const& __cordl_internal_get_m_Parts() const;
@@ -143,21 +143,21 @@ public:
 
   constexpr void __cordl_internal_set_pseudoStateMask(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6c9bb94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x711365c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_parts, addr 0x6c9b1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parts, addr 0x7113d88, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleSelectorPart> get_parts();
 
-  /// @brief Method get_previousRelationship, addr 0x6c9ba34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previousRelationship, addr 0x7115960, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSelectorRelationship get_previousRelationship();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method set_parts, addr 0x6c9ba2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parts, addr 0x7113668, size 0x8, virtual false, abstract: false, final false
   inline void set_parts(::ArrayW<::UnityEngine::UIElements::StyleSelectorPart> value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method set_previousRelationship, addr 0x6c9ba3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_previousRelationship, addr 0x7113670, size 0x8, virtual false, abstract: false, final false
   inline void set_previousRelationship(::UnityEngine::UIElements::StyleSelectorRelationship value);
 
 protected:
@@ -174,8 +174,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StyleSelector(StyleSelector const&) = delete;
 
+  /// @brief Field InvalidPseudoStateMask offset 0xffffffff size 0x4
+  static constexpr int32_t InvalidPseudoStateMask{ static_cast<int32_t>(0xffffffff) };
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5142 };
 
   /// [SerializeField]
   /// @brief Field m_Parts, offset: 0x10, size: 0x8, def value: None

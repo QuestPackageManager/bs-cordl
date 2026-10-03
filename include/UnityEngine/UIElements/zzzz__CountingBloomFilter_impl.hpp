@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t, bool)>(&::UnityEngine::UIElements::CountingBloomFilter::AdjustSlot)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6d826b0;
+  constexpr static std::size_t addrs = 0x7215a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(&::UnityEngine::UIElements::CountingBloomFilter::Hash1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d826dc;
+  constexpr static std::size_t addrs = 0x7215ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(&::UnityEngine::UIElements::CountingBloomFilter::Hash2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d826e4;
+  constexpr static std::size_t addrs = 0x7215ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(&::UnityEngine::UIElements::CountingBloomFilter::IsSlotEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d826ec;
+  constexpr static std::size_t addrs = 0x7215ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(&::UnityEngine::UIElements::CountingBloomFilter::InsertHash)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6d826fc;
+  constexpr static std::size_t addrs = 0x7215ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(&::UnityEngine::UIElements::CountingBloomFilter::RemoveHash)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6d82734;
+  constexpr static std::size_t addrs = 0x7215b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(&::UnityEngine::UIElements::CountingBloomFilter::ContainsHash)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6d82764;
+  constexpr static std::size_t addrs = 0x7215b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

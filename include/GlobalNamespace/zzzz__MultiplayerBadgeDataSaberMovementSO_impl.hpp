@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO::*)(::GlobalNamespace::MultiplayerPlayerResultsData*)>(
     &::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO::GetValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x37351ec;
+  constexpr static std::size_t addrs = 0x39be7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO::*)()>(&::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3735218;
+  constexpr static std::size_t addrs = 0x39be820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO*>(), { ".ctor", {}, {} })));

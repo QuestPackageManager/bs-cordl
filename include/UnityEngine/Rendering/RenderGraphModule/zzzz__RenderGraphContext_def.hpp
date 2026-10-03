@@ -17,6 +17,12 @@ class RenderGraphDefaultResources;
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraphObjectPool;
 }
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct TextureHandle;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct TextureUVOrigin;
+}
 namespace UnityEngine::Rendering {
 class CommandBuffer;
 }
@@ -31,6 +37,7 @@ struct RenderGraphContext;
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext, "UnityEngine.Rendering.RenderGraphModule", "RenderGraphContext");
 // [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
+// [Obsolete("RenderGraphContext is deprecated, use RasterGraphContext/ComputeGraphContext/UnsafeGraphContext instead.")]
 // Dependencies
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -49,19 +56,27 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
   constexpr operator ::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*();
 
-  /// @brief Method FromInternalContext, addr 0x67dbcdc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method FromInternalContext, addr 0x6c02e54, size 0x8, virtual true, abstract: false, final true
   inline void FromInternalContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* context);
 
-  /// @brief Method get_cmd, addr 0x67dbc98, size 0x18, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method GetTextureUVOrigin, addr 0x6c02e5c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> textureHandle);
+
+  /// @brief Method UnityEngine.Rendering.RenderGraphModule.IDerivedRendergraphContext.GetTextureUVOrigin, addr 0x6c02ec4, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin
+  UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> textureHandle);
+
+  /// @brief Method get_cmd, addr 0x6c02e7c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* get_cmd();
 
-  /// @brief Method get_defaultResources, addr 0x67dbd14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_defaultResources, addr 0x6c02eac, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* get_defaultResources();
 
-  /// @brief Method get_renderContext, addr 0x67dbce4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_renderContext, addr 0x6c02e64, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ScriptableRenderContext get_renderContext();
 
-  /// @brief Method get_renderGraphPool, addr 0x67dbcfc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_renderGraphPool, addr 0x6c02e94, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* get_renderGraphPool();
 
   /// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
@@ -75,7 +90,7 @@ public:
   constexpr RenderGraphContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* wrappedContext) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9326 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

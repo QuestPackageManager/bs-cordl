@@ -29,6 +29,7 @@ public:
     __E_Center = static_cast<int32_t>(0x1),
     __E_Right = static_cast<int32_t>(0x2),
     __E_Justified = static_cast<int32_t>(0x3),
+    __E_Flush = static_cast<int32_t>(0x4),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -51,6 +52,9 @@ public:
   /// @brief Field Center value: I32(1)
   static ::UnityEngine::TextCore::HorizontalAlignment const Center;
 
+  /// @brief Field Flush value: I32(4)
+  static ::UnityEngine::TextCore::HorizontalAlignment const Flush;
+
   /// @brief Field Justified value: I32(3)
   static ::UnityEngine::TextCore::HorizontalAlignment const Justified;
 
@@ -61,7 +65,7 @@ public:
   static ::UnityEngine::TextCore::HorizontalAlignment const Right;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17779 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

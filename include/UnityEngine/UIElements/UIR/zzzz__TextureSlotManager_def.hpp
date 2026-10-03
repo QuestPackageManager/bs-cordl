@@ -38,29 +38,32 @@ public:
   // Declarations
   __declspec(property(get = get_FreeSlots, put = set_FreeSlots)) int32_t FreeSlots;
 
-  /// @brief Field <FreeSlots>k__BackingField, offset 0x30, size 0x4
+  /// @brief Field <FreeSlots>k__BackingField, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__FreeSlots_k__BackingField, put = __cordl_internal_set__FreeSlots_k__BackingField)) int32_t _FreeSlots_k__BackingField;
 
-  /// @brief Field k_SlotCount, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_k_SlotCount, put = setStaticF_k_SlotCount)) int32_t k_SlotCount;
+  /// @brief Field k_MaxSlotCount, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_k_MaxSlotCount, put = setStaticF_k_MaxSlotCount)) int32_t k_MaxSlotCount;
 
   /// @brief Field k_SlotSize, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_k_SlotSize, put = setStaticF_k_SlotSize)) int32_t k_SlotSize;
 
-  /// @brief Field m_CurrentTicket, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_CurrentTicket, put = __cordl_internal_set_m_CurrentTicket)) int32_t m_CurrentTicket;
+  /// @brief Field m_BatchTime, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_BatchTime, put = __cordl_internal_set_m_BatchTime)) int32_t m_BatchTime;
 
-  /// @brief Field m_FirstUsedTicket, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_FirstUsedTicket, put = __cordl_internal_set_m_FirstUsedTicket)) int32_t m_FirstUsedTicket;
+  /// @brief Field m_CurrentTime, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_CurrentTime, put = __cordl_internal_set_m_CurrentTime)) int32_t m_CurrentTime;
 
   /// @brief Field m_GpuTextures, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_GpuTextures, put = __cordl_internal_set_m_GpuTextures)) ::ArrayW<::UnityEngine::Vector4> m_GpuTextures;
 
+  /// @brief Field m_LastUseTime, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_LastUseTime, put = __cordl_internal_set_m_LastUseTime)) ::ArrayW<int32_t> m_LastUseTime;
+
+  /// @brief Field m_SlotCount, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_SlotCount, put = __cordl_internal_set_m_SlotCount)) int32_t m_SlotCount;
+
   /// @brief Field m_Textures, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Textures, put = __cordl_internal_set_m_Textures)) ::ArrayW<::UnityEngine::UIElements::TextureId> m_Textures;
-
-  /// @brief Field m_Tickets, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Tickets, put = __cordl_internal_set_m_Tickets)) ::ArrayW<int32_t> m_Tickets;
 
   /// @brief Field slotIds, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_slotIds, put = setStaticF_slotIds)) ::ArrayW<int32_t> slotIds;
@@ -71,53 +74,60 @@ public:
   /// @brief Field textureTableId, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_textureTableId, put = setStaticF_textureTableId)) int32_t textureTableId;
 
-  /// @brief Method Bind, addr 0x6cf3be8, size 0x28c, virtual false, abstract: false, final false
-  inline void Bind(::UnityEngine::UIElements::TextureId id, float_t sdfScale, float_t sharpness, int32_t slot, ::UnityEngine::MaterialPropertyBlock* mat,
+  /// @brief Method Bind, addr 0x7187200, size 0x294, virtual false, abstract: false, final false
+  inline void Bind(::UnityEngine::UIElements::TextureId id, float_t sdfScale, float_t sharpness, bool isPremultiplied, int32_t slot, ::UnityEngine::MaterialPropertyBlock* mat,
                    ::UnityEngine::UIElements::UIR::CommandList* commandList);
 
-  /// @brief Method FindOldestSlot, addr 0x6cf3b1c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method FindOldestSlot, addr 0x7187188, size 0x78, virtual false, abstract: false, final false
   inline int32_t FindOldestSlot();
 
-  /// @brief Method IndexOf, addr 0x6cf39c8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x718706c, size 0xb4, virtual false, abstract: false, final false
   inline int32_t IndexOf(::UnityEngine::UIElements::TextureId id);
 
-  /// @brief Method MarkUsed, addr 0x6cf3ab4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method MarkUsed, addr 0x7187120, size 0x58, virtual false, abstract: false, final false
   inline void MarkUsed(int32_t slotIndex);
 
   static inline ::UnityEngine::UIElements::UIR::TextureSlotManager* New_ctor();
 
-  /// @brief Method Reset, addr 0x6cf3700, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x7186d64, size 0x6c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetGpuData, addr 0x6cf3828, size 0x130, virtual false, abstract: false, final false
-  inline void SetGpuData(int32_t slotIndex, ::UnityEngine::UIElements::TextureId id, int32_t textureWidth, int32_t textureHeight, float_t sdfScale, float_t sharpness);
+  /// @brief Method SetGpuData, addr 0x7186ee0, size 0x148, virtual false, abstract: false, final false
+  inline void SetGpuData(int32_t slotIndex, ::UnityEngine::UIElements::TextureId id, int32_t textureWidth, int32_t textureHeight, float_t sdfScale, float_t sharpness, bool isPremultiplied);
 
-  /// @brief Method StartNewBatch, addr 0x6cf3958, size 0x70, virtual false, abstract: false, final false
-  inline void StartNewBatch();
+  /// @brief Method StartNewBatch, addr 0x7187028, size 0x44, virtual false, abstract: false, final false
+  inline void StartNewBatch(int32_t slotCount);
+
+  /// @brief Method Unbind, addr 0x7186dd0, size 0x110, virtual false, abstract: false, final false
+  inline void Unbind(int32_t first, int32_t count);
 
   constexpr int32_t const& __cordl_internal_get__FreeSlots_k__BackingField() const;
 
   constexpr int32_t& __cordl_internal_get__FreeSlots_k__BackingField();
 
-  constexpr int32_t const& __cordl_internal_get_m_CurrentTicket() const;
+  constexpr int32_t const& __cordl_internal_get_m_BatchTime() const;
 
-  constexpr int32_t& __cordl_internal_get_m_CurrentTicket();
+  constexpr int32_t& __cordl_internal_get_m_BatchTime();
 
-  constexpr int32_t const& __cordl_internal_get_m_FirstUsedTicket() const;
+  constexpr int32_t const& __cordl_internal_get_m_CurrentTime() const;
 
-  constexpr int32_t& __cordl_internal_get_m_FirstUsedTicket();
+  constexpr int32_t& __cordl_internal_get_m_CurrentTime();
 
   constexpr ::ArrayW<::UnityEngine::Vector4> const& __cordl_internal_get_m_GpuTextures() const;
 
   constexpr ::ArrayW<::UnityEngine::Vector4>& __cordl_internal_get_m_GpuTextures();
 
+  constexpr ::ArrayW<int32_t> const& __cordl_internal_get_m_LastUseTime() const;
+
+  constexpr ::ArrayW<int32_t>& __cordl_internal_get_m_LastUseTime();
+
+  constexpr int32_t const& __cordl_internal_get_m_SlotCount() const;
+
+  constexpr int32_t& __cordl_internal_get_m_SlotCount();
+
   constexpr ::ArrayW<::UnityEngine::UIElements::TextureId> const& __cordl_internal_get_m_Textures() const;
 
   constexpr ::ArrayW<::UnityEngine::UIElements::TextureId>& __cordl_internal_get_m_Textures();
-
-  constexpr ::ArrayW<int32_t> const& __cordl_internal_get_m_Tickets() const;
-
-  constexpr ::ArrayW<int32_t>& __cordl_internal_get_m_Tickets();
 
   constexpr ::UnityEngine::UIElements::TextureRegistry* const& __cordl_internal_get_textureRegistry() const;
 
@@ -125,22 +135,24 @@ public:
 
   constexpr void __cordl_internal_set__FreeSlots_k__BackingField(int32_t value);
 
-  constexpr void __cordl_internal_set_m_CurrentTicket(int32_t value);
+  constexpr void __cordl_internal_set_m_BatchTime(int32_t value);
 
-  constexpr void __cordl_internal_set_m_FirstUsedTicket(int32_t value);
+  constexpr void __cordl_internal_set_m_CurrentTime(int32_t value);
 
   constexpr void __cordl_internal_set_m_GpuTextures(::ArrayW<::UnityEngine::Vector4> value);
 
-  constexpr void __cordl_internal_set_m_Textures(::ArrayW<::UnityEngine::UIElements::TextureId> value);
+  constexpr void __cordl_internal_set_m_LastUseTime(::ArrayW<int32_t> value);
 
-  constexpr void __cordl_internal_set_m_Tickets(::ArrayW<int32_t> value);
+  constexpr void __cordl_internal_set_m_SlotCount(int32_t value);
+
+  constexpr void __cordl_internal_set_m_Textures(::ArrayW<::UnityEngine::UIElements::TextureId> value);
 
   constexpr void __cordl_internal_set_textureRegistry(::UnityEngine::UIElements::TextureRegistry* value);
 
-  /// @brief Method .ctor, addr 0x6cf3580, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7186be8, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline int32_t getStaticF_k_SlotCount();
+  static inline int32_t getStaticF_k_MaxSlotCount();
 
   static inline int32_t getStaticF_k_SlotSize();
 
@@ -149,10 +161,10 @@ public:
   static inline int32_t getStaticF_textureTableId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_FreeSlots, addr 0x6cf3b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FreeSlots, addr 0x7187178, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FreeSlots();
 
-  static inline void setStaticF_k_SlotCount(int32_t value);
+  static inline void setStaticF_k_MaxSlotCount(int32_t value);
 
   static inline void setStaticF_k_SlotSize(int32_t value);
 
@@ -161,7 +173,7 @@ public:
   static inline void setStaticF_textureTableId(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_FreeSlots, addr 0x6cf3b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FreeSlots, addr 0x7187180, size 0x8, virtual false, abstract: false, final false
   inline void set_FreeSlots(int32_t value);
 
 protected:
@@ -179,26 +191,29 @@ public:
   TextureSlotManager(TextureSlotManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5471 };
 
   /// @brief Field m_Textures, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::TextureId> ___m_Textures;
 
-  /// @brief Field m_Tickets, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<int32_t> ___m_Tickets;
+  /// @brief Field m_LastUseTime, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<int32_t> ___m_LastUseTime;
 
-  /// @brief Field m_CurrentTicket, offset: 0x20, size: 0x4, def value: None
-  int32_t ___m_CurrentTicket;
+  /// @brief Field m_CurrentTime, offset: 0x20, size: 0x4, def value: None
+  int32_t ___m_CurrentTime;
 
-  /// @brief Field m_FirstUsedTicket, offset: 0x24, size: 0x4, def value: None
-  int32_t ___m_FirstUsedTicket;
+  /// @brief Field m_BatchTime, offset: 0x24, size: 0x4, def value: None
+  int32_t ___m_BatchTime;
 
   /// @brief Field m_GpuTextures, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4> ___m_GpuTextures;
 
+  /// @brief Field m_SlotCount, offset: 0x30, size: 0x4, def value: None
+  int32_t ___m_SlotCount;
+
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <FreeSlots>k__BackingField, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field <FreeSlots>k__BackingField, offset: 0x34, size: 0x4, def value: None
   int32_t ____FreeSlots_k__BackingField;
 
   /// @brief Field textureRegistry, offset: 0x38, size: 0x8, def value: None
@@ -209,15 +224,17 @@ public:
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___m_Textures) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___m_Tickets) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___m_LastUseTime) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___m_CurrentTicket) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___m_CurrentTime) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___m_FirstUsedTicket) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___m_BatchTime) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___m_GpuTextures) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ____FreeSlots_k__BackingField) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___m_SlotCount) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ____FreeSlots_k__BackingField) == 0x34, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___textureRegistry) == 0x38, "Offset mismatch!");
 

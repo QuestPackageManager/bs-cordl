@@ -7,9 +7,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/TextCore/Text/zzzz__LineInfo_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__LinkInfo_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__MeshInfo_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__PageInfo_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElementInfo_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__VertexDataLayout_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__WordInfo_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -17,14 +15,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextInfo)
-namespace System {
-class Action;
-}
 namespace UnityEngine::TextCore::Text {
 struct LineInfo;
-}
-namespace UnityEngine::TextCore::Text {
-struct VertexDataLayout;
 }
 namespace UnityEngine {
 struct Rect;
@@ -43,26 +35,19 @@ class TextInfo;
 MARK_REF_T(::UnityEngine::TextCore::Text::TextInfo*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextInfo*, "UnityEngine.TextCore.Text", "TextInfo");
 // [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
-// Dependencies System.Object, UnityEngine.TextCore.Text.LineInfo, UnityEngine.TextCore.Text.LinkInfo, UnityEngine.TextCore.Text.MeshInfo, UnityEngine.TextCore.Text.PageInfo,
-// UnityEngine.TextCore.Text.TextElementInfo, UnityEngine.TextCore.Text.VertexDataLayout, UnityEngine.TextCore.Text.WordInfo, UnityEngine.Vector2
+// Dependencies System.Object, UnityEngine.TextCore.Text.LineInfo, UnityEngine.TextCore.Text.LinkInfo, UnityEngine.TextCore.Text.MeshInfo, UnityEngine.TextCore.Text.TextElementInfo,
+// UnityEngine.TextCore.Text.WordInfo, UnityEngine.Vector2
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // CS Name: UnityEngine.TextCore.Text.TextInfo
 class CORDL_TYPE TextInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <vertexDataLayout>k__BackingField, offset 0x70, size 0x4
-  __declspec(property(get = __cordl_internal_get__vertexDataLayout_k__BackingField,
-                      put = __cordl_internal_set__vertexDataLayout_k__BackingField)) ::UnityEngine::TextCore::Text::VertexDataLayout _vertexDataLayout_k__BackingField;
-
   /// @brief Field characterCount, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_characterCount, put = __cordl_internal_set_characterCount)) int32_t characterCount;
 
-  /// @brief Field hasMultipleColors, offset 0x74, size 0x1
+  /// @brief Field hasMultipleColors, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_hasMultipleColors, put = __cordl_internal_set_hasMultipleColors)) bool hasMultipleColors;
-
-  /// @brief Field lastTimeInCache, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_lastTimeInCache, put = __cordl_internal_set_lastTimeInCache)) double_t lastTimeInCache;
 
   /// @brief Field lineCount, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_lineCount, put = __cordl_internal_set_lineCount)) int32_t lineCount;
@@ -76,20 +61,11 @@ public:
   /// @brief Field linkInfo, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_linkInfo, put = __cordl_internal_set_linkInfo)) ::ArrayW<::UnityEngine::TextCore::Text::LinkInfo> linkInfo;
 
-  /// @brief Field materialCount, offset 0x2c, size 0x4
+  /// @brief Field materialCount, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_materialCount, put = __cordl_internal_set_materialCount)) int32_t materialCount;
 
-  /// @brief Field meshInfo, offset 0x58, size 0x8
+  /// @brief Field meshInfo, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_meshInfo, put = __cordl_internal_set_meshInfo)) ::ArrayW<::UnityEngine::TextCore::Text::MeshInfo> meshInfo;
-
-  /// @brief Field pageCount, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_pageCount, put = __cordl_internal_set_pageCount)) int32_t pageCount;
-
-  /// @brief Field pageInfo, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_pageInfo, put = __cordl_internal_set_pageInfo)) ::ArrayW<::UnityEngine::TextCore::Text::PageInfo> pageInfo;
-
-  /// @brief Field removedFromCache, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_removedFromCache, put = __cordl_internal_set_removedFromCache)) ::System::Action* removedFromCache;
 
   /// @brief Field s_InfinityVectorNegative, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_InfinityVectorNegative, put = setStaticF_s_InfinityVectorNegative)) ::UnityEngine::Vector2 s_InfinityVectorNegative;
@@ -106,8 +82,6 @@ public:
   /// @brief Field textElementInfo, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_textElementInfo, put = __cordl_internal_set_textElementInfo)) ::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo> textElementInfo;
 
-  __declspec(property(get = get_vertexDataLayout, put = set_vertexDataLayout)) ::UnityEngine::TextCore::Text::VertexDataLayout vertexDataLayout;
-
   /// @brief Field wordCount, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_wordCount, put = __cordl_internal_set_wordCount)) int32_t wordCount;
 
@@ -115,76 +89,70 @@ public:
   __declspec(property(get = __cordl_internal_get_wordInfo, put = __cordl_internal_set_wordInfo)) ::ArrayW<::UnityEngine::TextCore::Text::WordInfo> wordInfo;
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
-  /// @brief Method Clear, addr 0x6c119f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x7064cb0, size 0x54, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearLineInfo, addr 0x6c11b10, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ClearLineInfo, addr 0x7064d78, size 0x17c, virtual false, abstract: false, final false
   inline void ClearLineInfo();
 
-  /// @brief Method ClearMeshInfo, addr 0x6c11a50, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ClearMeshInfo, addr 0x7064d04, size 0x74, virtual false, abstract: false, final false
   inline void ClearMeshInfo(bool updateMesh);
 
-  /// @brief Method ClearPageInfo, addr 0x6c11c8c, size 0x9c, virtual false, abstract: false, final false
-  inline void ClearPageInfo();
-
-  /// @brief Method DistanceToLine, addr 0x6c1253c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DistanceToLine, addr 0x70659ac, size 0x11c, virtual false, abstract: false, final false
   static inline float_t DistanceToLine(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 point);
 
-  /// @brief Method FindIntersectingLink, addr 0x6c12604, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method FindIntersectingLink, addr 0x7065ac8, size 0x2c4, virtual false, abstract: false, final false
   inline int32_t FindIntersectingLink(::UnityEngine::Vector3 position, ::UnityEngine::Rect screenRect, bool inverseYAxis);
 
-  /// @brief Method FindNearestCharacterOnLine, addr 0x6c11fa8, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method FindNearestCharacterOnLine, addr 0x7065300, size 0x278, virtual false, abstract: false, final false
   inline int32_t FindNearestCharacterOnLine(::UnityEngine::Vector2 position, int32_t line, bool visibleOnly);
 
-  /// @brief Method FindNearestLine, addr 0x6c11f0c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FindNearestLine, addr 0x7065264, size 0x9c, virtual false, abstract: false, final false
   inline int32_t FindNearestLine(::UnityEngine::Vector2 position);
 
-  /// @brief Method GetCharacterHeightFromIndex, addr 0x6c129f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterHeightFromIndex, addr 0x7065f08, size 0x54, virtual false, abstract: false, final false
   inline float_t GetCharacterHeightFromIndex(int32_t index);
 
-  /// @brief Method GetCorrespondingStringIndex, addr 0x6c1287c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetCorrespondingStringIndex, addr 0x7065d8c, size 0x4c, virtual false, abstract: false, final false
   inline int32_t GetCorrespondingStringIndex(int32_t index);
 
-  /// @brief Method GetCursorIndexFromPosition, addr 0x6c11e58, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetCursorIndexFromPosition, addr 0x7065154, size 0x110, virtual false, abstract: false, final false
   inline int32_t GetCursorIndexFromPosition(::UnityEngine::Vector2 position, ::UnityEngine::Rect screenRect, bool inverseYAxis);
 
-  /// @brief Method GetCursorPositionFromStringIndexUsingCharacterHeight, addr 0x6c11d28, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetCursorPositionFromStringIndexUsingCharacterHeight, addr 0x7064ef4, size 0x110, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 GetCursorPositionFromStringIndexUsingCharacterHeight(int32_t index, ::UnityEngine::Rect screenRect, float_t lineHeight, bool inverseYAxis);
 
-  /// @brief Method GetCursorPositionFromStringIndexUsingLineHeight, addr 0x6c11dac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetCursorPositionFromStringIndexUsingLineHeight, addr 0x7065004, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetCursorPositionFromStringIndexUsingLineHeight(int32_t index, ::UnityEngine::Rect screenRect, float_t lineHeight, bool useXAdvance, bool inverseYAxis);
 
-  /// @brief Method GetLineHeight, addr 0x6c12960, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeight, addr 0x7065e70, size 0x4c, virtual false, abstract: false, final false
   inline float_t GetLineHeight(int32_t lineNumber);
 
-  /// @brief Method GetLineHeightFromCharacterIndex, addr 0x6c129ac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeightFromCharacterIndex, addr 0x7065ebc, size 0x4c, virtual false, abstract: false, final false
   inline float_t GetLineHeightFromCharacterIndex(int32_t index);
 
-  /// @brief Method GetLineInfoFromCharacterIndex, addr 0x6c128c8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetLineInfoFromCharacterIndex, addr 0x7065dd8, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::LineInfo GetLineInfoFromCharacterIndex(int32_t index);
 
-  /// @brief Method GetLineNumber, addr 0x6c12914, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetLineNumber, addr 0x7065e24, size 0x4c, virtual false, abstract: false, final false
   inline int32_t GetLineNumber(int32_t index);
 
-  /// @brief Method IndexOf, addr 0x6c12bb8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x70660c8, size 0xa8, virtual false, abstract: false, final false
   inline int32_t IndexOf(char16_t value, int32_t startIndex);
 
-  /// @brief Method LastIndexOf, addr 0x6c12c60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x7066170, size 0x9c, virtual false, abstract: false, final false
   inline int32_t LastIndexOf(char16_t value, int32_t startIndex);
 
-  /// @brief Method LineDownCharacterPosition, addr 0x6c12218, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method LineDownCharacterPosition, addr 0x7065578, size 0x12c, virtual false, abstract: false, final false
   inline int32_t LineDownCharacterPosition(int32_t originalPos);
 
-  /// @brief Method LineUpCharacterPosition, addr 0x6c12344, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method LineUpCharacterPosition, addr 0x70656a4, size 0x138, virtual false, abstract: false, final false
   inline int32_t LineUpCharacterPosition(int32_t originalPos);
 
-  static inline ::UnityEngine::TextCore::Text::TextInfo* New_ctor(::UnityEngine::TextCore::Text::VertexDataLayout vertexDataLayout);
+  static inline ::UnityEngine::TextCore::Text::TextInfo* New_ctor();
 
-  /// @brief Method PointIntersectRectangle, addr 0x6c1247c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method PointIntersectRectangle, addr 0x70657dc, size 0x1d0, virtual false, abstract: false, final false
   static inline bool PointIntersectRectangle(::UnityEngine::Vector3 m, ::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 c, ::UnityEngine::Vector3 d);
-
-  /// @brief Method RemoveFromCache, addr 0x6c10f1c, size 0x2c, virtual false, abstract: false, final false
-  inline void RemoveFromCache();
 
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Resize(::by_ref<::ArrayW<T>> array, int32_t size);
@@ -192,12 +160,8 @@ public:
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Resize(::by_ref<::ArrayW<T>> array, int32_t size, bool isBlockAllocated);
 
-  /// @brief Method Substring, addr 0x6c12a4c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Substring, addr 0x7065f5c, size 0x16c, virtual false, abstract: false, final false
   inline ::StringW Substring(int32_t startIndex, int32_t length);
-
-  constexpr ::UnityEngine::TextCore::Text::VertexDataLayout const& __cordl_internal_get__vertexDataLayout_k__BackingField() const;
-
-  constexpr ::UnityEngine::TextCore::Text::VertexDataLayout& __cordl_internal_get__vertexDataLayout_k__BackingField();
 
   constexpr int32_t const& __cordl_internal_get_characterCount() const;
 
@@ -206,10 +170,6 @@ public:
   constexpr bool const& __cordl_internal_get_hasMultipleColors() const;
 
   constexpr bool& __cordl_internal_get_hasMultipleColors();
-
-  constexpr double_t const& __cordl_internal_get_lastTimeInCache() const;
-
-  constexpr double_t& __cordl_internal_get_lastTimeInCache();
 
   constexpr int32_t const& __cordl_internal_get_lineCount() const;
 
@@ -235,18 +195,6 @@ public:
 
   constexpr ::ArrayW<::UnityEngine::TextCore::Text::MeshInfo>& __cordl_internal_get_meshInfo();
 
-  constexpr int32_t const& __cordl_internal_get_pageCount() const;
-
-  constexpr int32_t& __cordl_internal_get_pageCount();
-
-  constexpr ::ArrayW<::UnityEngine::TextCore::Text::PageInfo> const& __cordl_internal_get_pageInfo() const;
-
-  constexpr ::ArrayW<::UnityEngine::TextCore::Text::PageInfo>& __cordl_internal_get_pageInfo();
-
-  constexpr ::System::Action* const& __cordl_internal_get_removedFromCache() const;
-
-  constexpr ::System::Action*& __cordl_internal_get_removedFromCache();
-
   constexpr int32_t const& __cordl_internal_get_spaceCount() const;
 
   constexpr int32_t& __cordl_internal_get_spaceCount();
@@ -267,13 +215,9 @@ public:
 
   constexpr ::ArrayW<::UnityEngine::TextCore::Text::WordInfo>& __cordl_internal_get_wordInfo();
 
-  constexpr void __cordl_internal_set__vertexDataLayout_k__BackingField(::UnityEngine::TextCore::Text::VertexDataLayout value);
-
   constexpr void __cordl_internal_set_characterCount(int32_t value);
 
   constexpr void __cordl_internal_set_hasMultipleColors(bool value);
-
-  constexpr void __cordl_internal_set_lastTimeInCache(double_t value);
 
   constexpr void __cordl_internal_set_lineCount(int32_t value);
 
@@ -287,12 +231,6 @@ public:
 
   constexpr void __cordl_internal_set_meshInfo(::ArrayW<::UnityEngine::TextCore::Text::MeshInfo> value);
 
-  constexpr void __cordl_internal_set_pageCount(int32_t value);
-
-  constexpr void __cordl_internal_set_pageInfo(::ArrayW<::UnityEngine::TextCore::Text::PageInfo> value);
-
-  constexpr void __cordl_internal_set_removedFromCache(::System::Action* value);
-
   constexpr void __cordl_internal_set_spaceCount(int32_t value);
 
   constexpr void __cordl_internal_set_spriteCount(int32_t value);
@@ -303,24 +241,16 @@ public:
 
   constexpr void __cordl_internal_set_wordInfo(::ArrayW<::UnityEngine::TextCore::Text::WordInfo> value);
 
-  /// @brief Method .ctor, addr 0x6c10778, size 0x1d8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::TextCore::Text::VertexDataLayout vertexDataLayout);
+  /// @brief Method .ctor, addr 0x7063958, size 0x19c, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::Vector2 getStaticF_s_InfinityVectorNegative();
 
   static inline ::UnityEngine::Vector2 getStaticF_s_InfinityVectorPositive();
 
-  /// [CompilerGenerated]
-  /// @brief Method get_vertexDataLayout, addr 0x6c119e8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextCore::Text::VertexDataLayout get_vertexDataLayout();
-
   static inline void setStaticF_s_InfinityVectorNegative(::UnityEngine::Vector2 value);
 
   static inline void setStaticF_s_InfinityVectorPositive(::UnityEngine::Vector2 value);
-
-  /// [CompilerGenerated]
-  /// @brief Method set_vertexDataLayout, addr 0x6c119f0, size 0x8, virtual false, abstract: false, final false
-  inline void set_vertexDataLayout(::UnityEngine::TextCore::Text::VertexDataLayout value);
 
 protected:
   // Ctor Parameters []
@@ -337,7 +267,7 @@ public:
   TextInfo(TextInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17278 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17873 };
 
   /// @brief Field characterCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___characterCount;
@@ -357,10 +287,7 @@ public:
   /// @brief Field lineCount, offset: 0x24, size: 0x4, def value: None
   int32_t ___lineCount;
 
-  /// @brief Field pageCount, offset: 0x28, size: 0x4, def value: None
-  int32_t ___pageCount;
-
-  /// @brief Field materialCount, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field materialCount, offset: 0x28, size: 0x4, def value: None
   int32_t ___materialCount;
 
   /// @brief Field textElementInfo, offset: 0x30, size: 0x8, def value: None
@@ -375,24 +302,10 @@ public:
   /// @brief Field lineInfo, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::TextCore::Text::LineInfo> ___lineInfo;
 
-  /// @brief Field pageInfo, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::TextCore::Text::PageInfo> ___pageInfo;
-
-  /// @brief Field meshInfo, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field meshInfo, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::TextCore::Text::MeshInfo> ___meshInfo;
 
-  /// @brief Field lastTimeInCache, offset: 0x60, size: 0x8, def value: None
-  double_t ___lastTimeInCache;
-
-  /// @brief Field removedFromCache, offset: 0x68, size: 0x8, def value: None
-  ::System::Action* ___removedFromCache;
-
-  /// [CompilerGenerated]
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <vertexDataLayout>k__BackingField, offset: 0x70, size: 0x4, def value: None
-  ::UnityEngine::TextCore::Text::VertexDataLayout ____vertexDataLayout_k__BackingField;
-
-  /// @brief Field hasMultipleColors, offset: 0x74, size: 0x1, def value: None
+  /// @brief Field hasMultipleColors, offset: 0x58, size: 0x1, def value: None
   bool ___hasMultipleColors;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -410,9 +323,7 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___linkCount) ==
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___lineCount) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___pageCount) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___materialCount) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___materialCount) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___textElementInfo) == 0x30, "Offset mismatch!");
 
@@ -422,18 +333,10 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___linkInfo) == 
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___lineInfo) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___pageInfo) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___meshInfo) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___meshInfo) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___hasMultipleColors) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___lastTimeInCache) == 0x60, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___removedFromCache) == 0x68, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ____vertexDataLayout_k__BackingField) == 0x70, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___hasMultipleColors) == 0x74, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::TextCore::Text::TextInfo) == 0x78, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::TextCore::Text::TextInfo) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text

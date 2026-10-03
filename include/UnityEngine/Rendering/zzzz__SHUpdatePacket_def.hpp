@@ -14,7 +14,7 @@ struct SHUpdatePacket;
 MARK_VAL_T(::UnityEngine::Rendering::SHUpdatePacket);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::SHUpdatePacket, "UnityEngine.Rendering", "SHUpdatePacket");
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\InstanceData\\InstanceTransformUpdateDefs.cs")] Dependencies
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\GPUDriven\\InstanceData\\InstanceTransformUpdateDefs.cs")] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.SHUpdatePacket
@@ -43,7 +43,7 @@ public:
                            float_t shb6, float_t shb7, float_t shb8) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18257 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6c };

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::VFX::VFXSpawnerState*)>(&::UnityEngine::VFX::VFXSpawnerState_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e2db9c;
+  constexpr static std::size_t addrs = 0x72c9540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState_BindingsMarshaller*>(),
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)(::System::IntPtr, bool)>(&::UnityEngine::VFX::VFXSpawnerState::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e2d3c0;
+  constexpr static std::size_t addrs = 0x72c8d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VFXSpawnerState* (*)()>(&::UnityEngine::VFX::VFXSpawnerState::CreateSpawnerStateWrapper)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e2d3cc;
+  constexpr static std::size_t addrs = 0x72c8d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(), { "CreateSpawnerStateWrapper", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)()>(&::UnityEngine::VFX::VFXSpawnerState::PrepareWrapper)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e2d428;
+  constexpr static std::size_t addrs = 0x72c8dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(), { "PrepareWrapper", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::VFX::VFXSpawnerState::SetWrapValue)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6e2d4b8;
+  constexpr static std::size_t addrs = 0x72c8e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)()>(&::UnityEngine::VFX::VFXSpawnerState::Release)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6e2d54c;
+  constexpr static std::size_t addrs = 0x72c8ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(), { "Release", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)()>(&::UnityEngine::VFX::VFXSpawnerState::Finalize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2d5e0;
+  constexpr static std::size_t addrs = 0x72c8f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)()>(&::UnityEngine::VFX::VFXSpawnerState::Dispose)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e2d624;
+  constexpr static std::size_t addrs = 0x72c8fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(), { "Dispose", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::VFX::VFXSpawnerState::Internal_Destroy)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2d5a4;
+  constexpr static std::size_t addrs = 0x72c8f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::VFXSpawnerState::*)()>(&::UnityEngine::VFX::VFXSpawnerState::get_playing)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e2d688;
+  constexpr static std::size_t addrs = 0x72c902c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(), { "get_playing", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)(bool)>(&::UnityEngine::VFX::VFXSpawnerState::set_playing)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e2d6f0;
+  constexpr static std::size_t addrs = 0x72c9094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VFXSpawnerLoopState (::UnityEngine::VFX::VFXSpawnerState::*)()>(&::UnityEngine::VFX::VFXSpawnerState::get_loopState)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e2d6a0;
+  constexpr static std::size_t addrs = 0x72c9044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(), { "get_loopState", {}, {} })));
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)(::UnityEngine::VFX::VFXSpawnerLoopState)>(&::UnityEngine::VFX::VFXSpawnerState::set_loopState)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6e2d70c;
+  constexpr static std::size_t addrs = 0x72c90b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::VFX::VFXSpawnerState::*)()>(&::UnityEngine::VFX::VFXSpawnerState::get_spawnCount)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e2d7e4;
+  constexpr static std::size_t addrs = 0x72c9188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(), { "get_spawnCount", {}, {} })));
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)(float_t)>(&::UnityEngine::VFX::VFXSpawnerState::set_spawnCount)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6e2d870;
+  constexpr static std::size_t addrs = 0x72c9214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::VFX::VFXSpawnerState::*)()>(&::UnityEngine::VFX::VFXSpawnerState::get_deltaTime)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e2d91c;
+  constexpr static std::size_t addrs = 0x72c92c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(), { "get_deltaTime", {}, {} })));
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::VFX::VFXSpawnerState::*)()>(&::UnityEngine::VFX::VFXSpawnerState::get_totalTime)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e2d9a8;
+  constexpr static std::size_t addrs = 0x72c934c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(), { "get_totalTime", {}, {} })));
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)(float_t)>(&::UnityEngine::VFX::VFXSpawnerState::set_totalTime)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6e2da34;
+  constexpr static std::size_t addrs = 0x72c93d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VFXEventAttribute* (::UnityEngine::VFX::VFXSpawnerState::*)()>(
     &::UnityEngine::VFX::VFXSpawnerState::Internal_GetVFXEventAttribute)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e2dae0;
+  constexpr static std::size_t addrs = 0x72c9484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(), { "Internal_GetVFXEventAttribute", {}, {} })));
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VFXEventAttribute* (::UnityEngine::VFX::VFXSpawnerState::*)()>(
     &::UnityEngine::VFX::VFXSpawnerState::get_vfxEventAttribute)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e2db80;
+  constexpr static std::size_t addrs = 0x72c9524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(), { "get_vfxEventAttribute", {}, {} })));
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VFXSpawnerLoopState (*)(::System::IntPtr)>(&::UnityEngine::VFX::VFXSpawnerState::get_loopState_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2d764;
+  constexpr static std::size_t addrs = 0x72c9108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::VFX::VFXSpawnerLoopState)>(&::UnityEngine::VFX::VFXSpawnerState::set_loopState_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2d7a0;
+  constexpr static std::size_t addrs = 0x72c9144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::VFX::VFXSpawnerState::get_spawnCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2d834;
+  constexpr static std::size_t addrs = 0x72c91d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::VFX::VFXSpawnerState::set_spawnCount_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e2d8d0;
+  constexpr static std::size_t addrs = 0x72c9274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
@@ -325,7 +325,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::VFX::VFXSpawnerState::get_deltaTime_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2d96c;
+  constexpr static std::size_t addrs = 0x72c9310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -338,7 +338,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::VFX::VFXSpawnerState::get_totalTime_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2d9f8;
+  constexpr static std::size_t addrs = 0x72c939c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -351,7 +351,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::VFX::VFXSpawnerState::set_totalTime_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e2da94;
+  constexpr static std::size_t addrs = 0x72c9438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::VFX::VFXSpawnerState::Internal_GetVFXEventAttribute_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2db44;
+  constexpr static std::size_t addrs = 0x72c94e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

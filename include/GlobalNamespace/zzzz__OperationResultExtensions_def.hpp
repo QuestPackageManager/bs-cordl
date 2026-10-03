@@ -24,16 +24,16 @@ class CORDL_TYPE OperationResultExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method IsError, addr 0x5ede1b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsError, addr 0x62f865c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsError(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
   /// [Extension]
-  /// @brief Method IsSuccess, addr 0x5ede1a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsSuccess, addr 0x62f8650, size 0xc, virtual false, abstract: false, final false
   static inline bool IsSuccess(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
   /// [Extension]
   /// [Obsolete("There are no OperationResults that are considered warnings so this method will always return False.")]
-  /// @brief Method IsWarning, addr 0x5ede1bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsWarning, addr 0x62f8664, size 0xc, virtual false, abstract: false, final false
   static inline bool IsWarning(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
 protected:
@@ -51,7 +51,7 @@ public:
   OperationResultExtensions(OperationResultExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7846 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

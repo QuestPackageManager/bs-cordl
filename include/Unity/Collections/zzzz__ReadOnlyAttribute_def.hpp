@@ -12,8 +12,8 @@ class ReadOnlyAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Collections::ReadOnlyAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::ReadOnlyAttribute*, "Unity.Collections", "ReadOnlyAttribute");
-// [AttributeUsage((System.AttributeTargets)10496)]
 // [RequiredByNativeCode]
+// [AttributeUsage((System.AttributeTargets)10496)]
 // Dependencies System.Attribute
 namespace Unity::Collections {
 // Is value type: false
@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Unity::Collections::ReadOnlyAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a5fc1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eb18f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   ReadOnlyAttribute(ReadOnlyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9984 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9558 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

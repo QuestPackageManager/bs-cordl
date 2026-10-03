@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::RegisteredWaitHandle::*)(
     ::System::Threading::WaitHandle*, ::System::Threading::WaitOrTimerCallback*, ::System::Object*, ::System::TimeSpan, bool)>(&::System::Threading::RegisteredWaitHandle::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cb6a0c;
+  constexpr static std::size_t addrs = 0x60d0554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::RegisteredWaitHandle::*)(::System::Object*)>(&::System::Threading::RegisteredWaitHandle::Wait)> {
   constexpr static std::size_t size = 0x59c;
-  constexpr static std::size_t addrs = 0x5cb9590;
+  constexpr static std::size_t addrs = 0x60d30d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::RegisteredWaitHandle::*)(::System::Object*)>(&::System::Threading::RegisteredWaitHandle::DoCallBack)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cb9b2c;
+  constexpr static std::size_t addrs = 0x60d3674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::RegisteredWaitHandle::*)(::System::Threading::WaitHandle*)>(&::System::Threading::RegisteredWaitHandle::Unregister)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5cb9bf4;
+  constexpr static std::size_t addrs = 0x60d373c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

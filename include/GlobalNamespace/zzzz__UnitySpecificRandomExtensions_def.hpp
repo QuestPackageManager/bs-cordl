@@ -27,11 +27,11 @@ class CORDL_TYPE UnitySpecificRandomExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method InsideUnitSphere, addr 0x3327a78, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method InsideUnitSphere, addr 0x35b0cf4, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 InsideUnitSphere(::GlobalNamespace::IRandom* random);
 
   /// [Extension]
-  /// @brief Method OnUnitSphere, addr 0x3327b0c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method OnUnitSphere, addr 0x35b0d88, size 0x160, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 OnUnitSphere(::GlobalNamespace::IRandom* random);
 
 protected:
@@ -49,7 +49,7 @@ public:
   UnitySpecificRandomExtensions(UnitySpecificRandomExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21429 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

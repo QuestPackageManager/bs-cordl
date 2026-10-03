@@ -25,6 +25,9 @@ public:
   /// @brief Field Action, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Action, put = setStaticF_Action)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* Action;
 
+  /// @brief Field Click, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_Click, put = setStaticF_Click)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* Click;
+
   /// @brief Field Damage, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Damage, put = setStaticF_Damage)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* Damage;
 
@@ -80,7 +83,7 @@ public:
 
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* New_ctor(::StringW value);
 
-  /// @brief Method ToString, addr 0x3265600, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x34e9fc0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__Value_k__BackingField() const;
@@ -89,10 +92,12 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32655f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34e9fb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* getStaticF_Action();
+
+  static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* getStaticF_Click();
 
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* getStaticF_Damage();
 
@@ -127,10 +132,12 @@ public:
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* getStaticF_Social();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Value, addr 0x32655f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x34e9fb0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   static inline void setStaticF_Action(::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* value);
+
+  static inline void setStaticF_Click(::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* value);
 
   static inline void setStaticF_Damage(::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* value);
 
@@ -179,7 +186,7 @@ public:
   SpaceshipMetricType(SpaceshipMetricType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22976 };
 
   /// [CompilerGenerated]
   /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None

@@ -70,16 +70,16 @@ public:
                                                                ::UnityEngine::InputSystem::InputAction* rotationAction, ::UnityEngine::InputSystem::InputAction* thumbstickAction,
                                                                ::UnityEngine::InputSystem::InputAction* triggerAction);
 
-  /// @brief Method ResetManufacturerName, addr 0x591d488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResetManufacturerName, addr 0x5d37b8c, size 0x8, virtual false, abstract: false, final false
   inline void ResetManufacturerName();
 
-  /// @brief Method SetupController, addr 0x591d14c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetupController, addr 0x5d37850, size 0x34, virtual false, abstract: false, final false
   inline bool SetupController(::UnityEngine::XR::InputDevice device, ::UnityEngine::MonoBehaviour* coroutineRunner);
 
-  /// @brief Method TryToUpdateManufacturerName, addr 0x591d180, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method TryToUpdateManufacturerName, addr 0x5d37884, size 0x188, virtual false, abstract: false, final false
   inline bool TryToUpdateManufacturerName(::UnityEngine::XR::InputDevice device);
 
-  /// @brief Method UpdateHapticsHandler, addr 0x591d308, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method UpdateHapticsHandler, addr 0x5d37a0c, size 0x180, virtual false, abstract: false, final false
   inline void UpdateHapticsHandler(::UnityEngine::MonoBehaviour* coroutineRunner);
 
   constexpr ::BeatSaber::Haptics::IHapticImpulseTransmitter* const& __cordl_internal_get__hapticsHandler_k__BackingField() const;
@@ -124,24 +124,24 @@ public:
 
   constexpr void __cordl_internal_set_triggerAction(::UnityEngine::InputSystem::InputAction* value);
 
-  /// @brief Method .ctor, addr 0x591c454, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d36b58, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::InputSystem::InputAction* positionAction, ::UnityEngine::InputSystem::InputAction* rotationAction,
                     ::UnityEngine::InputSystem::InputAction* thumbstickAction, ::UnityEngine::InputSystem::InputAction* triggerAction);
 
   /// [CompilerGenerated]
-  /// @brief Method get_hapticsHandler, addr 0x591d12c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hapticsHandler, addr 0x5d37830, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Haptics::IHapticImpulseTransmitter* get_hapticsHandler();
 
   /// [CompilerGenerated]
-  /// @brief Method get_manufacturer, addr 0x591d13c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_manufacturer, addr 0x5d37840, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::VRControllerManufacturer get_manufacturer();
 
   /// [CompilerGenerated]
-  /// @brief Method set_hapticsHandler, addr 0x591d134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hapticsHandler, addr 0x5d37838, size 0x8, virtual false, abstract: false, final false
   inline void set_hapticsHandler(::BeatSaber::Haptics::IHapticImpulseTransmitter* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_manufacturer, addr 0x591d144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_manufacturer, addr 0x5d37848, size 0x8, virtual false, abstract: false, final false
   inline void set_manufacturer(::GlobalNamespace::VRControllerManufacturer value);
 
 protected:
@@ -159,7 +159,7 @@ public:
   UnityXRController(UnityXRController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6924 };
 
   /// @brief Field positionAction, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputAction* ___positionAction;

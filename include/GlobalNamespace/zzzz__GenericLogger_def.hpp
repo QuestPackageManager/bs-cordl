@@ -48,7 +48,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5854f60, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5c6ace4, size 0x104, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::GenericLogger_ScopedStopwatch* New_ctor(::StringW processName);
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__stopwatch(::System::Diagnostics::Stopwatch* value);
 
-  /// @brief Method .ctor, addr 0x5854e68, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c6abec, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::StringW processName);
 
   /// @brief Convert to "::System::IDisposable"
@@ -86,7 +86,7 @@ public:
   GenericLogger_ScopedStopwatch(GenericLogger_ScopedStopwatch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22113 };
 
   /// @brief Field _processName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____processName;
@@ -115,12 +115,12 @@ public:
   using ScopedStopwatch = ::GlobalNamespace::GenericLogger_ScopedStopwatch;
 
   /// [Extension]
-  /// @brief Method Format, addr 0x5854ba8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x5c6a92c, size 0xf8, virtual false, abstract: false, final false
   static inline ::StringW Format(::GlobalNamespace::IVerboseLogger* logger, ::StringW message);
 
   /// [Extension]
   /// [Conditional("BG_VERBOSE_LOGGING")]
-  /// @brief Method Log, addr 0x5854ca0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x5c6aa24, size 0x7c, virtual false, abstract: false, final false
   static inline void Log(::GlobalNamespace::IVerboseLogger* logger, ::StringW message);
 
   /// [Extension]
@@ -130,7 +130,7 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IVerboseLogger*>)
   static inline void Log(T logger, ::StringW message);
 
-  /// @brief Method LogWithTimestamp, addr 0x5854d1c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method LogWithTimestamp, addr 0x5c6aaa0, size 0x14c, virtual false, abstract: false, final false
   static inline void LogWithTimestamp(::StringW message);
 
 protected:
@@ -148,7 +148,7 @@ public:
   GenericLogger(GenericLogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21394 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22114 };
 
   /// @brief Field kVerboseLogDefineSymbol offset 0xffffffff size 0x8
   static constexpr ::ConstString kVerboseLogDefineSymbol{ u"BG_VERBOSE_LOGGING" };

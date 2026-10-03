@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ImageWithHint::*)(::UnityEngine::Sprite*)>(&::HMUI::ImageWithHint::set_sprite)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5886114;
+  constexpr static std::size_t addrs = 0x5c9c958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::HMUI::ImageWithHint::*)()>(&::HMUI::ImageWithHint::get_sprite)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x588612c;
+  constexpr static std::size_t addrs = 0x5c9c970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ImageWithHint*>(), { "get_sprite", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ImageWithHint::*)(::StringW)>(&::HMUI::ImageWithHint::set_hintText)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5886144;
+  constexpr static std::size_t addrs = 0x5c9c988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ImageWithHint*>(), { "set_hintText", {}, { ::i2c::type_of<::StringW>() } })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::HMUI::ImageWithHint::*)()>(&::HMUI::ImageWithHint::get_imageColor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x588615c;
+  constexpr static std::size_t addrs = 0x5c9c9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ImageWithHint*>(), { "get_imageColor", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ImageWithHint::*)(::UnityEngine::Color)>(&::HMUI::ImageWithHint::set_imageColor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x588617c;
+  constexpr static std::size_t addrs = 0x5c9c9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::ImageViewBase> (::HMUI::ImageWithHint::*)()>(&::HMUI::ImageWithHint::get_imageViewBase)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x588619c;
+  constexpr static std::size_t addrs = 0x5c9c9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ImageWithHint*>(), { "get_imageViewBase", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ImageWithHint::*)()>(&::HMUI::ImageWithHint::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x588621c;
+  constexpr static std::size_t addrs = 0x5c9ca60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ImageWithHint*>(), { ".ctor", {}, {} })));

@@ -39,15 +39,15 @@ public:
 
   constexpr void __cordl_internal_set__BinaryType_k__BackingField(::Newtonsoft::Json::Bson::BsonBinaryType value);
 
-  /// @brief Method .ctor, addr 0x5dae890, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61c8474, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> value, ::Newtonsoft::Json::Bson::BsonBinaryType binaryType);
 
   /// [CompilerGenerated]
-  /// @brief Method get_BinaryType, addr 0x5dae880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BinaryType, addr 0x61c8464, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonBinaryType get_BinaryType();
 
   /// [CompilerGenerated]
-  /// @brief Method set_BinaryType, addr 0x5dae888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BinaryType, addr 0x61c846c, size 0x8, virtual false, abstract: false, final false
   inline void set_BinaryType(::Newtonsoft::Json::Bson::BsonBinaryType value);
 
 protected:
@@ -65,7 +65,7 @@ public:
   BsonBinary(BsonBinary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13942 };
 
   /// [CompilerGenerated]
   /// @brief Field <BinaryType>k__BackingField, offset: 0x29, size: 0x1, def value: None

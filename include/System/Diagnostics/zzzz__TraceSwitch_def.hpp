@@ -23,13 +23,13 @@ public:
   // Declarations
   static inline ::System::Diagnostics::TraceSwitch* New_ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method OnSwitchSettingChanged, addr 0x639b6b4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method OnSwitchSettingChanged, addr 0x67c3980, size 0x38, virtual true, abstract: false, final false
   inline void OnSwitchSettingChanged();
 
-  /// @brief Method OnValueChanged, addr 0x639b6ec, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method OnValueChanged, addr 0x67c39b8, size 0xd4, virtual true, abstract: false, final false
   inline void OnValueChanged();
 
-  /// @brief Method .ctor, addr 0x639b644, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67c3910, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
 protected:
@@ -47,7 +47,7 @@ public:
   TraceSwitch(TraceSwitch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12078 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

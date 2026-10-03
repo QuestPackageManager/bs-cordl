@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::NoMemoryCallback::*)(::System::Object*, ::System::IntPtr)>(&::ENet::NoMemoryCallback::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x58916e0;
+  constexpr static std::size_t addrs = 0x5ca8260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::NoMemoryCallback::*)()>(&::ENet::NoMemoryCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5891748;
+  constexpr static std::size_t addrs = 0x5ca82c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::ENet::NoMemoryCallback*>(), { ::i2c::class_of<::ENet::NoMemoryCallback*>(), 13 }));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::ENet::NoMemoryCallback::*)(::System::AsyncCallback*, ::System::Object*)>(&::ENet::NoMemoryCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x589175c;
+  constexpr static std::size_t addrs = 0x5ca82dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::ENet::NoMemoryCallback*>(), { ::i2c::class_of<::ENet::NoMemoryCallback*>(), 14 }));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::NoMemoryCallback::*)(::System::IAsyncResult*)>(&::ENet::NoMemoryCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5891778;
+  constexpr static std::size_t addrs = 0x5ca82f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::ENet::NoMemoryCallback*>(), { ::i2c::class_of<::ENet::NoMemoryCallback*>(), 15 }));

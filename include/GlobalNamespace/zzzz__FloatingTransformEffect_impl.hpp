@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatingTransformEffect::*)()>(&::GlobalNamespace::FloatingTransformEffect::Start)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x598243c;
+  constexpr static std::size_t addrs = 0x5da1760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatingTransformEffect*>(), { "Start", {}, {} })));
@@ -26,8 +26,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatingTransformEffect::*)()>(&::GlobalNamespace::FloatingTransformEffect::Tick)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x59825dc;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x5da1900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatingTransformEffect*>(), { "Tick", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatingTransformEffect::*)()>(&::GlobalNamespace::FloatingTransformEffect::Refresh)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5982474;
+  constexpr static std::size_t addrs = 0x5da1798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatingTransformEffect*>(), { "Refresh", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::FloatingTransformEffect::*)(float_t)>(&::GlobalNamespace::FloatingTransformEffect::GetPoint)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x598273c;
+  constexpr static std::size_t addrs = 0x5da1a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatingTransformEffect::*)()>(&::GlobalNamespace::FloatingTransformEffect::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59827c8;
+  constexpr static std::size_t addrs = 0x5da1ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatingTransformEffect*>(), { ".ctor", {}, {} })));

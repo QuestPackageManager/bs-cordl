@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::LabelTarget::*)(::System::Type*, ::StringW)>(&::System::Linq::Expressions::LabelTarget::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f868d4;
+  constexpr static std::size_t addrs = 0x63a2850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::LabelTarget::*)()>(&::System::Linq::Expressions::LabelTarget::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f868dc;
+  constexpr static std::size_t addrs = 0x63a2858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::LabelTarget*>(), { "get_Name", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Linq::Expressions::LabelTarget::*)()>(&::System::Linq::Expressions::LabelTarget::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f868e4;
+  constexpr static std::size_t addrs = 0x63a2860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::LabelTarget*>(), { "get_Type", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::LabelTarget::*)()>(&::System::Linq::Expressions::LabelTarget::ToString)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f868ec;
+  constexpr static std::size_t addrs = 0x63a2868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

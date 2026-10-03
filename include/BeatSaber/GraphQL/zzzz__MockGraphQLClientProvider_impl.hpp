@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::GraphQL::BSClientProviderInitializationState (::BeatSaber::GraphQL::MockGraphQLClientProvider::*)()>(
     &::BeatSaber::GraphQL::MockGraphQLClientProvider::get_initializationState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32975ac;
+  constexpr static std::size_t addrs = 0x351e270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* (::BeatSaber::GraphQL::MockGraphQLClientProvider::*)()>(
     &::BeatSaber::GraphQL::MockGraphQLClientProvider::get_graphQLClient)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32975b4;
+  constexpr static std::size_t addrs = 0x351e278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::MockGraphQLClientProvider*>(), { "get_graphQLClient", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::MockGraphQLClientProvider::*)(::System::Action*)>(
     &::BeatSaber::GraphQL::MockGraphQLClientProvider::add_initializationDidFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x32975bc;
+  constexpr static std::size_t addrs = 0x351e280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::MockGraphQLClientProvider::*)(::System::Action*)>(
     &::BeatSaber::GraphQL::MockGraphQLClientProvider::remove_initializationDidFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3297668;
+  constexpr static std::size_t addrs = 0x351e32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::MockGraphQLClientProvider::*)(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>*)>(
     &::BeatSaber::GraphQL::MockGraphQLClientProvider::add_globalRequestSucceededEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3297714;
+  constexpr static std::size_t addrs = 0x351e3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::MockGraphQLClientProvider::*)(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>*)>(
     &::BeatSaber::GraphQL::MockGraphQLClientProvider::remove_globalRequestSucceededEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32977d4;
+  constexpr static std::size_t addrs = 0x351e498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::MockGraphQLClientProvider::*)(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>*)>(
     &::BeatSaber::GraphQL::MockGraphQLClientProvider::add_globalRequestFailureEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3297894;
+  constexpr static std::size_t addrs = 0x351e558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::MockGraphQLClientProvider::*)(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>*)>(
     &::BeatSaber::GraphQL::MockGraphQLClientProvider::remove_globalRequestFailureEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3297954;
+  constexpr static std::size_t addrs = 0x351e618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::MockGraphQLClientProvider::*)(::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*)>(
     &::BeatSaber::GraphQL::MockGraphQLClientProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3297a14;
+  constexpr static std::size_t addrs = 0x351e6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::MockGraphQLClientProvider*>(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::GraphQL::MockGraphQLClientProvider::*)(::System::Threading::CancellationToken)>(
     &::BeatSaber::GraphQL::MockGraphQLClientProvider::InitializeAsync)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3297a1c;
+  constexpr static std::size_t addrs = 0x351e6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::MockGraphQLClientProvider*>(),
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::MockGraphQLClientProvider::*)(::System::Threading::Tasks::Task_1<bool>*)>(
     &::BeatSaber::GraphQL::MockGraphQLClientProvider::_InitializeAsync_b__18_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3297b80;
+  constexpr static std::size_t addrs = 0x351e844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::MockGraphQLClientProvider*>(),

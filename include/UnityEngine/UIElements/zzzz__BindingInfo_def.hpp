@@ -38,18 +38,18 @@ public:
   // Declarations
   __declspec(property(get = get_binding)) ::UnityEngine::UIElements::Binding* binding;
 
-  /// @brief Method FromBindingData, addr 0x6c44d78, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FromBindingData, addr 0x708e124, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BindingInfo FromBindingData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData);
 
-  /// @brief Method FromRequest, addr 0x6c44cc8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method FromRequest, addr 0x708e074, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BindingInfo FromRequest(::UnityEngine::UIElements::VisualElement* target, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> targetPath,
                                                                    ::UnityEngine::UIElements::Binding* binding);
 
-  /// @brief Method .ctor, addr 0x6c44c98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x708e044, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* targetElement, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::UnityEngine::UIElements::Binding* binding);
 
   /// [CompilerGenerated]
-  /// @brief Method get_binding, addr 0x6c44c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_binding, addr 0x708e03c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Binding* get_binding();
 
   // Ctor Parameters []
@@ -63,23 +63,23 @@ public:
                         ::UnityEngine::UIElements::Binding* _binding_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4052 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa8 };
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <targetElement>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* _targetElement_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <bindingId>k__BackingField, offset: 0x8, size: 0x98, def value: None
   ::UnityEngine::UIElements::BindingId _bindingId_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <binding>k__BackingField, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::UIElements::Binding* _binding_k__BackingField;
 

@@ -36,10 +36,19 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 template <typename PassData, typename ContextType> class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
+class IBaseRenderGraphBuilder;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraph;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct RenderTargetInfo;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct TextureDesc;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct TextureHandle;
@@ -107,18 +116,27 @@ namespace UnityEngine::Rendering::RenderGraphModule::Util {
 class CORDL_TYPE RenderGraphUtils_CopyPassData : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field force2DForXR, offset 0x11, size 0x1
+  __declspec(property(get = __cordl_internal_get_force2DForXR, put = __cordl_internal_set_force2DForXR)) bool force2DForXR;
+
   /// @brief Field isMSAA, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_isMSAA, put = __cordl_internal_set_isMSAA)) bool isMSAA;
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData* New_ctor();
 
+  constexpr bool const& __cordl_internal_get_force2DForXR() const;
+
+  constexpr bool& __cordl_internal_get_force2DForXR();
+
   constexpr bool const& __cordl_internal_get_isMSAA() const;
 
   constexpr bool& __cordl_internal_get_isMSAA();
 
+  constexpr void __cordl_internal_set_force2DForXR(bool value);
+
   constexpr void __cordl_internal_set_isMSAA(bool value);
 
-  /// @brief Method .ctor, addr 0x67ed1ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c184d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,15 +154,20 @@ public:
   RenderGraphUtils_CopyPassData(RenderGraphUtils_CopyPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12468 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9384 };
 
   /// @brief Field isMSAA, offset: 0x10, size: 0x1, def value: None
   bool ___isMSAA;
+
+  /// @brief Field force2DForXR, offset: 0x11, size: 0x1, def value: None
+  bool ___force2DForXR;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData, ___isMSAA) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData, ___force2DForXR) == 0x11, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData) == 0x18, "Size mismatch!");
 
@@ -188,7 +211,7 @@ public:
   static ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode const ClampNearest;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12469 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9385 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -222,6 +245,12 @@ public:
 
   /// @brief Field filterMode, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_filterMode, put = __cordl_internal_set_filterMode)) ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode filterMode;
+
+  /// @brief Field isDepth, offset 0x5d, size 0x1
+  __declspec(property(get = __cordl_internal_get_isDepth, put = __cordl_internal_set_isDepth)) bool isDepth;
+
+  /// @brief Field isXR, offset 0x5c, size 0x1
+  __declspec(property(get = __cordl_internal_get_isXR, put = __cordl_internal_set_isXR)) bool isXR;
 
   /// @brief Field numMips, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get_numMips, put = __cordl_internal_set_numMips)) int32_t numMips;
@@ -262,6 +291,14 @@ public:
 
   constexpr ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode& __cordl_internal_get_filterMode();
 
+  constexpr bool const& __cordl_internal_get_isDepth() const;
+
+  constexpr bool& __cordl_internal_get_isDepth();
+
+  constexpr bool const& __cordl_internal_get_isXR() const;
+
+  constexpr bool& __cordl_internal_get_isXR();
+
   constexpr int32_t const& __cordl_internal_get_numMips() const;
 
   constexpr int32_t& __cordl_internal_get_numMips();
@@ -298,6 +335,10 @@ public:
 
   constexpr void __cordl_internal_set_filterMode(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode value);
 
+  constexpr void __cordl_internal_set_isDepth(bool value);
+
+  constexpr void __cordl_internal_set_isXR(bool value);
+
   constexpr void __cordl_internal_set_numMips(int32_t value);
 
   constexpr void __cordl_internal_set_numSlices(int32_t value);
@@ -312,7 +353,7 @@ public:
 
   constexpr void __cordl_internal_set_sourceSlice(int32_t value);
 
-  /// @brief Method .ctor, addr 0x67ed1b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c184d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -330,7 +371,7 @@ public:
   RenderGraphUtils_BlitPassData(RenderGraphUtils_BlitPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12470 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9386 };
 
   /// @brief Field source, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___source;
@@ -365,6 +406,12 @@ public:
   /// @brief Field filterMode, offset: 0x58, size: 0x4, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode ___filterMode;
 
+  /// @brief Field isXR, offset: 0x5c, size: 0x1, def value: None
+  bool ___isXR;
+
+  /// @brief Field isDepth, offset: 0x5d, size: 0x1, def value: None
+  bool ___isDepth;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -389,6 +436,10 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::Util::Render
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData, ___numMips) == 0x54, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData, ___filterMode) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData, ___isXR) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData, ___isDepth) == 0x5d, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData) == 0x60, "Size mismatch!");
 
@@ -436,7 +487,7 @@ public:
   static ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType const ProceduralTriangle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9387 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -471,32 +522,32 @@ public:
   /// @brief Field blitTextureProperty, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_blitTextureProperty, put = setStaticF_blitTextureProperty)) int32_t blitTextureProperty;
 
-  /// @brief Method .ctor, addr 0x67ed1b4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c184dc, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Material* material,
                     int32_t shaderPass);
 
-  /// @brief Method .ctor, addr 0x67ed3dc, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c18704, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Material* material,
                     int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock* mpb, int32_t destinationSlice, int32_t destinationMip, int32_t numSlices, int32_t numMips, int32_t sourceSlice,
                     int32_t sourceMip, ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType geometry, int32_t sourceTexturePropertyID,
                     int32_t sourceSlicePropertyID, int32_t sourceMipPropertyID);
 
-  /// @brief Method .ctor, addr 0x67ed6f4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c18a1c, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Material* material,
                     int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock* mpb, ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType geometry,
                     int32_t sourceTexturePropertyID, int32_t sourceSlicePropertyID, int32_t sourceMipPropertyID);
 
-  /// @brief Method .ctor, addr 0x67ed2ec, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c18614, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Vector2 scale,
                     ::UnityEngine::Vector2 offset, ::UnityEngine::Material* material, int32_t shaderPass);
 
-  /// @brief Method .ctor, addr 0x67ed570, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c18898, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Vector2 scale,
                     ::UnityEngine::Vector2 offset, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock* mpb, int32_t destinationSlice, int32_t destinationMip,
                     int32_t numSlices, int32_t numMips, int32_t sourceSlice, int32_t sourceMip, ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType geometry,
                     int32_t sourceTexturePropertyID, int32_t sourceSlicePropertyID, int32_t sourceMipPropertyID, int32_t scaleBiasPropertyID);
 
-  /// @brief Method .ctor, addr 0x67ed868, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c18b90, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Vector2 scale,
                     ::UnityEngine::Vector2 offset, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock* mpb,
                     ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType geometry, int32_t sourceTexturePropertyID, int32_t sourceSlicePropertyID,
@@ -540,7 +591,7 @@ public:
                                                     int32_t scaleBiasPropertyID, ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType geometry) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9388 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -660,6 +711,9 @@ public:
   /// @brief Field geometry, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_geometry, put = __cordl_internal_set_geometry)) ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType geometry;
 
+  /// @brief Field isXR, offset 0x88, size 0x1
+  __declspec(property(get = __cordl_internal_get_isXR, put = __cordl_internal_set_isXR)) bool isXR;
+
   /// @brief Field material, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_material, put = __cordl_internal_set_material)) ::UnityW<::UnityEngine::Material> material;
 
@@ -719,6 +773,10 @@ public:
   constexpr ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType const& __cordl_internal_get_geometry() const;
 
   constexpr ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType& __cordl_internal_get_geometry();
+
+  constexpr bool const& __cordl_internal_get_isXR() const;
+
+  constexpr bool& __cordl_internal_get_isXR();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_material() const;
 
@@ -784,6 +842,8 @@ public:
 
   constexpr void __cordl_internal_set_geometry(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType value);
 
+  constexpr void __cordl_internal_set_isXR(bool value);
+
   constexpr void __cordl_internal_set_material(::UnityW<::UnityEngine::Material> value);
 
   constexpr void __cordl_internal_set_numMips(int32_t value);
@@ -812,7 +872,7 @@ public:
 
   constexpr void __cordl_internal_set_sourceTexturePropertyID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x67edaa0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c18dc8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -830,7 +890,7 @@ public:
   RenderGraphUtils_BlitMaterialPassData(RenderGraphUtils_BlitMaterialPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12473 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9389 };
 
   /// @brief Field sourceTexturePropertyID, offset: 0x10, size: 0x4, def value: None
   int32_t ___sourceTexturePropertyID;
@@ -886,6 +946,9 @@ public:
   /// @brief Field scaleBiasPropertyID, offset: 0x84, size: 0x4, def value: None
   int32_t ___scaleBiasPropertyID;
 
+  /// @brief Field isXR, offset: 0x88, size: 0x1, def value: None
+  bool ___isXR;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -925,7 +988,9 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::Util::Render
 
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData, ___scaleBiasPropertyID) == 0x84, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData) == 0x88, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData, ___isXR) == 0x88, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData) == 0x90, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::RenderGraphModule::Util
 // [CompilerGenerated]
@@ -939,59 +1004,59 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c* __9;
 
-  /// @brief Field <>9__13_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__13_0, put = setStaticF___9__13_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<
-      ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* __9__13_0;
+  /// @brief Field <>9__15_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__15_0,
+                      put = setStaticF___9__15_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*,
+                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* __9__15_0;
 
-  /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__3_0,
-                      put = setStaticF___9__3_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData*,
-                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__3_0;
+  /// @brief Field <>9__21_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__21_0, put = setStaticF___9__21_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<
+      ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* __9__21_0;
 
-  /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__7_0,
-                      put = setStaticF___9__7_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*,
-                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* __9__7_0;
+  /// @brief Field <>9__9_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__9_0,
+                      put = setStaticF___9__9_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData*,
+                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__9_0;
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c* New_ctor();
 
-  /// @brief Method <AddBlitPass>b__13_0, addr 0x67edbd4, size 0x68, virtual false, abstract: false, final false
-  inline void _AddBlitPass_b__13_0(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData* data,
+  /// @brief Method <AddBlitPass>b__15_0, addr 0x6c18e94, size 0x68, virtual false, abstract: false, final false
+  inline void _AddBlitPass_b__15_0(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
+
+  /// @brief Method <AddBlitPass>b__21_0, addr 0x6c18efc, size 0x68, virtual false, abstract: false, final false
+  inline void _AddBlitPass_b__21_0(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData* data,
                                    ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method <AddBlitPass>b__7_0, addr 0x67edb6c, size 0x68, virtual false, abstract: false, final false
-  inline void _AddBlitPass_b__7_0(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
+  /// @brief Method <AddCopyPass>b__9_0, addr 0x6c18e24, size 0x70, virtual false, abstract: false, final false
+  inline void _AddCopyPass_b__9_0(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <AddCopyPass>b__3_0, addr 0x67edafc, size 0x70, virtual false, abstract: false, final false
-  inline void _AddCopyPass_b__3_0(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
-
-  /// @brief Method .ctor, addr 0x67edaf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c18e20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c* getStaticF___9();
 
+  static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*,
+                                                                              ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*
+  getStaticF___9__15_0();
+
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*
-  getStaticF___9__13_0();
+  getStaticF___9__21_0();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__3_0();
-
-  static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*,
-                                                                              ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*
-  getStaticF___9__7_0();
+  getStaticF___9__9_0();
 
   static inline void setStaticF___9(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c* value);
 
-  static inline void setStaticF___9__13_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData*,
+  static inline void setStaticF___9__15_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*,
                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* value);
 
-  static inline void setStaticF___9__3_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData*,
-                                                                                                       ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
+  static inline void setStaticF___9__21_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData*,
+                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* value);
 
-  static inline void setStaticF___9__7_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*,
-                                                                                                       ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* value);
+  static inline void setStaticF___9__9_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData*,
+                                                                                                       ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
 
 protected:
   // Ctor Parameters []
@@ -1008,7 +1073,7 @@ public:
   RenderGraphUtils___c(RenderGraphUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9390 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1045,37 +1110,69 @@ public:
   __declspec(property(get = getStaticF_s_PropertyBlock, put = setStaticF_s_PropertyBlock)) ::UnityEngine::MaterialPropertyBlock* s_PropertyBlock;
 
   /// [Extension]
-  /// @brief Method AddBlitPass, addr 0x67ec6e0, size 0x6a0, virtual false, abstract: false, final false
-  static inline void AddBlitPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph,
-                                 ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters blitParameters, ::StringW passName, /* [CallerFilePath] */ ::StringW file,
-                                 /* [CallerLineNumber] */ int32_t line);
+  /// @brief Method AddBlitPass, addr 0x6c173e8, size 0xa7c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*
+  AddBlitPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters blitParameters,
+              ::StringW passName, bool returnBuilder, /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line);
 
   /// [Extension]
-  /// @brief Method AddBlitPass, addr 0x67ebe80, size 0x62c, virtual false, abstract: false, final false
-  static inline void AddBlitPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source,
-                                 ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Vector2 scale, ::UnityEngine::Vector2 offset, int32_t sourceSlice,
-                                 int32_t destinationSlice, int32_t numSlices, int32_t sourceMip, int32_t destinationMip, int32_t numMips,
-                                 ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode filterMode, ::StringW passName, /* [CallerFilePath] */ ::StringW file,
-                                 /* [CallerLineNumber] */ int32_t line);
+  /// @brief Method AddBlitPass, addr 0x6c16528, size 0xacc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*
+  AddBlitPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source,
+              ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Vector2 scale, ::UnityEngine::Vector2 offset, int32_t sourceSlice, int32_t destinationSlice,
+              int32_t numSlices, int32_t sourceMip, int32_t destinationMip, int32_t numMips, ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode filterMode,
+              ::StringW passName, bool returnBuilder, /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line);
 
   /// [Extension]
-  /// @brief Method AddCopyPass, addr 0x67eb754, size 0x6b0, virtual false, abstract: false, final false
+  /// @brief Method AddCopyPass, addr 0x6c15b60, size 0x730, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* AddCopyPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph,
+                                                                                                  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source,
+                                                                                                  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::StringW passName,
+                                                                                                  bool returnBuilder, /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line);
+
+  /// [Extension]
+  /// @brief Method AddCopyPass, addr 0x6c16290, size 0xb0, virtual false, abstract: false, final false
   static inline void AddCopyPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source,
                                  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, int32_t sourceSlice, int32_t destinationSlice, int32_t sourceMip, int32_t destinationMip,
                                  ::StringW passName, /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line);
 
-  /// @brief Method BlitMaterialRenderFunc, addr 0x67ecd80, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method BlitMaterialRenderFunc, addr 0x6c17e64, size 0x5cc, virtual false, abstract: false, final false
   static inline void BlitMaterialRenderFunc(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData* data,
                                             ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method BlitRenderFunc, addr 0x67ec4ac, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method BlitRenderFunc, addr 0x6c16ff4, size 0x3f4, virtual false, abstract: false, final false
   static inline void BlitRenderFunc(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method CanAddCopyPassMSAA, addr 0x67eb700, size 0x54, virtual false, abstract: false, final false
+  /// [Extension]
+  /// @brief Method CanAddCopyPass, addr 0x6c15814, size 0x34c, virtual false, abstract: false, final false
+  static inline bool CanAddCopyPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source,
+                                    ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination);
+
+  /// @brief Method CanAddCopyPassMSAA, addr 0x6c154fc, size 0x94, virtual false, abstract: false, final false
   static inline bool CanAddCopyPassMSAA();
 
-  /// @brief Method CopyRenderFunc, addr 0x67ebe04, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CanAddCopyPassMSAA, addr 0x6c156b8, size 0x9c, virtual false, abstract: false, final false
+  static inline bool CanAddCopyPassMSAA(bool bindTextureMS);
+
+  /// @brief Method CanAddCopyPassMSAA, addr 0x6c15614, size 0xa4, virtual false, abstract: false, final false
+  static inline bool CanAddCopyPassMSAA(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> sourceDesc);
+
+  /// @brief Method CopyRenderFunc, addr 0x6c16340, size 0x88, virtual false, abstract: false, final false
   static inline void CopyRenderFunc(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
+
+  /// @brief Method IsFramebufferFetchEmulationMSAASupportedOnCurrentPlatform, addr 0x6c15590, size 0x84, virtual false, abstract: false, final false
+  static inline bool IsFramebufferFetchEmulationMSAASupportedOnCurrentPlatform();
+
+  /// @brief Method IsFramebufferFetchEmulationSupportedOnCurrentPlatform, addr 0x6c15754, size 0x8, virtual false, abstract: false, final false
+  static inline bool IsFramebufferFetchEmulationSupportedOnCurrentPlatform();
+
+  /// [Extension]
+  /// @brief Method IsFramebufferFetchSupportedOnCurrentPlatform, addr 0x6c1575c, size 0xb8, virtual false, abstract: false, final false
+  static inline bool IsFramebufferFetchSupportedOnCurrentPlatform(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph,
+                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tex);
+
+  /// @brief Method IsTextureXR, addr 0x6c163c8, size 0x160, virtual false, abstract: false, final false
+  static inline bool IsTextureXR(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo> destDesc, int32_t sourceSlice, int32_t destinationSlice, int32_t numSlices, int32_t numMips);
 
   static inline ::UnityEngine::Vector4 getStaticF_s_BlitScaleBias();
 
@@ -1100,7 +1197,7 @@ public:
   RenderGraphUtils(RenderGraphUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9391 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

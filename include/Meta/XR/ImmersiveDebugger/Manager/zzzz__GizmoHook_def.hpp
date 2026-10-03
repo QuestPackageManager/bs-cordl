@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set__SetState_k__BackingField(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x5a642e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e7c018, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute,
                     ::System::Action_1<bool>* setState, ::System::Func_1<bool>* getState);
 
   /// [CompilerGenerated]
-  /// @brief Method get_GetState, addr 0x5a646c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GetState, addr 0x5e7c3fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<bool>* get_GetState();
 
   /// [CompilerGenerated]
-  /// @brief Method get_SetState, addr 0x5a646bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SetState, addr 0x5e7c3f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<bool>* get_SetState();
 
 protected:
@@ -87,7 +87,7 @@ public:
   GizmoHook(GizmoHook const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18971 };
 
   /// [CompilerGenerated]
   /// @brief Field <SetState>k__BackingField, offset: 0x40, size: 0x8, def value: None

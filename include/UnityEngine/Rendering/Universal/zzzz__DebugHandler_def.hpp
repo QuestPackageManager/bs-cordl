@@ -240,7 +240,7 @@ public:
 
   constexpr void __cordl_internal_set_resolveFinalTarget(bool value);
 
-  /// @brief Method .ctor, addr 0x684e0ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c89338, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -258,7 +258,7 @@ public:
   DebugHandler_DebugFinalValidationPassData(DebugHandler_DebugFinalValidationPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12879 };
 
   /// @brief Field isFinalPass, offset: 0x10, size: 0x1, def value: None
   bool ___isFinalPass;
@@ -367,7 +367,7 @@ public:
 
   constexpr void __cordl_internal_set_renderingSettings(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* value);
 
-  /// @brief Method .ctor, addr 0x684e0e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c8933c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -385,7 +385,7 @@ public:
   DebugHandler_DebugSetupPassData(DebugHandler_DebugSetupPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12880 };
 
   /// @brief Field isActiveForCamera, offset: 0x10, size: 0x1, def value: None
   bool ___isActiveForCamera;
@@ -424,44 +424,44 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::DebugHandler___c* __9;
 
-  /// @brief Field <>9__101_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__101_0,
-                      put = setStaticF___9__101_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DebugHandler_DebugFinalValidationPassData*,
-                                                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__101_0;
+  /// @brief Field <>9__103_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__103_0,
+                      put = setStaticF___9__103_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DebugHandler_DebugFinalValidationPassData*,
+                                                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__103_0;
 
-  /// @brief Field <>9__106_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__106_0,
-                      put = setStaticF___9__106_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DebugHandler_DebugSetupPassData*,
-                                                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__106_0;
+  /// @brief Field <>9__108_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__108_0,
+                      put = setStaticF___9__108_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DebugHandler_DebugSetupPassData*,
+                                                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__108_0;
 
   static inline ::UnityEngine::Rendering::Universal::DebugHandler___c* New_ctor();
 
-  /// @brief Method <Setup>b__106_0, addr 0x6851384, size 0x4, virtual false, abstract: false, final false
-  inline void _Setup_b__106_0(::UnityEngine::Rendering::Universal::DebugHandler_DebugSetupPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
+  /// @brief Method <Setup>b__108_0, addr 0x6c89404, size 0x4, virtual false, abstract: false, final false
+  inline void _Setup_b__108_0(::UnityEngine::Rendering::Universal::DebugHandler_DebugSetupPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <UpdateShaderGlobalPropertiesForFinalValidationPass>b__101_0, addr 0x685131c, size 0x68, virtual false, abstract: false, final false
-  inline void _UpdateShaderGlobalPropertiesForFinalValidationPass_b__101_0(::UnityEngine::Rendering::Universal::DebugHandler_DebugFinalValidationPassData* data,
+  /// @brief Method <UpdateShaderGlobalPropertiesForFinalValidationPass>b__103_0, addr 0x6c89398, size 0x6c, virtual false, abstract: false, final false
+  inline void _UpdateShaderGlobalPropertiesForFinalValidationPass_b__103_0(::UnityEngine::Rendering::Universal::DebugHandler_DebugFinalValidationPassData* data,
                                                                            ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6851318, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c89394, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::DebugHandler___c* getStaticF___9();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DebugHandler_DebugFinalValidationPassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__101_0();
+  getStaticF___9__103_0();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DebugHandler_DebugSetupPassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__106_0();
+  getStaticF___9__108_0();
 
   static inline void setStaticF___9(::UnityEngine::Rendering::Universal::DebugHandler___c* value);
 
-  static inline void setStaticF___9__101_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DebugHandler_DebugFinalValidationPassData*,
+  static inline void setStaticF___9__103_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DebugHandler_DebugFinalValidationPassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
 
-  static inline void setStaticF___9__106_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DebugHandler_DebugSetupPassData*,
+  static inline void setStaticF___9__108_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DebugHandler_DebugSetupPassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
 
 protected:
@@ -479,7 +479,7 @@ public:
   DebugHandler___c(DebugHandler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12881 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -509,6 +509,8 @@ public:
   __declspec(property(get = get_DebugScreenDepthHandle)) ::UnityEngine::Rendering::RTHandle* DebugScreenDepthHandle;
 
   __declspec(property(get = get_IsActiveModeUnsupportedForDeferred)) bool IsActiveModeUnsupportedForDeferred;
+
+  __declspec(property(get = get_IsDepthPrimingCompatible)) bool IsDepthPrimingCompatible;
 
   __declspec(property(get = get_IsLightingActive)) bool IsLightingActive;
 
@@ -701,105 +703,105 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr operator ::UnityEngine::Rendering::IDebugDisplaySettingsQuery*() noexcept;
 
-  /// @brief Method ConfigureColorDescriptorForDebugScreen, addr 0x684e22c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ConfigureColorDescriptorForDebugScreen, addr 0x6c86aa8, size 0x1c, virtual false, abstract: false, final false
   static inline void ConfigureColorDescriptorForDebugScreen(::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, int32_t cameraWidth, int32_t cameraHeight);
 
-  /// @brief Method ConfigureDepthDescriptorForDebugScreen, addr 0x684e248, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ConfigureDepthDescriptorForDebugScreen, addr 0x6c86ac4, size 0x2c, virtual false, abstract: false, final false
   static inline void ConfigureDepthDescriptorForDebugScreen(::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat,
                                                             int32_t cameraWidth, int32_t cameraHeight);
 
-  /// @brief Method CreateRendererListsWithDebugRenderState, addr 0x68500c4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererListsWithDebugRenderState, addr 0x6c88988, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugRendererLists* CreateRendererListsWithDebugRenderState(::UnityEngine::Rendering::ScriptableRenderContext context,
                                                                                                           ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                                                                                           ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings,
                                                                                                           ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings,
                                                                                                           ::by_ref<::UnityEngine::Rendering::RenderStateBlock> renderStateBlock);
 
-  /// @brief Method CreateRendererListsWithDebugRenderState, addr 0x6850658, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererListsWithDebugRenderState, addr 0x6c88a50, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugRendererLists* CreateRendererListsWithDebugRenderState(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                                           ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                                                                                           ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings,
                                                                                                           ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings,
                                                                                                           ::by_ref<::UnityEngine::Rendering::RenderStateBlock> renderStateBlock);
 
-  /// @brief Method Dispose, addr 0x684e0f0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c86964, size 0xc8, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method HDRDebugViewIsActive, addr 0x684dca8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HDRDebugViewIsActive, addr 0x6c864f8, size 0x30, virtual false, abstract: false, final false
   inline bool HDRDebugViewIsActive(bool resolveFinalTarget);
 
-  /// @brief Method InitDebugFinalValidationPassData, addr 0x684e838, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method InitDebugFinalValidationPassData, addr 0x6c87168, size 0x1ec, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugHandler_DebugFinalValidationPassData*
   InitDebugFinalValidationPassData(::UnityEngine::Rendering::Universal::DebugHandler_DebugFinalValidationPassData* passData, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                    bool isFinalPass);
 
-  /// @brief Method InitDebugSetupPassData, addr 0x684f77c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InitDebugSetupPassData, addr 0x6c880b0, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugHandler_DebugSetupPassData* InitDebugSetupPassData(::UnityEngine::Rendering::Universal::DebugHandler_DebugSetupPassData* passData,
                                                                                                       bool isPreviewCamera);
 
-  /// @brief Method IsActiveForCamera, addr 0x684e1b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsActiveForCamera, addr 0x6c86a2c, size 0x28, virtual false, abstract: false, final false
   inline bool IsActiveForCamera(bool isPreviewCamera);
 
   static inline ::UnityEngine::Rendering::Universal::DebugHandler* New_ctor();
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method Render, addr 0x684fff8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6c888bc, size 0xcc, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle srcColor, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle overlayTexture,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle dstColor);
 
-  /// @brief Method ResetDebugRenderTarget, addr 0x684e830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResetDebugRenderTarget, addr 0x6c87160, size 0x8, virtual false, abstract: false, final false
   inline void ResetDebugRenderTarget();
 
-  /// @brief Method SetDebugRenderTarget, addr 0x684e80c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetDebugRenderTarget, addr 0x6c87098, size 0xc8, virtual false, abstract: false, final false
   inline void SetDebugRenderTarget(::UnityEngine::Rendering::RTHandle* renderTarget, ::UnityEngine::Rect displayRect, bool supportsStereo, ::UnityEngine::Vector4 dataRangeRemap);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method Setup, addr 0x684fbf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6c88528, size 0x4, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::CommandBuffer* cmd, bool isPreviewCamera);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method Setup, addr 0x684f7e4, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6c88118, size 0x410, virtual false, abstract: false, final false
   static inline void Setup(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DebugHandler_DebugSetupPassData* passData);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method Setup, addr 0x684fbf8, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6c8852c, size 0x390, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, bool isPreviewCamera);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method SetupShaderProperties, addr 0x684e264, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method SetupShaderProperties, addr 0x6c86af0, size 0x5a8, virtual false, abstract: false, final false
   inline void SetupShaderProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, int32_t passIndex);
 
-  /// @brief Method TryGetFullscreenDebugMode, addr 0x684e1d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TryGetFullscreenDebugMode, addr 0x6c86a54, size 0x18, virtual false, abstract: false, final false
   inline bool TryGetFullscreenDebugMode(::by_ref<::UnityEngine::Rendering::Universal::DebugFullScreenMode> debugFullScreenMode);
 
-  /// @brief Method TryGetFullscreenDebugMode, addr 0x684e1f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method TryGetFullscreenDebugMode, addr 0x6c86a6c, size 0x3c, virtual false, abstract: false, final false
   inline bool TryGetFullscreenDebugMode(::by_ref<::UnityEngine::Rendering::Universal::DebugFullScreenMode> debugFullScreenMode, ::by_ref<int32_t> textureHeightPercent);
 
-  /// @brief Method TryGetScreenClearColor, addr 0x684dc64, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method TryGetScreenClearColor, addr 0x6c864b4, size 0x1c, virtual true, abstract: false, final true
   inline bool TryGetScreenClearColor(::by_ref<::UnityEngine::Color> color);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method UpdateShaderGlobalPropertiesForFinalValidationPass, addr 0x684ed50, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method UpdateShaderGlobalPropertiesForFinalValidationPass, addr 0x6c87680, size 0x224, virtual false, abstract: false, final false
   inline void UpdateShaderGlobalPropertiesForFinalValidationPass(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, bool isFinalPass);
 
-  /// @brief Method UpdateShaderGlobalPropertiesForFinalValidationPass, addr 0x684ea24, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method UpdateShaderGlobalPropertiesForFinalValidationPass, addr 0x6c87354, size 0x32c, virtual false, abstract: false, final false
   static inline void UpdateShaderGlobalPropertiesForFinalValidationPass(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
                                                                         ::UnityEngine::Rendering::Universal::DebugHandler_DebugFinalValidationPassData* data);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method UpdateShaderGlobalPropertiesForFinalValidationPass, addr 0x684ef00, size 0x87c, virtual false, abstract: false, final false
+  /// @brief Method UpdateShaderGlobalPropertiesForFinalValidationPass, addr 0x6c878a4, size 0x80c, virtual false, abstract: false, final false
   inline void UpdateShaderGlobalPropertiesForFinalValidationPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                  ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, bool isFinalPass);
 
-  /// @brief Method WriteToDebugScreenTexture, addr 0x684dcd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WriteToDebugScreenTexture, addr 0x6c86528, size 0x4, virtual false, abstract: false, final false
   inline bool WriteToDebugScreenTexture(bool resolveFinalTarget);
 
   constexpr ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings* const& __cordl_internal_get_m_DebugDisplaySettings() const;
@@ -898,7 +900,7 @@ public:
 
   constexpr void __cordl_internal_set_s_DebugSetupPassData(::UnityEngine::Rendering::Universal::DebugHandler_DebugSetupPassData* value);
 
-  /// @brief Method .ctor, addr 0x684dd64, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c865e0, size 0x384, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_k_DebugColorInvalidModePropertyId();
@@ -977,49 +979,52 @@ public:
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF_s_DebugSetupSampler();
 
-  /// @brief Method get_AreAnySettingsActive, addr 0x684db9c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_AreAnySettingsActive, addr 0x6c863ec, size 0x1c, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
 
-  /// @brief Method get_DebugDisplaySettings, addr 0x684dc88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DebugDisplaySettings, addr 0x6c864d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings* get_DebugDisplaySettings();
 
-  /// @brief Method get_DebugScreenColorHandle, addr 0x684dc90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DebugScreenColorHandle, addr 0x6c864e0, size 0x8, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::RTHandle*> get_DebugScreenColorHandle();
 
-  /// @brief Method get_DebugScreenDepthHandle, addr 0x684dc98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DebugScreenDepthHandle, addr 0x6c864e8, size 0x8, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::RTHandle*> get_DebugScreenDepthHandle();
 
-  /// @brief Method get_IsActiveModeUnsupportedForDeferred, addr 0x684dbf0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_IsActiveModeUnsupportedForDeferred, addr 0x6c86440, size 0x74, virtual false, abstract: false, final false
   inline bool get_IsActiveModeUnsupportedForDeferred();
 
-  /// @brief Method get_IsLightingActive, addr 0x684dbd4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_IsDepthPrimingCompatible, addr 0x6c86590, size 0x2c, virtual false, abstract: false, final false
+  inline bool get_IsDepthPrimingCompatible();
+
+  /// @brief Method get_IsLightingActive, addr 0x6c86424, size 0x1c, virtual true, abstract: false, final true
   inline bool get_IsLightingActive();
 
-  /// @brief Method get_IsPostProcessingAllowed, addr 0x684dbb8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_IsPostProcessingAllowed, addr 0x6c86408, size 0x1c, virtual true, abstract: false, final true
   inline bool get_IsPostProcessingAllowed();
 
-  /// @brief Method get_IsRenderPassSupported, addr 0x684dd14, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_IsRenderPassSupported, addr 0x6c86564, size 0x2c, virtual false, abstract: false, final false
   inline bool get_IsRenderPassSupported();
 
-  /// @brief Method get_IsScreenClearNeeded, addr 0x684dcdc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_IsScreenClearNeeded, addr 0x6c8652c, size 0x38, virtual false, abstract: false, final false
   inline bool get_IsScreenClearNeeded();
 
-  /// @brief Method get_LightingSettings, addr 0x684db54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_LightingSettings, addr 0x6c863a4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting* get_LightingSettings();
 
-  /// @brief Method get_MaterialSettings, addr 0x684db6c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_MaterialSettings, addr 0x6c863bc, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial* get_MaterialSettings();
 
-  /// @brief Method get_RenderingSettings, addr 0x684db84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_RenderingSettings, addr 0x6c863d4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* get_RenderingSettings();
 
-  /// @brief Method get_ReplacementMaterial, addr 0x684dc80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReplacementMaterial, addr 0x6c864d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_ReplacementMaterial();
 
-  /// @brief Method get_hdrDebugViewPass, addr 0x684dca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hdrDebugViewPass, addr 0x6c864f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::HDRDebugViewPass* get_hdrDebugViewPass();
 
-  /// @brief Method get_stpDebugViewIndex, addr 0x684dd40, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_stpDebugViewIndex, addr 0x6c865bc, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_stpDebugViewIndex();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
@@ -1116,7 +1121,7 @@ public:
   DebugHandler(DebugHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12882 };
 
   /// @brief Field s_DebugSetupPassData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugHandler_DebugSetupPassData* ___s_DebugSetupPassData;

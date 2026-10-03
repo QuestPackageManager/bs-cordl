@@ -69,24 +69,24 @@ public:
   /// @brief Field _spinnerShownAtTimeSec, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__spinnerShownAtTimeSec, put = __cordl_internal_set__spinnerShownAtTimeSec)) float_t _spinnerShownAtTimeSec;
 
-  /// @brief Method AddRenderPasses, addr 0x5f4374c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x635ee5c, size 0x68, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x5f4340c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x635ebc0, size 0xf8, virtual true, abstract: false, final false
   inline void Create();
 
-  /// @brief Method Dispose, addr 0x5f4373c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x635ee4c, size 0x10, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnqueueLoadingIndicatorPassIfDue, addr 0x5f437b8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method EnqueueLoadingIndicatorPassIfDue, addr 0x635eec8, size 0x138, virtual false, abstract: false, final false
   inline void EnqueueLoadingIndicatorPassIfDue(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::GlobalNamespace::MainEffectController* controller);
 
-  /// @brief Method GetEnabledController, addr 0x5f438f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetEnabledController, addr 0x635f000, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::MainEffectController> GetEnabledController(::UnityEngine::Camera* camera);
 
   static inline ::GlobalNamespace::MainEffectRendererFeature* New_ctor();
 
-  /// @brief Method ResolveController, addr 0x5f437b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ResolveController, addr 0x635eec4, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::MainEffectController> ResolveController(::UnityEngine::Camera* camera);
 
   constexpr float_t const& __cordl_internal_get__loadingIndicatorDelaySec() const;
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set__spinnerShownAtTimeSec(float_t value);
 
-  /// @brief Method .ctor, addr 0x5f439ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x635f0bc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -149,7 +149,7 @@ public:
   MainEffectRendererFeature(MainEffectRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21124 };
 
   /// @brief Field kFadedOutThreshold offset 0xffffffff size 0x4
   static constexpr float_t kFadedOutThreshold{ static_cast<float_t>(0.0001f) };

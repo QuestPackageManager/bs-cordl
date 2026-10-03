@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x5a20444, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e3b8b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   GraphicSettingsViewController(GraphicSettingsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6585 };
 
   /// [Inject]
   /// @brief Field _settingsManager, offset: 0x78, size: 0x8, def value: None

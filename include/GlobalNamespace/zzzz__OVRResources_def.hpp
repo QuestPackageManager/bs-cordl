@@ -53,7 +53,7 @@ public:
 
   static inline ::GlobalNamespace::OVRResources___c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <Load>b__0, addr 0x5ebf65c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <Load>b__0, addr 0x62d9b40, size 0x48, virtual false, abstract: false, final false
   inline bool _Load_b__0(::StringW s);
 
   constexpr ::StringW const& __cordl_internal_get_path() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_path(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5ebf568, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62d9a4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +80,7 @@ public:
   OVRResources___c__DisplayClass2_0(OVRResources___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7769 };
 
   /// @brief Field path, offset: 0x10, size: 0x8, def value: None
   ::StringW ___path;
@@ -135,7 +135,7 @@ public:
   OVRResources___c__DisplayClass3_0_1(OVRResources___c__DisplayClass3_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7770 };
 
   /// @brief Field path, offset: 0x10, size: 0x8, def value: None
   ::StringW ___path;
@@ -161,7 +161,7 @@ public:
   /// @brief Field resourceBundle, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_resourceBundle, put = setStaticF_resourceBundle)) ::UnityW<::UnityEngine::AssetBundle> resourceBundle;
 
-  /// @brief Method Load, addr 0x5ebf358, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x62d983c, size 0x210, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path);
 
   /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -171,10 +171,10 @@ public:
 
   static inline ::GlobalNamespace::OVRResources* New_ctor();
 
-  /// @brief Method SetResourceBundle, addr 0x5ebf56c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetResourceBundle, addr 0x62d9a50, size 0xec, virtual false, abstract: false, final false
   static inline void SetResourceBundle(::UnityEngine::AssetBundle* bundle);
 
-  /// @brief Method .ctor, addr 0x5ebf658, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62d9b3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::StringW>* getStaticF_assetNames();
@@ -200,7 +200,7 @@ public:
   OVRResources(OVRResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7771 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

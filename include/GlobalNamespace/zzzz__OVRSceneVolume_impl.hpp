@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::get_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecfda0;
+  constexpr static std::size_t addrs = 0x62ea294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolume*>(), { "get_Width", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)(float_t)>(&::GlobalNamespace::OVRSceneVolume::set_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecfda8;
+  constexpr static std::size_t addrs = 0x62ea29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolume*>(), { "set_Width", {}, { ::i2c::type_of<float_t>() } })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::get_Height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecfdb0;
+  constexpr static std::size_t addrs = 0x62ea2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolume*>(), { "get_Height", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)(float_t)>(&::GlobalNamespace::OVRSceneVolume::set_Height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecfdb8;
+  constexpr static std::size_t addrs = 0x62ea2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::get_Depth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecfdc0;
+  constexpr static std::size_t addrs = 0x62ea2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolume*>(), { "get_Depth", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)(float_t)>(&::GlobalNamespace::OVRSceneVolume::set_Depth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecfdc8;
+  constexpr static std::size_t addrs = 0x62ea2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolume*>(), { "set_Depth", {}, { ::i2c::type_of<float_t>() } })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::get_Dimensions)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ecfdd0;
+  constexpr static std::size_t addrs = 0x62ea2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolume*>(), { "get_Dimensions", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::get_Offset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ecfddc;
+  constexpr static std::size_t addrs = 0x62ea2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolume*>(), { "get_Offset", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)(::UnityEngine::Vector3)>(&::GlobalNamespace::OVRSceneVolume::set_Offset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ecfde8;
+  constexpr static std::size_t addrs = 0x62ea2dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::get_ScaleChildren)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecfdf4;
+  constexpr static std::size_t addrs = 0x62ea2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolume*>(), { "get_ScaleChildren", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)(bool)>(&::GlobalNamespace::OVRSceneVolume::set_ScaleChildren)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5ecfdfc;
+  constexpr static std::size_t addrs = 0x62ea2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::get_OffsetChildren)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecff08;
+  constexpr static std::size_t addrs = 0x62ea3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolume*>(), { "get_OffsetChildren", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)(bool)>(&::GlobalNamespace::OVRSceneVolume::set_OffsetChildren)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5ecff10;
+  constexpr static std::size_t addrs = 0x62ea404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::Awake)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5ed001c;
+  constexpr static std::size_t addrs = 0x62ea510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolume*>(), { "Awake", {}, {} })));
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::IOVRSceneComponent_Initialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ed00f8;
+  constexpr static std::size_t addrs = 0x62ea5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolume*>(), { "IOVRSceneComponent.Initialize", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::SetChildScale)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5ecfe24;
+  constexpr static std::size_t addrs = 0x62ea318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolume*>(), { "SetChildScale", {}, {} })));
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::SetChildOffset)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5ecff38;
+  constexpr static std::size_t addrs = 0x62ea42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolume*>(), { "SetChildOffset", {}, {} })));
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::UpdateTransform)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5ec505c;
+  constexpr static std::size_t addrs = 0x62df550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolume*>(), { "UpdateTransform", {}, {} })));
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ed00fc;
+  constexpr static std::size_t addrs = 0x62ea5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolume*>(), { ".ctor", {}, {} })));

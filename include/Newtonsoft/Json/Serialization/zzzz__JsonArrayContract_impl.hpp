@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Newtonsoft::Json::Serialization::JsonArrayContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonArrayContract::get_CollectionItemType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d40efc;
+  constexpr static std::size_t addrs = 0x615aae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Serialization::JsonArrayContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonArrayContract::get_IsMultidimensionalArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d40f04;
+  constexpr static std::size_t addrs = 0x615aae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Serialization::JsonArrayContract::*)()>(&::Newtonsoft::Json::Serialization::JsonArrayContract::get_IsArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d40f0c;
+  constexpr static std::size_t addrs = 0x615aaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonArrayContract*>(), { "get_IsArray", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Serialization::JsonArrayContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonArrayContract::get_ShouldCreateWrapper)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d40f14;
+  constexpr static std::size_t addrs = 0x615aaf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Serialization::JsonArrayContract::*)()>(&::Newtonsoft::Json::Serialization::JsonArrayContract::get_CanDeserialize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d40f1c;
+  constexpr static std::size_t addrs = 0x615ab00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonArrayContract::*)(bool)>(
     &::Newtonsoft::Json::Serialization::JsonArrayContract::set_CanDeserialize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d40f24;
+  constexpr static std::size_t addrs = 0x615ab08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* (::Newtonsoft::Json::Serialization::JsonArrayContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonArrayContract::get_ParameterizedCreator)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5d40f2c;
+  constexpr static std::size_t addrs = 0x615ab10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* (::Newtonsoft::Json::Serialization::JsonArrayContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonArrayContract::get_OverrideCreator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d40ff4;
+  constexpr static std::size_t addrs = 0x615abd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonArrayContract::*)(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*)>(
     &::Newtonsoft::Json::Serialization::JsonArrayContract::set_OverrideCreator)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d3cf04;
+  constexpr static std::size_t addrs = 0x6156ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Serialization::JsonArrayContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonArrayContract::get_HasParameterizedCreator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d40ffc;
+  constexpr static std::size_t addrs = 0x615abe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonArrayContract::*)(bool)>(
     &::Newtonsoft::Json::Serialization::JsonArrayContract::set_HasParameterizedCreator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d41004;
+  constexpr static std::size_t addrs = 0x615abe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Serialization::JsonArrayContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonArrayContract::get_HasParameterizedCreatorInternal)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5d4100c;
+  constexpr static std::size_t addrs = 0x615abf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonArrayContract::*)(::System::Type*)>(&::Newtonsoft::Json::Serialization::JsonArrayContract::_ctor)> {
   constexpr static std::size_t size = 0xd84;
-  constexpr static std::size_t addrs = 0x5d3c180;
+  constexpr static std::size_t addrs = 0x6155d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Utilities::IWrappedCollection* (::Newtonsoft::Json::Serialization::JsonArrayContract::*)(::System::Object*)>(
     &::Newtonsoft::Json::Serialization::JsonArrayContract::CreateWrapper)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x5d41374;
+  constexpr static std::size_t addrs = 0x615af58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::Newtonsoft::Json::Serialization::JsonArrayContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonArrayContract::CreateTemporaryCollection)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x5d41750;
+  constexpr static std::size_t addrs = 0x615b334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonArrayContract::*)(::System::Type*)>(
     &::Newtonsoft::Json::Serialization::JsonArrayContract::StoreFSharpListCreatorIfNecessary)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5d4124c;
+  constexpr static std::size_t addrs = 0x615ae30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonArrayContract*>(),

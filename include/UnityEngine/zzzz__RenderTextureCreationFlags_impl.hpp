@@ -17,4 +17,5 @@ constexpr ::UnityEngine::RenderTextureCreationFlags UnityEngine::RenderTextureCr
 constexpr ::UnityEngine::RenderTextureCreationFlags UnityEngine::RenderTextureCreationFlags::NoResolvedColorSurface{ static_cast<int32_t>(0x100) };
 constexpr ::UnityEngine::RenderTextureCreationFlags UnityEngine::RenderTextureCreationFlags::DynamicallyScalable{ static_cast<int32_t>(0x400) };
 constexpr ::UnityEngine::RenderTextureCreationFlags UnityEngine::RenderTextureCreationFlags::BindMS{ static_cast<int32_t>(0x800) };
+constexpr ::UnityEngine::RenderTextureCreationFlags UnityEngine::RenderTextureCreationFlags::ShadingRate{ static_cast<int32_t>(0x4000) };
 constexpr ::UnityEngine::RenderTextureCreationFlags UnityEngine::RenderTextureCreationFlags::DynamicallyScalableExplicit{ static_cast<int32_t>(0x20000) };

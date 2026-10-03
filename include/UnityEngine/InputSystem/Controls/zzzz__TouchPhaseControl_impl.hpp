@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::TouchPhaseControl::*)()>(&::UnityEngine::InputSystem::Controls::TouchPhaseControl::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x64fcfe0;
+  constexpr static std::size_t addrs = 0x6925e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::TouchPhaseControl*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::TouchPhase (::UnityEngine::InputSystem::Controls::TouchPhaseControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::TouchPhaseControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64fd064;
+  constexpr static std::size_t addrs = 0x6925eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::TouchPhaseControl*>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::TouchPhaseControl::*)(::UnityEngine::InputSystem::TouchPhase, void*)>(
     &::UnityEngine::InputSystem::Controls::TouchPhaseControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64fd0e4;
+  constexpr static std::size_t addrs = 0x6925f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::TouchPhaseControl*>(),

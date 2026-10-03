@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicTableCell::*)(
     ::GlobalNamespace::BeatmapCharacteristicCollection*, ::GlobalNamespace::BeatmapCharacteristic)>(&::GlobalNamespace::BeatmapCharacteristicTableCell::SetData)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x59227bc;
+  constexpr static std::size_t addrs = 0x5d3cec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicTableCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::BeatmapCharacteristicTableCell::SelectionDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5922878;
+  constexpr static std::size_t addrs = 0x5d3cf7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicTableCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::BeatmapCharacteristicTableCell::HighlightDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5922900;
+  constexpr static std::size_t addrs = 0x5d3d004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicTableCell::*)()>(&::GlobalNamespace::BeatmapCharacteristicTableCell::RefreshVisuals)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x592287c;
+  constexpr static std::size_t addrs = 0x5d3cf80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicTableCell*>(), { "RefreshVisuals", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicTableCell::*)()>(&::GlobalNamespace::BeatmapCharacteristicTableCell::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5922904;
+  constexpr static std::size_t addrs = 0x5d3d008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicTableCell*>(), { ".ctor", {}, {} })));

@@ -61,7 +61,7 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE StyleSelectorHelper_SelectorWorkItem {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6d17b14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71c9050, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheet_OrderedSelectorType type, ::StringW input);
 
   // Ctor Parameters []
@@ -73,7 +73,7 @@ public:
   constexpr StyleSelectorHelper_SelectorWorkItem(::UnityEngine::UIElements::StyleSheet_OrderedSelectorType type, ::StringW input) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5581 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -103,23 +103,23 @@ public:
   // Declarations
   using SelectorWorkItem = ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem;
 
-  /// @brief Method FastLookup, addr 0x6d17394, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method FastLookup, addr 0x71c88ec, size 0xf4, virtual false, abstract: false, final false
   static inline void FastLookup(::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* table,
                                 ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors,
                                 ::UnityEngine::UIElements::StyleMatchingContext* context, ::StringW input, ::by_ref<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord> record);
 
-  /// @brief Method FindMatches, addr 0x6d17488, size 0x68c, virtual false, abstract: false, final false
+  /// @brief Method FindMatches, addr 0x71c89e0, size 0x670, virtual false, abstract: false, final false
   static inline void FindMatches(::UnityEngine::UIElements::StyleMatchingContext* context,
                                  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors, int32_t parentSheetIndex);
 
-  /// @brief Method MatchRightToLeft, addr 0x6d170ec, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method MatchRightToLeft, addr 0x71c8638, size 0x168, virtual false, abstract: false, final false
   static inline bool MatchRightToLeft(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector,
                                       ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult);
 
-  /// @brief Method MatchesSelector, addr 0x6d16e90, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method MatchesSelector, addr 0x71c839c, size 0x29c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::MatchResultInfo MatchesSelector(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleSelector* selector);
 
-  /// @brief Method TestSelectorLinkedList, addr 0x6d17254, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method TestSelectorLinkedList, addr 0x71c87a0, size 0x14c, virtual false, abstract: false, final false
   static inline void TestSelectorLinkedList(::UnityEngine::UIElements::StyleComplexSelector* currentComplexSelector,
                                             ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors,
                                             ::UnityEngine::UIElements::StyleMatchingContext* context, ::by_ref<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord> record);
@@ -139,7 +139,7 @@ public:
   StyleSelectorHelper(StyleSelectorHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5582 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

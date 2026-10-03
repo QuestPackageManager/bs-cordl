@@ -71,24 +71,24 @@ public:
 
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  /// @brief Method CreateFullScreenTriangleVertexPosition, addr 0x5f46010, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CreateFullScreenTriangleVertexPosition, addr 0x6361714, size 0xb4, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3> CreateFullScreenTriangleVertexPosition(float_t z);
 
-  /// @brief Method InitTriangleMeshIfNeeded, addr 0x5f45c3c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method InitTriangleMeshIfNeeded, addr 0x6361340, size 0x1c4, virtual false, abstract: false, final false
   inline void InitTriangleMeshIfNeeded();
 
   static inline ::GlobalNamespace::NoPostProcessMainEffectSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5f45e00, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6361504, size 0x30, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5f45b08, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x636120c, size 0x134, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PostRender, addr 0x5f45ea8, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method PostRender, addr 0x63615ac, size 0x168, virtual true, abstract: false, final false
   inline void PostRender(::UnityEngine::Rendering::RasterCommandBuffer* cmd, float_t fade);
 
-  /// @brief Method PreRender, addr 0x5f45e30, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x6361534, size 0x78, virtual true, abstract: false, final false
   inline void PreRender(::UnityEngine::Rendering::IBaseCommandBuffer* cmd);
 
   constexpr float_t const& __cordl_internal_get__baseColorBoost() const;
@@ -145,10 +145,10 @@ public:
 
   constexpr void __cordl_internal_set_clearScreenAlpha(bool value);
 
-  /// @brief Method .ctor, addr 0x5f460c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63617c8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x5f45b00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x6361204, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
 protected:
@@ -166,7 +166,7 @@ public:
   NoPostProcessMainEffectSO(NoPostProcessMainEffectSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21135 };
 
   /// [SerializeField]
   /// @brief Field _fadeShader, offset: 0x18, size: 0x8, def value: None
@@ -176,9 +176,9 @@ public:
   /// @brief Field _setAlphaShader, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____setAlphaShader;
 
-  /// [Range(0, 3)]
-  /// [SerializeField]
   /// [Space]
+  /// [SerializeField]
+  /// [Range(0, 3)]
   /// @brief Field _baseColorBoost, offset: 0x28, size: 0x4, def value: None
   float_t ____baseColorBoost;
 

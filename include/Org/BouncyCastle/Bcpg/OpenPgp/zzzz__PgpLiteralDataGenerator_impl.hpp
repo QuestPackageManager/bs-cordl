@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::*)()>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3585f24;
+  constexpr static std::size_t addrs = 0x380f1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::*)(bool)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3585f28;
+  constexpr static std::size_t addrs = 0x380f1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::*)(
     ::Org::BouncyCastle::Bcpg::BcpgOutputStream*, char16_t, ::ArrayW<uint8_t>, int64_t)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::WriteHeader)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3585f30;
+  constexpr static std::size_t addrs = 0x380f1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IO::Stream* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::*)(::System::IO::Stream*, char16_t, ::StringW, int64_t, ::System::DateTime)>(
         &::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::Open)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3586078;
+  constexpr static std::size_t addrs = 0x380f314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IO::Stream* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::*)(::System::IO::Stream*, char16_t, ::StringW, ::System::DateTime, ::ArrayW<uint8_t>)>(
         &::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::Open)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3586244;
+  constexpr static std::size_t addrs = 0x380f4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator*>(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::*)(::System::IO::Stream*, char16_t, ::System::IO::FileInfo*)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::Open)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x35863fc;
+  constexpr static std::size_t addrs = 0x380f698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::*)()>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::Close)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3586480;
+  constexpr static std::size_t addrs = 0x380f71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator*>(), { "Close", {}, {} })));

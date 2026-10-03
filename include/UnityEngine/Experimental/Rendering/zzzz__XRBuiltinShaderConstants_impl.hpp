@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4, bool, int32_t)>(
     &::UnityEngine::Experimental::Rendering::XRBuiltinShaderConstants::UpdateBuiltinShaderConstants)> {
-  constexpr static std::size_t size = 0x408;
-  constexpr static std::size_t addrs = 0x6745060;
+  constexpr static std::size_t size = 0x3f8;
+  constexpr static std::size_t addrs = 0x6b59b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Experimental::Rendering::XRBuiltinShaderConstants::SetBuiltinShaderConstants)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6745468;
+  constexpr static std::size_t addrs = 0x6b59f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRBuiltinShaderConstants*>(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*)>(
     &::UnityEngine::Experimental::Rendering::XRBuiltinShaderConstants::SetBuiltinShaderConstants)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67455bc;
+  constexpr static std::size_t addrs = 0x6b5a0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRBuiltinShaderConstants*>(),
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Experimental::Rendering::XRPass*, ::UnityEngine::Rendering::CommandBuffer*, bool)>(
     &::UnityEngine::Experimental::Rendering::XRBuiltinShaderConstants::Update)> {
-  constexpr static std::size_t size = 0x704;
-  constexpr static std::size_t addrs = 0x6745620;
+  constexpr static std::size_t size = 0x6f4;
+  constexpr static std::size_t addrs = 0x6b5a134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,6 +123,12 @@ inline void UnityEngine::Experimental::Rendering::XRBuiltinShaderConstants::setS
 }
 inline int32_t UnityEngine::Experimental::Rendering::XRBuiltinShaderConstants::getStaticF_unity_StereoWorldSpaceCameraPos() {
   return ::cordl_internals::getStaticField<int32_t, "unity_StereoWorldSpaceCameraPos", ::UnityEngine::Experimental::Rendering::XRBuiltinShaderConstants*>();
+}
+inline void UnityEngine::Experimental::Rendering::XRBuiltinShaderConstants::setStaticF_unity_StereoEyeIndex(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "unity_StereoEyeIndex", ::UnityEngine::Experimental::Rendering::XRBuiltinShaderConstants*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Experimental::Rendering::XRBuiltinShaderConstants::getStaticF_unity_StereoEyeIndex() {
+  return ::cordl_internals::getStaticField<int32_t, "unity_StereoEyeIndex", ::UnityEngine::Experimental::Rendering::XRBuiltinShaderConstants*>();
 }
 inline void UnityEngine::Experimental::Rendering::XRBuiltinShaderConstants::setStaticF_s_cameraProjMatrix(::ArrayW<::UnityEngine::Matrix4x4> value) {
   ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::Matrix4x4>, "s_cameraProjMatrix", ::UnityEngine::Experimental::Rendering::XRBuiltinShaderConstants*>(

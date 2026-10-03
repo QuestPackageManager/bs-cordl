@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::Syntax::Expression::*)(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType)>(
     &::UnityEngine::UIElements::StyleSheets::Syntax::Expression::_ctor)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6d1ba2c;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x71ccef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>(),
@@ -80,6 +80,30 @@ constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*> 
 constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_set_subExpressions(::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___subExpressions = value;
+}
+constexpr float_t& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_min() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___min;
+}
+constexpr float_t const& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_min() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___min;
+}
+constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_set_min(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___min = value;
+}
+constexpr float_t& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_max() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___max;
+}
+constexpr float_t const& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_max() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___max;
+}
+constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_set_max(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___max = value;
 }
 constexpr ::StringW& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_keyword() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

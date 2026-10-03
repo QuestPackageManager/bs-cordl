@@ -76,23 +76,23 @@ public:
 
   constexpr void __cordl_internal_set__repaintEvent_k__BackingField(::UnityEngine::Event* value);
 
-  /// @brief Method .ctor, addr 0x6db7630, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x726ab1c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_currentOffset, addr 0x6db7600, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_currentOffset, addr 0x726aaec, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_currentOffset();
 
   /// [CompilerGenerated]
-  /// @brief Method get_currentWorldClip, addr 0x6db7614, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentWorldClip, addr 0x726ab00, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_currentWorldClip();
 
   /// [CompilerGenerated]
-  /// @brief Method get_repaintEvent, addr 0x6db7620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_repaintEvent, addr 0x726ab0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Event* get_repaintEvent();
 
   /// [CompilerGenerated]
-  /// @brief Method set_repaintEvent, addr 0x6db7628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_repaintEvent, addr 0x726ab14, size 0x8, virtual false, abstract: false, final false
   inline void set_repaintEvent(::UnityEngine::Event* value);
 
 protected:
@@ -110,7 +110,7 @@ public:
   RepaintData(RepaintData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4682 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
@@ -122,8 +122,8 @@ public:
   /// @brief Field <mousePosition>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____mousePosition_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <currentWorldClip>k__BackingField, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Rect ____currentWorldClip_k__BackingField;
 

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int64_t, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleCache::TryGetValue)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6cce55c;
+  constexpr static std::size_t addrs = 0x715ae84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int64_t, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleCache::SetValue)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6cce5f4;
+  constexpr static std::size_t addrs = 0x715af1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, ::by_ref<::UnityEngine::UIElements::StyleVariableContext*>)>(&::UnityEngine::UIElements::StyleCache::TryGetValue)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6cce6bc;
+  constexpr static std::size_t addrs = 0x715afe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::UnityEngine::UIElements::StyleVariableContext*)>(&::UnityEngine::UIElements::StyleCache::SetValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6cce754;
+  constexpr static std::size_t addrs = 0x715b07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, ::by_ref<::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty>>)>(
     &::UnityEngine::UIElements::StyleCache::TryGetValue)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6cce7fc;
+  constexpr static std::size_t addrs = 0x715b124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,12 +82,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty>)>(&::UnityEngine::UIElements::StyleCache::SetValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6cce894;
+  constexpr static std::size_t addrs = 0x715b1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleCache*>(),
                                                              { "SetValue", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleCache.ClearStyleCache
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::StyleCache::ClearStyleCache)> {
+  constexpr static std::size_t size = 0x25c;
+  constexpr static std::size_t addrs = 0x715b264;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleCache*>(), { "ClearStyleCache", {}, {} })));
     return ___internal_method;
   }
 };
@@ -155,6 +167,10 @@ inline void UnityEngine::UIElements::StyleCache::SetValue(int32_t hash, ::ArrayW
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleCache*>(),
                                                            { "SetValue", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, hash, data);
+}
+inline void UnityEngine::UIElements::StyleCache::ClearStyleCache() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleCache*>(), { "ClearStyleCache", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleCache::StyleCache() {}

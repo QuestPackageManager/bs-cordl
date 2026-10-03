@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__startFromCenter(bool value);
 
-  /// @brief Method .ctor, addr 0x599a4b4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db54f0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
@@ -77,7 +77,7 @@ public:
   LightGroupLinearLayouter(LightGroupLinearLayouter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6021 };
 
   /// [Space]
   /// [SerializeField]

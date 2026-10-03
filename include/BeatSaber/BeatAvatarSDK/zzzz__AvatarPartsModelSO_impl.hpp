@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>> (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::get_headTops)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x327c2cc;
+  constexpr static std::size_t addrs = 0x3502b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>(), { "get_headTops", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>> (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::get_Eyes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x327c2d4;
+  constexpr static std::size_t addrs = 0x3502b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>(), { "get_Eyes", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>> (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::get_Mouths)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x327c2dc;
+  constexpr static std::size_t addrs = 0x3502b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>(), { "get_Mouths", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>> (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::get_Glasses)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x327c2e4;
+  constexpr static std::size_t addrs = 0x3502b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>(), { "get_Glasses", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>> (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::get_FacialHair)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x327c2ec;
+  constexpr static std::size_t addrs = 0x3502b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>(), { "get_FacialHair", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>> (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::get_Hands)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x327c2f4;
+  constexpr static std::size_t addrs = 0x3502b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>(), { "get_Hands", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>> (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::get_Clothes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x327c2fc;
+  constexpr static std::size_t addrs = 0x3502b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>(), { "get_Clothes", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(&::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x327c304;
+  constexpr static std::size_t addrs = 0x3502b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>(), { ".ctor", {}, {} })));

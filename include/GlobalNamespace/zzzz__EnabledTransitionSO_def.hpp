@@ -87,25 +87,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedState(bool value);
 
-  /// @brief Method .ctor, addr 0x6446a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x686d7a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledState, addr 0x6446a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledState, addr 0x686d788, size 0x8, virtual false, abstract: false, final false
   inline bool get_disabledState();
 
-  /// @brief Method get_highlightedState, addr 0x6446a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedState, addr 0x686d778, size 0x8, virtual false, abstract: false, final false
   inline bool get_highlightedState();
 
-  /// @brief Method get_normalState, addr 0x6446a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalState, addr 0x686d770, size 0x8, virtual false, abstract: false, final false
   inline bool get_normalState();
 
-  /// @brief Method get_pressedState, addr 0x6446a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedState, addr 0x686d780, size 0x8, virtual false, abstract: false, final false
   inline bool get_pressedState();
 
-  /// @brief Method get_selectedAndHighlightedState, addr 0x6446a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedState, addr 0x686d798, size 0x8, virtual false, abstract: false, final false
   inline bool get_selectedAndHighlightedState();
 
-  /// @brief Method get_selectedState, addr 0x6446a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedState, addr 0x686d790, size 0x8, virtual false, abstract: false, final false
   inline bool get_selectedState();
 
 protected:
@@ -123,7 +123,7 @@ public:
   EnabledTransitionSO(EnabledTransitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23098 };
 
   /// [SerializeField]
   /// @brief Field _normalState, offset: 0x20, size: 0x1, def value: None

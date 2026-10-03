@@ -69,7 +69,7 @@ public:
   TypedUxmlAttributeDescription_1(TypedUxmlAttributeDescription_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5247 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]

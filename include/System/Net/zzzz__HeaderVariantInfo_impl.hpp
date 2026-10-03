@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HeaderVariantInfo::*)(::StringW, ::System::Net::CookieVariant)>(&::System::Net::HeaderVariantInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x641d264;
+  constexpr static std::size_t addrs = 0x68454f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::HeaderVariantInfo::*)()>(&::System::Net::HeaderVariantInfo::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x641d270;
+  constexpr static std::size_t addrs = 0x6845504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HeaderVariantInfo>(), { "get_Name", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::CookieVariant (::System::Net::HeaderVariantInfo::*)()>(&::System::Net::HeaderVariantInfo::get_Variant)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x641d278;
+  constexpr static std::size_t addrs = 0x684550c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HeaderVariantInfo>(), { "get_Variant", {}, {} })));

@@ -52,7 +52,7 @@ public:
   static ::System::Xml::Formatting const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9336 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11301 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

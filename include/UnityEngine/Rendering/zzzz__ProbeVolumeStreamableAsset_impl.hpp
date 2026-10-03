@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(&::UnityEngine::Rendering::ProbeVolumeStreamableAsset::get_assetGUID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6798f24;
+  constexpr static std::size_t addrs = 0x6bb3da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "get_assetGUID", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::TextAsset> (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::get_asset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6798f2c;
+  constexpr static std::size_t addrs = 0x6bb3db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "get_asset", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(&::UnityEngine::Rendering::ProbeVolumeStreamableAsset::get_elementSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6798f34;
+  constexpr static std::size_t addrs = 0x6bb3db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "get_elementSize", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeVolumeStreamableAsset_StreamableCellDesc>* (
     ::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(&::UnityEngine::Rendering::ProbeVolumeStreamableAsset::get_streamableCellDescs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6798f3c;
+  constexpr static std::size_t addrs = 0x6bb3dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::StringW, ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeVolumeStreamableAsset_StreamableCellDesc>*, int32_t, ::StringW, ::StringW)>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6798f44;
+  constexpr static std::size_t addrs = 0x6bb3dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(&::UnityEngine::Rendering::ProbeVolumeStreamableAsset::RefreshAssetPath)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6799090;
+  constexpr static std::size_t addrs = 0x6bb3f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "RefreshAssetPath", {}, {} })));
@@ -104,10 +104,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(&::UnityEngine::Rendering::ProbeVolumeStreamableAsset::GetAssetPath)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6799134;
+  constexpr static std::size_t addrs = 0x6bb3fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "GetAssetPath", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeStreamableAsset.HasValidAssetReference
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::HasValidAssetReference)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6bb3fe4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "HasValidAssetReference", {}, {} })));
     return ___internal_method;
   }
 };
@@ -116,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(&::UnityEngine::Rendering::ProbeVolumeStreamableAsset::FileExists)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x67923a4;
+  constexpr static std::size_t addrs = 0x6bb4074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "FileExists", {}, {} })));
@@ -128,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(&::UnityEngine::Rendering::ProbeVolumeStreamableAsset::GetFileSize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6799160;
+  constexpr static std::size_t addrs = 0x6bb4164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "GetFileSize", {}, {} })));
@@ -140,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(&::UnityEngine::Rendering::ProbeVolumeStreamableAsset::IsOpen)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x67991f0;
+  constexpr static std::size_t addrs = 0x6bb41f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "IsOpen", {}, {} })));
@@ -153,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IO::LowLevel::Unsafe::FileHandle (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::OpenFile)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x679922c;
+  constexpr static std::size_t addrs = 0x6bb4230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "OpenFile", {}, {} })));
@@ -165,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(&::UnityEngine::Rendering::ProbeVolumeStreamableAsset::CloseFile)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x67992a0;
+  constexpr static std::size_t addrs = 0x6bb42a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "CloseFile", {}, {} })));
@@ -177,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(&::UnityEngine::Rendering::ProbeVolumeStreamableAsset::IsValid)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6792528;
+  constexpr static std::size_t addrs = 0x6bb4348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "IsValid", {}, {} })));
@@ -189,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(&::UnityEngine::Rendering::ProbeVolumeStreamableAsset::Dispose)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x67937f8;
+  constexpr static std::size_t addrs = 0x6bb4368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "Dispose", {}, {} })));
@@ -322,6 +336,11 @@ inline void UnityEngine::Rendering::ProbeVolumeStreamableAsset::RefreshAssetPath
 inline ::StringW UnityEngine::Rendering::ProbeVolumeStreamableAsset::GetAssetPath() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "GetAssetPath", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::ProbeVolumeStreamableAsset::HasValidAssetReference() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "HasValidAssetReference", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool UnityEngine::Rendering::ProbeVolumeStreamableAsset::FileExists() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>(), { "FileExists", {}, {} })));

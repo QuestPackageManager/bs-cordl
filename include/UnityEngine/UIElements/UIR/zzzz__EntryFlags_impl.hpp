@@ -8,3 +8,5 @@ constexpr ::UnityEngine::UIElements::UIR::EntryFlags::EntryFlags(uint16_t value_
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::EntryFlags::EntryFlags() {}
 constexpr ::UnityEngine::UIElements::UIR::EntryFlags UnityEngine::UIElements::UIR::EntryFlags::UsesTextCoreSettings{ static_cast<uint16_t>(0x1u) };
+constexpr ::UnityEngine::UIElements::UIR::EntryFlags UnityEngine::UIElements::UIR::EntryFlags::IsPremultiplied{ static_cast<uint16_t>(0x2u) };
+constexpr ::UnityEngine::UIElements::UIR::EntryFlags UnityEngine::UIElements::UIR::EntryFlags::SkipDynamicAtlas{ static_cast<uint16_t>(0x4u) };

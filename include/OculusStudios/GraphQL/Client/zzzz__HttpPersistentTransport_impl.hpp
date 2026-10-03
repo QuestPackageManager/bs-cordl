@@ -34,24 +34,24 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport___c::*)()>(
     &::OculusStudios::GraphQL::Client::HttpPersistentTransport___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f24b6c;
+  constexpr static std::size_t addrs = 0x633f7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c._ExecuteAsync_b__15_0
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c._ExecuteAsync_b__18_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport___c::*)()>(
-    &::OculusStudios::GraphQL::Client::HttpPersistentTransport___c::_ExecuteAsync_b__15_0)> {
+    &::OculusStudios::GraphQL::Client::HttpPersistentTransport___c::_ExecuteAsync_b__18_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f24b70;
+  constexpr static std::size_t addrs = 0x633f7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c*>(), { "<ExecuteAsync>b__15_0", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c*>(), { "<ExecuteAsync>b__18_0", {}, {} })));
     return ___internal_method;
   }
 };
@@ -62,19 +62,19 @@ inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c::setStat
 inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c* OculusStudios::GraphQL::Client::HttpPersistentTransport___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c*, "<>9", ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c*>();
 }
-inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c::setStaticF___9__15_0(::System::Action* value) {
-  ::cordl_internals::setStaticField<::System::Action*, "<>9__15_0", ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c*>(std::forward<::System::Action*>(value));
+inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c::setStaticF___9__18_0(::System::Action* value) {
+  ::cordl_internals::setStaticField<::System::Action*, "<>9__18_0", ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c*>(std::forward<::System::Action*>(value));
 }
-inline ::System::Action* OculusStudios::GraphQL::Client::HttpPersistentTransport___c::getStaticF___9__15_0() {
-  return ::cordl_internals::getStaticField<::System::Action*, "<>9__15_0", ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c*>();
+inline ::System::Action* OculusStudios::GraphQL::Client::HttpPersistentTransport___c::getStaticF___9__18_0() {
+  return ::cordl_internals::getStaticField<::System::Action*, "<>9__18_0", ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c*>();
 }
 inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c::_ExecuteAsync_b__15_0() {
+inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c::_ExecuteAsync_b__18_0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c*>(), { "<ExecuteAsync>b__15_0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c*>(), { "<ExecuteAsync>b__18_0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c* OculusStudios::GraphQL::Client::HttpPersistentTransport___c::New_ctor() {
@@ -82,227 +82,227 @@ inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c* OculusStud
 }
 // Ctor Parameters []
 constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c::HttpPersistentTransport___c() {}
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0._ctor
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0::*)()>(
-    &::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0::*)()>(
+    &::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f24b74;
+  constexpr static std::size_t addrs = 0x633f800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::OculusStudios::GraphQL::Client::GraphQLResponseStream*& OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0::__cordl_internal_get_responseStream() {
+constexpr ::OculusStudios::GraphQL::Client::GraphQLResponseStream*& OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0::__cordl_internal_get_responseStream() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___responseStream;
 }
-constexpr ::OculusStudios::GraphQL::Client::GraphQLResponseStream* const& OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0::__cordl_internal_get_responseStream() const {
+constexpr ::OculusStudios::GraphQL::Client::GraphQLResponseStream* const& OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0::__cordl_internal_get_responseStream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___responseStream;
 }
-constexpr void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0::__cordl_internal_set_responseStream(::OculusStudios::GraphQL::Client::GraphQLResponseStream* value) {
+constexpr void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0::__cordl_internal_set_responseStream(::OculusStudios::GraphQL::Client::GraphQLResponseStream* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___responseStream = value;
 }
-inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0::_ctor() {
+inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0* OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0*>());
+inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0* OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0*>());
 }
 // Ctor Parameters []
-constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0::HttpPersistentTransport___c__DisplayClass17_0() {}
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1._ctor
+constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0::HttpPersistentTransport___c__DisplayClass20_0() {}
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1::*)()>(
-    &::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1::*)()>(
+    &::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f24b78;
+  constexpr static std::size_t addrs = 0x633f804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1._ReadFromStream_b__0
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1._ReadFromStream_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1::*)()>(
-    &::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1::_ReadFromStream_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1::*)()>(
+    &::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1::_ReadFromStream_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f24b7c;
+  constexpr static std::size_t addrs = 0x633f808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1*>(), { "<ReadFromStream>b__0", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1*>(), { "<ReadFromStream>b__0", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::IO::StreamReader*& OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1::__cordl_internal_get_reader() {
+constexpr ::System::IO::StreamReader*& OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1::__cordl_internal_get_reader() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
-constexpr ::System::IO::StreamReader* const& OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1::__cordl_internal_get_reader() const {
+constexpr ::System::IO::StreamReader* const& OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1::__cordl_internal_get_reader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
-constexpr void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1::__cordl_internal_set_reader(::System::IO::StreamReader* value) {
+constexpr void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1::__cordl_internal_set_reader(::System::IO::StreamReader* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___reader = value;
 }
-constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0*&
-OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1::__cordl_internal_get_CS$__8__locals1() {
+constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0*&
+OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1::__cordl_internal_get_CS$__8__locals1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
-constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0* const&
-OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1::__cordl_internal_get_CS$__8__locals1() const {
+constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0* const&
+OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1::__cordl_internal_get_CS$__8__locals1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
-constexpr void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1::__cordl_internal_set_CS$__8__locals1(
-    ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0* value) {
+constexpr void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1::__cordl_internal_set_CS$__8__locals1(
+    ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___CS$__8__locals1 = value;
 }
-inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1::_ctor() {
+inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1::_ReadFromStream_b__0() {
+inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1::_ReadFromStream_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1*>(), { "<ReadFromStream>b__0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1*>(), { "<ReadFromStream>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1* OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1*>());
+inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1* OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1*>());
 }
 // Ctor Parameters []
-constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1::HttpPersistentTransport___c__DisplayClass17_1() {}
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2._ctor
+constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1::HttpPersistentTransport___c__DisplayClass20_1() {}
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2::*)()>(
-    &::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2::*)()>(
+    &::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f24b98;
+  constexpr static std::size_t addrs = 0x633f824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2._ReadFromStream_b__1
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2._ReadFromStream_b__1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2::*)()>(
-    &::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2::_ReadFromStream_b__1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2::*)()>(
+    &::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2::_ReadFromStream_b__1)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f24b9c;
+  constexpr static std::size_t addrs = 0x633f828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2*>(), { "<ReadFromStream>b__1", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2*>(), { "<ReadFromStream>b__1", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::OculusStudios::GraphQL::Client::GraphQLResponse*& OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2::__cordl_internal_get_resp() {
+constexpr ::OculusStudios::GraphQL::Client::GraphQLResponse*& OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2::__cordl_internal_get_resp() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resp;
 }
-constexpr ::OculusStudios::GraphQL::Client::GraphQLResponse* const& OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2::__cordl_internal_get_resp() const {
+constexpr ::OculusStudios::GraphQL::Client::GraphQLResponse* const& OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2::__cordl_internal_get_resp() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resp;
 }
-constexpr void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2::__cordl_internal_set_resp(::OculusStudios::GraphQL::Client::GraphQLResponse* value) {
+constexpr void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2::__cordl_internal_set_resp(::OculusStudios::GraphQL::Client::GraphQLResponse* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___resp = value;
 }
-constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1*&
-OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2::__cordl_internal_get_CS$__8__locals2() {
+constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1*&
+OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2::__cordl_internal_get_CS$__8__locals2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals2;
 }
-constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1* const&
-OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2::__cordl_internal_get_CS$__8__locals2() const {
+constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1* const&
+OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2::__cordl_internal_get_CS$__8__locals2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals2;
 }
-constexpr void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2::__cordl_internal_set_CS$__8__locals2(
-    ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1* value) {
+constexpr void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2::__cordl_internal_set_CS$__8__locals2(
+    ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___CS$__8__locals2 = value;
 }
-inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2::_ctor() {
+inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2::_ReadFromStream_b__1() {
+inline void OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2::_ReadFromStream_b__1() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2*>(), { "<ReadFromStream>b__1", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2*>(), { "<ReadFromStream>b__1", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2* OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2*>());
+inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2* OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2*>());
 }
 // Ctor Parameters []
-constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2::HttpPersistentTransport___c__DisplayClass17_2() {}
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15.MoveNext
+constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2::HttpPersistentTransport___c__DisplayClass20_2() {}
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15::*)()>(
-    &::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18::*)()>(
+    &::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x5f24c88;
+  constexpr static std::size_t addrs = 0x633f914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15.SetStateMachine
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f250f4;
+  constexpr static std::size_t addrs = 0x633fd80;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15::MoveNext() {
+inline void OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15>(),
+inline void OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -312,7 +312,7 @@ OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15::i__
 // "::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_responseStream_5__2", ty:
 // "::OculusStudios::GraphQL::Client::GraphQLResponseStream*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
 // modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15::HttpPersistentTransport__ExecuteAsync_d__15(
+constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18::HttpPersistentTransport__ExecuteAsync_d__18(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*> __t__builder,
     ::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest, ::OculusStudios::GraphQL::Client::HttpPersistentTransport* __4__this,
     ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* MinimalMainThreadExecutor, ::OculusStudios::GraphQL::Client::GraphQLResponseStream* _responseStream_5__2,
@@ -326,52 +326,52 @@ constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsyn
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15::HttpPersistentTransport__ExecuteAsync_d__15() {}
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17.MoveNext
+constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__18::HttpPersistentTransport__ExecuteAsync_d__18() {}
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17::*)()>(
-    &::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20::*)()>(
+    &::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x13e8;
-  constexpr static std::size_t addrs = 0x5f25174;
+  constexpr static std::size_t addrs = 0x633fe00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17.SetStateMachine
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f26564;
+  constexpr static std::size_t addrs = 0x63411f0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17::MoveNext() {
+inline void OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17>(),
+inline void OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -379,8 +379,8 @@ OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17::i
 // "::OculusStudios::GraphQL::Client::GraphQLResponseStream*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "liveQuery", ty:
 // "::OculusStudios::GraphQL::Client::GraphQLLiveQuery*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::OculusStudios::GraphQL::Client::HttpPersistentTransport*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__1", ty:
-// "::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__2", ty:
-// "::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MinimalMainThreadExecutor", ty:
+// "::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__2", ty:
+// "::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MinimalMainThreadExecutor", ty:
 // "::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_buf_5__2", ty: "::ArrayW<char16_t>", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "_total_len_5__3", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_b_5__4", ty:
 // "::System::Text::StringBuilder*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap4", ty: "::OculusStudios::GraphQL::Client::GraphQLLiveQuery*", modifiers: "",
@@ -392,10 +392,10 @@ OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17::i
 // CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::IO::Stream*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap9", ty:
 // "::System::Threading::CancellationTokenRegistration", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__4", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17::HttpPersistentTransport__ReadFromStream_d__17(
+constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20::HttpPersistentTransport__ReadFromStream_d__20(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::OculusStudios::GraphQL::Client::GraphQLResponseStream* responseStream,
     ::OculusStudios::GraphQL::Client::GraphQLLiveQuery* liveQuery, ::OculusStudios::GraphQL::Client::HttpPersistentTransport* __4__this,
-    ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0* __8__1, ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1* __8__2,
+    ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0* __8__1, ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1* __8__2,
     ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* MinimalMainThreadExecutor, ::ArrayW<char16_t> _buf_5__2, int32_t _total_len_5__3, ::System::Text::StringBuilder* _b_5__4,
     ::OculusStudios::GraphQL::Client::GraphQLLiveQuery* __7__wrap4, ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>> __u__1, ::System::Diagnostics::Stopwatch* _stopWatch_5__6,
     ::System::Net::Http::HttpResponseMessage* _response_5__7, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> __u__2, ::System::TimeSpan _latency_5__8,
@@ -424,14 +424,14 @@ constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStr
   this->__u__4 = __u__4;
 }
 // Ctor Parameters []
-constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17::HttpPersistentTransport__ReadFromStream_d__17() {}
+constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__20::HttpPersistentTransport__ReadFromStream_d__20() {}
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport.get_Endpoint
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::HttpPersistentTransport::*)()>(
     &::OculusStudios::GraphQL::Client::HttpPersistentTransport::get_Endpoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f23e68;
+  constexpr static std::size_t addrs = 0x633eae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport*>(), { "get_Endpoint", {}, {} })));
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport::*)(::StringW)>(
     &::OculusStudios::GraphQL::Client::HttpPersistentTransport::set_Endpoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f23e70;
+  constexpr static std::size_t addrs = 0x633eaec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::HttpPersistentTransport::*)()>(
     &::OculusStudios::GraphQL::Client::HttpPersistentTransport::get_AccessToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f23e78;
+  constexpr static std::size_t addrs = 0x633eaf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -472,11 +472,40 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport::*)(::StringW)>(
     &::OculusStudios::GraphQL::Client::HttpPersistentTransport::set_AccessToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f23e80;
+  constexpr static std::size_t addrs = 0x633eafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport*>(), { "set_AccessToken", {}, { ::i2c::type_of<::StringW>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport.get_CustomAppHeaders
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (::OculusStudios::GraphQL::Client::HttpPersistentTransport::*)()>(
+    &::OculusStudios::GraphQL::Client::HttpPersistentTransport::get_CustomAppHeaders)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x633eb04;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport*>(), { "get_CustomAppHeaders", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPersistentTransport.set_CustomAppHeaders
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport::*)(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*)>(
+    &::OculusStudios::GraphQL::Client::HttpPersistentTransport::set_CustomAppHeaders)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x633eb10;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport*>(),
+                                                             { "set_CustomAppHeaders", {}, { ::i2c::type_of<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*>() } })));
     return ___internal_method;
   }
 };
@@ -485,8 +514,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport::*)(::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents*)>(
     &::OculusStudios::GraphQL::Client::HttpPersistentTransport::_ctor)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5f23e88;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x633eb1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport*>(),
@@ -501,7 +530,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::OculusStudios::GraphQL::Client::HttpPersistentTransport::*)(::OculusStudios::GraphQL::Client::GraphQLRequest*, ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*)>(
     &::OculusStudios::GraphQL::Client::HttpPersistentTransport::ExecuteAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5f23fc8;
+  constexpr static std::size_t addrs = 0x633ec60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -517,8 +546,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::HttpRequestMessage* (
     ::OculusStudios::GraphQL::Client::HttpPersistentTransport::*)(::OculusStudios::GraphQL::Client::GraphQLRequest*)>(&::OculusStudios::GraphQL::Client::HttpPersistentTransport::GetHttpRequest)> {
-  constexpr static std::size_t size = 0x91c;
-  constexpr static std::size_t addrs = 0x5f240bc;
+  constexpr static std::size_t size = 0x910;
+  constexpr static std::size_t addrs = 0x633ed54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport*>(),
@@ -533,7 +562,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Gr
     ::OculusStudios::GraphQL::Client::GraphQLLiveQuery*, ::OculusStudios::GraphQL::Client::GraphQLResponseStream*, ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*)>(
     &::OculusStudios::GraphQL::Client::HttpPersistentTransport::ReadFromStream)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5f249d8;
+  constexpr static std::size_t addrs = 0x633f664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -550,7 +579,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPersistentTransport::*)()>(&::OculusStudios::GraphQL::Client::HttpPersistentTransport::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f24aa0;
+  constexpr static std::size_t addrs = 0x633f72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport*>(), { "Dispose", {}, {} })));
@@ -581,17 +610,17 @@ constexpr void OculusStudios::GraphQL::Client::HttpPersistentTransport::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____AccessToken_k__BackingField = value;
 }
-constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*& OculusStudios::GraphQL::Client::HttpPersistentTransport::__cordl_internal_get_CustomAppHeaders() {
+constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*& OculusStudios::GraphQL::Client::HttpPersistentTransport::__cordl_internal_get__customAppHeaders() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___CustomAppHeaders;
+  return this->____customAppHeaders;
 }
-constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* const& OculusStudios::GraphQL::Client::HttpPersistentTransport::__cordl_internal_get_CustomAppHeaders() const {
+constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* const& OculusStudios::GraphQL::Client::HttpPersistentTransport::__cordl_internal_get__customAppHeaders() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___CustomAppHeaders;
+  return this->____customAppHeaders;
 }
-constexpr void OculusStudios::GraphQL::Client::HttpPersistentTransport::__cordl_internal_set_CustomAppHeaders(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* value) {
+constexpr void OculusStudios::GraphQL::Client::HttpPersistentTransport::__cordl_internal_set__customAppHeaders(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___CustomAppHeaders = value;
+  this->____customAppHeaders = value;
 }
 constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents*& OculusStudios::GraphQL::Client::HttpPersistentTransport::__cordl_internal_get_logger() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -646,6 +675,17 @@ inline ::StringW OculusStudios::GraphQL::Client::HttpPersistentTransport::get_Ac
 inline void OculusStudios::GraphQL::Client::HttpPersistentTransport::set_AccessToken(::StringW value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport*>(), { "set_AccessToken", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* OculusStudios::GraphQL::Client::HttpPersistentTransport::get_CustomAppHeaders() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport*>(), { "get_CustomAppHeaders", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*>(this, ___internal_method);
+}
+inline void OculusStudios::GraphQL::Client::HttpPersistentTransport::set_CustomAppHeaders(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPersistentTransport*>(),
+                                                           { "set_CustomAppHeaders", {}, { ::i2c::type_of<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void OculusStudios::GraphQL::Client::HttpPersistentTransport::_ctor(::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* logger) {

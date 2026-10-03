@@ -71,26 +71,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6806d4c, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6c360d4, size 0xb4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerToggleHistory__RefreshAfterSanitization_d__4* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6806e00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6c36188, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6806e08, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6c36190, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6806e40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6c361c8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x6806d48, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6c360d0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -112,7 +112,7 @@ public:
   constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerToggleHistory> value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x6806d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c360b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -139,7 +139,7 @@ public:
   DebugUIHandlerToggleHistory__RefreshAfterSanitization_d__4(DebugUIHandlerToggleHistory__RefreshAfterSanitization_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9456 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -177,13 +177,13 @@ public:
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerToggleHistory* New_ctor();
 
   /// [IteratorStateMachine(typeof(UnityEngine.Rendering.UI.DebugUIHandlerToggleHistory::<RefreshAfterSanitization>d__4))]
-  /// @brief Method RefreshAfterSanitization, addr 0x6806cd4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RefreshAfterSanitization, addr 0x6c3605c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RefreshAfterSanitization();
 
-  /// @brief Method SetWidget, addr 0x6806790, size 0x3a8, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6c35b18, size 0x3a8, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method UpdateValueLabel, addr 0x6806b38, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x6c35ec0, size 0x19c, virtual true, abstract: false, final false
   inline void UpdateValueLabel();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Toggle>> const& __cordl_internal_get_historyToggles() const;
@@ -192,7 +192,7 @@ public:
 
   constexpr void __cordl_internal_set_historyToggles(::ArrayW<::UnityW<::UnityEngine::UI::Toggle>> value);
 
-  /// @brief Method .ctor, addr 0x6806d30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c360b8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -210,7 +210,7 @@ public:
   DebugUIHandlerToggleHistory(DebugUIHandlerToggleHistory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9457 };
 
   /// @brief Field k_XOffset offset 0xffffffff size 0x4
   static constexpr float_t k_XOffset{ static_cast<float_t>(230.0f) };

@@ -24,16 +24,16 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE InputInteraction : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field s_Interactions, offset 0xffffffff, size 0x8
+  /// @brief Field s_Interactions, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_s_Interactions, put = setStaticF_s_Interactions)) ::UnityEngine::InputSystem::Utilities::TypeTable s_Interactions;
 
-  /// @brief Method GetDisplayName, addr 0x64d2f8c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayName, addr 0x68fbd84, size 0xe4, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayName(::StringW interaction);
 
-  /// @brief Method GetDisplayName, addr 0x64d3070, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayName, addr 0x68fbe68, size 0x178, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayName(::System::Type* interactionType);
 
-  /// @brief Method GetValueType, addr 0x64d2eb8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x68fbcb0, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueType(::System::Type* interactionType);
 
   static inline ::UnityEngine::InputSystem::Utilities::TypeTable getStaticF_s_Interactions();
@@ -55,7 +55,7 @@ public:
   InputInteraction(InputInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8612 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10573 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

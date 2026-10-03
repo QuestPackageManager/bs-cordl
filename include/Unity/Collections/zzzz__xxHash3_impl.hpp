@@ -11,32 +11,6 @@
 #include "Unity/Collections/zzzz__xxHash3_def.hpp"
 #include "Unity/Mathematics/zzzz__uint2_def.hpp"
 #include "Unity/Mathematics/zzzz__uint4_def.hpp"
-//  Writing Method size for method: ::Unity::Collections::xxHash3_ulong2._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_ulong2::*)(uint64_t, uint64_t)>(&::Unity::Collections::xxHash3_ulong2::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb5e4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_ulong2>(), { ".ctor", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>() } })));
-    return ___internal_method;
-  }
-};
-inline void Unity::Collections::xxHash3_ulong2::_ctor(uint64_t x, uint64_t y) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_ulong2>(), { ".ctor", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, x, y);
-}
-// Ctor Parameters [CppParam { name: "x", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment:
-// None }]
-constexpr ::Unity::Collections::xxHash3_ulong2::xxHash3_ulong2(uint64_t x, uint64_t y) noexcept {
-  this->x = x;
-  this->y = y;
-}
-// Ctor Parameters []
-constexpr ::Unity::Collections::xxHash3_ulong2::xxHash3_ulong2() {}
 constexpr uint64_t& Unity::Collections::StreamingState_xxHash3_StreamingStateData::__cordl_internal_get_Acc() {
   return this->___Acc;
 }
@@ -143,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_StreamingState::*)(bool, uint64_t)>(&::Unity::Collections::xxHash3_StreamingState::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64cc0b4;
+  constexpr static std::size_t addrs = 0x68f4df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_StreamingState::*)(bool, uint64_t)>(&::Unity::Collections::xxHash3_StreamingState::Reset)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x64cc134;
+  constexpr static std::size_t addrs = 0x68f4e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_StreamingState::*)(void*, int32_t)>(&::Unity::Collections::xxHash3_StreamingState::Update)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x64cc344;
+  constexpr static std::size_t addrs = 0x68f5084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint4 (::Unity::Collections::xxHash3_StreamingState::*)()>(&::Unity::Collections::xxHash3_StreamingState::DigestHash128)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x64cc768;
+  constexpr static std::size_t addrs = 0x68f54a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_StreamingState>(), { "DigestHash128", {}, {} })));
@@ -194,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint2 (::Unity::Collections::xxHash3_StreamingState::*)()>(&::Unity::Collections::xxHash3_StreamingState::DigestHash64)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x64ccbb0;
+  constexpr static std::size_t addrs = 0x68f58f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_StreamingState>(), { "DigestHash64", {}, {} })));
@@ -206,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t* (::Unity::Collections::xxHash3_StreamingState::*)()>(&::Unity::Collections::xxHash3_StreamingState::get_Acc)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64cc338;
+  constexpr static std::size_t addrs = 0x68f5078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_StreamingState>(), { "get_Acc", {}, {} })));
@@ -218,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t* (::Unity::Collections::xxHash3_StreamingState::*)()>(&::Unity::Collections::xxHash3_StreamingState::get_Buffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc5e8;
+  constexpr static std::size_t addrs = 0x68f5328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_StreamingState>(), { "get_Buffer", {}, {} })));
@@ -230,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t* (::Unity::Collections::xxHash3_StreamingState::*)()>(&::Unity::Collections::xxHash3_StreamingState::get_SecretKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc33c;
+  constexpr static std::size_t addrs = 0x68f507c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_StreamingState>(), { "get_SecretKey", {}, {} })));
@@ -243,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_StreamingState::*)(uint64_t*, uint8_t*, int32_t)>(
     &::Unity::Collections::xxHash3_StreamingState::DigestLong)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x64cc90c;
+  constexpr static std::size_t addrs = 0x68f564c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_StreamingState::*)(uint64_t*, ::by_ref<int32_t>, uint8_t*, int64_t, uint8_t*, int32_t)>(
     &::Unity::Collections::xxHash3_StreamingState::ConsumeStripes)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x64cc5f0;
+  constexpr static std::size_t addrs = 0x68f5330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_StreamingState>(),
@@ -274,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_StreamingState::*)(int32_t)>(&::Unity::Collections::xxHash3_StreamingState::CheckKeySize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x64ccd04;
+  constexpr static std::size_t addrs = 0x68f5a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,284 +348,310 @@ constexpr ::Unity::Collections::xxHash3_StreamingState::xxHash3_StreamingState(:
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::xxHash3_StreamingState::xxHash3_StreamingState() {}
-//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate._ctor
+//  Writing Method size for method: ::Unity::Collections::xxHash3_ulong2._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate::*)(::System::Object*, ::System::IntPtr)>(
-    &::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64ccdfc;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_ulong2::*)(uint64_t, uint64_t)>(&::Unity::Collections::xxHash3_ulong2::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68f4324;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate*>(),
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_ulong2>(), { ".ctor", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>() } })));
+    return ___internal_method;
+  }
+};
+inline void Unity::Collections::xxHash3_ulong2::_ctor(uint64_t x, uint64_t y) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_ulong2>(), { ".ctor", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, x, y);
+}
+// Ctor Parameters [CppParam { name: "x", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
+constexpr ::Unity::Collections::xxHash3_ulong2::xxHash3_ulong2(uint64_t x, uint64_t y) noexcept {
+  this->x = x;
+  this->y = y;
+}
+// Ctor Parameters []
+constexpr ::Unity::Collections::xxHash3_ulong2::xxHash3_ulong2() {}
+//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate::*)(::System::Object*, ::System::IntPtr)>(
+    &::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate::_ctor)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x68f5b3c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate*>(),
                                                                                            { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate.Invoke
+//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate::*)(uint8_t*, uint8_t*, int64_t, uint8_t*)>(
-    &::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate::*)(uint8_t*, uint8_t*, int64_t, uint8_t*)>(
+    &::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64cce7c;
+  constexpr static std::size_t addrs = 0x68f5bbc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate*>(),
-                                                                                          { ::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate*>(), 13 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate*>(),
+                                                                                          { ::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate*>(), 13 }));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate.BeginInvoke
+//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate.BeginInvoke
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate::*)(uint8_t*, uint8_t*, int64_t, uint8_t*, ::System::AsyncCallback*, ::System::Object*)>(
-    &::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate::BeginInvoke)> {
+    ::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate::*)(uint8_t*, uint8_t*, int64_t, uint8_t*, ::System::AsyncCallback*, ::System::Object*)>(
+    &::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x64cce90;
+  constexpr static std::size_t addrs = 0x68f5bd0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate*>(),
-                                                                                          { ::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate*>(), 14 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate*>(),
+                                                                                          { ::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate*>(), 14 }));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate.EndInvoke
+//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate::*)(::System::IAsyncResult*)>(
-    &::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate::*)(::System::IAsyncResult*)>(
+    &::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64ccef4;
+  constexpr static std::size_t addrs = 0x68f5c34;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate*>(),
-                                                                                          { ::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate*>(), 15 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate*>(),
+                                                                                          { ::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate*>(), 15 }));
     return ___internal_method;
   }
 };
-inline void Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate::_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
+inline void Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate::_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
                                                                                         ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate*>(),
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1);
 }
-inline uint64_t Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate::Invoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret) {
+inline uint64_t Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate::Invoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate*>(), 13 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<uint64_t>(this, ___internal_method, input, dest, length, secret);
 }
-inline ::System::IAsyncResult* Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate::BeginInvoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret,
+inline ::System::IAsyncResult* Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate::BeginInvoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret,
                                                                                                                  ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
                                                                                                                  ::System::Object* _cordl_fixed_empty_name_whitespace_param_5) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate*>(), 14 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, input, dest, length, secret, _cordl_fixed_empty_name_whitespace,
                                                                       _cordl_fixed_empty_name_whitespace_param_5);
 }
-inline uint64_t Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate::EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace) {
+inline uint64_t Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate::EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate*>(), 15 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<uint64_t>(this, ___internal_method, _cordl_fixed_empty_name_whitespace);
 }
-inline ::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate*
-Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate::New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1) {
+inline ::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate*
+Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate::New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1) {
   return THROW_UNLESS(::i2c::no_logger{},
-                      ::i2c::new_ctor<::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate*>(_cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1));
+                      ::i2c::new_ctor<::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate*>(_cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1));
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate::xxHash3_Hash64Long_00000A73$PostfixBurstDelegate() {}
-//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall.GetFunctionPointerDiscard
+constexpr ::Unity::Collections::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate::xxHash3_Hash64Long_00000A7B$PostfixBurstDelegate() {}
+//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall.GetFunctionPointerDiscard
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>)>(&::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall::GetFunctionPointerDiscard)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>)>(&::Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall::GetFunctionPointerDiscard)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x64ccf18;
+  constexpr static std::size_t addrs = 0x68f5c58;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall*>(),
                                                                                            { "GetFunctionPointerDiscard", {}, { ::i2c::type_of<::by_ref<::System::IntPtr>>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall.GetFunctionPointer
+//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall.GetFunctionPointer
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall::GetFunctionPointer)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall::GetFunctionPointer)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64cd024;
+  constexpr static std::size_t addrs = 0x68f5d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall*>(), { "GetFunctionPointer", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall*>(), { "GetFunctionPointer", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall.Invoke
+//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint8_t*, uint8_t*, int64_t, uint8_t*)>(&::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint8_t*, uint8_t*, int64_t, uint8_t*)>(&::Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x64cb1bc;
+  constexpr static std::size_t addrs = 0x68f3efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall*>(),
                                                              { "Invoke", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<uint8_t*>() } })));
     return ___internal_method;
   }
 };
-inline void Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall::setStaticF_Pointer(::System::IntPtr value) {
-  ::cordl_internals::setStaticField<::System::IntPtr, "Pointer", ::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall*>(std::forward<::System::IntPtr>(value));
+inline void Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall::setStaticF_Pointer(::System::IntPtr value) {
+  ::cordl_internals::setStaticField<::System::IntPtr, "Pointer", ::Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall*>(std::forward<::System::IntPtr>(value));
 }
-inline ::System::IntPtr Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall::getStaticF_Pointer() {
-  return ::cordl_internals::getStaticField<::System::IntPtr, "Pointer", ::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall*>();
+inline ::System::IntPtr Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall::getStaticF_Pointer() {
+  return ::cordl_internals::getStaticField<::System::IntPtr, "Pointer", ::Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall*>();
 }
-inline void Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall::GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall*>(),
+inline void Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall::GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall*>(),
                                                                                          { "GetFunctionPointerDiscard", {}, { ::i2c::type_of<::by_ref<::System::IntPtr>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _cordl_fixed_empty_name_whitespace);
 }
-inline ::System::IntPtr Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall::GetFunctionPointer() {
+inline ::System::IntPtr Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall::GetFunctionPointer() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall*>(), { "GetFunctionPointer", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall*>(), { "GetFunctionPointer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
 }
-inline uint64_t Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall::Invoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret) {
+inline uint64_t Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall::Invoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall*>(),
                                                            { "Invoke", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<uint8_t*>() } })));
   return ::cordl_internals::RunMethodRethrow<uint64_t>(nullptr, ___internal_method, input, dest, length, secret);
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall::xxHash3_Hash64Long_00000A73$BurstDirectCall() {}
-//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate._ctor
+constexpr ::Unity::Collections::xxHash3_Hash64Long_00000A7B$BurstDirectCall::xxHash3_Hash64Long_00000A7B$BurstDirectCall() {}
+//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate::*)(::System::Object*, ::System::IntPtr)>(
-    &::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate::*)(::System::Object*, ::System::IntPtr)>(
+    &::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64cd03c;
+  constexpr static std::size_t addrs = 0x68f5d7c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate*>(),
                                                                                            { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate.Invoke
+//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate::*)(
-    uint8_t*, uint8_t*, int64_t, uint8_t*, ::by_ref<::Unity::Mathematics::uint4>)>(&::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate::*)(
+    uint8_t*, uint8_t*, int64_t, uint8_t*, ::by_ref<::Unity::Mathematics::uint4>)>(&::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64cd0bc;
+  constexpr static std::size_t addrs = 0x68f5dfc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate*>(),
-                                                                                          { ::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate*>(), 13 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate*>(),
+                                                                                          { ::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate*>(), 13 }));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate.BeginInvoke
+//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate.BeginInvoke
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate::*)(uint8_t*, uint8_t*, int64_t, uint8_t*, ::by_ref<::Unity::Mathematics::uint4>, ::System::AsyncCallback*,
-                                                                                ::System::Object*)>(&::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate::BeginInvoke)> {
+    ::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate::*)(uint8_t*, uint8_t*, int64_t, uint8_t*, ::by_ref<::Unity::Mathematics::uint4>, ::System::AsyncCallback*,
+                                                                                ::System::Object*)>(&::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x64cd0d0;
+  constexpr static std::size_t addrs = 0x68f5e10;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate*>(),
-                                                                                          { ::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate*>(), 14 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate*>(),
+                                                                                          { ::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate*>(), 14 }));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate.EndInvoke
+//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate::*)(::System::IAsyncResult*)>(
-    &::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate::*)(::System::IAsyncResult*)>(
+    &::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64cd194;
+  constexpr static std::size_t addrs = 0x68f5ed4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate*>(),
-                                                                                          { ::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate*>(), 15 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate*>(),
+                                                                                          { ::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate*>(), 15 }));
     return ___internal_method;
   }
 };
-inline void Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate::_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
+inline void Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate::_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
                                                                                          ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate*>(),
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1);
 }
-inline void Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate::Invoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret,
+inline void Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate::Invoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret,
                                                                                           ::by_ref<::Unity::Mathematics::uint4> result) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate*>(), 13 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, input, dest, length, secret, result);
 }
-inline ::System::IAsyncResult* Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate::BeginInvoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret,
+inline ::System::IAsyncResult* Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate::BeginInvoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret,
                                                                                                                   ::by_ref<::Unity::Mathematics::uint4> result,
                                                                                                                   ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
                                                                                                                   ::System::Object* _cordl_fixed_empty_name_whitespace_param_6) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate*>(), 14 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, input, dest, length, secret, result, _cordl_fixed_empty_name_whitespace,
                                                                       _cordl_fixed_empty_name_whitespace_param_6);
 }
-inline void Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate::EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace) {
+inline void Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate::EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate*>(), 15 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_fixed_empty_name_whitespace);
 }
-inline ::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate*
-Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate::New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1) {
+inline ::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate*
+Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate::New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1) {
   return THROW_UNLESS(::i2c::no_logger{},
-                      ::i2c::new_ctor<::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate*>(_cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1));
+                      ::i2c::new_ctor<::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate*>(_cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1));
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate::xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate() {}
-//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall.GetFunctionPointerDiscard
+constexpr ::Unity::Collections::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate::xxHash3_Hash128Long_00000A82$PostfixBurstDelegate() {}
+//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall.GetFunctionPointerDiscard
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>)>(&::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall::GetFunctionPointerDiscard)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>)>(&::Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall::GetFunctionPointerDiscard)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x64cd1a0;
+  constexpr static std::size_t addrs = 0x68f5ee0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall*>(),
                                                                                            { "GetFunctionPointerDiscard", {}, { ::i2c::type_of<::by_ref<::System::IntPtr>>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall.GetFunctionPointer
+//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall.GetFunctionPointer
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall::GetFunctionPointer)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall::GetFunctionPointer)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64cd2ac;
+  constexpr static std::size_t addrs = 0x68f5fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall*>(), { "GetFunctionPointer", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall*>(), { "GetFunctionPointer", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall.Invoke
+//  Writing Method size for method: ::Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall.Invoke
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_t*, int64_t, uint8_t*, ::by_ref<::Unity::Mathematics::uint4>)>(
-    &::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall::Invoke)> {
+    &::Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x64cb5ec;
+  constexpr static std::size_t addrs = 0x68f432c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall*>(),
                                                                                            { "Invoke",
                                                                                              {},
                                                                                              { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int64_t>(),
@@ -659,24 +659,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_
     return ___internal_method;
   }
 };
-inline void Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall::setStaticF_Pointer(::System::IntPtr value) {
-  ::cordl_internals::setStaticField<::System::IntPtr, "Pointer", ::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall*>(std::forward<::System::IntPtr>(value));
+inline void Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall::setStaticF_Pointer(::System::IntPtr value) {
+  ::cordl_internals::setStaticField<::System::IntPtr, "Pointer", ::Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall*>(std::forward<::System::IntPtr>(value));
 }
-inline ::System::IntPtr Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall::getStaticF_Pointer() {
-  return ::cordl_internals::getStaticField<::System::IntPtr, "Pointer", ::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall*>();
+inline ::System::IntPtr Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall::getStaticF_Pointer() {
+  return ::cordl_internals::getStaticField<::System::IntPtr, "Pointer", ::Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall*>();
 }
-inline void Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall::GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall*>(),
+inline void Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall::GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall*>(),
                                                                                          { "GetFunctionPointerDiscard", {}, { ::i2c::type_of<::by_ref<::System::IntPtr>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _cordl_fixed_empty_name_whitespace);
 }
-inline ::System::IntPtr Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall::GetFunctionPointer() {
+inline ::System::IntPtr Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall::GetFunctionPointer() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall*>(), { "GetFunctionPointer", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall*>(), { "GetFunctionPointer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
 }
-inline void Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall::Invoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret, ::by_ref<::Unity::Mathematics::uint4> result) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall*>(),
+inline void Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall::Invoke(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret, ::by_ref<::Unity::Mathematics::uint4> result) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall*>(),
                                                                                          { "Invoke",
                                                                                            {},
                                                                                            { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int64_t>(),
@@ -684,13 +684,13 @@ inline void Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall::In
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, input, dest, length, secret, result);
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall::xxHash3_Hash128Long_00000A7A$BurstDirectCall() {}
+constexpr ::Unity::Collections::xxHash3_Hash128Long_00000A82$BurstDirectCall::xxHash3_Hash128Long_00000A82$BurstDirectCall() {}
 //  Writing Method size for method: ::Unity::Collections::xxHash3.Avx2HashLongInternalLoop
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t*, uint8_t*, uint8_t*, int64_t, uint8_t*, int32_t)>(&::Unity::Collections::xxHash3::Avx2HashLongInternalLoop)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64c9bc4;
+  constexpr static std::size_t addrs = 0x68f287c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -706,7 +706,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t*, uint8_t*)>(&::Unity::Collections::xxHash3::Avx2ScrambleAcc)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64c9bcc;
+  constexpr static std::size_t addrs = 0x68f2884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -719,7 +719,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t*, uint8_t*, uint8_t*, uint8_t*, int64_t, int32_t)>(&::Unity::Collections::xxHash3::Avx2Accumulate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64c9bc8;
+  constexpr static std::size_t addrs = 0x68f2880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -735,7 +735,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t*, uint8_t*, uint8_t*, uint8_t*)>(&::Unity::Collections::xxHash3::Avx2Accumulate512)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64c9bd0;
+  constexpr static std::size_t addrs = 0x68f2888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -749,7 +749,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint2 (*)(void*, int64_t)>(&::Unity::Collections::xxHash3::Hash64)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x64c9bd4;
+  constexpr static std::size_t addrs = 0x68f288c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -762,7 +762,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint2 (*)(void*, int64_t, uint64_t)>(&::Unity::Collections::xxHash3::Hash64)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x64c9dfc;
+  constexpr static std::size_t addrs = 0x68f2b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -776,7 +776,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint4 (*)(void*, int64_t)>(&::Unity::Collections::xxHash3::Hash128)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x64c9e98;
+  constexpr static std::size_t addrs = 0x68f2bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -789,7 +789,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint4 (*)(void*, void*, int64_t)>(&::Unity::Collections::xxHash3::Hash128)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x64ca174;
+  constexpr static std::size_t addrs = 0x68f2eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -803,7 +803,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint4 (*)(void*, int64_t, uint64_t)>(&::Unity::Collections::xxHash3::Hash128)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x64ca228;
+  constexpr static std::size_t addrs = 0x68f2f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -817,7 +817,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint4 (*)(void*, void*, int64_t, uint64_t)>(&::Unity::Collections::xxHash3::Hash128)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x64ca2dc;
+  constexpr static std::size_t addrs = 0x68f301c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -830,8 +830,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uin
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint8_t*, uint8_t*, int64_t, uint8_t*, uint64_t)>(&::Unity::Collections::xxHash3::Hash64Internal)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x64c9c6c;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x68f2924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -847,7 +847,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_t*, int64_t, uint8_t*, uint64_t, ::by_ref<::Unity::Mathematics::uint4>)>(
     &::Unity::Collections::xxHash3::Hash128Internal)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x64c9f48;
+  constexpr static std::size_t addrs = 0x68f2c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -864,7 +864,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint8_t*, int64_t, uint8_t*, uint64_t)>(&::Unity::Collections::xxHash3::Hash64Len1To3)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64cb060;
+  constexpr static std::size_t addrs = 0x68f3da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -878,7 +878,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint8_t*, int64_t, uint8_t*, uint64_t)>(&::Unity::Collections::xxHash3::Hash64Len4To8)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64cb0cc;
+  constexpr static std::size_t addrs = 0x68f3e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -892,7 +892,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint8_t*, int64_t, uint8_t*, uint64_t)>(&::Unity::Collections::xxHash3::Hash64Len9To16)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x64cb128;
+  constexpr static std::size_t addrs = 0x68f3e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -906,7 +906,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint8_t*, int64_t, uint8_t*, uint64_t)>(&::Unity::Collections::xxHash3::Hash64Len0To16)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x64ca39c;
+  constexpr static std::size_t addrs = 0x68f30dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -920,7 +920,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint8_t*, int64_t, uint8_t*, uint64_t)>(&::Unity::Collections::xxHash3::Hash64Len17To128)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x64ca404;
+  constexpr static std::size_t addrs = 0x68f3144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -934,7 +934,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint8_t*, int64_t, uint8_t*, uint64_t)>(&::Unity::Collections::xxHash3::Hash64Len129To240)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x64ca70c;
+  constexpr static std::size_t addrs = 0x68f344c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -948,7 +948,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint8_t*, uint8_t*, int64_t, uint8_t*)>(&::Unity::Collections::xxHash3::Hash64Long)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64c9bbc;
+  constexpr static std::size_t addrs = 0x68f2874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -962,7 +962,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, int64_t, uint8_t*, uint64_t, ::by_ref<::Unity::Mathematics::uint4>)>(&::Unity::Collections::xxHash3::Hash128Len1To3)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x64cb370;
+  constexpr static std::size_t addrs = 0x68f40b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -978,7 +978,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, int64_t, uint8_t*, uint64_t, ::by_ref<::Unity::Mathematics::uint4>)>(&::Unity::Collections::xxHash3::Hash128Len4To8)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x64cb410;
+  constexpr static std::size_t addrs = 0x68f4150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -994,7 +994,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, int64_t, uint8_t*, uint64_t, ::by_ref<::Unity::Mathematics::uint4>)>(&::Unity::Collections::xxHash3::Hash128Len9To16)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x64cb4c8;
+  constexpr static std::size_t addrs = 0x68f4208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1010,7 +1010,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, int64_t, uint8_t*, uint64_t, ::by_ref<::Unity::Mathematics::uint4>)>(&::Unity::Collections::xxHash3::Hash128Len0To16)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x64ca8c4;
+  constexpr static std::size_t addrs = 0x68f3604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1026,7 +1026,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, int64_t, uint8_t*, uint64_t, ::by_ref<::Unity::Mathematics::uint4>)>(&::Unity::Collections::xxHash3::Hash128Len17To128)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x64ca950;
+  constexpr static std::size_t addrs = 0x68f3690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1042,7 +1042,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, int64_t, uint8_t*, uint64_t, ::by_ref<::Unity::Mathematics::uint4>)>(&::Unity::Collections::xxHash3::Hash128Len129To240)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x64cad0c;
+  constexpr static std::size_t addrs = 0x68f3a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1058,7 +1058,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_t*, int64_t, uint8_t*, ::by_ref<::Unity::Mathematics::uint4>)>(&::Unity::Collections::xxHash3::Hash128Long)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64c9bc0;
+  constexpr static std::size_t addrs = 0x68f2878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1074,7 +1074,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint2 (*)(uint64_t)>(&::Unity::Collections::xxHash3::ToUint2)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64c9df8;
+  constexpr static std::size_t addrs = 0x68f2b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(), { "ToUint2", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -1086,7 +1086,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint4 (*)(uint64_t, uint64_t)>(&::Unity::Collections::xxHash3::ToUint4)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64cb40c;
+  constexpr static std::size_t addrs = 0x68f414c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1099,7 +1099,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_t*, uint64_t)>(&::Unity::Collections::xxHash3::EncodeSecretKey)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x64ca890;
+  constexpr static std::size_t addrs = 0x68f35d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1113,7 +1113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(void*)>(&::Unity::Collections::xxHash3::Read64LE)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb7d0;
+  constexpr static std::size_t addrs = 0x68f4510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(), { "Read64LE", {}, { ::i2c::type_of<void*>() } })));
@@ -1125,7 +1125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(void*)>(&::Unity::Collections::xxHash3::Read32LE)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb7d8;
+  constexpr static std::size_t addrs = 0x68f4518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(), { "Read32LE", {}, { ::i2c::type_of<void*>() } })));
@@ -1137,7 +1137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, uint64_t)>(&::Unity::Collections::xxHash3::Write64LE)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb7e0;
+  constexpr static std::size_t addrs = 0x68f4520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1150,7 +1150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, uint32_t)>(&::Unity::Collections::xxHash3::Read32LE)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb7e8;
+  constexpr static std::size_t addrs = 0x68f4528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1163,7 +1163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint32_t, uint32_t)>(&::Unity::Collections::xxHash3::Mul32To64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb7f0;
+  constexpr static std::size_t addrs = 0x68f4530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1176,7 +1176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t)>(&::Unity::Collections::xxHash3::Swap64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb7f8;
+  constexpr static std::size_t addrs = 0x68f4538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(), { "Swap64", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -1188,7 +1188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Unity::Collections::xxHash3::Swap32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb800;
+  constexpr static std::size_t addrs = 0x68f4540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(), { "Swap32", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -1200,7 +1200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, int32_t)>(&::Unity::Collections::xxHash3::RotL32)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64cb808;
+  constexpr static std::size_t addrs = 0x68f4548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1213,7 +1213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, int32_t)>(&::Unity::Collections::xxHash3::RotL64)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64cb814;
+  constexpr static std::size_t addrs = 0x68f4554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1226,7 +1226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, int32_t)>(&::Unity::Collections::xxHash3::XorShift64)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64cb820;
+  constexpr static std::size_t addrs = 0x68f4560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1239,7 +1239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&::Unity::Collections::xxHash3::Mul128Fold64)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x64cb82c;
+  constexpr static std::size_t addrs = 0x68f456c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1252,7 +1252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint8_t*, uint8_t*, uint64_t)>(&::Unity::Collections::xxHash3::Mix16)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x64cb868;
+  constexpr static std::size_t addrs = 0x68f45a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1267,7 +1267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::xxHash3_ulong2 (*)(::Unity::Collections::xxHash3_ulong2, uint8_t*, uint8_t*, uint8_t*, uint64_t)>(
     &::Unity::Collections::xxHash3::Mix32)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x64cb8bc;
+  constexpr static std::size_t addrs = 0x68f45fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1283,7 +1283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t)>(&::Unity::Collections::xxHash3::Avalanche)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64cb978;
+  constexpr static std::size_t addrs = 0x68f46b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(), { "Avalanche", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -1295,7 +1295,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t)>(&::Unity::Collections::xxHash3::AvalancheH64)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64cb998;
+  constexpr static std::size_t addrs = 0x68f46d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(), { "AvalancheH64", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -1307,7 +1307,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&::Unity::Collections::xxHash3::rrmxmx)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x64cb9d0;
+  constexpr static std::size_t addrs = 0x68f4710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1320,7 +1320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint64_t, uint8_t*)>(&::Unity::Collections::xxHash3::Mix2Acc)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x64cba04;
+  constexpr static std::size_t addrs = 0x68f4744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(),
@@ -1333,7 +1333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t*, uint8_t*, uint64_t)>(&::Unity::Collections::xxHash3::MergeAcc)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x64cba4c;
+  constexpr static std::size_t addrs = 0x68f478c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1347,7 +1347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t*, uint8_t*, uint8_t*, int64_t, uint8_t*, int32_t)>(&::Unity::Collections::xxHash3::DefaultHashLongInternalLoop)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x64cbbac;
+  constexpr static std::size_t addrs = 0x68f48ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1363,7 +1363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t*, uint8_t*, uint8_t*, uint8_t*, int64_t, int32_t)>(&::Unity::Collections::xxHash3::DefaultAccumulate)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x64cbd60;
+  constexpr static std::size_t addrs = 0x68f4aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1379,7 +1379,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t*, uint8_t*, uint8_t*, uint8_t*, int32_t)>(&::Unity::Collections::xxHash3::DefaultAccumulate512)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x64cbe1c;
+  constexpr static std::size_t addrs = 0x68f4b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1395,7 +1395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t*, uint8_t*)>(&::Unity::Collections::xxHash3::DefaultScrambleAcc)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x64cbde8;
+  constexpr static std::size_t addrs = 0x68f4b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1408,7 +1408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint8_t*, uint8_t*, int64_t, uint8_t*)>(&::Unity::Collections::xxHash3::Hash64Long$BurstManaged)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x64cbe6c;
+  constexpr static std::size_t addrs = 0x68f4bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1423,7 +1423,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_t*, int64_t, uint8_t*, ::by_ref<::Unity::Mathematics::uint4>)>(
     &::Unity::Collections::xxHash3::Hash128Long$BurstManaged)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x64cbf7c;
+  constexpr static std::size_t addrs = 0x68f4cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

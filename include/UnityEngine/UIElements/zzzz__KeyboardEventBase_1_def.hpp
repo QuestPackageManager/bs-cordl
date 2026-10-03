@@ -167,7 +167,7 @@ public:
   KeyboardEventBase_1(KeyboardEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4475 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]

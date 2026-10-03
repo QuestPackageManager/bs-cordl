@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::ColorSchemeSO> (::GlobalNamespace::LightmappingSceneSetup::*)()>(
     &::GlobalNamespace::LightmappingSceneSetup::get_colorScheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x590be30;
+  constexpr static std::size_t addrs = 0x5d264b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightmappingSceneSetup*>(), { "get_colorScheme", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmappingSceneSetup::*)(::GlobalNamespace::ColorSchemeSO*)>(
     &::GlobalNamespace::LightmappingSceneSetup::set_colorScheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x590be38;
+  constexpr static std::size_t addrs = 0x5d264b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmappingSceneSetup::*)()>(&::GlobalNamespace::LightmappingSceneSetup::InstallBindings)> {
   constexpr static std::size_t size = 0xf98;
-  constexpr static std::size_t addrs = 0x590be40;
+  constexpr static std::size_t addrs = 0x5d264c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmappingSceneSetup::*)()>(&::GlobalNamespace::LightmappingSceneSetup::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x590cdd8;
+  constexpr static std::size_t addrs = 0x5d27458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightmappingSceneSetup*>(), { ".ctor", {}, {} })));

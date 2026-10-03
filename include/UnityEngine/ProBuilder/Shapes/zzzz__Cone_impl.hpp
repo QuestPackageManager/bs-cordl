@@ -7,13 +7,26 @@
 #include "UnityEngine/zzzz__Bounds_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::Cone.SetParametersToBuiltInShape
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Cone::*)()>(&::UnityEngine::ProBuilder::Shapes::Cone::SetParametersToBuiltInShape)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6b17d40;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Cone*>(), { ::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Cone*>(), 7 }));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::Cone.CopyShape
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Cone::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
     &::UnityEngine::ProBuilder::Shapes::Cone::CopyShape)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x670304c;
+  constexpr static std::size_t addrs = 0x6b17d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Cone::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Bounds)>(&::UnityEngine::ProBuilder::Shapes::Cone::UpdateBounds)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x67030e4;
+  constexpr static std::size_t addrs = 0x6b17dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Cone::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Cone::RebuildMesh)> {
   constexpr static std::size_t size = 0xc68;
-  constexpr static std::size_t addrs = 0x6703264;
+  constexpr static std::size_t addrs = 0x6b17f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Cone::*)()>(&::UnityEngine::ProBuilder::Shapes::Cone::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6703ecc;
+  constexpr static std::size_t addrs = 0x6b18bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Cone*>(), { ".ctor", {}, {} })));
@@ -96,6 +109,10 @@ constexpr bool const& UnityEngine::ProBuilder::Shapes::Cone::__cordl_internal_ge
 constexpr void UnityEngine::ProBuilder::Shapes::Cone::__cordl_internal_set_m_Smooth(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Smooth = value;
+}
+inline void UnityEngine::ProBuilder::Shapes::Cone::SetParametersToBuiltInShape() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Cone*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::ProBuilder::Shapes::Cone::CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Cone*>(), 6 })));

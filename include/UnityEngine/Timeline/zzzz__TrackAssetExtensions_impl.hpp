@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Timeline::GroupTrack> (*)(::UnityEngine::Timeline::TrackAsset*)>(
     &::UnityEngine::Timeline::TrackAssetExtensions::GetGroup)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x69c79c0;
+  constexpr static std::size_t addrs = 0x6def7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,12 +24,26 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::GroupTrack*)>(
     &::UnityEngine::Timeline::TrackAssetExtensions::SetGroup)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x69c7a8c;
+  constexpr static std::size_t addrs = 0x6def884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAssetExtensions*>(),
                                                              { "SetGroup", {}, { ::i2c::type_of<::UnityEngine::Timeline::TrackAsset*>(), ::i2c::type_of<::UnityEngine::Timeline::GroupTrack*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Timeline::TrackAssetExtensions.ComputeBlendsFromOverlaps
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Timeline::TrackAsset*, bool)>(&::UnityEngine::Timeline::TrackAssetExtensions::ComputeBlendsFromOverlaps)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6de0a80;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAssetExtensions*>(),
+                                                             { "ComputeBlendsFromOverlaps", {}, { ::i2c::type_of<::UnityEngine::Timeline::TrackAsset*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -43,6 +57,12 @@ inline void UnityEngine::Timeline::TrackAssetExtensions::SetGroup(::UnityEngine:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAssetExtensions*>(),
                                                            { "SetGroup", {}, { ::i2c::type_of<::UnityEngine::Timeline::TrackAsset*>(), ::i2c::type_of<::UnityEngine::Timeline::GroupTrack*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, asset, group);
+}
+inline void UnityEngine::Timeline::TrackAssetExtensions::ComputeBlendsFromOverlaps(::UnityEngine::Timeline::TrackAsset* asset, bool force) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAssetExtensions*>(),
+                                                           { "ComputeBlendsFromOverlaps", {}, { ::i2c::type_of<::UnityEngine::Timeline::TrackAsset*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, asset, force);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TrackAssetExtensions::TrackAssetExtensions() {}

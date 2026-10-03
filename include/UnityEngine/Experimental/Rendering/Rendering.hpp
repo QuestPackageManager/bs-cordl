@@ -10,6 +10,7 @@ module;
 #include "UnityEngine/Experimental/Rendering/GraphicsFormatUsage.hpp"
 #include "UnityEngine/Experimental/Rendering/GraphicsFormatUtility.hpp"
 #include "UnityEngine/Experimental/Rendering/IScriptableRuntimeReflectionSystem.hpp"
+#include "UnityEngine/Experimental/Rendering/RayTracingMode.hpp"
 #include "UnityEngine/Experimental/Rendering/ScriptableRuntimeReflectionSystemSettings.hpp"
 #include "UnityEngine/Experimental/Rendering/ScriptableRuntimeReflectionSystemWrapper.hpp"
 #include "UnityEngine/Experimental/Rendering/SinglepassKeywords.hpp"
@@ -23,6 +24,7 @@ module;
 #include "UnityEngine/Experimental/Rendering/XRPassCreateInfo.hpp"
 #include "UnityEngine/Experimental/Rendering/XRSystem.hpp"
 #include "UnityEngine/Experimental/Rendering/XRView.hpp"
+#include "UnityEngine/Experimental/Rendering/XRVisibleMesh.hpp"
 #ifdef __cpp_modules
 export module Rendering;
 #endif

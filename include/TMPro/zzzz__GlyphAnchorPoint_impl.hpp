@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::GlyphAnchorPoint::*)()>(&::TMPro::GlyphAnchorPoint::get_xCoordinate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6937888;
+  constexpr static std::size_t addrs = 0x6d4f550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::GlyphAnchorPoint>(), { "get_xCoordinate", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::GlyphAnchorPoint::*)(float_t)>(&::TMPro::GlyphAnchorPoint::set_xCoordinate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6937890;
+  constexpr static std::size_t addrs = 0x6d4f558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::GlyphAnchorPoint>(), { "set_xCoordinate", {}, { ::i2c::type_of<float_t>() } })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::GlyphAnchorPoint::*)()>(&::TMPro::GlyphAnchorPoint::get_yCoordinate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6937898;
+  constexpr static std::size_t addrs = 0x6d4f560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::GlyphAnchorPoint>(), { "get_yCoordinate", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::GlyphAnchorPoint::*)(float_t)>(&::TMPro::GlyphAnchorPoint::set_yCoordinate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69378a0;
+  constexpr static std::size_t addrs = 0x6d4f568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::GlyphAnchorPoint>(), { "set_yCoordinate", {}, { ::i2c::type_of<float_t>() } })));

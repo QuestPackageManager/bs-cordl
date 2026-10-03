@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<Il2CppObject* (*)()>(&::GlobalNamespace::XRSubsystemHelper::GetCurrentDisplaySubsystem)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x585d26c;
+  constexpr static std::size_t addrs = 0x5c73050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::XRSubsystemHelper*>(), { "GetCurrentDisplaySubsystem", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::XRDisplaySubsystemDescriptor* (*)()>(&::GlobalNamespace::XRSubsystemHelper::GetCurrentDisplaySubsystemDescriptor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x585d3c8;
+  constexpr static std::size_t addrs = 0x5c731ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::XRInputSubsystem* (*)()>(&::GlobalNamespace::XRSubsystemHelper::GetCurrentInputSubsystem)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x585d518;
+  constexpr static std::size_t addrs = 0x5c732fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::XRSubsystemHelper*>(), { "GetCurrentInputSubsystem", {}, {} })));

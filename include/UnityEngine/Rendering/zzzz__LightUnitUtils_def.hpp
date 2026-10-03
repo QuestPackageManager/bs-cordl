@@ -32,77 +32,77 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE LightUnitUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CandelaToEv100, addr 0x67c69e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CandelaToEv100, addr 0x6be4448, size 0x4, virtual false, abstract: false, final false
   static inline float_t CandelaToEv100(float_t candela);
 
-  /// @brief Method CandelaToLumen, addr 0x67c68fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CandelaToLumen, addr 0x6be4360, size 0x8, virtual false, abstract: false, final false
   static inline float_t CandelaToLumen(float_t candela, float_t solidAngle);
 
-  /// @brief Method CandelaToLux, addr 0x67c6920, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CandelaToLux, addr 0x6be4384, size 0xc, virtual false, abstract: false, final false
   static inline float_t CandelaToLux(float_t candela, float_t distance);
 
-  /// @brief Method ConvertIntensity, addr 0x67c6ef4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ConvertIntensity, addr 0x6be4958, size 0x15c, virtual false, abstract: false, final false
   static inline float_t ConvertIntensity(::UnityEngine::Light* light, float_t intensity, ::UnityEngine::Rendering::LightUnit fromUnit, ::UnityEngine::Rendering::LightUnit toUnit);
 
-  /// @brief Method ConvertIntensityInternal, addr 0x67c69e8, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method ConvertIntensityInternal, addr 0x6be444c, size 0x50c, virtual false, abstract: false, final false
   static inline float_t ConvertIntensityInternal(float_t intensity, ::UnityEngine::Rendering::LightUnit fromUnit, ::UnityEngine::Rendering::LightUnit toUnit, ::UnityEngine::LightType lightType,
                                                  float_t area, float_t luxAtDistance, float_t solidAngle);
 
-  /// @brief Method Ev100ToCandela, addr 0x67c69c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Ev100ToCandela, addr 0x6be4428, size 0x20, virtual false, abstract: false, final false
   static inline float_t Ev100ToCandela(float_t ev100);
 
-  /// @brief Method Ev100ToNits, addr 0x67c692c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Ev100ToNits, addr 0x6be4390, size 0x20, virtual false, abstract: false, final false
   static inline float_t Ev100ToNits(float_t ev100);
 
-  /// @brief Method GetAreaFromDiscLight, addr 0x67c68c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetAreaFromDiscLight, addr 0x6be4324, size 0x18, virtual false, abstract: false, final false
   static inline float_t GetAreaFromDiscLight(float_t discRadius);
 
-  /// @brief Method GetAreaFromRectangleLight, addr 0x67c68a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetAreaFromRectangleLight, addr 0x6be430c, size 0x18, virtual false, abstract: false, final false
   static inline float_t GetAreaFromRectangleLight(::UnityEngine::Vector2 rectSize);
 
-  /// @brief Method GetAreaFromRectangleLight, addr 0x67c6890, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetAreaFromRectangleLight, addr 0x6be42f4, size 0x18, virtual false, abstract: false, final false
   static inline float_t GetAreaFromRectangleLight(float_t rectSizeX, float_t rectSizeY);
 
-  /// @brief Method GetAreaFromTubeLight, addr 0x67c68d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetAreaFromTubeLight, addr 0x6be433c, size 0x1c, virtual false, abstract: false, final false
   static inline float_t GetAreaFromTubeLight(float_t tubeLength);
 
-  /// @brief Method GetNativeLightUnit, addr 0x67c659c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetNativeLightUnit, addr 0x6be4000, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::LightUnit GetNativeLightUnit(::UnityEngine::LightType lightType);
 
-  /// @brief Method GetSolidAngle, addr 0x67c67d0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetSolidAngle, addr 0x6be4234, size 0xc0, virtual false, abstract: false, final false
   static inline float_t GetSolidAngle(::UnityEngine::LightType lightType, bool spotReflector, float_t spotAngle, float_t aspectRatio);
 
-  /// @brief Method GetSolidAngleFromPointLight, addr 0x67c6648, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetSolidAngleFromPointLight, addr 0x6be40ac, size 0xc, virtual false, abstract: false, final false
   static inline float_t GetSolidAngleFromPointLight();
 
-  /// @brief Method GetSolidAngleFromPyramidLight, addr 0x67c66f0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetSolidAngleFromPyramidLight, addr 0x6be4154, size 0xe0, virtual false, abstract: false, final false
   static inline float_t GetSolidAngleFromPyramidLight(float_t spotAngle, float_t aspectRatio);
 
-  /// @brief Method GetSolidAngleFromSpotLight, addr 0x67c6654, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetSolidAngleFromSpotLight, addr 0x6be40b8, size 0x9c, virtual false, abstract: false, final false
   static inline float_t GetSolidAngleFromSpotLight(float_t spotAngle);
 
-  /// @brief Method IsLightUnitSupported, addr 0x67c65ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsLightUnitSupported, addr 0x6be4050, size 0x5c, virtual false, abstract: false, final false
   static inline bool IsLightUnitSupported(::UnityEngine::LightType lightType, ::UnityEngine::Rendering::LightUnit lightUnit);
 
-  /// @brief Method LumenToCandela, addr 0x67c68f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LumenToCandela, addr 0x6be4358, size 0x8, virtual false, abstract: false, final false
   static inline float_t LumenToCandela(float_t lumen, float_t solidAngle);
 
-  /// @brief Method LumenToNits, addr 0x67c6904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LumenToNits, addr 0x6be4368, size 0x8, virtual false, abstract: false, final false
   static inline float_t LumenToNits(float_t lumen, float_t area);
 
-  /// @brief Method LuxToCandela, addr 0x67c6914, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LuxToCandela, addr 0x6be4378, size 0xc, virtual false, abstract: false, final false
   static inline float_t LuxToCandela(float_t lux, float_t distance);
 
-  /// @brief Method NitsToEv100, addr 0x67c694c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method NitsToEv100, addr 0x6be43b0, size 0x78, virtual false, abstract: false, final false
   static inline float_t NitsToEv100(float_t nits);
 
-  /// @brief Method NitsToLumen, addr 0x67c690c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method NitsToLumen, addr 0x6be4370, size 0x8, virtual false, abstract: false, final false
   static inline float_t NitsToLumen(float_t nits, float_t area);
 
-  /// @brief Method get_k_EvToLuminanceFactor, addr 0x67c6588, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_k_EvToLuminanceFactor, addr 0x6be3fec, size 0x14, virtual false, abstract: false, final false
   static inline float_t get_k_EvToLuminanceFactor();
 
-  /// @brief Method get_k_LuminanceToEvFactor, addr 0x67c64c8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_k_LuminanceToEvFactor, addr 0x6be3f2c, size 0xc0, virtual false, abstract: false, final false
   static inline float_t get_k_LuminanceToEvFactor();
 
 protected:
@@ -123,7 +123,7 @@ public:
   static constexpr float_t SphereSolidAngle{ static_cast<float_t>(12.566371f) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9186 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

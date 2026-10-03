@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::HybridObjectCache::*)()>(&::System::Runtime::Serialization::HybridObjectCache::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6157640;
+  constexpr static std::size_t addrs = 0x657f23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::HybridObjectCache*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::HybridObjectCache::*)(::StringW, ::System::Object*)>(
     &::System::Runtime::Serialization::HybridObjectCache::Add)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6157644;
+  constexpr static std::size_t addrs = 0x657f240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::HybridObjectCache*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::HybridObjectCache::*)(::StringW)>(&::System::Runtime::Serialization::HybridObjectCache::Remove)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x61577f0;
+  constexpr static std::size_t addrs = 0x657f3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::HybridObjectCache::*)(::StringW)>(
     &::System::Runtime::Serialization::HybridObjectCache::GetObject)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6157860;
+  constexpr static std::size_t addrs = 0x657f454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::HybridObjectCache::*)(::StringW)>(
     &::System::Runtime::Serialization::HybridObjectCache::IsObjectReferenced)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x61579d0;
+  constexpr static std::size_t addrs = 0x657f5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

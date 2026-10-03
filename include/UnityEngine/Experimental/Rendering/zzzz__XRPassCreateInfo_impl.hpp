@@ -12,16 +12,19 @@
 // "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "motionVectorRenderTargetDesc", ty:
 // "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cullingParameters", ty: "::UnityEngine::Rendering::ScriptableCullingParameters",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "occlusionMeshMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}"), comment: None },
-// CppParam { name: "occlusionMeshScale", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "foveatedRenderingInfo", ty: "::System::IntPtr", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "multipassId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cullingPassId", ty: "int32_t",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "copyDepth", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hasMotionVectorPass", ty:
-// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "xrSdkRenderPass", ty: "::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass", modifiers: "", def_value: Some("{}"),
-// comment: None }]
+// CppParam { name: "occlusionMeshScale", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "renderTargetScaledWidth", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "renderTargetScaledHeight", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "foveatedRenderingInfo", ty:
+// "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "multipassId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "cullingPassId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "copyDepth", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "hasMotionVectorPass", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "spaceWarpRightHandedNDC", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "isLastCameraPass", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "xrSdkRenderPass", ty:
+// "::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Experimental::Rendering::XRPassCreateInfo::XRPassCreateInfo(
     ::UnityEngine::Rendering::RenderTargetIdentifier renderTarget, ::UnityEngine::RenderTextureDescriptor renderTargetDesc, ::UnityEngine::Rendering::RenderTargetIdentifier motionVectorRenderTarget,
     ::UnityEngine::RenderTextureDescriptor motionVectorRenderTargetDesc, ::UnityEngine::Rendering::ScriptableCullingParameters cullingParameters,
-    ::UnityW<::UnityEngine::Material> occlusionMeshMaterial, float_t occlusionMeshScale, ::System::IntPtr foveatedRenderingInfo, int32_t multipassId, int32_t cullingPassId, bool copyDepth,
-    bool hasMotionVectorPass, ::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass xrSdkRenderPass) noexcept {
+    ::UnityW<::UnityEngine::Material> occlusionMeshMaterial, float_t occlusionMeshScale, int32_t renderTargetScaledWidth, int32_t renderTargetScaledHeight, ::System::IntPtr foveatedRenderingInfo,
+    int32_t multipassId, int32_t cullingPassId, bool copyDepth, bool hasMotionVectorPass, bool spaceWarpRightHandedNDC, bool isLastCameraPass,
+    ::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass xrSdkRenderPass) noexcept {
   this->renderTarget = renderTarget;
   this->renderTargetDesc = renderTargetDesc;
   this->motionVectorRenderTarget = motionVectorRenderTarget;
@@ -29,11 +32,15 @@ constexpr ::UnityEngine::Experimental::Rendering::XRPassCreateInfo::XRPassCreate
   this->cullingParameters = cullingParameters;
   this->occlusionMeshMaterial = occlusionMeshMaterial;
   this->occlusionMeshScale = occlusionMeshScale;
+  this->renderTargetScaledWidth = renderTargetScaledWidth;
+  this->renderTargetScaledHeight = renderTargetScaledHeight;
   this->foveatedRenderingInfo = foveatedRenderingInfo;
   this->multipassId = multipassId;
   this->cullingPassId = cullingPassId;
   this->copyDepth = copyDepth;
   this->hasMotionVectorPass = hasMotionVectorPass;
+  this->spaceWarpRightHandedNDC = spaceWarpRightHandedNDC;
+  this->isLastCameraPass = isLastCameraPass;
   this->xrSdkRenderPass = xrSdkRenderPass;
 }
 // Ctor Parameters []

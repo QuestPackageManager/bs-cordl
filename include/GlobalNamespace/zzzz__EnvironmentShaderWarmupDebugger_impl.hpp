@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentShaderWarmupDebugger___c::*)()>(&::GlobalNamespace::EnvironmentShaderWarmupDebugger___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58af3cc;
+  constexpr static std::size_t addrs = 0x5cc5f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentShaderWarmupDebugger___c*>(), { ".ctor", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::EnvironmentShaderWarmupDebugger___c::*)(::UnityEngine::Renderer*)>(
     &::GlobalNamespace::EnvironmentShaderWarmupDebugger___c::_Initialize_b__4_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x58af3d0;
+  constexpr static std::size_t addrs = 0x5cc5f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentShaderWarmupDebugger::*)()>(&::GlobalNamespace::EnvironmentShaderWarmupDebugger::Initialize)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x58ae7a4;
+  constexpr static std::size_t addrs = 0x5cc5324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentShaderWarmupDebugger*>(), { "Initialize", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentShaderWarmupDebugger::*)()>(&::GlobalNamespace::EnvironmentShaderWarmupDebugger::LateTick)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58ae94c;
+  constexpr static std::size_t addrs = 0x5cc54cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentShaderWarmupDebugger*>(), { "LateTick", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentShaderWarmupDebugger::*)()>(
     &::GlobalNamespace::EnvironmentShaderWarmupDebugger::JustRenderersAndInitialMaterials)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x58ae950;
+  constexpr static std::size_t addrs = 0x5cc54d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentShaderWarmupDebugger::*)()>(&::GlobalNamespace::EnvironmentShaderWarmupDebugger::FullMaterialLookup)> {
   constexpr static std::size_t size = 0x5a0;
-  constexpr static std::size_t addrs = 0x58aed34;
+  constexpr static std::size_t addrs = 0x5cc58b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentShaderWarmupDebugger*>(), { "FullMaterialLookup", {}, {} })));
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::EnvironmentShaderWarmupDebugger::*)(::UnityEngine::GameObject*)>(
     &::GlobalNamespace::EnvironmentShaderWarmupDebugger::GetGameObjectPath)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x58aebe0;
+  constexpr static std::size_t addrs = 0x5cc5760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentShaderWarmupDebugger::*)()>(&::GlobalNamespace::EnvironmentShaderWarmupDebugger::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x58af2d4;
+  constexpr static std::size_t addrs = 0x5cc5e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentShaderWarmupDebugger*>(), { ".ctor", {}, {} })));

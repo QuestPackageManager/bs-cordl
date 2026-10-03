@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier>, ::UnityEngine::Rendering::FastMemoryFlags, float_t, bool)>(
         &::UnityEngine::Rendering::CommandBufferExtensions::Internal_SwitchIntoFastMemory)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6b1c2c8;
+  constexpr static std::size_t addrs = 0x6f7a00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier>, bool)>(
     &::UnityEngine::Rendering::CommandBufferExtensions::Internal_SwitchOutOfFastMemory)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6b1c3fc;
+  constexpr static std::size_t addrs = 0x6f7a140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::FastMemoryFlags,
                                                                 float_t, bool)>(&::UnityEngine::Rendering::CommandBufferExtensions::SwitchIntoFastMemory)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b1c4f8;
+  constexpr static std::size_t addrs = 0x6f7a23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, bool)>(
     &::UnityEngine::Rendering::CommandBufferExtensions::SwitchOutOfFastMemory)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b1c4fc;
+  constexpr static std::size_t addrs = 0x6f7a240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier>, ::UnityEngine::Rendering::FastMemoryFlags, float_t,
                                                                 bool)>(&::UnityEngine::Rendering::CommandBufferExtensions::Internal_SwitchIntoFastMemory_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6b1c390;
+  constexpr static std::size_t addrs = 0x6f7a0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier>, bool)>(
     &::UnityEngine::Rendering::CommandBufferExtensions::Internal_SwitchOutOfFastMemory_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b1c4a4;
+  constexpr static std::size_t addrs = 0x6f7a1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

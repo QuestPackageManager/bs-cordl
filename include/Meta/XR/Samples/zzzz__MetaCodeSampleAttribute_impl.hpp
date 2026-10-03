@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Samples::MetaCodeSampleAttribute::*)(::StringW)>(&::Meta::XR::Samples::MetaCodeSampleAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e508f0;
+  constexpr static std::size_t addrs = 0x626a684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::Samples::MetaCodeSampleAttribute::*)()>(&::Meta::XR::Samples::MetaCodeSampleAttribute::get_SampleName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e508f8;
+  constexpr static std::size_t addrs = 0x626a68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::Samples::MetaCodeSampleAttribute*>(), { "get_SampleName", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Samples::MetaCodeSampleAttribute::*)(::StringW)>(&::Meta::XR::Samples::MetaCodeSampleAttribute::set_SampleName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e50900;
+  constexpr static std::size_t addrs = 0x626a694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

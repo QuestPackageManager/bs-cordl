@@ -29,15 +29,15 @@ public:
 
   __declspec(property(get = get_status)) ::UnityEngine::UIElements::BindingStatus status;
 
-  /// @brief Method .ctor, addr 0x6c30b68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70863ec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BindingStatus status, ::StringW message);
 
   /// [CompilerGenerated]
-  /// @brief Method get_message, addr 0x6c30b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_message, addr 0x70863e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_message();
 
   /// [CompilerGenerated]
-  /// @brief Method get_status, addr 0x6c30b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x70863dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingStatus get_status();
 
   // Ctor Parameters []
@@ -49,7 +49,7 @@ public:
   constexpr BindingResult(::UnityEngine::UIElements::BindingStatus _status_k__BackingField, ::StringW _message_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4027 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -46,7 +46,7 @@ public:
   template <typename T> static inline void AllocFreeAddRange(::System::Collections::Generic::IList_1<T>* list, ::System::Collections::Generic::IList_1<T>* items);
 
   /// [Extension]
-  /// @brief Method Fmt, addr 0x6e3f0c8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Fmt, addr 0x72dac18, size 0x1a4, virtual false, abstract: false, final false
   static inline ::StringW Fmt(::StringW s, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// [Extension]
@@ -58,7 +58,7 @@ public:
   template <typename T> static inline int32_t IndexOf(::System::Collections::Generic::IList_1<T>* list, T item);
 
   /// [Extension]
-  /// @brief Method Join, addr 0x6e3ff34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x72dba84, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW Join(::System::Collections::Generic::IEnumerable_1<::StringW>* values, ::StringW separator);
 
   /// [Extension]
@@ -92,7 +92,7 @@ public:
   MiscExtensions(MiscExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14207 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

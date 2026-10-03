@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BeatGames::Analytics::Events::CommonFieldProviders::get_RuntimePlatform)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3257e6c;
+  constexpr static std::size_t addrs = 0x34dd554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BeatGames::Analytics::Events::CommonFieldProviders::get_DeviceType)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3258224;
+  constexpr static std::size_t addrs = 0x34dd90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::CommonFieldProviders*>(), { "get_DeviceType", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::BeatGames::Analytics::Events::CommonFieldProviders::get_VROSMajorVersion)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x3257f3c;
+  constexpr static std::size_t addrs = 0x34dd624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

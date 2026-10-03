@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRMixedRealityCaptureConfiguration*, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(
     &::GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions::ApplyTo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f026c8;
+  constexpr static std::size_t addrs = 0x631cb00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRMixedRealityCaptureConfiguration*, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(
     &::GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions::ReadFrom)> {
   constexpr static std::size_t size = 0x142c;
-  constexpr static std::size_t addrs = 0x5f026cc;
+  constexpr static std::size_t addrs = 0x631cb04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -23,7 +23,7 @@ class RawImage;
 MARK_REF_T(::UnityEngine::UI::RawImage*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::RawImage*, "UnityEngine.UI", "RawImage");
 // [RequireComponent(typeof(UnityEngine.CanvasRenderer))]
-// [AddComponentMenu("UI/Raw Image", 12)]
+// [AddComponentMenu("UI (Canvas)/Raw Image", 12)]
 // Dependencies UnityEngine.Rect, UnityEngine.UI.MaskableGraphic
 namespace UnityEngine::UI {
 // Is value type: false
@@ -45,13 +45,13 @@ public:
 
   static inline ::UnityEngine::UI::RawImage* New_ctor();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x6e02d44, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x729b3a0, size 0x3c, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnPopulateMesh, addr 0x6e0266c, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x729ad20, size 0x274, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
-  /// @brief Method SetNativeSize, addr 0x6e023ac, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method SetNativeSize, addr 0x729aa30, size 0x2f0, virtual true, abstract: false, final false
   inline void SetNativeSize();
 
   constexpr ::UnityW<::UnityEngine::Texture> const& __cordl_internal_get_m_Texture() const;
@@ -66,22 +66,22 @@ public:
 
   constexpr void __cordl_internal_set_m_UVRect(::UnityEngine::Rect value);
 
-  /// @brief Method .ctor, addr 0x6e02114, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x729a6b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mainTexture, addr 0x6e0213c, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method get_mainTexture, addr 0x729a6dc, size 0x1b0, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_mainTexture();
 
-  /// @brief Method get_texture, addr 0x6e0229c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x729a88c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_texture();
 
-  /// @brief Method get_uvRect, addr 0x6e02354, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_uvRect, addr 0x729a944, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_uvRect();
 
-  /// @brief Method set_texture, addr 0x6e022a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_texture, addr 0x729a894, size 0xb0, virtual false, abstract: false, final false
   inline void set_texture(::UnityEngine::Texture* value);
 
-  /// @brief Method set_uvRect, addr 0x6e02360, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_uvRect, addr 0x729a950, size 0xe0, virtual false, abstract: false, final false
   inline void set_uvRect(::UnityEngine::Rect value);
 
 protected:
@@ -99,7 +99,7 @@ public:
   RawImage(RawImage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17983 };
 
   /// [FormerlySerializedAs("m_Tex")]
   /// [SerializeField]

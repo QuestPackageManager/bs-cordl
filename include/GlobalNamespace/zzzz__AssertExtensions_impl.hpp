@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t, ::StringW)>(&::GlobalNamespace::AssertExtensions::LessThan)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3321b94;
+  constexpr static std::size_t addrs = 0x35aab34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AssertExtensions*>(),
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t, ::StringW)>(&::GlobalNamespace::AssertExtensions::GreaterOrEqual)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3321b98;
+  constexpr static std::size_t addrs = 0x35aab38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

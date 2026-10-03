@@ -427,19 +427,6 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::I
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::IInputRuntime.get_isInBatchMode
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::IInputRuntime::*)()>(&::UnityEngine::InputSystem::LowLevel::IInputRuntime::get_isInBatchMode)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::IInputRuntime*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::InputSystem::LowLevel::IInputRuntime*>(), 30 }));
-    return ___internal_method;
-  }
-};
 inline int32_t UnityEngine::InputSystem::LowLevel::IInputRuntime::AllocateDeviceId() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::InputSystem::LowLevel::IInputRuntime*>(), 0 })));
@@ -589,9 +576,4 @@ inline float_t UnityEngine::InputSystem::LowLevel::IInputRuntime::get_scrollWhee
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::InputSystem::LowLevel::IInputRuntime*>(), 29 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
-}
-inline bool UnityEngine::InputSystem::LowLevel::IInputRuntime::get_isInBatchMode() {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::InputSystem::LowLevel::IInputRuntime*>(), 30 })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }

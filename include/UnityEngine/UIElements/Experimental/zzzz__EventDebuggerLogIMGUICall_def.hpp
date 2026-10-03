@@ -29,10 +29,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6d1eaf8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x71d02b4, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x6d1eaf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71d02b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventBase* evt);
 
   /// @brief Convert to "::System::IDisposable"
@@ -43,7 +43,7 @@ public:
   constexpr EventDebuggerLogIMGUICall();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5604 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

@@ -42,37 +42,37 @@ public:
   __declspec(property(get = getStaticF_EmptyArgList, put = setStaticF_EmptyArgList)) ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* EmptyArgList;
 
   /// [Extension]
-  /// @brief Method GetAllInstances, addr 0x6e87330, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetAllInstances, addr 0x7322c74, size 0xfc, virtual false, abstract: false, final false
   static inline void GetAllInstances(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
                                      ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
   /// [Extension]
-  /// @brief Method GetAllInstances, addr 0x6e872b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetAllInstances, addr 0x7322bf8, size 0x7c, virtual false, abstract: false, final false
   static inline void GetAllInstances(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
   /// [Extension]
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x6e871b0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x7322af4, size 0x104, virtual false, abstract: false, final false
   static inline void GetAllInstancesWithInjectSplit(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::by_ref<::System::Action*> injectAction,
                                                     ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
   /// [Extension]
-  /// @brief Method GetInstance, addr 0x6e876b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x7322ff4, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* GetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context);
 
   /// [Extension]
-  /// @brief Method GetInstance, addr 0x6e87724, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x7323068, size 0x258, virtual false, abstract: false, final false
   static inline ::System::Object* GetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args);
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method NoDomainReloadInit, addr 0x6e87110, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x7322a54, size 0xa0, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
   /// [Extension]
-  /// @brief Method TryGetInstance, addr 0x6e8742c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method TryGetInstance, addr 0x7322d70, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* TryGetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context);
 
   /// [Extension]
-  /// @brief Method TryGetInstance, addr 0x6e874a0, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method TryGetInstance, addr 0x7322de4, size 0x210, virtual false, abstract: false, final false
   static inline ::System::Object* TryGetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args);
 
   static inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* getStaticF_EmptyArgList();
@@ -94,7 +94,7 @@ public:
   IProviderExtensions(IProviderExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14797 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

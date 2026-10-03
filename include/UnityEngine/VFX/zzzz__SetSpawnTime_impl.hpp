@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SetSpawnTime::*)(::UnityEngine::VFX::VFXSpawnerState*, ::UnityEngine::VFX::VFXExpressionValues*,
                                                                                                   ::UnityEngine::VFX::VisualEffect*)>(&::UnityEngine::VFX::SetSpawnTime::OnPlay)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69d1c14;
+  constexpr static std::size_t addrs = 0x6e0eda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SetSpawnTime::*)(::UnityEngine::VFX::VFXSpawnerState*, ::UnityEngine::VFX::VFXExpressionValues*,
                                                                                                   ::UnityEngine::VFX::VisualEffect*)>(&::UnityEngine::VFX::SetSpawnTime::OnUpdate)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69d1c18;
+  constexpr static std::size_t addrs = 0x6e0eda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SetSpawnTime::*)(::UnityEngine::VFX::VFXSpawnerState*, ::UnityEngine::VFX::VFXExpressionValues*,
                                                                                                   ::UnityEngine::VFX::VisualEffect*)>(&::UnityEngine::VFX::SetSpawnTime::OnStop)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69d1cbc;
+  constexpr static std::size_t addrs = 0x6e0ee4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SetSpawnTime::*)()>(&::UnityEngine::VFX::SetSpawnTime::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d1cc0;
+  constexpr static std::size_t addrs = 0x6e0ee50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SetSpawnTime*>(), { ".ctor", {}, {} })));

@@ -206,6 +206,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder.GenerateDebugData
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder::*)(bool)>(
+    &::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder::GenerateDebugData)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(), 14 }));
+    return ___internal_method;
+  }
+};
 inline void UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder::UseTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> input,
                                                                                            ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags) {
   auto* ___internal_method = THROW_UNLESS(
@@ -282,6 +296,11 @@ inline void UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder::
 inline void UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder::EnableFoveatedRasterization(bool value) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder::GenerateDebugData(bool value) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 /// @brief Convert operator to "::System::IDisposable"

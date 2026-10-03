@@ -26,19 +26,19 @@ public:
 
   __declspec(property(get = get_Min)) int32_t Min;
 
-  /// @brief Method CheckNull, addr 0x604b4b8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method CheckNull, addr 0x6467840, size 0x34, virtual false, abstract: false, final false
   inline void CheckNull();
 
-  /// @brief Method .ctor, addr 0x604b470, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64677f8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(int32_t min, int32_t max);
 
-  /// @brief Method get_Count, addr 0x60460c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x6462410, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsNull, addr 0x6045c10, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x6461f5c, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method get_Min, addr 0x60460e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Min, addr 0x6462430, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Min();
 
   // Ctor Parameters []
@@ -50,7 +50,7 @@ public:
   constexpr Range(int32_t _min, int32_t _max, bool _isNotNull) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14078 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

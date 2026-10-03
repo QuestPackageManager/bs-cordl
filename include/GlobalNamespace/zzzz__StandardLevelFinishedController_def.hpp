@@ -40,18 +40,18 @@ public:
   __declspec(property(get = __cordl_internal_get__standardLevelSceneSetupData,
                       put = __cordl_internal_set__standardLevelSceneSetupData)) ::GlobalNamespace::StandardLevelScenesTransitionSetupData* _standardLevelSceneSetupData;
 
-  /// @brief Method HandleLevelFinished, addr 0x59b6f30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFinished, addr 0x5dd2458, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelFinished();
 
   static inline ::GlobalNamespace::StandardLevelFinishedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59b6df8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dd2320, size 0x138, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59b6d04, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5dd222c, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartLevelFinished, addr 0x59b6f34, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method StartLevelFinished, addr 0x5dd245c, size 0x54, virtual false, abstract: false, final false
   inline void StartLevelFinished();
 
   constexpr ::GlobalNamespace::ILevelEndActions* const& __cordl_internal_get__gameplayManager() const;
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelSceneSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x59b6f88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd24b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   StandardLevelFinishedController(StandardLevelFinishedController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6163 };
 
   /// [Inject]
   /// @brief Field _standardLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None

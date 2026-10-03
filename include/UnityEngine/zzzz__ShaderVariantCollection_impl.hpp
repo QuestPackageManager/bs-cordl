@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ShaderVariantCollection_ShaderVariant::*)(::UnityEngine::Shader*, ::UnityEngine::Rendering::PassType, ::ArrayW<::StringW>)>(
     &::UnityEngine::ShaderVariantCollection_ShaderVariant::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6af0310;
+  constexpr static std::size_t addrs = 0x6f4afdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,8 +45,8 @@ constexpr ::UnityEngine::ShaderVariantCollection_ShaderVariant::ShaderVariantCol
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ShaderVariantCollection::*)()>(&::UnityEngine::ShaderVariantCollection::get_variantCount)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6aefe0c;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6f4ab00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ShaderVariantCollection*>(), { "get_variantCount", {}, {} })));
@@ -57,8 +57,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::S
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ShaderVariantCollection::*)()>(&::UnityEngine::ShaderVariantCollection::get_warmedUpVariantCount)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6aefec8;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6f4abb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ShaderVariantCollection*>(), { "get_warmedUpVariantCount", {}, {} })));
@@ -69,8 +69,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::S
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ShaderVariantCollection::*)()>(&::UnityEngine::ShaderVariantCollection::get_isWarmedUp)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6aeff84;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6f4ac68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ShaderVariantCollection*>(), { "get_isWarmedUp", {}, {} })));
@@ -82,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ShaderVariantCollection::*)(::UnityEngine::Shader*, ::UnityEngine::Rendering::PassType, ::ArrayW<::StringW>)>(
     &::UnityEngine::ShaderVariantCollection::AddVariant)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6af0040;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x6f4ad1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,8 +97,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Shad
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ShaderVariantCollection::*)(int32_t)>(&::UnityEngine::ShaderVariantCollection::WarmUpProgressively)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6af0174;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6f4ae48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ShaderVariantCollection*)>(&::UnityEngine::ShaderVariantCollection::Internal_Create)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6af0248;
+  constexpr static std::size_t addrs = 0x6f4af14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ShaderVariantCollection::*)()>(&::UnityEngine::ShaderVariantCollection::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6af0284;
+  constexpr static std::size_t addrs = 0x6f4af50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ShaderVariantCollection*>(), { ".ctor", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ShaderVariantCollection::*)(::UnityEngine::ShaderVariantCollection_ShaderVariant)>(
     &::UnityEngine::ShaderVariantCollection::Add)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6af02fc;
+  constexpr static std::size_t addrs = 0x6f4afc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::ShaderVariantCollection::get_variantCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6aefe8c;
+  constexpr static std::size_t addrs = 0x6f4ab78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::ShaderVariantCollection::get_warmedUpVariantCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6aeff48;
+  constexpr static std::size_t addrs = 0x6f4ac2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::ShaderVariantCollection::get_isWarmedUp_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6af0004;
+  constexpr static std::size_t addrs = 0x6f4ace0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::Rendering::PassType, ::ArrayW<::StringW>)>(
     &::UnityEngine::ShaderVariantCollection::AddVariant_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6af0118;
+  constexpr static std::size_t addrs = 0x6f4adec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ShaderVariantCollection*>(),
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, int32_t)>(&::UnityEngine::ShaderVariantCollection::WarmUpProgressively_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6af0204;
+  constexpr static std::size_t addrs = 0x6f4aed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ShaderVariantCollection*>(),
@@ -227,7 +227,8 @@ inline bool UnityEngine::ShaderVariantCollection::get_isWarmedUp() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ShaderVariantCollection*>(), { "get_isWarmedUp", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool UnityEngine::ShaderVariantCollection::AddVariant(::UnityEngine::Shader* shader, ::UnityEngine::Rendering::PassType passType, /* [Unmarshalled] */ ::ArrayW<::StringW> keywords) {
+inline bool UnityEngine::ShaderVariantCollection::AddVariant(::UnityEngine::Shader* shader, ::UnityEngine::Rendering::PassType passType,
+                                                             /* [UnityMarshalAs((UnityEngine.Bindings.NativeType)0)] */ ::ArrayW<::StringW> keywords) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ShaderVariantCollection*>(),

@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_maximumVisibleLights)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b1f2f8;
+  constexpr static std::size_t addrs = 0x6f7d73c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(bool)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_conservativeEnclosingSphere)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b1f300;
+  constexpr static std::size_t addrs = 0x6f7d744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_numIterationsEnclosingSphere)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b1f308;
+  constexpr static std::size_t addrs = 0x6f7d74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ScriptableCullingParameters::*)()>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::get_cullingPlaneCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b1f310;
+  constexpr static std::size_t addrs = 0x6f7d754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(uint32_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_cullingMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b1f318;
+  constexpr static std::size_t addrs = 0x6f7d75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_cullingMatrix)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b1f320;
+  constexpr static std::size_t addrs = 0x6f7d764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(float_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_shadowDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b1f338;
+  constexpr static std::size_t addrs = 0x6f7d77c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CullingOptions (::UnityEngine::Rendering::ScriptableCullingParameters::*)()>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::get_cullingOptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b1f340;
+  constexpr static std::size_t addrs = 0x6f7d784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::UnityEngine::Rendering::CullingOptions)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_cullingOptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b1f348;
+  constexpr static std::size_t addrs = 0x6f7d78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(),
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::UnityEngine::Rendering::ReflectionProbeSortingCriteria)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_reflectionProbeSortingCriteria)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b1f350;
+  constexpr static std::size_t addrs = 0x6f7d794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_stereoViewMatrix)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b1f358;
+  constexpr static std::size_t addrs = 0x6f7d79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (::UnityEngine::Rendering::ScriptableCullingParameters::*)()>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::get_stereoProjectionMatrix)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b1f370;
+  constexpr static std::size_t addrs = 0x6f7d7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_stereoProjectionMatrix)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b1f388;
+  constexpr static std::size_t addrs = 0x6f7d7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(),
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(float_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_stereoSeparationDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b1f3a0;
+  constexpr static std::size_t addrs = 0x6f7d7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::GetLayerCullingDistance)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6b1f3a8;
+  constexpr static std::size_t addrs = 0x6f7d7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Plane (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::GetCullingPlane)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6b1f468;
+  constexpr static std::size_t addrs = 0x6f7d8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t, ::UnityEngine::Plane)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::SetCullingPlane)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6b1f594;
+  constexpr static std::size_t addrs = 0x6f7d9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(),
@@ -273,8 +273,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::UnityEngine::Rendering::ScriptableCullingParameters)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::Equals)> {
-  constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x6b1f6e0;
+  constexpr static std::size_t size = 0x460;
+  constexpr static std::size_t addrs = 0x6f7db24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(),
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::System::Object*)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::Equals)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6b1fc38;
+  constexpr static std::size_t addrs = 0x6f7e054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(),
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ScriptableCullingParameters::*)()>(&::UnityEngine::Rendering::ScriptableCullingParameters::GetHashCode)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x6b1fd38;
+  constexpr static std::size_t addrs = 0x6f7e154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(),

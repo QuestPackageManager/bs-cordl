@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Lifetime::LeaseManager::*)(::System::TimeSpan)>(
     &::System::Runtime::Remoting::Lifetime::LeaseManager::SetPollTime)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5b358e8;
+  constexpr static std::size_t addrs = 0x5f4d7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Lifetime::LeaseManager::*)(::System::Runtime::Remoting::ServerIdentity*)>(
     &::System::Runtime::Remoting::Lifetime::LeaseManager::TrackLifetime)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5b359d0;
+  constexpr static std::size_t addrs = 0x5f4d8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Lifetime::LeaseManager*>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Lifetime::LeaseManager::*)()>(&::System::Runtime::Remoting::Lifetime::LeaseManager::StartManager)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5b35afc;
+  constexpr static std::size_t addrs = 0x5f4d9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Lifetime::LeaseManager*>(), { "StartManager", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Lifetime::LeaseManager::*)()>(&::System::Runtime::Remoting::Lifetime::LeaseManager::StopManager)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5b35c80;
+  constexpr static std::size_t addrs = 0x5f4db78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Lifetime::LeaseManager*>(), { "StopManager", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Lifetime::LeaseManager::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Lifetime::LeaseManager::ManageLeases)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x5b35c9c;
+  constexpr static std::size_t addrs = 0x5f4db94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Lifetime::LeaseManager::*)()>(&::System::Runtime::Remoting::Lifetime::LeaseManager::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5b35ef8;
+  constexpr static std::size_t addrs = 0x5f4ddf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Lifetime::LeaseManager*>(), { ".ctor", {}, {} })));

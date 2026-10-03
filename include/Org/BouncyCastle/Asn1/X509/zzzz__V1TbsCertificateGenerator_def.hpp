@@ -67,36 +67,36 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerTaggedObject* version;
 
-  /// @brief Method GenerateTbsCertificate, addr 0x36695f0, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method GenerateTbsCertificate, addr 0x38f288c, size 0x2cc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* GenerateTbsCertificate();
 
   static inline ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator* New_ctor();
 
-  /// @brief Method SetEndDate, addr 0x3669578, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetEndDate, addr 0x38f2814, size 0x68, virtual false, abstract: false, final false
   inline void SetEndDate(::Org::BouncyCastle::Asn1::DerUtcTime* endDate);
 
-  /// @brief Method SetEndDate, addr 0x3669570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEndDate, addr 0x38f280c, size 0x8, virtual false, abstract: false, final false
   inline void SetEndDate(::Org::BouncyCastle::Asn1::X509::Time* endDate);
 
-  /// @brief Method SetIssuer, addr 0x36694f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetIssuer, addr 0x38f2794, size 0x8, virtual false, abstract: false, final false
   inline void SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method SetSerialNumber, addr 0x36694e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSerialNumber, addr 0x38f2784, size 0x8, virtual false, abstract: false, final false
   inline void SetSerialNumber(::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
 
-  /// @brief Method SetSignature, addr 0x36694f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSignature, addr 0x38f278c, size 0x8, virtual false, abstract: false, final false
   inline void SetSignature(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature);
 
-  /// @brief Method SetStartDate, addr 0x3669508, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetStartDate, addr 0x38f27a4, size 0x68, virtual false, abstract: false, final false
   inline void SetStartDate(::Org::BouncyCastle::Asn1::DerUtcTime* startDate);
 
-  /// @brief Method SetStartDate, addr 0x3669500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetStartDate, addr 0x38f279c, size 0x8, virtual false, abstract: false, final false
   inline void SetStartDate(::Org::BouncyCastle::Asn1::X509::Time* startDate);
 
-  /// @brief Method SetSubject, addr 0x36695e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSubject, addr 0x38f287c, size 0x8, virtual false, abstract: false, final false
   inline void SetSubject(::Org::BouncyCastle::Asn1::X509::X509Name* subject);
 
-  /// @brief Method SetSubjectPublicKeyInfo, addr 0x36695e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSubjectPublicKeyInfo, addr 0x38f2884, size 0x8, virtual false, abstract: false, final false
   inline void SetSubjectPublicKeyInfo(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pubKeyInfo);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::Time* const& __cordl_internal_get_endDate() const;
@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerTaggedObject* value);
 
-  /// @brief Method .ctor, addr 0x3669458, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38f26f4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

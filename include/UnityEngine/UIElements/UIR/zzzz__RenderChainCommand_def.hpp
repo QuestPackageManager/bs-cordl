@@ -4,9 +4,10 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__CommandFlags_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__CommandType_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__State_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderChainCommand)
@@ -22,8 +23,14 @@ class DrawParams;
 namespace UnityEngine::UIElements::UIR {
 class MeshHandle;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace UnityEngine::UIElements::UIR {
+class RenderData;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine {
 struct RectInt;
@@ -32,10 +39,7 @@ namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-class Texture;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -44,36 +48,37 @@ class RenderChainCommand;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UIR::RenderChainCommand*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::RenderChainCommand*, "UnityEngine.UIElements.UIR", "RenderChainCommand");
-// Dependencies Unity.Profiling.ProfilerMarker, UnityEngine.UIElements.UIR.CommandType, UnityEngine.UIElements.UIR.LinkedPoolItem`1<T>, UnityEngine.UIElements.UIR.State
+// Dependencies Unity.Profiling.ProfilerMarker, UnityEngine.UIElements.TextureId, UnityEngine.UIElements.UIR.CommandFlags, UnityEngine.UIElements.UIR.CommandType,
+// UnityEngine.UIElements.UIR.LinkedPoolItem`1<T>
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.RenderChainCommand
 class CORDL_TYPE RenderChainCommand : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::RenderChainCommand*> {
 public:
   // Declarations
-  /// @brief Field callback, offset 0x60, size 0x8
+  /// @brief Field callback, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action* callback;
 
-  /// @brief Field indexCount, offset 0x5c, size 0x4
+  /// @brief Field flags, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags)) ::UnityEngine::UIElements::UIR::CommandFlags flags;
+
+  /// @brief Field indexCount, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_indexCount, put = __cordl_internal_set_indexCount)) int32_t indexCount;
 
-  /// @brief Field indexOffset, offset 0x58, size 0x4
+  /// @brief Field indexOffset, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_indexOffset, put = __cordl_internal_set_indexOffset)) int32_t indexOffset;
 
-  /// @brief Field isTail, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_isTail, put = __cordl_internal_set_isTail)) bool isTail;
+  /// @brief Field material, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_material, put = __cordl_internal_set_material)) ::UnityW<::UnityEngine::Material> material;
 
-  /// @brief Field k_ID_MainTex, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_k_ID_MainTex, put = setStaticF_k_ID_MainTex)) int32_t k_ID_MainTex;
-
-  /// @brief Field mesh, offset 0x50, size 0x8
+  /// @brief Field mesh, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_mesh, put = __cordl_internal_set_mesh)) ::UnityEngine::UIElements::UIR::MeshHandle* mesh;
 
   /// @brief Field next, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::UnityEngine::UIElements::UIR::RenderChainCommand* next;
 
   /// @brief Field owner, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_owner, put = __cordl_internal_set_owner)) ::UnityEngine::UIElements::VisualElement* owner;
+  __declspec(property(get = __cordl_internal_get_owner, put = __cordl_internal_set_owner)) ::UnityEngine::UIElements::UIR::RenderData* owner;
 
   /// @brief Field prev, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_prev, put = __cordl_internal_set_prev)) ::UnityEngine::UIElements::UIR::RenderChainCommand* prev;
@@ -81,32 +86,51 @@ public:
   /// @brief Field s_ImmediateOverheadMarker, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ImmediateOverheadMarker, put = setStaticF_s_ImmediateOverheadMarker)) ::Unity::Profiling::ProfilerMarker s_ImmediateOverheadMarker;
 
-  /// @brief Field state, offset 0x38, size 0x18
-  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state)) ::UnityEngine::UIElements::UIR::State state;
+  /// @brief Field sdfScale, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get_sdfScale, put = __cordl_internal_set_sdfScale)) float_t sdfScale;
 
-  /// @brief Field type, offset 0x34, size 0x4
+  /// @brief Field sharpness, offset 0x54, size 0x4
+  __declspec(property(get = __cordl_internal_get_sharpness, put = __cordl_internal_set_sharpness)) float_t sharpness;
+
+  /// @brief Field stencilRef, offset 0x4c, size 0x4
+  __declspec(property(get = __cordl_internal_get_stencilRef, put = __cordl_internal_set_stencilRef)) int32_t stencilRef;
+
+  /// @brief Field texture, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get_texture, put = __cordl_internal_set_texture)) ::UnityEngine::UIElements::TextureId texture;
+
+  /// @brief Field type, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::UnityEngine::UIElements::UIR::CommandType type;
 
-  /// @brief Method Blit, addr 0x6cfdae0, size 0x29c, virtual false, abstract: false, final false
-  inline void Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* destination, float_t depth);
+  /// @brief Field userProps, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_userProps, put = __cordl_internal_set_userProps)) ::UnityEngine::MaterialPropertyBlock* userProps;
 
-  /// @brief Method CombineScissorRects, addr 0x6cfd9bc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CombineScissorRects, addr 0x7192b50, size 0x14c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect CombineScissorRects(::UnityEngine::Rect r0, ::UnityEngine::Rect r1);
 
-  /// @brief Method ExecuteNonDrawMesh, addr 0x6cfc860, size 0xdd4, virtual false, abstract: false, final false
+  /// @brief Method ExecuteNonDrawMesh, addr 0x71902d8, size 0x714, virtual false, abstract: false, final false
   inline void ExecuteNonDrawMesh(::UnityEngine::UIElements::UIR::DrawParams* drawParams, float_t pixelsPerPoint, ::by_ref<::System::Exception*> immediateException);
 
   static inline ::UnityEngine::UIElements::UIR::RenderChainCommand* New_ctor();
 
-  /// @brief Method RectPointsToPixelsAndFlipYAxis, addr 0x6cfd634, size 0x388, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RectInt RectPointsToPixelsAndFlipYAxis(::UnityEngine::Rect rect, float_t pixelsPerPoint);
+  /// @brief Method PopScissor, addr 0x71909ec, size 0x1f0, virtual false, abstract: false, final false
+  static inline void PopScissor(::UnityEngine::UIElements::UIR::DrawParams* drawParams, float_t pixelsPerPoint);
 
-  /// @brief Method Reset, addr 0x6cfc83c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method PushScissor, addr 0x718fca8, size 0x188, virtual false, abstract: false, final false
+  static inline void PushScissor(::UnityEngine::UIElements::UIR::DrawParams* drawParams, ::UnityEngine::Rect scissor, float_t pixelsPerPoint);
+
+  /// @brief Method RectPointsToPixelsAndFlipYAxis, addr 0x7192758, size 0x3f8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::RectInt RectPointsToPixelsAndFlipYAxis(::UnityEngine::Rect rect, ::UnityEngine::Vector2 boundsMin, float_t pixelsPerPoint);
+
+  /// @brief Method Reset, addr 0x71845b8, size 0x84, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Action* const& __cordl_internal_get_callback() const;
 
   constexpr ::System::Action*& __cordl_internal_get_callback();
+
+  constexpr ::UnityEngine::UIElements::UIR::CommandFlags const& __cordl_internal_get_flags() const;
+
+  constexpr ::UnityEngine::UIElements::UIR::CommandFlags& __cordl_internal_get_flags();
 
   constexpr int32_t const& __cordl_internal_get_indexCount() const;
 
@@ -116,9 +140,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_indexOffset();
 
-  constexpr bool const& __cordl_internal_get_isTail() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_material() const;
 
-  constexpr bool& __cordl_internal_get_isTail();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_material();
 
   constexpr ::UnityEngine::UIElements::UIR::MeshHandle* const& __cordl_internal_get_mesh() const;
 
@@ -128,50 +152,72 @@ public:
 
   constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand*& __cordl_internal_get_next();
 
-  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_owner() const;
+  constexpr ::UnityEngine::UIElements::UIR::RenderData* const& __cordl_internal_get_owner() const;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_owner();
+  constexpr ::UnityEngine::UIElements::UIR::RenderData*& __cordl_internal_get_owner();
 
   constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand* const& __cordl_internal_get_prev() const;
 
   constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand*& __cordl_internal_get_prev();
 
-  constexpr ::UnityEngine::UIElements::UIR::State const& __cordl_internal_get_state() const;
+  constexpr float_t const& __cordl_internal_get_sdfScale() const;
 
-  constexpr ::UnityEngine::UIElements::UIR::State& __cordl_internal_get_state();
+  constexpr float_t& __cordl_internal_get_sdfScale();
+
+  constexpr float_t const& __cordl_internal_get_sharpness() const;
+
+  constexpr float_t& __cordl_internal_get_sharpness();
+
+  constexpr int32_t const& __cordl_internal_get_stencilRef() const;
+
+  constexpr int32_t& __cordl_internal_get_stencilRef();
+
+  constexpr ::UnityEngine::UIElements::TextureId const& __cordl_internal_get_texture() const;
+
+  constexpr ::UnityEngine::UIElements::TextureId& __cordl_internal_get_texture();
 
   constexpr ::UnityEngine::UIElements::UIR::CommandType const& __cordl_internal_get_type() const;
 
   constexpr ::UnityEngine::UIElements::UIR::CommandType& __cordl_internal_get_type();
 
+  constexpr ::UnityEngine::MaterialPropertyBlock* const& __cordl_internal_get_userProps() const;
+
+  constexpr ::UnityEngine::MaterialPropertyBlock*& __cordl_internal_get_userProps();
+
   constexpr void __cordl_internal_set_callback(::System::Action* value);
+
+  constexpr void __cordl_internal_set_flags(::UnityEngine::UIElements::UIR::CommandFlags value);
 
   constexpr void __cordl_internal_set_indexCount(int32_t value);
 
   constexpr void __cordl_internal_set_indexOffset(int32_t value);
 
-  constexpr void __cordl_internal_set_isTail(bool value);
+  constexpr void __cordl_internal_set_material(::UnityW<::UnityEngine::Material> value);
 
   constexpr void __cordl_internal_set_mesh(::UnityEngine::UIElements::UIR::MeshHandle* value);
 
   constexpr void __cordl_internal_set_next(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
-  constexpr void __cordl_internal_set_owner(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_owner(::UnityEngine::UIElements::UIR::RenderData* value);
 
   constexpr void __cordl_internal_set_prev(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
-  constexpr void __cordl_internal_set_state(::UnityEngine::UIElements::UIR::State value);
+  constexpr void __cordl_internal_set_sdfScale(float_t value);
+
+  constexpr void __cordl_internal_set_sharpness(float_t value);
+
+  constexpr void __cordl_internal_set_stencilRef(int32_t value);
+
+  constexpr void __cordl_internal_set_texture(::UnityEngine::UIElements::TextureId value);
 
   constexpr void __cordl_internal_set_type(::UnityEngine::UIElements::UIR::CommandType value);
 
-  /// @brief Method .ctor, addr 0x6cfdd7c, size 0x3c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_userProps(::UnityEngine::MaterialPropertyBlock* value);
+
+  /// @brief Method .ctor, addr 0x7184560, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline int32_t getStaticF_k_ID_MainTex();
-
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ImmediateOverheadMarker();
-
-  static inline void setStaticF_k_ID_MainTex(int32_t value);
 
   static inline void setStaticF_s_ImmediateOverheadMarker(::Unity::Profiling::ProfilerMarker value);
 
@@ -190,10 +236,10 @@ public:
   RenderChainCommand(RenderChainCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5504 };
 
   /// @brief Field owner, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualElement* ___owner;
+  ::UnityEngine::UIElements::UIR::RenderData* ___owner;
 
   /// @brief Field prev, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::RenderChainCommand* ___prev;
@@ -201,25 +247,40 @@ public:
   /// @brief Field next, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::RenderChainCommand* ___next;
 
-  /// @brief Field isTail, offset: 0x30, size: 0x1, def value: None
-  bool ___isTail;
-
-  /// @brief Field type, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field type, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::UIElements::UIR::CommandType ___type;
 
-  /// @brief Field state, offset: 0x38, size: 0x18, def value: None
-  ::UnityEngine::UIElements::UIR::State ___state;
+  /// @brief Field flags, offset: 0x34, size: 0x4, def value: None
+  ::UnityEngine::UIElements::UIR::CommandFlags ___flags;
 
-  /// @brief Field mesh, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field material, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Material> ___material;
+
+  /// @brief Field userProps, offset: 0x40, size: 0x8, def value: None
+  ::UnityEngine::MaterialPropertyBlock* ___userProps;
+
+  /// @brief Field texture, offset: 0x48, size: 0x4, def value: None
+  ::UnityEngine::UIElements::TextureId ___texture;
+
+  /// @brief Field stencilRef, offset: 0x4c, size: 0x4, def value: None
+  int32_t ___stencilRef;
+
+  /// @brief Field sdfScale, offset: 0x50, size: 0x4, def value: None
+  float_t ___sdfScale;
+
+  /// @brief Field sharpness, offset: 0x54, size: 0x4, def value: None
+  float_t ___sharpness;
+
+  /// @brief Field mesh, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::MeshHandle* ___mesh;
 
-  /// @brief Field indexOffset, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field indexOffset, offset: 0x60, size: 0x4, def value: None
   int32_t ___indexOffset;
 
-  /// @brief Field indexCount, offset: 0x5c, size: 0x4, def value: None
+  /// @brief Field indexCount, offset: 0x64, size: 0x4, def value: None
   int32_t ___indexCount;
 
-  /// @brief Field callback, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field callback, offset: 0x68, size: 0x8, def value: None
   ::System::Action* ___callback;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -231,20 +292,30 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___pr
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___next) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___isTail) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___type) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___type) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___flags) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___state) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___material) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___mesh) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___userProps) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___indexOffset) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___texture) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___indexCount) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___stencilRef) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___callback) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___sdfScale) == 0x50, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::UIR::RenderChainCommand) == 0x68, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___sharpness) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___mesh) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___indexOffset) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___indexCount) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___callback) == 0x68, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::UIR::RenderChainCommand) == 0x70, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR

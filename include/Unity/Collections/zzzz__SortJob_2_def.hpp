@@ -66,7 +66,7 @@ public:
   constexpr SortJob_2_SegmentSort(T* Data, U Comp, int32_t Length, int32_t SegmentWidth) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15934 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -116,7 +116,7 @@ public:
   constexpr SortJob_2_SegmentSortMerge(T* Data, U Comp, int32_t Length, int32_t SegmentWidth) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15935 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -164,7 +164,7 @@ public:
   constexpr SortJob_2(T* Data, U Comp, int32_t Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15936 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

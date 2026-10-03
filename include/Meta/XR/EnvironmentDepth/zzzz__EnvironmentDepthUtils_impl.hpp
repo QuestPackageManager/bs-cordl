@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(float_t, float_t)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils::ComputeNdcToLinearDepthParameters)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5a3dd94;
+  constexpr static std::size_t addrs = 0x5e55634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::Meta::XR::EnvironmentDepth::DepthFrameDesc)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils::CalculateReprojection)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5a3ddf0;
+  constexpr static std::size_t addrs = 0x5e55690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils*>(),
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils::CalculateDepthCameraMatrices)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5a3f174;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x5e56a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

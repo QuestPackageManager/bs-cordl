@@ -35,6 +35,9 @@ public:
   /// @brief Field _camera, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera)) ::UnityW<::UnityEngine::Camera> _camera;
 
+  /// @brief Field _fieldOfView, offset 0x54, size 0x4
+  __declspec(property(get = __cordl_internal_get__fieldOfView, put = __cordl_internal_set__fieldOfView)) float_t _fieldOfView;
+
   /// @brief Field _mainCamera, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__mainCamera, put = __cordl_internal_set__mainCamera)) ::UnityW<::GlobalNamespace::MainCamera> _mainCamera;
 
@@ -59,24 +62,31 @@ public:
   /// @brief Field _xrOriginalMirrorViewBlitMode, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__xrOriginalMirrorViewBlitMode, put = __cordl_internal_set__xrOriginalMirrorViewBlitMode)) int32_t _xrOriginalMirrorViewBlitMode;
 
-  /// @brief Method Init, addr 0x59f67fc, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ApplyMainCameraParameters, addr 0x5e11e9c, size 0x10c, virtual false, abstract: false, final false
+  inline void ApplyMainCameraParameters();
+
+  /// @brief Method Init, addr 0x5e11dc4, size 0xd8, virtual false, abstract: false, final false
   inline void Init(float_t fieldOfView, float_t positionSmooth, float_t rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition,
                    ::UnityEngine::Vector3 thirdPersonEulerAngles);
 
-  /// @brief Method LateUpdate, addr 0x59f6a88, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5e12050, size 0x240, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SmoothCamera* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x59f6a40, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5e12008, size 0x48, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x59f69e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5e11fa8, size 0x60, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
 
   constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
+
+  constexpr float_t const& __cordl_internal_get__fieldOfView() const;
+
+  constexpr float_t& __cordl_internal_get__fieldOfView();
 
   constexpr ::UnityW<::GlobalNamespace::MainCamera> const& __cordl_internal_get__mainCamera() const;
 
@@ -112,6 +122,8 @@ public:
 
   constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
+  constexpr void __cordl_internal_set__fieldOfView(float_t value);
+
   constexpr void __cordl_internal_set__mainCamera(::UnityW<::GlobalNamespace::MainCamera> value);
 
   constexpr void __cordl_internal_set__positionSmooth(float_t value);
@@ -128,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__xrOriginalMirrorViewBlitMode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x59f6cc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e12290, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -146,7 +158,7 @@ public:
   SmoothCamera(SmoothCamera const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6272 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6392 };
 
   /// [SerializeField]
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
@@ -171,6 +183,9 @@ public:
   /// @brief Field _positionSmooth, offset: 0x50, size: 0x4, def value: None
   float_t ____positionSmooth;
 
+  /// @brief Field _fieldOfView, offset: 0x54, size: 0x4, def value: None
+  float_t ____fieldOfView;
+
   /// @brief Field _xrDisplaySubsystem, offset: 0x58, size: 0x8, def value: None
   Il2CppObject* ____xrDisplaySubsystem;
 
@@ -193,6 +208,8 @@ static_assert(offsetof(::GlobalNamespace::SmoothCamera, ____thirdPersonEnabled) 
 static_assert(offsetof(::GlobalNamespace::SmoothCamera, ____rotationSmooth) == 0x4c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SmoothCamera, ____positionSmooth) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothCamera, ____fieldOfView) == 0x54, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SmoothCamera, ____xrDisplaySubsystem) == 0x58, "Offset mismatch!");
 

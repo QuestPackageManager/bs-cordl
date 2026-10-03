@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ValidationMarker::*)(::System::Type*, bool)>(&::Zenject::ValidationMarker::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e9fd3c;
+  constexpr static std::size_t addrs = 0x733b8e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ValidationMarker::*)(::System::Type*)>(&::Zenject::ValidationMarker::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e85528;
+  constexpr static std::size_t addrs = 0x73210c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ValidationMarker*>(), { ".ctor", {}, { ::i2c::type_of<::System::Type*>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::ValidationMarker::*)()>(&::Zenject::ValidationMarker::get_InstantiateFailed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e9fd48;
+  constexpr static std::size_t addrs = 0x733b8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ValidationMarker*>(), { "get_InstantiateFailed", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ValidationMarker::*)(bool)>(&::Zenject::ValidationMarker::set_InstantiateFailed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e9fd50;
+  constexpr static std::size_t addrs = 0x733b8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Zenject::ValidationMarker::*)()>(&::Zenject::ValidationMarker::get_MarkedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e9fd58;
+  constexpr static std::size_t addrs = 0x733b900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ValidationMarker*>(), { "get_MarkedType", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ValidationMarker::*)(::System::Type*)>(&::Zenject::ValidationMarker::set_MarkedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e9fd60;
+  constexpr static std::size_t addrs = 0x733b908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

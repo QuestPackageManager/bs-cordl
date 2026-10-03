@@ -258,7 +258,7 @@ public:
   constexpr OVRDeserialize_DisplayRefreshRateChangedData(float_t FromRefreshRate, float_t ToRefreshRate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7999 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -294,7 +294,7 @@ public:
   constexpr OVRDeserialize_SpaceQueryResultsData(uint64_t RequestId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8000 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -326,7 +326,7 @@ public:
   constexpr OVRDeserialize_SpaceQueryCompleteData(uint64_t RequestId, int32_t Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8001 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -363,7 +363,7 @@ public:
   constexpr OVRDeserialize_SceneCaptureCompleteData(uint64_t RequestId, int32_t Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8002 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -400,7 +400,7 @@ public:
   constexpr OVRDeserialize_SpatialAnchorCreateCompleteData(uint64_t RequestId, int32_t Result, uint64_t Space, ::System::Guid Uuid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8003 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -450,7 +450,7 @@ public:
                                                                int32_t Enabled) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8004 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -507,7 +507,7 @@ public:
   constexpr OVRDeserialize_SpaceSaveCompleteData(uint64_t RequestId, uint64_t Space, int32_t Result, ::System::Guid Uuid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8005 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -555,7 +555,7 @@ public:
   constexpr OVRDeserialize_SpaceEraseCompleteData(uint64_t RequestId, int32_t Result, ::System::Guid Uuid, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation Location) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8006 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -602,7 +602,7 @@ public:
   constexpr OVRDeserialize_SpaceShareResultData(uint64_t RequestId, int32_t Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8007 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -639,7 +639,7 @@ public:
   constexpr OVRDeserialize_SpaceListSaveResultData(uint64_t RequestId, int32_t Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8008 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -678,7 +678,7 @@ public:
                                                                            ::System::Guid AdvertisementUuid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8009 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -725,7 +725,7 @@ public:
   constexpr OVRDeserialize_StopColocationSessionAdvertisementCompleteData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t RequestId, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8010 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -767,7 +767,7 @@ public:
   constexpr OVRDeserialize_StartColocationSessionDiscoveryCompleteData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t RequestId, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8011 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -809,7 +809,7 @@ public:
   constexpr OVRDeserialize_StopColocationSessionDiscoveryCompleteData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t RequestId, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8012 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -853,7 +853,7 @@ public:
   constexpr ColocationSessionDiscoveryResultData_OVRDeserialize__AdvertisementMetadata_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8013 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x400 };
@@ -895,7 +895,7 @@ public:
       ::GlobalNamespace::ColocationSessionDiscoveryResultData_OVRDeserialize__AdvertisementMetadata_e__FixedBuffer AdvertisementMetadata) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8014 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x428 };
@@ -948,7 +948,7 @@ public:
   constexpr OVRDeserialize_ColocationSessionAdvertisementCompleteData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t RequestId, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8015 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -990,7 +990,7 @@ public:
   constexpr OVRDeserialize_ColocationSessionDiscoveryCompleteData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t RequestId, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8016 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -1032,7 +1032,7 @@ public:
   constexpr OVRDeserialize_ShareSpacesToGroupsCompleteData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t RequestId, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8017 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -1074,7 +1074,7 @@ public:
   constexpr OVRDeserialize_SpaceDiscoveryCompleteData(uint64_t RequestId, int32_t Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8018 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -1110,7 +1110,7 @@ public:
   constexpr OVRDeserialize_SpaceDiscoveryResultsData(uint64_t RequestId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8019 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -1142,7 +1142,7 @@ public:
   constexpr OVRDeserialize_SpacesSaveResultData(uint64_t RequestId, ::GlobalNamespace::OVRAnchor_SaveResult Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8020 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -1179,7 +1179,7 @@ public:
   constexpr OVRDeserialize_SpacesEraseResultData(uint64_t RequestId, ::GlobalNamespace::OVRAnchor_EraseResult Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8021 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -1215,7 +1215,7 @@ public:
   constexpr OVRDeserialize_PassthroughLayerResumedData(int32_t LayerId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8022 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1246,7 +1246,7 @@ public:
   constexpr OVRDeserialize_BoundaryVisibilityChangedData(::GlobalNamespace::OVRPlugin_BoundaryVisibility BoundaryVisibility) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8023 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1278,7 +1278,7 @@ public:
   constexpr OVRDeserialize_CreateDynamicObjectTrackerResultData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t Tracker, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8024 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -1320,7 +1320,7 @@ public:
   constexpr OVRDeserialize_SetDynamicObjectTrackedClassesResultData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t Tracker, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8025 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -1430,7 +1430,7 @@ public:
   OVRDeserialize(OVRDeserialize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8026 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

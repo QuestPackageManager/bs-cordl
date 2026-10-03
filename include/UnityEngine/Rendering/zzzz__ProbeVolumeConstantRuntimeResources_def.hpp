@@ -43,19 +43,19 @@ public:
   /// @brief Field m_SkySamplingDirectionsBuffer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_SkySamplingDirectionsBuffer, put = setStaticF_m_SkySamplingDirectionsBuffer)) ::UnityEngine::ComputeBuffer* m_SkySamplingDirectionsBuffer;
 
-  /// @brief Method Cleanup, addr 0x679675c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6bb186c, size 0xc0, virtual false, abstract: false, final false
   static inline void Cleanup();
 
-  /// @brief Method GenerateSkyDirections, addr 0x67964e4, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GenerateSkyDirections, addr 0x6bb163c, size 0x1d4, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3> GenerateSkyDirections();
 
-  /// @brief Method GetRuntimeResources, addr 0x6796314, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeResources, addr 0x6bb146c, size 0x64, virtual false, abstract: false, final false
   static inline void GetRuntimeResources(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_RuntimeResources> rr);
 
-  /// @brief Method GetSkySamplingDirections, addr 0x6796700, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetSkySamplingDirections, addr 0x6bb1810, size 0x5c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3> GetSkySamplingDirections();
 
-  /// @brief Method Initialize, addr 0x6796378, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6bb14d0, size 0x16c, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::ArrayW<uint32_t> getStaticF_k_AntiLeakData();
@@ -92,7 +92,7 @@ public:
   static constexpr int32_t NB_SKY_PRECOMPUTED_DIRECTIONS{ static_cast<int32_t>(0xff) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12139 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9011 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

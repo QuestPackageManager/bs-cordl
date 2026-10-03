@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabLayout::*)(::UnityEngine::UIElements::TabView*, bool)>(&::UnityEngine::UIElements::TabLayout::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6d74b58;
+  constexpr static std::size_t addrs = 0x72066d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabLayout*>(),
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::TabLayout::GetHeight)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d74b7c;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x72066fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::TabLayout::GetWidth)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d74b9c;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x7206774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::TabLayout::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::TabLayout::GetTabOffset)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6d74bbc;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x72067ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabLayout::*)()>(&::UnityEngine::UIElements::TabLayout::InitOrderTabs)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6d74d00;
+  constexpr static std::size_t addrs = 0x720691c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabLayout*>(), { "InitOrderTabs", {}, {} })));
@@ -74,8 +74,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabLayout::*)(int32_t, int32_t)>(&::UnityEngine::UIElements::TabLayout::ReorderDisplay)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6d74d7c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x7206998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

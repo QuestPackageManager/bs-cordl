@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)(::Org::BouncyCastle::Asn1::Tsp::Accuracy*)>(
     &::Org::BouncyCastle::Tsp::GenTimeAccuracy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x361f294;
+  constexpr static std::size_t addrs = 0x38a8530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Seconds)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x361f29c;
+  constexpr static std::size_t addrs = 0x38a8538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), { "get_Seconds", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Millis)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x361f2d8;
+  constexpr static std::size_t addrs = 0x38a8574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), { "get_Millis", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Micros)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x361f2fc;
+  constexpr static std::size_t addrs = 0x38a8598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), { "get_Micros", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)(::Org::BouncyCastle::Asn1::DerInteger*)>(
     &::Org::BouncyCastle::Tsp::GenTimeAccuracy::GetTimeComponent)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x361f2c0;
+  constexpr static std::size_t addrs = 0x38a855c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::ToString)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x361f320;
+  constexpr static std::size_t addrs = 0x38a85bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

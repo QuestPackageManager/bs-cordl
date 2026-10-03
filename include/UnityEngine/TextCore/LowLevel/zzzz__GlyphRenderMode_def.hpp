@@ -25,6 +25,7 @@ public:
 
   /// @brief Nested struct __GlyphRenderMode_Unwrapped
   enum struct __GlyphRenderMode_Unwrapped : int32_t {
+    __E_DEFAULT = static_cast<int32_t>(0x0),
     __E_SMOOTH_HINTED = static_cast<int32_t>(0x1019),
     __E_SMOOTH = static_cast<int32_t>(0x1015),
     __E_COLOR_HINTED = static_cast<int32_t>(0x11018),
@@ -62,6 +63,9 @@ public:
   /// @brief Field COLOR_HINTED value: I32(69656)
   static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const COLOR_HINTED;
 
+  /// @brief Field DEFAULT value: I32(0)
+  static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const DEFAULT;
+
   /// @brief Field RASTER value: I32(4118)
   static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const RASTER;
 
@@ -93,7 +97,7 @@ public:
   static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const SMOOTH_HINTED;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21861 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22887 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

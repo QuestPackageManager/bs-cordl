@@ -28,11 +28,12 @@ public:
   constexpr InstantiateParameters();
 
   // Ctor Parameters [CppParam { name: "parent", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None, comment: None }, CppParam { name: "scene", ty:
-  // "::UnityEngine::SceneManagement::Scene", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldSpace", ty: "bool", modifiers: "", def_value: None, comment: None }]
-  constexpr InstantiateParameters(::UnityW<::UnityEngine::Transform> parent, ::UnityEngine::SceneManagement::Scene scene, bool worldSpace) noexcept;
+  // "::UnityEngine::SceneManagement::Scene", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldSpace", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "originalImmutable", ty: "bool", modifiers: "", def_value: None, comment: None }]
+  constexpr InstantiateParameters(::UnityW<::UnityEngine::Transform> parent, ::UnityEngine::SceneManagement::Scene scene, bool worldSpace, bool originalImmutable) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10377 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9964 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -46,6 +47,9 @@ public:
   /// @brief Field worldSpace, offset: 0xc, size: 0x1, def value: None
   bool worldSpace;
 
+  /// @brief Field originalImmutable, offset: 0xd, size: 0x1, def value: None
+  bool originalImmutable;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -54,6 +58,8 @@ static_assert(offsetof(::UnityEngine::InstantiateParameters, parent) == 0x0, "Of
 static_assert(offsetof(::UnityEngine::InstantiateParameters, scene) == 0x8, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InstantiateParameters, worldSpace) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InstantiateParameters, originalImmutable) == 0xd, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::InstantiateParameters) == 0x10, "Size mismatch!");
 

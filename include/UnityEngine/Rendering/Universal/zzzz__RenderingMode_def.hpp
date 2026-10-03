@@ -27,6 +27,7 @@ public:
     __E_Forward = static_cast<int32_t>(0x0),
     __E_ForwardPlus = static_cast<int32_t>(0x2),
     __E_Deferred = static_cast<int32_t>(0x1),
+    __E_DeferredPlus = static_cast<int32_t>(0x3),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -49,6 +50,9 @@ public:
   /// @brief Field Deferred value: I32(1)
   static ::UnityEngine::Rendering::Universal::RenderingMode const Deferred;
 
+  /// @brief Field DeferredPlus value: I32(3)
+  static ::UnityEngine::Rendering::Universal::RenderingMode const DeferredPlus;
+
   /// @brief Field Forward value: I32(0)
   static ::UnityEngine::Rendering::Universal::RenderingMode const Forward;
 
@@ -56,7 +60,7 @@ public:
   static ::UnityEngine::Rendering::Universal::RenderingMode const ForwardPlus;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13000 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13273 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

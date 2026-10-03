@@ -42,20 +42,20 @@ public:
 
   __declspec(property(get = get_targetElement)) ::UnityEngine::UIElements::VisualElement* targetElement;
 
-  /// @brief Method .ctor, addr 0x6c30b14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7086398, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* targetElement, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
                     /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> resolvedDataSourcePath, ::System::Object* resolvedDataSource);
 
-  /// @brief Method get_bindingId, addr 0x6c30aec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_bindingId, addr 0x7086370, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingId get_bindingId();
 
-  /// @brief Method get_dataSource, addr 0x6c30b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataSource, addr 0x7086390, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_dataSource();
 
-  /// @brief Method get_dataSourcePath, addr 0x6c30afc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_dataSourcePath, addr 0x7086380, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Properties::PropertyPath get_dataSourcePath();
 
-  /// @brief Method get_targetElement, addr 0x6c30ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetElement, addr 0x7086368, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_targetElement();
 
   // Ctor Parameters []
@@ -69,7 +69,7 @@ public:
                            ::System::Object* m_DataSource) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4025 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x138 };

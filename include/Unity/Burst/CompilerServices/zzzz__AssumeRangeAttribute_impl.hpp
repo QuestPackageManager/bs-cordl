@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::CompilerServices::AssumeRangeAttribute::*)(int64_t, int64_t)>(
     &::Unity::Burst::CompilerServices::AssumeRangeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64a7600;
+  constexpr static std::size_t addrs = 0x68cfd54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::CompilerServices::AssumeRangeAttribute::*)(uint64_t, uint64_t)>(
     &::Unity::Burst::CompilerServices::AssumeRangeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64a7604;
+  constexpr static std::size_t addrs = 0x68cfd58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)()>(&::GlobalNamespace::GameEnergyUIPanel::Start)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x59ab508;
+  constexpr static std::size_t addrs = 0x5dc4ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameEnergyUIPanel*>(), { "Start", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)()>(&::GlobalNamespace::GameEnergyUIPanel::Init)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x59ab694;
+  constexpr static std::size_t addrs = 0x5dc5180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameEnergyUIPanel*>(), { "Init", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)()>(&::GlobalNamespace::GameEnergyUIPanel::OnDestroy)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x59ac014;
+  constexpr static std::size_t addrs = 0x5dc5b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameEnergyUIPanel*>(), { "OnDestroy", {}, {} })));
@@ -47,8 +47,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)(int32_t)>(&::GlobalNamespace::GameEnergyUIPanel::CreateUIForBatteryEnergyType)> {
-  constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x59aba40;
+  constexpr static std::size_t size = 0x2e4;
+  constexpr static std::size_t addrs = 0x5dc552c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)(float_t)>(&::GlobalNamespace::GameEnergyUIPanel::RefreshEnergyUI)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x59abcf8;
+  constexpr static std::size_t addrs = 0x5dc5810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)()>(&::GlobalNamespace::GameEnergyUIPanel::HandleGameEnergyCounterDidInit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59ac210;
+  constexpr static std::size_t addrs = 0x5dc5d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameEnergyUIPanel*>(), { "HandleGameEnergyCounterDidInit", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)(float_t)>(&::GlobalNamespace::GameEnergyUIPanel::HandleGameEnergyDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59ac214;
+  constexpr static std::size_t addrs = 0x5dc5d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)()>(&::GlobalNamespace::GameEnergyUIPanel::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59ac218;
+  constexpr static std::size_t addrs = 0x5dc5d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameEnergyUIPanel*>(), { ".ctor", {}, {} })));

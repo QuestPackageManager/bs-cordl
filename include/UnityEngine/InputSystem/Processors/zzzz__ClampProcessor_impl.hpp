@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Processors::ClampProcessor::*)(float_t, ::UnityEngine::InputSystem::InputControl*)>(
     &::UnityEngine::InputSystem::Processors::ClampProcessor::Process)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65be29c;
+  constexpr static std::size_t addrs = 0x69ea2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::ClampProcessor*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::ClampProcessor::*)()>(&::UnityEngine::InputSystem::Processors::ClampProcessor::ToString)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x65be2b4;
+  constexpr static std::size_t addrs = 0x69ea2b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::ClampProcessor*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Processors::ClampProcessor::*)()>(&::UnityEngine::InputSystem::Processors::ClampProcessor::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x65be368;
+  constexpr static std::size_t addrs = 0x69ea36c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::ClampProcessor*>(), { ".ctor", {}, {} })));

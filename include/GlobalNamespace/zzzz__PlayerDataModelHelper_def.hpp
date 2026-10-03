@@ -39,27 +39,27 @@ class CORDL_TYPE PlayerDataModelHelper : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ToPlayerAllOverallStatsData, addr 0x374c714, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ToPlayerAllOverallStatsData, addr 0x39d5d28, size 0xdc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerAllOverallStatsData* playerAllOverallStatsData);
 
   /// [Extension]
-  /// @brief Method ToPlayerAllOverallStatsData, addr 0x374c0e0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ToPlayerAllOverallStatsData, addr 0x39d56f0, size 0xc4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::PlayerSaveData_PlayerAllOverallStatsData* playerAllOverallStatsData);
 
   /// [Extension]
-  /// @brief Method ToPlayerAllOverallStatsData, addr 0x3749fc8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ToPlayerAllOverallStatsData, addr 0x39d35d8, size 0xc0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerSaveData_PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData* playerAllOverallStatsData);
 
   /// [Extension]
-  /// @brief Method ToPlayerOverallStats, addr 0x374dde4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ToPlayerOverallStats, addr 0x39d73fc, size 0xc8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ToPlayerOverallStats(::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerOverallStatsData* playerAllOverallStatsData);
 
   /// [Extension]
-  /// @brief Method ToPlayerOverallStats, addr 0x374dd1c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ToPlayerOverallStats, addr 0x39d7334, size 0xc8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ToPlayerOverallStats(::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData* playerAllOverallStatsData);
 
   /// [Extension]
-  /// @brief Method ToPlayerOverallStatsData, addr 0x374df2c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ToPlayerOverallStatsData, addr 0x39d7544, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData* ToPlayerOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* playerOverallStatsData);
 
 protected:
@@ -77,7 +77,7 @@ public:
   PlayerDataModelHelper(PlayerDataModelHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15168 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15409 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::ConstraintEnumerator::*)(::System::Data::DataSet*)>(&::System::Data::ConstraintEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6020038;
+  constexpr static std::size_t addrs = 0x643c0b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::ConstraintEnumerator::*)()>(&::System::Data::ConstraintEnumerator::GetNext)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x6020078;
+  constexpr static std::size_t addrs = 0x643c0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ConstraintEnumerator*>(), { "GetNext", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::Constraint* (::System::Data::ConstraintEnumerator::*)()>(&::System::Data::ConstraintEnumerator::GetConstraint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6020364;
+  constexpr static std::size_t addrs = 0x643c3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ConstraintEnumerator*>(), { "GetConstraint", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::ConstraintEnumerator::*)(::System::Data::Constraint*)>(&::System::Data::ConstraintEnumerator::IsValidCandidate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x602036c;
+  constexpr static std::size_t addrs = 0x643c3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::Constraint* (::System::Data::ConstraintEnumerator::*)()>(&::System::Data::ConstraintEnumerator::get_CurrentObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6020374;
+  constexpr static std::size_t addrs = 0x643c3ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ConstraintEnumerator*>(), { "get_CurrentObject", {}, {} })));

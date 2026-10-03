@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(OpenXRUtility)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine {
 class Camera;
 }
@@ -29,23 +32,33 @@ namespace UnityEngine::XR::OpenXR {
 class CORDL_TYPE OpenXRUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ComputePoseToWorldSpace, addr 0x69f69bc, size 0x218, virtual false, abstract: false, final false
+  /// @brief Field s_DisplaySubsystems, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_DisplaySubsystems, put = setStaticF_s_DisplaySubsystems)) ::System::Collections::Generic::List_1<Il2CppObject*>* s_DisplaySubsystems;
+
+  /// @brief Method ComputePoseToWorldSpace, addr 0x6e38064, size 0x244, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose ComputePoseToWorldSpace(::UnityEngine::Transform* t, ::UnityEngine::Camera* camera);
 
-  /// @brief Method Internal_GetUserPresence, addr 0x69f6c48, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetFirstDisplaySubsystem, addr 0x6e38420, size 0x12c, virtual false, abstract: false, final false
+  static inline Il2CppObject* GetFirstDisplaySubsystem();
+
+  /// @brief Method Internal_GetUserPresence, addr 0x6e383b4, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_GetUserPresence();
 
-  /// @brief Method Internal_IsSessionFocused, addr 0x69f6bd8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsSessionFocused, addr 0x6e382f8, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_IsSessionFocused();
 
-  /// @brief Method Inverse, addr 0x69f6938, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Inverse, addr 0x6e37fd4, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose Inverse(::UnityEngine::Pose p);
 
-  /// @brief Method get_IsSessionFocused, addr 0x69f6bd4, size 0x4, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<Il2CppObject*>* getStaticF_s_DisplaySubsystems();
+
+  /// @brief Method get_IsSessionFocused, addr 0x6e382a8, size 0x50, virtual false, abstract: false, final false
   static inline bool get_IsSessionFocused();
 
-  /// @brief Method get_IsUserPresent, addr 0x69f6c44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_IsUserPresent, addr 0x6e38364, size 0x50, virtual false, abstract: false, final false
   static inline bool get_IsUserPresent();
+
+  static inline void setStaticF_s_DisplaySubsystems(::System::Collections::Generic::List_1<Il2CppObject*>* value);
 
 protected:
   // Ctor Parameters []
@@ -65,7 +78,7 @@ public:
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18515 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17484 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

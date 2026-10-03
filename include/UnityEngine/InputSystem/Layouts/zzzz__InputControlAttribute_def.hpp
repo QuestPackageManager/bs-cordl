@@ -281,191 +281,191 @@ public:
 
   constexpr void __cordl_internal_set__variants_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x65bf898, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69eb800, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_alias, addr 0x65bf7a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_alias, addr 0x69eb710, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_alias();
 
   /// [CompilerGenerated]
-  /// @brief Method get_aliases, addr 0x65bf7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_aliases, addr 0x69eb720, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_aliases();
 
   /// [CompilerGenerated]
-  /// @brief Method get_arraySize, addr 0x65bf808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arraySize, addr 0x69eb770, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_arraySize();
 
   /// [CompilerGenerated]
-  /// @brief Method get_bit, addr 0x65bf7d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bit, addr 0x69eb740, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_bit();
 
   /// [CompilerGenerated]
-  /// @brief Method get_defaultState, addr 0x65bf868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultState, addr 0x69eb7d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_defaultState();
 
   /// [CompilerGenerated]
-  /// @brief Method get_displayName, addr 0x65bf818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x69eb780, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_dontReset, addr 0x65bf858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dontReset, addr 0x69eb7c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_dontReset();
 
   /// [CompilerGenerated]
-  /// @brief Method get_format, addr 0x65bf758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_format, addr 0x69eb6c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_format();
 
   /// [CompilerGenerated]
-  /// @brief Method get_layout, addr 0x65bf728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x69eb690, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_layout();
 
   /// [CompilerGenerated]
-  /// @brief Method get_maxValue, addr 0x65bf888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxValue, addr 0x69eb7f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_maxValue();
 
   /// [CompilerGenerated]
-  /// @brief Method get_minValue, addr 0x65bf878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minValue, addr 0x69eb7e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_minValue();
 
   /// [CompilerGenerated]
-  /// @brief Method get_name, addr 0x65bf748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x69eb6b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// [CompilerGenerated]
-  /// @brief Method get_noisy, addr 0x65bf838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noisy, addr 0x69eb7a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_noisy();
 
   /// [CompilerGenerated]
-  /// @brief Method get_offset, addr 0x65bf7e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offset, addr 0x69eb750, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_offset();
 
   /// [CompilerGenerated]
-  /// @brief Method get_parameters, addr 0x65bf788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parameters, addr 0x69eb6f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_parameters();
 
   /// [CompilerGenerated]
-  /// @brief Method get_processors, addr 0x65bf798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_processors, addr 0x69eb700, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_processors();
 
   /// [CompilerGenerated]
-  /// @brief Method get_shortDisplayName, addr 0x65bf828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shortDisplayName, addr 0x69eb790, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_shortDisplayName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_sizeInBits, addr 0x65bf7f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sizeInBits, addr 0x69eb760, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_sizeInBits();
 
   /// [CompilerGenerated]
-  /// @brief Method get_synthetic, addr 0x65bf848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_synthetic, addr 0x69eb7b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_synthetic();
 
   /// [CompilerGenerated]
-  /// @brief Method get_usage, addr 0x65bf768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usage, addr 0x69eb6d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_usage();
 
   /// [CompilerGenerated]
-  /// @brief Method get_usages, addr 0x65bf778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usages, addr 0x69eb6e0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_usages();
 
   /// [CompilerGenerated]
-  /// @brief Method get_useStateFrom, addr 0x65bf7c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useStateFrom, addr 0x69eb730, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_useStateFrom();
 
   /// [CompilerGenerated]
-  /// @brief Method get_variants, addr 0x65bf738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_variants, addr 0x69eb6a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_variants();
 
   /// [CompilerGenerated]
-  /// @brief Method set_alias, addr 0x65bf7b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_alias, addr 0x69eb718, size 0x8, virtual false, abstract: false, final false
   inline void set_alias(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_aliases, addr 0x65bf7c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_aliases, addr 0x69eb728, size 0x8, virtual false, abstract: false, final false
   inline void set_aliases(::ArrayW<::StringW> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_arraySize, addr 0x65bf810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_arraySize, addr 0x69eb778, size 0x8, virtual false, abstract: false, final false
   inline void set_arraySize(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_bit, addr 0x65bf7e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bit, addr 0x69eb748, size 0x8, virtual false, abstract: false, final false
   inline void set_bit(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_defaultState, addr 0x65bf870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultState, addr 0x69eb7d8, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultState(::System::Object* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_displayName, addr 0x65bf820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x69eb788, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_dontReset, addr 0x65bf860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dontReset, addr 0x69eb7c8, size 0x8, virtual false, abstract: false, final false
   inline void set_dontReset(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_format, addr 0x65bf760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_format, addr 0x69eb6c8, size 0x8, virtual false, abstract: false, final false
   inline void set_format(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_layout, addr 0x65bf730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layout, addr 0x69eb698, size 0x8, virtual false, abstract: false, final false
   inline void set_layout(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_maxValue, addr 0x65bf890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxValue, addr 0x69eb7f8, size 0x8, virtual false, abstract: false, final false
   inline void set_maxValue(::System::Object* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_minValue, addr 0x65bf880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minValue, addr 0x69eb7e8, size 0x8, virtual false, abstract: false, final false
   inline void set_minValue(::System::Object* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_name, addr 0x65bf750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x69eb6b8, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_noisy, addr 0x65bf840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noisy, addr 0x69eb7a8, size 0x8, virtual false, abstract: false, final false
   inline void set_noisy(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_offset, addr 0x65bf7f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_offset, addr 0x69eb758, size 0x8, virtual false, abstract: false, final false
   inline void set_offset(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_parameters, addr 0x65bf790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parameters, addr 0x69eb6f8, size 0x8, virtual false, abstract: false, final false
   inline void set_parameters(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_processors, addr 0x65bf7a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_processors, addr 0x69eb708, size 0x8, virtual false, abstract: false, final false
   inline void set_processors(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_shortDisplayName, addr 0x65bf830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shortDisplayName, addr 0x69eb798, size 0x8, virtual false, abstract: false, final false
   inline void set_shortDisplayName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_sizeInBits, addr 0x65bf800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sizeInBits, addr 0x69eb768, size 0x8, virtual false, abstract: false, final false
   inline void set_sizeInBits(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_synthetic, addr 0x65bf850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_synthetic, addr 0x69eb7b8, size 0x8, virtual false, abstract: false, final false
   inline void set_synthetic(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_usage, addr 0x65bf770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_usage, addr 0x69eb6d8, size 0x8, virtual false, abstract: false, final false
   inline void set_usage(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_usages, addr 0x65bf780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_usages, addr 0x69eb6e8, size 0x8, virtual false, abstract: false, final false
   inline void set_usages(::ArrayW<::StringW> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_useStateFrom, addr 0x65bf7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useStateFrom, addr 0x69eb738, size 0x8, virtual false, abstract: false, final false
   inline void set_useStateFrom(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_variants, addr 0x65bf740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_variants, addr 0x69eb6a8, size 0x8, virtual false, abstract: false, final false
   inline void set_variants(::StringW value);
 
 protected:
@@ -483,7 +483,7 @@ public:
   InputControlAttribute(InputControlAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11053 };
 
   /// [CompilerGenerated]
   /// @brief Field <layout>k__BackingField, offset: 0x18, size: 0x8, def value: None

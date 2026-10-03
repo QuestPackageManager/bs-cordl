@@ -34,21 +34,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>*();
 
-  /// @brief Method Equals, addr 0x6cc02e4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7146bf0, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6cc026c, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7146b78, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::UxmlNamespaceDefinition other);
 
-  /// @brief Method GetHashCode, addr 0x6cc0378, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7146c84, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::UIElements::UxmlNamespaceDefinition getStaticF__Empty_k__BackingField();
 
+  /// [CompilerGenerated]
+  /// @brief Method get_Empty, addr 0x7146a90, size 0x5c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::UxmlNamespaceDefinition get_Empty();
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>* i___System__IEquatable_1___UnityEngine__UIElements__UxmlNamespaceDefinition_();
 
-  /// @brief Method op_Equality, addr 0x6cc0218, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x7146aec, size 0x8c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::UxmlNamespaceDefinition lhs, ::UnityEngine::UIElements::UxmlNamespaceDefinition rhs);
 
   static inline void setStaticF__Empty_k__BackingField(::UnityEngine::UIElements::UxmlNamespaceDefinition value);
@@ -62,7 +66,7 @@ public:
   constexpr UxmlNamespaceDefinition(::StringW prefix, ::StringW resolvedNamespace) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5288 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

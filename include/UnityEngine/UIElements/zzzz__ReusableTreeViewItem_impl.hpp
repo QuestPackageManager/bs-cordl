@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/ReusableTreeViewItem.hpp"
+#include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ReusableTreeViewItem_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -15,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::ReusableTreeViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::get_rootElement)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c5654c;
+  constexpr static std::size_t addrs = 0x70a00b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(::System::Action_1<::UnityEngine::UIElements::PointerUpEvent*>*)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::add_onPointerUp)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c4f958;
+  constexpr static std::size_t addrs = 0x70a00cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(::System::Action_1<::UnityEngine::UIElements::PointerUpEvent*>*)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::remove_onPointerUp)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c4f7b8;
+  constexpr static std::size_t addrs = 0x70a018c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>*)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::add_onToggleValueChanged)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c4fa18;
+  constexpr static std::size_t addrs = 0x70a024c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>*)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::remove_onToggleValueChanged)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c4f878;
+  constexpr static std::size_t addrs = 0x70a030c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,12 +84,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::ReusableTreeViewItem.get_indentWidth
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::ReusableTreeViewItem::*)()>(&::UnityEngine::UIElements::ReusableTreeViewItem::get_indentWidth)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x70a03cc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReusableTreeViewItem*>(), { "get_indentWidth", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::ReusableTreeViewItem._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)()>(&::UnityEngine::UIElements::ReusableTreeViewItem::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6c56428;
+  constexpr static std::size_t addrs = 0x709ff90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReusableTreeViewItem*>(), { ".ctor", {}, {} })));
@@ -101,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::Init)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6c56564;
+  constexpr static std::size_t addrs = 0x70a0438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::InitExpandHierarchy)> {
   constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x6c55f78;
+  constexpr static std::size_t addrs = 0x709fae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)()>(&::UnityEngine::UIElements::ReusableTreeViewItem::PreAttachElement)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6c56638;
+  constexpr static std::size_t addrs = 0x70a050c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)()>(&::UnityEngine::UIElements::ReusableTreeViewItem::DetachElement)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6c567f0;
+  constexpr static std::size_t addrs = 0x70a06c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(int32_t)>(&::UnityEngine::UIElements::ReusableTreeViewItem::Indent)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c4f580;
+  constexpr static std::size_t addrs = 0x70a087c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(bool)>(&::UnityEngine::UIElements::ReusableTreeViewItem::SetExpandedWithoutNotify)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c4f5e4;
+  constexpr static std::size_t addrs = 0x70a09dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(bool)>(&::UnityEngine::UIElements::ReusableTreeViewItem::SetToggleVisibility)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c4f658;
+  constexpr static std::size_t addrs = 0x70a09fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::OnToggleGeometryChanged)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x6c56aec;
+  constexpr static std::size_t addrs = 0x70a0a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReusableTreeViewItem*>(),
@@ -208,8 +221,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)()>(&::UnityEngine::UIElements::ReusableTreeViewItem::UpdateIndentLayout)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6c569a8;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x70a0890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReusableTreeViewItem*>(), { "UpdateIndentLayout", {}, {} })));
@@ -222,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::OnPointerUp)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c56d00;
+  constexpr static std::size_t addrs = 0x70a0c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReusableTreeViewItem*>(),
@@ -236,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(::UnityEngine::UIElements::ChangeEvent_1<bool>*)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::OnToggleValueChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c56d1c;
+  constexpr static std::size_t addrs = 0x70a0c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReusableTreeViewItem*>(),
@@ -352,6 +365,18 @@ constexpr void UnityEngine::UIElements::ReusableTreeViewItem::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IndentWidth = value;
 }
+constexpr ::System::Nullable_1<float_t>& UnityEngine::UIElements::ReusableTreeViewItem::__cordl_internal_get_customIndentWidth() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___customIndentWidth;
+}
+constexpr ::System::Nullable_1<float_t> const& UnityEngine::UIElements::ReusableTreeViewItem::__cordl_internal_get_customIndentWidth() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___customIndentWidth;
+}
+constexpr void UnityEngine::UIElements::ReusableTreeViewItem::__cordl_internal_set_customIndentWidth(::System::Nullable_1<float_t> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___customIndentWidth = value;
+}
 constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*& UnityEngine::UIElements::ReusableTreeViewItem::__cordl_internal_get_m_PointerUpCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerUpCallback;
@@ -423,6 +448,10 @@ inline void UnityEngine::UIElements::ReusableTreeViewItem::remove_onToggleValueC
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReusableTreeViewItem*>(),
                                                            { "remove_onToggleValueChanged", {}, { ::i2c::type_of<::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::UIElements::ReusableTreeViewItem::get_indentWidth() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReusableTreeViewItem*>(), { "get_indentWidth", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::ReusableTreeViewItem::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReusableTreeViewItem*>(), { ".ctor", {}, {} })));

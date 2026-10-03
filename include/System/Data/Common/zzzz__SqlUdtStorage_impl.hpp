@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::SqlUdtStorage___c__DisplayClass6_0::*)()>(&::System::Data::Common::SqlUdtStorage___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60cb90c;
+  constexpr static std::size_t addrs = 0x64e7dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Common::SqlUdtStorage___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::SqlUdtStorage___c__DisplayClass6_0::*)(::System::Type*)>(
     &::System::Data::Common::SqlUdtStorage___c__DisplayClass6_0::_GetStaticNullForUdtType_b__0)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x60ccca8;
+  constexpr static std::size_t addrs = 0x64e9160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Common::SqlUdtStorage___c__DisplayClass6_0*>(),
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::SqlUdtStorage::*)(::System::Data::DataColumn*, ::System::Type*)>(&::System::Data::Common::SqlUdtStorage::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x60cb5f4;
+  constexpr static std::size_t addrs = 0x64e7aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Common::SqlUdtStorage*>(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::SqlUdtStorage::*)(::System::Data::DataColumn*, ::System::Type*, ::System::Object*)>(
     &::System::Data::Common::SqlUdtStorage::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x60cb784;
+  constexpr static std::size_t addrs = 0x64e7c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Type*)>(&::System::Data::Common::SqlUdtStorage::GetStaticNullForUdtType)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x60cb670;
+  constexpr static std::size_t addrs = 0x64e7b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::Common::SqlUdtStorage::*)(int32_t)>(&::System::Data::Common::SqlUdtStorage::IsNull)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x60cb910;
+  constexpr static std::size_t addrs = 0x64e7dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::SqlUdtStorage::*)(::ArrayW<int32_t>, ::System::Data::AggregateType)>(
     &::System::Data::Common::SqlUdtStorage::Aggregate)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x60cba20;
+  constexpr static std::size_t addrs = 0x64e7ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::SqlUdtStorage::*)(int32_t, int32_t)>(&::System::Data::Common::SqlUdtStorage::Compare)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60cba50;
+  constexpr static std::size_t addrs = 0x64e7f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::SqlUdtStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::SqlUdtStorage::CompareValueTo)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x60cba88;
+  constexpr static std::size_t addrs = 0x64e7f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::SqlUdtStorage::*)(int32_t, int32_t)>(&::System::Data::Common::SqlUdtStorage::Copy)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x60cbd20;
+  constexpr static std::size_t addrs = 0x64e81d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::SqlUdtStorage::*)(int32_t)>(&::System::Data::Common::SqlUdtStorage::Get)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x60cbda4;
+  constexpr static std::size_t addrs = 0x64e825c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::SqlUdtStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::SqlUdtStorage::Set)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x60cbdd4;
+  constexpr static std::size_t addrs = 0x64e828c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::SqlUdtStorage::*)(int32_t)>(&::System::Data::Common::SqlUdtStorage::SetCapacity)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x60cbf2c;
+  constexpr static std::size_t addrs = 0x64e83e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::SqlUdtStorage::*)(::StringW)>(&::System::Data::Common::SqlUdtStorage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x60cbff0;
+  constexpr static std::size_t addrs = 0x64e84a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::SqlUdtStorage::*)(::System::Xml::XmlReader*, ::System::Xml::Serialization::XmlRootAttribute*)>(
     &::System::Data::Common::SqlUdtStorage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x60cc308;
+  constexpr static std::size_t addrs = 0x64e87c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::Common::SqlUdtStorage::*)(::System::Object*)>(&::System::Data::Common::SqlUdtStorage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x60cc5b4;
+  constexpr static std::size_t addrs = 0x64e8a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::SqlUdtStorage::*)(::System::Object*, ::System::Xml::XmlWriter*, ::System::Xml::Serialization::XmlRootAttribute*)>(
     &::System::Data::Common::SqlUdtStorage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x60cc894;
+  constexpr static std::size_t addrs = 0x64e8d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::SqlUdtStorage::*)(int32_t)>(&::System::Data::Common::SqlUdtStorage::GetEmptyStorage)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x60cca00;
+  constexpr static std::size_t addrs = 0x64e8eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::SqlUdtStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(
     &::System::Data::Common::SqlUdtStorage::CopyValue)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x60cca4c;
+  constexpr static std::size_t addrs = 0x64e8f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::SqlUdtStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(
     &::System::Data::Common::SqlUdtStorage::SetStorage)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x60ccb88;
+  constexpr static std::size_t addrs = 0x64e9040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

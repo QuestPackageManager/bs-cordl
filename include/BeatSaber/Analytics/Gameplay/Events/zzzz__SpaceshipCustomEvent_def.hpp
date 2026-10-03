@@ -35,7 +35,7 @@ public:
   __declspec(property(get = __cordl_internal_get_payload, put = __cordl_internal_set_payload)) ::StringW payload;
 
   /// [NullableContext(1)]
-  /// @brief Method ApplyBasicFields, addr 0x32650f8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ApplyBasicFields, addr 0x34e9a84, size 0x1c, virtual true, abstract: false, final false
   inline void ApplyBasicFields(::OSCE::Analytics::AnalyticsManager* manager);
 
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipCustomEvent* New_ctor();
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_payload(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3262b1c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34e8204, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   SpaceshipCustomEvent(SpaceshipCustomEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22276 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22971 };
 
   /// @brief Field build_version, offset: 0x68, size: 0x8, def value: None
   ::StringW ___build_version;

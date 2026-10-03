@@ -97,10 +97,10 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* value);
 
-  /// @brief Method .ctor, addr 0x65b6984, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e29a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <set_onBeforeUpdate>b__0, addr 0x65b7424, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <set_onBeforeUpdate>b__0, addr 0x69e3424, size 0x20, virtual false, abstract: false, final false
   inline void _set_onBeforeUpdate_b__0(::UnityEngineInternal::Input::NativeInputUpdateType updateType);
 
 protected:
@@ -118,7 +118,7 @@ public:
   NativeInputRuntime___c__DisplayClass10_0(NativeInputRuntime___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11016 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* ___value;
@@ -150,10 +150,10 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* value);
 
-  /// @brief Method .ctor, addr 0x65b6ac8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e2ae8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <set_onShouldRunUpdate>b__0, addr 0x65b7444, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <set_onShouldRunUpdate>b__0, addr 0x69e3444, size 0x20, virtual false, abstract: false, final false
   inline bool _set_onShouldRunUpdate_b__0(::UnityEngineInternal::Input::NativeInputUpdateType updateType);
 
 protected:
@@ -171,7 +171,7 @@ public:
   NativeInputRuntime___c__DisplayClass13_0(NativeInputRuntime___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11017 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* ___value;
@@ -203,10 +203,10 @@ public:
 
   constexpr void __cordl_internal_set_value(::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* value);
 
-  /// @brief Method .ctor, addr 0x65b6840, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e2860, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <set_onUpdate>b__0, addr 0x65b7464, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method <set_onUpdate>b__0, addr 0x69e3464, size 0x208, virtual false, abstract: false, final false
   inline void _set_onUpdate_b__0(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::UnityEngineInternal::Input::NativeInputEventBuffer* eventBufferPtr);
 
 protected:
@@ -224,7 +224,7 @@ public:
   NativeInputRuntime___c__DisplayClass7_0(NativeInputRuntime___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9053 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11018 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* ___value;
@@ -259,11 +259,9 @@ public:
   /// @brief Field instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_instance, put = setStaticF_instance)) ::UnityEngine::InputSystem::LowLevel::NativeInputRuntime* instance;
 
-  __declspec(property(get = get_isInBatchMode)) bool isInBatchMode;
-
   __declspec(property(get = get_isPlayerFocused)) bool isPlayerFocused;
 
-  /// @brief Field m_DidCallOnShutdown, offset 0x3c, size 0x1
+  /// @brief Field m_DidCallOnShutdown, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_m_DidCallOnShutdown, put = __cordl_internal_set_m_DidCallOnShutdown)) bool m_DidCallOnShutdown;
 
   /// @brief Field m_FocusChangedMethod, offset 0x40, size 0x8
@@ -279,9 +277,6 @@ public:
 
   /// @brief Field m_OnUpdate, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_OnUpdate, put = __cordl_internal_set_m_OnUpdate)) ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* m_OnUpdate;
-
-  /// @brief Field m_PollingFrequency, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_PollingFrequency, put = __cordl_internal_set_m_PollingFrequency)) float_t m_PollingFrequency;
 
   /// @brief Field m_RunInBackground, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_m_RunInBackground, put = __cordl_internal_set_m_RunInBackground)) bool m_RunInBackground;
@@ -318,27 +313,27 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputRuntime"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputRuntime*() noexcept;
 
-  /// @brief Method AllocateDeviceId, addr 0x65b64c4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method AllocateDeviceId, addr 0x69e24e4, size 0x6c, virtual true, abstract: false, final true
   inline int32_t AllocateDeviceId();
 
-  /// @brief Method DeviceCommand, addr 0x65b6620, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method DeviceCommand, addr 0x69e2640, size 0xe0, virtual true, abstract: false, final true
   inline int64_t DeviceCommand(int32_t deviceId, ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand* commandPtr);
 
   static inline ::UnityEngine::InputSystem::LowLevel::NativeInputRuntime* New_ctor();
 
-  /// @brief Method OnFocusChanged, addr 0x65b7150, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnFocusChanged, addr 0x69e31cc, size 0x24, virtual false, abstract: false, final false
   inline void OnFocusChanged(bool focus);
 
-  /// @brief Method OnShutdown, addr 0x65b70f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnShutdown, addr 0x69e316c, size 0x20, virtual false, abstract: false, final false
   inline void OnShutdown();
 
-  /// @brief Method OnWantsToShutdown, addr 0x65b7110, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnWantsToShutdown, addr 0x69e318c, size 0x40, virtual false, abstract: false, final false
   inline bool OnWantsToShutdown();
 
-  /// @brief Method QueueEvent, addr 0x65b65a8, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method QueueEvent, addr 0x69e25c8, size 0x78, virtual true, abstract: false, final true
   inline void QueueEvent(::UnityEngine::InputSystem::LowLevel::InputEvent* ptr);
 
-  /// @brief Method Update, addr 0x65b6530, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x69e2550, size 0x78, virtual true, abstract: false, final true
   inline void Update(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
   constexpr bool const& __cordl_internal_get_m_DidCallOnShutdown() const;
@@ -361,10 +356,6 @@ public:
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate*& __cordl_internal_get_m_OnUpdate();
 
-  constexpr float_t const& __cordl_internal_get_m_PollingFrequency() const;
-
-  constexpr float_t& __cordl_internal_get_m_PollingFrequency();
-
   constexpr bool const& __cordl_internal_get_m_RunInBackground() const;
 
   constexpr bool& __cordl_internal_get_m_RunInBackground();
@@ -383,69 +374,64 @@ public:
 
   constexpr void __cordl_internal_set_m_OnUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* value);
 
-  constexpr void __cordl_internal_set_m_PollingFrequency(float_t value);
-
   constexpr void __cordl_internal_set_m_RunInBackground(bool value);
 
   constexpr void __cordl_internal_set_m_ShutdownMethod(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x65b73bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e33cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::LowLevel::NativeInputRuntime* getStaticF_instance();
 
-  /// @brief Method get_currentTime, addr 0x65b6f18, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_currentTime, addr 0x69e2f94, size 0x6c, virtual true, abstract: false, final true
   inline double_t get_currentTime();
 
-  /// @brief Method get_currentTimeForFixedUpdate, addr 0x65b6f84, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_currentTimeForFixedUpdate, addr 0x69e3000, size 0x44, virtual true, abstract: false, final true
   inline double_t get_currentTimeForFixedUpdate();
 
-  /// @brief Method get_currentTimeOffsetToRealtimeSinceStartup, addr 0x65b6fc8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_currentTimeOffsetToRealtimeSinceStartup, addr 0x69e3044, size 0x6c, virtual true, abstract: false, final true
   inline double_t get_currentTimeOffsetToRealtimeSinceStartup();
 
-  /// @brief Method get_isInBatchMode, addr 0x65b7350, size 0x6c, virtual true, abstract: false, final true
-  inline bool get_isInBatchMode();
-
-  /// @brief Method get_isPlayerFocused, addr 0x65b6e20, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_isPlayerFocused, addr 0x69e2e40, size 0x6c, virtual true, abstract: false, final true
   inline bool get_isPlayerFocused();
 
-  /// @brief Method get_normalizeScrollWheelDelta, addr 0x65b7200, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_normalizeScrollWheelDelta, addr 0x69e327c, size 0x6c, virtual true, abstract: false, final true
   inline bool get_normalizeScrollWheelDelta();
 
-  /// @brief Method get_onBeforeUpdate, addr 0x65b6844, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_onBeforeUpdate, addr 0x69e2864, size 0x8, virtual true, abstract: false, final true
   inline ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* get_onBeforeUpdate();
 
-  /// @brief Method get_onDeviceDiscovered, addr 0x65b6acc, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_onDeviceDiscovered, addr 0x69e2aec, size 0x54, virtual true, abstract: false, final true
   inline ::System::Action_2<int32_t, ::StringW>* get_onDeviceDiscovered();
 
-  /// @brief Method get_onPlayerFocusChanged, addr 0x65b6ccc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_onPlayerFocusChanged, addr 0x69e2cec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Action_1<bool>* get_onPlayerFocusChanged();
 
-  /// @brief Method get_onShouldRunUpdate, addr 0x65b6988, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_onShouldRunUpdate, addr 0x69e29a8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* get_onShouldRunUpdate();
 
-  /// @brief Method get_onShutdown, addr 0x65b6b7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_onShutdown, addr 0x69e2b9c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Action* get_onShutdown();
 
-  /// @brief Method get_onUpdate, addr 0x65b6700, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_onUpdate, addr 0x69e2720, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* get_onUpdate();
 
-  /// @brief Method get_pollingFrequency, addr 0x65b6e8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_pollingFrequency, addr 0x69e2eac, size 0x6c, virtual true, abstract: false, final true
   inline float_t get_pollingFrequency();
 
-  /// @brief Method get_runInBackground, addr 0x65b705c, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method get_runInBackground, addr 0x69e30d8, size 0x8c, virtual true, abstract: false, final true
   inline bool get_runInBackground();
 
-  /// @brief Method get_screenOrientation, addr 0x65b71d8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_screenOrientation, addr 0x69e3254, size 0x28, virtual true, abstract: false, final true
   inline ::UnityEngine::ScreenOrientation get_screenOrientation();
 
-  /// @brief Method get_screenSize, addr 0x65b7174, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_screenSize, addr 0x69e31f0, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_screenSize();
 
-  /// @brief Method get_scrollWheelDeltaPerTick, addr 0x65b72e4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_scrollWheelDeltaPerTick, addr 0x69e3360, size 0x6c, virtual true, abstract: false, final true
   inline float_t get_scrollWheelDeltaPerTick();
 
-  /// @brief Method get_unscaledGameTime, addr 0x65b7034, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_unscaledGameTime, addr 0x69e30b0, size 0x28, virtual true, abstract: false, final true
   inline float_t get_unscaledGameTime();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputRuntime"
@@ -453,31 +439,31 @@ public:
 
   static inline void setStaticF_instance(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime* value);
 
-  /// @brief Method set_normalizeScrollWheelDelta, addr 0x65b726c, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method set_normalizeScrollWheelDelta, addr 0x69e32e8, size 0x78, virtual true, abstract: false, final true
   inline void set_normalizeScrollWheelDelta(bool value);
 
-  /// @brief Method set_onBeforeUpdate, addr 0x65b684c, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method set_onBeforeUpdate, addr 0x69e286c, size 0x138, virtual true, abstract: false, final true
   inline void set_onBeforeUpdate(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* value);
 
-  /// @brief Method set_onDeviceDiscovered, addr 0x65b6b20, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method set_onDeviceDiscovered, addr 0x69e2b40, size 0x5c, virtual true, abstract: false, final true
   inline void set_onDeviceDiscovered(::System::Action_2<int32_t, ::StringW>* value);
 
-  /// @brief Method set_onPlayerFocusChanged, addr 0x65b6cd4, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method set_onPlayerFocusChanged, addr 0x69e2cf4, size 0x14c, virtual true, abstract: false, final true
   inline void set_onPlayerFocusChanged(::System::Action_1<bool>* value);
 
-  /// @brief Method set_onShouldRunUpdate, addr 0x65b6990, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method set_onShouldRunUpdate, addr 0x69e29b0, size 0x138, virtual true, abstract: false, final true
   inline void set_onShouldRunUpdate(::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* value);
 
-  /// @brief Method set_onShutdown, addr 0x65b6b84, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method set_onShutdown, addr 0x69e2ba4, size 0x148, virtual true, abstract: false, final true
   inline void set_onShutdown(::System::Action* value);
 
-  /// @brief Method set_onUpdate, addr 0x65b6708, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method set_onUpdate, addr 0x69e2728, size 0x138, virtual true, abstract: false, final true
   inline void set_onUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* value);
 
-  /// @brief Method set_pollingFrequency, addr 0x65b6e94, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method set_pollingFrequency, addr 0x69e2f18, size 0x7c, virtual true, abstract: false, final true
   inline void set_pollingFrequency(float_t value);
 
-  /// @brief Method set_runInBackground, addr 0x65b70e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_runInBackground, addr 0x69e3164, size 0x8, virtual true, abstract: false, final true
   inline void set_runInBackground(bool value);
 
 protected:
@@ -495,7 +481,7 @@ public:
   NativeInputRuntime(NativeInputRuntime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11019 };
 
   /// @brief Field m_RunInBackground, offset: 0x10, size: 0x1, def value: None
   bool ___m_RunInBackground;
@@ -512,10 +498,7 @@ public:
   /// @brief Field m_OnShouldRunUpdate, offset: 0x30, size: 0x8, def value: None
   ::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* ___m_OnShouldRunUpdate;
 
-  /// @brief Field m_PollingFrequency, offset: 0x38, size: 0x4, def value: None
-  float_t ___m_PollingFrequency;
-
-  /// @brief Field m_DidCallOnShutdown, offset: 0x3c, size: 0x1, def value: None
+  /// @brief Field m_DidCallOnShutdown, offset: 0x38, size: 0x1, def value: None
   bool ___m_DidCallOnShutdown;
 
   /// @brief Field m_FocusChangedMethod, offset: 0x40, size: 0x8, def value: None
@@ -534,9 +517,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime,
 
 static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime, ___m_OnShouldRunUpdate) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime, ___m_PollingFrequency) == 0x38, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime, ___m_DidCallOnShutdown) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime, ___m_DidCallOnShutdown) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime, ___m_FocusChangedMethod) == 0x40, "Offset mismatch!");
 

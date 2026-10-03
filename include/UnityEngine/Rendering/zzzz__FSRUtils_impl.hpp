@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::UnityEngine::Rendering::FSRUtils::SetEasuConstants)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x67c28e8;
+  constexpr static std::size_t addrs = 0x6bdf524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FSRUtils*>(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::BaseCommandBuffer*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::UnityEngine::Rendering::FSRUtils::SetEasuConstants)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67c2a6c;
+  constexpr static std::size_t addrs = 0x6bdf6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FSRUtils*>(),
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, float_t)>(&::UnityEngine::Rendering::FSRUtils::SetRcasConstants)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x67c2a80;
+  constexpr static std::size_t addrs = 0x6bdf6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,12 +87,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::FSRUtils.SetRcasConstants
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::BaseCommandBuffer*, float_t)>(&::UnityEngine::Rendering::FSRUtils::SetRcasConstants)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6bdf784;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FSRUtils*>(),
+                                                             { "SetRcasConstants", {}, { ::i2c::type_of<::UnityEngine::Rendering::BaseCommandBuffer*>(), ::i2c::type_of<float_t>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::FSRUtils.SetRcasConstantsLinear
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, float_t)>(&::UnityEngine::Rendering::FSRUtils::SetRcasConstantsLinear)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67c2b48;
+  constexpr static std::size_t addrs = 0x6bdf798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, float_t)>(&::UnityEngine::Rendering::FSRUtils::SetRcasConstantsLinear)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x67c2b5c;
+  constexpr static std::size_t addrs = 0x6bdf7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::FSRUtils::IsSupported)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x67c2b80;
+  constexpr static std::size_t addrs = 0x6bdf7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FSRUtils*>(), { "IsSupported", {}, {} })));
@@ -150,6 +164,12 @@ inline void UnityEngine::Rendering::FSRUtils::SetRcasConstants(::UnityEngine::Re
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FSRUtils*>(),
                                                            { "SetRcasConstants", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, sharpnessStops);
+}
+inline void UnityEngine::Rendering::FSRUtils::SetRcasConstants(::UnityEngine::Rendering::BaseCommandBuffer* cmd, float_t sharpnessStops) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FSRUtils*>(),
+                                                           { "SetRcasConstants", {}, { ::i2c::type_of<::UnityEngine::Rendering::BaseCommandBuffer*>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, sharpnessStops);
 }
 inline void UnityEngine::Rendering::FSRUtils::SetRcasConstantsLinear(::UnityEngine::Rendering::CommandBuffer* cmd, float_t sharpnessLinear) {

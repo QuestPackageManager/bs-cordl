@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, int32_t)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Utils::ToDisplayText)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5a541c4;
+  constexpr static std::size_t addrs = 0x5e6bb60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Utils*>(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Utils::LerpPosition)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5a4bef4;
+  constexpr static std::size_t addrs = 0x5e63890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, int32_t)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Utils::ClampText)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5a4ca40;
+  constexpr static std::size_t addrs = 0x5e643dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/zzzz__VolumeComponent_def.hpp"
 CORDL_MODULE_EXPORT(Bloom)
 namespace UnityEngine::Rendering::Universal {
+class BloomFilterModeParameter;
+}
+namespace UnityEngine::Rendering::Universal {
 class DownscaleParameter;
 }
 namespace UnityEngine::Rendering {
@@ -48,14 +51,17 @@ public:
   /// @brief Field clamp, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_clamp, put = __cordl_internal_set_clamp)) ::UnityEngine::Rendering::MinFloatParameter* clamp;
 
-  /// @brief Field dirtIntensity, offset 0x88, size 0x8
+  /// @brief Field dirtIntensity, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_dirtIntensity, put = __cordl_internal_set_dirtIntensity)) ::UnityEngine::Rendering::MinFloatParameter* dirtIntensity;
 
-  /// @brief Field dirtTexture, offset 0x80, size 0x8
+  /// @brief Field dirtTexture, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_dirtTexture, put = __cordl_internal_set_dirtTexture)) ::UnityEngine::Rendering::TextureParameter* dirtTexture;
 
-  /// @brief Field downscale, offset 0x70, size 0x8
+  /// @brief Field downscale, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_downscale, put = __cordl_internal_set_downscale)) ::UnityEngine::Rendering::Universal::DownscaleParameter* downscale;
+
+  /// @brief Field filter, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_filter, put = __cordl_internal_set_filter)) ::UnityEngine::Rendering::Universal::BloomFilterModeParameter* filter;
 
   /// @brief Field highQualityFiltering, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_highQualityFiltering, put = __cordl_internal_set_highQualityFiltering)) ::UnityEngine::Rendering::BoolParameter* highQualityFiltering;
@@ -63,7 +69,7 @@ public:
   /// @brief Field intensity, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_intensity, put = __cordl_internal_set_intensity)) ::UnityEngine::Rendering::MinFloatParameter* intensity;
 
-  /// @brief Field maxIterations, offset 0x78, size 0x8
+  /// @brief Field maxIterations, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_maxIterations, put = __cordl_internal_set_maxIterations)) ::UnityEngine::Rendering::ClampedIntParameter* maxIterations;
 
   /// @brief Field scatter, offset 0x50, size 0x8
@@ -81,11 +87,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x6873f0c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6ca2118, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// [Obsolete("Unused #from(2023.1)", false)]
-  /// @brief Method IsTileCompatible, addr 0x6873f3c, size 0x8, virtual true, abstract: false, final true
+  /// [Obsolete("Unused. #from(2023.1)")]
+  /// @brief Method IsTileCompatible, addr 0x6ca2148, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::Bloom* New_ctor();
@@ -105,6 +111,10 @@ public:
   constexpr ::UnityEngine::Rendering::Universal::DownscaleParameter* const& __cordl_internal_get_downscale() const;
 
   constexpr ::UnityEngine::Rendering::Universal::DownscaleParameter*& __cordl_internal_get_downscale();
+
+  constexpr ::UnityEngine::Rendering::Universal::BloomFilterModeParameter* const& __cordl_internal_get_filter() const;
+
+  constexpr ::UnityEngine::Rendering::Universal::BloomFilterModeParameter*& __cordl_internal_get_filter();
 
   constexpr ::UnityEngine::Rendering::BoolParameter* const& __cordl_internal_get_highQualityFiltering() const;
 
@@ -142,6 +152,8 @@ public:
 
   constexpr void __cordl_internal_set_downscale(::UnityEngine::Rendering::Universal::DownscaleParameter* value);
 
+  constexpr void __cordl_internal_set_filter(::UnityEngine::Rendering::Universal::BloomFilterModeParameter* value);
+
   constexpr void __cordl_internal_set_highQualityFiltering(::UnityEngine::Rendering::BoolParameter* value);
 
   constexpr void __cordl_internal_set_intensity(::UnityEngine::Rendering::MinFloatParameter* value);
@@ -156,7 +168,7 @@ public:
 
   constexpr void __cordl_internal_set_tint(::UnityEngine::Rendering::ColorParameter* value);
 
-  /// @brief Method .ctor, addr 0x6873f44, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca2150, size 0x364, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -177,9 +189,9 @@ public:
   Bloom(Bloom const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12954 };
 
-  /// [Obsolete("This is obsolete, please use maxIterations instead.", true)]
+  /// [Obsolete("This is obsolete, please use maxIterations instead. #from(2022.2) #breakingFrom(2023.1)", true)]
   /// [Tooltip("The number of final iterations to skip in the effect processing sequence.")]
   /// @brief Field skipIterations, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedIntParameter* ___skipIterations;
@@ -210,23 +222,27 @@ public:
   /// @brief Field highQualityFiltering, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Rendering::BoolParameter* ___highQualityFiltering;
 
+  /// [Tooltip("Set the filtering algorithm for the Bloom effect.")]
+  /// @brief Field filter, offset: 0x70, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::BloomFilterModeParameter* ___filter;
+
   /// [Tooltip("The starting resolution that this effect begins processing.")]
   /// [AdditionalProperty]
-  /// @brief Field downscale, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field downscale, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DownscaleParameter* ___downscale;
 
   /// [Tooltip("The maximum number of iterations in the effect processing sequence.")]
   /// [AdditionalProperty]
-  /// @brief Field maxIterations, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field maxIterations, offset: 0x80, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedIntParameter* ___maxIterations;
 
   /// [Header("Lens Dirt")]
   /// [Tooltip("Dirtiness texture to add smudges or dust to the bloom effect.")]
-  /// @brief Field dirtTexture, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field dirtTexture, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::Rendering::TextureParameter* ___dirtTexture;
 
   /// [Tooltip("Amount of dirtiness.")]
-  /// @brief Field dirtIntensity, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field dirtIntensity, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::Rendering::MinFloatParameter* ___dirtIntensity;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -246,14 +262,16 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::Bloom, ___tint) == 0
 
 static_assert(offsetof(::UnityEngine::Rendering::Universal::Bloom, ___highQualityFiltering) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Bloom, ___downscale) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Bloom, ___filter) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Bloom, ___maxIterations) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Bloom, ___downscale) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Bloom, ___dirtTexture) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Bloom, ___maxIterations) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Bloom, ___dirtIntensity) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Bloom, ___dirtTexture) == 0x88, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::Bloom) == 0x90, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Bloom, ___dirtIntensity) == 0x90, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::Bloom) == 0x98, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal

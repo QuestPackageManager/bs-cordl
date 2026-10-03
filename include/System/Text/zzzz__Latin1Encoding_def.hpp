@@ -45,38 +45,38 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetBestFitUnicodeToBytesData, addr 0x5ad7790, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetBestFitUnicodeToBytesData, addr 0x5eef688, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<char16_t> GetBestFitUnicodeToBytesData();
 
-  /// @brief Method GetByteCount, addr 0x5ad6f88, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x5eeee80, size 0x1fc, virtual true, abstract: false, final false
   inline int32_t GetByteCount(char16_t* chars, int32_t charCount, ::System::Text::EncoderNLS* encoder);
 
-  /// @brief Method GetBytes, addr 0x5ad7184, size 0x388, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x5eef07c, size 0x388, virtual true, abstract: false, final false
   inline int32_t GetBytes(char16_t* chars, int32_t charCount, uint8_t* bytes, int32_t byteCount, ::System::Text::EncoderNLS* encoder);
 
-  /// @brief Method GetCharCount, addr 0x5ad750c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x5eef404, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetCharCount(uint8_t* bytes, int32_t count, ::System::Text::DecoderNLS* decoder);
 
-  /// @brief Method GetChars, addr 0x5ad7514, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x5eef40c, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetChars(uint8_t* bytes, int32_t byteCount, char16_t* chars, int32_t charCount, ::System::Text::DecoderNLS* decoder);
 
-  /// @brief Method GetMaxByteCount, addr 0x5ad7598, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetMaxByteCount, addr 0x5eef490, size 0xfc, virtual true, abstract: false, final false
   inline int32_t GetMaxByteCount(int32_t charCount);
 
-  /// @brief Method GetMaxCharCount, addr 0x5ad7694, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetMaxCharCount, addr 0x5eef58c, size 0xfc, virtual true, abstract: false, final false
   inline int32_t GetMaxCharCount(int32_t byteCount);
 
   static inline ::System::Text::Latin1Encoding* New_ctor();
 
   static inline ::System::Text::Latin1Encoding* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5ad6e8c, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5eeed84, size 0xfc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5ad6e14, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5eeed0c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5ad6e30, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5eeed28, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::ArrayW<char16_t> getStaticF_arrayCharBestFit();

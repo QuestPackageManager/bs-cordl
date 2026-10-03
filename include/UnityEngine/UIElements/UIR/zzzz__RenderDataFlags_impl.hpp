@@ -7,8 +7,10 @@ constexpr ::UnityEngine::UIElements::UIR::RenderDataFlags::RenderDataFlags(int32
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::RenderDataFlags::RenderDataFlags() {}
-constexpr ::UnityEngine::UIElements::UIR::RenderDataFlags UnityEngine::UIElements::UIR::RenderDataFlags::IsInChain{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::UIElements::UIR::RenderDataFlags UnityEngine::UIElements::UIR::RenderDataFlags::IsGroupTransform{ static_cast<int32_t>(0x2) };
-constexpr ::UnityEngine::UIElements::UIR::RenderDataFlags UnityEngine::UIElements::UIR::RenderDataFlags::IsIgnoringDynamicColorHint{ static_cast<int32_t>(0x4) };
-constexpr ::UnityEngine::UIElements::UIR::RenderDataFlags UnityEngine::UIElements::UIR::RenderDataFlags::HasExtraData{ static_cast<int32_t>(0x8) };
-constexpr ::UnityEngine::UIElements::UIR::RenderDataFlags UnityEngine::UIElements::UIR::RenderDataFlags::HasExtraMeshes{ static_cast<int32_t>(0x10) };
+constexpr ::UnityEngine::UIElements::UIR::RenderDataFlags UnityEngine::UIElements::UIR::RenderDataFlags::IsGroupTransform{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::UIElements::UIR::RenderDataFlags UnityEngine::UIElements::UIR::RenderDataFlags::IsIgnoringDynamicColorHint{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::UIElements::UIR::RenderDataFlags UnityEngine::UIElements::UIR::RenderDataFlags::HasExtraData{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::UIElements::UIR::RenderDataFlags UnityEngine::UIElements::UIR::RenderDataFlags::HasExtraMeshes{ static_cast<int32_t>(0x8) };
+constexpr ::UnityEngine::UIElements::UIR::RenderDataFlags UnityEngine::UIElements::UIR::RenderDataFlags::IsSubTreeQuad{ static_cast<int32_t>(0x10) };
+constexpr ::UnityEngine::UIElements::UIR::RenderDataFlags UnityEngine::UIElements::UIR::RenderDataFlags::IsNestedRenderTreeRoot{ static_cast<int32_t>(0x20) };
+constexpr ::UnityEngine::UIElements::UIR::RenderDataFlags UnityEngine::UIElements::UIR::RenderDataFlags::IsClippingRectDirty{ static_cast<int32_t>(0x40) };

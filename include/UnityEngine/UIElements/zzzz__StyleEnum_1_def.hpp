@@ -106,14 +106,16 @@ public:
   constexpr StyleEnum_1(T m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5039 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [SerializeField]
   /// @brief Field m_Value, offset: 0x0, size: 0x8, def value: None
   T m_Value;
 
+  /// [SerializeField]
   /// @brief Field m_Keyword, offset: 0x8, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleKeyword m_Keyword;
 

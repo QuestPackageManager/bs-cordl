@@ -49,13 +49,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemapPool___c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x6cf6030, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x718a09c, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::GradientRemap* __ctor_b__0_0();
 
-  /// @brief Method <.ctor>b__0_1, addr 0x6cf60e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x718a150, size 0x14, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::UIElements::UIR::GradientRemap* gradientRemap);
 
-  /// @brief Method .ctor, addr 0x6cf602c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x718a098, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemapPool___c* getStaticF___9();
@@ -85,7 +85,7 @@ public:
   GradientRemapPool___c(GradientRemapPool___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5480 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -104,7 +104,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemapPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6cf5e44, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7189eb0, size 0x194, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,7 +122,7 @@ public:
   GradientRemapPool(GradientRemapPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5481 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

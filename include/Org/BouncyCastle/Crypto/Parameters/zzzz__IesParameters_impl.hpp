@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::IesParameters::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::IesParameters::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3413ed4;
+  constexpr static std::size_t addrs = 0x369d170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::IesParameters::GetDerivationV)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3413ee0;
+  constexpr static std::size_t addrs = 0x369d17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::IesParameters*>(), { "GetDerivationV", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::IesParameters::GetEncodingV)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3413ee8;
+  constexpr static std::size_t addrs = 0x369d184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::IesParameters*>(), { "GetEncodingV", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::IesParameters::get_MacKeySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3413ef0;
+  constexpr static std::size_t addrs = 0x369d18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::IesParameters*>(), { "get_MacKeySize", {}, {} })));

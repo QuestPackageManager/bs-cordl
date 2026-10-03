@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::JsonArrayAttribute::*)()>(&::Newtonsoft::Json::JsonArrayAttribute::get_AllowNullItems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd3130;
+  constexpr static std::size_t addrs = 0x60ecd14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonArrayAttribute*>(), { "get_AllowNullItems", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonArrayAttribute::*)(bool)>(&::Newtonsoft::Json::JsonArrayAttribute::set_AllowNullItems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd3138;
+  constexpr static std::size_t addrs = 0x60ecd1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonArrayAttribute::*)()>(&::Newtonsoft::Json::JsonArrayAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cd3140;
+  constexpr static std::size_t addrs = 0x60ecd24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonArrayAttribute*>(), { ".ctor", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonArrayAttribute::*)(bool)>(&::Newtonsoft::Json::JsonArrayAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd3148;
+  constexpr static std::size_t addrs = 0x60ecd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonArrayAttribute*>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonArrayAttribute::*)(::StringW)>(&::Newtonsoft::Json::JsonArrayAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd3150;
+  constexpr static std::size_t addrs = 0x60ecd34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

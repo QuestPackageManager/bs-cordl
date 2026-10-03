@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)(::System::Action*)>(
     &::GlobalNamespace::PauseAnimationController::add_resumeFromPauseAnimationDidFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x327ed18;
+  constexpr static std::size_t addrs = 0x350558c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseAnimationController*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)(::System::Action*)>(
     &::GlobalNamespace::PauseAnimationController::remove_resumeFromPauseAnimationDidFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x327edc4;
+  constexpr static std::size_t addrs = 0x3505638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseAnimationController*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)()>(&::GlobalNamespace::PauseAnimationController::Awake)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x327ee70;
+  constexpr static std::size_t addrs = 0x35056e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseAnimationController*>(), { "Awake", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)()>(&::GlobalNamespace::PauseAnimationController::StartEnterPauseAnimation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x327eea0;
+  constexpr static std::size_t addrs = 0x3505714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseAnimationController*>(), { "StartEnterPauseAnimation", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)()>(&::GlobalNamespace::PauseAnimationController::StartResumeFromPauseAnimation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x327ef18;
+  constexpr static std::size_t addrs = 0x350578c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)()>(&::GlobalNamespace::PauseAnimationController::EnterPauseAnimationDidFinish)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x327ef90;
+  constexpr static std::size_t addrs = 0x3505804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)()>(&::GlobalNamespace::PauseAnimationController::ResumeFromPauseAnimationDidFinish)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x327efc0;
+  constexpr static std::size_t addrs = 0x3505834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)()>(&::GlobalNamespace::PauseAnimationController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x327f010;
+  constexpr static std::size_t addrs = 0x3505884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseAnimationController*>(), { ".ctor", {}, {} })));

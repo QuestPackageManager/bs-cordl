@@ -21,7 +21,7 @@ namespace UnityEngine::UIElements::Layout {
 struct CORDL_TYPE LayoutState {
 public:
   // Declarations
-  /// @brief Method get_Default, addr 0x6d03f58, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x719a450, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutState get_Default();
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
                         bool error) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5562 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

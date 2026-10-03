@@ -80,7 +80,7 @@ public:
 
   static inline ::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <GetValidationCallback>b__0, addr 0x5fd9730, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method <GetValidationCallback>b__0, addr 0x63f56b8, size 0x168, virtual false, abstract: false, final false
   inline bool _GetValidationCallback_b__0(::System::Object* s, ::System::Security::Cryptography::X509Certificates::X509Certificate* c,
                                           ::System::Security::Cryptography::X509Certificates::X509Chain* ch, ::System::Net::Security::SslPolicyErrors e);
 
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_settings(::Mono::Security::Interface::MonoTlsSettings* value);
 
-  /// @brief Method .ctor, addr 0x5fd9024, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f4fac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   ChainValidationHelper___c__DisplayClass11_0(ChainValidationHelper___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11952 };
 
   /// @brief Field settings, offset: 0x10, size: 0x8, def value: None
   ::Mono::Security::Interface::MonoTlsSettings* ___settings;
@@ -156,45 +156,45 @@ public:
   /// @brief Convert operator to "::Mono::Security::Interface::ICertificateValidator"
   constexpr operator ::Mono::Security::Interface::ICertificateValidator*() noexcept;
 
-  /// @brief Method Create, addr 0x5fd8cdc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x63f4c64, size 0x90, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::ChainValidationHelper* Create(::Mono::Net::Security::MobileTlsProvider* provider, ::by_ref<::Mono::Security::Interface::MonoTlsSettings*> settings,
                                                                      ::Mono::Net::Security::MonoTlsStream* stream);
 
-  /// @brief Method DefaultSelectionCallback, addr 0x5fd9028, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method DefaultSelectionCallback, addr 0x63f4fb0, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate*
   DefaultSelectionCallback(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                            ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW> acceptableIssuers);
 
-  /// @brief Method GetInternalValidator, addr 0x5fd8964, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetInternalValidator, addr 0x63f48ec, size 0xdc, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::ChainValidationHelper* GetInternalValidator(::System::Net::Security::SslStream* owner, ::Mono::Net::Security::MobileTlsProvider* provider,
                                                                                    ::Mono::Security::Interface::MonoTlsSettings* settings);
 
-  /// @brief Method GetValidationCallback, addr 0x5fd8e84, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetValidationCallback, addr 0x63f4e0c, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Net::ServerCertValidationCallback* GetValidationCallback(::Mono::Security::Interface::MonoTlsSettings* settings);
 
-  /// @brief Method InvokeCallback, addr 0x5fd9678, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallback, addr 0x63f5600, size 0xb0, virtual false, abstract: false, final false
   inline bool InvokeCallback(::System::Security::Cryptography::X509Certificates::X509Certificate* leaf, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                              ::System::Net::Security::SslPolicyErrors errors);
 
   static inline ::Mono::Net::Security::ChainValidationHelper* New_ctor(::System::Net::Security::SslStream* owner, ::Mono::Net::Security::MobileTlsProvider* provider,
                                                                        ::Mono::Security::Interface::MonoTlsSettings* settings, bool cloneSettings, ::Mono::Net::Security::MonoTlsStream* stream);
 
-  /// @brief Method SelectClientCertificate, addr 0x5fd907c, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method SelectClientCertificate, addr 0x63f5004, size 0x48, virtual true, abstract: false, final true
   inline bool SelectClientCertificate(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                                       ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW> acceptableIssuers,
                                       ::by_ref<::System::Security::Cryptography::X509Certificates::X509Certificate*> clientCertificate);
 
-  /// @brief Method ValidateCertificate, addr 0x5fd90c4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x63f504c, size 0xd4, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::ValidationResult* ValidateCertificate(::StringW host, bool serverMode, ::System::Security::Cryptography::X509Certificates::X509Certificate* leaf,
                                                                             ::System::Security::Cryptography::X509Certificates::X509Chain* chain);
 
-  /// @brief Method ValidateChain, addr 0x5fd9198, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ValidateChain, addr 0x63f5120, size 0xe0, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::ValidationResult* ValidateChain(::StringW host, bool server, ::System::Security::Cryptography::X509Certificates::X509Certificate* leaf,
                                                                       ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                                                                       ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs,
                                                                       ::System::Net::Security::SslPolicyErrors errors);
 
-  /// @brief Method ValidateChain, addr 0x5fd9278, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method ValidateChain, addr 0x63f5200, size 0x400, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::ValidationResult* ValidateChain(::StringW host, bool server, ::System::Security::Cryptography::X509Certificates::X509Certificate* leaf,
                                                                       ::by_ref<::System::Security::Cryptography::X509Certificates::X509Chain*> chain,
                                                                       ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs,
@@ -242,11 +242,11 @@ public:
 
   constexpr void __cordl_internal_set_tlsStream(::Mono::Net::Security::MonoTlsStream* value);
 
-  /// @brief Method .ctor, addr 0x5fd8a40, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f49c8, size 0x29c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Security::SslStream* owner, ::Mono::Net::Security::MobileTlsProvider* provider, ::Mono::Security::Interface::MonoTlsSettings* settings, bool cloneSettings,
                     ::Mono::Net::Security::MonoTlsStream* stream);
 
-  /// @brief Method get_Settings, addr 0x5fd9074, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Settings, addr 0x63f4ffc, size 0x8, virtual true, abstract: false, final true
   inline ::Mono::Security::Interface::MonoTlsSettings* get_Settings();
 
   /// @brief Convert to "::Mono::Security::Interface::ICertificateValidator"
@@ -267,7 +267,7 @@ public:
   ChainValidationHelper(ChainValidationHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11953 };
 
   /// @brief Field owner, offset: 0x10, size: 0x8, def value: None
   ::System::WeakReference_1<::System::Net::Security::SslStream*>* ___owner;

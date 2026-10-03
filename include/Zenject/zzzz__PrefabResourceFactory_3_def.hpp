@@ -97,7 +97,7 @@ public:
   PrefabResourceFactory_3(PrefabResourceFactory_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14700 };
 
   /// [Inject]
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None

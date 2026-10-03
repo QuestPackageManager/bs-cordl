@@ -43,6 +43,15 @@ constexpr void Unity::Properties::ContainerPropertyBag_1<TContainer>::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PropertiesHash = value;
 }
+template <typename TContainer> inline void Unity::Properties::ContainerPropertyBag_1<TContainer>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::ContainerPropertyBag_1<TContainer>*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template <typename TContainer> inline void Unity::Properties::ContainerPropertyBag_1<TContainer>::_ctor(int32_t initialCapacity) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::ContainerPropertyBag_1<TContainer>*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, initialCapacity);
+}
 template <typename TContainer>
 template <typename TValue>
 inline void Unity::Properties::ContainerPropertyBag_1<TContainer>::AddProperty(::Unity::Properties::Property_2<TContainer, TValue>* property) {
@@ -71,12 +80,12 @@ inline bool Unity::Properties::ContainerPropertyBag_1<TContainer>::TryGetPropert
                        { "TryGetProperty", {}, { ::i2c::type_of<::by_ref<TContainer>>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::Unity::Properties::IProperty_1<TContainer>*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, container, name, property);
 }
-template <typename TContainer> inline void Unity::Properties::ContainerPropertyBag_1<TContainer>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::ContainerPropertyBag_1<TContainer>*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
 template <typename TContainer> inline ::Unity::Properties::ContainerPropertyBag_1<TContainer>* Unity::Properties::ContainerPropertyBag_1<TContainer>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Properties::ContainerPropertyBag_1<TContainer>*>());
+}
+/// @brief [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
+template <typename TContainer> inline ::Unity::Properties::ContainerPropertyBag_1<TContainer>* Unity::Properties::ContainerPropertyBag_1<TContainer>::New_ctor(int32_t initialCapacity) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Properties::ContainerPropertyBag_1<TContainer>*>(initialCapacity));
 }
 /// @brief Convert operator to "::Unity::Properties::INamedProperties_1<TContainer>"
 template <typename TContainer> constexpr Unity::Properties::ContainerPropertyBag_1<TContainer>::operator ::Unity::Properties::INamedProperties_1<TContainer>*() noexcept {

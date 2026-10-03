@@ -77,7 +77,7 @@ public:
   constexpr StreamCompressionModel__bucketOffsets_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15959 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -115,7 +115,7 @@ public:
   constexpr StreamCompressionModel__bucketSizes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15960 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -153,7 +153,7 @@ public:
   constexpr StreamCompressionModel__decodeTable_e__FixedBuffer(uint16_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15961 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -191,7 +191,7 @@ public:
   constexpr StreamCompressionModel__encodeTable_e__FixedBuffer(uint16_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15962 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -243,45 +243,45 @@ public:
   __declspec(property(get = getStaticF_k_FirstBucketCandidate, put = setStaticF_k_FirstBucketCandidate)) ::ArrayW<int32_t> k_FirstBucketCandidate;
 
   /// [IsReadOnly]
-  /// @brief Method CalculateBucket, addr 0x64c84b4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CalculateBucket, addr 0x68f160c, size 0xe0, virtual false, abstract: false, final false
   inline int32_t CalculateBucket(uint32_t value);
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckAlphabetAndMaxCodeLength, addr 0x64c86f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CheckAlphabetAndMaxCodeLength, addr 0x68f184c, size 0x60, virtual false, abstract: false, final false
   static inline void CheckAlphabetAndMaxCodeLength(int32_t alphabetSize, int32_t maxCodeLength);
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckAlphabetSize, addr 0x64c8614, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CheckAlphabetSize, addr 0x68f176c, size 0x80, virtual false, abstract: false, final false
   static inline void CheckAlphabetSize(int32_t alphabetSize);
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckExceedMaxCodeLength, addr 0x64c8754, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckExceedMaxCodeLength, addr 0x68f18ac, size 0x58, virtual false, abstract: false, final false
   static inline void CheckExceedMaxCodeLength(int32_t length, int32_t maxCodeLength);
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckSymbolLength, addr 0x64c8694, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CheckSymbolLength, addr 0x68f17ec, size 0x60, virtual false, abstract: false, final false
   static inline void CheckSymbolLength(::Unity::Collections::NativeArray_1<uint8_t> symbolLengths, int32_t symbolLengthsOffset, int32_t symbol, int32_t length);
 
-  /// @brief Method GenerateHuffmanCodes, addr 0x64c82a4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method GenerateHuffmanCodes, addr 0x68f13fc, size 0x1a8, virtual false, abstract: false, final false
   static inline void GenerateHuffmanCodes(::Unity::Collections::NativeArray_1<uint8_t> symbolCodes, int32_t symbolCodesOffset, ::Unity::Collections::NativeArray_1<uint8_t> symbolLengths,
                                           int32_t symbolLengthsOffset, int32_t alphabetSize, int32_t maxCodeLength);
 
-  /// @brief Method GenerateHuffmanDecodeTable, addr 0x64c844c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GenerateHuffmanDecodeTable, addr 0x68f15a4, size 0x58, virtual false, abstract: false, final false
   static inline void GenerateHuffmanDecodeTable(::Unity::Collections::NativeArray_1<uint16_t> decodeTable, int32_t decodeTableOffset, ::Unity::Collections::NativeArray_1<uint8_t> symbolLengths,
                                                 ::Unity::Collections::NativeArray_1<uint8_t> symbolCodes, int32_t alphabetSize, int32_t maxCodeLength);
 
   /// [IsReadOnly]
-  /// @brief Method GetCompressedSizeInBits, addr 0x64c8594, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetCompressedSizeInBits, addr 0x68f16ec, size 0x80, virtual false, abstract: false, final false
   inline int32_t GetCompressedSizeInBits(uint32_t value);
 
-  /// @brief Method Initialize, addr 0x64c7e2c, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x68f0f84, size 0x478, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method ReverseBits, addr 0x64c84a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ReverseBits, addr 0x68f15fc, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t ReverseBits(uint32_t value, int32_t num_bits);
 
   static inline ::ArrayW<uint32_t> getStaticF_k_BucketOffsets();
@@ -292,7 +292,7 @@ public:
 
   static inline ::ArrayW<int32_t> getStaticF_k_FirstBucketCandidate();
 
-  /// @brief Method get_Default, addr 0x64c7ccc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x68f0e24, size 0x160, virtual false, abstract: false, final false
   static inline ::Unity::Collections::StreamCompressionModel get_Default();
 
   static inline void setStaticF_k_BucketOffsets(::ArrayW<uint32_t> value);
@@ -318,7 +318,7 @@ public:
                                    ::Unity::Collections::StreamCompressionModel__bucketOffsets_e__FixedBuffer bucketOffsets) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15963 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xf4 };
@@ -396,7 +396,7 @@ public:
   StreamCompressionModel_SharedStaticCompressionModel(StreamCompressionModel_SharedStaticCompressionModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15958 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

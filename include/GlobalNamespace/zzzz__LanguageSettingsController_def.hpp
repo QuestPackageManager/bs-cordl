@@ -36,15 +36,15 @@ public:
 
   __declspec(property(get = get_language)) ::BGLib::Polyglot::LocalizationLanguage language;
 
-  /// @brief Method ApplyValue, addr 0x5a156ac, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x5e317b8, size 0xe4, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x5a154e4, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x5e315f0, size 0x1c8, virtual true, abstract: false, final false
   inline bool GetInitValues(::by_ref<int32_t> idx, ::by_ref<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::LanguageSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x5a15790, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x5e3189c, size 0x68, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::BGLib::Polyglot::LocalizationLanguage const& __cordl_internal_get__language() const;
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x5a157f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e31904, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_language, addr 0x5a154dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_language, addr 0x5e315e8, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::LocalizationLanguage get_language();
 
 protected:
@@ -80,7 +80,7 @@ public:
   LanguageSettingsController(LanguageSettingsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6529 };
 
   /// [Inject]
   /// @brief Field _settingsManager, offset: 0x38, size: 0x8, def value: None

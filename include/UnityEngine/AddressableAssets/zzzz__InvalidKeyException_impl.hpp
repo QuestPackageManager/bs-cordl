@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644ba8c;
+  constexpr static std::size_t addrs = 0x6873d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::InvalidKeyException*>(), { "get_Key", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::System::Object*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::set_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644ba94;
+  constexpr static std::size_t addrs = 0x6873d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644ba9c;
+  constexpr static std::size_t addrs = 0x6873d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::InvalidKeyException*>(), { "get_Type", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::System::Type*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::set_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644baa4;
+  constexpr static std::size_t addrs = 0x6873d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::UnityEngine::AddressableAssets::Addressables_MergeMode> (::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::get_MergeMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644baac;
+  constexpr static std::size_t addrs = 0x6873d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::InvalidKeyException*>(), { "get_MergeMode", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::System::Object*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x644bab4;
+  constexpr static std::size_t addrs = 0x6873d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::System::Object*, ::System::Type*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x644bb08;
+  constexpr static std::size_t addrs = 0x6873d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::InvalidKeyException*>(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::System::Object*, ::System::Type*, ::UnityEngine::AddressableAssets::AddressablesImpl*)>(&::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x644bb78;
+  constexpr static std::size_t addrs = 0x6873e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::System::Object*, ::System::Type*, ::UnityEngine::AddressableAssets::Addressables_MergeMode)>(&::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x644bbf8;
+  constexpr static std::size_t addrs = 0x6873e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Addr
     ::System::Object*, ::System::Type*, ::UnityEngine::AddressableAssets::Addressables_MergeMode, ::UnityEngine::AddressableAssets::AddressablesImpl*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x644bc94;
+  constexpr static std::size_t addrs = 0x6873f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(&::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x644bd34;
+  constexpr static std::size_t addrs = 0x6873fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::InvalidKeyException*>(), { ".ctor", {}, {} })));
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW)>(&::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x644bd8c;
+  constexpr static std::size_t addrs = 0x6874014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW, ::System::Exception*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x644bdf8;
+  constexpr static std::size_t addrs = 0x6874080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::InvalidKeyException*>(),
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x644be6c;
+  constexpr static std::size_t addrs = 0x68740f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::UnityEngine::AddressableAssets::InvalidKeyException_Format, ::StringW)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::FormatMessage)> {
   constexpr static std::size_t size = 0x7d4;
-  constexpr static std::size_t addrs = 0x644bef0;
+  constexpr static std::size_t addrs = 0x6874178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::UnityEngine::AddressableAssets::InvalidKeyException_Format, ::StringW, ::StringW, ::StringW)>(&::UnityEngine::AddressableAssets::InvalidKeyException::FormatMergeModeMessage)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x644c6c4;
+  constexpr static std::size_t addrs = 0x687494c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::InvalidKeyException*>(),
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(&::UnityEngine::AddressableAssets::InvalidKeyException::get_Message)> {
   constexpr static std::size_t size = 0x698;
-  constexpr static std::size_t addrs = 0x644cc3c;
+  constexpr static std::size_t addrs = 0x6874ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::InvalidKeyException*>(),
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::GetMessageForSingleKey)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x644d2d4;
+  constexpr static std::size_t addrs = 0x687555c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::FormatNotFoundMessage)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x644ea50;
+  constexpr static std::size_t addrs = 0x6876cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW, ::System::Collections::Generic::HashSet_1<::System::Type*>*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::FormatTypeNotAssignableMessage)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x644ea5c;
+  constexpr static std::size_t addrs = 0x6876ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW, ::System::Collections::Generic::HashSet_1<::System::Type*>*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::FormatMultipleAssignableTypesMessage)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x644eba0;
+  constexpr static std::size_t addrs = 0x6876e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::System::Collections::Generic::List_1<::StringW>*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::GetMessageforMergeKeys)> {
   constexpr static std::size_t size = 0xbf8;
-  constexpr static std::size_t addrs = 0x644d788;
+  constexpr static std::size_t addrs = 0x6875a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::HashSet_1<::System::Type*>* (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::GetTypesForKey)> {
   constexpr static std::size_t size = 0x6d0;
-  constexpr static std::size_t addrs = 0x644e380;
+  constexpr static std::size_t addrs = 0x6876608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -376,7 +376,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Addr
     ::StringW, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::StringW>*>*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::GetTypeToKeys)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x644ed9c;
+  constexpr static std::size_t addrs = 0x6877024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -394,7 +394,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(&::UnityEngine::AddressableAssets::InvalidKeyException::GetKeyString)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x644cb50;
+  constexpr static std::size_t addrs = 0x6874dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::InvalidKeyException*>(), { "GetKeyString", {}, {} })));
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Collections::IEnumerable*, ::StringW, ::StringW)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::GetCSVString)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x644d374;
+  constexpr static std::size_t addrs = 0x68755fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -5,6 +5,7 @@
 #include "UnityEngine/zzzz__LightType_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
+#include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VisibleLight_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -17,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Light> (::UnityEngine::Rendering::VisibleLight::*)()>(&::UnityEngine::Rendering::VisibleLight::get_light)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6b297c0;
+  constexpr static std::size_t addrs = 0x6f86bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VisibleLight>(), { "get_light", {}, {} })));
@@ -29,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LightType (::UnityEngine::Rendering::VisibleLight::*)()>(&::UnityEngine::Rendering::VisibleLight::get_lightType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b29854;
+  constexpr static std::size_t addrs = 0x6f86c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VisibleLight>(), { "get_lightType", {}, {} })));
@@ -41,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::Rendering::VisibleLight::*)()>(&::UnityEngine::Rendering::VisibleLight::get_finalColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b2985c;
+  constexpr static std::size_t addrs = 0x6f86c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VisibleLight>(), { "get_finalColor", {}, {} })));
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (::UnityEngine::Rendering::VisibleLight::*)()>(&::UnityEngine::Rendering::VisibleLight::get_localToWorldMatrix)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6b29868;
+  constexpr static std::size_t addrs = 0x6f86c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VisibleLight>(), { "get_localToWorldMatrix", {}, {} })));
@@ -65,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::VisibleLight::*)()>(&::UnityEngine::Rendering::VisibleLight::get_range)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b29884;
+  constexpr static std::size_t addrs = 0x6f86c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VisibleLight>(), { "get_range", {}, {} })));
@@ -77,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::VisibleLight::*)()>(&::UnityEngine::Rendering::VisibleLight::get_spotAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b2988c;
+  constexpr static std::size_t addrs = 0x6f86c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VisibleLight>(), { "get_spotAngle", {}, {} })));
@@ -88,8 +89,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::VisibleLight::*)(::UnityEngine::Rendering::VisibleLight)>(&::UnityEngine::Rendering::VisibleLight::Equals)> {
-  constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x6b29894;
+  constexpr static std::size_t size = 0x3dc;
+  constexpr static std::size_t addrs = 0x6f86c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::VisibleLight::*)(::System::Object*)>(&::UnityEngine::Rendering::VisibleLight::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6b29b80;
+  constexpr static std::size_t addrs = 0x6f8705c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,8 +115,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::VisibleLight::*)()>(&::UnityEngine::Rendering::VisibleLight::GetHashCode)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6b29c14;
+  constexpr static std::size_t size = 0x22c;
+  constexpr static std::size_t addrs = 0x6f870f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,17 +172,20 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::VisibleLight>* UnityE
 // Ctor Parameters [CppParam { name: "m_LightType", ty: "::UnityEngine::LightType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FinalColor", ty: "::UnityEngine::Color",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ScreenRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
 // "m_LocalToWorldMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Range", ty: "float_t", modifiers: "", def_value: Some("{}"),
-// comment: None }, CppParam { name: "m_SpotAngle", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_InstanceId", ty: "int32_t", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::Rendering::VisibleLightFlags", modifiers: "", def_value: Some("{}"), comment: None }]
+// comment: None }, CppParam { name: "m_SpotAngle", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_InnerSpotAngle", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_AreaSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_InstanceId", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::Rendering::VisibleLightFlags", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::VisibleLight::VisibleLight(::UnityEngine::LightType m_LightType, ::UnityEngine::Color m_FinalColor, ::UnityEngine::Rect m_ScreenRect,
-                                                               ::UnityEngine::Matrix4x4 m_LocalToWorldMatrix, float_t m_Range, float_t m_SpotAngle, int32_t m_InstanceId,
-                                                               ::UnityEngine::Rendering::VisibleLightFlags m_Flags) noexcept {
+                                                               ::UnityEngine::Matrix4x4 m_LocalToWorldMatrix, float_t m_Range, float_t m_SpotAngle, float_t m_InnerSpotAngle,
+                                                               ::UnityEngine::Vector2 m_AreaSize, int32_t m_InstanceId, ::UnityEngine::Rendering::VisibleLightFlags m_Flags) noexcept {
   this->m_LightType = m_LightType;
   this->m_FinalColor = m_FinalColor;
   this->m_ScreenRect = m_ScreenRect;
   this->m_LocalToWorldMatrix = m_LocalToWorldMatrix;
   this->m_Range = m_Range;
   this->m_SpotAngle = m_SpotAngle;
+  this->m_InnerSpotAngle = m_InnerSpotAngle;
+  this->m_AreaSize = m_AreaSize;
   this->m_InstanceId = m_InstanceId;
   this->m_Flags = m_Flags;
 }

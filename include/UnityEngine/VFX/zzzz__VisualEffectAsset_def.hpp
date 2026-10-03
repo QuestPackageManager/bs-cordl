@@ -20,8 +20,8 @@ class VisualEffectAsset;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::VisualEffectAsset*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::VisualEffectAsset*, "UnityEngine.VFX", "VisualEffectAsset");
-// [UsedByNativeCode]
 // [NativeHeader("VFXScriptingClasses.h")]
+// [UsedByNativeCode]
 // [NativeHeader("Modules/VFX/Public/VisualEffectAsset.h")]
 // Dependencies UnityEngine.VFX.VisualEffectObject
 namespace UnityEngine::VFX {
@@ -37,15 +37,15 @@ public:
   __declspec(property(get = getStaticF_StopEventID, put = setStaticF_StopEventID)) int32_t StopEventID;
 
   /// [FreeFunction(Name = "VisualEffectAssetBindings::GetExposedSpace", HasExplicitThis = true)]
-  /// @brief Method GetExposedSpace, addr 0x6e2dc08, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetExposedSpace, addr 0x72c95ac, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::VFX::VFXSpace GetExposedSpace(int32_t nameID);
 
-  /// @brief Method GetExposedSpace_Injected, addr 0x6e2dcc0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetExposedSpace_Injected, addr 0x72c9664, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::VFXSpace GetExposedSpace_Injected(::System::IntPtr _unity_self, int32_t nameID);
 
   static inline ::UnityEngine::VFX::VisualEffectAsset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e2dd04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72c96a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_PlayEventID();
@@ -77,7 +77,7 @@ public:
   static constexpr ::ConstString StopEventName{ u"OnStop" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22919 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

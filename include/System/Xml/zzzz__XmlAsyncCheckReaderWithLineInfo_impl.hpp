@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)(::System::Xml::XmlReader*)>(&::System::Xml::XmlAsyncCheckReaderWithLineInfo::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x61b3a38;
+  constexpr static std::size_t addrs = 0x65db588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,11 +22,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)()>(&::System::Xml::XmlAsyncCheckReaderWithLineInfo::HasLineInfo)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x61b4c34;
+  constexpr static std::size_t addrs = 0x65dc7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), { ::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), 78 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), { ::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), 79 }));
     return ___internal_method;
   }
 };
@@ -35,11 +35,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)()>(&::System::Xml::XmlAsyncCheckReaderWithLineInfo::get_LineNumber)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x61b4cd8;
+  constexpr static std::size_t addrs = 0x65dc854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), { ::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), 79 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), { ::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), 80 }));
     return ___internal_method;
   }
 };
@@ -48,11 +48,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)()>(&::System::Xml::XmlAsyncCheckReaderWithLineInfo::get_LinePosition)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x61b4d80;
+  constexpr static std::size_t addrs = 0x65dc8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), { ::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), 80 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), { ::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), 81 }));
     return ___internal_method;
   }
 };
@@ -75,17 +75,17 @@ inline void System::Xml::XmlAsyncCheckReaderWithLineInfo::_ctor(::System::Xml::X
 }
 inline bool System::Xml::XmlAsyncCheckReaderWithLineInfo::HasLineInfo() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), 78 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), 79 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline int32_t System::Xml::XmlAsyncCheckReaderWithLineInfo::get_LineNumber() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), 79 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), 80 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 inline int32_t System::Xml::XmlAsyncCheckReaderWithLineInfo::get_LinePosition() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), 80 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(), 81 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 inline ::System::Xml::XmlAsyncCheckReaderWithLineInfo* System::Xml::XmlAsyncCheckReaderWithLineInfo::New_ctor(::System::Xml::XmlReader* reader) {

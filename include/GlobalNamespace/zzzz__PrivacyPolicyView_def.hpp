@@ -5,9 +5,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
+#include <cstddef>
+#include <cstdint>
 CORDL_MODULE_EXPORT(PrivacyPolicyView)
 namespace GlobalNamespace {
 class LocalizedTextAsset;
+}
+namespace GlobalNamespace {
+struct PrivacyPolicyView_LinkState;
 }
 namespace GlobalNamespace {
 class SettingsManager;
@@ -23,11 +28,71 @@ class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
+struct PrivacyPolicyView_LinkState;
+}
+namespace GlobalNamespace {
 class PrivacyPolicyView;
 }
 // Write type traits
+MARK_VAL_T(::GlobalNamespace::PrivacyPolicyView_LinkState);
 MARK_REF_T(::GlobalNamespace::PrivacyPolicyView*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::PrivacyPolicyView_LinkState, "", "PrivacyPolicyView/LinkState");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PrivacyPolicyView*, "", "PrivacyPolicyView");
+// Dependencies
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: PrivacyPolicyView/LinkState
+struct CORDL_TYPE PrivacyPolicyView_LinkState {
+public:
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
+  /// @brief Nested struct __PrivacyPolicyView_LinkState_Unwrapped
+  enum struct __PrivacyPolicyView_LinkState_Unwrapped : int32_t {
+    __E_Display = static_cast<int32_t>(0x0),
+    __E_Opened = static_cast<int32_t>(0x1),
+  };
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __PrivacyPolicyView_LinkState_Unwrapped() const noexcept {
+    return static_cast<__PrivacyPolicyView_LinkState_Unwrapped>(this->value__);
+  }
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PrivacyPolicyView_LinkState();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
+  constexpr PrivacyPolicyView_LinkState(int32_t value__) noexcept;
+
+  /// @brief Field Display value: I32(0)
+  static ::GlobalNamespace::PrivacyPolicyView_LinkState const Display;
+
+  /// @brief Field Opened value: I32(1)
+  static ::GlobalNamespace::PrivacyPolicyView_LinkState const Opened;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6612 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::GlobalNamespace::PrivacyPolicyView_LinkState, value__) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::PrivacyPolicyView_LinkState) == 0x4, "Size mismatch!");
+
+} // namespace GlobalNamespace
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -35,6 +100,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE PrivacyPolicyView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  using LinkState = ::GlobalNamespace::PrivacyPolicyView_LinkState;
+
   /// @brief Field _koreanLocalizedTextAsset, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__koreanLocalizedTextAsset, put = __cordl_internal_set__koreanLocalizedTextAsset)) ::UnityW<::GlobalNamespace::LocalizedTextAsset>
       _koreanLocalizedTextAsset;
@@ -58,16 +125,19 @@ public:
   /// @brief Field _settingsManager, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method Activate, addr 0x5a1d230, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x5cf30f0, size 0x160, virtual false, abstract: false, final false
   inline void Activate(::HMUI::ButtonBinder* buttonBinder, bool firstActivation);
 
   static inline ::GlobalNamespace::PrivacyPolicyView* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x5a251b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x5cf3670, size 0x10, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool focus);
 
-  /// @brief Method OpenLink, addr 0x5a25144, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OpenLink, addr 0x5cf3600, size 0x70, virtual false, abstract: false, final false
   inline void OpenLink();
+
+  /// @brief Method SetLinkState, addr 0x5cf359c, size 0x64, virtual false, abstract: false, final false
+  inline void SetLinkState(::GlobalNamespace::PrivacyPolicyView_LinkState linkState);
 
   constexpr ::UnityW<::GlobalNamespace::LocalizedTextAsset> const& __cordl_internal_get__koreanLocalizedTextAsset() const;
 
@@ -111,7 +181,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x5a25210, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf3680, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,7 +199,7 @@ public:
   PrivacyPolicyView(PrivacyPolicyView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6613 };
 
   /// @brief Field kPrivacyPolicyURL offset 0xffffffff size 0x8
   static constexpr ::ConstString kPrivacyPolicyURL{ u"https://www.meta.com/legal/privacy-policy/" };

@@ -91,7 +91,7 @@ public:
   static inline ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass7_0* New_ctor();
 
   /// [NullableContext(0)]
-  /// @brief Method <ReadAllTextFromPathAsync>b__0, addr 0x37249fc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ReadAllTextFromPathAsync>b__0, addr 0x39adf20, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW _ReadAllTextFromPathAsync_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_path() const;
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_path(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3723f0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ad430, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,7 +118,7 @@ public:
   BeatmapLevelDataUtils___c__DisplayClass7_0(BeatmapLevelDataUtils___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15213 };
 
   /// [Nullable(0)]
   /// @brief Field path, offset: 0x10, size: 0x8, def value: None
@@ -146,7 +146,7 @@ public:
   static inline ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0* New_ctor();
 
   /// [NullableContext(0)]
-  /// @brief Method <ReadAllTextFromUrlAsync>b__0, addr 0x3724a5c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <ReadAllTextFromUrlAsync>b__0, addr 0x39adf80, size 0x80, virtual false, abstract: false, final false
   inline ::StringW _ReadAllTextFromUrlAsync_b__0();
 
   constexpr ::UnityEngine::Networking::UnityWebRequest* const& __cordl_internal_get_www() const;
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_www(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x3724a58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39adf7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -173,7 +173,7 @@ public:
   BeatmapLevelDataUtils___c__DisplayClass8_0(BeatmapLevelDataUtils___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15214 };
 
   /// [Nullable(0)]
   /// @brief Field www, offset: 0x10, size: 0x8, def value: None
@@ -201,7 +201,7 @@ public:
   static inline ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass9_0* New_ctor();
 
   /// [NullableContext(0)]
-  /// @brief Method <ReadAllTextFromDataAsync>b__0, addr 0x3724adc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <ReadAllTextFromDataAsync>b__0, addr 0x39ae000, size 0x60, virtual false, abstract: false, final false
   inline ::StringW _ReadAllTextFromDataAsync_b__0();
 
   constexpr ::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> const& __cordl_internal_get_inputData() const;
@@ -210,7 +210,7 @@ public:
 
   constexpr void __cordl_internal_set_inputData(::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x3724000, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ad524, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -228,7 +228,7 @@ public:
   BeatmapLevelDataUtils___c__DisplayClass9_0(BeatmapLevelDataUtils___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15215 };
 
   /// [Nullable(0)]
   /// @brief Field inputData, offset: 0x10, size: 0x10, def value: None
@@ -254,11 +254,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3724b3c, size 0x4e4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39ae060, size 0x4e4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3725020, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39ae544, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -280,7 +280,7 @@ public:
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14975 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15216 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -357,52 +357,52 @@ public:
   /// @brief Field sha1, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_sha1, put = setStaticF_sha1)) ::System::Security::Cryptography::SHA1* sha1;
 
-  /// @brief Method CalculateAudioContentHash, addr 0x372412c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CalculateAudioContentHash, addr 0x39ad650, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW CalculateAudioContentHash(::UnityEngine::AudioClip* audioClip);
 
-  /// @brief Method CalculateBeatmapDataContentHash, addr 0x3724004, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CalculateBeatmapDataContentHash, addr 0x39ad528, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW CalculateBeatmapDataContentHash(::StringW beatmapJson);
 
-  /// @brief Method CalculateHashFromData, addr 0x3724080, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CalculateHashFromData, addr 0x39ad5a4, size 0xac, virtual false, abstract: false, final false
   static inline ::StringW CalculateHashFromData(::ArrayW<uint8_t> data);
 
-  /// @brief Method CalculateHashFromPath, addr 0x3724238, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method CalculateHashFromPath, addr 0x39ad75c, size 0x1b4, virtual false, abstract: false, final false
   static inline ::StringW CalculateHashFromPath(::StringW path);
 
-  /// @brief Method Compress, addr 0x37243ec, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method Compress, addr 0x39ad910, size 0x3ac, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Compress(::StringW data);
 
-  /// @brief Method Decompress, addr 0x3723920, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method Decompress, addr 0x39ace44, size 0x37c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Decompress(::ArrayW<uint8_t> data);
 
-  /// @brief Method GetBytesFromUtf8String, addr 0x3724798, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetBytesFromUtf8String, addr 0x39adcbc, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetBytesFromUtf8String(::StringW data);
 
-  /// @brief Method GetUtf8String, addr 0x3723c9c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetUtf8String, addr 0x39ad1c0, size 0xe4, virtual false, abstract: false, final false
   static inline ::StringW GetUtf8String(::ArrayW<uint8_t> data);
 
-  /// @brief Method IsCompressed, addr 0x37238e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsCompressed, addr 0x39ace08, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsCompressed(::ArrayW<uint8_t> data);
 
   /// [NullableContext(0)]
-  /// @brief Method ReadAllTextFromData, addr 0x3722dd4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ReadAllTextFromData, addr 0x39ac2f8, size 0x174, virtual false, abstract: false, final false
   static inline ::StringW ReadAllTextFromData(::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> inputData);
 
   /// [NullableContext(0)]
-  /// @brief Method ReadAllTextFromDataAsync, addr 0x37147bc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ReadAllTextFromDataAsync, addr 0x399d668, size 0x134, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAllTextFromDataAsync(::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> inputData);
 
-  /// @brief Method ReadAllTextFromPath, addr 0x3723790, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ReadAllTextFromPath, addr 0x39accb4, size 0x154, virtual false, abstract: false, final false
   static inline ::StringW ReadAllTextFromPath(::StringW path);
 
-  /// @brief Method ReadAllTextFromPathAsync, addr 0x3723d80, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ReadAllTextFromPathAsync, addr 0x39ad2a4, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAllTextFromPathAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
   /// [AsyncStateMachine(typeof(BeatmapLevelDataUtils::<ReadAllTextFromUrlAsync>d__8))]
-  /// @brief Method ReadAllTextFromUrlAsync, addr 0x3723f10, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ReadAllTextFromUrlAsync, addr 0x39ad434, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAllTextFromUrlAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method StartsWithBom, addr 0x3724810, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method StartsWithBom, addr 0x39add34, size 0x120, virtual false, abstract: false, final false
   static inline bool StartsWithBom(::ArrayW<uint8_t> data);
 
   static inline ::ArrayW<uint8_t> getStaticF_kUtf8Bom();
@@ -432,7 +432,7 @@ public:
   BeatmapLevelDataUtils(BeatmapLevelDataUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14976 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15217 };
 
   /// @brief Field gzipByte0 offset 0xffffffff size 0x1
   static constexpr uint8_t gzipByte0{ static_cast<uint8_t>(0x1fu) };

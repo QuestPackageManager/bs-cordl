@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerSetGenerator::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Asn1::DerSetGenerator::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x36911f0;
+  constexpr static std::size_t addrs = 0x391a48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerSetGenerator::*)(::System::IO::Stream*, int32_t, bool)>(
     &::Org::BouncyCastle::Asn1::DerSetGenerator::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3691260;
+  constexpr static std::size_t addrs = 0x391a4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerSetGenerator::*)(::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
     &::Org::BouncyCastle::Asn1::DerSetGenerator::AddObject)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x36912f0;
+  constexpr static std::size_t addrs = 0x391a58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Asn1::DerSetGenerator::*)()>(&::Org::BouncyCastle::Asn1::DerSetGenerator::GetRawOutputStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3691374;
+  constexpr static std::size_t addrs = 0x391a610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerSetGenerator::*)()>(&::Org::BouncyCastle::Asn1::DerSetGenerator::Close)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x369137c;
+  constexpr static std::size_t addrs = 0x391a618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

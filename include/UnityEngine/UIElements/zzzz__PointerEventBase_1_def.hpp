@@ -3,15 +3,20 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__PenStatus_def.hpp"
+#include "UnityEngine/zzzz__Ray_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerEventBase_1)
+namespace System {
+template <typename T> struct Nullable_1;
+}
 namespace UnityEngine::InputForUI {
 struct PointerEvent;
 }
@@ -52,6 +57,9 @@ namespace UnityEngine {
 struct PenStatus;
 }
 namespace UnityEngine {
+struct Ray;
+}
+namespace UnityEngine {
 struct Touch;
 }
 namespace UnityEngine {
@@ -68,7 +76,7 @@ template <typename T> class PointerEventBase_1;
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::PointerEventBase_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::PointerEventBase_1, "UnityEngine.UIElements", "PointerEventBase`1");
 // [EventCategory((UnityEngine.UIElements.EventCategory)1)]
-// Dependencies UnityEngine.EventModifiers, UnityEngine.PenStatus, UnityEngine.UIElements.EventBase`1<T>, UnityEngine.Vector2, UnityEngine.Vector3
+// Dependencies System.Nullable`1<T>, UnityEngine.EventModifiers, UnityEngine.PenStatus, UnityEngine.Ray, UnityEngine.UIElements.EventBase`1<T>, UnityEngine.Vector2, UnityEngine.Vector3
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -78,28 +86,11 @@ class CORDL_TYPE PointerEventBase_1 : public ::UnityEngine::UIElements::EventBas
 public:
   // Declarations
   __declspec(property(
-      get = UnityEngine_UIElements_IPointerEventInternal_get_compatibilityMouseEvent,
-      put = UnityEngine_UIElements_IPointerEventInternal_set_compatibilityMouseEvent)) ::UnityEngine::UIElements::IMouseEvent* UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent;
+      get = UnityEngine_UIElements_IPointerEventInternal_get_compatibilityMouseEvent)) ::UnityEngine::UIElements::IMouseEvent* UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent;
 
-  __declspec(property(put = UnityEngine_UIElements_IPointerEventInternal_set_displayIndex)) int32_t UnityEngine_UIElements_IPointerEventInternal_displayIndex;
+  __declspec(property(put = UnityEngine_UIElements_IPointerOrMouseEvent_set_deltaPosition)) ::UnityEngine::Vector3 UnityEngine_UIElements_IPointerOrMouseEvent_deltaPosition;
 
-  __declspec(property(get = UnityEngine_UIElements_IPointerEventInternal_get_triggeredByOS,
-                      put = UnityEngine_UIElements_IPointerEventInternal_set_triggeredByOS)) bool UnityEngine_UIElements_IPointerEventInternal_triggeredByOS;
-
-  /// @brief Field <UnityEngine.UIElements.IPointerEventInternal.compatibilityMouseEvent>k__BackingField, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField,
-                      put = __cordl_internal_set__UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField)) ::UnityEngine::UIElements::IMouseEvent*
-      _UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField;
-
-  /// @brief Field <UnityEngine.UIElements.IPointerEventInternal.displayIndex>k__BackingField, offset 0xf0, size 0x4
-  __declspec(property(
-      get = __cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField,
-      put = __cordl_internal_set__UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField)) int32_t _UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField;
-
-  /// @brief Field <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField, offset 0xe4, size 0x1
-  __declspec(property(
-      get = __cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField,
-      put = __cordl_internal_set__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField)) bool _UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField;
+  __declspec(property(get = UnityEngine_UIElements_IPointerOrMouseEvent_get_panelRay)) ::System::Nullable_1<::UnityEngine::Ray> UnityEngine_UIElements_IPointerOrMouseEvent_panelRay;
 
   /// @brief Field <button>k__BackingField, offset 0x8c, size 0x4
   __declspec(property(get = __cordl_internal_get__button_k__BackingField, put = __cordl_internal_set__button_k__BackingField)) int32_t _button_k__BackingField;
@@ -107,11 +98,18 @@ public:
   /// @brief Field <clickCount>k__BackingField, offset 0xbc, size 0x4
   __declspec(property(get = __cordl_internal_get__clickCount_k__BackingField, put = __cordl_internal_set__clickCount_k__BackingField)) int32_t _clickCount_k__BackingField;
 
+  /// @brief Field <compatibilityMouseEvent>k__BackingField, offset 0xe8, size 0x8
+  __declspec(property(get = __cordl_internal_get__compatibilityMouseEvent_k__BackingField,
+                      put = __cordl_internal_set__compatibilityMouseEvent_k__BackingField)) ::UnityEngine::UIElements::IMouseEvent* _compatibilityMouseEvent_k__BackingField;
+
   /// @brief Field <deltaPosition>k__BackingField, offset 0xac, size 0xc
   __declspec(property(get = __cordl_internal_get__deltaPosition_k__BackingField, put = __cordl_internal_set__deltaPosition_k__BackingField)) ::UnityEngine::Vector3 _deltaPosition_k__BackingField;
 
   /// @brief Field <deltaTime>k__BackingField, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get__deltaTime_k__BackingField, put = __cordl_internal_set__deltaTime_k__BackingField)) float_t _deltaTime_k__BackingField;
+
+  /// @brief Field <displayIndex>k__BackingField, offset 0xf0, size 0x4
+  __declspec(property(get = __cordl_internal_get__displayIndex_k__BackingField, put = __cordl_internal_set__displayIndex_k__BackingField)) int32_t _displayIndex_k__BackingField;
 
   /// @brief Field <isPrimary>k__BackingField, offset 0x88, size 0x1
   __declspec(property(get = __cordl_internal_get__isPrimary_k__BackingField, put = __cordl_internal_set__isPrimary_k__BackingField)) bool _isPrimary_k__BackingField;
@@ -121,6 +119,9 @@ public:
 
   /// @brief Field <modifiers>k__BackingField, offset 0xe0, size 0x4
   __declspec(property(get = __cordl_internal_get__modifiers_k__BackingField, put = __cordl_internal_set__modifiers_k__BackingField)) ::UnityEngine::EventModifiers _modifiers_k__BackingField;
+
+  /// @brief Field <panelRay>k__BackingField, offset 0xf8, size 0x1c
+  __declspec(property(get = __cordl_internal_get__panelRay_k__BackingField, put = __cordl_internal_set__panelRay_k__BackingField)) ::System::Nullable_1<::UnityEngine::Ray> _panelRay_k__BackingField;
 
   /// @brief Field <penStatus>k__BackingField, offset 0xcc, size 0x4
   __declspec(property(get = __cordl_internal_get__penStatus_k__BackingField, put = __cordl_internal_set__penStatus_k__BackingField)) ::UnityEngine::PenStatus _penStatus_k__BackingField;
@@ -146,6 +147,10 @@ public:
   /// @brief Field <radius>k__BackingField, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__radius_k__BackingField, put = __cordl_internal_set__radius_k__BackingField)) ::UnityEngine::Vector2 _radius_k__BackingField;
 
+  /// @brief Field <recomputeTopElementUnderPointer>k__BackingField, offset 0xf4, size 0x1
+  __declspec(property(get = __cordl_internal_get__recomputeTopElementUnderPointer_k__BackingField,
+                      put = __cordl_internal_set__recomputeTopElementUnderPointer_k__BackingField)) bool _recomputeTopElementUnderPointer_k__BackingField;
+
   /// @brief Field <tangentialPressure>k__BackingField, offset 0xc4, size 0x4
   __declspec(property(get = __cordl_internal_get__tangentialPressure_k__BackingField, put = __cordl_internal_set__tangentialPressure_k__BackingField)) float_t _tangentialPressure_k__BackingField;
 
@@ -166,6 +171,8 @@ public:
 
   __declspec(property(get = get_commandKey)) bool commandKey;
 
+  __declspec(property(get = get_compatibilityMouseEvent, put = set_compatibilityMouseEvent)) ::UnityEngine::UIElements::IMouseEvent* compatibilityMouseEvent;
+
   __declspec(property(get = get_ctrlKey)) bool ctrlKey;
 
   __declspec(property(get = get_currentTarget, put = set_currentTarget)) ::UnityEngine::UIElements::IEventHandler* currentTarget;
@@ -173,6 +180,8 @@ public:
   __declspec(property(get = get_deltaPosition, put = set_deltaPosition)) ::UnityEngine::Vector3 deltaPosition;
 
   __declspec(property(get = get_deltaTime, put = set_deltaTime)) float_t deltaTime;
+
+  __declspec(property(put = set_displayIndex)) int32_t displayIndex;
 
   __declspec(property(get = get_isPrimary, put = set_isPrimary)) bool isPrimary;
 
@@ -198,6 +207,8 @@ public:
 
   __declspec(property(get = get_modifiers, put = set_modifiers)) ::UnityEngine::EventModifiers modifiers;
 
+  __declspec(property(get = get_panelRay, put = set_panelRay)) ::System::Nullable_1<::UnityEngine::Ray> panelRay;
+
   __declspec(property(get = get_penStatus, put = set_penStatus)) ::UnityEngine::PenStatus penStatus;
 
   __declspec(property(get = get_pointerId, put = set_pointerId)) int32_t pointerId;
@@ -213,6 +224,8 @@ public:
   __declspec(property(get = get_radius, put = set_radius)) ::UnityEngine::Vector2 radius;
 
   __declspec(property(get = get_radiusVariance, put = set_radiusVariance)) ::UnityEngine::Vector2 radiusVariance;
+
+  __declspec(property(get = get_recomputeTopElementUnderPointer, put = set_recomputeTopElementUnderPointer)) bool recomputeTopElementUnderPointer;
 
   __declspec(property(get = get_shiftKey)) bool shiftKey;
 
@@ -245,19 +258,22 @@ public:
   static inline T GetPooled(::UnityEngine::PenData pen, ::UnityEngine::EventModifiers modifiers, int32_t displayIndex);
 
   /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline T GetPooled(::UnityEngine::InputForUI::PointerEvent pointerEvent, ::UnityEngine::Vector2 position, ::UnityEngine::Vector2 deltaPosition, int32_t pointerId, float_t deltaTime);
+  static inline T GetPooled(::UnityEngine::InputForUI::PointerEvent pointerEvent, ::UnityEngine::Vector3 position, int32_t pointerId, float_t deltaTime);
 
   /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::Event* systemEvent);
 
   /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline T GetPooled(::UnityEngine::Touch touch, ::UnityEngine::EventModifiers modifiers, int32_t displayIndex);
+  static inline T GetPooled(::UnityEngine::Touch touch, int32_t pointerId, ::UnityEngine::EventModifiers modifiers, int32_t displayIndex);
 
   /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::UIElements::IPointerEvent* triggerEvent);
 
   /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId);
+
+  /// @brief Method GetPooledCompatibilityMouseEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::IMouseEvent* GetPooledCompatibilityMouseEvent();
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
@@ -285,37 +301,14 @@ public:
   /// @brief Method TiltToAzimuth, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline float_t TiltToAzimuth(::UnityEngine::Vector2 tilt);
 
-  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IPointerEventInternal.get_compatibilityMouseEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IMouseEvent* UnityEngine_UIElements_IPointerEventInternal_get_compatibilityMouseEvent();
 
-  /// [CompilerGenerated]
-  /// @brief Method UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool UnityEngine_UIElements_IPointerEventInternal_get_triggeredByOS();
+  /// @brief Method UnityEngine.UIElements.IPointerOrMouseEvent.get_panelRay, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Nullable_1<::UnityEngine::Ray> UnityEngine_UIElements_IPointerOrMouseEvent_get_panelRay();
 
-  /// [CompilerGenerated]
-  /// @brief Method UnityEngine.UIElements.IPointerEventInternal.set_compatibilityMouseEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_IPointerEventInternal_set_compatibilityMouseEvent(::UnityEngine::UIElements::IMouseEvent* value);
-
-  /// [CompilerGenerated]
-  /// @brief Method UnityEngine.UIElements.IPointerEventInternal.set_displayIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_IPointerEventInternal_set_displayIndex(int32_t value);
-
-  /// [CompilerGenerated]
-  /// @brief Method UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_IPointerEventInternal_set_triggeredByOS(bool value);
-
-  constexpr ::UnityEngine::UIElements::IMouseEvent* const& __cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField() const;
-
-  constexpr ::UnityEngine::UIElements::IMouseEvent*& __cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField() const;
-
-  constexpr int32_t& __cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField() const;
-
-  constexpr bool& __cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField();
+  /// @brief Method UnityEngine.UIElements.IPointerOrMouseEvent.set_deltaPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void UnityEngine_UIElements_IPointerOrMouseEvent_set_deltaPosition(::UnityEngine::Vector3 value);
 
   constexpr int32_t const& __cordl_internal_get__button_k__BackingField() const;
 
@@ -325,6 +318,10 @@ public:
 
   constexpr int32_t& __cordl_internal_get__clickCount_k__BackingField();
 
+  constexpr ::UnityEngine::UIElements::IMouseEvent* const& __cordl_internal_get__compatibilityMouseEvent_k__BackingField() const;
+
+  constexpr ::UnityEngine::UIElements::IMouseEvent*& __cordl_internal_get__compatibilityMouseEvent_k__BackingField();
+
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__deltaPosition_k__BackingField() const;
 
   constexpr ::UnityEngine::Vector3& __cordl_internal_get__deltaPosition_k__BackingField();
@@ -332,6 +329,10 @@ public:
   constexpr float_t const& __cordl_internal_get__deltaTime_k__BackingField() const;
 
   constexpr float_t& __cordl_internal_get__deltaTime_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__displayIndex_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__displayIndex_k__BackingField();
 
   constexpr bool const& __cordl_internal_get__isPrimary_k__BackingField() const;
 
@@ -344,6 +345,10 @@ public:
   constexpr ::UnityEngine::EventModifiers const& __cordl_internal_get__modifiers_k__BackingField() const;
 
   constexpr ::UnityEngine::EventModifiers& __cordl_internal_get__modifiers_k__BackingField();
+
+  constexpr ::System::Nullable_1<::UnityEngine::Ray> const& __cordl_internal_get__panelRay_k__BackingField() const;
+
+  constexpr ::System::Nullable_1<::UnityEngine::Ray>& __cordl_internal_get__panelRay_k__BackingField();
 
   constexpr ::UnityEngine::PenStatus const& __cordl_internal_get__penStatus_k__BackingField() const;
 
@@ -377,6 +382,10 @@ public:
 
   constexpr ::UnityEngine::Vector2& __cordl_internal_get__radius_k__BackingField();
 
+  constexpr bool const& __cordl_internal_get__recomputeTopElementUnderPointer_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__recomputeTopElementUnderPointer_k__BackingField();
+
   constexpr float_t const& __cordl_internal_get__tangentialPressure_k__BackingField() const;
 
   constexpr float_t& __cordl_internal_get__tangentialPressure_k__BackingField();
@@ -409,25 +418,25 @@ public:
 
   constexpr bool& __cordl_internal_get_m_TiltNeeded();
 
-  constexpr void __cordl_internal_set__UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField(::UnityEngine::UIElements::IMouseEvent* value);
-
-  constexpr void __cordl_internal_set__UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField(int32_t value);
-
-  constexpr void __cordl_internal_set__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField(bool value);
-
   constexpr void __cordl_internal_set__button_k__BackingField(int32_t value);
 
   constexpr void __cordl_internal_set__clickCount_k__BackingField(int32_t value);
 
+  constexpr void __cordl_internal_set__compatibilityMouseEvent_k__BackingField(::UnityEngine::UIElements::IMouseEvent* value);
+
   constexpr void __cordl_internal_set__deltaPosition_k__BackingField(::UnityEngine::Vector3 value);
 
   constexpr void __cordl_internal_set__deltaTime_k__BackingField(float_t value);
+
+  constexpr void __cordl_internal_set__displayIndex_k__BackingField(int32_t value);
 
   constexpr void __cordl_internal_set__isPrimary_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__localPosition_k__BackingField(::UnityEngine::Vector3 value);
 
   constexpr void __cordl_internal_set__modifiers_k__BackingField(::UnityEngine::EventModifiers value);
+
+  constexpr void __cordl_internal_set__panelRay_k__BackingField(::System::Nullable_1<::UnityEngine::Ray> value);
 
   constexpr void __cordl_internal_set__penStatus_k__BackingField(::UnityEngine::PenStatus value);
 
@@ -444,6 +453,8 @@ public:
   constexpr void __cordl_internal_set__radiusVariance_k__BackingField(::UnityEngine::Vector2 value);
 
   constexpr void __cordl_internal_set__radius_k__BackingField(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set__recomputeTopElementUnderPointer_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__tangentialPressure_k__BackingField(float_t value);
 
@@ -487,6 +498,10 @@ public:
   /// @brief Method get_commandKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_commandKey();
 
+  /// [CompilerGenerated]
+  /// @brief Method get_compatibilityMouseEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::IMouseEvent* get_compatibilityMouseEvent();
+
   /// @brief Method get_ctrlKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_ctrlKey();
 
@@ -512,6 +527,10 @@ public:
   /// [CompilerGenerated]
   /// @brief Method get_modifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::EventModifiers get_modifiers();
+
+  /// [CompilerGenerated]
+  /// @brief Method get_panelRay, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::UnityEngine::Ray> get_panelRay();
 
   /// [CompilerGenerated]
   /// @brief Method get_penStatus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -544,6 +563,10 @@ public:
   /// [CompilerGenerated]
   /// @brief Method get_radiusVariance, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_radiusVariance();
+
+  /// [CompilerGenerated]
+  /// @brief Method get_recomputeTopElementUnderPointer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool get_recomputeTopElementUnderPointer();
 
   /// @brief Method get_shiftKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_shiftKey();
@@ -582,6 +605,10 @@ public:
   /// @brief Method set_clickCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_clickCount(int32_t value);
 
+  /// [CompilerGenerated]
+  /// @brief Method set_compatibilityMouseEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_compatibilityMouseEvent(::UnityEngine::UIElements::IMouseEvent* value);
+
   /// @brief Method set_currentTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_currentTarget(::UnityEngine::UIElements::IEventHandler* value);
 
@@ -594,6 +621,10 @@ public:
   inline void set_deltaTime(float_t value);
 
   /// [CompilerGenerated]
+  /// @brief Method set_displayIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_displayIndex(int32_t value);
+
+  /// [CompilerGenerated]
   /// @brief Method set_isPrimary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_isPrimary(bool value);
 
@@ -604,6 +635,10 @@ public:
   /// [CompilerGenerated]
   /// @brief Method set_modifiers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_modifiers(::UnityEngine::EventModifiers value);
+
+  /// [CompilerGenerated]
+  /// @brief Method set_panelRay, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_panelRay(::System::Nullable_1<::UnityEngine::Ray> value);
 
   /// [CompilerGenerated]
   /// @brief Method set_penStatus, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -638,6 +673,10 @@ public:
   inline void set_radiusVariance(::UnityEngine::Vector2 value);
 
   /// [CompilerGenerated]
+  /// @brief Method set_recomputeTopElementUnderPointer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_recomputeTopElementUnderPointer(bool value);
+
+  /// [CompilerGenerated]
   /// @brief Method set_tangentialPressure, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_tangentialPressure(float_t value);
 
@@ -663,7 +702,7 @@ public:
   PointerEventBase_1(PointerEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4540 };
 
   /// @brief Field k_DefaultButtonPressure offset 0xffffffff size 0x4
   static constexpr float_t k_DefaultButtonPressure{ static_cast<float_t>(0.5f) };
@@ -686,18 +725,18 @@ public:
   /// @brief Field m_Tilt, offset: 0x74, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_Tilt;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <pointerId>k__BackingField, offset: 0x7c, size: 0x4, def value: None
   int32_t ____pointerId_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <pointerType>k__BackingField, offset: 0x80, size: 0x8, def value: None
   ::StringW ____pointerType_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <isPrimary>k__BackingField, offset: 0x88, size: 0x1, def value: None
   bool ____isPrimary_k__BackingField;
 
@@ -706,8 +745,8 @@ public:
   /// @brief Field <button>k__BackingField, offset: 0x8c, size: 0x4, def value: None
   int32_t ____button_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <pressedButtons>k__BackingField, offset: 0x90, size: 0x4, def value: None
   int32_t ____pressedButtons_k__BackingField;
 
@@ -721,8 +760,8 @@ public:
   /// @brief Field <localPosition>k__BackingField, offset: 0xa0, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____localPosition_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <deltaPosition>k__BackingField, offset: 0xac, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____deltaPosition_k__BackingField;
 
@@ -761,30 +800,35 @@ public:
   /// @brief Field <radius>k__BackingField, offset: 0xd0, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____radius_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <radiusVariance>k__BackingField, offset: 0xd8, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____radiusVariance_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <modifiers>k__BackingField, offset: 0xe0, size: 0x4, def value: None
   ::UnityEngine::EventModifiers ____modifiers_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// [CompilerGenerated]
-  /// @brief Field <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField, offset: 0xe4, size: 0x1, def value: None
-  bool ____UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField;
-
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <UnityEngine.UIElements.IPointerEventInternal.compatibilityMouseEvent>k__BackingField, offset: 0xe8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::IMouseEvent* ____UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField;
+  /// @brief Field <compatibilityMouseEvent>k__BackingField, offset: 0xe8, size: 0x8, def value: None
+  ::UnityEngine::UIElements::IMouseEvent* ____compatibilityMouseEvent_k__BackingField;
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <UnityEngine.UIElements.IPointerEventInternal.displayIndex>k__BackingField, offset: 0xf0, size: 0x4, def value: None
-  int32_t ____UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField;
+  /// @brief Field <displayIndex>k__BackingField, offset: 0xf0, size: 0x4, def value: None
+  int32_t ____displayIndex_k__BackingField;
+
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
+  /// @brief Field <recomputeTopElementUnderPointer>k__BackingField, offset: 0xf4, size: 0x1, def value: None
+  bool ____recomputeTopElementUnderPointer_k__BackingField;
+
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// @brief Field <panelRay>k__BackingField, offset: 0xf8, size: 0x1c, def value: None
+  ::System::Nullable_1<::UnityEngine::Ray> ____panelRay_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

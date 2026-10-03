@@ -35,6 +35,8 @@ public:
     __E_NonModifiableTextureData = static_cast<int32_t>(0x40),
     __E_MainTexture = static_cast<int32_t>(0x80),
     __E_MainColor = static_cast<int32_t>(0x100),
+    __E_Vector2 = static_cast<int32_t>(0x200),
+    __E_Vector3 = static_cast<int32_t>(0x400),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -84,8 +86,14 @@ public:
   /// @brief Field PerRendererData value: I32(2)
   static ::UnityEngine::Rendering::ShaderPropertyFlags const PerRendererData;
 
+  /// @brief Field Vector2 value: I32(512)
+  static ::UnityEngine::Rendering::ShaderPropertyFlags const Vector2;
+
+  /// @brief Field Vector3 value: I32(1024)
+  static ::UnityEngine::Rendering::ShaderPropertyFlags const Vector3;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10505 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame::*)()>(
     &::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame::ToString)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x69abe0c;
+  constexpr static std::size_t addrs = 0x6dd39a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize::*)()>(
     &::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize::ToString)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x69abfb0;
+  constexpr static std::size_t addrs = 0x6dd3b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize>(),
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject::*)()>(
     &::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69ac060;
+  constexpr static std::size_t addrs = 0x6dd3bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::*)()>(&::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69abe08;
+  constexpr static std::size_t addrs = 0x6dd39a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray*>(), { ".ctor", {}, {} })));

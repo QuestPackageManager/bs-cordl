@@ -58,7 +58,7 @@ namespace Unity::Jobs::LowLevel::Unsafe {
 struct CORDL_TYPE JobsUtility_JobScheduleParameters {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6a5c38c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eadf10, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(void* i_jobData, ::System::IntPtr i_reflectionData, ::Unity::Jobs::JobHandle i_dependency, ::Unity::Jobs::LowLevel::Unsafe::ScheduleMode i_scheduleMode);
 
   // Ctor Parameters []
@@ -71,7 +71,7 @@ public:
   constexpr JobsUtility_JobScheduleParameters(::Unity::Jobs::JobHandle Dependency, int32_t ScheduleMode, ::System::IntPtr ReflectionData, ::System::IntPtr JobDataPtr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9507 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -109,12 +109,12 @@ namespace Unity::Jobs::LowLevel::Unsafe {
 class CORDL_TYPE JobsUtility_PanicFunction_ : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6a5c404, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6eadf88, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::Unity::Jobs::LowLevel::Unsafe::JobsUtility_PanicFunction_* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6a5c39c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eadf20, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -132,7 +132,7 @@ public:
   JobsUtility_PanicFunction_(JobsUtility_PanicFunction_ const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9508 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -140,8 +140,8 @@ public:
 static_assert(sizeof(::Unity::Jobs::LowLevel::Unsafe::JobsUtility_PanicFunction_) == 0x80, "Size mismatch!");
 
 } // namespace Unity::Jobs::LowLevel::Unsafe
-// [NativeHeader("Runtime/Jobs/JobSystem.h")]
 // [NativeType(Header = "Runtime/Jobs/ScriptBindings/JobsBindings.h")]
+// [NativeHeader("Runtime/Jobs/JobSystem.h")]
 // Dependencies System.Object
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: false
@@ -156,96 +156,96 @@ public:
   /// @brief Field PanicFunction, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_PanicFunction, put = setStaticF_PanicFunction)) ::Unity::Jobs::LowLevel::Unsafe::JobsUtility_PanicFunction_* PanicFunction;
 
-  /// @brief Method CreateJobReflectionData, addr 0x6a5c164, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateJobReflectionData, addr 0x6eadce8, size 0x60, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateJobReflectionData(::System::Type* type, ::System::Object* managedJobFunction0, ::System::Object* managedJobFunction1, ::System::Object* managedJobFunction2);
 
-  /// @brief Method CreateJobReflectionData, addr 0x6a5c1c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateJobReflectionData, addr 0x6eadd48, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateJobReflectionData(::System::Type* wrapperJobType, ::System::Type* userJobType, ::System::Object* managedJobFunction0);
 
   /// [FreeFunction(ThrowsException = true, IsThreadSafe = true)]
-  /// @brief Method CreateJobReflectionData, addr 0x6a5c0f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateJobReflectionData, addr 0x6eadc7c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateJobReflectionData(::System::Type* wrapperJobType, ::System::Type* userJobType, ::System::Object* managedJobFunction0, ::System::Object* managedJobFunction1,
                                                          ::System::Object* managedJobFunction2);
 
   /// [FreeFunction("JobSystem::GetJobQueueWorkerThreadCount")]
-  /// @brief Method GetJobQueueWorkerThreadCount, addr 0x6a5c284, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetJobQueueWorkerThreadCount, addr 0x6eade08, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetJobQueueWorkerThreadCount();
 
-  /// @brief Method GetJobRange, addr 0x6a5bcc0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetJobRange, addr 0x6ead844, size 0x24, virtual false, abstract: false, final false
   static inline void GetJobRange(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex, ::by_ref<int32_t> beginIndex, ::by_ref<int32_t> endIndex);
 
   /// [NativeMethod(IsFreeFunction = true, IsThreadSafe = true)]
-  /// @brief Method GetWorkStealingRange, addr 0x6a5bce4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetWorkStealingRange, addr 0x6ead868, size 0x5c, virtual false, abstract: false, final false
   static inline bool GetWorkStealingRange(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex, ::by_ref<int32_t> beginIndex, ::by_ref<int32_t> endIndex);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokePanicFunction, addr 0x6a5c324, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InvokePanicFunction, addr 0x6eadea8, size 0x68, virtual false, abstract: false, final false
   static inline void InvokePanicFunction();
 
   /// [FreeFunction("ScheduleManagedJob", ThrowsException = true, IsThreadSafe = true)]
-  /// @brief Method Schedule, addr 0x6a5bd40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Schedule, addr 0x6ead8c4, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle Schedule(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters);
 
   /// [FreeFunction("ScheduleManagedJobParallelFor", ThrowsException = true, IsThreadSafe = true)]
-  /// @brief Method ScheduleParallelFor, addr 0x6a5bdd8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleParallelFor, addr 0x6ead95c, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleParallelFor(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, int32_t arrayLength, int32_t innerloopBatchCount);
 
   /// [FreeFunction("ScheduleManagedJobParallelForDeferArraySize", ThrowsException = true, IsThreadSafe = true)]
-  /// @brief Method ScheduleParallelForDeferArraySize, addr 0x6a5bea0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ScheduleParallelForDeferArraySize, addr 0x6eada24, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleParallelForDeferArraySize(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, int32_t innerloopBatchCount,
                                                                            void* listData, void* listDataAtomicSafetyHandle);
 
-  /// @brief Method ScheduleParallelForDeferArraySize_Injected, addr 0x6a5bf14, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleParallelForDeferArraySize_Injected, addr 0x6eada98, size 0x6c, virtual false, abstract: false, final false
   static inline void ScheduleParallelForDeferArraySize_Injected(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, int32_t innerloopBatchCount, void* listData,
                                                                 void* listDataAtomicSafetyHandle, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
   /// [FreeFunction("ScheduleManagedJobParallelForTransform", ThrowsException = true)]
-  /// @brief Method ScheduleParallelForTransform, addr 0x6a5bf80, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleParallelForTransform, addr 0x6eadb04, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleParallelForTransform(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, ::System::IntPtr transfromAccesssArray);
 
   /// [FreeFunction("ScheduleManagedJobParallelForTransformReadOnly", ThrowsException = true)]
-  /// @brief Method ScheduleParallelForTransformReadOnly, addr 0x6a5c030, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleParallelForTransformReadOnly, addr 0x6eadbb4, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleParallelForTransformReadOnly(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters,
                                                                               ::System::IntPtr transfromAccesssArray, int32_t innerloopBatchCount);
 
-  /// @brief Method ScheduleParallelForTransformReadOnly_Injected, addr 0x6a5c09c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleParallelForTransformReadOnly_Injected, addr 0x6eadc20, size 0x5c, virtual false, abstract: false, final false
   static inline void ScheduleParallelForTransformReadOnly_Injected(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, ::System::IntPtr transfromAccesssArray,
                                                                    int32_t innerloopBatchCount, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method ScheduleParallelForTransform_Injected, addr 0x6a5bfdc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ScheduleParallelForTransform_Injected, addr 0x6eadb60, size 0x54, virtual false, abstract: false, final false
   static inline void ScheduleParallelForTransform_Injected(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, ::System::IntPtr transfromAccesssArray,
                                                            ::by_ref<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method ScheduleParallelFor_Injected, addr 0x6a5be44, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleParallelFor_Injected, addr 0x6ead9c8, size 0x5c, virtual false, abstract: false, final false
   static inline void ScheduleParallelFor_Injected(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, int32_t arrayLength, int32_t innerloopBatchCount,
                                                   ::by_ref<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method Schedule_Injected, addr 0x6a5bd94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Schedule_Injected, addr 0x6ead918, size 0x44, virtual false, abstract: false, final false
   static inline void Schedule_Injected(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
   static inline ::Unity::Jobs::LowLevel::Unsafe::JobsUtility_PanicFunction_* getStaticF_PanicFunction();
 
-  /// [NativeMethod(IsFreeFunction = true, IsThreadSafe = true)]
-  /// @brief Method get_IsExecutingJob, addr 0x6a5c220, size 0x28, virtual false, abstract: false, final false
+  /// [NativeMethod(Name = "GetIsExecutingScriptingJob", IsFreeFunction = true, IsThreadSafe = true)]
+  /// @brief Method get_IsExecutingJob, addr 0x6eadda4, size 0x28, virtual false, abstract: false, final false
   static inline bool get_IsExecutingJob();
 
-  /// @brief Method get_JobWorkerCount, addr 0x6a5c2ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_JobWorkerCount, addr 0x6eade30, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_JobWorkerCount();
 
   /// [BurstAuthorizedExternalMethod]
   /// [FreeFunction("GetJobWorkerIndex", IsThreadSafe = true)]
-  /// @brief Method get_ThreadIndex, addr 0x6a5c2d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_ThreadIndex, addr 0x6eade58, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_ThreadIndex();
 
   /// [FreeFunction("GetJobWorkerIndexCount", IsThreadSafe = true)]
   /// [BurstAuthorizedExternalMethod]
-  /// @brief Method get_ThreadIndexCount, addr 0x6a5c2fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_ThreadIndexCount, addr 0x6eade80, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_ThreadIndexCount();
 
   static inline void setStaticF_PanicFunction(::Unity::Jobs::LowLevel::Unsafe::JobsUtility_PanicFunction_* value);
 
   /// [FreeFunction]
-  /// @brief Method set_JobCompilerEnabled, addr 0x6a5c248, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_JobCompilerEnabled, addr 0x6eaddcc, size 0x3c, virtual false, abstract: false, final false
   static inline void set_JobCompilerEnabled(bool value);
 
 protected:
@@ -263,7 +263,7 @@ public:
   JobsUtility(JobsUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9509 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

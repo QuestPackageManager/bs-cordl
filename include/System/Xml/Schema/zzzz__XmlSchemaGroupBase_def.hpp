@@ -30,7 +30,7 @@ public:
   /// @brief Method SetItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetItems(::System::Xml::Schema::XmlSchemaObjectCollection* newItems);
 
-  /// @brief Method .ctor, addr 0x622bdb0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6653a54, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Items, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -51,7 +51,7 @@ public:
   XmlSchemaGroupBase(XmlSchemaGroupBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11750 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

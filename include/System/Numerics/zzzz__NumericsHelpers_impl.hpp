@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(double_t, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<uint64_t>, ::by_ref<bool>)>(
     &::System::Numerics::NumericsHelpers::GetDoubleParts)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x60f1e60;
+  constexpr static std::size_t addrs = 0x650e37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::NumericsHelpers*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(int32_t, int32_t, uint64_t)>(&::System::Numerics::NumericsHelpers::GetDoubleFromParts)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x60f49b8;
+  constexpr static std::size_t addrs = 0x6510ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint32_t>)>(&::System::Numerics::NumericsHelpers::DangerousMakeTwosComplement)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x60f26e8;
+  constexpr static std::size_t addrs = 0x650ec04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint32_t, uint32_t)>(&::System::Numerics::NumericsHelpers::MakeUlong)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x60f2d90;
+  constexpr static std::size_t addrs = 0x650f2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(int32_t)>(&::System::Numerics::NumericsHelpers::Abs)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x60f3b0c;
+  constexpr static std::size_t addrs = 0x6510028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::NumericsHelpers*>(), { "Abs", {}, { ::i2c::type_of<int32_t>() } })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::System::Numerics::NumericsHelpers::CombineHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60f9280;
+  constexpr static std::size_t addrs = 0x651579c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::System::Numerics::NumericsHelpers::CombineHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60f2bac;
+  constexpr static std::size_t addrs = 0x650f0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint32_t)>(&::System::Numerics::NumericsHelpers::CbitHighZero)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x60f4940;
+  constexpr static std::size_t addrs = 0x6510e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t)>(&::System::Numerics::NumericsHelpers::CbitHighZero)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x60f925c;
+  constexpr static std::size_t addrs = 0x6515778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

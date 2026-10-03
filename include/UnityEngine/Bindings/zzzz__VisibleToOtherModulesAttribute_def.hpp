@@ -14,8 +14,8 @@ class VisibleToOtherModulesAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::VisibleToOtherModulesAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::VisibleToOtherModulesAttribute*, "UnityEngine.Bindings", "VisibleToOtherModulesAttribute");
-// [AttributeUsage((System.AttributeTargets)5628, Inherited = false)]
 // [VisibleToOtherModules]
+// [AttributeUsage((System.AttributeTargets)6140, Inherited = false)]
 // Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -27,10 +27,10 @@ public:
 
   static inline ::UnityEngine::Bindings::VisibleToOtherModulesAttribute* New_ctor(/* [ParamArray] */ ::ArrayW<::StringW> modules);
 
-  /// @brief Method .ctor, addr 0x6bb5f6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014acc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6bb5f70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014ad0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(/* [ParamArray] */ ::ArrayW<::StringW> modules);
 
 protected:
@@ -48,7 +48,7 @@ public:
   VisibleToOtherModulesAttribute(VisibleToOtherModulesAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23529 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -74,19 +74,19 @@ public:
 
   constexpr void __cordl_internal_set__useCustomEntitlement(bool value);
 
-  /// @brief Method .ctor, addr 0x36fd6d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3986a38, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPacksEntitlements, addr 0x36fd6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPacksEntitlements, addr 0x3986a20, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelPacksEntitlements();
 
-  /// @brief Method get_levelsEntitlements, addr 0x36fd6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelsEntitlements, addr 0x3986a18, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelsEntitlements();
 
-  /// @brief Method get_packBetterBuyThanLevel, addr 0x36fd6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packBetterBuyThanLevel, addr 0x3986a28, size 0x8, virtual false, abstract: false, final false
   inline bool get_packBetterBuyThanLevel();
 
-  /// @brief Method get_useCustomEntitlement, addr 0x36fd6c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useCustomEntitlement, addr 0x3986a30, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCustomEntitlement();
 
 protected:
@@ -104,7 +104,7 @@ public:
   MockPlatformAdditionalContentModelInitialDataSO(MockPlatformAdditionalContentModelInitialDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15012 };
 
   /// [SerializeField]
   /// @brief Field _useCustomEntitlement, offset: 0x18, size: 0x1, def value: None

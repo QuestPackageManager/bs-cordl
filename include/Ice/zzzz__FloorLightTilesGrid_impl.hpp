@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Ice::FloorLightTilesGrid::*)()>(&::Ice::FloorLightTilesGrid::get_ySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x328a278;
+  constexpr static std::size_t addrs = 0x35109ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Ice::FloorLightTilesGrid*>(), { "get_ySize", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::FloorLightTilesGrid::*)(::UnityEngine::Vector3, int32_t, int32_t, float_t, float_t)>(&::Ice::FloorLightTilesGrid::Init)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x3289358;
+  constexpr static std::size_t addrs = 0x350facc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::FloorLightTilesGrid::*)(int32_t, int32_t, float_t, float_t, ::UnityEngine::Color)>(&::Ice::FloorLightTilesGrid::HighlightTile)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x32898d8;
+  constexpr static std::size_t addrs = 0x351004c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::FloorLightTilesGrid::*)()>(&::Ice::FloorLightTilesGrid::DespawnAll)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x328a280;
+  constexpr static std::size_t addrs = 0x35109f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Ice::FloorLightTilesGrid*>(), { ::i2c::class_of<::Ice::FloorLightTilesGrid*>(), 4 }));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::FloorLightTilesGrid::*)(::Ice::FloorLightTile*)>(&::Ice::FloorLightTilesGrid::HandleFloorLightTileDidFinish)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x328a3c0;
+  constexpr static std::size_t addrs = 0x3510b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::FloorLightTilesGrid::*)(::Ice::FloorLightTile*)>(&::Ice::FloorLightTilesGrid::DespawnTile)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x328a354;
+  constexpr static std::size_t addrs = 0x3510ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::FloorLightTilesGrid::*)()>(&::Ice::FloorLightTilesGrid::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x328a3c4;
+  constexpr static std::size_t addrs = 0x3510b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Ice::FloorLightTilesGrid*>(), { ".ctor", {}, {} })));

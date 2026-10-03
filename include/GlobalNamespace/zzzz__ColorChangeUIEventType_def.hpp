@@ -52,7 +52,7 @@ public:
   static ::GlobalNamespace::ColorChangeUIEventType const PointerUp;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19562 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

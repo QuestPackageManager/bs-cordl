@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeIdAttribute::*)(::StringW)>(&::GlobalNamespace::ColorSchemeIdAttribute::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x36f7744;
+  constexpr static std::size_t addrs = 0x3980a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

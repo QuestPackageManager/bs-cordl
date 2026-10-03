@@ -78,18 +78,18 @@ public:
   /// @brief Field pkcs15RsaEncryption, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_pkcs15RsaEncryption, put = setStaticF_pkcs15RsaEncryption)) ::Org::BouncyCastle::Utilities::Collections::ISet* pkcs15RsaEncryption;
 
-  /// @brief Method CreatePssParams, addr 0x36c5e30, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CreatePssParams, addr 0x394f0cc, size 0x104, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* CreatePssParams(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgId, int32_t saltSize);
 
-  /// @brief Method Find, addr 0x36c65e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x394f87c, size 0x58, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Find(::StringW sigAlgName);
 
-  /// @brief Method Generate, addr 0x36c5f34, size 0x6ac, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x394f1d0, size 0x6ac, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Generate(::StringW signatureAlgorithm);
 
   static inline ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x36c6638, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x394f8d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ENCRYPTION_DSA();

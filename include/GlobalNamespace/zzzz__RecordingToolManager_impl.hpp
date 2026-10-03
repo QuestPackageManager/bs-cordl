@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RecordingToolManager::*)()>(&::GlobalNamespace::RecordingToolManager::get_showRecordingToolScene)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x58fde98;
+  constexpr static std::size_t addrs = 0x5d184d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolManager*>(), { "get_showRecordingToolScene", {}, {} })));
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::RecordingToolManager::*)(::GlobalNamespace::RecordingToolConfigurationProcessor*, ::Zenject::DiContainer*, ::GlobalNamespace::MenuTransitionsHelper*,
                                                                   ::GlobalNamespace::EnvironmentsListModel*, ::GlobalNamespace::PlayerDataModel*)>(&::GlobalNamespace::RecordingToolManager::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58fdeac;
+  constexpr static std::size_t addrs = 0x5d184e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,8 +47,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolManager::*)()>(&::GlobalNamespace::RecordingToolManager::Run)> {
-  constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x58fdec8;
+  constexpr static std::size_t size = 0x2e4;
+  constexpr static std::size_t addrs = 0x5d18504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolManager*>(), { "Run", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::RecordingSettings* (::GlobalNamespace::RecordingToolManager::*)()>(
     &::GlobalNamespace::RecordingToolManager::SetupNextSettings)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x58fe1a8;
+  constexpr static std::size_t addrs = 0x5d187e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolManager*>(), { "SetupNextSettings", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolManager::*)(
     ::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::RecordingToolManager::_Run_b__14_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58fe508;
+  constexpr static std::size_t addrs = 0x5d18b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

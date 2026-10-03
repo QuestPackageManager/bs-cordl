@@ -22,6 +22,16 @@ namespace TMPro {
 struct CORDL_TYPE RichTextTagAttribute {
 public:
   // Declarations
+  /// @brief Field k_Default, offset 0xffffffff, size 0x18
+  __declspec(property(get = getStaticF_k_Default, put = setStaticF_k_Default)) ::TMPro::RichTextTagAttribute k_Default;
+
+  static inline ::TMPro::RichTextTagAttribute getStaticF_k_Default();
+
+  /// @brief Method get_Default, addr 0x6dc374c, size 0x6c, virtual false, abstract: false, final false
+  static inline ::TMPro::RichTextTagAttribute get_Default();
+
+  static inline void setStaticF_k_Default(::TMPro::RichTextTagAttribute value);
+
   // Ctor Parameters []
   // @brief default ctor
   constexpr RichTextTagAttribute();
@@ -33,7 +43,7 @@ public:
   constexpr RichTextTagAttribute(int32_t nameHashCode, int32_t valueHashCode, ::TMPro::TagValueType valueType, int32_t valueStartIndex, int32_t valueLength, ::TMPro::TagUnitType unitType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16259 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

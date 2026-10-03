@@ -33,10 +33,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationParameters*() noexcept;
 
-  /// @brief Method GetIV, addr 0x34149d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIV, addr 0x369dc6c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetIV();
 
-  /// @brief Method GetSharedSecret, addr 0x34149c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSharedSecret, addr 0x369dc64, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSharedSecret();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfParameters* New_ctor(::ArrayW<uint8_t> shared, ::ArrayW<uint8_t> iv);
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_shared(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x34149c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369dc5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> shared, ::ArrayW<uint8_t> iv);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"

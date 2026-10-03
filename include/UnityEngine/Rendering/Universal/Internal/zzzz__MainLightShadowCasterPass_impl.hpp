@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6907c94;
+  constexpr static std::size_t addrs = 0x6d2ec3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,6 +129,18 @@ constexpr bool const& UnityEngine::Rendering::Universal::Internal::MainLightShad
 constexpr void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData::__cordl_internal_set_emptyShadowmap(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___emptyShadowmap = value;
+}
+constexpr bool& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData::__cordl_internal_get_setKeywordForEmptyShadowmap() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___setKeywordForEmptyShadowmap;
+}
+constexpr bool const& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData::__cordl_internal_get_setKeywordForEmptyShadowmap() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___setKeywordForEmptyShadowmap;
+}
+constexpr void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData::__cordl_internal_set_setKeywordForEmptyShadowmap(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___setKeywordForEmptyShadowmap = value;
 }
 constexpr ::UnityEngine::Rendering::Universal::UniversalRenderingData*& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData::__cordl_internal_get_renderingData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -250,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x690a5c4;
+  constexpr static std::size_t addrs = 0x6d2ed10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,18 +270,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c._Render_b__38_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c._Render_b__35_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c::*)(
     ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
-    &::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c::_Render_b__38_0)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x690a5c8;
+    &::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c::_Render_b__35_0)> {
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x6d2ed14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c*>(),
-                                                                                           { "<Render>b__38_0",
+                                                                                           { "<Render>b__35_0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -285,31 +297,31 @@ inline ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c*, "<>9",
                                            ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c*>();
 }
-inline void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c::setStaticF___9__38_0(
+inline void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c::setStaticF___9__35_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                    "<>9__38_0", ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c*>(
+                                    "<>9__35_0", ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c::getStaticF___9__38_0() {
+UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c::getStaticF___9__35_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                           "<>9__38_0", ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c*>();
+                                           "<>9__35_0", ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c*>();
 }
 inline void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c::_Render_b__38_0(::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData* data,
+inline void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c::_Render_b__35_0(::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData* data,
                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c*>(),
-                                                                                         { "<Render>b__38_0",
+                                                                                         { "<Render>b__35_0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -320,13 +332,42 @@ inline ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass___c::MainLightShadowCasterPass___c() {}
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass.Configure
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::*)(
+    ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTextureDescriptor)>(&::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::Configure)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6d2c5e8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(), 7 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass.Execute
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::*)(
+    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
+    &::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::Execute)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6d2c5ec;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(), 9 }));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::*)(::UnityEngine::Rendering::Universal::RenderPassEvent)>(
     &::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::_ctor)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6907ae4;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x6d2c5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(),
@@ -339,8 +380,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::Dispose)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6907d14;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6d2c744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::*)(
     ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::Setup)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6907d48;
+  constexpr static std::size_t addrs = 0x6d2c758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(),
@@ -368,8 +409,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::*)(
     ::UnityEngine::Rendering::Universal::UniversalRenderingData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Rendering::Universal::UniversalLightData*,
     ::UnityEngine::Rendering::Universal::UniversalShadowData*)>(&::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::Setup)> {
-  constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x6907e3c;
+  constexpr static std::size_t size = 0x584;
+  constexpr static std::size_t addrs = 0x6d2c84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -388,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::UpdateTextureDescriptorIfNeeded)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6908598;
+  constexpr static std::size_t addrs = 0x6d2d10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -400,47 +441,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::*)(
-    bool, ::UnityEngine::Light*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Rendering::Universal::UniversalShadowData*)>(
+    bool, bool, ::UnityEngine::Light*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Rendering::Universal::UniversalShadowData*)>(
     &::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::SetupForEmptyRendering)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x690826c;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x6d2cf18;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(),
-                                                { "SetupForEmptyRendering",
-                                                  {},
-                                                  { ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Light*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
-                                                    ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalShadowData*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass.Configure
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::*)(
-    ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTextureDescriptor)>(&::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::Configure)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6908644;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(), 7 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass.Execute
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::*)(
-    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
-    &::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::Execute)> {
-  constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x6908784;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(), 10 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(),
+                                                                                           { "SetupForEmptyRendering",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Light*>(),
+                                                                                               ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
+                                                                                               ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalShadowData*>() } })));
     return ___internal_method;
   }
 };
@@ -450,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::Clear)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6908450;
+  constexpr static std::size_t addrs = 0x6d2cdd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -464,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*)>(
     &::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::SetShadowParamsForEmptyShadowmap)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6908a54;
+  constexpr static std::size_t addrs = 0x6d2d1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -479,8 +491,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::*)(
     ::UnityEngine::Rendering::RasterCommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData*>, bool)>(
     &::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::RenderMainLightCascadeShadowmap)> {
-  constexpr static std::size_t size = 0x614;
-  constexpr static std::size_t addrs = 0x6908db0;
+  constexpr static std::size_t size = 0x60c;
+  constexpr static std::size_t addrs = 0x6d2d2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -498,8 +510,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::*)(
     ::UnityEngine::Rendering::RasterCommandBuffer*, ::by_ref<::UnityEngine::Rendering::VisibleLight>, ::UnityEngine::Rendering::Universal::UniversalShadowData*)>(
     &::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::SetupMainLightShadowReceiverConstants)> {
-  constexpr static std::size_t size = 0x584;
-  constexpr static std::size_t addrs = 0x69093c4;
+  constexpr static std::size_t size = 0x57c;
+  constexpr static std::size_t addrs = 0x6d2d8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -519,7 +531,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Rendering::Universal::UniversalLightData*, ::UnityEngine::Rendering::Universal::UniversalShadowData*)>(
     &::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::InitPassData)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6908b3c;
+  constexpr static std::size_t addrs = 0x6d2de28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -540,7 +552,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData*>, ::UnityEngine::Rendering::ScriptableRenderContext,
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, bool)>(&::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::InitRendererLists)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x6908b90;
+  constexpr static std::size_t addrs = 0x6d2de7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -558,8 +570,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureHandle (::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::Render)> {
-  constexpr static std::size_t size = 0x94c;
-  constexpr static std::size_t addrs = 0x6909948;
+  constexpr static std::size_t size = 0x8c4;
+  constexpr static std::size_t addrs = 0x6d2e09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -581,29 +593,29 @@ constexpr void UnityEngine::Rendering::Universal::Internal::MainLightShadowCaste
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MainLightShadowmapTexture = value;
 }
-constexpr int32_t& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_renderTargetWidth() {
+constexpr int32_t& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_m_RenderTargetWidth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___renderTargetWidth;
+  return this->___m_RenderTargetWidth;
 }
-constexpr int32_t const& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_renderTargetWidth() const {
+constexpr int32_t const& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_m_RenderTargetWidth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___renderTargetWidth;
+  return this->___m_RenderTargetWidth;
 }
-constexpr void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_set_renderTargetWidth(int32_t value) {
+constexpr void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_set_m_RenderTargetWidth(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___renderTargetWidth = value;
+  this->___m_RenderTargetWidth = value;
 }
-constexpr int32_t& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_renderTargetHeight() {
+constexpr int32_t& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_m_RenderTargetHeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___renderTargetHeight;
+  return this->___m_RenderTargetHeight;
 }
-constexpr int32_t const& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_renderTargetHeight() const {
+constexpr int32_t const& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_m_RenderTargetHeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___renderTargetHeight;
+  return this->___m_RenderTargetHeight;
 }
-constexpr void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_set_renderTargetHeight(int32_t value) {
+constexpr void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_set_m_RenderTargetHeight(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___renderTargetHeight = value;
+  this->___m_RenderTargetHeight = value;
 }
 constexpr int32_t& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_m_ShadowCasterCascadesCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -629,17 +641,17 @@ constexpr void UnityEngine::Rendering::Universal::Internal::MainLightShadowCaste
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CreateEmptyShadowmap = value;
 }
-constexpr bool& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_m_EmptyShadowmapNeedsClear() {
+constexpr bool& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_m_SetKeywordForEmptyShadowmap() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_EmptyShadowmapNeedsClear;
+  return this->___m_SetKeywordForEmptyShadowmap;
 }
-constexpr bool const& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_m_EmptyShadowmapNeedsClear() const {
+constexpr bool const& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_m_SetKeywordForEmptyShadowmap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_EmptyShadowmapNeedsClear;
+  return this->___m_SetKeywordForEmptyShadowmap;
 }
-constexpr void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_set_m_EmptyShadowmapNeedsClear(bool value) {
+constexpr void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_set_m_SetKeywordForEmptyShadowmap(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_EmptyShadowmapNeedsClear = value;
+  this->___m_SetKeywordForEmptyShadowmap = value;
 }
 constexpr float_t& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_m_CascadeBorder() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -664,33 +676,6 @@ constexpr float_t const& UnityEngine::Rendering::Universal::Internal::MainLightS
 constexpr void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_set_m_MaxShadowDistanceSq(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MaxShadowDistanceSq = value;
-}
-constexpr ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData*&
-UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_m_PassData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData* const&
-UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_m_PassData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr void
-UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass_PassData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_PassData = value;
-}
-constexpr ::UnityEngine::Rendering::RTHandle*& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_m_EmptyMainLightShadowmapTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_EmptyMainLightShadowmapTexture;
-}
-constexpr ::UnityEngine::Rendering::RTHandle* const& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_m_EmptyMainLightShadowmapTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_EmptyMainLightShadowmapTexture;
-}
-constexpr void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_set_m_EmptyMainLightShadowmapTexture(::UnityEngine::Rendering::RTHandle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_EmptyMainLightShadowmapTexture = value;
 }
 constexpr ::UnityEngine::RenderTextureDescriptor& UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::__cordl_internal_get_m_MainLightShadowDescriptor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -766,6 +751,18 @@ inline void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPa
 inline ::UnityEngine::Vector4 UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::getStaticF_s_EmptyShadowmapSize() {
   return ::cordl_internals::getStaticField<::UnityEngine::Vector4, "s_EmptyShadowmapSize", ::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>();
 }
+inline void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::Configure(::UnityEngine::Rendering::CommandBuffer* cmd,
+                                                                                              ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, cameraTextureDescriptor);
+}
+inline void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
+                                                                                            ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(), 9 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
+}
 inline void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::RenderPassEvent>() } })));
@@ -799,28 +796,16 @@ inline void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPa
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(), { "UpdateTextureDescriptorIfNeeded", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::SetupForEmptyRendering(bool stripShadowsOffVariants, ::UnityEngine::Light* light,
+inline bool UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::SetupForEmptyRendering(bool stripShadowsOffVariants, bool shadowsEnabled, ::UnityEngine::Light* light,
                                                                                                            ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                                                            ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(),
-                                              { "SetupForEmptyRendering",
-                                                {},
-                                                { ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Light*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
-                                                  ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalShadowData*>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, stripShadowsOffVariants, light, cameraData, shadowData);
-}
-inline void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::Configure(::UnityEngine::Rendering::CommandBuffer* cmd,
-                                                                                              ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor) {
-  auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(), 7 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, cameraTextureDescriptor);
-}
-inline void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
-                                                                                            ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(), 10 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass*>(),
+                                                                                         { "SetupForEmptyRendering",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Light*>(),
+                                                                                             ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
+                                                                                             ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalShadowData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, stripShadowsOffVariants, shadowsEnabled, light, cameraData, shadowData);
 }
 inline void UnityEngine::Rendering::Universal::Internal::MainLightShadowCasterPass::Clear() {
   static auto* ___internal_method =

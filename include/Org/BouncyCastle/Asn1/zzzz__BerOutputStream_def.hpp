@@ -28,10 +28,10 @@ public:
   static inline ::Org::BouncyCastle::Asn1::BerOutputStream* New_ctor(::System::IO::Stream* os);
 
   /// [Obsolete("Use version taking an Asn1Encodable arg instead")]
-  /// @brief Method WriteObject, addr 0x368ad0c, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x3913fa8, size 0x16c, virtual true, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x3689420, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39126bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* os);
 
 protected:

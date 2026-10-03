@@ -27,7 +27,7 @@ public:
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_IgnoreExceptions, addr 0x6b9e224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreExceptions, addr 0x7009be0, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Properties::VisitExceptionKind get_IgnoreExceptions();
 
   // Ctor Parameters []
@@ -38,7 +38,7 @@ public:
   constexpr VisitParameters(::Unity::Properties::VisitExceptionKind _IgnoreExceptions_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20688 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

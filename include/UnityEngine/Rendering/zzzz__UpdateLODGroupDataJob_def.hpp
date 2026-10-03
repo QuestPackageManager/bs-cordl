@@ -34,7 +34,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x6831380, size 0x2d4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6c67620, size 0x2e0, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -55,10 +55,10 @@ public:
                                   ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32 rendererCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18288 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x110 };
 
   /// @brief Field k_BatchSize offset 0xffffffff size 0x4
   static constexpr int32_t k_BatchSize{ static_cast<int32_t>(0x100) };
@@ -68,21 +68,21 @@ public:
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> lodGroupInstances;
 
   /// [ReadOnly]
-  /// @brief Field inputData, offset: 0x10, size: 0xc0, def value: None
+  /// @brief Field inputData, offset: 0x10, size: 0xd0, def value: None
   ::UnityEngine::Rendering::GPUDrivenLODGroupData inputData;
 
   /// [ReadOnly]
-  /// @brief Field supportDitheringCrossFade, offset: 0xd0, size: 0x1, def value: None
+  /// @brief Field supportDitheringCrossFade, offset: 0xe0, size: 0x1, def value: None
   bool supportDitheringCrossFade;
 
-  /// @brief Field lodGroupsData, offset: 0xd8, size: 0x10, def value: None
+  /// @brief Field lodGroupsData, offset: 0xe8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LODGroupData> lodGroupsData;
 
-  /// @brief Field lodGroupsCullingData, offset: 0xe8, size: 0x10, def value: None
+  /// @brief Field lodGroupsCullingData, offset: 0xf8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LODGroupCullingData> lodGroupsCullingData;
 
   /// [NativeDisableUnsafePtrRestriction]
-  /// @brief Field rendererCount, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field rendererCount, offset: 0x108, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32 rendererCount;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -92,14 +92,14 @@ static_assert(offsetof(::UnityEngine::Rendering::UpdateLODGroupDataJob, lodGroup
 
 static_assert(offsetof(::UnityEngine::Rendering::UpdateLODGroupDataJob, inputData) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::UpdateLODGroupDataJob, supportDitheringCrossFade) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::UpdateLODGroupDataJob, supportDitheringCrossFade) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::UpdateLODGroupDataJob, lodGroupsData) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::UpdateLODGroupDataJob, lodGroupsData) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::UpdateLODGroupDataJob, lodGroupsCullingData) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::UpdateLODGroupDataJob, lodGroupsCullingData) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::UpdateLODGroupDataJob, rendererCount) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::UpdateLODGroupDataJob, rendererCount) == 0x108, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::UpdateLODGroupDataJob) == 0x100, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::UpdateLODGroupDataJob) == 0x110, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering

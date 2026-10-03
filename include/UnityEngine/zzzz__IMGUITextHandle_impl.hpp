@@ -14,13 +14,12 @@
 #include "UnityEngine/zzzz__IMGUITextHandle_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__TextClipping_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::IMGUITextHandle_TextHandleTuple._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::IMGUITextHandle_TextHandleTuple::*)(float_t, int32_t)>(&::UnityEngine::IMGUITextHandle_TextHandleTuple::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b4e9d0;
+  constexpr static std::size_t addrs = 0x6fac3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::IMGUITextHandle::EmptyManagedCache)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6b4c020;
+  constexpr static std::size_t addrs = 0x6fa9730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IMGUITextHandle*>(), { "EmptyManagedCache", {}, {} })));
@@ -80,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::IMGUITextHandle* (*)(::UnityEngine::GUIStyle*, ::UnityEngine::Rect, ::StringW, ::UnityEngine::Color32)>(
     &::UnityEngine::IMGUITextHandle::GetTextHandle)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6b4b880;
+  constexpr static std::size_t addrs = 0x6fa8ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::IMGUITextHandle* (*)(::UnityEngine::GUIStyle*, ::UnityEngine::Rect, ::StringW, ::UnityEngine::Color32, ::by_ref<bool>)>(
     &::UnityEngine::IMGUITextHandle::GetTextHandle)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6b4be50;
+  constexpr static std::size_t addrs = 0x6fa9560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t, float_t, float_t)>(&::UnityEngine::IMGUITextHandle::ShouldCleanup)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b4e6c0;
+  constexpr static std::size_t addrs = 0x6fac0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,8 +126,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t, float_t
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::IMGUITextHandle::ClearUnusedTextHandles)> {
-  constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x6b4e6d8;
+  constexpr static std::size_t size = 0x270;
+  constexpr static std::size_t addrs = 0x6fac0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IMGUITextHandle*>(), { "ClearUnusedTextHandles", {}, {} })));
@@ -140,8 +139,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::IMGUITextHandle* (*)(::UnityEngine::TextCore::Text::TextGenerationSettings*, bool, ::by_ref<bool>)>(
     &::UnityEngine::IMGUITextHandle::GetTextHandle)> {
-  constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x6b4e338;
+  constexpr static std::size_t size = 0x370;
+  constexpr static std::size_t addrs = 0x6fabd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,28 +150,29 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::IMGUITextH
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::IMGUITextHandle.GetPixelsPerPoint
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::IMGUITextHandle::*)()>(&::UnityEngine::IMGUITextHandle::GetPixelsPerPoint)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6fac3f0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::IMGUITextHandle*>(), { ::i2c::class_of<::UnityEngine::IMGUITextHandle*>(), 4 }));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::IMGUITextHandle.GetLineHeight
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::GUIStyle*)>(&::UnityEngine::IMGUITextHandle::GetLineHeight)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6b4b494;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x6fa8920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IMGUITextHandle*>(), { "GetLineHeight", {}, { ::i2c::type_of<::UnityEngine::GUIStyle*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::IMGUITextHandle.GetPreferredSize
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::IMGUITextHandle::*)()>(&::UnityEngine::IMGUITextHandle::GetPreferredSize)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b4bab0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IMGUITextHandle*>(), { "GetPreferredSize", {}, {} })));
     return ___internal_method;
   }
 };
@@ -181,8 +181,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::GUIStyle*, ::UnityEngine::Color, ::StringW,
                                                                 ::UnityEngine::Rect)>(&::UnityEngine::IMGUITextHandle::ConvertGUIStyleToGenerationSettings)> {
-  constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x6b4def4;
+  constexpr static std::size_t size = 0x688;
+  constexpr static std::size_t addrs = 0x6fab6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::Text::TextOverflowMode (*)(::UnityEngine::TextClipping)>(
     &::UnityEngine::IMGUITextHandle::LegacyClippingToNewOverflow)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b4e9dc;
+  constexpr static std::size_t addrs = 0x6fac51c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,12 +208,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::IMGUITextHandle.IsAdvancedTextEnabledForElement
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::IMGUITextHandle::*)()>(&::UnityEngine::IMGUITextHandle::IsAdvancedTextEnabledForElement)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6fac534;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::IMGUITextHandle*>(), { ::i2c::class_of<::UnityEngine::IMGUITextHandle*>(), 10 }));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::IMGUITextHandle._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::IMGUITextHandle::*)()>(&::UnityEngine::IMGUITextHandle::_ctor)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6b4e938;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6fac348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IMGUITextHandle*>(), { ".ctor", {}, {} })));
@@ -309,14 +322,14 @@ inline ::UnityEngine::IMGUITextHandle* UnityEngine::IMGUITextHandle::GetTextHand
                           { "GetTextHandle", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextGenerationSettings*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<bool>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::IMGUITextHandle*>(nullptr, ___internal_method, settings, isCalledFromNative, isCached);
 }
+inline float_t UnityEngine::IMGUITextHandle::GetPixelsPerPoint() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::IMGUITextHandle*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
+}
 inline float_t UnityEngine::IMGUITextHandle::GetLineHeight(::UnityEngine::GUIStyle* style) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IMGUITextHandle*>(), { "GetLineHeight", {}, { ::i2c::type_of<::UnityEngine::GUIStyle*>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, style);
-}
-inline ::UnityEngine::Vector2 UnityEngine::IMGUITextHandle::GetPreferredSize() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IMGUITextHandle*>(), { "GetPreferredSize", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method);
 }
 inline void UnityEngine::IMGUITextHandle::ConvertGUIStyleToGenerationSettings(::UnityEngine::TextCore::Text::TextGenerationSettings* settings, ::UnityEngine::GUIStyle* style,
                                                                               ::UnityEngine::Color textColor, ::StringW text, ::UnityEngine::Rect rect) {
@@ -332,6 +345,10 @@ inline ::UnityEngine::TextCore::Text::TextOverflowMode UnityEngine::IMGUITextHan
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IMGUITextHandle*>(), { "LegacyClippingToNewOverflow", {}, { ::i2c::type_of<::UnityEngine::TextClipping>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::TextOverflowMode>(nullptr, ___internal_method, clipping);
+}
+inline bool UnityEngine::IMGUITextHandle::IsAdvancedTextEnabledForElement() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::IMGUITextHandle*>(), 10 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline void UnityEngine::IMGUITextHandle::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IMGUITextHandle*>(), { ".ctor", {}, {} })));

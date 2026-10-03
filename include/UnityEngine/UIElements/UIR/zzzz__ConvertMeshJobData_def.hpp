@@ -7,6 +7,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
@@ -18,7 +19,7 @@ struct ConvertMeshJobData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UIR::ConvertMeshJobData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::ConvertMeshJobData, "UnityEngine.UIElements.UIR", "ConvertMeshJobData");
-// Dependencies System.IntPtr, UnityEngine.Color32, UnityEngine.Matrix4x4, UnityEngine.Rect
+// Dependencies System.IntPtr, UnityEngine.Color32, UnityEngine.Matrix4x4, UnityEngine.Rect, UnityEngine.Vector2
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UIR.ConvertMeshJobData
@@ -40,17 +41,19 @@ public:
   // "indexCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "indexOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
   // "flipIndices", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "forceZ", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
   // "positionZ", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "remapUVs", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "atlasRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None, comment: None }]
+  // "atlasRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None, comment: None }, CppParam { name: "layoutSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr ConvertMeshJobData(::System::IntPtr vertSrc, ::System::IntPtr vertDst, int32_t vertCount, ::UnityEngine::Matrix4x4 transform, ::UnityEngine::Color32 xformClipPages,
                                ::UnityEngine::Color32 ids, ::UnityEngine::Color32 addFlags, ::UnityEngine::Color32 opacityPage, ::UnityEngine::Color32 textCoreSettingsPage,
                                int32_t usesTextCoreSettings, float_t textureId, int32_t gradientSettingsIndexOffset, ::System::IntPtr indexSrc, ::System::IntPtr indexDst, int32_t indexCount,
-                               int32_t indexOffset, int32_t flipIndices, int32_t forceZ, float_t positionZ, int32_t remapUVs, ::UnityEngine::Rect atlasRect) noexcept;
+                               int32_t indexOffset, int32_t flipIndices, int32_t forceZ, float_t positionZ, int32_t remapUVs, ::UnityEngine::Rect atlasRect,
+                               ::UnityEngine::Vector2 layoutSize) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5409 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb0 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb8 };
 
   /// @brief Field vertSrc, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr vertSrc;
@@ -115,6 +118,9 @@ public:
   /// @brief Field atlasRect, offset: 0xa0, size: 0x10, def value: None
   ::UnityEngine::Rect atlasRect;
 
+  /// @brief Field layoutSize, offset: 0xb0, size: 0x8, def value: None
+  ::UnityEngine::Vector2 layoutSize;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -160,6 +166,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::ConvertMeshJobData, remap
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::ConvertMeshJobData, atlasRect) == 0xa0, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::UIR::ConvertMeshJobData) == 0xb0, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ConvertMeshJobData, layoutSize) == 0xb0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::UIR::ConvertMeshJobData) == 0xb8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR

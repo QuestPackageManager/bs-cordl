@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c::*)()>(
     &::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cbea54;
+  constexpr static std::size_t addrs = 0x7145598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c::*)(::StringW, double_t)>(
     &::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c::_GetValueFromBag_b__3_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cbea58;
+  constexpr static std::size_t addrs = 0x714559c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c*>(),
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlDoubleAttributeDescription::*)()>(&::UnityEngine::UIElements::UxmlDoubleAttributeDescription::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6cbe734;
+  constexpr static std::size_t addrs = 0x7145298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlDoubleAttributeDescription*>(), { ".ctor", {}, {} })));
@@ -79,8 +79,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::UxmlDoubleAttributeDescription::*)(
     ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::UxmlDoubleAttributeDescription::GetValueFromBag)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6cbe7d0;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x7145334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlDoubleAttributeDescription*>(),
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::StringW, double_t)>(&::UnityEngine::UIElements::UxmlDoubleAttributeDescription::ConvertValueToDouble)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6cbe968;
+  constexpr static std::size_t addrs = 0x71454ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlDoubleAttributeDescription*>(),

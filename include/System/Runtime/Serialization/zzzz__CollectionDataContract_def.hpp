@@ -252,7 +252,7 @@ public:
   __declspec(property(get = __cordl_internal_get_xmlFormatWriterDelegate,
                       put = __cordl_internal_set_xmlFormatWriterDelegate)) ::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate* xmlFormatWriterDelegate;
 
-  /// @brief Method Init, addr 0x613d76c, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6565e4c, size 0x4b0, virtual false, abstract: false, final false
   inline void Init(::System::Runtime::Serialization::CollectionKind kind, ::System::Type* itemType, ::System::Runtime::Serialization::CollectionDataContractAttribute* collectionContractAttribute);
 
   static inline ::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper* New_ctor(::System::Type* type);
@@ -414,116 +414,116 @@ public:
 
   constexpr void __cordl_internal_set_xmlFormatWriterDelegate(::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate* value);
 
-  /// @brief Method .ctor, addr 0x613dfbc, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65620ac, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x613e948, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6562c04, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW invalidCollectionInSharedContractMessage);
 
-  /// @brief Method .ctor, addr 0x613e380, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6562390, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::DataContract* itemContract);
 
-  /// @brief Method .ctor, addr 0x613e830, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6562988, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::CollectionKind kind, ::System::Type* itemType, ::System::Reflection::MethodInfo* getEnumeratorMethod,
                     ::System::Reflection::MethodInfo* addMethod, ::System::Reflection::ConstructorInfo* constructor);
 
-  /// @brief Method .ctor, addr 0x613e924, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6562b4c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::CollectionKind kind, ::System::Type* itemType, ::System::Reflection::MethodInfo* getEnumeratorMethod,
                     ::System::Reflection::MethodInfo* addMethod, ::System::Reflection::ConstructorInfo* constructor, bool isConstructorCheckRequired);
 
-  /// @brief Method .ctor, addr 0x613e58c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65625c8, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::CollectionKind kind, ::System::Type* itemType, ::System::Reflection::MethodInfo* getEnumeratorMethod,
                     ::StringW serializationExceptionMessage, ::StringW deserializationExceptionMessage);
 
   static inline ::ArrayW<::System::Type*> getStaticF__knownInterfaces();
 
-  /// @brief Method get_AddMethod, addr 0x613ecd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AddMethod, addr 0x65664c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_AddMethod();
 
-  /// @brief Method get_ChildElementNamespace, addr 0x613ecb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChildElementNamespace, addr 0x65664a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_ChildElementNamespace();
 
-  /// @brief Method get_CollectionItemName, addr 0x613ec88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollectionItemName, addr 0x6566478, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_CollectionItemName();
 
-  /// @brief Method get_Constructor, addr 0x613ecd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Constructor, addr 0x65664c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::ConstructorInfo* get_Constructor();
 
-  /// @brief Method get_DeserializationExceptionMessage, addr 0x613eca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DeserializationExceptionMessage, addr 0x6566498, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DeserializationExceptionMessage();
 
-  /// @brief Method get_GetEnumeratorMethod, addr 0x613ecc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GetEnumeratorMethod, addr 0x65664b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_GetEnumeratorMethod();
 
-  /// @brief Method get_InvalidCollectionInSharedContractMessage, addr 0x613eea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InvalidCollectionInSharedContractMessage, addr 0x65665dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InvalidCollectionInSharedContractMessage();
 
-  /// @brief Method get_IsConstructorCheckRequired, addr 0x613ec78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsConstructorCheckRequired, addr 0x6566468, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsConstructorCheckRequired();
 
-  /// @brief Method get_IsDictionary, addr 0x613ebc0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsDictionary, addr 0x6566440, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsDictionary();
 
-  /// @brief Method get_IsItemTypeNullable, addr 0x613ecc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsItemTypeNullable, addr 0x65664b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsItemTypeNullable();
 
-  /// @brief Method get_ItemContract, addr 0x613e9e0, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method get_ItemContract, addr 0x6562c8c, size 0x1dc, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* get_ItemContract();
 
-  /// @brief Method get_ItemName, addr 0x613ec70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemName, addr 0x6566460, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ItemName();
 
-  /// @brief Method get_ItemType, addr 0x613e9d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemType, addr 0x6566438, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ItemType();
 
-  /// @brief Method get_KeyName, addr 0x613ec90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyName, addr 0x6566480, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_KeyName();
 
-  /// @brief Method get_Kind, addr 0x613e9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Kind, addr 0x6566430, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::CollectionKind get_Kind();
 
-  /// @brief Method get_KnownDataContracts, addr 0x613ece0, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method get_KnownDataContracts, addr 0x65664d0, size 0x10c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* get_KnownDataContracts();
 
-  /// @brief Method get_KnownInterfaces, addr 0x613cd3c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method get_KnownInterfaces, addr 0x6562e6c, size 0x270, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Type*> get_KnownInterfaces();
 
-  /// @brief Method get_SerializationExceptionMessage, addr 0x613eca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializationExceptionMessage, addr 0x6566490, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SerializationExceptionMessage();
 
-  /// @brief Method get_SharedTypeContract, addr 0x613ec60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SharedTypeContract, addr 0x6566450, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* get_SharedTypeContract();
 
-  /// @brief Method get_ValueName, addr 0x613ec98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValueName, addr 0x6566488, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ValueName();
 
-  /// @brief Method get_XmlFormatGetOnlyCollectionReaderDelegate, addr 0x613eec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlFormatGetOnlyCollectionReaderDelegate, addr 0x6566604, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatGetOnlyCollectionReaderDelegate* get_XmlFormatGetOnlyCollectionReaderDelegate();
 
-  /// @brief Method get_XmlFormatReaderDelegate, addr 0x613eeb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlFormatReaderDelegate, addr 0x65665f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate* get_XmlFormatReaderDelegate();
 
-  /// @brief Method get_XmlFormatWriterDelegate, addr 0x613eea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlFormatWriterDelegate, addr 0x65665e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate* get_XmlFormatWriterDelegate();
 
   static inline void setStaticF__knownInterfaces(::ArrayW<::System::Type*> value);
 
-  /// @brief Method set_ChildElementNamespace, addr 0x613ecb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ChildElementNamespace, addr 0x65664a8, size 0x8, virtual false, abstract: false, final false
   inline void set_ChildElementNamespace(::System::Xml::XmlDictionaryString* value);
 
-  /// @brief Method set_IsConstructorCheckRequired, addr 0x613ec80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsConstructorCheckRequired, addr 0x6566470, size 0x8, virtual false, abstract: false, final false
   inline void set_IsConstructorCheckRequired(bool value);
 
-  /// @brief Method set_SharedTypeContract, addr 0x613ec68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SharedTypeContract, addr 0x6566458, size 0x8, virtual false, abstract: false, final false
   inline void set_SharedTypeContract(::System::Runtime::Serialization::DataContract* value);
 
-  /// @brief Method set_XmlFormatGetOnlyCollectionReaderDelegate, addr 0x613eed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlFormatGetOnlyCollectionReaderDelegate, addr 0x656660c, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlFormatGetOnlyCollectionReaderDelegate(::System::Runtime::Serialization::XmlFormatGetOnlyCollectionReaderDelegate* value);
 
-  /// @brief Method set_XmlFormatReaderDelegate, addr 0x613eec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlFormatReaderDelegate, addr 0x65665fc, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlFormatReaderDelegate(::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate* value);
 
-  /// @brief Method set_XmlFormatWriterDelegate, addr 0x613eeb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlFormatWriterDelegate, addr 0x65665ec, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlFormatWriterDelegate(::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate* value);
 
 protected:
@@ -541,7 +541,7 @@ public:
   CollectionDataContract_CollectionDataContractCriticalHelper(CollectionDataContract_CollectionDataContractCriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16386 };
 
   /// @brief Field itemType, offset: 0x48, size: 0x8, def value: None
   ::System::Type* ___itemType;
@@ -687,18 +687,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x613eee0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x656661c, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x613eee4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6566620, size 0xa4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Runtime::Serialization::CollectionDataContract_DictionaryEnumerator* New_ctor(::System::Collections::IDictionaryEnumerator* enumerator);
 
-  /// @brief Method Reset, addr 0x613f11c, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x6566858, size 0xa8, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x613f0b4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x65667f0, size 0x68, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr ::System::Collections::IDictionaryEnumerator* const& __cordl_internal_get_enumerator() const;
@@ -707,10 +707,10 @@ public:
 
   constexpr void __cordl_internal_set_enumerator(::System::Collections::IDictionaryEnumerator* value);
 
-  /// @brief Method .ctor, addr 0x613eed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6566614, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionaryEnumerator* enumerator);
 
-  /// @brief Method get_Current, addr 0x613ef88, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x65666c4, size 0x12c, virtual true, abstract: false, final true
   inline ::System::Runtime::Serialization::KeyValue_2<::System::Object*, ::System::Object*> get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Runtime::Serialization::KeyValue_2<::System::Object*,::System::Object*>>"
@@ -738,7 +738,7 @@ public:
   CollectionDataContract_DictionaryEnumerator(CollectionDataContract_DictionaryEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16387 };
 
   /// @brief Field enumerator, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IDictionaryEnumerator* ___enumerator;
@@ -823,7 +823,7 @@ public:
   CollectionDataContract_GenericDictionaryEnumerator_2(CollectionDataContract_GenericDictionaryEnumerator_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16388 };
 
   /// @brief Field enumerator, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<K, V>>* ___enumerator;
@@ -902,78 +902,78 @@ public:
   /// @brief Field itemContract, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_itemContract, put = __cordl_internal_set_itemContract)) ::System::Runtime::Serialization::DataContract* itemContract;
 
-  /// @brief Method CheckConstructor, addr 0x613c8ac, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method CheckConstructor, addr 0x65659b8, size 0x114, virtual false, abstract: false, final false
   inline void CheckConstructor();
 
-  /// @brief Method Equals, addr 0x613ca08, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6565b0c, size 0x18c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*, ::System::Object*>* checkedContracts);
 
-  /// @brief Method FindCollectionMethodsOnInterface, addr 0x613c59c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method FindCollectionMethodsOnInterface, addr 0x65655fc, size 0x160, virtual false, abstract: false, final false
   static inline void FindCollectionMethodsOnInterface(::System::Type* type, ::System::Type* interfaceType, ::by_ref<::System::Reflection::MethodInfo*> addMethod,
                                                       ::by_ref<::System::Reflection::MethodInfo*> getEnumeratorMethod);
 
-  /// @brief Method GetCollectionMethods, addr 0x613c154, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method GetCollectionMethods, addr 0x65651b4, size 0x33c, virtual false, abstract: false, final false
   static inline void GetCollectionMethods(::System::Type* type, ::System::Type* interfaceType, ::ArrayW<::System::Type*> addMethodTypeArray, bool addMethodOnInterface,
                                           ::by_ref<::System::Reflection::MethodInfo*> getEnumeratorMethod, ::by_ref<::System::Reflection::MethodInfo*> addMethod);
 
-  /// @brief Method GetHashCode, addr 0x613cba0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6565cb0, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetInvalidCollectionMessage, addr 0x613c490, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetInvalidCollectionMessage, addr 0x65654f0, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW GetInvalidCollectionMessage(::StringW message, ::StringW nestedMessage, ::StringW param);
 
-  /// @brief Method GetReadOnlyCollectionExceptionMessages, addr 0x613bf94, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetReadOnlyCollectionExceptionMessages, addr 0x6564ffc, size 0x1b8, virtual false, abstract: false, final false
   static inline void GetReadOnlyCollectionExceptionMessages(::System::Type* type, bool hasCollectionDataContract, ::StringW message, ::StringW param, ::by_ref<::StringW> serializationExceptionMessage,
                                                             ::by_ref<::StringW> deserializationExceptionMessage);
 
-  /// @brief Method GetSharedTypeContract, addr 0x6139cfc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetSharedTypeContract, addr 0x65627b8, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* GetSharedTypeContract(::System::Type* type);
 
-  /// @brief Method GetTargetMethodWithName, addr 0x613bb8c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetTargetMethodWithName, addr 0x6564bfc, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetTargetMethodWithName(::StringW name, ::System::Type* type, ::System::Type* interfaceType);
 
-  /// @brief Method GetValidContract, addr 0x613c87c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetValidContract, addr 0x6565988, size 0x30, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* GetValidContract();
 
-  /// @brief Method GetValidContract, addr 0x613c7c8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetValidContract, addr 0x6565824, size 0x48, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* GetValidContract(::System::Runtime::Serialization::SerializationMode mode);
 
-  /// @brief Method HandleIfInvalidCollection, addr 0x613bd10, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method HandleIfInvalidCollection, addr 0x6564d80, size 0x204, virtual false, abstract: false, final false
   static inline bool HandleIfInvalidCollection(::System::Type* type, bool tryCreate, bool hasCollectionDataContract, bool createContractWithException, ::StringW message, ::StringW param,
                                                ::by_ref<::System::Runtime::Serialization::DataContract*> dataContract);
 
-  /// @brief Method InitCollectionDataContract, addr 0x6139ae4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitCollectionDataContract, addr 0x6562248, size 0xc0, virtual false, abstract: false, final false
   inline void InitCollectionDataContract(::System::Runtime::Serialization::DataContract* sharedTypeContract);
 
-  /// @brief Method IsArraySegment, addr 0x613bc5c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method IsArraySegment, addr 0x6564ccc, size 0xb4, virtual false, abstract: false, final false
   static inline bool IsArraySegment(::System::Type* t);
 
-  /// @brief Method IsCollection, addr 0x613a904, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsCollection, addr 0x6563990, size 0x20, virtual false, abstract: false, final false
   static inline bool IsCollection(::System::Type* type);
 
-  /// @brief Method IsCollection, addr 0x6138ba8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsCollection, addr 0x656102c, size 0x20, virtual false, abstract: false, final false
   static inline bool IsCollection(::System::Type* type, bool constructorRequired, bool skipIfReadOnlyContract);
 
-  /// @brief Method IsCollection, addr 0x613a924, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsCollection, addr 0x65639b0, size 0xc, virtual false, abstract: false, final false
   static inline bool IsCollection(::System::Type* type, ::by_ref<::System::Type*> itemType);
 
-  /// @brief Method IsCollectionDataContract, addr 0x613bf1c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsCollectionDataContract, addr 0x6564f84, size 0x78, virtual false, abstract: false, final false
   static inline bool IsCollectionDataContract(::System::Type* type);
 
-  /// @brief Method IsCollectionHelper, addr 0x613a930, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IsCollectionHelper, addr 0x65639bc, size 0x98, virtual false, abstract: false, final false
   static inline bool IsCollectionHelper(::System::Type* type, ::by_ref<::System::Type*> itemType, bool constructorRequired, bool skipIfReadOnlyContract);
 
-  /// @brief Method IsCollectionInterface, addr 0x61361ac, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsCollectionInterface, addr 0x655dd88, size 0xe4, virtual false, abstract: false, final false
   static inline bool IsCollectionInterface(::System::Type* type);
 
-  /// @brief Method IsCollectionOrTryCreate, addr 0x613a9cc, size 0x10e4, virtual false, abstract: false, final false
+  /// @brief Method IsCollectionOrTryCreate, addr 0x6563a54, size 0x10cc, virtual false, abstract: false, final false
   static inline bool IsCollectionOrTryCreate(::System::Type* type, bool tryCreate, ::by_ref<::System::Runtime::Serialization::DataContract*> dataContract, ::by_ref<::System::Type*> itemType,
                                              bool constructorRequired, bool skipIfReadOnlyContract);
 
-  /// @brief Method IsKnownInterface, addr 0x613c6fc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsKnownInterface, addr 0x656575c, size 0xc8, virtual false, abstract: false, final false
   static inline bool IsKnownInterface(::System::Type* type);
 
-  /// @brief Method IsValidContract, addr 0x613c9c8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method IsValidContract, addr 0x6565acc, size 0x40, virtual true, abstract: false, final false
   inline bool IsValidContract(::System::Runtime::Serialization::SerializationMode mode);
 
   static inline ::System::Runtime::Serialization::CollectionDataContract* New_ctor(::System::Type* type);
@@ -994,19 +994,19 @@ public:
                                                                                    ::System::Reflection::MethodInfo* getEnumeratorMethod, ::StringW serializationExceptionMessage,
                                                                                    ::StringW deserializationExceptionMessage);
 
-  /// @brief Method ReadXmlValue, addr 0x613cc28, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ReadXmlValue, addr 0x6565d38, size 0x114, virtual true, abstract: false, final false
   inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
 
-  /// @brief Method ThrowIfInvalid, addr 0x613c814, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfInvalid, addr 0x6565920, size 0x68, virtual false, abstract: false, final false
   inline void ThrowIfInvalid();
 
-  /// @brief Method TryCreate, addr 0x613bab0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method TryCreate, addr 0x6564b20, size 0x28, virtual false, abstract: false, final false
   static inline bool TryCreate(::System::Type* type, ::by_ref<::System::Runtime::Serialization::DataContract*> dataContract);
 
-  /// @brief Method TryCreateGetOnlyCollectionDataContract, addr 0x613bad8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TryCreateGetOnlyCollectionDataContract, addr 0x6564b48, size 0xb4, virtual false, abstract: false, final false
   static inline bool TryCreateGetOnlyCollectionDataContract(::System::Type* type, ::by_ref<::System::Runtime::Serialization::DataContract*> dataContract);
 
-  /// @brief Method WriteXmlValue, addr 0x613cbb4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlValue, addr 0x6565cc4, size 0x74, virtual true, abstract: false, final false
   inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
 
   constexpr ::System::Xml::XmlDictionaryString* const& __cordl_internal_get_childElementNamespace() const;
@@ -1033,97 +1033,97 @@ public:
 
   constexpr void __cordl_internal_set_itemContract(::System::Runtime::Serialization::DataContract* value);
 
-  /// @brief Method .ctor, addr 0x6139a60, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x656202c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x6139fa0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6562b70, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW invalidCollectionInSharedContractMessage);
 
-  /// @brief Method .ctor, addr 0x6139ba8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6562308, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::DataContract* itemContract);
 
-  /// @brief Method .ctor, addr 0x6139e08, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65628c4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::CollectionKind kind, ::System::Type* itemType, ::System::Reflection::MethodInfo* getEnumeratorMethod,
                     ::System::Reflection::MethodInfo* addMethod, ::System::Reflection::ConstructorInfo* constructor);
 
-  /// @brief Method .ctor, addr 0x6139ed0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6562a7c, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::CollectionKind kind, ::System::Type* itemType, ::System::Reflection::MethodInfo* getEnumeratorMethod,
                     ::System::Reflection::MethodInfo* addMethod, ::System::Reflection::ConstructorInfo* constructor, bool isConstructorCheckRequired);
 
-  /// @brief Method .ctor, addr 0x6139c34, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6562504, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::CollectionKind kind, ::System::Type* itemType, ::System::Reflection::MethodInfo* getEnumeratorMethod,
                     ::StringW serializationExceptionMessage, ::StringW deserializationExceptionMessage);
 
-  /// @brief Method get_AddMethod, addr 0x613a2c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_AddMethod, addr 0x6563358, size 0x18, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_AddMethod();
 
-  /// @brief Method get_ChildElementNamespace, addr 0x613a0f0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method get_ChildElementNamespace, addr 0x6563188, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_ChildElementNamespace();
 
-  /// @brief Method get_CollectionItemName, addr 0x613a0b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollectionItemName, addr 0x6563148, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_CollectionItemName();
 
-  /// @brief Method get_Constructor, addr 0x613a2d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Constructor, addr 0x6563370, size 0x18, virtual false, abstract: false, final false
   inline ::System::Reflection::ConstructorInfo* get_Constructor();
 
-  /// @brief Method get_DeserializationExceptionMessage, addr 0x613a33c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_DeserializationExceptionMessage, addr 0x65633d4, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_DeserializationExceptionMessage();
 
-  /// @brief Method get_GetEnumeratorMethod, addr 0x613a2a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_GetEnumeratorMethod, addr 0x6563340, size 0x18, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_GetEnumeratorMethod();
 
-  /// @brief Method get_InvalidCollectionInSharedContractMessage, addr 0x613a30c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_InvalidCollectionInSharedContractMessage, addr 0x65633a4, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_InvalidCollectionInSharedContractMessage();
 
-  /// @brief Method get_IsConstructorCheckRequired, addr 0x613a274, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsConstructorCheckRequired, addr 0x656330c, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsConstructorCheckRequired();
 
-  /// @brief Method get_IsDictionary, addr 0x613a0d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsDictionary, addr 0x6563168, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsDictionary();
 
-  /// @brief Method get_IsItemTypeNullable, addr 0x613a25c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsItemTypeNullable, addr 0x65632f4, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsItemTypeNullable();
 
-  /// @brief Method get_IsReadOnlyContract, addr 0x613a354, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsReadOnlyContract, addr 0x65633ec, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsReadOnlyContract();
 
-  /// @brief Method get_ItemContract, addr 0x613a070, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_ItemContract, addr 0x656310c, size 0x24, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* get_ItemContract();
 
-  /// @brief Method get_ItemName, addr 0x613a098, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ItemName, addr 0x6563130, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_ItemName();
 
-  /// @brief Method get_ItemType, addr 0x613a058, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ItemType, addr 0x65630f4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Type* get_ItemType();
 
-  /// @brief Method get_KeyName, addr 0x613a0b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_KeyName, addr 0x6563150, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_KeyName();
 
-  /// @brief Method get_Kind, addr 0x613a040, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Kind, addr 0x65630dc, size 0x18, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::CollectionKind get_Kind();
 
-  /// @brief Method get_KnownDataContracts, addr 0x613a2f0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_KnownDataContracts, addr 0x6563388, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* get_KnownDataContracts();
 
-  /// @brief Method get_KnownInterfaces, addr 0x613a038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KnownInterfaces, addr 0x6562e68, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Type*> get_KnownInterfaces();
 
-  /// @brief Method get_SerializationExceptionMessage, addr 0x613a324, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_SerializationExceptionMessage, addr 0x65633bc, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_SerializationExceptionMessage();
 
-  /// @brief Method get_SharedTypeContract, addr 0x6136ef4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_SharedTypeContract, addr 0x655ed54, size 0x18, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* get_SharedTypeContract();
 
-  /// @brief Method get_XmlFormatGetOnlyCollectionReaderDelegate, addr 0x613a65c, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlFormatGetOnlyCollectionReaderDelegate, addr 0x65636f0, size 0x2a0, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatGetOnlyCollectionReaderDelegate* get_XmlFormatGetOnlyCollectionReaderDelegate();
 
-  /// @brief Method get_XmlFormatReaderDelegate, addr 0x613a4dc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method get_XmlFormatReaderDelegate, addr 0x6563574, size 0x17c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate* get_XmlFormatReaderDelegate();
 
-  /// @brief Method get_XmlFormatWriterDelegate, addr 0x613a374, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method get_XmlFormatWriterDelegate, addr 0x656340c, size 0x168, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate* get_XmlFormatWriterDelegate();
 
-  /// @brief Method set_IsConstructorCheckRequired, addr 0x613a28c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_IsConstructorCheckRequired, addr 0x6563324, size 0x1c, virtual false, abstract: false, final false
   inline void set_IsConstructorCheckRequired(bool value);
 
 protected:
@@ -1141,7 +1141,7 @@ public:
   CollectionDataContract(CollectionDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16389 };
 
   /// @brief Field collectionItemName, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlDictionaryString* ___collectionItemName;

@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set__val(bool value);
 
-  /// @brief Method .ctor, addr 0x5b6c480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f84378, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool visibility);
 
 protected:

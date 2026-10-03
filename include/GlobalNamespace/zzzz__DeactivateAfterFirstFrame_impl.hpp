@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::*)(int32_t)>(&::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5851c2c;
+  constexpr static std::size_t addrs = 0x5c679b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::*)()>(
     &::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5851c38;
+  constexpr static std::size_t addrs = 0x5c679bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::*)()>(&::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::MoveNext)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5851c3c;
+  constexpr static std::size_t addrs = 0x5c679c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0*>(), { "MoveNext", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::*)()>(
     &::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5851ca0;
+  constexpr static std::size_t addrs = 0x5c67a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::*)()>(
     &::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5851ca8;
+  constexpr static std::size_t addrs = 0x5c67a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::*)()>(
     &::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5851ce0;
+  constexpr static std::size_t addrs = 0x5c67a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::DeactivateAfterFirstFrame::*)()>(&::GlobalNamespace::DeactivateAfterFirstFrame::Start)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5851bd8;
+  constexpr static std::size_t addrs = 0x5c6795c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAfterFirstFrame*>(), { "Start", {}, {} })));
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAfterFirstFrame::*)()>(&::GlobalNamespace::DeactivateAfterFirstFrame::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5851c34;
+  constexpr static std::size_t addrs = 0x5c679b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAfterFirstFrame*>(), { ".ctor", {}, {} })));

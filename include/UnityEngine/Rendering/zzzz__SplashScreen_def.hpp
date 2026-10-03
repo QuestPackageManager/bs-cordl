@@ -21,7 +21,7 @@ class CORDL_TYPE SplashScreen : public ::System::Object {
 public:
   // Declarations
   /// [FreeFunction("IsSplashScreenFinished")]
-  /// @brief Method get_isFinished, addr 0x6b1c500, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x6f7a600, size 0x28, virtual false, abstract: false, final false
   static inline bool get_isFinished();
 
 protected:
@@ -39,7 +39,7 @@ public:
   SplashScreen(SplashScreen const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10386 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -61,19 +61,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRExtendedDisplay__GetWindowBounds : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5e2f1a8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6248fa0, size 0xac, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::by_ref<int32_t> pnX, ::by_ref<int32_t> pnY, ::by_ref<uint32_t> pnWidth, ::by_ref<uint32_t> pnHeight, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5e2f254, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x624904c, size 0x28, virtual true, abstract: false, final false
   inline void EndInvoke(::by_ref<int32_t> pnX, ::by_ref<int32_t> pnY, ::by_ref<uint32_t> pnWidth, ::by_ref<uint32_t> pnHeight, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5e2f194, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6248f8c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::by_ref<int32_t> pnX, ::by_ref<int32_t> pnY, ::by_ref<uint32_t> pnWidth, ::by_ref<uint32_t> pnHeight);
 
   static inline ::OVR::OpenVR::IVRExtendedDisplay__GetWindowBounds* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5e2f114, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6248f0c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -91,7 +91,7 @@ public:
   IVRExtendedDisplay__GetWindowBounds(IVRExtendedDisplay__GetWindowBounds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8202 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -107,19 +107,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRExtendedDisplay__GetEyeOutputViewport : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5e2f2fc, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x62490f4, size 0xfc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye eEye, ::by_ref<uint32_t> pnX, ::by_ref<uint32_t> pnY, ::by_ref<uint32_t> pnWidth, ::by_ref<uint32_t> pnHeight,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5e2f3f8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x62491f0, size 0x28, virtual true, abstract: false, final false
   inline void EndInvoke(::by_ref<uint32_t> pnX, ::by_ref<uint32_t> pnY, ::by_ref<uint32_t> pnWidth, ::by_ref<uint32_t> pnHeight, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5e2f2e8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x62490e0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::OVR::OpenVR::EVREye eEye, ::by_ref<uint32_t> pnX, ::by_ref<uint32_t> pnY, ::by_ref<uint32_t> pnWidth, ::by_ref<uint32_t> pnHeight);
 
   static inline ::OVR::OpenVR::IVRExtendedDisplay__GetEyeOutputViewport* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5e2f27c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6249074, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -137,7 +137,7 @@ public:
   IVRExtendedDisplay__GetEyeOutputViewport(IVRExtendedDisplay__GetEyeOutputViewport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8203 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -153,18 +153,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRExtendedDisplay__GetDXGIOutputInfo : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5e2f4b4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x62492ac, size 0x70, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::by_ref<int32_t> pnAdapterIndex, ::by_ref<int32_t> pnAdapterOutputIndex, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5e2f524, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x624931c, size 0x24, virtual true, abstract: false, final false
   inline void EndInvoke(::by_ref<int32_t> pnAdapterIndex, ::by_ref<int32_t> pnAdapterOutputIndex, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5e2f4a0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6249298, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::by_ref<int32_t> pnAdapterIndex, ::by_ref<int32_t> pnAdapterOutputIndex);
 
   static inline ::OVR::OpenVR::IVRExtendedDisplay__GetDXGIOutputInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5e2f420, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6249218, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -182,7 +182,7 @@ public:
   IVRExtendedDisplay__GetDXGIOutputInfo(IVRExtendedDisplay__GetDXGIOutputInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8204 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -214,7 +214,7 @@ public:
                                ::OVR::OpenVR::IVRExtendedDisplay__GetDXGIOutputInfo* GetDXGIOutputInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8205 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

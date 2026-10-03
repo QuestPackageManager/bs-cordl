@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::IndirectBufferContext::*)(::Unity::Jobs::JobHandle)>(&::UnityEngine::Rendering::IndirectBufferContext::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x682ea18;
+  constexpr static std::size_t addrs = 0x6c64da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::IndirectBufferContext::*)(::UnityEngine::Rendering::IndirectBufferContext_BufferState, int32_t, int32_t)>(
     &::UnityEngine::Rendering::IndirectBufferContext::Matches)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x682ea28;
+  constexpr static std::size_t addrs = 0x6c64db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

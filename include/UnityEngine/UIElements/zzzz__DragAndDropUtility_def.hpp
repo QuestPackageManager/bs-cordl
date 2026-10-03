@@ -38,7 +38,7 @@ public:
   __declspec(property(get = getStaticF_s_MakeDragAndDropClientFunc,
                       put = setStaticF_s_MakeDragAndDropClientFunc)) ::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* s_MakeDragAndDropClientFunc;
 
-  /// @brief Method GetDragAndDrop, addr 0x6d89bb8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetDragAndDrop, addr 0x72171f0, size 0x158, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IDragAndDrop* GetDragAndDrop(::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::IDragAndDrop* getStaticF_s_DragAndDropEditor();
@@ -68,7 +68,7 @@ public:
   DragAndDropUtility(DragAndDropUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4385 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

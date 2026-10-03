@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TooltipEvent___c::*)()>(&::UnityEngine::UIElements::TooltipEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6da6784;
+  constexpr static std::size_t addrs = 0x72350e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TooltipEvent___c*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TooltipEvent* (::UnityEngine::UIElements::TooltipEvent___c::*)()>(
     &::UnityEngine::UIElements::TooltipEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6da6788;
+  constexpr static std::size_t addrs = 0x72350ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TooltipEvent___c*>(), { "<.cctor>b__0_0", {}, {} })));
@@ -56,11 +56,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TooltipEvent::*)(::StringW)>(&::UnityEngine::UIElements::TooltipEvent::set_tooltip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da65f0;
+  constexpr static std::size_t addrs = 0x7234f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TooltipEvent*>(), { "set_tooltip", {}, { ::i2c::type_of<::StringW>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TooltipEvent.get_rect
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::TooltipEvent::*)()>(&::UnityEngine::UIElements::TooltipEvent::get_rect)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x7234f50;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TooltipEvent*>(), { "get_rect", {}, {} })));
     return ___internal_method;
   }
 };
@@ -69,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TooltipEvent::*)(::UnityEngine::Rect)>(&::UnityEngine::UIElements::TooltipEvent::set_rect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6da65f8;
+  constexpr static std::size_t addrs = 0x7234f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TooltipEvent::*)()>(&::UnityEngine::UIElements::TooltipEvent::Init)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6da6604;
+  constexpr static std::size_t addrs = 0x7234f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TooltipEvent::*)()>(&::UnityEngine::UIElements::TooltipEvent::LocalInit)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6da6674;
+  constexpr static std::size_t addrs = 0x7234fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TooltipEvent*>(), { "LocalInit", {}, {} })));
@@ -107,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TooltipEvent::*)()>(&::UnityEngine::UIElements::TooltipEvent::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6da6698;
+  constexpr static std::size_t addrs = 0x7234ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TooltipEvent*>(), { ".ctor", {}, {} })));
@@ -142,6 +154,10 @@ inline void UnityEngine::UIElements::TooltipEvent::set_tooltip(::StringW value) 
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TooltipEvent*>(), { "set_tooltip", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Rect UnityEngine::UIElements::TooltipEvent::get_rect() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TooltipEvent*>(), { "get_rect", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::TooltipEvent::set_rect(::UnityEngine::Rect value) {
   static auto* ___internal_method =

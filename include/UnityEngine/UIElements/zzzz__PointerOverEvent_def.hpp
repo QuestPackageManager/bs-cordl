@@ -37,10 +37,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerOverEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6da5d48, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x72346a0, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerOverEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6da5d44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x723469c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerOverEvent___c* getStaticF___9();
@@ -62,7 +62,7 @@ public:
   PointerOverEvent___c(PointerOverEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4554 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4555 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -80,12 +80,12 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PointerOverEvent___c;
 
-  /// @brief Method Dispatch, addr 0x6da5ca0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x72345f8, size 0x4, virtual true, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   static inline ::UnityEngine::UIElements::PointerOverEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6da5ca4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72345fc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,11 +103,11 @@ public:
   PointerOverEvent(PointerOverEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4556 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::PointerOverEvent) == 0xf8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::PointerOverEvent) == 0x118, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

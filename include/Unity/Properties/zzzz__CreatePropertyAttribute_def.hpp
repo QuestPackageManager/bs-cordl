@@ -33,15 +33,15 @@ public:
 
   constexpr void __cordl_internal_set__ReadOnly_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6b9e4f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7009eac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ReadOnly, addr 0x6b9e4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadOnly, addr 0x7009e9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method set_ReadOnly, addr 0x6b9e4e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReadOnly, addr 0x7009ea4, size 0x8, virtual false, abstract: false, final false
   inline void set_ReadOnly(bool value);
 
 protected:
@@ -59,7 +59,7 @@ public:
   CreatePropertyAttribute(CreatePropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19611 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20695 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]

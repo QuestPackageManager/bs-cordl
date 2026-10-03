@@ -81,22 +81,22 @@ public:
 
   constexpr void __cordl_internal_set_StatusDescription(::StringW value);
 
-  /// @brief Method .ctor, addr 0x63fdf48, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6826214, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_InvalidStatusCode, addr 0x63fdf34, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_InvalidStatusCode, addr 0x6826200, size 0x14, virtual false, abstract: false, final false
   inline bool get_InvalidStatusCode();
 
-  /// @brief Method get_PermanentFailure, addr 0x63fdf20, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PermanentFailure, addr 0x68261ec, size 0x14, virtual false, abstract: false, final false
   inline bool get_PermanentFailure();
 
-  /// @brief Method get_PositiveCompletion, addr 0x63fdef8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PositiveCompletion, addr 0x68261c4, size 0x14, virtual false, abstract: false, final false
   inline bool get_PositiveCompletion();
 
-  /// @brief Method get_PositiveIntermediate, addr 0x63fdee4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PositiveIntermediate, addr 0x68261b0, size 0x14, virtual false, abstract: false, final false
   inline bool get_PositiveIntermediate();
 
-  /// @brief Method get_TransientFailure, addr 0x63fdf0c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_TransientFailure, addr 0x68261d8, size 0x14, virtual false, abstract: false, final false
   inline bool get_TransientFailure();
 
 protected:
@@ -114,7 +114,7 @@ public:
   ResponseDescription(ResponseDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12395 };
 
   /// @brief Field Multiline, offset: 0x10, size: 0x1, def value: None
   bool ___Multiline;

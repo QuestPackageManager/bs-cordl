@@ -63,10 +63,10 @@ public:
 
   static inline ::GlobalNamespace::SaberSound* New_ctor();
 
-  /// @brief Method Start, addr 0x59f0b38, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e0c100, size 0x2c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x59f0b64, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e0c12c, size 0x218, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set__upSmooth(float_t value);
 
-  /// @brief Method .ctor, addr 0x59f0d7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e0c344, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -147,7 +147,7 @@ public:
   SaberSound(SaberSound const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6235 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6355 };
 
   /// [SerializeField]
   /// @brief Field _saberTop, offset: 0x20, size: 0x8, def value: None

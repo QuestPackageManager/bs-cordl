@@ -59,7 +59,7 @@ public:
   constexpr PropertyPath___c__DisplayClass36_0(int32_t index, int32_t length, ::StringW path, int32_t state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20712 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -110,95 +110,95 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Properties::PropertyPath>"
   constexpr operator ::System::IEquatable_1<::Unity::Properties::PropertyPath>*();
 
-  /// @brief Method AppendIndex, addr 0x6ba0c84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AppendIndex, addr 0x700c640, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Properties::PropertyPath AppendIndex(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, int32_t index);
 
-  /// @brief Method AppendPart, addr 0x6ba0908, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method AppendPart, addr 0x700c2c4, size 0x37c, virtual false, abstract: false, final false
   static inline ::Unity::Properties::PropertyPath AppendPart(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path,
                                                              /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part);
 
-  /// @brief Method AppendProperty, addr 0x6ba0ce0, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method AppendProperty, addr 0x700c69c, size 0x2bc, virtual false, abstract: false, final false
   static inline ::Unity::Properties::PropertyPath AppendProperty(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, ::Unity::Properties::IProperty* property);
 
-  /// @brief Method AppendToBuilder, addr 0x6ba162c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AppendToBuilder, addr 0x700cfe8, size 0xb0, virtual false, abstract: false, final false
   static inline void AppendToBuilder(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part, ::System::Text::StringBuilder* builder);
 
-  /// @brief Method Combine, addr 0x6ba0488, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x700be44, size 0x394, virtual false, abstract: false, final false
   static inline ::Unity::Properties::PropertyPath Combine(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path,
                                                           /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> pathToAppend);
 
-  /// @brief Method ConstructFromPath, addr 0x6b9f08c, size 0x10fc, virtual false, abstract: false, final false
+  /// @brief Method ConstructFromPath, addr 0x700aa48, size 0x10fc, virtual false, abstract: false, final false
   static inline ::Unity::Properties::PropertyPath ConstructFromPath(::StringW path);
 
-  /// @brief Method Equals, addr 0x6ba19a4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x700d360, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6ba18b4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x700d270, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Properties::PropertyPath other);
 
-  /// @brief Method FromIndex, addr 0x6ba0434, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FromIndex, addr 0x700bdf0, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Properties::PropertyPath FromIndex(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x6ba1a38, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x700d3f4, size 0xf0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetParts, addr 0x6ba081c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetParts, addr 0x700c1d8, size 0xec, virtual false, abstract: false, final false
   static inline void GetParts(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, ::System::Collections::Generic::List_1<::Unity::Properties::PropertyPathPart>* parts);
 
-  /// @brief Method Pop, addr 0x6ba0f9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x700c958, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::Properties::PropertyPath Pop(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path);
 
-  /// @brief Method SubPath, addr 0x6ba0fd8, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method SubPath, addr 0x700c994, size 0x4c4, virtual false, abstract: false, final false
   static inline ::Unity::Properties::PropertyPath SubPath(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, int32_t startIndex, int32_t length);
 
-  /// @brief Method ToString, addr 0x6ba149c, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x700ce58, size 0x190, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// [CompilerGenerated]
-  /// @brief Method <ConstructFromPath>g__ReadNext|36_1, addr 0x6ba1738, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method <ConstructFromPath>g__ReadNext|36_1, addr 0x700d0f4, size 0x148, virtual false, abstract: false, final false
   static inline void _ConstructFromPath_g__ReadNext_36_1(::by_ref<::Unity::Properties::PropertyPath___c__DisplayClass36_0> _cordl_fixed_empty_name_whitespace);
 
   /// [CompilerGenerated]
-  /// @brief Method <ConstructFromPath>g__TrimStart|36_0, addr 0x6ba16dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ConstructFromPath>g__TrimStart|36_0, addr 0x700d098, size 0x5c, virtual false, abstract: false, final false
   static inline void _ConstructFromPath_g__TrimStart_36_0(::by_ref<::Unity::Properties::PropertyPath___c__DisplayClass36_0> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method .ctor, addr 0x6ba0188, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700bb44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part);
 
-  /// @brief Method .ctor, addr 0x6ba01b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700bb6c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part0, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part1);
 
-  /// @brief Method .ctor, addr 0x6ba01dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700bb98, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part0, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part1,
                     /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part2);
 
-  /// @brief Method .ctor, addr 0x6ba020c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700bbc8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part0, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part1,
                     /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part2, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part3);
 
-  /// @brief Method .ctor, addr 0x6ba023c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700bbf8, size 0x1f8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Unity::Properties::PropertyPathPart>* parts);
 
-  /// @brief Method .ctor, addr 0x6b9f020, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700a9dc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
-  /// @brief Method get_IsEmpty, addr 0x6b9ef24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x700a8e0, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Item, addr 0x6b9ef34, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x700a8f0, size 0xec, virtual false, abstract: false, final false
   inline ::Unity::Properties::PropertyPathPart get_Item(int32_t index);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Length, addr 0x6b9ef1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x700a8d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Properties::PropertyPath>"
   constexpr ::System::IEquatable_1<::Unity::Properties::PropertyPath>* i___System__IEquatable_1___Unity__Properties__PropertyPath_();
 
-  /// @brief Method op_Equality, addr 0x6ba1880, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x700d23c, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Equality(::Unity::Properties::PropertyPath lhs, ::Unity::Properties::PropertyPath rhs);
 
-  /// @brief Method op_Inequality, addr 0x6ba1950, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x700d30c, size 0x54, virtual false, abstract: false, final false
   static inline bool op_Inequality(::Unity::Properties::PropertyPath lhs, ::Unity::Properties::PropertyPath rhs);
 
   // Ctor Parameters []
@@ -214,7 +214,7 @@ public:
                          ::Unity::Properties::PropertyPathPart m_Part3, ::ArrayW<::Unity::Properties::PropertyPathPart> m_AdditionalParts, int32_t _Length_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20713 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };

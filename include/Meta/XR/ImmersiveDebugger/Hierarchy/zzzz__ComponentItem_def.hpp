@@ -35,21 +35,21 @@ public:
 
   __declspec(property(get = get_Valid)) bool Valid;
 
-  /// @brief Method BuildHandle, addr 0x5a6a6c4, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method BuildHandle, addr 0x5e823fc, size 0x4c, virtual true, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle BuildHandle();
 
   static inline ::Meta::XR::ImmersiveDebugger::Hierarchy::ComponentItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5a6a3e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e82118, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Category, addr 0x5a6a6b4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_Category, addr 0x5e823ec, size 0x10, virtual true, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Manager::Category get_Category();
 
-  /// @brief Method get_Label, addr 0x5a6a634, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Label, addr 0x5e8236c, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Label();
 
-  /// @brief Method get_Valid, addr 0x5a6a650, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x5e82388, size 0x64, virtual true, abstract: false, final false
   inline bool get_Valid();
 
 protected:
@@ -67,7 +67,7 @@ public:
   ComponentItem(ComponentItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18470 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19004 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

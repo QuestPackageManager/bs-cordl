@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::LiteNetLib::NetSocket::*)()>(&::LiteNetLib::NetSocket::get_LocalPort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58a6338;
+  constexpr static std::size_t addrs = 0x5cbceb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetSocket*>(), { "get_LocalPort", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetSocket::*)(int32_t)>(&::LiteNetLib::NetSocket::set_LocalPort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58a6340;
+  constexpr static std::size_t addrs = 0x5cbcec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetSocket*>(), { "set_LocalPort", {}, { ::i2c::type_of<int32_t>() } })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::LiteNetLib::NetSocket::*)()>(&::LiteNetLib::NetSocket::get_Ttl)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58a6348;
+  constexpr static std::size_t addrs = 0x5cbcec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetSocket*>(), { "get_Ttl", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetSocket::*)(int16_t)>(&::LiteNetLib::NetSocket::set_Ttl)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x589cffc;
+  constexpr static std::size_t addrs = 0x5cb3b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetSocket*>(), { "set_Ttl", {}, { ::i2c::type_of<int16_t>() } })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetSocket::*)(::LiteNetLib::INetSocketListener*)>(&::LiteNetLib::NetSocket::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x589e88c;
+  constexpr static std::size_t addrs = 0x5cb540c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::LiteNetLib::NetSocket::*)()>(&::LiteNetLib::NetSocket::IsActive)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58a6438;
+  constexpr static std::size_t addrs = 0x5cbcfb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetSocket*>(), { "IsActive", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetSocket::*)(::System::Object*)>(&::LiteNetLib::NetSocket::ReceiveLogic)> {
   constexpr static std::size_t size = 0x530;
-  constexpr static std::size_t addrs = 0x58a6444;
+  constexpr static std::size_t addrs = 0x5cbcfc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (::LiteNetLib::NetSocket::*)(::System::Net::IPAddress*, ::System::Net::IPAddress*, int32_t, bool, bool, ::System::Threading::ThreadPriority)>(&::LiteNetLib::NetSocket::Bind)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x58a249c;
+  constexpr static std::size_t addrs = 0x5cb901c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::LiteNetLib::NetSocket::*)(::System::Net::Sockets::Socket*, ::System::Net::IPEndPoint*, bool)>(&::LiteNetLib::NetSocket::BindSocket)> {
   constexpr static std::size_t size = 0x5dc;
-  constexpr static std::size_t addrs = 0x58a6974;
+  constexpr static std::size_t addrs = 0x5cbd4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::LiteNetLib::NetSocket::*)(::ArrayW<uint8_t>, int32_t, int32_t, int32_t)>(&::LiteNetLib::NetSocket::SendBroadcast)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x58a2e44;
+  constexpr static std::size_t addrs = 0x5cb99c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::LiteNetLib::NetSocket::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Net::IPEndPoint*,
                                                                                             ::by_ref<::System::Net::Sockets::SocketError>)>(&::LiteNetLib::NetSocket::SendTo)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x589d014;
+  constexpr static std::size_t addrs = 0x5cb3b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetSocket::*)(bool)>(&::LiteNetLib::NetSocket::Close)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58a3ccc;
+  constexpr static std::size_t addrs = 0x5cba84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetSocket*>(), { "Close", {}, { ::i2c::type_of<bool>() } })));

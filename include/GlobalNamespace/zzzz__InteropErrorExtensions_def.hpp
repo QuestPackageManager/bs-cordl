@@ -27,7 +27,7 @@ class CORDL_TYPE InteropErrorExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method Info, addr 0x5aad1f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x5ec50dc, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::Interop_ErrorInfo Info(::GlobalNamespace::Interop_Error error);
 
 protected:

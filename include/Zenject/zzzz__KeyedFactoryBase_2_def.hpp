@@ -121,7 +121,7 @@ public:
   KeyedFactoryBase_2___c(KeyedFactoryBase_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14587 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -255,7 +255,7 @@ public:
   KeyedFactoryBase_2(KeyedFactoryBase_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14588 };
 
   /// [Inject]
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None

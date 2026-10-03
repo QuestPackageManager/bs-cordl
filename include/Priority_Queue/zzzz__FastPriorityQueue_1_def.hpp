@@ -156,7 +156,7 @@ public:
   FastPriorityQueue_1__GetEnumerator_d__22(FastPriorityQueue_1__GetEnumerator_d__22 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21240 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -314,7 +314,7 @@ public:
   FastPriorityQueue_1(FastPriorityQueue_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21241 };
 
   /// @brief Field _numNodes, offset: 0x10, size: 0x4, def value: None
   int32_t ____numNodes;

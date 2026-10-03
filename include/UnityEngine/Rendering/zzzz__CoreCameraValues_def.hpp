@@ -30,13 +30,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>*();
 
-  /// @brief Method Equals, addr 0x6b1e2f0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f7c670, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b1e2bc, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f7c63c, size 0x34, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::CoreCameraValues other);
 
-  /// @brief Method GetHashCode, addr 0x6b1e38c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f7c70c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>"
@@ -51,7 +51,7 @@ public:
   constexpr CoreCameraValues(int32_t filterMode, uint32_t cullingMask, int32_t instanceID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10397 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

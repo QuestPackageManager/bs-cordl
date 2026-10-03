@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Xml::Schema::Asttree::*)()>(&::System::Xml::Schema::Asttree::get_SubtreeArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6317be4;
+  constexpr static std::size_t addrs = 0x673fbc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Asttree*>(), { "get_SubtreeArray", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Asttree::*)(::StringW, bool, ::System::Xml::XmlNamespaceManager*)>(&::System::Xml::Schema::Asttree::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6317bec;
+  constexpr static std::size_t addrs = 0x673fbcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::MS::Internal::Xml::XPath::Axis*)>(&::System::Xml::Schema::Asttree::IsNameTest)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63183b0;
+  constexpr static std::size_t addrs = 0x6740390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::MS::Internal::Xml::XPath::Axis*)>(&::System::Xml::Schema::Asttree::IsAttribute)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6316dd8;
+  constexpr static std::size_t addrs = 0x673edb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::MS::Internal::Xml::XPath::Axis*)>(&::System::Xml::Schema::Asttree::IsDescendantOrSelf)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x63183e0;
+  constexpr static std::size_t addrs = 0x67403c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::MS::Internal::Xml::XPath::Axis*)>(&::System::Xml::Schema::Asttree::IsSelf)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6317ba8;
+  constexpr static std::size_t addrs = 0x673fb88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Asttree::*)(::StringW, bool, ::System::Xml::XmlNamespaceManager*)>(&::System::Xml::Schema::Asttree::CompileXPath)> {
   constexpr static std::size_t size = 0x7b4;
-  constexpr static std::size_t addrs = 0x6317bfc;
+  constexpr static std::size_t addrs = 0x673fbdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Asttree::*)(::MS::Internal::Xml::XPath::Axis*, ::System::Xml::XmlNamespaceManager*)>(
     &::System::Xml::Schema::Asttree::SetURN)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x631841c;
+  constexpr static std::size_t addrs = 0x67403fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

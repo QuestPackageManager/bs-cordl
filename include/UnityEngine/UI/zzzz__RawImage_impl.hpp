@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::RawImage::*)()>(&::UnityEngine::UI::RawImage::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6e02114;
+  constexpr static std::size_t addrs = 0x729a6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::RawImage*>(), { ".ctor", {}, {} })));
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture> (::UnityEngine::UI::RawImage::*)()>(&::UnityEngine::UI::RawImage::get_mainTexture)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6e0213c;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x729a6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::RawImage*>(), { ::i2c::class_of<::UnityEngine::UI::RawImage*>(), 35 }));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture> (::UnityEngine::UI::RawImage::*)()>(&::UnityEngine::UI::RawImage::get_texture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e0229c;
+  constexpr static std::size_t addrs = 0x729a88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::RawImage*>(), { "get_texture", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::RawImage::*)(::UnityEngine::Texture*)>(&::UnityEngine::UI::RawImage::set_texture)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6e022a4;
+  constexpr static std::size_t addrs = 0x729a894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UI::RawImage::*)()>(&::UnityEngine::UI::RawImage::get_uvRect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e02354;
+  constexpr static std::size_t addrs = 0x729a944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::RawImage*>(), { "get_uvRect", {}, {} })));
@@ -71,8 +71,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::Un
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::RawImage::*)(::UnityEngine::Rect)>(&::UnityEngine::UI::RawImage::set_uvRect)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e02360;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x729a950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,8 +84,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::RawImage::*)()>(&::UnityEngine::UI::RawImage::SetNativeSize)> {
-  constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x6e023ac;
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x729aa30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::RawImage*>(), { ::i2c::class_of<::UnityEngine::UI::RawImage*>(), 45 }));
@@ -96,8 +96,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::RawImage::*)(::UnityEngine::UI::VertexHelper*)>(&::UnityEngine::UI::RawImage::OnPopulateMesh)> {
-  constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x6e0266c;
+  constexpr static std::size_t size = 0x274;
+  constexpr static std::size_t addrs = 0x729ad20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::RawImage*>(), { ::i2c::class_of<::UnityEngine::UI::RawImage*>(), 44 }));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::RawImage::*)()>(&::UnityEngine::UI::RawImage::OnDidApplyAnimationProperties)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e02d44;
+  constexpr static std::size_t addrs = 0x729b3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::RawImage*>(), { ::i2c::class_of<::UnityEngine::UI::RawImage*>(), 13 }));

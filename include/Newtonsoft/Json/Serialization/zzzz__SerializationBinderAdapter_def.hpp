@@ -38,10 +38,10 @@ public:
   constexpr operator ::Newtonsoft::Json::Serialization::ISerializationBinder*() noexcept;
 
   /// [NullableContext(2)]
-  /// @brief Method BindToName, addr 0x5d5a604, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method BindToName, addr 0x61741e8, size 0x1c, virtual true, abstract: false, final true
   inline void BindToName(/* [Nullable(1)] */ ::System::Type* serializedType, ::by_ref<::StringW> assemblyName, ::by_ref<::StringW> typeName);
 
-  /// @brief Method BindToType, addr 0x5d5a5e8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method BindToType, addr 0x61741cc, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Type* BindToType(/* [Nullable(2)] */ ::StringW assemblyName, ::StringW typeName);
 
   static inline ::Newtonsoft::Json::Serialization::SerializationBinderAdapter* New_ctor(::System::Runtime::Serialization::SerializationBinder* serializationBinder);
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_SerializationBinder(::System::Runtime::Serialization::SerializationBinder* value);
 
-  /// @brief Method .ctor, addr 0x5d5a5e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61741c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationBinder* serializationBinder);
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::ISerializationBinder"
@@ -73,7 +73,7 @@ public:
   SerializationBinderAdapter(SerializationBinderAdapter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13774 };
 
   /// @brief Field SerializationBinder, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::SerializationBinder* ___SerializationBinder;

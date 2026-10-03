@@ -101,19 +101,19 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::AppendElements___c* New_ctor();
 
-  /// @brief Method <CreateShapeFromPolygon>b__8_0, addr 0x671787c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <CreateShapeFromPolygon>b__8_0, addr 0x6b2c6c4, size 0x14, virtual false, abstract: false, final false
   inline int32_t _CreateShapeFromPolygon_b__8_0(::ArrayW<::UnityEngine::Vector3> arr);
 
-  /// @brief Method <FaceWithVerticesAndHole>b__10_0, addr 0x6717890, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <FaceWithVerticesAndHole>b__10_0, addr 0x6b2c6d8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 _FaceWithVerticesAndHole_b__10_0(::UnityEngine::ProBuilder::Vertex* v);
 
-  /// @brief Method <FaceWithVerticesAndHole>b__10_1, addr 0x67178a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <FaceWithVerticesAndHole>b__10_1, addr 0x6b2c6f0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 _FaceWithVerticesAndHole_b__10_1(::UnityEngine::ProBuilder::Vertex* v);
 
-  /// @brief Method <InsertVertexInFace>b__18_0, addr 0x67178c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <InsertVertexInFace>b__18_0, addr 0x6b2c708, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _InsertVertexInFace_b__18_0(::UnityEngine::ProBuilder::FaceRebuildData* f);
 
-  /// @brief Method .ctor, addr 0x6717878, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b2c6c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::AppendElements___c* getStaticF___9();
@@ -151,7 +151,7 @@ public:
   AppendElements___c(AppendElements___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17375 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -172,7 +172,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::AppendElements___c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method <AppendVerticesToEdge>b__0, addr 0x67178d4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <AppendVerticesToEdge>b__0, addr 0x6b2c71c, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _AppendVerticesToEdge_b__0(::UnityEngine::ProBuilder::EdgeLookup x);
 
   constexpr int32_t const& __cordl_internal_get_delCount() const;
@@ -181,7 +181,7 @@ public:
 
   constexpr void __cordl_internal_set_delCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6714bf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b29a3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -199,7 +199,7 @@ public:
   AppendElements___c__DisplayClass17_0(AppendElements___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17376 };
 
   /// @brief Field delCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___delCount;
@@ -225,102 +225,102 @@ public:
   using __c__DisplayClass17_0 = ::UnityEngine::ProBuilder::MeshOperations::AppendElements___c__DisplayClass17_0;
 
   /// [Extension]
-  /// @brief Method AppendFace, addr 0x670d29c, size 0x8b0, virtual false, abstract: false, final false
+  /// @brief Method AppendFace, addr 0x6b22104, size 0x8b0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* AppendFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::Vector3> positions, ::ArrayW<::UnityEngine::Color> colors,
                                                             ::ArrayW<::UnityEngine::Vector2> uv0s, ::ArrayW<::UnityEngine::Vector4> uv2s, ::ArrayW<::UnityEngine::Vector4> uv3s,
                                                             ::UnityEngine::ProBuilder::Face* face, ::ArrayW<int32_t> common);
 
   /// [Extension]
-  /// @brief Method AppendFaces, addr 0x670db4c, size 0x65c, virtual false, abstract: false, final false
+  /// @brief Method AppendFaces, addr 0x6b229b4, size 0x65c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*> AppendFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::ArrayW<::UnityEngine::Vector3>> positions,
                                                                        ::ArrayW<::ArrayW<::UnityEngine::Color>> colors, ::ArrayW<::ArrayW<::UnityEngine::Vector2>> uvs,
                                                                        ::ArrayW<::UnityEngine::ProBuilder::Face*> faces, ::ArrayW<::ArrayW<int32_t>> shared);
 
   /// [Extension]
-  /// @brief Method AppendVerticesToEdge, addr 0x6712f00, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method AppendVerticesToEdge, addr 0x6b27d48, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* AppendVerticesToEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge,
                                                                                                               int32_t count);
 
   /// [Extension]
-  /// @brief Method AppendVerticesToEdge, addr 0x6712f84, size 0x1c70, virtual false, abstract: false, final false
+  /// @brief Method AppendVerticesToEdge, addr 0x6b27dcc, size 0x1c70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*
   AppendVerticesToEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* edges, int32_t count);
 
   /// [Extension]
-  /// @brief Method AppendVerticesToFace, addr 0x6712228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AppendVerticesToFace, addr 0x6b27070, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* AppendVerticesToFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::ArrayW<::UnityEngine::Vector3> points);
 
   /// [Extension]
-  /// @brief Method AppendVerticesToFace, addr 0x6712230, size 0xc54, virtual false, abstract: false, final false
+  /// @brief Method AppendVerticesToFace, addr 0x6b27078, size 0xc54, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* AppendVerticesToFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::ArrayW<::UnityEngine::Vector3> points,
                                                                       bool insertOnEdge);
 
   /// [Extension]
-  /// @brief Method Bridge, addr 0x6710b98, size 0x13c0, virtual false, abstract: false, final false
+  /// @brief Method Bridge, addr 0x6b25a00, size 0x13a0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* Bridge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b,
                                                         bool allowNonManifoldGeometry);
 
   /// [Extension]
-  /// @brief Method ClearAndRefreshMesh, addr 0x670f514, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearAndRefreshMesh, addr 0x6b2437c, size 0x3c, virtual false, abstract: false, final false
   static inline void ClearAndRefreshMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   /// [Extension]
-  /// @brief Method CreatePolygon, addr 0x670e1a8, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method CreatePolygon, addr 0x6b23010, size 0x518, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* CreatePolygon(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<int32_t>* indexes, bool unordered);
 
   /// [Extension]
-  /// @brief Method CreatePolygonWithHole, addr 0x670e788, size 0x8e8, virtual false, abstract: false, final false
+  /// @brief Method CreatePolygonWithHole, addr 0x6b235f0, size 0x8e8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* CreatePolygonWithHole(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<int32_t>* indexes,
                                                                        ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<int32_t>*>* holes);
 
   /// [Extension]
-  /// @brief Method CreateShapeFromPolygon, addr 0x670f50c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateShapeFromPolygon, addr 0x6b24374, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                 ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, float_t extrude, bool flipNormals);
 
   /// [Extension]
   /// [Obsolete("Face.CreateShapeFromPolygon is deprecated as it no longer relies on camera look at.")]
-  /// @brief Method CreateShapeFromPolygon, addr 0x67100f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateShapeFromPolygon, addr 0x6b24f5c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                 ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, float_t extrude, bool flipNormals,
                                                                                 ::UnityEngine::Vector3 cameraLookAt,
                                                                                 ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>* holePoints);
 
   /// [Extension]
-  /// @brief Method CreateShapeFromPolygon, addr 0x670f550, size 0xba4, virtual false, abstract: false, final false
+  /// @brief Method CreateShapeFromPolygon, addr 0x6b243b8, size 0xba4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                 ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, float_t extrude, bool flipNormals,
                                                                                 ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>* holePoints);
 
   /// [Extension]
-  /// @brief Method CreateShapeFromPolygon, addr 0x670f4dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CreateShapeFromPolygon, addr 0x6b24344, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(::UnityEngine::ProBuilder::PolyShape* poly);
 
   /// [Extension]
-  /// @brief Method DuplicateAndFlip, addr 0x67100fc, size 0x6f4, virtual false, abstract: false, final false
+  /// @brief Method DuplicateAndFlip, addr 0x6b24f64, size 0x6f4, virtual false, abstract: false, final false
   static inline void DuplicateAndFlip(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*> faces);
 
-  /// @brief Method FaceWithVertices, addr 0x670e6c0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method FaceWithVertices, addr 0x6b23528, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::FaceRebuildData* FaceWithVertices(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, bool unordered);
 
-  /// @brief Method FaceWithVerticesAndHole, addr 0x670f070, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method FaceWithVerticesAndHole, addr 0x6b23ed8, size 0x46c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::FaceRebuildData*
   FaceWithVerticesAndHole(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* borderVertices,
                           ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>* holes);
 
   /// [Extension]
-  /// @brief Method InsertVertexInFace, addr 0x67151e0, size 0xe74, virtual false, abstract: false, final false
+  /// @brief Method InsertVertexInFace, addr 0x6b2a028, size 0xe74, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*> InsertVertexInFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Vector3 point);
 
   /// [Extension]
-  /// @brief Method InsertVertexInMesh, addr 0x6717414, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method InsertVertexInMesh, addr 0x6b2c25c, size 0x410, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* InsertVertexInMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal);
 
   /// [Extension]
-  /// @brief Method InsertVertexOnEdge, addr 0x6716054, size 0x13c0, virtual false, abstract: false, final false
+  /// @brief Method InsertVertexOnEdge, addr 0x6b2ae9c, size 0x13c0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* InsertVertexOnEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge originalEdge, ::UnityEngine::Vector3 point);
 
-  /// @brief Method TentCapWithVertices, addr 0x67107f0, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method TentCapWithVertices, addr 0x6b25658, size 0x3a8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::FaceRebuildData*>*
   TentCapWithVertices(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* path);
 
@@ -339,7 +339,7 @@ public:
   AppendElements(AppendElements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16853 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17377 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -6,13 +6,27 @@
 #include "UnityEngine/Rendering/Universal/zzzz__XRPassUniversal_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RasterCommandBuffer_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::XRSystemUniversal.GetMaterialPropertyBlock
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::MaterialPropertyBlock* (*)()>(&::UnityEngine::Rendering::Universal::XRSystemUniversal::GetMaterialPropertyBlock)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6d12298;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRSystemUniversal*>(), { "GetMaterialPropertyBlock", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::XRSystemUniversal.BeginLateLatching
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::XRPassUniversal*)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::BeginLateLatching)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x68e8d50;
+  constexpr static std::size_t addrs = 0x6d122f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::XRPassUniversal*)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::EndLateLatching)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x68e8e2c;
+  constexpr static std::size_t addrs = 0x6d123d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::XRPassUniversal*)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::UnmarkShaderProperties)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x68e8ef4;
+  constexpr static std::size_t addrs = 0x6d12498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::XRPassUniversal*, bool)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::MarkShaderProperties)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x68e8f80;
+  constexpr static std::size_t addrs = 0x6d12524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRSystemUniversal*>(),
@@ -76,6 +90,18 @@ inline void UnityEngine::Rendering::Universal::XRSystemUniversal::setStaticF_s_p
 }
 inline ::ArrayW<::UnityEngine::Matrix4x4> UnityEngine::Rendering::Universal::XRSystemUniversal::getStaticF_s_projMatrix() {
   return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::Matrix4x4>, "s_projMatrix", ::UnityEngine::Rendering::Universal::XRSystemUniversal*>();
+}
+inline void UnityEngine::Rendering::Universal::XRSystemUniversal::setStaticF_s_XRSharedPropertyBlock(::UnityEngine::MaterialPropertyBlock* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::MaterialPropertyBlock*, "s_XRSharedPropertyBlock", ::UnityEngine::Rendering::Universal::XRSystemUniversal*>(
+      std::forward<::UnityEngine::MaterialPropertyBlock*>(value));
+}
+inline ::UnityEngine::MaterialPropertyBlock* UnityEngine::Rendering::Universal::XRSystemUniversal::getStaticF_s_XRSharedPropertyBlock() {
+  return ::cordl_internals::getStaticField<::UnityEngine::MaterialPropertyBlock*, "s_XRSharedPropertyBlock", ::UnityEngine::Rendering::Universal::XRSystemUniversal*>();
+}
+inline ::UnityEngine::MaterialPropertyBlock* UnityEngine::Rendering::Universal::XRSystemUniversal::GetMaterialPropertyBlock() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRSystemUniversal*>(), { "GetMaterialPropertyBlock", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::MaterialPropertyBlock*>(nullptr, ___internal_method);
 }
 inline void UnityEngine::Rendering::Universal::XRSystemUniversal::BeginLateLatching(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass) {
   static auto* ___internal_method = THROW_UNLESS(

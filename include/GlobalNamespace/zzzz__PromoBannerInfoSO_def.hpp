@@ -45,7 +45,7 @@ public:
 
   __declspec(property(get = get_bannerPromoTextPosition)) float_t bannerPromoTextPosition;
 
-  /// @brief Method IsPromoTextHiddenOn, addr 0x372f61c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsPromoTextHiddenOn, addr 0x39b8c00, size 0x18, virtual false, abstract: false, final false
   inline bool IsPromoTextHiddenOn(::System::DateTime now);
 
   static inline ::GlobalNamespace::PromoBannerInfoSO* New_ctor();
@@ -74,19 +74,19 @@ public:
 
   constexpr void __cordl_internal_set__bannerPromoTextShowUntilDate(::StringW value);
 
-  /// @brief Method .ctor, addr 0x372f634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39b8c18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bannerImage, addr 0x372f5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bannerImage, addr 0x39b8be0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_bannerImage();
 
-  /// @brief Method get_bannerPromoText, addr 0x372f60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bannerPromoText, addr 0x39b8bf0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_bannerPromoText();
 
-  /// @brief Method get_bannerPromoTextPosition, addr 0x372f614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bannerPromoTextPosition, addr 0x39b8bf8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bannerPromoTextPosition();
 
-  /// @brief Method set_bannerImage, addr 0x372f604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bannerImage, addr 0x39b8be8, size 0x8, virtual false, abstract: false, final false
   inline void set_bannerImage(::UnityEngine::Sprite* value);
 
 protected:
@@ -104,7 +104,7 @@ public:
   PromoBannerInfoSO(PromoBannerInfoSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15026 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15267 };
 
   /// [SerializeField]
   /// @brief Field _bannerImage, offset: 0x18, size: 0x8, def value: None

@@ -41,19 +41,19 @@ public:
 
   static inline ::System::Runtime::Serialization::DecimalDataContract* New_ctor();
 
-  /// @brief Method ReadXmlValue, addr 0x615d2fc, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ReadXmlValue, addr 0x6584ed4, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
 
-  /// @brief Method WriteXmlValue, addr 0x615d270, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlValue, addr 0x6584e48, size 0x8c, virtual true, abstract: false, final false
   inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
 
-  /// @brief Method .ctor, addr 0x615d138, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6584d10, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReadMethodName, addr 0x615d22c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ReadMethodName, addr 0x6584e04, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ReadMethodName();
 
-  /// @brief Method get_WriteMethodName, addr 0x615d1e8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_WriteMethodName, addr 0x6584dc0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_WriteMethodName();
 
 protected:
@@ -71,7 +71,7 @@ public:
   DecimalDataContract(DecimalDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16458 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

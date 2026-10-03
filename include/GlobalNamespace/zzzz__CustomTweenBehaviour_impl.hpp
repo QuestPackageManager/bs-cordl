@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour___c::*)()>(&::GlobalNamespace::CustomTweenBehaviour___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5908280;
+  constexpr static std::size_t addrs = 0x5d22900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomTweenBehaviour___c*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::CustomTweenBehaviour___c::*)(int32_t)>(&::GlobalNamespace::CustomTweenBehaviour___c::_OnBehaviourPlay_b__21_0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5908284;
+  constexpr static std::size_t addrs = 0x5d22904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(::UnityEngine::Playables::Playable)>(&::GlobalNamespace::CustomTweenBehaviour::OnGraphStart)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x59079d8;
+  constexpr static std::size_t addrs = 0x5d22058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(
     &::GlobalNamespace::CustomTweenBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x5907b14;
+  constexpr static std::size_t addrs = 0x5d22194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::CustomTweenBehaviour::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5907ef4;
+  constexpr static std::size_t addrs = 0x5d22574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(
     &::GlobalNamespace::CustomTweenBehaviour::OnBehaviourPlay)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x5907ffc;
+  constexpr static std::size_t addrs = 0x5d2267c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)()>(&::GlobalNamespace::CustomTweenBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5908218;
+  constexpr static std::size_t addrs = 0x5d22898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomTweenBehaviour*>(), { ".ctor", {}, {} })));

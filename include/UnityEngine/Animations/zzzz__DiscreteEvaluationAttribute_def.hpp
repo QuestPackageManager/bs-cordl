@@ -12,8 +12,8 @@ class DiscreteEvaluationAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Animations::DiscreteEvaluationAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Animations::DiscreteEvaluationAttribute*, "UnityEngine.Animations", "DiscreteEvaluationAttribute");
-// [RequiredByNativeCode]
 // [AttributeUsage((System.AttributeTargets)256)]
+// [RequiredByNativeCode]
 // Dependencies System.Attribute
 namespace UnityEngine::Animations {
 // Is value type: false
@@ -36,7 +36,7 @@ public:
   DiscreteEvaluationAttribute(DiscreteEvaluationAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20242 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20898 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

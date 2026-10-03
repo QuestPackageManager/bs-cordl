@@ -27,12 +27,12 @@ struct CORDL_TYPE ExecutionContextSwitcher {
 public:
   // Declarations
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
-  /// @brief Method Undo, addr 0x5cb0620, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Undo, addr 0x60ca168, size 0x8c, virtual false, abstract: false, final false
   inline void Undo();
 
   /// [HandleProcessCorruptedStateExceptions]
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
-  /// @brief Method UndoNoThrow, addr 0x5cb059c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UndoNoThrow, addr 0x60ca0e4, size 0x84, virtual false, abstract: false, final false
   inline bool UndoNoThrow();
 
   // Ctor Parameters []

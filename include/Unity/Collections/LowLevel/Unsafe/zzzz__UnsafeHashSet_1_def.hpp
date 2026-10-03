@@ -117,7 +117,7 @@ public:
   constexpr UnsafeHashSet_1_Enumerator(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1_Enumerator<T> m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16008 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -204,7 +204,7 @@ public:
   constexpr UnsafeHashSet_1_ReadOnly(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<T> m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16009 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -328,8 +328,11 @@ public:
   // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<T>", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeHashSet_1(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<T> m_Data) noexcept;
 
+  /// @brief Field MaxCapacity offset 0xffffffff size 0x4
+  static constexpr int32_t MaxCapacity{ static_cast<int32_t>(0x20000000) };
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16010 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

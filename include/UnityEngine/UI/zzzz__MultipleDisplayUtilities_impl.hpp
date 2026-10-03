@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::EventSystems::PointerEventData*, ::by_ref<::UnityEngine::Vector2>)>(
     &::UnityEngine::UI::MultipleDisplayUtilities::GetRelativeMousePositionForDrag)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e01954;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x7299fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::UI::MultipleDisplayUtilities::GetRelativeMousePositionForRaycast)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6e01ea4;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x729a440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,8 +40,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector2, int32_t)>(&::UnityEngine::UI::MultipleDisplayUtilities::RelativeMouseAtScaled)> {
-  constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x6e019c0;
+  constexpr static std::size_t size = 0x408;
+  constexpr static std::size_t addrs = 0x729a038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::MultipleDisplayUtilities*>(),

@@ -24,7 +24,7 @@ class CORDL_TYPE ExceptionHelpers : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method IsExceptionIndicatingBugInCode, addr 0x65014cc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsExceptionIndicatingBugInCode, addr 0x692a330, size 0xf0, virtual false, abstract: false, final false
   static inline bool IsExceptionIndicatingBugInCode(::System::Exception* exception);
 
 protected:
@@ -42,7 +42,7 @@ public:
   ExceptionHelpers(ExceptionHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11125 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

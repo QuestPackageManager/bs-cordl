@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::TemporalAAQuality (::UnityEngine::Rendering::Universal::TemporalAA_Settings::*)()>(
     &::UnityEngine::Rendering::Universal::TemporalAA_Settings::get_quality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1128;
+  constexpr static std::size_t addrs = 0x6cf84cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TemporalAA_Settings>(), { "get_quality", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TemporalAA_Settings::*)(::UnityEngine::Rendering::Universal::TemporalAAQuality)>(
     &::UnityEngine::Rendering::Universal::TemporalAA_Settings::set_quality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68c1130;
+  constexpr static std::size_t addrs = 0x6cf84d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TemporalAA_Settings>(),
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::TemporalAA_Settings::*)()>(
     &::UnityEngine::Rendering::Universal::TemporalAA_Settings::get_baseBlendFactor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68c1148;
+  constexpr static std::size_t addrs = 0x6cf84ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TemporalAA_Settings::*)(float_t)>(
     &::UnityEngine::Rendering::Universal::TemporalAA_Settings::set_baseBlendFactor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x68c1158;
+  constexpr static std::size_t addrs = 0x6cf84fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::TemporalAA_Settings::*)()>(
     &::UnityEngine::Rendering::Universal::TemporalAA_Settings::get_jitterScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c117c;
+  constexpr static std::size_t addrs = 0x6cf8520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TemporalAA_Settings::*)(float_t)>(
     &::UnityEngine::Rendering::Universal::TemporalAA_Settings::set_jitterScale)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68c1184;
+  constexpr static std::size_t addrs = 0x6cf8528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::TemporalAA_Settings::*)()>(
     &::UnityEngine::Rendering::Universal::TemporalAA_Settings::get_mipBias)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c11a4;
+  constexpr static std::size_t addrs = 0x6cf8548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TemporalAA_Settings>(), { "get_mipBias", {}, {} })));
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TemporalAA_Settings::*)(float_t)>(
     &::UnityEngine::Rendering::Universal::TemporalAA_Settings::set_mipBias)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68c11ac;
+  constexpr static std::size_t addrs = 0x6cf8550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::TemporalAA_Settings::*)()>(
     &::UnityEngine::Rendering::Universal::TemporalAA_Settings::get_varianceClampScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c11cc;
+  constexpr static std::size_t addrs = 0x6cf8570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TemporalAA_Settings::*)(float_t)>(
     &::UnityEngine::Rendering::Universal::TemporalAA_Settings::set_varianceClampScale)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x68c11d4;
+  constexpr static std::size_t addrs = 0x6cf8578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::TemporalAA_Settings::*)()>(
     &::UnityEngine::Rendering::Universal::TemporalAA_Settings::get_contrastAdaptiveSharpening)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c11f8;
+  constexpr static std::size_t addrs = 0x6cf859c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TemporalAA_Settings::*)(float_t)>(
     &::UnityEngine::Rendering::Universal::TemporalAA_Settings::set_contrastAdaptiveSharpening)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68c1200;
+  constexpr static std::size_t addrs = 0x6cf85a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::TemporalAA_Settings (*)()>(&::UnityEngine::Rendering::Universal::TemporalAA_Settings::Create)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68c1220;
+  constexpr static std::size_t addrs = 0x6cf85c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TemporalAA_Settings>(), { "Create", {}, {} })));
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x68bee3c;
+  constexpr static std::size_t addrs = 0x6cf609c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc*>(),
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc::*)(int32_t, ::by_ref<::UnityEngine::Vector2>, ::by_ref<bool>)>(
     &::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68c1240;
+  constexpr static std::size_t addrs = 0x6cf85e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc*>(),
@@ -365,7 +365,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc::*)(int32_t, ::by_ref<::UnityEngine::Vector2>, ::by_ref<bool>, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc::BeginInvoke)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x68c1254;
+  constexpr static std::size_t addrs = 0x6cf85f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc*>(),
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc::*)(::by_ref<::UnityEngine::Vector2>, ::by_ref<bool>, ::System::IAsyncResult*)>(
     &::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x68c131c;
+  constexpr static std::size_t addrs = 0x6cf86c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc*>(),
@@ -418,7 +418,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TemporalAA_TaaPassData::*)()>(&::UnityEngine::Rendering::Universal::TemporalAA_TaaPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68c1340;
+  constexpr static std::size_t addrs = 0x6cf86e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TemporalAA_TaaPassData*>(), { ".ctor", {}, {} })));
@@ -583,7 +583,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TemporalAA___c::*)()>(&::UnityEngine::Rendering::Universal::TemporalAA___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68c1398;
+  constexpr static std::size_t addrs = 0x6cf873c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TemporalAA___c*>(), { ".ctor", {}, {} })));
@@ -597,7 +597,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                      ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::TemporalAA___c::_Render_b__17_0)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x68c139c;
+  constexpr static std::size_t addrs = 0x6cf8740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TemporalAA___c*>(),
@@ -615,7 +615,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                      ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::TemporalAA___c::_Render_b__17_1)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x68c16b4;
+  constexpr static std::size_t addrs = 0x6cf8a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TemporalAA___c*>(),
@@ -698,7 +698,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::UnityEngine::Rendering::Universal::TemporalAA_Settings>)>(
     &::UnityEngine::Rendering::Universal::TemporalAA::CalculateTaaFrameIndex)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x68bea6c;
+  constexpr static std::size_t addrs = 0x6cf5cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -713,7 +713,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(
     ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc*)>(&::UnityEngine::Rendering::Universal::TemporalAA::CalculateJitterMatrix)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x68bf0e0;
+  constexpr static std::size_t addrs = 0x6cf6340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -730,7 +730,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::by_ref<::UnityEngine::Vector2>, ::by_ref<bool>)>(&::UnityEngine::Rendering::Universal::TemporalAA::CalculateJitter)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x68bf2a8;
+  constexpr static std::size_t addrs = 0x6cf6508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -745,7 +745,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<float_t> (*)(::by_ref<::UnityEngine::Rendering::Universal::TemporalAA_Settings>)>(
     &::UnityEngine::Rendering::Universal::TemporalAA::CalculateFilterWeights)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x68bf340;
+  constexpr static std::size_t addrs = 0x6cf65a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -760,7 +760,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RenderTextureDescriptor (*)(::by_ref<::UnityEngine::RenderTextureDescriptor>)>(
     &::UnityEngine::Rendering::Universal::TemporalAA::TemporalAADescFromCameraDesc)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x68bf57c;
+  constexpr static std::size_t addrs = 0x6cf67dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -774,8 +774,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::Rendering::Universal::UniversalCameraData*, bool)>(
     &::UnityEngine::Rendering::Universal::TemporalAA::ValidateAndWarn)> {
-  constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x68bf784;
+  constexpr static std::size_t size = 0x324;
+  constexpr static std::size_t addrs = 0x6cf69e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -791,7 +791,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::RenderTexture*)>(
     &::UnityEngine::Rendering::Universal::TemporalAA::ExecutePass)> {
   constexpr static std::size_t size = 0x538;
-  constexpr static std::size_t addrs = 0x68bfc58;
+  constexpr static std::size_t addrs = 0x6cf6ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -812,8 +812,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
                          ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
         &::UnityEngine::Rendering::Universal::TemporalAA::Render)> {
-  constexpr static std::size_t size = 0xbb4;
-  constexpr static std::size_t addrs = 0x68c0190;
+  constexpr static std::size_t size = 0xcf0;
+  constexpr static std::size_t addrs = 0x6cf73f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

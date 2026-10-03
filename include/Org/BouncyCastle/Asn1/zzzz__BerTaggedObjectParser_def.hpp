@@ -54,7 +54,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method GetObjectParser, addr 0x368cc50, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method GetObjectParser, addr 0x3915eec, size 0x94, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetObjectParser(int32_t tag, bool isExplicit);
 
   /// @brief [Obsolete]
@@ -62,7 +62,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* New_ctor(bool constructed, int32_t tagNumber, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method ToAsn1Object, addr 0x3683cd0, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method ToAsn1Object, addr 0x390cf6c, size 0xf8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr bool const& __cordl_internal_get__constructed() const;
@@ -84,16 +84,16 @@ public:
   constexpr void __cordl_internal_set__tagNumber(int32_t value);
 
   /// [Obsolete]
-  /// @brief Method .ctor, addr 0x368cbac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3915e48, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(int32_t baseTag, int32_t tagNumber, ::System::IO::Stream* contentStream);
 
-  /// @brief Method .ctor, addr 0x3683cc0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x390cf5c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool constructed, int32_t tagNumber, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method get_IsConstructed, addr 0x368cc40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsConstructed, addr 0x3915edc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsConstructed();
 
-  /// @brief Method get_TagNo, addr 0x368cc48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TagNo, addr 0x3915ee4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_TagNo();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser"

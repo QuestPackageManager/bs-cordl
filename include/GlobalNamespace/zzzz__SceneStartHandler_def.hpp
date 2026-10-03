@@ -83,31 +83,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddPlayerSpecificSettingsToDictionary, addr 0x32baf64, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AddPlayerSpecificSettingsToDictionary, addr 0x35422e0, size 0x8c, virtual false, abstract: false, final false
   inline void AddPlayerSpecificSettingsToDictionary(::GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettingsNetSerializable);
 
-  /// @brief Method CreatePlayersSpecificSettingsAtGameStartData, addr 0x32baff0, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method CreatePlayersSpecificSettingsAtGameStartData, addr 0x354236c, size 0x2d0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* CreatePlayersSpecificSettingsAtGameStartData();
 
-  /// @brief Method Dispose, addr 0x32ba4bc, size 0x384, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3541838, size 0x384, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method ForceStart, addr 0x32bb2c0, size 0x6cc, virtual false, abstract: false, final false
+  /// @brief Method ForceStart, addr 0x354263c, size 0x6cc, virtual false, abstract: false, final false
   inline void ForceStart();
 
-  /// @brief Method GetSceneLoadStatus, addr 0x32ba840, size 0x724, virtual false, abstract: false, final false
+  /// @brief Method GetSceneLoadStatus, addr 0x3541bbc, size 0x724, virtual false, abstract: false, final false
   inline void GetSceneLoadStatus();
 
-  /// @brief Method HandleGetGameplaySceneReady, addr 0x32bbd78, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleGetGameplaySceneReady, addr 0x35430f4, size 0xb8, virtual false, abstract: false, final false
   inline void HandleGetGameplaySceneReady(::StringW userId);
 
-  /// @brief Method HandleSetGameplaySceneReady, addr 0x32bb98c, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method HandleSetGameplaySceneReady, addr 0x3542d08, size 0x3ec, virtual false, abstract: false, final false
   inline void HandleSetGameplaySceneReady(::StringW userId, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettings);
 
-  /// @brief Method HandleSetGameplaySceneSyncFinished, addr 0x32bbe30, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HandleSetGameplaySceneSyncFinished, addr 0x35431ac, size 0x68, virtual false, abstract: false, final false
   inline void HandleSetGameplaySceneSyncFinished(::StringW userId, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::StringW sessionId);
 
-  /// @brief Method HandleSetPlayerDidConnectLate, addr 0x32bbe98, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method HandleSetPlayerDidConnectLate, addr 0x3543214, size 0x2ac, virtual false, abstract: false, final false
   inline void HandleSetPlayerDidConnectLate(::StringW userId, ::StringW failedUserId, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::StringW sessionId);
 
   static inline ::GlobalNamespace::SceneStartHandler* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,
@@ -168,27 +168,27 @@ public:
 
   constexpr void __cordl_internal_set_sceneSetupDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x32ba3b8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3541734, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                     ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
   /// [CompilerGenerated]
-  /// @brief Method add_sceneSetupDidFinishEvent, addr 0x32ba0b8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_sceneSetupDidFinishEvent, addr 0x3541434, size 0xc0, virtual false, abstract: false, final false
   inline void add_sceneSetupDidFinishEvent(::System::Action_1<::StringW>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_sceneSetupDidReceiveTooLateEvent, addr 0x32ba238, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_sceneSetupDidReceiveTooLateEvent, addr 0x35415b4, size 0xc0, virtual false, abstract: false, final false
   inline void add_sceneSetupDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_sceneSetupDidFinishEvent, addr 0x32ba178, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_sceneSetupDidFinishEvent, addr 0x35414f4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_sceneSetupDidFinishEvent(::System::Action_1<::StringW>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_sceneSetupDidReceiveTooLateEvent, addr 0x32ba2f8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_sceneSetupDidReceiveTooLateEvent, addr 0x3541674, size 0xc0, virtual false, abstract: false, final false
   inline void remove_sceneSetupDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
 protected:
@@ -206,7 +206,7 @@ public:
   SceneStartHandler(SceneStartHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19527 };
 
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;

@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6903f04;
+  constexpr static std::size_t addrs = 0x6d2c15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,6 +157,18 @@ constexpr void UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassDa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cameraData = value;
 }
+constexpr bool& UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData::__cordl_internal_get_useFullScreenViewport() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___useFullScreenViewport;
+}
+constexpr bool const& UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData::__cordl_internal_get_useFullScreenViewport() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___useFullScreenViewport;
+}
+constexpr void UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData::__cordl_internal_set_useFullScreenViewport(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___useFullScreenViewport = value;
+}
 inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*>(), { ".ctor", {}, {} })));
@@ -173,25 +185,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69058d0;
+  constexpr static std::size_t addrs = 0x6d2c1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c._Render_b__17_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c._Render_b__15_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::*)(
     ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
-    &::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::_Render_b__17_0)> {
-  constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x69058d4;
+    &::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::_Render_b__15_0)> {
+  constexpr static std::size_t size = 0x430;
+  constexpr static std::size_t addrs = 0x6d2c1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c*>(),
-                                                                                           { "<Render>b__17_0",
+                                                                                           { "<Render>b__15_0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -205,30 +217,30 @@ inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::setS
 inline ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c* UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c*, "<>9", ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c*>();
 }
-inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::setStaticF___9__17_0(
+inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::setStaticF___9__15_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                    "<>9__17_0", ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c*>(
+                                    "<>9__15_0", ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::getStaticF___9__17_0() {
+UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::getStaticF___9__15_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                           "<>9__17_0", ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c*>();
+                                           "<>9__15_0", ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c*>();
 }
 inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::_Render_b__17_0(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* data,
+inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::_Render_b__15_0(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* data,
                                                                                             ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c*>(),
-                                                                                         { "<Render>b__17_0",
+                                                                                         { "<Render>b__15_0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -239,13 +251,41 @@ inline ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c* UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::FinalBlitPass___c() {}
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass.OnCameraSetup
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)(
+    ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::OnCameraSetup)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6d2af18;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(), 6 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass.Execute
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)(
+    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Execute)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6d2af1c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(), 9 }));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)(
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Material*, ::UnityEngine::Material*)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::_ctor)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x6903cfc;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x6d2af20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -262,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6903f08;
+  constexpr static std::size_t addrs = 0x6d2b0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(), { "Dispose", {}, {} })));
@@ -275,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)(
     ::UnityEngine::RenderTextureDescriptor, ::UnityEngine::Rendering::Universal::RenderTargetHandle)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Setup)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6903f0c;
+  constexpr static std::size_t addrs = 0x6d2b0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,8 +330,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)(
     ::UnityEngine::RenderTextureDescriptor, ::UnityEngine::Rendering::RTHandle*)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Setup)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6903f58;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6d2b128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ColorGamut, ::UnityEngine::Material*, ::UnityEngine::Rendering::HDROutputUtils_Operation, ::UnityEngine::Vector4, bool)>(
     &::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::SetupHDROutput)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6903f60;
+  constexpr static std::size_t addrs = 0x6d2b12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -318,51 +358,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::C
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass.OnCameraSetup
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)(
-    ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::OnCameraSetup)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x690409c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(), 6 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass.Execute
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)(
-    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Execute)> {
-  constexpr static std::size_t size = 0x9dc;
-  constexpr static std::size_t addrs = 0x6904170;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(), 10 }));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass.ExecutePass
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*,
-                                                                ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
-    &::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::ExecutePass)> {
-  constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x6904bdc;
+                                                                ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::Universal::UniversalCameraData*,
+                                                                ::UnityEngine::Vector4)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::ExecutePass)> {
+  constexpr static std::size_t size = 0x31c;
+  constexpr static std::size_t addrs = 0x6d2b268;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
-                                                { "ExecutePass",
-                                                  {},
-                                                  { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
-                                                    ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*>(), ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(),
-                                                    ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
+                                         { "ExecutePass",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*>(),
+                                             ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(), ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(),
+                                             ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::UnityEngine::Vector4>() } })));
     return ___internal_method;
   }
 };
@@ -371,18 +384,18 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)(
     ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::by_ref<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*>,
-    ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType, bool)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::InitPassData)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6904b4c;
+    ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType, bool, bool)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::InitPassData)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6d2b584;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
-                                                             { "InitPassData",
-                                                               {},
-                                                               { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*>>(),
-                                                                 ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
+                                                { "InitPassData",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*>>(),
+                                                    ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -392,47 +405,23 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Rendering::Universal::UniversalCameraData*,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
-    ::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Render)> {
-  constexpr static std::size_t size = 0xa04;
-  constexpr static std::size_t addrs = 0x6904e08;
+    ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, bool)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Render)> {
+  constexpr static std::size_t size = 0xac4;
+  constexpr static std::size_t addrs = 0x6d2b628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
-            { "Render",
-              {},
-              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
-                ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>() } })));
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
+                            { "Render",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
+                                ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+                                ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Rendering::RTHandle*& UnityEngine::Rendering::Universal::Internal::FinalBlitPass::__cordl_internal_get_m_Source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Source;
-}
-constexpr ::UnityEngine::Rendering::RTHandle* const& UnityEngine::Rendering::Universal::Internal::FinalBlitPass::__cordl_internal_get_m_Source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Source;
-}
-constexpr void UnityEngine::Rendering::Universal::Internal::FinalBlitPass::__cordl_internal_set_m_Source(::UnityEngine::Rendering::RTHandle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_Source = value;
-}
-constexpr ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*& UnityEngine::Rendering::Universal::Internal::FinalBlitPass::__cordl_internal_get_m_PassData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* const& UnityEngine::Rendering::Universal::Internal::FinalBlitPass::__cordl_internal_get_m_PassData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr void UnityEngine::Rendering::Universal::Internal::FinalBlitPass::__cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_PassData = value;
-}
 constexpr ::ArrayW<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitMaterialData>&
 UnityEngine::Rendering::Universal::Internal::FinalBlitPass::__cordl_internal_get_m_BlitMaterialData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -453,6 +442,18 @@ inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass::setStati
 }
 inline int32_t UnityEngine::Rendering::Universal::Internal::FinalBlitPass::getStaticF_s_CameraDepthTextureID() {
   return ::cordl_internals::getStaticField<int32_t, "s_CameraDepthTextureID", ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>();
+}
+inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass::OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd,
+                                                                                      ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, renderingData);
+}
+inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
+                                                                                ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(), 9 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass::_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* blitMaterial,
                                                                               ::UnityEngine::Material* blitHDRMaterial) {
@@ -492,59 +493,49 @@ inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass::SetupHDR
                                                   ::i2c::type_of<::UnityEngine::Rendering::HDROutputUtils_Operation>(), ::i2c::type_of<::UnityEngine::Vector4>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, hdrDisplayColorGamut, material, hdrOperation, hdrOutputParameters, rendersOverlayUI);
 }
-inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass::OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd,
-                                                                                      ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(), 6 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, renderingData);
-}
-inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
-                                                                                ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(), 10 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
-}
 inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass::ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
                                                                                     ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* data,
                                                                                     ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination,
-                                                                                    ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
-                                              { "ExecutePass",
-                                                {},
-                                                { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
-                                                  ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*>(), ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(),
-                                                  ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, data, source, destination, cameraData);
+                                                                                    ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Vector4 scaleBias) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
+                                       { "ExecutePass",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*>(),
+                                           ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(), ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(),
+                                           ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::UnityEngine::Vector4>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, data, source, destination, cameraData, scaleBias);
 }
 inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass::InitPassData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                                      ::by_ref<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*> passData,
-                                                                                     ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType blitType, bool enableAlphaOutput) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
-                                                           { "InitPassData",
-                                                             {},
-                                                             { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*>>(),
-                                                               ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cameraData, passData, blitType, enableAlphaOutput);
+                                                                                     ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType blitType, bool enableAlphaOutput,
+                                                                                     bool useFullScreenViewport) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
+                                              { "InitPassData",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*>>(),
+                                                  ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cameraData, passData, blitType, enableAlphaOutput, useFullScreenViewport);
 }
 inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                ::UnityEngine::Rendering::ContextContainer* frameData,
                                                                                ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> src,
                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> dest,
-                                                                               ::UnityEngine::Rendering::RenderGraphModule::TextureHandle overlayUITexture) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
-                       { "Render",
-                         {},
-                         { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
-                           ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, frameData, cameraData, src, dest, overlayUITexture);
+                                                                               ::UnityEngine::Rendering::RenderGraphModule::TextureHandle overlayUITexture, bool useFullScreenViewport) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
+                          { "Render",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
+                              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+                              ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, frameData, cameraData, src, dest, overlayUITexture, useFullScreenViewport);
 }
 inline ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass* UnityEngine::Rendering::Universal::Internal::FinalBlitPass::New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                                                                                                                                           ::UnityEngine::Material* blitMaterial,

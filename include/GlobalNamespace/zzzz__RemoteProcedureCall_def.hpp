@@ -99,7 +99,7 @@ public:
   RemoteProcedureCall_TypeWrapper_1(RemoteProcedureCall_TypeWrapper_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18795 };
 
   /// @brief Field _v, offset: 0x10, size: 0x8, def value: None
   T ____v;
@@ -131,24 +131,24 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method DeserializeData, addr 0x33406a0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DeserializeData, addr 0x35c993c, size 0x4, virtual true, abstract: false, final false
   inline void DeserializeData(::LiteNetLib::Utils::NetDataReader* reader, uint32_t protocolVersion);
 
-  /// @brief Method Init, addr 0x3340844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x35c9ae0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IRemoteProcedureCall* Init(int64_t syncTime);
 
-  /// @brief Method LiteNetLib.Utils.INetSerializable.Deserialize, addr 0x33406e8, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.Utils.INetSerializable.Deserialize, addr 0x35c9984, size 0x44, virtual true, abstract: false, final true
   inline void LiteNetLib_Utils_INetSerializable_Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method LiteNetLib.Utils.INetSerializable.Serialize, addr 0x33406a4, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.Utils.INetSerializable.Serialize, addr 0x35c9940, size 0x44, virtual true, abstract: false, final true
   inline void LiteNetLib_Utils_INetSerializable_Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   static inline ::GlobalNamespace::RemoteProcedureCall* New_ctor();
 
-  /// @brief Method Release, addr 0x334072c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x35c99c8, size 0x4, virtual true, abstract: false, final false
   inline void Release();
 
-  /// @brief Method SerializeData, addr 0x334069c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SerializeData, addr 0x35c9938, size 0x4, virtual true, abstract: false, final false
   inline void SerializeData(::LiteNetLib::Utils::NetDataWriter* writer, uint32_t protocolVersion);
 
   constexpr int64_t const& __cordl_internal_get__syncTime_k__BackingField() const;
@@ -157,11 +157,11 @@ public:
 
   constexpr void __cordl_internal_set__syncTime_k__BackingField(int64_t value);
 
-  /// @brief Method .ctor, addr 0x334084c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35c9ae8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_syncTime, addr 0x334068c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_syncTime, addr 0x35c9928, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_syncTime();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -174,7 +174,7 @@ public:
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_syncTime, addr 0x3340694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_syncTime, addr 0x35c9930, size 0x8, virtual false, abstract: false, final false
   inline void set_syncTime(int64_t value);
 
 protected:
@@ -192,7 +192,7 @@ public:
   RemoteProcedureCall(RemoteProcedureCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18796 };
 
   /// [CompilerGenerated]
   /// @brief Field <syncTime>k__BackingField, offset: 0x10, size: 0x8, def value: None

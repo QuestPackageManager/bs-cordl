@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::EventAttributeFloat___c::*)()>(&::UnityEngine::VFX::EventAttributeFloat___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69d2df4;
+  constexpr static std::size_t addrs = 0x6e0ff84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::EventAttributeFloat___c*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::EventAttributeFloat___c::*)(::UnityEngine::VFX::VFXEventAttribute*, int32_t)>(
     &::UnityEngine::VFX::EventAttributeFloat___c::__ctor_b__0_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69d2df8;
+  constexpr static std::size_t addrs = 0x6e0ff88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::EventAttributeFloat___c::*)(::UnityEngine::VFX::VFXEventAttribute*, int32_t, float_t)>(
     &::UnityEngine::VFX::EventAttributeFloat___c::__ctor_b__0_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69d2e14;
+  constexpr static std::size_t addrs = 0x6e0ffa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::EventAttributeFloat::*)()>(&::UnityEngine::VFX::EventAttributeFloat::_ctor)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x69d2c20;
+  constexpr static std::size_t addrs = 0x6e0fdb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::EventAttributeFloat*>(), { ".ctor", {}, {} })));

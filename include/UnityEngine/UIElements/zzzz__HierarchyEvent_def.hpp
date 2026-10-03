@@ -34,13 +34,13 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE HierarchyEvent : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6db77d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x726acc0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType changeType,
                      ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::UIElements::VisualElement*>* additionalContext);
 
   static inline ::UnityEngine::UIElements::HierarchyEvent* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6db768c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x726ab78, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -58,7 +58,7 @@ public:
   HierarchyEvent(HierarchyEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4683 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

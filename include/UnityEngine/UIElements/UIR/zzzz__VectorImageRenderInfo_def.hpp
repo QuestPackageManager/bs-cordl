@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(VectorImageRenderInfo)
 namespace UnityEngine::UIElements::UIR {
 class GradientRemap;
 }
+namespace UnityEngine {
+class Texture2D;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
 class VectorImageRenderInfo;
@@ -24,6 +27,9 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE VectorImageRenderInfo : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*> {
 public:
   // Declarations
+  /// @brief Field atlas, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_atlas, put = __cordl_internal_set_atlas)) ::UnityW<::UnityEngine::Texture2D> atlas;
+
   /// @brief Field firstGradientRemap, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_firstGradientRemap, put = __cordl_internal_set_firstGradientRemap)) ::UnityEngine::UIElements::UIR::GradientRemap* firstGradientRemap;
 
@@ -35,8 +41,12 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x6cf5e34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x7189e9c, size 0x14, virtual false, abstract: false, final false
   inline void Reset();
+
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_atlas() const;
+
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_atlas();
 
   constexpr ::UnityEngine::UIElements::UIR::GradientRemap* const& __cordl_internal_get_firstGradientRemap() const;
 
@@ -50,13 +60,15 @@ public:
 
   constexpr int32_t& __cordl_internal_get_useCount();
 
+  constexpr void __cordl_internal_set_atlas(::UnityW<::UnityEngine::Texture2D> value);
+
   constexpr void __cordl_internal_set_firstGradientRemap(::UnityEngine::UIElements::UIR::GradientRemap* value);
 
   constexpr void __cordl_internal_set_gradientSettingsAlloc(::UnityEngine::UIElements::UIR::Alloc value);
 
   constexpr void __cordl_internal_set_useCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6cf5ddc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7189e40, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +86,7 @@ public:
   VectorImageRenderInfo(VectorImageRenderInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5479 };
 
   /// @brief Field useCount, offset: 0x18, size: 0x4, def value: None
   int32_t ___useCount;
@@ -85,6 +97,9 @@ public:
   /// @brief Field gradientSettingsAlloc, offset: 0x28, size: 0x18, def value: None
   ::UnityEngine::UIElements::UIR::Alloc ___gradientSettingsAlloc;
 
+  /// @brief Field atlas, offset: 0x40, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Texture2D> ___atlas;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -94,6 +109,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageRenderInfo, __
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageRenderInfo, ___gradientSettingsAlloc) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::UIR::VectorImageRenderInfo) == 0x40, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageRenderInfo, ___atlas) == 0x40, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::UIR::VectorImageRenderInfo) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR

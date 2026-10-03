@@ -25,29 +25,35 @@ namespace GlobalNamespace {
 class CORDL_TYPE MathfExtra : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Approximately, addr 0x3325bec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x35aedf0, size 0x10, virtual false, abstract: false, final false
   static inline bool Approximately(float_t a, float_t b, float_t precision);
 
-  /// @brief Method MaxAbs, addr 0x3325bd8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ExponentialDecay, addr 0x35aed08, size 0x34, virtual false, abstract: false, final false
+  static inline float_t ExponentialDecay(float_t current, float_t target, float_t decay, float_t deltaTime);
+
+  /// @brief Method MaxAbs, addr 0x35aeddc, size 0x14, virtual false, abstract: false, final false
   static inline float_t MaxAbs(float_t a, float_t b);
 
-  /// @brief Method Mod, addr 0x3325a70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Mod, addr 0x35aeba0, size 0x14, virtual false, abstract: false, final false
   static inline float_t Mod(float_t value, float_t mod);
 
-  /// @brief Method Mod, addr 0x3325a84, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Mod, addr 0x35aebb4, size 0x30, virtual false, abstract: false, final false
   static inline int32_t Mod(int32_t value, int32_t mod);
 
-  /// @brief Method Repeat, addr 0x3325e74, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Repeat, addr 0x35af078, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t Repeat(int32_t t, int32_t length);
 
   /// [Extension]
-  /// @brief Method Round, addr 0x3325c30, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x35aee34, size 0x244, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 Round(::UnityEngine::Vector4 value, int32_t digits);
 
-  /// @brief Method Round, addr 0x3325ab4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x35aebe4, size 0x124, virtual false, abstract: false, final false
   static inline float_t Round(float_t value, int32_t decimals);
 
-  /// @brief Method ShortestAngleDifference, addr 0x3325bfc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SafeDivide, addr 0x35aed3c, size 0xa0, virtual false, abstract: false, final false
+  static inline float_t SafeDivide(float_t numerator, float_t denominator, float_t fallback);
+
+  /// @brief Method ShortestAngleDifference, addr 0x35aee00, size 0x34, virtual false, abstract: false, final false
   static inline float_t ShortestAngleDifference(float_t from, float_t to);
 
 protected:
@@ -65,7 +71,7 @@ public:
   MathfExtra(MathfExtra const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21405 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

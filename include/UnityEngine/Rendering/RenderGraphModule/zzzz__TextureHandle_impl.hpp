@@ -2,6 +2,8 @@
 // IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/TextureHandle.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureDesc_def.hpp"
@@ -14,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureHandle (*)()>(&::UnityEngine::Rendering::RenderGraphModule::TextureHandle::get_nullHandle)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67ea008;
+  constexpr static std::size_t addrs = 0x6c134f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureHandle::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureHandle::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67ea064;
+  constexpr static std::size_t addrs = 0x6c13550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureHandle::*)(int32_t, bool, bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureHandle::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x67e7000;
+  constexpr static std::size_t addrs = 0x6c0fef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
@@ -57,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderTargetIdentifier (*)(::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureHandle::op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x67ea07c;
+  constexpr static std::size_t addrs = 0x6c13568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
@@ -71,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture> (*)(::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureHandle::op_Implicit___UnityW___UnityEngine__Texture_)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x67ea25c;
+  constexpr static std::size_t addrs = 0x6c13748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
@@ -85,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureHandle::op_Implicit___UnityW___UnityEngine__RenderTexture_)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x67ea3fc;
+  constexpr static std::size_t addrs = 0x6c138e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
@@ -99,11 +101,87 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (*)(::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureHandle::op_Implicit___UnityEngine__Rendering__RTHandle_)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x67ea5a0;
+  constexpr static std::size_t addrs = 0x6c13a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
                                                                                            { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::TextureHandle.Equals
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::TextureHandle::*)(::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
+    &::UnityEngine::Rendering::RenderGraphModule::TextureHandle::Equals)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x6c13c28;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+                                                                                           { "Equals", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::TextureHandle.Equals
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::TextureHandle::*)(::System::Object*)>(
+    &::UnityEngine::Rendering::RenderGraphModule::TextureHandle::Equals)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6c13cfc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), 0 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::TextureHandle.GetHashCode
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::TextureHandle::*)()>(
+    &::UnityEngine::Rendering::RenderGraphModule::TextureHandle::GetHashCode)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6c13d90;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), 2 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::TextureHandle.op_Equality
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
+    &::UnityEngine::Rendering::RenderGraphModule::TextureHandle::op_Equality)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6c13e58;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+            { "op_Equality", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::TextureHandle.op_Inequality
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
+    &::UnityEngine::Rendering::RenderGraphModule::TextureHandle::op_Inequality)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6c13f18;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+            { "op_Inequality", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>() } })));
     return ___internal_method;
   }
 };
@@ -112,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::TextureHandle::*)()>(&::UnityEngine::Rendering::RenderGraphModule::TextureHandle::IsValid)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x67ea73c;
+  constexpr static std::size_t addrs = 0x6c13fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), { "IsValid", {}, {} })));
@@ -125,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::TextureHandle::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureHandle::IsBuiltin)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67ea820;
+  constexpr static std::size_t addrs = 0x6c140bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), { "IsBuiltin", {}, {} })));
@@ -138,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureDesc (::UnityEngine::Rendering::RenderGraphModule::TextureHandle::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*)>(&::UnityEngine::Rendering::RenderGraphModule::TextureHandle::GetDescriptor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x67ea828;
+  constexpr static std::size_t addrs = 0x6c140c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
@@ -192,6 +270,39 @@ UnityEngine::Rendering::RenderGraphModule::TextureHandle::op_Implicit___UnityEng
                                                                                          { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RTHandle*>(nullptr, ___internal_method, texture);
 }
+inline bool UnityEngine::Rendering::RenderGraphModule::TextureHandle::Equals(::UnityEngine::Rendering::RenderGraphModule::TextureHandle other) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+                                                                                         { "Equals", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
+}
+inline bool UnityEngine::Rendering::RenderGraphModule::TextureHandle::Equals(::System::Object* obj) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
+}
+inline int32_t UnityEngine::Rendering::RenderGraphModule::TextureHandle::GetHashCode() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::RenderGraphModule::TextureHandle::op_Equality(::UnityEngine::Rendering::RenderGraphModule::TextureHandle lhs,
+                                                                                  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle rhs) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+          { "op_Equality", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, lhs, rhs);
+}
+inline bool UnityEngine::Rendering::RenderGraphModule::TextureHandle::op_Inequality(::UnityEngine::Rendering::RenderGraphModule::TextureHandle lhs,
+                                                                                    ::UnityEngine::Rendering::RenderGraphModule::TextureHandle rhs) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+          { "op_Inequality", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, lhs, rhs);
+}
 inline bool UnityEngine::Rendering::RenderGraphModule::TextureHandle::IsValid() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), { "IsValid", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
@@ -205,6 +316,15 @@ UnityEngine::Rendering::RenderGraphModule::TextureHandle::GetDescriptor(::UnityE
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
                                                                                          { "GetDescriptor", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>(*this, ___internal_method, renderGraph);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>"
+constexpr UnityEngine::Rendering::RenderGraphModule::TextureHandle::operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>"
+constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*
+UnityEngine::Rendering::RenderGraphModule::TextureHandle::i___System__IEquatable_1___UnityEngine__Rendering__RenderGraphModule__TextureHandle_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "handle", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "builtin", ty:
 // "bool", modifiers: "", def_value: Some("{}"), comment: None }]

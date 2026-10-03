@@ -48,26 +48,26 @@ public:
 
   constexpr void __cordl_internal_set__ForceFullStates_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6e3deb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d9a08, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(/* [NotNull] */ ::StringW contract);
 
-  /// @brief Method .ctor, addr 0x6e3dec4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d9a14, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(/* [NotNull] */ ::StringW contract, bool forceFullStates);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Contract, addr 0x6e3ded0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Contract, addr 0x72d9a20, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Contract();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ForceFullStates, addr 0x6e3dee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ForceFullStates, addr 0x72d9a30, size 0x8, virtual false, abstract: false, final false
   inline bool get_ForceFullStates();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Contract, addr 0x6e3ded8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Contract, addr 0x72d9a28, size 0x8, virtual false, abstract: false, final false
   inline void set_Contract(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ForceFullStates, addr 0x6e3dee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ForceFullStates, addr 0x72d9a38, size 0x8, virtual false, abstract: false, final false
   inline void set_ForceFullStates(bool value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   ContractAnnotationAttribute(ContractAnnotationAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23347 };
 
   /// [CompilerGenerated]
   /// @brief Field <Contract>k__BackingField, offset: 0x10, size: 0x8, def value: None

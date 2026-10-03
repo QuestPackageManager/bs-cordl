@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SceneManagement::Scene (::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::get_Scene)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6920014;
+  constexpr static std::size_t addrs = 0x6d47b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)(::UnityEngine::SceneManagement::Scene)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::set_Scene)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x692001c;
+  constexpr static std::size_t addrs = 0x6d47b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::get_ReleaseSceneOnSceneUnloaded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6920024;
+  constexpr static std::size_t addrs = 0x6d47ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)(bool)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::set_ReleaseSceneOnSceneUnloaded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x692002c;
+  constexpr static std::size_t addrs = 0x6d47bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AsyncOperation* (::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::ActivateAsync)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6920034;
+  constexpr static std::size_t addrs = 0x6d47bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,8 +80,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::GetHashCode)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6920060;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6d47be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)(::System::Object*)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6920068;
+  constexpr static std::size_t addrs = 0x6d47c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>(),

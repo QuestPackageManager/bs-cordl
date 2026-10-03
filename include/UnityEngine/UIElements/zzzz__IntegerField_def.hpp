@@ -59,7 +59,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::IntegerField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d4eb18, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ddc48, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,7 +77,7 @@ public:
   IntegerField_UxmlFactory(IntegerField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4237 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -95,7 +95,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::IntegerField_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d4eb80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ddcb0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   IntegerField_UxmlTraits(IntegerField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4238 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -132,24 +132,24 @@ public:
 
   __declspec(property(get = get_parentIntegerField)) ::UnityEngine::UIElements::IntegerField* parentIntegerField;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x6d4eca4, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x71dde24, size 0x28c, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int32_t startValue);
 
   static inline ::UnityEngine::UIElements::IntegerField_IntegerInput* New_ctor();
 
-  /// @brief Method StringToValue, addr 0x6d4ef8c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x71de10c, size 0x2c, virtual true, abstract: false, final false
   inline int32_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x6d4ef30, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x71de0b0, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ValueToString(int32_t v);
 
-  /// @brief Method .ctor, addr 0x6d4e91c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71dda4c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowedCharacters, addr 0x6d4ec48, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_allowedCharacters, addr 0x71ddd78, size 0xac, virtual true, abstract: false, final false
   inline ::StringW get_allowedCharacters();
 
-  /// @brief Method get_parentIntegerField, addr 0x6d4ebcc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_parentIntegerField, addr 0x71ddcfc, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IntegerField* get_parentIntegerField();
 
 protected:
@@ -167,12 +167,12 @@ public:
   IntegerField_IntegerInput(IntegerField_IntegerInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4239 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::IntegerField_IntegerInput) == 0x4e8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::IntegerField_IntegerInput) == 0x308, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
@@ -200,26 +200,26 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x6d4e9d8, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x71ddb08, size 0x64, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int32_t startValue);
 
-  /// @brief Method CanTryParse, addr 0x6d4e9b8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CanTryParse, addr 0x71ddae8, size 0x20, virtual true, abstract: false, final false
   inline bool CanTryParse(::StringW textString);
 
   static inline ::UnityEngine::UIElements::IntegerField* New_ctor();
 
   static inline ::UnityEngine::UIElements::IntegerField* New_ctor(::StringW label, int32_t maxLength);
 
-  /// @brief Method StringToValue, addr 0x6d4e6b0, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x71dd7b0, size 0x110, virtual true, abstract: false, final false
   inline int32_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x6d4e5f0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x71dd6f0, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ValueToString(int32_t v);
 
-  /// @brief Method .ctor, addr 0x6d4e790, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71dd8c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d4e79c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71dd8cc, size 0x180, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -228,7 +228,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_integerInput, addr 0x6d4e560, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_integerInput, addr 0x71dd660, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IntegerField_IntegerInput* get_integerInput();
 
   static inline void setStaticF_inputUssClassName(::StringW value);
@@ -252,11 +252,11 @@ public:
   IntegerField(IntegerField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4235 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4240 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::IntegerField) == 0x540, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::IntegerField) == 0x378, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

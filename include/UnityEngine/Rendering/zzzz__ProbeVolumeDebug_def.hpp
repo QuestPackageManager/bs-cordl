@@ -122,16 +122,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IDebugData"
   constexpr operator ::UnityEngine::Rendering::IDebugData*() noexcept;
 
-  /// @brief Method GetReset, addr 0x6791adc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method GetReset, addr 0x6bac760, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Action* GetReset();
 
-  /// @brief Method Init, addr 0x6791a70, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6bac6f4, size 0x6c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::UnityEngine::Rendering::ProbeVolumeDebug* New_ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetReset>b__32_0, addr 0x6791b58, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <GetReset>b__32_0, addr 0x6bac7dc, size 0x6c, virtual false, abstract: false, final false
   inline void _GetReset_b__32_0();
 
   constexpr bool const& __cordl_internal_get_autoDrawProbes() const;
@@ -302,7 +302,7 @@ public:
 
   constexpr void __cordl_internal_set_visibleLayers(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x6791a04, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bac688, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Vector3 getStaticF_currentOffset();
@@ -331,7 +331,7 @@ public:
   ProbeVolumeDebug(ProbeVolumeDebug const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8987 };
 
   /// @brief Field drawProbes, offset: 0x10, size: 0x1, def value: None
   bool ___drawProbes;

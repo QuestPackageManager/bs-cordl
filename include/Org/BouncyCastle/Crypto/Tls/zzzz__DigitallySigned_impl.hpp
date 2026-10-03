@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DigitallySigned::*)(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Tls::DigitallySigned::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3443454;
+  constexpr static std::size_t addrs = 0x36cc6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* (::Org::BouncyCastle::Crypto::Tls::DigitallySigned::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DigitallySigned::get_Algorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34434ac;
+  constexpr static std::size_t addrs = 0x36cc748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Tls::DigitallySigned::*)()>(&::Org::BouncyCastle::Crypto::Tls::DigitallySigned::get_Signature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34434b4;
+  constexpr static std::size_t addrs = 0x36cc750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DigitallySigned::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::DigitallySigned::Encode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x34434bc;
+  constexpr static std::size_t addrs = 0x36cc758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::DigitallySigned* (*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::DigitallySigned::Parse)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x34364c4;
+  constexpr static std::size_t addrs = 0x36bf760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

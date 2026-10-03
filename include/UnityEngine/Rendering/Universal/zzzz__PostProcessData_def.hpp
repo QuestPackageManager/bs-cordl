@@ -7,12 +7,19 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(PostProcessData)
 namespace UnityEngine::Rendering::Universal {
 class PostProcessData_ShaderResources;
 }
 namespace UnityEngine::Rendering::Universal {
 class PostProcessData_TextureResources;
+}
+namespace UnityEngine::Rendering {
+class IRenderPipelineGraphicsSettings;
+}
+namespace UnityEngine::Rendering {
+class IRenderPipelineResources;
 }
 namespace UnityEngine {
 class Shader;
@@ -37,7 +44,10 @@ MARK_REF_T(::UnityEngine::Rendering::Universal::PostProcessData_TextureResources
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::PostProcessData*, "UnityEngine.Rendering.Universal", "PostProcessData");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources*, "UnityEngine.Rendering.Universal", "PostProcessData/ShaderResources");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::PostProcessData_TextureResources*, "UnityEngine.Rendering.Universal", "PostProcessData/TextureResources");
-// [ReloadGroup]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
+// [CategoryInfo(Name = "R: Default PostProcess Shaders", Order = 1000)]
+// [ElementInfo(Order = 0)]
+// [HideInInspector]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -69,11 +79,16 @@ public:
   /// @brief Field gaussianDepthOfFieldPS, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_gaussianDepthOfFieldPS, put = __cordl_internal_set_gaussianDepthOfFieldPS)) ::UnityW<::UnityEngine::Shader> gaussianDepthOfFieldPS;
 
+  __declspec(property(get = get_isAvailableInPlayerBuild)) bool isAvailableInPlayerBuild;
+
   /// @brief Field lutBuilderHdrPS, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_lutBuilderHdrPS, put = __cordl_internal_set_lutBuilderHdrPS)) ::UnityW<::UnityEngine::Shader> lutBuilderHdrPS;
 
   /// @brief Field lutBuilderLdrPS, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_lutBuilderLdrPS, put = __cordl_internal_set_lutBuilderLdrPS)) ::UnityW<::UnityEngine::Shader> lutBuilderLdrPS;
+
+  /// @brief Field m_ShaderResourcesVersion, offset 0x90, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_ShaderResourcesVersion, put = __cordl_internal_set_m_ShaderResourcesVersion)) int32_t m_ShaderResourcesVersion;
 
   /// @brief Field paniniProjectionPS, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_paniniProjectionPS, put = __cordl_internal_set_paniniProjectionPS)) ::UnityW<::UnityEngine::Shader> paniniProjectionPS;
@@ -93,6 +108,14 @@ public:
 
   /// @brief Field uberPostPS, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_uberPostPS, put = __cordl_internal_set_uberPostPS)) ::UnityW<::UnityEngine::Shader> uberPostPS;
+
+  __declspec(property(get = get_version)) int32_t version;
+
+  /// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
+  constexpr operator ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*() noexcept;
+
+  /// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineResources"
+  constexpr operator ::UnityEngine::Rendering::IRenderPipelineResources*() noexcept;
 
   static inline ::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources* New_ctor();
 
@@ -135,6 +158,10 @@ public:
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_lutBuilderLdrPS() const;
 
   constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_lutBuilderLdrPS();
+
+  constexpr int32_t const& __cordl_internal_get_m_ShaderResourcesVersion() const;
+
+  constexpr int32_t& __cordl_internal_get_m_ShaderResourcesVersion();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_paniniProjectionPS() const;
 
@@ -180,6 +207,8 @@ public:
 
   constexpr void __cordl_internal_set_lutBuilderLdrPS(::UnityW<::UnityEngine::Shader> value);
 
+  constexpr void __cordl_internal_set_m_ShaderResourcesVersion(int32_t value);
+
   constexpr void __cordl_internal_set_paniniProjectionPS(::UnityW<::UnityEngine::Shader> value);
 
   constexpr void __cordl_internal_set_scalingSetupPS(::UnityW<::UnityEngine::Shader> value);
@@ -192,8 +221,20 @@ public:
 
   constexpr void __cordl_internal_set_uberPostPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x683cfcc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c75c8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6c75c84, size 0x8, virtual true, abstract: false, final true
+  inline bool get_isAvailableInPlayerBuild();
+
+  /// @brief Method get_version, addr 0x6c75c7c, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_version();
+
+  /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
+  constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
+  constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -210,71 +251,76 @@ public:
   PostProcessData_ShaderResources(PostProcessData_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12575 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12793 };
 
-  /// [Reload("Shaders/PostProcessing/StopNaN.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/StopNaN.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field stopNanPS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___stopNanPS;
 
-  /// [Reload("Shaders/PostProcessing/SubpixelMorphologicalAntialiasing.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/SubpixelMorphologicalAntialiasing.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field subpixelMorphologicalAntialiasingPS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___subpixelMorphologicalAntialiasingPS;
 
-  /// [Reload("Shaders/PostProcessing/GaussianDepthOfField.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/GaussianDepthOfField.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field gaussianDepthOfFieldPS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___gaussianDepthOfFieldPS;
 
-  /// [Reload("Shaders/PostProcessing/BokehDepthOfField.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/BokehDepthOfField.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field bokehDepthOfFieldPS, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___bokehDepthOfFieldPS;
 
-  /// [Reload("Shaders/PostProcessing/CameraMotionBlur.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/CameraMotionBlur.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field cameraMotionBlurPS, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___cameraMotionBlurPS;
 
-  /// [Reload("Shaders/PostProcessing/PaniniProjection.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/PaniniProjection.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field paniniProjectionPS, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___paniniProjectionPS;
 
-  /// [Reload("Shaders/PostProcessing/LutBuilderLdr.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/LutBuilderLdr.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field lutBuilderLdrPS, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___lutBuilderLdrPS;
 
-  /// [Reload("Shaders/PostProcessing/LutBuilderHdr.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/LutBuilderHdr.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field lutBuilderHdrPS, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___lutBuilderHdrPS;
 
-  /// [Reload("Shaders/PostProcessing/Bloom.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/Bloom.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field bloomPS, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___bloomPS;
 
-  /// [Reload("Shaders/PostProcessing/TemporalAA.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/TemporalAA.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field temporalAntialiasingPS, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___temporalAntialiasingPS;
 
-  /// [Reload("Shaders/PostProcessing/LensFlareDataDriven.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/LensFlareDataDriven.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field LensFlareDataDrivenPS, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___LensFlareDataDrivenPS;
 
-  /// [Reload("Shaders/PostProcessing/LensFlareScreenSpace.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/LensFlareScreenSpace.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field LensFlareScreenSpacePS, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___LensFlareScreenSpacePS;
 
-  /// [Reload("Shaders/PostProcessing/ScalingSetup.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/ScalingSetup.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field scalingSetupPS, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___scalingSetupPS;
 
-  /// [Reload("Shaders/PostProcessing/EdgeAdaptiveSpatialUpsampling.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/EdgeAdaptiveSpatialUpsampling.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field easuPS, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___easuPS;
 
-  /// [Reload("Shaders/PostProcessing/UberPost.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/UberPost.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field uberPostPS, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___uberPostPS;
 
-  /// [Reload("Shaders/PostProcessing/FinalPost.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Shaders/PostProcessing/FinalPost.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field finalPostPassPS, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___finalPostPassPS;
+
+  /// [SerializeField]
+  /// [HideInInspector]
+  /// @brief Field m_ShaderResourcesVersion, offset: 0x90, size: 0x4, def value: None
+  int32_t ___m_ShaderResourcesVersion;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -311,10 +357,15 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::PostProcessData_Shad
 
 static_assert(offsetof(::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources, ___finalPostPassPS) == 0x88, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources) == 0x90, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources, ___m_ShaderResourcesVersion) == 0x90, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources) == 0x98, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
-// [ReloadGroup]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
+// [CategoryInfo(Name = "R: Default PostProcess Textures", Order = 1000)]
+// [ElementInfo(Order = 0)]
+// [HideInInspector]
 // Dependencies System.Object, UnityEngine.Texture2D
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -328,11 +379,24 @@ public:
   /// @brief Field filmGrainTex, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_filmGrainTex, put = __cordl_internal_set_filmGrainTex)) ::ArrayW<::UnityW<::UnityEngine::Texture2D>> filmGrainTex;
 
+  __declspec(property(get = get_isAvailableInPlayerBuild)) bool isAvailableInPlayerBuild;
+
+  /// @brief Field m_TexturesResourcesVersion, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_TexturesResourcesVersion, put = __cordl_internal_set_m_TexturesResourcesVersion)) int32_t m_TexturesResourcesVersion;
+
   /// @brief Field smaaAreaTex, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_smaaAreaTex, put = __cordl_internal_set_smaaAreaTex)) ::UnityW<::UnityEngine::Texture2D> smaaAreaTex;
 
   /// @brief Field smaaSearchTex, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_smaaSearchTex, put = __cordl_internal_set_smaaSearchTex)) ::UnityW<::UnityEngine::Texture2D> smaaSearchTex;
+
+  __declspec(property(get = get_version)) int32_t version;
+
+  /// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
+  constexpr operator ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*() noexcept;
+
+  /// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineResources"
+  constexpr operator ::UnityEngine::Rendering::IRenderPipelineResources*() noexcept;
 
   static inline ::UnityEngine::Rendering::Universal::PostProcessData_TextureResources* New_ctor();
 
@@ -343,6 +407,10 @@ public:
   constexpr ::ArrayW<::UnityW<::UnityEngine::Texture2D>> const& __cordl_internal_get_filmGrainTex() const;
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Texture2D>>& __cordl_internal_get_filmGrainTex();
+
+  constexpr int32_t const& __cordl_internal_get_m_TexturesResourcesVersion() const;
+
+  constexpr int32_t& __cordl_internal_get_m_TexturesResourcesVersion();
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_smaaAreaTex() const;
 
@@ -356,12 +424,26 @@ public:
 
   constexpr void __cordl_internal_set_filmGrainTex(::ArrayW<::UnityW<::UnityEngine::Texture2D>> value);
 
+  constexpr void __cordl_internal_set_m_TexturesResourcesVersion(int32_t value);
+
   constexpr void __cordl_internal_set_smaaAreaTex(::UnityW<::UnityEngine::Texture2D> value);
 
   constexpr void __cordl_internal_set_smaaSearchTex(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x683cfd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c75ca0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6c75c98, size 0x8, virtual true, abstract: false, final true
+  inline bool get_isAvailableInPlayerBuild();
+
+  /// @brief Method get_version, addr 0x6c75c90, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_version();
+
+  /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
+  constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
+  constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -378,25 +460,30 @@ public:
   PostProcessData_TextureResources(PostProcessData_TextureResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12576 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12794 };
 
-  /// [Reload("Textures/BlueNoise16/L/LDR_LLL1_{0}.png", 0, 32, (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourceFormattedPaths("Textures/BlueNoise16/L/LDR_LLL1_{0}.png", 0, 32, (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field blueNoise16LTex, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Texture2D>> ___blueNoise16LTex;
 
-  /// [Reload(new[] { "Textures/FilmGrain/Thin01.png", "Textures/FilmGrain/Thin02.png", "Textures/FilmGrain/Medium01.png", "Textures/FilmGrain/Medium02.png", "Textures/FilmGrain/Medium03.png",
+  /// [ResourcePaths(new[] { "Textures/FilmGrain/Thin01.png", "Textures/FilmGrain/Thin02.png", "Textures/FilmGrain/Medium01.png", "Textures/FilmGrain/Medium02.png", "Textures/FilmGrain/Medium03.png",
   /// "Textures/FilmGrain/Medium04.png", "Textures/FilmGrain/Medium05.png", "Textures/FilmGrain/Medium06.png", "Textures/FilmGrain/Large01.png", "Textures/FilmGrain/Large02.png" },
-  /// (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field filmGrainTex, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Texture2D>> ___filmGrainTex;
 
-  /// [Reload("Textures/SMAA/AreaTex.tga", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Textures/SMAA/AreaTex.tga", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field smaaAreaTex, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___smaaAreaTex;
 
-  /// [Reload("Textures/SMAA/SearchTex.tga", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [ResourcePath("Textures/SMAA/SearchTex.tga", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field smaaSearchTex, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___smaaSearchTex;
+
+  /// [SerializeField]
+  /// [HideInInspector]
+  /// @brief Field m_TexturesResourcesVersion, offset: 0x30, size: 0x4, def value: None
+  int32_t ___m_TexturesResourcesVersion;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -409,7 +496,9 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::PostProcessData_Text
 
 static_assert(offsetof(::UnityEngine::Rendering::Universal::PostProcessData_TextureResources, ___smaaSearchTex) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::PostProcessData_TextureResources) == 0x30, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::PostProcessData_TextureResources, ___m_TexturesResourcesVersion) == 0x30, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::PostProcessData_TextureResources) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
 // Dependencies UnityEngine.ScriptableObject
@@ -443,7 +532,7 @@ public:
 
   constexpr void __cordl_internal_set_textures(::UnityEngine::Rendering::Universal::PostProcessData_TextureResources* value);
 
-  /// @brief Method .ctor, addr 0x683cfc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c75c74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -461,7 +550,7 @@ public:
   PostProcessData(PostProcessData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12795 };
 
   /// @brief Field shaders, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources* ___shaders;

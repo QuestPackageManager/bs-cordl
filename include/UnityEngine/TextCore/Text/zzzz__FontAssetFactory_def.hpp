@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(FontAssetFactory)
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
@@ -15,9 +14,6 @@ class FontAsset;
 namespace UnityEngine {
 class Font;
 }
-namespace UnityEngine {
-class Shader;
-}
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
 class FontAssetFactory;
@@ -27,6 +23,7 @@ MARK_REF_T(::UnityEngine::TextCore::Text::FontAssetFactory*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::FontAssetFactory*, "UnityEngine.TextCore.Text", "FontAssetFactory");
 // [Nullable(0)]
 // [NullableContext(1)]
+// [VisibleToOtherModules(new[] { "UnityEditor.CoreModule", "UnityEngine.UIElementsModule" })]
 // Dependencies System.Object
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
@@ -34,27 +31,20 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE FontAssetFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field k_SystemFontName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_k_SystemFontName, put = setStaticF_k_SystemFontName)) ::StringW k_SystemFontName;
-
   /// @brief Field visitedFontAssets, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_visitedFontAssets,
                       put = setStaticF_visitedFontAssets)) ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* visitedFontAssets;
 
-  /// @brief Method CreateDefaultEditorFontAsset, addr 0x6bfe074, size 0x834, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateDefaultEditorFontAsset(::UnityEngine::Font* font, ::UnityEngine::Shader* shader);
+  /// @brief Method ConvertFontToFontAsset, addr 0x70515dc, size 0x124, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> ConvertFontToFontAsset(::UnityEngine::Font* font);
 
-  /// @brief Method SetHideFlags, addr 0x6bfe970, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetHideFlags, addr 0x70517a8, size 0xc0, virtual false, abstract: false, final false
   static inline void SetHideFlags(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  /// @brief Method SetupFontAssetSettings, addr 0x6bfe8a8, size 0xc8, virtual false, abstract: false, final false
-  static inline void SetupFontAssetSettings(::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::Shader* shader);
-
-  static inline ::StringW getStaticF_k_SystemFontName();
+  /// @brief Method SetupFontAssetSettings, addr 0x7051700, size 0xa8, virtual false, abstract: false, final false
+  static inline void SetupFontAssetSettings(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
   static inline ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* getStaticF_visitedFontAssets();
-
-  static inline void setStaticF_k_SystemFontName(::StringW value);
 
   static inline void setStaticF_visitedFontAssets(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
@@ -73,7 +63,7 @@ public:
   FontAssetFactory(FontAssetFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17823 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

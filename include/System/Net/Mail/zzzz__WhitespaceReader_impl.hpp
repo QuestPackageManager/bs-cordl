@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Net::Mail::WhitespaceReader::ReadFwsReverse)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x636e3c4;
+  constexpr static std::size_t addrs = 0x6796628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Net::Mail::WhitespaceReader::ReadCfwsReverse)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x636f398;
+  constexpr static std::size_t addrs = 0x67975fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__ServerCertSelectionDelegate_k__BackingField(::System::Net::Security::ServerCertSelectionCallback* value);
 
-  /// @brief Method .ctor, addr 0x5fdcd1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f8ca4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_ClientCertificateRequired, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -81,7 +81,7 @@ public:
   inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ServerCertSelectionDelegate, addr 0x5fdcd14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServerCertSelectionDelegate, addr 0x63f8c9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::ServerCertSelectionCallback* get_ServerCertSelectionDelegate();
 
   /// @brief Method get_ServerCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -129,7 +129,7 @@ public:
   MonoSslAuthenticationOptions(MonoSslAuthenticationOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11964 };
 
   /// [CompilerGenerated]
   /// @brief Field <ServerCertSelectionDelegate>k__BackingField, offset: 0x10, size: 0x8, def value: None

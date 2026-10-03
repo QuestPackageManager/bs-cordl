@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(::UnityEngine::Rendering::ShaderTagId, ::UnityEngine::Rendering::SortingSettings)>(
     &::UnityEngine::Rendering::DrawingSettings::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6b20ce8;
+  constexpr static std::size_t addrs = 0x6f7f0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(::UnityEngine::Rendering::PerObjectData)>(
     &::UnityEngine::Rendering::DrawingSettings::set_perObjectData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b20db8;
+  constexpr static std::size_t addrs = 0x6f7f1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(bool)>(&::UnityEngine::Rendering::DrawingSettings::set_enableDynamicBatching)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b20dc0;
+  constexpr static std::size_t addrs = 0x6f7f1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(bool)>(&::UnityEngine::Rendering::DrawingSettings::set_enableInstancing)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6b20dd0;
+  constexpr static std::size_t addrs = 0x6f7f1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(::UnityEngine::Material*)>(
     &::UnityEngine::Rendering::DrawingSettings::set_overrideMaterial)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6b20df0;
+  constexpr static std::size_t addrs = 0x6f7f204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(::UnityEngine::Shader*)>(&::UnityEngine::Rendering::DrawingSettings::set_overrideShader)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6b20e1c;
+  constexpr static std::size_t addrs = 0x6f7f230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(int32_t)>(&::UnityEngine::Rendering::DrawingSettings::set_overrideMaterialPassIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b20e48;
+  constexpr static std::size_t addrs = 0x6f7f25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(int32_t)>(&::UnityEngine::Rendering::DrawingSettings::set_overrideShaderPassIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b20e50;
+  constexpr static std::size_t addrs = 0x6f7f264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,11 +132,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(int32_t)>(&::UnityEngine::Rendering::DrawingSettings::set_mainLightIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b20e58;
+  constexpr static std::size_t addrs = 0x6f7f26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(), { "set_mainLightIndex", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.set_lodCrossFadeStencilMask
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(int32_t)>(&::UnityEngine::Rendering::DrawingSettings::set_lodCrossFadeStencilMask)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6f7f274;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(), { "set_lodCrossFadeStencilMask", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -146,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ShaderTagId (::UnityEngine::Rendering::DrawingSettings::*)(int32_t)>(
     &::UnityEngine::Rendering::DrawingSettings::GetShaderPassName)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6b20e60;
+  constexpr static std::size_t addrs = 0x6f7f27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(int32_t, ::UnityEngine::Rendering::ShaderTagId)>(
     &::UnityEngine::Rendering::DrawingSettings::SetShaderPassName)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6b20fa4;
+  constexpr static std::size_t addrs = 0x6f7f3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,8 +187,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DrawingSettings::*)(::UnityEngine::Rendering::DrawingSettings)>(
     &::UnityEngine::Rendering::DrawingSettings::Equals)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6b210ec;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x6f7f508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DrawingSettings::*)(::System::Object*)>(&::UnityEngine::Rendering::DrawingSettings::Equals)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6b21454;
+  constexpr static std::size_t addrs = 0x6f7f784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,8 +213,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DrawingSettings::*)()>(&::UnityEngine::Rendering::DrawingSettings::GetHashCode)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6b21554;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6f7f884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::DrawingSettings, ::UnityEngine::Rendering::DrawingSettings)>(
     &::UnityEngine::Rendering::DrawingSettings::op_Equality)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6b21678;
+  constexpr static std::size_t addrs = 0x6f7f9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -277,6 +290,11 @@ inline void UnityEngine::Rendering::DrawingSettings::set_mainLightIndex(int32_t 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(), { "set_mainLightIndex", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
+inline void UnityEngine::Rendering::DrawingSettings::set_lodCrossFadeStencilMask(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(), { "set_lodCrossFadeStencilMask", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
 inline ::UnityEngine::Rendering::ShaderTagId UnityEngine::Rendering::DrawingSettings::GetShaderPassName(int32_t index) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(), { "GetShaderPassName", {}, { ::i2c::type_of<int32_t>() } })));
@@ -322,13 +340,13 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::DrawingSettings>* Uni
 // ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_OverrideMaterialInstanceId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
 // { name: "m_OverrideMaterialPassIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_fallbackMaterialInstanceId", ty: "int32_t", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "m_MainLightIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_UseSrpBatcher", ty: "int32_t",
-// modifiers: "", def_value: Some("{}"), comment: None }]
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LodCrossFadeStencilMask", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::DrawingSettings::DrawingSettings(::UnityEngine::Rendering::SortingSettings m_SortingSettings,
                                                                      ::UnityEngine::Rendering::DrawingSettings__shaderPassNames_e__FixedBuffer shaderPassNames,
                                                                      ::UnityEngine::Rendering::PerObjectData m_PerObjectData, ::UnityEngine::Rendering::DrawRendererFlags m_Flags,
                                                                      int32_t m_OverrideShaderID, int32_t m_OverrideShaderPassIndex, int32_t m_OverrideMaterialInstanceId,
-                                                                     int32_t m_OverrideMaterialPassIndex, int32_t m_fallbackMaterialInstanceId, int32_t m_MainLightIndex,
-                                                                     int32_t m_UseSrpBatcher) noexcept {
+                                                                     int32_t m_OverrideMaterialPassIndex, int32_t m_fallbackMaterialInstanceId, int32_t m_MainLightIndex, int32_t m_UseSrpBatcher,
+                                                                     int32_t m_LodCrossFadeStencilMask) noexcept {
   this->m_SortingSettings = m_SortingSettings;
   this->shaderPassNames = shaderPassNames;
   this->m_PerObjectData = m_PerObjectData;
@@ -340,6 +358,7 @@ constexpr ::UnityEngine::Rendering::DrawingSettings::DrawingSettings(::UnityEngi
   this->m_fallbackMaterialInstanceId = m_fallbackMaterialInstanceId;
   this->m_MainLightIndex = m_MainLightIndex;
   this->m_UseSrpBatcher = m_UseSrpBatcher;
+  this->m_LodCrossFadeStencilMask = m_LodCrossFadeStencilMask;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::DrawingSettings::DrawingSettings() {}

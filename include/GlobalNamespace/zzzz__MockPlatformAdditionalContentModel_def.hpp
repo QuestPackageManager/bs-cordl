@@ -109,11 +109,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x36fc708, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3985a70, size 0x284, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x36fc98c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3985cf4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -134,7 +134,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14767 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15006 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -186,11 +186,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x36fca0c, size 0x2bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3985d74, size 0x2bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x36fccc8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3986030, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -211,7 +211,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15007 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -263,11 +263,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x36fcd48, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39860b0, size 0x254, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x36fcf9c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3986304, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -286,7 +286,7 @@ public:
       ::GlobalNamespace::MockPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken token, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15008 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -333,11 +333,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x36fd01c, size 0x2a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3986384, size 0x2a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x36fd2c0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3986628, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -358,7 +358,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15009 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -410,11 +410,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x36fd340, size 0x2f0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39866a8, size 0x2f0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x36fd630, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3986998, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -435,7 +435,7 @@ public:
                                                                                  ::StringW levelId, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15010 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -511,50 +511,50 @@ public:
   /// @brief Field randomMillisecondsResponseTime, offset 0x34, size 0x8
   __declspec(property(get = __cordl_internal_get_randomMillisecondsResponseTime, put = __cordl_internal_set_randomMillisecondsResponseTime)) ::UnityEngine::RangeInt randomMillisecondsResponseTime;
 
-  /// @brief Method BuyLevel, addr 0x36fc3fc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method BuyLevel, addr 0x3985764, size 0x100, virtual false, abstract: false, final false
   inline void BuyLevel(::StringW levelId);
 
-  /// @brief Method Dispose, addr 0x36fbedc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3985244, size 0x4, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetExcludedLevelIdsInternalAsync, addr 0x36fc318, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method GetExcludedLevelIdsInternalAsync, addr 0x3985680, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GetExcludedLevelIdsInternalAsync(::System::Threading::CancellationToken token);
 
-  /// @brief Method GetLevelDataVersionInternalAsync, addr 0x36fc0c4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetLevelDataVersionInternalAsync, addr 0x398542c, size 0x70, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* GetLevelDataVersionInternalAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
   /// [AsyncStateMachine(typeof(MockPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__9))]
-  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x36fbee4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x398524c, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
   /// [AsyncStateMachine(typeof(MockPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__10))]
-  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x36fbfd4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x398533c, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method Initialize, addr 0x36fbed8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3985240, size 0x4, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InvalidateDataInternal, addr 0x36fbee0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InvalidateDataInternal, addr 0x3985248, size 0x4, virtual true, abstract: false, final false
   inline void InvalidateDataInternal();
 
   /// [AsyncStateMachine(typeof(MockPlatformAdditionalContentModel::<IsPackBetterBuyThanLevelAsync>d__12))]
-  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x36fc134, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x398549c, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
   static inline ::GlobalNamespace::MockPlatformAdditionalContentModel* New_ctor(/* [InjectOptional] */ ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* initialData);
 
   /// [AsyncStateMachine(typeof(MockPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__17))]
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x36fc514, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x398587c, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
   /// [AsyncStateMachine(typeof(MockPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__13))]
-  /// @brief Method OpenLevelProductStoreAsync, addr 0x36fc224, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method OpenLevelProductStoreAsync, addr 0x398558c, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method OpenStore, addr 0x36fc314, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OpenStore, addr 0x398567c, size 0x4, virtual true, abstract: false, final false
   inline void OpenStore(::StringW uri);
 
-  /// @brief Method Wait, addr 0x36fc604, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x398596c, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* Wait(::System::Threading::CancellationToken token);
 
   constexpr bool const& __cordl_internal_get__hasAllEntitlements() const;
@@ -587,7 +587,7 @@ public:
 
   constexpr void __cordl_internal_set_randomMillisecondsResponseTime(::UnityEngine::RangeInt value);
 
-  /// @brief Method .ctor, addr 0x36fb870, size 0x668, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3984bd8, size 0x668, virtual false, abstract: false, final false
   inline void _ctor(/* [InjectOptional] */ ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* initialData);
 
 protected:
@@ -605,7 +605,7 @@ public:
   MockPlatformAdditionalContentModel(MockPlatformAdditionalContentModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15011 };
 
   /// @brief Field _hasAllEntitlements, offset: 0x18, size: 0x1, def value: None
   bool ____hasAllEntitlements;

@@ -80,52 +80,52 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>*();
 
-  /// @brief Method Equals, addr 0x6c958f4, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x710bdcc, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c9588c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x710bd64, size 0x68, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TransformOrigin other);
 
-  /// @brief Method GetHashCode, addr 0x6c8f820, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x710a968, size 0x74, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Initial, addr 0x6c949cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x710a65c, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TransformOrigin Initial();
 
-  /// @brief Method ToString, addr 0x6c959c0, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x710be98, size 0x13c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6c957c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x710bca0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 vector);
 
-  /// @brief Method .ctor, addr 0x6c957bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x710bc94, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Length x, ::UnityEngine::UIElements::Length y, float_t z);
 
-  /// @brief Method get_x, addr 0x6c957f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x710bccc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_x();
 
-  /// @brief Method get_y, addr 0x6c95804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x710bcdc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_y();
 
-  /// @brief Method get_z, addr 0x6c95814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_z, addr 0x710bcec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_z();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>* i___System__IEquatable_1___UnityEngine__UIElements__TransformOrigin_();
 
-  /// @brief Method op_Equality, addr 0x6c8f4d8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x710a75c, size 0x6c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TransformOrigin lhs, ::UnityEngine::UIElements::TransformOrigin rhs);
 
-  /// @brief Method op_Inequality, addr 0x6c95824, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x710bcfc, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TransformOrigin lhs, ::UnityEngine::UIElements::TransformOrigin rhs);
 
-  /// @brief Method set_x, addr 0x6c957fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x710bcd4, size 0x8, virtual false, abstract: false, final false
   inline void set_x(::UnityEngine::UIElements::Length value);
 
-  /// @brief Method set_y, addr 0x6c9580c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x710bce4, size 0x8, virtual false, abstract: false, final false
   inline void set_y(::UnityEngine::UIElements::Length value);
 
-  /// @brief Method set_z, addr 0x6c9581c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_z, addr 0x710bcf4, size 0x8, virtual false, abstract: false, final false
   inline void set_z(float_t value);
 
   // Ctor Parameters []
@@ -137,17 +137,20 @@ public:
   constexpr TransformOrigin(::UnityEngine::UIElements::Length m_X, ::UnityEngine::UIElements::Length m_Y, float_t m_Z) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4997 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5068 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 
+  /// [SerializeField]
   /// @brief Field m_X, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::UIElements::Length m_X;
 
+  /// [SerializeField]
   /// @brief Field m_Y, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::UIElements::Length m_Y;
 
+  /// [SerializeField]
   /// @brief Field m_Z, offset: 0x10, size: 0x4, def value: None
   float_t m_Z;
 
@@ -180,12 +183,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c95d84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x710c260, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::Length GetValue(::by_ref<::UnityEngine::UIElements::TransformOrigin> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c95d8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x710c268, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::TransformOrigin> container, ::UnityEngine::UIElements::Length value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -200,15 +203,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c95c48, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x710c124, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x6c95d7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x710c258, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6c95d74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x710c250, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -226,15 +229,15 @@ public:
   PropertyBag_TransformOrigin_XProperty(PropertyBag_TransformOrigin_XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5064 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -265,12 +268,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c95da4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x710c280, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::Length GetValue(::by_ref<::UnityEngine::UIElements::TransformOrigin> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c95dac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x710c288, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::TransformOrigin> container, ::UnityEngine::UIElements::Length value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -285,15 +288,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c95cac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x710c188, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x6c95d9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x710c278, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6c95d94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x710c270, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -311,7 +314,7 @@ public:
   PropertyBag_TransformOrigin_YProperty(PropertyBag_TransformOrigin_YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5065 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
@@ -350,12 +353,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c95dc4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x710c2a0, size 0x8, virtual true, abstract: false, final false
   inline float_t GetValue(::by_ref<::UnityEngine::UIElements::TransformOrigin> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c95dcc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x710c2a8, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::TransformOrigin> container, float_t value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -370,15 +373,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c95d10, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x710c1ec, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x6c95dbc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x710c298, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6c95db4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x710c290, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -396,7 +399,7 @@ public:
   PropertyBag_TransformOrigin_ZProperty(PropertyBag_TransformOrigin_ZProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5066 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
@@ -433,7 +436,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TransformOrigin_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c95afc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x710bfd4, size 0x150, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -451,7 +454,7 @@ public:
   TransformOrigin_PropertyBag(TransformOrigin_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4996 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5067 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

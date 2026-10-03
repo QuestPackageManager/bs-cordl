@@ -27,11 +27,11 @@ class CORDL_TYPE KeyboardEventExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ShouldSendNavigationMoveEvent, addr 0x6d9e104, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendNavigationMoveEvent, addr 0x722bad4, size 0xc0, virtual false, abstract: false, final false
   static inline bool ShouldSendNavigationMoveEvent(::UnityEngine::UIElements::KeyDownEvent* e);
 
   /// [Extension]
-  /// @brief Method ShouldSendNavigationMoveEventRuntime, addr 0x6d9e478, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendNavigationMoveEventRuntime, addr 0x722be48, size 0x44, virtual false, abstract: false, final false
   static inline bool ShouldSendNavigationMoveEventRuntime(::UnityEngine::Event* e);
 
 protected:
@@ -49,7 +49,7 @@ public:
   KeyboardEventExtensions(KeyboardEventExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4478 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

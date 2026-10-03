@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::ContentDecodeStream* (*)(::System::Net::WebOperation*, ::System::IO::Stream*, ::System::Net::ContentDecodeStream_Mode)>(
     &::System::Net::ContentDecodeStream::Create)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x64298c4;
+  constexpr static std::size_t addrs = 0x6851b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::System::Net::ContentDecodeStream::*)()>(&::System::Net::ContentDecodeStream::get_OriginalInnerStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64299d8;
+  constexpr static std::size_t addrs = 0x6851c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ContentDecodeStream*>(), { "get_OriginalInnerStream", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ContentDecodeStream::*)(::System::Net::WebOperation*, ::System::IO::Stream*, ::System::IO::Stream*)>(
     &::System::Net::ContentDecodeStream::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64299b0;
+  constexpr static std::size_t addrs = 0x6851c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::System::Net::ContentDecodeStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::ContentDecodeStream::ProcessReadAsync)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64299e0;
+  constexpr static std::size_t addrs = 0x6851c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::ContentDecodeStream::*)(::System::Threading::CancellationToken)>(
     &::System::Net::ContentDecodeStream::FinishReading)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6429a00;
+  constexpr static std::size_t addrs = 0x6851c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

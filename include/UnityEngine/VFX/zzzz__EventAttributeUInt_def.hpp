@@ -50,13 +50,13 @@ public:
 
   static inline ::UnityEngine::VFX::EventAttributeUInt___c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x69d3850, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x6e109e0, size 0x1c, virtual false, abstract: false, final false
   inline bool __ctor_b__0_0(::UnityEngine::VFX::VFXEventAttribute* e, int32_t id);
 
-  /// @brief Method <.ctor>b__0_1, addr 0x69d386c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x6e109fc, size 0x20, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::VFX::VFXEventAttribute* e, int32_t id, uint32_t value);
 
-  /// @brief Method .ctor, addr 0x69d384c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e109dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::VFX::EventAttributeUInt___c* getStaticF___9();
@@ -86,7 +86,7 @@ public:
   EventAttributeUInt___c(EventAttributeUInt___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20213 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,7 +105,7 @@ public:
 
   static inline ::UnityEngine::VFX::EventAttributeUInt* New_ctor();
 
-  /// @brief Method .ctor, addr 0x69d3678, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e10808, size 0x180, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,7 +123,7 @@ public:
   EventAttributeUInt(EventAttributeUInt const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20214 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

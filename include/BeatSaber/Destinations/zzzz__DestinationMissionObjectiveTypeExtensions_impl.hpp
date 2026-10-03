@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::BeatSaber::Destinations::MissionObjectiveType)>(
     &::BeatSaber::Destinations::DestinationMissionObjectiveTypeExtensions::ToObjectiveName)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3280f08;
+  constexpr static std::size_t addrs = 0x35077c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::DestinationMissionObjectiveTypeExtensions*>(),

@@ -32,13 +32,13 @@ public:
 
   static inline ::System::IO::DirectoryNotFoundException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5bf64e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x600e7a8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5bf6564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x600e82c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5bf6540, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x600e808, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -56,7 +56,7 @@ public:
   DirectoryNotFoundException(DirectoryNotFoundException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3834 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

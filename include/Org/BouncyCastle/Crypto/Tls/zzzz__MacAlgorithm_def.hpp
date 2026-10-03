@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::MacAlgorithm* New_ctor();
 
-  /// @brief Method .ctor, addr 0x346be9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36f5138, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

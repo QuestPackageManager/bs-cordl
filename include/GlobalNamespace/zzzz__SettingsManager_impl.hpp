@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsManager::*)()>(&::GlobalNamespace::SettingsManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3291b04;
+  constexpr static std::size_t addrs = 0x3518374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsManager*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SettingsManager* (*)()>(&::GlobalNamespace::SettingsManager::CreateUninitialized)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3291b08;
+  constexpr static std::size_t addrs = 0x3518378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsManager*>(), { "CreateUninitialized", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SettingsManager* (*)()>(&::GlobalNamespace::SettingsManager::CreateInstanceWithCurrentPlatformPreset)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3291b4c;
+  constexpr static std::size_t addrs = 0x35183bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,8 +47,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::Settings>, ::GlobalNamespace::HardwareCategory)>(
     &::GlobalNamespace::SettingsManager::AdjustPlatformSettings)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x328ed10;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x3515560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,8 +62,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatS
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::BeatSaber::Settings::Settings> (*)(::GlobalNamespace::HardwareCategory)>(&::GlobalNamespace::SettingsManager::GetPlatformPreset)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x328eb00;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x3515330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::BeatSaber::Settings::Settings> (*)()>(&::GlobalNamespace::SettingsManager::GetCurrentPlatformPreset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3291bbc;
+  constexpr static std::size_t addrs = 0x351842c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsManager*>(), { "GetCurrentPlatformPreset", {}, {} })));

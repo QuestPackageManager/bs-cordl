@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Screen__TransitionCoroutine_d__5::*)(int32_t)>(&::HMUI::Screen__TransitionCoroutine_d__5::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f58b0;
+  constexpr static std::size_t addrs = 0x357dc98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Screen__TransitionCoroutine_d__5::*)()>(&::HMUI::Screen__TransitionCoroutine_d__5::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32f58c8;
+  constexpr static std::size_t addrs = 0x357dcb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Screen__TransitionCoroutine_d__5*>(), { "System.IDisposable.Dispose", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::Screen__TransitionCoroutine_d__5::*)()>(&::HMUI::Screen__TransitionCoroutine_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x568;
-  constexpr static std::size_t addrs = 0x32f58cc;
+  constexpr static std::size_t addrs = 0x357dcb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Screen__TransitionCoroutine_d__5*>(), { "MoveNext", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::Screen__TransitionCoroutine_d__5::*)()>(
     &::HMUI::Screen__TransitionCoroutine_d__5::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f5ed0;
+  constexpr static std::size_t addrs = 0x357e2b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Screen__TransitionCoroutine_d__5::*)()>(&::HMUI::Screen__TransitionCoroutine_d__5::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x32f5ed8;
+  constexpr static std::size_t addrs = 0x357e2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::Screen__TransitionCoroutine_d__5::*)()>(
     &::HMUI::Screen__TransitionCoroutine_d__5::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f5f10;
+  constexpr static std::size_t addrs = 0x357e2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::Screen::*)()>(&::HMUI::Screen::get_isBeingDestroyed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f5840;
+  constexpr static std::size_t addrs = 0x357dc28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Screen*>(), { "get_isBeingDestroyed", {}, {} })));
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Screen::*)(::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(&::HMUI::Screen::SetRootViewController)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x32f27a4;
+  constexpr static std::size_t addrs = 0x357ab14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::HMUI::Screen::*)(::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
     &::HMUI::Screen::TransitionCoroutine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x32f5848;
+  constexpr static std::size_t addrs = 0x357dc30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Screen::*)()>(&::HMUI::Screen::OnDestroy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32f58b8;
+  constexpr static std::size_t addrs = 0x357dca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Screen*>(), { "OnDestroy", {}, {} })));
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Screen::*)()>(&::HMUI::Screen::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32f58c4;
+  constexpr static std::size_t addrs = 0x357dcac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Screen*>(), { ".ctor", {}, {} })));

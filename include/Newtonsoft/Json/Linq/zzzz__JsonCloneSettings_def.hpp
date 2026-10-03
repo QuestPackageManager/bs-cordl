@@ -35,19 +35,19 @@ public:
 
   constexpr void __cordl_internal_set__CopyAnnotations_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x5d7ad14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61948f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Linq::JsonCloneSettings* getStaticF_SkipCopyAnnotations();
 
   /// [CompilerGenerated]
-  /// @brief Method get_CopyAnnotations, addr 0x5d7ad20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CopyAnnotations, addr 0x6194904, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyAnnotations();
 
   static inline void setStaticF_SkipCopyAnnotations(::Newtonsoft::Json::Linq::JsonCloneSettings* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_CopyAnnotations, addr 0x5d7ad28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CopyAnnotations, addr 0x619490c, size 0x8, virtual false, abstract: false, final false
   inline void set_CopyAnnotations(bool value);
 
 protected:
@@ -65,7 +65,7 @@ public:
   JsonCloneSettings(JsonCloneSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13841 };
 
   /// [CompilerGenerated]
   /// @brief Field <CopyAnnotations>k__BackingField, offset: 0x10, size: 0x1, def value: None

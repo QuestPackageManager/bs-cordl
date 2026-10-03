@@ -35,7 +35,7 @@ public:
     requires(::cordl_internals::value_type_constraint<B> && ::cordl_internals::default_constructor_constraint<B>)
   static inline void ExpectAliased(void* a, /* [IsReadOnly] */ ::by_ref<B> b);
 
-  /// @brief Method ExpectAliased, addr 0x64a75f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ExpectAliased, addr 0x68cfd4c, size 0x4, virtual false, abstract: false, final false
   static inline void ExpectAliased(void* a, void* b);
 
   /// @brief Method ExpectNotAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -54,7 +54,7 @@ public:
     requires(::cordl_internals::value_type_constraint<B> && ::cordl_internals::default_constructor_constraint<B>)
   static inline void ExpectNotAliased(void* a, /* [IsReadOnly] */ ::by_ref<B> b);
 
-  /// @brief Method ExpectNotAliased, addr 0x64a75fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ExpectNotAliased, addr 0x68cfd50, size 0x4, virtual false, abstract: false, final false
   static inline void ExpectNotAliased(void* a, void* b);
 
 protected:
@@ -72,7 +72,7 @@ public:
   Aliasing(Aliasing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17757 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

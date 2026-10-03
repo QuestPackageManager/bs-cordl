@@ -14,6 +14,9 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
@@ -54,21 +57,31 @@ public:
   /// @brief Field <>9__8_0, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9__8_0, put = setStaticF___9__8_0)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::NamedValue, ::StringW>* __9__8_0;
 
+  /// @brief Field <>9__9_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__9_0, put = setStaticF___9__9_0)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::NameAndParameters, ::StringW>* __9__9_0;
+
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters___c* New_ctor();
 
-  /// @brief Method <ToString>b__8_0, addr 0x6505bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToSerializableString>b__9_0, addr 0x692eb18, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW _ToSerializableString_b__9_0(::UnityEngine::InputSystem::Utilities::NameAndParameters x);
+
+  /// @brief Method <ToString>b__8_0, addr 0x692ea5c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__8_0(::UnityEngine::InputSystem::Utilities::NamedValue x);
 
-  /// @brief Method .ctor, addr 0x6505bc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x692ea58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters___c* getStaticF___9();
 
   static inline ::System::Func_2<::UnityEngine::InputSystem::Utilities::NamedValue, ::StringW>* getStaticF___9__8_0();
 
+  static inline ::System::Func_2<::UnityEngine::InputSystem::Utilities::NameAndParameters, ::StringW>* getStaticF___9__9_0();
+
   static inline void setStaticF___9(::UnityEngine::InputSystem::Utilities::NameAndParameters___c* value);
 
   static inline void setStaticF___9__8_0(::System::Func_2<::UnityEngine::InputSystem::Utilities::NamedValue, ::StringW>* value);
+
+  static inline void setStaticF___9__9_0(::System::Func_2<::UnityEngine::InputSystem::Utilities::NameAndParameters, ::StringW>* value);
 
 protected:
   // Ctor Parameters []
@@ -85,7 +98,7 @@ public:
   NameAndParameters___c(NameAndParameters___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11140 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -106,40 +119,46 @@ public:
 
   __declspec(property(get = get_parameters, put = set_parameters)) ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> parameters;
 
-  /// @brief Method Parse, addr 0x6505958, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x692e100, size 0x90, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters Create(::StringW name, ::System::Collections::Generic::IList_1<::UnityEngine::InputSystem::Utilities::NamedValue>* parameters);
+
+  /// @brief Method Parse, addr 0x692e7ec, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters Parse(::StringW text);
 
-  /// @brief Method ParseMultiple, addr 0x65052fc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ParseMultiple, addr 0x692e190, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>* ParseMultiple(::StringW text);
 
-  /// @brief Method ParseMultiple, addr 0x65053b8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ParseMultiple, addr 0x692e24c, size 0x1c8, virtual false, abstract: false, final false
   static inline bool ParseMultiple(::StringW text, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>*> list);
 
-  /// @brief Method ParseName, addr 0x65058e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ParseName, addr 0x692e774, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW ParseName(::StringW text);
 
-  /// @brief Method ParseNameAndParameters, addr 0x6505580, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method ParseNameAndParameters, addr 0x692e414, size 0x360, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters ParseNameAndParameters(::StringW text, ::by_ref<int32_t> index, bool nameOnly);
 
-  /// @brief Method ToString, addr 0x65050e0, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method ToSerializableString, addr 0x692df90, size 0x170, virtual false, abstract: false, final false
+  static inline ::StringW ToSerializableString(::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>* list);
+
+  /// @brief Method ToString, addr 0x692dd74, size 0x21c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_name, addr 0x65050bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x692dd50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_parameters, addr 0x65050cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_parameters, addr 0x692dd60, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> get_parameters();
 
   /// [CompilerGenerated]
-  /// @brief Method set_name, addr 0x65050c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x692dd58, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_parameters, addr 0x65050d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parameters, addr 0x692dd6c, size 0x8, virtual false, abstract: false, final false
   inline void set_parameters(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> value);
 
   // Ctor Parameters []
@@ -152,7 +171,7 @@ public:
                               ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> _parameters_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11141 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

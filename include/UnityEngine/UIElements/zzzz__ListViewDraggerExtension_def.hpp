@@ -28,11 +28,11 @@ class CORDL_TYPE ListViewDraggerExtension : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method GetRecycledItemFromId, addr 0x6d8fb28, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method GetRecycledItemFromId, addr 0x7216ebc, size 0x2fc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromId(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t id);
 
   /// [Extension]
-  /// @brief Method GetRecycledItemFromIndex, addr 0x6d8fe24, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method GetRecycledItemFromIndex, addr 0x721c138, size 0x2fc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t index);
 
 protected:
@@ -50,7 +50,7 @@ public:
   ListViewDraggerExtension(ListViewDraggerExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4404 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

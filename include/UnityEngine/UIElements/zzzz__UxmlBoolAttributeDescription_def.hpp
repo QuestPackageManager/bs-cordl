@@ -47,10 +47,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x6cbfac4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x71465e8, size 0xc, virtual false, abstract: false, final false
   inline bool _GetValueFromBag_b__3_0(::StringW s, bool b);
 
-  /// @brief Method .ctor, addr 0x6cbfac0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71465e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription___c* getStaticF___9();
@@ -76,7 +76,7 @@ public:
   UxmlBoolAttributeDescription___c(UxmlBoolAttributeDescription___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5164 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5262 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -93,15 +93,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::UxmlBoolAttributeDescription___c;
 
-  /// @brief Method ConvertValueToBool, addr 0x6cbfa10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToBool, addr 0x7146534, size 0x5c, virtual false, abstract: false, final false
   static inline bool ConvertValueToBool(::StringW v, bool defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x6cbf874, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x71463b8, size 0x17c, virtual true, abstract: false, final false
   inline bool GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6cb28ec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7146318, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,7 +119,7 @@ public:
   UxmlBoolAttributeDescription(UxmlBoolAttributeDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5263 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

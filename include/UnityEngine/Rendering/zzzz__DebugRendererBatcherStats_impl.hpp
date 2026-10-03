@@ -7,15 +7,45 @@
 #include "UnityEngine/Rendering/zzzz__InstanceOcclusionEventStats_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugRendererBatcherStats_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/Rendering/zzzz__InstanceOcclusionEventStats_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugRendererBatcherStats._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugRendererBatcherStats::*)()>(&::UnityEngine::Rendering::DebugRendererBatcherStats::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6815ff0;
+  constexpr static std::size_t addrs = 0x6c47400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugRendererBatcherStats*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugRendererBatcherStats.FinalizeInstanceCullerViewStats
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugRendererBatcherStats::*)()>(
+    &::UnityEngine::Rendering::DebugRendererBatcherStats::FinalizeInstanceCullerViewStats)> {
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x6c474d0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugRendererBatcherStats*>(), { "FinalizeInstanceCullerViewStats", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugRendererBatcherStats.GetLastInstanceOcclusionEventStatsForView
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::InstanceOcclusionEventStats (::UnityEngine::Rendering::DebugRendererBatcherStats::*)(int32_t)>(
+    &::UnityEngine::Rendering::DebugRendererBatcherStats::GetLastInstanceOcclusionEventStatsForView)> {
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x6c4768c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugRendererBatcherStats*>(), { "GetLastInstanceOcclusionEventStatsForView", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -24,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugRendererBatcherStats::*)()>(&::UnityEngine::Rendering::DebugRendererBatcherStats::Dispose)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x68160c0;
+  constexpr static std::size_t addrs = 0x6c4782c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugRendererBatcherStats*>(), { "Dispose", {}, {} })));
@@ -123,6 +153,17 @@ constexpr void UnityEngine::Rendering::DebugRendererBatcherStats::__cordl_intern
 inline void UnityEngine::Rendering::DebugRendererBatcherStats::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugRendererBatcherStats*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::DebugRendererBatcherStats::FinalizeInstanceCullerViewStats() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugRendererBatcherStats*>(), { "FinalizeInstanceCullerViewStats", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::InstanceOcclusionEventStats UnityEngine::Rendering::DebugRendererBatcherStats::GetLastInstanceOcclusionEventStatsForView(int32_t viewIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugRendererBatcherStats*>(), { "GetLastInstanceOcclusionEventStatsForView", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::InstanceOcclusionEventStats>(this, ___internal_method, viewIndex);
 }
 inline void UnityEngine::Rendering::DebugRendererBatcherStats::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugRendererBatcherStats*>(), { "Dispose", {}, {} })));

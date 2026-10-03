@@ -81,7 +81,7 @@ public:
   Cvar_1___c(Cvar_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -146,7 +146,7 @@ public:
   Cvar_1(Cvar_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21435 };
 
   /// @brief Field _initialValue, offset: 0x20, size: 0x8, def value: None
   T ____initialValue;

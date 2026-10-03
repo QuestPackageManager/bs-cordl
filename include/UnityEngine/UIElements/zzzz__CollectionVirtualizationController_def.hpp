@@ -29,7 +29,7 @@ class CollectionVirtualizationController;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::CollectionVirtualizationController*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::CollectionVirtualizationController*, "UnityEngine.UIElements", "CollectionVirtualizationController");
-// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule", "UnityEngine.HierarchyModule" })]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
 
-  /// @brief Method .ctor, addr 0x6c551d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x709eac4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::ScrollView* scrollView);
 
   /// @brief Method get_activeItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -123,7 +123,7 @@ public:
   CollectionVirtualizationController(CollectionVirtualizationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4088 };
 
   /// @brief Field m_ScrollView, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::ScrollView* ___m_ScrollView;

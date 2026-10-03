@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_checkingEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x5a03bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e1f2ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool checkingEnabled);
 
 protected:
@@ -69,7 +69,7 @@ public:
   SafeAreaRectChecker_InitData(SafeAreaRectChecker_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6451 };
 
   /// @brief Field checkingEnabled, offset: 0x10, size: 0x1, def value: None
   bool ___checkingEnabled;
@@ -125,10 +125,10 @@ public:
 
   static inline ::GlobalNamespace::SafeAreaRectChecker* New_ctor();
 
-  /// @brief Method Start, addr 0x5a038a8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e1ef70, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5a0390c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e1efd4, size 0x270, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__activeObjectWhenInsideSafeArea() const;
@@ -191,7 +191,7 @@ public:
 
   constexpr void __cordl_internal_set__rectTransformToCheck(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x5a03b5c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e1f244, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -209,7 +209,7 @@ public:
   SafeAreaRectChecker(SafeAreaRectChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6452 };
 
   /// [SerializeField]
   /// @brief Field _minAngleX, offset: 0x20, size: 0x4, def value: None

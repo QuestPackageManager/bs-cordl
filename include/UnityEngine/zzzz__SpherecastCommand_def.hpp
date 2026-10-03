@@ -60,88 +60,88 @@ public:
 
   __declspec(property(get = get_radius, put = set_radius)) float_t radius;
 
-  /// @brief Method ScheduleBatch, addr 0x6b96820, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatch, addr 0x7002290, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleBatch(::Unity::Collections::NativeArray_1<::UnityEngine::SpherecastCommand> commands,
                                                        ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit> results, int32_t minCommandsPerJob, ::Unity::Jobs::JobHandle dependsOn);
 
-  /// @brief Method ScheduleBatch, addr 0x6b965d8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatch, addr 0x7002048, size 0x1ac, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleBatch(::Unity::Collections::NativeArray_1<::UnityEngine::SpherecastCommand> commands,
                                                        ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit> results, int32_t minCommandsPerJob, int32_t maxHits,
                                                        ::Unity::Jobs::JobHandle dependsOn);
 
   /// [FreeFunction("ScheduleSpherecastCommandBatch", ThrowsException = true)]
-  /// @brief Method ScheduleSpherecastBatch, addr 0x6b96784, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleSpherecastBatch, addr 0x70021f4, size 0x9c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleSpherecastBatch(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* commands, int32_t commandLen,
                                                                  void* result, int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits);
 
-  /// @brief Method ScheduleSpherecastBatch_Injected, addr 0x6b96844, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleSpherecastBatch_Injected, addr 0x70022b4, size 0x8c, virtual false, abstract: false, final false
   static inline void ScheduleSpherecastBatch_Injected(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* commands, int32_t commandLen, void* result,
                                                       int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
   /// [Obsolete("This struct signature is no longer supported. Use struct with a QueryParameters instead", false)]
-  /// @brief Method .ctor, addr 0x6b968d0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7002340, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 origin, float_t radius, ::UnityEngine::Vector3 direction, float_t distance, int32_t layerMask);
 
-  /// @brief Method .ctor, addr 0x6b9648c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7001f08, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 origin, float_t radius, ::UnityEngine::Vector3 direction, ::UnityEngine::QueryParameters queryParameters, float_t distance);
 
   /// [Obsolete("This struct signature is no longer supported. Use struct with a QueryParameters instead", false)]
-  /// @brief Method .ctor, addr 0x6b969a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7002414, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 origin, float_t radius, ::UnityEngine::Vector3 direction, float_t distance, int32_t layerMask);
 
-  /// @brief Method .ctor, addr 0x6b96558, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7001fcc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 origin, float_t radius, ::UnityEngine::Vector3 direction, ::UnityEngine::QueryParameters queryParameters,
                     float_t distance);
 
-  /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_direction, addr 0x6b965a0, size 0xc, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_direction, addr 0x7002010, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_direction();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_distance, addr 0x6b965b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x7002028, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_layerMask, addr 0x6b969c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layerMask, addr 0x700243c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layerMask();
 
-  /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_origin, addr 0x6b96578, size 0xc, virtual false, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method get_origin, addr 0x7001fe8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_origin();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_physicsScene, addr 0x6b965c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_physicsScene, addr 0x7002038, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::PhysicsScene get_physicsScene();
 
-  /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_radius, addr 0x6b96590, size 0x8, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_radius, addr 0x7002000, size 0x8, virtual false, abstract: false, final false
   inline float_t get_radius();
 
   /// [CompilerGenerated]
-  /// @brief Method set_direction, addr 0x6b965ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x700201c, size 0xc, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::Vector3 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_distance, addr 0x6b965c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_distance, addr 0x7002030, size 0x8, virtual false, abstract: false, final false
   inline void set_distance(float_t value);
 
-  /// @brief Method set_layerMask, addr 0x6b9699c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layerMask, addr 0x700240c, size 0x8, virtual false, abstract: false, final false
   inline void set_layerMask(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_origin, addr 0x6b96584, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_origin, addr 0x7001ff4, size 0xc, virtual false, abstract: false, final false
   inline void set_origin(::UnityEngine::Vector3 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_physicsScene, addr 0x6b965d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_physicsScene, addr 0x7002040, size 0x8, virtual false, abstract: false, final false
   inline void set_physicsScene(::UnityEngine::PhysicsScene value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_radius, addr 0x6b96598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x7002008, size 0x8, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
   // Ctor Parameters []
@@ -156,18 +156,18 @@ public:
                               ::UnityEngine::PhysicsScene _physicsScene_k__BackingField, ::UnityEngine::QueryParameters queryParameters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19094 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x34 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <origin>k__BackingField, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 _origin_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <radius>k__BackingField, offset: 0xc, size: 0x4, def value: None
   float_t _radius_k__BackingField;
 
@@ -183,10 +183,10 @@ public:
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <physicsScene>k__BackingField, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field <physicsScene>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::PhysicsScene _physicsScene_k__BackingField;
 
-  /// @brief Field queryParameters, offset: 0x24, size: 0x10, def value: None
+  /// @brief Field queryParameters, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::QueryParameters queryParameters;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -202,8 +202,8 @@ static_assert(offsetof(::UnityEngine::SpherecastCommand, _distance_k__BackingFie
 
 static_assert(offsetof(::UnityEngine::SpherecastCommand, _physicsScene_k__BackingField) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::SpherecastCommand, queryParameters) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::SpherecastCommand, queryParameters) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::SpherecastCommand) == 0x34, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::SpherecastCommand) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine

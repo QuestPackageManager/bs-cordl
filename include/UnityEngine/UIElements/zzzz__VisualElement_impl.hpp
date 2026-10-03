@@ -2,10 +2,8 @@
 // IWYU pragma private; include "UnityEngine/UIElements/VisualElement.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
-#include "Unity/Properties/zzzz__PropertyPath_impl.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__StyleValues_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutNode_impl.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__RenderChainVEData_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ComputedStyle_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Focusable_impl.hpp"
@@ -47,6 +45,7 @@
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutSize_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyValue_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__RenderData_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Align_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundPosition_def.hpp"
@@ -56,6 +55,7 @@
 #include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Binding_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CallbackOptions_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ComputedStyle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CustomStyleProperty_1_def.hpp"
@@ -67,6 +67,7 @@
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCategory_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FilterFunction_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FlexDirection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
@@ -79,7 +80,6 @@
 #include "UnityEngine/UIElements/zzzz__IStylePropertyAnimationSystem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IStylePropertyAnimations_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IStyle_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ITransform_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IVisualElementScheduledItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IVisualElementScheduler_def.hpp"
@@ -87,13 +87,17 @@
 #include "UnityEngine/UIElements/zzzz__Justify_def.hpp"
 #include "UnityEngine/UIElements/zzzz__LanguageDirection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MaterialDefinition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PathRef_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PickingMode_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Position_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PseudoStates_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Ratio_def.hpp"
 #include "UnityEngine/UIElements/zzzz__RenderHints_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ResolvedStyleAccess_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Rotate_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Scale_def.hpp"
+#include "UnityEngine/UIElements/zzzz__SliceType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleFloat_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyName_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleRule_def.hpp"
@@ -104,12 +108,11 @@
 #include "UnityEngine/UIElements/zzzz__TextOverflow_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextShadow_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TimeValue_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TimerEventScheduler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TimerState_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TooltipEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TransformOrigin_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Translate_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TrickleDown_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UIRenderer_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UsageHints_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlAssetAttributeDescription_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
@@ -120,6 +123,7 @@
 #include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Visibility_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementAnimationSystem_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElementFlags_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementStyleSheetSet_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeAsset_def.hpp"
@@ -129,7 +133,6 @@
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__FontStyle_def.hpp"
 #include "UnityEngine/zzzz__Font_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
@@ -146,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_UxmlFactory::*)()>(&::UnityEngine::UIElements::VisualElement_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6c806d4;
+  constexpr static std::size_t addrs = 0x70e1c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -168,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UxmlIntAttributeDescription* (::UnityEngine::UIElements::VisualElement_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::VisualElement_UxmlTraits::get_focusIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c8073c;
+  constexpr static std::size_t addrs = 0x70e1cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_UxmlTraits*>(), { "get_focusIndex", {}, {} })));
@@ -181,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UxmlBoolAttributeDescription* (::UnityEngine::UIElements::VisualElement_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::VisualElement_UxmlTraits::get_focusable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c80744;
+  constexpr static std::size_t addrs = 0x70e1cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_UxmlTraits*>(), { "get_focusable", {}, {} })));
@@ -193,8 +196,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::VisualElement_UxmlTraits::Init)> {
-  constexpr static std::size_t size = 0x428;
-  constexpr static std::size_t addrs = 0x6c8074c;
+  constexpr static std::size_t size = 0x3d0;
+  constexpr static std::size_t addrs = 0x70e1cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_UxmlTraits*>(),
@@ -207,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_UxmlTraits::*)()>(&::UnityEngine::UIElements::VisualElement_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x5a8;
-  constexpr static std::size_t addrs = 0x6c80b74;
+  constexpr static std::size_t addrs = 0x70e2098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -420,23 +423,13 @@ constexpr ::UnityEngine::UIElements::VisualElement_MeasureMode::VisualElement_Me
 constexpr ::UnityEngine::UIElements::VisualElement_MeasureMode UnityEngine::UIElements::VisualElement_MeasureMode::Undefined{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::VisualElement_MeasureMode UnityEngine::UIElements::VisualElement_MeasureMode::Exactly{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::VisualElement_MeasureMode UnityEngine::UIElements::VisualElement_MeasureMode::AtMost{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::UIElements::VisualElement_RenderTargetMode::VisualElement_RenderTargetMode(int32_t value__) noexcept {
-  this->value__ = value__;
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::UIElements::VisualElement_RenderTargetMode::VisualElement_RenderTargetMode() {}
-constexpr ::UnityEngine::UIElements::VisualElement_RenderTargetMode UnityEngine::UIElements::VisualElement_RenderTargetMode::None{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::UIElements::VisualElement_RenderTargetMode UnityEngine::UIElements::VisualElement_RenderTargetMode::NoColorConversion{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::UIElements::VisualElement_RenderTargetMode UnityEngine::UIElements::VisualElement_RenderTargetMode::LinearToGamma{ static_cast<int32_t>(0x2) };
-constexpr ::UnityEngine::UIElements::VisualElement_RenderTargetMode UnityEngine::UIElements::VisualElement_RenderTargetMode::GammaToLinear{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualElement_Hierarchy.get_parent
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement_Hierarchy::*)()>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::get_parent)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c8111c;
+  constexpr static std::size_t addrs = 0x70e2640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_Hierarchy>(), { "get_parent", {}, {} })));
@@ -449,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* (::UnityEngine::UIElements::VisualElement_Hierarchy::*)()>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::get_children)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c81134;
+  constexpr static std::size_t addrs = 0x70e2658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_Hierarchy>(), { "get_children", {}, {} })));
@@ -462,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c8114c;
+  constexpr static std::size_t addrs = 0x70e2670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -477,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::Add)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c81154;
+  constexpr static std::size_t addrs = 0x70e2678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -491,8 +484,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(int32_t, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::Insert)> {
-  constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x6c81224;
+  constexpr static std::size_t size = 0x384;
+  constexpr static std::size_t addrs = 0x70e2748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -507,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::Remove)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6c81818;
+  constexpr static std::size_t addrs = 0x70e2d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -520,8 +513,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(int32_t)>(&::UnityEngine::UIElements::VisualElement_Hierarchy::RemoveAt)> {
-  constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x6c81928;
+  constexpr static std::size_t size = 0x314;
+  constexpr static std::size_t addrs = 0x70e2e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -533,8 +526,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_Hierarchy::*)()>(&::UnityEngine::UIElements::VisualElement_Hierarchy::Clear)> {
-  constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x6c81d14;
+  constexpr static std::size_t size = 0x430;
+  constexpr static std::size_t addrs = 0x70e32a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_Hierarchy>(), { "Clear", {}, {} })));
@@ -547,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::BringToFront)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6c82034;
+  constexpr static std::size_t addrs = 0x70e36d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_Hierarchy>(),
@@ -561,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::SendToBack)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c82248;
+  constexpr static std::size_t addrs = 0x70e38ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_Hierarchy>(),
@@ -575,7 +568,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::VisualElement_Hierarchy::PlaceBehind)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6c82308;
+  constexpr static std::size_t addrs = 0x70e39ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -590,7 +583,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(::UnityEngine::UIElements::VisualElement*, int32_t, int32_t)>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::MoveChildElement)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6c82110;
+  constexpr static std::size_t addrs = 0x70e37b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -604,7 +597,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElement_Hierarchy::*)()>(&::UnityEngine::UIElements::VisualElement_Hierarchy::get_childCount)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6c811cc;
+  constexpr static std::size_t addrs = 0x70e26f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_Hierarchy>(), { "get_childCount", {}, {} })));
@@ -617,7 +610,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::get_Item)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6c8240c;
+  constexpr static std::size_t addrs = 0x70e3ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -631,7 +624,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::IndexOf)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6c82478;
+  constexpr static std::size_t addrs = 0x70e3b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -646,7 +639,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::ElementAt)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c824fc;
+  constexpr static std::size_t addrs = 0x70e3ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -660,7 +653,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualElement*>* (
     ::UnityEngine::UIElements::VisualElement_Hierarchy::*)()>(&::UnityEngine::UIElements::VisualElement_Hierarchy::Children)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c82500;
+  constexpr static std::size_t addrs = 0x70e3ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_Hierarchy>(), { "Children", {}, {} })));
@@ -673,7 +666,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::SetParent)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6c81734;
+  constexpr static std::size_t addrs = 0x70e2c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -687,8 +680,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::PutChildAtIndex)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6c815c8;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x70e2acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -703,7 +696,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::RemoveChildAtIndex)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6c81bb4;
+  constexpr static std::size_t addrs = 0x70e3148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -716,7 +709,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_Hierarchy::*)()>(&::UnityEngine::UIElements::VisualElement_Hierarchy::ReleaseChildList)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6c81c38;
+  constexpr static std::size_t addrs = 0x70e31cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_Hierarchy>(), { "ReleaseChildList", {}, {} })));
@@ -729,7 +722,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(::UnityEngine::UIElements::VisualElement_Hierarchy)>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c82518;
+  constexpr static std::size_t addrs = 0x70e3bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_Hierarchy>(),
@@ -742,7 +735,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement_Hierarchy::*)(::System::Object*)>(&::UnityEngine::UIElements::VisualElement_Hierarchy::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c82534;
+  constexpr static std::size_t addrs = 0x70e3bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -755,7 +748,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElement_Hierarchy::*)()>(&::UnityEngine::UIElements::VisualElement_Hierarchy::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c825b0;
+  constexpr static std::size_t addrs = 0x70e3c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -769,7 +762,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement_Hierarchy, ::UnityEngine::UIElements::VisualElement_Hierarchy)>(
     &::UnityEngine::UIElements::VisualElement_Hierarchy::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c82528;
+  constexpr static std::size_t addrs = 0x70e3bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -921,7 +914,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)()>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::get_element)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c825c8;
+  constexpr static std::size_t addrs = 0x70e3c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -935,11 +928,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::set_element)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c825d0;
+  constexpr static std::size_t addrs = 0x70e3c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem*>(),
                                                                                            { "set_element", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem.get_isScheduled
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)()>(
+    &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::get_isScheduled)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x70e3c7c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem*>(), { "get_isScheduled", {}, {} })));
     return ___internal_method;
   }
 };
@@ -949,7 +956,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)()>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::get_isActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c825d8;
+  constexpr static std::size_t addrs = 0x70e3c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -963,7 +970,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)(bool)>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::set_isActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c825e0;
+  constexpr static std::size_t addrs = 0x70e3c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -977,7 +984,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)()>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::get_isDetaching)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c825e8;
+  constexpr static std::size_t addrs = 0x70e3c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -991,7 +998,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)(bool)>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::set_isDetaching)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c825f0;
+  constexpr static std::size_t addrs = 0x70e3ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1004,8 +1011,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::_ctor)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6c825f8;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x70e3cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem*>(),
@@ -1019,7 +1026,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)(bool)>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::SetActive)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6c8270c;
+  constexpr static std::size_t addrs = 0x70e3de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1032,8 +1039,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)()>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::SendActivation)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6c8284c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x70e3f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1046,8 +1053,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)()>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::SendDeactivation)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6c8288c;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x70e3f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1060,8 +1067,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)(::UnityEngine::UIElements::AttachToPanelEvent*)>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::OnElementAttachToPanelCallback)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c82adc;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x70e4050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1076,7 +1083,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)(::UnityEngine::UIElements::DetachFromPanelEvent*)>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::OnElementDetachFromPanelCallback)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6c82aec;
+  constexpr static std::size_t addrs = 0x70e40c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1091,7 +1098,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IVisualElementScheduledItem* (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)(int64_t)>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::StartingIn)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c82b60;
+  constexpr static std::size_t addrs = 0x70e4138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1105,7 +1112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IVisualElementScheduledItem* (
     ::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)(::System::Func_1<bool>*)>(&::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::Until)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c82b68;
+  constexpr static std::size_t addrs = 0x70e4140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1120,7 +1127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IVisualElementScheduledItem* (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)(int64_t)>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::Every)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c82be0;
+  constexpr static std::size_t addrs = 0x70e41b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1134,7 +1141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)()>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::OnItemUnscheduled)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c82ca0;
+  constexpr static std::size_t addrs = 0x70e4278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem*>(),
@@ -1148,7 +1155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)()>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::Resume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c82cb8;
+  constexpr static std::size_t addrs = 0x70e4290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1162,7 +1169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)()>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::Pause)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c82cc0;
+  constexpr static std::size_t addrs = 0x70e4298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1175,8 +1182,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)(int64_t)>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::ExecuteLater)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6c82cc8;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x70e42a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1189,8 +1196,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)()>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::OnPanelActivate)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6c82908;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x70e3fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1203,8 +1210,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)()>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::OnPanelDeactivate)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6c829fc;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x70e4034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1217,8 +1224,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::*)()>(
     &::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::CanBeActivated)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6c828cc;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x70e3fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1238,17 +1245,17 @@ constexpr void UnityEngine::UIElements::VisualElement_BaseVisualElementScheduled
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____element_k__BackingField = value;
 }
-constexpr bool& UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::__cordl_internal_get_isScheduled() {
+constexpr ::UnityEngine::UIElements::TimerEventScheduler*& UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::__cordl_internal_get_scheduler() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___isScheduled;
+  return this->___scheduler;
 }
-constexpr bool const& UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::__cordl_internal_get_isScheduled() const {
+constexpr ::UnityEngine::UIElements::TimerEventScheduler* const& UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::__cordl_internal_get_scheduler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___isScheduled;
+  return this->___scheduler;
 }
-constexpr void UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::__cordl_internal_set_isScheduled(bool value) {
+constexpr void UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::__cordl_internal_set_scheduler(::UnityEngine::UIElements::TimerEventScheduler* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___isScheduled = value;
+  this->___scheduler = value;
 }
 constexpr bool& UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::__cordl_internal_get__isActive_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1313,6 +1320,11 @@ inline void UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledIte
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem*>(),
                                                                                          { "set_element", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::get_isScheduled() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem*>(), { "get_isScheduled", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool UnityEngine::UIElements::VisualElement_BaseVisualElementScheduledItem::get_isActive() {
   static auto* ___internal_method =
@@ -1464,7 +1476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_TimerStateScheduledItem::*)(
     ::UnityEngine::UIElements::VisualElement*, ::System::Action_1<::UnityEngine::UIElements::TimerState>*)>(&::UnityEngine::UIElements::VisualElement_TimerStateScheduledItem::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6c82d08;
+  constexpr static std::size_t addrs = 0x70e42e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1480,7 +1492,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_TimerStateScheduledItem::*)(::UnityEngine::UIElements::TimerState)>(
     &::UnityEngine::UIElements::VisualElement_TimerStateScheduledItem::PerformTimerUpdate)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6c82d68;
+  constexpr static std::size_t addrs = 0x70e4348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_TimerStateScheduledItem*>(),
@@ -1513,7 +1525,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_SimpleScheduledItem::*)(::UnityEngine::UIElements::VisualElement*, ::System::Action*)>(
     &::UnityEngine::UIElements::VisualElement_SimpleScheduledItem::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6c82d94;
+  constexpr static std::size_t addrs = 0x70e4374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1528,7 +1540,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_SimpleScheduledItem::*)(::UnityEngine::UIElements::TimerState)>(
     &::UnityEngine::UIElements::VisualElement_SimpleScheduledItem::PerformTimerUpdate)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6c82df4;
+  constexpr static std::size_t addrs = 0x70e43d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_SimpleScheduledItem*>(),
@@ -1560,7 +1572,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue>*, float_t)>(
     &::UnityEngine::UIElements::VisualElement_CustomStyleAccess::SetContext)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c82e20;
+  constexpr static std::size_t addrs = 0x70e4400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1578,7 +1590,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement_CustomStyleAccess::*)(
     ::UnityEngine::UIElements::CustomStyleProperty_1<float_t>, ::by_ref<float_t>)>(&::UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6c82e2c;
+  constexpr static std::size_t addrs = 0x70e440c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1593,7 +1605,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement_CustomStyleAccess::*)(
     ::UnityEngine::UIElements::CustomStyleProperty_1<int32_t>, ::by_ref<int32_t>)>(&::UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6c82f78;
+  constexpr static std::size_t addrs = 0x70e4558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1607,8 +1619,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement_CustomStyleAccess::*)(
     ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Color>, ::by_ref<::UnityEngine::Color>)>(&::UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6c83040;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x70e4620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1625,7 +1637,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Texture2D>>, ::by_ref<::UnityEngine::Texture2D*>)>(
     &::UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6c832a0;
+  constexpr static std::size_t addrs = 0x70e4818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1642,7 +1654,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement_CustomStyleAccess::*)(
     ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Sprite>>, ::by_ref<::UnityEngine::Sprite*>)>(&::UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6c833b4;
+  constexpr static std::size_t addrs = 0x70e492c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1660,7 +1672,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::UIElements::VectorImage>>, ::by_ref<::UnityEngine::UIElements::VectorImage*>)>(
     &::UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6c834c8;
+  constexpr static std::size_t addrs = 0x70e4a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1678,7 +1690,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement_CustomStyleAccess::*)(
     ::UnityEngine::UIElements::CustomStyleProperty_1<::StringW>, ::by_ref<::StringW>)>(&::UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c835dc;
+  constexpr static std::size_t addrs = 0x70e4b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1694,7 +1706,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
                                                                                                                             ::by_ref<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>)>(
     &::UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6c82ed0;
+  constexpr static std::size_t addrs = 0x70e44b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_CustomStyleAccess*>(),
@@ -1711,7 +1723,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::UnityEngine::UIElements::StyleValueType, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue)>(
     &::UnityEngine::UIElements::VisualElement_CustomStyleAccess::LogCustomPropertyWarning)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6c83190;
+  constexpr static std::size_t addrs = 0x70e4708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_CustomStyleAccess*>(),
@@ -1727,7 +1739,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_CustomStyleAccess::*)()>(&::UnityEngine::UIElements::VisualElement_CustomStyleAccess::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c8369c;
+  constexpr static std::size_t addrs = 0x70e4c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_CustomStyleAccess*>(), { ".ctor", {}, {} })));
@@ -1865,7 +1877,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::UnityEngine::UIElements::VisualElement_TypeData::*)()>(&::UnityEngine::UIElements::VisualElement_TypeData::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c836a0;
+  constexpr static std::size_t addrs = 0x70e4c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_TypeData*>(), { "get_type", {}, {} })));
@@ -1877,7 +1889,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement_TypeData::*)(::System::Type*)>(&::UnityEngine::UIElements::VisualElement_TypeData::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c836a8;
+  constexpr static std::size_t addrs = 0x70e4c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1890,7 +1902,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::VisualElement_TypeData::*)()>(&::UnityEngine::UIElements::VisualElement_TypeData::get_fullTypeName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6c836c4;
+  constexpr static std::size_t addrs = 0x70e4c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_TypeData*>(), { "get_fullTypeName", {}, {} })));
@@ -1902,7 +1914,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::VisualElement_TypeData::*)()>(&::UnityEngine::UIElements::VisualElement_TypeData::get_typeName)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c83704;
+  constexpr static std::size_t addrs = 0x70e4c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement_TypeData*>(), { "get_typeName", {}, {} })));
@@ -1967,81 +1979,81 @@ inline ::UnityEngine::UIElements::VisualElement_TypeData* UnityEngine::UIElement
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualElement_TypeData::VisualElement_TypeData() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement___c__DisplayClass516_0._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement___c__DisplayClass562_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement___c__DisplayClass516_0::*)()>(
-    &::UnityEngine::UIElements::VisualElement___c__DisplayClass516_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement___c__DisplayClass562_0::*)()>(
+    &::UnityEngine::UIElements::VisualElement___c__DisplayClass562_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c837a0;
+  constexpr static std::size_t addrs = 0x70e4d18;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement___c__DisplayClass516_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement___c__DisplayClass562_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement___c__DisplayClass516_0._UnityEngine_UIElements_Experimental_ITransitionAnimations_Start_b__0
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement___c__DisplayClass562_0._UnityEngine_UIElements_Experimental_ITransitionAnimations_Start_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Experimental::StyleValues (::UnityEngine::UIElements::VisualElement___c__DisplayClass516_0::*)(
-    ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::VisualElement___c__DisplayClass516_0::_UnityEngine_UIElements_Experimental_ITransitionAnimations_Start_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Experimental::StyleValues (::UnityEngine::UIElements::VisualElement___c__DisplayClass562_0::*)(
+    ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::VisualElement___c__DisplayClass562_0::_UnityEngine_UIElements_Experimental_ITransitionAnimations_Start_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c837a4;
+  constexpr static std::size_t addrs = 0x70e4d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement___c__DisplayClass516_0*>(),
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement___c__DisplayClass562_0*>(),
                                                 { "<UnityEngine.UIElements.Experimental.ITransitionAnimations.Start>b__0", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::VisualElement___c__DisplayClass516_0::__cordl_internal_get___4__this() {
+constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::VisualElement___c__DisplayClass562_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::VisualElement___c__DisplayClass516_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::VisualElement___c__DisplayClass562_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void UnityEngine::UIElements::VisualElement___c__DisplayClass516_0::__cordl_internal_set___4__this(::UnityEngine::UIElements::VisualElement* value) {
+constexpr void UnityEngine::UIElements::VisualElement___c__DisplayClass562_0::__cordl_internal_set___4__this(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::UnityEngine::UIElements::Experimental::StyleValues& UnityEngine::UIElements::VisualElement___c__DisplayClass516_0::__cordl_internal_get_to() {
+constexpr ::UnityEngine::UIElements::Experimental::StyleValues& UnityEngine::UIElements::VisualElement___c__DisplayClass562_0::__cordl_internal_get_to() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___to;
 }
-constexpr ::UnityEngine::UIElements::Experimental::StyleValues const& UnityEngine::UIElements::VisualElement___c__DisplayClass516_0::__cordl_internal_get_to() const {
+constexpr ::UnityEngine::UIElements::Experimental::StyleValues const& UnityEngine::UIElements::VisualElement___c__DisplayClass562_0::__cordl_internal_get_to() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___to;
 }
-constexpr void UnityEngine::UIElements::VisualElement___c__DisplayClass516_0::__cordl_internal_set_to(::UnityEngine::UIElements::Experimental::StyleValues value) {
+constexpr void UnityEngine::UIElements::VisualElement___c__DisplayClass562_0::__cordl_internal_set_to(::UnityEngine::UIElements::Experimental::StyleValues value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___to = value;
 }
-inline void UnityEngine::UIElements::VisualElement___c__DisplayClass516_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement___c__DisplayClass516_0*>(), { ".ctor", {}, {} })));
+inline void UnityEngine::UIElements::VisualElement___c__DisplayClass562_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement___c__DisplayClass562_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::Experimental::StyleValues
-UnityEngine::UIElements::VisualElement___c__DisplayClass516_0::_UnityEngine_UIElements_Experimental_ITransitionAnimations_Start_b__0(::UnityEngine::UIElements::VisualElement* e) {
+UnityEngine::UIElements::VisualElement___c__DisplayClass562_0::_UnityEngine_UIElements_Experimental_ITransitionAnimations_Start_b__0(::UnityEngine::UIElements::VisualElement* e) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement___c__DisplayClass516_0*>(),
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement___c__DisplayClass562_0*>(),
                                               { "<UnityEngine.UIElements.Experimental.ITransitionAnimations.Start>b__0", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Experimental::StyleValues>(this, ___internal_method, e);
 }
-inline ::UnityEngine::UIElements::VisualElement___c__DisplayClass516_0* UnityEngine::UIElements::VisualElement___c__DisplayClass516_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::VisualElement___c__DisplayClass516_0*>());
+inline ::UnityEngine::UIElements::VisualElement___c__DisplayClass562_0* UnityEngine::UIElements::VisualElement___c__DisplayClass562_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::VisualElement___c__DisplayClass562_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::VisualElement___c__DisplayClass516_0::VisualElement___c__DisplayClass516_0() {}
+constexpr ::UnityEngine::UIElements::VisualElement___c__DisplayClass562_0::VisualElement___c__DisplayClass562_0() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UnityEngine_UIElements_IResolvedStyle_get_alignContent
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Align (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_alignContent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6c6c310;
+  constexpr static std::size_t addrs = 0x70cc440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2055,7 +2067,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Align (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_alignItems)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6c418;
+  constexpr static std::size_t addrs = 0x70cc548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2069,11 +2081,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Align (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_alignSelf)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6c4c8;
+  constexpr static std::size_t addrs = 0x70cc5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_alignSelf", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UnityEngine_UIElements_IResolvedStyle_get_aspectRatio
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Ratio (::UnityEngine::UIElements::VisualElement::*)()>(
+    &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_aspectRatio)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x70cc6a8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_aspectRatio", {}, {} })));
     return ___internal_method;
   }
 };
@@ -2083,7 +2109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_backgroundColor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6c578;
+  constexpr static std::size_t addrs = 0x70cc758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2097,7 +2123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Background (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_backgroundImage)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6c6c628;
+  constexpr static std::size_t addrs = 0x70cc808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2111,7 +2137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BackgroundPosition (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_backgroundPositionX)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6c6c6fc;
+  constexpr static std::size_t addrs = 0x70cc8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2125,7 +2151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BackgroundPosition (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_backgroundPositionY)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6c6c7b4;
+  constexpr static std::size_t addrs = 0x70cc994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2139,7 +2165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BackgroundRepeat (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_backgroundRepeat)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6c86c;
+  constexpr static std::size_t addrs = 0x70cca4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2153,7 +2179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BackgroundSize (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_backgroundSize)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6c6c91c;
+  constexpr static std::size_t addrs = 0x70ccafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2167,7 +2193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_borderBottomColor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6c9f8;
+  constexpr static std::size_t addrs = 0x70ccbd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2181,7 +2207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_borderBottomLeftRadius)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6caa8;
+  constexpr static std::size_t addrs = 0x70ccc88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2195,7 +2221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_borderBottomRightRadius)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6cb58;
+  constexpr static std::size_t addrs = 0x70ccd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2209,7 +2235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_borderBottomWidth)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6cc08;
+  constexpr static std::size_t addrs = 0x70ccde8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2223,7 +2249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_borderLeftColor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6ccb8;
+  constexpr static std::size_t addrs = 0x70cce98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2237,7 +2263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_borderLeftWidth)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6cd68;
+  constexpr static std::size_t addrs = 0x70ccf48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2251,7 +2277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_borderRightColor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6ce18;
+  constexpr static std::size_t addrs = 0x70ccff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2265,7 +2291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_borderRightWidth)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6cec8;
+  constexpr static std::size_t addrs = 0x70cd0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2279,7 +2305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_borderTopColor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6cf78;
+  constexpr static std::size_t addrs = 0x70cd158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2293,7 +2319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_borderTopLeftRadius)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6d028;
+  constexpr static std::size_t addrs = 0x70cd208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2307,7 +2333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_borderTopRightRadius)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6d0d8;
+  constexpr static std::size_t addrs = 0x70cd2b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2321,7 +2347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_borderTopWidth)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6d188;
+  constexpr static std::size_t addrs = 0x70cd368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2335,7 +2361,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_bottom)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6d238;
+  constexpr static std::size_t addrs = 0x70cd418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2349,7 +2375,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_color)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6d2e8;
+  constexpr static std::size_t addrs = 0x70cd4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2363,11 +2389,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DisplayStyle (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_display)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6d398;
+  constexpr static std::size_t addrs = 0x70cd578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_display", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UnityEngine_UIElements_IResolvedStyle_get_filter
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::FilterFunction>* (::UnityEngine::UIElements::VisualElement::*)()>(
+    &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_filter)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x70cd628;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_filter", {}, {} })));
     return ___internal_method;
   }
 };
@@ -2377,7 +2417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleFloat (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_flexBasis)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6d448;
+  constexpr static std::size_t addrs = 0x70cd6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2391,7 +2431,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FlexDirection (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_flexDirection)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6d4f8;
+  constexpr static std::size_t addrs = 0x70cd788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2405,7 +2445,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_flexGrow)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6d5a8;
+  constexpr static std::size_t addrs = 0x70cd838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2419,7 +2459,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_flexShrink)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6d658;
+  constexpr static std::size_t addrs = 0x70cd8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2433,7 +2473,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Wrap (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_flexWrap)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6d708;
+  constexpr static std::size_t addrs = 0x70cd998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2447,7 +2487,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_fontSize)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6d7b8;
+  constexpr static std::size_t addrs = 0x70cda48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2461,7 +2501,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_height)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6d868;
+  constexpr static std::size_t addrs = 0x70cdaf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2475,7 +2515,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Justify (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_justifyContent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6d918;
+  constexpr static std::size_t addrs = 0x70cdba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2489,7 +2529,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_left)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6d9c8;
+  constexpr static std::size_t addrs = 0x70cdc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2503,7 +2543,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_letterSpacing)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6da78;
+  constexpr static std::size_t addrs = 0x70cdd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2517,7 +2557,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_marginBottom)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6db28;
+  constexpr static std::size_t addrs = 0x70cddb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2531,7 +2571,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_marginLeft)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6dbd8;
+  constexpr static std::size_t addrs = 0x70cde68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2545,7 +2585,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_marginRight)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6dc88;
+  constexpr static std::size_t addrs = 0x70cdf18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2559,7 +2599,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_marginTop)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6dd38;
+  constexpr static std::size_t addrs = 0x70cdfc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2573,7 +2613,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleFloat (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_maxHeight)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6dde8;
+  constexpr static std::size_t addrs = 0x70ce078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2587,7 +2627,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleFloat (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_maxWidth)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6de98;
+  constexpr static std::size_t addrs = 0x70ce128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2601,7 +2641,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleFloat (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_minHeight)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6df48;
+  constexpr static std::size_t addrs = 0x70ce1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2615,7 +2655,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleFloat (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_minWidth)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6dff8;
+  constexpr static std::size_t addrs = 0x70ce288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2629,7 +2669,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_opacity)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6e0a8;
+  constexpr static std::size_t addrs = 0x70ce338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2643,7 +2683,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_paddingBottom)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6e158;
+  constexpr static std::size_t addrs = 0x70ce3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2657,7 +2697,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_paddingLeft)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6e208;
+  constexpr static std::size_t addrs = 0x70ce498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2671,7 +2711,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_paddingRight)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6e2b8;
+  constexpr static std::size_t addrs = 0x70ce548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2685,7 +2725,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_paddingTop)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6e368;
+  constexpr static std::size_t addrs = 0x70ce5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2699,7 +2739,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Position (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_position)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6e418;
+  constexpr static std::size_t addrs = 0x70ce6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2713,7 +2753,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_right)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6e4c8;
+  constexpr static std::size_t addrs = 0x70ce758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2727,7 +2767,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Rotate (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_rotate)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6c6e578;
+  constexpr static std::size_t addrs = 0x70ce808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2741,7 +2781,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Scale (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_scale)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6e650;
+  constexpr static std::size_t addrs = 0x70ce8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2755,7 +2795,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextOverflow (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_textOverflow)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6e700;
+  constexpr static std::size_t addrs = 0x70ce990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2769,7 +2809,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_top)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6e7b0;
+  constexpr static std::size_t addrs = 0x70cea40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2783,7 +2823,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_transformOrigin)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6e860;
+  constexpr static std::size_t addrs = 0x70ceaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2797,7 +2837,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TimeValue>* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_transitionDelay)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6e910;
+  constexpr static std::size_t addrs = 0x70ceba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2811,7 +2851,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TimeValue>* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_transitionDuration)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6e9c0;
+  constexpr static std::size_t addrs = 0x70cec50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2825,7 +2865,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StylePropertyName>* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_transitionProperty)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6ea70;
+  constexpr static std::size_t addrs = 0x70ced00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2839,7 +2879,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::EasingFunction>* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_transitionTimingFunction)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6eb20;
+  constexpr static std::size_t addrs = 0x70cedb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2853,7 +2893,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_translate)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6ebd0;
+  constexpr static std::size_t addrs = 0x70cee60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2867,7 +2907,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unityBackgroundImageTintColor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6ec80;
+  constexpr static std::size_t addrs = 0x70cef10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2881,7 +2921,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EditorTextRenderingMode (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unityEditorTextRenderingMode)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6ed30;
+  constexpr static std::size_t addrs = 0x70cefc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2895,7 +2935,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Font> (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unityFont)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6ede0;
+  constexpr static std::size_t addrs = 0x70cf070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2909,7 +2949,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FontDefinition (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unityFontDefinition)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6ee90;
+  constexpr static std::size_t addrs = 0x70cf120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2923,11 +2963,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::FontStyle (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unityFontStyleAndWeight)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6ef40;
+  constexpr static std::size_t addrs = 0x70cf1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_unityFontStyleAndWeight", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UnityEngine_UIElements_IResolvedStyle_get_unityMaterial
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MaterialDefinition (::UnityEngine::UIElements::VisualElement::*)()>(
+    &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unityMaterial)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x70cf280;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_unityMaterial", {}, {} })));
     return ___internal_method;
   }
 };
@@ -2937,7 +2991,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unityParagraphSpacing)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6eff0;
+  constexpr static std::size_t addrs = 0x70cf330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2951,7 +3005,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unitySliceBottom)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6f0a0;
+  constexpr static std::size_t addrs = 0x70cf3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2965,7 +3019,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unitySliceLeft)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6f150;
+  constexpr static std::size_t addrs = 0x70cf490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2979,7 +3033,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unitySliceRight)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6f200;
+  constexpr static std::size_t addrs = 0x70cf540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2993,7 +3047,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unitySliceScale)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6f2b0;
+  constexpr static std::size_t addrs = 0x70cf5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3007,11 +3061,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unitySliceTop)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6f360;
+  constexpr static std::size_t addrs = 0x70cf6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_unitySliceTop", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UnityEngine_UIElements_IResolvedStyle_get_unitySliceType
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::SliceType (::UnityEngine::UIElements::VisualElement::*)()>(
+    &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unitySliceType)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x70cf750;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_unitySliceType", {}, {} })));
     return ___internal_method;
   }
 };
@@ -3021,7 +3089,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextAnchor (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unityTextAlign)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6f410;
+  constexpr static std::size_t addrs = 0x70cf800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3035,7 +3103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextGeneratorType (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unityTextGenerator)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6f4c0;
+  constexpr static std::size_t addrs = 0x70cf8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3049,7 +3117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unityTextOutlineColor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6f570;
+  constexpr static std::size_t addrs = 0x70cf960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3063,7 +3131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unityTextOutlineWidth)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6f620;
+  constexpr static std::size_t addrs = 0x70cfa10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3077,7 +3145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextOverflowPosition (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unityTextOverflowPosition)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6f6d0;
+  constexpr static std::size_t addrs = 0x70cfac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3091,7 +3159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Visibility (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_visibility)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6f780;
+  constexpr static std::size_t addrs = 0x70cfb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3105,7 +3173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::WhiteSpace (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_whiteSpace)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6f830;
+  constexpr static std::size_t addrs = 0x70cfc20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3119,7 +3187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_width)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6f8e0;
+  constexpr static std::size_t addrs = 0x70cfcd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3133,7 +3201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_wordSpacing)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6f990;
+  constexpr static std::size_t addrs = 0x70cfd80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3146,7 +3214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_hasRunningAnimations)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6fa40;
+  constexpr static std::size_t addrs = 0x70cfe30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_hasRunningAnimations", {}, {} })));
@@ -3158,7 +3226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_hasCompletedAnimations)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c6faf4;
+  constexpr static std::size_t addrs = 0x70cfee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_hasCompletedAnimations", {}, {} })));
@@ -3171,7 +3239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_get_runningAnimationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c6fba4;
+  constexpr static std::size_t addrs = 0x70cff90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3186,7 +3254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_set_runningAnimationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c6fbac;
+  constexpr static std::size_t addrs = 0x70cff98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3201,7 +3269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_get_completedAnimationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c6fbb4;
+  constexpr static std::size_t addrs = 0x70cffa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3216,7 +3284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_set_completedAnimationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c6fbbc;
+  constexpr static std::size_t addrs = 0x70cffa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3231,7 +3299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IStylePropertyAnimationSystem* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::GetStylePropertyAnimationSystem)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c6fbc4;
+  constexpr static std::size_t addrs = 0x70cffb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3245,7 +3313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IStylePropertyAnimations* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_styleAnimation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c6faf0;
+  constexpr static std::size_t addrs = 0x70baaa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_styleAnimation", {}, {} })));
@@ -3259,7 +3327,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::StyleSheets::StylePropertyId, float_t, float_t, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
         &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6c6fbe0;
+  constexpr static std::size_t addrs = 0x70cffcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3278,7 +3346,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::StyleSheets::StylePropertyId, int32_t, int32_t, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
         &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6c6fce8;
+  constexpr static std::size_t addrs = 0x70d00d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3297,7 +3365,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
                                                                                                           ::UnityEngine::UIElements::Length, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6c6fe08;
+  constexpr static std::size_t addrs = 0x70d01f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3317,7 +3385,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
                                                                                                           ::UnityEngine::Color, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6c6ff28;
+  constexpr static std::size_t addrs = 0x70d0314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3337,7 +3405,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::StyleSheets::StylePropertyId, int32_t, int32_t, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
         &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_StartEnum)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6c7007c;
+  constexpr static std::size_t addrs = 0x70d0468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3356,7 +3424,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Background, ::UnityEngine::UIElements::Background, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6c7019c;
+  constexpr static std::size_t addrs = 0x70d0588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3376,7 +3444,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::FontDefinition, ::UnityEngine::UIElements::FontDefinition, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6c702e0;
+  constexpr static std::size_t addrs = 0x70d06cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3396,7 +3464,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
                                                                                                           ::UnityEngine::Font*, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6c70414;
+  constexpr static std::size_t addrs = 0x70d0800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3416,7 +3484,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6c70534;
+  constexpr static std::size_t addrs = 0x70d0920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3436,7 +3504,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
                                                                                                           ::UnityEngine::UIElements::Scale, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6c70698;
+  constexpr static std::size_t addrs = 0x70d0a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3456,7 +3524,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
                                                                                                           ::UnityEngine::UIElements::Translate, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6c707cc;
+  constexpr static std::size_t addrs = 0x70d0bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3476,7 +3544,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
                                                                                                           ::UnityEngine::UIElements::Rotate, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6c70930;
+  constexpr static std::size_t addrs = 0x70d0d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3492,11 +3560,31 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UnityEngine_UIElements_IStylePropertyAnimations_Start
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Ratio,
+                                                                                                          ::UnityEngine::UIElements::Ratio, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
+    &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x70d0e80;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                            { "UnityEngine.UIElements.IStylePropertyAnimations.Start",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(), ::i2c::type_of<::UnityEngine::UIElements::Ratio>(),
+                                ::i2c::type_of<::UnityEngine::UIElements::Ratio>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UnityEngine_UIElements_IStylePropertyAnimations_Start
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(
     ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6c70a94;
+  constexpr static std::size_t addrs = 0x70d0f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3516,7 +3604,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundPosition, ::UnityEngine::UIElements::BackgroundPosition, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6c70bf8;
+  constexpr static std::size_t addrs = 0x70d10f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3536,7 +3624,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundRepeat, ::UnityEngine::UIElements::BackgroundRepeat, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6c70d2c;
+  constexpr static std::size_t addrs = 0x70d1224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3556,7 +3644,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6c70e4c;
+  constexpr static std::size_t addrs = 0x70d1344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3569,13 +3657,55 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UnityEngine_UIElements_IStylePropertyAnimations_Start
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*,
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
+    &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x70d14a8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                             { "UnityEngine.UIElements.IStylePropertyAnimations.Start",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                                                 ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>(),
+                                                                 ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>(), ::i2c::type_of<int32_t>(),
+                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UnityEngine_UIElements_IStylePropertyAnimations_Start
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition, int32_t, int32_t,
+    ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start)> {
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x70d15c8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                             { "UnityEngine.UIElements.IStylePropertyAnimations.Start",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                                                 ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>(), ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>(),
+                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UnityEngine_UIElements_IStylePropertyAnimations_CancelAnimation
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_CancelAnimation)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6c70fb0;
+  constexpr static std::size_t addrs = 0x70d16fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3591,7 +3721,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_CancelAllAnimations)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6c71090;
+  constexpr static std::size_t addrs = 0x70d17dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3605,7 +3735,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_UpdateAnimation)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6c71174;
+  constexpr static std::size_t addrs = 0x70d18c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3622,7 +3752,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*)>(
         &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_GetAllAnimations)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6c71248;
+  constexpr static std::size_t addrs = 0x70d1994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3640,7 +3770,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::by_ref<::UnityEngine::UIElements::Length>, ::by_ref<::UnityEngine::UIElements::Length>, int32_t)>(
     &::UnityEngine::UIElements::VisualElement::TryConvertLengthUnits)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x6c71344;
+  constexpr static std::size_t addrs = 0x70d1a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3658,7 +3788,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(
     ::by_ref<::UnityEngine::UIElements::TransformOrigin>, ::by_ref<::UnityEngine::UIElements::TransformOrigin>)>(&::UnityEngine::UIElements::VisualElement::TryConvertTransformOriginUnits)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6c718c0;
+  constexpr static std::size_t addrs = 0x70d200c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3676,7 +3806,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(
     ::by_ref<::UnityEngine::UIElements::Translate>, ::by_ref<::UnityEngine::UIElements::Translate>)>(&::UnityEngine::UIElements::VisualElement::TryConvertTranslateUnits)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6c71950;
+  constexpr static std::size_t addrs = 0x70d209c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3693,7 +3823,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(
     ::by_ref<::UnityEngine::UIElements::BackgroundSize>, ::by_ref<::UnityEngine::UIElements::BackgroundSize>)>(&::UnityEngine::UIElements::VisualElement::TryConvertBackgroundSizeUnits)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6c719e0;
+  constexpr static std::size_t addrs = 0x70d212c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3710,7 +3840,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<float_t> (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::StyleSheets::StylePropertyId, int32_t)>(
     &::UnityEngine::UIElements::VisualElement::GetParentSizeForLengthConversion)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x6c7159c;
+  constexpr static std::size_t addrs = 0x70d1ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3724,7 +3854,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_isCompositeRoot)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c71a80;
+  constexpr static std::size_t addrs = 0x70d21cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isCompositeRoot", {}, {} })));
@@ -3736,7 +3866,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_isCompositeRoot)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c71a8c;
+  constexpr static std::size_t addrs = 0x70d21d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3749,7 +3879,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_areAncestorsAndSelfDisplayed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c71aac;
+  constexpr static std::size_t addrs = 0x70d21f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3761,12 +3891,66 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_areAncestorsAndSelfDisplayed)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c71ab8;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x70d2204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_areAncestorsAndSelfDisplayed", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_hasOneOrMorePointerCaptures
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_hasOneOrMorePointerCaptures)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x70d225c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_hasOneOrMorePointerCaptures", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.set_hasOneOrMorePointerCaptures
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_hasOneOrMorePointerCaptures)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x70d2268;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_hasOneOrMorePointerCaptures", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_flags
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElementFlags (::UnityEngine::UIElements::VisualElement::*)()>(
+    &::UnityEngine::UIElements::VisualElement::get_flags)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x70d2288;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_flags", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.set_flags
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VisualElementFlags)>(
+    &::UnityEngine::UIElements::VisualElement::set_flags)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x70d22bc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_flags", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElementFlags>() } })));
     return ___internal_method;
   }
 };
@@ -3775,7 +3959,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_viewDataKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c71b44;
+  constexpr static std::size_t addrs = 0x70d238c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_viewDataKey", {}, {} })));
@@ -3787,7 +3971,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::StringW)>(&::UnityEngine::UIElements::VisualElement::set_viewDataKey)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6c71b4c;
+  constexpr static std::size_t addrs = 0x70d2394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3800,7 +3984,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_enableViewDataPersistence)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c71c10;
+  constexpr static std::size_t addrs = 0x70d2458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_enableViewDataPersistence", {}, {} })));
@@ -3812,7 +3996,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_userData)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6c71c1c;
+  constexpr static std::size_t addrs = 0x70d2464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_userData", {}, {} })));
@@ -3824,7 +4008,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::System::Object*)>(&::UnityEngine::UIElements::VisualElement::set_userData)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6c71cc4;
+  constexpr static std::size_t addrs = 0x70d250c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3837,7 +4021,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_canGrabFocus)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6c71e88;
+  constexpr static std::size_t addrs = 0x70d26d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3851,7 +4035,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FocusController* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_focusController)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6c72084;
+  constexpr static std::size_t addrs = 0x70d28cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3864,7 +4048,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_disablePlayModeTint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c72140;
+  constexpr static std::size_t addrs = 0x70d2988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_disablePlayModeTint", {}, {} })));
@@ -3876,7 +4060,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_disablePlayModeTint)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c72148;
+  constexpr static std::size_t addrs = 0x70d2990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3889,7 +4073,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_playModeTintColor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6c7214c;
+  constexpr static std::size_t addrs = 0x70d2994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_playModeTintColor", {}, {} })));
@@ -3902,7 +4086,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UsageHints (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_usageHints)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c72198;
+  constexpr static std::size_t addrs = 0x70d29e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_usageHints", {}, {} })));
@@ -3914,8 +4098,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::UsageHints)>(
     &::UnityEngine::UIElements::VisualElement::set_usageHints)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c721b8;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x70d2a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3929,7 +4113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::RenderHints (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_renderHints)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c721b0;
+  constexpr static std::size_t addrs = 0x70d29f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_renderHints", {}, {} })));
@@ -3942,7 +4126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::RenderHints)>(
     &::UnityEngine::UIElements::VisualElement::set_renderHints)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6c72274;
+  constexpr static std::size_t addrs = 0x70d2aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3956,65 +4140,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::MarkRenderHintsClean)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c722bc;
+  constexpr static std::size_t addrs = 0x70d2b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "MarkRenderHintsClean", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_transform
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_useRenderTexture
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ITransform* (::UnityEngine::UIElements::VisualElement::*)()>(
-    &::UnityEngine::UIElements::VisualElement::get_transform)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c722cc;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_useRenderTexture)> {
+  constexpr static std::size_t size = 0x2b8;
+  constexpr static std::size_t addrs = 0x70d2b44;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_transform", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UnityEngine_UIElements_ITransform_get_position
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::VisualElement::*)()>(
-    &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_ITransform_get_position)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c722d0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.ITransform.get_position", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UnityEngine_UIElements_ITransform_set_position
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::Vector3)>(
-    &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_ITransform_set_position)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6c72380;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                                                           { "UnityEngine.UIElements.ITransform.set_position", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UnityEngine_UIElements_ITransform_get_scale
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::VisualElement::*)()>(
-    &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_ITransform_get_scale)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6c724f0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.ITransform.get_scale", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_useRenderTexture", {}, {} })));
     return ___internal_method;
   }
 };
@@ -4023,7 +4164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_isLayoutManual)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c725cc;
+  constexpr static std::size_t addrs = 0x70d2eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isLayoutManual", {}, {} })));
@@ -4035,7 +4176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_isLayoutManual)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c725d8;
+  constexpr static std::size_t addrs = 0x70d2eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4048,7 +4189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_scaledPixelsPerPoint)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6c725f8;
+  constexpr static std::size_t addrs = 0x70d2ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_scaledPixelsPerPoint", {}, {} })));
@@ -4060,7 +4201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_scaledPixelsPerPoint_noChecks)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6c726d4;
+  constexpr static std::size_t addrs = 0x70d2fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4072,8 +4213,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_layout)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6c72764;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x70d3044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_layout", {}, {} })));
@@ -4084,8 +4225,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::Un
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::Rect)>(&::UnityEngine::UIElements::VisualElement::set_layout)> {
-  constexpr static std::size_t size = 0x724;
-  constexpr static std::size_t addrs = 0x6c727e8;
+  constexpr static std::size_t size = 0x86c;
+  constexpr static std::size_t addrs = 0x70d30c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4098,10 +4239,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::ClearManualLayout)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x6c72f0c;
+  constexpr static std::size_t addrs = 0x70d3930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "ClearManualLayout", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_hasSize
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_hasSize)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x70d2dfc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_hasSize", {}, {} })));
     return ___internal_method;
   }
 };
@@ -4109,8 +4262,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_contentRect)> {
-  constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x6c733dc;
+  constexpr static std::size_t size = 0x234;
+  constexpr static std::size_t addrs = 0x70d3e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_contentRect", {}, {} })));
@@ -4121,8 +4274,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::Un
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_paddingRect)> {
-  constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x6c73628;
+  constexpr static std::size_t size = 0x2b8;
+  constexpr static std::size_t addrs = 0x70d4034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_paddingRect", {}, {} })));
@@ -4134,10 +4287,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_needs3DBounds)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c7388c;
+  constexpr static std::size_t addrs = 0x70d42ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_needs3DBounds", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.set_needs3DBounds
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_needs3DBounds)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x70d42f8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_needs3DBounds", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -4146,7 +4312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_isLocalBounds3DDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c73898;
+  constexpr static std::size_t addrs = 0x70d4318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isLocalBounds3DDirty", {}, {} })));
@@ -4158,11 +4324,37 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_isLocalBounds3DDirty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c738a4;
+  constexpr static std::size_t addrs = 0x70d4324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_isLocalBounds3DDirty", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_isLocalBoundsWithoutNested3DDirty
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_isLocalBoundsWithoutNested3DDirty)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x70d4344;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isLocalBoundsWithoutNested3DDirty", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.set_isLocalBoundsWithoutNested3DDirty
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_isLocalBoundsWithoutNested3DDirty)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x70d4350;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_isLocalBoundsWithoutNested3DDirty", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -4171,7 +4363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_isBoundingBoxDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c738c4;
+  constexpr static std::size_t addrs = 0x70d4370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isBoundingBoxDirty", {}, {} })));
@@ -4183,7 +4375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_isBoundingBoxDirty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c738d0;
+  constexpr static std::size_t addrs = 0x70d437c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4196,7 +4388,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_isWorldBoundingBoxDirty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c738f0;
+  constexpr static std::size_t addrs = 0x70d439c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4209,7 +4401,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_isWorldBoundingBoxOrDependenciesDirty)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c73910;
+  constexpr static std::size_t addrs = 0x70d43bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4221,11 +4413,23 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_boundingBox)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6c73924;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x70d43d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_boundingBox", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_boundingBoxWithoutNested
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_boundingBoxWithoutNested)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x70d4adc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_boundingBoxWithoutNested", {}, {} })));
     return ___internal_method;
   }
 };
@@ -4233,8 +4437,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::Un
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_worldBoundingBox)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c73c0c;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x70d4b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_worldBoundingBox", {}, {} })));
@@ -4246,7 +4450,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_boundingBoxInParentSpace)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6c73d54;
+  constexpr static std::size_t addrs = 0x70d4c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_boundingBoxInParentSpace", {}, {} })));
@@ -4257,8 +4461,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::Un
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::UpdateBoundingBox)> {
-  constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x6c73960;
+  constexpr static std::size_t size = 0x6d8;
+  constexpr static std::size_t addrs = 0x70d4404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateBoundingBox", {}, {} })));
@@ -4269,8 +4473,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::UpdateWorldBoundingBox)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6c73c50;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x70d4ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateWorldBoundingBox", {}, {} })));
@@ -4281,24 +4485,49 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_localBounds3D)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6c73de0;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x70d4d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_localBounds3D", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UpdateLocalBoundsAndPickingBounds3D
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_localBoundsPicking3D
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::UpdateLocalBoundsAndPickingBounds3D)> {
-  constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x6c73e88;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_localBoundsPicking3D)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x70d5588;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_localBoundsPicking3D", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_localBounds3DWithoutNested3D
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::UIElements::VisualElement::*)()>(
+    &::UnityEngine::UIElements::VisualElement::get_localBounds3DWithoutNested3D)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x70d5634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateLocalBoundsAndPickingBounds3D", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_localBounds3DWithoutNested3D", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UpdateBounds3D
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::UpdateBounds3D)> {
+  constexpr static std::size_t size = 0x7bc;
+  constexpr static std::size_t addrs = 0x70d4dcc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateBounds3D", {}, {} })));
     return ___internal_method;
   }
 };
@@ -4306,8 +4535,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_worldBound)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6c741b4;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x70d56e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_worldBound", {}, {} })));
@@ -4318,8 +4547,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::Un
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_localBound)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6c74284;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x70d580c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_localBound", {}, {} })));
@@ -4330,11 +4559,61 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::Un
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_rect)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c73874;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x70d58ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_rect", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_layoutSize
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_layoutSize)> {
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x70d5928;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_layoutSize", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_layoutPosition
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_layoutPosition)> {
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x70d599c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_layoutPosition", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_isWorldSpaceRootUIDocument
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_isWorldSpaceRootUIDocument)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x70d5a10;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isWorldSpaceRootUIDocument", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.set_isWorldSpaceRootUIDocument
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_isWorldSpaceRootUIDocument)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x70d5a1c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_isWorldSpaceRootUIDocument", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -4343,7 +4622,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_isWorldTransformDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c742c0;
+  constexpr static std::size_t addrs = 0x70d5a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isWorldTransformDirty", {}, {} })));
@@ -4355,7 +4634,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_isWorldTransformDirty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c742cc;
+  constexpr static std::size_t addrs = 0x70d5a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4368,7 +4647,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_isWorldTransformInverseDirty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c742dc;
+  constexpr static std::size_t addrs = 0x70d5a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4382,7 +4661,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_isWorldTransformInverseOrDependenciesDirty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c742fc;
+  constexpr static std::size_t addrs = 0x70d5a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4394,8 +4673,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_worldTransform)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6c7430c;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x70d5a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_worldTransform", {}, {} })));
@@ -4408,7 +4687,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Matrix4x4> (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_worldTransformRef)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c73dbc;
+  constexpr static std::size_t addrs = 0x70d4cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_worldTransformRef", {}, {} })));
@@ -4421,7 +4700,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Matrix4x4> (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_worldTransformInverse)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c74630;
+  constexpr static std::size_t addrs = 0x70d5da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_worldTransformInverse", {}, {} })));
@@ -4432,8 +4711,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::M
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::UpdateWorldTransform)> {
-  constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x6c7434c;
+  constexpr static std::size_t size = 0x2dc;
+  constexpr static std::size_t addrs = 0x70d5ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateWorldTransform", {}, {} })));
@@ -4444,36 +4723,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::UpdateWorldTransformInverse)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c74658;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x70d5dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateWorldTransformInverse", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_isWorldClipDirty
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_isWorldClipDirty)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c74a80;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isWorldClipDirty", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.set_isWorldClipDirty
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_isWorldClipDirty)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c74a8c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_isWorldClipDirty", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -4481,35 +4735,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_worldClip)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6c74aac;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x70d6244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_worldClip", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_worldClipMinusGroup
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_worldClipMinusGroup)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6c74dac;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_worldClipMinusGroup", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_worldClipIsInfinite
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_worldClipIsInfinite)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6c74de8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_worldClipIsInfinite", {}, {} })));
     return ___internal_method;
   }
 };
@@ -4517,8 +4747,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::EnsureWorldTransformAndClipUpToDate)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6c74e18;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x70d62f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4526,58 +4756,71 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UpdateWorldClip
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::UpdateWorldClip)> {
-  constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x6c74ae8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateWorldClip", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.CombineClipRects
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::Rect, ::UnityEngine::Rect)>(
-    &::UnityEngine::UIElements::VisualElement::CombineClipRects)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6c75500;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                             { "CombineClipRects", {}, { ::i2c::type_of<::UnityEngine::Rect>(), ::i2c::type_of<::UnityEngine::Rect>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.SubstractBorderPadding
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::Rect)>(
-    &::UnityEngine::UIElements::VisualElement::SubstractBorderPadding)> {
-  constexpr static std::size_t size = 0x6ac;
-  constexpr static std::size_t addrs = 0x6c74e54;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "SubstractBorderPadding", {}, { ::i2c::type_of<::UnityEngine::Rect>() } })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.ComputeAAAlignedBound
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::Rect, ::UnityEngine::Matrix4x4)>(&::UnityEngine::UIElements::VisualElement::ComputeAAAlignedBound)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6c75548;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x70d6348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
                                                              { "ComputeAAAlignedBound", {}, { ::i2c::type_of<::UnityEngine::Rect>(), ::i2c::type_of<::UnityEngine::Matrix4x4>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_receivesHierarchyGeometryChangedEvents
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_receivesHierarchyGeometryChangedEvents)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x70d6490;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_receivesHierarchyGeometryChangedEvents", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.set_receivesHierarchyGeometryChangedEvents
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(
+    &::UnityEngine::UIElements::VisualElement::set_receivesHierarchyGeometryChangedEvents)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x70d649c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_receivesHierarchyGeometryChangedEvents", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_boundingBoxDirtiedSinceLastLayoutPass
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_boundingBoxDirtiedSinceLastLayoutPass)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x70d64bc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_boundingBoxDirtiedSinceLastLayoutPass", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.set_boundingBoxDirtiedSinceLastLayoutPass
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(
+    &::UnityEngine::UIElements::VisualElement::set_boundingBoxDirtiedSinceLastLayoutPass)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x70d64c8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_boundingBoxDirtiedSinceLastLayoutPass", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -4587,7 +4830,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PseudoStates (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_pseudoStates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c7565c;
+  constexpr static std::size_t addrs = 0x70d64e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_pseudoStates", {}, {} })));
@@ -4599,8 +4842,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::PseudoStates)>(
     &::UnityEngine::UIElements::VisualElement::set_pseudoStates)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6c75664;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x70d64f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4609,12 +4852,38 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.SetActivePseudoState
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::SetActivePseudoState)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x70d6554;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "SetActivePseudoState", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.SetCheckedPseudoState
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::SetCheckedPseudoState)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x70d6564;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "SetCheckedPseudoState", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_containedPointerIds
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_containedPointerIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c756e8;
+  constexpr static std::size_t addrs = 0x70d6580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_containedPointerIds", {}, {} })));
@@ -4626,7 +4895,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(int32_t)>(&::UnityEngine::UIElements::VisualElement::set_containedPointerIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c756f0;
+  constexpr static std::size_t addrs = 0x70d6588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4639,7 +4908,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::UpdateHoverPseudoState)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6c756f8;
+  constexpr static std::size_t addrs = 0x70d6590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateHoverPseudoState", {}, {} })));
@@ -4652,7 +4921,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::IEventHandler*>)>(
     &::UnityEngine::UIElements::VisualElement::IsPartOfCapturedChain)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c757fc;
+  constexpr static std::size_t addrs = 0x70d6694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4668,11 +4937,23 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualElement::UpdateHoverPseudoStateAfterCaptureChange)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6c758f4;
+  constexpr static std::size_t addrs = 0x70d678c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateHoverPseudoStateAfterCaptureChange", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.UpdatePointerCaptureFlag
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::UpdatePointerCaptureFlag)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x70d6800;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdatePointerCaptureFlag", {}, {} })));
     return ___internal_method;
   }
 };
@@ -4682,7 +4963,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PickingMode (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_pickingMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c75968;
+  constexpr static std::size_t addrs = 0x70d68a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_pickingMode", {}, {} })));
@@ -4695,7 +4976,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::PickingMode)>(
     &::UnityEngine::UIElements::VisualElement::set_pickingMode)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6c75970;
+  constexpr static std::size_t addrs = 0x70d68a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4709,7 +4990,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c75a24;
+  constexpr static std::size_t addrs = 0x70d695c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_name", {}, {} })));
@@ -4721,7 +5002,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::StringW)>(&::UnityEngine::UIElements::VisualElement::set_name)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6c75a2c;
+  constexpr static std::size_t addrs = 0x70d6964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4735,7 +5016,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_classList)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c75ae4;
+  constexpr static std::size_t addrs = 0x70d6a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_classList", {}, {} })));
@@ -4747,7 +5028,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_fullTypeName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c75ba4;
+  constexpr static std::size_t addrs = 0x70d6adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_fullTypeName", {}, {} })));
@@ -4759,7 +5040,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_typeName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c75d10;
+  constexpr static std::size_t addrs = 0x70d6c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_typeName", {}, {} })));
@@ -4772,7 +5053,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::UIElements::Layout::LayoutNode> (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_layoutNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c6b2e4;
+  constexpr static std::size_t addrs = 0x70b2b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_layoutNode", {}, {} })));
@@ -4785,7 +5066,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::UIElements::ComputedStyle> (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_computedStyle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c6b10c;
+  constexpr static std::size_t addrs = 0x70b2b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_computedStyle", {}, {} })));
@@ -4797,7 +5078,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_hasInlineStyle)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c75d2c;
+  constexpr static std::size_t addrs = 0x70d6c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_hasInlineStyle", {}, {} })));
@@ -4809,7 +5090,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_styleInitialized)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c75d3c;
+  constexpr static std::size_t addrs = 0x70baa9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_styleInitialized", {}, {} })));
@@ -4821,7 +5102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_styleInitialized)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c75d48;
+  constexpr static std::size_t addrs = 0x70d6c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4834,7 +5115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(int32_t)>(&::UnityEngine::UIElements::VisualElement::ChangeIMGUIContainerCount)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6c75d68;
+  constexpr static std::size_t addrs = 0x70d6c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4846,8 +5127,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::_ctor)> {
-  constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x6c75d98;
+  constexpr static std::size_t size = 0x2dc;
+  constexpr static std::size_t addrs = 0x70d6cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { ".ctor", {}, {} })));
@@ -4858,25 +5139,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::Finalize)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c76218;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x70d70d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 1 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.GetTooltipRect
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::GetTooltipRect)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c76308;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 131 }));
     return ___internal_method;
   }
 };
@@ -4885,8 +5153,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::TooltipEvent*)>(
     &::UnityEngine::UIElements::VisualElement::SetTooltip)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6c7630c;
+  constexpr static std::size_t size = 0x2c4;
+  constexpr static std::size_t addrs = 0x70d7290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4899,10 +5167,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::Focus)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6c76470;
+  constexpr static std::size_t addrs = 0x70d75dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "Focus", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.TimeSinceStartupMs
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::TimeSinceStartupMs)> {
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x70d7630;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "TimeSinceStartupMs", {}, {} })));
     return ___internal_method;
   }
 };
@@ -4911,8 +5191,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::VisualElement::SetPanel)> {
-  constexpr static std::size_t size = 0x954;
-  constexpr static std::size_t addrs = 0x6c764c4;
+  constexpr static std::size_t size = 0x988;
+  constexpr static std::size_t addrs = 0x70d76d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4926,8 +5206,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::VisualElement::WillChangePanel)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6c76f20;
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x70d8168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -4940,8 +5220,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::VisualElement::HasChangedPanel)> {
-  constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x6c7714c;
+  constexpr static std::size_t size = 0x3bc;
+  constexpr static std::size_t addrs = 0x70d8468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -4955,7 +5235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::VisualElement::SendEvent)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c7779c;
+  constexpr static std::size_t addrs = 0x70d8b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4969,7 +5249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::DispatchMode)>(
     &::UnityEngine::UIElements::VisualElement::SendEvent)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c777b4;
+  constexpr static std::size_t addrs = 0x70d8b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4984,7 +5264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VersionChangeType)>(
     &::UnityEngine::UIElements::VisualElement::IncrementVersion)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c71b1c;
+  constexpr static std::size_t addrs = 0x70b2adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -4999,7 +5279,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
                                                                                                           ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::VisualElement::InvokeHierarchyChanged)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6c77118;
+  constexpr static std::size_t addrs = 0x70d8434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5016,7 +5296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::SetEnabledFromHierarchyPrivate)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x6c777c8;
+  constexpr static std::size_t addrs = 0x70d8b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5029,7 +5309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_isParentEnabledInHierarchy)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6c77b68;
+  constexpr static std::size_t addrs = 0x70d8ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5042,7 +5322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_enabledInHierarchy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c72074;
+  constexpr static std::size_t addrs = 0x70d28bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_enabledInHierarchy", {}, {} })));
@@ -5054,7 +5334,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_enabledSelf)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c77f04;
+  constexpr static std::size_t addrs = 0x70d927c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_enabledSelf", {}, {} })));
@@ -5066,7 +5346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_enabledSelf)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6c760e8;
+  constexpr static std::size_t addrs = 0x70d6fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5079,7 +5359,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::SetEnabled)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c77fc8;
+  constexpr static std::size_t addrs = 0x70d9340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5092,7 +5372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::PropagateEnabledToChildren)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c77f0c;
+  constexpr static std::size_t addrs = 0x70d9284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5106,7 +5386,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::LanguageDirection (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_languageDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c77fcc;
+  constexpr static std::size_t addrs = 0x70d9344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_languageDirection", {}, {} })));
@@ -5119,7 +5399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::LanguageDirection)>(
     &::UnityEngine::UIElements::VisualElement::set_languageDirection)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6c77fd4;
+  constexpr static std::size_t addrs = 0x70d934c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -5133,7 +5413,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::LanguageDirection (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_localLanguageDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c78170;
+  constexpr static std::size_t addrs = 0x70d94e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_localLanguageDirection", {}, {} })));
@@ -5146,7 +5426,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::LanguageDirection)>(
     &::UnityEngine::UIElements::VisualElement::set_localLanguageDirection)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6c78074;
+  constexpr static std::size_t addrs = 0x70d93ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -5159,7 +5439,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_visible)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c71fb8;
+  constexpr static std::size_t addrs = 0x70d2800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_visible", {}, {} })));
@@ -5171,7 +5451,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_visible)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6c78178;
+  constexpr static std::size_t addrs = 0x70d94f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5184,7 +5464,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::MarkDirtyRepaint)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c782d8;
+  constexpr static std::size_t addrs = 0x70d9650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "MarkDirtyRepaint", {}, {} })));
@@ -5197,7 +5477,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action_1<Il2CppObject*>* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_generateVisualContent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c782fc;
+  constexpr static std::size_t addrs = 0x70d9674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_generateVisualContent", {}, {} })));
@@ -5210,7 +5490,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::System::Action_1<Il2CppObject*>*)>(
     &::UnityEngine::UIElements::VisualElement::set_generateVisualContent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c78304;
+  constexpr static std::size_t addrs = 0x70d967c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5224,7 +5504,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(Il2CppObject*)>(&::UnityEngine::UIElements::VisualElement::InvokeGenerateVisualContent)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x6c7830c;
+  constexpr static std::size_t addrs = 0x70d9684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5238,7 +5518,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::System::Text::StringBuilder*)>(
     &::UnityEngine::UIElements::VisualElement::GetFullHierarchicalViewDataKey)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6c78514;
+  constexpr static std::size_t addrs = 0x70d988c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -5251,7 +5531,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::GetFullHierarchicalViewDataKey)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c785b4;
+  constexpr static std::size_t addrs = 0x70d992c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5265,7 +5545,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::System::Object*, ::StringW)>(
     &::UnityEngine::UIElements::VisualElement::OverwriteFromViewData)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x6c7862c;
+  constexpr static std::size_t addrs = 0x70d99a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -5278,7 +5558,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::SaveViewData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c78950;
+  constexpr static std::size_t addrs = 0x70d9cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "SaveViewData", {}, {} })));
@@ -5290,11 +5570,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::OnViewDataReady)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c789cc;
+  constexpr static std::size_t addrs = 0x70d9d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 132 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 135 }));
     return ___internal_method;
   }
 };
@@ -5302,12 +5582,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::Vector2)>(&::UnityEngine::UIElements::VisualElement::ContainsPoint)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6c789d0;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x70d9d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 133 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 136 }));
     return ___internal_method;
   }
 };
@@ -5316,7 +5596,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_requireMeasureFunction)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c78a24;
+  constexpr static std::size_t addrs = 0x70d9ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_requireMeasureFunction", {}, {} })));
@@ -5327,8 +5607,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_requireMeasureFunction)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6c78a30;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x70d9eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5340,8 +5620,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::AssignMeasureFunction)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6c78ab8;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x70d9f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "AssignMeasureFunction", {}, {} })));
@@ -5353,7 +5633,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::RemoveMeasureFunction)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6c78b4c;
+  constexpr static std::size_t addrs = 0x70d9f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "RemoveMeasureFunction", {}, {} })));
@@ -5366,11 +5646,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::VisualElement::*)(
     float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode, float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode)>(&::UnityEngine::UIElements::VisualElement::DoMeasure)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c78b78;
+  constexpr static std::size_t addrs = 0x70d9fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 134 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 137 }));
     return ___internal_method;
   }
 };
@@ -5381,7 +5661,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::Layout::LayoutNode>, float_t, ::UnityEngine::UIElements::Layout::LayoutMeasureMode, float_t,
                          ::UnityEngine::UIElements::Layout::LayoutMeasureMode, ::by_ref<::UnityEngine::UIElements::Layout::LayoutSize>)>(&::UnityEngine::UIElements::VisualElement::Measure)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6c78b88;
+  constexpr static std::size_t addrs = 0x70d9fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5400,7 +5680,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::FinalizeLayout)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c78cd4;
+  constexpr static std::size_t addrs = 0x70da104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "FinalizeLayout", {}, {} })));
@@ -5412,8 +5692,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::StyleSheet*, ::UnityEngine::UIElements::StyleRule*)>(
     &::UnityEngine::UIElements::VisualElement::SetInlineRule)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6c78d0c;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x70da13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5428,7 +5708,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::VisualElement::SetComputedStyle)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x6c78d94;
+  constexpr static std::size_t addrs = 0x70da1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -5440,8 +5720,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::ToString)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6c78f60;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x70da38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5455,7 +5735,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::GetClassesForIteration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c790d4;
+  constexpr static std::size_t addrs = 0x70da59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "GetClassesForIteration", {}, {} })));
@@ -5466,8 +5746,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::StringW)>(&::UnityEngine::UIElements::VisualElement::AddToClassList)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x6c77cd8;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x70d9060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5480,7 +5760,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::StringW)>(&::UnityEngine::UIElements::VisualElement::RemoveFromClassList)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6c77b98;
+  constexpr static std::size_t addrs = 0x70d8f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5493,7 +5773,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::StringW, bool)>(&::UnityEngine::UIElements::VisualElement::EnableInClassList)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c77ef8;
+  constexpr static std::size_t addrs = 0x70d9270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5506,7 +5786,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(::StringW)>(&::UnityEngine::UIElements::VisualElement::ClassListContains)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6c790dc;
+  constexpr static std::size_t addrs = 0x70da5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5520,7 +5800,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::PropertyName)>(
     &::UnityEngine::UIElements::VisualElement::GetProperty)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6c79194;
+  constexpr static std::size_t addrs = 0x70da65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5534,7 +5814,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::PropertyName, ::System::Object*)>(
     &::UnityEngine::UIElements::VisualElement::SetProperty)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c79384;
+  constexpr static std::size_t addrs = 0x70da84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5548,7 +5828,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::PropertyName)>(&::UnityEngine::UIElements::VisualElement::HasProperty)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6c793fc;
+  constexpr static std::size_t addrs = 0x70da8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5561,7 +5841,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::PropertyName)>(&::UnityEngine::UIElements::VisualElement::ClearProperty)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6c794a4;
+  constexpr static std::size_t addrs = 0x70da96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5574,7 +5854,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::PropertyName)>(&::UnityEngine::UIElements::VisualElement::CheckUserKeyArgument)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6c79234;
+  constexpr static std::size_t addrs = 0x70da6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5588,7 +5868,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::PropertyName, ::System::Object*)>(
     &::UnityEngine::UIElements::VisualElement::SetPropertyInternal)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6c71d90;
+  constexpr static std::size_t addrs = 0x70d25d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5602,37 +5882,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(int64_t)>(&::UnityEngine::UIElements::VisualElement::UpdateCursorStyle)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x6c79544;
+  constexpr static std::size_t addrs = 0x70daa0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateCursorStyle", {}, { ::i2c::type_of<int64_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_subRenderTargetMode
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement_RenderTargetMode (::UnityEngine::UIElements::VisualElement::*)()>(
-    &::UnityEngine::UIElements::VisualElement::get_subRenderTargetMode)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c79988;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_subRenderTargetMode", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_defaultMaterial
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::UIElements::VisualElement::*)()>(
-    &::UnityEngine::UIElements::VisualElement::get_defaultMaterial)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c79990;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_defaultMaterial", {}, {} })));
     return ___internal_method;
   }
 };
@@ -5642,7 +5896,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElementAnimationSystem* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::GetAnimationSystem)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6c79998;
+  constexpr static std::size_t addrs = 0x70dae50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "GetAnimationSystem", {}, {} })));
@@ -5655,7 +5909,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*)>(
     &::UnityEngine::UIElements::VisualElement::RegisterAnimation)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6c79a30;
+  constexpr static std::size_t addrs = 0x70daee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5670,7 +5924,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*)>(
     &::UnityEngine::UIElements::VisualElement::UnregisterAnimation)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6c79b50;
+  constexpr static std::size_t addrs = 0x70db008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5684,7 +5938,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::UnregisterRunningAnimations)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6c7749c;
+  constexpr static std::size_t addrs = 0x70d8824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnregisterRunningAnimations", {}, {} })));
@@ -5696,7 +5950,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::RegisterRunningAnimations)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6c77644;
+  constexpr static std::size_t addrs = 0x70d89cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "RegisterRunningAnimations", {}, {} })));
@@ -5708,8 +5962,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::Experimental::StyleValues)>(
     &::UnityEngine::UIElements::VisualElement::AssignStyleValues)> {
-  constexpr static std::size_t size = 0x1534;
-  constexpr static std::size_t addrs = 0x6c79bd8;
+  constexpr static std::size_t size = 0x1538;
+  constexpr static std::size_t addrs = 0x70db090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5724,8 +5978,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Experimental::StyleValues (::UnityEngine::UIElements::VisualElement::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::Experimental::StyleValues)>(&::UnityEngine::UIElements::VisualElement::ReadCurrentValues)> {
-  constexpr static std::size_t size = 0x12c8;
-  constexpr static std::size_t addrs = 0x6c7b10c;
+  constexpr static std::size_t size = 0x12cc;
+  constexpr static std::size_t addrs = 0x70dc5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5742,7 +5996,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::Experimental::StyleValues, int32_t)>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_Experimental_ITransitionAnimations_Start)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6c7c3d4;
+  constexpr static std::size_t addrs = 0x70dd894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -5759,7 +6013,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::UnityEngine::UIElements::VisualElement::*)(::System::Func_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::Experimental::StyleValues>*,
                                                  ::UnityEngine::UIElements::Experimental::StyleValues, int32_t)>(&::UnityEngine::UIElements::VisualElement::Start)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6c7c4ac;
+  constexpr static std::size_t addrs = 0x70dd96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5776,7 +6030,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_dataSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c7c63c;
+  constexpr static std::size_t addrs = 0x70ddafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_dataSource", {}, {} })));
@@ -5788,7 +6042,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::System::Object*)>(&::UnityEngine::UIElements::VisualElement::set_dataSource)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c7c644;
+  constexpr static std::size_t addrs = 0x70ddb04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5801,8 +6055,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_dataSourcePath)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c7c780;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x70ddc40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_dataSourcePath", {}, {} })));
@@ -5814,12 +6068,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::Unity::Properties::PropertyPath)>(
     &::UnityEngine::UIElements::VisualElement::set_dataSourcePath)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c7c790;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x70ddc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_dataSourcePath", {}, { ::i2c::type_of<::Unity::Properties::PropertyPath>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.get_isDataSourcePathEmpty
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_isDataSourcePathEmpty)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x70ddd94;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isDataSourcePathEmpty", {}, {} })));
     return ___internal_method;
   }
 };
@@ -5829,7 +6095,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::BindingId, ::by_ref<::UnityEngine::UIElements::Binding*>)>(
     &::UnityEngine::UIElements::VisualElement::TryGetBinding)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6c7c880;
+  constexpr static std::size_t addrs = 0x70dddb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5843,7 +6109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::ProcessBindingRequests)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6c776b8;
+  constexpr static std::size_t addrs = 0x70d8a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "ProcessBindingRequests", {}, {} })));
@@ -5855,7 +6121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::CreateBindingRequests)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6c77578;
+  constexpr static std::size_t addrs = 0x70d8900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "CreateBindingRequests", {}, {} })));
@@ -5868,7 +6134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::System::Object*, ::System::Object*)>(
     &::UnityEngine::UIElements::VisualElement::TrackSource)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c7c704;
+  constexpr static std::size_t addrs = 0x70ddbc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -5881,7 +6147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::DetachDataSource)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c7760c;
+  constexpr static std::size_t addrs = 0x70d8994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "DetachDataSource", {}, {} })));
@@ -5893,7 +6159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::AttachDataSource)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c77784;
+  constexpr static std::size_t addrs = 0x70d8b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "AttachDataSource", {}, {} })));
@@ -5905,7 +6171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::DirtyNextParentWithEventInterests)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6c7c920;
+  constexpr static std::size_t addrs = 0x70dde54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5918,7 +6184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::SetAsNextParentWithEventInterests)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6c7c9a4;
+  constexpr static std::size_t addrs = 0x70dded8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5932,7 +6198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(::by_ref<::UnityEngine::UIElements::VisualElement*>)>(
     &::UnityEngine::UIElements::VisualElement::GetCachedNextParentWithEventInterests)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c7ca58;
+  constexpr static std::size_t addrs = 0x70ddf8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5947,7 +6213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_nextParentWithEventInterests)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6c7ca80;
+  constexpr static std::size_t addrs = 0x70ddfb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5961,7 +6227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement::PropagateCachedNextParentWithEventInterests)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6c7cb18;
+  constexpr static std::size_t addrs = 0x70de04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5975,15 +6241,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.AddEventCallbackCategories
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(int32_t, ::UnityEngine::UIElements::TrickleDown)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(int32_t, ::UnityEngine::UIElements::CallbackOptions)>(
     &::UnityEngine::UIElements::VisualElement::AddEventCallbackCategories)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c7cb54;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x70de088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                             { "AddEventCallbackCategories", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::TrickleDown>() } })));
+                                                             { "AddEventCallbackCategories", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::CallbackOptions>() } })));
     return ___internal_method;
   }
 };
@@ -5992,7 +6258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_eventInterestParentCategories)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6c7cb7c;
+  constexpr static std::size_t addrs = 0x70de0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6005,7 +6271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_isEventInterestParentCategoriesDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c7cbbc;
+  constexpr static std::size_t addrs = 0x70de0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6018,7 +6284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_isEventInterestParentCategoriesDirty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c7cc44;
+  constexpr static std::size_t addrs = 0x70de174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6031,7 +6297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::UpdateEventInterestSelfCategories)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6c7618c;
+  constexpr static std::size_t addrs = 0x70d7044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6044,7 +6310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::UpdateEventInterestParentCategories)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c7cbc8;
+  constexpr static std::size_t addrs = 0x70de0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6058,7 +6324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::EventCategory)>(
     &::UnityEngine::UIElements::VisualElement::HasParentEventInterests)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c7cc64;
+  constexpr static std::size_t addrs = 0x70de194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -6071,7 +6337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(int32_t)>(&::UnityEngine::UIElements::VisualElement::HasParentEventInterests)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c7cc80;
+  constexpr static std::size_t addrs = 0x70de1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6085,7 +6351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::EventCategory)>(
     &::UnityEngine::UIElements::VisualElement::HasSelfEventInterests)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c77634;
+  constexpr static std::size_t addrs = 0x70d89bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -6098,7 +6364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(int32_t)>(&::UnityEngine::UIElements::VisualElement::HasSelfEventInterests)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c7cc9c;
+  constexpr static std::size_t addrs = 0x70de1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6111,7 +6377,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(int32_t)>(&::UnityEngine::UIElements::VisualElement::HasTrickleDownEventInterests)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c7ccac;
+  constexpr static std::size_t addrs = 0x70de1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6124,7 +6390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(int32_t)>(&::UnityEngine::UIElements::VisualElement::HasBubbleUpEventInterests)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c7ccc4;
+  constexpr static std::size_t addrs = 0x70de1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6137,7 +6403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(int32_t)>(&::UnityEngine::UIElements::VisualElement::HasTrickleDownEventCallbacks)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c7ccdc;
+  constexpr static std::size_t addrs = 0x70de20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6150,7 +6416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(int32_t)>(&::UnityEngine::UIElements::VisualElement::HasBubbleUpEventCallbacks)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c7ccec;
+  constexpr static std::size_t addrs = 0x70de21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6163,7 +6429,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(int32_t)>(&::UnityEngine::UIElements::VisualElement::HasTrickleDownHandleEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c7ccfc;
+  constexpr static std::size_t addrs = 0x70de22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6176,7 +6442,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(int32_t)>(&::UnityEngine::UIElements::VisualElement::HasBubbleUpHandleEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c7cd0c;
+  constexpr static std::size_t addrs = 0x70de23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6190,7 +6456,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IExperimentalFeatures* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_experimental)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c7cd1c;
+  constexpr static std::size_t addrs = 0x70de24c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_experimental", {}, {} })));
@@ -6203,7 +6469,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Experimental::ITransitionAnimations* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IExperimentalFeatures_get_animation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c7cd20;
+  constexpr static std::size_t addrs = 0x70de250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6217,7 +6483,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement_Hierarchy (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_hierarchy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c7cd24;
+  constexpr static std::size_t addrs = 0x70de254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_hierarchy", {}, {} })));
@@ -6228,24 +6494,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_isRootVisualContainer)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c7cd2c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x70de25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isRootVisualContainer", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.set_isRootVisualContainer
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_isRootVisualContainer)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c7cd34;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_isRootVisualContainer", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -6254,7 +6507,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_disableClipping)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c7cd3c;
+  constexpr static std::size_t addrs = 0x70de280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_disableClipping", {}, {} })));
@@ -6266,7 +6519,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_disableClipping)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c7cd48;
+  constexpr static std::size_t addrs = 0x70de28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6279,7 +6532,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::ShouldClip)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6c73d90;
+  constexpr static std::size_t addrs = 0x70d4cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "ShouldClip", {}, {} })));
@@ -6291,7 +6544,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_disableRendering)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c7cd68;
+  constexpr static std::size_t addrs = 0x70de2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_disableRendering", {}, {} })));
@@ -6303,71 +6556,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::set_disableRendering)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6c7cd74;
+  constexpr static std::size_t addrs = 0x70de2b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_disableRendering", {}, { ::i2c::type_of<bool>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.add_elementAdded
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*)>(
-    &::UnityEngine::UIElements::VisualElement::add_elementAdded)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c7cdc0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                             { "add_elementAdded", {}, { ::i2c::type_of<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.remove_elementAdded
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*)>(
-    &::UnityEngine::UIElements::VisualElement::remove_elementAdded)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c7ce80;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                             { "remove_elementAdded", {}, { ::i2c::type_of<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.add_elementRemoved
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::System::Action_1<::UnityEngine::UIElements::VisualElement*>*)>(
-    &::UnityEngine::UIElements::VisualElement::add_elementRemoved)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c7cf40;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                             { "add_elementRemoved", {}, { ::i2c::type_of<::System::Action_1<::UnityEngine::UIElements::VisualElement*>*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.remove_elementRemoved
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::System::Action_1<::UnityEngine::UIElements::VisualElement*>*)>(
-    &::UnityEngine::UIElements::VisualElement::remove_elementRemoved)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c7d000;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                             { "remove_elementRemoved", {}, { ::i2c::type_of<::System::Action_1<::UnityEngine::UIElements::VisualElement*>*>() } })));
     return ___internal_method;
   }
 };
@@ -6377,7 +6570,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_parent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c71fb0;
+  constexpr static std::size_t addrs = 0x70d27f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_parent", {}, {} })));
@@ -6390,7 +6583,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BaseVisualElementPanel* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_elementPanel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c7d0c0;
+  constexpr static std::size_t addrs = 0x70de304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_elementPanel", {}, {} })));
@@ -6403,7 +6596,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::VisualElement::set_elementPanel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c7d0c8;
+  constexpr static std::size_t addrs = 0x70de30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -6416,7 +6609,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IPanel* (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_panel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c72138;
+  constexpr static std::size_t addrs = 0x70d2980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_panel", {}, {} })));
@@ -6429,11 +6622,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_contentContainer)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c7d0d0;
+  constexpr static std::size_t addrs = 0x70de314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 135 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 138 }));
     return ___internal_method;
   }
 };
@@ -6443,7 +6636,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UIElements::VisualTreeAsset> (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_visualTreeAssetSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c7d0d4;
+  constexpr static std::size_t addrs = 0x70de318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_visualTreeAssetSource", {}, {} })));
@@ -6456,7 +6649,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VisualTreeAsset*)>(
     &::UnityEngine::UIElements::VisualElement::set_visualTreeAssetSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c7d0dc;
+  constexpr static std::size_t addrs = 0x70de320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -6469,11 +6662,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::VisualElement::Add)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6c7d0e4;
+  constexpr static std::size_t addrs = 0x70de328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "Add", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.Add
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VisualElement*, bool)>(
+    &::UnityEngine::UIElements::VisualElement::Add)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x70de3dc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                                                           { "Add", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -6483,12 +6690,27 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(int32_t, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement::Insert)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6c7d198;
+  constexpr static std::size_t addrs = 0x70de400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
                                                              { "Insert", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.Insert
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(int32_t, ::UnityEngine::UIElements::VisualElement*, bool)>(
+    &::UnityEngine::UIElements::VisualElement::Insert)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x70de48c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                             { "Insert", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -6498,7 +6720,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement::Remove)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c7d224;
+  constexpr static std::size_t addrs = 0x70de4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6511,7 +6733,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::Clear)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6c7d29c;
+  constexpr static std::size_t addrs = 0x70de528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "Clear", {}, {} })));
@@ -6524,7 +6746,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualElement::ElementAt)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c7d304;
+  constexpr static std::size_t addrs = 0x70de590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6538,7 +6760,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualElement::get_Item)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c7d308;
+  constexpr static std::size_t addrs = 0x70de594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6551,10 +6773,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_childCount)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6c7d380;
+  constexpr static std::size_t addrs = 0x70de60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_childCount", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.ChildCount
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElement::*)(bool)>(&::UnityEngine::UIElements::VisualElement::ChildCount)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x70de674;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "ChildCount", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -6564,11 +6799,26 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement::IndexOf)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c7d3e8;
+  constexpr static std::size_t addrs = 0x70de698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "IndexOf", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.IndexOf
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VisualElement*, bool)>(
+    &::UnityEngine::UIElements::VisualElement::IndexOf)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x70de718;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "IndexOf", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -6578,7 +6828,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement::*)(::System::Collections::Generic::List_1<int32_t>*)>(
     &::UnityEngine::UIElements::VisualElement::ElementAtTreePath)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6c7d468;
+  constexpr static std::size_t addrs = 0x70de73c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -6592,7 +6842,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::List_1<int32_t>*)>(
     &::UnityEngine::UIElements::VisualElement::FindElementInTree)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6c7d5c0;
+  constexpr static std::size_t addrs = 0x70de894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6608,7 +6858,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualElement*>* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::Children)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6c7d6bc;
+  constexpr static std::size_t addrs = 0x70de990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "Children", {}, {} })));
@@ -6620,7 +6870,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::BringToFront)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c7d770;
+  constexpr static std::size_t addrs = 0x70dea44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "BringToFront", {}, {} })));
@@ -6632,7 +6882,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::SendToBack)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c7d7a8;
+  constexpr static std::size_t addrs = 0x70dea7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "SendToBack", {}, {} })));
@@ -6645,11 +6895,39 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement::PlaceBehind)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6c7d7e0;
+  constexpr static std::size_t addrs = 0x70deab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "PlaceBehind", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.OnChildAdded
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VisualElement*)>(
+    &::UnityEngine::UIElements::VisualElement::OnChildAdded)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x70deb8c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 139 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.OnChildRemoved
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VisualElement*)>(
+    &::UnityEngine::UIElements::VisualElement::OnChildRemoved)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x70deb90;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 140 }));
     return ___internal_method;
   }
 };
@@ -6658,7 +6936,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::RemoveFromHierarchy)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c7d8b8;
+  constexpr static std::size_t addrs = 0x70deb94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "RemoveFromHierarchy", {}, {} })));
@@ -6671,7 +6949,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (
     ::UnityEngine::UIElements::VisualElement::*)(::System::Predicate_1<::UnityEngine::UIElements::VisualElement*>*)>(&::UnityEngine::UIElements::VisualElement::GetFirstAncestorWhere)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c7d8f0;
+  constexpr static std::size_t addrs = 0x70debcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6686,7 +6964,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement::Contains)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6c758b8;
+  constexpr static std::size_t addrs = 0x70d6750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6700,7 +6978,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::VisualElement::GatherAllChildren)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6c76e18;
+  constexpr static std::size_t addrs = 0x70d8060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6715,7 +6993,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement::FindCommonAncestor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6c7d94c;
+  constexpr static std::size_t addrs = 0x70dec28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6724,28 +7002,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.GetRoot
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::GetRoot)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6c7da68;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "GetRoot", {}, {} })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.GetRootVisualContainer
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement::*)()>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement::*)(bool)>(
     &::UnityEngine::UIElements::VisualElement::GetRootVisualContainer)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c7db20;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x70ded44;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "GetRootVisualContainer", {}, {} })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "GetRootVisualContainer", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -6755,7 +7022,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::GetNextElementDepthFirst)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6c7db58;
+  constexpr static std::size_t addrs = 0x70dedbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "GetNextElementDepthFirst", {}, {} })));
@@ -6768,7 +7035,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::GetPreviousElementDepthFirst)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6c7dc60;
+  constexpr static std::size_t addrs = 0x70deec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "GetPreviousElementDepthFirst", {}, {} })));
@@ -6781,7 +7048,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElement::RetargetElement)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c7dd48;
+  constexpr static std::size_t addrs = 0x70defac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6794,8 +7061,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_positionWithLayout)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6c746d4;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x70d5e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_positionWithLayout", {}, {} })));
@@ -6807,8 +7074,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::by_ref<::UnityEngine::Matrix4x4>)>(
     &::UnityEngine::UIElements::VisualElement::GetPivotedMatrixWithLayout)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6c7471c;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x70d5ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -6820,8 +7087,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_hasDefaultRotationAndScale)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6c7defc;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x70df1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6834,7 +7101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_has3DTransform)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6c7dfd8;
+  constexpr static std::size_t addrs = 0x70df2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_has3DTransform", {}, {} })));
@@ -6846,7 +7113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_has3DTranslation)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6c7e020;
+  constexpr static std::size_t addrs = 0x70df320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_has3DTranslation", {}, {} })));
@@ -6857,8 +7124,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_has3DRotation)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6c7e050;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x70df350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_has3DRotation", {}, {} })));
@@ -6870,7 +7137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t, float_t)>(&::UnityEngine::UIElements::VisualElement::Min)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c7e104;
+  constexpr static std::size_t addrs = 0x70df464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6884,7 +7151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t, float_t)>(&::UnityEngine::UIElements::VisualElement::Max)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c7e120;
+  constexpr static std::size_t addrs = 0x70df480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6898,8 +7165,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::by_ref<::UnityEngine::Bounds>)>(
     &::UnityEngine::UIElements::VisualElement::TransformAlignedBoundsToParentSpace)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6c7e13c;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x70df49c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -6912,8 +7179,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::by_ref<::UnityEngine::Rect>)>(
     &::UnityEngine::UIElements::VisualElement::TransformAlignedRectToParentSpace)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6c7e5bc;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x70df9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -6926,8 +7193,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (*)(::by_ref<::UnityEngine::Matrix4x4>, ::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::VisualElement::CalculateConservativeRect)> {
-  constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x6c7e74c;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x70dfb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6941,8 +7208,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (*)(::by_ref<::UnityEngine::Matrix4x4>, ::UnityEngine::Bounds)>(
     &::UnityEngine::UIElements::VisualElement::CalculateConservativeBounds)> {
-  constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x6c7e2ec;
+  constexpr static std::size_t size = 0x34c;
+  constexpr static std::size_t addrs = 0x70df664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6956,7 +7223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Rect>)>(&::UnityEngine::UIElements::VisualElement::TransformAlignedRect)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6c7ea20;
+  constexpr static std::size_t addrs = 0x70dfecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6971,7 +7238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Bounds>)>(
     &::UnityEngine::UIElements::VisualElement::TransformAlignedBounds)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6c7eab8;
+  constexpr static std::size_t addrs = 0x70dff64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6984,8 +7251,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rect>)>(&::UnityEngine::UIElements::VisualElement::OrderMinMaxRect)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c7e978;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x70dfd9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6998,7 +7265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bounds>)>(&::UnityEngine::UIElements::VisualElement::OrderMinMaxBounds)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c7ea04;
+  constexpr static std::size_t addrs = 0x70dfeb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7012,12 +7279,42 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::by_ref<::UnityEngine::Matrix4x4>, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::VisualElement::MultiplyMatrix44Point2)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c7eb50;
+  constexpr static std::size_t addrs = 0x70dfffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
                                                              { "MultiplyMatrix44Point2", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.MultiplyMatrix44Point2ToPoint3
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::by_ref<::UnityEngine::Matrix4x4>, ::UnityEngine::Vector2)>(
+    &::UnityEngine::UIElements::VisualElement::MultiplyMatrix44Point2ToPoint3)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x70e0020;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                { "MultiplyMatrix44Point2ToPoint3", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.MultiplyMatrix44Point3ToPoint2
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::by_ref<::UnityEngine::Matrix4x4>, ::UnityEngine::Vector3)>(
+    &::UnityEngine::UIElements::VisualElement::MultiplyMatrix44Point3ToPoint2)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x70e0060;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                { "MultiplyMatrix44Point3ToPoint2", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
@@ -7027,7 +7324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::by_ref<::UnityEngine::Matrix4x4>, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::VisualElement::MultiplyVector2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c7eb74;
+  constexpr static std::size_t addrs = 0x70e0090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7042,7 +7339,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>)>(
     &::UnityEngine::UIElements::VisualElement::MultiplyMatrix34)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x6c748b8;
+  constexpr static std::size_t addrs = 0x70d607c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7060,7 +7357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::Matrix4x4>)>(
     &::UnityEngine::UIElements::VisualElement::TranslateMatrix34)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c7eb90;
+  constexpr static std::size_t addrs = 0x70e00ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7076,7 +7373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::UnityEngine::Vector3)>(&::UnityEngine::UIElements::VisualElement::TranslateMatrix34InPlace)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c7ec80;
+  constexpr static std::size_t addrs = 0x70e019c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7091,7 +7388,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IVisualElementScheduler* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_schedule)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c7ecdc;
+  constexpr static std::size_t addrs = 0x70e01f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_schedule", {}, {} })));
@@ -7105,7 +7402,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::UIElements::IVisualElementScheduledItem* (::UnityEngine::UIElements::VisualElement::*)(::System::Action_1<::UnityEngine::UIElements::TimerState>*)>(
         &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IVisualElementScheduler_Execute)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c7ece0;
+  constexpr static std::size_t addrs = 0x70e01fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7120,7 +7417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IVisualElementScheduledItem* (::UnityEngine::UIElements::VisualElement::*)(::System::Action*)>(
     &::UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IVisualElementScheduler_Execute)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c7ed9c;
+  constexpr static std::size_t addrs = 0x70e02b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -7133,7 +7430,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IStyle* (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_style)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6c72484;
+  constexpr static std::size_t addrs = 0x70b8e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_style", {}, {} })));
@@ -7146,7 +7443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IResolvedStyle* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_resolvedStyle)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c6c3bc;
+  constexpr static std::size_t addrs = 0x70cc4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_resolvedStyle", {}, {} })));
@@ -7159,7 +7456,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ICustomStyle* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_customStyle)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c7ee58;
+  constexpr static std::size_t addrs = 0x70e0374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_customStyle", {}, {} })));
@@ -7172,7 +7469,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElementStyleSheetSet (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_styleSheets)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c7eed0;
+  constexpr static std::size_t addrs = 0x70de27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_styleSheets", {}, {} })));
@@ -7183,8 +7480,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::StringW)>(&::UnityEngine::UIElements::VisualElement::AddStyleSheetPath)> {
-  constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x6c7eed4;
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x70e03ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7198,7 +7495,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleFloat (::UnityEngine::UIElements::VisualElement::*)(::UnityEngine::UIElements::Length, bool)>(
     &::UnityEngine::UIElements::VisualElement::ResolveLengthValue)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6c6b710;
+  constexpr static std::size_t addrs = 0x70cb808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7212,7 +7509,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::ResolveTranslate)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x6c6bea4;
+  constexpr static std::size_t addrs = 0x70cbf9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "ResolveTranslate", {}, {} })));
@@ -7224,7 +7521,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::ResolveTransformOrigin)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x6c6bb18;
+  constexpr static std::size_t addrs = 0x70cbc10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "ResolveTransformOrigin", {}, {} })));
@@ -7235,8 +7532,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::ResolveRotation)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6c7ddac;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x70df010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "ResolveRotation", {}, {} })));
@@ -7248,7 +7545,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::ResolveScale)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6c7de44;
+  constexpr static std::size_t addrs = 0x70df108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "ResolveScale", {}, {} })));
@@ -7260,7 +7557,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::VisualElement::*)()>(&::UnityEngine::UIElements::VisualElement::get_tooltip)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6c763e8;
+  constexpr static std::size_t addrs = 0x70d7554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_tooltip", {}, {} })));
@@ -7272,7 +7569,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElement::*)(::StringW)>(&::UnityEngine::UIElements::VisualElement::set_tooltip)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6c7f12c;
+  constexpr static std::size_t addrs = 0x70e064c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7286,23 +7583,23 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement_TypeData* (::UnityEngine::UIElements::VisualElement::*)()>(
     &::UnityEngine::UIElements::VisualElement::get_typeData)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6c75bc0;
+  constexpr static std::size_t addrs = 0x70d6af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_typeData", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement._CalculateConservativeBounds_g__IsNaN_724_0
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElement._CalculateConservativeBounds_g__IsNaN_780_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Vector3)>(&::UnityEngine::UIElements::VisualElement::_CalculateConservativeBounds_g__IsNaN_724_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Vector3)>(&::UnityEngine::UIElements::VisualElement::_CalculateConservativeBounds_g__IsNaN_780_0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6c7e9bc;
+  constexpr static std::size_t addrs = 0x70dfe68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                                                           { "<CalculateConservativeBounds>g__IsNaN|724_0", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
+                                                                                           { "<CalculateConservativeBounds>g__IsNaN|780_0", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
@@ -7426,41 +7723,53 @@ constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_last
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastPseudoPadding = value;
 }
-constexpr ::UnityEngine::UIElements::UIR::RenderChainVEData& UnityEngine::UIElements::VisualElement::__cordl_internal_get_renderChainData() {
+constexpr ::UnityEngine::UIElements::UIR::RenderData*& UnityEngine::UIElements::VisualElement::__cordl_internal_get_renderData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___renderChainData;
+  return this->___renderData;
 }
-constexpr ::UnityEngine::UIElements::UIR::RenderChainVEData const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_renderChainData() const {
+constexpr ::UnityEngine::UIElements::UIR::RenderData* const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_renderData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___renderChainData;
+  return this->___renderData;
 }
-constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_renderChainData(::UnityEngine::UIElements::UIR::RenderChainVEData value) {
+constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_renderData(::UnityEngine::UIElements::UIR::RenderData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___renderChainData = value;
+  this->___renderData = value;
 }
-constexpr bool& UnityEngine::UIElements::VisualElement::__cordl_internal_get_shouldCutRenderChain() {
+constexpr ::UnityEngine::UIElements::UIR::RenderData*& UnityEngine::UIElements::VisualElement::__cordl_internal_get_nestedRenderData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___shouldCutRenderChain;
+  return this->___nestedRenderData;
 }
-constexpr bool const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_shouldCutRenderChain() const {
+constexpr ::UnityEngine::UIElements::UIR::RenderData* const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_nestedRenderData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___shouldCutRenderChain;
+  return this->___nestedRenderData;
 }
-constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_shouldCutRenderChain(bool value) {
+constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_nestedRenderData(::UnityEngine::UIElements::UIR::RenderData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___shouldCutRenderChain = value;
+  this->___nestedRenderData = value;
 }
-constexpr ::UnityW<::UnityEngine::UIElements::UIRenderer>& UnityEngine::UIElements::VisualElement::__cordl_internal_get_uiRenderer() {
+constexpr int32_t& UnityEngine::UIElements::VisualElement::__cordl_internal_get_hierarchyDepth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___uiRenderer;
+  return this->___hierarchyDepth;
 }
-constexpr ::UnityW<::UnityEngine::UIElements::UIRenderer> const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_uiRenderer() const {
+constexpr int32_t const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_hierarchyDepth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___uiRenderer;
+  return this->___hierarchyDepth;
 }
-constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_uiRenderer(::UnityW<::UnityEngine::UIElements::UIRenderer> value) {
+constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_hierarchyDepth(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___uiRenderer = value;
+  this->___hierarchyDepth = value;
+}
+constexpr int32_t& UnityEngine::UIElements::VisualElement::__cordl_internal_get_insertionIndex() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___insertionIndex;
+}
+constexpr int32_t const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_insertionIndex() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___insertionIndex;
+}
+constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_insertionIndex(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___insertionIndex = value;
 }
 constexpr ::UnityEngine::Rect& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_Layout() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -7521,42 +7830,6 @@ constexpr ::UnityEngine::Matrix4x4 const& UnityEngine::UIElements::VisualElement
 constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_m_WorldTransformInverseCache(::UnityEngine::Matrix4x4 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_WorldTransformInverseCache = value;
-}
-constexpr ::UnityEngine::Rect& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_WorldClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_WorldClip;
-}
-constexpr ::UnityEngine::Rect const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_WorldClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_WorldClip;
-}
-constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_m_WorldClip(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_WorldClip = value;
-}
-constexpr ::UnityEngine::Rect& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_WorldClipMinusGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_WorldClipMinusGroup;
-}
-constexpr ::UnityEngine::Rect const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_WorldClipMinusGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_WorldClipMinusGroup;
-}
-constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_m_WorldClipMinusGroup(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_WorldClipMinusGroup = value;
-}
-constexpr bool& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_WorldClipIsInfinite() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_WorldClipIsInfinite;
-}
-constexpr bool const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_WorldClipIsInfinite() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_WorldClipIsInfinite;
-}
-constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_m_WorldClipIsInfinite(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_WorldClipIsInfinite = value;
 }
 constexpr ::UnityEngine::UIElements::PseudoStates& UnityEngine::UIElements::VisualElement::__cordl_internal_get_triggerPseudoMask() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -7738,30 +8011,6 @@ constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set__gen
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____generateVisualContent_k__BackingField = value;
 }
-constexpr ::UnityEngine::UIElements::VisualElement_RenderTargetMode& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_SubRenderTargetMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_SubRenderTargetMode;
-}
-constexpr ::UnityEngine::UIElements::VisualElement_RenderTargetMode const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_SubRenderTargetMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_SubRenderTargetMode;
-}
-constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_m_SubRenderTargetMode(::UnityEngine::UIElements::VisualElement_RenderTargetMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_SubRenderTargetMode = value;
-}
-constexpr ::UnityW<::UnityEngine::Material>& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_defaultMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_defaultMaterial;
-}
-constexpr ::UnityW<::UnityEngine::Material> const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_defaultMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_defaultMaterial;
-}
-constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_m_defaultMaterial(::UnityW<::UnityEngine::Material> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_defaultMaterial = value;
-}
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>*& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_RunningAnimations() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RunningAnimations;
@@ -7788,15 +8037,15 @@ constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_m_Da
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DataSource = value;
 }
-constexpr ::Unity::Properties::PropertyPath& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_DataSourcePath() {
+constexpr ::UnityEngine::UIElements::PathRef*& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_DataSourcePath() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DataSourcePath;
 }
-constexpr ::Unity::Properties::PropertyPath const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_DataSourcePath() const {
+constexpr ::UnityEngine::UIElements::PathRef* const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_DataSourcePath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DataSourcePath;
 }
-constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_m_DataSourcePath(::Unity::Properties::PropertyPath value) {
+constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_m_DataSourcePath(::UnityEngine::UIElements::PathRef* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DataSourcePath = value;
 }
@@ -7944,18 +8193,6 @@ constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set__hie
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hierarchy_k__BackingField = value;
 }
-constexpr bool& UnityEngine::UIElements::VisualElement::__cordl_internal_get__isRootVisualContainer_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____isRootVisualContainer_k__BackingField;
-}
-constexpr bool const& UnityEngine::UIElements::VisualElement::__cordl_internal_get__isRootVisualContainer_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____isRootVisualContainer_k__BackingField;
-}
-constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set__isRootVisualContainer_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____isRootVisualContainer_k__BackingField = value;
-}
 constexpr bool& UnityEngine::UIElements::VisualElement::__cordl_internal_get__cacheAsBitmap_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cacheAsBitmap_k__BackingField;
@@ -7991,30 +8228,6 @@ constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElemen
 constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_m_LogicalParent(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LogicalParent = value;
-}
-constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*& UnityEngine::UIElements::VisualElement::__cordl_internal_get_elementAdded() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___elementAdded;
-}
-constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_elementAdded() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___elementAdded;
-}
-constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_elementAdded(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___elementAdded = value;
-}
-constexpr ::System::Action_1<::UnityEngine::UIElements::VisualElement*>*& UnityEngine::UIElements::VisualElement::__cordl_internal_get_elementRemoved() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___elementRemoved;
-}
-constexpr ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* const& UnityEngine::UIElements::VisualElement::__cordl_internal_get_elementRemoved() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___elementRemoved;
-}
-constexpr void UnityEngine::UIElements::VisualElement::__cordl_internal_set_elementRemoved(::System::Action_1<::UnityEngine::UIElements::VisualElement*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___elementRemoved = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*& UnityEngine::UIElements::VisualElement::__cordl_internal_get_m_Children() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -8125,11 +8338,11 @@ inline void UnityEngine::UIElements::VisualElement::setStaticF_disabledUssClassN
 inline ::StringW UnityEngine::UIElements::VisualElement::getStaticF_disabledUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "disabledUssClassName", ::UnityEngine::UIElements::VisualElement*>();
 }
-inline void UnityEngine::UIElements::VisualElement::setStaticF_s_InfiniteRect(::UnityEngine::Rect value) {
-  ::cordl_internals::setStaticField<::UnityEngine::Rect, "s_InfiniteRect", ::UnityEngine::UIElements::VisualElement*>(std::forward<::UnityEngine::Rect>(value));
+inline void UnityEngine::UIElements::VisualElement::setStaticF_s_FinalizerCount(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "s_FinalizerCount", ::UnityEngine::UIElements::VisualElement*>(std::forward<int32_t>(value));
 }
-inline ::UnityEngine::Rect UnityEngine::UIElements::VisualElement::getStaticF_s_InfiniteRect() {
-  return ::cordl_internals::getStaticField<::UnityEngine::Rect, "s_InfiniteRect", ::UnityEngine::UIElements::VisualElement*>();
+inline int32_t UnityEngine::UIElements::VisualElement::getStaticF_s_FinalizerCount() {
+  return ::cordl_internals::getStaticField<int32_t, "s_FinalizerCount", ::UnityEngine::UIElements::VisualElement*>();
 }
 inline void UnityEngine::UIElements::VisualElement::setStaticF_k_GenerateVisualContentMarker(::Unity::Profiling::ProfilerMarker value) {
   ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "k_GenerateVisualContentMarker", ::UnityEngine::UIElements::VisualElement*>(
@@ -8137,12 +8350,6 @@ inline void UnityEngine::UIElements::VisualElement::setStaticF_k_GenerateVisualC
 }
 inline ::Unity::Profiling::ProfilerMarker UnityEngine::UIElements::VisualElement::getStaticF_k_GenerateVisualContentMarker() {
   return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "k_GenerateVisualContentMarker", ::UnityEngine::UIElements::VisualElement*>();
-}
-inline void UnityEngine::UIElements::VisualElement::setStaticF_s_runtimeMaterial(::UnityW<::UnityEngine::Material> value) {
-  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::Material>, "s_runtimeMaterial", ::UnityEngine::UIElements::VisualElement*>(std::forward<::UnityW<::UnityEngine::Material>>(value));
-}
-inline ::UnityW<::UnityEngine::Material> UnityEngine::UIElements::VisualElement::getStaticF_s_runtimeMaterial() {
-  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Material>, "s_runtimeMaterial", ::UnityEngine::UIElements::VisualElement*>();
 }
 inline void UnityEngine::UIElements::VisualElement::setStaticF_childCountProperty(::UnityEngine::UIElements::BindingId value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "childCountProperty", ::UnityEngine::UIElements::VisualElement*>(std::forward<::UnityEngine::UIElements::BindingId>(value));
@@ -8339,6 +8546,11 @@ inline ::UnityEngine::UIElements::Align UnityEngine::UIElements::VisualElement::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_alignSelf", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Align>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::Ratio UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_aspectRatio() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_aspectRatio", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Ratio>(this, ___internal_method);
+}
 inline ::UnityEngine::Color UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_backgroundColor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_backgroundColor", {}, {} })));
@@ -8443,6 +8655,11 @@ inline ::UnityEngine::UIElements::DisplayStyle UnityEngine::UIElements::VisualEl
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_display", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::DisplayStyle>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::FilterFunction>* UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_filter() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_filter", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::FilterFunction>*>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::StyleFloat UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_flexBasis() {
   static auto* ___internal_method =
@@ -8646,6 +8863,11 @@ inline ::UnityEngine::FontStyle UnityEngine::UIElements::VisualElement::UnityEng
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_unityFontStyleAndWeight", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::FontStyle>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::MaterialDefinition UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unityMaterial() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_unityMaterial", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MaterialDefinition>(this, ___internal_method);
+}
 inline float_t UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unityParagraphSpacing() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_unityParagraphSpacing", {}, {} })));
@@ -8675,6 +8897,11 @@ inline int32_t UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IR
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_unitySliceTop", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::SliceType UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unitySliceType() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.IResolvedStyle.get_unitySliceType", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::SliceType>(this, ___internal_method);
 }
 inline ::UnityEngine::TextAnchor UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IResolvedStyle_get_unityTextAlign() {
   static auto* ___internal_method =
@@ -8899,6 +9126,18 @@ inline bool UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStyl
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, id, from, to, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id,
+                                                                                                          ::UnityEngine::UIElements::Ratio from, ::UnityEngine::UIElements::Ratio to,
+                                                                                                          int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                          { "UnityEngine.UIElements.IStylePropertyAnimations.Start",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(), ::i2c::type_of<::UnityEngine::UIElements::Ratio>(),
+                              ::i2c::type_of<::UnityEngine::UIElements::Ratio>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, id, from, to, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id,
                                                                                                           ::UnityEngine::UIElements::TransformOrigin from,
                                                                                                           ::UnityEngine::UIElements::TransformOrigin to, int32_t durationMs, int32_t delayMs,
                                                                                                           ::System::Func_2<float_t, float_t>* easingCurve) {
@@ -8947,6 +9186,33 @@ inline bool UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStyl
                                                              { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(), ::i2c::type_of<::UnityEngine::UIElements::BackgroundSize>(),
                                                                ::i2c::type_of<::UnityEngine::UIElements::BackgroundSize>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
                                                                ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, id, from, to, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id,
+                                                                                                          ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* from,
+                                                                                                          ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* to,
+                                                                                                          int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                           { "UnityEngine.UIElements.IStylePropertyAnimations.Start",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                                               ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>(),
+                                                               ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>(), ::i2c::type_of<int32_t>(),
+                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, id, from, to, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id,
+                                                                                                          ::UnityEngine::UIElements::MaterialDefinition from,
+                                                                                                          ::UnityEngine::UIElements::MaterialDefinition to, int32_t durationMs, int32_t delayMs,
+                                                                                                          ::System::Func_2<float_t, float_t>* easingCurve) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                           { "UnityEngine.UIElements.IStylePropertyAnimations.Start",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>(),
+                                                               ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>(), ::i2c::type_of<::UnityEngine::UIElements::MaterialDefinition>(),
+                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Func_2<float_t, float_t>*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, id, from, to, durationMs, delayMs, easingCurve);
 }
 inline void UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_IStylePropertyAnimations_CancelAnimation(::UnityEngine::UIElements::StyleSheets::StylePropertyId id) {
@@ -9035,6 +9301,24 @@ inline void UnityEngine::UIElements::VisualElement::set_areAncestorsAndSelfDispl
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_areAncestorsAndSelfDisplayed", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
+inline bool UnityEngine::UIElements::VisualElement::get_hasOneOrMorePointerCaptures() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_hasOneOrMorePointerCaptures", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::VisualElement::set_hasOneOrMorePointerCaptures(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_hasOneOrMorePointerCaptures", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElement::get_flags() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_flags", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElementFlags>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::VisualElement::set_flags(::UnityEngine::UIElements::VisualElementFlags value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_flags", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElementFlags>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
 inline ::StringW UnityEngine::UIElements::VisualElement::get_viewDataKey() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_viewDataKey", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
@@ -9100,24 +9384,9 @@ inline void UnityEngine::UIElements::VisualElement::MarkRenderHintsClean() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "MarkRenderHintsClean", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::ITransform* UnityEngine::UIElements::VisualElement::get_transform() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_transform", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ITransform*>(this, ___internal_method);
-}
-inline ::UnityEngine::Vector3 UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_ITransform_get_position() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.ITransform.get_position", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
-}
-inline void UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_ITransform_set_position(::UnityEngine::Vector3 value) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                                                         { "UnityEngine.UIElements.ITransform.set_position", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline ::UnityEngine::Vector3 UnityEngine::UIElements::VisualElement::UnityEngine_UIElements_ITransform_get_scale() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UnityEngine.UIElements.ITransform.get_scale", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
+inline bool UnityEngine::UIElements::VisualElement::get_useRenderTexture() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_useRenderTexture", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool UnityEngine::UIElements::VisualElement::get_isLayoutManual() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isLayoutManual", {}, {} })));
@@ -9150,6 +9419,10 @@ inline void UnityEngine::UIElements::VisualElement::ClearManualLayout() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "ClearManualLayout", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+inline bool UnityEngine::UIElements::VisualElement::get_hasSize() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_hasSize", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
 inline ::UnityEngine::Rect UnityEngine::UIElements::VisualElement::get_contentRect() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_contentRect", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect>(this, ___internal_method);
@@ -9162,6 +9435,11 @@ inline bool UnityEngine::UIElements::VisualElement::get_needs3DBounds() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_needs3DBounds", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
+inline void UnityEngine::UIElements::VisualElement::set_needs3DBounds(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_needs3DBounds", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
 inline bool UnityEngine::UIElements::VisualElement::get_isLocalBounds3DDirty() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isLocalBounds3DDirty", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
@@ -9169,6 +9447,16 @@ inline bool UnityEngine::UIElements::VisualElement::get_isLocalBounds3DDirty() {
 inline void UnityEngine::UIElements::VisualElement::set_isLocalBounds3DDirty(bool value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_isLocalBounds3DDirty", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::UIElements::VisualElement::get_isLocalBoundsWithoutNested3DDirty() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isLocalBoundsWithoutNested3DDirty", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::VisualElement::set_isLocalBoundsWithoutNested3DDirty(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_isLocalBoundsWithoutNested3DDirty", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline bool UnityEngine::UIElements::VisualElement::get_isBoundingBoxDirty() {
@@ -9194,6 +9482,10 @@ inline ::UnityEngine::Rect UnityEngine::UIElements::VisualElement::get_boundingB
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_boundingBox", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect>(this, ___internal_method);
 }
+inline ::UnityEngine::Rect UnityEngine::UIElements::VisualElement::get_boundingBoxWithoutNested() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_boundingBoxWithoutNested", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect>(this, ___internal_method);
+}
 inline ::UnityEngine::Rect UnityEngine::UIElements::VisualElement::get_worldBoundingBox() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_worldBoundingBox", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect>(this, ___internal_method);
@@ -9214,9 +9506,17 @@ inline ::UnityEngine::Bounds UnityEngine::UIElements::VisualElement::get_localBo
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_localBounds3D", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::VisualElement::UpdateLocalBoundsAndPickingBounds3D() {
+inline ::UnityEngine::Bounds UnityEngine::UIElements::VisualElement::get_localBoundsPicking3D() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_localBoundsPicking3D", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds>(this, ___internal_method);
+}
+inline ::UnityEngine::Bounds UnityEngine::UIElements::VisualElement::get_localBounds3DWithoutNested3D() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateLocalBoundsAndPickingBounds3D", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_localBounds3DWithoutNested3D", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::VisualElement::UpdateBounds3D() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateBounds3D", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::UnityEngine::Rect UnityEngine::UIElements::VisualElement::get_worldBound() {
@@ -9230,6 +9530,23 @@ inline ::UnityEngine::Rect UnityEngine::UIElements::VisualElement::get_localBoun
 inline ::UnityEngine::Rect UnityEngine::UIElements::VisualElement::get_rect() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_rect", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector2 UnityEngine::UIElements::VisualElement::get_layoutSize() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_layoutSize", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector2 UnityEngine::UIElements::VisualElement::get_layoutPosition() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_layoutPosition", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::VisualElement::get_isWorldSpaceRootUIDocument() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isWorldSpaceRootUIDocument", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::VisualElement::set_isWorldSpaceRootUIDocument(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_isWorldSpaceRootUIDocument", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline bool UnityEngine::UIElements::VisualElement::get_isWorldTransformDirty() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isWorldTransformDirty", {}, {} })));
@@ -9270,52 +9587,40 @@ inline void UnityEngine::UIElements::VisualElement::UpdateWorldTransformInverse(
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateWorldTransformInverse", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::VisualElement::get_isWorldClipDirty() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isWorldClipDirty", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
-}
-inline void UnityEngine::UIElements::VisualElement::set_isWorldClipDirty(bool value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_isWorldClipDirty", {}, { ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
 inline ::UnityEngine::Rect UnityEngine::UIElements::VisualElement::get_worldClip() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_worldClip", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect>(this, ___internal_method);
-}
-inline ::UnityEngine::Rect UnityEngine::UIElements::VisualElement::get_worldClipMinusGroup() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_worldClipMinusGroup", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect>(this, ___internal_method);
-}
-inline bool UnityEngine::UIElements::VisualElement::get_worldClipIsInfinite() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_worldClipIsInfinite", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::VisualElement::EnsureWorldTransformAndClipUpToDate() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "EnsureWorldTransformAndClipUpToDate", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::VisualElement::UpdateWorldClip() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateWorldClip", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::UnityEngine::Rect UnityEngine::UIElements::VisualElement::CombineClipRects(::UnityEngine::Rect rect, ::UnityEngine::Rect parentRect) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "CombineClipRects", {}, { ::i2c::type_of<::UnityEngine::Rect>(), ::i2c::type_of<::UnityEngine::Rect>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect>(this, ___internal_method, rect, parentRect);
-}
-inline ::UnityEngine::Rect UnityEngine::UIElements::VisualElement::SubstractBorderPadding(::UnityEngine::Rect worldRect) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "SubstractBorderPadding", {}, { ::i2c::type_of<::UnityEngine::Rect>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect>(this, ___internal_method, worldRect);
-}
 inline ::UnityEngine::Rect UnityEngine::UIElements::VisualElement::ComputeAAAlignedBound(::UnityEngine::Rect position, ::UnityEngine::Matrix4x4 mat) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
                                                            { "ComputeAAAlignedBound", {}, { ::i2c::type_of<::UnityEngine::Rect>(), ::i2c::type_of<::UnityEngine::Matrix4x4>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect>(nullptr, ___internal_method, position, mat);
+}
+inline bool UnityEngine::UIElements::VisualElement::get_receivesHierarchyGeometryChangedEvents() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_receivesHierarchyGeometryChangedEvents", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::VisualElement::set_receivesHierarchyGeometryChangedEvents(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_receivesHierarchyGeometryChangedEvents", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::UIElements::VisualElement::get_boundingBoxDirtiedSinceLastLayoutPass() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_boundingBoxDirtiedSinceLastLayoutPass", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::VisualElement::set_boundingBoxDirtiedSinceLastLayoutPass(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_boundingBoxDirtiedSinceLastLayoutPass", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::UnityEngine::UIElements::PseudoStates UnityEngine::UIElements::VisualElement::get_pseudoStates() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_pseudoStates", {}, {} })));
@@ -9325,6 +9630,16 @@ inline void UnityEngine::UIElements::VisualElement::set_pseudoStates(::UnityEngi
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_pseudoStates", {}, { ::i2c::type_of<::UnityEngine::UIElements::PseudoStates>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::VisualElement::SetActivePseudoState(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "SetActivePseudoState", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::VisualElement::SetCheckedPseudoState(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "SetCheckedPseudoState", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline int32_t UnityEngine::UIElements::VisualElement::get_containedPointerIds() {
@@ -9352,6 +9667,10 @@ inline void UnityEngine::UIElements::VisualElement::UpdateHoverPseudoStateAfterC
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateHoverPseudoStateAfterCaptureChange", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pointerId);
+}
+inline void UnityEngine::UIElements::VisualElement::UpdatePointerCaptureFlag() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdatePointerCaptureFlag", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::PickingMode UnityEngine::UIElements::VisualElement::get_pickingMode() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_pickingMode", {}, {} })));
@@ -9417,11 +9736,6 @@ inline void UnityEngine::UIElements::VisualElement::Finalize() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 1 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::Rect UnityEngine::UIElements::VisualElement::GetTooltipRect() {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 131 })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect>(this, ___internal_method);
-}
 inline void UnityEngine::UIElements::VisualElement::SetTooltip(::UnityEngine::UIElements::TooltipEvent* e) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "SetTooltip", {}, { ::i2c::type_of<::UnityEngine::UIElements::TooltipEvent*>() } })));
@@ -9430,6 +9744,10 @@ inline void UnityEngine::UIElements::VisualElement::SetTooltip(::UnityEngine::UI
 inline void UnityEngine::UIElements::VisualElement::Focus() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "Focus", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline int64_t UnityEngine::UIElements::VisualElement::TimeSinceStartupMs() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "TimeSinceStartupMs", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int64_t>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::VisualElement::SetPanel(::UnityEngine::UIElements::BaseVisualElementPanel* p) {
   static auto* ___internal_method =
@@ -9582,12 +9900,12 @@ inline void UnityEngine::UIElements::VisualElement::SaveViewData() {
 }
 inline void UnityEngine::UIElements::VisualElement::OnViewDataReady() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 132 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 135 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline bool UnityEngine::UIElements::VisualElement::ContainsPoint(::UnityEngine::Vector2 localPoint) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 133 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 136 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, localPoint);
 }
 inline bool UnityEngine::UIElements::VisualElement::get_requireMeasureFunction() {
@@ -9610,7 +9928,7 @@ inline void UnityEngine::UIElements::VisualElement::RemoveMeasureFunction() {
 inline ::UnityEngine::Vector2 UnityEngine::UIElements::VisualElement::DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t desiredHeight,
                                                                                 ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 134 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 137 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method, desiredWidth, widthMode, desiredHeight, heightMode);
 }
 inline void UnityEngine::UIElements::VisualElement::Measure(::UnityEngine::UIElements::VisualElement* ve, ::by_ref<::UnityEngine::UIElements::Layout::LayoutNode> node, float_t width,
@@ -9706,14 +10024,6 @@ inline void UnityEngine::UIElements::VisualElement::UpdateCursorStyle(int64_t ev
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateCursorStyle", {}, { ::i2c::type_of<int64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventType);
 }
-inline ::UnityEngine::UIElements::VisualElement_RenderTargetMode UnityEngine::UIElements::VisualElement::get_subRenderTargetMode() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_subRenderTargetMode", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement_RenderTargetMode>(this, ___internal_method);
-}
-inline ::UnityW<::UnityEngine::Material> UnityEngine::UIElements::VisualElement::get_defaultMaterial() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_defaultMaterial", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>>(this, ___internal_method);
-}
 inline ::UnityEngine::UIElements::VisualElementAnimationSystem* UnityEngine::UIElements::VisualElement::GetAnimationSystem() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "GetAnimationSystem", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElementAnimationSystem*>(this, ___internal_method);
@@ -9807,6 +10117,10 @@ inline void UnityEngine::UIElements::VisualElement::set_dataSourcePath(::Unity::
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_dataSourcePath", {}, { ::i2c::type_of<::Unity::Properties::PropertyPath>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
+inline bool UnityEngine::UIElements::VisualElement::get_isDataSourcePathEmpty() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isDataSourcePathEmpty", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
 inline bool UnityEngine::UIElements::VisualElement::TryGetBinding(::UnityEngine::UIElements::BindingId bindingId, ::by_ref<::UnityEngine::UIElements::Binding*> binding) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -9864,11 +10178,11 @@ inline void UnityEngine::UIElements::VisualElement::PropagateCachedNextParentWit
           { "PropagateCachedNextParentWithEventInterests", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nextParent, stopParent);
 }
-inline void UnityEngine::UIElements::VisualElement::AddEventCallbackCategories(int32_t eventCategories, ::UnityEngine::UIElements::TrickleDown trickleDown) {
+inline void UnityEngine::UIElements::VisualElement::AddEventCallbackCategories(int32_t eventCategories, ::UnityEngine::UIElements::CallbackOptions callbackOptions) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                           { "AddEventCallbackCategories", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::TrickleDown>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventCategories, trickleDown);
+                                                           { "AddEventCallbackCategories", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::CallbackOptions>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventCategories, callbackOptions);
 }
 inline int32_t UnityEngine::UIElements::VisualElement::get_eventInterestParentCategories() {
   static auto* ___internal_method =
@@ -9963,11 +10277,6 @@ inline bool UnityEngine::UIElements::VisualElement::get_isRootVisualContainer() 
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_isRootVisualContainer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::VisualElement::set_isRootVisualContainer(bool value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_isRootVisualContainer", {}, { ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
 inline bool UnityEngine::UIElements::VisualElement::get_disableClipping() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_disableClipping", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
@@ -9990,30 +10299,6 @@ inline void UnityEngine::UIElements::VisualElement::set_disableRendering(bool va
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "set_disableRendering", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::UIElements::VisualElement::add_elementAdded(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                           { "add_elementAdded", {}, { ::i2c::type_of<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline void UnityEngine::UIElements::VisualElement::remove_elementAdded(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                           { "remove_elementAdded", {}, { ::i2c::type_of<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline void UnityEngine::UIElements::VisualElement::add_elementRemoved(::System::Action_1<::UnityEngine::UIElements::VisualElement*>* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                           { "add_elementRemoved", {}, { ::i2c::type_of<::System::Action_1<::UnityEngine::UIElements::VisualElement*>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline void UnityEngine::UIElements::VisualElement::remove_elementRemoved(::System::Action_1<::UnityEngine::UIElements::VisualElement*>* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                           { "remove_elementRemoved", {}, { ::i2c::type_of<::System::Action_1<::UnityEngine::UIElements::VisualElement*>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::VisualElement::get_parent() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_parent", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
@@ -10033,7 +10318,7 @@ inline ::UnityEngine::UIElements::IPanel* UnityEngine::UIElements::VisualElement
 }
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::VisualElement::get_contentContainer() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 135 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 138 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
 }
 inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> UnityEngine::UIElements::VisualElement::get_visualTreeAssetSource() {
@@ -10050,11 +10335,22 @@ inline void UnityEngine::UIElements::VisualElement::Add(::UnityEngine::UIElement
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "Add", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, child);
 }
+inline void UnityEngine::UIElements::VisualElement::Add(::UnityEngine::UIElements::VisualElement* child, bool ignoreContentContainer) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                                                         { "Add", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, child, ignoreContentContainer);
+}
 inline void UnityEngine::UIElements::VisualElement::Insert(int32_t index, ::UnityEngine::UIElements::VisualElement* element) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "Insert", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, index, element);
+}
+inline void UnityEngine::UIElements::VisualElement::Insert(int32_t index, ::UnityEngine::UIElements::VisualElement* element, bool ignoreContentContainer) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                           { "Insert", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, index, element, ignoreContentContainer);
 }
 inline void UnityEngine::UIElements::VisualElement::Remove(::UnityEngine::UIElements::VisualElement* element) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -10079,10 +10375,20 @@ inline int32_t UnityEngine::UIElements::VisualElement::get_childCount() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_childCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
+inline int32_t UnityEngine::UIElements::VisualElement::ChildCount(bool ignoreContentContainer) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "ChildCount", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, ignoreContentContainer);
+}
 inline int32_t UnityEngine::UIElements::VisualElement::IndexOf(::UnityEngine::UIElements::VisualElement* element) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "IndexOf", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, element);
+}
+inline int32_t UnityEngine::UIElements::VisualElement::IndexOf(::UnityEngine::UIElements::VisualElement* element, bool ignoreContentContainer) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                                                         { "IndexOf", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, element, ignoreContentContainer);
 }
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::VisualElement::ElementAtTreePath(::System::Collections::Generic::List_1<int32_t>* childIndexes) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -10112,6 +10418,16 @@ inline void UnityEngine::UIElements::VisualElement::PlaceBehind(::UnityEngine::U
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "PlaceBehind", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sibling);
+}
+inline void UnityEngine::UIElements::VisualElement::OnChildAdded(::UnityEngine::UIElements::VisualElement* child) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 139 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, child);
+}
+inline void UnityEngine::UIElements::VisualElement::OnChildRemoved(::UnityEngine::UIElements::VisualElement* child) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), 140 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, child);
 }
 inline void UnityEngine::UIElements::VisualElement::RemoveFromHierarchy() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "RemoveFromHierarchy", {}, {} })));
@@ -10156,13 +10472,10 @@ inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::Visual
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "FindCommonAncestor", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method, other);
 }
-inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::VisualElement::GetRoot() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "GetRoot", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
-}
-inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::VisualElement::GetRootVisualContainer() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "GetRootVisualContainer", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
+inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::VisualElement::GetRootVisualContainer(bool stopAtNearestRoot) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "GetRootVisualContainer", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method, stopAtNearestRoot);
 }
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::VisualElement::GetNextElementDepthFirst() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "GetNextElementDepthFirst", {}, {} })));
@@ -10266,6 +10579,18 @@ inline ::UnityEngine::Vector2 UnityEngine::UIElements::VisualElement::MultiplyMa
                                                            { "MultiplyMatrix44Point2", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, lhs, point);
 }
+inline ::UnityEngine::Vector3 UnityEngine::UIElements::VisualElement::MultiplyMatrix44Point2ToPoint3(::by_ref<::UnityEngine::Matrix4x4> lhs, ::UnityEngine::Vector2 point) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                                              { "MultiplyMatrix44Point2ToPoint3", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, lhs, point);
+}
+inline ::UnityEngine::Vector2 UnityEngine::UIElements::VisualElement::MultiplyMatrix44Point3ToPoint2(::by_ref<::UnityEngine::Matrix4x4> lhs, ::UnityEngine::Vector3 point) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                                              { "MultiplyMatrix44Point3ToPoint2", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, lhs, point);
+}
 inline ::UnityEngine::Vector2 UnityEngine::UIElements::VisualElement::MultiplyVector2(::by_ref<::UnityEngine::Matrix4x4> lhs, ::UnityEngine::Vector2 vector) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -10367,9 +10692,9 @@ inline ::UnityEngine::UIElements::VisualElement_TypeData* UnityEngine::UIElement
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "get_typeData", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement_TypeData*>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::VisualElement::_CalculateConservativeBounds_g__IsNaN_724_0(::UnityEngine::Vector3 v) {
+inline bool UnityEngine::UIElements::VisualElement::_CalculateConservativeBounds_g__IsNaN_780_0(::UnityEngine::Vector3 v) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                                                         { "<CalculateConservativeBounds>g__IsNaN|724_0", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
+                                                                                         { "<CalculateConservativeBounds>g__IsNaN|780_0", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, v);
 }
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::VisualElement::New_ctor() {
@@ -10390,14 +10715,6 @@ constexpr UnityEngine::UIElements::VisualElement::operator ::UnityEngine::UIElem
 /// @brief Convert to "::UnityEngine::UIElements::IStylePropertyAnimations"
 constexpr ::UnityEngine::UIElements::IStylePropertyAnimations* UnityEngine::UIElements::VisualElement::i___UnityEngine__UIElements__IStylePropertyAnimations() noexcept {
   return static_cast<::UnityEngine::UIElements::IStylePropertyAnimations*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::UnityEngine::UIElements::ITransform"
-constexpr UnityEngine::UIElements::VisualElement::operator ::UnityEngine::UIElements::ITransform*() noexcept {
-  return static_cast<::UnityEngine::UIElements::ITransform*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UIElements::ITransform"
-constexpr ::UnityEngine::UIElements::ITransform* UnityEngine::UIElements::VisualElement::i___UnityEngine__UIElements__ITransform() noexcept {
-  return static_cast<::UnityEngine::UIElements::ITransform*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::UIElements::Experimental::ITransitionAnimations"
 constexpr UnityEngine::UIElements::VisualElement::operator ::UnityEngine::UIElements::Experimental::ITransitionAnimations*() noexcept {

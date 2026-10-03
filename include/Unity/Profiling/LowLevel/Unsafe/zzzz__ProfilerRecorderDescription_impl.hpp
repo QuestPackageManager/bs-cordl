@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerCategory (::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::*)()>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::get_Category)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a5df40;
+  constexpr static std::size_t addrs = 0x6eafab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::LowLevel::MarkerFlags (::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::*)()>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::get_Flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a5df48;
+  constexpr static std::size_t addrs = 0x6eafabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::*)()>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::get_Name)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6a5df50;
+  constexpr static std::size_t addrs = 0x6eafac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

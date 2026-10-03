@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUILayoutOption::*)(::UnityEngine::GUILayoutOption_Type, ::System::Object*)>(&::UnityEngine::GUILayoutOption::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b45aa8;
+  constexpr static std::size_t addrs = 0x6fa2ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

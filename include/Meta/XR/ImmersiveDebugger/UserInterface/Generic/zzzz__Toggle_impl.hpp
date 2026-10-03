@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::get_State)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a5e854;
+  constexpr static std::size_t addrs = 0x5e7642c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::set_State)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a5e85c;
+  constexpr static std::size_t addrs = 0x5e76434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::ToggleState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5a5e8c0;
+  constexpr static std::size_t addrs = 0x5e76498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action_1<bool>* (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::get_StateChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a5e8d0;
+  constexpr static std::size_t addrs = 0x5e764a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::*)(::System::Action_1<bool>*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::set_StateChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a5e8d8;
+  constexpr static std::size_t addrs = 0x5e764b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle*>(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::OnStateChanged)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5a5e878;
+  constexpr static std::size_t addrs = 0x5e76450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::UpdateBackground)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5a5e8e0;
+  constexpr static std::size_t addrs = 0x5e764b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle*>(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::UpdateIcon)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5a5ea44;
+  constexpr static std::size_t addrs = 0x5e7661c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle*>(),
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a5ec00;
+  constexpr static std::size_t addrs = 0x5e767d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle*>(), { ".ctor", {}, {} })));

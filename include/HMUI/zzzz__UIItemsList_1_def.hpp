@@ -84,7 +84,7 @@ public:
   UIItemsList_1_DataCallback(UIItemsList_1_DataCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19139 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19694 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -174,7 +174,7 @@ public:
   UIItemsList_1(UIItemsList_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19140 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19695 };
 
   /// [SerializeField]
   /// @brief Field _prefab, offset: 0x20, size: 0x8, def value: None

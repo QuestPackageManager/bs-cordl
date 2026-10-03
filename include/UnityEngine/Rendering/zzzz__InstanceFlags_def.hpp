@@ -29,7 +29,7 @@ public:
     __E_AffectsLightmaps = static_cast<uint8_t>(0x1u),
     __E_IsShadowsOff = static_cast<uint8_t>(0x2u),
     __E_IsShadowsOnly = static_cast<uint8_t>(0x4u),
-    __E_HasProgressiveLod = static_cast<uint8_t>(0x8u),
+    __E_HasMeshLod = static_cast<uint8_t>(0x8u),
     __E_SmallMeshCulling = static_cast<uint8_t>(0x10u),
   };
 
@@ -53,8 +53,8 @@ public:
   /// @brief Field AffectsLightmaps value: U8(1)
   static ::UnityEngine::Rendering::InstanceFlags const AffectsLightmaps;
 
-  /// @brief Field HasProgressiveLod value: U8(8)
-  static ::UnityEngine::Rendering::InstanceFlags const HasProgressiveLod;
+  /// @brief Field HasMeshLod value: U8(8)
+  static ::UnityEngine::Rendering::InstanceFlags const HasMeshLod;
 
   /// @brief Field IsShadowsOff value: U8(2)
   static ::UnityEngine::Rendering::InstanceFlags const IsShadowsOff;
@@ -69,7 +69,7 @@ public:
   static ::UnityEngine::Rendering::InstanceFlags const SmallMeshCulling;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18229 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

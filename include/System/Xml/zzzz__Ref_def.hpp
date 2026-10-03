@@ -20,7 +20,7 @@ namespace System::Xml {
 class CORDL_TYPE Ref : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Equal, addr 0x62ce854, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Equal, addr 0x66f6834, size 0xc, virtual false, abstract: false, final false
   static inline bool Equal(::StringW strA, ::StringW strB);
 
 protected:
@@ -38,7 +38,7 @@ public:
   Ref(Ref const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11387 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

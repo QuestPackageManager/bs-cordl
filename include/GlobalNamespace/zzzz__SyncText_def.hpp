@@ -32,18 +32,18 @@ public:
   /// @brief Field _textComponent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__textComponent, put = __cordl_internal_set__textComponent)) ::UnityW<::TMPro::TMP_Text> _textComponent;
 
-  /// @brief Method HandleTextChanged, addr 0x59af148, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandleTextChanged, addr 0x5dc8c60, size 0x8c, virtual false, abstract: false, final false
   inline void HandleTextChanged(::UnityEngine::Object* obj);
 
   static inline ::GlobalNamespace::SyncText* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x59af070, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5dc8b88, size 0xd8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x59aed9c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5dc88b4, size 0xe0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method UpdateText, addr 0x59aee7c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method UpdateText, addr 0x5dc8994, size 0x1f4, virtual false, abstract: false, final false
   inline void UpdateText();
 
   constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get__otherTextComponent() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__textComponent(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x59af1d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc8cec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   SyncText(SyncText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6132 };
 
   /// [Tooltip("When the text value of this TextMeshPro component changes, the text on this GameObject will be updated.")]
   /// [SerializeField]

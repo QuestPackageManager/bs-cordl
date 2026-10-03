@@ -28,6 +28,7 @@ public:
     __E_Depth = static_cast<int32_t>(0x1),
     __E_Stencil = static_cast<int32_t>(0x2),
     __E_Default = static_cast<int32_t>(0x3),
+    __E_ShadingRate = static_cast<int32_t>(0x4),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -56,11 +57,14 @@ public:
   /// @brief Field Depth value: I32(1)
   static ::UnityEngine::Rendering::RenderTextureSubElement const Depth;
 
+  /// @brief Field ShadingRate value: I32(4)
+  static ::UnityEngine::Rendering::RenderTextureSubElement const ShadingRate;
+
   /// @brief Field Stencil value: I32(2)
   static ::UnityEngine::Rendering::RenderTextureSubElement const Stencil;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10754 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10349 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

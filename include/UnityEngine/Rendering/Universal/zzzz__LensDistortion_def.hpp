@@ -48,11 +48,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x687ed14, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cbe1fc, size 0x84, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// [Obsolete("Unused #from(2023.1)", false)]
-  /// @brief Method IsTileCompatible, addr 0x687ed98, size 0x8, virtual true, abstract: false, final true
+  /// [Obsolete("Unused. #from(2023.1)")]
+  /// @brief Method IsTileCompatible, addr 0x6cbe280, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::LensDistortion* New_ctor();
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_yMultiplier(::UnityEngine::Rendering::ClampedFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x687eda0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbe288, size 0x130, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -108,7 +108,7 @@ public:
   LensDistortion(LensDistortion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13038 };
 
   /// [Tooltip("Total distortion amount.")]
   /// @brief Field intensity, offset: 0x38, size: 0x8, def value: None

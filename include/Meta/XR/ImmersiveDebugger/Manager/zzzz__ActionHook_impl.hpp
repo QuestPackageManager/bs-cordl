@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::ActionHook___c__DisplayClass4_0::*)()>(
     &::Meta::XR::ImmersiveDebugger::Manager::ActionHook___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a645ec;
+  constexpr static std::size_t addrs = 0x5e7c324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::ActionHook___c__DisplayClass4_0::*)()>(
     &::Meta::XR::ImmersiveDebugger::Manager::ActionHook___c__DisplayClass4_0::__ctor_b__0)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a64610;
+  constexpr static std::size_t addrs = 0x5e7c348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action* (::Meta::XR::ImmersiveDebugger::Manager::ActionHook::*)()>(
     &::Meta::XR::ImmersiveDebugger::Manager::ActionHook::get_Delegate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a645dc;
+  constexpr static std::size_t addrs = 0x5e7c314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::ActionHook*>(), { "get_Delegate", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::ActionHook::*)(::System::Action*)>(
     &::Meta::XR::ImmersiveDebugger::Manager::ActionHook::set_Delegate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a645e4;
+  constexpr static std::size_t addrs = 0x5e7c31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Immersi
     ::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember*)>(
     &::Meta::XR::ImmersiveDebugger::Manager::ActionHook::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5a617dc;
+  constexpr static std::size_t addrs = 0x5e79514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

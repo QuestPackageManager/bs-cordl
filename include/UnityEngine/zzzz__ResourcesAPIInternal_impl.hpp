@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>> (*)(::System::Type*)>(&::UnityEngine::ResourcesAPIInternal::FindObjectsOfTypeAll)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ad8c14;
+  constexpr static std::size_t addrs = 0x6f32c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)(::StringW)>(&::UnityEngine::ResourcesAPIInternal::FindShaderByName)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x6ad8c50;
+  constexpr static std::size_t addrs = 0x6f32cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (*)(::StringW, ::System::Type*)>(&::UnityEngine::ResourcesAPIInternal::Load)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x6ad8f00;
+  constexpr static std::size_t addrs = 0x6f32f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,11 +51,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>> (*)(::StringW, ::System::Type*)>(&::UnityEngine::ResourcesAPIInternal::LoadAll)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6ad91d0;
+  constexpr static std::size_t addrs = 0x6f33240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPIInternal*>(), { "LoadAll", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ResourcesAPIInternal.UnloadAsset
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*)>(&::UnityEngine::ResourcesAPIInternal::UnloadAsset)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6f3340c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPIInternal*>(), { "UnloadAsset", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
     return ___internal_method;
   }
 };
@@ -64,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::ResourcesAPIInternal::FindShaderByName_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ad8ec4;
+  constexpr static std::size_t addrs = 0x6f32f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::System::Type*)>(
     &::UnityEngine::ResourcesAPIInternal::Load_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ad918c;
+  constexpr static std::size_t addrs = 0x6f331fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,12 +107,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>> (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::System::Type*)>(
     &::UnityEngine::ResourcesAPIInternal::LoadAll_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ad9358;
+  constexpr static std::size_t addrs = 0x6f333c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPIInternal*>(),
                                                 { "LoadAll_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::System::Type*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ResourcesAPIInternal.UnloadAsset_Injected
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::ResourcesAPIInternal::UnloadAsset_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6f3348c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPIInternal*>(), { "UnloadAsset_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
@@ -123,6 +149,11 @@ inline ::ArrayW<::UnityW<::UnityEngine::Object>> UnityEngine::ResourcesAPIIntern
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPIInternal*>(), { "LoadAll", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Object>>>(nullptr, ___internal_method, path, systemTypeInstance);
 }
+inline void UnityEngine::ResourcesAPIInternal::UnloadAsset(::UnityEngine::Object* assetToUnload) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPIInternal*>(), { "UnloadAsset", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, assetToUnload);
+}
 inline ::System::IntPtr UnityEngine::ResourcesAPIInternal::FindShaderByName_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -140,6 +171,11 @@ inline ::ArrayW<::UnityW<::UnityEngine::Object>> UnityEngine::ResourcesAPIIntern
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPIInternal*>(),
                                               { "LoadAll_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Object>>>(nullptr, ___internal_method, path, systemTypeInstance);
+}
+inline void UnityEngine::ResourcesAPIInternal::UnloadAsset_Injected(::System::IntPtr assetToUnload) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPIInternal*>(), { "UnloadAsset_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, assetToUnload);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourcesAPIInternal::ResourcesAPIInternal() {}

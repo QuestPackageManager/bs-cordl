@@ -38,52 +38,52 @@ public:
 
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method ChunkCount, addr 0x6838c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ChunkCount, addr 0x6c6fb9c, size 0x8, virtual false, abstract: false, final false
   inline int32_t ChunkCount();
 
-  /// @brief Method Dispose, addr 0x68388e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c6f83c, size 0x54, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6838934, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c6f890, size 0x6c, virtual false, abstract: false, final false
   inline void Dispose(::Unity::Jobs::JobHandle inputDeps);
 
-  /// @brief Method FillZeroes, addr 0x6838cd8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method FillZeroes, addr 0x6c6fc34, size 0xd0, virtual false, abstract: false, final false
   inline void FillZeroes(int32_t length);
 
-  /// @brief Method Get, addr 0x682d798, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6c61334, size 0x60, virtual false, abstract: false, final false
   inline bool Get(int32_t index);
 
-  /// @brief Method GetBitsArray, addr 0x6838ccc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetBitsArray, addr 0x6c6fc28, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<int64_t> GetBitsArray();
 
-  /// @brief Method GetChunk, addr 0x682d78c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetChunk, addr 0x6c6185c, size 0xc, virtual false, abstract: false, final false
   inline uint64_t GetChunk(int32_t chunk_index);
 
-  /// @brief Method GetSubArray, addr 0x6838c48, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetSubArray, addr 0x6c6fba4, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ParallelBitArray GetSubArray(int32_t length);
 
-  /// @brief Method InterlockedOrChunk, addr 0x6838bb8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method InterlockedOrChunk, addr 0x6c6fb14, size 0x88, virtual false, abstract: false, final false
   inline void InterlockedOrChunk(int32_t chunk_index, uint64_t chunk_bits);
 
-  /// @brief Method InterlockedReadChunk, addr 0x6838b58, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method InterlockedReadChunk, addr 0x6c6fab4, size 0x60, virtual false, abstract: false, final false
   inline uint64_t InterlockedReadChunk(int32_t chunk_index);
 
-  /// @brief Method Resize, addr 0x68389a0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x6c6f8fc, size 0x1b8, virtual false, abstract: false, final false
   inline void Resize(int32_t newLength);
 
-  /// @brief Method Set, addr 0x682d3c8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x6c61394, size 0xa4, virtual false, abstract: false, final false
   inline void Set(int32_t index, bool value);
 
-  /// @brief Method SetChunk, addr 0x682d7f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetChunk, addr 0x6c61868, size 0xc, virtual false, abstract: false, final false
   inline void SetChunk(int32_t chunk_index, uint64_t chunk_bits);
 
-  /// @brief Method .ctor, addr 0x683883c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6f798, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(int32_t length, ::Unity::Collections::Allocator allocator, ::Unity::Collections::NativeArrayOptions options);
 
-  /// @brief Method get_IsCreated, addr 0x68387f0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCreated, addr 0x6c6f74c, size 0x4c, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
-  /// @brief Method get_Length, addr 0x68387e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x6c6f744, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   // Ctor Parameters []
@@ -95,7 +95,7 @@ public:
   constexpr ParallelBitArray(::Unity::Collections::Allocator m_Allocator, ::Unity::Collections::NativeArray_1<int64_t> m_Bits, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18332 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

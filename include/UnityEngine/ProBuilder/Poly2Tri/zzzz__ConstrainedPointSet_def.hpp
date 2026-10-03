@@ -43,7 +43,7 @@ public:
   static inline ::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet* New_ctor(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* points,
                                                                                    ::ArrayW<int32_t> index);
 
-  /// @brief Method Prepare, addr 0x66b1784, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method Prepare, addr 0x6addc44, size 0x1a8, virtual true, abstract: false, final false
   inline void Prepare(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
 
   constexpr ::ArrayW<int32_t> const& __cordl_internal_get__EdgeIndex_k__BackingField() const;
@@ -52,18 +52,18 @@ public:
 
   constexpr void __cordl_internal_set__EdgeIndex_k__BackingField(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x66b16d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6addb94, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* points, ::ArrayW<int32_t> index);
 
   /// [CompilerGenerated]
-  /// @brief Method get_EdgeIndex, addr 0x66b16c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EdgeIndex, addr 0x6addb84, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> get_EdgeIndex();
 
-  /// @brief Method get_TriangulationMode, addr 0x66b177c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TriangulationMode, addr 0x6addc3c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
 
   /// [CompilerGenerated]
-  /// @brief Method set_EdgeIndex, addr 0x66b16cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EdgeIndex, addr 0x6addb8c, size 0x8, virtual false, abstract: false, final false
   inline void set_EdgeIndex(::ArrayW<int32_t> value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   ConstrainedPointSet(ConstrainedPointSet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22542 };
 
   /// [CompilerGenerated]
   /// @brief Field <EdgeIndex>k__BackingField, offset: 0x20, size: 0x8, def value: None

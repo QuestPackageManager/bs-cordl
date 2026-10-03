@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::Decoder::*)()>(&::System::Text::Decoder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ccacd0;
+  constexpr static std::size_t addrs = 0x60e4818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::Decoder*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::DecoderFallback* (::System::Text::Decoder::*)()>(&::System::Text::Decoder::get_Fallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ccacd4;
+  constexpr static std::size_t addrs = 0x60e481c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::Decoder*>(), { "get_Fallback", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::DecoderFallbackBuffer* (::System::Text::Decoder::*)()>(&::System::Text::Decoder::get_FallbackBuffer)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5cca618;
+  constexpr static std::size_t addrs = 0x60e4160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::Decoder*>(), { "get_FallbackBuffer", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::Decoder::*)()>(&::System::Text::Decoder::get_InternalHasFallbackBuffer)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ccacdc;
+  constexpr static std::size_t addrs = 0x60e4824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::Decoder*>(), { "get_InternalHasFallbackBuffer", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::Decoder::*)()>(&::System::Text::Decoder::Reset)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5ccacec;
+  constexpr static std::size_t addrs = 0x60e4834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Text::Decoder*>(), { ::i2c::class_of<::System::Text::Decoder*>(), 4 }));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::Decoder::*)(::ArrayW<uint8_t>, int32_t, int32_t, bool)>(&::System::Text::Decoder::GetCharCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ccae14;
+  constexpr static std::size_t addrs = 0x60e495c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Text::Decoder*>(), { ::i2c::class_of<::System::Text::Decoder*>(), 6 }));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::Decoder::*)(uint8_t*, int32_t, bool)>(&::System::Text::Decoder::GetCharCount)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5ccae20;
+  constexpr static std::size_t addrs = 0x60e4968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Text::Decoder*>(), { ::i2c::class_of<::System::Text::Decoder*>(), 7 }));
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::Decoder::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<char16_t>, int32_t, bool)>(
     &::System::Text::Decoder::GetChars)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ccaf78;
+  constexpr static std::size_t addrs = 0x60e4ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Text::Decoder*>(), { ::i2c::class_of<::System::Text::Decoder*>(), 9 }));
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::Decoder::*)(uint8_t*, int32_t, char16_t*, int32_t, bool)>(&::System::Text::Decoder::GetChars)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x5ccaf84;
+  constexpr static std::size_t addrs = 0x60e4acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Text::Decoder*>(), { ::i2c::class_of<::System::Text::Decoder*>(), 10 }));
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::Decoder::*)(::System::ReadOnlySpan_1<uint8_t>, ::System::Span_1<char16_t>, bool)>(&::System::Text::Decoder::GetChars)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5ccb194;
+  constexpr static std::size_t addrs = 0x60e4cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Text::Decoder*>(), { ::i2c::class_of<::System::Text::Decoder*>(), 11 }));
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::Decoder::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<char16_t>, int32_t, int32_t, bool, ::by_ref<int32_t>,
                                                                                          ::by_ref<int32_t>, ::by_ref<bool>)>(&::System::Text::Decoder::Convert)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x5ccb28c;
+  constexpr static std::size_t addrs = 0x60e4dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Text::Decoder*>(), { ::i2c::class_of<::System::Text::Decoder*>(), 12 }));
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::Decoder::*)(uint8_t*, int32_t, char16_t*, int32_t, bool, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<bool>)>(
     &::System::Text::Decoder::Convert)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x5ccb568;
+  constexpr static std::size_t addrs = 0x60e50b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Text::Decoder*>(), { ::i2c::class_of<::System::Text::Decoder*>(), 13 }));

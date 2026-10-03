@@ -39,10 +39,13 @@ public:
   /// @brief Method RebuildMesh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method UpdateBounds, addr 0x6708bac, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method SetParametersToBuiltInShape, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetParametersToBuiltInShape();
+
+  /// @brief Method UpdateBounds, addr 0x6b1d9f4, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
-  /// @brief Method .ctor, addr 0x6703048, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b17d3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,7 +63,7 @@ public:
   Shape(Shape const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17368 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

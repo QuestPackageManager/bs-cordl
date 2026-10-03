@@ -72,16 +72,16 @@ public:
 
   static inline ::System::Threading::Tasks::TaskToApm_TaskWrapperAsyncResult* New_ctor(::System::Threading::Tasks::Task* task, ::System::Object* state, bool completedSynchronously);
 
-  /// @brief Method System.IAsyncResult.get_AsyncState, addr 0x5cbb738, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.IAsyncResult.get_AsyncState, addr 0x60d5280, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_IAsyncResult_get_AsyncState();
 
-  /// @brief Method System.IAsyncResult.get_AsyncWaitHandle, addr 0x5cbb75c, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.IAsyncResult.get_AsyncWaitHandle, addr 0x60d52a4, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
 
-  /// @brief Method System.IAsyncResult.get_CompletedSynchronously, addr 0x5cbb740, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.IAsyncResult.get_CompletedSynchronously, addr 0x60d5288, size 0x8, virtual true, abstract: false, final true
   inline bool System_IAsyncResult_get_CompletedSynchronously();
 
-  /// @brief Method System.IAsyncResult.get_IsCompleted, addr 0x5cbb748, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method System.IAsyncResult.get_IsCompleted, addr 0x60d5290, size 0x14, virtual true, abstract: false, final true
   inline bool System_IAsyncResult_get_IsCompleted();
 
   constexpr ::System::Threading::Tasks::Task* const& __cordl_internal_get_Task() const;
@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set__state(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5cbb544, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60d508c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task, ::System::Object* state, bool completedSynchronously);
 
   /// @brief Convert to "::System::IAsyncResult"
@@ -162,7 +162,7 @@ public:
 
   static inline ::System::Threading::Tasks::TaskToApm___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <InvokeCallbackWhenTaskCompletes>b__0, addr 0x5cbb804, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <InvokeCallbackWhenTaskCompletes>b__0, addr 0x60d534c, size 0x24, virtual false, abstract: false, final false
   inline void _InvokeCallbackWhenTaskCompletes_b__0();
 
   constexpr ::System::IAsyncResult* const& __cordl_internal_get_asyncResult() const;
@@ -177,7 +177,7 @@ public:
 
   constexpr void __cordl_internal_set_callback(::System::AsyncCallback* value);
 
-  /// @brief Method .ctor, addr 0x5cbb72c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60d5274, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -224,16 +224,16 @@ public:
 
   using __c__DisplayClass3_0 = ::System::Threading::Tasks::TaskToApm___c__DisplayClass3_0;
 
-  /// @brief Method Begin, addr 0x5cbb400, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x60d4f48, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::IAsyncResult* Begin(::System::Threading::Tasks::Task* task, ::System::AsyncCallback* callback, ::System::Object* state);
 
   /// @brief Method End, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline TResult End(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method End, addr 0x5cbb650, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method End, addr 0x60d5198, size 0xd8, virtual false, abstract: false, final false
   static inline void End(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method InvokeCallbackWhenTaskCompletes, addr 0x5cbb550, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallbackWhenTaskCompletes, addr 0x60d5098, size 0x100, virtual false, abstract: false, final false
   static inline void InvokeCallbackWhenTaskCompletes(::System::Threading::Tasks::Task* antecedent, ::System::AsyncCallback* callback, ::System::IAsyncResult* asyncResult);
 
 protected:

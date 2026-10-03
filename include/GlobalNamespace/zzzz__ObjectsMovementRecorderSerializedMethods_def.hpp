@@ -31,27 +31,27 @@ class CORDL_TYPE ObjectsMovementRecorderSerializedMethods : public ::System::Obj
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method CameraViewFromSerializedName, addr 0x58e8720, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CameraViewFromSerializedName, addr 0x5d02e68, size 0x9c, virtual false, abstract: false, final false
   static inline bool CameraViewFromSerializedName(::StringW name, ::by_ref<::GlobalNamespace::ObjectsMovementRecorder_CameraView> cameraView);
 
   /// [Extension]
-  /// @brief Method ModeFromSerializedName, addr 0x58e85dc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ModeFromSerializedName, addr 0x5d02d24, size 0xcc, virtual false, abstract: false, final false
   static inline bool ModeFromSerializedName(::StringW name, ::by_ref<::GlobalNamespace::ObjectsMovementRecorder_Mode> mode);
 
   /// [Extension]
-  /// @brief Method PlaybackScreenshotTypeFromSerializedName, addr 0x58e8834, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PlaybackScreenshotTypeFromSerializedName, addr 0x5d02f7c, size 0xa4, virtual false, abstract: false, final false
   static inline bool PlaybackScreenshotTypeFromSerializedName(::StringW name, ::by_ref<::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type> type);
 
   /// [Extension]
-  /// @brief Method SerializedName, addr 0x58e86a8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SerializedName, addr 0x5d02df0, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::ObjectsMovementRecorder_CameraView cameraView);
 
   /// [Extension]
-  /// @brief Method SerializedName, addr 0x58e8550, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SerializedName, addr 0x5d02c98, size 0x8c, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::ObjectsMovementRecorder_Mode mode);
 
   /// [Extension]
-  /// @brief Method SerializedName, addr 0x58e87bc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SerializedName, addr 0x5d02f04, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type type);
 
 protected:
@@ -69,7 +69,7 @@ public:
   ObjectsMovementRecorderSerializedMethods(ObjectsMovementRecorderSerializedMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6688 };
 
   /// @brief Field kBackgroundPlaybackScreenshotType offset 0xffffffff size 0x8
   static constexpr ::ConstString kBackgroundPlaybackScreenshotType{ u"Background" };

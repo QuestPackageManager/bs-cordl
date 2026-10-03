@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentIntensityReductionOptions_CompressExpandReductionType (
     ::GlobalNamespace::EnvironmentIntensityReductionOptions::*)()>(&::GlobalNamespace::EnvironmentIntensityReductionOptions::get_compressExpand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37087e4;
+  constexpr static std::size_t addrs = 0x3991b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentIntensityReductionOptions_RotateRingsReductionType (::GlobalNamespace::EnvironmentIntensityReductionOptions::*)()>(
     &::GlobalNamespace::EnvironmentIntensityReductionOptions::get_rotateRings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37087ec;
+  constexpr static std::size_t addrs = 0x3991b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentIntensityReductionOptions::*)()>(&::GlobalNamespace::EnvironmentIntensityReductionOptions::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x37087f4;
+  constexpr static std::size_t addrs = 0x3991b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentIntensityReductionOptions*>(), { ".ctor", {}, {} })));

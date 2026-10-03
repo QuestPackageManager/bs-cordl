@@ -25,6 +25,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Gr
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient.SetCustomAppHeaders
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::*)(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
+    &::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::SetCustomAppHeaders)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6347440;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),
+                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 1 }));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient.Update
 template <>
 
@@ -35,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Gr
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),
-                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 1 }));
+                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 2 }));
     return ___internal_method;
   }
 };
@@ -45,11 +59,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>* (
     ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::*)(::OculusStudios::GraphQL::ClientInterface::IQueryRequest*)>(&::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Query)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5f2c778;
+  constexpr static std::size_t addrs = 0x6347444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),
-                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 2 }));
+                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 3 }));
     return ___internal_method;
   }
 };
@@ -59,11 +73,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>* (
     ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::*)(::OculusStudios::GraphQL::ClientInterface::IMutationRequest*)>(&::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Mutate)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5f2c838;
+  constexpr static std::size_t addrs = 0x6347504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),
-                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 5 }));
+                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 6 }));
     return ___internal_method;
   }
 };
@@ -78,7 +92,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),
-                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 8 }));
+                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -92,7 +106,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Gr
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),
-                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 9 }));
+                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -106,7 +120,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Gr
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),
-                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 10 }));
+                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -120,7 +134,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Gr
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),
-                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 11 }));
+                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 12 }));
     return ___internal_method;
   }
 };
@@ -134,7 +148,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Gr
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),
-                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 12 }));
+                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 13 }));
     return ___internal_method;
   }
 };
@@ -148,7 +162,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Gr
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),
-                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 13 }));
+                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 14 }));
     return ___internal_method;
   }
 };
@@ -162,7 +176,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Gr
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),
-                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 14 }));
+                                                                                          { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 15 }));
     return ___internal_method;
   }
 };
@@ -173,22 +187,27 @@ inline void OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Initialize(
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, endpoint, accessToken, customAppHeaders, logger);
 }
-inline void OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Update(float_t deltaTime) {
+inline void OculusStudios::GraphQL::ClientInterface::IGraphQLClient::SetCustomAppHeaders(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* customAppHeaders) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 1 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, customAppHeaders);
+}
+inline void OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Update(float_t deltaTime) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, deltaTime);
 }
 inline ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>*
 OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* request) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 2 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>*>(this, ___internal_method, request);
 }
 template <typename TDomainModel>
   requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
 inline ::System::Threading::Tasks::Task_1<TDomainModel>* OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* request) {
   auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 3 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 4 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TDomainModel>() }));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TDomainModel>*>(this, ___internal_method, request);
 }
@@ -197,21 +216,21 @@ template <typename TDomainModel, typename TViewModel>
            ::cordl_internals::reference_type_constraint<TViewModel>)
 inline ::System::Threading::Tasks::Task_1<TViewModel>* OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* request) {
   auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 4 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 5 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TDomainModel>(), ::i2c::class_of<TViewModel>() }));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TViewModel>*>(this, ___internal_method, request);
 }
 inline ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>*
 OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* request) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 5 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>*>(this, ___internal_method, request);
 }
 template <typename TDomainModel>
   requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
 inline ::System::Threading::Tasks::Task_1<TDomainModel>* OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* request) {
   auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 6 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 7 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TDomainModel>() }));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TDomainModel>*>(this, ___internal_method, request);
 }
@@ -220,42 +239,42 @@ template <typename TDomainModel, typename TViewModel>
            ::cordl_internals::reference_type_constraint<TViewModel>)
 inline ::System::Threading::Tasks::Task_1<TViewModel>* OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* request) {
   auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 7 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 8 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TDomainModel>(), ::i2c::class_of<TViewModel>() }));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TViewModel>*>(this, ___internal_method, request);
 }
 inline ::System::Threading::Tasks::Task* OculusStudios::GraphQL::ClientInterface::IGraphQLClient::ResetRequestForUserInitiatedRetryAsync(::OculusStudios::GraphQL::ClientInterface::Request* request) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 8 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method, request);
 }
 inline void OculusStudios::GraphQL::ClientInterface::IGraphQLClient::PauseRequestQueue() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 9 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void OculusStudios::GraphQL::ClientInterface::IGraphQLClient::ResumeRequestQueue() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 10 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void OculusStudios::GraphQL::ClientInterface::IGraphQLClient::OnApplicationSuspended() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 11 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void OculusStudios::GraphQL::ClientInterface::IGraphQLClient::OnApplicationResumed() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 12 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void OculusStudios::GraphQL::ClientInterface::IGraphQLClient::SetApplicationOnline() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 13 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void OculusStudios::GraphQL::ClientInterface::IGraphQLClient::SetApplicationOffline() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 14 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }

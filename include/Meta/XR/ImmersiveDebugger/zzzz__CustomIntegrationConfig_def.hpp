@@ -67,18 +67,18 @@ namespace Meta::XR::ImmersiveDebugger {
 class CORDL_TYPE CustomIntegrationConfig_GetCameraDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5a5908c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5e709f4, size 0x1c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5a590a8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5e70a10, size 0xc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5a59078, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5e709e0, size 0x14, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> Invoke();
 
   static inline ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5a58e9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e70804, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -96,7 +96,7 @@ public:
   CustomIntegrationConfig_GetCameraDelegate(CustomIntegrationConfig_GetCameraDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24289 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -111,18 +111,18 @@ namespace Meta::XR::ImmersiveDebugger {
 class CORDL_TYPE CustomIntegrationConfig_GetLeftControllerTransformDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5a59130, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5e70a98, size 0x1c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5a5914c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5e70ab4, size 0xc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5a5911c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5e70a84, size 0x14, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> Invoke();
 
   static inline ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetLeftControllerTransformDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5a590b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e70a1c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -140,7 +140,7 @@ public:
   CustomIntegrationConfig_GetLeftControllerTransformDelegate(CustomIntegrationConfig_GetLeftControllerTransformDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23573 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24290 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -155,18 +155,18 @@ namespace Meta::XR::ImmersiveDebugger {
 class CORDL_TYPE CustomIntegrationConfig_GetRightControllerTransformDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5a591d4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5e70b3c, size 0x1c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5a591f0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5e70b58, size 0xc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5a591c0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5e70b28, size 0x14, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> Invoke();
 
   static inline ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetRightControllerTransformDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5a59158, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e70ac0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -184,7 +184,7 @@ public:
   CustomIntegrationConfig_GetRightControllerTransformDelegate(CustomIntegrationConfig_GetRightControllerTransformDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23574 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24291 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -208,23 +208,23 @@ public:
   /// @brief Field GetCameraHandler, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_GetCameraHandler, put = setStaticF_GetCameraHandler)) ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate* GetCameraHandler;
 
-  /// @brief Method ClearAllConfig, addr 0x5a58f04, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ClearAllConfig, addr 0x5e7086c, size 0x108, virtual false, abstract: false, final false
   static inline void ClearAllConfig(::Meta::XR::ImmersiveDebugger::ICustomIntegrationConfig* customConfig);
 
-  /// @brief Method GetCamera, addr 0x5a5900c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetCamera, addr 0x5e70974, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Camera> GetCamera();
 
-  /// @brief Method SetupAllConfig, addr 0x5a58d94, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetupAllConfig, addr 0x5e706fc, size 0x108, virtual false, abstract: false, final false
   static inline void SetupAllConfig(::Meta::XR::ImmersiveDebugger::ICustomIntegrationConfig* customConfig);
 
   /// [CompilerGenerated]
-  /// @brief Method add_GetCameraHandler, addr 0x5a58bfc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method add_GetCameraHandler, addr 0x5e70564, size 0xcc, virtual false, abstract: false, final false
   static inline void add_GetCameraHandler(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate* value);
 
   static inline ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate* getStaticF_GetCameraHandler();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_GetCameraHandler, addr 0x5a58cc8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method remove_GetCameraHandler, addr 0x5e70630, size 0xcc, virtual false, abstract: false, final false
   static inline void remove_GetCameraHandler(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate* value);
 
   static inline void setStaticF_GetCameraHandler(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate* value);
@@ -244,7 +244,7 @@ public:
   CustomIntegrationConfig(CustomIntegrationConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23575 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24292 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

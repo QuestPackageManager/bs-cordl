@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(
     &::UnityEngine::UIElements::UIR::VectorImageManager::get_atlas)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6cf6164;
+  constexpr static std::size_t addrs = 0x718a1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageManager*>(), { "get_atlas", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)(::UnityEngine::UIElements::AtlasBase*)>(
     &::UnityEngine::UIElements::UIR::VectorImageManager::_ctor)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x6cf617c;
+  constexpr static std::size_t addrs = 0x718a1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(&::UnityEngine::UIElements::UIR::VectorImageManager::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf6348;
+  constexpr static std::size_t addrs = 0x718a3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageManager*>(), { "get_disposed", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)(bool)>(&::UnityEngine::UIElements::UIR::VectorImageManager::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf6350;
+  constexpr static std::size_t addrs = 0x718a3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(&::UnityEngine::UIElements::UIR::VectorImageManager::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6cf6358;
+  constexpr static std::size_t addrs = 0x718a3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageManager*>(), { "Dispose", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)(bool)>(&::UnityEngine::UIElements::UIR::VectorImageManager::Dispose)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6cf63c8;
+  constexpr static std::size_t addrs = 0x718a434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(&::UnityEngine::UIElements::UIR::VectorImageManager::Commit)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6cf64f4;
+  constexpr static std::size_t addrs = 0x718a560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageManager*>(), { "Commit", {}, {} })));
@@ -110,13 +110,28 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::GradientRemap* (
     ::UnityEngine::UIElements::UIR::VectorImageManager::*)(::UnityEngine::UIElements::VectorImage*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::VectorImageManager::AddUser)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6cf651c;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x718a588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageManager*>(),
                                                 { "AddUser", {}, { ::i2c::type_of<::UnityEngine::UIElements::VectorImage*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::VectorImageManager.RemoveUser
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)(::UnityEngine::UIElements::VectorImage*)>(
+    &::UnityEngine::UIElements::UIR::VectorImageManager::RemoveUser)> {
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x718aaf4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageManager*>(), { "RemoveUser", {}, { ::i2c::type_of<::UnityEngine::UIElements::VectorImage*>() } })));
     return ___internal_method;
   }
 };
@@ -126,13 +141,29 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::VectorImageRenderInfo* (
     ::UnityEngine::UIElements::UIR::VectorImageManager::*)(::UnityEngine::UIElements::VectorImage*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::VectorImageManager::Register)> {
-  constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x6cf6628;
+  constexpr static std::size_t size = 0x414;
+  constexpr static std::size_t addrs = 0x718a6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageManager*>(),
                                                 { "Register", {}, { ::i2c::type_of<::UnityEngine::UIElements::VectorImage*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::VectorImageManager.Unregister
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)(
+    ::UnityEngine::UIElements::VectorImage*, ::UnityEngine::UIElements::UIR::VectorImageRenderInfo*)>(&::UnityEngine::UIElements::UIR::VectorImageManager::Unregister)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x718ac0c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageManager*>(),
+                            { "Unregister", {}, { ::i2c::type_of<::UnityEngine::UIElements::VectorImage*>(), ::i2c::type_of<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>() } })));
     return ___internal_method;
   }
 };
@@ -283,12 +314,25 @@ inline ::UnityEngine::UIElements::UIR::GradientRemap* UnityEngine::UIElements::U
                                               { "AddUser", {}, { ::i2c::type_of<::UnityEngine::UIElements::VectorImage*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIR::GradientRemap*>(this, ___internal_method, vi, context);
 }
+inline void UnityEngine::UIElements::UIR::VectorImageManager::RemoveUser(::UnityEngine::UIElements::VectorImage* vi) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageManager*>(), { "RemoveUser", {}, { ::i2c::type_of<::UnityEngine::UIElements::VectorImage*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, vi);
+}
 inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* UnityEngine::UIElements::UIR::VectorImageManager::Register(::UnityEngine::UIElements::VectorImage* vi,
                                                                                                                          ::UnityEngine::UIElements::VisualElement* context) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageManager*>(),
                                               { "Register", {}, { ::i2c::type_of<::UnityEngine::UIElements::VectorImage*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>(this, ___internal_method, vi, context);
+}
+inline void UnityEngine::UIElements::UIR::VectorImageManager::Unregister(::UnityEngine::UIElements::VectorImage* vi, ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* renderInfo) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageManager*>(),
+                                       { "Unregister", {}, { ::i2c::type_of<::UnityEngine::UIElements::VectorImage*>(), ::i2c::type_of<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, vi, renderInfo);
 }
 inline ::UnityEngine::UIElements::UIR::VectorImageManager* UnityEngine::UIElements::UIR::VectorImageManager::New_ctor(::UnityEngine::UIElements::AtlasBase* atlas) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIR::VectorImageManager*>(atlas));

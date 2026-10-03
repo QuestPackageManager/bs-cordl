@@ -39,16 +39,16 @@ public:
              ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
   inline void AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
 
-  /// @brief Method Create, addr 0x5b6f8c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5f87818, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder Create();
 
-  /// @brief Method SetException, addr 0x5b6fad8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetException, addr 0x5f87a2c, size 0x68, virtual false, abstract: false, final false
   inline void SetException(::System::Exception* exception);
 
-  /// @brief Method SetResult, addr 0x5b6f9b4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetResult, addr 0x5f87908, size 0x74, virtual false, abstract: false, final false
   inline void SetResult();
 
-  /// @brief Method SetStateMachine, addr 0x5b6f8d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetStateMachine, addr 0x5f87824, size 0x68, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -56,7 +56,7 @@ public:
     requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
   inline void Start(::by_ref<TStateMachine> stateMachine);
 
-  /// @brief Method get_Task, addr 0x5b6fbc4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_Task, addr 0x5f87b18, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask get_Task();
 
   // Ctor Parameters []

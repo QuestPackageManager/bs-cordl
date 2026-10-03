@@ -57,8 +57,6 @@ public:
 
   __declspec(property(get = get_currentTimeOffsetToRealtimeSinceStartup)) double_t currentTimeOffsetToRealtimeSinceStartup;
 
-  __declspec(property(get = get_isInBatchMode)) bool isInBatchMode;
-
   __declspec(property(get = get_isPlayerFocused)) bool isPlayerFocused;
 
   __declspec(property(get = get_normalizeScrollWheelDelta, put = set_normalizeScrollWheelDelta)) bool normalizeScrollWheelDelta;
@@ -107,9 +105,6 @@ public:
 
   /// @brief Method get_currentTimeOffsetToRealtimeSinceStartup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline double_t get_currentTimeOffsetToRealtimeSinceStartup();
-
-  /// @brief Method get_isInBatchMode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_isInBatchMode();
 
   /// @brief Method get_isPlayerFocused, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isPlayerFocused();
@@ -185,7 +180,7 @@ public:
   IInputRuntime(IInputRuntime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11008 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

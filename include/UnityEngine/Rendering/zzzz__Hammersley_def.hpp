@@ -36,6 +36,9 @@ struct Hammersley_Hammersley2dSeq32;
 namespace UnityEngine::Rendering {
 struct Hammersley_Hammersley2dSeq64;
 }
+namespace UnityEngine::Rendering {
+class IComputeCommandBuffer;
+}
 namespace UnityEngine {
 class ComputeShader;
 }
@@ -108,7 +111,7 @@ public:
   constexpr Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9100 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
@@ -129,7 +132,7 @@ static_assert(sizeof(::UnityEngine::Rendering::Hammersley2dSeq16_Hammersley__ham
 
 } // namespace UnityEngine::Rendering
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\ShaderLibrary\\Sampling\\Hammersley.cs", needAccessors = false, generateCBuffer = true)] Dependencies
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\ShaderLibrary\\Sampling\\Hammersley.cs", needAccessors = false, generateCBuffer = true)] Dependencies
 // UnityEngine.Rendering.Hammersley::Hammersley2dSeq16::<hammersley2dSeq16>e__FixedBuffer
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -148,7 +151,7 @@ public:
   constexpr Hammersley_Hammersley2dSeq16(::UnityEngine::Rendering::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer hammersley2dSeq16) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9101 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
@@ -184,7 +187,7 @@ public:
   constexpr Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9102 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x200 };
@@ -205,7 +208,7 @@ static_assert(sizeof(::UnityEngine::Rendering::Hammersley2dSeq32_Hammersley__ham
 
 } // namespace UnityEngine::Rendering
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\ShaderLibrary\\Sampling\\Hammersley.cs", needAccessors = false, generateCBuffer = true)] Dependencies
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\ShaderLibrary\\Sampling\\Hammersley.cs", needAccessors = false, generateCBuffer = true)] Dependencies
 // UnityEngine.Rendering.Hammersley::Hammersley2dSeq32::<hammersley2dSeq32>e__FixedBuffer
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -224,7 +227,7 @@ public:
   constexpr Hammersley_Hammersley2dSeq32(::UnityEngine::Rendering::Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer hammersley2dSeq32) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9103 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x200 };
@@ -260,7 +263,7 @@ public:
   constexpr Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12210 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9104 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x400 };
@@ -281,7 +284,7 @@ static_assert(sizeof(::UnityEngine::Rendering::Hammersley2dSeq64_Hammersley__ham
 
 } // namespace UnityEngine::Rendering
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\ShaderLibrary\\Sampling\\Hammersley.cs", needAccessors = false, generateCBuffer = true)] Dependencies
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\ShaderLibrary\\Sampling\\Hammersley.cs", needAccessors = false, generateCBuffer = true)] Dependencies
 // UnityEngine.Rendering.Hammersley::Hammersley2dSeq64::<hammersley2dSeq64>e__FixedBuffer
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -300,7 +303,7 @@ public:
   constexpr Hammersley_Hammersley2dSeq64(::UnityEngine::Rendering::Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer hammersley2dSeq64) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12211 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9105 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x400 };
@@ -336,7 +339,7 @@ public:
   constexpr Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12212 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9106 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1000 };
@@ -357,7 +360,7 @@ static_assert(sizeof(::UnityEngine::Rendering::Hammersley2dSeq256_Hammersley__ha
 
 } // namespace UnityEngine::Rendering
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\ShaderLibrary\\Sampling\\Hammersley.cs", needAccessors = false, generateCBuffer = true)] Dependencies
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\ShaderLibrary\\Sampling\\Hammersley.cs", needAccessors = false, generateCBuffer = true)] Dependencies
 // UnityEngine.Rendering.Hammersley::Hammersley2dSeq256::<hammersley2dSeq256>e__FixedBuffer
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -376,7 +379,7 @@ public:
   constexpr Hammersley_Hammersley2dSeq256(::UnityEngine::Rendering::Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer hammersley2dSeq256) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12213 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9107 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1000 };
@@ -433,10 +436,13 @@ public:
   /// @brief Field s_hammersley2DSeq64Id, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_hammersley2DSeq64Id, put = setStaticF_s_hammersley2DSeq64Id)) int32_t s_hammersley2DSeq64Id;
 
-  /// @brief Method BindConstants, addr 0x67a38dc, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method BindConstants, addr 0x6bc3150, size 0x15c, virtual false, abstract: false, final false
   static inline void BindConstants(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::ComputeShader* cs);
 
-  /// @brief Method Initialize, addr 0x67a356c, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method BindConstants, addr 0x6bc32ac, size 0xc4, virtual false, abstract: false, final false
+  static inline void BindConstants(::UnityEngine::Rendering::IComputeCommandBuffer* cmd, ::UnityEngine::ComputeShader* cs);
+
+  /// @brief Method Initialize, addr 0x6bc2de0, size 0x370, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::ArrayW<float_t> getStaticF_k_Hammersley2dSeq16();
@@ -486,7 +492,7 @@ public:
   Hammersley(Hammersley const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12214 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9108 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

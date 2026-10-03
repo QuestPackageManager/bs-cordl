@@ -65,7 +65,7 @@ public:
   static ::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapDifficulty const Normal;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21342 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

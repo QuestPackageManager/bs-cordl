@@ -24,7 +24,7 @@ class CORDL_TYPE OffsetDirectionExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method OppositeDirection, addr 0x325d868, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OppositeDirection, addr 0x34e2f50, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OffsetDirection OppositeDirection(::GlobalNamespace::OffsetDirection offsetDirection);
 
 protected:
@@ -42,7 +42,7 @@ public:
   OffsetDirectionExtensions(OffsetDirectionExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21274 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21994 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

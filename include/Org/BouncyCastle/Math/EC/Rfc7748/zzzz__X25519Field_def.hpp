@@ -24,108 +24,108 @@ public:
   /// @brief Field RootNegOne, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_RootNegOne, put = setStaticF_RootNegOne)) ::ArrayW<int32_t> RootNegOne;
 
-  /// @brief Method Add, addr 0x3513730, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x379c9cc, size 0x70, virtual false, abstract: false, final false
   static inline void Add(::ArrayW<int32_t> x, ::ArrayW<int32_t> y, ::ArrayW<int32_t> z);
 
-  /// @brief Method AddOne, addr 0x3514498, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AddOne, addr 0x379d734, size 0x2c, virtual false, abstract: false, final false
   static inline void AddOne(::ArrayW<int32_t> z);
 
-  /// @brief Method AddOne, addr 0x35144c4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method AddOne, addr 0x379d760, size 0x34, virtual false, abstract: false, final false
   static inline void AddOne(::ArrayW<int32_t> z, int32_t zOff);
 
-  /// @brief Method Apm, addr 0x3512ca4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Apm, addr 0x379bf40, size 0x8c, virtual false, abstract: false, final false
   static inline void Apm(::ArrayW<int32_t> x, ::ArrayW<int32_t> y, ::ArrayW<int32_t> zp, ::ArrayW<int32_t> zm);
 
-  /// @brief Method CMov, addr 0x3514600, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CMov, addr 0x379d89c, size 0x88, virtual false, abstract: false, final false
   static inline void CMov(int32_t cond, ::ArrayW<int32_t> x, int32_t xOff, ::ArrayW<int32_t> z, int32_t zOff);
 
-  /// @brief Method CNegate, addr 0x3514688, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CNegate, addr 0x379d924, size 0x50, virtual false, abstract: false, final false
   static inline void CNegate(int32_t negate, ::ArrayW<int32_t> z);
 
-  /// @brief Method CSwap, addr 0x35140f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CSwap, addr 0x379d390, size 0x70, virtual false, abstract: false, final false
   static inline void CSwap(int32_t swap, ::ArrayW<int32_t> a, ::ArrayW<int32_t> b);
 
-  /// @brief Method Carry, addr 0x35144f8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Carry, addr 0x379d794, size 0x108, virtual false, abstract: false, final false
   static inline void Carry(::ArrayW<int32_t> z);
 
-  /// @brief Method Copy, addr 0x351407c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x379d318, size 0x78, virtual false, abstract: false, final false
   static inline void Copy(::ArrayW<int32_t> x, int32_t xOff, ::ArrayW<int32_t> z, int32_t zOff);
 
-  /// @brief Method Create, addr 0x3512c5c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x379bef8, size 0x48, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> Create();
 
-  /// @brief Method CreateTable, addr 0x35146d8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CreateTable, addr 0x379d974, size 0x50, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> CreateTable(int32_t n);
 
-  /// @brief Method Decode, addr 0x3513fcc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x379d268, size 0xb0, virtual false, abstract: false, final false
   static inline void Decode(::ArrayW<uint8_t> x, int32_t xOff, ::ArrayW<int32_t> z);
 
-  /// @brief Method Decode128, addr 0x3514728, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Decode128, addr 0x379d9c4, size 0x13c, virtual false, abstract: false, final false
   static inline void Decode128(::ArrayW<uint8_t> bs, int32_t off, ::ArrayW<int32_t> z, int32_t zOff);
 
-  /// @brief Method Decode32, addr 0x3514864, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Decode32, addr 0x379db00, size 0x68, virtual false, abstract: false, final false
   static inline uint32_t Decode32(::ArrayW<uint8_t> bs, int32_t off);
 
-  /// @brief Method Encode, addr 0x3514288, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x379d524, size 0x88, virtual false, abstract: false, final false
   static inline void Encode(::ArrayW<int32_t> x, ::ArrayW<uint8_t> z, int32_t zOff);
 
-  /// @brief Method Encode128, addr 0x35148cc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Encode128, addr 0x379db68, size 0x128, virtual false, abstract: false, final false
   static inline void Encode128(::ArrayW<int32_t> x, int32_t xOff, ::ArrayW<uint8_t> bs, int32_t off);
 
-  /// @brief Method Encode32, addr 0x35149f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Encode32, addr 0x379dc90, size 0x80, virtual false, abstract: false, final false
   static inline void Encode32(uint32_t n, ::ArrayW<uint8_t> bs, int32_t off);
 
-  /// @brief Method Inv, addr 0x3514164, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Inv, addr 0x379d400, size 0x9c, virtual false, abstract: false, final false
   static inline void Inv(::ArrayW<int32_t> x, ::ArrayW<int32_t> z);
 
-  /// @brief Method IsZero, addr 0x3514ce8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsZero, addr 0x379df84, size 0x54, virtual false, abstract: false, final false
   static inline int32_t IsZero(::ArrayW<int32_t> x);
 
-  /// @brief Method IsZeroVar, addr 0x3514d3c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsZeroVar, addr 0x379dfd8, size 0x64, virtual false, abstract: false, final false
   static inline bool IsZeroVar(::ArrayW<int32_t> x);
 
-  /// @brief Method Mul, addr 0x3513070, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method Mul, addr 0x379c30c, size 0x4e8, virtual false, abstract: false, final false
   static inline void Mul(::ArrayW<int32_t> x, ::ArrayW<int32_t> y, ::ArrayW<int32_t> z);
 
-  /// @brief Method Mul, addr 0x35135c8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Mul, addr 0x379c864, size 0x168, virtual false, abstract: false, final false
   static inline void Mul(::ArrayW<int32_t> x, int32_t y, ::ArrayW<int32_t> z);
 
-  /// @brief Method Negate, addr 0x3514da0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Negate, addr 0x379e03c, size 0x58, virtual false, abstract: false, final false
   static inline void Negate(::ArrayW<int32_t> x, ::ArrayW<int32_t> z);
 
   static inline ::Org::BouncyCastle::Math::EC::Rfc7748::X25519Field* New_ctor();
 
-  /// @brief Method Normalize, addr 0x3514200, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Normalize, addr 0x379d49c, size 0x88, virtual false, abstract: false, final false
   static inline void Normalize(::ArrayW<int32_t> z);
 
-  /// @brief Method One, addr 0x3514ea8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method One, addr 0x379e144, size 0x50, virtual false, abstract: false, final false
   static inline void One(::ArrayW<int32_t> z);
 
-  /// @brief Method PowPm5d8, addr 0x3514a74, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method PowPm5d8, addr 0x379dd10, size 0x1d0, virtual false, abstract: false, final false
   static inline void PowPm5d8(::ArrayW<int32_t> x, ::ArrayW<int32_t> rx2, ::ArrayW<int32_t> rz);
 
-  /// @brief Method Reduce, addr 0x3514df8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Reduce, addr 0x379e094, size 0xb0, virtual false, abstract: false, final false
   static inline void Reduce(::ArrayW<int32_t> z, int32_t x);
 
-  /// @brief Method Sqr, addr 0x3514c44, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Sqr, addr 0x379dee0, size 0xa4, virtual false, abstract: false, final false
   static inline void Sqr(::ArrayW<int32_t> x, int32_t n, ::ArrayW<int32_t> z);
 
-  /// @brief Method Sqr, addr 0x3512d30, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method Sqr, addr 0x379bfcc, size 0x340, virtual false, abstract: false, final false
   static inline void Sqr(::ArrayW<int32_t> x, ::ArrayW<int32_t> z);
 
-  /// @brief Method SqrtRatioVar, addr 0x3514ef8, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method SqrtRatioVar, addr 0x379e194, size 0x1d0, virtual false, abstract: false, final false
   static inline bool SqrtRatioVar(::ArrayW<int32_t> u, ::ArrayW<int32_t> v, ::ArrayW<int32_t> z);
 
-  /// @brief Method Sub, addr 0x3513558, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Sub, addr 0x379c7f4, size 0x70, virtual false, abstract: false, final false
   static inline void Sub(::ArrayW<int32_t> x, ::ArrayW<int32_t> y, ::ArrayW<int32_t> z);
 
-  /// @brief Method SubOne, addr 0x35150c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SubOne, addr 0x379e364, size 0x2c, virtual false, abstract: false, final false
   static inline void SubOne(::ArrayW<int32_t> z);
 
-  /// @brief Method Zero, addr 0x35150f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Zero, addr 0x379e390, size 0x40, virtual false, abstract: false, final false
   static inline void Zero(::ArrayW<int32_t> z);
 
-  /// @brief Method .ctor, addr 0x3514494, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x379d730, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t> getStaticF_RootNegOne();

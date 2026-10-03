@@ -31,15 +31,15 @@ public:
 
   __declspec(property(get = get_dataSourcePath)) ::Unity::Properties::PropertyPath dataSourcePath;
 
-  /// @brief Method .ctor, addr 0x6c453c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7089d9c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* dataSource, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> dataSourcePath);
 
   /// [CompilerGenerated]
-  /// @brief Method get_dataSource, addr 0x6c453ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataSource, addr 0x708e758, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_dataSource();
 
   /// [CompilerGenerated]
-  /// @brief Method get_dataSourcePath, addr 0x6c453b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_dataSourcePath, addr 0x708e760, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Properties::PropertyPath get_dataSourcePath();
 
   // Ctor Parameters []
@@ -51,7 +51,7 @@ public:
   constexpr DataSourceContext(::System::Object* _dataSource_k__BackingField, ::Unity::Properties::PropertyPath _dataSourcePath_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4056 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };
@@ -61,8 +61,8 @@ public:
   /// @brief Field <dataSource>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::System::Object* _dataSource_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <dataSourcePath>k__BackingField, offset: 0x8, size: 0x90, def value: None
   ::Unity::Properties::PropertyPath _dataSourcePath_k__BackingField;
 

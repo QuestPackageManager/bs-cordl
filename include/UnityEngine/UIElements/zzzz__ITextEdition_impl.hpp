@@ -6,6 +6,7 @@
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboardType_def.hpp"
+#include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::ITextEdition.get_multiline
 template <>
 
@@ -432,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ITextEdition::*)()>(&::UnityEngine::UIElements::ITextEdition::get_autoCorrection)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6cb298c;
+  constexpr static std::size_t addrs = 0x71354d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,11 +446,37 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ITextEdition::*)(bool)>(&::UnityEngine::UIElements::ITextEdition::set_autoCorrection)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6cb2a60;
+  constexpr static std::size_t addrs = 0x71355ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 33 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ITextEdition.get_hideSoftKeyboard
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ITextEdition::*)()>(&::UnityEngine::UIElements::ITextEdition::get_hideSoftKeyboard)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x7135678;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 34 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ITextEdition.set_hideSoftKeyboard
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ITextEdition::*)(bool)>(&::UnityEngine::UIElements::ITextEdition::set_hideSoftKeyboard)> {
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x713574c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 35 }));
     return ___internal_method;
   }
 };
@@ -458,11 +485,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ITextEdition::*)()>(&::UnityEngine::UIElements::ITextEdition::get_hideMobileInput)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6cb2b2c;
+  constexpr static std::size_t addrs = 0x7135818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 34 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 36 }));
     return ___internal_method;
   }
 };
@@ -471,11 +498,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ITextEdition::*)(bool)>(&::UnityEngine::UIElements::ITextEdition::set_hideMobileInput)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6cb2c00;
+  constexpr static std::size_t addrs = 0x71358ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 35 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 37 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ITextEdition.get_touchScreenKeyboard
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TouchScreenKeyboard* (::UnityEngine::UIElements::ITextEdition::*)()>(
+    &::UnityEngine::UIElements::ITextEdition::get_touchScreenKeyboard)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x71359b8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 38 }));
     return ___internal_method;
   }
 };
@@ -485,11 +526,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TouchScreenKeyboardType (::UnityEngine::UIElements::ITextEdition::*)()>(
     &::UnityEngine::UIElements::ITextEdition::get_keyboardType)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6cb2ccc;
+  constexpr static std::size_t addrs = 0x7135a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 36 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 39 }));
     return ___internal_method;
   }
 };
@@ -499,11 +540,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ITextEdition::*)(::UnityEngine::TouchScreenKeyboardType)>(
     &::UnityEngine::UIElements::ITextEdition::set_keyboardType)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6cb2da0;
+  constexpr static std::size_t addrs = 0x7135b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 37 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 40 }));
     return ___internal_method;
   }
 };
@@ -643,19 +684,31 @@ inline void UnityEngine::UIElements::ITextEdition::set_autoCorrection(bool value
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 33 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline bool UnityEngine::UIElements::ITextEdition::get_hideMobileInput() {
+inline bool UnityEngine::UIElements::ITextEdition::get_hideSoftKeyboard() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 34 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::ITextEdition::set_hideMobileInput(bool value) {
+inline void UnityEngine::UIElements::ITextEdition::set_hideSoftKeyboard(bool value) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 35 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityEngine::TouchScreenKeyboardType UnityEngine::UIElements::ITextEdition::get_keyboardType() {
+inline bool UnityEngine::UIElements::ITextEdition::get_hideMobileInput() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 36 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::ITextEdition::set_hideMobileInput(bool value) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 37 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::TouchScreenKeyboard* UnityEngine::UIElements::ITextEdition::get_touchScreenKeyboard() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 38 })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TouchScreenKeyboard*>(this, ___internal_method);
+}
+inline ::UnityEngine::TouchScreenKeyboardType UnityEngine::UIElements::ITextEdition::get_keyboardType() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 39 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TouchScreenKeyboardType>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::ITextEdition::set_keyboardType(::UnityEngine::TouchScreenKeyboardType value) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 37 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::ITextEdition*>(), 40 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }

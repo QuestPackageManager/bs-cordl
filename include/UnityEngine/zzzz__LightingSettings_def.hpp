@@ -15,8 +15,8 @@ class LightingSettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::LightingSettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LightingSettings*, "UnityEngine", "LightingSettings");
-// [NativeHeader("Runtime/Graphics/LightingSettings.h")]
 // [PreventReadOnlyInstanceModification]
+// [NativeHeader("Runtime/Graphics/LightingSettings.h")]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -33,53 +33,74 @@ public:
   /// @brief [NativeName("EnableRealtimeLightmaps")]
   __declspec(property(get = get_realtimeGI, put = set_realtimeGI)) bool realtimeGI;
 
-  /// @brief Method Internal_Create, addr 0x6a7eb5c, size 0x3c, virtual false, abstract: false, final false
+  __declspec(property(get = get_usingShadowmask, put = set_usingShadowmask)) bool usingShadowmask;
+
+  /// [FreeFunction("GetLightingSettingsPtr")]
+  /// @brief Method GetActiveSettings, addr 0x6ed1590, size 0x114, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::LightingSettings> GetActiveSettings();
+
+  /// @brief Method GetActiveSettings_Injected, addr 0x6ed16a4, size 0x28, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetActiveSettings_Injected();
+
+  /// @brief Method Internal_Create, addr 0x6ed1554, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Create(/* [Writable] */ ::UnityEngine::LightingSettings* self);
 
   /// [RequiredByNativeCode]
-  /// @brief Method LightingSettingsDontStripMe, addr 0x6a7eae0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LightingSettingsDontStripMe, addr 0x6ed14d8, size 0x4, virtual false, abstract: false, final false
   inline void LightingSettingsDontStripMe();
 
   static inline ::UnityEngine::LightingSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a7eae4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ed14dc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakedGI, addr 0x6a7eb98, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_bakedGI, addr 0x6ed16cc, size 0x80, virtual false, abstract: false, final false
   inline bool get_bakedGI();
 
-  /// @brief Method get_bakedGI_Injected, addr 0x6a7ec18, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bakedGI_Injected, addr 0x6ed174c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_bakedGI_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_realtimeEnvironmentLighting, addr 0x6a7eeb8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_realtimeEnvironmentLighting, addr 0x6ed19ec, size 0x80, virtual false, abstract: false, final false
   inline bool get_realtimeEnvironmentLighting();
 
-  /// @brief Method get_realtimeEnvironmentLighting_Injected, addr 0x6a7ef38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_realtimeEnvironmentLighting_Injected, addr 0x6ed1a6c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_realtimeEnvironmentLighting_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_realtimeGI, addr 0x6a7ed28, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_realtimeGI, addr 0x6ed185c, size 0x80, virtual false, abstract: false, final false
   inline bool get_realtimeGI();
 
-  /// @brief Method get_realtimeGI_Injected, addr 0x6a7eda8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_realtimeGI_Injected, addr 0x6ed18dc, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_realtimeGI_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_bakedGI, addr 0x6a7ec54, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_usingShadowmask, addr 0x6ed1b7c, size 0x80, virtual false, abstract: false, final false
+  inline bool get_usingShadowmask();
+
+  /// @brief Method get_usingShadowmask_Injected, addr 0x6ed1bfc, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_usingShadowmask_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method set_bakedGI, addr 0x6ed1788, size 0x90, virtual false, abstract: false, final false
   inline void set_bakedGI(bool value);
 
-  /// @brief Method set_bakedGI_Injected, addr 0x6a7ece4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bakedGI_Injected, addr 0x6ed1818, size 0x44, virtual false, abstract: false, final false
   static inline void set_bakedGI_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_realtimeEnvironmentLighting, addr 0x6a7ef74, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_realtimeEnvironmentLighting, addr 0x6ed1aa8, size 0x90, virtual false, abstract: false, final false
   inline void set_realtimeEnvironmentLighting(bool value);
 
-  /// @brief Method set_realtimeEnvironmentLighting_Injected, addr 0x6a7f004, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_realtimeEnvironmentLighting_Injected, addr 0x6ed1b38, size 0x44, virtual false, abstract: false, final false
   static inline void set_realtimeEnvironmentLighting_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_realtimeGI, addr 0x6a7ede4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_realtimeGI, addr 0x6ed1918, size 0x90, virtual false, abstract: false, final false
   inline void set_realtimeGI(bool value);
 
-  /// @brief Method set_realtimeGI_Injected, addr 0x6a7ee74, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_realtimeGI_Injected, addr 0x6ed19a8, size 0x44, virtual false, abstract: false, final false
   static inline void set_realtimeGI_Injected(::System::IntPtr _unity_self, bool value);
+
+  /// @brief Method set_usingShadowmask, addr 0x6ed1c38, size 0x90, virtual false, abstract: false, final false
+  inline void set_usingShadowmask(bool value);
+
+  /// @brief Method set_usingShadowmask_Injected, addr 0x6ed1cc8, size 0x44, virtual false, abstract: false, final false
+  static inline void set_usingShadowmask_Injected(::System::IntPtr _unity_self, bool value);
 
 protected:
   // Ctor Parameters []
@@ -96,7 +117,7 @@ public:
   LightingSettings(LightingSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9684 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

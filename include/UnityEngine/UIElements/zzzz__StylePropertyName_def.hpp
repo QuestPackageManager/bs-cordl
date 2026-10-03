@@ -66,48 +66,50 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>*();
 
-  /// @brief Method Equals, addr 0x6c9a8bc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7112fec, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x6c9a938, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7113068, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StylePropertyName other);
 
-  /// @brief Method GetHashCode, addr 0x6c9a8b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7112fe4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method StylePropertyIdFromString, addr 0x6c9a6ec, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method StylePropertyIdFromString, addr 0x7112e1c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId StylePropertyIdFromString(::StringW name);
 
-  /// @brief Method ToString, addr 0x6c9a948, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7113078, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6c9a848, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7112f78, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x6c9a794, size 0xb4, virtual false, abstract: false, final false
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
+  /// @brief Method .ctor, addr 0x7112ec4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::StylePropertyId stylePropertyId);
 
-  /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_id, addr 0x6c9a6dc, size 0x8, virtual false, abstract: false, final false
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
+  /// [CompilerGenerated]
+  /// @brief Method get_id, addr 0x7112e0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId get_id();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_name, addr 0x6c9a6e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x7112e14, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>* i___System__IEquatable_1___UnityEngine__UIElements__StylePropertyName_();
 
-  /// @brief Method op_Equality, addr 0x6c9a87c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x7112fac, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StylePropertyName lhs, ::UnityEngine::UIElements::StylePropertyName rhs);
 
-  /// @brief Method op_Implicit, addr 0x6c9a894, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7112fc4, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StylePropertyName op_Implicit___UnityEngine__UIElements__StylePropertyName(::StringW name);
 
-  /// @brief Method op_Inequality, addr 0x6c9a888, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x7112fb8, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::StylePropertyName lhs, ::UnityEngine::UIElements::StylePropertyName rhs);
 
   // Ctor Parameters []
@@ -119,7 +121,7 @@ public:
   constexpr StylePropertyName(::UnityEngine::UIElements::StyleSheets::StylePropertyId _id_k__BackingField, ::StringW _name_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5131 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -129,8 +131,8 @@ public:
   /// @brief Field <id>k__BackingField, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleSheets::StylePropertyId _id_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <name>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::StringW _name_k__BackingField;
 
@@ -162,12 +164,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c9ab44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7113278, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId GetValue(::by_ref<::UnityEngine::UIElements::StylePropertyName> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_StylePropertyName_IdProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c9ab4c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7113280, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::StylePropertyName> container, ::UnityEngine::UIElements::StyleSheets::StylePropertyId value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -182,15 +184,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c9aa64, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7113198, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x6c9ab3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7113270, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6c9ab34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7113268, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -208,15 +210,15 @@ public:
   PropertyBag_StylePropertyName_IdProperty(PropertyBag_StylePropertyName_IdProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5128 };
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -247,12 +249,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c9ab60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7113294, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetValue(::by_ref<::UnityEngine::UIElements::StylePropertyName> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_StylePropertyName_NameProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c9ab68, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x711329c, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::StylePropertyName> container, ::StringW value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -267,15 +269,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c9aacc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7113200, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x6c9ab58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x711328c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6c9ab50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7113284, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -293,10 +295,10 @@ public:
   PropertyBag_StylePropertyName_NameProperty(PropertyBag_StylePropertyName_NameProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5053 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5129 };
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
@@ -328,7 +330,7 @@ public:
 
   static inline ::UnityEngine::UIElements::StylePropertyName_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c9a950, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7113080, size 0x118, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -346,7 +348,7 @@ public:
   StylePropertyName_PropertyBag(StylePropertyName_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5130 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

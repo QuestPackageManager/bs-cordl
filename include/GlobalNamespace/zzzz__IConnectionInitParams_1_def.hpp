@@ -25,7 +25,7 @@ public:
   IConnectionInitParams_1(IConnectionInitParams_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18170 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18705 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

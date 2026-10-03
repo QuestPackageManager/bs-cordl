@@ -25,7 +25,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DelegateUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Cast, addr 0x67c2750, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Cast, addr 0x6bdf38c, size 0x198, virtual false, abstract: false, final false
   static inline ::System::Delegate* Cast(::System::Delegate* source, ::System::Type* type);
 
 protected:
@@ -43,7 +43,7 @@ public:
   DelegateUtility(DelegateUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9155 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

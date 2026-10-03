@@ -59,31 +59,31 @@ public:
 
   constexpr void __cordl_internal_set__value_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x375662c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39dfd0c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MissionObjective* missionObjective, bool cleared, int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_cleared, addr 0x375660c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cleared, addr 0x39dfcec, size 0x8, virtual false, abstract: false, final false
   inline bool get_cleared();
 
   /// [CompilerGenerated]
-  /// @brief Method get_missionObjective, addr 0x37565fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionObjective, addr 0x39dfcdc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjective* get_missionObjective();
 
   /// [CompilerGenerated]
-  /// @brief Method get_value, addr 0x375661c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x39dfcfc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
   /// [CompilerGenerated]
-  /// @brief Method set_cleared, addr 0x3756614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cleared, addr 0x39dfcf4, size 0x8, virtual false, abstract: false, final false
   inline void set_cleared(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_missionObjective, addr 0x3756604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missionObjective, addr 0x39dfce4, size 0x8, virtual false, abstract: false, final false
   inline void set_missionObjective(::GlobalNamespace::MissionObjective* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_value, addr 0x3756624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x39dfd04, size 0x8, virtual false, abstract: false, final false
   inline void set_value(int32_t value);
 
 protected:
@@ -101,7 +101,7 @@ public:
   MissionObjectiveResult(MissionObjectiveResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15506 };
 
   /// [CompilerGenerated]
   /// @brief Field <missionObjective>k__BackingField, offset: 0x10, size: 0x8, def value: None

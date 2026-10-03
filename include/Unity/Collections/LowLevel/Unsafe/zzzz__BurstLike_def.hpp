@@ -30,7 +30,7 @@ MARK_GEN_VAL_T(::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1)
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::BurstLike*, "Unity.Collections.LowLevel.Unsafe", "BurstLike");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic*, "Unity.Collections.LowLevel.Unsafe", "BurstLike/SharedStatic");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1, "Unity.Collections.LowLevel.Unsafe", "BurstLike/SharedStatic`1");
-// [VisibleToOtherModules(new[] { "UnityEngine.ParticleSystemModule" })]
+// [VisibleToOtherModules(new[] { "UnityEngine.ParticleSystemModule", "UnityEngine.AudioModule" })]
 // [IsReadOnly]
 // Dependencies
 namespace Unity::Collections::LowLevel::Unsafe {
@@ -60,7 +60,7 @@ public:
   constexpr BurstLike_SharedStatic_1(void* _buffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10005 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9579 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -79,7 +79,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class CORDL_TYPE BurstLike_SharedStatic : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetOrCreateSharedStaticInternal, addr 0x6a5fd3c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateSharedStaticInternal, addr 0x6eb1a18, size 0x60, virtual false, abstract: false, final false
   static inline void* GetOrCreateSharedStaticInternal(int64_t getHashCode64, int64_t getSubHashCode64, uint32_t sizeOf, uint32_t alignment);
 
 protected:
@@ -97,7 +97,7 @@ public:
   BurstLike_SharedStatic(BurstLike_SharedStatic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10006 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9580 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,8 +105,8 @@ public:
 static_assert(sizeof(::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Collections::LowLevel::Unsafe
-// [VisibleToOtherModules(new[] { "UnityEngine.ParticleSystemModule" })]
 // [NativeHeader("Runtime/Export/BurstLike/BurstLike.bindings.h")]
+// [VisibleToOtherModules(new[] { "UnityEngine.ParticleSystemModule", "UnityEngine.AudioModule" })]
 // [StaticAccessor("BurstLike", (UnityEngine.Bindings.StaticAccessorType)2)]
 // Dependencies System.Object
 namespace Unity::Collections::LowLevel::Unsafe {
@@ -134,7 +134,7 @@ public:
   BurstLike(BurstLike const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9581 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

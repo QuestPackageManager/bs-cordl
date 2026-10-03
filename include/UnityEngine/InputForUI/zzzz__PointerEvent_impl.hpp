@@ -3,13 +3,16 @@
 #include "Unity/IntegerTime/zzzz__DiscreteTime_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventSource_impl.hpp"
+#include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
+#include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__PointerEvent_def.hpp"
 #include "Unity/IntegerTime/zzzz__DiscreteTime_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventSource_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__IEventProperties_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__PointerEvent_def.hpp"
+#include "UnityEngine/zzzz__Ray_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::PointerEvent_Type::PointerEvent_Type(int32_t value__) noexcept {
   this->value__ = value__;
@@ -22,6 +25,7 @@ constexpr ::UnityEngine::InputForUI::PointerEvent_Type UnityEngine::InputForUI::
 constexpr ::UnityEngine::InputForUI::PointerEvent_Type UnityEngine::InputForUI::PointerEvent_Type::ButtonReleased{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::InputForUI::PointerEvent_Type UnityEngine::InputForUI::PointerEvent_Type::State{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::InputForUI::PointerEvent_Type UnityEngine::InputForUI::PointerEvent_Type::TouchCanceled{ static_cast<int32_t>(0x6) };
+constexpr ::UnityEngine::InputForUI::PointerEvent_Type UnityEngine::InputForUI::PointerEvent_Type::TrackedCanceled{ static_cast<int32_t>(0x6) };
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::PointerEvent_Button::PointerEvent_Button(uint32_t value__) noexcept {
   this->value__ = value__;
@@ -45,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::PointerEvent_ButtonsState::*)(::UnityEngine::InputForUI::PointerEvent_Button, bool)>(
     &::UnityEngine::InputForUI::PointerEvent_ButtonsState::Set)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6b5ad10;
+  constexpr static std::size_t addrs = 0x6fbab2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::PointerEvent_ButtonsState::*)(::UnityEngine::InputForUI::PointerEvent_Button)>(
     &::UnityEngine::InputForUI::PointerEvent_ButtonsState::Get)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b5ad2c;
+  constexpr static std::size_t addrs = 0x6fbab48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::PointerEvent_ButtonsState>(),
@@ -73,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::PointerEvent_ButtonsState::*)()>(&::UnityEngine::InputForUI::PointerEvent_ButtonsState::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5ad3c;
+  constexpr static std::size_t addrs = 0x6fbab58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::PointerEvent_ButtonsState>(), { "Reset", {}, {} })));
@@ -85,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputForUI::PointerEvent_ButtonsState::*)()>(&::UnityEngine::InputForUI::PointerEvent_ButtonsState::ToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6b5ad44;
+  constexpr static std::size_t addrs = 0x6fbab60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::PointerEvent_ButtonsState>(),
@@ -123,11 +127,23 @@ constexpr ::UnityEngine::InputForUI::PointerEvent_ButtonsState::PointerEvent_But
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::PointerEvent::*)()>(&::UnityEngine::InputForUI::PointerEvent::get_isPrimaryPointer)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b5a088;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6fb9d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::PointerEvent>(), { "get_isPrimaryPointer", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::PointerEvent.get_worldRay
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Ray (::UnityEngine::InputForUI::PointerEvent::*)()>(&::UnityEngine::InputForUI::PointerEvent::get_worldRay)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x6fb9d84;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::PointerEvent>(), { "get_worldRay", {}, {} })));
     return ___internal_method;
   }
 };
@@ -136,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputForUI::PointerEvent::*)()>(&::UnityEngine::InputForUI::PointerEvent::get_azimuth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5a098;
+  constexpr static std::size_t addrs = 0x6fb9eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::PointerEvent>(), { "get_azimuth", {}, {} })));
@@ -148,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputForUI::PointerEvent::*)()>(&::UnityEngine::InputForUI::PointerEvent::get_altitude)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b5a148;
+  constexpr static std::size_t addrs = 0x6fb9f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::PointerEvent>(), { "get_altitude", {}, {} })));
@@ -160,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IntegerTime::DiscreteTime (::UnityEngine::InputForUI::PointerEvent::*)()>(&::UnityEngine::InputForUI::PointerEvent::get_timestamp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5a1c0;
+  constexpr static std::size_t addrs = 0x6fb9fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::PointerEvent>(), { "get_timestamp", {}, {} })));
@@ -173,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::PointerEvent::*)(::Unity::IntegerTime::DiscreteTime)>(
     &::UnityEngine::InputForUI::PointerEvent::set_timestamp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5a1c8;
+  constexpr static std::size_t addrs = 0x6fb9fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventSource (::UnityEngine::InputForUI::PointerEvent::*)()>(
     &::UnityEngine::InputForUI::PointerEvent::get_eventSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5a1d0;
+  constexpr static std::size_t addrs = 0x6fb9fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::PointerEvent>(), { "get_eventSource", {}, {} })));
@@ -200,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::PointerEvent::*)(::UnityEngine::InputForUI::EventSource)>(
     &::UnityEngine::InputForUI::PointerEvent::set_eventSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5a1d8;
+  constexpr static std::size_t addrs = 0x6fb9ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::PointerEvent::*)(uint32_t)>(&::UnityEngine::InputForUI::PointerEvent::set_playerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5a1e0;
+  constexpr static std::size_t addrs = 0x6fb9ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventModifiers (::UnityEngine::InputForUI::PointerEvent::*)()>(
     &::UnityEngine::InputForUI::PointerEvent::get_eventModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5a1e8;
+  constexpr static std::size_t addrs = 0x6fba004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::PointerEvent>(), { "get_eventModifiers", {}, {} })));
@@ -240,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::PointerEvent::*)(::UnityEngine::InputForUI::EventModifiers)>(
     &::UnityEngine::InputForUI::PointerEvent::set_eventModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5a1f0;
+  constexpr static std::size_t addrs = 0x6fba00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputForUI::PointerEvent::*)()>(&::UnityEngine::InputForUI::PointerEvent::ToString)> {
   constexpr static std::size_t size = 0xb04;
-  constexpr static std::size_t addrs = 0x6b5a1f8;
+  constexpr static std::size_t addrs = 0x6fba014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -267,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::PointerEvent_Button (*)(int32_t)>(&::UnityEngine::InputForUI::PointerEvent::ButtonFromButtonIndex)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b5acfc;
+  constexpr static std::size_t addrs = 0x6fbab18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,6 +294,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI
 inline bool UnityEngine::InputForUI::PointerEvent::get_isPrimaryPointer() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::PointerEvent>(), { "get_isPrimaryPointer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
+}
+inline ::UnityEngine::Ray UnityEngine::InputForUI::PointerEvent::get_worldRay() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::PointerEvent>(), { "get_worldRay", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Ray>(*this, ___internal_method);
 }
 inline float_t UnityEngine::InputForUI::PointerEvent::get_azimuth() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::PointerEvent>(), { "get_azimuth", {}, {} })));
@@ -339,18 +359,21 @@ constexpr ::UnityEngine::InputForUI::IEventProperties* UnityEngine::InputForUI::
 }
 // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputForUI::PointerEvent_Type", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "pointerIndex", ty: "int32_t",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "deltaPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scroll", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"),
-// comment: None }, CppParam { name: "displayIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tilt", ty: "::UnityEngine::Vector2", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "twist", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "pressure", ty: "float_t", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "isInverted", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "button", ty:
-// "::UnityEngine::InputForUI::PointerEvent_Button", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "buttonsState", ty: "::UnityEngine::InputForUI::PointerEvent_ButtonsState",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "clickCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "_timestamp_k__BackingField", ty: "::Unity::IntegerTime::DiscreteTime", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_eventSource_k__BackingField", ty:
-// "::UnityEngine::InputForUI::EventSource", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_playerId_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
-// comment: None }, CppParam { name: "_eventModifiers_k__BackingField", ty: "::UnityEngine::InputForUI::EventModifiers", modifiers: "", def_value: Some("{}"), comment: None }]
+// "deltaPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "worldPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "worldOrientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxDistance", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scroll", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "displayIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tilt", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "twist", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "pressure", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "isInverted", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "button", ty: "::UnityEngine::InputForUI::PointerEvent_Button", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "buttonsState", ty: "::UnityEngine::InputForUI::PointerEvent_ButtonsState", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "clickCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_timestamp_k__BackingField", ty: "::Unity::IntegerTime::DiscreteTime", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_eventSource_k__BackingField", ty: "::UnityEngine::InputForUI::EventSource", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_playerId_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_eventModifiers_k__BackingField", ty:
+// "::UnityEngine::InputForUI::EventModifiers", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::PointerEvent::PointerEvent(::UnityEngine::InputForUI::PointerEvent_Type type, int32_t pointerIndex, ::UnityEngine::Vector2 position,
-                                                                ::UnityEngine::Vector2 deltaPosition, ::UnityEngine::Vector2 scroll, int32_t displayIndex, ::UnityEngine::Vector2 tilt, float_t twist,
-                                                                float_t pressure, bool isInverted, ::UnityEngine::InputForUI::PointerEvent_Button button,
+                                                                ::UnityEngine::Vector2 deltaPosition, ::UnityEngine::Vector3 worldPosition, ::UnityEngine::Quaternion worldOrientation,
+                                                                float_t maxDistance, ::UnityEngine::Vector2 scroll, int32_t displayIndex, ::UnityEngine::Vector2 tilt, float_t twist, float_t pressure,
+                                                                bool isInverted, ::UnityEngine::InputForUI::PointerEvent_Button button,
                                                                 ::UnityEngine::InputForUI::PointerEvent_ButtonsState buttonsState, int32_t clickCount,
                                                                 ::Unity::IntegerTime::DiscreteTime _timestamp_k__BackingField, ::UnityEngine::InputForUI::EventSource _eventSource_k__BackingField,
                                                                 uint32_t _playerId_k__BackingField, ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField) noexcept {
@@ -358,6 +381,9 @@ constexpr ::UnityEngine::InputForUI::PointerEvent::PointerEvent(::UnityEngine::I
   this->pointerIndex = pointerIndex;
   this->position = position;
   this->deltaPosition = deltaPosition;
+  this->worldPosition = worldPosition;
+  this->worldOrientation = worldOrientation;
+  this->maxDistance = maxDistance;
   this->scroll = scroll;
   this->displayIndex = displayIndex;
   this->tilt = tilt;

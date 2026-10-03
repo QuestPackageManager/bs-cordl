@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BackgroundSize (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StyleBackgroundSize::get_value)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6c928a8;
+  constexpr static std::size_t addrs = 0x7108454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackgroundSize>(), { "get_value", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackgroundSize::*)(::UnityEngine::UIElements::BackgroundSize)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::set_value)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c928e8;
+  constexpr static std::size_t addrs = 0x7108494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StyleBackgroundSize::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c928fc;
+  constexpr static std::size_t addrs = 0x71084a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackgroundSize>(), { "get_keyword", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackgroundSize::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::set_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c92904;
+  constexpr static std::size_t addrs = 0x71084b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,10 +67,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackgroundSize._ctor
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackgroundSize::*)(::UnityEngine::UIElements::BackgroundSize)>(
+    &::UnityEngine::UIElements::StyleBackgroundSize::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x71084b8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackgroundSize>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::BackgroundSize>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleBackgroundSize._ctor
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackgroundSize::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c9290c;
+  constexpr static std::size_t addrs = 0x71084f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackgroundSize::*)(::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c92918;
+  constexpr static std::size_t addrs = 0x71084d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleBackgroundSize, ::UnityEngine::UIElements::StyleBackgroundSize)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::op_Equality)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c92930;
+  constexpr static std::size_t addrs = 0x71084fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,12 +129,27 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleBackgroundSize (*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::op_Implicit___UnityEngine__UIElements__StyleBackgroundSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c929ac;
+  constexpr static std::size_t addrs = 0x7108578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackgroundSize>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleBackgroundSize.op_Implicit___UnityEngine__UIElements__StyleBackgroundSize
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleBackgroundSize (*)(::UnityEngine::UIElements::BackgroundSize)>(
+    &::UnityEngine::UIElements::StyleBackgroundSize::op_Implicit___UnityEngine__UIElements__StyleBackgroundSize)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x7108584;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackgroundSize>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::UIElements::BackgroundSize>() } })));
     return ___internal_method;
   }
 };
@@ -130,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleBackgroundSize::*)(::UnityEngine::UIElements::StyleBackgroundSize)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c929b8;
+  constexpr static std::size_t addrs = 0x7108598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleBackgroundSize::*)(::System::Object*)>(&::UnityEngine::UIElements::StyleBackgroundSize::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6c92a34;
+  constexpr static std::size_t addrs = 0x7108614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(&::UnityEngine::UIElements::StyleBackgroundSize::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c92b0c;
+  constexpr static std::size_t addrs = 0x71086ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(&::UnityEngine::UIElements::StyleBackgroundSize::ToString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6c92b34;
+  constexpr static std::size_t addrs = 0x7108714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,6 +227,11 @@ inline void UnityEngine::UIElements::StyleBackgroundSize::set_keyword(::UnityEng
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackgroundSize>(), { "set_keyword", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
+inline void UnityEngine::UIElements::StyleBackgroundSize::_ctor(::UnityEngine::UIElements::BackgroundSize v) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackgroundSize>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::BackgroundSize>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, v);
+}
 inline void UnityEngine::UIElements::StyleBackgroundSize::_ctor(::UnityEngine::UIElements::StyleKeyword keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackgroundSize>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
@@ -222,6 +256,13 @@ UnityEngine::UIElements::StyleBackgroundSize::op_Implicit___UnityEngine__UIEleme
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackgroundSize>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleBackgroundSize>(nullptr, ___internal_method, keyword);
+}
+inline ::UnityEngine::UIElements::StyleBackgroundSize
+UnityEngine::UIElements::StyleBackgroundSize::op_Implicit___UnityEngine__UIElements__StyleBackgroundSize(::UnityEngine::UIElements::BackgroundSize v) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackgroundSize>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::UIElements::BackgroundSize>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleBackgroundSize>(nullptr, ___internal_method, v);
 }
 inline bool UnityEngine::UIElements::StyleBackgroundSize::Equals(::UnityEngine::UIElements::StyleBackgroundSize other) {
   static auto* ___internal_method =

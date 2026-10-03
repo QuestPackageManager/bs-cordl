@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetGlobalShaderFloat::*)()>(&::GlobalNamespace::SetGlobalShaderFloat::Start)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58732f0;
+  constexpr static std::size_t addrs = 0x5c894c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetGlobalShaderFloat*>(), { "Start", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetGlobalShaderFloat::*)()>(&::GlobalNamespace::SetGlobalShaderFloat::Update)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5873310;
+  constexpr static std::size_t addrs = 0x5c894e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetGlobalShaderFloat*>(), { "Update", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetGlobalShaderFloat::*)()>(&::GlobalNamespace::SetGlobalShaderFloat::OnValidate)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x587335c;
+  constexpr static std::size_t addrs = 0x5c89530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetGlobalShaderFloat*>(), { "OnValidate", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetGlobalShaderFloat::*)()>(&::GlobalNamespace::SetGlobalShaderFloat::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x587337c;
+  constexpr static std::size_t addrs = 0x5c89550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetGlobalShaderFloat*>(), { ".ctor", {}, {} })));

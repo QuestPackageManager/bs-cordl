@@ -12,8 +12,8 @@ class NativeDisableParallelForRestrictionAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Collections::NativeDisableParallelForRestrictionAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeDisableParallelForRestrictionAttribute*, "Unity.Collections", "NativeDisableParallelForRestrictionAttribute");
-// [AttributeUsage((System.AttributeTargets)256)]
 // [RequiredByNativeCode]
+// [AttributeUsage((System.AttributeTargets)256)]
 // Dependencies System.Attribute
 namespace Unity::Collections {
 // Is value type: false
@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Unity::Collections::NativeDisableParallelForRestrictionAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a5fc28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eb1904, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   NativeDisableParallelForRestrictionAttribute(NativeDisableParallelForRestrictionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9989 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9563 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

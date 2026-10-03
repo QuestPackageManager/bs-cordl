@@ -10,24 +10,12 @@
 #include "UnityEngine/Rendering/zzzz__IPostProcessComponent_def.hpp"
 #include "UnityEngine/Rendering/zzzz__MinFloatParameter_def.hpp"
 #include "UnityEngine/Rendering/zzzz__Vector2Parameter_def.hpp"
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(&::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::_ctor)> {
-  constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x687f328;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare.IsActive
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(&::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::IsActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x687f718;
+  constexpr static std::size_t addrs = 0x6cbe830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare*>(), { "IsActive", {}, {} })));
@@ -40,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::IsStreaksActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x687f748;
+  constexpr static std::size_t addrs = 0x6cbe860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,11 +42,23 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687f778;
+  constexpr static std::size_t addrs = 0x6cbe890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare*>(), { "IsTileCompatible", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(&::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::_ctor)> {
+  constexpr static std::size_t size = 0x370;
+  constexpr static std::size_t addrs = 0x6cbe898;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
@@ -278,10 +278,6 @@ constexpr void UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chromaticAbberationIntensity = value;
 }
-inline void UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
 inline bool UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::IsActive() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare*>(), { "IsActive", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
@@ -295,6 +291,10 @@ inline bool UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::IsTileCompa
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare*>(), { "IsTileCompatible", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare* UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare*>());

@@ -27,11 +27,15 @@ class CORDL_TYPE TrackAssetExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method GetGroup, addr 0x69c79c0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ComputeBlendsFromOverlaps, addr 0x6de0a80, size 0x3c, virtual false, abstract: false, final false
+  static inline void ComputeBlendsFromOverlaps(::UnityEngine::Timeline::TrackAsset* asset, bool force);
+
+  /// [Extension]
+  /// @brief Method GetGroup, addr 0x6def7b8, size 0xcc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Timeline::GroupTrack> GetGroup(::UnityEngine::Timeline::TrackAsset* asset);
 
   /// [Extension]
-  /// @brief Method SetGroup, addr 0x69c7a8c, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method SetGroup, addr 0x6def884, size 0x32c, virtual false, abstract: false, final false
   static inline void SetGroup(::UnityEngine::Timeline::TrackAsset* asset, ::UnityEngine::Timeline::GroupTrack* group);
 
 protected:
@@ -49,7 +53,7 @@ public:
   TrackAssetExtensions(TrackAssetExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19330 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

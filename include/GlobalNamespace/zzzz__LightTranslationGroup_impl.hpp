@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightTransformGroupType (::GlobalNamespace::LightTranslationGroup::*)()>(
     &::GlobalNamespace::LightTranslationGroup::get_transformGroupType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x599af38;
+  constexpr static std::size_t addrs = 0x5db5f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(&::GlobalNamespace::LightTranslationGroup::get_xTranslationLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x599af40;
+  constexpr static std::size_t addrs = 0x5db5f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroup*>(), { "get_xTranslationLimits", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(&::GlobalNamespace::LightTranslationGroup::get_yTranslationLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x599af48;
+  constexpr static std::size_t addrs = 0x5db5f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroup*>(), { "get_yTranslationLimits", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(&::GlobalNamespace::LightTranslationGroup::get_zTranslationLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x599af50;
+  constexpr static std::size_t addrs = 0x5db5f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroup*>(), { "get_zTranslationLimits", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(&::GlobalNamespace::LightTranslationGroup::get_xDistributionLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x599af58;
+  constexpr static std::size_t addrs = 0x5db5f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroup*>(), { "get_xDistributionLimits", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(&::GlobalNamespace::LightTranslationGroup::get_yDistributionLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x599af60;
+  constexpr static std::size_t addrs = 0x5db5fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroup*>(), { "get_yDistributionLimits", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(&::GlobalNamespace::LightTranslationGroup::get_zDistributionLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x599af68;
+  constexpr static std::size_t addrs = 0x5db5fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroup*>(), { "get_zDistributionLimits", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LightTranslationGroup::*)()>(&::GlobalNamespace::LightTranslationGroup::__Validate)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x599af70;
+  constexpr static std::size_t addrs = 0x5db5fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroup*>(), { "__Validate", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroup::*)()>(&::GlobalNamespace::LightTranslationGroup::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x599b1b0;
+  constexpr static std::size_t addrs = 0x5db61f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroup*>(), { ".ctor", {}, {} })));

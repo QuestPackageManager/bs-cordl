@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::GCHandle (*)(::System::IntPtr)>(&::UnityEngine::Bindings::Unmarshal::FromIntPtrUnsafe)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6afede4;
+  constexpr static std::size_t addrs = 0x6f59fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

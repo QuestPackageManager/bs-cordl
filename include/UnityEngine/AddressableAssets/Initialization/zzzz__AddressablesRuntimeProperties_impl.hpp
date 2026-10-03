@@ -3,16 +3,17 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AddressableAssets/Initialization/zzzz__AddressablesRuntimeProperties_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties.GetAssemblies
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::Assembly*> (*)()>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* (*)()>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetAssemblies)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x646c008;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6893930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetCachedValueCount)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x646c024;
+  constexpr static std::size_t addrs = 0x6893934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW)>(&::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::SetPropertyValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x646c0a8;
+  constexpr static std::size_t addrs = 0x68939b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*>(),
@@ -51,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::ClearCachedPropertyValues)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x646c150;
+  constexpr static std::size_t addrs = 0x6893a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,8 +64,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngin
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateProperty)> {
-  constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x646c1d0;
+  constexpr static std::size_t size = 0x620;
+  constexpr static std::size_t addrs = 0x6893ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*>(),
@@ -77,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6457ec4;
+  constexpr static std::size_t addrs = 0x687fe30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*>(),
@@ -91,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, char16_t, char16_t, ::System::Func_2<::StringW, ::StringW>*)>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x646cb6c;
+  constexpr static std::size_t addrs = 0x68946c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, char16_t, char16_t, ::System::Func_2<::StringW, ::StringW>*)>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateStringInternal)> {
   constexpr static std::size_t size = 0x5c0;
-  constexpr static std::size_t addrs = 0x646c5ac;
+  constexpr static std::size_t addrs = 0x6894100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,10 +149,10 @@ inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* Unity
   return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*, "s_CachedValues",
                                            ::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*>();
 }
-inline ::ArrayW<::System::Reflection::Assembly*> UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetAssemblies() {
+inline ::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetAssemblies() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*>(), { "GetAssemblies", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::Assembly*>>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>*>(nullptr, ___internal_method);
 }
 inline int32_t UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetCachedValueCount() {
   static auto* ___internal_method =

@@ -21,7 +21,7 @@ namespace System::IO {
 class CORDL_TYPE DriveInfoInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLogicalDrives, addr 0x5c22d68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalDrives, addr 0x603b860, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetLogicalDrives();
 
 protected:
@@ -39,7 +39,7 @@ public:
   DriveInfoInternal(DriveInfoInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3923 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3921 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

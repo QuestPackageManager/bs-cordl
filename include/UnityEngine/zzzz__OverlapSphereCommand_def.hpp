@@ -52,51 +52,51 @@ public:
 
   __declspec(property(get = get_radius, put = set_radius)) float_t radius;
 
-  /// @brief Method ScheduleBatch, addr 0x6b97ecc, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatch, addr 0x7003888, size 0x1ac, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleBatch(::Unity::Collections::NativeArray_1<::UnityEngine::OverlapSphereCommand> commands,
                                                        ::Unity::Collections::NativeArray_1<::UnityEngine::ColliderHit> results, int32_t minCommandsPerJob, int32_t maxHits,
                                                        ::Unity::Jobs::JobHandle dependsOn);
 
   /// [FreeFunction("ScheduleOverlapSphereCommandBatch", ThrowsException = true)]
-  /// @brief Method ScheduleOverlapSphereBatch, addr 0x6b98078, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleOverlapSphereBatch, addr 0x7003a34, size 0x9c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleOverlapSphereBatch(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* commands, int32_t commandLen,
                                                                     void* result, int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits);
 
-  /// @brief Method ScheduleOverlapSphereBatch_Injected, addr 0x6b98114, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleOverlapSphereBatch_Injected, addr 0x7003ad0, size 0x8c, virtual false, abstract: false, final false
   static inline void ScheduleOverlapSphereBatch_Injected(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* commands, int32_t commandLen, void* result,
                                                          int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method .ctor, addr 0x6b97e7c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700383c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 point, float_t radius, ::UnityEngine::QueryParameters queryParameters);
 
-  /// @brief Method .ctor, addr 0x6b97dd8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70037a4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 point, float_t radius, ::UnityEngine::QueryParameters queryParameters);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_physicsScene, addr 0x6b97ebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_physicsScene, addr 0x7003878, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::PhysicsScene get_physicsScene();
 
-  /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_point, addr 0x6b97e94, size 0xc, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_point, addr 0x7003850, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_radius, addr 0x6b97eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x7003868, size 0x8, virtual false, abstract: false, final false
   inline float_t get_radius();
 
   /// [CompilerGenerated]
-  /// @brief Method set_physicsScene, addr 0x6b97ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_physicsScene, addr 0x7003880, size 0x8, virtual false, abstract: false, final false
   inline void set_physicsScene(::UnityEngine::PhysicsScene value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_point, addr 0x6b97ea0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_point, addr 0x700385c, size 0xc, virtual false, abstract: false, final false
   inline void set_point(::UnityEngine::Vector3 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_radius, addr 0x6b97eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x7003870, size 0x8, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
   // Ctor Parameters []
@@ -110,27 +110,27 @@ public:
                                  ::UnityEngine::QueryParameters queryParameters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19098 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <point>k__BackingField, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 _point_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <radius>k__BackingField, offset: 0xc, size: 0x4, def value: None
   float_t _radius_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <physicsScene>k__BackingField, offset: 0x10, size: 0x4, def value: None
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// @brief Field <physicsScene>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::PhysicsScene _physicsScene_k__BackingField;
 
-  /// @brief Field queryParameters, offset: 0x14, size: 0x10, def value: None
+  /// @brief Field queryParameters, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::QueryParameters queryParameters;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -142,8 +142,8 @@ static_assert(offsetof(::UnityEngine::OverlapSphereCommand, _radius_k__BackingFi
 
 static_assert(offsetof(::UnityEngine::OverlapSphereCommand, _physicsScene_k__BackingField) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::OverlapSphereCommand, queryParameters) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::OverlapSphereCommand, queryParameters) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::OverlapSphereCommand) == 0x24, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::OverlapSphereCommand) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine

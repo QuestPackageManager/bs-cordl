@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::ListDictionaryInternal_NodeEnumerator::*)(::System::Collections::ListDictionaryInternal*)>(
     &::System::Collections::ListDictionaryInternal_NodeEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5be4154;
+  constexpr static std::size_t addrs = 0x5ffc41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal_NodeEnumerator*>(),
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::ListDictionaryInternal_NodeEnumerator::*)()>(
     &::System::Collections::ListDictionaryInternal_NodeEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5be42e8;
+  constexpr static std::size_t addrs = 0x5ffc5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::DictionaryEntry (::System::Collections::ListDictionaryInternal_NodeEnumerator::*)()>(
     &::System::Collections::ListDictionaryInternal_NodeEnumerator::get_Entry)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5be4350;
+  constexpr static std::size_t addrs = 0x5ffc618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal_NodeEnumerator*>(), { "get_Entry", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::ListDictionaryInternal_NodeEnumerator::*)()>(
     &::System::Collections::ListDictionaryInternal_NodeEnumerator::get_Key)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5be43ac;
+  constexpr static std::size_t addrs = 0x5ffc674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal_NodeEnumerator*>(), { "get_Key", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::ListDictionaryInternal_NodeEnumerator::*)()>(
     &::System::Collections::ListDictionaryInternal_NodeEnumerator::get_Value)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5be4408;
+  constexpr static std::size_t addrs = 0x5ffc6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal_NodeEnumerator*>(), { "get_Value", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::ListDictionaryInternal_NodeEnumerator::*)()>(
     &::System::Collections::ListDictionaryInternal_NodeEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5be4464;
+  constexpr static std::size_t addrs = 0x5ffc72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal_NodeEnumerator*>(), { "MoveNext", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::ListDictionaryInternal_NodeEnumerator::*)()>(
     &::System::Collections::ListDictionaryInternal_NodeEnumerator::Reset)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5be4500;
+  constexpr static std::size_t addrs = 0x5ffc7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal_NodeEnumerator*>(), { "Reset", {}, {} })));
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator::*)(
     ::System::Collections::ListDictionaryInternal*, bool)>(&::System::Collections::NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5be4800;
+  constexpr static std::size_t addrs = 0x5ffcac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator::*)()>(
     &::System::Collections::NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5be482c;
+  constexpr static std::size_t addrs = 0x5ffcaf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator::*)()>(
     &::System::Collections::NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5be489c;
+  constexpr static std::size_t addrs = 0x5ffcb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator::*)()>(
     &::System::Collections::NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator::Reset)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5be4938;
+  constexpr static std::size_t addrs = 0x5ffcc00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::ListDictionaryInternal_NodeKeyValueCollection::*)(::System::Collections::ListDictionaryInternal*, bool)>(
     &::System::Collections::ListDictionaryInternal_NodeKeyValueCollection::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5be3bdc;
+  constexpr static std::size_t addrs = 0x5ffbea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::ListDictionaryInternal_NodeKeyValueCollection::*)(::System::Array*, int32_t)>(
     &::System::Collections::ListDictionaryInternal_NodeKeyValueCollection::System_Collections_ICollection_CopyTo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5be457c;
+  constexpr static std::size_t addrs = 0x5ffc844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -392,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::ListDictionaryInternal_NodeKeyValueCollection::*)()>(
     &::System::Collections::ListDictionaryInternal_NodeKeyValueCollection::System_Collections_ICollection_get_Count)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5be4734;
+  constexpr static std::size_t addrs = 0x5ffc9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::ListDictionaryInternal_NodeKeyValueCollection::*)()>(
     &::System::Collections::ListDictionaryInternal_NodeKeyValueCollection::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5be476c;
+  constexpr static std::size_t addrs = 0x5ffca34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::ListDictionaryInternal_NodeKeyValueCollection::*)()>(
     &::System::Collections::ListDictionaryInternal_NodeKeyValueCollection::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5be4774;
+  constexpr static std::size_t addrs = 0x5ffca3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Collections::ListDictionaryInternal_NodeKeyValueCollection::*)()>(
     &::System::Collections::ListDictionaryInternal_NodeKeyValueCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5be4788;
+  constexpr static std::size_t addrs = 0x5ffca50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::ListDictionaryInternal_DictionaryNode::*)()>(
     &::System::Collections::ListDictionaryInternal_DictionaryNode::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5be3b78;
+  constexpr static std::size_t addrs = 0x5ffbe40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal_DictionaryNode*>(), { ".ctor", {}, {} })));
@@ -585,7 +585,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::ListDictionaryInternal::*)()>(&::System::Collections::ListDictionaryInternal::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5be398c;
+  constexpr static std::size_t addrs = 0x5ffbc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal*>(), { ".ctor", {}, {} })));
@@ -598,7 +598,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::ListDictionaryInternal::*)(::System::Object*)>(
     &::System::Collections::ListDictionaryInternal::get_Item)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5be3990;
+  constexpr static std::size_t addrs = 0x5ffbc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -612,7 +612,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::ListDictionaryInternal::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::ListDictionaryInternal::set_Item)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5be3a44;
+  constexpr static std::size_t addrs = 0x5ffbd0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal*>(),
@@ -625,7 +625,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::ListDictionaryInternal::*)()>(&::System::Collections::ListDictionaryInternal::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5be3b7c;
+  constexpr static std::size_t addrs = 0x5ffbe44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal*>(), { "get_Count", {}, {} })));
@@ -638,7 +638,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::System::Collections::ListDictionaryInternal::*)()>(
     &::System::Collections::ListDictionaryInternal::get_Keys)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5be3b84;
+  constexpr static std::size_t addrs = 0x5ffbe4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal*>(), { "get_Keys", {}, {} })));
@@ -650,7 +650,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::ListDictionaryInternal::*)()>(&::System::Collections::ListDictionaryInternal::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5be3be8;
+  constexpr static std::size_t addrs = 0x5ffbeb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal*>(), { "get_IsReadOnly", {}, {} })));
@@ -662,7 +662,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::ListDictionaryInternal::*)()>(&::System::Collections::ListDictionaryInternal::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5be3bf0;
+  constexpr static std::size_t addrs = 0x5ffbeb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal*>(), { "get_IsFixedSize", {}, {} })));
@@ -674,7 +674,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::ListDictionaryInternal::*)()>(&::System::Collections::ListDictionaryInternal::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5be3bf8;
+  constexpr static std::size_t addrs = 0x5ffbec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal*>(), { "get_IsSynchronized", {}, {} })));
@@ -686,7 +686,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::ListDictionaryInternal::*)()>(&::System::Collections::ListDictionaryInternal::get_SyncRoot)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5be3c00;
+  constexpr static std::size_t addrs = 0x5ffbec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal*>(), { "get_SyncRoot", {}, {} })));
@@ -699,7 +699,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::System::Collections::ListDictionaryInternal::*)()>(
     &::System::Collections::ListDictionaryInternal::get_Values)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5be3c6c;
+  constexpr static std::size_t addrs = 0x5ffbf34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal*>(), { "get_Values", {}, {} })));
@@ -712,7 +712,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::ListDictionaryInternal::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::ListDictionaryInternal::Add)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5be3cc0;
+  constexpr static std::size_t addrs = 0x5ffbf88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal*>(),
@@ -725,7 +725,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::ListDictionaryInternal::*)()>(&::System::Collections::ListDictionaryInternal::Clear)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5be3e48;
+  constexpr static std::size_t addrs = 0x5ffc110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal*>(), { "Clear", {}, {} })));
@@ -737,7 +737,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::ListDictionaryInternal::*)(::System::Object*)>(&::System::Collections::ListDictionaryInternal::Contains)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5be3e5c;
+  constexpr static std::size_t addrs = 0x5ffc124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -750,7 +750,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::ListDictionaryInternal::*)(::System::Array*, int32_t)>(&::System::Collections::ListDictionaryInternal::CopyTo)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x5be3f10;
+  constexpr static std::size_t addrs = 0x5ffc1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -765,7 +765,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Collections::ListDictionaryInternal::*)()>(
     &::System::Collections::ListDictionaryInternal::GetEnumerator)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5be40e8;
+  constexpr static std::size_t addrs = 0x5ffc3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::ListDictionaryInternal*>(), { "GetEnumerator", {}, {} })));
@@ -778,7 +778,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Collections::ListDictionaryInternal::*)()>(
     &::System::Collections::ListDictionaryInternal::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5be417c;
+  constexpr static std::size_t addrs = 0x5ffc444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -791,7 +791,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::ListDictionaryInternal::*)(::System::Object*)>(&::System::Collections::ListDictionaryInternal::Remove)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5be41e8;
+  constexpr static std::size_t addrs = 0x5ffc4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

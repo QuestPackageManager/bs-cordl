@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::OSCE::Analytics::LoggerAnalyticsBatch::*)()>(&::OSCE::Analytics::LoggerAnalyticsBatch::get_Count)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5f3bf74;
+  constexpr static std::size_t addrs = 0x6357600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::LoggerAnalyticsBatch*>(), { "get_Count", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::OSCE::Analytics::LoggerAnalyticsBatch::*)()>(&::OSCE::Analytics::LoggerAnalyticsBatch::get_FailedAttempts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3d3c4;
+  constexpr static std::size_t addrs = 0x6358a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::LoggerAnalyticsBatch*>(), { "get_FailedAttempts", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OSCE::Analytics::LoggerAnalyticsBatch::*)()>(&::OSCE::Analytics::LoggerAnalyticsBatch::get_CreatedByPool)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3d3cc;
+  constexpr static std::size_t addrs = 0x6358a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::LoggerAnalyticsBatch*>(), { "get_CreatedByPool", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::LoggerAnalyticsBatch::*)(bool)>(&::OSCE::Analytics::LoggerAnalyticsBatch::set_CreatedByPool)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3d3d4;
+  constexpr static std::size_t addrs = 0x6358a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::LoggerAnalyticsBatch::*)()>(&::OSCE::Analytics::LoggerAnalyticsBatch::ReturnedToPool)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5f3d3dc;
+  constexpr static std::size_t addrs = 0x6358a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::LoggerAnalyticsBatch*>(), { "ReturnedToPool", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::LoggerAnalyticsBatch::*)()>(&::OSCE::Analytics::LoggerAnalyticsBatch::ConvertEvents)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5f3b23c;
+  constexpr static std::size_t addrs = 0x63568f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::LoggerAnalyticsBatch*>(), { "ConvertEvents", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::LoggerAnalyticsBatch::*)(::OSCE::Analytics::BaseAnalyticsEvent*)>(&::OSCE::Analytics::LoggerAnalyticsBatch::AddEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f3ad54;
+  constexpr static std::size_t addrs = 0x635640c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::LoggerAnalyticsBatch::*)(::OSCE::Analytics::LoggerAnalyticsBatch*)>(
     &::OSCE::Analytics::LoggerAnalyticsBatch::ApplyOtherBatch)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5f3c07c;
+  constexpr static std::size_t addrs = 0x6357708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::LoggerAnalyticsBatch::*)()>(&::OSCE::Analytics::LoggerAnalyticsBatch::OnBatchFailed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f3bc58;
+  constexpr static std::size_t addrs = 0x63572e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::LoggerAnalyticsBatch*>(), { "OnBatchFailed", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::LoggerAnalyticsBatch::*)()>(&::OSCE::Analytics::LoggerAnalyticsBatch::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5f3d4f4;
+  constexpr static std::size_t addrs = 0x6358b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::LoggerAnalyticsBatch*>(), { ".ctor", {}, {} })));

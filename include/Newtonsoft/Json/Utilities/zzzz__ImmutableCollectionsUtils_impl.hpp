@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)(::StringW, ::StringW, ::StringW)>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d29944;
+  constexpr static std::size_t addrs = 0x6143528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)()>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::get_ContractTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d29950;
+  constexpr static std::size_t addrs = 0x6143534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)(::StringW)>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::set_ContractTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d29958;
+  constexpr static std::size_t addrs = 0x614353c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)()>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::get_CreatedTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d29960;
+  constexpr static std::size_t addrs = 0x6143544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)(::StringW)>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::set_CreatedTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d29968;
+  constexpr static std::size_t addrs = 0x614354c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)()>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::get_BuilderTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d29970;
+  constexpr static std::size_t addrs = 0x6143554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)(::StringW)>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::set_BuilderTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d29978;
+  constexpr static std::size_t addrs = 0x614355c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>(),
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::*)()>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d299d4;
+  constexpr static std::size_t addrs = 0x61435b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*>(), { ".ctor", {}, {} })));
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::*)(::System::Reflection::MethodInfo*)>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::_TryBuildImmutableForArrayContract_b__24_1)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5d299d8;
+  constexpr static std::size_t addrs = 0x61435bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::*)(::System::Reflection::MethodInfo*)>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::_TryBuildImmutableForDictionaryContract_b__25_1)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5d29a6c;
+  constexpr static std::size_t addrs = 0x6143650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::*)()>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d28c18;
+  constexpr static std::size_t addrs = 0x61427fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::*)(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*)>(
         &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::_TryBuildImmutableForArrayContract_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d29bb0;
+  constexpr static std::size_t addrs = 0x6143794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -337,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::*)()>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d290bc;
+  constexpr static std::size_t addrs = 0x6142ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -352,7 +352,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::*)(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*)>(
         &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::_TryBuildImmutableForDictionaryContract_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d29bcc;
+  constexpr static std::size_t addrs = 0x61437b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -399,7 +399,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::System::Type*, ::System::Type*, ::by_ref<::System::Type*>, ::by_ref<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>)>(
         &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForArrayContract)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x5d287cc;
+  constexpr static std::size_t addrs = 0x61423b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -418,7 +418,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::System::Type*, ::System::Type*, ::System::Type*, ::by_ref<::System::Type*>, ::by_ref<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>)>(
         &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForDictionaryContract)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x5d28c1c;
+  constexpr static std::size_t addrs = 0x6142800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

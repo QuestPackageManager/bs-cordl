@@ -65,10 +65,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IVisualTreeUpdater"
   constexpr operator ::UnityEngine::UIElements::IVisualTreeUpdater*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6cd1630, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x715e1e8, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6cd16a4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x715e25c, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::BaseVisualTreeUpdater* New_ctor();
@@ -76,10 +76,10 @@ public:
   /// @brief Method OnVersionChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method UnityEngine.UIElements.IVisualTreeUpdater.get_FrameCount, addr 0x6cd1480, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IVisualTreeUpdater.get_FrameCount, addr 0x715e038, size 0x8, virtual true, abstract: false, final true
   inline int64_t UnityEngine_UIElements_IVisualTreeUpdater_get_FrameCount();
 
-  /// @brief Method UnityEngine.UIElements.IVisualTreeUpdater.set_FrameCount, addr 0x6cd1488, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IVisualTreeUpdater.set_FrameCount, addr 0x715e040, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IVisualTreeUpdater_set_FrameCount(int64_t value);
 
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -103,20 +103,20 @@ public:
 
   constexpr void __cordl_internal_set_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-  /// @brief Method .ctor, addr 0x6ccdc98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7158a1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_panelChanged, addr 0x6cd1490, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_panelChanged, addr 0x715e048, size 0xc0, virtual false, abstract: false, final false
   inline void add_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-  /// @brief Method get_panel, addr 0x6ccdbcc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_panel, addr 0x7158950, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::BaseVisualElementPanel* get_panel();
 
   /// @brief Method get_profilerMarker, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method get_visualTree, addr 0x6ccf334, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_visualTree, addr 0x7159a88, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_visualTree();
 
   /// @brief Convert to "::System::IDisposable"
@@ -126,10 +126,10 @@ public:
   constexpr ::UnityEngine::UIElements::IVisualTreeUpdater* i___UnityEngine__UIElements__IVisualTreeUpdater() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_panelChanged, addr 0x6cd1550, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_panelChanged, addr 0x715e108, size 0xc0, virtual false, abstract: false, final false
   inline void remove_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-  /// @brief Method set_panel, addr 0x6cd1610, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method set_panel, addr 0x715e1c8, size 0x20, virtual true, abstract: false, final true
   inline void set_panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
 protected:
@@ -147,13 +147,13 @@ public:
   BaseVisualTreeUpdater(BaseVisualTreeUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5372 };
 
   /// @brief Field frameCount, offset: 0x10, size: 0x8, def value: None
   int64_t ___frameCount;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field panelChanged, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* ___panelChanged;
 

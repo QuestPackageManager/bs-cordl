@@ -5,7 +5,6 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
-#include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__ScaleMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Image_def.hpp"
@@ -16,6 +15,7 @@
 #include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__ScaleMode_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image_UxmlFactory::*)()>(&::UnityEngine::UIElements::Image_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6d49f8c;
+  constexpr static std::size_t addrs = 0x71bdab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image_UxmlTraits::*)()>(&::UnityEngine::UIElements::Image_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d49ff4;
+  constexpr static std::size_t addrs = 0x71bdb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -64,12 +64,37 @@ inline ::UnityEngine::UIElements::Image_UxmlTraits* UnityEngine::UIElements::Ima
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Image_UxmlTraits::Image_UxmlTraits() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::Image.get_source
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::UIElements::Image::*)()>(&::UnityEngine::UIElements::Image::get_source)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x71bb568;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "get_source", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::Image.set_source
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)(::UnityEngine::Object*)>(&::UnityEngine::UIElements::Image::set_source)> {
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x71bb570;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "set_source", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::Image.get_image
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture> (::UnityEngine::UIElements::Image::*)()>(&::UnityEngine::UIElements::Image::get_image)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d47cd0;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x71bb700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "get_image", {}, {} })));
@@ -80,8 +105,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::T
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)(::UnityEngine::Texture*)>(&::UnityEngine::UIElements::Image::set_image)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6d47cd8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x71ab604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,8 +118,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::UnityEngine::UIElements::Image::*)()>(&::UnityEngine::UIElements::Image::get_sprite)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d47e14;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x71bb780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "get_sprite", {}, {} })));
@@ -105,8 +130,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::S
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)(::UnityEngine::Sprite*)>(&::UnityEngine::UIElements::Image::set_sprite)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6d47e1c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x71ab6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,8 +143,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UIElements::VectorImage> (::UnityEngine::UIElements::Image::*)()>(&::UnityEngine::UIElements::Image::get_vectorImage)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d47f48;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x71bb7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "get_vectorImage", {}, {} })));
@@ -130,8 +155,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::U
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)(::UnityEngine::UIElements::VectorImage*)>(&::UnityEngine::UIElements::Image::set_vectorImage)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6d47f50;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x71ab75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::Image::*)()>(&::UnityEngine::UIElements::Image::get_sourceRect)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d4807c;
+  constexpr static std::size_t addrs = 0x71bb848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "get_sourceRect", {}, {} })));
@@ -155,8 +180,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::Un
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)(::UnityEngine::Rect)>(&::UnityEngine::UIElements::Image::set_sourceRect)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6d48208;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x71bbac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::Image::*)()>(&::UnityEngine::UIElements::Image::get_uv)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d48528;
+  constexpr static std::size_t addrs = 0x71bbf04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "get_uv", {}, {} })));
@@ -180,8 +205,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::Un
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)(::UnityEngine::Rect)>(&::UnityEngine::UIElements::Image::set_uv)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6d4853c;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x71bbf18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ScaleMode (::UnityEngine::UIElements::Image::*)()>(&::UnityEngine::UIElements::Image::get_scaleMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d48618;
+  constexpr static std::size_t addrs = 0x71bc034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "get_scaleMode", {}, {} })));
@@ -206,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)(::UnityEngine::ScaleMode)>(&::UnityEngine::UIElements::Image::set_scaleMode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6d48620;
+  constexpr static std::size_t addrs = 0x71bc03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::Image::*)()>(&::UnityEngine::UIElements::Image::get_tintColor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d486f8;
+  constexpr static std::size_t addrs = 0x71bc114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "get_tintColor", {}, {} })));
@@ -231,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)(::UnityEngine::Color)>(&::UnityEngine::UIElements::Image::set_tintColor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6d4870c;
+  constexpr static std::size_t addrs = 0x71bc128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)()>(&::UnityEngine::UIElements::Image::_ctor)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6d48888;
+  constexpr static std::size_t addrs = 0x71abc94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { ".ctor", {}, {} })));
@@ -257,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::Image::*)(::UnityEngine::Texture*)>(
     &::UnityEngine::UIElements::Image::GetTextureDisplaySize)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6d48a5c;
+  constexpr static std::size_t addrs = 0x71bc2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::Image::*)(::UnityEngine::Sprite*)>(
     &::UnityEngine::UIElements::Image::GetTextureDisplaySize)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6d48b40;
+  constexpr static std::size_t addrs = 0x71bc388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -284,12 +309,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::Image::*)(
     float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode, float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode)>(&::UnityEngine::UIElements::Image::DoMeasure)> {
-  constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6d48c7c;
+  constexpr static std::size_t size = 0x304;
+  constexpr static std::size_t addrs = 0x71bc4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { ::i2c::class_of<::UnityEngine::UIElements::Image*>(), 134 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { ::i2c::class_of<::UnityEngine::UIElements::Image*>(), 137 }));
     return ___internal_method;
   }
 };
@@ -297,8 +322,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)(Il2CppObject*)>(&::UnityEngine::UIElements::Image::OnGenerateVisualContent)> {
-  constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x6d48e80;
+  constexpr static std::size_t size = 0x620;
+  constexpr static std::size_t addrs = 0x71bc7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)(::UnityEngine::UIElements::CustomStyleResolvedEvent*)>(
     &::UnityEngine::UIElements::Image::OnCustomStyleResolved)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6d493cc;
+  constexpr static std::size_t addrs = 0x71bcde8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -325,8 +350,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)(::UnityEngine::UIElements::ICustomStyle*)>(&::UnityEngine::UIElements::Image::ReadCustomProperties)> {
-  constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x6d49404;
+  constexpr static std::size_t size = 0x484;
+  constexpr static std::size_t addrs = 0x71bce20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,12 +359,27 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::Image.SetCustomProperty
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)(::UnityEngine::Object*, ::UnityEngine::UIElements::BindingId)>(
+    &::UnityEngine::UIElements::Image::SetCustomProperty)> {
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x71bd2a4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(),
+                                                             { "SetCustomProperty", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::UnityEngine::UIElements::BindingId>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::Image.ClearProperty
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)()>(&::UnityEngine::UIElements::Image::ClearProperty)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6d49908;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x71bd3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "ClearProperty", {}, {} })));
@@ -351,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)(::UnityEngine::ScaleMode)>(&::UnityEngine::UIElements::Image::SetScaleMode)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6d48644;
+  constexpr static std::size_t addrs = 0x71bc060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +404,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)(::UnityEngine::Color)>(&::UnityEngine::UIElements::Image::SetTintColor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6d48770;
+  constexpr static std::size_t addrs = 0x71bc18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -376,8 +416,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Image::*)(::UnityEngine::Rect)>(&::UnityEngine::UIElements::Image::CalculateUV)> {
-  constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6d48380;
+  constexpr static std::size_t size = 0x22c;
+  constexpr static std::size_t addrs = 0x71bbcd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -389,8 +429,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::Image::*)()>(&::UnityEngine::UIElements::Image::GetSourceRect)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6d48080;
+  constexpr static std::size_t size = 0x274;
+  constexpr static std::size_t addrs = 0x71bb84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "GetSourceRect", {}, {} })));
@@ -409,41 +449,17 @@ constexpr void UnityEngine::UIElements::Image::__cordl_internal_set_m_ScaleMode(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScaleMode = value;
 }
-constexpr ::UnityW<::UnityEngine::Texture>& UnityEngine::UIElements::Image::__cordl_internal_get_m_Image() {
+constexpr ::UnityW<::UnityEngine::Object>& UnityEngine::UIElements::Image::__cordl_internal_get_m_Image() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Image;
 }
-constexpr ::UnityW<::UnityEngine::Texture> const& UnityEngine::UIElements::Image::__cordl_internal_get_m_Image() const {
+constexpr ::UnityW<::UnityEngine::Object> const& UnityEngine::UIElements::Image::__cordl_internal_get_m_Image() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Image;
 }
-constexpr void UnityEngine::UIElements::Image::__cordl_internal_set_m_Image(::UnityW<::UnityEngine::Texture> value) {
+constexpr void UnityEngine::UIElements::Image::__cordl_internal_set_m_Image(::UnityW<::UnityEngine::Object> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Image = value;
-}
-constexpr ::UnityW<::UnityEngine::Sprite>& UnityEngine::UIElements::Image::__cordl_internal_get_m_Sprite() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Sprite;
-}
-constexpr ::UnityW<::UnityEngine::Sprite> const& UnityEngine::UIElements::Image::__cordl_internal_get_m_Sprite() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Sprite;
-}
-constexpr void UnityEngine::UIElements::Image::__cordl_internal_set_m_Sprite(::UnityW<::UnityEngine::Sprite> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_Sprite = value;
-}
-constexpr ::UnityW<::UnityEngine::UIElements::VectorImage>& UnityEngine::UIElements::Image::__cordl_internal_get_m_VectorImage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_VectorImage;
-}
-constexpr ::UnityW<::UnityEngine::UIElements::VectorImage> const& UnityEngine::UIElements::Image::__cordl_internal_get_m_VectorImage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_VectorImage;
-}
-constexpr void UnityEngine::UIElements::Image::__cordl_internal_set_m_VectorImage(::UnityW<::UnityEngine::UIElements::VectorImage> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_VectorImage = value;
 }
 constexpr ::UnityEngine::Rect& UnityEngine::UIElements::Image::__cordl_internal_get_m_UV() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -504,6 +520,12 @@ constexpr bool const& UnityEngine::UIElements::Image::__cordl_internal_get_m_Tin
 constexpr void UnityEngine::UIElements::Image::__cordl_internal_set_m_TintColorIsInline(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TintColorIsInline = value;
+}
+inline void UnityEngine::UIElements::Image::setStaticF_sourceProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "sourceProperty", ::UnityEngine::UIElements::Image*>(std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::Image::getStaticF_sourceProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "sourceProperty", ::UnityEngine::UIElements::Image*>();
 }
 inline void UnityEngine::UIElements::Image::setStaticF_imageProperty(::UnityEngine::UIElements::BindingId value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "imageProperty", ::UnityEngine::UIElements::Image*>(std::forward<::UnityEngine::UIElements::BindingId>(value));
@@ -589,6 +611,15 @@ inline void UnityEngine::UIElements::Image::setStaticF_s_TintColorProperty(::Uni
 inline ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Color> UnityEngine::UIElements::Image::getStaticF_s_TintColorProperty() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Color>, "s_TintColorProperty", ::UnityEngine::UIElements::Image*>();
 }
+inline ::UnityW<::UnityEngine::Object> UnityEngine::UIElements::Image::get_source() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "get_source", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::Image::set_source(::UnityEngine::Object* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "set_source", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
 inline ::UnityW<::UnityEngine::Texture> UnityEngine::UIElements::Image::get_image() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "get_image", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Texture>>(this, ___internal_method);
@@ -668,7 +699,7 @@ inline ::UnityEngine::Vector2 UnityEngine::UIElements::Image::GetTextureDisplayS
 }
 inline ::UnityEngine::Vector2 UnityEngine::UIElements::Image::DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t desiredHeight,
                                                                         ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Image*>(), 134 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Image*>(), 137 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method, desiredWidth, widthMode, desiredHeight, heightMode);
 }
 inline void UnityEngine::UIElements::Image::OnGenerateVisualContent(Il2CppObject* mgc) {
@@ -686,17 +717,19 @@ inline void UnityEngine::UIElements::Image::ReadCustomProperties(::UnityEngine::
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "ReadCustomProperties", {}, { ::i2c::type_of<::UnityEngine::UIElements::ICustomStyle*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, customStyleProvider);
 }
-template <typename T0, typename T1, typename T2>
-  requires(::cordl_internals::type_constraint<T0, ::UnityEngine::Object*> && ::cordl_internals::type_constraint<T1, ::UnityEngine::Object*> &&
-           ::cordl_internals::type_constraint<T2, ::UnityEngine::Object*>)
-inline void UnityEngine::UIElements::Image::SetProperty(T0 src, ::by_ref<T0> dst, ::by_ref<T1> alt0, ::by_ref<T2> alt1, ::UnityEngine::UIElements::BindingId binding) {
-  static auto* ___internal_method_base = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "SetProperty",
-                                                                                                      { ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>() },
-                                                                                                      { ::i2c::type_of<T0>(), ::i2c::type_of<::by_ref<T0>>(), ::i2c::type_of<::by_ref<T1>>(),
-                                                                                                        ::i2c::type_of<::by_ref<T2>>(), ::i2c::type_of<::UnityEngine::UIElements::BindingId>() } })));
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>() })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, src, dst, alt0, alt1, binding);
+template <typename T> inline void UnityEngine::UIElements::Image::SetInlineProperty(::UnityEngine::Object* value, ::UnityEngine::UIElements::BindingId binding) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(),
+                                       { "SetInlineProperty", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::UnityEngine::UIElements::BindingId>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value, binding);
+}
+inline void UnityEngine::UIElements::Image::SetCustomProperty(::UnityEngine::Object* value, ::UnityEngine::UIElements::BindingId binding) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(),
+                                                           { "SetCustomProperty", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::UnityEngine::UIElements::BindingId>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value, binding);
 }
 inline void UnityEngine::UIElements::Image::ClearProperty() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "ClearProperty", {}, {} })));

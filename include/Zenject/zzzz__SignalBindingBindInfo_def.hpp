@@ -50,23 +50,23 @@ public:
 
   constexpr void __cordl_internal_set__SignalType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6e46188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72e1ce0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* signalType);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Identifier, addr 0x6e46190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x72e1ce8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Identifier();
 
   /// [CompilerGenerated]
-  /// @brief Method get_SignalType, addr 0x6e461a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignalType, addr 0x72e1cf8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_SignalType();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Identifier, addr 0x6e46198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Identifier, addr 0x72e1cf0, size 0x8, virtual false, abstract: false, final false
   inline void set_Identifier(::System::Object* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_SignalType, addr 0x6e461a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SignalType, addr 0x72e1d00, size 0x8, virtual false, abstract: false, final false
   inline void set_SignalType(::System::Type* value);
 
 protected:
@@ -84,7 +84,7 @@ public:
   SignalBindingBindInfo(SignalBindingBindInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14006 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14245 };
 
   /// [CompilerGenerated]
   /// @brief Field <Identifier>k__BackingField, offset: 0x10, size: 0x8, def value: None

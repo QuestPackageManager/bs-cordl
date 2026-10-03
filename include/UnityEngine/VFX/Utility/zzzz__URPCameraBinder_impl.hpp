@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::URPCameraBinder::*)(::StringW)>(&::UnityEngine::VFX::Utility::URPCameraBinder::SetCameraProperty)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x683b790;
+  constexpr static std::size_t addrs = 0x6c742ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::URPCameraBinder::*)()>(&::UnityEngine::VFX::Utility::URPCameraBinder::UpdateSubProperties)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x683b7b8;
+  constexpr static std::size_t addrs = 0x6c742d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::URPCameraBinder*>(), { "UpdateSubProperties", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::IPerFrameHistoryAccessTracker*)>(&::UnityEngine::VFX::Utility::URPCameraBinder::RequestHistoryAccess)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x683bbd0;
+  constexpr static std::size_t addrs = 0x6c746ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::URPCameraBinder::*)()>(&::UnityEngine::VFX::Utility::URPCameraBinder::OnEnable)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x683bd18;
+  constexpr static std::size_t addrs = 0x6c74834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::URPCameraBinder::*)()>(&::UnityEngine::VFX::Utility::URPCameraBinder::OnDisable)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x683be6c;
+  constexpr static std::size_t addrs = 0x6c74988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::URPCameraBinder::*)()>(&::UnityEngine::VFX::Utility::URPCameraBinder::OnValidate)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x683bfc4;
+  constexpr static std::size_t addrs = 0x6c74ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::URPCameraBinder*>(), { "OnValidate", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::URPCameraBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::URPCameraBinder::IsValid)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x683c118;
+  constexpr static std::size_t addrs = 0x6c74c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,8 +103,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::URPCameraBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::URPCameraBinder::UpdateBinding)> {
-  constexpr static std::size_t size = 0x694;
-  constexpr static std::size_t addrs = 0x683c38c;
+  constexpr static std::size_t size = 0x6b0;
+  constexpr static std::size_t addrs = 0x6c74ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::URPCameraBinder::*)()>(&::UnityEngine::VFX::Utility::URPCameraBinder::ToString)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x683ca20;
+  constexpr static std::size_t addrs = 0x6c75558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::URPCameraBinder::*)()>(&::UnityEngine::VFX::Utility::URPCameraBinder::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x683cb9c;
+  constexpr static std::size_t addrs = 0x6c756d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::URPCameraBinder*>(), { ".ctor", {}, {} })));

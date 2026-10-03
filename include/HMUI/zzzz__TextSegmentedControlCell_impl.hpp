@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextSegmentedControlCell::*)(::StringW)>(&::HMUI::TextSegmentedControlCell::set_text)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f57664;
+  constexpr static std::size_t addrs = 0x63735e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextSegmentedControlCell*>(), { "set_text", {}, { ::i2c::type_of<::StringW>() } })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::HMUI::TextSegmentedControlCell::*)()>(&::HMUI::TextSegmentedControlCell::get_text)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f57798;
+  constexpr static std::size_t addrs = 0x6373714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextSegmentedControlCell*>(), { "get_text", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextSegmentedControlCell::*)(float_t)>(&::HMUI::TextSegmentedControlCell::set_fontSize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f5764c;
+  constexpr static std::size_t addrs = 0x63735c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::TextSegmentedControlCell::*)()>(&::HMUI::TextSegmentedControlCell::get_fontSize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f577b8;
+  constexpr static std::size_t addrs = 0x6373734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextSegmentedControlCell*>(), { "get_fontSize", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextSegmentedControlCell::*)(bool)>(&::HMUI::TextSegmentedControlCell::set_hideBackgroundImage)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f57684;
+  constexpr static std::size_t addrs = 0x6373600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::TextSegmentedControlCell::*)()>(&::HMUI::TextSegmentedControlCell::get_preferredWidth)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f57760;
+  constexpr static std::size_t addrs = 0x63736dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextSegmentedControlCell*>(), { "get_preferredWidth", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextSegmentedControlCell::*)(::TMPro::TextWrappingModes)>(&::HMUI::TextSegmentedControlCell::set_textWrappingMode)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5f576a4;
+  constexpr static std::size_t addrs = 0x6373620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TextWrappingModes (::HMUI::TextSegmentedControlCell::*)()>(&::HMUI::TextSegmentedControlCell::get_textWrappingMode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f577d0;
+  constexpr static std::size_t addrs = 0x637374c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextSegmentedControlCell*>(), { "get_textWrappingMode", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextSegmentedControlCell::*)(::TMPro::TextOverflowModes)>(&::HMUI::TextSegmentedControlCell::set_textOverflowMode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f57704;
+  constexpr static std::size_t addrs = 0x6373680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TextOverflowModes (::HMUI::TextSegmentedControlCell::*)()>(&::HMUI::TextSegmentedControlCell::get_textOverflowMode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f577e8;
+  constexpr static std::size_t addrs = 0x6373764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextSegmentedControlCell*>(), { "get_textOverflowMode", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextSegmentedControlCell::*)()>(&::HMUI::TextSegmentedControlCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f57800;
+  constexpr static std::size_t addrs = 0x637377c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextSegmentedControlCell*>(), { ".ctor", {}, {} })));

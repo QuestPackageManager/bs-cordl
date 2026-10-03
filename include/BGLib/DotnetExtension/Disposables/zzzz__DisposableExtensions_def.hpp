@@ -32,11 +32,11 @@ class CORDL_TYPE DisposableExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method AddTo, addr 0x3310c08, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AddTo, addr 0x35996cc, size 0x1c, virtual false, abstract: false, final false
   static inline void AddTo(::System::IDisposable* disposable, ::BGLib::DotnetExtension::Disposables::CompositeDisposable* compositeDisposable);
 
   /// [Extension]
-  /// @brief Method AddTo, addr 0x3310c24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AddTo, addr 0x35996e8, size 0x1c, virtual false, abstract: false, final false
   static inline void AddTo(::System::IDisposable* disposable, ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable* compositeDisposable);
 
 protected:
@@ -54,7 +54,7 @@ public:
   DisposableExtensions(DisposableExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20515 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21270 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

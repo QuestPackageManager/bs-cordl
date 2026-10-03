@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::StringW)>(&::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups::FromHex)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x36e2454;
+  constexpr static std::size_t addrs = 0x396b6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* (*)(::StringW, ::StringW)>(
     &::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups::FromNG)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x36e24f4;
+  constexpr static std::size_t addrs = 0x396b790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36e2780;
+  constexpr static std::size_t addrs = 0x396ba1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups*>(), { ".ctor", {}, {} })));

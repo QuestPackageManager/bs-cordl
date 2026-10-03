@@ -74,10 +74,10 @@ public:
   /// @brief Field publicExponent, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_publicExponent, put = __cordl_internal_set_publicExponent)) ::Org::BouncyCastle::Math::BigInteger* publicExponent;
 
-  /// @brief Method GetInstance, addr 0x3468428, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x36f16c4, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x346843c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x36f16d8, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* New_ctor(::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* publicExponent,
@@ -88,7 +88,7 @@ public:
   /// @brief [Obsolete("Use \'GetInstance\' method(s) instead")]
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x34688b4, size 0x31c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x36f1b50, size 0x31c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_coefficient() const;
@@ -139,37 +139,37 @@ public:
 
   constexpr void __cordl_internal_set_publicExponent(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x346885c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36f1af8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* publicExponent, ::Org::BouncyCastle::Math::BigInteger* privateExponent,
                     ::Org::BouncyCastle::Math::BigInteger* prime1, ::Org::BouncyCastle::Math::BigInteger* prime2, ::Org::BouncyCastle::Math::BigInteger* exponent1,
                     ::Org::BouncyCastle::Math::BigInteger* exponent2, ::Org::BouncyCastle::Math::BigInteger* coefficient);
 
   /// [Obsolete("Use \'GetInstance\' method(s) instead")]
-  /// @brief Method .ctor, addr 0x34684dc, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36f1778, size 0x380, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Coefficient, addr 0x34688ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Coefficient, addr 0x36f1b48, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Coefficient();
 
-  /// @brief Method get_Exponent1, addr 0x346889c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exponent1, addr 0x36f1b38, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Exponent1();
 
-  /// @brief Method get_Exponent2, addr 0x34688a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exponent2, addr 0x36f1b40, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Exponent2();
 
-  /// @brief Method get_Modulus, addr 0x3468874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Modulus, addr 0x36f1b10, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
-  /// @brief Method get_Prime1, addr 0x346888c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prime1, addr 0x36f1b28, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Prime1();
 
-  /// @brief Method get_Prime2, addr 0x3468894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prime2, addr 0x36f1b30, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Prime2();
 
-  /// @brief Method get_PrivateExponent, addr 0x3468884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateExponent, addr 0x36f1b20, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrivateExponent();
 
-  /// @brief Method get_PublicExponent, addr 0x346887c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicExponent, addr 0x36f1b18, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
 protected:

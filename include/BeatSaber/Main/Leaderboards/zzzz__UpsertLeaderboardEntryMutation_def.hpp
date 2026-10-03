@@ -32,7 +32,7 @@ namespace BeatSaber::Main::Leaderboards {
 class CORDL_TYPE UpsertLeaderboardEntryMutation : public ::OculusStudios::GraphQL::Client::MutationRequest_1<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData*> {
 public:
   // Declarations
-  /// @brief Method ConvertInputData, addr 0x32a5c8c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ConvertInputData, addr 0x352cb7c, size 0x12c, virtual false, abstract: false, final false
   static inline ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData* ConvertInputData(::StringW environmentPlayerRootId,
                                                                                                                         ::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
                                                                                                                         ::GlobalNamespace::BeatmapKey beatmapKey,
@@ -41,7 +41,7 @@ public:
   static inline ::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation* New_ctor(::StringW environmentPlayerRootId, ::GlobalNamespace::LevelCompletionResults* results,
                                                                                           ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::GameplayModifiers* modifiers);
 
-  /// @brief Method .ctor, addr 0x32a5798, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x352c688, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW environmentPlayerRootId, ::GlobalNamespace::LevelCompletionResults* results, ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::GameplayModifiers* modifiers);
 
 protected:
@@ -59,7 +59,7 @@ public:
   UpsertLeaderboardEntryMutation(UpsertLeaderboardEntryMutation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21362 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

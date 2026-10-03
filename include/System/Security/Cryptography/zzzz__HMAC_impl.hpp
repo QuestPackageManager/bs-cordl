@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::HMAC::*)()>(&::System::Security::Cryptography::HMAC::get_BlockSizeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5afb290;
+  constexpr static std::size_t addrs = 0x5f13188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::HMAC*>(), { "get_BlockSizeValue", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::HMAC::*)(int32_t)>(&::System::Security::Cryptography::HMAC::set_BlockSizeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5afb298;
+  constexpr static std::size_t addrs = 0x5f13190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::HMAC::*)()>(&::System::Security::Cryptography::HMAC::UpdateIOPadBuffers)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x5afb2a0;
+  constexpr static std::size_t addrs = 0x5f13198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::HMAC*>(), { "UpdateIOPadBuffers", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::HMAC::*)(::ArrayW<uint8_t>)>(&::System::Security::Cryptography::HMAC::InitializeKey)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5afb40c;
+  constexpr static std::size_t addrs = 0x5f13304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::HMAC::*)()>(&::System::Security::Cryptography::HMAC::get_Key)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5afb4d8;
+  constexpr static std::size_t addrs = 0x5f133d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::HMAC::*)(::ArrayW<uint8_t>)>(&::System::Security::Cryptography::HMAC::set_Key)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5afb550;
+  constexpr static std::size_t addrs = 0x5f13448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::HMAC* (*)()>(&::System::Security::Cryptography::HMAC::Create)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5afb5a8;
+  constexpr static std::size_t addrs = 0x5f134a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::HMAC*>(), { "Create", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::HMAC::*)()>(&::System::Security::Cryptography::HMAC::Initialize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5afb63c;
+  constexpr static std::size_t addrs = 0x5f13534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::HMAC::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Security::Cryptography::HMAC::HashCore)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5afb684;
+  constexpr static std::size_t addrs = 0x5f1357c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::HMAC::*)()>(&::System::Security::Cryptography::HMAC::HashFinal)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x5afb73c;
+  constexpr static std::size_t addrs = 0x5f13634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::HMAC::*)(bool)>(&::System::Security::Cryptography::HMAC::Dispose)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5afb8fc;
+  constexpr static std::size_t addrs = 0x5f137f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::HMAC::*)()>(&::System::Security::Cryptography::HMAC::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5afba9c;
+  constexpr static std::size_t addrs = 0x5f13994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::HMAC*>(), { ".ctor", {}, {} })));

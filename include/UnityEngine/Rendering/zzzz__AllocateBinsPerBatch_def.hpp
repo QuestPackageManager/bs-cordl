@@ -14,6 +14,9 @@ CORDL_MODULE_EXPORT(AllocateBinsPerBatch)
 namespace Unity::Jobs {
 class IJobParallelFor;
 }
+namespace UnityEngine {
+struct MeshTopology;
+}
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct AllocateBinsPerBatch;
@@ -33,11 +36,17 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x6817654, size 0x53c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6c494ac, size 0x5a0, virtual true, abstract: false, final true
   inline void Execute(int32_t batchIndex);
 
-  /// @brief Method IsInstanceFlipped, addr 0x68175b4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetPrimitiveCount, addr 0x6c49410, size 0x9c, virtual false, abstract: false, final false
+  static inline int32_t GetPrimitiveCount(int32_t indexCount, ::UnityEngine::MeshTopology topology, bool nativeQuads);
+
+  /// @brief Method IsInstanceFlipped, addr 0x6c4931c, size 0xa0, virtual false, abstract: false, final false
   inline bool IsInstanceFlipped(int32_t rendererIndex);
+
+  /// @brief Method IsMeshLodVisible, addr 0x6c493bc, size 0x54, virtual false, abstract: false, final false
+  inline bool IsMeshLodVisible(int32_t batchLodLevel, int32_t rendererIndex, bool supportsCrossFade);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
   constexpr ::Unity::Jobs::IJobParallelFor* i___Unity__Jobs__IJobParallelFor();
@@ -50,23 +59,25 @@ public:
   // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawInstanceIndices", ty:
   // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData_ReadOnly",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None },
-  // CppParam { name: "batchBinAllocOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchBinCounts", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "binAllocCounter", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers:
-  // "", def_value: None, comment: None }, CppParam { name: "binConfigIndices", ty: "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "binVisibleInstanceCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "debugCounterIndexBase", ty: "int32_t",
-  // modifiers: "", def_value: None, comment: None }, CppParam { name: "splitDebugCounters", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
+  // CppParam { name: "rendererMeshLodSettings", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchBinAllocOffsets", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchBinCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "binAllocCounter", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "binConfigIndices", ty: "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "binVisibleInstanceCounts", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "debugCounterIndexBase", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "splitDebugCounters", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr AllocateBinsPerBatch(::UnityEngine::Rendering::BinningConfig binningConfig, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches,
                                  ::Unity::Collections::NativeArray_1<int32_t> drawInstanceIndices, ::UnityEngine::Rendering::CPUInstanceData_ReadOnly instanceData,
-                                 ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::Unity::Collections::NativeArray_1<int32_t> batchBinAllocOffsets,
-                                 ::Unity::Collections::NativeArray_1<int32_t> batchBinCounts, ::Unity::Collections::NativeArray_1<int32_t> binAllocCounter,
-                                 ::Unity::Collections::NativeArray_1<int16_t> binConfigIndices, ::Unity::Collections::NativeArray_1<int32_t> binVisibleInstanceCounts, int32_t debugCounterIndexBase,
+                                 ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::Unity::Collections::NativeArray_1<uint8_t> rendererMeshLodSettings,
+                                 ::Unity::Collections::NativeArray_1<int32_t> batchBinAllocOffsets, ::Unity::Collections::NativeArray_1<int32_t> batchBinCounts,
+                                 ::Unity::Collections::NativeArray_1<int32_t> binAllocCounter, ::Unity::Collections::NativeArray_1<int16_t> binConfigIndices,
+                                 ::Unity::Collections::NativeArray_1<int32_t> binVisibleInstanceCounts, int32_t debugCounterIndexBase,
                                  ::Unity::Collections::NativeArray_1<int32_t> splitDebugCounters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18164 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x170 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x190 };
 
   /// [ReadOnly]
   /// @brief Field binningConfig, offset: 0x0, size: 0x8, def value: None
@@ -81,50 +92,54 @@ public:
   ::Unity::Collections::NativeArray_1<int32_t> drawInstanceIndices;
 
   /// [ReadOnly]
-  /// @brief Field instanceData, offset: 0x20, size: 0xd8, def value: None
+  /// @brief Field instanceData, offset: 0x20, size: 0xe8, def value: None
   ::UnityEngine::Rendering::CPUInstanceData_ReadOnly instanceData;
 
   /// [ReadOnly]
-  /// @brief Field rendererVisibilityMasks, offset: 0xf8, size: 0x10, def value: None
+  /// @brief Field rendererVisibilityMasks, offset: 0x108, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks;
+
+  /// [ReadOnly]
+  /// @brief Field rendererMeshLodSettings, offset: 0x118, size: 0x10, def value: None
+  ::Unity::Collections::NativeArray_1<uint8_t> rendererMeshLodSettings;
 
   /// [NativeDisableContainerSafetyRestriction]
   /// [NoAlias]
   /// [WriteOnly]
-  /// @brief Field batchBinAllocOffsets, offset: 0x108, size: 0x10, def value: None
+  /// @brief Field batchBinAllocOffsets, offset: 0x128, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> batchBinAllocOffsets;
 
   /// [NativeDisableContainerSafetyRestriction]
   /// [NoAlias]
   /// [WriteOnly]
-  /// @brief Field batchBinCounts, offset: 0x118, size: 0x10, def value: None
+  /// @brief Field batchBinCounts, offset: 0x138, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> batchBinCounts;
 
   /// [NativeDisableContainerSafetyRestriction]
   /// [NoAlias]
   /// [DeallocateOnJobCompletion]
-  /// @brief Field binAllocCounter, offset: 0x128, size: 0x10, def value: None
+  /// @brief Field binAllocCounter, offset: 0x148, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> binAllocCounter;
 
   /// [NativeDisableContainerSafetyRestriction]
   /// [NoAlias]
   /// [WriteOnly]
-  /// @brief Field binConfigIndices, offset: 0x138, size: 0x10, def value: None
+  /// @brief Field binConfigIndices, offset: 0x158, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int16_t> binConfigIndices;
 
   /// [NativeDisableContainerSafetyRestriction]
   /// [NoAlias]
   /// [WriteOnly]
-  /// @brief Field binVisibleInstanceCounts, offset: 0x148, size: 0x10, def value: None
+  /// @brief Field binVisibleInstanceCounts, offset: 0x168, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> binVisibleInstanceCounts;
 
   /// [ReadOnly]
-  /// @brief Field debugCounterIndexBase, offset: 0x158, size: 0x4, def value: None
+  /// @brief Field debugCounterIndexBase, offset: 0x178, size: 0x4, def value: None
   int32_t debugCounterIndexBase;
 
   /// [NativeDisableContainerSafetyRestriction]
   /// [NoAlias]
-  /// @brief Field splitDebugCounters, offset: 0x160, size: 0x10, def value: None
+  /// @brief Field splitDebugCounters, offset: 0x180, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> splitDebugCounters;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -138,22 +153,24 @@ static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, drawInsta
 
 static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, instanceData) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, rendererVisibilityMasks) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, rendererVisibilityMasks) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, batchBinAllocOffsets) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, rendererMeshLodSettings) == 0x118, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, batchBinCounts) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, batchBinAllocOffsets) == 0x128, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, binAllocCounter) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, batchBinCounts) == 0x138, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, binConfigIndices) == 0x138, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, binAllocCounter) == 0x148, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, binVisibleInstanceCounts) == 0x148, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, binConfigIndices) == 0x158, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, debugCounterIndexBase) == 0x158, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, binVisibleInstanceCounts) == 0x168, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, splitDebugCounters) == 0x160, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, debugCounterIndexBase) == 0x178, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::AllocateBinsPerBatch) == 0x170, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::AllocateBinsPerBatch, splitDebugCounters) == 0x180, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::AllocateBinsPerBatch) == 0x190, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering

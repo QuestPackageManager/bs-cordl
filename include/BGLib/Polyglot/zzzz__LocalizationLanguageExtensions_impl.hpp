@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::BGLib::Polyglot::LocalizationLanguage)>(&::BGLib::Polyglot::LocalizationLanguageExtensions::ToSerializedName)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x331e1fc;
+  constexpr static std::size_t addrs = 0x35a719c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::BGLib::Polyglot::LocalizationLanguage)>(&::BGLib::Polyglot::LocalizationLanguageExtensions::ToCultureInfoName)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x331e4bc;
+  constexpr static std::size_t addrs = 0x35a745c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::Polyglot::LocalizationLanguage (*)(::StringW)>(&::BGLib::Polyglot::LocalizationLanguageExtensions::ToLocalizationLanguage)> {
   constexpr static std::size_t size = 0x1458;
-  constexpr static std::size_t addrs = 0x331e5a4;
+  constexpr static std::size_t addrs = 0x35a7544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<bool, ::BGLib::Polyglot::LocalizationLanguage> (*)(::UnityEngine::SystemLanguage)>(
     &::BGLib::Polyglot::LocalizationLanguageExtensions::ToLocalizationLanguage)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x331fa3c;
+  constexpr static std::size_t addrs = 0x35a89dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::Polyglot::LanguageDirection (*)(::BGLib::Polyglot::LocalizationLanguage)>(
     &::BGLib::Polyglot::LocalizationLanguageExtensions::GetLanguageDirection)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x331fae0;
+  constexpr static std::size_t addrs = 0x35a8a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(),

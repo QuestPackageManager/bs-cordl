@@ -66,11 +66,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x597f2f4, size 0x4f0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d99acc, size 0x4f0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x597f7e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d99fbc, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -91,7 +91,7 @@ public:
                                                                                  ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5868 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -164,22 +164,22 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x597eeb0, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5d99688, size 0x1c4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleDestinationRequestManagerDidSendMenuDestinationRequest, addr 0x597f2ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDestinationRequestManagerDidSendMenuDestinationRequest, addr 0x5d99ac4, size 0x4, virtual false, abstract: false, final false
   inline void HandleDestinationRequestManagerDidSendMenuDestinationRequest(::GlobalNamespace::MenuDestination* menuDestination);
 
-  /// @brief Method HandleGameScenesManagerInstallEarlyBindings, addr 0x597f074, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerInstallEarlyBindings, addr 0x5d9984c, size 0x278, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerInstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupData* scenesTransitionSetupData, ::Zenject::DiContainer* container);
 
-  /// @brief Method Initialize, addr 0x597eb80, size 0x280, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x5d99358, size 0x280, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::MainMenuDestinationRequestController* New_ctor();
 
   /// [AsyncStateMachine(typeof(MainMenuDestinationRequestController::<ProcessDestinationRequest>d__9))]
-  /// @brief Method ProcessDestinationRequest, addr 0x597ee00, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ProcessDestinationRequest, addr 0x5d995d8, size 0xb0, virtual false, abstract: false, final false
   inline void ProcessDestinationRequest(::GlobalNamespace::MenuDestination* menuDestination);
 
   constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__cancellationTokenSource() const;
@@ -206,7 +206,7 @@ public:
 
   constexpr void __cordl_internal_set__menuScenesTransitionSetupData(::GlobalNamespace::MenuScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x597f2f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d99ac8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MenuDestination* getStaticF__nextMenuDestination();
@@ -234,7 +234,7 @@ public:
   MainMenuDestinationRequestController(MainMenuDestinationRequestController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5869 };
 
   /// [Inject]
   /// @brief Field _destinationRequestManager, offset: 0x10, size: 0x8, def value: None

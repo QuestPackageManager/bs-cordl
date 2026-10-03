@@ -19,8 +19,8 @@ struct AsyncReadManagerRequestMetric;
 // Write type traits
 MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric);
 DEFINE_IL2CPP_CLASS(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, "Unity.IO.LowLevel.Unsafe", "AsyncReadManagerRequestMetric");
-// [NativeConditional("ENABLE_PROFILER")]
 // [RequiredByNativeCode]
+// [NativeConditional("ENABLE_PROFILER")]
 // Dependencies Unity.IO.LowLevel.Unsafe.AssetLoadingSubsystem, Unity.IO.LowLevel.Unsafe.FileReadType, Unity.IO.LowLevel.Unsafe.Priority, Unity.IO.LowLevel.Unsafe.ProcessingState
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
@@ -51,7 +51,7 @@ public:
                                           double_t _TimeInQueueMicroseconds_k__BackingField, double_t _TotalTimeMicroseconds_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9976 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9549 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -61,23 +61,23 @@ public:
   /// @brief Field <AssetName>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::StringW _AssetName_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <FileName>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::StringW _FileName_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <OffsetBytes>k__BackingField, offset: 0x10, size: 0x8, def value: None
   uint64_t _OffsetBytes_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <SizeBytes>k__BackingField, offset: 0x18, size: 0x8, def value: None
   uint64_t _SizeBytes_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <AssetTypeId>k__BackingField, offset: 0x20, size: 0x8, def value: None
   uint64_t _AssetTypeId_k__BackingField;
 
@@ -86,38 +86,38 @@ public:
   /// @brief Field <CurrentBytesRead>k__BackingField, offset: 0x28, size: 0x8, def value: None
   uint64_t _CurrentBytesRead_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <BatchReadCount>k__BackingField, offset: 0x30, size: 0x4, def value: None
   uint32_t _BatchReadCount_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IsBatchRead>k__BackingField, offset: 0x34, size: 0x1, def value: None
   bool _IsBatchRead_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <State>k__BackingField, offset: 0x38, size: 0x4, def value: None
   ::Unity::IO::LowLevel::Unsafe::ProcessingState _State_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <ReadType>k__BackingField, offset: 0x3c, size: 0x4, def value: None
   ::Unity::IO::LowLevel::Unsafe::FileReadType _ReadType_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <PriorityLevel>k__BackingField, offset: 0x40, size: 0x4, def value: None
   ::Unity::IO::LowLevel::Unsafe::Priority _PriorityLevel_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Subsystem>k__BackingField, offset: 0x44, size: 0x4, def value: None
   ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem _Subsystem_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <RequestTimeMicroseconds>k__BackingField, offset: 0x48, size: 0x8, def value: None
   double_t _RequestTimeMicroseconds_k__BackingField;
 

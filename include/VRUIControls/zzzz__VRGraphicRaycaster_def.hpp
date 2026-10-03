@@ -79,7 +79,7 @@ namespace VRUIControls {
 struct CORDL_TYPE VRGraphicRaycaster_VRGraphicRaycastResult {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6e3c190, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d7ce0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UI::Graphic* graphic, float_t distance, ::UnityEngine::Vector3 position, ::UnityEngine::Vector2 insideRootCanvasPosition);
 
   // Ctor Parameters []
@@ -93,7 +93,7 @@ public:
                                                       ::UnityEngine::Vector2 insideRootCanvasPosition) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23665 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -140,10 +140,10 @@ public:
 
   static inline ::VRUIControls::VRGraphicRaycaster___c* New_ctor();
 
-  /// @brief Method <RaycastCanvas>b__12_0, addr 0x6e3c314, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <RaycastCanvas>b__12_0, addr 0x72d7e64, size 0x48, virtual false, abstract: false, final false
   inline int32_t _RaycastCanvas_b__12_0(::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult g1, ::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult g2);
 
-  /// @brief Method .ctor, addr 0x6e3c310, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d7e60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::VRUIControls::VRGraphicRaycaster___c* getStaticF___9();
@@ -169,7 +169,7 @@ public:
   VRGraphicRaycaster___c(VRGraphicRaycaster___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23666 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -212,13 +212,13 @@ public:
 
   static inline ::VRUIControls::VRGraphicRaycaster* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x6e3af2c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x72d69fc, size 0x7c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Raycast, addr 0x6e3afa8, size 0x638, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x72d6a78, size 0x62c, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method RaycastCanvas, addr 0x6e3b5e0, size 0xbb0, virtual false, abstract: false, final false
+  /// @brief Method RaycastCanvas, addr 0x72d70a4, size 0xc3c, virtual false, abstract: false, final false
   static inline void RaycastCanvas(::UnityEngine::Canvas* canvas, ::UnityEngine::Ray ray, float_t hitDistance, float_t curvedUIRadius,
                                    ::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>* results);
 
@@ -252,12 +252,12 @@ public:
 
   constexpr void __cordl_internal_set__raycastResults(::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>* value);
 
-  /// @brief Method .ctor, addr 0x6e3c1a4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d7cf4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<float_t> getStaticF__ray2DCircleIntersectionDistances();
 
-  /// @brief Method get_eventCamera, addr 0x6e3af24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x72d69f4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
   static inline void setStaticF__ray2DCircleIntersectionDistances(::ArrayW<float_t> value);
@@ -277,7 +277,7 @@ public:
   VRGraphicRaycaster(VRGraphicRaycaster const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23667 };
 
   /// @brief Field kPhysics3DRaycastDistance offset 0xffffffff size 0x4
   static constexpr float_t kPhysics3DRaycastDistance{ static_cast<float_t>(6.0f) };

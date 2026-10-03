@@ -29,260 +29,260 @@
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0._ctor
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::*)()>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::*)()>(
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3278a70;
+  constexpr static std::size_t addrs = 0x34ff2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0*>(), { ".ctor", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0._SetupColorButton_b__0
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0._SetupColorButton_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::*)()>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::_SetupColorButton_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::*)()>(
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::_SetupColorButton_b__0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3278d48;
+  constexpr static std::size_t addrs = 0x34ff5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0*>(), { "<SetupColorButton>b__0", {}, {} })));
+        (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0*>(), { "<SetupColorButton>b__0", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Func_1<::UnityEngine::Color>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::__cordl_internal_get_currentColorGetter() {
+constexpr ::System::Func_1<::UnityEngine::Color>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::__cordl_internal_get_currentColorGetter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentColorGetter;
 }
 constexpr ::System::Func_1<::UnityEngine::Color>* const&
-BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::__cordl_internal_get_currentColorGetter() const {
+BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::__cordl_internal_get_currentColorGetter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentColorGetter;
 }
 constexpr void
-BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::__cordl_internal_set_currentColorGetter(::System::Func_1<::UnityEngine::Color>* value) {
+BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::__cordl_internal_set_currentColorGetter(::System::Func_1<::UnityEngine::Color>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentColorGetter = value;
 }
 constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController>&
-BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::__cordl_internal_get___4__this() {
+BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> const&
-BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::__cordl_internal_get___4__this() const {
+BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::__cordl_internal_set___4__this(
+constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::__cordl_internal_set___4__this(
     ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::System::Action_1<::UnityEngine::Color>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::__cordl_internal_get_colorSetter() {
+constexpr ::System::Action_1<::UnityEngine::Color>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::__cordl_internal_get_colorSetter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSetter;
 }
-constexpr ::System::Action_1<::UnityEngine::Color>* const& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::__cordl_internal_get_colorSetter() const {
+constexpr ::System::Action_1<::UnityEngine::Color>* const& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::__cordl_internal_get_colorSetter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSetter;
 }
-constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::__cordl_internal_set_colorSetter(::System::Action_1<::UnityEngine::Color>* value) {
+constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::__cordl_internal_set_colorSetter(::System::Action_1<::UnityEngine::Color>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorSetter = value;
 }
-constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::__cordl_internal_get_avatarEditPart() {
+constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::__cordl_internal_get_avatarEditPart() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___avatarEditPart;
 }
-constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart const& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::__cordl_internal_get_avatarEditPart() const {
+constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart const& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::__cordl_internal_get_avatarEditPart() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___avatarEditPart;
 }
-constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::__cordl_internal_set_avatarEditPart(::BeatSaber::BeatAvatarSDK::AvatarPart value) {
+constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::__cordl_internal_set_avatarEditPart(::BeatSaber::BeatAvatarSDK::AvatarPart value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___avatarEditPart = value;
 }
-constexpr int32_t& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::__cordl_internal_get_uvSegment() {
+constexpr int32_t& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::__cordl_internal_get_uvSegment() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uvSegment;
 }
-constexpr int32_t const& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::__cordl_internal_get_uvSegment() const {
+constexpr int32_t const& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::__cordl_internal_get_uvSegment() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uvSegment;
 }
-constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::__cordl_internal_set_uvSegment(int32_t value) {
+constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::__cordl_internal_set_uvSegment(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___uvSegment = value;
 }
-inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::_ctor() {
+inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0*>(), { ".ctor", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::_SetupColorButton_b__0() {
+inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::_SetupColorButton_b__0() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0*>(), { "<SetupColorButton>b__0", {}, {} })));
+                   (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0*>(), { "<SetupColorButton>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0*
-BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0*>());
+inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0*
+BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0*>());
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0::BeatAvatarEditorViewController___c__DisplayClass60_0() {}
+constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass58_0::BeatAvatarEditorViewController___c__DisplayClass58_0() {}
 template <typename T>
-constexpr ::System::Action_1<::StringW>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::__cordl_internal_get_setIdAction() {
+constexpr ::System::Action_1<::StringW>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::__cordl_internal_get_setIdAction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___setIdAction;
 }
 template <typename T>
-constexpr ::System::Action_1<::StringW>* const& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::__cordl_internal_get_setIdAction() const {
+constexpr ::System::Action_1<::StringW>* const& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::__cordl_internal_get_setIdAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___setIdAction;
 }
 template <typename T>
-constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::__cordl_internal_set_setIdAction(::System::Action_1<::StringW>* value) {
+constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::__cordl_internal_set_setIdAction(::System::Action_1<::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___setIdAction = value;
 }
 template <typename T>
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>*&
-BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::__cordl_internal_get_partCollection() {
+BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::__cordl_internal_get_partCollection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___partCollection;
 }
 template <typename T>
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* const&
-BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::__cordl_internal_get_partCollection() const {
+BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::__cordl_internal_get_partCollection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___partCollection;
 }
 template <typename T>
-constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::__cordl_internal_set_partCollection(
+constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::__cordl_internal_set_partCollection(
     ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___partCollection = value;
 }
 template <typename T>
 constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController>&
-BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::__cordl_internal_get___4__this() {
+BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T>
 constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> const&
-BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::__cordl_internal_get___4__this() const {
+BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T>
-constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::__cordl_internal_set___4__this(
+constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::__cordl_internal_set___4__this(
     ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
 template <typename T>
-constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::__cordl_internal_get_avatarEditPart() {
+constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart& BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::__cordl_internal_get_avatarEditPart() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___avatarEditPart;
 }
 template <typename T>
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart const&
-BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::__cordl_internal_get_avatarEditPart() const {
+BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::__cordl_internal_get_avatarEditPart() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___avatarEditPart;
 }
 template <typename T>
 constexpr void
-BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::__cordl_internal_set_avatarEditPart(::BeatSaber::BeatAvatarSDK::AvatarPart value) {
+BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::__cordl_internal_set_avatarEditPart(::BeatSaber::BeatAvatarSDK::AvatarPart value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___avatarEditPart = value;
 }
-template <typename T> inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::_ctor() {
+template <typename T> inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>*>(), { ".ctor", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::_SetupValuePicker_b__0(int32_t idx) {
+template <typename T> inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::_SetupValuePicker_b__0(int32_t idx) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>*>(),
                                                            { "<SetupValuePicker>b__0", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, idx);
 }
 template <typename T>
-inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>*
-BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>*>());
+inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>*
+BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>::BeatAvatarEditorViewController___c__DisplayClass62_0_1() {}
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57.MoveNext
+template <typename T> constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0_1<T>::BeatAvatarEditorViewController___c__DisplayClass60_0_1() {}
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57::*)()>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55::*)()>(
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55::MoveNext)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x3278da0;
+  constexpr static std::size_t addrs = 0x34ff608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57>(), { "MoveNext", {}, {} })));
+                     (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57.SetStateMachine
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3279028;
+  constexpr static std::size_t addrs = 0x34ff890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55>(),
                                                              { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57::MoveNext() {
+inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57>(), { "MoveNext", {}, {} })));
+                   (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 inline void
-BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55>(),
                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57(
+constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -291,7 +291,7 @@ constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewCont
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57() {}
+constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__55() {}
 //  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController.add_didRequestColorChangeEvent
 template <>
 
@@ -299,7 +299,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAv
     ::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>*)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::add_didRequestColorChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3272594;
+  constexpr static std::size_t addrs = 0x34f8dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -318,7 +318,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAv
     ::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>*)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::remove_didRequestColorChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3273368;
+  constexpr static std::size_t addrs = 0x34f9bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::System::Action*)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::add_randomizeAllButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x327286c;
+  constexpr static std::size_t addrs = 0x34f90d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::System::Action*)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::remove_randomizeAllButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3273640;
+  constexpr static std::size_t addrs = 0x34f9ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(
     ::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>*)>(&::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::add_didChangedAvatarPartEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3272654;
+  constexpr static std::size_t addrs = 0x34f8ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(
     ::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>*)>(&::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::remove_didChangedAvatarPartEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3273428;
+  constexpr static std::size_t addrs = 0x34f9c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::System::Action*)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::add_cancelButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3272714;
+  constexpr static std::size_t addrs = 0x34f8f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::System::Action*)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::remove_cancelButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x32734e8;
+  constexpr static std::size_t addrs = 0x34f9d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::System::Action*)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::add_okButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x32727c0;
+  constexpr static std::size_t addrs = 0x34f9028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::System::Action*)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::remove_okButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3273594;
+  constexpr static std::size_t addrs = 0x34f9dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
@@ -450,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(bool)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::Setup)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3271e4c;
+  constexpr static std::size_t addrs = 0x34f86b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -464,7 +464,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::InitHistory)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3272918;
+  constexpr static std::size_t addrs = 0x34f9180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -478,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::RefreshUi)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x3272ad8;
+  constexpr static std::size_t addrs = 0x34f9340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(bool, bool, bool)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::DidActivate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3277554;
+  constexpr static std::size_t addrs = 0x34fddbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
@@ -506,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::OneTimeInitialize)> {
   constexpr static std::size_t size = 0xc08;
-  constexpr static std::size_t addrs = 0x3277590;
+  constexpr static std::size_t addrs = 0x34fddf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -520,7 +520,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::Update)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x32783d8;
+  constexpr static std::size_t addrs = 0x34fec40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -534,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::UpdateButtons)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x32774fc;
+  constexpr static std::size_t addrs = 0x34fdd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -548,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(int32_t)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::HandleSkinColorDidChanged)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x32785b0;
+  constexpr static std::size_t addrs = 0x34fee18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
@@ -562,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::StringW)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::EyesValuePickerHasChanged)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3278644;
+  constexpr static std::size_t addrs = 0x34feeac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
@@ -576,7 +576,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::HandleUndoButtonWasPressed)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x32784fc;
+  constexpr static std::size_t addrs = 0x34fed64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -590,7 +590,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::HandleRedoButtonWasPressed)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x327870c;
+  constexpr static std::size_t addrs = 0x34fef74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -604,7 +604,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::HandleRandomizeAllButtonWasPressed)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x327845c;
+  constexpr static std::size_t addrs = 0x34fecc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -618,7 +618,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::HandleRandomizeModelsButtonWasPressed)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x327880c;
+  constexpr static std::size_t addrs = 0x34ff074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -633,7 +633,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::HandleRandomizeColorsButtonWasPressed)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3278888;
+  constexpr static std::size_t addrs = 0x34ff0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -648,7 +648,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::ReportAllChangedAndUpdate)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x32787b4;
+  constexpr static std::size_t addrs = 0x34ff01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -662,7 +662,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::HandleApplyButtonWasPressed)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x32788fc;
+  constexpr static std::size_t addrs = 0x34ff164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -676,7 +676,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::HandleCancelButtonWasPressed)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x32789cc;
+  constexpr static std::size_t addrs = 0x34ff234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -691,7 +691,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespac
     ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::ArrayW<::BeatSaber::BeatAvatarSDK::SkinColorSO*>)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::CreateColorValuePairsForAvatarPartCollection)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x32782c0;
+  constexpr static std::size_t addrs = 0x34feb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -707,7 +707,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAv
     ::UnityEngine::UI::Button*, ::System::Action_1<::UnityEngine::Color>*, ::System::Func_1<::UnityEngine::Color>*, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::SetupColorButton)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3278198;
+  constexpr static std::size_t addrs = 0x34fea00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -726,7 +726,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::BeatSaber::BeatAvatarSDK::AvatarPart)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::SaveColorChange)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3273c60;
+  constexpr static std::size_t addrs = 0x34fa4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
@@ -740,7 +740,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3278a74;
+  constexpr static std::size_t addrs = 0x34ff2dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -748,213 +748,213 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAv
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__45_0
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__43_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::UnityEngine::Color)>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_0)> {
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3278afc;
+  constexpr static std::size_t addrs = 0x34ff364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                           { "<OneTimeInitialize>b__45_0", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+                                                                                           { "<OneTimeInitialize>b__43_0", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__45_1
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__43_1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_1)> {
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3278b24;
+  constexpr static std::size_t addrs = 0x34ff38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__45_1", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__43_1", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__45_2
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__43_2
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::UnityEngine::Color)>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_2)> {
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_2)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3278b4c;
+  constexpr static std::size_t addrs = 0x34ff3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                           { "<OneTimeInitialize>b__45_2", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+                                                                                           { "<OneTimeInitialize>b__43_2", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__45_3
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__43_3
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_3)> {
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_3)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3278b74;
+  constexpr static std::size_t addrs = 0x34ff3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__45_3", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__43_3", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__45_4
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__43_4
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::UnityEngine::Color)>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_4)> {
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_4)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3278b9c;
+  constexpr static std::size_t addrs = 0x34ff404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                           { "<OneTimeInitialize>b__45_4", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+                                                                                           { "<OneTimeInitialize>b__43_4", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__45_5
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__43_5
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_5)> {
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_5)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3278bc4;
+  constexpr static std::size_t addrs = 0x34ff42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__45_5", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__43_5", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__45_6
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__43_6
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::UnityEngine::Color)>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_6)> {
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_6)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3278bec;
+  constexpr static std::size_t addrs = 0x34ff454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                           { "<OneTimeInitialize>b__45_6", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+                                                                                           { "<OneTimeInitialize>b__43_6", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__45_7
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__43_7
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_7)> {
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_7)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3278c14;
+  constexpr static std::size_t addrs = 0x34ff47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__45_7", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__43_7", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__45_8
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__43_8
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::UnityEngine::Color)>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_8)> {
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_8)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3278c3c;
+  constexpr static std::size_t addrs = 0x34ff4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                           { "<OneTimeInitialize>b__45_8", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+                                                                                           { "<OneTimeInitialize>b__43_8", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__45_9
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__43_9
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_9)> {
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_9)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3278c64;
+  constexpr static std::size_t addrs = 0x34ff4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__45_9", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__43_9", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__45_10
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__43_10
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::UnityEngine::Color)>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_10)> {
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_10)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3278c8c;
+  constexpr static std::size_t addrs = 0x34ff4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                           { "<OneTimeInitialize>b__45_10", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+                                                                                           { "<OneTimeInitialize>b__43_10", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__45_11
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__43_11
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)()>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_11)> {
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_11)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3278cb4;
+  constexpr static std::size_t addrs = 0x34ff51c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__45_11", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__43_11", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__45_12
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__43_12
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::StringW)>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_12)> {
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_12)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3278cdc;
+  constexpr static std::size_t addrs = 0x34ff544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                           { "<OneTimeInitialize>b__45_12", {}, { ::i2c::type_of<::StringW>() } })));
+                                                                                           { "<OneTimeInitialize>b__43_12", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__45_13
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__43_13
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::StringW)>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_13)> {
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_13)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3278d00;
+  constexpr static std::size_t addrs = 0x34ff568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                           { "<OneTimeInitialize>b__45_13", {}, { ::i2c::type_of<::StringW>() } })));
+                                                                                           { "<OneTimeInitialize>b__43_13", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__45_14
+//  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController._OneTimeInitialize_b__43_14
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::*)(::StringW)>(
-    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_14)> {
+    &::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_14)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3278d24;
+  constexpr static std::size_t addrs = 0x34ff58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                           { "<OneTimeInitialize>b__45_14", {}, { ::i2c::type_of<::StringW>() } })));
+                                                                                           { "<OneTimeInitialize>b__43_14", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
@@ -1531,79 +1531,79 @@ inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewCont
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_0(::UnityEngine::Color color) {
+inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_0(::UnityEngine::Color color) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                         { "<OneTimeInitialize>b__45_0", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+                                                                                         { "<OneTimeInitialize>b__43_0", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, color);
 }
-inline ::UnityEngine::Color BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_1() {
+inline ::UnityEngine::Color BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_1() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__45_1", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__43_1", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
-inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_2(::UnityEngine::Color color) {
+inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_2(::UnityEngine::Color color) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                         { "<OneTimeInitialize>b__45_2", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+                                                                                         { "<OneTimeInitialize>b__43_2", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, color);
 }
-inline ::UnityEngine::Color BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_3() {
+inline ::UnityEngine::Color BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_3() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__45_3", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__43_3", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
-inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_4(::UnityEngine::Color color) {
+inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_4(::UnityEngine::Color color) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                         { "<OneTimeInitialize>b__45_4", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+                                                                                         { "<OneTimeInitialize>b__43_4", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, color);
 }
-inline ::UnityEngine::Color BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_5() {
+inline ::UnityEngine::Color BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_5() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__45_5", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__43_5", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
-inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_6(::UnityEngine::Color color) {
+inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_6(::UnityEngine::Color color) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                         { "<OneTimeInitialize>b__45_6", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+                                                                                         { "<OneTimeInitialize>b__43_6", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, color);
 }
-inline ::UnityEngine::Color BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_7() {
+inline ::UnityEngine::Color BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_7() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__45_7", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__43_7", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
-inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_8(::UnityEngine::Color color) {
+inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_8(::UnityEngine::Color color) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                         { "<OneTimeInitialize>b__45_8", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+                                                                                         { "<OneTimeInitialize>b__43_8", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, color);
 }
-inline ::UnityEngine::Color BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_9() {
+inline ::UnityEngine::Color BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_9() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__45_9", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__43_9", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
-inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_10(::UnityEngine::Color color) {
+inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_10(::UnityEngine::Color color) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                         { "<OneTimeInitialize>b__45_10", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+                                                                                         { "<OneTimeInitialize>b__43_10", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, color);
 }
-inline ::UnityEngine::Color BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_11() {
+inline ::UnityEngine::Color BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_11() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__45_11", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(), { "<OneTimeInitialize>b__43_11", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
-inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_12(::StringW s) {
+inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_12(::StringW s) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                         { "<OneTimeInitialize>b__45_12", {}, { ::i2c::type_of<::StringW>() } })));
+                                                                                         { "<OneTimeInitialize>b__43_12", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, s);
 }
-inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_13(::StringW s) {
+inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_13(::StringW s) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                         { "<OneTimeInitialize>b__45_13", {}, { ::i2c::type_of<::StringW>() } })));
+                                                                                         { "<OneTimeInitialize>b__43_13", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, s);
 }
-inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__45_14(::StringW s) {
+inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::_OneTimeInitialize_b__43_14(::StringW s) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*>(),
-                                                                                         { "<OneTimeInitialize>b__45_14", {}, { ::i2c::type_of<::StringW>() } })));
+                                                                                         { "<OneTimeInitialize>b__43_14", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, s);
 }
 inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController* BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::New_ctor() {

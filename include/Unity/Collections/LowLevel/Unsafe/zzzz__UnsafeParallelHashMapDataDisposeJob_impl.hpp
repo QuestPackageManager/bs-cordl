@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::Execute)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64cef64;
+  constexpr static std::size_t addrs = 0x68f7d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

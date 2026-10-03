@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68d8844;
+  constexpr static std::size_t addrs = 0x6d11f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData*>(), { ".ctor", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ClearTargetsPass___c::*)()>(&::UnityEngine::Rendering::Universal::ClearTargetsPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68d889c;
+  constexpr static std::size_t addrs = 0x6d11fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ClearTargetsPass___c*>(), { ".ctor", {}, {} })));
@@ -103,7 +103,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                            ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::ClearTargetsPass___c::_Render_b__3_0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68d88a0;
+  constexpr static std::size_t addrs = 0x6d11fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ClearTargetsPass___c*>(),
@@ -161,7 +161,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
     &::UnityEngine::Rendering::Universal::ClearTargetsPass::Render)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x68d86a0;
+  constexpr static std::size_t addrs = 0x6d116f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RTClearFlags, ::UnityEngine::Color)>(
     &::UnityEngine::Rendering::Universal::ClearTargetsPass::Render)> {
   constexpr static std::size_t size = 0x6c0;
-  constexpr static std::size_t addrs = 0x68d66ac;
+  constexpr static std::size_t addrs = 0x6d117fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ClearTargetsPass::*)()>(&::UnityEngine::Rendering::Universal::ClearTargetsPass::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68d87ac;
+  constexpr static std::size_t addrs = 0x6d11ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ClearTargetsPass*>(), { ".ctor", {}, {} })));

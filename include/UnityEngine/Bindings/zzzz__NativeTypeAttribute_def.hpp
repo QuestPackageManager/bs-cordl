@@ -69,28 +69,28 @@ public:
 
   constexpr void __cordl_internal_set__IntermediateScriptingStructName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bb63b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014ed8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6bb63bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014ee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions);
 
-  /// @brief Method .ctor, addr 0x6bb64c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014fe4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName);
 
-  /// @brief Method .ctor, addr 0x6bb63c4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014ee8, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
   /// [CompilerGenerated]
-  /// @brief Method set_CodegenOptions, addr 0x6bb63ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_CodegenOptions, addr 0x7014ed0, size 0x8, virtual true, abstract: false, final true
   inline void set_CodegenOptions(::UnityEngine::Bindings::CodegenOptions value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Header, addr 0x6bb639c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Header, addr 0x7014ec0, size 0x8, virtual true, abstract: false, final true
   inline void set_Header(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IntermediateScriptingStructName, addr 0x6bb63a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IntermediateScriptingStructName, addr 0x7014ec8, size 0x8, virtual false, abstract: false, final false
   inline void set_IntermediateScriptingStructName(::StringW value);
 
 protected:
@@ -108,7 +108,7 @@ public:
   NativeTypeAttribute(NativeTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23538 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]

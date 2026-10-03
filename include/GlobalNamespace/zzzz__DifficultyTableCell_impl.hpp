@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DifficultyTableCell::*)(::StringW)>(&::GlobalNamespace::DifficultyTableCell::set_difficultyText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5922920;
+  constexpr static std::size_t addrs = 0x5d3d024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DifficultyTableCell::*)()>(&::GlobalNamespace::DifficultyTableCell::get_difficultyText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5922940;
+  constexpr static std::size_t addrs = 0x5d3d044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DifficultyTableCell*>(), { "get_difficultyText", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DifficultyTableCell::*)(int32_t)>(&::GlobalNamespace::DifficultyTableCell::set_difficultyValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5922960;
+  constexpr static std::size_t addrs = 0x5d3d064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DifficultyTableCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::DifficultyTableCell::SelectionDidChange)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x59229dc;
+  constexpr static std::size_t addrs = 0x5d3d0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DifficultyTableCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::DifficultyTableCell::HighlightDidChange)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5922a74;
+  constexpr static std::size_t addrs = 0x5d3d178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DifficultyTableCell::*)()>(&::GlobalNamespace::DifficultyTableCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5922ab4;
+  constexpr static std::size_t addrs = 0x5d3d1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DifficultyTableCell*>(), { ".ctor", {}, {} })));

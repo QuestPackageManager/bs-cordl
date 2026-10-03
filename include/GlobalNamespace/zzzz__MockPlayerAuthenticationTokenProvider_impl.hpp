@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MockPlayerAuthenticationTokenProvider::*)()>(
     &::GlobalNamespace::MockPlayerAuthenticationTokenProvider::get_hashedUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a82b4c;
+  constexpr static std::size_t addrs = 0x5e9a9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MockPlayerAuthenticationTokenProvider::*)()>(
     &::GlobalNamespace::MockPlayerAuthenticationTokenProvider::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a82b54;
+  constexpr static std::size_t addrs = 0x5e9a9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerAuthenticationTokenProvider*>(), { "get_userName", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AuthenticationToken_PlatformType (::GlobalNamespace::MockPlayerAuthenticationTokenProvider::*)()>(
     &::GlobalNamespace::MockPlayerAuthenticationTokenProvider::get_platformType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a82b5c;
+  constexpr static std::size_t addrs = 0x5e9a9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerAuthenticationTokenProvider::*)(::StringW, ::StringW, ::GlobalNamespace::XPlatformAccessTokenData)>(
     &::GlobalNamespace::MockPlayerAuthenticationTokenProvider::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5a82b64;
+  constexpr static std::size_t addrs = 0x5e9a9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AuthenticationToken_PlatformType (::GlobalNamespace::MockPlayerAuthenticationTokenProvider::*)(
     ::GlobalNamespace::PlatformEnvironment)>(&::GlobalNamespace::MockPlayerAuthenticationTokenProvider::GetTokenPlatform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a82c30;
+  constexpr static std::size_t addrs = 0x5e9aa9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerAuthenticationTokenProvider*>(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* (
     ::GlobalNamespace::MockPlayerAuthenticationTokenProvider::*)(::System::Threading::CancellationToken, bool)>(&::GlobalNamespace::MockPlayerAuthenticationTokenProvider::GetXPlatformAccessToken)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5a82c38;
+  constexpr static std::size_t addrs = 0x5e9aaa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

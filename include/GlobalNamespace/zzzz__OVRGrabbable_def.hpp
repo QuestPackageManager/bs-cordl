@@ -79,21 +79,21 @@ public:
 
   __declspec(property(get = get_snapPosition)) bool snapPosition;
 
-  /// @brief Method Awake, addr 0x5efbe68, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x63162a8, size 0x154, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GrabBegin, addr 0x5efbd10, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GrabBegin, addr 0x6316150, size 0x80, virtual true, abstract: false, final false
   inline void GrabBegin(::GlobalNamespace::OVRGrabber* hand, ::UnityEngine::Collider* grabPoint);
 
-  /// @brief Method GrabEnd, addr 0x5efbd90, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GrabEnd, addr 0x63161d0, size 0xd8, virtual true, abstract: false, final false
   inline void GrabEnd(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity);
 
   static inline ::GlobalNamespace::OVRGrabbable* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5efc024, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x6316464, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5efbfbc, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x63163fc, size 0x68, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get_m_allowOffhandGrab() const;
@@ -144,34 +144,34 @@ public:
 
   constexpr void __cordl_internal_set_m_snapPosition(bool value);
 
-  /// @brief Method .ctor, addr 0x5efc160, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63165a0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowOffhandGrab, addr 0x5efbc4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowOffhandGrab, addr 0x631608c, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowOffhandGrab();
 
-  /// @brief Method get_grabPoints, addr 0x5efbd08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_grabPoints, addr 0x6316148, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Collider>> get_grabPoints();
 
-  /// @brief Method get_grabbedBy, addr 0x5efbcd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_grabbedBy, addr 0x6316110, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRGrabber> get_grabbedBy();
 
-  /// @brief Method get_grabbedRigidbody, addr 0x5efbcf0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_grabbedRigidbody, addr 0x6316130, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rigidbody> get_grabbedRigidbody();
 
-  /// @brief Method get_grabbedTransform, addr 0x5efbcd8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_grabbedTransform, addr 0x6316118, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_grabbedTransform();
 
-  /// @brief Method get_isGrabbed, addr 0x5efbc54, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_isGrabbed, addr 0x6316094, size 0x64, virtual false, abstract: false, final false
   inline bool get_isGrabbed();
 
-  /// @brief Method get_snapOffset, addr 0x5efbcc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_snapOffset, addr 0x6316108, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_snapOffset();
 
-  /// @brief Method get_snapOrientation, addr 0x5efbcc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_snapOrientation, addr 0x6316100, size 0x8, virtual false, abstract: false, final false
   inline bool get_snapOrientation();
 
-  /// @brief Method get_snapPosition, addr 0x5efbcb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_snapPosition, addr 0x63160f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_snapPosition();
 
 protected:
@@ -189,7 +189,7 @@ public:
   OVRGrabbable(OVRGrabbable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8033 };
 
   /// [SerializeField]
   /// @brief Field m_allowOffhandGrab, offset: 0x20, size: 0x1, def value: None

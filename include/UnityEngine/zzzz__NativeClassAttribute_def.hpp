@@ -48,18 +48,18 @@ public:
 
   constexpr void __cordl_internal_set__QualifiedNativeName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bb5e70, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014a5c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW qualifiedCppName);
 
-  /// @brief Method .ctor, addr 0x6bb5ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014ac4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW qualifiedCppName, ::StringW declaration);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Declaration, addr 0x6bb5e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Declaration, addr 0x7014a54, size 0x8, virtual false, abstract: false, final false
   inline void set_Declaration(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_QualifiedNativeName, addr 0x6bb5e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QualifiedNativeName, addr 0x7014a4c, size 0x8, virtual false, abstract: false, final false
   inline void set_QualifiedNativeName(::StringW value);
 
 protected:
@@ -77,15 +77,15 @@ public:
   NativeClassAttribute(NativeClassAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23105 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23528 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
   /// @brief Field <QualifiedNativeName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____QualifiedNativeName_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Declaration>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Declaration_k__BackingField;
 

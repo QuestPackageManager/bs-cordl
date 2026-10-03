@@ -78,7 +78,7 @@ public:
   /// @brief Method DespawnArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void DespawnArray(::ArrayW<T> arr);
 
-  /// @brief Method DespawnBindInfo, addr 0x6ea1f8c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DespawnBindInfo, addr 0x733db34, size 0x98, virtual false, abstract: false, final false
   static inline void DespawnBindInfo(::Zenject::BindInfo* bindInfo);
 
   /// @brief Method DespawnDictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -87,26 +87,26 @@ public:
   /// @brief Method DespawnHashSet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void DespawnHashSet(::System::Collections::Generic::HashSet_1<T>* set);
 
-  /// @brief Method DespawnInjectContext, addr 0x6ea21f0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DespawnInjectContext, addr 0x733dd98, size 0x98, virtual false, abstract: false, final false
   static inline void DespawnInjectContext(::Zenject::InjectContext* context);
 
   /// @brief Method DespawnList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void DespawnList(::System::Collections::Generic::List_1<T>* list);
 
-  /// @brief Method DespawnLookupId, addr 0x6ea20c8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method DespawnLookupId, addr 0x733dc70, size 0x88, virtual false, abstract: false, final false
   static inline void DespawnLookupId(::Zenject::Internal::LookupId* lookupId);
 
-  /// @brief Method DespawnStatement, addr 0x6ea1e74, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DespawnStatement, addr 0x733da1c, size 0x98, virtual false, abstract: false, final false
   static inline void DespawnStatement(::Zenject::BindStatement* statement);
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method NoDomainReloadInit, addr 0x6ea1ac0, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x733d668, size 0x334, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
   /// @brief Method SpawnArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> SpawnArray(int32_t length);
 
-  /// @brief Method SpawnBindInfo, addr 0x6ea1f0c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SpawnBindInfo, addr 0x733dab4, size 0x80, virtual false, abstract: false, final false
   static inline ::Zenject::BindInfo* SpawnBindInfo();
 
   /// @brief Method SpawnDictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -115,20 +115,20 @@ public:
   /// @brief Method SpawnHashSet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::HashSet_1<T>* SpawnHashSet();
 
-  /// @brief Method SpawnInjectContext, addr 0x6ea2288, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SpawnInjectContext, addr 0x733de30, size 0xc4, virtual false, abstract: false, final false
   static inline ::Zenject::InjectContext* SpawnInjectContext(::Zenject::DiContainer* container, ::Zenject::InjectableInfo* injectableInfo, ::Zenject::InjectContext* currentContext,
                                                              ::System::Object* targetInstance, ::System::Type* targetType, ::System::Object* concreteIdentifier);
 
-  /// @brief Method SpawnInjectContext, addr 0x6ea2150, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SpawnInjectContext, addr 0x733dcf8, size 0xa0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectContext* SpawnInjectContext(::Zenject::DiContainer* container, ::System::Type* memberType);
 
   /// @brief Method SpawnList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::List_1<T>* SpawnList();
 
-  /// @brief Method SpawnLookupId, addr 0x6ea2024, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SpawnLookupId, addr 0x733dbcc, size 0xa4, virtual false, abstract: false, final false
   static inline ::Zenject::Internal::LookupId* SpawnLookupId(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId);
 
-  /// @brief Method SpawnStatement, addr 0x6ea1df4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SpawnStatement, addr 0x733d99c, size 0x80, virtual false, abstract: false, final false
   static inline ::Zenject::BindStatement* SpawnStatement();
 
   static inline ::Zenject::StaticMemoryPool_1<::Zenject::BindInfo*>* getStaticF__bindInfoPool();
@@ -162,7 +162,7 @@ public:
   ZenPools(ZenPools const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14977 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

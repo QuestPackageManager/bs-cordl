@@ -30,13 +30,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::NoSuchAlgorithmException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x3602b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x388be28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3602b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x388be30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3602b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x388be38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

@@ -31,12 +31,12 @@ namespace Mono::Math::Prime {
 class CORDL_TYPE PrimalityTest : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x5aab3b8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5ede660, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
   static inline ::Mono::Math::Prime::PrimalityTest* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5aab270, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ede518, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -54,7 +54,7 @@ public:
   PrimalityTest(PrimalityTest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2292 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

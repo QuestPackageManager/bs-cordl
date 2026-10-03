@@ -4,13 +4,14 @@
 #include "System/Runtime/InteropServices/zzzz__OSPlatform_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__RuntimeInformation_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__Architecture_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__OSPlatform_def.hpp"
 //  Writing Method size for method: ::System::Runtime::InteropServices::RuntimeInformation.GetRuntimeArchitecture
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Runtime::InteropServices::RuntimeInformation::GetRuntimeArchitecture)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b6d114;
+  constexpr static std::size_t addrs = 0x5f8500c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Runtime::InteropServices::RuntimeInformation::GetOSName)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b6d124;
+  constexpr static std::size_t addrs = 0x5f8501c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::RuntimeInformation*>(), { "GetOSName", {}, {} })));
@@ -35,11 +36,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Runtime::InteropServices::OSPlatform)>(&::System::Runtime::InteropServices::RuntimeInformation::IsOSPlatform)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5b6d134;
+  constexpr static std::size_t addrs = 0x5f8502c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::RuntimeInformation*>(),
                                                                                            { "IsOSPlatform", {}, { ::i2c::type_of<::System::Runtime::InteropServices::OSPlatform>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::InteropServices::RuntimeInformation.get_ProcessArchitecture
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::Architecture (*)()>(&::System::Runtime::InteropServices::RuntimeInformation::get_ProcessArchitecture)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5f850c0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::RuntimeInformation*>(), { "get_ProcessArchitecture", {}, {} })));
     return ___internal_method;
   }
 };
@@ -77,6 +91,11 @@ inline bool System::Runtime::InteropServices::RuntimeInformation::IsOSPlatform(:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::RuntimeInformation*>(),
                                                                                          { "IsOSPlatform", {}, { ::i2c::type_of<::System::Runtime::InteropServices::OSPlatform>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, osPlatform);
+}
+inline ::System::Runtime::InteropServices::Architecture System::Runtime::InteropServices::RuntimeInformation::get_ProcessArchitecture() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::RuntimeInformation*>(), { "get_ProcessArchitecture", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::InteropServices::Architecture>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::RuntimeInformation::RuntimeInformation() {}

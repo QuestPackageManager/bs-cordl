@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::MarshalAsAttribute::*)(::System::Runtime::InteropServices::UnmanagedType)>(
     &::System::Runtime::InteropServices::MarshalAsAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6f5e0;
+  constexpr static std::size_t addrs = 0x5f87534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::MarshalAsAttribute*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::UnmanagedType (::System::Runtime::InteropServices::MarshalAsAttribute::*)()>(
     &::System::Runtime::InteropServices::MarshalAsAttribute::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6f5e8;
+  constexpr static std::size_t addrs = 0x5f8753c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::MarshalAsAttribute*>(), { "get_Value", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::MarshalAsAttribute* (::System::Runtime::InteropServices::MarshalAsAttribute::*)()>(
     &::System::Runtime::InteropServices::MarshalAsAttribute::Copy)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5b6f5f0;
+  constexpr static std::size_t addrs = 0x5f87544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::MarshalAsAttribute*>(), { "Copy", {}, {} })));

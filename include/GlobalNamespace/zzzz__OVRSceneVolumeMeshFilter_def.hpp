@@ -100,7 +100,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x5ed02d0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x62ea7c4, size 0x9c, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -115,7 +115,7 @@ public:
   constexpr OVRSceneVolumeMeshFilter_GetTriangleMeshCountsJob(::GlobalNamespace::OVRSpace Space, ::Unity::Collections::NativeArray_1<int32_t> Results) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7814 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -147,7 +147,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x5ed036c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x62ea860, size 0x80, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -164,7 +164,7 @@ public:
                                                         ::Unity::Collections::NativeArray_1<int32_t> Triangles) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7815 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -202,7 +202,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x5ed03ec, size 0x240, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x62ea8e0, size 0x240, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -219,7 +219,7 @@ public:
                                                          ::UnityEngine::Mesh_MeshData MeshData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7816 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -258,7 +258,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x5ed062c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x62eab20, size 0x6c, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -272,7 +272,7 @@ public:
   constexpr OVRSceneVolumeMeshFilter_BakeMeshJob(int32_t MeshID, bool Convex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7817 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -341,26 +341,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5ed06b4, size 0x58c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x62eaba8, size 0x58c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5ed0c94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x62eb188, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5ed0c9c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x62eb190, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5ed0cd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x62eb1c8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5ed0698, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x62eab8c, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -417,11 +417,11 @@ public:
 
   constexpr void __cordl_internal_set__sceneAnchor_5__2(::UnityW<::GlobalNamespace::OVRSceneAnchor> value);
 
-  /// @brief Method <>m__Finally1, addr 0x5ed0c40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x62eb134, size 0x54, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5ed0240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62ea734, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -448,7 +448,7 @@ public:
   OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7(OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7818 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -534,15 +534,15 @@ public:
   __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter)) ::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
   /// [IteratorStateMachine(typeof(OVRSceneVolumeMeshFilter::<CreateVolumeMesh>d__7))]
-  /// @brief Method CreateVolumeMesh, addr 0x5ed01ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateVolumeMesh, addr 0x62ea6e0, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CreateVolumeMesh();
 
-  /// @brief Method IsJobDone, addr 0x5ed0248, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsJobDone, addr 0x62ea73c, size 0x84, virtual false, abstract: false, final false
   static inline bool IsJobDone(::Unity::Jobs::JobHandle job);
 
   static inline ::GlobalNamespace::OVRSceneVolumeMeshFilter* New_ctor();
 
-  /// @brief Method Start, addr 0x5ed0118, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x62ea60c, size 0xd4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__IsCompleted_k__BackingField() const;
@@ -563,15 +563,15 @@ public:
 
   constexpr void __cordl_internal_set__meshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  /// @brief Method .ctor, addr 0x5ed02cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62ea7c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsCompleted, addr 0x5ed0108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x62ea5fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsCompleted, addr 0x5ed0110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsCompleted, addr 0x62ea604, size 0x8, virtual false, abstract: false, final false
   inline void set_IsCompleted(bool value);
 
 protected:
@@ -589,7 +589,7 @@ public:
   OVRSceneVolumeMeshFilter(OVRSceneVolumeMeshFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7819 };
 
   /// [CompilerGenerated]
   /// @brief Field <IsCompleted>k__BackingField, offset: 0x20, size: 0x1, def value: None

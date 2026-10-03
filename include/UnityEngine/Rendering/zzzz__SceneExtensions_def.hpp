@@ -31,7 +31,7 @@ public:
   __declspec(property(get = getStaticF_s_SceneGUID, put = setStaticF_s_SceneGUID)) ::System::Reflection::PropertyInfo* s_SceneGUID;
 
   /// [Extension]
-  /// @brief Method GetGUID, addr 0x6791870, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetGUID, addr 0x6bac8f0, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW GetGUID(::UnityEngine::SceneManagement::Scene scene);
 
   static inline ::System::Reflection::PropertyInfo* getStaticF_s_SceneGUID();
@@ -53,7 +53,7 @@ public:
   SceneExtensions(SceneExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8989 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

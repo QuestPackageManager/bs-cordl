@@ -210,6 +210,11 @@ template <typename T> inline int32_t UnityEngine::Rendering::DynamicArray_1<T>::
                                                            { "FindIndex", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Predicate_1<T>*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, startIndex, count, match);
 }
+template <typename T> inline int32_t UnityEngine::Rendering::DynamicArray_1<T>::FindIndex(::System::Predicate_1<T>* match) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DynamicArray_1<T>*>(), { "FindIndex", {}, { ::i2c::type_of<::System::Predicate_1<T>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, match);
+}
 template <typename T> inline int32_t UnityEngine::Rendering::DynamicArray_1<T>::IndexOf(T item, int32_t index, int32_t count) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DynamicArray_1<T>*>(),
                                                                                          { "IndexOf", {}, { ::i2c::type_of<T>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));

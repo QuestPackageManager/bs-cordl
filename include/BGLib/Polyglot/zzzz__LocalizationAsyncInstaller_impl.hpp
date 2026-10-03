@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::Polyglot::LocalizationAsyncInstaller___c::*)()>(&::BGLib::Polyglot::LocalizationAsyncInstaller___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x331d08c;
+  constexpr static std::size_t addrs = 0x35a602c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>(), { ".ctor", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::Polyglot::LocalizationAsset* (::BGLib::Polyglot::LocalizationAsyncInstaller___c::*)(::UnityEngine::TextAsset*)>(
     &::BGLib::Polyglot::LocalizationAsyncInstaller___c::_LocalizationContentToAsset_b__6_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x331d090;
+  constexpr static std::size_t addrs = 0x35a6030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>(),
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGLib::Polyglot::LocalizationAsyncInstaller::*)()>(&::BGLib::Polyglot::LocalizationAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x331cc94;
+  constexpr static std::size_t addrs = 0x35a5c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::Polyglot::
                                                                                                                ::BGLib::AppFlow::Initialization::IInstallerRegistry*)>(
     &::BGLib::Polyglot::LocalizationAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x331ccd8;
+  constexpr static std::size_t addrs = 0x35a5c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::TextAsset>>*)>(
         &::BGLib::Polyglot::LocalizationAsyncInstaller::LocalizationContentToAsset)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x331ccf4;
+  constexpr static std::size_t addrs = 0x35a5c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::Polyglot::LocalizationAsyncInstaller::*)()>(&::BGLib::Polyglot::LocalizationAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x331ce14;
+  constexpr static std::size_t addrs = 0x35a5db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* (*)()>(
     &::BGLib::Polyglot::LocalizationAsyncInstaller::LoadLocalizationAssetsSync)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x331cf90;
+  constexpr static std::size_t addrs = 0x35a5f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::Polyglot::LocalizationAsyncInstaller::*)()>(&::BGLib::Polyglot::LocalizationAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x331cff4;
+  constexpr static std::size_t addrs = 0x35a5f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationAsyncInstaller*>(), { ".ctor", {}, {} })));

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::LiteNetLib::Utils::NetDataWriter*, uint8_t, uint8_t, ::GlobalNamespace::PacketOption)>(
     &::GlobalNamespace::NetDataWriterExtensions::SetUpPacket)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x333b378;
+  constexpr static std::size_t addrs = 0x35c4614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::LiteNetLib::Utils::NetDataWriter*, uint8_t, uint8_t, uint8_t)>(&::GlobalNamespace::NetDataWriterExtensions::SetUpPacket)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x333b37c;
+  constexpr static std::size_t addrs = 0x35c4618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__EntityId_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cmath>
 #include <cstddef>
@@ -15,10 +16,10 @@ struct ContactPoint2D;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ContactPoint2D);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ContactPoint2D, "UnityEngine", "ContactPoint2D");
+// [RequiredByNativeCode(Optional = false, GenerateProxy = false)]
 // [NativeClass("ScriptingContactPoint2D", "struct ScriptingContactPoint2D;")]
 // [NativeHeader("Modules/Physics2D/Public/PhysicsScripting2D.h")]
-// [RequiredByNativeCode(Optional = false, GenerateProxy = true)]
-// Dependencies UnityEngine.Vector2
+// Dependencies UnityEngine.EntityId, UnityEngine.Vector2
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.ContactPoint2D
@@ -33,14 +34,16 @@ public:
   // "", def_value: None, comment: None }, CppParam { name: "m_RelativeVelocity", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Friction", ty:
   // "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Bounciness", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Separation", ty:
   // "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NormalImpulse", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "m_TangentImpulse", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Collider", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "m_OtherCollider", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Rigidbody", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "m_OtherRigidbody", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Enabled", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
+  // "m_TangentImpulse", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Collider", ty: "::UnityEngine::EntityId", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_OtherCollider", ty: "::UnityEngine::EntityId", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Rigidbody", ty: "::UnityEngine::EntityId", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_OtherRigidbody", ty: "::UnityEngine::EntityId", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Enabled", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr ContactPoint2D(::UnityEngine::Vector2 m_Point, ::UnityEngine::Vector2 m_Normal, ::UnityEngine::Vector2 m_RelativeVelocity, float_t m_Friction, float_t m_Bounciness, float_t m_Separation,
-                           float_t m_NormalImpulse, float_t m_TangentImpulse, int32_t m_Collider, int32_t m_OtherCollider, int32_t m_Rigidbody, int32_t m_OtherRigidbody, int32_t m_Enabled) noexcept;
+                           float_t m_NormalImpulse, float_t m_TangentImpulse, ::UnityEngine::EntityId m_Collider, ::UnityEngine::EntityId m_OtherCollider, ::UnityEngine::EntityId m_Rigidbody,
+                           ::UnityEngine::EntityId m_OtherRigidbody, int32_t m_Enabled) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21502 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -79,19 +82,19 @@ public:
 
   /// [NativeName("collider")]
   /// @brief Field m_Collider, offset: 0x2c, size: 0x4, def value: None
-  int32_t m_Collider;
+  ::UnityEngine::EntityId m_Collider;
 
   /// [NativeName("otherCollider")]
   /// @brief Field m_OtherCollider, offset: 0x30, size: 0x4, def value: None
-  int32_t m_OtherCollider;
+  ::UnityEngine::EntityId m_OtherCollider;
 
   /// [NativeName("rigidbody")]
   /// @brief Field m_Rigidbody, offset: 0x34, size: 0x4, def value: None
-  int32_t m_Rigidbody;
+  ::UnityEngine::EntityId m_Rigidbody;
 
   /// [NativeName("otherRigidbody")]
   /// @brief Field m_OtherRigidbody, offset: 0x38, size: 0x4, def value: None
-  int32_t m_OtherRigidbody;
+  ::UnityEngine::EntityId m_OtherRigidbody;
 
   /// [NativeName("enabled")]
   /// @brief Field m_Enabled, offset: 0x3c, size: 0x4, def value: None

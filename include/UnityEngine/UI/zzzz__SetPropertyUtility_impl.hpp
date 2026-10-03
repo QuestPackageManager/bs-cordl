@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Color>, ::UnityEngine::Color)>(&::UnityEngine::UI::SetPropertyUtility::SetColor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e0b574;
+  constexpr static std::size_t addrs = 0x72a3f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

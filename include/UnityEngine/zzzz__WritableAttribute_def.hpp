@@ -12,8 +12,8 @@ class WritableAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::WritableAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::WritableAttribute*, "UnityEngine", "WritableAttribute");
-// [AttributeUsage((System.AttributeTargets)2048, AllowMultiple = false)]
 // [VisibleToOtherModules]
+// [AttributeUsage((System.AttributeTargets)2048, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::UnityEngine::WritableAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6bb5e58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014a40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   WritableAttribute(WritableAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23525 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

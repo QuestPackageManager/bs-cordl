@@ -70,7 +70,7 @@ public:
   constexpr HashMapHelper_1_Enumerator(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>* m_Data, int32_t m_Index, int32_t m_BucketIndex, int32_t m_NextIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16002 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -116,8 +116,13 @@ public:
   inline int32_t CalcCapacityCeilPow2(int32_t capacity);
 
   /// @brief Method CalculateDataSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline int32_t CalculateDataSize(int32_t capacity, int32_t bucketCapacity, int32_t sizeOfTValue, ::by_ref<int32_t> outKeyOffset, ::by_ref<int32_t> outNextOffset,
-                                          ::by_ref<int32_t> outBucketOffset);
+  static inline int64_t CalculateDataSize(int32_t capacity, int32_t bucketCapacity, int32_t sizeOfTValue, ::by_ref<int64_t> outKeyOffset, ::by_ref<int64_t> outNextOffset,
+                                          ::by_ref<int64_t> outBucketOffset);
+
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
+  /// @brief Method CheckCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void CheckCapacity(int32_t capacity);
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
@@ -214,13 +219,16 @@ public:
                             int32_t FirstFreeIdx, int32_t SizeOfTValue, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16003 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
-  /// @brief Field kMinimumCapacity offset 0xffffffff size 0x4
-  static constexpr int32_t kMinimumCapacity{ static_cast<int32_t>(0x100) };
+  /// @brief Field kMaxCapacity offset 0xffffffff size 0x4
+  static constexpr int32_t kMaxCapacity{ static_cast<int32_t>(0x20000000) };
+
+  /// @brief Field kMinCapacity offset 0xffffffff size 0x4
+  static constexpr int32_t kMinCapacity{ static_cast<int32_t>(0x100) };
 
   /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field Ptr, offset: 0x0, size: 0x8, def value: None

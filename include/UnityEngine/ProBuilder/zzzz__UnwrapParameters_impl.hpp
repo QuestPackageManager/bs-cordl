@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::UnwrapParameters::*)()>(&::UnityEngine::ProBuilder::UnwrapParameters::get_hardAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66f8e88;
+  constexpr static std::size_t addrs = 0x6b0daf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::UnwrapParameters*>(), { "get_hardAngle", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::UnwrapParameters::*)(float_t)>(&::UnityEngine::ProBuilder::UnwrapParameters::set_hardAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66f8e90;
+  constexpr static std::size_t addrs = 0x6b0dafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::UnwrapParameters::*)()>(&::UnityEngine::ProBuilder::UnwrapParameters::get_packMargin)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66f8e98;
+  constexpr static std::size_t addrs = 0x6b0db04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::UnwrapParameters*>(), { "get_packMargin", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::UnwrapParameters::*)(float_t)>(&::UnityEngine::ProBuilder::UnwrapParameters::set_packMargin)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66f8ea0;
+  constexpr static std::size_t addrs = 0x6b0db0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::UnwrapParameters::*)()>(&::UnityEngine::ProBuilder::UnwrapParameters::get_angleError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66f8ea8;
+  constexpr static std::size_t addrs = 0x6b0db14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::UnwrapParameters*>(), { "get_angleError", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::UnwrapParameters::*)(float_t)>(&::UnityEngine::ProBuilder::UnwrapParameters::set_angleError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66f8eb0;
+  constexpr static std::size_t addrs = 0x6b0db1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::UnwrapParameters::*)()>(&::UnityEngine::ProBuilder::UnwrapParameters::get_areaError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66f8eb8;
+  constexpr static std::size_t addrs = 0x6b0db24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::UnwrapParameters*>(), { "get_areaError", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::UnwrapParameters::*)(float_t)>(&::UnityEngine::ProBuilder::UnwrapParameters::set_areaError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66f8ec0;
+  constexpr static std::size_t addrs = 0x6b0db2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::UnwrapParameters::*)()>(&::UnityEngine::ProBuilder::UnwrapParameters::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66f18a4;
+  constexpr static std::size_t addrs = 0x6b05b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::UnwrapParameters*>(), { ".ctor", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::UnwrapParameters::*)(::UnityEngine::ProBuilder::UnwrapParameters*)>(
     &::UnityEngine::ProBuilder::UnwrapParameters::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x66f8ed8;
+  constexpr static std::size_t addrs = 0x6b0db44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::UnwrapParameters::*)()>(&::UnityEngine::ProBuilder::UnwrapParameters::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66f8ec8;
+  constexpr static std::size_t addrs = 0x6b0db34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::UnwrapParameters*>(), { "Reset", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::UnwrapParameters::*)()>(&::UnityEngine::ProBuilder::UnwrapParameters::ToString)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x66f8f40;
+  constexpr static std::size_t addrs = 0x6b0dbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

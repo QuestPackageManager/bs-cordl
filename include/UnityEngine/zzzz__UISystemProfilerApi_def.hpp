@@ -71,7 +71,7 @@ public:
   static ::UnityEngine::UISystemProfilerApi_SampleType const Render;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22670 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -87,9 +87,9 @@ static_assert(offsetof(::UnityEngine::UISystemProfilerApi_SampleType, value__) =
 static_assert(sizeof(::UnityEngine::UISystemProfilerApi_SampleType) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine
-// [StaticAccessor("UI::SystemProfilerApi", (UnityEngine.Bindings.StaticAccessorType)2)]
 // [IgnoredByDeepProfiler]
 // [NativeHeader("Modules/UI/Canvas.h")]
+// [StaticAccessor("UI::SystemProfilerApi", (UnityEngine.Bindings.StaticAccessorType)2)]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -99,16 +99,16 @@ public:
   // Declarations
   using SampleType = ::UnityEngine::UISystemProfilerApi_SampleType;
 
-  /// @brief Method AddMarker, addr 0x6ded89c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AddMarker, addr 0x7285b50, size 0x164, virtual false, abstract: false, final false
   static inline void AddMarker(::StringW name, ::UnityEngine::Object* obj);
 
-  /// @brief Method AddMarker_Injected, addr 0x6deda00, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddMarker_Injected, addr 0x7285cb4, size 0x44, virtual false, abstract: false, final false
   static inline void AddMarker_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, ::System::IntPtr obj);
 
-  /// @brief Method BeginSample, addr 0x6ded824, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeginSample, addr 0x7285ad8, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginSample(::UnityEngine::UISystemProfilerApi_SampleType type);
 
-  /// @brief Method EndSample, addr 0x6ded860, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EndSample, addr 0x7285b14, size 0x3c, virtual false, abstract: false, final false
   static inline void EndSample(::UnityEngine::UISystemProfilerApi_SampleType type);
 
 protected:
@@ -126,7 +126,7 @@ public:
   UISystemProfilerApi(UISystemProfilerApi const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22671 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

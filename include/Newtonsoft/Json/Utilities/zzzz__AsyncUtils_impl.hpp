@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::AsyncUtils___c::*)()>(&::Newtonsoft::Json::Utilities::AsyncUtils___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d1aa84;
+  constexpr static std::size_t addrs = 0x6134668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::AsyncUtils___c*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::AsyncUtils___c::*)()>(&::Newtonsoft::Json::Utilities::AsyncUtils___c::_FromCanceled_b__5_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d1aa88;
+  constexpr static std::size_t addrs = 0x613466c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::AsyncUtils___c*>(), { "<FromCanceled>b__5_0", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (*)(bool)>(&::Newtonsoft::Json::Utilities::AsyncUtils::ToAsync)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5d1a33c;
+  constexpr static std::size_t addrs = 0x6133f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::Utilities::AsyncUtils::CancelIfRequestedAsync)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d1a3b8;
+  constexpr static std::size_t addrs = 0x6133f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::AsyncUtils*>(),
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::Utilities::AsyncUtils::FromCanceled)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5d1a464;
+  constexpr static std::size_t addrs = 0x6134048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (*)(::System::IO::TextWriter*, char16_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::Utilities::AsyncUtils::WriteAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5d1a590;
+  constexpr static std::size_t addrs = 0x6134174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (*)(::System::IO::TextWriter*, ::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::Utilities::AsyncUtils::WriteAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5d1a668;
+  constexpr static std::size_t addrs = 0x613424c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (*)(::System::IO::TextWriter*, ::ArrayW<char16_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::Utilities::AsyncUtils::WriteAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5d1a740;
+  constexpr static std::size_t addrs = 0x6134324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<int32_t>* (*)(::System::IO::TextReader*, ::ArrayW<char16_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(
         &::Newtonsoft::Json::Utilities::AsyncUtils::ReadAsync)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5d1a834;
+  constexpr static std::size_t addrs = 0x6134418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Threading::Tasks::Task*)>(&::Newtonsoft::Json::Utilities::AsyncUtils::IsCompletedSuccessfully)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d1a944;
+  constexpr static std::size_t addrs = 0x6134528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

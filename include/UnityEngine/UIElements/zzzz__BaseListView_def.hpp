@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingSourceSelectionMode_def.hpp"
@@ -34,6 +35,9 @@ class BaseListViewController;
 }
 namespace UnityEngine::UIElements {
 class BaseListView_UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class BaseListView___c__DisplayClass82_0;
 }
 namespace UnityEngine::UIElements {
 struct BindingSourceSelectionMode;
@@ -93,11 +97,16 @@ class BaseListView;
 namespace UnityEngine::UIElements {
 class BaseListView_UxmlTraits;
 }
+namespace UnityEngine::UIElements {
+class BaseListView___c__DisplayClass82_0;
+}
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::BaseListView*);
 MARK_REF_T(::UnityEngine::UIElements::BaseListView_UxmlTraits*);
+MARK_REF_T(::UnityEngine::UIElements::BaseListView___c__DisplayClass82_0*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseListView*, "UnityEngine.UIElements", "BaseListView");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseListView_UxmlTraits*, "UnityEngine.UIElements", "BaseListView/UxmlTraits");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseListView___c__DisplayClass82_0*, "UnityEngine.UIElements", "BaseListView/<>c__DisplayClass82_0");
 // [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseVerticalCollectionView::UxmlTraits
 namespace UnityEngine::UIElements {
@@ -135,7 +144,7 @@ public:
   /// @brief Field m_ShowFoldoutHeader, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ShowFoldoutHeader, put = __cordl_internal_set_m_ShowFoldoutHeader)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowFoldoutHeader;
 
-  /// @brief Method Init, addr 0x6d2bc54, size 0x314, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x70a7664, size 0x2ac, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::BaseListView_UxmlTraits* New_ctor();
@@ -188,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShowFoldoutHeader(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d2c224, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70a7b8c, size 0x35c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -206,7 +215,7 @@ public:
   BaseListView_UxmlTraits(BaseListView_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4109 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4110 };
 
   /// @brief Field m_ShowFoldoutHeader, offset: 0xc8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_ShowFoldoutHeader;
@@ -254,6 +263,73 @@ static_assert(offsetof(::UnityEngine::UIElements::BaseListView_UxmlTraits, ___m_
 static_assert(sizeof(::UnityEngine::UIElements::BaseListView_UxmlTraits) == 0x108, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
+// Dependencies System.Object
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.BaseListView/<>c__DisplayClass82_0
+class CORDL_TYPE BaseListView___c__DisplayClass82_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>4__this, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityEngine::UIElements::BaseListView* __4__this;
+
+  /// @brief Field itemsCountPreCallback, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_itemsCountPreCallback, put = __cordl_internal_set_itemsCountPreCallback)) int32_t itemsCountPreCallback;
+
+  static inline ::UnityEngine::UIElements::BaseListView___c__DisplayClass82_0* New_ctor();
+
+  /// @brief Method <OnAddClicked>b__0, addr 0x70a82ac, size 0x1c, virtual false, abstract: false, final false
+  inline void _OnAddClicked_b__0();
+
+  constexpr ::UnityEngine::UIElements::BaseListView* const& __cordl_internal_get___4__this() const;
+
+  constexpr ::UnityEngine::UIElements::BaseListView*& __cordl_internal_get___4__this();
+
+  constexpr int32_t const& __cordl_internal_get_itemsCountPreCallback() const;
+
+  constexpr int32_t& __cordl_internal_get_itemsCountPreCallback();
+
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::UIElements::BaseListView* value);
+
+  constexpr void __cordl_internal_set_itemsCountPreCallback(int32_t value);
+
+  /// @brief Method .ctor, addr 0x70a4e20, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BaseListView___c__DisplayClass82_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "BaseListView___c__DisplayClass82_0", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BaseListView___c__DisplayClass82_0(BaseListView___c__DisplayClass82_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "BaseListView___c__DisplayClass82_0", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BaseListView___c__DisplayClass82_0(BaseListView___c__DisplayClass82_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4111 };
+
+  /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::UIElements::BaseListView* _____4__this;
+
+  /// @brief Field itemsCountPreCallback, offset: 0x18, size: 0x4, def value: None
+  int32_t ___itemsCountPreCallback;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView___c__DisplayClass82_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView___c__DisplayClass82_0, ___itemsCountPreCallback) == 0x18, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::BaseListView___c__DisplayClass82_0) == 0x20, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.BaseVerticalCollectionView, UnityEngine.UIElements.BindingId, UnityEngine.UIElements.BindingSourceSelectionMode, UnityEngine.UIElements.ListViewReorderMode
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -262,6 +338,8 @@ class CORDL_TYPE BaseListView : public ::UnityEngine::UIElements::BaseVerticalCo
 public:
   // Declarations
   using UxmlTraits = ::UnityEngine::UIElements::BaseListView_UxmlTraits;
+
+  using __c__DisplayClass82_0 = ::UnityEngine::UIElements::BaseListView___c__DisplayClass82_0;
 
   /// @brief [CreateProperty]
   __declspec(property(get = get_allowAdd, put = set_allowAdd)) bool allowAdd;
@@ -293,10 +371,10 @@ public:
   __declspec(property(get = getStaticF_bindingSourceSelectionModeProperty,
                       put = setStaticF_bindingSourceSelectionModeProperty)) ::UnityEngine::UIElements::BindingId bindingSourceSelectionModeProperty;
 
-  /// @brief Field drawnFooter, offset 0x5b0, size 0x8
+  /// @brief Field drawnFooter, offset 0x3e0, size 0x8
   __declspec(property(get = __cordl_internal_get_drawnFooter, put = __cordl_internal_set_drawnFooter)) ::UnityEngine::UIElements::VisualElement* drawnFooter;
 
-  /// @brief Field drawnHeader, offset 0x5a0, size 0x8
+  /// @brief Field drawnHeader, offset 0x3d0, size 0x8
   __declspec(property(get = __cordl_internal_get_drawnHeader, put = __cordl_internal_set_drawnHeader)) ::UnityEngine::UIElements::VisualElement* drawnHeader;
 
   /// @brief Field emptyLabelUssClassName, offset 0xffffffff, size 0x8
@@ -325,13 +403,13 @@ public:
   /// @brief Field itemUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_itemUssClassName, put = setStaticF_itemUssClassName)) ::StringW itemUssClassName;
 
-  /// @brief Field itemsAdded, offset 0x5c8, size 0x8
+  /// @brief Field itemsAdded, offset 0x3f8, size 0x8
   __declspec(property(get = __cordl_internal_get_itemsAdded, put = __cordl_internal_set_itemsAdded)) ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* itemsAdded;
 
-  /// @brief Field itemsRemoved, offset 0x5d0, size 0x8
+  /// @brief Field itemsRemoved, offset 0x400, size 0x8
   __declspec(property(get = __cordl_internal_get_itemsRemoved, put = __cordl_internal_set_itemsRemoved)) ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* itemsRemoved;
 
-  /// @brief Field itemsSourceSizeChanged, offset 0x5d8, size 0x8
+  /// @brief Field itemsSourceSizeChanged, offset 0x408, size 0x8
   __declspec(property(get = __cordl_internal_get_itemsSourceSizeChanged, put = __cordl_internal_set_itemsSourceSizeChanged)) ::System::Action* itemsSourceSizeChanged;
 
   /// @brief Field k_EmptyListStr, offset 0xffffffff, size 0x8
@@ -346,96 +424,96 @@ public:
   /// @brief Field listViewWithHeaderUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_listViewWithHeaderUssClassName, put = setStaticF_listViewWithHeaderUssClassName)) ::StringW listViewWithHeaderUssClassName;
 
-  /// @brief Field m_AddButton, offset 0x628, size 0x8
+  /// @brief Field m_AddButton, offset 0x458, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AddButton, put = __cordl_internal_set_m_AddButton)) ::UnityEngine::UIElements::Button* m_AddButton;
 
-  /// @brief Field m_AllowAdd, offset 0x670, size 0x1
+  /// @brief Field m_AllowAdd, offset 0x4a0, size 0x1
   __declspec(property(get = __cordl_internal_get_m_AllowAdd, put = __cordl_internal_set_m_AllowAdd)) bool m_AllowAdd;
 
-  /// @brief Field m_AllowRemove, offset 0x688, size 0x1
+  /// @brief Field m_AllowRemove, offset 0x4b8, size 0x1
   __declspec(property(get = __cordl_internal_get_m_AllowRemove, put = __cordl_internal_set_m_AllowRemove)) bool m_AllowRemove;
 
-  /// @brief Field m_ArraySizeField, offset 0x610, size 0x8
+  /// @brief Field m_ArraySizeField, offset 0x440, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ArraySizeField, put = __cordl_internal_set_m_ArraySizeField)) ::UnityEngine::UIElements::TextField* m_ArraySizeField;
 
-  /// @brief Field m_BindingSourceSelectionMode, offset 0x5f8, size 0x4
+  /// @brief Field m_BindingSourceSelectionMode, offset 0x428, size 0x4
   __declspec(property(get = __cordl_internal_get_m_BindingSourceSelectionMode,
                       put = __cordl_internal_set_m_BindingSourceSelectionMode)) ::UnityEngine::UIElements::BindingSourceSelectionMode m_BindingSourceSelectionMode;
 
-  /// @brief Field m_Foldout, offset 0x608, size 0x8
+  /// @brief Field m_Foldout, offset 0x438, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Foldout, put = __cordl_internal_set_m_Foldout)) ::UnityEngine::UIElements::Foldout* m_Foldout;
 
-  /// @brief Field m_Footer, offset 0x620, size 0x8
+  /// @brief Field m_Footer, offset 0x450, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Footer, put = __cordl_internal_set_m_Footer)) ::UnityEngine::UIElements::VisualElement* m_Footer;
 
-  /// @brief Field m_HeaderTitle, offset 0x598, size 0x8
+  /// @brief Field m_HeaderTitle, offset 0x3c8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_HeaderTitle, put = __cordl_internal_set_m_HeaderTitle)) ::StringW m_HeaderTitle;
 
-  /// @brief Field m_IsOverMultiEditLimit, offset 0x618, size 0x1
+  /// @brief Field m_IsOverMultiEditLimit, offset 0x448, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsOverMultiEditLimit, put = __cordl_internal_set_m_IsOverMultiEditLimit)) bool m_IsOverMultiEditLimit;
 
-  /// @brief Field m_ItemAddedCallback, offset 0x638, size 0x8
+  /// @brief Field m_ItemAddedCallback, offset 0x468, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ItemAddedCallback,
                       put = __cordl_internal_set_m_ItemAddedCallback)) ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* m_ItemAddedCallback;
 
-  /// @brief Field m_ItemRemovedCallback, offset 0x640, size 0x8
+  /// @brief Field m_ItemRemovedCallback, offset 0x470, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ItemRemovedCallback,
                       put = __cordl_internal_set_m_ItemRemovedCallback)) ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* m_ItemRemovedCallback;
 
-  /// @brief Field m_ItemsSourceSizeChangedCallback, offset 0x648, size 0x8
+  /// @brief Field m_ItemsSourceSizeChangedCallback, offset 0x478, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ItemsSourceSizeChangedCallback, put = __cordl_internal_set_m_ItemsSourceSizeChangedCallback)) ::System::Action* m_ItemsSourceSizeChangedCallback;
 
-  /// @brief Field m_ListViewLabel, offset 0x600, size 0x8
+  /// @brief Field m_ListViewLabel, offset 0x430, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ListViewLabel, put = __cordl_internal_set_m_ListViewLabel)) ::UnityEngine::UIElements::Label* m_ListViewLabel;
 
-  /// @brief Field m_MakeFooter, offset 0x5b8, size 0x8
+  /// @brief Field m_MakeFooter, offset 0x3e8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_MakeFooter, put = __cordl_internal_set_m_MakeFooter)) ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* m_MakeFooter;
 
-  /// @brief Field m_MakeHeader, offset 0x5a8, size 0x8
+  /// @brief Field m_MakeHeader, offset 0x3d8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_MakeHeader, put = __cordl_internal_set_m_MakeHeader)) ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* m_MakeHeader;
 
-  /// @brief Field m_MakeNoneElement, offset 0x668, size 0x8
+  /// @brief Field m_MakeNoneElement, offset 0x498, size 0x8
   __declspec(property(get = __cordl_internal_get_m_MakeNoneElement, put = __cordl_internal_set_m_MakeNoneElement)) ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* m_MakeNoneElement;
 
-  /// @brief Field m_MaxMultiEditStr, offset 0x698, size 0x8
+  /// @brief Field m_MaxMultiEditStr, offset 0x4c8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_MaxMultiEditStr, put = __cordl_internal_set_m_MaxMultiEditStr)) ::StringW m_MaxMultiEditStr;
 
-  /// @brief Field m_NoneElement, offset 0x660, size 0x8
+  /// @brief Field m_NoneElement, offset 0x490, size 0x8
   __declspec(property(get = __cordl_internal_get_m_NoneElement, put = __cordl_internal_set_m_NoneElement)) ::UnityEngine::UIElements::VisualElement* m_NoneElement;
 
-  /// @brief Field m_OnAdd, offset 0x680, size 0x8
+  /// @brief Field m_OnAdd, offset 0x4b0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_OnAdd, put = __cordl_internal_set_m_OnAdd)) ::System::Action_1<::UnityEngine::UIElements::BaseListView*>* m_OnAdd;
 
-  /// @brief Field m_OnRemove, offset 0x690, size 0x8
+  /// @brief Field m_OnRemove, offset 0x4c0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_OnRemove, put = __cordl_internal_set_m_OnRemove)) ::System::Action_1<::UnityEngine::UIElements::BaseListView*>* m_OnRemove;
 
-  /// @brief Field m_OverridingAddButtonBehavior, offset 0x678, size 0x8
+  /// @brief Field m_OverridingAddButtonBehavior, offset 0x4a8, size 0x8
   __declspec(property(
       get = __cordl_internal_get_m_OverridingAddButtonBehavior,
       put = __cordl_internal_set_m_OverridingAddButtonBehavior)) ::System::Action_2<::UnityEngine::UIElements::BaseListView*, ::UnityEngine::UIElements::Button*>* m_OverridingAddButtonBehavior;
 
-  /// @brief Field m_RemoveButton, offset 0x630, size 0x8
+  /// @brief Field m_RemoveButton, offset 0x460, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RemoveButton, put = __cordl_internal_set_m_RemoveButton)) ::UnityEngine::UIElements::Button* m_RemoveButton;
 
-  /// @brief Field m_ReorderMode, offset 0x650, size 0x4
+  /// @brief Field m_ReorderMode, offset 0x480, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ReorderMode, put = __cordl_internal_set_m_ReorderMode)) ::UnityEngine::UIElements::ListViewReorderMode m_ReorderMode;
 
-  /// @brief Field m_ShowAddRemoveFooter, offset 0x5c0, size 0x1
+  /// @brief Field m_ShowAddRemoveFooter, offset 0x3f0, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ShowAddRemoveFooter, put = __cordl_internal_set_m_ShowAddRemoveFooter)) bool m_ShowAddRemoveFooter;
 
-  /// @brief Field m_ShowBoundCollectionSize, offset 0x590, size 0x1
+  /// @brief Field m_ShowBoundCollectionSize, offset 0x3c4, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ShowBoundCollectionSize, put = __cordl_internal_set_m_ShowBoundCollectionSize)) bool m_ShowBoundCollectionSize;
 
-  /// @brief Field m_ShowFoldoutHeader, offset 0x591, size 0x1
+  /// @brief Field m_ShowFoldoutHeader, offset 0x3c5, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ShowFoldoutHeader, put = __cordl_internal_set_m_ShowFoldoutHeader)) bool m_ShowFoldoutHeader;
 
-  /// @brief Field m_TrackCount, offset 0x5e8, size 0x8
+  /// @brief Field m_TrackCount, offset 0x418, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TrackCount, put = __cordl_internal_set_m_TrackCount)) ::System::Action* m_TrackCount;
 
-  /// @brief Field m_TrackedItem, offset 0x5e0, size 0x8
+  /// @brief Field m_TrackedItem, offset 0x410, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TrackedItem, put = __cordl_internal_set_m_TrackedItem)) ::UnityEngine::UIElements::IVisualElementScheduledItem* m_TrackedItem;
 
-  /// @brief Field m_WhileAutoAssign, offset 0x5f0, size 0x8
+  /// @brief Field m_WhileAutoAssign, offset 0x420, size 0x8
   __declspec(property(get = __cordl_internal_get_m_WhileAutoAssign, put = __cordl_internal_set_m_WhileAutoAssign)) ::System::Func_1<bool>* m_WhileAutoAssign;
 
   /// @brief [CreateProperty]
@@ -482,7 +560,7 @@ public:
   /// @brief [CreateProperty]
   __declspec(property(get = get_reorderMode, put = set_reorderMode)) ::UnityEngine::UIElements::ListViewReorderMode reorderMode;
 
-  /// @brief Field reorderModeChanged, offset 0x658, size 0x8
+  /// @brief Field reorderModeChanged, offset 0x488, size 0x8
   __declspec(property(get = __cordl_internal_get_reorderModeChanged, put = __cordl_internal_set_reorderModeChanged)) ::System::Action* reorderModeChanged;
 
   /// @brief Field reorderModeProperty, offset 0xffffffff, size 0x98
@@ -535,70 +613,72 @@ public:
 
   __declspec(property(get = get_viewController)) ::UnityEngine::UIElements::BaseListViewController* viewController;
 
-  /// @brief Method AddFoldout, addr 0x6c59200, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AddFoldout, addr 0x70a31f8, size 0x150, virtual false, abstract: false, final false
   inline void AddFoldout();
 
-  /// @brief Method AddItems, addr 0x6c5a4fc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddItems, addr 0x70a4758, size 0xd4, virtual false, abstract: false, final false
   inline void AddItems(int32_t itemCount);
 
-  /// @brief Method CreateDragAndDropController, addr 0x6c5b75c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CreateDragAndDropController, addr 0x70a5e64, size 0x60, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ICollectionDragAndDropController* CreateDragAndDropController();
 
-  /// @brief Method CreateDragger, addr 0x6c5b6bc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method CreateDragger, addr 0x70a5dc4, size 0xa0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ListViewDragger* CreateDragger();
 
-  /// @brief Method CreateVirtualizationController, addr 0x6c5aec8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method CreateVirtualizationController, addr 0x70a5428, size 0x4c, virtual true, abstract: false, final false
   inline void CreateVirtualizationController();
 
-  /// @brief Method EnableFooter, addr 0x6c596c0, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method EnableFooter, addr 0x70a36bc, size 0x3dc, virtual false, abstract: false, final false
   inline void EnableFooter(bool enabled);
 
-  /// @brief Method HandleItemNavigation, addr 0x6c5b8e8, size 0x61c, virtual true, abstract: false, final false
+  /// @brief Method HandleItemNavigation, addr 0x70a617c, size 0x618, virtual true, abstract: false, final false
   inline bool HandleItemNavigation(bool moveIn, bool altPressed);
 
   static inline ::UnityEngine::UIElements::BaseListView* New_ctor();
 
   static inline ::UnityEngine::UIElements::BaseListView* New_ctor(::System::Collections::IList* itemsSource, float_t itemHeight);
 
-  /// @brief Method OnAddClicked, addr 0x6c5a830, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method OnAddClicked, addr 0x70a4ad4, size 0x34c, virtual false, abstract: false, final false
   inline void OnAddClicked();
 
-  /// @brief Method OnArraySizeFieldChanged, addr 0x6c5a5d0, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method OnAfterAddClicked, addr 0x70a4e24, size 0x190, virtual false, abstract: false, final false
+  inline void OnAfterAddClicked(int32_t itemsCountPreCallback);
+
+  /// @brief Method OnArraySizeFieldChanged, addr 0x70a4874, size 0x1e0, virtual false, abstract: false, final false
   inline void OnArraySizeFieldChanged(::UnityEngine::UIElements::ChangeEvent_1<::StringW>* evt);
 
-  /// @brief Method OnItemAdded, addr 0x6c5b124, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnItemAdded, addr 0x70a5728, size 0x1c, virtual false, abstract: false, final false
   inline void OnItemAdded(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
 
-  /// @brief Method OnItemsRemoved, addr 0x6c5b140, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnItemsRemoved, addr 0x70a5744, size 0x1c, virtual false, abstract: false, final false
   inline void OnItemsRemoved(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
 
-  /// @brief Method OnItemsSourceSizeChanged, addr 0x6c5abd0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnItemsSourceSizeChanged, addr 0x70a4fb4, size 0x88, virtual false, abstract: false, final false
   inline void OnItemsSourceSizeChanged();
 
-  /// @brief Method OnRemoveClicked, addr 0x6c5ac5c, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method OnRemoveClicked, addr 0x70a5174, size 0x260, virtual false, abstract: false, final false
   inline void OnRemoveClicked();
 
-  /// @brief Method PostRefresh, addr 0x6c5b8c4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method PostRefresh, addr 0x70a607c, size 0x28, virtual true, abstract: false, final false
   inline void PostRefresh();
 
-  /// @brief Method RemoveFoldout, addr 0x6c5934c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RemoveFoldout, addr 0x70a3348, size 0x44, virtual false, abstract: false, final false
   inline void RemoveFoldout();
 
-  /// @brief Method SetViewController, addr 0x6c5af14, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method SetViewController, addr 0x70a5474, size 0x224, virtual true, abstract: false, final false
   inline void SetViewController(::UnityEngine::UIElements::CollectionViewController* controller);
 
-  /// @brief Method SetupArraySizeField, addr 0x6c58c4c, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method SetupArraySizeField, addr 0x70a2c44, size 0x32c, virtual false, abstract: false, final false
   inline void SetupArraySizeField();
 
-  /// @brief Method UpdateArraySizeField, addr 0x6c59aa0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UpdateArraySizeField, addr 0x70a3a98, size 0xd8, virtual false, abstract: false, final false
   inline void UpdateArraySizeField();
 
-  /// @brief Method UpdateListViewLabel, addr 0x6c59390, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method UpdateListViewLabel, addr 0x70a338c, size 0x320, virtual false, abstract: false, final false
   inline void UpdateListViewLabel();
 
-  /// [CompilerGenerated]
-  /// @brief Method <OnAddClicked>b__81_0, addr 0x6c5cd5c, size 0x1b0, virtual false, abstract: false, final false
-  inline void _OnAddClicked_b__81_0();
+  /// @brief Method UpdateRemoveButton, addr 0x70a40fc, size 0x4c, virtual false, abstract: false, final false
+  inline void UpdateRemoveButton();
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_drawnFooter() const;
 
@@ -810,22 +890,22 @@ public:
 
   constexpr void __cordl_internal_set_reorderModeChanged(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x6c5b7c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70a5ec4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6c5b7cc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70a5ed0, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* itemsSource, float_t itemHeight);
 
   /// [CompilerGenerated]
-  /// @brief Method <get_trackCount>b__65_0, addr 0x6c5cc34, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method <get_trackCount>b__65_0, addr 0x70a7540, size 0x114, virtual false, abstract: false, final false
   inline void _get_trackCount_b__65_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <get_untilManualBindingSourceSelectionMode>b__68_0, addr 0x6c5cd4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <get_untilManualBindingSourceSelectionMode>b__68_0, addr 0x70a7654, size 0x10, virtual false, abstract: false, final false
   inline bool _get_untilManualBindingSourceSelectionMode_b__68_0();
 
   /// [CompilerGenerated]
-  /// @brief Method add_reorderModeChanged, addr 0x6c54468, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_reorderModeChanged, addr 0x709dbd4, size 0xac, virtual false, abstract: false, final false
   inline void add_reorderModeChanged(::System::Action* value);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_allowAddProperty();
@@ -898,68 +978,68 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_allowAdd, addr 0x6c5b310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowAdd, addr 0x70a5a30, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowAdd();
 
-  /// @brief Method get_allowRemove, addr 0x6c5b548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowRemove, addr 0x70a5c60, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowRemove();
 
-  /// @brief Method get_autoAssignSource, addr 0x6c4c1e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_autoAssignSource, addr 0x709d0b4, size 0x10, virtual false, abstract: false, final false
   inline bool get_autoAssignSource();
 
-  /// @brief Method get_bindingSourceSelectionMode, addr 0x6c5a3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindingSourceSelectionMode, addr 0x70a4404, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingSourceSelectionMode get_bindingSourceSelectionMode();
 
-  /// @brief Method get_footer, addr 0x6c5aec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_footer, addr 0x70a5420, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_footer();
 
-  /// @brief Method get_headerTitle, addr 0x6c59b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headerTitle, addr 0x70a3b70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_headerTitle();
 
-  /// @brief Method get_makeFooter, addr 0x6c59e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeFooter, addr 0x70a3e38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeFooter();
 
-  /// @brief Method get_makeHeader, addr 0x6c59c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeHeader, addr 0x70a3c30, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeHeader();
 
-  /// @brief Method get_makeNoneElement, addr 0x6c5b238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeNoneElement, addr 0x70a595c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeNoneElement();
 
-  /// @brief Method get_onAdd, addr 0x6c5b484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onAdd, addr 0x70a5ba0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::BaseListView*>* get_onAdd();
 
-  /// @brief Method get_onRemove, addr 0x6c5b5f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onRemove, addr 0x70a5d04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::BaseListView*>* get_onRemove();
 
-  /// @brief Method get_overridingAddButtonBehavior, addr 0x6c5b3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overridingAddButtonBehavior, addr 0x70a5ae0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::BaseListView*, ::UnityEngine::UIElements::Button*>* get_overridingAddButtonBehavior();
 
-  /// @brief Method get_reorderMode, addr 0x6c5b15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reorderMode, addr 0x70a5760, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ListViewReorderMode get_reorderMode();
 
-  /// @brief Method get_showAddRemoveFooter, addr 0x6c596b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_showAddRemoveFooter, addr 0x70a36ac, size 0x10, virtual false, abstract: false, final false
   inline bool get_showAddRemoveFooter();
 
-  /// @brief Method get_showBoundCollectionSize, addr 0x6c58ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showBoundCollectionSize, addr 0x70a2ba0, size 0x8, virtual false, abstract: false, final false
   inline bool get_showBoundCollectionSize();
 
-  /// @brief Method get_showFoldoutHeader, addr 0x6c58f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showFoldoutHeader, addr 0x70a2f70, size 0x8, virtual false, abstract: false, final false
   inline bool get_showFoldoutHeader();
 
-  /// @brief Method get_trackCount, addr 0x6c5a250, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_trackCount, addr 0x70a4294, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Action* get_trackCount();
 
-  /// @brief Method get_trackItemCount, addr 0x6c5a104, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method get_trackItemCount, addr 0x70a4148, size 0x14c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IVisualElementScheduledItem* get_trackItemCount();
 
-  /// @brief Method get_untilManualBindingSourceSelectionMode, addr 0x6c5a308, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_untilManualBindingSourceSelectionMode, addr 0x70a434c, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Func_1<bool>* get_untilManualBindingSourceSelectionMode();
 
-  /// @brief Method get_viewController, addr 0x6c5a7b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_viewController, addr 0x70a4a54, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseListViewController* get_viewController();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_reorderModeChanged, addr 0x6c545cc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_reorderModeChanged, addr 0x709dd3c, size 0xac, virtual false, abstract: false, final false
   inline void remove_reorderModeChanged(::System::Action* value);
 
   static inline void setStaticF_allowAddProperty(::UnityEngine::UIElements::BindingId value);
@@ -1032,46 +1112,46 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_allowAdd, addr 0x6c5b318, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method set_allowAdd, addr 0x70a5a38, size 0xa8, virtual false, abstract: false, final false
   inline void set_allowAdd(bool value);
 
-  /// @brief Method set_allowRemove, addr 0x6c5b550, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method set_allowRemove, addr 0x70a5c68, size 0x9c, virtual false, abstract: false, final false
   inline void set_allowRemove(bool value);
 
-  /// @brief Method set_bindingSourceSelectionMode, addr 0x6c5a3c8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method set_bindingSourceSelectionMode, addr 0x70a440c, size 0x130, virtual false, abstract: false, final false
   inline void set_bindingSourceSelectionMode(::UnityEngine::UIElements::BindingSourceSelectionMode value);
 
-  /// @brief Method set_headerTitle, addr 0x6c59b80, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_headerTitle, addr 0x70a3b78, size 0xb8, virtual false, abstract: false, final false
   inline void set_headerTitle(::StringW value);
 
-  /// @brief Method set_makeFooter, addr 0x6c59e48, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method set_makeFooter, addr 0x70a3e40, size 0x1bc, virtual false, abstract: false, final false
   inline void set_makeFooter(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_makeHeader, addr 0x6c59c40, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method set_makeHeader, addr 0x70a3c38, size 0x200, virtual false, abstract: false, final false
   inline void set_makeHeader(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_makeNoneElement, addr 0x6c5b240, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method set_makeNoneElement, addr 0x70a5964, size 0xcc, virtual false, abstract: false, final false
   inline void set_makeNoneElement(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_onAdd, addr 0x6c5b48c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_onAdd, addr 0x70a5ba8, size 0xb8, virtual false, abstract: false, final false
   inline void set_onAdd(::System::Action_1<::UnityEngine::UIElements::BaseListView*>* value);
 
-  /// @brief Method set_onRemove, addr 0x6c5b600, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_onRemove, addr 0x70a5d0c, size 0xb8, virtual false, abstract: false, final false
   inline void set_onRemove(::System::Action_1<::UnityEngine::UIElements::BaseListView*>* value);
 
-  /// @brief Method set_overridingAddButtonBehavior, addr 0x6c5b3c8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_overridingAddButtonBehavior, addr 0x70a5ae8, size 0xb8, virtual false, abstract: false, final false
   inline void set_overridingAddButtonBehavior(::System::Action_2<::UnityEngine::UIElements::BaseListView*, ::UnityEngine::UIElements::Button*>* value);
 
-  /// @brief Method set_reorderMode, addr 0x6c5b164, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method set_reorderMode, addr 0x70a5768, size 0xc8, virtual false, abstract: false, final false
   inline void set_reorderMode(::UnityEngine::UIElements::ListViewReorderMode value);
 
-  /// @brief Method set_showAddRemoveFooter, addr 0x6c5a004, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_showAddRemoveFooter, addr 0x70a3ffc, size 0x100, virtual false, abstract: false, final false
   inline void set_showAddRemoveFooter(bool value);
 
-  /// @brief Method set_showBoundCollectionSize, addr 0x6c58bb0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_showBoundCollectionSize, addr 0x70a2ba8, size 0x9c, virtual false, abstract: false, final false
   inline void set_showBoundCollectionSize(bool value);
 
-  /// @brief Method set_showFoldoutHeader, addr 0x6c58f80, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method set_showFoldoutHeader, addr 0x70a2f78, size 0x280, virtual false, abstract: false, final false
   inline void set_showFoldoutHeader(bool value);
 
 protected:
@@ -1089,194 +1169,194 @@ public:
   BaseListView(BaseListView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4110 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4112 };
 
-  /// @brief Field m_ShowBoundCollectionSize, offset: 0x590, size: 0x1, def value: None
+  /// @brief Field m_ShowBoundCollectionSize, offset: 0x3c4, size: 0x1, def value: None
   bool ___m_ShowBoundCollectionSize;
 
-  /// @brief Field m_ShowFoldoutHeader, offset: 0x591, size: 0x1, def value: None
+  /// @brief Field m_ShowFoldoutHeader, offset: 0x3c5, size: 0x1, def value: None
   bool ___m_ShowFoldoutHeader;
 
-  /// @brief Field m_HeaderTitle, offset: 0x598, size: 0x8, def value: None
+  /// @brief Field m_HeaderTitle, offset: 0x3c8, size: 0x8, def value: None
   ::StringW ___m_HeaderTitle;
 
-  /// @brief Field drawnHeader, offset: 0x5a0, size: 0x8, def value: None
+  /// @brief Field drawnHeader, offset: 0x3d0, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___drawnHeader;
 
-  /// @brief Field m_MakeHeader, offset: 0x5a8, size: 0x8, def value: None
+  /// @brief Field m_MakeHeader, offset: 0x3d8, size: 0x8, def value: None
   ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* ___m_MakeHeader;
 
-  /// @brief Field drawnFooter, offset: 0x5b0, size: 0x8, def value: None
+  /// @brief Field drawnFooter, offset: 0x3e0, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___drawnFooter;
 
-  /// @brief Field m_MakeFooter, offset: 0x5b8, size: 0x8, def value: None
+  /// @brief Field m_MakeFooter, offset: 0x3e8, size: 0x8, def value: None
   ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* ___m_MakeFooter;
 
-  /// @brief Field m_ShowAddRemoveFooter, offset: 0x5c0, size: 0x1, def value: None
+  /// @brief Field m_ShowAddRemoveFooter, offset: 0x3f0, size: 0x1, def value: None
   bool ___m_ShowAddRemoveFooter;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field itemsAdded, offset: 0x5c8, size: 0x8, def value: None
+  /// [CompilerGenerated]
+  /// @brief Field itemsAdded, offset: 0x3f8, size: 0x8, def value: None
   ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* ___itemsAdded;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field itemsRemoved, offset: 0x5d0, size: 0x8, def value: None
+  /// [CompilerGenerated]
+  /// @brief Field itemsRemoved, offset: 0x400, size: 0x8, def value: None
   ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* ___itemsRemoved;
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field itemsSourceSizeChanged, offset: 0x5d8, size: 0x8, def value: None
+  /// @brief Field itemsSourceSizeChanged, offset: 0x408, size: 0x8, def value: None
   ::System::Action* ___itemsSourceSizeChanged;
 
-  /// @brief Field m_TrackedItem, offset: 0x5e0, size: 0x8, def value: None
+  /// @brief Field m_TrackedItem, offset: 0x410, size: 0x8, def value: None
   ::UnityEngine::UIElements::IVisualElementScheduledItem* ___m_TrackedItem;
 
-  /// @brief Field m_TrackCount, offset: 0x5e8, size: 0x8, def value: None
+  /// @brief Field m_TrackCount, offset: 0x418, size: 0x8, def value: None
   ::System::Action* ___m_TrackCount;
 
-  /// @brief Field m_WhileAutoAssign, offset: 0x5f0, size: 0x8, def value: None
+  /// @brief Field m_WhileAutoAssign, offset: 0x420, size: 0x8, def value: None
   ::System::Func_1<bool>* ___m_WhileAutoAssign;
 
-  /// @brief Field m_BindingSourceSelectionMode, offset: 0x5f8, size: 0x4, def value: None
+  /// @brief Field m_BindingSourceSelectionMode, offset: 0x428, size: 0x4, def value: None
   ::UnityEngine::UIElements::BindingSourceSelectionMode ___m_BindingSourceSelectionMode;
 
-  /// @brief Field m_ListViewLabel, offset: 0x600, size: 0x8, def value: None
+  /// @brief Field m_ListViewLabel, offset: 0x430, size: 0x8, def value: None
   ::UnityEngine::UIElements::Label* ___m_ListViewLabel;
 
-  /// @brief Field m_Foldout, offset: 0x608, size: 0x8, def value: None
+  /// @brief Field m_Foldout, offset: 0x438, size: 0x8, def value: None
   ::UnityEngine::UIElements::Foldout* ___m_Foldout;
 
-  /// @brief Field m_ArraySizeField, offset: 0x610, size: 0x8, def value: None
+  /// @brief Field m_ArraySizeField, offset: 0x440, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextField* ___m_ArraySizeField;
 
-  /// @brief Field m_IsOverMultiEditLimit, offset: 0x618, size: 0x1, def value: None
+  /// @brief Field m_IsOverMultiEditLimit, offset: 0x448, size: 0x1, def value: None
   bool ___m_IsOverMultiEditLimit;
 
-  /// @brief Field m_Footer, offset: 0x620, size: 0x8, def value: None
+  /// @brief Field m_Footer, offset: 0x450, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Footer;
 
-  /// @brief Field m_AddButton, offset: 0x628, size: 0x8, def value: None
+  /// @brief Field m_AddButton, offset: 0x458, size: 0x8, def value: None
   ::UnityEngine::UIElements::Button* ___m_AddButton;
 
-  /// @brief Field m_RemoveButton, offset: 0x630, size: 0x8, def value: None
+  /// @brief Field m_RemoveButton, offset: 0x460, size: 0x8, def value: None
   ::UnityEngine::UIElements::Button* ___m_RemoveButton;
 
-  /// @brief Field m_ItemAddedCallback, offset: 0x638, size: 0x8, def value: None
+  /// @brief Field m_ItemAddedCallback, offset: 0x468, size: 0x8, def value: None
   ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* ___m_ItemAddedCallback;
 
-  /// @brief Field m_ItemRemovedCallback, offset: 0x640, size: 0x8, def value: None
+  /// @brief Field m_ItemRemovedCallback, offset: 0x470, size: 0x8, def value: None
   ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* ___m_ItemRemovedCallback;
 
-  /// @brief Field m_ItemsSourceSizeChangedCallback, offset: 0x648, size: 0x8, def value: None
+  /// @brief Field m_ItemsSourceSizeChangedCallback, offset: 0x478, size: 0x8, def value: None
   ::System::Action* ___m_ItemsSourceSizeChangedCallback;
 
-  /// @brief Field m_ReorderMode, offset: 0x650, size: 0x4, def value: None
+  /// @brief Field m_ReorderMode, offset: 0x480, size: 0x4, def value: None
   ::UnityEngine::UIElements::ListViewReorderMode ___m_ReorderMode;
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field reorderModeChanged, offset: 0x658, size: 0x8, def value: None
+  /// @brief Field reorderModeChanged, offset: 0x488, size: 0x8, def value: None
   ::System::Action* ___reorderModeChanged;
 
-  /// @brief Field m_NoneElement, offset: 0x660, size: 0x8, def value: None
+  /// @brief Field m_NoneElement, offset: 0x490, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_NoneElement;
 
-  /// @brief Field m_MakeNoneElement, offset: 0x668, size: 0x8, def value: None
+  /// @brief Field m_MakeNoneElement, offset: 0x498, size: 0x8, def value: None
   ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* ___m_MakeNoneElement;
 
-  /// @brief Field m_AllowAdd, offset: 0x670, size: 0x1, def value: None
+  /// @brief Field m_AllowAdd, offset: 0x4a0, size: 0x1, def value: None
   bool ___m_AllowAdd;
 
-  /// @brief Field m_OverridingAddButtonBehavior, offset: 0x678, size: 0x8, def value: None
+  /// @brief Field m_OverridingAddButtonBehavior, offset: 0x4a8, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::UIElements::BaseListView*, ::UnityEngine::UIElements::Button*>* ___m_OverridingAddButtonBehavior;
 
-  /// @brief Field m_OnAdd, offset: 0x680, size: 0x8, def value: None
+  /// @brief Field m_OnAdd, offset: 0x4b0, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::BaseListView*>* ___m_OnAdd;
 
-  /// @brief Field m_AllowRemove, offset: 0x688, size: 0x1, def value: None
+  /// @brief Field m_AllowRemove, offset: 0x4b8, size: 0x1, def value: None
   bool ___m_AllowRemove;
 
-  /// @brief Field m_OnRemove, offset: 0x690, size: 0x8, def value: None
+  /// @brief Field m_OnRemove, offset: 0x4c0, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::BaseListView*>* ___m_OnRemove;
 
-  /// @brief Field m_MaxMultiEditStr, offset: 0x698, size: 0x8, def value: None
+  /// @brief Field m_MaxMultiEditStr, offset: 0x4c8, size: 0x8, def value: None
   ::StringW ___m_MaxMultiEditStr;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ShowBoundCollectionSize) == 0x590, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ShowBoundCollectionSize) == 0x3c4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ShowFoldoutHeader) == 0x591, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ShowFoldoutHeader) == 0x3c5, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_HeaderTitle) == 0x598, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_HeaderTitle) == 0x3c8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___drawnHeader) == 0x5a0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___drawnHeader) == 0x3d0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_MakeHeader) == 0x5a8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_MakeHeader) == 0x3d8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___drawnFooter) == 0x5b0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___drawnFooter) == 0x3e0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_MakeFooter) == 0x5b8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_MakeFooter) == 0x3e8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ShowAddRemoveFooter) == 0x5c0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ShowAddRemoveFooter) == 0x3f0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___itemsAdded) == 0x5c8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___itemsAdded) == 0x3f8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___itemsRemoved) == 0x5d0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___itemsRemoved) == 0x400, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___itemsSourceSizeChanged) == 0x5d8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___itemsSourceSizeChanged) == 0x408, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_TrackedItem) == 0x5e0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_TrackedItem) == 0x410, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_TrackCount) == 0x5e8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_TrackCount) == 0x418, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_WhileAutoAssign) == 0x5f0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_WhileAutoAssign) == 0x420, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_BindingSourceSelectionMode) == 0x5f8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_BindingSourceSelectionMode) == 0x428, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ListViewLabel) == 0x600, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ListViewLabel) == 0x430, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_Foldout) == 0x608, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_Foldout) == 0x438, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ArraySizeField) == 0x610, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ArraySizeField) == 0x440, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_IsOverMultiEditLimit) == 0x618, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_IsOverMultiEditLimit) == 0x448, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_Footer) == 0x620, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_Footer) == 0x450, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_AddButton) == 0x628, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_AddButton) == 0x458, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_RemoveButton) == 0x630, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_RemoveButton) == 0x460, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ItemAddedCallback) == 0x638, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ItemAddedCallback) == 0x468, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ItemRemovedCallback) == 0x640, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ItemRemovedCallback) == 0x470, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ItemsSourceSizeChangedCallback) == 0x648, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ItemsSourceSizeChangedCallback) == 0x478, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ReorderMode) == 0x650, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_ReorderMode) == 0x480, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___reorderModeChanged) == 0x658, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___reorderModeChanged) == 0x488, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_NoneElement) == 0x660, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_NoneElement) == 0x490, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_MakeNoneElement) == 0x668, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_MakeNoneElement) == 0x498, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_AllowAdd) == 0x670, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_AllowAdd) == 0x4a0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_OverridingAddButtonBehavior) == 0x678, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_OverridingAddButtonBehavior) == 0x4a8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_OnAdd) == 0x680, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_OnAdd) == 0x4b0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_AllowRemove) == 0x688, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_AllowRemove) == 0x4b8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_OnRemove) == 0x690, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_OnRemove) == 0x4c0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_MaxMultiEditStr) == 0x698, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BaseListView, ___m_MaxMultiEditStr) == 0x4c8, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::BaseListView) == 0x6a0, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::BaseListView) == 0x4d0, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

@@ -13,8 +13,8 @@ class ScalableBufferManager;
 // Write type traits
 MARK_REF_T(::UnityEngine::ScalableBufferManager*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ScalableBufferManager*, "UnityEngine", "ScalableBufferManager");
-// [StaticAccessor("ScalableBufferManager::GetInstance()", (UnityEngine.Bindings.StaticAccessorType)0)]
 // [NativeHeader("Runtime/GfxDevice/ScalableBufferManager.h")]
+// [StaticAccessor("ScalableBufferManager::GetInstance()", (UnityEngine.Bindings.StaticAccessorType)0)]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -22,13 +22,13 @@ namespace UnityEngine {
 class CORDL_TYPE ScalableBufferManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ResizeBuffers, addr 0x6a89630, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ResizeBuffers, addr 0x6edc75c, size 0x40, virtual false, abstract: false, final false
   static inline void ResizeBuffers(float_t widthScale, float_t heightScale);
 
-  /// @brief Method get_heightScaleFactor, addr 0x6a89608, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_heightScaleFactor, addr 0x6edc734, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_heightScaleFactor();
 
-  /// @brief Method get_widthScaleFactor, addr 0x6a895e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_widthScaleFactor, addr 0x6edc70c, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_widthScaleFactor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   ScalableBufferManager(ScalableBufferManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9712 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -35,7 +35,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PointerEventHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPooled, addr 0x6da3810, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x7232068, size 0x1c4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventBase* GetPooled(::UnityEngine::EventType eventType, ::UnityEngine::Vector3 mousePosition, ::UnityEngine::Vector2 delta, int32_t button,
                                                                 int32_t clickCount, ::UnityEngine::EventModifiers modifiers, int32_t displayIndex);
 
@@ -54,7 +54,7 @@ public:
   PointerEventHelper(PointerEventHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4539 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

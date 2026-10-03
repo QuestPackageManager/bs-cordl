@@ -26,6 +26,7 @@ public:
   enum struct __LODCrossFadeDitheringType_Unwrapped : int32_t {
     __E_BayerMatrix = static_cast<int32_t>(0x0),
     __E_BlueNoise = static_cast<int32_t>(0x1),
+    __E_Stencil = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -51,8 +52,11 @@ public:
   /// @brief Field BlueNoise value: I32(1)
   static ::UnityEngine::Rendering::Universal::LODCrossFadeDitheringType const BlueNoise;
 
+  /// @brief Field Stencil value: I32(2)
+  static ::UnityEngine::Rendering::Universal::LODCrossFadeDitheringType const Stencil;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12816 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

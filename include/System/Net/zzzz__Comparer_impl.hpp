@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Comparer::*)(::System::Object*, ::System::Object*)>(&::System::Net::Comparer::System_Collections_IComparer_Compare)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x641c0f4;
+  constexpr static std::size_t addrs = 0x6844388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Comparer::*)()>(&::System::Net::Comparer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x641c1dc;
+  constexpr static std::size_t addrs = 0x6844470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Comparer*>(), { ".ctor", {}, {} })));

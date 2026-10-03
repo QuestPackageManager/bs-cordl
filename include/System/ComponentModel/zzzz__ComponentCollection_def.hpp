@@ -26,7 +26,7 @@ public:
   // Declarations
   __declspec(property(get = get_Item)) ::System::ComponentModel::IComponent* Item[];
 
-  /// @brief Method get_Item, addr 0x63b3b90, size 0x558, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x67dbe5c, size 0x558, virtual true, abstract: false, final false
   inline ::System::ComponentModel::IComponent* get_Item(::StringW name);
 
 protected:
@@ -44,7 +44,7 @@ public:
   ComponentCollection(ComponentCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12154 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

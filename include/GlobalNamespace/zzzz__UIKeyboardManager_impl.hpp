@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20::*)(int32_t)>(
     &::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a05964;
+  constexpr static std::size_t addrs = 0x5e2108c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20::*)()>(
     &::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a05970;
+  constexpr static std::size_t addrs = 0x5e21098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20::*)()>(
     &::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5a05974;
+  constexpr static std::size_t addrs = 0x5e2109c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20::*)()>(
     &::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a05aac;
+  constexpr static std::size_t addrs = 0x5e211d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20*>(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20::*)()>(
     &::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5a05ab4;
+  constexpr static std::size_t addrs = 0x5e211dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20::*)()>(
     &::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a05aec;
+  constexpr static std::size_t addrs = 0x5e21214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20*>(),
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::UIKeyboard> (::GlobalNamespace::UIKeyboardManager::*)()>(&::GlobalNamespace::UIKeyboardManager::get_keyboard)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a04f80;
+  constexpr static std::size_t addrs = 0x5e20668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboardManager*>(), { "get_keyboard", {}, {} })));
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)()>(&::GlobalNamespace::UIKeyboardManager::Start)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5a04f88;
+  constexpr static std::size_t addrs = 0x5e20670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboardManager*>(), { "Start", {}, {} })));
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)()>(&::GlobalNamespace::UIKeyboardManager::OnEnable)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5a0507c;
+  constexpr static std::size_t addrs = 0x5e20764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboardManager*>(), { "OnEnable", {}, {} })));
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)()>(&::GlobalNamespace::UIKeyboardManager::OnDisable)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5a0510c;
+  constexpr static std::size_t addrs = 0x5e207f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboardManager*>(), { "OnDisable", {}, {} })));
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)()>(&::GlobalNamespace::UIKeyboardManager::OnDestroy)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5a0519c;
+  constexpr static std::size_t addrs = 0x5e20884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboardManager*>(), { "OnDestroy", {}, {} })));
@@ -277,8 +277,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)(::HMUI::InputFieldView*)>(&::GlobalNamespace::UIKeyboardManager::OpenKeyboardFor)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5a0529c;
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x5e20984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)()>(&::GlobalNamespace::UIKeyboardManager::CloseKeyboard)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5a054fc;
+  constexpr static std::size_t addrs = 0x5e20c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboardManager*>(), { "CloseKeyboard", {}, {} })));
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)(::HMUI::InputFieldView*)>(&::GlobalNamespace::UIKeyboardManager::TransferKeyboardTo)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5a0559c;
+  constexpr static std::size_t addrs = 0x5e20cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UIKeyboardManager::*)(::UnityEngine::GameObject*)>(&::GlobalNamespace::UIKeyboardManager::ShouldCloseKeyboard)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5a05634;
+  constexpr static std::size_t addrs = 0x5e20d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)(::UnityEngine::GameObject*)>(&::GlobalNamespace::UIKeyboardManager::ProcessMousePress)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5a0568c;
+  constexpr static std::size_t addrs = 0x5e20db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)()>(&::GlobalNamespace::UIKeyboardManager::HandleKeyboardOkButton)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5a057fc;
+  constexpr static std::size_t addrs = 0x5e20f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboardManager*>(), { "HandleKeyboardOkButton", {}, {} })));
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::UIKeyboardManager::*)(::HMUI::InputFieldView*)>(
     &::GlobalNamespace::UIKeyboardManager::SummonSystemKeyboardAndWaitForResponse)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5a0549c;
+  constexpr static std::size_t addrs = 0x5e20bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -369,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboardManager::*)()>(&::GlobalNamespace::UIKeyboardManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a0596c;
+  constexpr static std::size_t addrs = 0x5e21094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboardManager*>(), { ".ctor", {}, {} })));

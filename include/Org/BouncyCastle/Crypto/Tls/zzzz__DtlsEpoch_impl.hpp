@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsEpoch::*)(int32_t, ::Org::BouncyCastle::Crypto::Tls::TlsCipher*)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsEpoch::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3447ebc;
+  constexpr static std::size_t addrs = 0x36d1158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Crypto::Tls::DtlsEpoch::*)()>(&::Org::BouncyCastle::Crypto::Tls::DtlsEpoch::AllocateSequenceNumber)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3447fdc;
+  constexpr static std::size_t addrs = 0x36d1278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DtlsEpoch*>(), { "AllocateSequenceNumber", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsCipher* (::Org::BouncyCastle::Crypto::Tls::DtlsEpoch::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsEpoch::get_Cipher)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34480c4;
+  constexpr static std::size_t addrs = 0x36d1360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DtlsEpoch*>(), { "get_Cipher", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DtlsEpoch::*)()>(&::Org::BouncyCastle::Crypto::Tls::DtlsEpoch::get_Epoch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34480cc;
+  constexpr static std::size_t addrs = 0x36d1368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DtlsEpoch*>(), { "get_Epoch", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow* (::Org::BouncyCastle::Crypto::Tls::DtlsEpoch::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsEpoch::get_ReplayWindow)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34480d4;
+  constexpr static std::size_t addrs = 0x36d1370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DtlsEpoch*>(), { "get_ReplayWindow", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Crypto::Tls::DtlsEpoch::*)()>(&::Org::BouncyCastle::Crypto::Tls::DtlsEpoch::get_SequenceNumber)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x34480dc;
+  constexpr static std::size_t addrs = 0x36d1378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DtlsEpoch*>(), { "get_SequenceNumber", {}, {} })));

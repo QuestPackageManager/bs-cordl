@@ -46,15 +46,15 @@ public:
   constexpr void __cordl_internal_set__ISerializableCreator_k__BackingField(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x5d3d350, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6156f34, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
   /// [CompilerGenerated]
-  /// @brief Method get_ISerializableCreator, addr 0x5d43be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ISerializableCreator, addr 0x615d7cc, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ISerializableCreator();
 
   /// [CompilerGenerated]
-  /// @brief Method set_ISerializableCreator, addr 0x5d43bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ISerializableCreator, addr 0x615d7d4, size 0x8, virtual false, abstract: false, final false
   inline void set_ISerializableCreator(/* [Nullable(new[] { 2, 1 })] */ ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
 protected:
@@ -72,7 +72,7 @@ public:
   JsonISerializableContract(JsonISerializableContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13748 };
 
   /// [Nullable(new[] { 2, 1 })]
   /// [CompilerGenerated]

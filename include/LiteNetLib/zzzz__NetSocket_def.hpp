@@ -76,27 +76,27 @@ public:
   /// @brief Field _udpSocketv6, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__udpSocketv6, put = __cordl_internal_set__udpSocketv6)) ::System::Net::Sockets::Socket* _udpSocketv6;
 
-  /// @brief Method Bind, addr 0x58a249c, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x5cb901c, size 0x40c, virtual false, abstract: false, final false
   inline bool Bind(::System::Net::IPAddress* addressIPv4, ::System::Net::IPAddress* addressIPv6, int32_t port, bool reuseAddress, bool ipv6, ::System::Threading::ThreadPriority priority);
 
-  /// @brief Method BindSocket, addr 0x58a6974, size 0x5dc, virtual false, abstract: false, final false
+  /// @brief Method BindSocket, addr 0x5cbd4f4, size 0x5dc, virtual false, abstract: false, final false
   inline bool BindSocket(::System::Net::Sockets::Socket* socket, ::System::Net::IPEndPoint* ep, bool reuseAddress);
 
-  /// @brief Method Close, addr 0x58a3ccc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x5cba84c, size 0xb0, virtual false, abstract: false, final false
   inline void Close(bool suspend);
 
-  /// @brief Method IsActive, addr 0x58a6438, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsActive, addr 0x5cbcfb8, size 0xc, virtual false, abstract: false, final false
   inline bool IsActive();
 
   static inline ::LiteNetLib::NetSocket* New_ctor(::LiteNetLib::INetSocketListener* listener);
 
-  /// @brief Method ReceiveLogic, addr 0x58a6444, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method ReceiveLogic, addr 0x5cbcfc4, size 0x530, virtual false, abstract: false, final false
   inline void ReceiveLogic(::System::Object* state);
 
-  /// @brief Method SendBroadcast, addr 0x58a2e44, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method SendBroadcast, addr 0x5cb99c4, size 0x2c4, virtual false, abstract: false, final false
   inline bool SendBroadcast(::ArrayW<uint8_t> data, int32_t offset, int32_t size, int32_t port);
 
-  /// @brief Method SendTo, addr 0x589d014, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method SendTo, addr 0x5cb3b94, size 0x2e4, virtual false, abstract: false, final false
   inline int32_t SendTo(::ArrayW<uint8_t> data, int32_t offset, int32_t size, ::System::Net::IPEndPoint* remoteEndPoint, ::by_ref<::System::Net::Sockets::SocketError> errorCode);
 
   constexpr bool const& __cordl_internal_get_IsRunning() const;
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set__udpSocketv6(::System::Net::Sockets::Socket* value);
 
-  /// @brief Method .ctor, addr 0x589e88c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb540c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::INetSocketListener* listener);
 
   static inline bool getStaticF_IPv6Support();
@@ -149,10 +149,10 @@ public:
   static inline ::System::Net::IPAddress* getStaticF_MulticastAddressV6();
 
   /// [CompilerGenerated]
-  /// @brief Method get_LocalPort, addr 0x58a6338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalPort, addr 0x5cbceb8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LocalPort();
 
-  /// @brief Method get_Ttl, addr 0x58a6348, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Ttl, addr 0x5cbcec8, size 0x18, virtual false, abstract: false, final false
   inline int16_t get_Ttl();
 
   static inline void setStaticF_IPv6Support(bool value);
@@ -160,10 +160,10 @@ public:
   static inline void setStaticF_MulticastAddressV6(::System::Net::IPAddress* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_LocalPort, addr 0x58a6340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocalPort, addr 0x5cbcec0, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalPort(int32_t value);
 
-  /// @brief Method set_Ttl, addr 0x589cffc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_Ttl, addr 0x5cb3b7c, size 0x18, virtual false, abstract: false, final false
   inline void set_Ttl(int16_t value);
 
 protected:
@@ -187,7 +187,7 @@ public:
   static constexpr int32_t SioUdpConnreset{ static_cast<int32_t>(0x9800000c) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20567 };
 
   /// @brief Field _udpSocketv4, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Sockets::Socket* ____udpSocketv4;

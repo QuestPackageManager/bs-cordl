@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerAudioClip*)>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e26fb8;
+  constexpr static std::size_t addrs = 0x72c22b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAudioClip_BindingsMarshaller*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerAudioClip*, ::StringW, ::UnityEngine::AudioType)>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip::Create)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6e26acc;
+  constexpr static std::size_t addrs = 0x72c1dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAudioClip::*)(::StringW, ::UnityEngine::AudioType)>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip::InternalCreateAudioClip)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e26c64;
+  constexpr static std::size_t addrs = 0x72c1f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAudioClip::*)(::StringW, ::UnityEngine::AudioType)>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e26c7c;
+  constexpr static std::size_t addrs = 0x72c1f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAudioClip*>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (::UnityEngine::Networking::DownloadHandlerAudioClip::*)()>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip::GetNativeData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e26c94;
+  constexpr static std::size_t addrs = 0x72c1f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAudioClip*>(),
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAudioClip::*)()>(&::UnityEngine::Networking::DownloadHandlerAudioClip::Dispose)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6e26ca0;
+  constexpr static std::size_t addrs = 0x72c1f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAudioClip*>(),
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Networking::DownloadHandlerAudioClip::*)()>(&::UnityEngine::Networking::DownloadHandlerAudioClip::GetText)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e26d00;
+  constexpr static std::size_t addrs = 0x72c1ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAudioClip*>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AudioClip> (::UnityEngine::Networking::DownloadHandlerAudioClip::*)()>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip::get_audioClip)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6e26d4c;
+  constexpr static std::size_t addrs = 0x72c2044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAudioClip*>(), { "get_audioClip", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAudioClip::*)(bool)>(&::UnityEngine::Networking::DownloadHandlerAudioClip::set_streamAudio)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6e26ec4;
+  constexpr static std::size_t addrs = 0x72c21bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AudioClip> (*)(::UnityEngine::Networking::UnityWebRequest*)>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip::GetContent)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6e26f60;
+  constexpr static std::size_t addrs = 0x72c2258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAudioClip*>(),
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerAudioClip*, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>,
                                                                             ::UnityEngine::AudioType)>(&::UnityEngine::Networking::DownloadHandlerAudioClip::Create_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e26c10;
+  constexpr static std::size_t addrs = 0x72c1f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::Networking::DownloadHandlerAudioClip::get_audioClip_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e26e88;
+  constexpr static std::size_t addrs = 0x72c2180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::Networking::DownloadHandlerAudioClip::set_streamAudio_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e26f1c;
+  constexpr static std::size_t addrs = 0x72c2214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAudioClip*>(),
@@ -213,8 +213,8 @@ constexpr void UnityEngine::Networking::DownloadHandlerAudioClip::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NativeData = value;
 }
-inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAudioClip::Create(/* [Unmarshalled] */ ::UnityEngine::Networking::DownloadHandlerAudioClip* obj, ::StringW url,
-                                                                                  ::UnityEngine::AudioType audioType) {
+inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAudioClip::Create(/* [UnityMarshalAs((UnityEngine.Bindings.NativeType)0)] */ ::UnityEngine::Networking::DownloadHandlerAudioClip* obj,
+                                                                                  ::StringW url, ::UnityEngine::AudioType audioType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAudioClip*>(),

@@ -31,11 +31,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDataLoaderUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEnvironmentKeywords, addr 0x3714970, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentKeywords, addr 0x399de94, size 0x170, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentKeywords* GetEnvironmentKeywords(::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                                                                                ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion);
 
-  /// @brief Method GetEnvironmentLightGroups, addr 0x3714ae0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentLightGroups, addr 0x399e004, size 0x110, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IEnvironmentLightGroups* GetEnvironmentLightGroups(::GlobalNamespace::IEnvironmentInfo* environmentInfo);
 
 protected:
@@ -53,7 +53,7 @@ public:
   BeatmapDataLoaderUtils(BeatmapDataLoaderUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15138 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

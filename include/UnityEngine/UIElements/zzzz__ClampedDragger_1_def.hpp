@@ -85,7 +85,7 @@ public:
   static ::UnityEngine::UIElements::ClampedDragger_1_DragDirection<T> const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4068 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -232,10 +232,10 @@ public:
   ClampedDragger_1(ClampedDragger_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4069 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field dragging, offset: 0x70, size: 0x8, def value: None
   ::System::Action* ___dragging;
 
@@ -244,8 +244,8 @@ public:
   /// @brief Field draggingEnded, offset: 0x78, size: 0x8, def value: None
   ::System::Action* ___draggingEnded;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <dragDirection>k__BackingField, offset: 0x80, size: 0x4, def value: None
   ::UnityEngine::UIElements::ClampedDragger_1_DragDirection<T> ____dragDirection_k__BackingField;
 

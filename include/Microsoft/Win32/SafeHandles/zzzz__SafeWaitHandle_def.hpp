@@ -25,11 +25,11 @@ public:
   /// @brief [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   static inline ::Microsoft::Win32::SafeHandles::SafeWaitHandle* New_ctor(::System::IntPtr existingHandle, bool ownsHandle);
 
-  /// @brief Method ReleaseHandle, addr 0x5ac7548, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x5edf42c, size 0x24, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
-  /// @brief Method .ctor, addr 0x5ac751c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5edf400, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr existingHandle, bool ownsHandle);
 
 protected:

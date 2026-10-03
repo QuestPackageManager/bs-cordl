@@ -22,7 +22,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE CameraEventUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x6b08e58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6f64334, size 0xc, virtual false, abstract: false, final false
   static inline bool IsValid(::UnityEngine::Rendering::CameraEvent value);
 
 protected:
@@ -40,7 +40,7 @@ public:
   CameraEventUtils(CameraEventUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10723 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10318 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

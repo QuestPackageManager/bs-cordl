@@ -7,6 +7,12 @@ CORDL_MODULE_EXPORT(IDerivedRendergraphContext)
 namespace UnityEngine::Rendering::RenderGraphModule {
 class InternalRenderGraphContext;
 }
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct TextureHandle;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct TextureUVOrigin;
+}
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule {
 class IDerivedRendergraphContext;
@@ -24,12 +30,15 @@ public:
   /// @brief Method FromInternalContext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void FromInternalContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* context);
 
+  /// @brief Method GetTextureUVOrigin, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> textureHandle);
+
   // Ctor Parameters [CppParam { name: "", ty: "IDerivedRendergraphContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IDerivedRendergraphContext(IDerivedRendergraphContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9325 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

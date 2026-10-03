@@ -40,10 +40,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerLeaveEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6da5b5c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x72344b4, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerLeaveEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6da5b58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72344b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerLeaveEvent___c* getStaticF___9();
@@ -65,7 +65,7 @@ public:
   PointerLeaveEvent___c(PointerLeaveEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4552 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4553 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -83,21 +83,21 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PointerLeaveEvent___c;
 
-  /// @brief Method Dispatch, addr 0x6da5a64, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x72343bc, size 0x4, virtual true, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method Init, addr 0x6da59a8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x7234300, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6da5a00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x7234358, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerLeaveEvent* New_ctor();
 
-  /// @brief Method PreDispatch, addr 0x6da5a68, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x72343c0, size 0x9c, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6da5a0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7234364, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,11 +115,11 @@ public:
   PointerLeaveEvent(PointerLeaveEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4553 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4554 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::PointerLeaveEvent) == 0xf8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::PointerLeaveEvent) == 0x118, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

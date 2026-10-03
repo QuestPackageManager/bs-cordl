@@ -42,14 +42,16 @@ public:
     __E_Repeat = static_cast<int32_t>(0xe),
     __E_RepeatXY = static_cast<int32_t>(0xf),
     __E_ScaleMode = static_cast<int32_t>(0x10),
-    __E_TextAnchor = static_cast<int32_t>(0x11),
-    __E_TextGeneratorType = static_cast<int32_t>(0x12),
-    __E_TextOverflow = static_cast<int32_t>(0x13),
-    __E_TextOverflowPosition = static_cast<int32_t>(0x14),
-    __E_TransformOriginOffset = static_cast<int32_t>(0x15),
-    __E_Visibility = static_cast<int32_t>(0x16),
-    __E_WhiteSpace = static_cast<int32_t>(0x17),
-    __E_Wrap = static_cast<int32_t>(0x18),
+    __E_SliceType = static_cast<int32_t>(0x11),
+    __E_TextAnchor = static_cast<int32_t>(0x12),
+    __E_TextAutoSizeMode = static_cast<int32_t>(0x13),
+    __E_TextGeneratorType = static_cast<int32_t>(0x14),
+    __E_TextOverflow = static_cast<int32_t>(0x15),
+    __E_TextOverflowPosition = static_cast<int32_t>(0x16),
+    __E_TransformOriginOffset = static_cast<int32_t>(0x17),
+    __E_Visibility = static_cast<int32_t>(0x18),
+    __E_WhiteSpace = static_cast<int32_t>(0x19),
+    __E_Wrap = static_cast<int32_t>(0x1a),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -120,32 +122,38 @@ public:
   /// @brief Field ScaleMode value: I32(16)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const ScaleMode;
 
-  /// @brief Field TextAnchor value: I32(17)
+  /// @brief Field SliceType value: I32(17)
+  static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const SliceType;
+
+  /// @brief Field TextAnchor value: I32(18)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TextAnchor;
 
-  /// @brief Field TextGeneratorType value: I32(18)
+  /// @brief Field TextAutoSizeMode value: I32(19)
+  static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TextAutoSizeMode;
+
+  /// @brief Field TextGeneratorType value: I32(20)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TextGeneratorType;
 
-  /// @brief Field TextOverflow value: I32(19)
+  /// @brief Field TextOverflow value: I32(21)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TextOverflow;
 
-  /// @brief Field TextOverflowPosition value: I32(20)
+  /// @brief Field TextOverflowPosition value: I32(22)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TextOverflowPosition;
 
-  /// @brief Field TransformOriginOffset value: I32(21)
+  /// @brief Field TransformOriginOffset value: I32(23)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TransformOriginOffset;
 
-  /// @brief Field Visibility value: I32(22)
+  /// @brief Field Visibility value: I32(24)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Visibility;
 
-  /// @brief Field WhiteSpace value: I32(23)
+  /// @brief Field WhiteSpace value: I32(25)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const WhiteSpace;
 
-  /// @brief Field Wrap value: I32(24)
+  /// @brief Field Wrap value: I32(26)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Wrap;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5449 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5568 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

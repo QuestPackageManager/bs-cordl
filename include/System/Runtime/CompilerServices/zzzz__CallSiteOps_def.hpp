@@ -54,7 +54,7 @@ public:
 
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// [Obsolete("do not use this method", true)]
-  /// @brief Method ClearMatch, addr 0x5fc1870, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ClearMatch, addr 0x63dd7f8, size 0x18, virtual false, abstract: false, final false
   static inline void ClearMatch(::System::Runtime::CompilerServices::CallSite* site);
 
   /// [Obsolete("do not use this method", true)]
@@ -73,7 +73,7 @@ public:
 
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// [Obsolete("do not use this method", true)]
-  /// @brief Method GetMatch, addr 0x5fc185c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetMatch, addr 0x63dd7e4, size 0x14, virtual false, abstract: false, final false
   static inline bool GetMatch(::System::Runtime::CompilerServices::CallSite* site);
 
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
@@ -99,7 +99,7 @@ public:
 
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// [Obsolete("do not use this method", true)]
-  /// @brief Method SetNotMatched, addr 0x5fc1840, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetNotMatched, addr 0x63dd7c8, size 0x1c, virtual false, abstract: false, final false
   static inline bool SetNotMatched(::System::Runtime::CompilerServices::CallSite* site);
 
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
@@ -124,7 +124,7 @@ public:
   CallSiteOps(CallSiteOps const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16630 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17150 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentType (::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentObjects::*)()>(
     &::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentObjects::get_menuEnvironmentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bfc7c;
+  constexpr static std::size_t addrs = 0x5cd64e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentObjects::*)()>(
     &::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentObjects::get_wrapper)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bfc84;
+  constexpr static std::size_t addrs = 0x5cd64ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentObjects::*)()>(
     &::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentObjects::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58bfc8c;
+  constexpr static std::size_t addrs = 0x5cd64f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentObjects*>(), { ".ctor", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuEnvironmentManager::*)()>(&::GlobalNamespace::MenuEnvironmentManager::Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bfae4;
+  constexpr static std::size_t addrs = 0x5cd634c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuEnvironmentManager*>(), { "Start", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuEnvironmentManager::*)(::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentType)>(
     &::GlobalNamespace::MenuEnvironmentManager::ShowEnvironmentType)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x58bfaec;
+  constexpr static std::size_t addrs = 0x5cd6354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuEnvironmentManager::*)()>(&::GlobalNamespace::MenuEnvironmentManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58bfc78;
+  constexpr static std::size_t addrs = 0x5cd64e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuEnvironmentManager*>(), { ".ctor", {}, {} })));

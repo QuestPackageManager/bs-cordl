@@ -10,6 +10,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncInstantiateOperation)
 namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System::Threading {
 struct CancellationToken;
 }
 namespace System {
@@ -40,11 +43,14 @@ public:
   /// @brief Field m_Result, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Result, put = __cordl_internal_set_m_Result)) ::ArrayW<::UnityW<::UnityEngine::Object>> m_Result;
 
-  /// @brief Method CreateResultArray, addr 0x6ad9bac, size 0x60, virtual true, abstract: false, final false
+  /// @brief Field s_GlobalCancellation, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_GlobalCancellation, put = setStaticF_s_GlobalCancellation)) ::System::Threading::CancellationTokenSource* s_GlobalCancellation;
+
+  /// @brief Method CreateResultArray, addr 0x6f33fcc, size 0x60, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>> CreateResultArray(int32_t size);
 
   /// [RequiredByNativeCode(GenerateProxy = true)]
-  /// @brief Method IsCancellationRequested, addr 0x6ad9b38, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsCancellationRequested, addr 0x6f33f58, size 0x74, virtual false, abstract: false, final false
   inline bool IsCancellationRequested();
 
   static inline ::UnityEngine::AsyncInstantiateOperation* New_ctor(::System::IntPtr ptr, ::System::Threading::CancellationToken cancellationToken);
@@ -61,8 +67,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Result(::ArrayW<::UnityW<::UnityEngine::Object>> value);
 
-  /// @brief Method .ctor, addr 0x6ad9adc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f33e5c, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr, ::System::Threading::CancellationToken cancellationToken);
+
+  static inline ::System::Threading::CancellationTokenSource* getStaticF_s_GlobalCancellation();
+
+  static inline void setStaticF_s_GlobalCancellation(::System::Threading::CancellationTokenSource* value);
 
 protected:
   // Ctor Parameters []
@@ -79,7 +89,7 @@ public:
   AsyncInstantiateOperation(AsyncInstantiateOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9882 };
 
   /// @brief Field m_Result, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Object>> ___m_Result;

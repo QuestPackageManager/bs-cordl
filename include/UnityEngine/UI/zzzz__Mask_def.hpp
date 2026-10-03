@@ -33,7 +33,7 @@ class Mask;
 // Write type traits
 MARK_REF_T(::UnityEngine::UI::Mask*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::Mask*, "UnityEngine.UI", "Mask");
-// [AddComponentMenu("UI/Mask", 13)]
+// [AddComponentMenu("UI (Canvas)/Mask", 13)]
 // [ExecuteAlways]
 // [RequireComponent(typeof(UnityEngine.RectTransform))]
 // [DisallowMultipleComponent]
@@ -71,25 +71,25 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::IMaterialModifier"
   constexpr operator ::UnityEngine::UI::IMaterialModifier*() noexcept;
 
-  /// @brief Method GetModifiedMaterial, addr 0x6dffa80, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method GetModifiedMaterial, addr 0x7298074, size 0x2b0, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetModifiedMaterial(::UnityEngine::Material* baseMaterial);
 
-  /// @brief Method IsRaycastLocationValid, addr 0x6dff9c4, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method IsRaycastLocationValid, addr 0x7297fb8, size 0xbc, virtual true, abstract: false, final false
   inline bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
 
-  /// @brief Method MaskEnabled, addr 0x6dff37c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method MaskEnabled, addr 0x7297970, size 0x94, virtual true, abstract: false, final false
   inline bool MaskEnabled();
 
   static inline ::UnityEngine::UI::Mask* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x6dff800, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x7297df4, size 0x1c4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6dff414, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x7297a08, size 0x158, virtual true, abstract: false, final false
   inline void OnEnable();
 
   /// [Obsolete("Not used anymore.")]
-  /// @brief Method OnSiblingGraphicEnabledDisabled, addr 0x6dff410, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSiblingGraphicEnabledDisabled, addr 0x7297a04, size 0x4, virtual true, abstract: false, final false
   inline void OnSiblingGraphicEnabledDisabled();
 
   constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get_m_Graphic() const;
@@ -122,16 +122,16 @@ public:
 
   constexpr void __cordl_internal_set_m_UnmaskMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x6dff370, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7297964, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_graphic, addr 0x6dff314, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_graphic, addr 0x7297908, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Graphic> get_graphic();
 
-  /// @brief Method get_rectTransform, addr 0x6dff1f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x72977e4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method get_showMaskGraphic, addr 0x6dff24c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showMaskGraphic, addr 0x7297840, size 0x8, virtual false, abstract: false, final false
   inline bool get_showMaskGraphic();
 
   /// @brief Convert to "::UnityEngine::ICanvasRaycastFilter"
@@ -140,7 +140,7 @@ public:
   /// @brief Convert to "::UnityEngine::UI::IMaterialModifier"
   constexpr ::UnityEngine::UI::IMaterialModifier* i___UnityEngine__UI__IMaterialModifier() noexcept;
 
-  /// @brief Method set_showMaskGraphic, addr 0x6dff254, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_showMaskGraphic, addr 0x7297848, size 0xc0, virtual false, abstract: false, final false
   inline void set_showMaskGraphic(bool value);
 
 protected:
@@ -158,7 +158,7 @@ public:
   Mask(Mask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17467 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17974 };
 
   /// @brief Field m_RectTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_RectTransform;

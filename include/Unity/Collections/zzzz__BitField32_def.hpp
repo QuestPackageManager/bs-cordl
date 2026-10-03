@@ -24,43 +24,43 @@ public:
   // Declarations
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckArgs, addr 0x64aba54, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CheckArgs, addr 0x68d445c, size 0xbc, virtual false, abstract: false, final false
   static inline void CheckArgs(int32_t pos, int32_t numBits);
 
-  /// @brief Method Clear, addr 0x64ab8e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x68d42e8, size 0x8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CountBits, addr 0x64ab9c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CountBits, addr 0x68d43c8, size 0x18, virtual false, abstract: false, final false
   inline int32_t CountBits();
 
-  /// @brief Method CountLeadingZeros, addr 0x64ab9d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CountLeadingZeros, addr 0x68d43e0, size 0x3c, virtual false, abstract: false, final false
   inline int32_t CountLeadingZeros();
 
-  /// @brief Method CountTrailingZeros, addr 0x64aba14, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CountTrailingZeros, addr 0x68d441c, size 0x40, virtual false, abstract: false, final false
   inline int32_t CountTrailingZeros();
 
-  /// @brief Method GetBits, addr 0x64ab93c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetBits, addr 0x68d4344, size 0x1c, virtual false, abstract: false, final false
   inline uint32_t GetBits(int32_t pos, int32_t numBits);
 
-  /// @brief Method IsSet, addr 0x64ab958, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsSet, addr 0x68d4360, size 0x10, virtual false, abstract: false, final false
   inline bool IsSet(int32_t pos);
 
-  /// @brief Method SetBits, addr 0x64ab8e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetBits, addr 0x68d42f0, size 0x24, virtual false, abstract: false, final false
   inline void SetBits(int32_t pos, bool value);
 
-  /// @brief Method SetBits, addr 0x64ab90c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetBits, addr 0x68d4314, size 0x30, virtual false, abstract: false, final false
   inline void SetBits(int32_t pos, bool value, int32_t numBits);
 
-  /// @brief Method TestAll, addr 0x64ab9a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TestAll, addr 0x68d43a8, size 0x20, virtual false, abstract: false, final false
   inline bool TestAll(int32_t pos, int32_t numBits);
 
-  /// @brief Method TestAny, addr 0x64ab984, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method TestAny, addr 0x68d438c, size 0x1c, virtual false, abstract: false, final false
   inline bool TestAny(int32_t pos, int32_t numBits);
 
-  /// @brief Method TestNone, addr 0x64ab968, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method TestNone, addr 0x68d4370, size 0x1c, virtual false, abstract: false, final false
   inline bool TestNone(int32_t pos, int32_t numBits);
 
-  /// @brief Method .ctor, addr 0x64ab8d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68d42e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint32_t initialValue);
 
   // Ctor Parameters []
@@ -71,7 +71,7 @@ public:
   constexpr BitField32(uint32_t Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15552 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15793 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

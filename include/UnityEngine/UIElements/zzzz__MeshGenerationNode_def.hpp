@@ -27,10 +27,10 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE MeshGenerationNode {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6dd5a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x7274994, size 0x8, virtual false, abstract: false, final false
   static inline void Create(::System::Runtime::InteropServices::GCHandle handle, ::by_ref<::UnityEngine::UIElements::MeshGenerationNode> node);
 
-  /// @brief Method GetParentEntry, addr 0x6dd5a34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetParentEntry, addr 0x727499c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Entry* GetParentEntry();
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr MeshGenerationNode(::UnityEngine::UIElements::UnsafeMeshGenerationNode m_UnsafeNode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4672 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4717 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

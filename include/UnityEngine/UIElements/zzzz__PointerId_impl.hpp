@@ -44,11 +44,23 @@ inline void UnityEngine::UIElements::PointerId::setStaticF_penPointerCount(int32
 inline int32_t UnityEngine::UIElements::PointerId::getStaticF_penPointerCount() {
   return ::cordl_internals::getStaticField<int32_t, "penPointerCount", ::UnityEngine::UIElements::PointerId*>();
 }
-inline void UnityEngine::UIElements::PointerId::setStaticF_hoveringPointers(::ArrayW<int32_t> value) {
-  ::cordl_internals::setStaticField<::ArrayW<int32_t>, "hoveringPointers", ::UnityEngine::UIElements::PointerId*>(std::forward<::ArrayW<int32_t>>(value));
+inline void UnityEngine::UIElements::PointerId::setStaticF_trackedPointerIdBase(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "trackedPointerIdBase", ::UnityEngine::UIElements::PointerId*>(std::forward<int32_t>(value));
 }
-inline ::ArrayW<int32_t> UnityEngine::UIElements::PointerId::getStaticF_hoveringPointers() {
-  return ::cordl_internals::getStaticField<::ArrayW<int32_t>, "hoveringPointers", ::UnityEngine::UIElements::PointerId*>();
+inline int32_t UnityEngine::UIElements::PointerId::getStaticF_trackedPointerIdBase() {
+  return ::cordl_internals::getStaticField<int32_t, "trackedPointerIdBase", ::UnityEngine::UIElements::PointerId*>();
+}
+inline void UnityEngine::UIElements::PointerId::setStaticF_trackedPointerCount(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "trackedPointerCount", ::UnityEngine::UIElements::PointerId*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::UIElements::PointerId::getStaticF_trackedPointerCount() {
+  return ::cordl_internals::getStaticField<int32_t, "trackedPointerCount", ::UnityEngine::UIElements::PointerId*>();
+}
+inline void UnityEngine::UIElements::PointerId::setStaticF_screenHoveringPointers(::ArrayW<int32_t> value) {
+  ::cordl_internals::setStaticField<::ArrayW<int32_t>, "screenHoveringPointers", ::UnityEngine::UIElements::PointerId*>(std::forward<::ArrayW<int32_t>>(value));
+}
+inline ::ArrayW<int32_t> UnityEngine::UIElements::PointerId::getStaticF_screenHoveringPointers() {
+  return ::cordl_internals::getStaticField<::ArrayW<int32_t>, "screenHoveringPointers", ::UnityEngine::UIElements::PointerId*>();
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerId::PointerId() {}

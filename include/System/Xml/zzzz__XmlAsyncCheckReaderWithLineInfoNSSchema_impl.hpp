@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)(::System::Xml::XmlReader*)>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x61b3900;
+  constexpr static std::size_t addrs = 0x65db450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaValidity (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_Validity)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x61b504c;
+  constexpr static std::size_t addrs = 0x65dcbc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_IsDefault)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x61b50f0;
+  constexpr static std::size_t addrs = 0x65dcc6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_IsNil)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x61b5198;
+  constexpr static std::size_t addrs = 0x65dcd14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_MemberType)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x61b5240;
+  constexpr static std::size_t addrs = 0x65dcdbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaType* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaType)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x61b52e8;
+  constexpr static std::size_t addrs = 0x65dce64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaElement* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaElement)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x61b5390;
+  constexpr static std::size_t addrs = 0x65dcf0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaAttribute* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaAttribute)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x61b5438;
+  constexpr static std::size_t addrs = 0x65dcfb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

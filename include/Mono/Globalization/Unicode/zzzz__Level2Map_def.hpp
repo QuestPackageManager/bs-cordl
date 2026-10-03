@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_Source(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x5ab0898, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ec877c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint8_t source, uint8_t replace);
 
 protected:

@@ -34,42 +34,42 @@ class CORDL_TYPE PointerCaptureHelper : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ActivateCompatibilityMouseEvents, addr 0x6dbba84, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ActivateCompatibilityMouseEvents, addr 0x7270998, size 0xd4, virtual false, abstract: false, final false
   static inline void ActivateCompatibilityMouseEvents(::UnityEngine::UIElements::IPanel* panel, int32_t pointerId);
 
   /// [Extension]
-  /// @brief Method CapturePointer, addr 0x6db6814, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CapturePointer, addr 0x7269b44, size 0x38, virtual false, abstract: false, final false
   static inline void CapturePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
   /// [Extension]
-  /// @brief Method GetCapturingElement, addr 0x6dbb8a8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetCapturingElement, addr 0x7270700, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IEventHandler* GetCapturingElement(::UnityEngine::UIElements::IPanel* panel, int32_t pointerId);
 
-  /// @brief Method GetStateFor, addr 0x6dbb5c8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetStateFor, addr 0x7270364, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PointerDispatchState* GetStateFor(::UnityEngine::UIElements::IEventHandler* handler);
 
   /// [Extension]
-  /// @brief Method HasPointerCapture, addr 0x6db6710, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HasPointerCapture, addr 0x7269a40, size 0x38, virtual false, abstract: false, final false
   static inline bool HasPointerCapture(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
   /// [Extension]
-  /// @brief Method PreventCompatibilityMouseEvents, addr 0x6dbbb8c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PreventCompatibilityMouseEvents, addr 0x7270aa0, size 0xd4, virtual false, abstract: false, final false
   static inline void PreventCompatibilityMouseEvents(::UnityEngine::UIElements::IPanel* panel, int32_t pointerId);
 
   /// [Extension]
-  /// @brief Method ProcessPointerCapture, addr 0x6db684c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointerCapture, addr 0x7269b7c, size 0xd4, virtual false, abstract: false, final false
   static inline void ProcessPointerCapture(::UnityEngine::UIElements::IPanel* panel, int32_t pointerId);
 
   /// [Extension]
-  /// @brief Method ReleasePointer, addr 0x6dbb834, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x7270684, size 0x38, virtual false, abstract: false, final false
   static inline void ReleasePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
   /// [Extension]
-  /// @brief Method ReleasePointer, addr 0x6dbb980, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x7270808, size 0xd4, virtual false, abstract: false, final false
   static inline void ReleasePointer(::UnityEngine::UIElements::IPanel* panel, int32_t pointerId);
 
   /// [Extension]
-  /// @brief Method ShouldSendCompatibilityMouseEvents, addr 0x6dbbc90, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendCompatibilityMouseEvents, addr 0x7270ba4, size 0x114, virtual false, abstract: false, final false
   static inline bool ShouldSendCompatibilityMouseEvents(::UnityEngine::UIElements::IPanel* panel, ::UnityEngine::UIElements::IPointerEvent* evt);
 
 protected:
@@ -87,7 +87,7 @@ public:
   PointerCaptureHelper(PointerCaptureHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4699 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

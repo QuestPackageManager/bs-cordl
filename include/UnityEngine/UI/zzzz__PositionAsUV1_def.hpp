@@ -15,7 +15,7 @@ class PositionAsUV1;
 // Write type traits
 MARK_REF_T(::UnityEngine::UI::PositionAsUV1*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::PositionAsUV1*, "UnityEngine.UI", "PositionAsUV1");
-// [AddComponentMenu("UI/Effects/Position As UV1", 82)]
+// [AddComponentMenu("UI (Canvas)/Effects/Position As UV1", 82)]
 // Dependencies UnityEngine.UI.BaseMeshEffect
 namespace UnityEngine::UI {
 // Is value type: false
@@ -23,12 +23,12 @@ namespace UnityEngine::UI {
 class CORDL_TYPE PositionAsUV1 : public ::UnityEngine::UI::BaseMeshEffect {
 public:
   // Declarations
-  /// @brief Method ModifyMesh, addr 0x6e13e88, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x72ac8c8, size 0xe0, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
   static inline ::UnityEngine::UI::PositionAsUV1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e13e84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72ac8c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   PositionAsUV1(PositionAsUV1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18024 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

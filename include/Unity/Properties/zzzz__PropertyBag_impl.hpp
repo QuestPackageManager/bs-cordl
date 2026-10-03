@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (*)(::System::Type*)>(&::Unity::Properties::PropertyBag::GetPropertyBag)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6ba1db4;
+  constexpr static std::size_t addrs = 0x700d770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,18 +38,6 @@ template <typename TContainer> inline void Unity::Properties::PropertyBag::Regis
                                                            { "Register", { ::i2c::class_of<TContainer>() }, { ::i2c::type_of<::Unity::Properties::PropertyBag_1<TContainer>*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TContainer>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, propertyBag);
-}
-template <typename TElement> inline void Unity::Properties::PropertyBag::RegisterList() {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyBag*>(), { "RegisterList", { ::i2c::class_of<TElement>() }, {} })));
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TElement>() })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
-}
-template <typename TContainer, typename TElement> inline void Unity::Properties::PropertyBag::RegisterList() {
-  static auto* ___internal_method_base = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyBag*>(), { "RegisterList", { ::i2c::class_of<TContainer>(), ::i2c::class_of<TElement>() }, {} })));
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TContainer>(), ::i2c::class_of<TElement>() })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 inline ::Unity::Properties::IPropertyBag* Unity::Properties::PropertyBag::GetPropertyBag(::System::Type* type) {
   static auto* ___internal_method =

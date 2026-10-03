@@ -33,7 +33,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ShaderInput*, "UnityEng
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ShaderInput_LightData, "UnityEngine.Rendering.Universal", "ShaderInput/LightData");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ShaderInput_ShadowData, "UnityEngine.Rendering.Universal", "ShaderInput/ShadowData");
 // [Obsolete("ShaderInput.ShadowData was deprecated. Shadow slice matrices and per-light shadow parameters are now passed to the GPU using entries in buffers m_AdditionalLightsWorldToShadow_SSBO and
-// m_AdditionalShadowParams_SSBO", true)] Dependencies UnityEngine.Matrix4x4, UnityEngine.Vector4
+// m_AdditionalShadowParams_SSBO. #from(2021.1) #breakingFrom(2023.1)", true)] Dependencies UnityEngine.Matrix4x4, UnityEngine.Vector4
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.ShaderInput/ShadowData
@@ -49,7 +49,7 @@ public:
   constexpr ShaderInput_ShadowData(::UnityEngine::Matrix4x4 worldToShadowMatrix, ::UnityEngine::Vector4 shadowParams) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24187 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -71,7 +71,7 @@ static_assert(sizeof(::UnityEngine::Rendering::Universal::ShaderInput_ShadowData
 
 } // namespace UnityEngine::Rendering::Universal
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, false, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.universal@bd2aa618476e\\ShaderLibrary\\ShaderTypes.cs")] Dependencies UnityEngine.Vector4
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.universal@8a9b4021522a\\ShaderLibrary\\ShaderTypes.cs")] Dependencies UnityEngine.Vector4
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.ShaderInput/LightData
@@ -90,7 +90,7 @@ public:
                                   ::UnityEngine::Vector4 occlusionProbeChannels, uint32_t layerMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24188 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };
@@ -157,7 +157,7 @@ public:
   ShaderInput(ShaderInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23484 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24189 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

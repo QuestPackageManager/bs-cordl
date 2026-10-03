@@ -31,7 +31,7 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaValidationException : public ::System::Xml::Schema::XmlSchemaException {
 public:
   // Declarations
-  /// @brief Method GetObjectData, addr 0x623cc20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x66648c4, size 0x8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Xml::Schema::XmlSchemaValidationException* New_ctor();
@@ -45,19 +45,19 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaValidationException* New_ctor(::StringW res, ::ArrayW<::StringW> args, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x623cc28, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66648cc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x623cc18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66648bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x623cc3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66648e0, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x623cd88, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6664a2c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW> args, ::System::Exception* innerException, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x623cd10, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66649b4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW> args, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
 protected:
@@ -75,7 +75,7 @@ public:
   XmlSchemaValidationException(XmlSchemaValidationException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11788 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

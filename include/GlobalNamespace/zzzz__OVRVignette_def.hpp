@@ -110,7 +110,7 @@ public:
   static ::GlobalNamespace::OVRVignette_MeshComplexityLevel const VerySimple;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8000 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8119 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -165,7 +165,7 @@ public:
   static ::GlobalNamespace::OVRVignette_FalloffType const Quadratic;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8001 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8120 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -291,54 +291,54 @@ public:
   /// @brief Field _TransparentVignetteVisible, offset 0xe1, size 0x1
   __declspec(property(get = __cordl_internal_get__TransparentVignetteVisible, put = __cordl_internal_set__TransparentVignetteVisible)) bool _TransparentVignetteVisible;
 
-  /// @brief Method Awake, addr 0x5f1725c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6331740, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BuildMaterials, addr 0x5f16c3c, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method BuildMaterials, addr 0x6331170, size 0x400, virtual false, abstract: false, final false
   inline void BuildMaterials();
 
-  /// @brief Method BuildMeshes, addr 0x5f16534, size 0x708, virtual false, abstract: false, final false
+  /// @brief Method BuildMeshes, addr 0x6330a68, size 0x708, virtual false, abstract: false, final false
   inline void BuildMeshes();
 
-  /// @brief Method DisableRenderers, addr 0x5f17194, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DisableRenderers, addr 0x6331678, size 0xc8, virtual false, abstract: false, final false
   inline void DisableRenderers();
 
-  /// @brief Method EnableRenderers, addr 0x5f17d6c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EnableRenderers, addr 0x6332240, size 0x3c, virtual false, abstract: false, final false
   inline void EnableRenderers();
 
-  /// @brief Method GetTanFovAndOffsetForMonoEye, addr 0x5f17830, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetTanFovAndOffsetForMonoEye, addr 0x6331d04, size 0x8c, virtual false, abstract: false, final false
   inline void GetTanFovAndOffsetForMonoEye(::by_ref<float_t> tanFovX, ::by_ref<float_t> tanFovY, ::by_ref<float_t> offsetX, ::by_ref<float_t> offsetY);
 
-  /// @brief Method GetTanFovAndOffsetForStereoEye, addr 0x5f176a0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetTanFovAndOffsetForStereoEye, addr 0x6331b84, size 0x180, virtual false, abstract: false, final false
   inline void GetTanFovAndOffsetForStereoEye(::UnityEngine::Camera_StereoscopicEye eye, ::by_ref<float_t> tanFovX, ::by_ref<float_t> tanFovY, ::by_ref<float_t> offsetX, ::by_ref<float_t> offsetY);
 
-  /// @brief Method GetTriangleCount, addr 0x5f16510, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetTriangleCount, addr 0x6330a44, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetTriangleCount();
 
-  /// @brief Method Initialize, addr 0x5f17260, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6331744, size 0x440, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::OVRVignette* New_ctor();
 
-  /// @brief Method OnBeginCameraRendering, addr 0x5f17db0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnBeginCameraRendering, addr 0x6332284, size 0x90, virtual false, abstract: false, final false
   inline void OnBeginCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method OnDisable, addr 0x5f170e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x63315f0, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5f1703c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6331570, size 0x80, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPostRender, addr 0x5f17dac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPostRender, addr 0x6332280, size 0x4, virtual false, abstract: false, final false
   inline void OnPostRender();
 
-  /// @brief Method OnPreCull, addr 0x5f17da8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPreCull, addr 0x633227c, size 0x4, virtual false, abstract: false, final false
   inline void OnPreCull();
 
-  /// @brief Method Update, addr 0x5f178f0, size 0x47c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6331dc4, size 0x47c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method VisibilityTest, addr 0x5f178bc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method VisibilityTest, addr 0x6331d90, size 0x34, virtual false, abstract: false, final false
   inline bool VisibilityTest(float_t scaleX, float_t scaleY, float_t offsetX, float_t offsetY);
 
   constexpr ::GlobalNamespace::OVRVignette_FalloffType const& __cordl_internal_get_Falloff() const;
@@ -527,7 +527,7 @@ public:
 
   constexpr void __cordl_internal_set__TransparentVignetteVisible(bool value);
 
-  /// @brief Method .ctor, addr 0x5f17e40, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6332314, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_QUADRATIC_FALLOFF();
@@ -549,7 +549,7 @@ public:
   OVRVignette(OVRVignette const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8121 };
 
   /// [SerializeField]
   /// [HideInInspector]

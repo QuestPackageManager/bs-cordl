@@ -4,6 +4,7 @@
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__AngleUnit_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Angle_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AngleUnit_def.hpp"
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Angle (*)()>(&::UnityEngine::UIElements::Angle::None)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dda34c;
+  constexpr static std::size_t addrs = 0x7279608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Angle>(), { "None", {}, {} })));
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Angle::*)()>(&::UnityEngine::UIElements::Angle::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dda360;
+  constexpr static std::size_t addrs = 0x727961c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Angle>(), { "get_value", {}, {} })));
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Angle::*)(float_t)>(&::UnityEngine::UIElements::Angle::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dda368;
+  constexpr static std::size_t addrs = 0x7279624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Angle>(), { "set_value", {}, { ::i2c::type_of<float_t>() } })));
@@ -60,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::AngleUnit (::UnityEngine::UIElements::Angle::*)()>(&::UnityEngine::UIElements::Angle::get_unit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dda370;
+  constexpr static std::size_t addrs = 0x727962c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Angle>(), { "get_unit", {}, {} })));
@@ -72,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Angle::*)(::UnityEngine::UIElements::AngleUnit)>(&::UnityEngine::UIElements::Angle::set_unit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dda378;
+  constexpr static std::size_t addrs = 0x7279634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,12 +81,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::Angle.IsNone
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Angle::*)()>(&::UnityEngine::UIElements::Angle::IsNone)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x727963c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Angle>(), { "IsNone", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::Angle._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Angle::*)(float_t, ::UnityEngine::UIElements::AngleUnit)>(&::UnityEngine::UIElements::Angle::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dda380;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x727964c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Angle::*)(float_t, ::UnityEngine::UIElements::Angle_Unit)>(&::UnityEngine::UIElements::Angle::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dda354;
+  constexpr static std::size_t addrs = 0x7279610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Angle>(),
@@ -112,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Angle::*)()>(&::UnityEngine::UIElements::Angle::ToDegrees)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6dda38c;
+  constexpr static std::size_t addrs = 0x72796c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Angle>(), { "ToDegrees", {}, {} })));
@@ -123,8 +136,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Angle (*)(float_t)>(&::UnityEngine::UIElements::Angle::op_Implicit___UnityEngine__UIElements__Angle)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dda410;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x7279744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Angle>(), { "op_Implicit", {}, { ::i2c::type_of<float_t>() } })));
@@ -136,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Angle, ::UnityEngine::UIElements::Angle)>(&::UnityEngine::UIElements::Angle::op_Equality)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6dda418;
+  constexpr static std::size_t addrs = 0x7279760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,8 +162,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::U
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Angle, ::UnityEngine::UIElements::Angle)>(&::UnityEngine::UIElements::Angle::op_Inequality)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6dda438;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x7279780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,8 +176,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::U
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Angle::*)(::UnityEngine::UIElements::Angle)>(&::UnityEngine::UIElements::Angle::Equals)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6dda458;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x72797fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,8 +189,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Angle::*)(::System::Object*)>(&::UnityEngine::UIElements::Angle::Equals)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6dda47c;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x727987c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::Angle::*)()>(&::UnityEngine::UIElements::Angle::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6dda510;
+  constexpr static std::size_t addrs = 0x727990c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,8 +215,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::U
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::Angle::*)()>(&::UnityEngine::UIElements::Angle::ToString)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6dda534;
+  constexpr static std::size_t size = 0x248;
+  constexpr static std::size_t addrs = 0x7279930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,6 +224,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine:
     return ___internal_method;
   }
 };
+inline void UnityEngine::UIElements::Angle::setStaticF_s_AngleUnitLookup(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::AngleUnit>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::AngleUnit>*, "s_AngleUnitLookup", ::UnityEngine::UIElements::Angle>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::AngleUnit>*>(value));
+}
+inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::AngleUnit>* UnityEngine::UIElements::Angle::getStaticF_s_AngleUnitLookup() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::AngleUnit>*, "s_AngleUnitLookup", ::UnityEngine::UIElements::Angle>();
+}
 inline ::UnityEngine::UIElements::Angle UnityEngine::UIElements::Angle::None() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Angle>(), { "None", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Angle>(nullptr, ___internal_method);
@@ -231,6 +251,10 @@ inline void UnityEngine::UIElements::Angle::set_unit(::UnityEngine::UIElements::
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Angle>(), { "set_unit", {}, { ::i2c::type_of<::UnityEngine::UIElements::AngleUnit>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline bool UnityEngine::UIElements::Angle::IsNone() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Angle>(), { "IsNone", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
 inline void UnityEngine::UIElements::Angle::_ctor(float_t value, ::UnityEngine::UIElements::AngleUnit unit) {
   static auto* ___internal_method =
@@ -303,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dda904;
+  constexpr static std::size_t addrs = 0x7279f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty*>(),
@@ -317,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dda90c;
+  constexpr static std::size_t addrs = 0x7279f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty*>(),
@@ -330,8 +354,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty::*)(::by_ref<::UnityEngine::UIElements::Angle>)>(
     &::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty::GetValue)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dda914;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x7279fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty*>(),
@@ -344,8 +368,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty::*)(::by_ref<::UnityEngine::UIElements::Angle>, float_t)>(
     &::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty::SetValue)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dda91c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x7279ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty*>(),
@@ -358,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty::*)()>(&::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6dda83c;
+  constexpr static std::size_t addrs = 0x7279ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty*>(), { ".ctor", {}, {} })));
@@ -424,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dda924;
+  constexpr static std::size_t addrs = 0x727a05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty*>(),
@@ -438,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dda92c;
+  constexpr static std::size_t addrs = 0x727a064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty*>(),
@@ -451,8 +475,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::AngleUnit (::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty::*)(::by_ref<::UnityEngine::UIElements::Angle>)>(
     &::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty::GetValue)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dda934;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x727a06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty*>(),
@@ -465,8 +489,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty::*)(
     ::by_ref<::UnityEngine::UIElements::Angle>, ::UnityEngine::UIElements::AngleUnit)>(&::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty::SetValue)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dda93c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x727a0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty*>(),
@@ -479,7 +503,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty::*)()>(&::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6dda8a0;
+  constexpr static std::size_t addrs = 0x7279f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty*>(), { ".ctor", {}, {} })));
@@ -543,8 +567,8 @@ constexpr ::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty::PropertyBag
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Angle_PropertyBag::*)()>(&::UnityEngine::UIElements::Angle_PropertyBag::_ctor)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6dda728;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x7279db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Angle_PropertyBag*>(), { ".ctor", {}, {} })));

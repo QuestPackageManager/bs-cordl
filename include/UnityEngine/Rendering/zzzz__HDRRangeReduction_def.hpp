@@ -14,7 +14,7 @@ struct HDRRangeReduction;
 MARK_VAL_T(::UnityEngine::Rendering::HDRRangeReduction);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::HDRRangeReduction, "UnityEngine.Rendering", "HDRRangeReduction");
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\PostProcessing\\HDROutputDefines.cs")] Dependencies
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\PostProcessing\\HDROutputDefines.cs")] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.HDRRangeReduction
@@ -69,7 +69,7 @@ public:
   static ::UnityEngine::Rendering::HDRRangeReduction const Reinhard;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9036 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

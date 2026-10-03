@@ -38,10 +38,10 @@ public:
 
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x375fc04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e92e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beat, addr 0x375fd38, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_beat, addr 0x39e9418, size 0xc, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Method get_time, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -68,7 +68,7 @@ public:
   BeatmapSaveDataItem(BeatmapSaveDataItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15391 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15632 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

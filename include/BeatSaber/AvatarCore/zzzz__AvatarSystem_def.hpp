@@ -122,7 +122,7 @@ public:
   static inline ::BeatSaber::AvatarCore::AvatarSystem* New_ctor(::BeatSaber::AvatarCore::AvatarSystemIdentifier identifier, bool isFallbackSystem, bool selectableByUser, int32_t selectionSortOrder,
                                                                 ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* supportedOptionalAvatarDataTypes);
 
-  /// @brief Method RaiseAvatarDidChangeEvent, addr 0x326c67c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RaiseAvatarDidChangeEvent, addr 0x34f2474, size 0x1c, virtual false, abstract: false, final false
   inline void RaiseAvatarDidChangeEvent();
 
   /// @brief Method __GetRandomizedMultiplayerAvatarsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -164,30 +164,30 @@ public:
 
   constexpr void __cordl_internal_set_avatarDidChangeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x326c4e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34f22d8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::AvatarCore::AvatarSystemIdentifier identifier, bool isFallbackSystem, bool selectableByUser, int32_t selectionSortOrder,
                     ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* supportedOptionalAvatarDataTypes);
 
   /// [CompilerGenerated]
-  /// @brief Method add_avatarDidChangeEvent, addr 0x326c4f8, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_avatarDidChangeEvent, addr 0x34f22f0, size 0xac, virtual true, abstract: false, final true
   inline void add_avatarDidChangeEvent(::System::Action* value);
 
   /// @brief Method get_avatarCreated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<bool>* get_avatarCreated();
 
-  /// @brief Method get_isFallbackSystem, addr 0x326c664, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isFallbackSystem, addr 0x34f245c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isFallbackSystem();
 
-  /// @brief Method get_selectableByUser, addr 0x326c65c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_selectableByUser, addr 0x34f2454, size 0x8, virtual true, abstract: false, final true
   inline bool get_selectableByUser();
 
-  /// @brief Method get_selectionSortOrder, addr 0x326c66c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_selectionSortOrder, addr 0x34f2464, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_selectionSortOrder();
 
-  /// @brief Method get_supportedOptionalAvatarDataTypes, addr 0x326c674, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_supportedOptionalAvatarDataTypes, addr 0x34f246c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* get_supportedOptionalAvatarDataTypes();
 
-  /// @brief Method get_typeIdentifier, addr 0x326c650, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeIdentifier, addr 0x34f2448, size 0xc, virtual true, abstract: false, final true
   inline ::BeatSaber::AvatarCore::AvatarSystemIdentifier get_typeIdentifier();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarSystem"
@@ -197,7 +197,7 @@ public:
   constexpr ::BeatSaber::AvatarCore::IAvatarSystemMetadata* i___BeatSaber__AvatarCore__IAvatarSystemMetadata() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_avatarDidChangeEvent, addr 0x326c5a4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_avatarDidChangeEvent, addr 0x34f239c, size 0xac, virtual true, abstract: false, final true
   inline void remove_avatarDidChangeEvent(::System::Action* value);
 
 protected:
@@ -215,7 +215,7 @@ public:
   AvatarSystem(AvatarSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22364 };
 
   /// [CompilerGenerated]
   /// @brief Field avatarDidChangeEvent, offset: 0x10, size: 0x8, def value: None

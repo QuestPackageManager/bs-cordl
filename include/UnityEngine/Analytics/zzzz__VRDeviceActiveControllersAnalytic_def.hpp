@@ -14,8 +14,8 @@ class VRDeviceActiveControllersAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEngine::Analytics::VRDeviceActiveControllersAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Analytics::VRDeviceActiveControllersAnalytic*, "UnityEngine.Analytics", "VRDeviceActiveControllersAnalytic");
-// [ExcludeFromDocs]
 // [RequiredByNativeCode(GenerateProxy = true)]
+// [ExcludeFromDocs]
 // Dependencies UnityEngine.Analytics.VRDeviceAnalyticBase
 namespace UnityEngine::Analytics {
 // Is value type: false
@@ -27,7 +27,7 @@ public:
   __declspec(property(get = __cordl_internal_get_vr_active_controllers, put = __cordl_internal_set_vr_active_controllers)) ::ArrayW<::StringW> vr_active_controllers;
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreateVRDeviceActiveControllersAnalytic, addr 0x6e24bf4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateVRDeviceActiveControllersAnalytic, addr 0x72bfe20, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Analytics::VRDeviceActiveControllersAnalytic* CreateVRDeviceActiveControllersAnalytic();
 
   static inline ::UnityEngine::Analytics::VRDeviceActiveControllersAnalytic* New_ctor();
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set_vr_active_controllers(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x6e24c48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72bfe74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +56,7 @@ public:
   VRDeviceActiveControllersAnalytic(VRDeviceActiveControllersAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22998 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23280 };
 
   /// @brief Field vr_active_controllers, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::StringW> ___vr_active_controllers;

@@ -43,7 +43,7 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerContainer___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <IsDirectChild>b__0, addr 0x6802570, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <IsDirectChild>b__0, addr 0x6c310b4, size 0x70, virtual false, abstract: false, final false
   inline bool _IsDirectChild_b__0(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* x);
 
   constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> const& __cordl_internal_get_widget() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_widget(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> value);
 
-  /// @brief Method .ctor, addr 0x6802568, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c310ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   DebugUIHandlerContainer___c__DisplayClass3_0(DebugUIHandlerContainer___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12514 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9431 };
 
   /// @brief Field widget, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> ___widget;
@@ -95,16 +95,16 @@ public:
   /// @brief Field contentHolder, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_contentHolder, put = __cordl_internal_set_contentHolder)) ::UnityW<::UnityEngine::RectTransform> contentHolder;
 
-  /// @brief Method GetActiveChildren, addr 0x680215c, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method GetActiveChildren, addr 0x6c30ce0, size 0x3cc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget>>* GetActiveChildren();
 
-  /// @brief Method GetFirstItem, addr 0x67fefdc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetFirstItem, addr 0x6c2d908, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> GetFirstItem();
 
-  /// @brief Method GetLastItem, addr 0x67fece4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetLastItem, addr 0x6c2d610, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> GetLastItem();
 
-  /// @brief Method IsDirectChild, addr 0x67febdc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsDirectChild, addr 0x6c2d508, size 0x108, virtual false, abstract: false, final false
   inline bool IsDirectChild(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* widget);
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerContainer* New_ctor();
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_contentHolder(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x680256c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c310b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,7 +133,7 @@ public:
   DebugUIHandlerContainer(DebugUIHandlerContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12515 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9432 };
 
   /// [SerializeField]
   /// @brief Field contentHolder, offset: 0x20, size: 0x8, def value: None

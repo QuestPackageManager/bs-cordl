@@ -3,13 +3,14 @@
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__LODGroup_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/zzzz__LOD_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::LODGroup.get_localReferencePoint
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::LODGroup::*)()>(&::UnityEngine::LODGroup::get_localReferencePoint)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6aa6a68;
+  constexpr static std::size_t addrs = 0x6efc780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LODGroup*>(), { "get_localReferencePoint", {}, {} })));
@@ -21,10 +22,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::LODGroup::*)()>(&::UnityEngine::LODGroup::get_size)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6aa6b4c;
+  constexpr static std::size_t addrs = 0x6efc864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LODGroup*>(), { "get_size", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LODGroup.GetLODs
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::LOD> (::UnityEngine::LODGroup::*)()>(&::UnityEngine::LODGroup::GetLODs)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6efc920;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LODGroup*>(), { "GetLODs", {}, {} })));
     return ___internal_method;
   }
 };
@@ -33,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::LODGroup::get_localReferencePoint_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6aa6b08;
+  constexpr static std::size_t addrs = 0x6efc820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,11 +60,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::LODGroup::get_size_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6aa6bcc;
+  constexpr static std::size_t addrs = 0x6efc8e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LODGroup*>(), { "get_size_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LODGroup.GetLODs_Injected
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::LOD> (*)(::System::IntPtr)>(&::UnityEngine::LODGroup::GetLODs_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6efc9a0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LODGroup*>(), { "GetLODs_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
@@ -63,6 +89,10 @@ inline float_t UnityEngine::LODGroup::get_size() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LODGroup*>(), { "get_size", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
+inline ::ArrayW<::UnityEngine::LOD> UnityEngine::LODGroup::GetLODs() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LODGroup*>(), { "GetLODs", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::LOD>>(this, ___internal_method);
+}
 inline void UnityEngine::LODGroup::get_localReferencePoint_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LODGroup*>(),
@@ -73,6 +103,11 @@ inline float_t UnityEngine::LODGroup::get_size_Injected(::System::IntPtr _unity_
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LODGroup*>(), { "get_size_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, _unity_self);
+}
+inline ::ArrayW<::UnityEngine::LOD> UnityEngine::LODGroup::GetLODs_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LODGroup*>(), { "GetLODs_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::LOD>>(nullptr, ___internal_method, _unity_self);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::LODGroup::LODGroup() {}

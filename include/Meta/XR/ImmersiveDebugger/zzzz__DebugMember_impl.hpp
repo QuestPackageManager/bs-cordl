@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::DebugMember::*)(::Meta::XR::ImmersiveDebugger::DebugColor)>(
     &::Meta::XR::ImmersiveDebugger::DebugMember::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a59210;
+  constexpr static std::size_t addrs = 0x5e70b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::DebugMember::*)(::StringW)>(&::Meta::XR::ImmersiveDebugger::DebugMember::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5a592c4;
+  constexpr static std::size_t addrs = 0x5e70c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

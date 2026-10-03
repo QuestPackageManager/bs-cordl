@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::PositionInfo::*)()>(&::System::Xml::PositionInfo::HasLineInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62cdd24;
+  constexpr static std::size_t addrs = 0x66f5d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::PositionInfo*>(), { ::i2c::class_of<::System::Xml::PositionInfo*>(), 7 }));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::PositionInfo::*)()>(&::System::Xml::PositionInfo::get_LineNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62cdd2c;
+  constexpr static std::size_t addrs = 0x66f5d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::PositionInfo*>(), { ::i2c::class_of<::System::Xml::PositionInfo*>(), 8 }));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::PositionInfo::*)()>(&::System::Xml::PositionInfo::get_LinePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62cdd34;
+  constexpr static std::size_t addrs = 0x66f5d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::PositionInfo*>(), { ::i2c::class_of<::System::Xml::PositionInfo*>(), 9 }));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::PositionInfo* (*)(::System::Object*)>(&::System::Xml::PositionInfo::GetPositionInfo)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x62cdd3c;
+  constexpr static std::size_t addrs = 0x66f5d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::PositionInfo::*)()>(&::System::Xml::PositionInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62cdde8;
+  constexpr static std::size_t addrs = 0x66f5dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::PositionInfo*>(), { ".ctor", {}, {} })));

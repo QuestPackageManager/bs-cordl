@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::SingleArrayHelperWithString::*)(::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW, ::ArrayW<float_t>, int32_t,
                                                                                                                int32_t)>(&::System::Xml::SingleArrayHelperWithString::ReadArray)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60fe9ec;
+  constexpr static std::size_t addrs = 0x651af08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::SingleArrayHelperWithString::*)(::System::Xml::XmlDictionaryWriter*, ::StringW, ::StringW, ::StringW, ::ArrayW<float_t>,
                                                                                                             int32_t, int32_t)>(&::System::Xml::SingleArrayHelperWithString::WriteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60fea24;
+  constexpr static std::size_t addrs = 0x651af40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::SingleArrayHelperWithString::*)()>(&::System::Xml::SingleArrayHelperWithString::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60fea60;
+  constexpr static std::size_t addrs = 0x651af7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::SingleArrayHelperWithString*>(), { ".ctor", {}, {} })));

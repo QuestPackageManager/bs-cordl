@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ZenjectSafeBehaviour::*)()>(&::GlobalNamespace::ZenjectSafeBehaviour::Inject)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f5288c;
+  constexpr static std::size_t addrs = 0x636e928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ZenjectSafeBehaviour*>(), { "Inject", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ZenjectSafeBehaviour::*)()>(&::GlobalNamespace::ZenjectSafeBehaviour::OnEnable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f528cc;
+  constexpr static std::size_t addrs = 0x636e968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ZenjectSafeBehaviour*>(), { "OnEnable", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ZenjectSafeBehaviour::*)()>(&::GlobalNamespace::ZenjectSafeBehaviour::TryInvokeOnEnablePostInjection)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f528ac;
+  constexpr static std::size_t addrs = 0x636e948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ZenjectSafeBehaviour*>(), { "TryInvokeOnEnablePostInjection", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ZenjectSafeBehaviour::*)()>(&::GlobalNamespace::ZenjectSafeBehaviour::OnEnablePostInjection)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f528ec;
+  constexpr static std::size_t addrs = 0x636e988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ZenjectSafeBehaviour::*)()>(&::GlobalNamespace::ZenjectSafeBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f4222c;
+  constexpr static std::size_t addrs = 0x635d9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ZenjectSafeBehaviour*>(), { ".ctor", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::ArrayW<::System::Object*>)>(&::GlobalNamespace::ZenjectSafeBehaviour::__zenInjectMethod0)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5f528f0;
+  constexpr static std::size_t addrs = 0x636e98c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::GlobalNamespace::ZenjectSafeBehaviour::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x5f52994;
+  constexpr static std::size_t addrs = 0x636ea30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ZenjectSafeBehaviour*>(), { "__zenCreateInjectTypeInfo", {}, {} })));

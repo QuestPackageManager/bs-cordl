@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NoPauseGamePause::*)()>(&::GlobalNamespace::NoPauseGamePause::get_isPaused)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59b295c;
+  constexpr static std::size_t addrs = 0x5dcded8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoPauseGamePause*>(), { "get_isPaused", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)(::System::Action*)>(&::GlobalNamespace::NoPauseGamePause::add_didPauseEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59b2964;
+  constexpr static std::size_t addrs = 0x5dcdee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)(::System::Action*)>(&::GlobalNamespace::NoPauseGamePause::remove_didPauseEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59b2a10;
+  constexpr static std::size_t addrs = 0x5dcdf8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)(::System::Action*)>(&::GlobalNamespace::NoPauseGamePause::add_willResumeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59b2abc;
+  constexpr static std::size_t addrs = 0x5dce038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)(::System::Action*)>(&::GlobalNamespace::NoPauseGamePause::remove_willResumeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59b2b68;
+  constexpr static std::size_t addrs = 0x5dce0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)(::System::Action*)>(&::GlobalNamespace::NoPauseGamePause::add_didResumeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59b2c14;
+  constexpr static std::size_t addrs = 0x5dce190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)(::System::Action*)>(&::GlobalNamespace::NoPauseGamePause::remove_didResumeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59b2cc0;
+  constexpr static std::size_t addrs = 0x5dce23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)()>(&::GlobalNamespace::NoPauseGamePause::Pause)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x59b2d6c;
+  constexpr static std::size_t addrs = 0x5dce2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoPauseGamePause*>(), { "Pause", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)()>(&::GlobalNamespace::NoPauseGamePause::WillResume)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59b2d90;
+  constexpr static std::size_t addrs = 0x5dce30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoPauseGamePause*>(), { "WillResume", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)()>(&::GlobalNamespace::NoPauseGamePause::Resume)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59b2dac;
+  constexpr static std::size_t addrs = 0x5dce328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoPauseGamePause*>(), { "Resume", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)()>(&::GlobalNamespace::NoPauseGamePause::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59b2dcc;
+  constexpr static std::size_t addrs = 0x5dce348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoPauseGamePause*>(), { ".ctor", {}, {} })));

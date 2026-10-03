@@ -61,7 +61,7 @@ public:
 
   static inline ::GlobalNamespace::FlowCoordinatorAvatarsHelper___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <HasUserSelectedAvatarSystemWithCreatedAvatar>b__0, addr 0x5a08bd4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method <HasUserSelectedAvatarSystemWithCreatedAvatar>b__0, addr 0x5e242fc, size 0xc4, virtual false, abstract: false, final false
   inline bool _HasUserSelectedAvatarSystemWithCreatedAvatar_b__0(::BeatSaber::AvatarCore::IAvatarSystemMetadata* system);
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get_playerDataModel() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x5a08bd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e242f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,7 +88,7 @@ public:
   FlowCoordinatorAvatarsHelper___c__DisplayClass0_0(FlowCoordinatorAvatarsHelper___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6469 };
 
   /// @brief Field playerDataModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ___playerDataModel;
@@ -112,11 +112,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a08c98, size 0x418, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e243c0, size 0x418, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a090b0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e247d8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -136,7 +136,7 @@ public:
                                                                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6470 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -184,13 +184,13 @@ public:
   using __c__DisplayClass0_0 = ::GlobalNamespace::FlowCoordinatorAvatarsHelper___c__DisplayClass0_0;
 
   /// [AsyncStateMachine(typeof(FlowCoordinatorAvatarsHelper::<HasUserSelectedAvatarSystemWithCreatedAvatar>d__0))]
-  /// @brief Method HasUserSelectedAvatarSystemWithCreatedAvatar, addr 0x5a08ad4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method HasUserSelectedAvatarSystemWithCreatedAvatar, addr 0x5e241fc, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* HasUserSelectedAvatarSystemWithCreatedAvatar(::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection,
                                                                                                        ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
   static inline ::GlobalNamespace::FlowCoordinatorAvatarsHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5a08bcc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e242f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -208,7 +208,7 @@ public:
   FlowCoordinatorAvatarsHelper(FlowCoordinatorAvatarsHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6351 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6471 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

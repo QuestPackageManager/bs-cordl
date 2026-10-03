@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataTable* (::System::Data::DataTablePropertyDescriptor::*)()>(&::System::Data::DataTablePropertyDescriptor::get_Table)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60311b0;
+  constexpr static std::size_t addrs = 0x644d390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataTablePropertyDescriptor*>(), { "get_Table", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Data::DataTablePropertyDescriptor::*)()>(&::System::Data::DataTablePropertyDescriptor::get_ComponentType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x60311b8;
+  constexpr static std::size_t addrs = 0x644d398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataTablePropertyDescriptor::*)()>(&::System::Data::DataTablePropertyDescriptor::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6031218;
+  constexpr static std::size_t addrs = 0x644d3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Data::DataTablePropertyDescriptor::*)()>(&::System::Data::DataTablePropertyDescriptor::get_PropertyType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6031220;
+  constexpr static std::size_t addrs = 0x644d400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataTablePropertyDescriptor::*)(::System::Object*)>(&::System::Data::DataTablePropertyDescriptor::CanResetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6031280;
+  constexpr static std::size_t addrs = 0x644d460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::DataTablePropertyDescriptor::*)(::System::Object*)>(&::System::Data::DataTablePropertyDescriptor::GetValue)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6031288;
+  constexpr static std::size_t addrs = 0x644d468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTablePropertyDescriptor::*)(::System::Object*)>(&::System::Data::DataTablePropertyDescriptor::ResetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x603137c;
+  constexpr static std::size_t addrs = 0x644d55c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTablePropertyDescriptor::*)(::System::Object*, ::System::Object*)>(
     &::System::Data::DataTablePropertyDescriptor::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6031380;
+  constexpr static std::size_t addrs = 0x644d560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataTablePropertyDescriptor::*)(::System::Object*)>(&::System::Data::DataTablePropertyDescriptor::ShouldSerializeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6031384;
+  constexpr static std::size_t addrs = 0x644d564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

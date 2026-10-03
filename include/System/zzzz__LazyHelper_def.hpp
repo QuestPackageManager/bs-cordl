@@ -62,17 +62,20 @@ public:
   /// @brief Field _exceptionDispatch, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__exceptionDispatch, put = __cordl_internal_set__exceptionDispatch)) ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _exceptionDispatch;
 
-  /// @brief Method Create, addr 0x5c48db4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x60619b0, size 0x158, virtual false, abstract: false, final false
   static inline ::System::LazyHelper* Create(::System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor);
 
-  /// @brief Method CreateViaDefaultConstructor, addr 0x5c48f0c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CreateViaDefaultConstructor, addr 0x6061b08, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Object* CreateViaDefaultConstructor(::System::Type* type);
+
+  /// @brief Method GetModeFromIsThreadSafe, addr 0x6061bd8, size 0x10, virtual false, abstract: false, final false
+  static inline ::System::Threading::LazyThreadSafetyMode GetModeFromIsThreadSafe(bool isThreadSafe);
 
   static inline ::System::LazyHelper* New_ctor(::System::Threading::LazyThreadSafetyMode mode, ::System::Exception* exception);
 
   static inline ::System::LazyHelper* New_ctor(::System::LazyState state);
 
-  /// @brief Method ThrowException, addr 0x5c48d9c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ThrowException, addr 0x6061998, size 0x18, virtual false, abstract: false, final false
   inline void ThrowException();
 
   constexpr ::System::LazyState const& __cordl_internal_get__State_k__BackingField() const;
@@ -87,10 +90,10 @@ public:
 
   constexpr void __cordl_internal_set__exceptionDispatch(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
 
-  /// @brief Method .ctor, addr 0x5c48d64, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6061960, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::LazyThreadSafetyMode mode, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x5c48d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6061958, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::LazyState state);
 
   static inline ::System::LazyHelper* getStaticF_NoneViaConstructor();
@@ -104,7 +107,7 @@ public:
   static inline ::System::LazyHelper* getStaticF_PublicationOnlyWaitForOtherThreadToPublish();
 
   /// [CompilerGenerated]
-  /// @brief Method get_State, addr 0x5c48d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_State, addr 0x6061950, size 0x8, virtual false, abstract: false, final false
   inline ::System::LazyState get_State();
 
   static inline void setStaticF_NoneViaConstructor(::System::LazyHelper* value);

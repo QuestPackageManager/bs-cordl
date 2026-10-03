@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IntPtr_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HierarchyNodeTypeHandlerBaseEnumerable)
-namespace System::Buffers {
-template <typename T> class IMemoryOwner_1;
-}
 namespace System {
 class IDisposable;
 }
@@ -36,7 +35,7 @@ MARK_VAL_T(::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable);
 MARK_VAL_T(::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable, "Unity.Hierarchy", "HierarchyNodeTypeHandlerBaseEnumerable");
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator, "Unity.Hierarchy", "HierarchyNodeTypeHandlerBaseEnumerable/Enumerator");
-// Dependencies
+// Dependencies System.IntPtr
 namespace Unity::Hierarchy {
 // Is value type: true
 // CS Name: Unity.Hierarchy.HierarchyNodeTypeHandlerBaseEnumerable/Enumerator
@@ -48,16 +47,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6b37f20, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6f95aa4, size 0xf4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x6b38170, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x6f95ca4, size 0x1c, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method .ctor, addr 0x6b37c24, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f957d8, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Hierarchy::Hierarchy* hierarchy);
 
-  /// @brief Method get_Current, addr 0x6b37fc4, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6f95b98, size 0x10c, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyNodeTypeHandlerBase* get_Current();
 
   /// @brief Convert to "::System::IDisposable"
@@ -67,18 +66,18 @@ public:
   // @brief default ctor
   constexpr HierarchyNodeTypeHandlerBaseEnumerable_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Handlers", ty: "::System::Buffers::IMemoryOwner_1<::System::IntPtr>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Count", ty:
-  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
-  constexpr HierarchyNodeTypeHandlerBaseEnumerable_Enumerator(::System::Buffers::IMemoryOwner_1<::System::IntPtr>* m_Handlers, int32_t m_Count, int32_t m_Index) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Handlers", ty: "::ArrayW<::System::IntPtr>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
+  constexpr HierarchyNodeTypeHandlerBaseEnumerable_Enumerator(::ArrayW<::System::IntPtr> m_Handlers, int32_t m_Count, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22584 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field m_Handlers, offset: 0x0, size: 0x8, def value: None
-  ::System::Buffers::IMemoryOwner_1<::System::IntPtr>* m_Handlers;
+  ::ArrayW<::System::IntPtr> m_Handlers;
 
   /// @brief Field m_Count, offset: 0x8, size: 0x4, def value: None
   int32_t m_Count;
@@ -108,10 +107,10 @@ public:
   // Declarations
   using Enumerator = ::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator;
 
-  /// @brief Method GetEnumerator, addr 0x6b37bfc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6f957b0, size 0x28, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator GetEnumerator();
 
-  /// @brief Method .ctor, addr 0x6b37bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f957a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Hierarchy::Hierarchy* hierarchy);
 
   // Ctor Parameters []
@@ -122,7 +121,7 @@ public:
   constexpr HierarchyNodeTypeHandlerBaseEnumerable(::Unity::Hierarchy::Hierarchy* m_Hierarchy) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22585 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

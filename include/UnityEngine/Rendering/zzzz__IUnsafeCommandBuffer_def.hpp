@@ -4,8 +4,21 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IUnsafeCommandBuffer)
+namespace System {
+template <typename T> class Action_1;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace UnityEngine::Experimental::Rendering {
+struct GraphicsFormat;
+}
+namespace UnityEngine::Rendering {
+struct AsyncGPUReadbackRequest;
+}
 namespace UnityEngine::Rendering {
 class IBaseCommandBuffer;
 }
@@ -14,6 +27,9 @@ class IComputeCommandBuffer;
 }
 namespace UnityEngine::Rendering {
 class IRasterCommandBuffer;
+}
+namespace UnityEngine::Rendering {
+class RayTracingShader;
 }
 namespace UnityEngine::Rendering {
 struct RenderBufferLoadAction;
@@ -27,8 +43,29 @@ struct RenderTargetBinding;
 namespace UnityEngine::Rendering {
 struct RenderTargetIdentifier;
 }
+namespace UnityEngine::Rendering {
+struct RenderTextureSubElement;
+}
+namespace UnityEngine {
+class ComputeBuffer;
+}
+namespace UnityEngine {
+class ComputeShader;
+}
 namespace UnityEngine {
 struct CubemapFace;
+}
+namespace UnityEngine {
+class GraphicsBuffer;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+struct TextureFormat;
+}
+namespace UnityEngine {
+class Texture;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -55,6 +92,188 @@ public:
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
+
+  /// @brief Method ClearRandomWriteTargets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void ClearRandomWriteTargets();
+
+  /// @brief Method CopyTexture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void CopyTexture(::UnityEngine::Rendering::RenderTargetIdentifier src, ::UnityEngine::Rendering::RenderTargetIdentifier dst);
+
+  /// @brief Method CopyTexture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void CopyTexture(::UnityEngine::Rendering::RenderTargetIdentifier src, int32_t srcElement, ::UnityEngine::Rendering::RenderTargetIdentifier dst, int32_t dstElement);
+
+  /// @brief Method CopyTexture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void CopyTexture(::UnityEngine::Rendering::RenderTargetIdentifier src, int32_t srcElement, int32_t srcMip, ::UnityEngine::Rendering::RenderTargetIdentifier dst, int32_t dstElement,
+                          int32_t dstMip);
+
+  /// @brief Method CopyTexture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void CopyTexture(::UnityEngine::Rendering::RenderTargetIdentifier src, int32_t srcElement, int32_t srcMip, int32_t srcX, int32_t srcY, int32_t srcWidth, int32_t srcHeight,
+                          ::UnityEngine::Rendering::RenderTargetIdentifier dst, int32_t dstElement, int32_t dstMip, int32_t dstX, int32_t dstY);
+
+  /// @brief Method GenerateMips, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void GenerateMips(::UnityEngine::RenderTexture* rt);
+
+  /// @brief Method GenerateMips, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void GenerateMips(::UnityEngine::Rendering::RenderTargetIdentifier rt);
+
+  /// @brief Method RequestAsyncReadback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void RequestAsyncReadback(::UnityEngine::ComputeBuffer* src, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void RequestAsyncReadback(::UnityEngine::ComputeBuffer* src, int32_t size, int32_t offset, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void RequestAsyncReadback(::UnityEngine::GraphicsBuffer* src, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void RequestAsyncReadback(::UnityEngine::GraphicsBuffer* src, int32_t size, int32_t offset, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void RequestAsyncReadback(::UnityEngine::Texture* src, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void RequestAsyncReadback(::UnityEngine::Texture* src, int32_t mipIndex, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void RequestAsyncReadback(::UnityEngine::Texture* src, int32_t mipIndex, ::UnityEngine::Experimental::Rendering::GraphicsFormat dstFormat,
+                                   ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void RequestAsyncReadback(::UnityEngine::Texture* src, int32_t mipIndex, ::UnityEngine::TextureFormat dstFormat,
+                                   ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void RequestAsyncReadback(::UnityEngine::Texture* src, int32_t mipIndex, int32_t x, int32_t width, int32_t y, int32_t height, int32_t z, int32_t depth,
+                                   ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void RequestAsyncReadback(::UnityEngine::Texture* src, int32_t mipIndex, int32_t x, int32_t width, int32_t y, int32_t height, int32_t z, int32_t depth,
+                                   ::UnityEngine::Experimental::Rendering::GraphicsFormat dstFormat, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void RequestAsyncReadback(::UnityEngine::Texture* src, int32_t mipIndex, int32_t x, int32_t width, int32_t y, int32_t height, int32_t z, int32_t depth, ::UnityEngine::TextureFormat dstFormat,
+                                   ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::ComputeBuffer* src,
+                                                  ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::ComputeBuffer* src, int32_t size, int32_t offset,
+                                                  ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::GraphicsBuffer* src,
+                                                  ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::GraphicsBuffer* src, int32_t size, int32_t offset,
+                                                  ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src,
+                                                  ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex,
+                                                  ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex,
+                                                  ::UnityEngine::Experimental::Rendering::GraphicsFormat dstFormat, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex, ::UnityEngine::TextureFormat dstFormat,
+                                                  ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex, int32_t x, int32_t width, int32_t y,
+                                                  int32_t height, int32_t z, int32_t depth, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex, int32_t x, int32_t width, int32_t y,
+                                                  int32_t height, int32_t z, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat dstFormat,
+                                                  ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex, int32_t x, int32_t width, int32_t y,
+                                                  int32_t height, int32_t z, int32_t depth, ::UnityEngine::TextureFormat dstFormat,
+                                                  ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
+
+  /// @brief Method SetComputeTextureParam, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetComputeTextureParam(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, ::StringW name, ::UnityEngine::Rendering::RenderTargetIdentifier rt);
+
+  /// @brief Method SetComputeTextureParam, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetComputeTextureParam(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, ::StringW name, ::UnityEngine::Rendering::RenderTargetIdentifier rt, int32_t mipLevel);
+
+  /// @brief Method SetComputeTextureParam, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetComputeTextureParam(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, ::StringW name, ::UnityEngine::Rendering::RenderTargetIdentifier rt, int32_t mipLevel,
+                                     ::UnityEngine::Rendering::RenderTextureSubElement element);
+
+  /// @brief Method SetComputeTextureParam, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetComputeTextureParam(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t nameID, ::UnityEngine::Rendering::RenderTargetIdentifier rt);
+
+  /// @brief Method SetComputeTextureParam, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetComputeTextureParam(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t nameID, ::UnityEngine::Rendering::RenderTargetIdentifier rt, int32_t mipLevel);
+
+  /// @brief Method SetComputeTextureParam, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetComputeTextureParam(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t nameID, ::UnityEngine::Rendering::RenderTargetIdentifier rt, int32_t mipLevel,
+                                     ::UnityEngine::Rendering::RenderTextureSubElement element);
+
+  /// @brief Method SetGlobalTexture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetGlobalTexture(::StringW name, ::UnityEngine::Rendering::RenderTargetIdentifier value);
+
+  /// @brief Method SetGlobalTexture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetGlobalTexture(::StringW name, ::UnityEngine::Rendering::RenderTargetIdentifier value, ::UnityEngine::Rendering::RenderTextureSubElement element);
+
+  /// @brief Method SetGlobalTexture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetGlobalTexture(int32_t nameID, ::UnityEngine::Rendering::RenderTargetIdentifier value);
+
+  /// @brief Method SetGlobalTexture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetGlobalTexture(int32_t nameID, ::UnityEngine::Rendering::RenderTargetIdentifier value, ::UnityEngine::Rendering::RenderTextureSubElement element);
+
+  /// @brief Method SetRandomWriteTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetRandomWriteTarget(int32_t index, ::UnityEngine::ComputeBuffer* buffer);
+
+  /// @brief Method SetRandomWriteTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetRandomWriteTarget(int32_t index, ::UnityEngine::ComputeBuffer* buffer, bool preserveCounterValue);
+
+  /// @brief Method SetRandomWriteTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetRandomWriteTarget(int32_t index, ::UnityEngine::GraphicsBuffer* buffer);
+
+  /// @brief Method SetRandomWriteTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetRandomWriteTarget(int32_t index, ::UnityEngine::GraphicsBuffer* buffer, bool preserveCounterValue);
+
+  /// @brief Method SetRandomWriteTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetRandomWriteTarget(int32_t index, ::UnityEngine::Rendering::RenderTargetIdentifier rt);
+
+  /// @brief Method SetRayTracingTextureParam, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetRayTracingTextureParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name, ::UnityEngine::Rendering::RenderTargetIdentifier rt);
+
+  /// @brief Method SetRayTracingTextureParam, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetRayTracingTextureParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::Rendering::RenderTargetIdentifier rt);
 
   /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::UnityEngine::Rendering::RenderTargetBinding binding);
@@ -122,7 +341,7 @@ public:
   IUnsafeCommandBuffer(IUnsafeCommandBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8741 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

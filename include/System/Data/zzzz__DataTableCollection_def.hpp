@@ -80,81 +80,81 @@ public:
   /// @brief Field s_objectTypeCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_objectTypeCount, put = setStaticF_s_objectTypeCount)) int32_t s_objectTypeCount;
 
-  /// @brief Method Add, addr 0x602f6a8, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x644b888, size 0x278, virtual false, abstract: false, final false
   inline void Add(::System::Data::DataTable* table);
 
-  /// @brief Method ArrayAdd, addr 0x602fb1c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ArrayAdd, addr 0x644bcfc, size 0x20, virtual false, abstract: false, final false
   inline void ArrayAdd(::System::Data::DataTable* table);
 
-  /// @brief Method AssignName, addr 0x602fc24, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AssignName, addr 0x644be04, size 0x48, virtual false, abstract: false, final false
   inline ::StringW AssignName();
 
-  /// @brief Method BaseAdd, addr 0x602fa08, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method BaseAdd, addr 0x644bbe8, size 0x114, virtual false, abstract: false, final false
   inline void BaseAdd(::System::Data::DataTable* table);
 
-  /// @brief Method BaseGroupSwitch, addr 0x602ffbc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method BaseGroupSwitch, addr 0x644c19c, size 0x17c, virtual false, abstract: false, final false
   inline void BaseGroupSwitch(::ArrayW<::System::Data::DataTable*> oldArray, int32_t oldLength, ::ArrayW<::System::Data::DataTable*> newArray, int32_t newLength);
 
-  /// @brief Method BaseRemove, addr 0x6030138, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BaseRemove, addr 0x644c318, size 0x78, virtual false, abstract: false, final false
   inline void BaseRemove(::System::Data::DataTable* table);
 
-  /// @brief Method CanRemove, addr 0x60301b0, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method CanRemove, addr 0x644c390, size 0x45c, virtual false, abstract: false, final false
   inline bool CanRemove(::System::Data::DataTable* table, bool fThrowException);
 
-  /// @brief Method Clear, addr 0x6030720, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x644c900, size 0x2b0, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x602fd40, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x644bf20, size 0x18, virtual false, abstract: false, final false
   inline bool Contains(::StringW name);
 
-  /// @brief Method Contains, addr 0x6030b40, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x644cd20, size 0x128, virtual false, abstract: false, final false
   inline bool Contains(::StringW name, bool caseSensitive);
 
-  /// @brief Method Contains, addr 0x60309d0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x644cbb0, size 0x170, virtual false, abstract: false, final false
   inline bool Contains(::StringW name, ::StringW tableNamespace, bool checkProperty, bool caseSensitive);
 
-  /// @brief Method GetTable, addr 0x602f45c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetTable, addr 0x644b63c, size 0x118, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* GetTable(::StringW name, ::StringW ns);
 
-  /// @brief Method GetTableSmart, addr 0x602f574, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetTableSmart, addr 0x644b754, size 0x134, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* GetTableSmart(::StringW name, ::StringW ns);
 
-  /// @brief Method IndexOf, addr 0x6030c68, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x644ce48, size 0xe8, virtual false, abstract: false, final false
   inline int32_t IndexOf(::System::Data::DataTable* table);
 
-  /// @brief Method IndexOf, addr 0x6030d50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x644cf30, size 0x18, virtual false, abstract: false, final false
   inline int32_t IndexOf(::StringW tableName);
 
-  /// @brief Method IndexOf, addr 0x6030d68, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x644cf48, size 0x60, virtual false, abstract: false, final false
   inline int32_t IndexOf(::StringW tableName, ::StringW tableNamespace, bool chekforNull);
 
-  /// @brief Method InternalIndexOf, addr 0x602f108, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method InternalIndexOf, addr 0x644b2e8, size 0x1cc, virtual false, abstract: false, final false
   inline int32_t InternalIndexOf(::StringW tableName);
 
-  /// @brief Method InternalIndexOf, addr 0x602f2d4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method InternalIndexOf, addr 0x644b4b4, size 0x188, virtual false, abstract: false, final false
   inline int32_t InternalIndexOf(::StringW tableName, ::StringW tableNamespace);
 
-  /// @brief Method MakeName, addr 0x602fc6c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method MakeName, addr 0x644be4c, size 0xd4, virtual false, abstract: false, final false
   inline ::StringW MakeName(int32_t index);
 
   static inline ::System::Data::DataTableCollection* New_ctor(::System::Data::DataSet* dataSet);
 
-  /// @brief Method OnCollectionChanged, addr 0x602fb3c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnCollectionChanged, addr 0x644bd1c, size 0xe8, virtual false, abstract: false, final false
   inline void OnCollectionChanged(::System::ComponentModel::CollectionChangeEventArgs* ccevent);
 
-  /// @brief Method OnCollectionChanging, addr 0x602f920, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnCollectionChanging, addr 0x644bb00, size 0xe8, virtual false, abstract: false, final false
   inline void OnCollectionChanging(::System::ComponentModel::CollectionChangeEventArgs* ccevent);
 
-  /// @brief Method RegisterName, addr 0x602fd58, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method RegisterName, addr 0x644bf38, size 0x264, virtual false, abstract: false, final false
   inline void RegisterName(::StringW name, ::StringW tbNamespace);
 
-  /// @brief Method Remove, addr 0x6030e18, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x644cff8, size 0x1d8, virtual false, abstract: false, final false
   inline void Remove(::System::Data::DataTable* table);
 
-  /// @brief Method ReplaceFromInference, addr 0x6030dc8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReplaceFromInference, addr 0x644cfa8, size 0x50, virtual false, abstract: false, final false
   inline void ReplaceFromInference(::System::Collections::Generic::List_1<::System::Data::DataTable*>* tableList);
 
-  /// @brief Method UnregisterName, addr 0x603060c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method UnregisterName, addr 0x644c7ec, size 0x114, virtual false, abstract: false, final false
   inline void UnregisterName(::StringW name);
 
   constexpr ::System::Data::DataSet* const& __cordl_internal_get__dataSet() const;
@@ -199,24 +199,24 @@ public:
 
   constexpr void __cordl_internal_set__onCollectionChangingDelegate(::System::ComponentModel::CollectionChangeEventHandler* value);
 
-  /// @brief Method .ctor, addr 0x602ed58, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x644af38, size 0x160, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* dataSet);
 
   static inline int32_t getStaticF_s_objectTypeCount();
 
-  /// @brief Method get_Item, addr 0x602eec8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x644b0a8, size 0x140, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* get_Item(int32_t index);
 
-  /// @brief Method get_Item, addr 0x602f008, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x644b1e8, size 0x100, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* get_Item(::StringW name);
 
-  /// @brief Method get_Item, addr 0x6027958, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6443a8c, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* get_Item(::StringW name, ::StringW tableNamespace);
 
-  /// @brief Method get_List, addr 0x602eeb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_List, addr 0x644b098, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* get_List();
 
-  /// @brief Method get_ObjectID, addr 0x602eec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectID, addr 0x644b0a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ObjectID();
 
   static inline void setStaticF_s_objectTypeCount(int32_t value);
@@ -236,7 +236,7 @@ public:
   DataTableCollection(DataTableCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14032 };
 
   /// @brief Field _dataSet, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataSet* ____dataSet;

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (*)()>(&::System::Text::EncodingHelper::get_UTF8Unmarked)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x5aedfb0;
+  constexpr static std::size_t addrs = 0x5f05ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::EncodingHelper*>(), { "get_UTF8Unmarked", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<int32_t>)>(&::System::Text::EncodingHelper::InternalCodePage)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aee1a4;
+  constexpr static std::size_t addrs = 0x5f0609c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (*)()>(&::System::Text::EncodingHelper::GetDefaultEncoding)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5aeaf24;
+  constexpr static std::size_t addrs = 0x5f02e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::EncodingHelper*>(), { "GetDefaultEncoding", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::StringW, ::ArrayW<::System::Object*>)>(&::System::Text::EncodingHelper::InvokeI18N)> {
   constexpr static std::size_t size = 0x6cc;
-  constexpr static std::size_t addrs = 0x5ae9438;
+  constexpr static std::size_t addrs = 0x5f01330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

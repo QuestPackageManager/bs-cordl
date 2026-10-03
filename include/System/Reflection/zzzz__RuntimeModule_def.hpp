@@ -77,28 +77,28 @@ public:
   /// @brief Field token, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_token, put = __cordl_internal_set_token)) int32_t token;
 
-  /// @brief Method GetCustomAttributes, addr 0x5b8f9b8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x5fa790c, size 0x74, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x5b8f94c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x5fa78a0, size 0x6c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetGuidInternal, addr 0x5b8fc1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetGuidInternal, addr 0x5fa7b70, size 0x4, virtual false, abstract: false, final false
   static inline void GetGuidInternal(::System::IntPtr _cordl_module, ::ArrayW<uint8_t> guid);
 
-  /// @brief Method GetModuleVersionId, addr 0x5b8fbb0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetModuleVersionId, addr 0x5fa7b04, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Guid GetModuleVersionId();
 
-  /// @brief Method GetObjectData, addr 0x5b8faa0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x5fa79f4, size 0x94, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetRuntimeAssembly, addr 0x5b8fb34, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeAssembly, addr 0x5fa7a88, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Reflection::RuntimeAssembly* GetRuntimeAssembly();
 
-  /// @brief Method IsDefined, addr 0x5b8fa2c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x5fa7980, size 0x74, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method IsResource, addr 0x5b8f944, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsResource, addr 0x5fa7898, size 0x8, virtual true, abstract: false, final false
   inline bool IsResource();
 
   static inline ::System::Reflection::RuntimeModule* New_ctor();
@@ -145,16 +145,16 @@ public:
 
   constexpr void __cordl_internal_set_token(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5b8fc20, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fa7b74, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Assembly, addr 0x5b8f924, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Assembly, addr 0x5fa7878, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::Assembly* get_Assembly();
 
-  /// @brief Method get_ModuleVersionId, addr 0x5b8f934, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_ModuleVersionId, addr 0x5fa7888, size 0x10, virtual true, abstract: false, final false
   inline ::System::Guid get_ModuleVersionId();
 
-  /// @brief Method get_ScopeName, addr 0x5b8f92c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ScopeName, addr 0x5fa7880, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ScopeName();
 
 protected:

@@ -104,31 +104,31 @@ public:
   __declspec(property(get = __cordl_internal_get__sliderInteractionManagers,
                       put = __cordl_internal_set__sliderInteractionManagers)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* _sliderInteractionManagers;
 
-  /// @brief Method HandleNoteWasCut, addr 0x598ad40, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x5d9c374, size 0x19c, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method IsArcHapticsCurrentlyActive, addr 0x598b38c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsArcHapticsCurrentlyActive, addr 0x5d9c9bc, size 0x98, virtual false, abstract: false, final false
   inline bool IsArcHapticsCurrentlyActive(::GlobalNamespace::ColorType colorType);
 
   static inline ::GlobalNamespace::NoteCutCoreEffectsSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x598aca8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d9c2dc, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PlayHitChainNoteHapticEffect, addr 0x598b320, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PlayHitChainNoteHapticEffect, addr 0x5d9c950, size 0x6c, virtual false, abstract: false, final false
   inline void PlayHitChainNoteHapticEffect(::GlobalNamespace::NoteCutInfo noteCutInfo, bool isChainHead);
 
-  /// @brief Method PlayHitNoteHapticEffect, addr 0x598b1c8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method PlayHitNoteHapticEffect, addr 0x5d9c7fc, size 0x104, virtual false, abstract: false, final false
   inline void PlayHitNoteHapticEffect(::GlobalNamespace::NoteCutInfo noteCutInfo, ::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method SpawnBombCutEffect, addr 0x598b2cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SpawnBombCutEffect, addr 0x5d9c900, size 0x50, virtual false, abstract: false, final false
   inline void SpawnBombCutEffect(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method SpawnNoteCutEffect, addr 0x598aedc, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method SpawnNoteCutEffect, addr 0x5d9c510, size 0x2ec, virtual false, abstract: false, final false
   inline void SpawnNoteCutEffect(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController, int32_t sparkleParticlesCount,
                                  int32_t explosionParticlesCount);
 
-  /// @brief Method Start, addr 0x598ab04, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d9c138, size 0x1a4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -200,7 +200,7 @@ public:
 
   constexpr void __cordl_internal_set__sliderInteractionManagers(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* value);
 
-  /// @brief Method .ctor, addr 0x598bcfc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9d3c4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -218,7 +218,7 @@ public:
   NoteCutCoreEffectsSpawner(NoteCutCoreEffectsSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5880 };
 
   /// @brief Field kBurstSliderElementParticlesCount offset 0xffffffff size 0x4
   static constexpr int32_t kBurstSliderElementParticlesCount{ static_cast<int32_t>(0x14) };

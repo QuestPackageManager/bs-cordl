@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::T
     ::System::Xml::XmlDictionaryReader*, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<::System::TimeSpan>, int32_t, int32_t)>(
     &::System::Xml::TimeSpanArrayHelperWithDictionaryString::ReadArray)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60ff754;
+  constexpr static std::size_t addrs = 0x651bc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::TimeSpanArrayHelperWithDictionaryString*>(),
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Time
     ::System::Xml::XmlDictionaryWriter*, ::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<::System::TimeSpan>, int32_t, int32_t)>(
     &::System::Xml::TimeSpanArrayHelperWithDictionaryString::WriteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60ff78c;
+  constexpr static std::size_t addrs = 0x651bca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::TimeSpanArrayHelperWithDictionaryString*>(),
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::TimeSpanArrayHelperWithDictionaryString::*)()>(&::System::Xml::TimeSpanArrayHelperWithDictionaryString::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60ff7c8;
+  constexpr static std::size_t addrs = 0x651bce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::TimeSpanArrayHelperWithDictionaryString*>(), { ".ctor", {}, {} })));

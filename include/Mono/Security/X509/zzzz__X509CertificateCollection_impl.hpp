@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::X509::X509CertificateCollection_X509CertificateEnumerator::*)(::Mono::Security::X509::X509CertificateCollection*)>(
     &::Mono::Security::X509::X509CertificateCollection_X509CertificateEnumerator::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a9722c;
+  constexpr static std::size_t addrs = 0x5eaf110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::X509::X509CertificateCollection_X509CertificateEnumerator*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::X509::X509Certificate* (::Mono::Security::X509::X509CertificateCollection_X509CertificateEnumerator::*)()>(
     &::Mono::Security::X509::X509CertificateCollection_X509CertificateEnumerator::get_Current)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5a8ef8c;
+  constexpr static std::size_t addrs = 0x5ea6e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Mono::Security::X509::X509CertificateCollection_X509CertificateEnumerator::*)()>(
     &::Mono::Security::X509::X509CertificateCollection_X509CertificateEnumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5a9738c;
+  constexpr static std::size_t addrs = 0x5eaf270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::X509::X509CertificateCollection_X509CertificateEnumerator::*)()>(
     &::Mono::Security::X509::X509CertificateCollection_X509CertificateEnumerator::System_Collections_IEnumerator_MoveNext)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5a97434;
+  constexpr static std::size_t addrs = 0x5eaf318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::X509::X509CertificateCollection_X509CertificateEnumerator::*)()>(
     &::Mono::Security::X509::X509CertificateCollection_X509CertificateEnumerator::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5a974d8;
+  constexpr static std::size_t addrs = 0x5eaf3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::X509::X509CertificateCollection_X509CertificateEnumerator::*)()>(
     &::Mono::Security::X509::X509CertificateCollection_X509CertificateEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5a8f318;
+  constexpr static std::size_t addrs = 0x5ea71fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::X509::X509CertificateCollection::*)()>(&::Mono::Security::X509::X509CertificateCollection::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a8b86c;
+  constexpr static std::size_t addrs = 0x5ea3750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::X509::X509CertificateCollection*>(), { ".ctor", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::X509::X509Certificate* (::Mono::Security::X509::X509CertificateCollection::*)(int32_t)>(
     &::Mono::Security::X509::X509CertificateCollection::get_Item)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5a96f54;
+  constexpr static std::size_t addrs = 0x5eaee38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::X509::X509CertificateCollection::*)(::Mono::Security::X509::X509Certificate*)>(
     &::Mono::Security::X509::X509CertificateCollection::Add)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5a8ba0c;
+  constexpr static std::size_t addrs = 0x5ea38f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::X509::X509CertificateCollection::*)(::Mono::Security::X509::X509CertificateCollection*)>(
     &::Mono::Security::X509::X509CertificateCollection::AddRange)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5a96ff8;
+  constexpr static std::size_t addrs = 0x5eaeedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::X509::X509CertificateCollection*>(),
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::X509::X509CertificateCollection::*)(::Mono::Security::X509::X509Certificate*)>(
     &::Mono::Security::X509::X509CertificateCollection::Contains)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a970c8;
+  constexpr static std::size_t addrs = 0x5eaefac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::X509::X509CertificateCollection_X509CertificateEnumerator* (::Mono::Security::X509::X509CertificateCollection::*)()>(
     &::Mono::Security::X509::X509CertificateCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5a8ef30;
+  constexpr static std::size_t addrs = 0x5ea6e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::X509::X509CertificateCollection*>(), { "GetEnumerator", {}, {} })));
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Mono::Security::X509::X509CertificateCollection::*)()>(
     &::Mono::Security::X509::X509CertificateCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a972e0;
+  constexpr static std::size_t addrs = 0x5eaf1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::X509::X509CertificateCollection::*)()>(&::Mono::Security::X509::X509CertificateCollection::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a97300;
+  constexpr static std::size_t addrs = 0x5eaf1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::X509::X509CertificateCollection::*)(::Mono::Security::X509::X509Certificate*)>(
     &::Mono::Security::X509::X509CertificateCollection::IndexOf)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5a970e0;
+  constexpr static std::size_t addrs = 0x5eaefc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::X509::X509CertificateCollection::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Mono::Security::X509::X509CertificateCollection::Compare)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5a9731c;
+  constexpr static std::size_t addrs = 0x5eaf200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::X509::X509CertificateCollection*>(),

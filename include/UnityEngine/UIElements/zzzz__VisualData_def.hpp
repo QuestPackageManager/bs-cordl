@@ -14,11 +14,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualData)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+struct FilterFunction;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class IStyleDataGroup_1;
@@ -44,19 +50,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>*();
 
-  /// @brief Method Copy, addr 0x6c8fe08, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x70f21a8, size 0x17c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::VisualData Copy();
 
-  /// @brief Method CopyFrom, addr 0x6c8fe18, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x70f2324, size 0x160, virtual true, abstract: false, final true
   inline void CopyFrom(::by_ref<::UnityEngine::UIElements::VisualData> other);
 
-  /// @brief Method Equals, addr 0x6c901e4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x70f2860, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c90198, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x70f2814, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::VisualData other);
 
-  /// @brief Method GetHashCode, addr 0x6c90288, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x70f2904, size 0x3ec, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::VisualData>"
@@ -65,7 +71,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__VisualData_();
 
-  /// @brief Method op_Equality, addr 0x6c8fe20, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x70f2484, size 0x390, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::VisualData lhs, ::UnityEngine::UIElements::VisualData rhs);
 
   // Ctor Parameters []
@@ -81,20 +87,21 @@ public:
   // ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "borderLeftColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment:
   // None }, CppParam { name: "borderRightColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "borderTopColor", ty: "::UnityEngine::Color", modifiers:
   // "", def_value: None, comment: None }, CppParam { name: "borderTopLeftRadius", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "borderTopRightRadius", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "opacity", ty: "float_t", modifiers: "", def_value: None,
-  // comment: None }, CppParam { name: "overflow", ty: "::UnityEngine::UIElements::OverflowInternal", modifiers: "", def_value: None, comment: None }]
+  // "borderTopRightRadius", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "filter", ty:
+  // "::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "opacity", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "overflow", ty: "::UnityEngine::UIElements::OverflowInternal", modifiers: "", def_value: None, comment: None }]
   constexpr VisualData(::UnityEngine::Color backgroundColor, ::UnityEngine::UIElements::Background backgroundImage, ::UnityEngine::UIElements::BackgroundPosition backgroundPositionX,
                        ::UnityEngine::UIElements::BackgroundPosition backgroundPositionY, ::UnityEngine::UIElements::BackgroundRepeat backgroundRepeat,
                        ::UnityEngine::UIElements::BackgroundSize backgroundSize, ::UnityEngine::Color borderBottomColor, ::UnityEngine::UIElements::Length borderBottomLeftRadius,
                        ::UnityEngine::UIElements::Length borderBottomRightRadius, ::UnityEngine::Color borderLeftColor, ::UnityEngine::Color borderRightColor, ::UnityEngine::Color borderTopColor,
-                       ::UnityEngine::UIElements::Length borderTopLeftRadius, ::UnityEngine::UIElements::Length borderTopRightRadius, float_t opacity,
-                       ::UnityEngine::UIElements::OverflowInternal overflow) noexcept;
+                       ::UnityEngine::UIElements::Length borderTopLeftRadius, ::UnityEngine::UIElements::Length borderTopRightRadius,
+                       ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* filter, float_t opacity, ::UnityEngine::UIElements::OverflowInternal overflow) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5005 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd8 };
 
   /// @brief Field backgroundColor, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Color backgroundColor;
@@ -138,10 +145,13 @@ public:
   /// @brief Field borderTopRightRadius, offset: 0xbc, size: 0x8, def value: None
   ::UnityEngine::UIElements::Length borderTopRightRadius;
 
-  /// @brief Field opacity, offset: 0xc4, size: 0x4, def value: None
+  /// @brief Field filter, offset: 0xc8, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* filter;
+
+  /// @brief Field opacity, offset: 0xd0, size: 0x4, def value: None
   float_t opacity;
 
-  /// @brief Field overflow, offset: 0xc8, size: 0x4, def value: None
+  /// @brief Field overflow, offset: 0xd4, size: 0x4, def value: None
   ::UnityEngine::UIElements::OverflowInternal overflow;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -175,10 +185,12 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualData, borderTopLeftRadiu
 
 static_assert(offsetof(::UnityEngine::UIElements::VisualData, borderTopRightRadius) == 0xbc, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::VisualData, opacity) == 0xc4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualData, filter) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::VisualData, overflow) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualData, opacity) == 0xd0, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::VisualData) == 0xd0, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualData, overflow) == 0xd4, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::VisualData) == 0xd8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

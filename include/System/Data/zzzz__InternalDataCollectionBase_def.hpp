@@ -65,32 +65,32 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x601bc50, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x6437c48, size 0x48, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* ar, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x601bc98, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6437c90, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method NamesEqual, addr 0x601bccc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method NamesEqual, addr 0x6437cc4, size 0xa4, virtual false, abstract: false, final false
   inline int32_t NamesEqual(::StringW s1, ::StringW s2, bool fCaseSensitive, ::System::Globalization::CultureInfo* locale);
 
   static inline ::System::Data::InternalDataCollectionBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x601bd7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6437d74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ComponentModel::CollectionChangeEventArgs* getStaticF_s_refreshEventArgs();
 
-  /// @brief Method get_Count, addr 0x601bc24, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x6437c1c, size 0x2c, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x601bcc4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x6437cbc, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_List, addr 0x601bd74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_List, addr 0x6437d6c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* get_List();
 
-  /// @brief Method get_SyncRoot, addr 0x601bd70, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x6437d68, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -116,7 +116,7 @@ public:
   InternalDataCollectionBase(InternalDataCollectionBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13994 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

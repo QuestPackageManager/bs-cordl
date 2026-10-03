@@ -12,8 +12,8 @@ class GridLayout;
 // Write type traits
 MARK_REF_T(::UnityEngine::GridLayout*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::GridLayout*, "UnityEngine", "GridLayout");
-// [NativeType(Header = "Modules/Grid/Public/Grid.h")]
 // [NativeHeader("Modules/Grid/Public/GridMarshalling.h")]
+// [NativeType(Header = "Modules/Grid/Public/Grid.h")]
 // [RequireComponent(typeof(UnityEngine.Transform))]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
@@ -37,7 +37,7 @@ public:
   GridLayout(GridLayout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23980 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

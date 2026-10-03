@@ -47,26 +47,26 @@ public:
 
   constexpr void __cordl_internal_set__displayName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x69e994c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e26f74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x69e9950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e26f78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW buildSettingsKey);
 
   /// [CompilerGenerated]
-  /// @brief Method get_buildSettingsKey, addr 0x69e993c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildSettingsKey, addr 0x6e26f64, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_buildSettingsKey();
 
   /// [CompilerGenerated]
-  /// @brief Method get_displayName, addr 0x69e992c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x6e26f54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
   /// [CompilerGenerated]
-  /// @brief Method set_buildSettingsKey, addr 0x69e9944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buildSettingsKey, addr 0x6e26f6c, size 0x8, virtual false, abstract: false, final false
   inline void set_buildSettingsKey(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_displayName, addr 0x69e9934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x6e26f5c, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
 protected:
@@ -84,7 +84,7 @@ public:
   XRConfigurationDataAttribute(XRConfigurationDataAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23797 };
 
   /// [CompilerGenerated]
   /// @brief Field <displayName>k__BackingField, offset: 0x10, size: 0x8, def value: None

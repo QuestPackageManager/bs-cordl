@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 #include <cstdint>
@@ -21,7 +22,7 @@ class JobMerger;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UIR::JobMerger*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::JobMerger*, "UnityEngine.UIElements.UIR", "JobMerger");
-// Dependencies System.Object, Unity.Collections.NativeArray`1<T>, Unity.Jobs.JobHandle
+// Dependencies System.Object, Unity.Collections.MemoryLabel, Unity.Collections.NativeArray`1<T>, Unity.Jobs.JobHandle
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.JobMerger
@@ -33,6 +34,9 @@ public:
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
+  /// @brief Field k_MemoryLabel, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_k_MemoryLabel, put = setStaticF_k_MemoryLabel)) ::Unity::Collections::MemoryLabel k_MemoryLabel;
+
   /// @brief Field m_JobCount, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_JobCount, put = __cordl_internal_set_m_JobCount)) int32_t m_JobCount;
 
@@ -42,16 +46,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x6cde448, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x716cbe8, size 0x6c, virtual false, abstract: false, final false
   inline void Add(::Unity::Jobs::JobHandle job);
 
-  /// @brief Method Dispose, addr 0x6cde550, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x716d1e4, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6cde5b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x716d4bc, size 0x70, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method MergeAndReset, addr 0x6cde4b4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MergeAndReset, addr 0x716cc54, size 0x8c, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle MergeAndReset();
 
   static inline ::UnityEngine::UIElements::UIR::JobMerger* New_ctor(int32_t capacity);
@@ -74,18 +78,22 @@ public:
 
   constexpr void __cordl_internal_set_m_Jobs(::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle> value);
 
-  /// @brief Method .ctor, addr 0x6cde394, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x716d3c8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
+  static inline ::Unity::Collections::MemoryLabel getStaticF_k_MemoryLabel();
+
   /// [CompilerGenerated]
-  /// @brief Method get_disposed, addr 0x6cde540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x716d4ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  static inline void setStaticF_k_MemoryLabel(::Unity::Collections::MemoryLabel value);
+
   /// [CompilerGenerated]
-  /// @brief Method set_disposed, addr 0x6cde548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x716d4b4, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -103,7 +111,7 @@ public:
   JobMerger(JobMerger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5411 };
 
   /// @brief Field m_Jobs, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle> ___m_Jobs;
@@ -111,8 +119,8 @@ public:
   /// @brief Field m_JobCount, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_JobCount;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <disposed>k__BackingField, offset: 0x24, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

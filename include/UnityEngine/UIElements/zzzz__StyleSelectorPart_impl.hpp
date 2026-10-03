@@ -9,10 +9,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleSelectorPart::*)()>(&::UnityEngine::UIElements::StyleSelectorPart::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9b1b0;
+  constexpr static std::size_t addrs = 0x7113d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSelectorPart>(), { "get_value", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleSelectorPart.set_value
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSelectorPart::*)(::StringW)>(&::UnityEngine::UIElements::StyleSelectorPart::set_value)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7115bcc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSelectorPart>(), { "set_value", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
@@ -22,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleSelectorType (::UnityEngine::UIElements::StyleSelectorPart::*)()>(
     &::UnityEngine::UIElements::StyleSelectorPart::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9b1a8;
+  constexpr static std::size_t addrs = 0x7113654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSelectorPart>(), { "get_type", {}, {} })));
@@ -35,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSelectorPart::*)(::UnityEngine::UIElements::StyleSelectorType)>(
     &::UnityEngine::UIElements::StyleSelectorPart::set_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9bd18;
+  constexpr static std::size_t addrs = 0x7115bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,8 +61,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleSelectorPart::*)()>(&::UnityEngine::UIElements::StyleSelectorPart::ToString)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6c9bc00;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x7115b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleSelectorPart (*)(::StringW)>(&::UnityEngine::UIElements::StyleSelectorPart::CreateClass)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c9bd20;
+  constexpr static std::size_t addrs = 0x7115bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleSelectorPart (*)(::StringW)>(&::UnityEngine::UIElements::StyleSelectorPart::CreateId)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c9bd38;
+  constexpr static std::size_t addrs = 0x7115bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleSelectorPart (*)(::System::Object*)>(&::UnityEngine::UIElements::StyleSelectorPart::CreatePredicate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c9bd50;
+  constexpr static std::size_t addrs = 0x7115c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,6 +112,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 inline ::StringW UnityEngine::UIElements::StyleSelectorPart::get_value() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSelectorPart>(), { "get_value", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
+}
+inline void UnityEngine::UIElements::StyleSelectorPart::set_value(::StringW value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSelectorPart>(), { "set_value", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
 inline ::UnityEngine::UIElements::StyleSelectorType UnityEngine::UIElements::StyleSelectorPart::get_type() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSelectorPart>(), { "get_type", {}, {} })));

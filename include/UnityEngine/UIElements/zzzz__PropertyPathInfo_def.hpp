@@ -28,7 +28,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE PropertyPathInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c44dbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x708e168, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> propertyPath, ::System::Type* type);
 
   // Ctor Parameters []
@@ -40,7 +40,7 @@ public:
   constexpr PropertyPathInfo(::Unity::Properties::PropertyPath propertyPath, ::System::Type* type) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4053 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };

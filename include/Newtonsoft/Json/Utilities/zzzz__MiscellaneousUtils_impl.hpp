@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::StringW)>(&::Newtonsoft::Json::Utilities::MiscellaneousUtils::_cordl_Assert)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d2db98;
+  constexpr static std::size_t addrs = 0x614777c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*, ::System::Object*)>(&::Newtonsoft::Json::Utilities::MiscellaneousUtils::ValueEquals)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x5d2db9c;
+  constexpr static std::size_t addrs = 0x6147780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::MiscellaneousUtils*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ArgumentOutOfRangeException* (*)(::StringW, ::System::Object*, ::StringW)>(
     &::Newtonsoft::Json::Utilities::MiscellaneousUtils::CreateArgumentOutOfRangeException)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5d21f74;
+  constexpr static std::size_t addrs = 0x613bb58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Object*)>(&::Newtonsoft::Json::Utilities::MiscellaneousUtils::ToString)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5d2dea8;
+  constexpr static std::size_t addrs = 0x6147a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::Newtonsoft::Json::Utilities::MiscellaneousUtils::ByteArrayCompare)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5d2df50;
+  constexpr static std::size_t addrs = 0x6147b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::MiscellaneousUtils*>(),
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::Newtonsoft::Json::Utilities::MiscellaneousUtils::GetPrefix)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d2dfcc;
+  constexpr static std::size_t addrs = 0x6147bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::Newtonsoft::Json::Utilities::MiscellaneousUtils::GetLocalName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d2e084;
+  constexpr static std::size_t addrs = 0x6147c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::StringW>, ::by_ref<::StringW>)>(&::Newtonsoft::Json::Utilities::MiscellaneousUtils::GetQualifiedNameParts)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5d2dfec;
+  constexpr static std::size_t addrs = 0x6147bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::RegularExpressions::RegexOptions (*)(::StringW)>(&::Newtonsoft::Json::Utilities::MiscellaneousUtils::GetRegexOptions)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5d2e0a4;
+  constexpr static std::size_t addrs = 0x6147c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

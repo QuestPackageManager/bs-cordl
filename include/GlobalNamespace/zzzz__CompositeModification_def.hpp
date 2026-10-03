@@ -36,13 +36,13 @@ public:
 
   constexpr void __cordl_internal_set__flags(::GlobalNamespace::CompositeModificationFlags value);
 
-  /// @brief Method .ctor, addr 0x59932fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dae268, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_flags, addr 0x5993378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flags, addr 0x5dae2e0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CompositeModificationFlags get_flags();
 
-  /// @brief Method set_flags, addr 0x5993380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_flags, addr 0x5dae2e8, size 0x8, virtual false, abstract: false, final false
   inline void set_flags(::GlobalNamespace::CompositeModificationFlags value);
 
 protected:
@@ -60,7 +60,7 @@ public:
   CompositeModification(CompositeModification const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5951 };
 
   /// [SerializeField]
   /// @brief Field _flags, offset: 0x10, size: 0x4, def value: None

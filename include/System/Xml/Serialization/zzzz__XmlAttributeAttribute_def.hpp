@@ -54,7 +54,7 @@ public:
   /// @brief Field type, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  /// @brief Method AddKeyHash, addr 0x62f2e78, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x671ae58, size 0x130, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlAttributeAttribute* New_ctor(::StringW attributeName);
@@ -89,22 +89,22 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x62f2e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x671adf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW attributeName);
 
-  /// @brief Method get_AttributeName, addr 0x62f2e20, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeName, addr 0x671ae00, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_AttributeName();
 
-  /// @brief Method get_DataType, addr 0x62f2e40, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x671ae20, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_DataType();
 
-  /// @brief Method get_Form, addr 0x62f2e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Form, addr 0x671ae48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_Form();
 
-  /// @brief Method get_Namespace, addr 0x62f2e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x671ae50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method set_DataType, addr 0x62f2e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DataType, addr 0x671ae40, size 0x8, virtual false, abstract: false, final false
   inline void set_DataType(::StringW value);
 
 protected:
@@ -122,7 +122,7 @@ public:
   XmlAttributeAttribute(XmlAttributeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9502 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11467 };
 
   /// @brief Field attributeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___attributeName;

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)()>(
     &::UnityEngine::ResourceManagement::Util::ObjectInitializationData::get_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6917f54;
+  constexpr static std::size_t addrs = 0x6d40230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::Util::SerializedType (::UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)()>(
     &::UnityEngine::ResourceManagement::Util::ObjectInitializationData::get_ObjectType)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6917f5c;
+  constexpr static std::size_t addrs = 0x6d40238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)()>(
     &::UnityEngine::ResourceManagement::Util::ObjectInitializationData::get_Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6917f6c;
+  constexpr static std::size_t addrs = 0x6d40248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)()>(
     &::UnityEngine::ResourceManagement::Util::ObjectInitializationData::ToString)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6917f74;
+  constexpr static std::size_t addrs = 0x6d40250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (::UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)(
     ::UnityEngine::ResourceManagement::ResourceManager*, ::StringW)>(&::UnityEngine::ResourceManagement::Util::ObjectInitializationData::GetAsyncInitHandle)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x691802c;
+  constexpr static std::size_t addrs = 0x6d40308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

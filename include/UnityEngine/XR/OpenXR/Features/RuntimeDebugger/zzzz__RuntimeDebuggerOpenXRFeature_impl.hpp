@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature::*)(::System::IntPtr)>(
     &::UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature::HookGetInstanceProcAddr)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6a0e670;
+  constexpr static std::size_t addrs = 0x6e47ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature::*)(
     ::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(&::UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature::RecvMsg)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x6a0e8d0;
+  constexpr static std::size_t addrs = 0x6e48148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, uint32_t, uint32_t)>(
     &::UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature::Native_HookGetInstanceProcAddr)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6a0e83c;
+  constexpr static std::size_t addrs = 0x6e480b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::IntPtr>, ::by_ref<uint32_t>)>(
     &::UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature::Native_GetDataForRead)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6a0eb80;
+  constexpr static std::size_t addrs = 0x6e483f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>, ::by_ref<uint32_t>, uint32_t)>(
     &::UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature::Native_GetLUTData)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6a0eaec;
+  constexpr static std::size_t addrs = 0x6e48364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature::Native_StartDataAccess)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6a0e774;
+  constexpr static std::size_t addrs = 0x6e47fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature::Native_EndDataAccess)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6a0e7d8;
+  constexpr static std::size_t addrs = 0x6e48050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6a0ec0c;
+  constexpr static std::size_t addrs = 0x6e48484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

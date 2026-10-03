@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetAnimationPlayAutomatically::*)(::GlobalNamespace::DeterminismConfig*)>(
     &::GlobalNamespace::SetAnimationPlayAutomatically::Init)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x59888a0;
+  constexpr static std::size_t addrs = 0x5da755c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetAnimationPlayAutomatically::*)()>(&::GlobalNamespace::SetAnimationPlayAutomatically::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5988a2c;
+  constexpr static std::size_t addrs = 0x5da76e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetAnimationPlayAutomatically*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetAnimationPlayAutomatically::*)(bool)>(&::GlobalNamespace::SetAnimationPlayAutomatically::OnDeterminismSet)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5988afc;
+  constexpr static std::size_t addrs = 0x5da77b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetAnimationPlayAutomatically::*)()>(&::GlobalNamespace::SetAnimationPlayAutomatically::OnValidate)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5988b1c;
+  constexpr static std::size_t addrs = 0x5da77d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetAnimationPlayAutomatically*>(), { "OnValidate", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetAnimationPlayAutomatically::*)()>(&::GlobalNamespace::SetAnimationPlayAutomatically::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5988bb0;
+  constexpr static std::size_t addrs = 0x5da786c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetAnimationPlayAutomatically*>(), { ".ctor", {}, {} })));

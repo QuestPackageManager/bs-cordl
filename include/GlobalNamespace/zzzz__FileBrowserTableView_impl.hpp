@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>*)>(&::GlobalNamespace::FileBrowserTableView::add_didSelectRow)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5924034;
+  constexpr static std::size_t addrs = 0x5d3e738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>*)>(&::GlobalNamespace::FileBrowserTableView::remove_didSelectRow)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59240f4;
+  constexpr static std::size_t addrs = 0x5d3e7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(::ArrayW<::GlobalNamespace::FileBrowserItem*>)>(
     &::GlobalNamespace::FileBrowserTableView::Init)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x59241b4;
+  constexpr static std::size_t addrs = 0x5d3e8b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(::ArrayW<::GlobalNamespace::FileBrowserItem*>)>(
     &::GlobalNamespace::FileBrowserTableView::SetItems)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x59242c4;
+  constexpr static std::size_t addrs = 0x5d3e9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FileBrowserTableView::*)(::StringW)>(&::GlobalNamespace::FileBrowserTableView::SelectAndScrollRowToItemWithPath)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x592430c;
+  constexpr static std::size_t addrs = 0x5d3ea10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::FileBrowserTableView::*)(int32_t)>(&::GlobalNamespace::FileBrowserTableView::CellSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59243dc;
+  constexpr static std::size_t addrs = 0x5d3eae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::FileBrowserTableView::*)()>(&::GlobalNamespace::FileBrowserTableView::NumberOfCells)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59243e4;
+  constexpr static std::size_t addrs = 0x5d3eae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileBrowserTableView*>(), { "NumberOfCells", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::FileBrowserTableView::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::FileBrowserTableView::CellForIdx)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x59243fc;
+  constexpr static std::size_t addrs = 0x5d3eb00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::FileBrowserTableView::HandleDidSelectRowEvent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5924584;
+  constexpr static std::size_t addrs = 0x5d3ec88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileBrowserTableView*>(),
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(int32_t)>(&::GlobalNamespace::FileBrowserTableView::SelectAndScrollRow)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5924390;
+  constexpr static std::size_t addrs = 0x5d3ea94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(bool, bool)>(&::GlobalNamespace::FileBrowserTableView::ClearSelection)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x59245d4;
+  constexpr static std::size_t addrs = 0x5d3ecd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)()>(&::GlobalNamespace::FileBrowserTableView::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5924630;
+  constexpr static std::size_t addrs = 0x5d3ed34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileBrowserTableView*>(), { ".ctor", {}, {} })));

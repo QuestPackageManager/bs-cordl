@@ -24,5 +24,10 @@ constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements:
 constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::DisableRendering{ static_cast<int32_t>(0x4000) };
 constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::Needs3DBounds{ static_cast<int32_t>(0x8000) };
 constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::LocalBounds3DDirty{ static_cast<int32_t>(0x10000) };
-constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::DetachedDataSource{ static_cast<int32_t>(0x20000) };
-constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::Init{ static_cast<int32_t>(0x3003f) };
+constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::LocalBoundsWithoutNested3DDirty{ static_cast<int32_t>(0x20000) };
+constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::DetachedDataSource{ static_cast<int32_t>(0x40000) };
+constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::PointerCapture{ static_cast<int32_t>(0x80000) };
+constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::IsWorldSpaceRootUIDocument{ static_cast<int32_t>(0x100000) };
+constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::ReceivesHierarchyGeometryChangedEvents{ static_cast<int32_t>(0x200000) };
+constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::BoundingBoxDirtiedSinceLastLayoutPass{ static_cast<int32_t>(0x400000) };
+constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::Init{ static_cast<int32_t>(0x7003f) };

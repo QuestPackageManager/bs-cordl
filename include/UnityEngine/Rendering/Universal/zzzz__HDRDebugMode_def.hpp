@@ -14,7 +14,7 @@ struct HDRDebugMode;
 MARK_VAL_T(::UnityEngine::Rendering::Universal::HDRDebugMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::HDRDebugMode, "UnityEngine.Rendering.Universal", "HDRDebugMode");
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.universal@bd2aa618476e\\ShaderLibrary\\Debug\\DebugViewEnums.cs")] Dependencies
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.universal@8a9b4021522a\\ShaderLibrary\\Debug\\DebugViewEnums.cs")] Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.HDRDebugMode
@@ -61,7 +61,7 @@ public:
   static ::UnityEngine::Rendering::Universal::HDRDebugMode const ValuesAbovePaperWhite;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23480 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24185 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

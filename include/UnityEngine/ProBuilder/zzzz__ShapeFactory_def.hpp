@@ -37,10 +37,10 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::ProBuilder::Shapes::Shape*> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::UnityEngine::ProBuilder::PivotLocation pivotType);
 
-  /// @brief Method Instantiate, addr 0x66e9e04, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x6afe094, size 0x240, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method Instantiate, addr 0x66e9b9c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x6afde2c, size 0x268, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::System::Type* shapeType, ::UnityEngine::ProBuilder::PivotLocation pivotType);
 
 protected:
@@ -58,7 +58,7 @@ public:
   ShapeFactory(ShapeFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17328 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

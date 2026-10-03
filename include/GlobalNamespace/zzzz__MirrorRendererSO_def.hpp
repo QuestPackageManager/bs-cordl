@@ -66,19 +66,19 @@ public:
 
   __declspec(property(get = get_stereoTextureWidth)) int32_t stereoTextureWidth;
 
-  /// @brief Method Awake, addr 0x5f4b0ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6366894, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x5f4b0b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6366898, size 0x14, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::MirrorType mirrorType, ::UnityEngine::LayerMask reflectLayers, int32_t stereoTextureWidth, int32_t stereoTextureHeight, int32_t monoTextureWidth,
                    int32_t monoTextureHeight, int32_t maxAntiAliasing);
 
   static inline ::GlobalNamespace::MirrorRendererSO* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x5f4b010, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x63667f8, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method ValidateParams, addr 0x5f4b014, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ValidateParams, addr 0x63667fc, size 0x98, virtual false, abstract: false, final false
   inline void ValidateParams();
 
   constexpr int32_t const& __cordl_internal_get__antialiasing() const;
@@ -129,28 +129,28 @@ public:
 
   constexpr void __cordl_internal_set__stereoTextureWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5f4b0c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63668ac, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_antiAliasing, addr 0x5f4b008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_antiAliasing, addr 0x63667f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_antiAliasing();
 
-  /// @brief Method get_mirrorType, addr 0x5f4afd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirrorType, addr 0x63667c0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MirrorType get_mirrorType();
 
-  /// @brief Method get_monoTextureHeight, addr 0x5f4b000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_monoTextureHeight, addr 0x63667e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_monoTextureHeight();
 
-  /// @brief Method get_monoTextureWidth, addr 0x5f4aff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_monoTextureWidth, addr 0x63667e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_monoTextureWidth();
 
-  /// @brief Method get_reflectLayers, addr 0x5f4afe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectLayers, addr 0x63667c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_reflectLayers();
 
-  /// @brief Method get_stereoTextureHeight, addr 0x5f4aff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stereoTextureHeight, addr 0x63667d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_stereoTextureHeight();
 
-  /// @brief Method get_stereoTextureWidth, addr 0x5f4afe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stereoTextureWidth, addr 0x63667d0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_stereoTextureWidth();
 
 protected:
@@ -168,7 +168,7 @@ public:
   MirrorRendererSO(MirrorRendererSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21152 };
 
   /// @brief Field kWaterLayer offset 0xffffffff size 0x4
   static constexpr int32_t kWaterLayer{ static_cast<int32_t>(0x4) };

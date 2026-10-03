@@ -50,7 +50,7 @@ public:
   BaseStateTransition_1(BaseStateTransition_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22357 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23086 };
 
   /// [Space]
   /// [SerializeField]

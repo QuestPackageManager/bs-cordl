@@ -27,14 +27,14 @@ class CORDL_TYPE DateTimeExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method IsAfter, addr 0x330f1c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsAfter, addr 0x3597c88, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsAfter(::System::DateTime dateTime, ::System::DateTime other);
 
   /// [Extension]
-  /// @brief Method IsAfterOrDefault, addr 0x330f230, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsAfterOrDefault, addr 0x3597cf4, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsAfterOrDefault(::System::DateTime dateTime, ::StringW other, bool defaultValue);
 
-  /// @brief Method TryParse, addr 0x330f0fc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x3597bc0, size 0xc8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW value, ::by_ref<::System::DateTime> date);
 
 protected:
@@ -52,7 +52,7 @@ public:
   DateTimeExtensions(DateTimeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21264 };
 
   /// @brief Field kDateFormat offset 0xffffffff size 0x8
   static constexpr ::ConstString kDateFormat{ u"yyyy-MM-dd" };

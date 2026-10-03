@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::TextureGradient::*)()>(&::UnityEngine::Rendering::TextureGradient::get_textureSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c894c;
+  constexpr static std::size_t addrs = 0x6be6a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureGradient*>(), { "get_textureSize", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureGradient::*)(int32_t)>(&::UnityEngine::Rendering::TextureGradient::set_textureSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c8954;
+  constexpr static std::size_t addrs = 0x6be6a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::GradientColorKey> (::UnityEngine::Rendering::TextureGradient::*)()>(
     &::UnityEngine::Rendering::TextureGradient::get_colorKeys)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67c895c;
+  constexpr static std::size_t addrs = 0x6be6a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureGradient*>(), { "get_colorKeys", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::GradientAlphaKey> (::UnityEngine::Rendering::TextureGradient::*)()>(
     &::UnityEngine::Rendering::TextureGradient::get_alphaKeys)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67c8970;
+  constexpr static std::size_t addrs = 0x6be6a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureGradient*>(), { "get_alphaKeys", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureGradient::*)(::UnityEngine::Gradient*)>(&::UnityEngine::Rendering::TextureGradient::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x67c8984;
+  constexpr static std::size_t addrs = 0x6be6aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                            ::UnityEngine::GradientMode, ::UnityEngine::ColorSpace, int32_t, bool)>(
     &::UnityEngine::Rendering::TextureGradient::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67c8a5c;
+  constexpr static std::size_t addrs = 0x6be6b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                            ::UnityEngine::GradientMode, ::UnityEngine::ColorSpace, int32_t, bool)>(
     &::UnityEngine::Rendering::TextureGradient::Rebuild)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x67c8a74;
+  constexpr static std::size_t addrs = 0x6be6b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureGradient::*)()>(&::UnityEngine::Rendering::TextureGradient::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67c8e50;
+  constexpr static std::size_t addrs = 0x6be6f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureGradient*>(), { "Dispose", {}, {} })));
@@ -133,8 +133,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureGradient::*)()>(&::UnityEngine::Rendering::TextureGradient::Release)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x67c8e54;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6be6f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureGradient*>(), { "Release", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureGradient::*)()>(&::UnityEngine::Rendering::TextureGradient::SetDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67c8efc;
+  constexpr static std::size_t addrs = 0x6be7014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureGradient*>(), { "SetDirty", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)()>(&::UnityEngine::Rendering::TextureGradient::GetTextureFormat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c8f08;
+  constexpr static std::size_t addrs = 0x6be7020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureGradient*>(), { "GetTextureFormat", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::Rendering::TextureGradient::*)()>(&::UnityEngine::Rendering::TextureGradient::GetTexture)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x67c8f10;
+  constexpr static std::size_t addrs = 0x6be7028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureGradient*>(), { "GetTexture", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::Rendering::TextureGradient::*)(float_t)>(&::UnityEngine::Rendering::TextureGradient::Evaluate)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x67c91a4;
+  constexpr static std::size_t addrs = 0x6be72bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                            ::UnityEngine::GradientMode, ::UnityEngine::ColorSpace)>(
     &::UnityEngine::Rendering::TextureGradient::SetKeys)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x67c91dc;
+  constexpr static std::size_t addrs = 0x6be72f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

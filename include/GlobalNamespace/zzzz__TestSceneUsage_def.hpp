@@ -58,18 +58,18 @@ public:
 
   static inline ::GlobalNamespace::TestSceneUsage* New_ctor();
 
-  /// @brief Method Start, addr 0x5a3f3cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e56d68, size 0x54, virtual false, abstract: false, final false
   inline void Start();
 
   /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1)]
-  /// @brief Method TogglePassthrough, addr 0x5a3f66c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TogglePassthrough, addr 0x5e57008, size 0x4, virtual false, abstract: false, final false
   inline void TogglePassthrough();
 
   /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1)]
-  /// @brief Method TogglePassthroughStatic, addr 0x5a3f670, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method TogglePassthroughStatic, addr 0x5e5700c, size 0xa8, virtual false, abstract: false, final false
   static inline void TogglePassthroughStatic();
 
-  /// @brief Method Update, addr 0x5a3f420, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e56dbc, size 0x24c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__confidence() const;
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set_previousPassthroughEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x5a3f718, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e570b4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -138,7 +138,7 @@ public:
   TestSceneUsage(TestSceneUsage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18321 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18855 };
 
   /// @brief Field _eyeGazeComponent, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVREyeGaze> ____eyeGazeComponent;

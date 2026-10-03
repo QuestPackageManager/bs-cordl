@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Authenticode::PrivateKey::*)(::ArrayW<uint8_t>, ::StringW)>(&::Mono::Security::Authenticode::PrivateKey::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5aa7d2c;
+  constexpr static std::size_t addrs = 0x5ebfc10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RSA* (::Mono::Security::Authenticode::PrivateKey::*)()>(
     &::Mono::Security::Authenticode::PrivateKey::get_RSA)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aa8200;
+  constexpr static std::size_t addrs = 0x5ec00e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Authenticode::PrivateKey*>(), { "get_RSA", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Authenticode::PrivateKey::*)(::ArrayW<uint8_t>, ::StringW)>(
     &::Mono::Security::Authenticode::PrivateKey::DeriveKey)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5aa8208;
+  constexpr static std::size_t addrs = 0x5ec00ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Authenticode::PrivateKey::*)(::ArrayW<uint8_t>, ::StringW)>(&::Mono::Security::Authenticode::PrivateKey::Decode)> {
   constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x5aa7ddc;
+  constexpr static std::size_t addrs = 0x5ebfcc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Authenticode::PrivateKey* (*)(::StringW)>(&::Mono::Security::Authenticode::PrivateKey::CreateFromFile)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aa834c;
+  constexpr static std::size_t addrs = 0x5ec0230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Authenticode::PrivateKey* (*)(::StringW, ::StringW)>(&::Mono::Security::Authenticode::PrivateKey::CreateFromFile)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x5aa8354;
+  constexpr static std::size_t addrs = 0x5ec0238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

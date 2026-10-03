@@ -26,11 +26,11 @@ public:
   /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::JsonDictionaryAttribute* New_ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x5cd6efc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60f0ae0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x5cd6f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60f0ae4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
 protected:
@@ -48,7 +48,7 @@ public:
   JsonDictionaryAttribute(JsonDictionaryAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13253 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13492 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

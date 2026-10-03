@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSampledEventSender::*)(
     int32_t, float_t, ::System::Func_2<::GlobalNamespace::OVRTelemetryMarker, ::GlobalNamespace::OVRTelemetryMarker>*)>(&::GlobalNamespace::OVRSampledEventSender::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ede1c8;
+  constexpr static std::size_t addrs = 0x62f8670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSampledEventSender::*)()>(&::GlobalNamespace::OVRSampledEventSender::Send)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5ede1d8;
+  constexpr static std::size_t addrs = 0x62f8680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSampledEventSender*>(), { "Send", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSampledEventSender::*)()>(&::GlobalNamespace::OVRSampledEventSender::Start)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5ede34c;
+  constexpr static std::size_t addrs = 0x62f87f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSampledEventSender*>(), { "Start", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t)>(&::GlobalNamespace::OVRSampledEventSender::ShouldSendEvent)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5ede458;
+  constexpr static std::size_t addrs = 0x62f8900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

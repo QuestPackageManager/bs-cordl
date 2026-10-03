@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set_NullableFlags(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x331b7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x359fd58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method .ctor, addr 0x331b76c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x359fce0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(uint8_t _cordl_fixed_empty_name_whitespace);
 
 protected:
@@ -58,7 +58,7 @@ public:
   NullableAttribute(NullableAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23228 };
 
   /// @brief Field NullableFlags, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t> ___NullableFlags;

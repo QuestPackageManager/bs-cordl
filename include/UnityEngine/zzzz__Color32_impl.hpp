@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Color32::*)(uint8_t, uint8_t, uint8_t, uint8_t)>(&::UnityEngine::Color32::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6acb2cc;
+  constexpr static std::size_t addrs = 0x6f23cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color)>(&::UnityEngine::Color32::op_Implicit___UnityEngine__Color32)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x6acb2e0;
+  constexpr static std::size_t addrs = 0x6f23d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color32)>(&::UnityEngine::Color32::op_Implicit___UnityEngine__Color)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6acb5d0;
+  constexpr static std::size_t addrs = 0x6f24000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color32, ::UnityEngine::Color32, float_t)>(&::UnityEngine::Color32::Lerp)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6acb60c;
+  constexpr static std::size_t addrs = 0x6f2403c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::Color32::*)(int32_t)>(&::UnityEngine::Color32::get_Item)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6acb6f4;
+  constexpr static std::size_t addrs = 0x6f24124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Color32>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Color32::*)()>(&::UnityEngine::Color32::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6acb7c4;
+  constexpr static std::size_t addrs = 0x6f241f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Color32>(), { ::i2c::class_of<::UnityEngine::Color32>(), 2 }));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Color32::*)(::System::Object*)>(&::UnityEngine::Color32::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6acb7cc;
+  constexpr static std::size_t addrs = 0x6f241fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Color32>(), { ::i2c::class_of<::UnityEngine::Color32>(), 0 }));
@@ -101,10 +101,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Color32::*)(::UnityEngine::Color32)>(&::UnityEngine::Color32::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6acb848;
+  constexpr static std::size_t addrs = 0x6f24278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Color32>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Color32>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Color32.Equals
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Color32::*)(::by_ref<::UnityEngine::Color32>)>(&::UnityEngine::Color32::Equals)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6f24288;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Color32>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color32>>() } })));
     return ___internal_method;
   }
 };
@@ -113,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Color32::*)()>(&::UnityEngine::Color32::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6acb858;
+  constexpr static std::size_t addrs = 0x6f2429c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Color32>(), { ::i2c::class_of<::UnityEngine::Color32>(), 3 }));
@@ -125,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Color32::*)(::StringW, ::System::IFormatProvider*)>(&::UnityEngine::Color32::ToString)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6acb868;
+  constexpr static std::size_t addrs = 0x6f242ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,6 +227,11 @@ inline bool UnityEngine::Color32::Equals(::System::Object* other) {
 }
 inline bool UnityEngine::Color32::Equals(::UnityEngine::Color32 other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Color32>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Color32>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
+}
+inline bool UnityEngine::Color32::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Color32> other) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Color32>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color32>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline ::StringW UnityEngine::Color32::ToString() {

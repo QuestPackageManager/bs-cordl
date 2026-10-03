@@ -52,80 +52,80 @@ public:
   /// @brief Field kClickDelay, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kClickDelay, put = setStaticF_kClickDelay)) ::Unity::IntegerTime::DiscreteTime kClickDelay;
 
-  /// @brief Method OnButtonChange, addr 0x6b6014c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnButtonChange, addr 0x6fc0000, size 0xd8, virtual false, abstract: false, final false
   inline void OnButtonChange(::Unity::IntegerTime::DiscreteTime currentTime, ::UnityEngine::InputForUI::PointerEvent_Button button, bool previousState, bool newState);
 
-  /// @brief Method OnButtonDown, addr 0x6b5fe1c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method OnButtonDown, addr 0x6fbfcd0, size 0x15c, virtual false, abstract: false, final false
   inline void OnButtonDown(::Unity::IntegerTime::DiscreteTime currentTime, ::UnityEngine::InputForUI::PointerEvent_Button button);
 
-  /// @brief Method OnButtonUp, addr 0x6b5ff78, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnButtonUp, addr 0x6fbfe2c, size 0x90, virtual false, abstract: false, final false
   inline void OnButtonUp(::Unity::IntegerTime::DiscreteTime currentTime, ::UnityEngine::InputForUI::PointerEvent_Button button);
 
-  /// @brief Method OnMove, addr 0x6b6009c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnMove, addr 0x6fbff50, size 0x80, virtual false, abstract: false, final false
   inline void OnMove(::Unity::IntegerTime::DiscreteTime currentTime, ::UnityEngine::Vector2 position, int32_t displayIndex);
 
-  /// @brief Method Reset, addr 0x6b5dec0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6fbdd48, size 0xd8, virtual false, abstract: false, final false
   inline void Reset();
 
   static inline ::Unity::IntegerTime::DiscreteTime getStaticF_kClickDelay();
 
-  /// @brief Method get_ButtonsState, addr 0x6b60fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ButtonsState, addr 0x6fc0e70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::PointerEvent_ButtonsState get_ButtonsState();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_ClickCount, addr 0x6b60fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClickCount, addr 0x6fc0e88, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ClickCount();
 
-  /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_LastDisplayIndex, addr 0x6b60ff4, size 0x8, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_LastDisplayIndex, addr 0x6fc0ea8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LastDisplayIndex();
 
-  /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_LastPosition, addr 0x6b60fe4, size 0x8, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_LastPosition, addr 0x6fc0e98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_LastPosition();
 
-  /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_LastPositionValid, addr 0x6b61004, size 0x8, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_LastPositionValid, addr 0x6fc0eb8, size 0x8, virtual false, abstract: false, final false
   inline bool get_LastPositionValid();
 
-  /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_LastPressedButton, addr 0x6b60fac, size 0x8, virtual false, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method get_LastPressedButton, addr 0x6fc0e60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::PointerEvent_Button get_LastPressedButton();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_NextPressTime, addr 0x6b60fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextPressTime, addr 0x6fc0e78, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::IntegerTime::DiscreteTime get_NextPressTime();
 
   static inline void setStaticF_kClickDelay(::Unity::IntegerTime::DiscreteTime value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ClickCount, addr 0x6b60fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ClickCount, addr 0x6fc0e90, size 0x8, virtual false, abstract: false, final false
   inline void set_ClickCount(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_LastDisplayIndex, addr 0x6b60ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LastDisplayIndex, addr 0x6fc0eb0, size 0x8, virtual false, abstract: false, final false
   inline void set_LastDisplayIndex(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_LastPosition, addr 0x6b60fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LastPosition, addr 0x6fc0ea0, size 0x8, virtual false, abstract: false, final false
   inline void set_LastPosition(::UnityEngine::Vector2 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_LastPositionValid, addr 0x6b6100c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LastPositionValid, addr 0x6fc0ec0, size 0x8, virtual false, abstract: false, final false
   inline void set_LastPositionValid(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_LastPressedButton, addr 0x6b60fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LastPressedButton, addr 0x6fc0e68, size 0x8, virtual false, abstract: false, final false
   inline void set_LastPressedButton(::UnityEngine::InputForUI::PointerEvent_Button value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_NextPressTime, addr 0x6b60fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NextPressTime, addr 0x6fc0e80, size 0x8, virtual false, abstract: false, final false
   inline void set_NextPressTime(::Unity::IntegerTime::DiscreteTime value);
 
   // Ctor Parameters []
@@ -142,7 +142,7 @@ public:
                          int32_t _LastDisplayIndex_k__BackingField, bool _LastPositionValid_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22516 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -170,13 +170,13 @@ public:
   /// @brief Field <LastPosition>k__BackingField, offset: 0x14, size: 0x8, def value: None
   ::UnityEngine::Vector2 _LastPosition_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <LastDisplayIndex>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   int32_t _LastDisplayIndex_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <LastPositionValid>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool _LastPositionValid_k__BackingField;
 

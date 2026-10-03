@@ -26,7 +26,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyBlockFloatAnimator* New_ctor();
 
-  /// @brief Method SetProperty, addr 0x5872338, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x5c8850c, size 0x2c, virtual true, abstract: false, final false
   inline void SetProperty();
 
   constexpr float_t const& __cordl_internal_get__value() const;
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__value(float_t value);
 
-  /// @brief Method .ctor, addr 0x5872364, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c88538, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   MaterialPropertyBlockFloatAnimator(MaterialPropertyBlockFloatAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20002 };
 
   /// [Space]
   /// [SerializeField]

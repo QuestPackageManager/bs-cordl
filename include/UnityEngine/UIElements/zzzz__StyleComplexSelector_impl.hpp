@@ -14,14 +14,14 @@
 #include "UnityEngine/UIElements/zzzz__StyleRule_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSelectorPart_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSelector_def.hpp"
-#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData::*)(::UnityEngine::UIElements::PseudoStates, bool)>(
     &::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c9b194;
+  constexpr static std::size_t addrs = 0x7113d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData>(),
@@ -47,38 +47,38 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector___c::*)()>(&::UnityEngine::UIElements::StyleComplexSelector___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c9b9d0;
+  constexpr static std::size_t addrs = 0x71145ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::StyleComplexSelector___c._ToString_b__24_0
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleComplexSelector___c._ToString_b__23_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleComplexSelector___c::*)(::UnityEngine::UIElements::StyleSelector*)>(
-    &::UnityEngine::UIElements::StyleComplexSelector___c::_ToString_b__24_0)> {
+    &::UnityEngine::UIElements::StyleComplexSelector___c::_ToString_b__23_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c9b9d4;
+  constexpr static std::size_t addrs = 0x71145b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector___c*>(),
-                                                                                           { "<ToString>b__24_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSelector*>() } })));
+                                                                                           { "<ToString>b__23_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSelector*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::StyleComplexSelector___c._CalculateHashes_b__27_0
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleComplexSelector___c._CalculateHashes_b__26_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleComplexSelector___c::*)(::UnityEngine::UIElements::StyleSelectorPart)>(
-    &::UnityEngine::UIElements::StyleComplexSelector___c::_CalculateHashes_b__27_0)> {
+    &::UnityEngine::UIElements::StyleComplexSelector___c::_CalculateHashes_b__26_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c9b9f4;
+  constexpr static std::size_t addrs = 0x71145d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector___c*>(),
-                                                                                           { "<CalculateHashes>b__27_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSelectorPart>() } })));
+                                                                                           { "<CalculateHashes>b__26_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSelectorPart>() } })));
     return ___internal_method;
   }
 };
@@ -89,32 +89,32 @@ inline void UnityEngine::UIElements::StyleComplexSelector___c::setStaticF___9(::
 inline ::UnityEngine::UIElements::StyleComplexSelector___c* UnityEngine::UIElements::StyleComplexSelector___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::StyleComplexSelector___c*, "<>9", ::UnityEngine::UIElements::StyleComplexSelector___c*>();
 }
-inline void UnityEngine::UIElements::StyleComplexSelector___c::setStaticF___9__24_0(::System::Func_2<::UnityEngine::UIElements::StyleSelector*, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UIElements::StyleSelector*, ::StringW>*, "<>9__24_0", ::UnityEngine::UIElements::StyleComplexSelector___c*>(
+inline void UnityEngine::UIElements::StyleComplexSelector___c::setStaticF___9__23_0(::System::Func_2<::UnityEngine::UIElements::StyleSelector*, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UIElements::StyleSelector*, ::StringW>*, "<>9__23_0", ::UnityEngine::UIElements::StyleComplexSelector___c*>(
       std::forward<::System::Func_2<::UnityEngine::UIElements::StyleSelector*, ::StringW>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::UIElements::StyleSelector*, ::StringW>* UnityEngine::UIElements::StyleComplexSelector___c::getStaticF___9__24_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UIElements::StyleSelector*, ::StringW>*, "<>9__24_0", ::UnityEngine::UIElements::StyleComplexSelector___c*>();
+inline ::System::Func_2<::UnityEngine::UIElements::StyleSelector*, ::StringW>* UnityEngine::UIElements::StyleComplexSelector___c::getStaticF___9__23_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UIElements::StyleSelector*, ::StringW>*, "<>9__23_0", ::UnityEngine::UIElements::StyleComplexSelector___c*>();
 }
-inline void UnityEngine::UIElements::StyleComplexSelector___c::setStaticF___9__27_0(::System::Predicate_1<::UnityEngine::UIElements::StyleSelectorPart>* value) {
-  ::cordl_internals::setStaticField<::System::Predicate_1<::UnityEngine::UIElements::StyleSelectorPart>*, "<>9__27_0", ::UnityEngine::UIElements::StyleComplexSelector___c*>(
+inline void UnityEngine::UIElements::StyleComplexSelector___c::setStaticF___9__26_0(::System::Predicate_1<::UnityEngine::UIElements::StyleSelectorPart>* value) {
+  ::cordl_internals::setStaticField<::System::Predicate_1<::UnityEngine::UIElements::StyleSelectorPart>*, "<>9__26_0", ::UnityEngine::UIElements::StyleComplexSelector___c*>(
       std::forward<::System::Predicate_1<::UnityEngine::UIElements::StyleSelectorPart>*>(value));
 }
-inline ::System::Predicate_1<::UnityEngine::UIElements::StyleSelectorPart>* UnityEngine::UIElements::StyleComplexSelector___c::getStaticF___9__27_0() {
-  return ::cordl_internals::getStaticField<::System::Predicate_1<::UnityEngine::UIElements::StyleSelectorPart>*, "<>9__27_0", ::UnityEngine::UIElements::StyleComplexSelector___c*>();
+inline ::System::Predicate_1<::UnityEngine::UIElements::StyleSelectorPart>* UnityEngine::UIElements::StyleComplexSelector___c::getStaticF___9__26_0() {
+  return ::cordl_internals::getStaticField<::System::Predicate_1<::UnityEngine::UIElements::StyleSelectorPart>*, "<>9__26_0", ::UnityEngine::UIElements::StyleComplexSelector___c*>();
 }
 inline void UnityEngine::UIElements::StyleComplexSelector___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::StringW UnityEngine::UIElements::StyleComplexSelector___c::_ToString_b__24_0(::UnityEngine::UIElements::StyleSelector* x) {
+inline ::StringW UnityEngine::UIElements::StyleComplexSelector___c::_ToString_b__23_0(::UnityEngine::UIElements::StyleSelector* x) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector___c*>(),
-                                                                                         { "<ToString>b__24_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSelector*>() } })));
+                                                                                         { "<ToString>b__23_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSelector*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, x);
 }
-inline bool UnityEngine::UIElements::StyleComplexSelector___c::_CalculateHashes_b__27_0(::UnityEngine::UIElements::StyleSelectorPart p) {
+inline bool UnityEngine::UIElements::StyleComplexSelector___c::_CalculateHashes_b__26_0(::UnityEngine::UIElements::StyleSelectorPart p) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector___c*>(),
-                                                                                         { "<CalculateHashes>b__27_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSelectorPart>() } })));
+                                                                                         { "<CalculateHashes>b__26_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSelectorPart>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, p);
 }
 inline ::UnityEngine::UIElements::StyleComplexSelector___c* UnityEngine::UIElements::StyleComplexSelector___c::New_ctor() {
@@ -127,10 +127,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleComplexSelector::*)()>(&::UnityEngine::UIElements::StyleComplexSelector::get_specificity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9ab6c;
+  constexpr static std::size_t addrs = 0x7113678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "get_specificity", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleComplexSelector.set_specificity
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)(int32_t)>(&::UnityEngine::UIElements::StyleComplexSelector::set_specificity)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7113680;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "set_specificity", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -140,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleRule* (::UnityEngine::UIElements::StyleComplexSelector::*)()>(
     &::UnityEngine::UIElements::StyleComplexSelector::get_rule)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9ab74;
+  constexpr static std::size_t addrs = 0x7113688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "get_rule", {}, {} })));
@@ -153,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)(::UnityEngine::UIElements::StyleRule*)>(
     &::UnityEngine::UIElements::StyleComplexSelector::set_rule)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9ab7c;
+  constexpr static std::size_t addrs = 0x7113690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,8 +178,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleComplexSelector::*)()>(&::UnityEngine::UIElements::StyleComplexSelector::get_isSimple)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9ab84;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x7113698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "get_isSimple", {}, {} })));
@@ -179,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::UIElements::StyleSelector*> (::UnityEngine::UIElements::StyleComplexSelector::*)()>(
     &::UnityEngine::UIElements::StyleComplexSelector::get_selectors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9ab8c;
+  constexpr static std::size_t addrs = 0x71136b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "get_selectors", {}, {} })));
@@ -191,8 +204,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)(::ArrayW<::UnityEngine::UIElements::StyleSelector*>)>(
     &::UnityEngine::UIElements::StyleComplexSelector::set_selectors)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c9ab94;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x71136c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(),
@@ -200,40 +213,29 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::StyleComplexSelector.OnBeforeSerialize
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleComplexSelector._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)()>(&::UnityEngine::UIElements::StyleComplexSelector::OnBeforeSerialize)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c9abb8;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)()>(&::UnityEngine::UIElements::StyleComplexSelector::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x71136c8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "OnBeforeSerialize", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::StyleComplexSelector.OnAfterDeserialize
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)()>(&::UnityEngine::UIElements::StyleComplexSelector::OnAfterDeserialize)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c9abbc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { ::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), 6 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleComplexSelector.CachePseudoStateMasks
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)()>(&::UnityEngine::UIElements::StyleComplexSelector::CachePseudoStateMasks)> {
-  constexpr static std::size_t size = 0x5b4;
-  constexpr static std::size_t addrs = 0x6c9abe0;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)(::UnityEngine::UIElements::StyleSheet*)>(
+    &::UnityEngine::UIElements::StyleComplexSelector::CachePseudoStateMasks)> {
+  constexpr static std::size_t size = 0x614;
+  constexpr static std::size_t addrs = 0x7113768;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "CachePseudoStateMasks", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(),
+                                                                                           { "CachePseudoStateMasks", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheet*>() } })));
     return ___internal_method;
   }
 };
@@ -242,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleComplexSelector::*)()>(&::UnityEngine::UIElements::StyleComplexSelector::ToString)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6c9b1b8;
+  constexpr static std::size_t addrs = 0x7113d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -256,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::UIElements::StyleSelectorPart, ::UnityEngine::UIElements::StyleSelectorPart)>(
     &::UnityEngine::UIElements::StyleComplexSelector::StyleSelectorPartCompare)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c9b368;
+  constexpr static std::size_t addrs = 0x7113f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,22 +273,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)()>(&::UnityEngine::UIElements::StyleComplexSelector::CalculateHashes)> {
   constexpr static std::size_t size = 0x53c;
-  constexpr static std::size_t addrs = 0x6c9b3ac;
+  constexpr static std::size_t addrs = 0x7113f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "CalculateHashes", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::StyleComplexSelector._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)()>(&::UnityEngine::UIElements::StyleComplexSelector::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c9b8e8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
@@ -325,18 +315,6 @@ constexpr ::UnityEngine::UIElements::StyleRule* const& UnityEngine::UIElements::
 constexpr void UnityEngine::UIElements::StyleComplexSelector::__cordl_internal_set__rule_k__BackingField(::UnityEngine::UIElements::StyleRule* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rule_k__BackingField = value;
-}
-constexpr bool& UnityEngine::UIElements::StyleComplexSelector::__cordl_internal_get_m_isSimple() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_isSimple;
-}
-constexpr bool const& UnityEngine::UIElements::StyleComplexSelector::__cordl_internal_get_m_isSimple() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_isSimple;
-}
-constexpr void UnityEngine::UIElements::StyleComplexSelector::__cordl_internal_set_m_isSimple(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_isSimple = value;
 }
 constexpr ::ArrayW<::UnityEngine::UIElements::StyleSelector*>& UnityEngine::UIElements::StyleComplexSelector::__cordl_internal_get_m_Selectors() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -397,16 +375,21 @@ UnityEngine::UIElements::StyleComplexSelector::getStaticF_s_PseudoStates() {
   return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData>*, "s_PseudoStates",
                                            ::UnityEngine::UIElements::StyleComplexSelector*>();
 }
-inline void UnityEngine::UIElements::StyleComplexSelector::setStaticF_m_HashList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>*, "m_HashList", ::UnityEngine::UIElements::StyleComplexSelector*>(
+inline void UnityEngine::UIElements::StyleComplexSelector::setStaticF_s_HashList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>*, "s_HashList", ::UnityEngine::UIElements::StyleComplexSelector*>(
       std::forward<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>* UnityEngine::UIElements::StyleComplexSelector::getStaticF_m_HashList() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>*, "m_HashList", ::UnityEngine::UIElements::StyleComplexSelector*>();
+inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>* UnityEngine::UIElements::StyleComplexSelector::getStaticF_s_HashList() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>*, "s_HashList", ::UnityEngine::UIElements::StyleComplexSelector*>();
 }
 inline int32_t UnityEngine::UIElements::StyleComplexSelector::get_specificity() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "get_specificity", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::StyleComplexSelector::set_specificity(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "set_specificity", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::UnityEngine::UIElements::StyleRule* UnityEngine::UIElements::StyleComplexSelector::get_rule() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "get_rule", {}, {} })));
@@ -430,18 +413,14 @@ inline void UnityEngine::UIElements::StyleComplexSelector::set_selectors(::Array
                                                                                          { "set_selectors", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::UIElements::StyleSelector*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::UIElements::StyleComplexSelector::OnBeforeSerialize() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "OnBeforeSerialize", {}, {} })));
+inline void UnityEngine::UIElements::StyleComplexSelector::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::StyleComplexSelector::OnAfterDeserialize() {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), 6 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void UnityEngine::UIElements::StyleComplexSelector::CachePseudoStateMasks() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "CachePseudoStateMasks", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+inline void UnityEngine::UIElements::StyleComplexSelector::CachePseudoStateMasks(::UnityEngine::UIElements::StyleSheet* styleSheet) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(),
+                                                                                         { "CachePseudoStateMasks", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheet*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, styleSheet);
 }
 inline ::StringW UnityEngine::UIElements::StyleComplexSelector::ToString() {
   auto* ___internal_method =
@@ -459,20 +438,8 @@ inline void UnityEngine::UIElements::StyleComplexSelector::CalculateHashes() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "CalculateHashes", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::StyleComplexSelector::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
 inline ::UnityEngine::UIElements::StyleComplexSelector* UnityEngine::UIElements::StyleComplexSelector::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::StyleComplexSelector*>());
-}
-/// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
-constexpr UnityEngine::UIElements::StyleComplexSelector::operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept {
-  return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
-constexpr ::UnityEngine::ISerializationCallbackReceiver* UnityEngine::UIElements::StyleComplexSelector::i___UnityEngine__ISerializationCallbackReceiver() noexcept {
-  return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleComplexSelector::StyleComplexSelector() {}

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Net::HttpListener*)>(&::System::Net::EndPointManager::AddListener)> {
   constexpr static std::size_t size = 0x570;
-  constexpr static std::size_t addrs = 0x642fb3c;
+  constexpr static std::size_t addrs = 0x6857dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Net::HttpListener*)>(&::System::Net::EndPointManager::AddPrefix)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x64303dc;
+  constexpr static std::size_t addrs = 0x6858670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Net::HttpListener*)>(&::System::Net::EndPointManager::AddPrefixInternal)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x643014c;
+  constexpr static std::size_t addrs = 0x68583e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::EndPointListener* (*)(::StringW, int32_t, ::System::Net::HttpListener*, bool)>(&::System::Net::EndPointManager::GetEPListener)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x64304fc;
+  constexpr static std::size_t addrs = 0x6858790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Net::EndPointListener*, ::System::Net::IPEndPoint*)>(&::System::Net::EndPointManager::RemoveEndPoint)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x642edc4;
+  constexpr static std::size_t addrs = 0x6857058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Net::HttpListener*)>(&::System::Net::EndPointManager::RemoveListener)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x64308b4;
+  constexpr static std::size_t addrs = 0x6858b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Net::HttpListener*)>(&::System::Net::EndPointManager::RemovePrefix)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x64302bc;
+  constexpr static std::size_t addrs = 0x6858550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Net::HttpListener*)>(&::System::Net::EndPointManager::RemovePrefixInternal)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6430bec;
+  constexpr static std::size_t addrs = 0x6858e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

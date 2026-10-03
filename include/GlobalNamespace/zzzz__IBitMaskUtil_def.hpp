@@ -29,13 +29,13 @@ public:
     requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
   static inline T FromBytes(::ArrayW<uint8_t> bytes, int32_t offset);
 
-  /// @brief Method GetBase64Char, addr 0x377d7f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBase64Char, addr 0x3a07984, size 0x44, virtual false, abstract: false, final false
   static inline char16_t GetBase64Char(uint64_t digit);
 
-  /// @brief Method GetBase64Digit, addr 0x377d798, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetBase64Digit, addr 0x3a07928, size 0x5c, virtual false, abstract: false, final false
   static inline uint32_t GetBase64Digit(char16_t c);
 
-  /// @brief Method GetHexDigit, addr 0x377d760, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetHexDigit, addr 0x3a078f0, size 0x38, virtual false, abstract: false, final false
   static inline uint32_t GetHexDigit(char16_t c);
 
   /// [Extension]
@@ -81,7 +81,7 @@ public:
   IBitMaskUtil(IBitMaskUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21900 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

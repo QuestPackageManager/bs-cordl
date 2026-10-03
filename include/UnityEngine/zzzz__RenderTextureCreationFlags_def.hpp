@@ -35,6 +35,7 @@ public:
     __E_NoResolvedColorSurface = static_cast<int32_t>(0x100),
     __E_DynamicallyScalable = static_cast<int32_t>(0x400),
     __E_BindMS = static_cast<int32_t>(0x800),
+    __E_ShadingRate = static_cast<int32_t>(0x4000),
     __E_DynamicallyScalableExplicit = static_cast<int32_t>(0x20000),
   };
 
@@ -88,8 +89,11 @@ public:
   /// @brief Field SRGB value: I32(4)
   static ::UnityEngine::RenderTextureCreationFlags const SRGB;
 
+  /// @brief Field ShadingRate value: I32(16384)
+  static ::UnityEngine::RenderTextureCreationFlags const ShadingRate;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9785 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

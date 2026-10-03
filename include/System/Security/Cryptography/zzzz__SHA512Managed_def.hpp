@@ -37,45 +37,45 @@ public:
   /// @brief Field _stateSHA512, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__stateSHA512, put = __cordl_internal_set__stateSHA512)) ::ArrayW<uint64_t> _stateSHA512;
 
-  /// @brief Method Ch, addr 0x5b06af8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Ch, addr 0x5f1e9f0, size 0x10, virtual false, abstract: false, final false
   static inline uint64_t Ch(uint64_t x, uint64_t y, uint64_t z);
 
-  /// @brief Method HashCore, addr 0x5b0614c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x5f1e044, size 0x4, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x5b06308, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x5f1e200, size 0x4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> HashFinal();
 
-  /// @brief Method Initialize, addr 0x5b06108, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5f1e000, size 0x44, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeState, addr 0x5b06008, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method InitializeState, addr 0x5f1df00, size 0x100, virtual false, abstract: false, final false
   inline void InitializeState();
 
-  /// @brief Method Maj, addr 0x5b06b68, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Maj, addr 0x5f1ea60, size 0x14, virtual false, abstract: false, final false
   static inline uint64_t Maj(uint64_t x, uint64_t y, uint64_t z);
 
   static inline ::System::Security::Cryptography::SHA512Managed* New_ctor();
 
-  /// @brief Method RotateRight, addr 0x5b06b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RotateRight, addr 0x5f1ea74, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t RotateRight(uint64_t x, int32_t n);
 
-  /// @brief Method SHA512Expand, addr 0x5b069ec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SHA512Expand, addr 0x5f1e8e4, size 0xac, virtual false, abstract: false, final false
   static inline void SHA512Expand(uint64_t* x);
 
-  /// @brief Method SHATransform, addr 0x5b06490, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method SHATransform, addr 0x5f1e388, size 0x55c, virtual false, abstract: false, final false
   static inline void SHATransform(uint64_t* expandedBuffer, uint64_t* state, uint8_t* block);
 
-  /// @brief Method Sigma_0, addr 0x5b06b08, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Sigma_0, addr 0x5f1ea00, size 0x60, virtual false, abstract: false, final false
   static inline uint64_t Sigma_0(uint64_t x);
 
-  /// @brief Method Sigma_1, addr 0x5b06a98, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Sigma_1, addr 0x5f1e990, size 0x60, virtual false, abstract: false, final false
   static inline uint64_t Sigma_1(uint64_t x);
 
-  /// @brief Method _EndHash, addr 0x5b0630c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method _EndHash, addr 0x5f1e204, size 0x184, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> _EndHash();
 
-  /// @brief Method _HashData, addr 0x5b06150, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method _HashData, addr 0x5f1e048, size 0x1b8, virtual false, abstract: false, final false
   inline void _HashData(::ArrayW<uint8_t> partIn, int32_t ibStart, int32_t cbSize);
 
   constexpr ::ArrayW<uint64_t> const& __cordl_internal_get__W() const;
@@ -102,17 +102,17 @@ public:
 
   constexpr void __cordl_internal_set__stateSHA512(::ArrayW<uint64_t> value);
 
-  /// @brief Method .ctor, addr 0x5b05f3c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1de34, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint64_t> getStaticF__K();
 
   static inline void setStaticF__K(::ArrayW<uint64_t> value);
 
-  /// @brief Method sigma_0, addr 0x5b06b84, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method sigma_0, addr 0x5f1ea7c, size 0x60, virtual false, abstract: false, final false
   static inline uint64_t sigma_0(uint64_t x);
 
-  /// @brief Method sigma_1, addr 0x5b06be4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method sigma_1, addr 0x5f1eadc, size 0x60, virtual false, abstract: false, final false
   static inline uint64_t sigma_1(uint64_t x);
 
 protected:

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BitMask128::*)()>(&::GlobalNamespace::BitMask128::get_bitCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x377b6b0;
+  constexpr static std::size_t addrs = 0x3a05840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(), { "get_bitCount", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)()>(&::GlobalNamespace::BitMask128::get_maxValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x377b6b8;
+  constexpr static std::size_t addrs = 0x3a05848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(), { "get_maxValue", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BitMask128::*)(uint64_t, uint64_t)>(&::GlobalNamespace::BitMask128::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x377b6c4;
+  constexpr static std::size_t addrs = 0x3a05854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BitMask128::*)(uint64_t)>(&::GlobalNamespace::BitMask128::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x377b6cc;
+  constexpr static std::size_t addrs = 0x3a0585c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(), { ".ctor", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (::GlobalNamespace::BitMask128::*)(int32_t, uint64_t)>(&::GlobalNamespace::BitMask128::SetBits)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x377b6d4;
+  constexpr static std::size_t addrs = 0x3a05864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::GlobalNamespace::BitMask128::*)(int32_t, int32_t)>(&::GlobalNamespace::BitMask128::GetBits)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x377b73c;
+  constexpr static std::size_t addrs = 0x3a058cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::by_ref<::GlobalNamespace::BitMask128>, ::by_ref<::GlobalNamespace::BitMask128>)>(
     &::GlobalNamespace::BitMask128::op_BitwiseOr)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x377b7f0;
+  constexpr static std::size_t addrs = 0x3a05980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::by_ref<::GlobalNamespace::BitMask128>, ::by_ref<::GlobalNamespace::BitMask128>)>(
     &::GlobalNamespace::BitMask128::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x377b808;
+  constexpr static std::size_t addrs = 0x3a05998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::by_ref<::GlobalNamespace::BitMask128>, ::by_ref<::GlobalNamespace::BitMask128>)>(
     &::GlobalNamespace::BitMask128::op_ExclusiveOr)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x377b820;
+  constexpr static std::size_t addrs = 0x3a059b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::by_ref<::GlobalNamespace::BitMask128>, int32_t)>(&::GlobalNamespace::BitMask128::op_LeftShift)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x377b838;
+  constexpr static std::size_t addrs = 0x3a059c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::by_ref<::GlobalNamespace::BitMask128>, int32_t)>(&::GlobalNamespace::BitMask128::op_RightShift)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x377b86c;
+  constexpr static std::size_t addrs = 0x3a059fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::BitMask128>, ::by_ref<::GlobalNamespace::BitMask128>)>(&::GlobalNamespace::BitMask128::op_Equality)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x377b8a0;
+  constexpr static std::size_t addrs = 0x3a05a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::BitMask128>, ::by_ref<::GlobalNamespace::BitMask128>)>(&::GlobalNamespace::BitMask128::op_Inequality)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x377b8cc;
+  constexpr static std::size_t addrs = 0x3a05a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(uint64_t)>(&::GlobalNamespace::BitMask128::op_Implicit___GlobalNamespace__BitMask128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x377b8f8;
+  constexpr static std::size_t addrs = 0x3a05a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(), { "op_Implicit", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BitMask128::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::BitMask128::Serialize)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x377b904;
+  constexpr static std::size_t addrs = 0x3a05a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (::GlobalNamespace::BitMask128::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::BitMask128::CreateFromSerializedData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x377b944;
+  constexpr static std::size_t addrs = 0x3a05ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::BitMask128::Deserialize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x377b94c;
+  constexpr static std::size_t addrs = 0x3a05adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::BitMask128::*)()>(&::GlobalNamespace::BitMask128::ToString)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x377b9a4;
+  constexpr static std::size_t addrs = 0x3a05b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(), { ::i2c::class_of<::GlobalNamespace::BitMask128>(), 3 }));
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BitMask128::*)(::GlobalNamespace::BitMask128)>(&::GlobalNamespace::BitMask128::Equals)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x377ba30;
+  constexpr static std::size_t addrs = 0x3a05bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BitMask128::*)(::System::Object*)>(&::GlobalNamespace::BitMask128::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x377ba54;
+  constexpr static std::size_t addrs = 0x3a05be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(), { ::i2c::class_of<::GlobalNamespace::BitMask128>(), 0 }));
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BitMask128::*)()>(&::GlobalNamespace::BitMask128::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x377bae0;
+  constexpr static std::size_t addrs = 0x3a05c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(), { ::i2c::class_of<::GlobalNamespace::BitMask128>(), 2 }));

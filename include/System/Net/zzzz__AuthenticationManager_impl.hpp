@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Net::AuthenticationManager::EnsureModules)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x6427294;
+  constexpr static std::size_t addrs = 0x684f528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::AuthenticationManager*>(), { "EnsureModules", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::AuthenticationManager::Authenticate)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6427500;
+  constexpr static std::size_t addrs = 0x684f794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::AuthenticationManager::DoAuthenticate)> {
   constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x6427604;
+  constexpr static std::size_t addrs = 0x684f898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::AuthenticationManager::PreAuthenticate)> {
   constexpr static std::size_t size = 0x4cc;
-  constexpr static std::size_t addrs = 0x6427a84;
+  constexpr static std::size_t addrs = 0x684fd18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

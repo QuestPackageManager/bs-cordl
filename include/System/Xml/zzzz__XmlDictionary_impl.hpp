@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionary::*)()>(&::System::Xml::XmlDictionary::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x611fe64;
+  constexpr static std::size_t addrs = 0x6546f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionary*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionary::*)(int32_t)>(&::System::Xml::XmlDictionary::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x611ff00;
+  constexpr static std::size_t addrs = 0x654701c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionary*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -35,10 +35,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryString* (::System::Xml::XmlDictionary::*)(::StringW)>(&::System::Xml::XmlDictionary::Add)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x611ffc0;
+  constexpr static std::size_t addrs = 0x65470dc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionary*>(), { ::i2c::class_of<::System::Xml::XmlDictionary*>(), 5 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionary*>(), { ::i2c::class_of<::System::Xml::XmlDictionary*>(), 6 }));
     return ___internal_method;
   }
 };
@@ -47,10 +47,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionary::*)(int32_t, ::by_ref<::System::Xml::XmlDictionaryString*>)>(&::System::Xml::XmlDictionary::TryLookup)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x612031c;
+  constexpr static std::size_t addrs = 0x6547438;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionary*>(), { ::i2c::class_of<::System::Xml::XmlDictionary*>(), 6 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionary*>(), { ::i2c::class_of<::System::Xml::XmlDictionary*>(), 7 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlDictionary.TryLookup
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionary::*)(::System::Xml::XmlDictionaryString*, ::by_ref<::System::Xml::XmlDictionaryString*>)>(
+    &::System::Xml::XmlDictionary::TryLookup)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x654748c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionary*>(), { ::i2c::class_of<::System::Xml::XmlDictionary*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -99,12 +112,16 @@ inline void System::Xml::XmlDictionary::_ctor(int32_t capacity) {
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, capacity);
 }
 inline ::System::Xml::XmlDictionaryString* System::Xml::XmlDictionary::Add(::StringW value) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionary*>(), 5 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionary*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*>(this, ___internal_method, value);
 }
 inline bool System::Xml::XmlDictionary::TryLookup(int32_t key, ::by_ref<::System::Xml::XmlDictionaryString*> result) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionary*>(), 6 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionary*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key, result);
+}
+inline bool System::Xml::XmlDictionary::TryLookup(::System::Xml::XmlDictionaryString* value, ::by_ref<::System::Xml::XmlDictionaryString*> result) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionary*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, value, result);
 }
 inline ::System::Xml::XmlDictionary* System::Xml::XmlDictionary::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::XmlDictionary*>());

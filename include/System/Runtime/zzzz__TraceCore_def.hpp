@@ -62,106 +62,106 @@ public:
   /// @brief Field syncLock, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_syncLock, put = setStaticF_syncLock)) ::System::Object* syncLock;
 
-  /// @brief Method ActionItemCallbackInvokedIsEnabled, addr 0x6187324, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ActionItemCallbackInvokedIsEnabled, addr 0x65aee74, size 0x5c, virtual false, abstract: false, final false
   static inline bool ActionItemCallbackInvokedIsEnabled(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
-  /// @brief Method ActionItemScheduledIsEnabled, addr 0x6187380, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ActionItemScheduledIsEnabled, addr 0x65aeed0, size 0x5c, virtual false, abstract: false, final false
   static inline bool ActionItemScheduledIsEnabled(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
-  /// @brief Method AppDomainUnload, addr 0x6187fec, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method AppDomainUnload, addr 0x65afb3c, size 0x234, virtual false, abstract: false, final false
   static inline void AppDomainUnload(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, ::StringW appdomainName, ::StringW processName, ::StringW processId);
 
-  /// @brief Method AppDomainUnloadIsEnabled, addr 0x6187ea0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AppDomainUnloadIsEnabled, addr 0x65af9f0, size 0x8c, virtual false, abstract: false, final false
   static inline bool AppDomainUnloadIsEnabled(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
-  /// @brief Method CreateEventDescriptors, addr 0x6189a28, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method CreateEventDescriptors, addr 0x65b1578, size 0x234, virtual false, abstract: false, final false
   static inline void CreateEventDescriptors();
 
-  /// @brief Method EnsureEventDescriptors, addr 0x6189e00, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method EnsureEventDescriptors, addr 0x65b1950, size 0x150, virtual false, abstract: false, final false
   static inline void EnsureEventDescriptors();
 
-  /// @brief Method HandledException, addr 0x6186544, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method HandledException, addr 0x65ae094, size 0x228, virtual false, abstract: false, final false
   static inline void HandledException(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, ::StringW param0, ::System::Exception* exception);
 
-  /// @brief Method HandledExceptionError, addr 0x6185d28, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method HandledExceptionError, addr 0x65ad878, size 0x228, virtual false, abstract: false, final false
   static inline void HandledExceptionError(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, ::StringW param0, ::System::Exception* exception);
 
-  /// @brief Method HandledExceptionErrorIsEnabled, addr 0x6185c9c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandledExceptionErrorIsEnabled, addr 0x65ad7ec, size 0x8c, virtual false, abstract: false, final false
   static inline bool HandledExceptionErrorIsEnabled(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
-  /// @brief Method HandledExceptionIsEnabled, addr 0x61864b8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandledExceptionIsEnabled, addr 0x65ae008, size 0x8c, virtual false, abstract: false, final false
   static inline bool HandledExceptionIsEnabled(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
-  /// @brief Method HandledExceptionVerbose, addr 0x6186290, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method HandledExceptionVerbose, addr 0x65adde0, size 0x228, virtual false, abstract: false, final false
   static inline void HandledExceptionVerbose(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, ::StringW param0, ::System::Exception* exception);
 
-  /// @brief Method HandledExceptionVerboseIsEnabled, addr 0x6186204, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandledExceptionVerboseIsEnabled, addr 0x65add54, size 0x8c, virtual false, abstract: false, final false
   static inline bool HandledExceptionVerboseIsEnabled(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
-  /// @brief Method HandledExceptionWarning, addr 0x6185fdc, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method HandledExceptionWarning, addr 0x65adb2c, size 0x228, virtual false, abstract: false, final false
   static inline void HandledExceptionWarning(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, ::StringW param0, ::System::Exception* exception);
 
-  /// @brief Method HandledExceptionWarningIsEnabled, addr 0x6185f50, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandledExceptionWarningIsEnabled, addr 0x65adaa0, size 0x8c, virtual false, abstract: false, final false
   static inline bool HandledExceptionWarningIsEnabled(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
-  /// @brief Method IsEtwEventEnabled, addr 0x6187f2c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsEtwEventEnabled, addr 0x65afa7c, size 0xc0, virtual false, abstract: false, final false
   static inline bool IsEtwEventEnabled(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, int32_t eventIndex);
 
-  /// @brief Method ThrowingException, addr 0x61885c0, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ThrowingException, addr 0x65b0110, size 0x234, virtual false, abstract: false, final false
   static inline void ThrowingException(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, ::StringW param0, ::StringW param1, ::System::Exception* exception);
 
-  /// @brief Method ThrowingExceptionIsEnabled, addr 0x6188534, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ThrowingExceptionIsEnabled, addr 0x65b0084, size 0x8c, virtual false, abstract: false, final false
   static inline bool ThrowingExceptionIsEnabled(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
-  /// @brief Method TraceCodeEventLogCritical, addr 0x6188b34, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method TraceCodeEventLogCritical, addr 0x65b0684, size 0x268, virtual false, abstract: false, final false
   static inline void TraceCodeEventLogCritical(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, ::System::Runtime::Diagnostics::TraceRecord* traceRecord);
 
-  /// @brief Method TraceCodeEventLogCriticalIsEnabled, addr 0x6188aa8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TraceCodeEventLogCriticalIsEnabled, addr 0x65b05f8, size 0x8c, virtual false, abstract: false, final false
   static inline bool TraceCodeEventLogCriticalIsEnabled(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
-  /// @brief Method TraceCodeEventLogError, addr 0x6188ee4, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method TraceCodeEventLogError, addr 0x65b0a34, size 0x268, virtual false, abstract: false, final false
   static inline void TraceCodeEventLogError(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, ::System::Runtime::Diagnostics::TraceRecord* traceRecord);
 
-  /// @brief Method TraceCodeEventLogErrorIsEnabled, addr 0x6188e58, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TraceCodeEventLogErrorIsEnabled, addr 0x65b09a8, size 0x8c, virtual false, abstract: false, final false
   static inline bool TraceCodeEventLogErrorIsEnabled(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
-  /// @brief Method TraceCodeEventLogInfo, addr 0x61891d8, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method TraceCodeEventLogInfo, addr 0x65b0d28, size 0x268, virtual false, abstract: false, final false
   static inline void TraceCodeEventLogInfo(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, ::System::Runtime::Diagnostics::TraceRecord* traceRecord);
 
-  /// @brief Method TraceCodeEventLogInfoIsEnabled, addr 0x618914c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TraceCodeEventLogInfoIsEnabled, addr 0x65b0c9c, size 0x8c, virtual false, abstract: false, final false
   static inline bool TraceCodeEventLogInfoIsEnabled(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
-  /// @brief Method TraceCodeEventLogVerbose, addr 0x61894cc, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method TraceCodeEventLogVerbose, addr 0x65b101c, size 0x268, virtual false, abstract: false, final false
   static inline void TraceCodeEventLogVerbose(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, ::System::Runtime::Diagnostics::TraceRecord* traceRecord);
 
-  /// @brief Method TraceCodeEventLogVerboseIsEnabled, addr 0x6189440, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TraceCodeEventLogVerboseIsEnabled, addr 0x65b0f90, size 0x8c, virtual false, abstract: false, final false
   static inline bool TraceCodeEventLogVerboseIsEnabled(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
-  /// @brief Method TraceCodeEventLogWarning, addr 0x61897c0, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method TraceCodeEventLogWarning, addr 0x65b1310, size 0x268, virtual false, abstract: false, final false
   static inline void TraceCodeEventLogWarning(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, ::System::Runtime::Diagnostics::TraceRecord* traceRecord);
 
-  /// @brief Method TraceCodeEventLogWarningIsEnabled, addr 0x6189734, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TraceCodeEventLogWarningIsEnabled, addr 0x65b1284, size 0x8c, virtual false, abstract: false, final false
   static inline bool TraceCodeEventLogWarningIsEnabled(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
-  /// @brief Method UnhandledException, addr 0x6188880, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method UnhandledException, addr 0x65b03d0, size 0x228, virtual false, abstract: false, final false
   static inline void UnhandledException(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, ::StringW param0, ::System::Exception* exception);
 
-  /// @brief Method UnhandledExceptionIsEnabled, addr 0x61887f4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UnhandledExceptionIsEnabled, addr 0x65b0344, size 0x8c, virtual false, abstract: false, final false
   static inline bool UnhandledExceptionIsEnabled(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
-  /// @brief Method WriteEtwEvent, addr 0x6188d9c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method WriteEtwEvent, addr 0x65b08ec, size 0xbc, virtual false, abstract: false, final false
   static inline bool WriteEtwEvent(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, int32_t eventIndex, ::System::Runtime::Diagnostics::EventTraceActivity* eventParam0,
                                    ::StringW eventParam1, ::StringW eventParam2);
 
-  /// @brief Method WriteEtwEvent, addr 0x6188468, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method WriteEtwEvent, addr 0x65affb8, size 0xcc, virtual false, abstract: false, final false
   static inline bool WriteEtwEvent(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, int32_t eventIndex, ::System::Runtime::Diagnostics::EventTraceActivity* eventParam0,
                                    ::StringW eventParam1, ::StringW eventParam2, ::StringW eventParam3);
 
-  /// @brief Method WriteEtwEvent, addr 0x6188258, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method WriteEtwEvent, addr 0x65afda8, size 0xd4, virtual false, abstract: false, final false
   static inline bool WriteEtwEvent(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, int32_t eventIndex, ::System::Runtime::Diagnostics::EventTraceActivity* eventParam0,
                                    ::StringW eventParam1, ::StringW eventParam2, ::StringW eventParam3, ::StringW eventParam4);
 
-  /// @brief Method WriteTraceSource, addr 0x618839c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method WriteTraceSource, addr 0x65afeec, size 0xcc, virtual false, abstract: false, final false
   static inline void WriteTraceSource(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace, int32_t eventIndex, ::StringW description, ::System::Runtime::TracePayload payload);
 
   static inline ::ArrayW<::System::Runtime::Diagnostics::EventDescriptor> getStaticF_eventDescriptors();
@@ -174,10 +174,10 @@ public:
 
   static inline ::System::Object* getStaticF_syncLock();
 
-  /// @brief Method get_Culture, addr 0x6187e44, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Culture, addr 0x65af994, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* get_Culture();
 
-  /// @brief Method get_ResourceManager, addr 0x6187d04, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceManager, addr 0x65af854, size 0x140, virtual false, abstract: false, final false
   static inline ::System::Resources::ResourceManager* get_ResourceManager();
 
   static inline void setStaticF_eventDescriptors(::ArrayW<::System::Runtime::Diagnostics::EventDescriptor> value);
@@ -205,7 +205,7 @@ public:
   TraceCore(TraceCore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22033 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

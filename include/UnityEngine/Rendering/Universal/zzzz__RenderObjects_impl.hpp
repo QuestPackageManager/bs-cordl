@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RenderObjects_RenderObjectsSettings::*)()>(
     &::UnityEngine::Rendering::Universal::RenderObjects_RenderObjectsSettings::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x68af8a0;
+  constexpr static std::size_t addrs = 0x6ce9068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RenderObjects_FilterSettings::*)()>(
     &::UnityEngine::Rendering::Universal::RenderObjects_FilterSettings::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68af990;
+  constexpr static std::size_t addrs = 0x6ce9158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings::*)()>(
     &::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68af998;
+  constexpr static std::size_t addrs = 0x6ce9160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -348,12 +348,12 @@ constexpr ::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSetting
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RenderObjects::*)()>(&::UnityEngine::Rendering::Universal::RenderObjects::Create)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x68af5e0;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x6ce8da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderObjects*>(), { ::i2c::class_of<::UnityEngine::Rendering::Universal::RenderObjects*>(), 5 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderObjects*>(), { ::i2c::class_of<::UnityEngine::Rendering::Universal::RenderObjects*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -363,20 +363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RenderObjects::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::RenderObjects::AddRenderPasses)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x68af780;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderObjects*>(), { ::i2c::class_of<::UnityEngine::Rendering::Universal::RenderObjects*>(), 7 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::RenderObjects.SupportsNativeRenderPass
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::RenderObjects::*)()>(&::UnityEngine::Rendering::Universal::RenderObjects::SupportsNativeRenderPass)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68af830;
+  constexpr static std::size_t addrs = 0x6ce8f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -389,7 +376,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RenderObjects::*)()>(&::UnityEngine::Rendering::Universal::RenderObjects::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x68af838;
+  constexpr static std::size_t addrs = 0x6ce9000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderObjects*>(), { ".ctor", {}, {} })));
@@ -422,19 +409,14 @@ constexpr void UnityEngine::Rendering::Universal::RenderObjects::__cordl_interna
 }
 inline void UnityEngine::Rendering::Universal::RenderObjects::Create() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::RenderObjects*>(), 5 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::RenderObjects*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::Rendering::Universal::RenderObjects::AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
                                                                               ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::RenderObjects*>(), 7 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);
-}
-inline bool UnityEngine::Rendering::Universal::RenderObjects::SupportsNativeRenderPass() {
-  auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::RenderObjects*>(), 9 })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::RenderObjects::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderObjects*>(), { ".ctor", {}, {} })));

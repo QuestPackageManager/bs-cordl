@@ -72,7 +72,7 @@ public:
   /// @brief Field m_valueType, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_valueType, put = __cordl_internal_set_m_valueType)) ::StringW m_valueType;
 
-  /// @brief Method Clone, addr 0x5b18390, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x5f30288, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Security::Claims::Claim* Clone(::System::Security::Claims::ClaimsIdentity* identity);
 
   static inline ::System::Security::Claims::Claim* New_ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject);
@@ -84,10 +84,10 @@ public:
                                                             ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey, ::StringW propertyValue);
 
   /// [OnDeserialized]
-  /// @brief Method OnDeserializedMethod, addr 0x5b18320, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializedMethod, addr 0x5f30218, size 0x50, virtual false, abstract: false, final false
   inline void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x5b183fc, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5f302f4, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_m_issuer() const;
@@ -144,29 +144,29 @@ public:
 
   constexpr void __cordl_internal_set_m_valueType(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b18010, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2ff08, size 0x310, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject);
 
-  /// @brief Method .ctor, addr 0x5b13420, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2b318, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject);
 
-  /// @brief Method .ctor, addr 0x5b17ca4, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2fb9c, size 0x220, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey,
                     ::StringW propertyValue);
 
-  /// @brief Method get_Properties, addr 0x5b17ec4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x5f2fdbc, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* get_Properties();
 
-  /// @brief Method get_Subject, addr 0x5b18370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Subject, addr 0x5f30268, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Claims::ClaimsIdentity* get_Subject();
 
-  /// @brief Method get_Type, addr 0x5b18380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5f30278, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
-  /// @brief Method get_Value, addr 0x5b18388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5f30280, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Subject, addr 0x5b18378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Subject, addr 0x5f30270, size 0x8, virtual false, abstract: false, final false
   inline void set_Subject(::System::Security::Claims::ClaimsIdentity* value);
 
 protected:

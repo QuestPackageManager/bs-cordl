@@ -34,16 +34,16 @@ public:
 
   static inline ::System::ArgumentNullException* New_ctor(::StringW paramName, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x5bae9dc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc6ca4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5baea74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc6d3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5ba6d18, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbefe0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName);
 
-  /// @brief Method .ctor, addr 0x5baea3c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc6d04, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName, ::StringW message);
 
 protected:

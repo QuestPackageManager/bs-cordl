@@ -31,10 +31,10 @@ namespace UnityEngine {
 class CORDL_TYPE AssetBundleUnloadOperation_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToManaged, addr 0x6a4bba8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ConvertToManaged, addr 0x6e9a58c, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::AssetBundleUnloadOperation* ConvertToManaged(::System::IntPtr ptr);
 
-  /// @brief Method ConvertToNative, addr 0x6a4c420, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6e9ae1c, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::AssetBundleUnloadOperation* assetBundleUnloadOperation);
 
 protected:
@@ -52,7 +52,7 @@ public:
   AssetBundleUnloadOperation_BindingsMarshaller(AssetBundleUnloadOperation_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23520 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -74,13 +74,13 @@ public:
   static inline ::UnityEngine::AssetBundleUnloadOperation* New_ctor(::System::IntPtr ptr);
 
   /// [NativeMethod("WaitForCompletion")]
-  /// @brief Method WaitForCompletion, addr 0x6a4c348, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletion, addr 0x6e9ad40, size 0x50, virtual false, abstract: false, final false
   inline void WaitForCompletion();
 
-  /// @brief Method WaitForCompletion_Injected, addr 0x6a4c398, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletion_Injected, addr 0x6e9ad90, size 0x3c, virtual false, abstract: false, final false
   static inline void WaitForCompletion_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method .ctor, addr 0x6a4c3d4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e9adcc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
 protected:
@@ -98,7 +98,7 @@ public:
   AssetBundleUnloadOperation(AssetBundleUnloadOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23521 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

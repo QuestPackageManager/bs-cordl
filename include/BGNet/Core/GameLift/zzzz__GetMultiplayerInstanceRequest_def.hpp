@@ -42,7 +42,7 @@ struct CORDL_TYPE GetMultiplayerInstanceRequest {
 public:
   // Declarations
   /// [JsonConstructor]
-  /// @brief Method .ctor, addr 0x32c3380, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354a7c0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
                     ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::GlobalNamespace::AuthenticationToken_PlatformType platform, ::StringW privateGameSecret,
                     ::StringW privateGameCode, ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies, ::StringW ticketId, ::StringW placementId,
@@ -66,7 +66,7 @@ public:
                                           ::StringW ticketId, ::StringW placementId, ::StringW customLocation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19550 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };

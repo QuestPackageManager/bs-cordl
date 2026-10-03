@@ -36,19 +36,19 @@ public:
   /// @brief Convert operator to "::BGLib::Polyglot::ILocalize"
   constexpr operator ::BGLib::Polyglot::ILocalize*() noexcept;
 
-  /// @brief Method CreateDropdown, addr 0x331b924, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method CreateDropdown, addr 0x35a48c4, size 0x228, virtual false, abstract: false, final false
   inline void CreateDropdown();
 
   static inline ::BGLib::Polyglot::LanguageDropdown* New_ctor();
 
   /// [NullableContext(1)]
-  /// @brief Method OnLocalize, addr 0x331be0c, size 0x17c, virtual true, abstract: false, final true
+  /// @brief Method OnLocalize, addr 0x35a4dac, size 0x17c, virtual true, abstract: false, final true
   inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
 
-  /// @brief Method Reset, addr 0x331b8b4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x35a4854, size 0x54, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Start, addr 0x331b908, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x35a48a8, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Dropdown> const& __cordl_internal_get_dropdown() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_dropdown(::UnityW<::UnityEngine::UI::Dropdown> value);
 
-  /// @brief Method .ctor, addr 0x331bf88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a4f28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::Polyglot::ILocalize"
@@ -78,7 +78,7 @@ public:
   LanguageDropdown(LanguageDropdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23004 };
 
   /// [Nullable(1)]
   /// [Tooltip("The dropdown to populate with all the available languages")]

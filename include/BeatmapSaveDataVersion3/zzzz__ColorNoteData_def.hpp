@@ -87,22 +87,22 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x375f6ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e8d8c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::NoteColorType color, ::BeatmapSaveDataCommon::NoteCutDirection cutDirection, int32_t angleOffset);
 
-  /// @brief Method get_angleOffset, addr 0x375f694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angleOffset, addr 0x39e8d74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_angleOffset();
 
-  /// @brief Method get_color, addr 0x375f69c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x39e8d7c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteColorType get_color();
 
-  /// @brief Method get_cutDirection, addr 0x375f6a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutDirection, addr 0x39e8d84, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_cutDirection();
 
-  /// @brief Method get_layer, addr 0x375f68c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x39e8d6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x375f684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x39e8d64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
 protected:
@@ -120,7 +120,7 @@ public:
   ColorNoteData(ColorNoteData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15613 };
 
   /// [SerializeField]
   /// @brief Field x, offset: 0x14, size: 0x4, def value: None

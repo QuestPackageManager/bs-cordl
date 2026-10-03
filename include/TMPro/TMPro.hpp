@@ -48,6 +48,7 @@ module;
 #include "TMPro/MaterialReferenceManager.hpp"
 #include "TMPro/Mesh_Extents.hpp"
 #include "TMPro/MultipleSubstitutionRecord.hpp"
+#include "TMPro/ObjectUtilsBridge.hpp"
 #include "TMPro/RichTextTagAttribute.hpp"
 #include "TMPro/SetPropertyUtility.hpp"
 #include "TMPro/ShaderUtilities.hpp"

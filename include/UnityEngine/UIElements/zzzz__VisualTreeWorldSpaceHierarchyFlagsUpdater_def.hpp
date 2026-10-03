@@ -28,18 +28,24 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE VisualTreeWorldSpaceHierarchyFlagsUpdater : public ::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater {
 public:
   // Declarations
-  /// @brief Method GetParentMustDirtyFlags, addr 0x6cce28c, size 0x34, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElementFlags GetParentMustDirtyFlags(::UnityEngine::UIElements::VisualElement* ve);
+  /// @brief Method DirtyBoundingBoxHierarchy, addr 0x7159124, size 0xf4, virtual false, abstract: false, final false
+  static inline void DirtyBoundingBoxHierarchy(::UnityEngine::UIElements::VisualElement* ve);
+
+  /// @brief Method DirtyParentHierarchy, addr 0x7159248, size 0x110, virtual false, abstract: false, final false
+  static inline void DirtyParentHierarchy(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElementFlags flags);
+
+  /// @brief Method GetParentMustDirtyFlags, addr 0x7159218, size 0x30, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::VisualElementFlags GetParentMustDirtyFlags(::UnityEngine::UIElements::VisualElement* ve);
 
   static inline ::UnityEngine::UIElements::VisualTreeWorldSpaceHierarchyFlagsUpdater* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x6cce154, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x715904c, size 0xd8, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0x6cce2c0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x7159358, size 0x4, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method .ctor, addr 0x6cce2c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x715935c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +63,7 @@ public:
   VisualTreeWorldSpaceHierarchyFlagsUpdater(VisualTreeWorldSpaceHierarchyFlagsUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5253 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5358 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

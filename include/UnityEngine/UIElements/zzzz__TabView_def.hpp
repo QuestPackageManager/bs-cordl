@@ -8,6 +8,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
+#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TabView)
 namespace System::Collections::Generic {
@@ -20,7 +21,19 @@ namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
+class DetachFromPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
+namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+class RepeatButton;
+}
+namespace UnityEngine::UIElements {
+class TabView_TabViewContentContainer;
 }
 namespace UnityEngine::UIElements {
 class TabView_UxmlFactory;
@@ -32,10 +45,7 @@ namespace UnityEngine::UIElements {
 class TabView_ViewState;
 }
 namespace UnityEngine::UIElements {
-class TabView___c__DisplayClass48_0;
-}
-namespace UnityEngine::UIElements {
-class TabView___c__DisplayClass55_0;
+class TabView___c__DisplayClass82_0;
 }
 namespace UnityEngine::UIElements {
 class Tab;
@@ -49,9 +59,15 @@ class VisualElement;
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class TabView;
+}
+namespace UnityEngine::UIElements {
+class TabView_TabViewContentContainer;
 }
 namespace UnityEngine::UIElements {
 class TabView_UxmlFactory;
@@ -63,24 +79,21 @@ namespace UnityEngine::UIElements {
 class TabView_ViewState;
 }
 namespace UnityEngine::UIElements {
-class TabView___c__DisplayClass48_0;
-}
-namespace UnityEngine::UIElements {
-class TabView___c__DisplayClass55_0;
+class TabView___c__DisplayClass82_0;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::TabView*);
+MARK_REF_T(::UnityEngine::UIElements::TabView_TabViewContentContainer*);
 MARK_REF_T(::UnityEngine::UIElements::TabView_UxmlFactory*);
 MARK_REF_T(::UnityEngine::UIElements::TabView_UxmlTraits*);
 MARK_REF_T(::UnityEngine::UIElements::TabView_ViewState*);
-MARK_REF_T(::UnityEngine::UIElements::TabView___c__DisplayClass48_0*);
-MARK_REF_T(::UnityEngine::UIElements::TabView___c__DisplayClass55_0*);
+MARK_REF_T(::UnityEngine::UIElements::TabView___c__DisplayClass82_0*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TabView*, "UnityEngine.UIElements", "TabView");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TabView_TabViewContentContainer*, "UnityEngine.UIElements", "TabView/TabViewContentContainer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TabView_UxmlFactory*, "UnityEngine.UIElements", "TabView/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TabView_UxmlTraits*, "UnityEngine.UIElements", "TabView/UxmlTraits");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TabView_ViewState*, "UnityEngine.UIElements", "TabView/ViewState");
-DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TabView___c__DisplayClass48_0*, "UnityEngine.UIElements", "TabView/<>c__DisplayClass48_0");
-DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TabView___c__DisplayClass55_0*, "UnityEngine.UIElements", "TabView/<>c__DisplayClass55_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TabView___c__DisplayClass82_0*, "UnityEngine.UIElements", "TabView/<>c__DisplayClass82_0");
 // [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
@@ -91,7 +104,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::TabView_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d77e1c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720ad90, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,7 +122,7 @@ public:
   TabView_UxmlFactory(TabView_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4329 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4335 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -128,7 +141,7 @@ public:
   /// @brief Field m_Reorderable, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Reorderable, put = __cordl_internal_set_m_Reorderable)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Reorderable;
 
-  /// @brief Method Init, addr 0x6d77e84, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x720adf8, size 0x10c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::TabView_UxmlTraits* New_ctor();
@@ -139,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Reorderable(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d77fa0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720af04, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -157,7 +170,7 @@ public:
   TabView_UxmlTraits(TabView_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4336 };
 
   /// @brief Field m_Reorderable, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Reorderable;
@@ -189,18 +202,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method Apply, addr 0x6d771c0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x72093a0, size 0x1ac, virtual false, abstract: false, final false
   inline void Apply(::UnityEngine::UIElements::TabView* tabView);
 
   static inline ::UnityEngine::UIElements::TabView_ViewState* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x6d78050, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x720afb4, size 0xc, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x6d78044, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x720afa8, size 0xc, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method Save, addr 0x6d7736c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x720a114, size 0x1e8, virtual false, abstract: false, final false
   inline void Save(::UnityEngine::UIElements::TabView* tabView);
 
   constexpr ::StringW const& __cordl_internal_get_m_ActiveTabKey() const;
@@ -221,7 +234,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TabOrder(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x6d7805c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720afc0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -242,7 +255,7 @@ public:
   TabView_ViewState(TabView_ViewState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4337 };
 
   /// @brief Field m_HasPersistedData, offset: 0x10, size: 0x1, def value: None
   bool ___m_HasPersistedData;
@@ -267,87 +280,61 @@ static_assert(offsetof(::UnityEngine::UIElements::TabView_ViewState, ___m_Active
 static_assert(sizeof(::UnityEngine::UIElements::TabView_ViewState) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// [CompilerGenerated]
-// Dependencies System.Object
+// Dependencies UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: UnityEngine.UIElements.TabView/<>c__DisplayClass48_0
-class CORDL_TYPE TabView___c__DisplayClass48_0 : public ::System::Object {
+// CS Name: UnityEngine.UIElements.TabView/TabViewContentContainer
+class CORDL_TYPE TabView_TabViewContentContainer : public ::UnityEngine::UIElements::VisualElement {
 public:
   // Declarations
-  /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityEngine::UIElements::TabView* __4__this;
+  static inline ::UnityEngine::UIElements::TabView_TabViewContentContainer* New_ctor();
 
-  /// @brief Field index, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
+  /// @brief Method OnChildAdded, addr 0x720b034, size 0x90, virtual true, abstract: false, final false
+  inline void OnChildAdded(::UnityEngine::UIElements::VisualElement* ve);
 
-  static inline ::UnityEngine::UIElements::TabView___c__DisplayClass48_0* New_ctor();
+  /// @brief Method OnChildRemoved, addr 0x720b0c4, size 0x90, virtual true, abstract: false, final false
+  inline void OnChildRemoved(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method <OnElementAdded>b__0, addr 0x6d780d0, size 0x34, virtual false, abstract: false, final false
-  inline void _OnElementAdded_b__0(::UnityEngine::UIElements::Tab* t);
-
-  constexpr ::UnityEngine::UIElements::TabView* const& __cordl_internal_get___4__this() const;
-
-  constexpr ::UnityEngine::UIElements::TabView*& __cordl_internal_get___4__this();
-
-  constexpr int32_t const& __cordl_internal_get_index() const;
-
-  constexpr int32_t& __cordl_internal_get_index();
-
-  constexpr void __cordl_internal_set___4__this(::UnityEngine::UIElements::TabView* value);
-
-  constexpr void __cordl_internal_set_index(int32_t value);
-
-  /// @brief Method .ctor, addr 0x6d7777c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7209274, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr TabView___c__DisplayClass48_0();
+  constexpr TabView_TabViewContentContainer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass48_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView_TabViewContentContainer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  TabView___c__DisplayClass48_0(TabView___c__DisplayClass48_0&&) = delete;
+  TabView_TabViewContentContainer(TabView_TabViewContentContainer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass48_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView_TabViewContentContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabView___c__DisplayClass48_0(TabView___c__DisplayClass48_0 const&) = delete;
+  TabView_TabViewContentContainer(TabView_TabViewContentContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4332 };
-
-  /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::UIElements::TabView* _____4__this;
-
-  /// @brief Field index, offset: 0x18, size: 0x4, def value: None
-  int32_t ___index;
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4338 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::TabView___c__DisplayClass48_0, _____4__this) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::TabView___c__DisplayClass48_0, ___index) == 0x18, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::UIElements::TabView___c__DisplayClass48_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::TabView_TabViewContentContainer) == 0x2c8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: UnityEngine.UIElements.TabView/<>c__DisplayClass55_0
-class CORDL_TYPE TabView___c__DisplayClass55_0 : public ::System::Object {
+// CS Name: UnityEngine.UIElements.TabView/<>c__DisplayClass82_0
+class CORDL_TYPE TabView___c__DisplayClass82_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field key, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::StringW key;
 
-  static inline ::UnityEngine::UIElements::TabView___c__DisplayClass55_0* New_ctor();
+  static inline ::UnityEngine::UIElements::TabView___c__DisplayClass82_0* New_ctor();
 
-  /// @brief Method <FindTabByKey>b__0, addr 0x6d78104, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <FindTabByKey>b__0, addr 0x720b158, size 0x1c, virtual false, abstract: false, final false
   inline bool _FindTabByKey_b__0(::UnityEngine::UIElements::Tab* tab);
 
   constexpr ::StringW const& __cordl_internal_get_key() const;
@@ -356,25 +343,25 @@ public:
 
   constexpr void __cordl_internal_set_key(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d77c18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720b154, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr TabView___c__DisplayClass55_0();
+  constexpr TabView___c__DisplayClass82_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass55_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass82_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  TabView___c__DisplayClass55_0(TabView___c__DisplayClass55_0&&) = delete;
+  TabView___c__DisplayClass82_0(TabView___c__DisplayClass82_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass55_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass82_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabView___c__DisplayClass55_0(TabView___c__DisplayClass55_0 const&) = delete;
+  TabView___c__DisplayClass82_0(TabView___c__DisplayClass82_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4333 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4339 };
 
   /// @brief Field key, offset: 0x10, size: 0x8, def value: None
   ::StringW ___key;
@@ -382,11 +369,12 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::TabView___c__DisplayClass55_0, ___key) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TabView___c__DisplayClass82_0, ___key) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::TabView___c__DisplayClass55_0) == 0x18, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::TabView___c__DisplayClass82_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [UxmlElement(null, new[] { typeof(UnityEngine.UIElements.Tab) })]
 // Dependencies UnityEngine.UIElements.BindingId, UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -394,19 +382,31 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE TabView : public ::UnityEngine::UIElements::VisualElement {
 public:
   // Declarations
+  using TabViewContentContainer = ::UnityEngine::UIElements::TabView_TabViewContentContainer;
+
   using UxmlFactory = ::UnityEngine::UIElements::TabView_UxmlFactory;
 
   using UxmlTraits = ::UnityEngine::UIElements::TabView_UxmlTraits;
 
   using ViewState = ::UnityEngine::UIElements::TabView_ViewState;
 
-  using __c__DisplayClass48_0 = ::UnityEngine::UIElements::TabView___c__DisplayClass48_0;
+  using __c__DisplayClass82_0 = ::UnityEngine::UIElements::TabView___c__DisplayClass82_0;
 
-  using __c__DisplayClass55_0 = ::UnityEngine::UIElements::TabView___c__DisplayClass55_0;
+  /// @brief Field <contentViewport>k__BackingField, offset 0x2c8, size 0x8
+  __declspec(property(get = __cordl_internal_get__contentViewport_k__BackingField,
+                      put = __cordl_internal_set__contentViewport_k__BackingField)) ::UnityEngine::UIElements::VisualElement* _contentViewport_k__BackingField;
+
+  /// @brief Field <nextButton>k__BackingField, offset 0x308, size 0x8
+  __declspec(property(get = __cordl_internal_get__nextButton_k__BackingField,
+                      put = __cordl_internal_set__nextButton_k__BackingField)) ::UnityEngine::UIElements::RepeatButton* _nextButton_k__BackingField;
+
+  /// @brief Field <previousButton>k__BackingField, offset 0x310, size 0x8
+  __declspec(property(get = __cordl_internal_get__previousButton_k__BackingField,
+                      put = __cordl_internal_set__previousButton_k__BackingField)) ::UnityEngine::UIElements::RepeatButton* _previousButton_k__BackingField;
 
   __declspec(property(get = get_activeTab, put = set_activeTab)) ::UnityEngine::UIElements::Tab* activeTab;
 
-  /// @brief Field activeTabChanged, offset 0x4e0, size 0x8
+  /// @brief Field activeTabChanged, offset 0x318, size 0x8
   __declspec(property(get = __cordl_internal_get_activeTabChanged,
                       put = __cordl_internal_set_activeTabChanged)) ::System::Action_2<::UnityEngine::UIElements::Tab*, ::UnityEngine::UIElements::Tab*>* activeTabChanged;
 
@@ -415,38 +415,52 @@ public:
   /// @brief Field contentContainerUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_contentContainerUssClassName, put = setStaticF_contentContainerUssClassName)) ::StringW contentContainerUssClassName;
 
+  __declspec(property(get = get_contentViewport)) ::UnityEngine::UIElements::VisualElement* contentViewport;
+
   __declspec(property(get = get_header)) ::UnityEngine::UIElements::VisualElement* header;
 
   /// @brief Field headerContainerClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_headerContainerClassName, put = setStaticF_headerContainerClassName)) ::StringW headerContainerClassName;
 
-  /// @brief Field m_ActiveTab, offset 0x4c8, size 0x8
+  /// @brief Field m_ActiveTab, offset 0x2f0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ActiveTab, put = __cordl_internal_set_m_ActiveTab)) ::UnityEngine::UIElements::Tab* m_ActiveTab;
 
-  /// @brief Field m_ApplyingViewState, offset 0x4d8, size 0x1
+  /// @brief Field m_ApplyingViewState, offset 0x300, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ApplyingViewState, put = __cordl_internal_set_m_ApplyingViewState)) bool m_ApplyingViewState;
 
-  /// @brief Field m_ContentContainer, offset 0x4b0, size 0x8
+  /// @brief Field m_ContentContainer, offset 0x2d8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ContentContainer, put = __cordl_internal_set_m_ContentContainer)) ::UnityEngine::UIElements::VisualElement* m_ContentContainer;
 
-  /// @brief Field m_HeaderContainer, offset 0x4a8, size 0x8
+  /// @brief Field m_HeaderContainer, offset 0x2d0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_HeaderContainer, put = __cordl_internal_set_m_HeaderContainer)) ::UnityEngine::UIElements::VisualElement* m_HeaderContainer;
 
-  /// @brief Field m_Reorderable, offset 0x4f8, size 0x1
+  /// @brief Field m_Reorderable, offset 0x330, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Reorderable, put = __cordl_internal_set_m_Reorderable)) bool m_Reorderable;
 
-  /// @brief Field m_Reordering, offset 0x4d9, size 0x1
+  /// @brief Field m_Reordering, offset 0x301, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Reordering, put = __cordl_internal_set_m_Reordering)) bool m_Reordering;
 
-  /// @brief Field m_TabHeaders, offset 0x4c0, size 0x8
+  /// @brief Field m_TabHeaders, offset 0x2e8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TabHeaders,
                       put = __cordl_internal_set_m_TabHeaders)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* m_TabHeaders;
 
-  /// @brief Field m_Tabs, offset 0x4b8, size 0x8
+  /// @brief Field m_Tabs, offset 0x2e0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Tabs, put = __cordl_internal_set_m_Tabs)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Tab*>* m_Tabs;
 
-  /// @brief Field m_ViewState, offset 0x4d0, size 0x8
+  /// @brief Field m_ViewState, offset 0x2f8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ViewState, put = __cordl_internal_set_m_ViewState)) ::UnityEngine::UIElements::TabView_ViewState* m_ViewState;
+
+  __declspec(property(get = get_needsButtons)) bool needsButtons;
+
+  __declspec(property(get = get_nextButton, put = set_nextButton)) ::UnityEngine::UIElements::RepeatButton* nextButton;
+
+  /// @brief Field nextButtonUssClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_nextButtonUssClassName, put = setStaticF_nextButtonUssClassName)) ::StringW nextButtonUssClassName;
+
+  __declspec(property(get = get_previousButton, put = set_previousButton)) ::UnityEngine::UIElements::RepeatButton* previousButton;
+
+  /// @brief Field previousButtonUssClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_previousButtonUssClassName, put = setStaticF_previousButtonUssClassName)) ::StringW previousButtonUssClassName;
 
   /// @brief [CreateProperty]
   __declspec(property(get = get_reorderable, put = set_reorderable)) bool reorderable;
@@ -457,12 +471,14 @@ public:
   /// @brief Field reorderableUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_reorderableUssClassName, put = setStaticF_reorderableUssClassName)) ::StringW reorderableUssClassName;
 
-  /// @brief Field tabClosed, offset 0x4f0, size 0x8
+  __declspec(property(get = get_scrollableWidth)) float_t scrollableWidth;
+
+  /// @brief Field tabClosed, offset 0x328, size 0x8
   __declspec(property(get = __cordl_internal_get_tabClosed, put = __cordl_internal_set_tabClosed)) ::System::Action_2<::UnityEngine::UIElements::Tab*, int32_t>* tabClosed;
 
   __declspec(property(get = get_tabHeaders)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* tabHeaders;
 
-  /// @brief Field tabReordered, offset 0x4e8, size 0x8
+  /// @brief Field tabReordered, offset 0x320, size 0x8
   __declspec(property(get = __cordl_internal_get_tabReordered, put = __cordl_internal_set_tabReordered)) ::System::Action_2<int32_t, int32_t>* tabReordered;
 
   __declspec(property(get = get_tabs)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Tab*>* tabs;
@@ -473,31 +489,72 @@ public:
   /// @brief Field verticalUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_verticalUssClassName, put = setStaticF_verticalUssClassName)) ::StringW verticalUssClassName;
 
-  /// @brief Method FindTabByKey, addr 0x6d77b38, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Field viewportUssClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_viewportUssClassName, put = setStaticF_viewportUssClassName)) ::StringW viewportUssClassName;
+
+  /// @brief Method FindTabByKey, addr 0x720a770, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Tab* FindTabByKey(::StringW key);
 
   static inline ::UnityEngine::UIElements::TabView* New_ctor();
 
-  /// @brief Method OnElementAdded, addr 0x6d77554, size 0x228, virtual false, abstract: false, final false
-  inline void OnElementAdded(::UnityEngine::UIElements::VisualElement* ve, int32_t index);
+  /// @brief Method OnDetachFromPanel, addr 0x720954c, size 0x12c, virtual false, abstract: false, final false
+  inline void OnDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method OnElementRemoved, addr 0x6d77780, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnElementAdded, addr 0x720a394, size 0x204, virtual false, abstract: false, final false
+  inline void OnElementAdded(::UnityEngine::UIElements::VisualElement* ve);
+
+  /// @brief Method OnElementRemoved, addr 0x720a598, size 0x1a8, virtual false, abstract: false, final false
   inline void OnElementRemoved(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method OnTabClosed, addr 0x6d77928, size 0x1c, virtual false, abstract: false, final false
-  inline void OnTabClosed(::UnityEngine::UIElements::Tab* tab, int32_t index);
+  /// @brief Method OnGeometryChanged, addr 0x7209678, size 0x378, virtual false, abstract: false, final false
+  inline void OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnTabSelected, addr 0x6d77924, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnNextClicked, addr 0x7209b84, size 0x2e0, virtual false, abstract: false, final false
+  inline void OnNextClicked();
+
+  /// @brief Method OnPreviousClicked, addr 0x7209e64, size 0x2b0, virtual false, abstract: false, final false
+  inline void OnPreviousClicked();
+
+  /// @brief Method OnTabClosed, addr 0x720a744, size 0x2c, virtual false, abstract: false, final false
+  inline void OnTabClosed(::UnityEngine::UIElements::Tab* tab);
+
+  /// @brief Method OnTabSelected, addr 0x720a740, size 0x4, virtual false, abstract: false, final false
   inline void OnTabSelected(::UnityEngine::UIElements::Tab* tab);
 
-  /// @brief Method OnViewDataReady, addr 0x6d770f0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x72092d0, size 0xd0, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method ReorderTab, addr 0x6d77944, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method ReorderTab, addr 0x72069d0, size 0x1fc, virtual false, abstract: false, final false
   inline void ReorderTab(int32_t from, int32_t to);
 
-  /// @brief Method SaveViewState, addr 0x6d76b68, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SaveViewState, addr 0x72089cc, size 0x34, virtual false, abstract: false, final false
   inline void SaveViewState();
+
+  /// @brief Method UpdateButtons, addr 0x72099f0, size 0x194, virtual false, abstract: false, final false
+  inline void UpdateButtons(::UnityEngine::Vector3 contentTransform);
+
+  /// @brief Method UpdateIndexes, addr 0x720a2fc, size 0x98, virtual false, abstract: false, final false
+  inline void UpdateIndexes();
+
+  /// [CompilerGenerated]
+  /// @brief Method <OnNextClicked>b__70_0, addr 0x720aaf8, size 0x16c, virtual false, abstract: false, final false
+  inline bool _OnNextClicked_b__70_0(::UnityEngine::UIElements::VisualElement* tab);
+
+  /// [CompilerGenerated]
+  /// @brief Method <OnPreviousClicked>b__71_0, addr 0x720ac64, size 0x12c, virtual false, abstract: false, final false
+  inline bool _OnPreviousClicked_b__71_0(::UnityEngine::UIElements::VisualElement* tab);
+
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get__contentViewport_k__BackingField() const;
+
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__contentViewport_k__BackingField();
+
+  constexpr ::UnityEngine::UIElements::RepeatButton* const& __cordl_internal_get__nextButton_k__BackingField() const;
+
+  constexpr ::UnityEngine::UIElements::RepeatButton*& __cordl_internal_get__nextButton_k__BackingField();
+
+  constexpr ::UnityEngine::UIElements::RepeatButton* const& __cordl_internal_get__previousButton_k__BackingField() const;
+
+  constexpr ::UnityEngine::UIElements::RepeatButton*& __cordl_internal_get__previousButton_k__BackingField();
 
   constexpr ::System::Action_2<::UnityEngine::UIElements::Tab*, ::UnityEngine::UIElements::Tab*>* const& __cordl_internal_get_activeTabChanged() const;
 
@@ -547,6 +604,12 @@ public:
 
   constexpr ::System::Action_2<int32_t, int32_t>*& __cordl_internal_get_tabReordered();
 
+  constexpr void __cordl_internal_set__contentViewport_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
+
+  constexpr void __cordl_internal_set__nextButton_k__BackingField(::UnityEngine::UIElements::RepeatButton* value);
+
+  constexpr void __cordl_internal_set__previousButton_k__BackingField(::UnityEngine::UIElements::RepeatButton* value);
+
   constexpr void __cordl_internal_set_activeTabChanged(::System::Action_2<::UnityEngine::UIElements::Tab*, ::UnityEngine::UIElements::Tab*>* value);
 
   constexpr void __cordl_internal_set_m_ActiveTab(::UnityEngine::UIElements::Tab* value);
@@ -571,12 +634,16 @@ public:
 
   constexpr void __cordl_internal_set_tabReordered(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x6d76d50, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7208bb4, size 0x6c0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_contentContainerUssClassName();
 
   static inline ::StringW getStaticF_headerContainerClassName();
+
+  static inline ::StringW getStaticF_nextButtonUssClassName();
+
+  static inline ::StringW getStaticF_previousButtonUssClassName();
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_reorderableProperty();
 
@@ -586,27 +653,51 @@ public:
 
   static inline ::StringW getStaticF_verticalUssClassName();
 
-  /// @brief Method get_activeTab, addr 0x6d769c4, size 0x8, virtual false, abstract: false, final false
+  static inline ::StringW getStaticF_viewportUssClassName();
+
+  /// @brief Method get_activeTab, addr 0x72089c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Tab* get_activeTab();
 
-  /// @brief Method get_contentContainer, addr 0x6d769a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x72088c8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_header, addr 0x6d769ac, size 0x8, virtual false, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method get_contentViewport, addr 0x72088d0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::VisualElement* get_contentViewport();
+
+  /// @brief Method get_header, addr 0x72088d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_header();
 
-  /// @brief Method get_reorderable, addr 0x6d76b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_needsButtons, addr 0x72089a4, size 0x20, virtual false, abstract: false, final false
+  inline bool get_needsButtons();
+
+  /// [CompilerGenerated]
+  /// @brief Method get_nextButton, addr 0x72088f0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::RepeatButton* get_nextButton();
+
+  /// [CompilerGenerated]
+  /// @brief Method get_previousButton, addr 0x7208900, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::RepeatButton* get_previousButton();
+
+  /// @brief Method get_reorderable, addr 0x7208a00, size 0x8, virtual false, abstract: false, final false
   inline bool get_reorderable();
 
-  /// @brief Method get_tabHeaders, addr 0x6d769bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scrollableWidth, addr 0x7208910, size 0x94, virtual false, abstract: false, final false
+  inline float_t get_scrollableWidth();
+
+  /// @brief Method get_tabHeaders, addr 0x72088e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* get_tabHeaders();
 
-  /// @brief Method get_tabs, addr 0x6d769b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tabs, addr 0x72088e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Tab*>* get_tabs();
 
   static inline void setStaticF_contentContainerUssClassName(::StringW value);
 
   static inline void setStaticF_headerContainerClassName(::StringW value);
+
+  static inline void setStaticF_nextButtonUssClassName(::StringW value);
+
+  static inline void setStaticF_previousButtonUssClassName(::StringW value);
 
   static inline void setStaticF_reorderableProperty(::UnityEngine::UIElements::BindingId value);
 
@@ -616,10 +707,20 @@ public:
 
   static inline void setStaticF_verticalUssClassName(::StringW value);
 
-  /// @brief Method set_activeTab, addr 0x6d769cc, size 0x19c, virtual false, abstract: false, final false
+  static inline void setStaticF_viewportUssClassName(::StringW value);
+
+  /// @brief Method set_activeTab, addr 0x720805c, size 0x194, virtual false, abstract: false, final false
   inline void set_activeTab(::UnityEngine::UIElements::Tab* value);
 
-  /// @brief Method set_reorderable, addr 0x6d76ba4, size 0x1ac, virtual false, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method set_nextButton, addr 0x72088f8, size 0x8, virtual false, abstract: false, final false
+  inline void set_nextButton(::UnityEngine::UIElements::RepeatButton* value);
+
+  /// [CompilerGenerated]
+  /// @brief Method set_previousButton, addr 0x7208908, size 0x8, virtual false, abstract: false, final false
+  inline void set_previousButton(::UnityEngine::UIElements::RepeatButton* value);
+
+  /// @brief Method set_reorderable, addr 0x7208a08, size 0x1ac, virtual false, abstract: false, final false
   inline void set_reorderable(bool value);
 
 protected:
@@ -637,77 +738,98 @@ public:
   TabView(TabView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4334 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4340 };
 
-  /// @brief Field m_HeaderContainer, offset: 0x4a8, size: 0x8, def value: None
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
+  /// @brief Field <contentViewport>k__BackingField, offset: 0x2c8, size: 0x8, def value: None
+  ::UnityEngine::UIElements::VisualElement* ____contentViewport_k__BackingField;
+
+  /// @brief Field m_HeaderContainer, offset: 0x2d0, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_HeaderContainer;
 
-  /// @brief Field m_ContentContainer, offset: 0x4b0, size: 0x8, def value: None
+  /// @brief Field m_ContentContainer, offset: 0x2d8, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_ContentContainer;
 
-  /// @brief Field m_Tabs, offset: 0x4b8, size: 0x8, def value: None
+  /// @brief Field m_Tabs, offset: 0x2e0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Tab*>* ___m_Tabs;
 
-  /// @brief Field m_TabHeaders, offset: 0x4c0, size: 0x8, def value: None
+  /// @brief Field m_TabHeaders, offset: 0x2e8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* ___m_TabHeaders;
 
-  /// @brief Field m_ActiveTab, offset: 0x4c8, size: 0x8, def value: None
+  /// @brief Field m_ActiveTab, offset: 0x2f0, size: 0x8, def value: None
   ::UnityEngine::UIElements::Tab* ___m_ActiveTab;
 
-  /// @brief Field m_ViewState, offset: 0x4d0, size: 0x8, def value: None
+  /// @brief Field m_ViewState, offset: 0x2f8, size: 0x8, def value: None
   ::UnityEngine::UIElements::TabView_ViewState* ___m_ViewState;
 
-  /// @brief Field m_ApplyingViewState, offset: 0x4d8, size: 0x1, def value: None
+  /// @brief Field m_ApplyingViewState, offset: 0x300, size: 0x1, def value: None
   bool ___m_ApplyingViewState;
 
-  /// @brief Field m_Reordering, offset: 0x4d9, size: 0x1, def value: None
+  /// @brief Field m_Reordering, offset: 0x301, size: 0x1, def value: None
   bool ___m_Reordering;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field activeTabChanged, offset: 0x4e0, size: 0x8, def value: None
-  ::System::Action_2<::UnityEngine::UIElements::Tab*, ::UnityEngine::UIElements::Tab*>* ___activeTabChanged;
+  /// [CompilerGenerated]
+  /// @brief Field <nextButton>k__BackingField, offset: 0x308, size: 0x8, def value: None
+  ::UnityEngine::UIElements::RepeatButton* ____nextButton_k__BackingField;
+
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
+  /// @brief Field <previousButton>k__BackingField, offset: 0x310, size: 0x8, def value: None
+  ::UnityEngine::UIElements::RepeatButton* ____previousButton_k__BackingField;
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field tabReordered, offset: 0x4e8, size: 0x8, def value: None
+  /// @brief Field activeTabChanged, offset: 0x318, size: 0x8, def value: None
+  ::System::Action_2<::UnityEngine::UIElements::Tab*, ::UnityEngine::UIElements::Tab*>* ___activeTabChanged;
+
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
+  /// @brief Field tabReordered, offset: 0x320, size: 0x8, def value: None
   ::System::Action_2<int32_t, int32_t>* ___tabReordered;
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field tabClosed, offset: 0x4f0, size: 0x8, def value: None
+  /// @brief Field tabClosed, offset: 0x328, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::UIElements::Tab*, int32_t>* ___tabClosed;
 
-  /// @brief Field m_Reorderable, offset: 0x4f8, size: 0x1, def value: None
+  /// @brief Field m_Reorderable, offset: 0x330, size: 0x1, def value: None
   bool ___m_Reorderable;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_HeaderContainer) == 0x4a8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TabView, ____contentViewport_k__BackingField) == 0x2c8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_ContentContainer) == 0x4b0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_HeaderContainer) == 0x2d0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_Tabs) == 0x4b8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_ContentContainer) == 0x2d8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_TabHeaders) == 0x4c0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_Tabs) == 0x2e0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_ActiveTab) == 0x4c8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_TabHeaders) == 0x2e8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_ViewState) == 0x4d0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_ActiveTab) == 0x2f0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_ApplyingViewState) == 0x4d8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_ViewState) == 0x2f8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_Reordering) == 0x4d9, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_ApplyingViewState) == 0x300, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TabView, ___activeTabChanged) == 0x4e0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_Reordering) == 0x301, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TabView, ___tabReordered) == 0x4e8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TabView, ____nextButton_k__BackingField) == 0x308, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TabView, ___tabClosed) == 0x4f0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TabView, ____previousButton_k__BackingField) == 0x310, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_Reorderable) == 0x4f8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TabView, ___activeTabChanged) == 0x318, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::TabView) == 0x500, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TabView, ___tabReordered) == 0x320, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TabView, ___tabClosed) == 0x328, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TabView, ___m_Reorderable) == 0x330, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::TabView) == 0x338, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

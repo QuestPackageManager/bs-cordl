@@ -4,9 +4,11 @@
 #include "System/Xml/zzzz__XmlDictionaryReader_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Xml/zzzz__IXmlDictionary_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Xml/zzzz__OnXmlDictionaryReaderClose_def.hpp"
 #include "System/Xml/zzzz__UniqueId_def.hpp"
+#include "System/Xml/zzzz__XmlBinaryReaderSession_def.hpp"
 #include "System/Xml/zzzz__XmlDictionaryReaderQuotas_def.hpp"
 #include "System/Xml/zzzz__XmlDictionaryReader_XmlWrappedReader_def.hpp"
 #include "System/Xml/zzzz__XmlDictionaryString_def.hpp"
@@ -24,11 +26,81 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryReader* (*)(::System::Xml::XmlReader*)>(&::System::Xml::XmlDictionaryReader::CreateDictionaryReader)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x61204c8;
+  constexpr static std::size_t addrs = 0x654764c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { "CreateDictionaryReader", {}, { ::i2c::type_of<::System::Xml::XmlReader*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlDictionaryReader.CreateBinaryReader
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryReader* (*)(::System::IO::Stream*, ::System::Xml::XmlDictionaryReaderQuotas*)>(
+    &::System::Xml::XmlDictionaryReader::CreateBinaryReader)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x654774c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(),
+                                                             { "CreateBinaryReader", {}, { ::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Xml::XmlDictionaryReaderQuotas*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlDictionaryReader.CreateBinaryReader
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryReader* (*)(::System::IO::Stream*, ::System::Xml::IXmlDictionary*, ::System::Xml::XmlDictionaryReaderQuotas*)>(
+    &::System::Xml::XmlDictionaryReader::CreateBinaryReader)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6547760;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(),
+            { "CreateBinaryReader", {}, { ::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Xml::IXmlDictionary*>(), ::i2c::type_of<::System::Xml::XmlDictionaryReaderQuotas*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlDictionaryReader.CreateBinaryReader
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryReader* (*)(::System::IO::Stream*, ::System::Xml::IXmlDictionary*, ::System::Xml::XmlDictionaryReaderQuotas*,
+                                                                                               ::System::Xml::XmlBinaryReaderSession*)>(&::System::Xml::XmlDictionaryReader::CreateBinaryReader)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x654776c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(),
+                                                             { "CreateBinaryReader",
+                                                               {},
+                                                               { ::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Xml::IXmlDictionary*>(),
+                                                                 ::i2c::type_of<::System::Xml::XmlDictionaryReaderQuotas*>(), ::i2c::type_of<::System::Xml::XmlBinaryReaderSession*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlDictionaryReader.CreateBinaryReader
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryReader* (*)(::System::IO::Stream*, ::System::Xml::IXmlDictionary*, ::System::Xml::XmlDictionaryReaderQuotas*,
+                                                                                               ::System::Xml::XmlBinaryReaderSession*, ::System::Xml::OnXmlDictionaryReaderClose*)>(
+    &::System::Xml::XmlDictionaryReader::CreateBinaryReader)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6547774;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(),
+                                         { "CreateBinaryReader",
+                                           {},
+                                           { ::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Xml::IXmlDictionary*>(), ::i2c::type_of<::System::Xml::XmlDictionaryReaderQuotas*>(),
+                                             ::i2c::type_of<::System::Xml::XmlBinaryReaderSession*>(), ::i2c::type_of<::System::Xml::OnXmlDictionaryReaderClose*>() } })));
     return ___internal_method;
   }
 };
@@ -38,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryReader* (*)(::System::IO::Stream*, ::System::Xml::XmlDictionaryReaderQuotas*)>(
     &::System::Xml::XmlDictionaryReader::CreateTextReader)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x61205c8;
+  constexpr static std::size_t addrs = 0x6547818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,8 +124,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryReader* (*)(::System::IO::Stream*, ::System::Text::Encoding*, ::System::Xml::XmlDictionaryReaderQuotas*,
                                                                                                ::System::Xml::OnXmlDictionaryReaderClose*)>(&::System::Xml::XmlDictionaryReader::CreateTextReader)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x61205d8;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6547828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,20 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryReaderQuotas* (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::get_Quotas)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6120674;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 75 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Xml::XmlDictionaryReader.MoveToStartElement
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::MoveToStartElement)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6120708;
+  constexpr static std::size_t addrs = 0x6547a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,12 +150,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlD
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::XmlDictionaryReader.IsLocalName
+//  Writing Method size for method: ::System::Xml::XmlDictionaryReader.MoveToStartElement
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::StringW)>(&::System::Xml::XmlDictionaryReader::IsLocalName)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6120738;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::MoveToStartElement)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x6547b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,9 +166,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlD
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.IsLocalName
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*)>(&::System::Xml::XmlDictionaryReader::IsLocalName)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x612075c;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::StringW)>(&::System::Xml::XmlDictionaryReader::IsLocalName)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6547b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,12 +176,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlD
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::XmlDictionaryReader.IsNamespaceUri
+//  Writing Method size for method: ::System::Xml::XmlDictionaryReader.IsLocalName
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::StringW)>(&::System::Xml::XmlDictionaryReader::IsNamespaceUri)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x61207a8;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*)>(&::System::Xml::XmlDictionaryReader::IsLocalName)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6547ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,13 +192,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlD
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.IsNamespaceUri
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*)>(&::System::Xml::XmlDictionaryReader::IsNamespaceUri)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x61207fc;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::StringW)>(&::System::Xml::XmlDictionaryReader::IsNamespaceUri)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6547bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 80 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlDictionaryReader.IsNamespaceUri
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*)>(&::System::Xml::XmlDictionaryReader::IsNamespaceUri)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6547c48;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 81 }));
     return ___internal_method;
   }
 };
@@ -149,11 +221,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(
     &::System::Xml::XmlDictionaryReader::IsStartElement)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6120848;
+  constexpr static std::size_t addrs = 0x6547c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 81 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 82 }));
     return ___internal_method;
   }
 };
@@ -163,11 +235,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::ArrayW<::System::Xml::XmlDictionaryString*>, ::System::Xml::XmlDictionaryString*)>(
     &::System::Xml::XmlDictionaryReader::IndexOfLocalName)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x61208ec;
+  constexpr static std::size_t addrs = 0x6547d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 82 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 83 }));
     return ___internal_method;
   }
 };
@@ -176,11 +248,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::by_ref<int32_t>)>(&::System::Xml::XmlDictionaryReader::TryGetBase64ContentLength)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6120a30;
+  constexpr static std::size_t addrs = 0x6547e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 83 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 84 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadValueAsBase64
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadValueAsBase64)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x6547e88;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 85 }));
     return ___internal_method;
   }
 };
@@ -189,11 +274,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadContentAsBase64)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6120a3c;
+  constexpr static std::size_t addrs = 0x6547ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 84 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 86 }));
     return ___internal_method;
   }
 };
@@ -201,8 +286,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Syst
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Xml::XmlDictionaryReader::*)(int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadContentAsBase64)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6120a70;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x6547ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadContentAsString)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6120dc8;
+  constexpr static std::size_t addrs = 0x6548308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,8 +312,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlDictionaryReader::*)(int32_t)>(&::System::Xml::XmlDictionaryReader::ReadContentAsString)> {
-  constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x6120df8;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x6548338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,11 +326,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadString)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x612101c;
+  constexpr static std::size_t addrs = 0x65485c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 63 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 64 }));
     return ___internal_method;
   }
 };
@@ -253,8 +338,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlDictionaryReader::*)(int32_t)>(&::System::Xml::XmlDictionaryReader::ReadString)> {
-  constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x612104c;
+  constexpr static std::size_t size = 0x274;
+  constexpr static std::size_t addrs = 0x65485f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,8 +351,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Xml::XmlDictionaryReader::*)(bool, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadContentAsBytes)> {
-  constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x6120b88;
+  constexpr static std::size_t size = 0x23c;
+  constexpr static std::size_t addrs = 0x65480cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlNodeType)>(&::System::Xml::XmlDictionaryReader::IsTextNode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x61212c4;
+  constexpr static std::size_t addrs = 0x654886c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -294,11 +379,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::ArrayW<char16_t>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryReader::ReadContentAsChars)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x61212dc;
+  constexpr static std::size_t addrs = 0x6548884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 85 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 87 }));
     return ___internal_method;
   }
 };
@@ -308,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::XmlDictionaryReader::*)(::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::XmlDictionaryReader::ReadContentAs)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x61213ac;
+  constexpr static std::size_t addrs = 0x6548954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -321,7 +406,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadContentAsDecimal)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x61216fc;
+  constexpr static std::size_t addrs = 0x6548ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -334,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadContentAsFloat)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6121770;
+  constexpr static std::size_t addrs = 0x6548d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,11 +432,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::UniqueId* (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadContentAsUniqueId)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x61217e4;
+  constexpr static std::size_t addrs = 0x6548d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 86 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 88 }));
     return ___internal_method;
   }
 };
@@ -360,11 +445,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadContentAsGuid)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6121858;
+  constexpr static std::size_t addrs = 0x6548e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 87 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 89 }));
     return ___internal_method;
   }
 };
@@ -373,11 +458,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadContentAsTimeSpan)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x61218cc;
+  constexpr static std::size_t addrs = 0x6548e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 88 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 90 }));
     return ___internal_method;
   }
 };
@@ -386,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadElementContentAsString)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6121940;
+  constexpr static std::size_t addrs = 0x6548ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -399,7 +484,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadElementContentAsBoolean)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x61219f0;
+  constexpr static std::size_t addrs = 0x6548f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -412,7 +497,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadElementContentAsInt)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6121aec;
+  constexpr static std::size_t addrs = 0x6549094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -425,7 +510,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadElementContentAsLong)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6121be8;
+  constexpr static std::size_t addrs = 0x6549190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -438,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadElementContentAsFloat)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6121ce4;
+  constexpr static std::size_t addrs = 0x654928c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -451,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadElementContentAsDouble)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6121dec;
+  constexpr static std::size_t addrs = 0x6549394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -464,7 +549,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadElementContentAsDecimal)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6121ef4;
+  constexpr static std::size_t addrs = 0x654949c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -476,8 +561,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::Syst
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadElementContentAsDateTime)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x6121ffc;
+  constexpr static std::size_t size = 0x1e8;
+  constexpr static std::size_t addrs = 0x65495a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -490,11 +575,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadElementContentAsGuid)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x61221e8;
+  constexpr static std::size_t addrs = 0x654978c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 89 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 91 }));
     return ___internal_method;
   }
 };
@@ -503,11 +588,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadElementContentAsTimeSpan)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x61222d0;
+  constexpr static std::size_t addrs = 0x6549874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 90 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 92 }));
     return ___internal_method;
   }
 };
@@ -516,11 +601,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::ReadElementContentAsBase64)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x61223cc;
+  constexpr static std::size_t addrs = 0x6549970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 91 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 93 }));
     return ___internal_method;
   }
 };
@@ -530,11 +615,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::by_ref<::System::Xml::XmlDictionaryString*>)>(
     &::System::Xml::XmlDictionaryReader::TryGetLocalNameAsDictionaryString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61224ac;
+  constexpr static std::size_t addrs = 0x6549a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 92 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 94 }));
     return ___internal_method;
   }
 };
@@ -544,11 +629,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::by_ref<::System::Xml::XmlDictionaryString*>)>(
     &::System::Xml::XmlDictionaryReader::TryGetNamespaceUriAsDictionaryString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61224b8;
+  constexpr static std::size_t addrs = 0x6549a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 93 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 95 }));
     return ___internal_method;
   }
 };
@@ -558,11 +643,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::by_ref<::System::Xml::XmlDictionaryString*>)>(
     &::System::Xml::XmlDictionaryReader::TryGetValueAsDictionaryString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61224c4;
+  constexpr static std::size_t addrs = 0x6549a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 94 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 96 }));
     return ___internal_method;
   }
 };
@@ -571,7 +656,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryReader::*)(::System::Array*, int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::CheckArray)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x61224d0;
+  constexpr static std::size_t addrs = 0x6549a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -585,11 +670,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::by_ref<::System::Type*>)>(&::System::Xml::XmlDictionaryReader::IsStartArray)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6122704;
+  constexpr static std::size_t addrs = 0x6549ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 95 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 97 }));
     return ___internal_method;
   }
 };
@@ -598,35 +683,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryReader::*)(::by_ref<int32_t>)>(&::System::Xml::XmlDictionaryReader::TryGetArrayLength)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6122710;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 96 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<bool>, int32_t, int32_t)>(
-    &::System::Xml::XmlDictionaryReader::ReadArray)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x612271c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 97 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<bool>,
-                                                                                                       int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadArray)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6122808;
+  constexpr static std::size_t addrs = 0x6549cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -637,10 +694,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<int16_t>, int32_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<bool>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryReader::ReadArray)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x61228c8;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x6549cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -651,10 +708,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<int16_t>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<bool>,
                                                                                                        int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6122a44;
+  constexpr static std::size_t addrs = 0x6549dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -665,10 +722,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<int32_t>, int32_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<int16_t>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryReader::ReadArray)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6122b04;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x6549e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -679,10 +736,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<int32_t>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<int16_t>,
                                                                                                        int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6122bec;
+  constexpr static std::size_t addrs = 0x654a040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -693,10 +750,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<int64_t>, int32_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<int32_t>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6122cac;
+  constexpr static std::size_t addrs = 0x654a100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -707,10 +764,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<int64_t>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<int32_t>,
                                                                                                        int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6122d94;
+  constexpr static std::size_t addrs = 0x654a1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -721,10 +778,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<float_t>, int32_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<int64_t>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6122e54;
+  constexpr static std::size_t addrs = 0x654a2a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -735,10 +792,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<float_t>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<int64_t>,
                                                                                                        int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6122f3c;
+  constexpr static std::size_t addrs = 0x654a390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -749,10 +806,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<double_t>, int32_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<float_t>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6122ffc;
+  constexpr static std::size_t addrs = 0x654a450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -763,10 +820,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<double_t>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<float_t>,
                                                                                                        int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x61230e4;
+  constexpr static std::size_t addrs = 0x654a538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -777,10 +834,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<::System::Decimal>, int32_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<double_t>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x61231a4;
+  constexpr static std::size_t addrs = 0x654a5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -791,10 +848,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(
-    ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<::System::Decimal>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadArray)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<double_t>,
+                                                                                                       int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x612328c;
+  constexpr static std::size_t addrs = 0x654a6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -805,10 +862,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<::System::DateTime>, int32_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<::System::Decimal>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x612334c;
+  constexpr static std::size_t addrs = 0x654a7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -820,9 +877,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(
-    ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<::System::DateTime>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadArray)> {
+    ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<::System::Decimal>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6123434;
+  constexpr static std::size_t addrs = 0x654a888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -833,10 +890,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<::System::Guid>, int32_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<::System::DateTime>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x61234f4;
+  constexpr static std::size_t addrs = 0x654a948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -847,10 +904,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*,
-                                                                                                       ::ArrayW<::System::Guid>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadArray)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(
+    ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<::System::DateTime>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x61235dc;
+  constexpr static std::size_t addrs = 0x654aa30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -861,10 +918,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<::System::TimeSpan>, int32_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<::System::Guid>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x612369c;
+  constexpr static std::size_t addrs = 0x654aaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -875,14 +932,42 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::X
 //  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(
-    ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<::System::TimeSpan>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadArray)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*,
+                                                                                                       ::ArrayW<::System::Guid>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadArray)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6123784;
+  constexpr static std::size_t addrs = 0x654abd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 116 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(::StringW, ::StringW, ::ArrayW<::System::TimeSpan>, int32_t, int32_t)>(
+    &::System::Xml::XmlDictionaryReader::ReadArray)> {
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x654ac98;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 117 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlDictionaryReader.ReadArray
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReader::*)(
+    ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<::System::TimeSpan>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryReader::ReadArray)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x654ad80;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 118 }));
     return ___internal_method;
   }
 };
@@ -891,7 +976,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryReader::*)()>(&::System::Xml::XmlDictionaryReader::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6123844;
+  constexpr static std::size_t addrs = 0x654ae40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { ".ctor", {}, {} })));
@@ -902,6 +987,43 @@ inline ::System::Xml::XmlDictionaryReader* System::Xml::XmlDictionaryReader::Cre
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), { "CreateDictionaryReader", {}, { ::i2c::type_of<::System::Xml::XmlReader*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryReader*>(nullptr, ___internal_method, reader);
+}
+inline ::System::Xml::XmlDictionaryReader* System::Xml::XmlDictionaryReader::CreateBinaryReader(::System::IO::Stream* stream, ::System::Xml::XmlDictionaryReaderQuotas* quotas) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(),
+                                                           { "CreateBinaryReader", {}, { ::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Xml::XmlDictionaryReaderQuotas*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryReader*>(nullptr, ___internal_method, stream, quotas);
+}
+inline ::System::Xml::XmlDictionaryReader* System::Xml::XmlDictionaryReader::CreateBinaryReader(::System::IO::Stream* stream, ::System::Xml::IXmlDictionary* dictionary,
+                                                                                                ::System::Xml::XmlDictionaryReaderQuotas* quotas) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(),
+          { "CreateBinaryReader", {}, { ::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Xml::IXmlDictionary*>(), ::i2c::type_of<::System::Xml::XmlDictionaryReaderQuotas*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryReader*>(nullptr, ___internal_method, stream, dictionary, quotas);
+}
+inline ::System::Xml::XmlDictionaryReader* System::Xml::XmlDictionaryReader::CreateBinaryReader(::System::IO::Stream* stream, ::System::Xml::IXmlDictionary* dictionary,
+                                                                                                ::System::Xml::XmlDictionaryReaderQuotas* quotas, ::System::Xml::XmlBinaryReaderSession* session) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(),
+                                                           { "CreateBinaryReader",
+                                                             {},
+                                                             { ::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Xml::IXmlDictionary*>(),
+                                                               ::i2c::type_of<::System::Xml::XmlDictionaryReaderQuotas*>(), ::i2c::type_of<::System::Xml::XmlBinaryReaderSession*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryReader*>(nullptr, ___internal_method, stream, dictionary, quotas, session);
+}
+inline ::System::Xml::XmlDictionaryReader* System::Xml::XmlDictionaryReader::CreateBinaryReader(::System::IO::Stream* stream, ::System::Xml::IXmlDictionary* dictionary,
+                                                                                                ::System::Xml::XmlDictionaryReaderQuotas* quotas, ::System::Xml::XmlBinaryReaderSession* session,
+                                                                                                ::System::Xml::OnXmlDictionaryReaderClose* onClose) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReader*>(),
+                                       { "CreateBinaryReader",
+                                         {},
+                                         { ::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Xml::IXmlDictionary*>(), ::i2c::type_of<::System::Xml::XmlDictionaryReaderQuotas*>(),
+                                           ::i2c::type_of<::System::Xml::XmlBinaryReaderSession*>(), ::i2c::type_of<::System::Xml::OnXmlDictionaryReaderClose*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryReader*>(nullptr, ___internal_method, stream, dictionary, quotas, session, onClose);
 }
 inline ::System::Xml::XmlDictionaryReader* System::Xml::XmlDictionaryReader::CreateTextReader(::System::IO::Stream* stream, ::System::Xml::XmlDictionaryReaderQuotas* quotas) {
   static auto* ___internal_method =
@@ -920,43 +1042,47 @@ inline ::System::Xml::XmlDictionaryReader* System::Xml::XmlDictionaryReader::Cre
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryReader*>(nullptr, ___internal_method, stream, encoding, quotas, onClose);
 }
 inline ::System::Xml::XmlDictionaryReaderQuotas* System::Xml::XmlDictionaryReader::get_Quotas() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 75 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 76 })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryReaderQuotas*>(this, ___internal_method);
 }
 inline void System::Xml::XmlDictionaryReader::MoveToStartElement() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 76 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 77 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline bool System::Xml::XmlDictionaryReader::IsLocalName(::StringW localName) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 77 })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, localName);
-}
-inline bool System::Xml::XmlDictionaryReader::IsLocalName(::System::Xml::XmlDictionaryString* localName) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 78 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, localName);
 }
-inline bool System::Xml::XmlDictionaryReader::IsNamespaceUri(::StringW namespaceUri) {
+inline bool System::Xml::XmlDictionaryReader::IsLocalName(::System::Xml::XmlDictionaryString* localName) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 79 })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, namespaceUri);
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, localName);
 }
-inline bool System::Xml::XmlDictionaryReader::IsNamespaceUri(::System::Xml::XmlDictionaryString* namespaceUri) {
+inline bool System::Xml::XmlDictionaryReader::IsNamespaceUri(::StringW namespaceUri) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 80 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, namespaceUri);
 }
-inline bool System::Xml::XmlDictionaryReader::IsStartElement(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri) {
+inline bool System::Xml::XmlDictionaryReader::IsNamespaceUri(::System::Xml::XmlDictionaryString* namespaceUri) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 81 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, namespaceUri);
+}
+inline bool System::Xml::XmlDictionaryReader::IsStartElement(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 82 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, localName, namespaceUri);
 }
 inline int32_t System::Xml::XmlDictionaryReader::IndexOfLocalName(::ArrayW<::System::Xml::XmlDictionaryString*> localNames, ::System::Xml::XmlDictionaryString* namespaceUri) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 82 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 83 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localNames, namespaceUri);
 }
 inline bool System::Xml::XmlDictionaryReader::TryGetBase64ContentLength(::by_ref<int32_t> length) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 83 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 84 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, length);
 }
+inline int32_t System::Xml::XmlDictionaryReader::ReadValueAsBase64(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 85 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, buffer, offset, count);
+}
 inline ::ArrayW<uint8_t> System::Xml::XmlDictionaryReader::ReadContentAsBase64() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 84 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 86 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(this, ___internal_method);
 }
 inline ::ArrayW<uint8_t> System::Xml::XmlDictionaryReader::ReadContentAsBase64(int32_t maxByteArrayContentLength, int32_t maxInitialCount) {
@@ -974,7 +1100,7 @@ inline ::StringW System::Xml::XmlDictionaryReader::ReadContentAsString(int32_t m
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, maxStringContentLength);
 }
 inline ::StringW System::Xml::XmlDictionaryReader::ReadString() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 63 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 64 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
 inline ::StringW System::Xml::XmlDictionaryReader::ReadString(int32_t maxStringContentLength) {
@@ -992,7 +1118,7 @@ inline bool System::Xml::XmlDictionaryReader::IsTextNode(::System::Xml::XmlNodeT
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, nodeType);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadContentAsChars(::ArrayW<char16_t> chars, int32_t offset, int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 85 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 87 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, chars, offset, count);
 }
 inline ::System::Object* System::Xml::XmlDictionaryReader::ReadContentAs(::System::Type* type, ::System::Xml::IXmlNamespaceResolver* namespaceResolver) {
@@ -1008,15 +1134,15 @@ inline float_t System::Xml::XmlDictionaryReader::ReadContentAsFloat() {
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 inline ::System::Xml::UniqueId* System::Xml::XmlDictionaryReader::ReadContentAsUniqueId() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 86 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 88 })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::UniqueId*>(this, ___internal_method);
 }
 inline ::System::Guid System::Xml::XmlDictionaryReader::ReadContentAsGuid() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 87 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 89 })));
   return ::cordl_internals::RunMethodRethrow<::System::Guid>(this, ___internal_method);
 }
 inline ::System::TimeSpan System::Xml::XmlDictionaryReader::ReadContentAsTimeSpan() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 88 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 90 })));
   return ::cordl_internals::RunMethodRethrow<::System::TimeSpan>(this, ___internal_method);
 }
 inline ::StringW System::Xml::XmlDictionaryReader::ReadElementContentAsString() {
@@ -1052,27 +1178,27 @@ inline ::System::DateTime System::Xml::XmlDictionaryReader::ReadElementContentAs
   return ::cordl_internals::RunMethodRethrow<::System::DateTime>(this, ___internal_method);
 }
 inline ::System::Guid System::Xml::XmlDictionaryReader::ReadElementContentAsGuid() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 89 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 91 })));
   return ::cordl_internals::RunMethodRethrow<::System::Guid>(this, ___internal_method);
 }
 inline ::System::TimeSpan System::Xml::XmlDictionaryReader::ReadElementContentAsTimeSpan() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 90 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 92 })));
   return ::cordl_internals::RunMethodRethrow<::System::TimeSpan>(this, ___internal_method);
 }
 inline ::ArrayW<uint8_t> System::Xml::XmlDictionaryReader::ReadElementContentAsBase64() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 91 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 93 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(this, ___internal_method);
 }
 inline bool System::Xml::XmlDictionaryReader::TryGetLocalNameAsDictionaryString(::by_ref<::System::Xml::XmlDictionaryString*> localName) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 92 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 94 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, localName);
 }
 inline bool System::Xml::XmlDictionaryReader::TryGetNamespaceUriAsDictionaryString(::by_ref<::System::Xml::XmlDictionaryString*> namespaceUri) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 93 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 95 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, namespaceUri);
 }
 inline bool System::Xml::XmlDictionaryReader::TryGetValueAsDictionaryString(::by_ref<::System::Xml::XmlDictionaryString*> value) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 94 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 96 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, value);
 }
 inline void System::Xml::XmlDictionaryReader::CheckArray(::System::Array* array, int32_t offset, int32_t count) {
@@ -1082,101 +1208,101 @@ inline void System::Xml::XmlDictionaryReader::CheckArray(::System::Array* array,
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, array, offset, count);
 }
 inline bool System::Xml::XmlDictionaryReader::IsStartArray(::by_ref<::System::Type*> type) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 95 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 97 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, type);
 }
 inline bool System::Xml::XmlDictionaryReader::TryGetArrayLength(::by_ref<int32_t> count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 96 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 98 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<bool> array, int32_t offset, int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 97 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 99 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<bool> array, int32_t offset,
                                                            int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 98 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 100 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<int16_t> array, int32_t offset, int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 99 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 101 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<int16_t> array, int32_t offset,
                                                            int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 100 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 102 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<int32_t> array, int32_t offset, int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 101 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 103 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<int32_t> array, int32_t offset,
                                                            int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 102 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 104 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<int64_t> array, int32_t offset, int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 103 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 105 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<int64_t> array, int32_t offset,
                                                            int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 104 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 106 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<float_t> array, int32_t offset, int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 105 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 107 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<float_t> array, int32_t offset,
                                                            int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 106 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 108 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<double_t> array, int32_t offset, int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 107 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 109 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<double_t> array, int32_t offset,
                                                            int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 108 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 110 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::Decimal> array, int32_t offset, int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 109 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 111 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<::System::Decimal> array,
                                                            int32_t offset, int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 110 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 112 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::DateTime> array, int32_t offset, int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 111 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 113 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<::System::DateTime> array,
                                                            int32_t offset, int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 112 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 114 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::Guid> array, int32_t offset, int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 113 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 115 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<::System::Guid> array,
                                                            int32_t offset, int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 114 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 116 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::TimeSpan> array, int32_t offset, int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 115 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 117 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline int32_t System::Xml::XmlDictionaryReader::ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<::System::TimeSpan> array,
                                                            int32_t offset, int32_t count) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 116 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::XmlDictionaryReader*>(), 118 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, localName, namespaceUri, array, offset, count);
 }
 inline void System::Xml::XmlDictionaryReader::_ctor() {

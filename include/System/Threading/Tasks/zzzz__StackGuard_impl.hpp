@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Tasks::StackGuard::*)()>(&::System::Threading::Tasks::StackGuard::TryBeginInliningScope)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5cc5f34;
+  constexpr static std::size_t addrs = 0x60dfa7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::StackGuard*>(), { "TryBeginInliningScope", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::StackGuard::*)()>(&::System::Threading::Tasks::StackGuard::EndInliningScope)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cc5f4c;
+  constexpr static std::size_t addrs = 0x60dfa94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::StackGuard*>(), { "EndInliningScope", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::StackGuard::*)()>(&::System::Threading::Tasks::StackGuard::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cbee74;
+  constexpr static std::size_t addrs = 0x60d89bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::StackGuard*>(), { ".ctor", {}, {} })));

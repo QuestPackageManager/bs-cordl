@@ -8,15 +8,17 @@
 #include "UnityEngine/UIElements/zzzz__OverflowInternal_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualData_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FilterFunction_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualData.Copy
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualData (::UnityEngine::UIElements::VisualData::*)()>(&::UnityEngine::UIElements::VisualData::Copy)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c8fe08;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x70f21a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualData>(), { "Copy", {}, {} })));
@@ -28,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualData::*)(::by_ref<::UnityEngine::UIElements::VisualData>)>(
     &::UnityEngine::UIElements::VisualData::CopyFrom)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c8fe18;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x70f2324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,8 +43,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualData, ::UnityEngine::UIElements::VisualData)>(&::UnityEngine::UIElements::VisualData::op_Equality)> {
-  constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x6c8fe20;
+  constexpr static std::size_t size = 0x390;
+  constexpr static std::size_t addrs = 0x70f2484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualData::*)(::UnityEngine::UIElements::VisualData)>(&::UnityEngine::UIElements::VisualData::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6c90198;
+  constexpr static std::size_t addrs = 0x70f2814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualData::*)(::System::Object*)>(&::UnityEngine::UIElements::VisualData::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6c901e4;
+  constexpr static std::size_t addrs = 0x70f2860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,8 +83,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualData::*)()>(&::UnityEngine::UIElements::VisualData::GetHashCode)> {
-  constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x6c90288;
+  constexpr static std::size_t size = 0x3ec;
+  constexpr static std::size_t addrs = 0x70f2904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,15 +147,14 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::VisualData>* UnityEn
 // "", def_value: Some("{}"), comment: None }, CppParam { name: "borderRightColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
 // "borderTopColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "borderTopLeftRadius", ty: "::UnityEngine::UIElements::Length", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "borderTopRightRadius", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "opacity", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "overflow", ty: "::UnityEngine::UIElements::OverflowInternal", modifiers: "", def_value:
-// Some("{}"), comment: None }]
-constexpr ::UnityEngine::UIElements::VisualData::VisualData(::UnityEngine::Color backgroundColor, ::UnityEngine::UIElements::Background backgroundImage,
-                                                            ::UnityEngine::UIElements::BackgroundPosition backgroundPositionX, ::UnityEngine::UIElements::BackgroundPosition backgroundPositionY,
-                                                            ::UnityEngine::UIElements::BackgroundRepeat backgroundRepeat, ::UnityEngine::UIElements::BackgroundSize backgroundSize,
-                                                            ::UnityEngine::Color borderBottomColor, ::UnityEngine::UIElements::Length borderBottomLeftRadius,
-                                                            ::UnityEngine::UIElements::Length borderBottomRightRadius, ::UnityEngine::Color borderLeftColor, ::UnityEngine::Color borderRightColor,
-                                                            ::UnityEngine::Color borderTopColor, ::UnityEngine::UIElements::Length borderTopLeftRadius,
-                                                            ::UnityEngine::UIElements::Length borderTopRightRadius, float_t opacity, ::UnityEngine::UIElements::OverflowInternal overflow) noexcept {
+// "filter", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "opacity", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "overflow", ty: "::UnityEngine::UIElements::OverflowInternal", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::UIElements::VisualData::VisualData(
+    ::UnityEngine::Color backgroundColor, ::UnityEngine::UIElements::Background backgroundImage, ::UnityEngine::UIElements::BackgroundPosition backgroundPositionX,
+    ::UnityEngine::UIElements::BackgroundPosition backgroundPositionY, ::UnityEngine::UIElements::BackgroundRepeat backgroundRepeat, ::UnityEngine::UIElements::BackgroundSize backgroundSize,
+    ::UnityEngine::Color borderBottomColor, ::UnityEngine::UIElements::Length borderBottomLeftRadius, ::UnityEngine::UIElements::Length borderBottomRightRadius, ::UnityEngine::Color borderLeftColor,
+    ::UnityEngine::Color borderRightColor, ::UnityEngine::Color borderTopColor, ::UnityEngine::UIElements::Length borderTopLeftRadius, ::UnityEngine::UIElements::Length borderTopRightRadius,
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* filter, float_t opacity, ::UnityEngine::UIElements::OverflowInternal overflow) noexcept {
   this->backgroundColor = backgroundColor;
   this->backgroundImage = backgroundImage;
   this->backgroundPositionX = backgroundPositionX;
@@ -168,6 +169,7 @@ constexpr ::UnityEngine::UIElements::VisualData::VisualData(::UnityEngine::Color
   this->borderTopColor = borderTopColor;
   this->borderTopLeftRadius = borderTopLeftRadius;
   this->borderTopRightRadius = borderTopRightRadius;
+  this->filter = filter;
   this->opacity = opacity;
   this->overflow = overflow;
 }

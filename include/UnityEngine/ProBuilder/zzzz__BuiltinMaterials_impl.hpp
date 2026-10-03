@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::Init)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x66b6e40;
+  constexpr static std::size_t addrs = 0x6ac1920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "Init", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_geometryShadersSupported)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x66b72f8;
+  constexpr static std::size_t addrs = 0x6ac1dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_defaultMaterial)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x66b7358;
+  constexpr static std::size_t addrs = 0x6ac1e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_defaultMaterial", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_selectionPickerShader)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x66b75f0;
+  constexpr static std::size_t addrs = 0x6ac20d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_selectionPickerShader", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_facePickerMaterial)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x66b7650;
+  constexpr static std::size_t addrs = 0x6ac2130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_facePickerMaterial", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_vertexPickerMaterial)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x66b76b0;
+  constexpr static std::size_t addrs = 0x6ac2190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_vertexPickerMaterial", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_edgePickerMaterial)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x66b7710;
+  constexpr static std::size_t addrs = 0x6ac21f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_edgePickerMaterial", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_triggerMaterial)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x66b7770;
+  constexpr static std::size_t addrs = 0x6ac2250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_triggerMaterial", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_colliderMaterial)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x66b7878;
+  constexpr static std::size_t addrs = 0x6ac2358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_colliderMaterial", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::GetLegacyDiffuse)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x66b7980;
+  constexpr static std::size_t addrs = 0x6ac2460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "GetLegacyDiffuse", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::GetDefaultMaterial)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x66b7434;
+  constexpr static std::size_t addrs = 0x6ac1f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "GetDefaultMaterial", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::GetPreviewMaterial)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x66b7c20;
+  constexpr static std::size_t addrs = 0x6ac2700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "GetPreviewMaterial", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_ShapePreviewMaterial)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x66b7e50;
+  constexpr static std::size_t addrs = 0x6ac2930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_ShapePreviewMaterial", {}, {} })));
@@ -222,6 +222,24 @@ inline void UnityEngine::ProBuilder::BuiltinMaterials::setStaticF_s_ShapePreview
 inline ::UnityW<::UnityEngine::Material> UnityEngine::ProBuilder::BuiltinMaterials::getStaticF_s_ShapePreviewMaterial() {
   return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Material>, "s_ShapePreviewMaterial", ::UnityEngine::ProBuilder::BuiltinMaterials*>();
 }
+inline void UnityEngine::ProBuilder::BuiltinMaterials::setStaticF_k_EdgePickerShader(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "k_EdgePickerShader", ::UnityEngine::ProBuilder::BuiltinMaterials*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::ProBuilder::BuiltinMaterials::getStaticF_k_EdgePickerShader() {
+  return ::cordl_internals::getStaticField<::StringW, "k_EdgePickerShader", ::UnityEngine::ProBuilder::BuiltinMaterials*>();
+}
+inline void UnityEngine::ProBuilder::BuiltinMaterials::setStaticF_k_VertexPickerShader(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "k_VertexPickerShader", ::UnityEngine::ProBuilder::BuiltinMaterials*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::ProBuilder::BuiltinMaterials::getStaticF_k_VertexPickerShader() {
+  return ::cordl_internals::getStaticField<::StringW, "k_VertexPickerShader", ::UnityEngine::ProBuilder::BuiltinMaterials*>();
+}
+inline void UnityEngine::ProBuilder::BuiltinMaterials::setStaticF_k_FacePickerShader(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "k_FacePickerShader", ::UnityEngine::ProBuilder::BuiltinMaterials*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::ProBuilder::BuiltinMaterials::getStaticF_k_FacePickerShader() {
+  return ::cordl_internals::getStaticField<::StringW, "k_FacePickerShader", ::UnityEngine::ProBuilder::BuiltinMaterials*>();
+}
 inline void UnityEngine::ProBuilder::BuiltinMaterials::setStaticF_k_EdgePickerMaterial(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "k_EdgePickerMaterial", ::UnityEngine::ProBuilder::BuiltinMaterials*>(std::forward<::StringW>(value));
 }
@@ -239,24 +257,6 @@ inline void UnityEngine::ProBuilder::BuiltinMaterials::setStaticF_k_VertexPicker
 }
 inline ::StringW UnityEngine::ProBuilder::BuiltinMaterials::getStaticF_k_VertexPickerMaterial() {
   return ::cordl_internals::getStaticField<::StringW, "k_VertexPickerMaterial", ::UnityEngine::ProBuilder::BuiltinMaterials*>();
-}
-inline void UnityEngine::ProBuilder::BuiltinMaterials::setStaticF_k_EdgePickerShader(::StringW value) {
-  ::cordl_internals::setStaticField<::StringW, "k_EdgePickerShader", ::UnityEngine::ProBuilder::BuiltinMaterials*>(std::forward<::StringW>(value));
-}
-inline ::StringW UnityEngine::ProBuilder::BuiltinMaterials::getStaticF_k_EdgePickerShader() {
-  return ::cordl_internals::getStaticField<::StringW, "k_EdgePickerShader", ::UnityEngine::ProBuilder::BuiltinMaterials*>();
-}
-inline void UnityEngine::ProBuilder::BuiltinMaterials::setStaticF_k_FacePickerShader(::StringW value) {
-  ::cordl_internals::setStaticField<::StringW, "k_FacePickerShader", ::UnityEngine::ProBuilder::BuiltinMaterials*>(std::forward<::StringW>(value));
-}
-inline ::StringW UnityEngine::ProBuilder::BuiltinMaterials::getStaticF_k_FacePickerShader() {
-  return ::cordl_internals::getStaticField<::StringW, "k_FacePickerShader", ::UnityEngine::ProBuilder::BuiltinMaterials*>();
-}
-inline void UnityEngine::ProBuilder::BuiltinMaterials::setStaticF_k_VertexPickerShader(::StringW value) {
-  ::cordl_internals::setStaticField<::StringW, "k_VertexPickerShader", ::UnityEngine::ProBuilder::BuiltinMaterials*>(std::forward<::StringW>(value));
-}
-inline ::StringW UnityEngine::ProBuilder::BuiltinMaterials::getStaticF_k_VertexPickerShader() {
-  return ::cordl_internals::getStaticField<::StringW, "k_VertexPickerShader", ::UnityEngine::ProBuilder::BuiltinMaterials*>();
 }
 inline void UnityEngine::ProBuilder::BuiltinMaterials::Init() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "Init", {}, {} })));

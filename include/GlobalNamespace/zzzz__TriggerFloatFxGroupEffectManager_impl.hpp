@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TriggerFloatFxGroupEffectManager___c::*)()>(&::GlobalNamespace::TriggerFloatFxGroupEffectManager___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59987b0;
+  constexpr static std::size_t addrs = 0x5db37ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::TriggerFloatFxGroupEffectManager___c::*)(::GlobalNamespace::FloatFxGroup*)>(
     &::GlobalNamespace::TriggerFloatFxGroupEffectManager___c::_Start_b__3_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x59987b4;
+  constexpr static std::size_t addrs = 0x5db37f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>(),
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TriggerFloatFxGroupEffectManager::*)()>(&::GlobalNamespace::TriggerFloatFxGroupEffectManager::Start)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x59980cc;
+  constexpr static std::size_t addrs = 0x5db3108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>(), { "Start", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TriggerFloatFxGroupEffectManager::*)()>(&::GlobalNamespace::TriggerFloatFxGroupEffectManager::OnDestroy)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x59985b4;
+  constexpr static std::size_t addrs = 0x5db35f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>(), { "OnDestroy", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TriggerFloatFxGroupEffectManager::*)()>(&::GlobalNamespace::TriggerFloatFxGroupEffectManager::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x59986e4;
+  constexpr static std::size_t addrs = 0x5db3720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>(), { ".ctor", {}, {} })));

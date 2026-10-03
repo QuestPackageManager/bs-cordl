@@ -34,13 +34,13 @@ public:
   // def_value: None, comment: None }, CppParam { name: "sortingPosition", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleOffset", ty: "uint32_t", modifiers:
   // "", def_value: None, comment: None }, CppParam { name: "visibleCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "meshID", ty:
   // "::UnityEngine::Rendering::BatchMeshID", modifiers: "", def_value: None, comment: None }, CppParam { name: "submeshIndex", ty: "uint16_t", modifiers: "", def_value: None, comment: None },
-  // CppParam { name: "unusedPadding2", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
+  // CppParam { name: "activeMeshLod", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr BatchDrawCommand(::UnityEngine::Rendering::BatchDrawCommandFlags flags, ::UnityEngine::Rendering::BatchID batchID, ::UnityEngine::Rendering::BatchMaterialID materialID,
                              uint16_t splitVisibilityMask, uint16_t lightmapIndex, int32_t sortingPosition, uint32_t visibleOffset, uint32_t visibleCount, ::UnityEngine::Rendering::BatchMeshID meshID,
-                             uint16_t submeshIndex, uint16_t unusedPadding2) noexcept;
+                             uint16_t submeshIndex, uint16_t activeMeshLod) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10463 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
@@ -75,8 +75,8 @@ public:
   /// @brief Field submeshIndex, offset: 0x20, size: 0x2, def value: None
   uint16_t submeshIndex;
 
-  /// @brief Field unusedPadding2, offset: 0x22, size: 0x2, def value: None
-  uint16_t unusedPadding2;
+  /// @brief Field activeMeshLod, offset: 0x22, size: 0x2, def value: None
+  uint16_t activeMeshLod;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -101,7 +101,7 @@ static_assert(offsetof(::UnityEngine::Rendering::BatchDrawCommand, meshID) == 0x
 
 static_assert(offsetof(::UnityEngine::Rendering::BatchDrawCommand, submeshIndex) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::BatchDrawCommand, unusedPadding2) == 0x22, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::BatchDrawCommand, activeMeshLod) == 0x22, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::Rendering::BatchDrawCommand) == 0x24, "Size mismatch!");
 

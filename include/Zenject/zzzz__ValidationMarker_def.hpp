@@ -49,26 +49,26 @@ public:
 
   constexpr void __cordl_internal_set__MarkedType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6e85528, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x73210c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType);
 
-  /// @brief Method .ctor, addr 0x6e9fd3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x733b8e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType, bool instantiateFailed);
 
   /// [CompilerGenerated]
-  /// @brief Method get_InstantiateFailed, addr 0x6e9fd48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstantiateFailed, addr 0x733b8f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateFailed();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MarkedType, addr 0x6e9fd58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarkedType, addr 0x733b900, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MarkedType();
 
   /// [CompilerGenerated]
-  /// @brief Method set_InstantiateFailed, addr 0x6e9fd50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InstantiateFailed, addr 0x733b8f8, size 0x8, virtual false, abstract: false, final false
   inline void set_InstantiateFailed(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_MarkedType, addr 0x6e9fd60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MarkedType, addr 0x733b908, size 0x8, virtual false, abstract: false, final false
   inline void set_MarkedType(::System::Type* value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   ValidationMarker(ValidationMarker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14959 };
 
   /// [CompilerGenerated]
   /// @brief Field <InstantiateFailed>k__BackingField, offset: 0x10, size: 0x1, def value: None

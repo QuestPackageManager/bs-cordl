@@ -138,7 +138,7 @@ public:
   FactorySubContainerBinderWithParams_1___c__DisplayClass4_0(FactorySubContainerBinderWithParams_1___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14430 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::FactorySubContainerBinderWithParams_1<TContract>* _____4__this;
@@ -232,7 +232,7 @@ public:
   FactorySubContainerBinderWithParams_1___c__DisplayClass8_0(FactorySubContainerBinderWithParams_1___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14431 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::FactorySubContainerBinderWithParams_1<TContract>* _____4__this;
@@ -320,7 +320,7 @@ public:
   FactorySubContainerBinderWithParams_1(FactorySubContainerBinderWithParams_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14432 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

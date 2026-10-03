@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_InitData::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::VideoProjectionEffect_InitData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59a3fa8;
+  constexpr static std::size_t addrs = 0x5dbf06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0::*)()>(
     &::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59a440c;
+  constexpr static std::size_t addrs = 0x5dbf4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0::*)(
     ::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*)>(&::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0::_LoadVideoFromModel_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59a44b4;
+  constexpr static std::size_t addrs = 0x5dbf578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect__LoadPreviewCoverAsset_d__9::*)()>(
     &::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect__LoadPreviewCoverAsset_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x59a44d4;
+  constexpr static std::size_t addrs = 0x5dbf598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect__LoadPreviewCoverAsset_d__9::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect__LoadPreviewCoverAsset_d__9::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59a479c;
+  constexpr static std::size_t addrs = 0x5dbf860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::VideoProjectionDataModelSO*, ::GlobalNamespace::SongTimeSyncedVideoPlayer*, ::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59a3fb0;
+  constexpr static std::size_t addrs = 0x5dbf074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::*)()>(
     &::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::Dispose)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x59a3fbc;
+  constexpr static std::size_t addrs = 0x5dbf080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior*>(),
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::*)(int32_t)>(
     &::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::LoadVideoFromModel)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x59a4150;
+  constexpr static std::size_t addrs = 0x5dbf214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::*)()>(
     &::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::LoadPreviewCoverAsset)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x59a4410;
+  constexpr static std::size_t addrs = 0x5dbf4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::*)()>(
     &::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::UnloadCoverAsset)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x59a4094;
+  constexpr static std::size_t addrs = 0x5dbf158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -371,7 +371,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::VideoProjectionDataModelSO*, ::GlobalNamespace::SongTimeSyncedVideoPlayer*, ::GlobalNamespace::BasicBeatmapEventType,
     ::GlobalNamespace::BeatmapCallbacksController*, ::GlobalNamespace::BeatmapLevel*)>(&::GlobalNamespace::VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior::_ctor)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x59a3d68;
+  constexpr static std::size_t addrs = 0x5dbee2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior::*)()>(
     &::GlobalNamespace::VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior::Dispose)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x59a47a4;
+  constexpr static std::size_t addrs = 0x5dbf868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior*>(),
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x59a47cc;
+  constexpr static std::size_t addrs = 0x5dbf890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior*>(),
@@ -473,7 +473,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::VideoProjectionDataModelSO*, ::GlobalNamespace::SongTimeSyncedVideoPlayer*, ::GlobalNamespace::BasicBeatmapEventType,
     ::GlobalNamespace::BeatmapLevel*)>(&::GlobalNamespace::VideoProjectionEffect_GameplayVideoProjectionBehavior::_ctor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x59a3c28;
+  constexpr static std::size_t addrs = 0x5dbecec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -513,7 +513,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionEffect::*)()>(&::GlobalNamespace::VideoProjectionEffect::Start)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x59a3b1c;
+  constexpr static std::size_t addrs = 0x5dbebe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionEffect*>(), { "Start", {}, {} })));
@@ -525,7 +525,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionEffect::*)()>(&::GlobalNamespace::VideoProjectionEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59a3f8c;
+  constexpr static std::size_t addrs = 0x5dbf050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionEffect*>(), { "OnDestroy", {}, {} })));
@@ -537,7 +537,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionEffect::*)()>(&::GlobalNamespace::VideoProjectionEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59a3fa4;
+  constexpr static std::size_t addrs = 0x5dbf068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionEffect*>(), { ".ctor", {}, {} })));

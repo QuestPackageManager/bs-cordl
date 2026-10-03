@@ -110,7 +110,7 @@ public:
   AsyncOperationHandle_1___c(AsyncOperationHandle_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19237 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -285,7 +285,7 @@ public:
   constexpr AsyncOperationHandle_1(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* m_InternalOp, int32_t m_Version, ::StringW m_LocationName) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19238 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

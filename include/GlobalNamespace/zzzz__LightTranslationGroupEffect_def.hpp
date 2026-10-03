@@ -179,7 +179,7 @@ public:
 
   constexpr void __cordl_internal_set_zTranslationLimits(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x599b540, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db6580, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform,
                     ::UnityEngine::Transform* zTransform, ::UnityEngine::Vector2 xTranslationLimits, ::UnityEngine::Vector2 xDistributionLimits, ::UnityEngine::Vector2 yTranslationLimits,
                     ::UnityEngine::Vector2 yDistributionLimits, ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits);
@@ -199,7 +199,7 @@ public:
   LightTranslationGroupEffect_InitData(LightTranslationGroupEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6038 };
 
   /// @brief Field groupId, offset: 0x10, size: 0x4, def value: None
   int32_t ___groupId;
@@ -305,7 +305,7 @@ public:
   __declspec(property(get = __cordl_internal_get__lightTranslationZBeatmapEventCallbackWrapper,
                       put = __cordl_internal_set__lightTranslationZBeatmapEventCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _lightTranslationZBeatmapEventCallbackWrapper;
 
-  /// @brief Method Cleanup, addr 0x599b4e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5db6520, size 0x60, virtual false, abstract: false, final false
   inline void Cleanup();
 
   static inline ::GlobalNamespace::LightTranslationGroupEffect* New_ctor(::GlobalNamespace::LightTranslationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
@@ -341,7 +341,7 @@ public:
 
   constexpr void __cordl_internal_set__lightTranslationZBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method .ctor, addr 0x599b1f4, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db6234, size 0x2ec, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightTranslationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -360,7 +360,7 @@ public:
   LightTranslationGroupEffect(LightTranslationGroupEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6039 };
 
   /// @brief Field _beatmapCallbacksController, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;

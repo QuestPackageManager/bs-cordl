@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&::GlobalNamespace::QuantizedMathf::Approximately)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x37819b8;
+  constexpr static std::size_t addrs = 0x3a0bb84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t, float_t, float_t)>(&::GlobalNamespace::QuantizedMathf::Approximately)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3781a84;
+  constexpr static std::size_t addrs = 0x3a0bc50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, int32_t, int32_t)>(&::GlobalNamespace::QuantizedMathf::Approximately)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3781a94;
+  constexpr static std::size_t addrs = 0x3a0bc60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::QuantizedMathf::Approximately)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3781b08;
+  constexpr static std::size_t addrs = 0x3a0bcd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Pose, ::UnityEngine::Pose)>(&::GlobalNamespace::QuantizedMathf::Approximately)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3781b40;
+  constexpr static std::size_t addrs = 0x3a0bd0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuantizedMathf*>(),
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t)>(&::GlobalNamespace::QuantizedMathf::QuantizedVectorComponentToString)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3781ba0;
+  constexpr static std::size_t addrs = 0x3a0bd6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

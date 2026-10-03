@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfileInstaller::*)()>(&::BeatSaber::GameSettings::ControllerProfileInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3291dc8;
+  constexpr static std::size_t addrs = 0x3518638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfileInstaller*>(),
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfileInstaller::*)()>(&::BeatSaber::GameSettings::ControllerProfileInstaller::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3291e84;
+  constexpr static std::size_t addrs = 0x35186f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfileInstaller*>(), { ".ctor", {}, {} })));

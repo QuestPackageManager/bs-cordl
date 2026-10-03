@@ -37,12 +37,12 @@ public:
 
   __declspec(property(get = get_renderers)) ::ArrayW<::UnityW<::UnityEngine::Renderer>> renderers;
 
-  /// @brief Method ApplyChanges, addr 0x5871b08, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ApplyChanges, addr 0x5c87cdc, size 0x54, virtual false, abstract: false, final false
   inline void ApplyChanges();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockController* New_ctor();
 
-  /// @brief Method SetRendererState, addr 0x5871dcc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetRendererState, addr 0x5c87fa0, size 0x64, virtual false, abstract: false, final false
   inline void SetRendererState(bool newState);
 
   constexpr ::UnityEngine::MaterialPropertyBlock* const& __cordl_internal_get__materialPropertyBlock() const;
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>> value);
 
-  /// @brief Method .ctor, addr 0x5871fd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c881ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_materialPropertyBlock, addr 0x5871bc8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlock, addr 0x5c87d9c, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
 
-  /// @brief Method get_renderers, addr 0x5871fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderers, addr 0x5c881a4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Renderer>> get_renderers();
 
 protected:
@@ -81,7 +81,7 @@ public:
   MaterialPropertyBlockController(MaterialPropertyBlockController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19999 };
 
   /// [SerializeField]
   /// @brief Field _renderers, offset: 0x20, size: 0x8, def value: None

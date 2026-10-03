@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AudioSource> (::GlobalNamespace::EnvironmentAudioEffectsPlayer::*)()>(
     &::GlobalNamespace::EnvironmentAudioEffectsPlayer::get_audioSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58b70dc;
+  constexpr static std::size_t addrs = 0x5ccdc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentAudioEffectsPlayer*>(), { "get_audioSource", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentAudioEffectsPlayer::*)(::UnityEngine::AudioClip*, float_t)>(
     &::GlobalNamespace::EnvironmentAudioEffectsPlayer::PlayEffect)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x58b70e4;
+  constexpr static std::size_t addrs = 0x5ccdc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentAudioEffectsPlayer*>(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentAudioEffectsPlayer::*)()>(&::GlobalNamespace::EnvironmentAudioEffectsPlayer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58b7144;
+  constexpr static std::size_t addrs = 0x5ccdc9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentAudioEffectsPlayer*>(), { ".ctor", {}, {} })));

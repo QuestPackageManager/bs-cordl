@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaLengthFacet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x62316a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6659344, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   XmlSchemaLengthFacet(XmlSchemaLengthFacet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11736 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

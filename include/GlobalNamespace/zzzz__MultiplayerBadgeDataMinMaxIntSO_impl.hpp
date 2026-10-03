@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Multip
     ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, ::GlobalNamespace::PlayerDataModel*,
                                                            ::by_ref<::GlobalNamespace::BeatmapKey>, float_t)>(&::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::CalculateBadgeData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3734150;
+  constexpr static std::size_t addrs = 0x39bd740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Multip
     ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, float_t)>(
     &::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::CalculateMax)> {
   constexpr static std::size_t size = 0x564;
-  constexpr static std::size_t addrs = 0x3734164;
+  constexpr static std::size_t addrs = 0x39bd754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Multip
     ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, float_t)>(
     &::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::CalculateMin)> {
   constexpr static std::size_t size = 0x568;
-  constexpr static std::size_t addrs = 0x37346c8;
+  constexpr static std::size_t addrs = 0x39bdcb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::*)()>(&::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x373316c;
+  constexpr static std::size_t addrs = 0x39bc75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*>(), { ".ctor", {}, {} })));

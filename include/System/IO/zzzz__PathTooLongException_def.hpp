@@ -32,13 +32,13 @@ public:
 
   static inline ::System::IO::PathTooLongException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5bfa6ac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6012974, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5bfa730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60129f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5bfa70c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60129d4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -56,7 +56,7 @@ public:
   PathTooLongException(PathTooLongException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3850 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3846 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

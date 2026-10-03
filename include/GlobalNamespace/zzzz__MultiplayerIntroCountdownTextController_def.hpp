@@ -35,10 +35,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerIntroCountdownTextController* New_ctor();
 
-  /// @brief Method SetDistances, addr 0x59da104, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetDistances, addr 0x5df547c, size 0x80, virtual false, abstract: false, final false
   inline void SetDistances(float_t distance);
 
-  /// @brief Method SetText, addr 0x59dab14, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x5df5e8c, size 0x6c, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
   constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>> const& __cordl_internal_get__texts() const;
@@ -47,22 +47,22 @@ public:
 
   constexpr void __cordl_internal_set__texts(::ArrayW<::UnityW<::TMPro::TextMeshPro>> value);
 
-  /// @brief Method .ctor, addr 0x59dacd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df6048, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alpha, addr 0x59d9c38, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_alpha, addr 0x5df4fb0, size 0x38, virtual false, abstract: false, final false
   inline float_t get_alpha();
 
-  /// @brief Method get_fontSize, addr 0x59d9c00, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_fontSize, addr 0x5df4f78, size 0x38, virtual false, abstract: false, final false
   inline float_t get_fontSize();
 
-  /// @brief Method set_alpha, addr 0x59d9ff0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x5df5368, size 0x9c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method set_fontSize, addr 0x59d9f78, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_fontSize, addr 0x5df52f0, size 0x64, virtual false, abstract: false, final false
   inline void set_fontSize(float_t value);
 
-  /// @brief Method set_hide, addr 0x59d9bd4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x5df4f4c, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:
@@ -80,7 +80,7 @@ public:
   MultiplayerIntroCountdownTextController(MultiplayerIntroCountdownTextController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6269 };
 
   /// [SerializeField]
   /// @brief Field _texts, offset: 0x20, size: 0x8, def value: None

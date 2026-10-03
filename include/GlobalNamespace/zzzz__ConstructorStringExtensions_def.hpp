@@ -40,15 +40,15 @@ public:
   static inline ::StringW ToConstructorString(::System::Collections::Generic::List_1<T>* list);
 
   /// [Extension]
-  /// @brief Method ToConstructorString, addr 0x3323480, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ToConstructorString, addr 0x35ac420, size 0x118, virtual false, abstract: false, final false
   static inline ::StringW ToConstructorString(::UnityEngine::Pose pose);
 
   /// [Extension]
-  /// @brief Method ToConstructorString, addr 0x33232dc, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method ToConstructorString, addr 0x35ac27c, size 0x1a4, virtual false, abstract: false, final false
   static inline ::StringW ToConstructorString(::UnityEngine::Quaternion quaternion);
 
   /// [Extension]
-  /// @brief Method ToConstructorString, addr 0x3323200, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ToConstructorString, addr 0x35ac1a0, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW ToConstructorString(::UnityEngine::Vector3 vector);
 
 protected:
@@ -66,7 +66,7 @@ public:
   ConstructorStringExtensions(ConstructorStringExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21390 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

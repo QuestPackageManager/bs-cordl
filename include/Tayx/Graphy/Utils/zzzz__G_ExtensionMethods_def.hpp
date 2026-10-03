@@ -31,17 +31,17 @@ class CORDL_TYPE G_ExtensionMethods : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method SetAllActive, addr 0x643de24, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetAllActive, addr 0x68660b8, size 0x118, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* SetAllActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* gameObjects,
                                                                                                           bool active);
 
   /// [Extension]
-  /// @brief Method SetAllActive, addr 0x643dffc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetAllActive, addr 0x6866290, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetAllActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* images,
                                                                                                          bool active);
 
   /// [Extension]
-  /// @brief Method SetOneActive, addr 0x643df3c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetOneActive, addr 0x68661d0, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetOneActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* images,
                                                                                                          int32_t active);
 
@@ -60,7 +60,7 @@ public:
   G_ExtensionMethods(G_ExtensionMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22207 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

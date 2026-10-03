@@ -30,34 +30,34 @@ public:
 
   __declspec(property(get = get_min, put = set_min)) float_t min;
 
-  /// @brief Method get_bounceMinVelocity, addr 0x6b72414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bounceMinVelocity, addr 0x6fdde58, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bounceMinVelocity();
 
-  /// @brief Method get_bounciness, addr 0x6b72404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bounciness, addr 0x6fdde48, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bounciness();
 
-  /// @brief Method get_contactDistance, addr 0x6b72424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contactDistance, addr 0x6fdde68, size 0x8, virtual false, abstract: false, final false
   inline float_t get_contactDistance();
 
-  /// @brief Method get_max, addr 0x6b723f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_max, addr 0x6fdde38, size 0x8, virtual false, abstract: false, final false
   inline float_t get_max();
 
-  /// @brief Method get_min, addr 0x6b723e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_min, addr 0x6fdde28, size 0x8, virtual false, abstract: false, final false
   inline float_t get_min();
 
-  /// @brief Method set_bounceMinVelocity, addr 0x6b7241c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bounceMinVelocity, addr 0x6fdde60, size 0x8, virtual false, abstract: false, final false
   inline void set_bounceMinVelocity(float_t value);
 
-  /// @brief Method set_bounciness, addr 0x6b7240c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bounciness, addr 0x6fdde50, size 0x8, virtual false, abstract: false, final false
   inline void set_bounciness(float_t value);
 
-  /// @brief Method set_contactDistance, addr 0x6b7242c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_contactDistance, addr 0x6fdde70, size 0x8, virtual false, abstract: false, final false
   inline void set_contactDistance(float_t value);
 
-  /// @brief Method set_max, addr 0x6b723fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_max, addr 0x6fdde40, size 0x8, virtual false, abstract: false, final false
   inline void set_max(float_t value);
 
-  /// @brief Method set_min, addr 0x6b723ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_min, addr 0x6fdde30, size 0x8, virtual false, abstract: false, final false
   inline void set_min(float_t value);
 
   // Ctor Parameters []
@@ -71,7 +71,7 @@ public:
   constexpr JointLimits(float_t m_Min, float_t m_Max, float_t m_Bounciness, float_t m_BounceMinVelocity, float_t m_ContactDistance, float_t minBounce, float_t maxBounce) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18619 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19031 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
@@ -91,13 +91,13 @@ public:
   /// @brief Field m_ContactDistance, offset: 0x10, size: 0x4, def value: None
   float_t m_ContactDistance;
 
-  /// [Obsolete("minBounce and maxBounce are replaced by a single JointLimits.bounciness for both limit ends.", true)]
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("minBounce and maxBounce are replaced by a single JointLimits.bounciness for both limit ends.", true)]
   /// @brief Field minBounce, offset: 0x14, size: 0x4, def value: None
   float_t minBounce;
 
-  /// [Obsolete("minBounce and maxBounce are replaced by a single JointLimits.bounciness for both limit ends.", true)]
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("minBounce and maxBounce are replaced by a single JointLimits.bounciness for both limit ends.", true)]
   /// @brief Field maxBounce, offset: 0x18, size: 0x4, def value: None
   float_t maxBounce;
 

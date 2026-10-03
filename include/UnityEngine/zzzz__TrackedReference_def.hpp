@@ -28,10 +28,10 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method Equals, addr 0x6ae7d24, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f426fc, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x6ae7df0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f427c8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TrackedReference* New_ctor();
@@ -42,16 +42,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6ae7c88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f42660, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Equality, addr 0x6ae7c8c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6f42664, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::TrackedReference* x, ::UnityEngine::TrackedReference* y);
 
-  /// @brief Method op_Implicit, addr 0x6ae7df8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6f427d0, size 0x14, virtual false, abstract: false, final false
   static inline bool op_Implicit_bool(::UnityEngine::TrackedReference* exists);
 
-  /// @brief Method op_Inequality, addr 0x6ae7cd8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6f426b0, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::TrackedReference* x, ::UnityEngine::TrackedReference* y);
 
 protected:
@@ -69,7 +69,7 @@ public:
   TrackedReference(TrackedReference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10371 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9958 };
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.AnimationModule" })]
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None

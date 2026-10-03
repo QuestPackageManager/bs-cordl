@@ -30,10 +30,10 @@ public:
   /// @brief Field levelAndTrustAmount, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_levelAndTrustAmount, put = __cordl_internal_set_levelAndTrustAmount)) ::ArrayW<uint8_t> levelAndTrustAmount;
 
-  /// @brief Method Encode, addr 0x36a1634, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x392a8d0, size 0x20, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetLevelAndTrustAmount, addr 0x36a15bc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLevelAndTrustAmount, addr 0x392a858, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetLevelAndTrustAmount();
 
   static inline ::Org::BouncyCastle::Bcpg::TrustPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_levelAndTrustAmount(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x369b9a0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3924c3c, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x36a1544, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x392a7e0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(int32_t trustCode);
 
 protected:

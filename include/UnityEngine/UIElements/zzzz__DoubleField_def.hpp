@@ -60,7 +60,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::DoubleField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d3e374, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b1898, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   DoubleField_UxmlFactory(DoubleField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4177 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4181 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -96,7 +96,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::DoubleField_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d3e3dc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b1900, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,7 +114,7 @@ public:
   DoubleField_UxmlTraits(DoubleField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4178 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4182 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -133,24 +133,24 @@ public:
 
   __declspec(property(get = get_parentDoubleField)) ::UnityEngine::UIElements::DoubleField* parentDoubleField;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x6d3e500, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x71b1a70, size 0x1ac, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, double_t startValue);
 
   static inline ::UnityEngine::UIElements::DoubleField_DoubleInput* New_ctor();
 
-  /// @brief Method StringToValue, addr 0x6d3e708, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x71b1c78, size 0x2c, virtual true, abstract: false, final false
   inline double_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x6d3e6ac, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x71b1c1c, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ValueToString(double_t v);
 
-  /// @brief Method .ctor, addr 0x6d3e180, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b16a4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowedCharacters, addr 0x6d3e4a4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_allowedCharacters, addr 0x71b19c8, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW get_allowedCharacters();
 
-  /// @brief Method get_parentDoubleField, addr 0x6d3e428, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_parentDoubleField, addr 0x71b194c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DoubleField* get_parentDoubleField();
 
 protected:
@@ -168,12 +168,12 @@ public:
   DoubleField_DoubleInput(DoubleField_DoubleInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4179 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4183 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::DoubleField_DoubleInput) == 0x4e8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::DoubleField_DoubleInput) == 0x308, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
@@ -201,26 +201,26 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x6d3e23c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x71b1760, size 0x5c, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, double_t startValue);
 
-  /// @brief Method CanTryParse, addr 0x6d3e21c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CanTryParse, addr 0x71b1740, size 0x20, virtual true, abstract: false, final false
   inline bool CanTryParse(::StringW textString);
 
   static inline ::UnityEngine::UIElements::DoubleField* New_ctor();
 
   static inline ::UnityEngine::UIElements::DoubleField* New_ctor(::StringW label, int32_t maxLength);
 
-  /// @brief Method StringToValue, addr 0x6d3df14, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x71b1408, size 0x110, virtual true, abstract: false, final false
   inline double_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x6d3de54, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x71b1348, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ValueToString(double_t v);
 
-  /// @brief Method .ctor, addr 0x6d3dff4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b1518, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d3e000, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b1524, size 0x180, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -229,7 +229,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_doubleInput, addr 0x6d3ddc4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_doubleInput, addr 0x71b12b8, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DoubleField_DoubleInput* get_doubleInput();
 
   static inline void setStaticF_inputUssClassName(::StringW value);
@@ -253,11 +253,11 @@ public:
   DoubleField(DoubleField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4184 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::DoubleField) == 0x540, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::DoubleField) == 0x378, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

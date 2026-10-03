@@ -12,6 +12,7 @@ class PanelTextSettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::PanelTextSettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PanelTextSettings*, "UnityEngine.UIElements", "PanelTextSettings");
+// [HelpURL("UIE-text-setting-asset")]
 // Dependencies UnityEngine.TextCore.Text.TextSettings
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -22,17 +23,17 @@ public:
   /// @brief Field s_DefaultPanelTextSettings, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_DefaultPanelTextSettings, put = setStaticF_s_DefaultPanelTextSettings)) ::UnityW<::UnityEngine::UIElements::PanelTextSettings> s_DefaultPanelTextSettings;
 
-  /// @brief Method InitializeDefaultPanelTextSettingsIfNull, addr 0x6ca3d94, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InitializeDefaultPanelTextSettingsIfNull, addr 0x7125874, size 0xb4, virtual false, abstract: false, final false
   static inline void InitializeDefaultPanelTextSettingsIfNull();
 
   static inline ::UnityEngine::UIElements::PanelTextSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6ca3e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7125928, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> getStaticF_s_DefaultPanelTextSettings();
 
-  /// @brief Method get_defaultPanelTextSettings, addr 0x6ca3d44, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPanelTextSettings, addr 0x7125824, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> get_defaultPanelTextSettings();
 
   static inline void setStaticF_s_DefaultPanelTextSettings(::UnityW<::UnityEngine::UIElements::PanelTextSettings> value);
@@ -52,11 +53,11 @@ public:
   PanelTextSettings(PanelTextSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5176 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::PanelTextSettings) == 0xa8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::PanelTextSettings) == 0xc0, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

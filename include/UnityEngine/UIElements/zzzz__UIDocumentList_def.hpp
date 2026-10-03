@@ -33,12 +33,12 @@ public:
   __declspec(property(get = __cordl_internal_get_m_AttachedUIDocuments,
                       put = __cordl_internal_set_m_AttachedUIDocuments)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* m_AttachedUIDocuments;
 
-  /// @brief Method AddToListAndToVisualTree, addr 0x6dad4a0, size 0x314, virtual false, abstract: false, final false
-  inline void AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument, ::UnityEngine::UIElements::VisualElement* visualTree, int32_t firstInsertIndex);
+  /// @brief Method AddToListAndToVisualTree, addr 0x72476bc, size 0x330, virtual false, abstract: false, final false
+  inline void AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument, ::UnityEngine::UIElements::VisualElement* visualTree, bool ignoreContentContainer, int32_t firstInsertIndex);
 
   static inline ::UnityEngine::UIElements::UIDocumentList* New_ctor();
 
-  /// @brief Method RemoveFromListAndFromVisualTree, addr 0x6dad418, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromListAndFromVisualTree, addr 0x7247634, size 0x88, virtual false, abstract: false, final false
   inline void RemoveFromListAndFromVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* const& __cordl_internal_get_m_AttachedUIDocuments() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_m_AttachedUIDocuments(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* value);
 
-  /// @brief Method .ctor, addr 0x6dad3a4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72475c0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   UIDocumentList(UIDocumentList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4633 };
 
   /// @brief Field m_AttachedUIDocuments, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* ___m_AttachedUIDocuments;

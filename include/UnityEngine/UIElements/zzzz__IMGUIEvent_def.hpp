@@ -40,10 +40,10 @@ public:
 
   static inline ::UnityEngine::UIElements::IMGUIEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6da74d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x7235e38, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IMGUIEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6da74d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7235e34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::IMGUIEvent___c* getStaticF___9();
@@ -65,7 +65,7 @@ public:
   IMGUIEvent___c(IMGUIEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4575 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4576 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -83,21 +83,21 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::IMGUIEvent___c;
 
-  /// @brief Method Dispatch, addr 0x6da7478, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x7235ddc, size 0x4, virtual true, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method GetPooled, addr 0x6da7308, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x7235c6c, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IMGUIEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method Init, addr 0x6da7394, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x7235cf8, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6da73ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x7235d50, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::IMGUIEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6da73f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7235d5c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,7 +115,7 @@ public:
   IMGUIEvent(IMGUIEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4576 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4577 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -28,7 +28,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator* New_ctor();
 
-  /// @brief Method SetProperty, addr 0x5872424, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x5c885f8, size 0x54, virtual true, abstract: false, final false
   inline void SetProperty();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x5872478, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c8864c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   MaterialPropertyBlockLocalScaleAnimator(MaterialPropertyBlockLocalScaleAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19574 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20004 };
 
   /// [Space]
   /// [SerializeField]

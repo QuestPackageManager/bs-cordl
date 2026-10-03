@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::LightIdColorPair::*)()>(&::GlobalNamespace::LightIdColorPair::get_lightColor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5a308e8;
+  constexpr static std::size_t addrs = 0x5e481a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightIdColorPair*>(), { "get_lightColor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LightIdColorPair::*)()>(&::GlobalNamespace::LightIdColorPair::get_useScriptableObjectColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a30928;
+  constexpr static std::size_t addrs = 0x5e481e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightIdColorPair*>(), { "get_useScriptableObjectColor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightIdColorPair::*)(bool)>(&::GlobalNamespace::LightIdColorPair::set_useScriptableObjectColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a30930;
+  constexpr static std::size_t addrs = 0x5e481e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightIdColorPair::*)()>(&::GlobalNamespace::LightIdColorPair::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a30938;
+  constexpr static std::size_t addrs = 0x5e481f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightIdColorPair*>(), { ".ctor", {}, {} })));

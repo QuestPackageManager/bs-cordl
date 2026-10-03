@@ -36,14 +36,16 @@ public:
   constexpr FixedBuffer2_1(T __0, T __1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5539 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [SerializeField]
   /// @brief Field __0, offset: 0x0, size: 0x8, def value: None
   T __0;
 
+  /// [SerializeField]
   /// @brief Field __1, offset: 0x8, size: 0x8, def value: None
   T __1;
 

@@ -29,7 +29,7 @@ public:
 
   static inline ::GlobalNamespace::GradientSO* New_ctor();
 
-  /// @brief Method SetGradient, addr 0x36f8710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetGradient, addr 0x39819d4, size 0x8, virtual false, abstract: false, final false
   inline void SetGradient(::UnityEngine::Gradient* gradient);
 
   constexpr ::UnityEngine::Gradient* const& __cordl_internal_get__gradient() const;
@@ -38,13 +38,13 @@ public:
 
   constexpr void __cordl_internal_set__gradient(::UnityEngine::Gradient* value);
 
-  /// @brief Method .ctor, addr 0x36f8718, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39819dc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gradient, addr 0x36f8708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gradient, addr 0x39819cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Gradient* get_gradient();
 
-  /// @brief Method op_Implicit, addr 0x36f7d90, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x3981054, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Gradient* op_Implicit___UnityEngine__Gradient_(::GlobalNamespace::GradientSO* gradientSo);
 
 protected:
@@ -62,7 +62,7 @@ public:
   GradientSO(GradientSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23896 };
 
   /// [SerializeField]
   /// @brief Field _gradient, offset: 0x18, size: 0x8, def value: None

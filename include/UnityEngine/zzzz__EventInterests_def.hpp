@@ -29,33 +29,33 @@ public:
 
   __declspec(property(get = get_wantsMouseMove, put = set_wantsMouseMove)) bool wantsMouseMove;
 
-  /// @brief Method WantsEvent, addr 0x6b40e60, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method WantsEvent, addr 0x6f9e000, size 0x30, virtual false, abstract: false, final false
   inline bool WantsEvent(::UnityEngine::EventType type);
 
-  /// @brief Method WantsLayoutPass, addr 0x6b40e90, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method WantsLayoutPass, addr 0x6f9e030, size 0x104, virtual false, abstract: false, final false
   inline bool WantsLayoutPass(::UnityEngine::EventType type);
 
-  /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_wantsLessLayoutEvents, addr 0x6b40e58, size 0x8, virtual false, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method get_wantsLessLayoutEvents, addr 0x6f9dff8, size 0x8, virtual false, abstract: false, final false
   inline bool get_wantsLessLayoutEvents();
 
-  /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_wantsMouseEnterLeaveWindow, addr 0x6b40e48, size 0x8, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_wantsMouseEnterLeaveWindow, addr 0x6f9dfe8, size 0x8, virtual false, abstract: false, final false
   inline bool get_wantsMouseEnterLeaveWindow();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_wantsMouseMove, addr 0x6b40e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wantsMouseMove, addr 0x6f9dfd8, size 0x8, virtual false, abstract: false, final false
   inline bool get_wantsMouseMove();
 
   /// [CompilerGenerated]
-  /// @brief Method set_wantsMouseEnterLeaveWindow, addr 0x6b40e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_wantsMouseEnterLeaveWindow, addr 0x6f9dff0, size 0x8, virtual false, abstract: false, final false
   inline void set_wantsMouseEnterLeaveWindow(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_wantsMouseMove, addr 0x6b40e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_wantsMouseMove, addr 0x6f9dfe0, size 0x8, virtual false, abstract: false, final false
   inline void set_wantsMouseMove(bool value);
 
   // Ctor Parameters []
@@ -67,7 +67,7 @@ public:
   constexpr EventInterests(bool _wantsMouseMove_k__BackingField, bool _wantsMouseEnterLeaveWindow_k__BackingField, bool _wantsLessLayoutEvents_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20038 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3 };
@@ -77,13 +77,13 @@ public:
   /// @brief Field <wantsMouseMove>k__BackingField, offset: 0x0, size: 0x1, def value: None
   bool _wantsMouseMove_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <wantsMouseEnterLeaveWindow>k__BackingField, offset: 0x1, size: 0x1, def value: None
   bool _wantsMouseEnterLeaveWindow_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <wantsLessLayoutEvents>k__BackingField, offset: 0x2, size: 0x1, def value: None
   bool _wantsLessLayoutEvents_k__BackingField;
 

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Endo::EndoUtilities_MapPointCallback::*)(
     ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, ::Org::BouncyCastle::Math::EC::ECPoint*)>(&::Org::BouncyCastle::Math::EC::Endo::EndoUtilities_MapPointCallback::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350c8b4;
+  constexpr static std::size_t addrs = 0x3795b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math
     ::Org::BouncyCastle::Math::EC::Endo::EndoUtilities_MapPointCallback::*)(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*)>(
     &::Org::BouncyCastle::Math::EC::Endo::EndoUtilities_MapPointCallback::Precompute)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x350c928;
+  constexpr static std::size_t addrs = 0x3795bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::EndoUtilities_MapPointCallback*>(),
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle
                                                                                                                                      ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*)>(
     &::Org::BouncyCastle::Math::EC::Endo::EndoUtilities_MapPointCallback::CheckExisting)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x350cb1c;
+  constexpr static std::size_t addrs = 0x3795db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Math::BigInteger*> (*)(
     ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Endo::EndoUtilities::DecomposeScalar)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x350c44c;
+  constexpr static std::size_t addrs = 0x37956e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (*)(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, ::Org::BouncyCastle::Math::EC::ECPoint*)>(
     &::Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPoint)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x350c790;
+  constexpr static std::size_t addrs = 0x3795a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Endo::EndoUtilities::CalculateB)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x350c688;
+  constexpr static std::size_t addrs = 0x3795924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Endo::EndoUtilities::*)()>(&::Org::BouncyCastle::Math::EC::Endo::EndoUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x350c924;
+  constexpr static std::size_t addrs = 0x3795bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::EndoUtilities*>(), { ".ctor", {}, {} })));

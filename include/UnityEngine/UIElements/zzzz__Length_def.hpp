@@ -106,7 +106,7 @@ public:
   static ::UnityEngine::UIElements::Length_Unit const Pixel;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5012 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -140,64 +140,64 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Length>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Length>*();
 
-  /// @brief Method Auto, addr 0x6c91268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Auto, addr 0x710564c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length Auto();
 
-  /// @brief Method Equals, addr 0x6c9137c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7105780, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c91358, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x710575c, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Length other);
 
-  /// @brief Method GetHashCode, addr 0x6c8e6ac, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7105814, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsAuto, addr 0x6c912d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsAuto, addr 0x71056b8, size 0x10, virtual false, abstract: false, final false
   inline bool IsAuto();
 
-  /// @brief Method IsNone, addr 0x6c912e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsNone, addr 0x71056c8, size 0x10, virtual false, abstract: false, final false
   inline bool IsNone();
 
-  /// @brief Method None, addr 0x6c91294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x7105678, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length None();
 
-  /// @brief Method Percent, addr 0x6c91220, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Percent, addr 0x7105604, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length Percent(float_t value);
 
-  /// @brief Method ToString, addr 0x6c91410, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7105838, size 0x1cc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6c912f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71056d8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(float_t value);
 
-  /// @brief Method .ctor, addr 0x6c91244, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7105628, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::LengthUnit unit);
 
-  /// @brief Method .ctor, addr 0x6c91270, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7105654, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::Length_Unit unit);
 
-  /// @brief Method get_unit, addr 0x6c912c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unit, addr 0x71056a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::LengthUnit get_unit();
 
-  /// @brief Method get_value, addr 0x6c9129c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x7105680, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Length>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Length>* i___System__IEquatable_1___UnityEngine__UIElements__Length_();
 
-  /// @brief Method op_Equality, addr 0x6c8e2e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x710571c, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Length lhs, ::UnityEngine::UIElements::Length rhs);
 
-  /// @brief Method op_Implicit, addr 0x6c91318, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x71056fc, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length op_Implicit___UnityEngine__UIElements__Length(float_t value);
 
-  /// @brief Method op_Inequality, addr 0x6c91338, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x710573c, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Length lhs, ::UnityEngine::UIElements::Length rhs);
 
-  /// @brief Method set_unit, addr 0x6c912cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unit, addr 0x71056b0, size 0x8, virtual false, abstract: false, final false
   inline void set_unit(::UnityEngine::UIElements::LengthUnit value);
 
-  /// @brief Method set_value, addr 0x6c912a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x7105688, size 0x20, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
   // Ctor Parameters []
@@ -209,7 +209,7 @@ public:
   constexpr Length(float_t m_Value, ::UnityEngine::UIElements::Length_Unit m_Unit) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5013 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -252,12 +252,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c917c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7105bf4, size 0x8, virtual true, abstract: false, final false
   inline float_t GetValue(::by_ref<::UnityEngine::UIElements::Length> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Length_ValueProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c917d0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7105bfc, size 0x20, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Length> container, float_t value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -272,15 +272,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c916f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7105b1c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x6c917c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7105bec, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6c917b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7105be4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -298,10 +298,10 @@ public:
   PropertyBag_Length_ValueProperty(PropertyBag_Length_ValueProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5009 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
@@ -337,12 +337,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c91800, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7105c2c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::LengthUnit GetValue(::by_ref<::UnityEngine::UIElements::Length> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Length_UnitProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c91808, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7105c34, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Length> container, ::UnityEngine::UIElements::LengthUnit value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -357,15 +357,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c91754, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7105b80, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x6c917f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7105c24, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6c917f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7105c1c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -383,10 +383,10 @@ public:
   PropertyBag_Length_UnitProperty(PropertyBag_Length_UnitProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5010 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
@@ -418,7 +418,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Length_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c915dc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7105a04, size 0x118, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -436,7 +436,7 @@ public:
   Length_PropertyBag(Length_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5011 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

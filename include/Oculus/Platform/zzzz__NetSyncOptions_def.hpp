@@ -30,18 +30,18 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x5dddc7c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x61f7860, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::NetSyncOptions* New_ctor();
 
-  /// @brief Method SetVoipGroup, addr 0x5dddb2c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetVoipGroup, addr 0x61f7710, size 0x6c, virtual false, abstract: false, final false
   inline void SetVoipGroup(::StringW value);
 
-  /// @brief Method SetVoipStreamDefault, addr 0x5dddb98, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetVoipStreamDefault, addr 0x61f777c, size 0x6c, virtual false, abstract: false, final false
   inline void SetVoipStreamDefault(::Oculus::Platform::NetSyncVoipStreamMode value);
 
-  /// @brief Method SetZoneId, addr 0x5dddc04, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetZoneId, addr 0x61f77e8, size 0x6c, virtual false, abstract: false, final false
   inline void SetZoneId(::StringW value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x5dddad0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f76b4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x5dddc70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x61f7854, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::NetSyncOptions* options);
 
 protected:
@@ -71,7 +71,7 @@ public:
   NetSyncOptions(NetSyncOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18468 };
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___Handle;

@@ -5,14 +5,16 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TempAllocator_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FillGradient_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshWriteData_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::DetachedAllocator._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)()>(&::UnityEngine::UIElements::UIR::DetachedAllocator::_ctor)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6cd5b78;
+  constexpr static std::size_t size = 0x22c;
+  constexpr static std::size_t addrs = 0x7163dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DetachedAllocator*>(), { ".ctor", {}, {} })));
@@ -24,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)()>(&::UnityEngine::UIElements::UIR::DetachedAllocator::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6cd5c9c;
+  constexpr static std::size_t addrs = 0x7164004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DetachedAllocator*>(), { "Dispose", {}, {} })));
@@ -36,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)(bool)>(&::UnityEngine::UIElements::UIR::DetachedAllocator::Dispose)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6cd5d04;
+  constexpr static std::size_t addrs = 0x716406c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,6 +81,78 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Mesh
 constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_MeshWriteDataPool(::System::Collections::Generic::List_1<::UnityEngine::UIElements::MeshWriteData*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MeshWriteDataPool = value;
+}
+constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillGradientMeshIndices() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FillGradientMeshIndices;
+}
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillGradientMeshIndices() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FillGradientMeshIndices;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_FillGradientMeshIndices(::System::Collections::Generic::List_1<int32_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_FillGradientMeshIndices = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FillGradient>*& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillGradients() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FillGradients;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FillGradient>* const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillGradients() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FillGradients;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_FillGradients(::System::Collections::Generic::List_1<::UnityEngine::UIElements::FillGradient>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_FillGradients = value;
+}
+constexpr int32_t& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillGradientDataCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FillGradientDataCount;
+}
+constexpr int32_t const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillGradientDataCount() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FillGradientDataCount;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_FillGradientDataCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_FillGradientDataCount = value;
+}
+constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillTextureMeshIndices() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FillTextureMeshIndices;
+}
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillTextureMeshIndices() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FillTextureMeshIndices;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_FillTextureMeshIndices(::System::Collections::Generic::List_1<int32_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_FillTextureMeshIndices = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture>>*& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillTextures() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FillTextures;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture>>* const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillTextures() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FillTextures;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_FillTextures(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_FillTextures = value;
+}
+constexpr int32_t& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillTextureDataCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FillTextureDataCount;
+}
+constexpr int32_t const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillTextureDataCount() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FillTextureDataCount;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_FillTextureDataCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_FillTextureDataCount = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_MeshWriteDataCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -23,7 +23,7 @@ struct CORDL_TYPE URPLightShadowCullingInfos {
 public:
   // Declarations
   /// [IsReadOnly]
-  /// @brief Method IsSliceValid, addr 0x68bb0e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsSliceValid, addr 0x6cf221c, size 0x10, virtual false, abstract: false, final false
   inline bool IsSliceValid(int32_t i);
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr URPLightShadowCullingInfos(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::ShadowSliceData> slices, uint32_t slicesValidMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13202 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

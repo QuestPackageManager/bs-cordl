@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Threading::ManualResetEvent* New_ctor(bool initialState);
 
-  /// @brief Method .ctor, addr 0x5ca8db0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60c28f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool initialState);
 
 protected:

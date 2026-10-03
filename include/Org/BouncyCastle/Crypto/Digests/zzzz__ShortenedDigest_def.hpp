@@ -36,24 +36,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x3386734, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x360f9d0, size 0xd0, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t> input, int32_t inOff, int32_t length);
 
-  /// @brief Method DoFinal, addr 0x3386804, size 0x17c, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x360faa0, size 0x17c, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method GetByteLength, addr 0x3386a28, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method GetByteLength, addr 0x360fcc4, size 0xa8, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0x3386674, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetDigestSize, addr 0x360f910, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetDigestSize();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::ShortenedDigest* New_ctor(::Org::BouncyCastle::Crypto::IDigest* baseDigest, int32_t length);
 
-  /// @brief Method Reset, addr 0x3386980, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x360fc1c, size 0xa8, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Update, addr 0x338667c, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x360f918, size 0xb8, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_baseDigest() const;
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set_length(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3386348, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360f5e4, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* baseDigest, int32_t length);
 
-  /// @brief Method get_AlgorithmName, addr 0x3386488, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x360f724, size 0x1ec, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"

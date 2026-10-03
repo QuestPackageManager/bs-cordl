@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CircleTouchable::*)()>(&::HMUI::CircleTouchable::OnEnable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5880854;
+  constexpr static std::size_t addrs = 0x5c96d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::CircleTouchable*>(), { ::i2c::class_of<::HMUI::CircleTouchable*>(), 5 }));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CircleTouchable::*)()>(&::HMUI::CircleTouchable::UpdateCachedReferences)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5880870;
+  constexpr static std::size_t addrs = 0x5c96d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::CircleTouchable*>(), { "UpdateCachedReferences", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::CircleTouchable::*)(::UnityEngine::Vector2, ::UnityEngine::Camera*)>(&::HMUI::CircleTouchable::Raycast)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x58808e0;
+  constexpr static std::size_t addrs = 0x5c96da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::CircleTouchable*>(), { ::i2c::class_of<::HMUI::CircleTouchable*>(), 46 }));
@@ -46,8 +46,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::CircleTouch
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CircleTouchable::*)()>(&::HMUI::CircleTouchable::OnDrawGizmosSelected)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x58809ac;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x5c96e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::CircleTouchable*>(), { "OnDrawGizmosSelected", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CircleTouchable::*)(::UnityEngine::Vector3, float_t, int32_t)>(&::HMUI::CircleTouchable::DrawGizmoCircle)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5880ae4;
+  constexpr static std::size_t addrs = 0x5c9700c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CircleTouchable::*)()>(&::HMUI::CircleTouchable::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5880bc4;
+  constexpr static std::size_t addrs = 0x5c970ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::CircleTouchable*>(), { ".ctor", {}, {} })));

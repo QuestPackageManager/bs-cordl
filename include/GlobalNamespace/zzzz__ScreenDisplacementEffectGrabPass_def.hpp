@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_blitMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x5f4d058, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6369110, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +99,7 @@ public:
   ScreenDisplacementEffectGrabPass_PassData(ScreenDisplacementEffectGrabPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20677 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21169 };
 
   /// @brief Field blitMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___blitMaterial;
@@ -135,10 +135,10 @@ public:
 
   static inline ::GlobalNamespace::ScreenDisplacementEffectGrabPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__4_0, addr 0x5f4d0b4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__4_0, addr 0x636916c, size 0x70, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__4_0(::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x5f4d0b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6369168, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::ScreenDisplacementEffectGrabPass___c* getStaticF___9();
@@ -167,7 +167,7 @@ public:
   ScreenDisplacementEffectGrabPass___c(ScreenDisplacementEffectGrabPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20678 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21170 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -186,7 +186,7 @@ public:
 
   using __c = ::GlobalNamespace::ScreenDisplacementEffectGrabPass___c;
 
-  /// @brief Field _blitMaterial, offset 0xb8, size 0x8
+  /// @brief Field _blitMaterial, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__blitMaterial, put = __cordl_internal_set__blitMaterial)) ::UnityW<::UnityEngine::Material> _blitMaterial;
 
   /// @brief Field _profilingSampler, offset 0xffffffff, size 0x8
@@ -195,15 +195,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5f4c4e4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6368594, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::ScreenDisplacementEffectGrabPass* New_ctor(::UnityEngine::Shader* blitShader);
 
-  /// @brief Method RecordRenderGraph, addr 0x5f4c718, size 0x6dc, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x63687c8, size 0x6e4, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method Render, addr 0x5f4cdf4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6368eac, size 0x1d0, virtual false, abstract: false, final false
   static inline void Render(::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__blitMaterial() const;
@@ -212,7 +212,7 @@ public:
 
   constexpr void __cordl_internal_set__blitMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x5f4c2a0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63683a0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Shader* blitShader);
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF__profilingSampler();
@@ -237,16 +237,16 @@ public:
   ScreenDisplacementEffectGrabPass(ScreenDisplacementEffectGrabPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20679 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21171 };
 
-  /// @brief Field _blitMaterial, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _blitMaterial, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____blitMaterial;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::ScreenDisplacementEffectGrabPass, ____blitMaterial) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenDisplacementEffectGrabPass, ____blitMaterial) == 0x60, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::ScreenDisplacementEffectGrabPass) == 0xc0, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::ScreenDisplacementEffectGrabPass) == 0x68, "Size mismatch!");
 
 } // namespace GlobalNamespace

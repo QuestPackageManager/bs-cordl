@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::InstanceTypeInfo::InitParentTypes)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x682d8fc;
+  constexpr static std::size_t addrs = 0x6c63d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceTypeInfo*>(), { "InitParentTypes", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::InstanceTypeInfo::InitChildTypes)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x682d9b4;
+  constexpr static std::size_t addrs = 0x6c63dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceTypeInfo*>(), { "InitChildTypes", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::InstanceType (*)(::UnityEngine::Rendering::InstanceType)>(
     &::UnityEngine::Rendering::InstanceTypeInfo::GetMaxChildTypeRecursively)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x682dd44;
+  constexpr static std::size_t addrs = 0x6c64158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceTypeInfo*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::InstanceType, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceType>)>(
     &::UnityEngine::Rendering::InstanceTypeInfo::FlattenChildInstanceTypes)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x682deb4;
+  constexpr static std::size_t addrs = 0x6c642c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::InstanceTypeInfo::ValidateTypeRelationsAreCorrectlySorted)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x682dc04;
+  constexpr static std::size_t addrs = 0x6c64018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::InstanceType (*)(::UnityEngine::Rendering::InstanceType)>(
     &::UnityEngine::Rendering::InstanceTypeInfo::GetParentType)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x682e048;
+  constexpr static std::size_t addrs = 0x6c6445c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Rendering::InstanceType>* (*)(::UnityEngine::Rendering::InstanceType)>(
     &::UnityEngine::Rendering::InstanceTypeInfo::GetChildTypes)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x682e0c8;
+  constexpr static std::size_t addrs = 0x6c644dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

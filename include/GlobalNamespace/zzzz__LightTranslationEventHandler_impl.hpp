@@ -1,8 +1,10 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LightTranslationEventHandler.hpp"
+#include "GlobalNamespace/zzzz__CompositeTransformMode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationEventHandler_def.hpp"
+#include "GlobalNamespace/zzzz__CompositeTransformMode_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationEventHandler_def.hpp"
@@ -18,19 +20,20 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationEventHandler_InitData::*)(
     bool, bool, bool, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2,
-    ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::GlobalNamespace::LightTranslationEventHandler_InitData::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5990800;
+    ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::GlobalNamespace::CompositeTransformMode)>(&::GlobalNamespace::LightTranslationEventHandler_InitData::_ctor)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x5dab710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationEventHandler_InitData*>(),
-                                                             { ".ctor",
-                                                               {},
-                                                               { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Transform*>(),
-                                                                 ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::UnityEngine::Vector2>(),
-                                                                 ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(),
-                                                                 ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationEventHandler_InitData*>(),
+                                         { ".ctor",
+                                           {},
+                                           { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Transform*>(),
+                                             ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::UnityEngine::Vector2>(),
+                                             ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(),
+                                             ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::GlobalNamespace::CompositeTransformMode>() } })));
     return ___internal_method;
   }
 };
@@ -178,29 +181,43 @@ constexpr void GlobalNamespace::LightTranslationEventHandler_InitData::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___zDistributionLimits = value;
 }
+constexpr ::GlobalNamespace::CompositeTransformMode& GlobalNamespace::LightTranslationEventHandler_InitData::__cordl_internal_get_transformMode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___transformMode;
+}
+constexpr ::GlobalNamespace::CompositeTransformMode const& GlobalNamespace::LightTranslationEventHandler_InitData::__cordl_internal_get_transformMode() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___transformMode;
+}
+constexpr void GlobalNamespace::LightTranslationEventHandler_InitData::__cordl_internal_set_transformMode(::GlobalNamespace::CompositeTransformMode value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___transformMode = value;
+}
 inline void GlobalNamespace::LightTranslationEventHandler_InitData::_ctor(bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform,
                                                                           ::UnityEngine::Transform* zTransform, ::UnityEngine::Vector2 xTranslationLimits, ::UnityEngine::Vector2 xDistributionLimits,
                                                                           ::UnityEngine::Vector2 yTranslationLimits, ::UnityEngine::Vector2 yDistributionLimits,
-                                                                          ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationEventHandler_InitData*>(),
-                          { ".ctor",
-                            {},
-                            { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::UnityEngine::Transform*>(),
-                              ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(),
-                              ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
+                                                                          ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits,
+                                                                          ::GlobalNamespace::CompositeTransformMode transformMode) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationEventHandler_InitData*>(),
+                                       { ".ctor",
+                                         {},
+                                         { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Transform*>(),
+                                           ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::UnityEngine::Vector2>(),
+                                           ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(),
+                                           ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::GlobalNamespace::CompositeTransformMode>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xMirrored, yMirrored, zMirrored, xTransform, yTransform, zTransform, xTranslationLimits, xDistributionLimits,
-                                                   yTranslationLimits, yDistributionLimits, zTranslationLimits, zDistributionLimits);
+                                                   yTranslationLimits, yDistributionLimits, zTranslationLimits, zDistributionLimits, transformMode);
 }
 inline ::GlobalNamespace::LightTranslationEventHandler_InitData*
 GlobalNamespace::LightTranslationEventHandler_InitData::New_ctor(bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform,
                                                                  ::UnityEngine::Transform* zTransform, ::UnityEngine::Vector2 xTranslationLimits, ::UnityEngine::Vector2 xDistributionLimits,
                                                                  ::UnityEngine::Vector2 yTranslationLimits, ::UnityEngine::Vector2 yDistributionLimits, ::UnityEngine::Vector2 zTranslationLimits,
-                                                                 ::UnityEngine::Vector2 zDistributionLimits) {
+                                                                 ::UnityEngine::Vector2 zDistributionLimits, ::GlobalNamespace::CompositeTransformMode transformMode) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LightTranslationEventHandler_InitData*>(xMirrored, yMirrored, zMirrored, xTransform, yTransform, zTransform,
                                                                                                                      xTranslationLimits, xDistributionLimits, yTranslationLimits, yDistributionLimits,
-                                                                                                                     zTranslationLimits, zDistributionLimits));
+                                                                                                                     zTranslationLimits, zDistributionLimits, transformMode));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightTranslationEventHandler_InitData::LightTranslationEventHandler_InitData() {}
@@ -209,8 +226,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationEventHandler::*)(
     ::GlobalNamespace::LightTranslationEventHandler_InitData*, ::Tweening::SongTimeTweeningManager*)>(&::GlobalNamespace::LightTranslationEventHandler::_ctor)> {
-  constexpr static std::size_t size = 0xb9c;
-  constexpr static std::size_t addrs = 0x5990830;
+  constexpr static std::size_t size = 0xd70;
+  constexpr static std::size_t addrs = 0x5dab744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationEventHandler::*)()>(&::GlobalNamespace::LightTranslationEventHandler::Cleanup)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x598f75c;
+  constexpr static std::size_t addrs = 0x5daa474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationEventHandler*>(), { "Cleanup", {}, {} })));
@@ -238,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationEventHandler::*)(::GlobalNamespace::LightTranslationBeatmapEventData*)>(
     &::GlobalNamespace::LightTranslationEventHandler::HandleTranslationEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x59920bc;
+  constexpr static std::size_t addrs = 0x5dacfa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +271,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                  ::UnityEngine::Vector2, ::UnityEngine::Vector2, bool)>(
     &::GlobalNamespace::LightTranslationEventHandler::ProcessAxisEvent)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5993fb0;
+  constexpr static std::size_t addrs = 0x5daefe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationEventHandler::*)(float_t)>(&::GlobalNamespace::LightTranslationEventHandler::SetTranslation)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x59941b0;
+  constexpr static std::size_t addrs = 0x5daf1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Tweening::FloatTween*, float_t, float_t, float_t, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::LightTranslationEventHandler::SetTweenData)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5994190;
+  constexpr static std::size_t addrs = 0x5daf1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, ::UnityEngine::Vector2, float_t, ::UnityEngine::Vector2, bool)>(
     &::GlobalNamespace::LightTranslationEventHandler::ComputeTranslation)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5994144;
+  constexpr static std::size_t addrs = 0x5daf178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,6 +358,18 @@ constexpr void GlobalNamespace::LightTranslationEventHandler::__cordl_internal_s
     ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____transformMask = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& GlobalNamespace::LightTranslationEventHandler::__cordl_internal_get__basePositions() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____basePositions;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& GlobalNamespace::LightTranslationEventHandler::__cordl_internal_get__basePositions() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____basePositions;
+}
+constexpr void GlobalNamespace::LightTranslationEventHandler::__cordl_internal_set__basePositions(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____basePositions = value;
 }
 constexpr ::Tweening::FloatTween*& GlobalNamespace::LightTranslationEventHandler::__cordl_internal_get__xTranslationTween() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -485,6 +514,18 @@ constexpr bool const& GlobalNamespace::LightTranslationEventHandler::__cordl_int
 constexpr void GlobalNamespace::LightTranslationEventHandler::__cordl_internal_set__zMirrored(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zMirrored = value;
+}
+constexpr ::GlobalNamespace::CompositeTransformMode& GlobalNamespace::LightTranslationEventHandler::__cordl_internal_get__transformMode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____transformMode;
+}
+constexpr ::GlobalNamespace::CompositeTransformMode const& GlobalNamespace::LightTranslationEventHandler::__cordl_internal_get__transformMode() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____transformMode;
+}
+constexpr void GlobalNamespace::LightTranslationEventHandler::__cordl_internal_set__transformMode(::GlobalNamespace::CompositeTransformMode value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____transformMode = value;
 }
 inline void GlobalNamespace::LightTranslationEventHandler::_ctor(::GlobalNamespace::LightTranslationEventHandler_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager) {
   static auto* ___internal_method =

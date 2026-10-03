@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::RevocationReason::*)(bool, bool, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Bcpg::RevocationReason::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x369580c;
+  constexpr static std::size_t addrs = 0x391eaa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::RevocationReason*>(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::RevocationReason::*)(bool, ::Org::BouncyCastle::Bcpg::RevocationReasonTag, ::StringW)>(
     &::Org::BouncyCastle::Bcpg::RevocationReason::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3695824;
+  constexpr static std::size_t addrs = 0x391eac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Bcpg::RevocationReasonTag, ::StringW)>(&::Org::BouncyCastle::Bcpg::RevocationReason::CreateData)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3695860;
+  constexpr static std::size_t addrs = 0x391eafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::RevocationReasonTag (::Org::BouncyCastle::Bcpg::RevocationReason::*)()>(
     &::Org::BouncyCastle::Bcpg::RevocationReason::GetRevocationReason)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3695910;
+  constexpr static std::size_t addrs = 0x391ebac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Bcpg::RevocationReason::*)()>(&::Org::BouncyCastle::Bcpg::RevocationReason::GetRevocationDescription)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3695938;
+  constexpr static std::size_t addrs = 0x391ebd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

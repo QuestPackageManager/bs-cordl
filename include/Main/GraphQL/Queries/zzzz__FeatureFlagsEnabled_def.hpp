@@ -27,22 +27,22 @@ public:
   /// @brief [Nullable(new[] { 1, 2 })]
   __declspec(property(get = get_Features, put = set_Features)) ::System::Collections::Generic::List_1<::StringW>* Features;
 
-  /// @brief Method GetPersistedQueryID, addr 0x328b6b8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetPersistedQueryID, addr 0x3511e2c, size 0x14, virtual true, abstract: false, final false
   inline uint64_t GetPersistedQueryID();
 
   /// [NullableContext(1)]
-  /// @brief Method GetVariableNames, addr 0x328b47c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetVariableNames, addr 0x3511bf0, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetVariableNames();
 
   static inline ::Main::GraphQL::Queries::FeatureFlagsEnabled* New_ctor();
 
-  /// @brief Method .ctor, addr 0x328b6cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3511e40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Features, addr 0x328b5f8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_Features, addr 0x3511d6c, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_Features();
 
-  /// @brief Method set_Features, addr 0x328b578, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Features, addr 0x3511cec, size 0x80, virtual false, abstract: false, final false
   inline void set_Features(/* [Nullable(new[] { 1, 2 })] */ ::System::Collections::Generic::List_1<::StringW>* value);
 
 protected:
@@ -60,7 +60,7 @@ public:
   FeatureFlagsEnabled(FeatureFlagsEnabled const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -130,11 +130,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a77768, size 0x2b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e8f5d0, size 0x2b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a77a20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e8f888, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -153,7 +153,7 @@ public:
                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21627 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -196,11 +196,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a77a28, size 0x328, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e8f890, size 0x328, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a77d50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e8fbb8, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -221,7 +221,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21628 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -268,11 +268,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a77d58, size 0x530, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e8fbc0, size 0x530, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a78288, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e900f0, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -291,7 +291,7 @@ public:
       ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<::System::Guid, ::GlobalNamespace::OVRColocationSession_Result>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21629 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -333,11 +333,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a78290, size 0x330, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e900f8, size 0x330, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a785c0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e90428, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -356,7 +356,7 @@ public:
                                                  ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21630 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -403,11 +403,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a7862c, size 0x278, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e90494, size 0x278, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a788a4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e9070c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -426,7 +426,7 @@ public:
                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21631 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -468,11 +468,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a78910, size 0x434, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e90778, size 0x434, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a78d44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e90bac, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -491,7 +491,7 @@ public:
       ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21632 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -533,11 +533,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a78d4c, size 0x31c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e90bb4, size 0x31c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a79068, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e90ed0, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -555,7 +555,7 @@ public:
       ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21633 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -592,11 +592,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a79070, size 0x32c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e90ed8, size 0x32c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a7939c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e91204, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -615,7 +615,7 @@ public:
       ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20874 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21634 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -694,56 +694,56 @@ public:
   /// @brief Field timeDiscoveringInSec, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_timeDiscoveringInSec, put = __cordl_internal_set_timeDiscoveringInSec)) int32_t timeDiscoveringInSec;
 
-  /// @brief Method Awake, addr 0x5a76c3c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e8eaa4, size 0xd0, virtual false, abstract: false, final false
   inline void Awake();
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<HostOrJoinSessionAutomatically>d__14))]
-  /// @brief Method HostOrJoinSessionAutomatically, addr 0x5a76f84, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HostOrJoinSessionAutomatically, addr 0x5e8edec, size 0xa4, virtual false, abstract: false, final false
   inline void HostOrJoinSessionAutomatically();
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking* New_ctor();
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<OnColocationSessionFound>d__16))]
-  /// @brief Method OnColocationSessionFound, addr 0x5a772f8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnColocationSessionFound, addr 0x5e8f160, size 0xc0, virtual false, abstract: false, final false
   inline void OnColocationSessionFound(::GlobalNamespace::OVRColocationSession_Data data);
 
-  /// @brief Method OnDisable, addr 0x5a76e40, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5e8eca8, size 0x134, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5a76d0c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5e8eb74, size 0x134, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnRoomCreationFinished, addr 0x5a771a0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnRoomCreationFinished, addr 0x5e8f008, size 0xb8, virtual false, abstract: false, final false
   inline void OnRoomCreationFinished(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult result);
 
-  /// @brief Method ReportDiscoverEvent, addr 0x5a77594, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReportDiscoverEvent, addr 0x5e8f3fc, size 0x90, virtual false, abstract: false, final false
   static inline void ReportDiscoverEvent(::GlobalNamespace::OVRColocationSession_Data data);
 
-  /// @brief Method Start, addr 0x5a76f74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e8eddc, size 0x10, virtual false, abstract: false, final false
   inline void Start();
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<StartAdvertisingColocationSession>d__17))]
-  /// @brief Method StartAdvertisingColocationSession, addr 0x5a77258, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StartAdvertisingColocationSession, addr 0x5e8f0c0, size 0xa0, virtual false, abstract: false, final false
   static inline void StartAdvertisingColocationSession(::ArrayW<uint8_t> data);
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<StartAsGuest>d__13))]
-  /// @brief Method StartAsGuest, addr 0x5a770d8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method StartAsGuest, addr 0x5e8ef40, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* StartAsGuest(bool stopAfterTimeout);
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<StartAsHost>d__12))]
-  /// @brief Method StartAsHost, addr 0x5a77028, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method StartAsHost, addr 0x5e8ee90, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* StartAsHost();
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<StartDiscoveringColocationSessions>d__19))]
-  /// @brief Method StartDiscoveringColocationSessions, addr 0x5a77454, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StartDiscoveringColocationSessions, addr 0x5e8f2bc, size 0xa0, virtual false, abstract: false, final false
   static inline void StartDiscoveringColocationSessions(::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>* onGroupFound);
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<StopAdvertisingColocationSession>d__18))]
-  /// @brief Method StopAdvertisingColocationSession, addr 0x5a773b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method StopAdvertisingColocationSession, addr 0x5e8f220, size 0x9c, virtual false, abstract: false, final false
   static inline void StopAdvertisingColocationSession();
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<StopDiscoveringColocationSessions>d__20))]
-  /// @brief Method StopDiscoveringColocationSessions, addr 0x5a774f4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StopDiscoveringColocationSessions, addr 0x5e8f35c, size 0xa0, virtual false, abstract: false, final false
   static inline void StopDiscoveringColocationSessions(::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>* onGroupFound);
 
   constexpr ::UnityW<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking> const& __cordl_internal_get__customMatchmaking() const;
@@ -770,7 +770,7 @@ public:
 
   constexpr void __cordl_internal_set_timeDiscoveringInSec(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5a77624, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e8f48c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Events::UnityEvent_1<::StringW>* getStaticF_OnSessionCreateFailed();
@@ -804,7 +804,7 @@ public:
   LocalMatchmaking(LocalMatchmaking const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20875 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21635 };
 
   /// [Tooltip("On Start(), players will automatically discover local sessions and start hosting if no sessions found.")]
   /// [SerializeField]

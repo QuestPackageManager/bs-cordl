@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(JobHandle)
 namespace System {
 template <typename T> class IEquatable_1;
 }
+namespace System {
+class Object;
+}
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
@@ -35,52 +38,61 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Jobs::JobHandle>"
   constexpr operator ::System::IEquatable_1<::Unity::Jobs::JobHandle>*();
 
-  /// @brief Method CombineDependencies, addr 0x6a5ba64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CombineDependencies, addr 0x6ead554, size 0x28, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CombineDependencies(::Unity::Jobs::JobHandle job0, ::Unity::Jobs::JobHandle job1);
 
-  /// @brief Method CombineDependencies, addr 0x6a5bae8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CombineDependencies, addr 0x6ead5d8, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CombineDependencies(::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle> jobs);
 
-  /// @brief Method CombineDependencies, addr 0x6a5bb98, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CombineDependencies, addr 0x6ead688, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CombineDependencies(::Unity::Collections::NativeSlice_1<::Unity::Jobs::JobHandle> jobs);
 
   /// [NativeMethod(IsFreeFunction = true, IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method CombineDependenciesInternal2, addr 0x6a5ba8c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CombineDependenciesInternal2, addr 0x6ead57c, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CombineDependenciesInternal2(::by_ref<::Unity::Jobs::JobHandle> job0, ::by_ref<::Unity::Jobs::JobHandle> job1);
 
-  /// @brief Method CombineDependenciesInternal2_Injected, addr 0x6a5bc00, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CombineDependenciesInternal2_Injected, addr 0x6ead6f0, size 0x54, virtual false, abstract: false, final false
   static inline void CombineDependenciesInternal2_Injected(::by_ref<::Unity::Jobs::JobHandle> job0, ::by_ref<::Unity::Jobs::JobHandle> job1, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
   /// [NativeMethod(IsFreeFunction = true, IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method CombineDependenciesInternalPtr, addr 0x6a5bb3c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CombineDependenciesInternalPtr, addr 0x6ead62c, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CombineDependenciesInternalPtr(void* jobs, int32_t count);
 
-  /// @brief Method CombineDependenciesInternalPtr_Injected, addr 0x6a5bc54, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CombineDependenciesInternalPtr_Injected, addr 0x6ead744, size 0x54, virtual false, abstract: false, final false
   static inline void CombineDependenciesInternalPtr_Injected(void* jobs, int32_t count, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method Complete, addr 0x6a5b940, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x6ead430, size 0x48, virtual false, abstract: false, final false
   inline void Complete();
 
-  /// @brief Method Equals, addr 0x6a5bca8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6ead7a8, size 0x7c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x6ead798, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Jobs::JobHandle other);
 
+  /// @brief Method GetHashCode, addr 0x6ead830, size 0xc, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
   /// [NativeMethod("ScheduleBatchedScriptingJobs", IsFreeFunction = true, IsThreadSafe = true)]
-  /// @brief Method ScheduleBatchedJobs, addr 0x6a5ba3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatchedJobs, addr 0x6ead52c, size 0x28, virtual false, abstract: false, final false
   static inline void ScheduleBatchedJobs();
 
   /// [NativeMethod("ScheduleBatchedScriptingJobsAndComplete", IsFreeFunction = true, IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method ScheduleBatchedJobsAndComplete, addr 0x6a5b988, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatchedJobsAndComplete, addr 0x6ead478, size 0x3c, virtual false, abstract: false, final false
   static inline void ScheduleBatchedJobsAndComplete(::by_ref<::Unity::Jobs::JobHandle> job);
 
   /// [NativeMethod("ScheduleBatchedScriptingJobsAndIsCompleted", IsFreeFunction = true, IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method ScheduleBatchedJobsAndIsCompleted, addr 0x6a5ba00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatchedJobsAndIsCompleted, addr 0x6ead4f0, size 0x3c, virtual false, abstract: false, final false
   static inline bool ScheduleBatchedJobsAndIsCompleted(::by_ref<::Unity::Jobs::JobHandle> job);
 
-  /// @brief Method get_IsCompleted, addr 0x6a5b9c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x6ead4b4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Jobs::JobHandle>"
   constexpr ::System::IEquatable_1<::Unity::Jobs::JobHandle>* i___System__IEquatable_1___Unity__Jobs__JobHandle_();
+
+  /// @brief Method op_Equality, addr 0x6ead824, size 0xc, virtual false, abstract: false, final false
+  static inline bool op_Equality(::Unity::Jobs::JobHandle a, ::Unity::Jobs::JobHandle b);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -91,7 +103,7 @@ public:
   constexpr JobHandle(uint64_t jobGroup, int32_t version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9501 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

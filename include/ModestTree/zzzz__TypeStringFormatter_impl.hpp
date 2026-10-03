@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeStringFormatter___c::*)()>(&::ModestTree::TypeStringFormatter___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e42384;
+  constexpr static std::size_t addrs = 0x72dded4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeStringFormatter___c*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::ModestTree::TypeStringFormatter___c::*)(::System::Type*)>(&::ModestTree::TypeStringFormatter___c::_PrettyNameInternal_b__3_0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6e42388;
+  constexpr static std::size_t addrs = 0x72dded8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::ModestTree::TypeStringFormatter::NoDomainReloadInit)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6e41990;
+  constexpr static std::size_t addrs = 0x72dd4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeStringFormatter*>(), { "NoDomainReloadInit", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Type*)>(&::ModestTree::TypeStringFormatter::PrettyName)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6e3fe20;
+  constexpr static std::size_t addrs = 0x72db970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Type*)>(&::ModestTree::TypeStringFormatter::PrettyNameInternal)> {
   constexpr static std::size_t size = 0x49c;
-  constexpr static std::size_t addrs = 0x6e41a54;
+  constexpr static std::size_t addrs = 0x72dd5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::ModestTree::TypeStringFormatter::GetCSharpTypeName)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x6e41ef0;
+  constexpr static std::size_t addrs = 0x72dda40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

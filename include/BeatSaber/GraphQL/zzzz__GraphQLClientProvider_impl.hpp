@@ -13,7 +13,9 @@
 #include "BeatSaber/GraphQL/zzzz__IGraphQLClientProvider_def.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLClient_def.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__Request_def.hpp"
+#include "OculusStudios/MetaNetworking/Utils/zzzz__IMetaApiUserAgentProvider_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatform_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
@@ -27,13 +29,14 @@
 //  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProvider_Settings._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider_Settings::*)(::StringW, bool)>(&::BeatSaber::GraphQL::GraphQLClientProvider_Settings::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32960ec;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider_Settings::*)(::StringW, bool, int32_t)>(
+    &::BeatSaber::GraphQL::GraphQLClientProvider_Settings::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x351cc34;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider_Settings*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider_Settings*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -61,60 +64,72 @@ constexpr void BeatSaber::GraphQL::GraphQLClientProvider_Settings::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoInitialize = value;
 }
-inline void BeatSaber::GraphQL::GraphQLClientProvider_Settings::_ctor(::StringW endpoint, bool autoInitialize) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider_Settings*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, endpoint, autoInitialize);
+constexpr int32_t& BeatSaber::GraphQL::GraphQLClientProvider_Settings::__cordl_internal_get_requestTimeoutMsOverride() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___requestTimeoutMsOverride;
 }
-inline ::BeatSaber::GraphQL::GraphQLClientProvider_Settings* BeatSaber::GraphQL::GraphQLClientProvider_Settings::New_ctor(::StringW endpoint, bool autoInitialize) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::GraphQL::GraphQLClientProvider_Settings*>(endpoint, autoInitialize));
+constexpr int32_t const& BeatSaber::GraphQL::GraphQLClientProvider_Settings::__cordl_internal_get_requestTimeoutMsOverride() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___requestTimeoutMsOverride;
+}
+constexpr void BeatSaber::GraphQL::GraphQLClientProvider_Settings::__cordl_internal_set_requestTimeoutMsOverride(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___requestTimeoutMsOverride = value;
+}
+inline void BeatSaber::GraphQL::GraphQLClientProvider_Settings::_ctor(::StringW endpoint, bool autoInitialize, int32_t requestTimeoutMsOverride) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider_Settings*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, endpoint, autoInitialize, requestTimeoutMsOverride);
+}
+inline ::BeatSaber::GraphQL::GraphQLClientProvider_Settings* BeatSaber::GraphQL::GraphQLClientProvider_Settings::New_ctor(::StringW endpoint, bool autoInitialize, int32_t requestTimeoutMsOverride) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::GraphQL::GraphQLClientProvider_Settings*>(endpoint, autoInitialize, requestTimeoutMsOverride));
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::GraphQL::GraphQLClientProvider_Settings::GraphQLClientProvider_Settings() {}
-//  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24.MoveNext
+//  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24::*)()>(
-    &::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24::MoveNext)> {
-  constexpr static std::size_t size = 0x92c;
-  constexpr static std::size_t addrs = 0x32960f8;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27::*)()>(
+    &::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27::MoveNext)> {
+  constexpr static std::size_t size = 0xad8;
+  constexpr static std::size_t addrs = 0x351cc44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24.SetStateMachine
+//  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3296a24;
+  constexpr static std::size_t addrs = 0x351d71c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24::MoveNext() {
+inline void BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24>(),
+inline void BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -122,7 +137,7 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BeatSaber::Gr
 // "::BeatSaber::GraphQL::GraphQLClientProvider*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ctx", ty: "::System::Threading::CancellationToken", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "_appVersion_5__2", ty: "::System::Version*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24::GraphQLClientProvider__InitializationTask_d__24(
+constexpr ::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27::GraphQLClientProvider__InitializationTask_d__27(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BeatSaber::GraphQL::GraphQLClientProvider* __4__this, ::System::Threading::CancellationToken ctx,
     ::System::Version* _appVersion_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -133,58 +148,58 @@ constexpr ::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24:
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24::GraphQLClientProvider__InitializationTask_d__24() {}
-//  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23.MoveNext
+constexpr ::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27::GraphQLClientProvider__InitializationTask_d__27() {}
+//  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23::*)()>(
-    &::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26::*)()>(
+    &::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26::MoveNext)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x3296a90;
+  constexpr static std::size_t addrs = 0x351d788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23.SetStateMachine
+//  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3296c90;
+  constexpr static std::size_t addrs = 0x351d988;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23::MoveNext() {
+inline void BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23>(),
+inline void BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::BeatSaber::GraphQL::GraphQLClientProvider*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ctx", ty: "::System::Threading::CancellationToken", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23::GraphQLClientProvider__InitializeAsync_d__23(int32_t __1__state,
+constexpr ::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26::GraphQLClientProvider__InitializeAsync_d__26(int32_t __1__state,
                                                                                                                            ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                                                            ::BeatSaber::GraphQL::GraphQLClientProvider* __4__this,
                                                                                                                            ::System::Threading::CancellationToken ctx,
@@ -196,14 +211,14 @@ constexpr ::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23::Gr
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23::GraphQLClientProvider__InitializeAsync_d__23() {}
+constexpr ::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26::GraphQLClientProvider__InitializeAsync_d__26() {}
 //  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProvider.add_initializationDidFinishEvent
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider::*)(::System::Action*)>(
     &::BeatSaber::GraphQL::GraphQLClientProvider::add_initializationDidFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x32957a0;
+  constexpr static std::size_t addrs = 0x351c010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -217,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider::*)(::System::Action*)>(
     &::BeatSaber::GraphQL::GraphQLClientProvider::remove_initializationDidFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x329584c;
+  constexpr static std::size_t addrs = 0x351c0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider::*)(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>*)>(
     &::BeatSaber::GraphQL::GraphQLClientProvider::add_globalRequestSucceededEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32958f8;
+  constexpr static std::size_t addrs = 0x351c168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider::*)(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>*)>(
     &::BeatSaber::GraphQL::GraphQLClientProvider::remove_globalRequestSucceededEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32959b8;
+  constexpr static std::size_t addrs = 0x351c228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -262,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider::*)(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>*)>(
     &::BeatSaber::GraphQL::GraphQLClientProvider::add_globalRequestFailureEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3295a78;
+  constexpr static std::size_t addrs = 0x351c2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider::*)(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>*)>(
     &::BeatSaber::GraphQL::GraphQLClientProvider::remove_globalRequestFailureEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3295b38;
+  constexpr static std::size_t addrs = 0x351c3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -292,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* (::BeatSaber::GraphQL::GraphQLClientProvider::*)()>(
     &::BeatSaber::GraphQL::GraphQLClientProvider::get_graphQLClient)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3295bf8;
+  constexpr static std::size_t addrs = 0x351c468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider*>(), { "get_graphQLClient", {}, {} })));
@@ -305,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::GraphQL::BSClientProviderInitializationState (::BeatSaber::GraphQL::GraphQLClientProvider::*)()>(
     &::BeatSaber::GraphQL::GraphQLClientProvider::get_initializationState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3295c00;
+  constexpr static std::size_t addrs = 0x351c470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider*>(), { "get_initializationState", {}, {} })));
@@ -318,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider::*)(::BeatSaber::GraphQL::BSClientProviderInitializationState)>(
     &::BeatSaber::GraphQL::GraphQLClientProvider::set_initializationState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3295c08;
+  constexpr static std::size_t addrs = 0x351c478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider::*)()>(&::BeatSaber::GraphQL::GraphQLClientProvider::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3295c10;
+  constexpr static std::size_t addrs = 0x351c480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider*>(), { ".ctor", {}, {} })));
@@ -345,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::GraphQL::GraphQLClientProvider::*)(::System::Threading::CancellationToken)>(
     &::BeatSaber::GraphQL::GraphQLClientProvider::InitializeAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3295cbc;
+  constexpr static std::size_t addrs = 0x351c52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -360,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::GraphQL::GraphQLClientProvider::*)(::System::Threading::CancellationToken)>(
     &::BeatSaber::GraphQL::GraphQLClientProvider::InitializationTask)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3295d80;
+  constexpr static std::size_t addrs = 0x351c5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider::*)()>(&::BeatSaber::GraphQL::GraphQLClientProvider::Initialize)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3295e40;
+  constexpr static std::size_t addrs = 0x351c6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider*>(), { "Initialize", {}, {} })));
@@ -385,8 +400,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQ
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider::*)()>(&::BeatSaber::GraphQL::GraphQLClientProvider::Dispose)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3295f78;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x351c7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider*>(), { "Dispose", {}, {} })));
@@ -398,23 +413,36 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider::*)()>(&::BeatSaber::GraphQL::GraphQLClientProvider::Tick)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3295fd4;
+  constexpr static std::size_t addrs = 0x351c978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider*>(), { "Tick", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProvider._Initialize_b__25_0
+//  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProvider.HandleMetaApiUserAgentValueDidChange
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProvider::*)()>(&::BeatSaber::GraphQL::GraphQLClientProvider::HandleMetaApiUserAgentValueDidChange)> {
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x351ca5c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider*>(), { "HandleMetaApiUserAgentValueDidChange", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProvider._Initialize_b__28_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::GraphQL::GraphQLClientProvider::*)()>(
-    &::BeatSaber::GraphQL::GraphQLClientProvider::_Initialize_b__25_0)> {
+    &::BeatSaber::GraphQL::GraphQLClientProvider::_Initialize_b__28_0)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x32960b8;
+  constexpr static std::size_t addrs = 0x351cc00;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider*>(), { "<Initialize>b__25_0", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider*>(), { "<Initialize>b__28_0", {}, {} })));
     return ___internal_method;
   }
 };
@@ -441,6 +469,18 @@ constexpr ::OculusStudios::Platform::Core::IPlatform* const& BeatSaber::GraphQL:
 constexpr void BeatSaber::GraphQL::GraphQLClientProvider::__cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____platform = value;
+}
+constexpr ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*& BeatSaber::GraphQL::GraphQLClientProvider::__cordl_internal_get__metaApiUserAgentProvider() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____metaApiUserAgentProvider;
+}
+constexpr ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* const& BeatSaber::GraphQL::GraphQLClientProvider::__cordl_internal_get__metaApiUserAgentProvider() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____metaApiUserAgentProvider;
+}
+constexpr void BeatSaber::GraphQL::GraphQLClientProvider::__cordl_internal_set__metaApiUserAgentProvider(::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____metaApiUserAgentProvider = value;
 }
 constexpr ::System::Action*& BeatSaber::GraphQL::GraphQLClientProvider::__cordl_internal_get_initializationDidFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -538,6 +578,30 @@ constexpr void BeatSaber::GraphQL::GraphQLClientProvider::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initializationTask = value;
 }
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& BeatSaber::GraphQL::GraphQLClientProvider::__cordl_internal_get__customAppHeaders() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____customAppHeaders;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* const& BeatSaber::GraphQL::GraphQLClientProvider::__cordl_internal_get__customAppHeaders() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____customAppHeaders;
+}
+constexpr void BeatSaber::GraphQL::GraphQLClientProvider::__cordl_internal_set__customAppHeaders(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____customAppHeaders = value;
+}
+constexpr bool& BeatSaber::GraphQL::GraphQLClientProvider::__cordl_internal_get__isSubscribedToUserAgentChanges() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isSubscribedToUserAgentChanges;
+}
+constexpr bool const& BeatSaber::GraphQL::GraphQLClientProvider::__cordl_internal_get__isSubscribedToUserAgentChanges() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isSubscribedToUserAgentChanges;
+}
+constexpr void BeatSaber::GraphQL::GraphQLClientProvider::__cordl_internal_set__isSubscribedToUserAgentChanges(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____isSubscribedToUserAgentChanges = value;
+}
 inline void BeatSaber::GraphQL::GraphQLClientProvider::add_initializationDidFinishEvent(::System::Action* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider*>(), { "add_initializationDidFinishEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
@@ -615,8 +679,13 @@ inline void BeatSaber::GraphQL::GraphQLClientProvider::Tick() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider*>(), { "Tick", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task* BeatSaber::GraphQL::GraphQLClientProvider::_Initialize_b__25_0() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider*>(), { "<Initialize>b__25_0", {}, {} })));
+inline void BeatSaber::GraphQL::GraphQLClientProvider::HandleMetaApiUserAgentValueDidChange() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider*>(), { "HandleMetaApiUserAgentValueDidChange", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Threading::Tasks::Task* BeatSaber::GraphQL::GraphQLClientProvider::_Initialize_b__28_0() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProvider*>(), { "<Initialize>b__28_0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method);
 }
 inline ::BeatSaber::GraphQL::GraphQLClientProvider* BeatSaber::GraphQL::GraphQLClientProvider::New_ctor() {

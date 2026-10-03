@@ -8,11 +8,11 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/AddressableAssets/Initialization/zzzz__InitializationOperation_def.hpp"
 #include "UnityEngine/AddressableAssets/Initialization/zzzz__ResourceManagerRuntimeData_def.hpp"
-#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ContentCatalogData_def.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_def.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ResourceLocationMap_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__InitalizationObjectsOperation_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_def.hpp"
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x646f584;
+  constexpr static std::size_t addrs = 0x6897110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::*)(
     ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*)>(&::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::_Execute_b__12_0)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x646f588;
+  constexpr static std::size_t addrs = 0x6897114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,113 +82,104 @@ inline ::UnityEngine::AddressableAssets::Initialization::InitializationOperation
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::InitializationOperation___c() {}
-//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0._ctor
+//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::*)()>(
-    &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::*)()>(
+    &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x646f614;
+  constexpr static std::size_t addrs = 0x68971a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0*>(), { ".ctor", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0._LoadContentCatalog_b__0
+//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0._LoadContentCatalog_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
-    ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::*)(
-    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>)>(
-    &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::_LoadContentCatalog_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (
+        ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::*)(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(
+        &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::_LoadContentCatalog_b__0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x646f618;
+  constexpr static std::size_t addrs = 0x68971a4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0*>(),
-            { "<LoadContentCatalog>b__0",
-              {},
-              { ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0*>(),
+                                                             { "<LoadContentCatalog>b__0", {}, { ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>() } })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_get_addressables() {
+constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_get_addressables() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addressables;
 }
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const&
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_get_addressables() const {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_get_addressables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addressables;
 }
 constexpr void
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_set_addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_set_addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___addressables = value;
 }
-constexpr ::StringW& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_get_providerSuffix() {
+constexpr ::StringW& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_get_providerSuffix() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___providerSuffix;
 }
-constexpr ::StringW const& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_get_providerSuffix() const {
+constexpr ::StringW const& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_get_providerSuffix() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___providerSuffix;
 }
-constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_set_providerSuffix(::StringW value) {
+constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_set_providerSuffix(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___providerSuffix = value;
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*&
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_get_remoteHashLocation() {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_get_remoteHashLocation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___remoteHashLocation;
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* const&
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_get_remoteHashLocation() const {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_get_remoteHashLocation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___remoteHashLocation;
 }
-constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_set_remoteHashLocation(
+constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_set_remoteHashLocation(
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___remoteHashLocation = value;
 }
-inline void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::_ctor() {
+inline void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::_LoadContentCatalog_b__0(
-    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> res) {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::_LoadContentCatalog_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle res) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0*>(),
-                       { "<LoadContentCatalog>b__0",
-                         {},
-                         { ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0*>(),
+                                                           { "<LoadContentCatalog>b__0", {}, { ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>>(
       this, ___internal_method, res);
 }
-inline ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0*
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0*>());
+inline ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0*
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::InitializationOperation___c__DisplayClass15_0() {}
+constexpr ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::InitializationOperation___c__DisplayClass16_0() {}
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x646f66c;
+  constexpr static std::size_t addrs = 0x68971f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +194,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Addr
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>)>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::_LoadContentCatalogInternal_b__0)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x646f670;
+  constexpr static std::size_t addrs = 0x68971fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)(::UnityEngine::AddressableAssets::AddressablesImpl*)>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x646d518;
+  constexpr static std::size_t addrs = 0x689506c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation*>(),
@@ -330,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation::get_Progress)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x646d578;
+  constexpr static std::size_t addrs = 0x68950cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation*>(),
@@ -344,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation::get_DebugName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x646d5fc;
+  constexpr static std::size_t addrs = 0x6895150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation*>(),
@@ -358,8 +349,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (*)(
         ::UnityEngine::AddressableAssets::AddressablesImpl*, ::StringW, ::StringW)>(&::UnityEngine::AddressableAssets::Initialization::InitializationOperation::CreateInitializationOperation)> {
-  constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x6459104;
+  constexpr static std::size_t size = 0x5a0;
+  constexpr static std::size_t addrs = 0x6881070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -376,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation::InvokeWaitForCompletion)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x646d640;
+  constexpr static std::size_t addrs = 0x6895194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation*>(),
@@ -390,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation::Execute)> {
   constexpr static std::size_t size = 0xd14;
-  constexpr static std::size_t addrs = 0x646d848;
+  constexpr static std::size_t addrs = 0x689539c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation*>(),
@@ -404,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::AddressableAssets::AddressablesImpl*, ::UnityEngine::ResourceManagement::Util::ObjectInitializationData, ::StringW)>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadProvider)> {
   constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x646e79c;
+  constexpr static std::size_t addrs = 0x68962f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -421,11 +412,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (*)(
-        ::UnityEngine::AddressableAssets::AddressablesImpl*,
-        ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>, ::StringW,
+        ::UnityEngine::AddressableAssets::AddressablesImpl*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::StringW,
         ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::AddressableAssets::Initialization::InitializationOperation::OnCatalogDataLoaded)> {
-  constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x646ec1c;
+  constexpr static std::size_t size = 0x580;
+  constexpr static std::size_t addrs = 0x6896770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -433,29 +423,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation*>(),
                             { "OnCatalogDataLoaded",
                               {},
-                              { ::i2c::type_of<::UnityEngine::AddressableAssets::AddressablesImpl*>(),
-                                ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>>(),
-                                ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation.LoadContentCatalog
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (*)(
-        ::UnityEngine::AddressableAssets::AddressablesImpl*, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW,
-        ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalog)> {
-  constexpr static std::size_t size = 0x694;
-  constexpr static std::size_t addrs = 0x6459618;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation*>(),
-                            { "LoadContentCatalog",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::AddressableAssets::AddressablesImpl*>(), ::i2c::type_of<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(),
+                              { ::i2c::type_of<::UnityEngine::AddressableAssets::AddressablesImpl*>(), ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(),
                                 ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>() } })));
     return ___internal_method;
   }
@@ -468,7 +436,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceMa
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalog)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x646f164;
+  constexpr static std::size_t addrs = 0x6896cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -477,6 +445,27 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceMa
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::i2c::type_of<::StringW>(),
                                                                  ::i2c::type_of<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation.LoadContentCatalog
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (*)(
+        ::UnityEngine::AddressableAssets::AddressablesImpl*, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW,
+        ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalog)> {
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x6881618;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation*>(),
+                            { "LoadContentCatalog",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::AddressableAssets::AddressablesImpl*>(), ::i2c::type_of<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(),
+                                ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>() } })));
     return ___internal_method;
   }
 };
@@ -489,7 +478,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceMa
     ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalogInternal)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x646e55c;
+  constexpr static std::size_t addrs = 0x68960b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -502,21 +491,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceMa
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation.LoadOpComplete
+//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation.LoadContentCatalogComplete
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>,
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*,
-    int32_t, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadOpComplete)> {
+    int32_t, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalogComplete)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x646f198;
+  constexpr static std::size_t addrs = 0x6896d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation*>(),
-                            { "LoadOpComplete",
+                            { "LoadContentCatalogComplete",
                               {},
                               { ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>>(),
                                 ::i2c::type_of<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(),
@@ -642,20 +631,30 @@ inline void UnityEngine::AddressableAssets::Initialization::InitializationOperat
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, addressables, providerData, providerSuffix);
 }
 inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
-UnityEngine::AddressableAssets::Initialization::InitializationOperation::OnCatalogDataLoaded(
-    ::UnityEngine::AddressableAssets::AddressablesImpl* addressables,
-    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> op, ::StringW providerSuffix,
-    ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation) {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation::OnCatalogDataLoaded(::UnityEngine::AddressableAssets::AddressablesImpl* addressables,
+                                                                                             ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle genOp, ::StringW providerSuffix,
+                                                                                             ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation*>(),
                           { "OnCatalogDataLoaded",
                             {},
-                            { ::i2c::type_of<::UnityEngine::AddressableAssets::AddressablesImpl*>(),
-                              ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>>(),
+                            { ::i2c::type_of<::UnityEngine::AddressableAssets::AddressablesImpl*>(), ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(),
                               ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>>(
-      nullptr, ___internal_method, addressables, op, providerSuffix, remoteHashLocation);
+      nullptr, ___internal_method, addressables, genOp, providerSuffix, remoteHashLocation);
+}
+inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
+UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalog(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc, ::StringW providerSuffix,
+                                                                                            ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation*>(),
+                                                           { "LoadContentCatalog",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::i2c::type_of<::StringW>(),
+                                                               ::i2c::type_of<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>>(
+      this, ___internal_method, loc, providerSuffix, remoteHashLocation);
 }
 inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
 UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalog(::UnityEngine::AddressableAssets::AddressablesImpl* addressables,
@@ -672,18 +671,6 @@ UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadCon
       nullptr, ___internal_method, addressables, loc, providerSuffix, remoteHashLocation);
 }
 inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
-UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalog(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc, ::StringW providerSuffix,
-                                                                                            ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation*>(),
-                                                           { "LoadContentCatalog",
-                                                             {},
-                                                             { ::i2c::type_of<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::i2c::type_of<::StringW>(),
-                                                               ::i2c::type_of<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>>(
-      this, ___internal_method, loc, providerSuffix, remoteHashLocation);
-}
-inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
 UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalogInternal(
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* catalogs, int32_t index,
     ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locMap, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation) {
@@ -697,14 +684,14 @@ UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadCon
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>>(
       this, ___internal_method, catalogs, index, locMap, remoteHashLocation);
 }
-inline void UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadOpComplete(
+inline void UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalogComplete(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> op,
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* catalogs,
     ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locMap, int32_t index, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::InitializationOperation*>(),
-                          { "LoadOpComplete",
+                          { "LoadContentCatalogComplete",
                             {},
                             { ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>>(),
                               ::i2c::type_of<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(),

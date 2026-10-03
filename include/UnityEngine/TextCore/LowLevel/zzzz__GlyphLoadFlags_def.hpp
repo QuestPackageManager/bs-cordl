@@ -13,8 +13,8 @@ struct GlyphLoadFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphLoadFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, "UnityEngine.TextCore.LowLevel", "GlyphLoadFlags");
-// [Flags]
 // [UsedByNativeCode]
+// [Flags]
 // Dependencies
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
@@ -90,7 +90,7 @@ public:
   static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_RENDER;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22884 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

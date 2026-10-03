@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::OverlapCapsuleCommand::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, ::UnityEngine::QueryParameters)>(
     &::UnityEngine::OverlapCapsuleCommand::_ctor)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6b985c8;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x7003f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,8 +33,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::OverlapCapsuleCommand::*)(::UnityEngine::PhysicsScene, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t,
                                                                                                       ::UnityEngine::QueryParameters)>(&::UnityEngine::OverlapCapsuleCommand::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6b98688;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x7004030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::OverlapCapsuleCommand::*)()>(&::UnityEngine::OverlapCapsuleCommand::get_point0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b986a4;
+  constexpr static std::size_t addrs = 0x7004050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::OverlapCapsuleCommand>(), { "get_point0", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::OverlapCapsuleCommand::*)(::UnityEngine::Vector3)>(&::UnityEngine::OverlapCapsuleCommand::set_point0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b986b0;
+  constexpr static std::size_t addrs = 0x700405c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::OverlapCapsuleCommand::*)()>(&::UnityEngine::OverlapCapsuleCommand::get_point1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b986bc;
+  constexpr static std::size_t addrs = 0x7004068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::OverlapCapsuleCommand>(), { "get_point1", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::OverlapCapsuleCommand::*)(::UnityEngine::Vector3)>(&::UnityEngine::OverlapCapsuleCommand::set_point1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b986c8;
+  constexpr static std::size_t addrs = 0x7004074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::OverlapCapsuleCommand::*)()>(&::UnityEngine::OverlapCapsuleCommand::get_radius)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b986d4;
+  constexpr static std::size_t addrs = 0x7004080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::OverlapCapsuleCommand>(), { "get_radius", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::OverlapCapsuleCommand::*)(float_t)>(&::UnityEngine::OverlapCapsuleCommand::set_radius)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b986dc;
+  constexpr static std::size_t addrs = 0x7004088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PhysicsScene (::UnityEngine::OverlapCapsuleCommand::*)()>(&::UnityEngine::OverlapCapsuleCommand::get_physicsScene)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b986e4;
+  constexpr static std::size_t addrs = 0x7004090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::OverlapCapsuleCommand>(), { "get_physicsScene", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::OverlapCapsuleCommand::*)(::UnityEngine::PhysicsScene)>(&::UnityEngine::OverlapCapsuleCommand::set_physicsScene)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b986ec;
+  constexpr static std::size_t addrs = 0x7004098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle 
                                                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::ColliderHit>, int32_t, int32_t, ::Unity::Jobs::JobHandle)>(
     &::UnityEngine::OverlapCapsuleCommand::ScheduleBatch)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6b986f4;
+  constexpr static std::size_t addrs = 0x70040a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::OverlapCapsuleCommand>(),
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, void*, int32_t, void*, int32_t,
                                                                                     int32_t, int32_t)>(&::UnityEngine::OverlapCapsuleCommand::ScheduleOverlapCapsuleBatch)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6b988a0;
+  constexpr static std::size_t addrs = 0x700424c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, void*, int32_t, void*, int32_t, int32_t, int32_t,
                                                                 ::by_ref<::Unity::Jobs::JobHandle>)>(&::UnityEngine::OverlapCapsuleCommand::ScheduleOverlapCapsuleBatch_Injected)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6b9893c;
+  constexpr static std::size_t addrs = 0x70042e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

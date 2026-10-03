@@ -35,7 +35,7 @@ public:
 
   static inline ::GlobalNamespace::TutorialRestartController* New_ctor();
 
-  /// @brief Method RestartLevel, addr 0x59b703c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method RestartLevel, addr 0x5dd2564, size 0x30, virtual true, abstract: false, final true
   inline void RestartLevel();
 
   constexpr ::GlobalNamespace::TutorialScenesTransitionSetupData* const& __cordl_internal_get__tutorialSceneSetupData() const;
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__tutorialSceneSetupData(::GlobalNamespace::TutorialScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x59b706c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd2594, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ILevelRestartController"
@@ -65,7 +65,7 @@ public:
   TutorialRestartController(TutorialRestartController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6166 };
 
   /// [Inject]
   /// @brief Field _tutorialSceneSetupData, offset: 0x20, size: 0x8, def value: None

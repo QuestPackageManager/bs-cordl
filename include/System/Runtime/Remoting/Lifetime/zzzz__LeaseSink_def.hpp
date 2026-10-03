@@ -34,16 +34,16 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x5b362a8, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x5f4e1a0, size 0xc8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Lifetime::LeaseSink* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
 
-  /// @brief Method RenewLease, addr 0x5b36018, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method RenewLease, addr 0x5f4df10, size 0x290, virtual false, abstract: false, final false
   inline void RenewLease(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method SyncProcessMessage, addr 0x5b35f5c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x5f4de54, size 0xbc, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* const& __cordl_internal_get__nextSink() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__nextSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x5b35f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f4de4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"

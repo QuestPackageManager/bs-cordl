@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RenderTargetHandle::*)(int32_t)>(&::UnityEngine::Rendering::Universal::RenderTargetHandle::set_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b7950;
+  constexpr static std::size_t addrs = 0x6ce6308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::RenderTargetHandle::*)()>(&::UnityEngine::Rendering::Universal::RenderTargetHandle::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b7958;
+  constexpr static std::size_t addrs = 0x6ce6310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderTargetHandle>(), { "get_id", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RenderTargetHandle::*)(::UnityEngine::Rendering::RenderTargetIdentifier)>(
     &::UnityEngine::Rendering::Universal::RenderTargetHandle::set_rtid)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68b7960;
+  constexpr static std::size_t addrs = 0x6ce6318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderTargetHandle>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderTargetIdentifier (::UnityEngine::Rendering::Universal::RenderTargetHandle::*)()>(
     &::UnityEngine::Rendering::Universal::RenderTargetHandle::get_rtid)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68b7978;
+  constexpr static std::size_t addrs = 0x6ce6330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderTargetHandle>(), { "get_rtid", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RenderTargetHandle::*)(::UnityEngine::Rendering::RenderTargetIdentifier)>(
     &::UnityEngine::Rendering::Universal::RenderTargetHandle::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x68b7990;
+  constexpr static std::size_t addrs = 0x6ce6348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderTargetHandle>(),
@@ -77,8 +77,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RenderTargetHandle::*)(::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::RenderTargetHandle::_ctor)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x68b7a0c;
+  constexpr static std::size_t size = 0x24c;
+  constexpr static std::size_t addrs = 0x6ce63c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::RenderTargetHandle (*)(::by_ref<::UnityEngine::Rendering::Universal::CameraData>)>(
     &::UnityEngine::Rendering::Universal::RenderTargetHandle::GetCameraTarget)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x68b7c04;
+  constexpr static std::size_t addrs = 0x6ce6610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RenderTargetHandle::*)(::StringW)>(&::UnityEngine::Rendering::Universal::RenderTargetHandle::Init)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x68b7ce0;
+  constexpr static std::size_t addrs = 0x6ce66ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RenderTargetHandle::*)(::UnityEngine::Rendering::RenderTargetIdentifier)>(
     &::UnityEngine::Rendering::Universal::RenderTargetHandle::Init)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x68b7d58;
+  constexpr static std::size_t addrs = 0x6ce6764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderTargetHandle>(),
@@ -134,8 +134,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderTargetIdentifier (::UnityEngine::Rendering::Universal::RenderTargetHandle::*)()>(
     &::UnityEngine::Rendering::Universal::RenderTargetHandle::Identifier)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x68b7dd4;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x6ce67e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderTargetHandle>(), { "Identifier", {}, {} })));
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::RenderTargetHandle::*)()>(
     &::UnityEngine::Rendering::Universal::RenderTargetHandle::HasInternalRenderTargetId)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68b7ee0;
+  constexpr static std::size_t addrs = 0x6ce6914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,8 +161,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::RenderTargetHandle::*)(::UnityEngine::Rendering::Universal::RenderTargetHandle)>(
     &::UnityEngine::Rendering::Universal::RenderTargetHandle::Equals)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x68b7f40;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x6ce6974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderTargetHandle>(),
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::RenderTargetHandle::*)(::System::Object*)>(
     &::UnityEngine::Rendering::Universal::RenderTargetHandle::Equals)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x68b8084;
+  constexpr static std::size_t addrs = 0x6ce6a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderTargetHandle>(),
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::RenderTargetHandle::*)()>(&::UnityEngine::Rendering::Universal::RenderTargetHandle::GetHashCode)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x68b814c;
+  constexpr static std::size_t addrs = 0x6ce6b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderTargetHandle>(),
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::Universal::RenderTargetHandle, ::UnityEngine::Rendering::Universal::RenderTargetHandle)>(
     &::UnityEngine::Rendering::Universal::RenderTargetHandle::op_Equality)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x68b81a4;
+  constexpr static std::size_t addrs = 0x6ce6ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::Universal::RenderTargetHandle, ::UnityEngine::Rendering::Universal::RenderTargetHandle)>(
     &::UnityEngine::Rendering::Universal::RenderTargetHandle::op_Inequality)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x68b822c;
+  constexpr static std::size_t addrs = 0x6ce6c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

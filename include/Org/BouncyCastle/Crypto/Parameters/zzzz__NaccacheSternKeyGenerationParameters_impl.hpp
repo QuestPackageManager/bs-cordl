@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::*)(
     ::Org::BouncyCastle::Security::SecureRandom*, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3414dd0;
+  constexpr static std::size_t addrs = 0x369e06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::*)(
     ::Org::BouncyCastle::Security::SecureRandom*, int32_t, int32_t, int32_t, bool)>(&::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3414e78;
+  constexpr static std::size_t addrs = 0x369e114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters*>(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::get_Certainty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3414e7c;
+  constexpr static std::size_t addrs = 0x369e118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::get_CountSmallPrimes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3414e84;
+  constexpr static std::size_t addrs = 0x369e120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::get_IsDebug)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3414e8c;
+  constexpr static std::size_t addrs = 0x369e128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

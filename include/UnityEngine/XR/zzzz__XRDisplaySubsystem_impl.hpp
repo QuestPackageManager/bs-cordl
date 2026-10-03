@@ -32,17 +32,18 @@ constexpr ::UnityEngine::XR::XRDisplaySubsystem_TextureLayout UnityEngine::XR::X
 constexpr ::UnityEngine::XR::XRDisplaySubsystem_TextureLayout UnityEngine::XR::XRDisplaySubsystem_TextureLayout::SeparateTexture2Ds{ static_cast<int32_t>(0x4) };
 // Ctor Parameters [CppParam { name: "view", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "projection", ty: "::UnityEngine::Matrix4x4",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "viewport", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "occlusionMesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "textureArraySlice", ty: "int32_t", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "previousView", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isPreviousViewValid", ty:
-// "bool", modifiers: "", def_value: Some("{}"), comment: None }]
+// "occlusionMesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visibleMesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "textureArraySlice", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "previousView", ty:
+// "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isPreviousViewValid", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter::XRDisplaySubsystem_XRRenderParameter(::UnityEngine::Matrix4x4 view, ::UnityEngine::Matrix4x4 projection,
                                                                                                         ::UnityEngine::Rect viewport, ::UnityW<::UnityEngine::Mesh> occlusionMesh,
-                                                                                                        int32_t textureArraySlice, ::UnityEngine::Matrix4x4 previousView,
-                                                                                                        bool isPreviousViewValid) noexcept {
+                                                                                                        ::UnityW<::UnityEngine::Mesh> visibleMesh, int32_t textureArraySlice,
+                                                                                                        ::UnityEngine::Matrix4x4 previousView, bool isPreviousViewValid) noexcept {
   this->view = view;
   this->projection = projection;
   this->viewport = viewport;
   this->occlusionMesh = occlusionMesh;
+  this->visibleMesh = visibleMesh;
   this->textureArraySlice = textureArraySlice;
   this->previousView = previousView;
   this->isPreviousViewValid = isPreviousViewValid;
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass::*)(
     ::UnityEngine::Camera*, int32_t, ::by_ref<::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter>)>(&::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass::GetRenderParameter)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6e38ed4;
+  constexpr static std::size_t addrs = 0x72d49f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass::*)()>(
     &::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass::GetRenderParameterCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e38fd8;
+  constexpr static std::size_t addrs = 0x72d4af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +89,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::by_ref<::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass>, ::System::IntPtr, int32_t, ::by_ref<::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter>)>(
         &::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass::GetRenderParameter_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e38f7c;
+  constexpr static std::size_t addrs = 0x72d4a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,25 +128,31 @@ inline void UnityEngine::XR::XRDisplaySubsystem_XRRenderPass::GetRenderParameter
 }
 // Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "renderPassIndex", ty: "int32_t",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "renderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: Some("{}"), comment: None
-// }, CppParam { name: "renderTargetDesc", ty: "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hasMotionVectorPass", ty: "bool",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "motionVectorRenderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: Some("{}"),
-// comment: None }, CppParam { name: "motionVectorRenderTargetDesc", ty: "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "shouldFillOutDepth", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cullingPassIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
-// CppParam { name: "foveatedRenderingInfo", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
+// }, CppParam { name: "renderTargetDesc", ty: "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "renderTargetScaledWidth", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "renderTargetScaledHeight", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "hasMotionVectorPass", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "motionVectorRenderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "motionVectorRenderTargetDesc", ty: "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "shouldFillOutDepth", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "spaceWarpRightHandedNDC", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "cullingPassIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "foveatedRenderingInfo", ty:
+// "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass::XRDisplaySubsystem_XRRenderPass(::System::IntPtr displaySubsystemInstance, int32_t renderPassIndex,
                                                                                               ::UnityEngine::Rendering::RenderTargetIdentifier renderTarget,
-                                                                                              ::UnityEngine::RenderTextureDescriptor renderTargetDesc, bool hasMotionVectorPass,
+                                                                                              ::UnityEngine::RenderTextureDescriptor renderTargetDesc, int32_t renderTargetScaledWidth,
+                                                                                              int32_t renderTargetScaledHeight, bool hasMotionVectorPass,
                                                                                               ::UnityEngine::Rendering::RenderTargetIdentifier motionVectorRenderTarget,
                                                                                               ::UnityEngine::RenderTextureDescriptor motionVectorRenderTargetDesc, bool shouldFillOutDepth,
-                                                                                              int32_t cullingPassIndex, ::System::IntPtr foveatedRenderingInfo) noexcept {
+                                                                                              bool spaceWarpRightHandedNDC, int32_t cullingPassIndex, ::System::IntPtr foveatedRenderingInfo) noexcept {
   this->displaySubsystemInstance = displaySubsystemInstance;
   this->renderPassIndex = renderPassIndex;
   this->renderTarget = renderTarget;
   this->renderTargetDesc = renderTargetDesc;
+  this->renderTargetScaledWidth = renderTargetScaledWidth;
+  this->renderTargetScaledHeight = renderTargetScaledHeight;
   this->hasMotionVectorPass = hasMotionVectorPass;
   this->motionVectorRenderTarget = motionVectorRenderTarget;
   this->motionVectorRenderTargetDesc = motionVectorRenderTargetDesc;
   this->shouldFillOutDepth = shouldFillOutDepth;
+  this->spaceWarpRightHandedNDC = spaceWarpRightHandedNDC;
   this->cullingPassIndex = cullingPassIndex;
   this->foveatedRenderingInfo = foveatedRenderingInfo;
 }
@@ -176,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::XRDisplaySubsystem_XRMirrorViewBlitDesc::*)(int32_t, ::by_ref<::UnityEngine::XR::XRDisplaySubsystem_XRBlitParams>)>(
     &::UnityEngine::XR::XRDisplaySubsystem_XRMirrorViewBlitDesc::GetBlitParameter)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e39014;
+  constexpr static std::size_t addrs = 0x72d4b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(Il2CppObject*)>(&::UnityEngine::XR::XRDisplaySubsystem_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e39068;
+  constexpr static std::size_t addrs = 0x72d4b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

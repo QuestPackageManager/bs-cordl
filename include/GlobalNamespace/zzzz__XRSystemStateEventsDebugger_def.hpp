@@ -49,13 +49,13 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x585d814, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5c735f8, size 0xf8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleSystemStateChange, addr 0x585d90c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleSystemStateChange, addr 0x5c736f0, size 0x4, virtual false, abstract: false, final false
   inline void HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType);
 
-  /// @brief Method Initialize, addr 0x585d6ac, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x5c73490, size 0x168, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::XRSystemStateEventsDebugger* New_ctor();
@@ -66,10 +66,10 @@ public:
 
   constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x585d910, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c736f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_loggerPrefix, addr 0x585d668, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_loggerPrefix, addr 0x5c7344c, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_loggerPrefix();
 
   /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
@@ -96,7 +96,7 @@ public:
   XRSystemStateEventsDebugger(XRSystemStateEventsDebugger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22178 };
 
   /// [Inject]
   /// @brief Field _xrSystemState, offset: 0x10, size: 0x8, def value: None

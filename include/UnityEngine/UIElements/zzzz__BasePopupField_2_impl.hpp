@@ -9,9 +9,10 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AbstractGenericMenu_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BasePopupField_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IGenericMenu_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IVisualElementScheduledItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseDownEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerDownEvent_def.hpp"
@@ -27,7 +28,7 @@ UnityEngine::UIElements::BasePopupField_2_PopupTextElement<TValueType, TValueCho
                                                                                                 float_t desiredHeight, ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2_PopupTextElement<TValueType, TValueChoice>*>(), 134 })));
+      (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2_PopupTextElement<TValueType, TValueChoice>*>(), 137 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method, desiredWidth, widthMode, desiredHeight, heightMode);
 }
 template <typename TValueType, typename TValueChoice> inline void UnityEngine::UIElements::BasePopupField_2_PopupTextElement<TValueType, TValueChoice>::_ctor() {
@@ -53,14 +54,14 @@ inline ::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>
 }
 template <typename TValueType, typename TValueChoice>
 inline void
-UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>::setStaticF___9__27_0(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>*, "<>9__27_0",
+UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>::setStaticF___9__28_0(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>*, "<>9__28_0",
                                     ::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>*>(
       std::forward<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>*>(value));
 }
 template <typename TValueType, typename TValueChoice>
-inline ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>::getStaticF___9__27_0() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>*, "<>9__27_0",
+inline ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>::getStaticF___9__28_0() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>*, "<>9__28_0",
                                            ::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>*>();
 }
 template <typename TValueType, typename TValueChoice> inline void UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>::_ctor() {
@@ -69,9 +70,9 @@ template <typename TValueType, typename TValueChoice> inline void UnityEngine::U
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType, typename TValueChoice>
-inline void UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>::__ctor_b__27_0(::UnityEngine::UIElements::MouseDownEvent* e) {
+inline void UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>::__ctor_b__28_0(::UnityEngine::UIElements::MouseDownEvent* e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>*>(),
-                                                                                         { "<.ctor>b__27_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::MouseDownEvent*>() } })));
+                                                                                         { "<.ctor>b__28_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::MouseDownEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e);
 }
 template <typename TValueType, typename TValueChoice>
@@ -126,6 +127,21 @@ constexpr void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoic
   this->___m_ArrowElement = value;
 }
 template <typename TValueType, typename TValueChoice>
+constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_m_ScheduledShowMenuItem() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ScheduledShowMenuItem;
+}
+template <typename TValueType, typename TValueChoice>
+constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem* const& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_m_ScheduledShowMenuItem() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ScheduledShowMenuItem;
+}
+template <typename TValueType, typename TValueChoice>
+constexpr void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_set_m_ScheduledShowMenuItem(::UnityEngine::UIElements::IVisualElementScheduledItem* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ScheduledShowMenuItem = value;
+}
+template <typename TValueType, typename TValueChoice>
 constexpr ::System::Func_2<TValueChoice, ::StringW>*& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_m_FormatSelectedValueCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FormatSelectedValueCallback;
@@ -156,19 +172,35 @@ constexpr void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoic
   this->___m_FormatListItemCallback = value;
 }
 template <typename TValueType, typename TValueChoice>
-constexpr ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>*& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_createMenuCallback() {
+constexpr ::System::Func_1<::UnityEngine::UIElements::AbstractGenericMenu*>*& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_createMenuCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___createMenuCallback;
 }
 template <typename TValueType, typename TValueChoice>
-constexpr ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* const& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_createMenuCallback() const {
+constexpr ::System::Func_1<::UnityEngine::UIElements::AbstractGenericMenu*>* const&
+UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_createMenuCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___createMenuCallback;
 }
 template <typename TValueType, typename TValueChoice>
-constexpr void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_set_createMenuCallback(::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* value) {
+constexpr void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_set_createMenuCallback(::System::Func_1<::UnityEngine::UIElements::AbstractGenericMenu*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___createMenuCallback = value;
+}
+template <typename TValueType, typename TValueChoice>
+constexpr ::UnityEngine::UIElements::AbstractGenericMenu*& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_m_GenericMenu() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_GenericMenu;
+}
+template <typename TValueType, typename TValueChoice>
+constexpr ::UnityEngine::UIElements::AbstractGenericMenu* const& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_m_GenericMenu() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_GenericMenu;
+}
+template <typename TValueType, typename TValueChoice>
+constexpr void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_set_m_GenericMenu(::UnityEngine::UIElements::AbstractGenericMenu* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_GenericMenu = value;
 }
 template <typename TValueType, typename TValueChoice> constexpr bool& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_m_AutoCloseMenu() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -235,33 +267,34 @@ template <typename TValueType, typename TValueChoice> inline ::UnityEngine::UIEl
 }
 template <typename TValueType, typename TValueChoice> inline ::StringW UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::GetValueToDisplay() {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>(), 154 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>(), 160 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
 template <typename TValueType, typename TValueChoice> inline ::StringW UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::GetListItemToDisplay(TValueType item) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>(), 155 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>(), 161 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, item);
 }
-template <typename TValueType, typename TValueChoice> inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::AddMenuItems(::UnityEngine::UIElements::IGenericMenu* menu) {
+template <typename TValueType, typename TValueChoice>
+inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::AddMenuItems(::UnityEngine::UIElements::AbstractGenericMenu* menu) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>(), 156 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>(), 162 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, menu);
 }
 template <typename TValueType, typename TValueChoice> inline ::System::Collections::Generic::List_1<TValueChoice>* UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::get_choices() {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>(), 157 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>(), 163 })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<TValueChoice>*>(this, ___internal_method);
 }
 template <typename TValueType, typename TValueChoice>
 inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::set_choices(::System::Collections::Generic::List_1<TValueChoice>* value) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>(), 158 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>(), 164 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TValueType, typename TValueChoice> inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::SetValueWithoutNotify(TValueType newValue) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>(), 153 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>(), 159 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newValue);
 }
 template <typename TValueType, typename TValueChoice> inline ::StringW UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::get_text() {
@@ -320,7 +353,7 @@ template <typename TValueType, typename TValueChoice> inline void UnityEngine::U
 }
 template <typename TValueType, typename TValueChoice> inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::UpdateMixedValueContent() {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>(), 152 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>(), 158 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType, typename TValueChoice>

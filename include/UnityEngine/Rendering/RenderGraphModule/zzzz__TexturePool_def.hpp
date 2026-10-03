@@ -24,24 +24,24 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class CORDL_TYPE TexturePool : public ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<::UnityEngine::Rendering::RTHandle*> {
 public:
   // Declarations
-  /// @brief Method GetResourceName, addr 0x67eb668, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetResourceName, addr 0x6c14eac, size 0x20, virtual true, abstract: false, final false
   inline ::StringW GetResourceName(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> res);
 
-  /// @brief Method GetResourceSize, addr 0x67eb688, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetResourceSize, addr 0x6c14ecc, size 0x1c, virtual true, abstract: false, final false
   inline int64_t GetResourceSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> res);
 
-  /// @brief Method GetResourceTypeName, addr 0x67eb6a4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetResourceTypeName, addr 0x6c14ee8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetResourceTypeName();
 
-  /// @brief Method GetSortIndex, addr 0x67eb6e8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetSortIndex, addr 0x6c14f2c, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetSortIndex(::UnityEngine::Rendering::RTHandle* res);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::TexturePool* New_ctor();
 
-  /// @brief Method ReleaseInternalResource, addr 0x67eb650, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method ReleaseInternalResource, addr 0x6c14e94, size 0x18, virtual true, abstract: false, final false
   inline void ReleaseInternalResource(::UnityEngine::Rendering::RTHandle* res);
 
-  /// @brief Method .ctor, addr 0x67e5d78, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0e934, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,11 +59,11 @@ public:
   TexturePool(TexturePool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12467 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9379 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::TexturePool) == 0x20, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::TexturePool) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::RenderGraphModule

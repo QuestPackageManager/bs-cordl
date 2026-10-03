@@ -50,31 +50,31 @@ public:
   /// @brief Field actualTypeAnnotationName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_actualTypeAnnotationName, put = setStaticF_actualTypeAnnotationName)) ::System::Xml::XmlQualifiedName* actualTypeAnnotationName;
 
-  /// @brief Method CreateAnyElementType, addr 0x61603fc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CreateAnyElementType, addr 0x6587fb8, size 0x17c, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaComplexType* CreateAnyElementType();
 
-  /// @brief Method CreateAnyType, addr 0x6160658, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method CreateAnyType, addr 0x6588214, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaComplexType* CreateAnyType();
 
-  /// @brief Method ExportActualType, addr 0x615f23c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ExportActualType, addr 0x6586e14, size 0x144, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlElement* ExportActualType(::System::Xml::XmlQualifiedName* typeName, ::System::Xml::XmlDocument* xmlDoc);
 
-  /// @brief Method GetSchemaAnnotation, addr 0x6160578, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetSchemaAnnotation, addr 0x6588134, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaAnnotation* GetSchemaAnnotation(/* [ParamArray] */ ::ArrayW<::System::Xml::XmlNode*> nodes);
 
-  /// @brief Method GetXmlTypeInfo, addr 0x615f464, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetXmlTypeInfo, addr 0x658703c, size 0x174, virtual false, abstract: false, final false
   static inline void GetXmlTypeInfo(::System::Type* type, ::by_ref<::System::Xml::XmlQualifiedName*> stableName, ::by_ref<::System::Xml::Schema::XmlSchemaType*> xsdType, ::by_ref<bool> hasRoot);
 
-  /// @brief Method InvokeSchemaProviderMethod, addr 0x615f7a4, size 0xc58, virtual false, abstract: false, final false
+  /// @brief Method InvokeSchemaProviderMethod, addr 0x6587370, size 0xc48, virtual false, abstract: false, final false
   static inline bool InvokeSchemaProviderMethod(::System::Type* clrType, ::System::Xml::Schema::XmlSchemaSet* schemas, ::by_ref<::System::Xml::XmlQualifiedName*> stableName,
                                                 ::by_ref<::System::Xml::Schema::XmlSchemaType*> xsdType, ::by_ref<bool> hasRoot);
 
-  /// @brief Method IsSpecialXmlType, addr 0x615f5d8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method IsSpecialXmlType, addr 0x65871b0, size 0x1c0, virtual false, abstract: false, final false
   static inline bool IsSpecialXmlType(::System::Type* type, ::by_ref<::System::Xml::XmlQualifiedName*> typeName, ::by_ref<::System::Xml::Schema::XmlSchemaType*> xsdType, ::by_ref<bool> hasRoot);
 
   static inline ::System::Xml::XmlQualifiedName* getStaticF_actualTypeAnnotationName();
 
-  /// @brief Method get_ActualTypeAnnotationName, addr 0x615f380, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_ActualTypeAnnotationName, addr 0x6586f58, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* get_ActualTypeAnnotationName();
 
   static inline void setStaticF_actualTypeAnnotationName(::System::Xml::XmlQualifiedName* value);
@@ -94,7 +94,7 @@ public:
   SchemaExporter(SchemaExporter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17110 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16488 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

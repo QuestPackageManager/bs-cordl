@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19::*)(int32_t)>(
     &::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ee520c;
+  constexpr static std::size_t addrs = 0x62ff670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ee5290;
+  constexpr static std::size_t addrs = 0x62ff6f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19::MoveNext)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5ee5294;
+  constexpr static std::size_t addrs = 0x62ff6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ee53fc;
+  constexpr static std::size_t addrs = 0x62ff860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19*>(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5ee5404;
+  constexpr static std::size_t addrs = 0x62ff868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ee543c;
+  constexpr static std::size_t addrs = 0x62ff8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardSampleControls::*)()>(&::GlobalNamespace::OVRTrackedKeyboardSampleControls::Start)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5ee4d64;
+  constexpr static std::size_t addrs = 0x62ff1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTrackedKeyboardSampleControls*>(), { "Start", {}, {} })));
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardSampleControls::*)()>(&::GlobalNamespace::OVRTrackedKeyboardSampleControls::Update)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x5ee4e64;
+  constexpr static std::size_t addrs = 0x62ff2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTrackedKeyboardSampleControls*>(), { "Update", {}, {} })));
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardSampleControls::*)()>(&::GlobalNamespace::OVRTrackedKeyboardSampleControls::SetPresentationOpaque)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ee50c4;
+  constexpr static std::size_t addrs = 0x62ff528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardSampleControls::*)()>(&::GlobalNamespace::OVRTrackedKeyboardSampleControls::SetPresentationMR)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ee50dc;
+  constexpr static std::size_t addrs = 0x62ff540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTrackedKeyboardSampleControls*>(), { "SetPresentationMR", {}, {} })));
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardSampleControls::*)()>(&::GlobalNamespace::OVRTrackedKeyboardSampleControls::SetUnlitShader)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5ee50f4;
+  constexpr static std::size_t addrs = 0x62ff558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTrackedKeyboardSampleControls*>(), { "SetUnlitShader", {}, {} })));
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardSampleControls::*)()>(&::GlobalNamespace::OVRTrackedKeyboardSampleControls::SetDiffuseShader)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5ee51b0;
+  constexpr static std::size_t addrs = 0x62ff614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTrackedKeyboardSampleControls*>(), { "SetDiffuseShader", {}, {} })));
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRTrackedKeyboardSampleControls::*)(::StringW)>(
     &::GlobalNamespace::OVRTrackedKeyboardSampleControls::SetShaderCoroutine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5ee5150;
+  constexpr static std::size_t addrs = 0x62ff5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardSampleControls::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboardSampleControls::LaunchKeyboardSelection)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5ee5214;
+  constexpr static std::size_t addrs = 0x62ff678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardSampleControls::*)(bool)>(&::GlobalNamespace::OVRTrackedKeyboardSampleControls::SetTrackingEnabled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ee5238;
+  constexpr static std::size_t addrs = 0x62ff69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardSampleControls::*)()>(&::GlobalNamespace::OVRTrackedKeyboardSampleControls::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ee5254;
+  constexpr static std::size_t addrs = 0x62ff6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTrackedKeyboardSampleControls*>(), { ".ctor", {}, {} })));
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboardSampleControls::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboardSampleControls::_SetShaderCoroutine_b__19_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5ee5270;
+  constexpr static std::size_t addrs = 0x62ff6d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

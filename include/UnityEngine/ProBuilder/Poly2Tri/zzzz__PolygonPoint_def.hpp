@@ -46,23 +46,23 @@ public:
 
   constexpr void __cordl_internal_set__Previous_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* value);
 
-  /// @brief Method .ctor, addr 0x66abdc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad8288, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(double_t x, double_t y, int32_t index);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Next, addr 0x66abde0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Next, addr 0x6ad82a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* get_Next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Previous, addr 0x66abdf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Previous, addr 0x6ad82b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* get_Previous();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Next, addr 0x66abde8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Next, addr 0x6ad82a8, size 0x8, virtual false, abstract: false, final false
   inline void set_Next(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Previous, addr 0x66abdf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Previous, addr 0x6ad82b8, size 0x8, virtual false, abstract: false, final false
   inline void set_Previous(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* value);
 
 protected:
@@ -80,7 +80,7 @@ public:
   PolygonPoint(PolygonPoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22526 };
 
   /// [CompilerGenerated]
   /// @brief Field <Next>k__BackingField, offset: 0x30, size: 0x8, def value: None

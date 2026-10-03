@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Events::BaseInvokableCall::*)()>(&::UnityEngine::Events::BaseInvokableCall::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6afcaf8;
+  constexpr static std::size_t addrs = 0x6f57cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::BaseInvokableCall*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Events::BaseInvokableCall::*)(::System::Object*, ::System::Reflection::MethodInfo*)>(
     &::UnityEngine::Events::BaseInvokableCall::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6afcafc;
+  constexpr static std::size_t addrs = 0x6f57cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,8 +49,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Even
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Delegate*)>(&::UnityEngine::Events::BaseInvokableCall::AllowInvoke)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6afcbcc;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6f57dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

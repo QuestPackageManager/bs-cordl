@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::NoFileStorage::*)(::StringW, ::StringW, ::GlobalNamespace::StoragePreference)>(
     &::GlobalNamespace::NoFileStorage::SaveFileAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3316000;
+  constexpr static std::size_t addrs = 0x359eae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::GlobalNamespace::NoFileStorage::*)(::StringW, ::GlobalNamespace::StoragePreference)>(
     &::GlobalNamespace::NoFileStorage::LoadFileAsync)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3316094;
+  constexpr static std::size_t addrs = 0x359eb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::NoFileStorage::*)(::StringW, ::GlobalNamespace::StoragePreference)>(
     &::GlobalNamespace::NoFileStorage::DeleteFileAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3316104;
+  constexpr static std::size_t addrs = 0x359ebe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::NoFileStorage::*)(::StringW, ::GlobalNamespace::StoragePreference)>(
     &::GlobalNamespace::NoFileStorage::FileExistsAsync)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3316198;
+  constexpr static std::size_t addrs = 0x359ec78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoFileStorage::*)()>(&::GlobalNamespace::NoFileStorage::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3316208;
+  constexpr static std::size_t addrs = 0x359ece8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoFileStorage*>(), { ".ctor", {}, {} })));

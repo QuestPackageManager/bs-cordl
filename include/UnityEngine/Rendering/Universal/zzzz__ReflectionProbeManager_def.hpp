@@ -102,7 +102,7 @@ public:
   constexpr CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13131 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
@@ -140,7 +140,7 @@ public:
   constexpr CachedProbe_ReflectionProbeManager__levels_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13132 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
@@ -188,7 +188,7 @@ public:
                                                int32_t lastUsed, ::UnityEngine::Vector4 hdrData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13133 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -271,6 +271,9 @@ public:
   /// @brief Field ProbePosition, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_ProbePosition, put = setStaticF_ProbePosition)) int32_t ProbePosition;
 
+  /// @brief Field Rotation, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_Rotation, put = setStaticF_Rotation)) int32_t Rotation;
+
   static inline int32_t getStaticF_Atlas();
 
   static inline int32_t getStaticF_BoxMax();
@@ -283,6 +286,8 @@ public:
 
   static inline int32_t getStaticF_ProbePosition();
 
+  static inline int32_t getStaticF_Rotation();
+
   static inline void setStaticF_Atlas(int32_t value);
 
   static inline void setStaticF_BoxMax(int32_t value);
@@ -294,6 +299,8 @@ public:
   static inline void setStaticF_MipScaleOffset(int32_t value);
 
   static inline void setStaticF_ProbePosition(int32_t value);
+
+  static inline void setStaticF_Rotation(int32_t value);
 
 protected:
   // Ctor Parameters []
@@ -310,7 +317,7 @@ public:
   ReflectionProbeManager_ShaderProperties(ReflectionProbeManager_ShaderProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13134 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -336,25 +343,25 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Create, addr 0x68abbcc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6ce2dc4, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::ReflectionProbeManager Create();
 
-  /// @brief Method Dispose, addr 0x68ad8c4, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6ce4b74, size 0xd0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetScaleOffset, addr 0x68ad7d0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetScaleOffset, addr 0x6ce4a80, size 0xf4, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 GetScaleOffset(int32_t level, int32_t dataIndex, bool includePadding, bool yflip);
 
-  /// @brief Method Init, addr 0x68abc0c, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6ce2e04, size 0x460, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method UpdateGpuData, addr 0x68ac098, size 0x1738, virtual false, abstract: false, final false
+  /// @brief Method UpdateGpuData, addr 0x6ce3264, size 0x181c, virtual false, abstract: false, final false
   inline void UpdateGpuData(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults);
 
-  /// @brief Method get_atlasRT, addr 0x68abbbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlasRT, addr 0x6ce2db4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_atlasRT();
 
-  /// @brief Method get_atlasRTHandle, addr 0x68abbc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlasRTHandle, addr 0x6ce2dbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_atlasRTHandle();
 
   /// @brief Convert to "::System::IDisposable"
@@ -373,19 +380,20 @@ public:
   // "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NeedsRemove", ty: "::System::Collections::Generic::List_1<int32_t>*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BoxMax", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BoxMin",
   // ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ProbePosition", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value:
-  // None, comment: None }, CppParam { name: "m_MipScaleOffset", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None, comment: None }]
+  // None, comment: None }, CppParam { name: "m_MipScaleOffset", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Rotations", ty:
+  // "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None, comment: None }]
   constexpr ReflectionProbeManager(::Unity::Mathematics::int2 m_Resolution, ::UnityW<::UnityEngine::RenderTexture> m_AtlasTexture0, ::UnityW<::UnityEngine::RenderTexture> m_AtlasTexture1,
                                    ::UnityEngine::Rendering::RTHandle* m_AtlasTexture0Handle, ::UnityEngine::Rendering::Universal::BuddyAllocator m_AtlasAllocator,
                                    ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Rendering::Universal::ReflectionProbeManager_CachedProbe>* m_Cache,
                                    ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* m_WarningCache, ::System::Collections::Generic::List_1<int32_t>* m_NeedsUpdate,
                                    ::System::Collections::Generic::List_1<int32_t>* m_NeedsRemove, ::ArrayW<::UnityEngine::Vector4> m_BoxMax, ::ArrayW<::UnityEngine::Vector4> m_BoxMin,
-                                   ::ArrayW<::UnityEngine::Vector4> m_ProbePosition, ::ArrayW<::UnityEngine::Vector4> m_MipScaleOffset) noexcept;
+                                   ::ArrayW<::UnityEngine::Vector4> m_ProbePosition, ::ArrayW<::UnityEngine::Vector4> m_MipScaleOffset, ::ArrayW<::UnityEngine::Vector4> m_Rotations) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13135 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x88 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
 
   /// @brief Field k_MaxMipCount offset 0xffffffff size 0x4
   static constexpr int32_t k_MaxMipCount{ static_cast<int32_t>(0x7) };
@@ -432,6 +440,9 @@ public:
   /// @brief Field m_MipScaleOffset, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4> m_MipScaleOffset;
 
+  /// @brief Field m_Rotations, offset: 0x88, size: 0x8, def value: None
+  ::ArrayW<::UnityEngine::Vector4> m_Rotations;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -461,6 +472,8 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ReflectionProbeManag
 
 static_assert(offsetof(::UnityEngine::Rendering::Universal::ReflectionProbeManager, m_MipScaleOffset) == 0x80, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::ReflectionProbeManager) == 0x88, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ReflectionProbeManager, m_Rotations) == 0x88, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::ReflectionProbeManager) == 0x90, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal

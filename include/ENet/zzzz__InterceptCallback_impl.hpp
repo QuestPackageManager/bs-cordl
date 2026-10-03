@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::InterceptCallback::*)(::System::Object*, ::System::IntPtr)>(&::ENet::InterceptCallback::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5891898;
+  constexpr static std::size_t addrs = 0x5ca8418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::ENet::InterceptCallback::*)(::by_ref<::ENet::Event>, ::by_ref<::ENet::Address>, ::System::IntPtr, int32_t)>(
     &::ENet::InterceptCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5891918;
+  constexpr static std::size_t addrs = 0x5ca8498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::ENet::InterceptCallback*>(), { ::i2c::class_of<::ENet::InterceptCallback*>(), 13 }));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::ENet::InterceptCallback::*)(::by_ref<::ENet::Event>, ::by_ref<::ENet::Address>, ::System::IntPtr, int32_t,
                                                                                                               ::System::AsyncCallback*, ::System::Object*)>(&::ENet::InterceptCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x589192c;
+  constexpr static std::size_t addrs = 0x5ca84ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::ENet::InterceptCallback*>(), { ::i2c::class_of<::ENet::InterceptCallback*>(), 14 }));
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::ENet::InterceptCallback::*)(::by_ref<::ENet::Event>, ::by_ref<::ENet::Address>, ::System::IAsyncResult*)>(
     &::ENet::InterceptCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5891a24;
+  constexpr static std::size_t addrs = 0x5ca85a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::ENet::InterceptCallback*>(), { ::i2c::class_of<::ENet::InterceptCallback*>(), 15 }));

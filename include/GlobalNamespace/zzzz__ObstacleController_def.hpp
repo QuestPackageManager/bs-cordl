@@ -137,7 +137,7 @@ public:
   ObstacleController_Layers(ObstacleController_Layers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5818 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -157,7 +157,7 @@ public:
 
   static inline ::GlobalNamespace::ObstacleController_Pool* New_ctor();
 
-  /// @brief Method OnCreated, addr 0x58da9ac, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method OnCreated, addr 0x5cf1174, size 0x94, virtual true, abstract: false, final false
   inline void OnCreated(::GlobalNamespace::ObstacleController* item);
 
   constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
@@ -166,7 +166,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x58daa40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf1208, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -184,7 +184,7 @@ public:
   ObstacleController_Pool(ObstacleController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5819 };
 
   /// [Inject]
   /// @brief Field _settingsManager, offset: 0x40, size: 0x8, def value: None
@@ -231,26 +231,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x58daa80, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5cf1248, size 0xe0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58dab60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5cf1328, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58dab68, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5cf1330, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58daba0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5cf1368, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x58daa7c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5cf1244, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -278,7 +278,7 @@ public:
   constexpr void __cordl_internal_set_duration(float_t value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x58da85c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf1024, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -305,7 +305,7 @@ public:
   ObstacleController__DissolveCoroutine_d__66(ObstacleController__DissolveCoroutine_d__66 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5820 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -465,37 +465,37 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapObjectController"
   constexpr operator ::GlobalNamespace::IBeatmapObjectController*() noexcept;
 
-  /// @brief Method Dissolve, addr 0x58da864, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Dissolve, addr 0x5cf102c, size 0x34, virtual true, abstract: false, final true
   inline void Dissolve(float_t duration);
 
   /// [IteratorStateMachine(typeof(ObstacleController::<DissolveCoroutine>d__66))]
-  /// @brief Method DissolveCoroutine, addr 0x58da7f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DissolveCoroutine, addr 0x5cf0fc0, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DissolveCoroutine(float_t duration);
 
-  /// @brief Method GetObstacleLength, addr 0x58da6bc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetObstacleLength, addr 0x5cf0e84, size 0x13c, virtual false, abstract: false, final false
   inline float_t GetObstacleLength();
 
-  /// @brief Method GetPosForTime, addr 0x58da428, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method GetPosForTime, addr 0x5cf0bf0, size 0x294, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPosForTime(float_t time);
 
-  /// @brief Method Hide, addr 0x58c7bc4, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Hide, addr 0x5cde444, size 0x64, virtual true, abstract: false, final true
   inline void Hide(bool hide);
 
-  /// @brief Method Init, addr 0x58d9e20, size 0x4b8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x5cf0600, size 0x4a0, virtual true, abstract: false, final false
   inline void Init(::GlobalNamespace::ObstacleData* obstacleData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
 
-  /// @brief Method InitGraphics, addr 0x58da2d8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method InitGraphics, addr 0x5cf0aa0, size 0x110, virtual false, abstract: false, final false
   inline void InitGraphics(::BeatSaber::Settings::Settings settings);
 
-  /// @brief Method ManualUpdate, addr 0x58c73ac, size 0x818, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x5cddc2c, size 0x818, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::ObstacleController* New_ctor();
 
-  /// @brief Method Pause, addr 0x58da898, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Pause, addr 0x5cf1060, size 0x10, virtual true, abstract: false, final true
   inline void Pause(bool pause);
 
-  /// @brief Method Update, addr 0x58da424, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5cf0bec, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSyncController() const;
@@ -684,74 +684,74 @@ public:
 
   constexpr void __cordl_internal_set_passedThreeQuartersOfJumpDurationEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method .ctor, addr 0x58da8a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf1070, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didDissolveEvent, addr 0x58c8a68, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didDissolveEvent, addr 0x5cdf2e8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didDissolveEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_didUpdateProgress, addr 0x58d9c58, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdateProgress, addr 0x5cf0438, size 0xc0, virtual false, abstract: false, final false
   inline void add_didUpdateProgress(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_finishedMovementEvent, addr 0x58c8828, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_finishedMovementEvent, addr 0x5cdf0a8, size 0xc0, virtual false, abstract: false, final false
   inline void add_finishedMovementEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_passedAvoidedMarkEvent, addr 0x58c89a8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_passedAvoidedMarkEvent, addr 0x5cdf228, size 0xc0, virtual false, abstract: false, final false
   inline void add_passedAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_passedThreeQuartersOfJumpDurationEvent, addr 0x58c88e8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_passedThreeQuartersOfJumpDurationEvent, addr 0x5cdf168, size 0xc0, virtual false, abstract: false, final false
   inline void add_passedThreeQuartersOfJumpDurationEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method get_bounds, addr 0x58d9dd8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x5cf05b8, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
-  /// @brief Method get_color, addr 0x58d9e14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x5cf05f4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_hasPassedAvoidedMark, addr 0x58d9df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasPassedAvoidedMark, addr 0x5cf05d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasPassedAvoidedMark();
 
-  /// @brief Method get_height, addr 0x58d9e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x5cf05e4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_length, addr 0x58d9e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x5cf05ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_length();
 
-  /// @brief Method get_manualUvOffset, addr 0x58d9998, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_manualUvOffset, addr 0x5cf0178, size 0xa4, virtual false, abstract: false, final false
   inline float_t get_manualUvOffset();
 
-  /// @brief Method get_obstacleData, addr 0x58d9dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstacleData, addr 0x5cf05cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ObstacleData* get_obstacleData();
 
-  /// @brief Method get_width, addr 0x58d9dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x5cf05dc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
   /// @brief Convert to "::GlobalNamespace::IBeatmapObjectController"
   constexpr ::GlobalNamespace::IBeatmapObjectController* i___GlobalNamespace__IBeatmapObjectController() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didDissolveEvent, addr 0x58c8ebc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didDissolveEvent, addr 0x5cdf73c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didDissolveEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didUpdateProgress, addr 0x58d9d18, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdateProgress, addr 0x5cf04f8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didUpdateProgress(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_finishedMovementEvent, addr 0x58c8c7c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_finishedMovementEvent, addr 0x5cdf4fc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_finishedMovementEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_passedAvoidedMarkEvent, addr 0x58c8dfc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_passedAvoidedMarkEvent, addr 0x5cdf67c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_passedAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_passedThreeQuartersOfJumpDurationEvent, addr 0x58c8d3c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_passedThreeQuartersOfJumpDurationEvent, addr 0x5cdf5bc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_passedThreeQuartersOfJumpDurationEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
 protected:
@@ -769,7 +769,7 @@ public:
   ObstacleController(ObstacleController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5821 };
 
   /// @brief Field kAvoidMarkTimeOffset offset 0xffffffff size 0x4
   static constexpr float_t kAvoidMarkTimeOffset{ static_cast<float_t>(0.15f) };

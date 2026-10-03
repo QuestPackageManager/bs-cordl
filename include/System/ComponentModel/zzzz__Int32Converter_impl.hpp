@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::ComponentModel::Int32Converter::*)()>(&::System::ComponentModel::Int32Converter::get_TargetType)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63c284c;
+  constexpr static std::size_t addrs = 0x67eab18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::Int32Converter::*)(::StringW, int32_t)>(&::System::ComponentModel::Int32Converter::FromString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x63c287c;
+  constexpr static std::size_t addrs = 0x67eab48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::Int32Converter::*)(::StringW, ::System::Globalization::NumberFormatInfo*)>(
     &::System::ComponentModel::Int32Converter::FromString)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x63c2904;
+  constexpr static std::size_t addrs = 0x67eabd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::Int32Converter::*)(::System::Object*, ::System::Globalization::NumberFormatInfo*)>(
     &::System::ComponentModel::Int32Converter::ToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x63c2938;
+  constexpr static std::size_t addrs = 0x67eac04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Int32Converter::*)()>(&::System::ComponentModel::Int32Converter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63c29d0;
+  constexpr static std::size_t addrs = 0x67eac9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::Int32Converter*>(), { ".ctor", {}, {} })));

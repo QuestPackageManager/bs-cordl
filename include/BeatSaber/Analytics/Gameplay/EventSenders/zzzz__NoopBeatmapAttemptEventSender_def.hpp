@@ -35,16 +35,16 @@ public:
 
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::NoopBeatmapAttemptEventSender* New_ctor();
 
-  /// @brief Method SendAbortedLevel, addr 0x32650e4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SendAbortedLevel, addr 0x34eb9ec, size 0x4, virtual true, abstract: false, final true
   inline void SendAbortedLevel(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData* levelData);
 
-  /// @brief Method SendFinishedLevel, addr 0x32650e0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SendFinishedLevel, addr 0x34eb9e8, size 0x4, virtual true, abstract: false, final true
   inline void SendFinishedLevel(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapAttemptEventData* eventData);
 
-  /// @brief Method SendStartedLevel, addr 0x32650dc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SendStartedLevel, addr 0x34eb9e4, size 0x4, virtual true, abstract: false, final true
   inline void SendStartedLevel(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData* levelData);
 
-  /// @brief Method .ctor, addr 0x3263288, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34e8970, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender"
@@ -65,7 +65,7 @@ public:
   NoopBeatmapAttemptEventSender(NoopBeatmapAttemptEventSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22273 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22992 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

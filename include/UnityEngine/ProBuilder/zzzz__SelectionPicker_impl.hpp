@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::System::Collections::Generic::HashSet_1<int32_t>*>* (*)(::UnityEngine::Camera*, ::UnityEngine::Rect,
                                                               ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*, ::UnityEngine::ProBuilder::PickerOptions,
                                                               float_t)>(&::UnityEngine::ProBuilder::SelectionPicker::PickVerticesInRect)> {
-  constexpr static std::size_t size = 0x694;
-  constexpr static std::size_t addrs = 0x66dfb30;
+  constexpr static std::size_t size = 0x724;
+  constexpr static std::size_t addrs = 0x6af4400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,8 +43,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
                                                                                        ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*,
                                                                                        ::UnityEngine::ProBuilder::PickerOptions, float_t)>(
     &::UnityEngine::ProBuilder::SelectionPicker::PickFacesInRect)> {
-  constexpr static std::size_t size = 0x1034;
-  constexpr static std::size_t addrs = 0x66e0d8c;
+  constexpr static std::size_t size = 0x1154;
+  constexpr static std::size_t addrs = 0x6af5718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,8 +66,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
                                                                                       ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*,
                                                                                       ::UnityEngine::ProBuilder::PickerOptions, float_t)>(
     &::UnityEngine::ProBuilder::SelectionPicker::PickEdgesInRect)> {
-  constexpr static std::size_t size = 0x980;
-  constexpr static std::size_t addrs = 0x66e2408;
+  constexpr static std::size_t size = 0xa88;
+  constexpr static std::size_t addrs = 0x6af6ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Face* (*)(::UnityEngine::Camera*, ::UnityEngine::Vector3, ::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::SelectionPicker::PickFace)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x66e35e0;
+  constexpr static std::size_t addrs = 0x6af81ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

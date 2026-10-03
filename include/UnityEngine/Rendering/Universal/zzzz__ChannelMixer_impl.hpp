@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ChannelMixer::*)()>(&::UnityEngine::Rendering::Universal::ChannelMixer::IsActive)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x687d9b0;
+  constexpr static std::size_t addrs = 0x6cbce58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ChannelMixer*>(), { "IsActive", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ChannelMixer::*)()>(&::UnityEngine::Rendering::Universal::ChannelMixer::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687db04;
+  constexpr static std::size_t addrs = 0x6cbcfac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ChannelMixer*>(), { "IsTileCompatible", {}, {} })));
@@ -32,8 +32,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ChannelMixer::*)()>(&::UnityEngine::Rendering::Universal::ChannelMixer::_ctor)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x687db0c;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x6cbcfb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ChannelMixer*>(), { ".ctor", {}, {} })));

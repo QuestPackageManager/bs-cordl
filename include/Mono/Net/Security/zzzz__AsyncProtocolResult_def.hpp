@@ -50,18 +50,18 @@ public:
 
   constexpr void __cordl_internal_set__UserResult_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5fd6990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f2918, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
 
-  /// @brief Method .ctor, addr 0x5fd6988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f2910, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t result);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Error, addr 0x5fd6980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x63f2908, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
 
   /// [CompilerGenerated]
-  /// @brief Method get_UserResult, addr 0x5fd6978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserResult, addr 0x63f2900, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_UserResult();
 
 protected:
@@ -79,7 +79,7 @@ public:
   AsyncProtocolResult(AsyncProtocolResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11943 };
 
   /// [CompilerGenerated]
   /// @brief Field <UserResult>k__BackingField, offset: 0x10, size: 0x4, def value: None

@@ -45,19 +45,19 @@ public:
   /// @brief Field _tweeningManager, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Move, addr 0x5a1028c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x5e2c0d8, size 0x17c, virtual false, abstract: false, final false
   inline void Move(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, float_t duration);
 
   static inline ::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator* New_ctor();
 
-  /// @brief Method StartCountdown, addr 0x5a10208, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method StartCountdown, addr 0x5e2c054, size 0x84, virtual false, abstract: false, final false
   inline void StartCountdown();
 
-  /// @brief Method StopCountdown, addr 0x5a10408, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StopCountdown, addr 0x5e2c254, size 0xa0, virtual false, abstract: false, final false
   inline void StopCountdown(bool instant);
 
   /// [CompilerGenerated]
-  /// @brief Method <Move>b__7_0, addr 0x5a104ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Move>b__7_0, addr 0x5e2c2f8, size 0x18, virtual false, abstract: false, final false
   inline void _Move_b__7_0(::UnityEngine::Vector3 pos);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__nextLevelBasePosition() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x5a104a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e2c2f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   MultiplayerLobbyCenterStageLayoutAnimator(MultiplayerLobbyCenterStageLayoutAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6503 };
 
   /// [SerializeField]
   /// @brief Field _nextLevelTransform, offset: 0x20, size: 0x8, def value: None

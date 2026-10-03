@@ -52,21 +52,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6cd2f84, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x716003c, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6cd2fec, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x71600a4, size 0x130, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Get, addr 0x6cd2cac, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x715fd64, size 0x1e0, virtual false, abstract: false, final false
   inline ::System::Runtime::InteropServices::GCHandle Get(::System::Object* target);
 
-  /// @brief Method GetIntPtr, addr 0x6cd2e8c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetIntPtr, addr 0x715ff44, size 0x10, virtual false, abstract: false, final false
   inline ::System::IntPtr GetIntPtr(::System::Object* target);
 
   static inline ::UnityEngine::UIElements::UIR::GCHandlePool* New_ctor(int32_t capacity, int32_t allocBatchSize);
 
-  /// @brief Method ReturnAll, addr 0x6cd2e9c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReturnAll, addr 0x715ff54, size 0xd8, virtual false, abstract: false, final false
   inline void ReturnAll();
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -93,18 +93,18 @@ public:
 
   constexpr void __cordl_internal_set_m_UsedHandlesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6cd2c20, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x715fcd8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, int32_t allocBatchSize);
 
   /// [CompilerGenerated]
-  /// @brief Method get_disposed, addr 0x6cd2f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x716002c, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_disposed, addr 0x6cd2f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x7160034, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -122,7 +122,7 @@ public:
   GCHandlePool(GCHandlePool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5381 };
 
   /// @brief Field m_Handles, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Runtime::InteropServices::GCHandle>* ___m_Handles;
@@ -133,8 +133,8 @@ public:
   /// @brief Field k_AllocBatchSize, offset: 0x1c, size: 0x4, def value: None
   int32_t ___k_AllocBatchSize;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

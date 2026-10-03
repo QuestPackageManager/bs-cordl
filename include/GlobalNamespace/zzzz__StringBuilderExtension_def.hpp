@@ -27,15 +27,15 @@ class CORDL_TYPE StringBuilderExtension : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method AppendNumber, addr 0x330d2b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AppendNumber, addr 0x3595d78, size 0x10, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, int32_t number);
 
   /// [Extension]
-  /// @brief Method AppendNumber, addr 0x330d2dc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method AppendNumber, addr 0x3595da0, size 0x88, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, uint32_t uNumber, bool isNegative);
 
   /// [Extension]
-  /// @brief Method Swap, addr 0x330d0bc, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method Swap, addr 0x3595b80, size 0x1f8, virtual false, abstract: false, final false
   static inline void Swap(::System::Text::StringBuilder* sb, int32_t startIndex, int32_t endIndex);
 
 protected:
@@ -53,7 +53,7 @@ public:
   StringBuilderExtension(StringBuilderExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21227 };
 
   /// @brief Field kCharZero offset 0xffffffff size 0x2
   static constexpr char16_t kCharZero{ u'0' };

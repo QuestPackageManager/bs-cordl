@@ -37,21 +37,21 @@ public:
   __declspec(property(get = getStaticF_kContentVersionRegex, put = setStaticF_kContentVersionRegex)) ::System::Text::RegularExpressions::Regex* kContentVersionRegex;
 
   /// [Extension]
-  /// @brief Method ErrorCode, addr 0x373e0ec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x39c76dc, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
 
   /// [Extension]
-  /// @brief Method GetLocalizedMessage, addr 0x373e4a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetLocalizedMessage, addr 0x39c7a94, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW GetLocalizedMessage(::GlobalNamespace::MultiplayerStatusData* data, ::BGLib::Polyglot::LocalizationLanguage language);
 
   /// [Extension]
-  /// @brief Method LocalizedKey, addr 0x373e048, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x39c7638, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
 
-  /// @brief Method TryGetMultiplayerUnavailableReason, addr 0x373e180, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method TryGetMultiplayerUnavailableReason, addr 0x39c7770, size 0x168, virtual false, abstract: false, final false
   static inline bool TryGetMultiplayerUnavailableReason(::GlobalNamespace::MultiplayerStatusData* data, ::by_ref<::GlobalNamespace::MultiplayerUnavailableReason> reason);
 
-  /// @brief Method VersionLessThan, addr 0x373e2e8, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method VersionLessThan, addr 0x39c78d8, size 0x1bc, virtual false, abstract: false, final false
   static inline bool VersionLessThan(::StringW currentVersion, ::StringW minVersion);
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_kContentVersionRegex();
@@ -73,7 +73,7 @@ public:
   MultiplayerUnavailableReasonMethods(MultiplayerUnavailableReasonMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15355 };
 
   /// @brief Field kMultiplayerUnavailableMaintenanceMode offset 0xffffffff size 0x8
   static constexpr ::ConstString kMultiplayerUnavailableMaintenanceMode{ u"MULTIPLAYER_UNAVAILABLE_MAINTENANCE_MODE" };
@@ -83,9 +83,6 @@ public:
 
   /// @brief Field kMultiplayerUnavailableTryAgain offset 0xffffffff size 0x8
   static constexpr ::ConstString kMultiplayerUnavailableTryAgain{ u"MULTIPLAYER_UNAVAILABLE_TRY_AGAIN" };
-
-  /// @brief Field kMultiplayerUnavailableUpdateRequired offset 0xffffffff size 0x8
-  static constexpr ::ConstString kMultiplayerUnavailableUpdateRequired{ u"MULTIPLAYER_UNAVAILABLE_UPDATE_REQUIRED" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

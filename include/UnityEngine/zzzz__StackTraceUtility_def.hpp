@@ -29,19 +29,19 @@ public:
   /// @brief Field projectFolder, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_projectFolder, put = setStaticF_projectFolder)) ::StringW projectFolder;
 
-  /// @brief Method ExtractFormattedStackTrace, addr 0x6ae6174, size 0x6e8, virtual false, abstract: false, final false
-  static inline ::StringW ExtractFormattedStackTrace(::System::Diagnostics::StackTrace* stackTrace);
+  /// @brief Method ExtractFormattedStackTrace, addr 0x6f40af8, size 0x73c, virtual false, abstract: false, final false
+  static inline ::StringW ExtractFormattedStackTrace(::System::Diagnostics::StackTrace* stackFrames);
 
   /// [RequiredByNativeCode]
-  /// @brief Method ExtractStackTrace, addr 0x6ae6014, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ExtractStackTrace, addr 0x6f40998, size 0x160, virtual false, abstract: false, final false
   static inline ::StringW ExtractStackTrace();
 
   /// [RequiredByNativeCode]
-  /// @brief Method ExtractStringFromExceptionInternal, addr 0x6ae685c, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method ExtractStringFromExceptionInternal, addr 0x6f41234, size 0x374, virtual false, abstract: false, final false
   static inline void ExtractStringFromExceptionInternal(::System::Object* exceptiono, ::by_ref<::StringW> message, ::by_ref<::StringW> stackTrace);
 
   /// [RequiredByNativeCode]
-  /// @brief Method SetProjectFolder, addr 0x6ae5f2c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetProjectFolder, addr 0x6f408b0, size 0xe8, virtual false, abstract: false, final false
   static inline void SetProjectFolder(::StringW folder);
 
   static inline ::StringW getStaticF_projectFolder();
@@ -63,7 +63,7 @@ public:
   StackTraceUtility(StackTraceUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9951 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

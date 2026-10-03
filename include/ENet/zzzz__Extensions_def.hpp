@@ -23,7 +23,7 @@ class CORDL_TYPE Extensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method StringLength, addr 0x5894a5c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method StringLength, addr 0x5cab5dc, size 0x94, virtual false, abstract: false, final false
   static inline int32_t StringLength(::ArrayW<uint8_t> data);
 
 protected:
@@ -41,7 +41,7 @@ public:
   Extensions(Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

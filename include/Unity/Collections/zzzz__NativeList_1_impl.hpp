@@ -300,11 +300,6 @@ template <typename T> inline void Unity::Collections::NativeList_1<T>::CheckInit
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(), { "CheckInitialCapacity", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, initialCapacity);
 }
-template <typename T> inline void Unity::Collections::NativeList_1<T>::CheckTotalSize(int32_t initialCapacity, int64_t totalSize) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(), { "CheckTotalSize", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, initialCapacity, totalSize);
-}
 template <typename T> inline void Unity::Collections::NativeList_1<T>::CheckSufficientCapacity(int32_t capacity, int32_t length) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(), { "CheckSufficientCapacity", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));

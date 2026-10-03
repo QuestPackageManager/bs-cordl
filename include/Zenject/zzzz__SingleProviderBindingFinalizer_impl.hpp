@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SingleProviderBindingFinalizer::*)(
     ::Zenject::BindInfo*, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>*)>(&::Zenject::SingleProviderBindingFinalizer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67994;
+  constexpr static std::size_t addrs = 0x73034ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SingleProviderBindingFinalizer::*)(::Zenject::DiContainer*)>(&::Zenject::SingleProviderBindingFinalizer::OnFinalizeBinding)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6e6799c;
+  constexpr static std::size_t addrs = 0x73034f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

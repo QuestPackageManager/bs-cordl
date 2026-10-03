@@ -45,21 +45,21 @@ public:
   __declspec(property(get = __cordl_internal_get__variableMovementDataProvider,
                       put = __cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider* _variableMovementDataProvider;
 
-  /// @brief Method Awake, addr 0x58db0ec, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5cf18b4, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleObstacleControllerDidInit, addr 0x58db528, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleControllerDidInit, addr 0x5cf1cf0, size 0xd0, virtual false, abstract: false, final false
   inline void HandleObstacleControllerDidInit(::GlobalNamespace::ObstacleControllerBase* obstacleController);
 
-  /// @brief Method HandleObstacleControllerDidUpdateProgress, addr 0x58db3f4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleControllerDidUpdateProgress, addr 0x5cf1bbc, size 0x134, virtual false, abstract: false, final false
   inline void HandleObstacleControllerDidUpdateProgress(::GlobalNamespace::ObstacleController* obstacleController, float_t time);
 
   static inline ::GlobalNamespace::ObstacleScaleUp* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58db2bc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5cf1a84, size 0x138, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateScale, addr 0x58db184, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method UpdateScale, addr 0x5cf194c, size 0x138, virtual false, abstract: false, final false
   inline void UpdateScale(float_t progress);
 
   constexpr float_t const& __cordl_internal_get__fullScalePart() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x58db5f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf1dc0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,7 +104,7 @@ public:
   ObstacleScaleUp(ObstacleScaleUp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5825 };
 
   /// [SerializeField]
   /// @brief Field _fullScalePart, offset: 0x20, size: 0x4, def value: None

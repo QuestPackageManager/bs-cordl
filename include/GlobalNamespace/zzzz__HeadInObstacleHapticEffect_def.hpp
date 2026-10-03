@@ -75,24 +75,24 @@ public:
   /// @brief Field _wasHeadInWallLastFrame, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__wasHeadInWallLastFrame, put = __cordl_internal_set__wasHeadInWallLastFrame)) bool _wasHeadInWallLastFrame;
 
-  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x5984ed8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x5da3be0, size 0x14, virtual false, abstract: false, final false
   inline void HandleAnyGameplayLevelDidFinish();
 
-  /// @brief Method HandleDidPauseEvent, addr 0x5984f04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPauseEvent, addr 0x5da3c0c, size 0x14, virtual false, abstract: false, final false
   inline void HandleDidPauseEvent();
 
-  /// @brief Method HandleDidResumeEvent, addr 0x5984eec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleDidResumeEvent, addr 0x5da3bf4, size 0x18, virtual false, abstract: false, final false
   inline void HandleDidResumeEvent();
 
   static inline ::GlobalNamespace::HeadInObstacleHapticEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5984bb8, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5da38c0, size 0x268, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59849a4, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5da36ac, size 0x214, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5984e20, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5da3b28, size 0xb8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IGamePause* const& __cordl_internal_get__gamePause() const;
@@ -161,7 +161,7 @@ public:
 
   constexpr void __cordl_internal_set__wasHeadInWallLastFrame(bool value);
 
-  /// @brief Method .ctor, addr 0x5984f18, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da3c20, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -179,7 +179,7 @@ public:
   HeadInObstacleHapticEffect(HeadInObstacleHapticEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5916 };
 
   /// @brief Field kInvalidTime offset 0xffffffff size 0x4
   static constexpr float_t kInvalidTime{ static_cast<float_t>(-1.0f) };

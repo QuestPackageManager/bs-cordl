@@ -11,7 +11,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarController)
 namespace BeatSaber::AvatarCore {
-struct AvatarController__LoadAndDisplayAvatar_d__11;
+struct AvatarController__LoadAndDisplayAvatar_d__14;
 }
 namespace BeatSaber::AvatarCore {
 class AvatarSystemCollection;
@@ -28,8 +28,14 @@ class IAvatarVisualDataProvider;
 namespace BeatSaber::AvatarCore {
 class IOptionalAvatarDataProvider;
 }
+namespace GlobalNamespace {
+struct MultiplayerAvatarsData;
+}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace UnityEngine {
 class Transform;
@@ -42,29 +48,29 @@ namespace BeatSaber::AvatarCore {
 class AvatarController;
 }
 namespace BeatSaber::AvatarCore {
-struct AvatarController__LoadAndDisplayAvatar_d__11;
+struct AvatarController__LoadAndDisplayAvatar_d__14;
 }
 // Write type traits
 MARK_REF_T(::BeatSaber::AvatarCore::AvatarController*);
-MARK_VAL_T(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__11);
+MARK_VAL_T(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__14);
 DEFINE_IL2CPP_CLASS(::BeatSaber::AvatarCore::AvatarController*, "BeatSaber.AvatarCore", "AvatarController");
-DEFINE_IL2CPP_CLASS(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__11, "BeatSaber.AvatarCore", "AvatarController/<LoadAndDisplayAvatar>d__11");
+DEFINE_IL2CPP_CLASS(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__14, "BeatSaber.AvatarCore", "AvatarController/<LoadAndDisplayAvatar>d__14");
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BeatSaber::AvatarCore {
 // Is value type: true
-// CS Name: BeatSaber.AvatarCore.AvatarController/<LoadAndDisplayAvatar>d__11
-struct CORDL_TYPE AvatarController__LoadAndDisplayAvatar_d__11 {
+// CS Name: BeatSaber.AvatarCore.AvatarController/<LoadAndDisplayAvatar>d__14
+struct CORDL_TYPE AvatarController__LoadAndDisplayAvatar_d__14 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x326a60c, size 0x570, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x34f09fc, size 0x54c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x326ad48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x34f1098, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -72,21 +78,21 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AvatarController__LoadAndDisplayAvatar_d__11();
+  constexpr AvatarController__LoadAndDisplayAvatar_d__14();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
-  // "::UnityW<::BeatSaber::AvatarCore::AvatarController>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>", modifiers: "", def_value: None, comment: None }]
-  constexpr AvatarController__LoadAndDisplayAvatar_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                         ::UnityW<::BeatSaber::AvatarCore::AvatarController> __4__this,
+  // "::UnityW<::BeatSaber::AvatarCore::AvatarController>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_avatarSystemHash_5__2", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>", modifiers: "", def_value: None, comment: None }]
+  constexpr AvatarController__LoadAndDisplayAvatar_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                         ::UnityW<::BeatSaber::AvatarCore::AvatarController> __4__this, uint32_t _avatarSystemHash_5__2,
                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::Avatar>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22353 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -97,21 +103,26 @@ public:
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::BeatSaber::AvatarCore::AvatarController> __4__this;
 
-  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field <avatarSystemHash>5__2, offset: 0x30, size: 0x4, def value: None
+  uint32_t _avatarSystemHash_5__2;
+
+  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::Avatar>> __u__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__11, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__14, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__11, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__14, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__11, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__14, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__11, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__14, _avatarSystemHash_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__11) == 0x38, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__14, __u__1) == 0x38, "Offset mismatch!");
+
+static_assert(sizeof(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__14) == 0x40, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore
 // Dependencies BeatSaber.AvatarCore.AvatarDisplayContext, UnityEngine.MonoBehaviour
@@ -121,7 +132,7 @@ namespace BeatSaber::AvatarCore {
 class CORDL_TYPE AvatarController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _LoadAndDisplayAvatar_d__11 = ::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__11;
+  using _LoadAndDisplayAvatar_d__14 = ::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__14;
 
   /// @brief Field _avatar, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__avatar, put = __cordl_internal_set__avatar)) ::UnityW<::BeatSaber::AvatarCore::Avatar> _avatar;
@@ -129,11 +140,18 @@ public:
   /// @brief Field _avatarDisplayContext, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__avatarDisplayContext, put = __cordl_internal_set__avatarDisplayContext)) ::BeatSaber::AvatarCore::AvatarDisplayContext _avatarDisplayContext;
 
+  /// @brief Field _avatarLoadingTask, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__avatarLoadingTask,
+                      put = __cordl_internal_set__avatarLoadingTask)) ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>* _avatarLoadingTask;
+
   /// @brief Field _avatarSystemCollection, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__avatarSystemCollection, put = __cordl_internal_set__avatarSystemCollection)) ::BeatSaber::AvatarCore::AvatarSystemCollection* _avatarSystemCollection;
 
   /// @brief Field _container, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
+
+  /// @brief Field _loadedAvatarSystemHash, offset 0x68, size 0x4
+  __declspec(property(get = __cordl_internal_get__loadedAvatarSystemHash, put = __cordl_internal_set__loadedAvatarSystemHash)) uint32_t _loadedAvatarSystemHash;
 
   /// @brief Field _optionalDataProvider, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__optionalDataProvider, put = __cordl_internal_set__optionalDataProvider)) ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* _optionalDataProvider;
@@ -149,13 +167,25 @@ public:
 
   __declspec(property(get = get_avatar)) ::UnityW<::BeatSaber::AvatarCore::Avatar> avatar;
 
-  /// [AsyncStateMachine(typeof(BeatSaber.AvatarCore.AvatarController::<LoadAndDisplayAvatar>d__11))]
-  /// @brief Method LoadAndDisplayAvatar, addr 0x326a564, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method DisplayAvatar, addr 0x34f060c, size 0x194, virtual false, abstract: false, final false
+  inline void DisplayAvatar(::BeatSaber::AvatarCore::Avatar* avatar, uint32_t avatarSystemHash);
+
+  /// @brief Method HandleVisualDataDidChange, addr 0x34f09f4, size 0x4, virtual false, abstract: false, final false
+  inline void HandleVisualDataDidChange(::GlobalNamespace::MultiplayerAvatarsData visualData);
+
+  /// [AsyncStateMachine(typeof(BeatSaber.AvatarCore.AvatarController::<LoadAndDisplayAvatar>d__14))]
+  /// @brief Method LoadAndDisplayAvatar, addr 0x34f0430, size 0xa0, virtual false, abstract: false, final false
   inline void LoadAndDisplayAvatar();
 
   static inline ::BeatSaber::AvatarCore::AvatarController* New_ctor();
 
-  /// @brief Method Start, addr 0x326a560, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x34f04d0, size 0x13c, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method ResolveAvatarSystemHash, addr 0x34f07a0, size 0x1d8, virtual false, abstract: false, final false
+  inline uint32_t ResolveAvatarSystemHash();
+
+  /// @brief Method Start, addr 0x34f0330, size 0x100, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::BeatSaber::AvatarCore::Avatar> const& __cordl_internal_get__avatar() const;
@@ -166,6 +196,10 @@ public:
 
   constexpr ::BeatSaber::AvatarCore::AvatarDisplayContext& __cordl_internal_get__avatarDisplayContext();
 
+  constexpr ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>* const& __cordl_internal_get__avatarLoadingTask() const;
+
+  constexpr ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>*& __cordl_internal_get__avatarLoadingTask();
+
   constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection* const& __cordl_internal_get__avatarSystemCollection() const;
 
   constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __cordl_internal_get__avatarSystemCollection();
@@ -173,6 +207,10 @@ public:
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
+
+  constexpr uint32_t const& __cordl_internal_get__loadedAvatarSystemHash() const;
+
+  constexpr uint32_t& __cordl_internal_get__loadedAvatarSystemHash();
 
   constexpr ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* const& __cordl_internal_get__optionalDataProvider() const;
 
@@ -194,9 +232,13 @@ public:
 
   constexpr void __cordl_internal_set__avatarDisplayContext(::BeatSaber::AvatarCore::AvatarDisplayContext value);
 
+  constexpr void __cordl_internal_set__avatarLoadingTask(::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>* value);
+
   constexpr void __cordl_internal_set__avatarSystemCollection(::BeatSaber::AvatarCore::AvatarSystemCollection* value);
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+
+  constexpr void __cordl_internal_set__loadedAvatarSystemHash(uint32_t value);
 
   constexpr void __cordl_internal_set__optionalDataProvider(::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* value);
 
@@ -206,10 +248,10 @@ public:
 
   constexpr void __cordl_internal_set__visualDataProvider(::BeatSaber::AvatarCore::IAvatarVisualDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x326a608, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34f09f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_avatar, addr 0x326a558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatar, addr 0x34f0328, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::AvatarCore::Avatar> get_avatar();
 
 protected:
@@ -227,7 +269,7 @@ public:
   AvatarController(AvatarController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22354 };
 
   /// [SerializeField]
   /// @brief Field _parentingTransform, offset: 0x20, size: 0x8, def value: None
@@ -260,6 +302,12 @@ public:
   /// @brief Field _avatar, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::BeatSaber::AvatarCore::Avatar> ____avatar;
 
+  /// @brief Field _avatarLoadingTask, offset: 0x60, size: 0x8, def value: None
+  ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>* ____avatarLoadingTask;
+
+  /// @brief Field _loadedAvatarSystemHash, offset: 0x68, size: 0x4, def value: None
+  uint32_t ____loadedAvatarSystemHash;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -279,6 +327,10 @@ static_assert(offsetof(::BeatSaber::AvatarCore::AvatarController, ____optionalDa
 
 static_assert(offsetof(::BeatSaber::AvatarCore::AvatarController, ____avatar) == 0x58, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::AvatarCore::AvatarController) == 0x60, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarController, ____avatarLoadingTask) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarController, ____loadedAvatarSystemHash) == 0x68, "Offset mismatch!");
+
+static_assert(sizeof(::BeatSaber::AvatarCore::AvatarController) == 0x70, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore

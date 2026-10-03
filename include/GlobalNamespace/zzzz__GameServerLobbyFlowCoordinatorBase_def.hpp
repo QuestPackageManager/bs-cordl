@@ -72,7 +72,7 @@ public:
   static ::GlobalNamespace::GameServerLobbyFlowCoordinatorBase_LobbyType const QuickPlayLobby;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6472 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -102,7 +102,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerLobbyFlowCoordinatorBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5a09130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e24858, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
@@ -160,7 +160,7 @@ public:
   GameServerLobbyFlowCoordinatorBase(GameServerLobbyFlowCoordinatorBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6473 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

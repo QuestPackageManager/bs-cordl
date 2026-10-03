@@ -28,13 +28,13 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::BaseFieldMouseDragger* New_ctor();
 
-  /// @brief Method SetDragZone, addr 0x6da7528, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetDragZone, addr 0x7235e8c, size 0x1c, virtual false, abstract: false, final false
   inline void SetDragZone(::UnityEngine::UIElements::VisualElement* dragElement);
 
   /// @brief Method SetDragZone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetDragZone(::UnityEngine::UIElements::VisualElement* dragElement, ::UnityEngine::Rect hotZone);
 
-  /// @brief Method .ctor, addr 0x6da7544, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7235ea8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +52,7 @@ public:
   BaseFieldMouseDragger(BaseFieldMouseDragger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4578 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

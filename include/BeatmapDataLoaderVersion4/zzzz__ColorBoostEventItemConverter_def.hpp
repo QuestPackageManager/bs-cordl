@@ -100,34 +100,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x376436c, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39eda4c, size 0xf8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x37644ac, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x39edb8c, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x3764464, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x39edb44, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapEventData* System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x376454c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39edc2c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x376446c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39edb4c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x37644a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39edb84, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x3764368, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39eda48, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -167,7 +167,7 @@ public:
   constexpr void __cordl_internal_set_index(::BeatmapSaveDataVersion4::BeatIndex* value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x3764348, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39eda28, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>"
@@ -200,7 +200,7 @@ public:
   ColorBoostEventItemConverter__Convert_d__2(ColorBoostEventItemConverter__Convert_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15680 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -251,7 +251,7 @@ public:
   __declspec(property(get = __cordl_internal_get__colorBoostEvents, put = __cordl_internal_set__colorBoostEvents)) ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent> _colorBoostEvents;
 
   /// [IteratorStateMachine(typeof(BeatmapDataLoaderVersion4.ColorBoostEventItemConverter::<Convert>d__2))]
-  /// @brief Method Convert, addr 0x3763e78, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x39ed558, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* Convert(::BeatmapSaveDataVersion4::BeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent> colorBoostEvents,
@@ -263,7 +263,7 @@ public:
 
   constexpr void __cordl_internal_set__colorBoostEvents(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent> value);
 
-  /// @brief Method .ctor, addr 0x3763cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ed3a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent> colorBoostEvents, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:
@@ -281,7 +281,7 @@ public:
   ColorBoostEventItemConverter(ColorBoostEventItemConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15681 };
 
   /// @brief Field _colorBoostEvents, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent> ____colorBoostEvents;

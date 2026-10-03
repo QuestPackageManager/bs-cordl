@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__FalloffType_def.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightMode_def.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LinearColor_def.hpp"
+#include "UnityEngine/zzzz__EntityId_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 #include <cstddef>
-#include <cstdint>
 CORDL_MODULE_EXPORT(SpotLight)
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
@@ -20,8 +20,8 @@ struct SpotLight;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::SpotLight);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::GlobalIllumination::SpotLight, "UnityEngine.Experimental.GlobalIllumination", "SpotLight");
-// Dependencies UnityEngine.Experimental.GlobalIllumination.AngularFalloffType, UnityEngine.Experimental.GlobalIllumination.FalloffType, UnityEngine.Experimental.GlobalIllumination.LightMode,
-// UnityEngine.Experimental.GlobalIllumination.LinearColor, UnityEngine.Quaternion, UnityEngine.Vector3
+// Dependencies UnityEngine.EntityId, UnityEngine.Experimental.GlobalIllumination.AngularFalloffType, UnityEngine.Experimental.GlobalIllumination.FalloffType,
+// UnityEngine.Experimental.GlobalIllumination.LightMode, UnityEngine.Experimental.GlobalIllumination.LinearColor, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
 // CS Name: UnityEngine.Experimental.GlobalIllumination.SpotLight
@@ -32,8 +32,8 @@ public:
   // @brief default ctor
   constexpr SpotLight();
 
-  // Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "shadow", ty: "bool", modifiers: "", def_value: None, comment:
-  // None }, CppParam { name: "mode", ty: "::UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "position", ty:
+  // Ctor Parameters [CppParam { name: "entityId", ty: "::UnityEngine::EntityId", modifiers: "", def_value: None, comment: None }, CppParam { name: "shadow", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "mode", ty: "::UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "position", ty:
   // "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None },
   // CppParam { name: "color", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectColor", ty:
   // "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None, comment: None }, CppParam { name: "range", ty: "float_t", modifiers: "", def_value: None, comment:
@@ -41,19 +41,19 @@ public:
   // }, CppParam { name: "innerConeAngle", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "falloff", ty:
   // "::UnityEngine::Experimental::GlobalIllumination::FalloffType", modifiers: "", def_value: None, comment: None }, CppParam { name: "angularFalloff", ty:
   // "::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType", modifiers: "", def_value: None, comment: None }]
-  constexpr SpotLight(int32_t instanceID, bool shadow, ::UnityEngine::Experimental::GlobalIllumination::LightMode mode, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation,
-                      ::UnityEngine::Experimental::GlobalIllumination::LinearColor color, ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor, float_t range,
-                      float_t sphereRadius, float_t coneAngle, float_t innerConeAngle, ::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff,
-                      ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType angularFalloff) noexcept;
+  constexpr SpotLight(::UnityEngine::EntityId entityId, bool shadow, ::UnityEngine::Experimental::GlobalIllumination::LightMode mode, ::UnityEngine::Vector3 position,
+                      ::UnityEngine::Quaternion orientation, ::UnityEngine::Experimental::GlobalIllumination::LinearColor color,
+                      ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor, float_t range, float_t sphereRadius, float_t coneAngle, float_t innerConeAngle,
+                      ::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff, ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType angularFalloff) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10514 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
-  /// @brief Field instanceID, offset: 0x0, size: 0x4, def value: None
-  int32_t instanceID;
+  /// @brief Field entityId, offset: 0x0, size: 0x4, def value: None
+  ::UnityEngine::EntityId entityId;
 
   /// @brief Field shadow, offset: 0x4, size: 0x1, def value: None
   bool shadow;
@@ -94,7 +94,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, instanceID) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, entityId) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, shadow) == 0x4, "Offset mismatch!");
 

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::SecureString::*)()>(&::System::Security::SecureString::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5af04a4;
+  constexpr static std::size_t addrs = 0x5f0839c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::SecureString*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::SecureString::*)(char16_t*, int32_t)>(&::System::Security::SecureString::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5af062c;
+  constexpr static std::size_t addrs = 0x5f08524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::SecureString::*)()>(&::System::Security::SecureString::get_Length)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5af075c;
+  constexpr static std::size_t addrs = 0x5f08654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::SecureString*>(), { "get_Length", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::SecureString::*)()>(&::System::Security::SecureString::Dispose)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5af07b8;
+  constexpr static std::size_t addrs = 0x5f086b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::SecureString*>(), { "Dispose", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::SecureString::*)()>(&::System::Security::SecureString::Encrypt)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5af0758;
+  constexpr static std::size_t addrs = 0x5f08650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::SecureString*>(), { "Encrypt", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::SecureString::*)()>(&::System::Security::SecureString::Decrypt)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5af07f0;
+  constexpr static std::size_t addrs = 0x5f086e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::SecureString*>(), { "Decrypt", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::SecureString::*)(int32_t, bool)>(&::System::Security::SecureString::Alloc)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5af04b0;
+  constexpr static std::size_t addrs = 0x5f083a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::SecureString::*)()>(&::System::Security::SecureString::GetBuffer)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5af07f4;
+  constexpr static std::size_t addrs = 0x5f086ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::SecureString*>(), { "GetBuffer", {}, {} })));

@@ -71,34 +71,34 @@ public:
   /// @brief Field _showAllButton, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__showAllButton, put = __cordl_internal_set__showAllButton)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> _showAllButton;
 
-  /// @brief Method Awake, addr 0x5a4e554, size 0x9ec, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e65ef0, size 0x9ec, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method IsInspectorPanelVisible, addr 0x5a4f384, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsInspectorPanelVisible, addr 0x5e66d20, size 0x28, virtual false, abstract: false, final false
   inline bool IsInspectorPanelVisible();
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface* New_ctor();
 
-  /// @brief Method SetTransparencyRecursive, addr 0x5a4e3f8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method SetTransparencyRecursive, addr 0x5e65d94, size 0x138, virtual false, abstract: false, final false
   inline void SetTransparencyRecursive(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* controller, bool transparent);
 
-  /// @brief Method ToggleDistances, addr 0x5a4f0b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ToggleDistances, addr 0x5e66a4c, size 0x48, virtual false, abstract: false, final false
   inline void ToggleDistances();
 
-  /// @brief Method ToggleFollowRotation, addr 0x5a4f128, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToggleFollowRotation, addr 0x5e66ac4, size 0x30, virtual false, abstract: false, final false
   inline void ToggleFollowRotation();
 
-  /// @brief Method ToggleFollowTranslation, addr 0x5a4f0f8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToggleFollowTranslation, addr 0x5e66a94, size 0x30, virtual false, abstract: false, final false
   inline void ToggleFollowTranslation();
 
-  /// @brief Method Update, addr 0x5a4f254, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e66bf0, size 0x130, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateVisibility, addr 0x5a4f158, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisibility, addr 0x5e66af4, size 0xb4, virtual false, abstract: false, final false
   inline void UpdateVisibility();
 
   /// [CompilerGenerated]
-  /// @brief Method <Awake>b__20_0, addr 0x5a4f45c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__20_0, addr 0x5e66df8, size 0x20, virtual false, abstract: false, final false
   inline void _Awake_b__20_0();
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::DebugBar> const& __cordl_internal_get__bar() const;
@@ -161,25 +161,25 @@ public:
 
   constexpr void __cordl_internal_set__showAllButton(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x5a4f3ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e66d48, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_FollowOverride, addr 0x5a4e1cc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_FollowOverride, addr 0x5e65b68, size 0x18, virtual true, abstract: false, final false
   inline bool get_FollowOverride();
 
-  /// @brief Method get_OpacityOverride, addr 0x5a4e254, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_OpacityOverride, addr 0x5e65bf0, size 0x18, virtual false, abstract: false, final false
   inline bool get_OpacityOverride();
 
-  /// @brief Method get_RotateOverride, addr 0x5a4e210, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_RotateOverride, addr 0x5e65bac, size 0x18, virtual true, abstract: false, final false
   inline bool get_RotateOverride();
 
-  /// @brief Method set_FollowOverride, addr 0x5a4e1e4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method set_FollowOverride, addr 0x5e65b80, size 0x2c, virtual true, abstract: false, final false
   inline void set_FollowOverride(bool value);
 
-  /// @brief Method set_OpacityOverride, addr 0x5a4e26c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method set_OpacityOverride, addr 0x5e65c08, size 0x18c, virtual false, abstract: false, final false
   inline void set_OpacityOverride(bool value);
 
-  /// @brief Method set_RotateOverride, addr 0x5a4e228, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method set_RotateOverride, addr 0x5e65bc4, size 0x2c, virtual true, abstract: false, final false
   inline void set_RotateOverride(bool value);
 
 protected:
@@ -197,7 +197,7 @@ public:
   DebugInterface(DebugInterface const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18899 };
 
   /// @brief Field _bar, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::DebugBar> ____bar;

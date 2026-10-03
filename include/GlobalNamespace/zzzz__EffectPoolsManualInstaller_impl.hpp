@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EffectPoolsManualInstaller::*)(::Zenject::DiContainer*, bool)>(
     &::GlobalNamespace::EffectPoolsManualInstaller::ManualInstallBindings)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x59fb1c8;
+  constexpr static std::size_t addrs = 0x5e167bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EffectPoolsManualInstaller*>(),
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EffectPoolsManualInstaller::*)()>(&::GlobalNamespace::EffectPoolsManualInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59fb428;
+  constexpr static std::size_t addrs = 0x5e16a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EffectPoolsManualInstaller*>(), { ".ctor", {}, {} })));

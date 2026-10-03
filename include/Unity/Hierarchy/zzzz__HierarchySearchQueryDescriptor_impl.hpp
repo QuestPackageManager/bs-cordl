@@ -13,38 +13,38 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchySearchQueryDescriptor___c::*)()>(&::Unity::Hierarchy::HierarchySearchQueryDescriptor___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b3b73c;
+  constexpr static std::size_t addrs = 0x6f9996c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c.__ctor_b__33_0
+//  Writing Method size for method: ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c.__ctor_b__36_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchySearchQueryDescriptor___c::*)(::Unity::Hierarchy::HierarchySearchFilter)>(
-    &::Unity::Hierarchy::HierarchySearchQueryDescriptor___c::__ctor_b__33_0)> {
+    &::Unity::Hierarchy::HierarchySearchQueryDescriptor___c::__ctor_b__36_0)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6b3b740;
+  constexpr static std::size_t addrs = 0x6f99970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*>(),
-                                                                                           { "<.ctor>b__33_0", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchySearchFilter>() } })));
+                                                                                           { "<.ctor>b__36_0", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchySearchFilter>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c.__ctor_b__33_1
+//  Writing Method size for method: ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c.__ctor_b__36_1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchySearchQueryDescriptor___c::*)(::Unity::Hierarchy::HierarchySearchFilter)>(
-    &::Unity::Hierarchy::HierarchySearchQueryDescriptor___c::__ctor_b__33_1)> {
+    &::Unity::Hierarchy::HierarchySearchQueryDescriptor___c::__ctor_b__36_1)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6b3b804;
+  constexpr static std::size_t addrs = 0x6f99a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*>(),
-                                                                                           { "<.ctor>b__33_1", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchySearchFilter>() } })));
+                                                                                           { "<.ctor>b__36_1", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchySearchFilter>() } })));
     return ___internal_method;
   }
 };
@@ -55,32 +55,32 @@ inline void Unity::Hierarchy::HierarchySearchQueryDescriptor___c::setStaticF___9
 inline ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c* Unity::Hierarchy::HierarchySearchQueryDescriptor___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*, "<>9", ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*>();
 }
-inline void Unity::Hierarchy::HierarchySearchQueryDescriptor___c::setStaticF___9__33_0(::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>*, "<>9__33_0", ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*>(
+inline void Unity::Hierarchy::HierarchySearchQueryDescriptor___c::setStaticF___9__36_0(::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>*, "<>9__36_0", ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*>(
       std::forward<::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>*>(value));
 }
-inline ::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>* Unity::Hierarchy::HierarchySearchQueryDescriptor___c::getStaticF___9__33_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>*, "<>9__33_0", ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*>();
+inline ::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>* Unity::Hierarchy::HierarchySearchQueryDescriptor___c::getStaticF___9__36_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>*, "<>9__36_0", ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*>();
 }
-inline void Unity::Hierarchy::HierarchySearchQueryDescriptor___c::setStaticF___9__33_1(::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>*, "<>9__33_1", ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*>(
+inline void Unity::Hierarchy::HierarchySearchQueryDescriptor___c::setStaticF___9__36_1(::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>*, "<>9__36_1", ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*>(
       std::forward<::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>*>(value));
 }
-inline ::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>* Unity::Hierarchy::HierarchySearchQueryDescriptor___c::getStaticF___9__33_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>*, "<>9__33_1", ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*>();
+inline ::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>* Unity::Hierarchy::HierarchySearchQueryDescriptor___c::getStaticF___9__36_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::Unity::Hierarchy::HierarchySearchFilter, bool>*, "<>9__36_1", ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*>();
 }
 inline void Unity::Hierarchy::HierarchySearchQueryDescriptor___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool Unity::Hierarchy::HierarchySearchQueryDescriptor___c::__ctor_b__33_0(::Unity::Hierarchy::HierarchySearchFilter f) {
+inline bool Unity::Hierarchy::HierarchySearchQueryDescriptor___c::__ctor_b__36_0(::Unity::Hierarchy::HierarchySearchFilter f) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*>(),
-                                                                                         { "<.ctor>b__33_0", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchySearchFilter>() } })));
+                                                                                         { "<.ctor>b__36_0", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchySearchFilter>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, f);
 }
-inline bool Unity::Hierarchy::HierarchySearchQueryDescriptor___c::__ctor_b__33_1(::Unity::Hierarchy::HierarchySearchFilter f) {
+inline bool Unity::Hierarchy::HierarchySearchQueryDescriptor___c::__ctor_b__36_1(::Unity::Hierarchy::HierarchySearchFilter f) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*>(),
-                                                                                         { "<.ctor>b__33_1", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchySearchFilter>() } })));
+                                                                                         { "<.ctor>b__36_1", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchySearchFilter>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, f);
 }
 inline ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c* Unity::Hierarchy::HierarchySearchQueryDescriptor___c::New_ctor() {
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Unity::Hierarchy::HierarchySearchFilter> (::Unity::Hierarchy::HierarchySearchQueryDescriptor::*)()>(
     &::Unity::Hierarchy::HierarchySearchQueryDescriptor::get_SystemFilters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b3ae48;
+  constexpr static std::size_t addrs = 0x6f98fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor*>(), { "get_SystemFilters", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchySearchQueryDescriptor::*)(::ArrayW<::Unity::Hierarchy::HierarchySearchFilter>)>(
     &::Unity::Hierarchy::HierarchySearchQueryDescriptor::set_SystemFilters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b3ae50;
+  constexpr static std::size_t addrs = 0x6f98fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor*>(),
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Unity::Hierarchy::HierarchySearchFilter> (::Unity::Hierarchy::HierarchySearchQueryDescriptor::*)()>(
     &::Unity::Hierarchy::HierarchySearchQueryDescriptor::get_Filters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b3ae58;
+  constexpr static std::size_t addrs = 0x6f98fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor*>(), { "get_Filters", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchySearchQueryDescriptor::*)(::ArrayW<::Unity::Hierarchy::HierarchySearchFilter>)>(
     &::Unity::Hierarchy::HierarchySearchQueryDescriptor::set_Filters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b3ae60;
+  constexpr static std::size_t addrs = 0x6f98ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor*>(),
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::Unity::Hierarchy::HierarchySearchQueryDescriptor::*)()>(
     &::Unity::Hierarchy::HierarchySearchQueryDescriptor::get_TextValues)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b3ae68;
+  constexpr static std::size_t addrs = 0x6f98ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor*>(), { "get_TextValues", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchySearchQueryDescriptor::*)(::ArrayW<::StringW>)>(
     &::Unity::Hierarchy::HierarchySearchQueryDescriptor::set_TextValues)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b3ae70;
+  constexpr static std::size_t addrs = 0x6f99004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchySearchQueryDescriptor::*)(bool)>(&::Unity::Hierarchy::HierarchySearchQueryDescriptor::set_Strict)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b3ae78;
+  constexpr static std::size_t addrs = 0x6f9900c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,11 +187,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchySearchQueryDescriptor::*)(bool)>(&::Unity::Hierarchy::HierarchySearchQueryDescriptor::set_Invalid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b3ae80;
+  constexpr static std::size_t addrs = 0x6f99014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor*>(), { "set_Invalid", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Hierarchy::HierarchySearchQueryDescriptor.get_Query
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Hierarchy::HierarchySearchQueryDescriptor::*)()>(&::Unity::Hierarchy::HierarchySearchQueryDescriptor::get_Query)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6f9901c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor*>(), { "get_Query", {}, {} })));
     return ___internal_method;
   }
 };
@@ -201,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchySearchQueryDescriptor::*)(::ArrayW<::Unity::Hierarchy::HierarchySearchFilter>, ::ArrayW<::StringW>)>(
     &::Unity::Hierarchy::HierarchySearchQueryDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x6b3ae88;
+  constexpr static std::size_t addrs = 0x6f991f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Hierarchy::HierarchySearchQueryDescriptor::*)()>(&::Unity::Hierarchy::HierarchySearchQueryDescriptor::ToString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b3b22c;
+  constexpr static std::size_t addrs = 0x6f99598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Hierarchy::HierarchySearchQueryDescriptor::*)()>(&::Unity::Hierarchy::HierarchySearchQueryDescriptor::BuildFilterQuery)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b3b36c;
+  constexpr static std::size_t addrs = 0x6f9959c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor*>(), { "BuildFilterQuery", {}, {} })));
@@ -241,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Hierarchy::HierarchySearchQueryDescriptor::*)()>(
     &::Unity::Hierarchy::HierarchySearchQueryDescriptor::BuildSystemFilterQuery)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b3b3d4;
+  constexpr static std::size_t addrs = 0x6f99604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Hierarchy::HierarchySearchQueryDescriptor::*)()>(&::Unity::Hierarchy::HierarchySearchQueryDescriptor::BuildTextQuery)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6b3b43c;
+  constexpr static std::size_t addrs = 0x6f9966c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor*>(), { "BuildTextQuery", {}, {} })));
@@ -266,13 +278,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Hierarchy::HierarchySearchQueryDescriptor::*)()>(&::Unity::Hierarchy::HierarchySearchQueryDescriptor::BuildQuery)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6b3b230;
+  constexpr static std::size_t addrs = 0x6f990b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor*>(), { "BuildQuery", {}, {} })));
     return ___internal_method;
   }
 };
+constexpr ::StringW& Unity::Hierarchy::HierarchySearchQueryDescriptor::__cordl_internal_get_m_Query() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Query;
+}
+constexpr ::StringW const& Unity::Hierarchy::HierarchySearchQueryDescriptor::__cordl_internal_get_m_Query() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Query;
+}
+constexpr void Unity::Hierarchy::HierarchySearchQueryDescriptor::__cordl_internal_set_m_Query(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Query = value;
+}
 constexpr ::ArrayW<::Unity::Hierarchy::HierarchySearchFilter>& Unity::Hierarchy::HierarchySearchQueryDescriptor::__cordl_internal_get__SystemFilters_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SystemFilters_k__BackingField;
@@ -390,6 +414,10 @@ inline void Unity::Hierarchy::HierarchySearchQueryDescriptor::set_Invalid(bool v
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor*>(), { "set_Invalid", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::StringW Unity::Hierarchy::HierarchySearchQueryDescriptor::get_Query() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchySearchQueryDescriptor*>(), { "get_Query", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
 inline void Unity::Hierarchy::HierarchySearchQueryDescriptor::_ctor(::ArrayW<::Unity::Hierarchy::HierarchySearchFilter> filters, ::ArrayW<::StringW> textValues) {
   static auto* ___internal_method =

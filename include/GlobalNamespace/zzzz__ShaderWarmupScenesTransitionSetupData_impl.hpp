@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShaderWarmupScenesTransitionSetupData::*)(::GlobalNamespace::ShaderWarmupSceneSetupData*)>(
     &::GlobalNamespace::ShaderWarmupScenesTransitionSetupData::Init)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x59122e8;
+  constexpr static std::size_t addrs = 0x5d2c9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShaderWarmupScenesTransitionSetupData*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShaderWarmupScenesTransitionSetupData::*)()>(&::GlobalNamespace::ShaderWarmupScenesTransitionSetupData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59123ac;
+  constexpr static std::size_t addrs = 0x5d2cab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShaderWarmupScenesTransitionSetupData*>(), { ".ctor", {}, {} })));

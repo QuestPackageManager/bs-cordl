@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* (
     ::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::*)()>(&::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::get_beatmapAttempt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3263bcc;
+  constexpr static std::size_t addrs = 0x34e9934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* (
     ::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::*)()>(&::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::get_blockLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3263bd4;
+  constexpr static std::size_t addrs = 0x34e993c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* (::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::*)()>(
     &::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::get_hmdSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3263bdc;
+  constexpr static std::size_t addrs = 0x34e9944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::*)()>(
     &::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::InitializeAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3263be4;
+  constexpr static std::size_t addrs = 0x34e994c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::*)()>(
     &::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3263c78;
+  constexpr static std::size_t addrs = 0x34e99e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher*>(), { ".ctor", {}, {} })));

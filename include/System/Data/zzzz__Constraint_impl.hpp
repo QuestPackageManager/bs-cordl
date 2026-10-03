@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::Constraint::*)()>(&::System::Data::Constraint::get_ConstraintName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x601d260;
+  constexpr static std::size_t addrs = 0x6439258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::Constraint*>(), { ::i2c::class_of<::System::Data::Constraint*>(), 4 }));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Constraint::*)(::StringW)>(&::System::Data::Constraint::set_ConstraintName)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x601d268;
+  constexpr static std::size_t addrs = 0x6439260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::Constraint*>(), { ::i2c::class_of<::System::Data::Constraint*>(), 5 }));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::Constraint::*)()>(&::System::Data::Constraint::get_SchemaName)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x601d68c;
+  constexpr static std::size_t addrs = 0x6439684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Constraint*>(), { "get_SchemaName", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Constraint::*)(::StringW)>(&::System::Data::Constraint::set_SchemaName)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x601d6b0;
+  constexpr static std::size_t addrs = 0x64396a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Constraint*>(), { "set_SchemaName", {}, { ::i2c::type_of<::StringW>() } })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::Constraint::*)()>(&::System::Data::Constraint::get_InCollection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x601d6c4;
+  constexpr static std::size_t addrs = 0x64396bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::Constraint*>(), { ::i2c::class_of<::System::Data::Constraint*>(), 6 }));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Constraint::*)(bool)>(&::System::Data::Constraint::set_InCollection)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x601d6cc;
+  constexpr static std::size_t addrs = 0x64396c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::Constraint*>(), { ::i2c::class_of<::System::Data::Constraint*>(), 7 }));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::PropertyCollection* (::System::Data::Constraint::*)()>(&::System::Data::Constraint::get_ExtendedProperties)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x601d70c;
+  constexpr static std::size_t addrs = 0x6439704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Constraint*>(), { "get_ExtendedProperties", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Constraint::*)()>(&::System::Data::Constraint::CheckConstraint)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x601d778;
+  constexpr static std::size_t addrs = 0x6439770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Constraint*>(), { "CheckConstraint", {}, {} })));
@@ -217,8 +217,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Con
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Constraint::*)()>(&::System::Data::Constraint::CheckStateForProperty)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x601d7cc;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x64397c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Constraint*>(), { "CheckStateForProperty", {}, {} })));
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataSet* (::System::Data::Constraint::*)()>(&::System::Data::Constraint::get__DataSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x601d8c4;
+  constexpr static std::size_t addrs = 0x6439904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::Constraint*>(), { ::i2c::class_of<::System::Data::Constraint*>(), 17 }));
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::Constraint::*)()>(&::System::Data::Constraint::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x601d8cc;
+  constexpr static std::size_t addrs = 0x643990c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::Constraint*>(), { ::i2c::class_of<::System::Data::Constraint*>(), 3 }));
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Constraint::*)()>(&::System::Data::Constraint::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x601d8d8;
+  constexpr static std::size_t addrs = 0x6439918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Constraint*>(), { ".ctor", {}, {} })));

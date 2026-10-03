@@ -40,10 +40,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::MeshWriteDataPool___c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x6ce61a8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x71800a8, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshWriteData* __cctor_b__2_0();
 
-  /// @brief Method .ctor, addr 0x6ce61a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71800a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::MeshWriteDataPool___c* getStaticF___9();
@@ -65,7 +65,7 @@ public:
   MeshWriteDataPool___c(MeshWriteDataPool___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5451 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -87,7 +87,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::MeshWriteDataPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6ce5ff8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x717fef8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Func_1<::UnityEngine::UIElements::MeshWriteData*>* getStaticF_k_CreateAction();
@@ -109,7 +109,7 @@ public:
   MeshWriteDataPool(MeshWriteDataPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5327 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

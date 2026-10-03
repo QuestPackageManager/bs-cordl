@@ -23,12 +23,12 @@ class CORDL_TYPE FloatCvar : public ::GlobalNamespace::Cvar_1<float_t> {
 public:
   // Declarations
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method Init, addr 0x3327da8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x35b1028, size 0x6c, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::GlobalNamespace::FloatCvar* New_ctor(::StringW name, float_t initialValue);
 
-  /// @brief Method .ctor, addr 0x3327e14, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b1094, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, float_t initialValue);
 
 protected:
@@ -46,7 +46,7 @@ public:
   FloatCvar(FloatCvar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21432 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

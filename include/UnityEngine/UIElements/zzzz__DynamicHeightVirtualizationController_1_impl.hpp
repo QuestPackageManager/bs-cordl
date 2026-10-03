@@ -76,13 +76,13 @@ constexpr ::UnityEngine::UIElements::DynamicHeightVirtualizationController_1_Scr
 // Ctor Parameters [CppParam { name: "draggedIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>*", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
-constexpr ::UnityEngine::UIElements::DynamicHeightVirtualizationController_1___c__DisplayClass69_0<T>::DynamicHeightVirtualizationController_1___c__DisplayClass69_0(
+constexpr ::UnityEngine::UIElements::DynamicHeightVirtualizationController_1___c__DisplayClass67_0<T>::DynamicHeightVirtualizationController_1___c__DisplayClass67_0(
     int32_t draggedIndex, ::UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>* __4__this) noexcept {
   this->draggedIndex = draggedIndex;
   this->__4__this = __4__this;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::UIElements::DynamicHeightVirtualizationController_1___c__DisplayClass69_0<T>::DynamicHeightVirtualizationController_1___c__DisplayClass69_0() {}
+template <typename T> constexpr ::UnityEngine::UIElements::DynamicHeightVirtualizationController_1___c__DisplayClass67_0<T>::DynamicHeightVirtualizationController_1___c__DisplayClass67_0() {}
 template <typename T> constexpr int32_t& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_HighestCachedIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HighestCachedIndex;
@@ -274,18 +274,6 @@ template <typename T> constexpr void UnityEngine::UIElements::DynamicHeightVirtu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FillCallback = value;
 }
-template <typename T> constexpr ::System::Action*& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_ScrollCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ScrollCallback;
-}
-template <typename T> constexpr ::System::Action* const& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_ScrollCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ScrollCallback;
-}
-template <typename T> constexpr void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_set_m_ScrollCallback(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_ScrollCallback = value;
-}
 template <typename T> constexpr ::System::Action*& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_ScrollResetCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollResetCallback;
@@ -331,21 +319,6 @@ constexpr void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<
   this->___m_ScheduledItem = value;
 }
 template <typename T>
-constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_ScrollScheduledItem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ScrollScheduledItem;
-}
-template <typename T>
-constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem* const& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_ScrollScheduledItem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ScrollScheduledItem;
-}
-template <typename T>
-constexpr void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_set_m_ScrollScheduledItem(::UnityEngine::UIElements::IVisualElementScheduledItem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_ScrollScheduledItem = value;
-}
-template <typename T>
 constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_ScrollResetScheduledItem() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollResetScheduledItem;
@@ -359,6 +332,23 @@ template <typename T>
 constexpr void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_set_m_ScrollResetScheduledItem(::UnityEngine::UIElements::IVisualElementScheduledItem* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScrollResetScheduledItem = value;
+}
+template <typename T>
+constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_RefreshScrollOffsetScheduledItem() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RefreshScrollOffsetScheduledItem;
+}
+template <typename T>
+constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem* const&
+UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_RefreshScrollOffsetScheduledItem() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RefreshScrollOffsetScheduledItem;
+}
+template <typename T>
+constexpr void
+UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_set_m_RefreshScrollOffsetScheduledItem(::UnityEngine::UIElements::IVisualElementScheduledItem* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_RefreshScrollOffsetScheduledItem = value;
 }
 template <typename T> constexpr ::System::Predicate_1<int32_t>*& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_IndexOutOfBoundsPredicate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -487,8 +477,8 @@ template <typename T> inline void UnityEngine::UIElements::DynamicHeightVirtuali
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
 template <typename T> inline void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::OnScrollUpdate() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>*>(), { "OnScrollUpdate", {}, {} })));
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>*>(), 25 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T> inline void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::CycleItems(int32_t firstIndex) {
@@ -524,11 +514,6 @@ template <typename T> inline void UnityEngine::UIElements::DynamicHeightVirtuali
 template <typename T> inline void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::ScheduleFill() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>*>(), { "ScheduleFill", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-template <typename T> inline void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::ScheduleScroll() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>*>(), { "ScheduleScroll", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T> inline void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::ScheduleScrollDirectionReset() {
@@ -638,16 +623,21 @@ template <typename T> inline bool UnityEngine::UIElements::DynamicHeightVirtuali
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>*>(), { "IsIndexOutOfBounds", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, i);
 }
+template <typename T> inline void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::RefreshScrollOffset() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>*>(), { "RefreshScrollOffset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
 template <typename T>
-inline float_t UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::_GetContentHeightForIndex_g__GetContentHeightFromCachedHeight_69_0(
+inline float_t UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::_GetContentHeightForIndex_g__GetContentHeightFromCachedHeight_67_0(
     int32_t index, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1_ContentHeightCacheInfo<T>> heightInfo,
-    ::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1___c__DisplayClass69_0<T>> _cordl_fixed_empty_name_whitespace) {
+    ::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1___c__DisplayClass67_0<T>> _cordl_fixed_empty_name_whitespace) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>*>(),
-                                              { "<GetContentHeightForIndex>g__GetContentHeightFromCachedHeight|69_0",
+                                              { "<GetContentHeightForIndex>g__GetContentHeightFromCachedHeight|67_0",
                                                 {},
                                                 { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1_ContentHeightCacheInfo<T>>>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1___c__DisplayClass69_0<T>>>() } })));
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1___c__DisplayClass67_0<T>>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, index, heightInfo, _cordl_fixed_empty_name_whitespace);
 }
 template <typename T>

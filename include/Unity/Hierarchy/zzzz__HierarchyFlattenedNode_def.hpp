@@ -25,8 +25,8 @@ struct HierarchyFlattenedNode;
 // Write type traits
 MARK_VAL_T(::Unity::Hierarchy::HierarchyFlattenedNode);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchyFlattenedNode, "Unity.Hierarchy", "HierarchyFlattenedNode");
-// [NativeHeader("Modules/HierarchyCore/Public/HierarchyFlattenedNode.h")]
 // [IsReadOnly]
+// [NativeHeader("Modules/HierarchyCore/Public/HierarchyFlattenedNode.h")]
 // Dependencies Unity.Hierarchy.HierarchyNode, Unity.Hierarchy.HierarchyNodeType
 namespace Unity::Hierarchy {
 // Is value type: true
@@ -34,56 +34,59 @@ namespace Unity::Hierarchy {
 struct CORDL_TYPE HierarchyFlattenedNode {
 public:
   // Declarations
-  __declspec(property(get = get_ChildrenCount)) int32_t ChildrenCount;
+  __declspec(property(get = get_Depth)) int32_t Depth;
 
   __declspec(property(get = get_NextSiblingOffset)) int32_t NextSiblingOffset;
 
   __declspec(property(get = get_Node)) ::Unity::Hierarchy::HierarchyNode Node;
 
-  /// @brief Field s_Null, offset 0xffffffff, size 0x1c
+  /// @brief Field s_Null, offset 0xffffffff, size 0x24
   __declspec(property(get = getStaticF_s_Null, put = setStaticF_s_Null)) ::Unity::Hierarchy::HierarchyFlattenedNode s_Null;
 
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Hierarchy::HierarchyFlattenedNode>"
   constexpr operator ::System::IEquatable_1<::Unity::Hierarchy::HierarchyFlattenedNode>*();
 
   /// [ExcludeFromDocs]
-  /// @brief Method Equals, addr 0x6b3a1f0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f983cc, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// [ExcludeFromDocs]
-  /// @brief Method Equals, addr 0x6b3a078, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f98254, size 0x14, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Hierarchy::HierarchyFlattenedNode other);
 
   /// [ExcludeFromDocs]
-  /// @brief Method GetHashCode, addr 0x6b3a26c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f98448, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetNodeByRef, addr 0x6b3a300, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetNodeByRef, addr 0x6f984dc, size 0x4, virtual false, abstract: false, final false
   static inline ::by_ref<::Unity::Hierarchy::HierarchyNode> GetNodeByRef(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> hierarchyFlattenedNode);
 
   /// [ExcludeFromDocs]
-  /// @brief Method ToString, addr 0x6b3a08c, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f98268, size 0x164, virtual true, abstract: false, final false
   inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x6f9815c, size 0x9c, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::Unity::Hierarchy::HierarchyFlattenedNode getStaticF_s_Null();
 
-  /// @brief Method get_ChildrenCount, addr 0x6b3a070, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_ChildrenCount();
+  /// @brief Method get_Depth, addr 0x6f98154, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Depth();
 
-  /// @brief Method get_NextSiblingOffset, addr 0x6b3a068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextSiblingOffset, addr 0x6f9814c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NextSiblingOffset();
 
-  /// @brief Method get_Node, addr 0x6b3a060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Node, addr 0x6f98144, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyNode get_Node();
 
-  /// @brief Method get_Null, addr 0x6b36038, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Null, addr 0x6f980fc, size 0x48, virtual false, abstract: false, final false
   static inline ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> get_Null();
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Hierarchy::HierarchyFlattenedNode>"
   constexpr ::System::IEquatable_1<::Unity::Hierarchy::HierarchyFlattenedNode>* i___System__IEquatable_1___Unity__Hierarchy__HierarchyFlattenedNode_();
 
   /// [ExcludeFromDocs]
-  /// @brief Method op_Equality, addr 0x6b36080, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6f98240, size 0x14, virtual false, abstract: false, final false
   static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> rhs);
 
   static inline void setStaticF_s_Null(::Unity::Hierarchy::HierarchyFlattenedNode value);
@@ -93,17 +96,18 @@ public:
   constexpr HierarchyFlattenedNode();
 
   // Ctor Parameters [CppParam { name: "m_Node", ty: "::Unity::Hierarchy::HierarchyNode", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Type", ty:
-  // "::Unity::Hierarchy::HierarchyNodeType", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ParentOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None },
-  // CppParam { name: "m_NextSiblingOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ChildrenCount", ty: "int32_t", modifiers: "", def_value: None, comment:
-  // None }, CppParam { name: "m_Depth", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
-  constexpr HierarchyFlattenedNode(::Unity::Hierarchy::HierarchyNode m_Node, ::Unity::Hierarchy::HierarchyNodeType m_Type, int32_t m_ParentOffset, int32_t m_NextSiblingOffset, int32_t m_ChildrenCount,
-                                   int32_t m_Depth) noexcept;
+  // "::Unity::Hierarchy::HierarchyNodeType", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "m_ParentOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NextSiblingOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_ChildIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ChildrenCount", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "m_Depth", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
+  constexpr HierarchyFlattenedNode(::Unity::Hierarchy::HierarchyNode m_Node, ::Unity::Hierarchy::HierarchyNodeType m_Type, int32_t m_Version, int32_t m_ParentOffset, int32_t m_NextSiblingOffset,
+                                   int32_t m_ChildIndex, int32_t m_ChildrenCount, int32_t m_Depth) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22602 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
 
   /// @brief Field m_Node, offset: 0x0, size: 0x8, def value: None
   ::Unity::Hierarchy::HierarchyNode m_Node;
@@ -111,16 +115,22 @@ public:
   /// @brief Field m_Type, offset: 0x8, size: 0x4, def value: None
   ::Unity::Hierarchy::HierarchyNodeType m_Type;
 
-  /// @brief Field m_ParentOffset, offset: 0xc, size: 0x4, def value: None
+  /// @brief Field m_Version, offset: 0xc, size: 0x4, def value: None
+  int32_t m_Version;
+
+  /// @brief Field m_ParentOffset, offset: 0x10, size: 0x4, def value: None
   int32_t m_ParentOffset;
 
-  /// @brief Field m_NextSiblingOffset, offset: 0x10, size: 0x4, def value: None
+  /// @brief Field m_NextSiblingOffset, offset: 0x14, size: 0x4, def value: None
   int32_t m_NextSiblingOffset;
 
-  /// @brief Field m_ChildrenCount, offset: 0x14, size: 0x4, def value: None
+  /// @brief Field m_ChildIndex, offset: 0x18, size: 0x4, def value: None
+  int32_t m_ChildIndex;
+
+  /// @brief Field m_ChildrenCount, offset: 0x1c, size: 0x4, def value: None
   int32_t m_ChildrenCount;
 
-  /// @brief Field m_Depth, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field m_Depth, offset: 0x20, size: 0x4, def value: None
   int32_t m_Depth;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -130,14 +140,18 @@ static_assert(offsetof(::Unity::Hierarchy::HierarchyFlattenedNode, m_Node) == 0x
 
 static_assert(offsetof(::Unity::Hierarchy::HierarchyFlattenedNode, m_Type) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Hierarchy::HierarchyFlattenedNode, m_ParentOffset) == 0xc, "Offset mismatch!");
+static_assert(offsetof(::Unity::Hierarchy::HierarchyFlattenedNode, m_Version) == 0xc, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Hierarchy::HierarchyFlattenedNode, m_NextSiblingOffset) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Unity::Hierarchy::HierarchyFlattenedNode, m_ParentOffset) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Hierarchy::HierarchyFlattenedNode, m_ChildrenCount) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::Unity::Hierarchy::HierarchyFlattenedNode, m_NextSiblingOffset) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Hierarchy::HierarchyFlattenedNode, m_Depth) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Unity::Hierarchy::HierarchyFlattenedNode, m_ChildIndex) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::Unity::Hierarchy::HierarchyFlattenedNode) == 0x1c, "Size mismatch!");
+static_assert(offsetof(::Unity::Hierarchy::HierarchyFlattenedNode, m_ChildrenCount) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::Hierarchy::HierarchyFlattenedNode, m_Depth) == 0x20, "Offset mismatch!");
+
+static_assert(sizeof(::Unity::Hierarchy::HierarchyFlattenedNode) == 0x24, "Size mismatch!");
 
 } // namespace Unity::Hierarchy

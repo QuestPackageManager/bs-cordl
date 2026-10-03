@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set_t(float_t value);
 
-  /// @brief Method .ctor, addr 0x375f604, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e8ce4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventTranslationValue, ::BeatmapSaveDataCommon::EaseType easeType, float_t translation);
 
-  /// @brief Method get_beat, addr 0x375f5dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x39e8cbc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_easeType, addr 0x375f5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x39e8cd4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_easeType();
 
-  /// @brief Method get_translation, addr 0x375f5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translation, addr 0x39e8cdc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_translation();
 
-  /// @brief Method get_usePreviousEventTranslationValue, addr 0x375f5e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventTranslationValue, addr 0x39e8cc4, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventTranslationValue();
 
 protected:
@@ -101,7 +101,7 @@ public:
   LightTranslationBaseData(LightTranslationBaseData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15608 };
 
   /// [SerializeField]
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None

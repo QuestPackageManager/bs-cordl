@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::FormatterConverter::*)(::System::Object*, ::System::Type*)>(
     &::System::Runtime::Serialization::FormatterConverter::Convert)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5b4c14c;
+  constexpr static std::size_t addrs = 0x5f64044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::FormatterConverter*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::FormatterConverter::*)(::System::Object*)>(
     &::System::Runtime::Serialization::FormatterConverter::ToBoolean)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5b4c248;
+  constexpr static std::size_t addrs = 0x5f64140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Serialization::FormatterConverter::*)(::System::Object*)>(
     &::System::Runtime::Serialization::FormatterConverter::ToInt32)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5b4c2e8;
+  constexpr static std::size_t addrs = 0x5f641e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Runtime::Serialization::FormatterConverter::*)(::System::Object*)>(
     &::System::Runtime::Serialization::FormatterConverter::ToInt64)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5b4c388;
+  constexpr static std::size_t addrs = 0x5f64280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::System::Runtime::Serialization::FormatterConverter::*)(::System::Object*)>(
     &::System::Runtime::Serialization::FormatterConverter::ToSingle)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5b4c428;
+  constexpr static std::size_t addrs = 0x5f64320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::FormatterConverter::*)(::System::Object*)>(
     &::System::Runtime::Serialization::FormatterConverter::ToString)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5b4c4c8;
+  constexpr static std::size_t addrs = 0x5f643c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Runtime::Serialization::FormatterConverter::ThrowValueNullException)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5b4c1fc;
+  constexpr static std::size_t addrs = 0x5f640f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::FormatterConverter::*)()>(&::System::Runtime::Serialization::FormatterConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b4c568;
+  constexpr static std::size_t addrs = 0x5f64460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::FormatterConverter*>(), { ".ctor", {}, {} })));

@@ -35,7 +35,7 @@ public:
   constexpr OVRTextureData(::ArrayW<uint8_t> data, int32_t width, int32_t height, ::GlobalNamespace::OVRTextureFormat format, ::UnityEngine::TextureFormat transcodedFormat, ::StringW uri) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7168 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7287 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

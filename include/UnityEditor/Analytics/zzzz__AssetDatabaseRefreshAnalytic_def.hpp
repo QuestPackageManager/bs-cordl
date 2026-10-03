@@ -89,7 +89,7 @@ public:
   __declspec(property(get = __cordl_internal_get_isV2, put = __cordl_internal_set_isV2)) bool isV2;
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreateAssetDatabaseRefreshAnalytic, addr 0x6e24cc4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateAssetDatabaseRefreshAnalytic, addr 0x72bfef0, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::AssetDatabaseRefreshAnalytic* CreateAssetDatabaseRefreshAnalytic();
 
   static inline ::UnityEditor::Analytics::AssetDatabaseRefreshAnalytic* New_ctor();
@@ -220,7 +220,7 @@ public:
 
   constexpr void __cordl_internal_set_isV2(bool value);
 
-  /// @brief Method .ctor, addr 0x6e24c4c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72bfe78, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -238,7 +238,7 @@ public:
   AssetDatabaseRefreshAnalytic(AssetDatabaseRefreshAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23281 };
 
   /// [SerializeField]
   /// @brief Field isV2, offset: 0x2c, size: 0x1, def value: None

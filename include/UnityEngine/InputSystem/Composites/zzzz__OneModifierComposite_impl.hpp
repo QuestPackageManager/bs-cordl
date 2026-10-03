@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)()>(
     &::UnityEngine::InputSystem::Composites::OneModifierComposite::get_valueType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x650c0b4;
+  constexpr static std::size_t addrs = 0x6934fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Composites::OneModifierComposite*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)()>(
     &::UnityEngine::InputSystem::Composites::OneModifierComposite::get_valueSizeInBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x650c0bc;
+  constexpr static std::size_t addrs = 0x6934fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Composites::OneModifierComposite*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(
     &::UnityEngine::InputSystem::Composites::OneModifierComposite::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x650c0c4;
+  constexpr static std::size_t addrs = 0x6934fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Composites::OneModifierComposite*>(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)(
     ::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext>, void*, int32_t)>(&::UnityEngine::InputSystem::Composites::OneModifierComposite::ReadValue)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x650c190;
+  constexpr static std::size_t addrs = 0x6935090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Composites::OneModifierComposite*>(),
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(
     &::UnityEngine::InputSystem::Composites::OneModifierComposite::ModifierIsPressed)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x650c104;
+  constexpr static std::size_t addrs = 0x6935004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(
     &::UnityEngine::InputSystem::Composites::OneModifierComposite::FinishSetup)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x650c230;
+  constexpr static std::size_t addrs = 0x6935130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Composites::OneModifierComposite*>(),
@@ -107,7 +107,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(
         &::UnityEngine::InputSystem::Composites::OneModifierComposite::ReadValueAsObject)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x650c728;
+  constexpr static std::size_t addrs = 0x6935628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Composites::OneModifierComposite*>(),
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext>, int32_t, ::by_ref<::System::Type*>, ::by_ref<int32_t>,
                                                                 ::by_ref<bool>)>(&::UnityEngine::InputSystem::Composites::OneModifierComposite::DetermineValueTypeAndSize)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x650c2e4;
+  constexpr static std::size_t addrs = 0x69351e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)()>(
     &::UnityEngine::InputSystem::Composites::OneModifierComposite::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x650c778;
+  constexpr static std::size_t addrs = 0x6935678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Composites::OneModifierComposite*>(), { ".ctor", {}, {} })));

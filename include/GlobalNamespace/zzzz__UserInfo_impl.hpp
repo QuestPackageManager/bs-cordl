@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UserInfo::*)(::GlobalNamespace::UserInfo_Platform, ::StringW, ::StringW)>(&::GlobalNamespace::UserInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f40cbc;
+  constexpr static std::size_t addrs = 0x635c448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

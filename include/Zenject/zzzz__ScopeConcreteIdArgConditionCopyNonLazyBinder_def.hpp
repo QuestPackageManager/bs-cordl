@@ -26,18 +26,18 @@ namespace Zenject {
 class CORDL_TYPE ScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
-  /// @brief Method AsCached, addr 0x6e5ccf0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AsCached, addr 0x72f9670, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsCached();
 
-  /// @brief Method AsSingle, addr 0x6e5cd0c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AsSingle, addr 0x72f968c, size 0x24, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsSingle();
 
-  /// @brief Method AsTransient, addr 0x6e5cd30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AsTransient, addr 0x72f96b0, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsTransient();
 
   static inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor, addr 0x6e5cbc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72f9540, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -55,7 +55,7 @@ public:
   ScopeConcreteIdArgConditionCopyNonLazyBinder(ScopeConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14529 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

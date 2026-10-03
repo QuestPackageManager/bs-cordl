@@ -24,21 +24,18 @@ public:
   // @brief default ctor
   constexpr CustomServerSettings();
 
-  // Ctor Parameters [CppParam { name: "useCustomEnvironment", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "forceGameLiftEnvironment", ty: "bool", modifiers: "",
-  // def_value: None, comment: None }, CppParam { name: "hostName", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
-  constexpr CustomServerSettings(bool useCustomEnvironment, bool forceGameLiftEnvironment, ::StringW hostName) noexcept;
+  // Ctor Parameters [CppParam { name: "useCustomEnvironment", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "hostName", ty: "::StringW", modifiers: "", def_value:
+  // None, comment: None }]
+  constexpr CustomServerSettings(bool useCustomEnvironment, ::StringW hostName) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22855 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field useCustomEnvironment, offset: 0x0, size: 0x1, def value: None
   bool useCustomEnvironment;
-
-  /// @brief Field forceGameLiftEnvironment, offset: 0x1, size: 0x1, def value: None
-  bool forceGameLiftEnvironment;
 
   /// [Nullable(1)]
   /// @brief Field hostName, offset: 0x8, size: 0x8, def value: None
@@ -48,8 +45,6 @@ public:
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::Settings::CustomServerSettings, useCustomEnvironment) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::BeatSaber::Settings::CustomServerSettings, forceGameLiftEnvironment) == 0x1, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::Settings::CustomServerSettings, hostName) == 0x8, "Offset mismatch!");
 

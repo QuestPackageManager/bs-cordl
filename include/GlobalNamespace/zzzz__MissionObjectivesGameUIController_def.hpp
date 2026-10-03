@@ -51,18 +51,18 @@ public:
   /// @brief Field _separator, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__separator, put = __cordl_internal_set__separator)) float_t _separator;
 
-  /// @brief Method CreateUIElements, addr 0x5918430, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method CreateUIElements, addr 0x5d31e7c, size 0x368, virtual false, abstract: false, final false
   inline void CreateUIElements();
 
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectivesListDidChange, addr 0x59188a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectivesListDidChange, addr 0x5d3239c, size 0x4, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
 
   static inline ::GlobalNamespace::MissionObjectivesGameUIController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5918798, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d321e4, size 0x10c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5918398, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d31d3c, size 0x94, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__elementWidth() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__separator(float_t value);
 
-  /// @brief Method .ctor, addr 0x59188ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d323a0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   MissionObjectivesGameUIController(MissionObjectivesGameUIController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6896 };
 
   /// [SerializeField]
   /// @brief Field _missionObjectiveGameUIViewPrefab, offset: 0x20, size: 0x8, def value: None

@@ -26,6 +26,8 @@ public:
   /// @brief Nested struct __EntryFlags_Unwrapped
   enum struct __EntryFlags_Unwrapped : uint16_t {
     __E_UsesTextCoreSettings = static_cast<uint16_t>(0x1u),
+    __E_IsPremultiplied = static_cast<uint16_t>(0x2u),
+    __E_SkipDynamicAtlas = static_cast<uint16_t>(0x4u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -45,11 +47,17 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr EntryFlags(uint16_t value__) noexcept;
 
+  /// @brief Field IsPremultiplied value: U16(2)
+  static ::UnityEngine::UIElements::UIR::EntryFlags const IsPremultiplied;
+
+  /// @brief Field SkipDynamicAtlas value: U16(4)
+  static ::UnityEngine::UIElements::UIR::EntryFlags const SkipDynamicAtlas;
+
   /// @brief Field UsesTextCoreSettings value: U16(1)
   static ::UnityEngine::UIElements::UIR::EntryFlags const UsesTextCoreSettings;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5401 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };

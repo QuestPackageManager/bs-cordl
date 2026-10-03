@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/GraphicsSettings.hpp"
-#include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipeline_impl.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
@@ -12,7 +11,6 @@
 #include "UnityEngine/Rendering/zzzz__BuiltinShaderDefine_def.hpp"
 #include "UnityEngine/Rendering/zzzz__DefaultMaterialType_def.hpp"
 #include "UnityEngine/Rendering/zzzz__DefaultShaderType_def.hpp"
-#include "UnityEngine/Rendering/zzzz__GraphicsSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__GraphicsTier_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipelineAsset_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipelineGlobalSettings_def.hpp"
@@ -20,57 +18,12 @@
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-//  Writing Method size for method: ::UnityEngine::Rendering::GraphicsSettings___c._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GraphicsSettings___c::*)()>(&::UnityEngine::Rendering::GraphicsSettings___c::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b0b288;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings___c*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::GraphicsSettings___c.__cctor_b__93_0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> (::UnityEngine::Rendering::GraphicsSettings___c::*)()>(
-    &::UnityEngine::Rendering::GraphicsSettings___c::__cctor_b__93_0)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6b0b28c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings___c*>(), { "<.cctor>b__93_0", {}, {} })));
-    return ___internal_method;
-  }
-};
-inline void UnityEngine::Rendering::GraphicsSettings___c::setStaticF___9(::UnityEngine::Rendering::GraphicsSettings___c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::Rendering::GraphicsSettings___c*, "<>9", ::UnityEngine::Rendering::GraphicsSettings___c*>(
-      std::forward<::UnityEngine::Rendering::GraphicsSettings___c*>(value));
-}
-inline ::UnityEngine::Rendering::GraphicsSettings___c* UnityEngine::Rendering::GraphicsSettings___c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GraphicsSettings___c*, "<>9", ::UnityEngine::Rendering::GraphicsSettings___c*>();
-}
-inline void UnityEngine::Rendering::GraphicsSettings___c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings___c*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> UnityEngine::Rendering::GraphicsSettings___c::__cctor_b__93_0() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings___c*>(), { "<.cctor>b__93_0", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings>>(this, ___internal_method);
-}
-inline ::UnityEngine::Rendering::GraphicsSettings___c* UnityEngine::Rendering::GraphicsSettings___c::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::GraphicsSettings___c*>());
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::Rendering::GraphicsSettings___c::GraphicsSettings___c() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::GraphicsSettings.Internal_GetSettingsForRenderPipeline
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (*)(::StringW)>(&::UnityEngine::Rendering::GraphicsSettings::Internal_GetSettingsForRenderPipeline)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x6b09f2c;
+  constexpr static std::size_t addrs = 0x6f654e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,11 +37,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> (*)()>(
     &::UnityEngine::Rendering::GraphicsSettings::Internal_GetCurrentRenderPipelineGlobalSettings)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6b0a208;
+  constexpr static std::size_t addrs = 0x6f657c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(), { "Internal_GetCurrentRenderPipelineGlobalSettings", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GraphicsSettings.ValidateSetRenderPipelineAsset
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RenderPipelineAsset*)>(&::UnityEngine::Rendering::GraphicsSettings::ValidateSetRenderPipelineAsset)> {
+  constexpr static std::size_t size = 0x2fc;
+  constexpr static std::size_t addrs = 0x6f65980;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(),
+                                                             { "ValidateSetRenderPipelineAsset", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderPipelineAsset*>() } })));
     return ___internal_method;
   }
 };
@@ -98,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::RenderPipelineGlobalSettings*>)>(
     &::UnityEngine::Rendering::GraphicsSettings::TryGetCurrentRenderPipelineGlobalSettings)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6b0a3c4;
+  constexpr static std::size_t addrs = 0x6f65c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::GraphicsSettings::get_lightsUseLinearIntensity)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b0a4a8;
+  constexpr static std::size_t addrs = 0x6f65dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Rendering::GraphicsSettings::set_lightsUseLinearIntensity)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b0a4d0;
+  constexpr static std::size_t addrs = 0x6f65e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Rendering::GraphicsSettings::set_lightsUseColorTemperature)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b0a50c;
+  constexpr static std::size_t addrs = 0x6f65e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Rendering::GraphicsSettings::set_useScriptableRenderPipelineBatching)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b0a548;
+  constexpr static std::size_t addrs = 0x6f65e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::GraphicsTier, ::UnityEngine::Rendering::BuiltinShaderDefine)>(
     &::UnityEngine::Rendering::GraphicsSettings::HasShaderDefine)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b0a584;
+  constexpr static std::size_t addrs = 0x6f65eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::BuiltinShaderDefine)>(&::UnityEngine::Rendering::GraphicsSettings::HasShaderDefine)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6b0a5c8;
+  constexpr static std::size_t addrs = 0x6f65ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(),
@@ -193,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ScriptableObject> (*)()>(&::UnityEngine::Rendering::GraphicsSettings::get_INTERNAL_currentRenderPipeline)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6b0a694;
+  constexpr static std::size_t addrs = 0x6f65fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> (*)()>(&::UnityEngine::Rendering::GraphicsSettings::get_currentRenderPipeline)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6b0a320;
+  constexpr static std::size_t addrs = 0x6f658dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(), { "get_currentRenderPipeline", {}, {} })));
@@ -218,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::GraphicsSettings::get_isScriptableRenderPipelineEnabled)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b0a7f8;
+  constexpr static std::size_t addrs = 0x6f66128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -231,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)()>(&::UnityEngine::Rendering::GraphicsSettings::get_currentRenderPipelineAssetType)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6b0a888;
+  constexpr static std::size_t addrs = 0x6f661b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ScriptableObject> (*)()>(&::UnityEngine::Rendering::GraphicsSettings::get_INTERNAL_defaultRenderPipeline)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6b0a914;
+  constexpr static std::size_t addrs = 0x6f66244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ScriptableObject*)>(&::UnityEngine::Rendering::GraphicsSettings::set_INTERNAL_defaultRenderPipeline)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6b0aa78;
+  constexpr static std::size_t addrs = 0x6f663a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(),
@@ -270,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> (*)()>(&::UnityEngine::Rendering::GraphicsSettings::get_defaultRenderPipeline)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6b0ab5c;
+  constexpr static std::size_t addrs = 0x6f6648c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(), { "get_defaultRenderPipeline", {}, {} })));
@@ -281,8 +248,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RenderPipelineAsset*)>(&::UnityEngine::Rendering::GraphicsSettings::set_defaultRenderPipeline)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6b0ac00;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6f66530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(),
@@ -296,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)(::UnityEngine::Rendering::DefaultShaderType)>(
     &::UnityEngine::Rendering::GraphicsSettings::GetDefaultShader)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x6b0ac58;
+  constexpr static std::size_t addrs = 0x6f66590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(),
@@ -310,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Rendering::DefaultMaterialType)>(
     &::UnityEngine::Rendering::GraphicsSettings::GetDefaultMaterial)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x6b0aec0;
+  constexpr static std::size_t addrs = 0x6f667f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(),
@@ -324,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::Rendering::GraphicsSettings::Internal_GetSettingsForRenderPipeline_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b0a1cc;
+  constexpr static std::size_t addrs = 0x6f65788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -338,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::Rendering::GraphicsSettings::get_INTERNAL_currentRenderPipeline_Injected)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b0a7d0;
+  constexpr static std::size_t addrs = 0x6f66100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -351,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::Rendering::GraphicsSettings::get_INTERNAL_defaultRenderPipeline_Injected)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b0aa50;
+  constexpr static std::size_t addrs = 0x6f66380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Rendering::GraphicsSettings::set_INTERNAL_defaultRenderPipeline_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b0ab20;
+  constexpr static std::size_t addrs = 0x6f66450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(),
@@ -397,6 +364,12 @@ inline ::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> UnityEng
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(), { "Internal_GetCurrentRenderPipelineGlobalSettings", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings>>(nullptr, ___internal_method);
+}
+inline void UnityEngine::Rendering::GraphicsSettings::ValidateSetRenderPipelineAsset(::UnityEngine::Rendering::RenderPipelineAsset* newRenderPipelineAsset) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(),
+                                                           { "ValidateSetRenderPipelineAsset", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderPipelineAsset*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, newRenderPipelineAsset);
 }
 inline bool UnityEngine::Rendering::GraphicsSettings::TryGetCurrentRenderPipelineGlobalSettings(::by_ref<::UnityEngine::Rendering::RenderPipelineGlobalSettings*> asset) {
   static auto* ___internal_method = THROW_UNLESS(

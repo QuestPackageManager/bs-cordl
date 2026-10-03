@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::BGLib::UnityExtension::LogHelper::LogBuildOnly)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3328f18;
+  constexpr static std::size_t addrs = 0x35b2198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::UnityEngine::Object*)>(&::BGLib::UnityExtension::LogHelper::LogBuildOnly)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3328f74;
+  constexpr static std::size_t addrs = 0x35b21f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

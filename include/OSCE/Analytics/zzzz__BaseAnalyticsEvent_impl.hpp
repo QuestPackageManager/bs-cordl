@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(&::OSCE::Analytics::BaseAnalyticsEvent::get_logger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f39560;
+  constexpr static std::size_t addrs = 0x6354c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::BaseAnalyticsEvent*>(), { "get_logger", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::BaseAnalyticsEvent::*)(::StringW)>(&::OSCE::Analytics::BaseAnalyticsEvent::set_logger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f39568;
+  constexpr static std::size_t addrs = 0x6354c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(&::OSCE::Analytics::BaseAnalyticsEvent::get_CreatedByPool)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f39570;
+  constexpr static std::size_t addrs = 0x6354c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::BaseAnalyticsEvent*>(), { "get_CreatedByPool", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::BaseAnalyticsEvent::*)(bool)>(&::OSCE::Analytics::BaseAnalyticsEvent::set_CreatedByPool)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f39578;
+  constexpr static std::size_t addrs = 0x6354c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IDType (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(&::OSCE::Analytics::BaseAnalyticsEvent::GetIDType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f39580;
+  constexpr static std::size_t addrs = 0x6354c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(&::OSCE::Analytics::BaseAnalyticsEvent::EventRequiresAnalyticsID)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f39588;
+  constexpr static std::size_t addrs = 0x6354c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(&::OSCE::Analytics::BaseAnalyticsEvent::ReturnedToPool)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5f395a8;
+  constexpr static std::size_t addrs = 0x6354c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(&::OSCE::Analytics::BaseAnalyticsEvent::ReturnEventToPool)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f395f8;
+  constexpr static std::size_t addrs = 0x6354cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OSCE::Analytics::LoggerAnalyticsEvent (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(
     &::OSCE::Analytics::BaseAnalyticsEvent::ConvertToLoggerEvent)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f39668;
+  constexpr static std::size_t addrs = 0x6354d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::BaseAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*, int32_t)>(
     &::OSCE::Analytics::BaseAnalyticsEvent::ApplyTime)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f396d4;
+  constexpr static std::size_t addrs = 0x6354d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::BaseAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::OSCE::Analytics::BaseAnalyticsEvent::ApplyBasicFields)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5f39754;
+  constexpr static std::size_t addrs = 0x6354e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(&::OSCE::Analytics::BaseAnalyticsEvent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f39780;
+  constexpr static std::size_t addrs = 0x6354e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::BaseAnalyticsEvent*>(), { ".ctor", {}, {} })));

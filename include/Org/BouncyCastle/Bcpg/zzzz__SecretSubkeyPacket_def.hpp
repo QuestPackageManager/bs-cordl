@@ -36,7 +36,7 @@ namespace Org::BouncyCastle::Bcpg {
 class CORDL_TYPE SecretSubkeyPacket : public ::Org::BouncyCastle::Bcpg::SecretKeyPacket {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0x36a024c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x39294e8, size 0x2c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   static inline ::Org::BouncyCastle::Bcpg::SecretSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -47,14 +47,14 @@ public:
   static inline ::Org::BouncyCastle::Bcpg::SecretSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyPacket, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
                                                                         int32_t s2kUsage, ::Org::BouncyCastle::Bcpg::S2k* s2k, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData);
 
-  /// @brief Method .ctor, addr 0x369b71c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39249b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x36a0244, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39294e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyPacket, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k,
                     ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData);
 
-  /// @brief Method .ctor, addr 0x36a0248, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39294e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyPacket, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, int32_t s2kUsage, ::Org::BouncyCastle::Bcpg::S2k* s2k,
                     ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData);
 

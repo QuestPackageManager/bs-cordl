@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<uint64_t> (*)(uint32_t)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetOculusIdOfColocatedGroupOwnerFromColocationGroupId)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5a7d8bc;
+  constexpr static std::size_t addrs = 0x5e95728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>* (*)(uint32_t)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetAllPlayersFromColocationGroupId)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x5a7da9c;
+  constexpr static std::size_t addrs = 0x5e95908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>* (*)(uint64_t, bool)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetAllPlayersColocatedWith)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x5a7dd4c;
+  constexpr static std::size_t addrs = 0x5e95bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::Meta::XR::MultiplayerBlocks::Colocation::Player> (*)(uint64_t)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetPlayerFromOculusId)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5a7e0d4;
+  constexpr static std::size_t addrs = 0x5e95f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -109,7 +109,7 @@ public:
   OVRFaceExpressions_WeightProvider(OVRFaceExpressions_WeightProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7261 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -158,7 +158,7 @@ public:
   static ::GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence const Upper;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7262 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -217,7 +217,7 @@ public:
   static ::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource const Visual;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7263 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -552,7 +552,7 @@ public:
   static ::GlobalNamespace::OVRFaceExpressions_FaceExpression const UpperLipRaiserR;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7264 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -588,22 +588,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x5e20edc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x623abe4, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x5e20e5c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x623ab64, size 0x1c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x5e20ed0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x623abd8, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e20eac, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x623abb4, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x5e20d2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x623aa34, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<float_t> array);
 
-  /// @brief Method get_Current, addr 0x5e20e78, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x623ab80, size 0x34, virtual true, abstract: false, final true
   inline float_t get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<float_t>"
@@ -624,7 +624,7 @@ public:
   constexpr OVRFaceExpressions_FaceExpressionsEnumerator(::ArrayW<float_t> _faceExpressions, int32_t _index, int32_t _count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7265 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -749,7 +749,7 @@ public:
   static ::GlobalNamespace::OVRFaceExpressions_FaceViseme const TH;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7266 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -833,72 +833,72 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Awake, addr 0x5e1ffb0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6239cb8, size 0x7c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CheckValidity, addr 0x5e20594, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckValidity, addr 0x623a29c, size 0x58, virtual false, abstract: false, final false
   inline void CheckValidity();
 
-  /// @brief Method CheckVisemesValidity, addr 0x5e20738, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckVisemesValidity, addr 0x623a440, size 0x58, virtual false, abstract: false, final false
   inline void CheckVisemesValidity();
 
-  /// @brief Method CopyTo, addr 0x5e20a74, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x623a77c, size 0x230, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<float_t> array, int32_t startIndex);
 
-  /// @brief Method CopyVisemesTo, addr 0x5e207e0, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method CopyVisemesTo, addr 0x623a4e8, size 0x230, virtual false, abstract: false, final false
   inline void CopyVisemesTo(::ArrayW<float_t> array, int32_t startIndex);
 
-  /// @brief Method GetEnumerator, addr 0x5e20d0c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x623aa14, size 0x20, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator GetEnumerator();
 
-  /// @brief Method GetRequestedFaceTrackingDataSources, addr 0x5e20264, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetRequestedFaceTrackingDataSources, addr 0x6239f6c, size 0xc4, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::OVRPlugin_FaceTrackingDataSource> GetRequestedFaceTrackingDataSources();
 
-  /// @brief Method GetViseme, addr 0x5e20640, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetViseme, addr 0x623a348, size 0xf8, virtual false, abstract: false, final false
   inline float_t GetViseme(::GlobalNamespace::OVRFaceExpressions_FaceViseme viseme);
 
-  /// @brief Method GetWeight, addr 0x5e205ec, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetWeight, addr 0x623a2f4, size 0x4, virtual true, abstract: false, final true
   inline float_t GetWeight(::GlobalNamespace::OVRFaceExpressions_FaceExpression expression);
 
   static inline ::GlobalNamespace::OVRFaceExpressions* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5e203b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x623a0c0, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x5e20328, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x623a030, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5e2002c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6239d34, size 0x7c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPermissionGranted, addr 0x5e201ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnPermissionGranted, addr 0x6239ef4, size 0x78, virtual false, abstract: false, final false
   inline void OnPermissionGranted(::StringW permissionId);
 
-  /// @brief Method StartFaceTracking, addr 0x5e200a8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method StartFaceTracking, addr 0x6239db0, size 0x144, virtual false, abstract: false, final false
   inline bool StartFaceTracking();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Single>.GetEnumerator, addr 0x5e20d50, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Single>.GetEnumerator, addr 0x623aa58, size 0x78, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<float_t>* System_Collections_Generic_IEnumerable_System_Single__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5e20dc8, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x623aad0, size 0x78, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method ToArray, addr 0x5e20ca4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToArray, addr 0x623a9ac, size 0x68, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> ToArray();
 
-  /// @brief Method TryGetFaceExpressionWeight, addr 0x5e205f0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method TryGetFaceExpressionWeight, addr 0x623a2f8, size 0x50, virtual false, abstract: false, final false
   inline bool TryGetFaceExpressionWeight(::GlobalNamespace::OVRFaceExpressions_FaceExpression expression, ::by_ref<float_t> weight);
 
-  /// @brief Method TryGetFaceTrackingDataSource, addr 0x5e20a60, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetFaceTrackingDataSource, addr 0x623a768, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetFaceTrackingDataSource(::by_ref<::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource> dataSource);
 
-  /// @brief Method TryGetFaceViseme, addr 0x5e20790, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method TryGetFaceViseme, addr 0x623a498, size 0x50, virtual false, abstract: false, final false
   inline bool TryGetFaceViseme(::GlobalNamespace::OVRFaceExpressions_FaceViseme viseme, ::by_ref<float_t> weight);
 
-  /// @brief Method TryGetWeightConfidence, addr 0x5e20a10, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method TryGetWeightConfidence, addr 0x623a718, size 0x50, virtual false, abstract: false, final false
   inline bool TryGetWeightConfidence(::GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence region, ::by_ref<float_t> weightConfidence);
 
-  /// @brief Method Update, addr 0x5e203c4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x623a0cc, size 0xd8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__AreVisemesValid_k__BackingField() const;
@@ -937,30 +937,30 @@ public:
 
   constexpr void __cordl_internal_set__onPermissionGranted(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x5e20e58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x623ab60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__trackingInstanceCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_AreVisemesValid, addr 0x5e1ffa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AreVisemesValid, addr 0x6239ca8, size 0x8, virtual false, abstract: false, final false
   inline bool get_AreVisemesValid();
 
-  /// @brief Method get_Count, addr 0x5e20e40, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x623ab48, size 0x18, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
   /// [CompilerGenerated]
-  /// @brief Method get_EyeFollowingBlendshapesValid, addr 0x5e1ff90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EyeFollowingBlendshapesValid, addr 0x6239c98, size 0x8, virtual false, abstract: false, final false
   inline bool get_EyeFollowingBlendshapesValid();
 
-  /// @brief Method get_FaceTrackingEnabled, addr 0x5e1ff2c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_FaceTrackingEnabled, addr 0x6239c34, size 0x54, virtual false, abstract: false, final false
   inline bool get_FaceTrackingEnabled();
 
-  /// @brief Method get_Item, addr 0x5e2049c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x623a1a4, size 0xf8, virtual false, abstract: false, final false
   inline float_t get_Item(::GlobalNamespace::OVRFaceExpressions_FaceExpression expression);
 
   /// [CompilerGenerated]
-  /// @brief Method get_ValidExpressions, addr 0x5e1ff80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidExpressions, addr 0x6239c88, size 0x8, virtual false, abstract: false, final false
   inline bool get_ValidExpressions();
 
   /// @brief Convert to "::GlobalNamespace::OVRFaceExpressions_WeightProvider"
@@ -978,15 +978,15 @@ public:
   static inline void setStaticF__trackingInstanceCount(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_AreVisemesValid, addr 0x5e1ffa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AreVisemesValid, addr 0x6239cb0, size 0x8, virtual false, abstract: false, final false
   inline void set_AreVisemesValid(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_EyeFollowingBlendshapesValid, addr 0x5e1ff98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EyeFollowingBlendshapesValid, addr 0x6239ca0, size 0x8, virtual false, abstract: false, final false
   inline void set_EyeFollowingBlendshapesValid(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ValidExpressions, addr 0x5e1ff88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ValidExpressions, addr 0x6239c90, size 0x8, virtual false, abstract: false, final false
   inline void set_ValidExpressions(bool value);
 
 protected:
@@ -1010,7 +1010,7 @@ public:
   static ::GlobalNamespace::OVRPermissionsRequester_Permission const RecordAudioPermission;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7267 };
 
   /// [CompilerGenerated]
   /// @brief Field <ValidExpressions>k__BackingField, offset: 0x20, size: 0x1, def value: None

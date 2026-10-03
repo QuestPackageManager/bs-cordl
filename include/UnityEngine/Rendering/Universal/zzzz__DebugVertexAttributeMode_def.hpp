@@ -14,7 +14,7 @@ struct DebugVertexAttributeMode;
 MARK_VAL_T(::UnityEngine::Rendering::Universal::DebugVertexAttributeMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DebugVertexAttributeMode, "UnityEngine.Rendering.Universal", "DebugVertexAttributeMode");
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.universal@bd2aa618476e\\ShaderLibrary\\Debug\\DebugViewEnums.cs")] Dependencies
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.universal@8a9b4021522a\\ShaderLibrary\\Debug\\DebugViewEnums.cs")] Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.DebugVertexAttributeMode
@@ -30,9 +30,13 @@ public:
     __E_Texcoord1 = static_cast<int32_t>(0x2),
     __E_Texcoord2 = static_cast<int32_t>(0x3),
     __E_Texcoord3 = static_cast<int32_t>(0x4),
-    __E_Color = static_cast<int32_t>(0x5),
-    __E_Tangent = static_cast<int32_t>(0x6),
-    __E_Normal = static_cast<int32_t>(0x7),
+    __E_Texcoord4 = static_cast<int32_t>(0x5),
+    __E_Texcoord5 = static_cast<int32_t>(0x6),
+    __E_Texcoord6 = static_cast<int32_t>(0x7),
+    __E_Texcoord7 = static_cast<int32_t>(0x8),
+    __E_Color = static_cast<int32_t>(0x9),
+    __E_Tangent = static_cast<int32_t>(0xa),
+    __E_Normal = static_cast<int32_t>(0xb),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -52,16 +56,16 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DebugVertexAttributeMode(int32_t value__) noexcept;
 
-  /// @brief Field Color value: I32(5)
+  /// @brief Field Color value: I32(9)
   static ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode const Color;
 
   /// @brief Field None value: I32(0)
   static ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode const None;
 
-  /// @brief Field Normal value: I32(7)
+  /// @brief Field Normal value: I32(11)
   static ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode const Normal;
 
-  /// @brief Field Tangent value: I32(6)
+  /// @brief Field Tangent value: I32(10)
   static ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode const Tangent;
 
   /// @brief Field Texcoord0 value: I32(1)
@@ -76,8 +80,20 @@ public:
   /// @brief Field Texcoord3 value: I32(4)
   static ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode const Texcoord3;
 
+  /// @brief Field Texcoord4 value: I32(5)
+  static ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode const Texcoord4;
+
+  /// @brief Field Texcoord5 value: I32(6)
+  static ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode const Texcoord5;
+
+  /// @brief Field Texcoord6 value: I32(7)
+  static ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode const Texcoord6;
+
+  /// @brief Field Texcoord7 value: I32(8)
+  static ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode const Texcoord7;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23468 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24173 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

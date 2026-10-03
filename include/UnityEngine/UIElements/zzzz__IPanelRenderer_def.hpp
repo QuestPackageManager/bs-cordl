@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPanelRenderer)
+namespace UnityEngine::UIElements {
+struct TextureSlotCount;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class IPanelRenderer;
@@ -20,6 +23,8 @@ class CORDL_TYPE IPanelRenderer {
 public:
   // Declarations
   __declspec(property(get = get_forceGammaRendering, put = set_forceGammaRendering)) bool forceGammaRendering;
+
+  __declspec(property(put = set_textureSlotCount)) ::UnityEngine::UIElements::TextureSlotCount textureSlotCount;
 
   __declspec(property(get = get_vertexBudget, put = set_vertexBudget)) uint32_t vertexBudget;
 
@@ -38,6 +43,9 @@ public:
   /// @brief Method set_forceGammaRendering, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_forceGammaRendering(bool value);
 
+  /// @brief Method set_textureSlotCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_textureSlotCount(::UnityEngine::UIElements::TextureSlotCount value);
+
   /// @brief Method set_vertexBudget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_vertexBudget(uint32_t value);
 
@@ -46,7 +54,7 @@ public:
   IPanelRenderer(IPanelRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4679 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4724 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

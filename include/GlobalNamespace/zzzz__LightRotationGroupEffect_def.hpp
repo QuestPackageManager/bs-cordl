@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x599a860, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db58a0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::LightAxis axis, bool mirrored, ::UnityEngine::Transform* transform);
 
 protected:
@@ -117,7 +117,7 @@ public:
   LightRotationGroupEffect_InitData(LightRotationGroupEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6031 };
 
   /// @brief Field groupId, offset: 0x10, size: 0x4, def value: None
   int32_t ___groupId;
@@ -170,10 +170,10 @@ public:
   __declspec(property(get = __cordl_internal_get__lightRotationBeatmapEventCallbackWrapper,
                       put = __cordl_internal_set__lightRotationBeatmapEventCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _lightRotationBeatmapEventCallbackWrapper;
 
-  /// @brief Method Cleanup, addr 0x599a824, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5db5864, size 0x38, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ComputeTargetAngle, addr 0x599a85c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ComputeTargetAngle, addr 0x5db589c, size 0x4, virtual false, abstract: false, final false
   static inline float_t ComputeTargetAngle(float_t startAngle, float_t targetAngle, int32_t loopCount, ::GlobalNamespace::LightRotationDirection rotationOrientation);
 
   /// @brief [Inject]
@@ -199,7 +199,7 @@ public:
   constexpr void __cordl_internal_set__lightRotationBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
   /// [Inject]
-  /// @brief Method .ctor, addr 0x599a608, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db5644, size 0x220, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightRotationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -218,7 +218,7 @@ public:
   LightRotationGroupEffect(LightRotationGroupEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6032 };
 
   /// @brief Field _beatmapCallbacksController, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;

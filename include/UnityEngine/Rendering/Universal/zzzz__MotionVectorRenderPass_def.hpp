@@ -45,13 +45,7 @@ namespace UnityEngine::Rendering::Universal {
 struct RenderPassEvent;
 }
 namespace UnityEngine::Rendering::Universal {
-struct RenderingData;
-}
-namespace UnityEngine::Rendering::Universal {
 class UniversalCameraData;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
 }
 namespace UnityEngine::Rendering {
 class ContextContainer;
@@ -64,9 +58,6 @@ struct DrawingSettings;
 }
 namespace UnityEngine::Rendering {
 class ProfilingSampler;
-}
-namespace UnityEngine::Rendering {
-class RTHandle;
 }
 namespace UnityEngine::Rendering {
 class RasterCommandBuffer;
@@ -85,9 +76,6 @@ struct LayerMask;
 }
 namespace UnityEngine {
 class Material;
-}
-namespace UnityEngine {
-struct RenderTextureDescriptor;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::Universal {
@@ -121,22 +109,16 @@ public:
   /// @brief Field camera, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_camera, put = __cordl_internal_set_camera)) ::UnityW<::UnityEngine::Camera> camera;
 
-  /// @brief Field cameraDepth, offset 0x40, size 0x10
+  /// @brief Field cameraDepth, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get_cameraDepth, put = __cordl_internal_set_cameraDepth)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle cameraDepth;
 
-  /// @brief Field cameraMaterial, offset 0x50, size 0x8
+  /// @brief Field cameraMaterial, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_cameraMaterial, put = __cordl_internal_set_cameraMaterial)) ::UnityW<::UnityEngine::Material> cameraMaterial;
 
-  /// @brief Field motionVectorColor, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get_motionVectorColor, put = __cordl_internal_set_motionVectorColor)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle motionVectorColor;
-
-  /// @brief Field motionVectorDepth, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get_motionVectorDepth, put = __cordl_internal_set_motionVectorDepth)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle motionVectorDepth;
-
-  /// @brief Field rendererList, offset 0x68, size 0x18
+  /// @brief Field rendererList, offset 0x48, size 0x18
   __declspec(property(get = __cordl_internal_get_rendererList, put = __cordl_internal_set_rendererList)) ::UnityEngine::Rendering::RendererList rendererList;
 
-  /// @brief Field rendererListHdl, offset 0x58, size 0xc
+  /// @brief Field rendererListHdl, offset 0x38, size 0xc
   __declspec(property(get = __cordl_internal_get_rendererListHdl, put = __cordl_internal_set_rendererListHdl)) ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle rendererListHdl;
 
   /// @brief Field xr, offset 0x18, size 0x8
@@ -156,14 +138,6 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_cameraMaterial();
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_motionVectorColor() const;
-
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_motionVectorColor();
-
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_motionVectorDepth() const;
-
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_motionVectorDepth();
-
   constexpr ::UnityEngine::Rendering::RendererList const& __cordl_internal_get_rendererList() const;
 
   constexpr ::UnityEngine::Rendering::RendererList& __cordl_internal_get_rendererList();
@@ -182,17 +156,13 @@ public:
 
   constexpr void __cordl_internal_set_cameraMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr void __cordl_internal_set_motionVectorColor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
-
-  constexpr void __cordl_internal_set_motionVectorDepth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
-
   constexpr void __cordl_internal_set_rendererList(::UnityEngine::Rendering::RendererList value);
 
   constexpr void __cordl_internal_set_rendererListHdl(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
   constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x688728c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc65e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -210,7 +180,7 @@ public:
   MotionVectorRenderPass_PassData(MotionVectorRenderPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13080 };
 
   /// @brief Field camera, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ___camera;
@@ -218,22 +188,16 @@ public:
   /// @brief Field xr, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Experimental::Rendering::XRPass* ___xr;
 
-  /// @brief Field motionVectorColor, offset: 0x20, size: 0x10, def value: None
-  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___motionVectorColor;
-
-  /// @brief Field motionVectorDepth, offset: 0x30, size: 0x10, def value: None
-  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___motionVectorDepth;
-
-  /// @brief Field cameraDepth, offset: 0x40, size: 0x10, def value: None
+  /// @brief Field cameraDepth, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___cameraDepth;
 
-  /// @brief Field cameraMaterial, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field cameraMaterial, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___cameraMaterial;
 
-  /// @brief Field rendererListHdl, offset: 0x58, size: 0xc, def value: None
+  /// @brief Field rendererListHdl, offset: 0x38, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle ___rendererListHdl;
 
-  /// @brief Field rendererList, offset: 0x68, size: 0x18, def value: None
+  /// @brief Field rendererList, offset: 0x48, size: 0x18, def value: None
   ::UnityEngine::Rendering::RendererList ___rendererList;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -243,19 +207,15 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPa
 
 static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData, ___xr) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData, ___motionVectorColor) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData, ___cameraDepth) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData, ___motionVectorDepth) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData, ___cameraMaterial) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData, ___cameraDepth) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData, ___rendererListHdl) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData, ___cameraMaterial) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData, ___rendererList) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData, ___rendererListHdl) == 0x58, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData, ___rendererList) == 0x68, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData) == 0x80, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
@@ -285,7 +245,7 @@ public:
 
   constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x6888e80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc65e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -303,7 +263,7 @@ public:
   MotionVectorRenderPass_MotionMatrixPassData(MotionVectorRenderPass_MotionMatrixPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13081 };
 
   /// @brief Field motionData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* ___motionData;
@@ -332,44 +292,44 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::MotionVectorRenderPass___c* __9;
 
-  /// @brief Field <>9__23_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__23_0,
-                      put = setStaticF___9__23_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData*,
-                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__23_0;
+  /// @brief Field <>9__17_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__17_0,
+                      put = setStaticF___9__17_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData*,
+                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__17_0;
 
-  /// @brief Field <>9__26_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__26_0,
-                      put = setStaticF___9__26_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::MotionVectorRenderPass_MotionMatrixPassData*,
-                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__26_0;
+  /// @brief Field <>9__19_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__19_0,
+                      put = setStaticF___9__19_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::MotionVectorRenderPass_MotionMatrixPassData*,
+                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__19_0;
 
   static inline ::UnityEngine::Rendering::Universal::MotionVectorRenderPass___c* New_ctor();
 
-  /// @brief Method <Render>b__23_0, addr 0x6888edc, size 0x150, virtual false, abstract: false, final false
-  inline void _Render_b__23_0(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
+  /// @brief Method <Render>b__17_0, addr 0x6cc6640, size 0x150, virtual false, abstract: false, final false
+  inline void _Render_b__17_0(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <SetRenderGraphMotionVectorGlobalMatrices>b__26_0, addr 0x688902c, size 0x28, virtual false, abstract: false, final false
-  inline void _SetRenderGraphMotionVectorGlobalMatrices_b__26_0(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_MotionMatrixPassData* data,
+  /// @brief Method <SetRenderGraphMotionVectorGlobalMatrices>b__19_0, addr 0x6cc6790, size 0x24, virtual false, abstract: false, final false
+  inline void _SetRenderGraphMotionVectorGlobalMatrices_b__19_0(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_MotionMatrixPassData* data,
                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6888ed8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc663c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::MotionVectorRenderPass___c* getStaticF___9();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__23_0();
+  getStaticF___9__17_0();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::MotionVectorRenderPass_MotionMatrixPassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__26_0();
+  getStaticF___9__19_0();
 
   static inline void setStaticF___9(::UnityEngine::Rendering::Universal::MotionVectorRenderPass___c* value);
 
-  static inline void setStaticF___9__23_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData*,
+  static inline void setStaticF___9__17_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData*,
                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
 
-  static inline void setStaticF___9__26_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::MotionVectorRenderPass_MotionMatrixPassData*,
+  static inline void setStaticF___9__19_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::MotionVectorRenderPass_MotionMatrixPassData*,
                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
 
 protected:
@@ -387,7 +347,7 @@ public:
   MotionVectorRenderPass___c(MotionVectorRenderPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13082 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -408,20 +368,11 @@ public:
 
   using __c = ::UnityEngine::Rendering::Universal::MotionVectorRenderPass___c;
 
-  /// @brief Field m_CameraMaterial, offset 0xc8, size 0x8
+  /// @brief Field m_CameraMaterial, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CameraMaterial, put = __cordl_internal_set_m_CameraMaterial)) ::UnityW<::UnityEngine::Material> m_CameraMaterial;
 
-  /// @brief Field m_Color, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Color, put = __cordl_internal_set_m_Color)) ::UnityEngine::Rendering::RTHandle* m_Color;
-
-  /// @brief Field m_Depth, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Depth, put = __cordl_internal_set_m_Depth)) ::UnityEngine::Rendering::RTHandle* m_Depth;
-
-  /// @brief Field m_FilteringSettings, offset 0xd0, size 0x20
+  /// @brief Field m_FilteringSettings, offset 0x68, size 0x20
   __declspec(property(get = __cordl_internal_get_m_FilteringSettings, put = __cordl_internal_set_m_FilteringSettings)) ::UnityEngine::Rendering::FilteringSettings m_FilteringSettings;
-
-  /// @brief Field m_PassData, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PassData, put = __cordl_internal_set_m_PassData)) ::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData* m_PassData;
 
   /// @brief Field s_CameraDepthTextureID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_CameraDepthTextureID, put = setStaticF_s_CameraDepthTextureID)) int32_t s_CameraDepthTextureID;
@@ -433,32 +384,24 @@ public:
   /// @brief Field s_ShaderTags, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ShaderTags, put = setStaticF_s_ShaderTags)) ::ArrayW<::StringW> s_ShaderTags;
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Configure, addr 0x6887298, size 0xe4, virtual true, abstract: false, final false
-  inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
-
-  /// @brief Method DrawCameraMotionVectors, addr 0x6887494, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method DrawCameraMotionVectors, addr 0x6cc4f24, size 0x1ac, virtual false, abstract: false, final false
   static inline void DrawCameraMotionVectors(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Experimental::Rendering::XRPass* xr, ::UnityEngine::Material* cameraMaterial);
 
-  /// @brief Method DrawObjectMotionVectors, addr 0x6887640, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method DrawObjectMotionVectors, addr 0x6cc50d0, size 0xb8, virtual false, abstract: false, final false
   static inline void DrawObjectMotionVectors(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Experimental::Rendering::XRPass* xr,
                                              ::by_ref<::UnityEngine::Rendering::RendererList> rendererList);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Execute, addr 0x68876f8, size 0x1d8, virtual true, abstract: false, final false
-  inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
-
-  /// @brief Method ExecutePass, addr 0x688737c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6cc4e0c, size 0x118, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData* passData,
                                  ::UnityEngine::Rendering::RendererList rendererList);
 
-  /// @brief Method GetDrawingSettings, addr 0x6887b24, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetDrawingSettings, addr 0x6cc5188, size 0x230, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DrawingSettings GetDrawingSettings(::UnityEngine::Camera* camera, bool supportsDynamicBatching);
 
-  /// @brief Method InitPassData, addr 0x68878d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6cc53b8, size 0x44, virtual false, abstract: false, final false
   inline void InitPassData(::by_ref<::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData*> passData, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method InitRendererLists, addr 0x6887914, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method InitRendererLists, addr 0x6cc53fc, size 0x218, virtual false, abstract: false, final false
   inline void InitRendererLists(::by_ref<::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData*> passData, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                 bool supportsDynamicBatching, ::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                 bool useRenderGraph);
@@ -466,52 +409,28 @@ public:
   static inline ::UnityEngine::Rendering::Universal::MotionVectorRenderPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* cameraMaterial,
                                                                                       ::UnityEngine::LayerMask opaqueLayerMask);
 
-  /// @brief Method Render, addr 0x6887d50, size 0xaec, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6cc5614, size 0xac4, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle cameraDepthTexture, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle motionVectorColor,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle motionVectorDepth);
 
-  /// @brief Method SetMotionVectorGlobalMatrices, addr 0x688883c, size 0xcc, virtual false, abstract: false, final false
-  static inline void SetMotionVectorGlobalMatrices(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
-
-  /// @brief Method SetRenderGraphMotionVectorGlobalMatrices, addr 0x6888908, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method SetRenderGraphMotionVectorGlobalMatrices, addr 0x6cc60d8, size 0x3dc, virtual false, abstract: false, final false
   static inline void SetRenderGraphMotionVectorGlobalMatrices(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                               ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
-
-  /// @brief Method Setup, addr 0x6887290, size 0x8, virtual false, abstract: false, final false
-  inline void Setup(::UnityEngine::Rendering::RTHandle* color, ::UnityEngine::Rendering::RTHandle* depth);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_m_CameraMaterial() const;
 
   constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_m_CameraMaterial();
 
-  constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get_m_Color() const;
-
-  constexpr ::UnityEngine::Rendering::RTHandle*& __cordl_internal_get_m_Color();
-
-  constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get_m_Depth() const;
-
-  constexpr ::UnityEngine::Rendering::RTHandle*& __cordl_internal_get_m_Depth();
-
   constexpr ::UnityEngine::Rendering::FilteringSettings const& __cordl_internal_get_m_FilteringSettings() const;
 
   constexpr ::UnityEngine::Rendering::FilteringSettings& __cordl_internal_get_m_FilteringSettings();
 
-  constexpr ::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData* const& __cordl_internal_get_m_PassData() const;
-
-  constexpr ::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData*& __cordl_internal_get_m_PassData();
-
   constexpr void __cordl_internal_set_m_CameraMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr void __cordl_internal_set_m_Color(::UnityEngine::Rendering::RTHandle* value);
-
-  constexpr void __cordl_internal_set_m_Depth(::UnityEngine::Rendering::RTHandle* value);
 
   constexpr void __cordl_internal_set_m_FilteringSettings(::UnityEngine::Rendering::FilteringSettings value);
 
-  constexpr void __cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData* value);
-
-  /// @brief Method .ctor, addr 0x6887134, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc4cfc, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* cameraMaterial, ::UnityEngine::LayerMask opaqueLayerMask);
 
   static inline int32_t getStaticF_s_CameraDepthTextureID();
@@ -541,7 +460,7 @@ public:
   MotionVectorRenderPass(MotionVectorRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13083 };
 
   /// @brief Field k_MotionVectorDepthTextureName offset 0xffffffff size 0x8
   static constexpr ::ConstString k_MotionVectorDepthTextureName{ u"_MotionVectorDepthTexture" };
@@ -555,34 +474,19 @@ public:
   /// @brief Field k_TargetFormat value: I32(46)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const k_TargetFormat;
 
-  /// @brief Field m_Color, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::Rendering::RTHandle* ___m_Color;
-
-  /// @brief Field m_Depth, offset: 0xc0, size: 0x8, def value: None
-  ::UnityEngine::Rendering::RTHandle* ___m_Depth;
-
-  /// @brief Field m_CameraMaterial, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field m_CameraMaterial, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_CameraMaterial;
 
-  /// @brief Field m_FilteringSettings, offset: 0xd0, size: 0x20, def value: None
+  /// @brief Field m_FilteringSettings, offset: 0x68, size: 0x20, def value: None
   ::UnityEngine::Rendering::FilteringSettings ___m_FilteringSettings;
-
-  /// @brief Field m_PassData, offset: 0xf0, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData* ___m_PassData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass, ___m_Color) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass, ___m_CameraMaterial) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass, ___m_Depth) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass, ___m_FilteringSettings) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass, ___m_CameraMaterial) == 0xc8, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass, ___m_FilteringSettings) == 0xd0, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass, ___m_PassData) == 0xf0, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass) == 0xf8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass) == 0x88, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal

@@ -23,7 +23,7 @@ namespace UnityEngine {
 class CORDL_TYPE ScriptingRuntime : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAllUserAssemblies, addr 0x6ae5ef4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetAllUserAssemblies, addr 0x6f40878, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetAllUserAssemblies();
 
 protected:
@@ -41,7 +41,7 @@ public:
   ScriptingRuntime(ScriptingRuntime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9947 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

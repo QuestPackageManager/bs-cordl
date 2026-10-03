@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::*)()>(
     &::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5d34fbc;
+  constexpr static std::size_t addrs = 0x614eba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Serialization::JsonContract* (
     ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::*)(::System::Type*)>(&::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::ResolveContract)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x5d35140;
+  constexpr static std::size_t addrs = 0x614ed24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver*>(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::DefaultJsonNameTable* (::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::*)()>(
     &::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::GetNameTable)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d35498;
+  constexpr static std::size_t addrs = 0x614f07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver*>(),

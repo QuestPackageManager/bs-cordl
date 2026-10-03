@@ -14,6 +14,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
@@ -103,6 +106,9 @@ public:
   /// @brief Method FinishSelector, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void FinishSelector();
 
+  /// @brief Method ForEach, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void ForEach(::System::Action_1<T>* funcCall);
+
   /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
@@ -153,7 +159,7 @@ public:
                             int32_t pseudoStatesMask, int32_t negatedPseudoStatesMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5230 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

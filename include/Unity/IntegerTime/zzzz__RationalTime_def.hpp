@@ -80,24 +80,24 @@ public:
   constexpr operator ::System::IEquatable_1<::Unity::IntegerTime::RationalTime_TicksPerSecond>*();
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6a5ccb0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6eae834, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* rhs);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6a5cc88, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6eae80c, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::Unity::IntegerTime::RationalTime_TicksPerSecond rhs);
 
-  /// @brief Method Gcd, addr 0x6a5cdc4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Gcd, addr 0x6eae948, size 0x30, virtual false, abstract: false, final false
   static inline uint32_t Gcd(uint32_t a, uint32_t b);
 
   /// [IsReadOnly]
-  /// @brief Method GetHashCode, addr 0x6a5cd48, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6eae8cc, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Simplify, addr 0x6a5cbdc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Simplify, addr 0x6eae760, size 0xac, virtual false, abstract: false, final false
   static inline void Simplify(::by_ref<uint32_t> num, ::by_ref<uint32_t> den);
 
-  /// @brief Method .ctor, addr 0x6a5cb64, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eae6e8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(uint32_t num, uint32_t den);
 
   static inline ::Unity::IntegerTime::RationalTime_TicksPerSecond getStaticF_DefaultTicksPerSecond();
@@ -164,7 +164,7 @@ public:
   constexpr RationalTime_TicksPerSecond(uint32_t m_Numerator, uint32_t m_Denominator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9511 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -199,10 +199,10 @@ public:
 
   __declspec(property(get = get_Count)) int64_t Count;
 
-  /// @brief Method get_Count, addr 0x6a5ca5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x6eae5e0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Count();
 
-  /// @brief Method op_Explicit, addr 0x6a5ca64, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x6eae5e8, size 0xac, virtual false, abstract: false, final false
   static inline ::Unity::IntegerTime::DiscreteTime op_Explicit___Unity__IntegerTime__DiscreteTime(::Unity::IntegerTime::RationalTime t);
 
   // Ctor Parameters []
@@ -214,7 +214,7 @@ public:
   constexpr RationalTime(int64_t m_Count, ::Unity::IntegerTime::RationalTime_TicksPerSecond m_TicksPerSecond) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9512 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

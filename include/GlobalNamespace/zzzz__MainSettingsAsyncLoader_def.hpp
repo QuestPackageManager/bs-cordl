@@ -87,7 +87,7 @@ public:
   /// @brief Field _settingsManager, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method InstallBindings, addr 0x3776594, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x39ffb08, size 0x144, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MainSettingsAsyncLoader_MainSettingsInstaller* New_ctor(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::INetworkConfig* networkConfig);
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3776460, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ff9d4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::INetworkConfig* networkConfig);
 
 protected:
@@ -122,7 +122,7 @@ public:
   MainSettingsAsyncLoader_MainSettingsInstaller(MainSettingsAsyncLoader_MainSettingsInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21846 };
 
   /// @brief Field _settingsManager, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
@@ -151,11 +151,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x37766d8, size 0x324, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39ffc4c, size 0x324, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x37769fc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39fff70, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -176,7 +176,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Settings::Settings> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21026 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21847 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -228,11 +228,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3776a7c, size 0x234, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39ffff0, size 0x234, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3776cb0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a00224, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -252,7 +252,7 @@ public:
                                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::SettingsManager*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21848 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -321,18 +321,18 @@ public:
   __declspec(property(get = get_synchronizationStep)) ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep synchronizationStep;
 
   /// [AsyncStateMachine(typeof(MainSettingsAsyncLoader::<LoadInternalAsync>d__8))]
-  /// @brief Method LoadInternalAsync, addr 0x3776014, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method LoadInternalAsync, addr 0x39ff598, size 0xc4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadInternalAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container,
                                                              ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::MainSettingsAsyncLoader* New_ctor();
 
-  /// @brief Method RegisterInstallers, addr 0x37760d8, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method RegisterInstallers, addr 0x39ff65c, size 0x378, virtual false, abstract: false, final false
   inline void RegisterInstallers(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry);
 
   /// [AsyncStateMachine(typeof(MainSettingsAsyncLoader::<<LoadInternalAsync>g__CreateSettingsManagerAsync|8_0>d))]
   /// [CompilerGenerated]
-  /// @brief Method <LoadInternalAsync>g__CreateSettingsManagerAsync|8_0, addr 0x37764b8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method <LoadInternalAsync>g__CreateSettingsManagerAsync|8_0, addr 0x39ffa2c, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::SettingsManager*>* _LoadInternalAsync_g__CreateSettingsManagerAsync_8_0(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO> const& __cordl_internal_get__networkConfig() const;
@@ -353,18 +353,18 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x37764b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ffa28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_networkConfig, addr 0x3775ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_networkConfig, addr 0x39ff580, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::INetworkConfig* get_networkConfig();
 
-  /// @brief Method get_synchronizationStep, addr 0x377600c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_synchronizationStep, addr 0x39ff590, size 0x8, virtual true, abstract: false, final false
   inline ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep get_synchronizationStep();
 
   /// [CompilerGenerated]
-  /// @brief Method set_networkConfig, addr 0x3776004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_networkConfig, addr 0x39ff588, size 0x8, virtual false, abstract: false, final false
   inline void set_networkConfig(::GlobalNamespace::INetworkConfig* value);
 
 protected:
@@ -382,7 +382,7 @@ public:
   MainSettingsAsyncLoader(MainSettingsAsyncLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21849 };
 
   /// [SerializeField]
   /// @brief Field _networkConfig, offset: 0x30, size: 0x8, def value: None

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(bool)>(&::GlobalNamespace::FileUtility::GetPlatformPersistentDataPath)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3315f24;
+  constexpr static std::size_t addrs = 0x359ea04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

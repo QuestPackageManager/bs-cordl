@@ -37,7 +37,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e14a38, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72ad478, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   FloatTween_FloatTweenCallback(FloatTween_FloatTweenCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17524 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18031 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -83,46 +83,46 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::CoroutineTween::ITweenValue"
   constexpr operator ::UnityEngine::UI::CoroutineTween::ITweenValue*();
 
-  /// @brief Method AddOnChangedCallback, addr 0x6e149a0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AddOnChangedCallback, addr 0x72ad3e0, size 0x98, virtual false, abstract: false, final false
   inline void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<float_t>* callback);
 
-  /// @brief Method GetDuration, addr 0x6e14a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDuration, addr 0x72ad4cc, size 0x8, virtual false, abstract: false, final false
   inline float_t GetDuration();
 
-  /// @brief Method GetIgnoreTimescale, addr 0x6e14a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIgnoreTimescale, addr 0x72ad4c4, size 0x8, virtual false, abstract: false, final false
   inline bool GetIgnoreTimescale();
 
-  /// @brief Method TweenValue, addr 0x6e148fc, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method TweenValue, addr 0x72ad33c, size 0x94, virtual true, abstract: false, final true
   inline void TweenValue(float_t floatPercentage);
 
-  /// @brief Method ValidTarget, addr 0x6e14990, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ValidTarget, addr 0x72ad3d0, size 0x10, virtual true, abstract: false, final true
   inline bool ValidTarget();
 
-  /// @brief Method get_duration, addr 0x6e148dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_duration, addr 0x72ad31c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_duration();
 
-  /// @brief Method get_ignoreTimeScale, addr 0x6e148ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ignoreTimeScale, addr 0x72ad32c, size 0x8, virtual true, abstract: false, final true
   inline bool get_ignoreTimeScale();
 
-  /// @brief Method get_startValue, addr 0x6e148bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startValue, addr 0x72ad2fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startValue();
 
-  /// @brief Method get_targetValue, addr 0x6e148cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetValue, addr 0x72ad30c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetValue();
 
   /// @brief Convert to "::UnityEngine::UI::CoroutineTween::ITweenValue"
   constexpr ::UnityEngine::UI::CoroutineTween::ITweenValue* i___UnityEngine__UI__CoroutineTween__ITweenValue();
 
-  /// @brief Method set_duration, addr 0x6e148e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x72ad324, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_ignoreTimeScale, addr 0x6e148f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreTimeScale, addr 0x72ad334, size 0x8, virtual false, abstract: false, final false
   inline void set_ignoreTimeScale(bool value);
 
-  /// @brief Method set_startValue, addr 0x6e148c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startValue, addr 0x72ad304, size 0x8, virtual false, abstract: false, final false
   inline void set_startValue(float_t value);
 
-  /// @brief Method set_targetValue, addr 0x6e148d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_targetValue, addr 0x72ad314, size 0x8, virtual false, abstract: false, final false
   inline void set_targetValue(float_t value);
 
   // Ctor Parameters []
@@ -135,7 +135,7 @@ public:
   constexpr FloatTween(::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback* m_Target, float_t m_StartValue, float_t m_TargetValue, float_t m_Duration, bool m_IgnoreTimeScale) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17525 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18032 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

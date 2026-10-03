@@ -60,23 +60,23 @@ public:
 
   constexpr void __cordl_internal_set__inherited(bool value);
 
-  /// @brief Method .ctor, addr 0x5baf1cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc7494, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::AttributeTargets validOn);
 
   static inline ::System::AttributeUsageAttribute* getStaticF_Default();
 
-  /// @brief Method get_AllowMultiple, addr 0x5baf1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowMultiple, addr 0x5fc74a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowMultiple();
 
-  /// @brief Method get_Inherited, addr 0x5baf1ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Inherited, addr 0x5fc74b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_Inherited();
 
   static inline void setStaticF_Default(::System::AttributeUsageAttribute* value);
 
-  /// @brief Method set_AllowMultiple, addr 0x5baf1e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AllowMultiple, addr 0x5fc74ac, size 0x8, virtual false, abstract: false, final false
   inline void set_AllowMultiple(bool value);
 
-  /// @brief Method set_Inherited, addr 0x5baf1f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Inherited, addr 0x5fc74bc, size 0x8, virtual false, abstract: false, final false
   inline void set_Inherited(bool value);
 
 protected:

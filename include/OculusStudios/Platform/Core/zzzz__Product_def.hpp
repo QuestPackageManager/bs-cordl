@@ -59,13 +59,13 @@ public:
 
   static inline ::OculusStudios::Platform::Core::Product___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5f2e3b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6349a1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_owned>b__15_0, addr 0x5f2e3bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <get_owned>b__15_0, addr 0x6349a20, size 0x14, virtual false, abstract: false, final false
   inline bool _get_owned_b__15_0(::OculusStudios::Platform::Core::Product* x);
 
-  /// @brief Method <get_owned>b__15_1, addr 0x5f2e3d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <get_owned>b__15_1, addr 0x6349a34, size 0x14, virtual false, abstract: false, final false
   inline bool _get_owned_b__15_1(::OculusStudios::Platform::Core::Product* x);
 
   static inline ::OculusStudios::Platform::Core::Product___c* getStaticF___9();
@@ -95,7 +95,7 @@ public:
   Product___c(Product___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23174 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -140,7 +140,7 @@ public:
   static inline ::OculusStudios::Platform::Core::Product* New_ctor(::OculusStudios::Platform::Core::IProductDefinition* definition, ::StringW idForVendor,
                                                                    ::OculusStudios::Platform::Core::InstallStatus dlcInstallStatus, bool selfOwned);
 
-  /// @brief Method SetChildren, addr 0x5f2e35c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetChildren, addr 0x63499c0, size 0x8, virtual false, abstract: false, final false
   inline void SetChildren(::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::Product*>* children);
 
   constexpr ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::Product*>* const& __cordl_internal_get__children() const;
@@ -173,22 +173,22 @@ public:
 
   constexpr void __cordl_internal_set_idForVendor(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5f2df9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6349600, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::Platform::Core::IProductDefinition* definition, ::StringW idForVendor, ::OculusStudios::Platform::Core::InstallStatus dlcInstallStatus, bool selfOwned);
 
-  /// @brief Method get_children, addr 0x5f2e104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_children, addr 0x6349768, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::Product*>* get_children();
 
-  /// @brief Method get_definition, addr 0x5f2e0fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_definition, addr 0x6349760, size 0x8, virtual false, abstract: false, final false
   inline ::OculusStudios::Platform::Core::IProductDefinition* get_definition();
 
-  /// @brief Method get_id, addr 0x5f2dfb0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x6349614, size 0xa4, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_owned, addr 0x5f2e10c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method get_owned, addr 0x6349770, size 0x250, virtual false, abstract: false, final false
   inline bool get_owned();
 
-  /// @brief Method get_ownershipRequirement, addr 0x5f2e054, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_ownershipRequirement, addr 0x63496b8, size 0xa8, virtual false, abstract: false, final false
   inline ::OculusStudios::Platform::Core::OwnershipRequirement get_ownershipRequirement();
 
 protected:
@@ -206,7 +206,7 @@ public:
   Product(Product const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23175 };
 
   /// @brief Field _selfOwned, offset: 0x10, size: 0x1, def value: None
   bool ____selfOwned;

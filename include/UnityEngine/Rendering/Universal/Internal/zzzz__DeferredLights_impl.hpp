@@ -23,6 +23,7 @@
 #include "UnityEngine/Rendering/Universal/zzzz__RenderingLayerUtils_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalCameraData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalLightData_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__UniversalResourceData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalShadowData_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ProfilingSampler_def.hpp"
@@ -34,6 +35,7 @@
 #include "UnityEngine/zzzz__LightType_def.hpp"
 #include "UnityEngine/zzzz__Light_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 #include "UnityEngine/zzzz__Vector2Int_def.hpp"
@@ -163,24 +165,6 @@ inline void UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderCo
 inline int32_t UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants::getStaticF__SimpleLitDirStencilWriteMask() {
   return ::cordl_internals::getStaticField<int32_t, "_SimpleLitDirStencilWriteMask", ::UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants*>();
 }
-inline void UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants::setStaticF__ClearStencilRef(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "_ClearStencilRef", ::UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants*>(std::forward<int32_t>(value));
-}
-inline int32_t UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants::getStaticF__ClearStencilRef() {
-  return ::cordl_internals::getStaticField<int32_t, "_ClearStencilRef", ::UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants*>();
-}
-inline void UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants::setStaticF__ClearStencilReadMask(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "_ClearStencilReadMask", ::UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants*>(std::forward<int32_t>(value));
-}
-inline int32_t UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants::getStaticF__ClearStencilReadMask() {
-  return ::cordl_internals::getStaticField<int32_t, "_ClearStencilReadMask", ::UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants*>();
-}
-inline void UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants::setStaticF__ClearStencilWriteMask(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "_ClearStencilWriteMask", ::UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants*>(std::forward<int32_t>(value));
-}
-inline int32_t UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants::getStaticF__ClearStencilWriteMask() {
-  return ::cordl_internals::getStaticField<int32_t, "_ClearStencilWriteMask", ::UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants*>();
-}
 inline void UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants::setStaticF__ScreenToWorld(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "_ScreenToWorld", ::UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants*>(std::forward<int32_t>(value));
 }
@@ -300,21 +284,38 @@ constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilD
 constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses::DirectionalSimpleLit{
   static_cast<int32_t>(0x4)
 };
-constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses::ClearStencilPartial{
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses::Fog{
   static_cast<int32_t>(0x5)
 };
-constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses::Fog{
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses::SSAOOnly{
   static_cast<int32_t>(0x6)
 };
-constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses::SSAOOnly{
-  static_cast<int32_t>(0x7)
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_ClusterDeferredPasses::DeferredLights_ClusterDeferredPasses(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_ClusterDeferredPasses::DeferredLights_ClusterDeferredPasses() {}
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_ClusterDeferredPasses UnityEngine::Rendering::Universal::Internal::DeferredLights_ClusterDeferredPasses::ClusteredLightsLit{
+  static_cast<int32_t>(0x0)
 };
-// Ctor Parameters [CppParam { name: "stencilDeferredMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lightCookieManager",
-// ty: "::UnityEngine::Rendering::Universal::LightCookieManager*", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_ClusterDeferredPasses
+    UnityEngine::Rendering::Universal::Internal::DeferredLights_ClusterDeferredPasses::ClusteredLightsSimpleLit{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_ClusterDeferredPasses UnityEngine::Rendering::Universal::Internal::DeferredLights_ClusterDeferredPasses::Fog{
+  static_cast<int32_t>(0x2)
+};
+// Ctor Parameters [CppParam { name: "stencilDeferredMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "clusterDeferredMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lightCookieManager", ty:
+// "::UnityEngine::Rendering::Universal::LightCookieManager*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "deferredPlus", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_InitParams::DeferredLights_InitParams(::UnityW<::UnityEngine::Material> stencilDeferredMaterial,
-                                                                                                              ::UnityEngine::Rendering::Universal::LightCookieManager* lightCookieManager) noexcept {
+                                                                                                              ::UnityW<::UnityEngine::Material> clusterDeferredMaterial,
+                                                                                                              ::UnityEngine::Rendering::Universal::LightCookieManager* lightCookieManager,
+                                                                                                              bool deferredPlus) noexcept {
   this->stencilDeferredMaterial = stencilDeferredMaterial;
+  this->clusterDeferredMaterial = clusterDeferredMaterial;
   this->lightCookieManager = lightCookieManager;
+  this->deferredPlus = deferredPlus;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_InitParams::DeferredLights_InitParams() {}
@@ -324,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights_SetupLightPassData::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights_SetupLightPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68efbdc;
+  constexpr static std::size_t addrs = 0x6d198a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -398,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights___c::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68efc34;
+  constexpr static std::size_t addrs = 0x6d198f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -406,18 +407,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredLights___c._SetupRenderGraphLights_b__139_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredLights___c._SetupRenderGraphLights_b__140_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights___c::*)(
     ::UnityEngine::Rendering::Universal::Internal::DeferredLights_SetupLightPassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
-    &::UnityEngine::Rendering::Universal::Internal::DeferredLights___c::_SetupRenderGraphLights_b__139_0)> {
+    &::UnityEngine::Rendering::Universal::Internal::DeferredLights___c::_SetupRenderGraphLights_b__140_0)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68efc38;
+  constexpr static std::size_t addrs = 0x6d198fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights___c*>(),
-                                                                                           { "<SetupRenderGraphLights>b__139_0",
+                                                                                           { "<SetupRenderGraphLights>b__140_0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights_SetupLightPassData*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>() } })));
@@ -431,30 +432,30 @@ inline void UnityEngine::Rendering::Universal::Internal::DeferredLights___c::set
 inline ::UnityEngine::Rendering::Universal::Internal::DeferredLights___c* UnityEngine::Rendering::Universal::Internal::DeferredLights___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::Internal::DeferredLights___c*, "<>9", ::UnityEngine::Rendering::Universal::Internal::DeferredLights___c*>();
 }
-inline void UnityEngine::Rendering::Universal::Internal::DeferredLights___c::setStaticF___9__139_0(
+inline void UnityEngine::Rendering::Universal::Internal::DeferredLights___c::setStaticF___9__140_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredLights_SetupLightPassData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredLights_SetupLightPassData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*,
-                                    "<>9__139_0", ::UnityEngine::Rendering::Universal::Internal::DeferredLights___c*>(
+                                    "<>9__140_0", ::UnityEngine::Rendering::Universal::Internal::DeferredLights___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredLights_SetupLightPassData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredLights_SetupLightPassData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*
-UnityEngine::Rendering::Universal::Internal::DeferredLights___c::getStaticF___9__139_0() {
+UnityEngine::Rendering::Universal::Internal::DeferredLights___c::getStaticF___9__140_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredLights_SetupLightPassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*,
-                                           "<>9__139_0", ::UnityEngine::Rendering::Universal::Internal::DeferredLights___c*>();
+                                           "<>9__140_0", ::UnityEngine::Rendering::Universal::Internal::DeferredLights___c*>();
 }
 inline void UnityEngine::Rendering::Universal::Internal::DeferredLights___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Internal::DeferredLights___c::_SetupRenderGraphLights_b__139_0(::UnityEngine::Rendering::Universal::Internal::DeferredLights_SetupLightPassData* data,
+inline void UnityEngine::Rendering::Universal::Internal::DeferredLights___c::_SetupRenderGraphLights_b__140_0(::UnityEngine::Rendering::Universal::Internal::DeferredLights_SetupLightPassData* data,
                                                                                                               ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* rgContext) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights___c*>(),
-                                                                                         { "<SetupRenderGraphLights>b__139_0",
+                                                                                         { "<SetupRenderGraphLights>b__140_0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights_SetupLightPassData*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>() } })));
@@ -471,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_GBufferAlbedoIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9370;
+  constexpr static std::size_t addrs = 0x6d1296c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -485,7 +486,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_GBufferSpecularMetallicIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9378;
+  constexpr static std::size_t addrs = 0x6d12974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -499,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_GBufferNormalSmoothnessIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9380;
+  constexpr static std::size_t addrs = 0x6d1297c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -513,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_GBufferLightingIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9388;
+  constexpr static std::size_t addrs = 0x6d12984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -527,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_GbufferDepthIndex)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68e9390;
+  constexpr static std::size_t addrs = 0x6d1298c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -541,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_GBufferRenderingLayers)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x68e93a4;
+  constexpr static std::size_t addrs = 0x6d129a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -555,7 +556,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_GBufferShadowMask)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x68e9400;
+  constexpr static std::size_t addrs = 0x6d129fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -569,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_GBufferSliceCount)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x68e9458;
+  constexpr static std::size_t addrs = 0x6d12a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -583,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_GBufferInputAttachmentCount)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68e949c;
+  constexpr static std::size_t addrs = 0x6d12a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -597,7 +598,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::GetGBufferFormat)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x68e94b0;
+  constexpr static std::size_t addrs = 0x6d12aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -611,7 +612,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_UseShadowMask)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68e9448;
+  constexpr static std::size_t addrs = 0x6d12a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -625,7 +626,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_UseRenderingLayers)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x68e93d4;
+  constexpr static std::size_t addrs = 0x6d129d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -639,7 +640,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_RenderingLayerMaskSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9670;
+  constexpr static std::size_t addrs = 0x6d12c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -653,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_RenderingLayerMaskSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9678;
+  constexpr static std::size_t addrs = 0x6d12c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -668,7 +669,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_UseDecalLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9680;
+  constexpr static std::size_t addrs = 0x6d12c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -682,7 +683,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(bool)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_UseDecalLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9688;
+  constexpr static std::size_t addrs = 0x6d12c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -696,7 +697,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_UseLightLayers)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x68e960c;
+  constexpr static std::size_t addrs = 0x6d12c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -710,7 +711,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_UseFramebufferFetch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9690;
+  constexpr static std::size_t addrs = 0x6d12c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -724,7 +725,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(bool)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_UseFramebufferFetch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9698;
+  constexpr static std::size_t addrs = 0x6d12c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -738,7 +739,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_HasDepthPrepass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e96a0;
+  constexpr static std::size_t addrs = 0x6d12c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -752,7 +753,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(bool)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_HasDepthPrepass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e96a8;
+  constexpr static std::size_t addrs = 0x6d12ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -766,7 +767,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_HasNormalPrepass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e96b0;
+  constexpr static std::size_t addrs = 0x6d12cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -780,7 +781,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(bool)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_HasNormalPrepass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e96b8;
+  constexpr static std::size_t addrs = 0x6d12cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -794,7 +795,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_HasRenderingLayerPrepass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e96c0;
+  constexpr static std::size_t addrs = 0x6d12cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -808,40 +809,12 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(bool)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_HasRenderingLayerPrepass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e96c8;
+  constexpr static std::size_t addrs = 0x6d12cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(), { "set_HasRenderingLayerPrepass", {}, { ::i2c::type_of<bool>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredLights.get_IsOverlay
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
-    &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_IsOverlay)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e96d0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(), { "get_IsOverlay", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredLights.set_IsOverlay
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(bool)>(
-    &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_IsOverlay)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e96d8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(), { "set_IsOverlay", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -851,7 +824,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_AccurateGbufferNormals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e96e0;
+  constexpr static std::size_t addrs = 0x6d12ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -865,7 +838,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(bool)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_AccurateGbufferNormals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e96e8;
+  constexpr static std::size_t addrs = 0x6d12cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -879,7 +852,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::MixedLightingSetup (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_MixedLightingSetup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e96f0;
+  constexpr static std::size_t addrs = 0x6d12cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -893,7 +866,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::UnityEngine::Rendering::Universal::MixedLightingSetup)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_MixedLightingSetup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e96f8;
+  constexpr static std::size_t addrs = 0x6d12ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -908,7 +881,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_UseJobSystem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9700;
+  constexpr static std::size_t addrs = 0x6d12cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -922,7 +895,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(bool)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_UseJobSystem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9708;
+  constexpr static std::size_t addrs = 0x6d12cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -936,7 +909,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_RenderWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9710;
+  constexpr static std::size_t addrs = 0x6d12cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -950,7 +923,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_RenderWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9718;
+  constexpr static std::size_t addrs = 0x6d12d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -964,7 +937,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_RenderHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9720;
+  constexpr static std::size_t addrs = 0x6d12d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -978,7 +951,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_RenderHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9728;
+  constexpr static std::size_t addrs = 0x6d12d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -992,7 +965,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::RTHandle*> (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_GbufferAttachments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9730;
+  constexpr static std::size_t addrs = 0x6d12d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1006,7 +979,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::ArrayW<::UnityEngine::Rendering::RTHandle*>)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_GbufferAttachments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9738;
+  constexpr static std::size_t addrs = 0x6d12d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
@@ -1020,7 +993,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_GbufferTextureHandles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9740;
+  constexpr static std::size_t addrs = 0x6d12d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1034,7 +1007,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_GbufferTextureHandles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9748;
+  constexpr static std::size_t addrs = 0x6d12d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1049,7 +1022,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::RTHandle*> (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_DeferredInputAttachments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9750;
+  constexpr static std::size_t addrs = 0x6d12d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1063,7 +1036,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::ArrayW<::UnityEngine::Rendering::RTHandle*>)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_DeferredInputAttachments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9758;
+  constexpr static std::size_t addrs = 0x6d12d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1078,7 +1051,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_DeferredInputIsTransient)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9760;
+  constexpr static std::size_t addrs = 0x6d12d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1092,7 +1065,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::ArrayW<bool>)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_DeferredInputIsTransient)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9768;
+  constexpr static std::size_t addrs = 0x6d12d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
@@ -1106,7 +1079,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_DepthAttachment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9770;
+  constexpr static std::size_t addrs = 0x6d12d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1120,7 +1093,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_DepthAttachment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9778;
+  constexpr static std::size_t addrs = 0x6d12d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
@@ -1134,7 +1107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_DepthCopyTexture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9780;
+  constexpr static std::size_t addrs = 0x6d12d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1148,7 +1121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_DepthCopyTexture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9788;
+  constexpr static std::size_t addrs = 0x6d12d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
@@ -1162,7 +1135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat> (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_GbufferFormats)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9790;
+  constexpr static std::size_t addrs = 0x6d12d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1176,7 +1149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat>)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_GbufferFormats)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e9798;
+  constexpr static std::size_t addrs = 0x6d12d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1191,7 +1164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::get_DepthAttachmentHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e97a0;
+  constexpr static std::size_t addrs = 0x6d12d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1205,7 +1178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::set_DepthAttachmentHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68e97a8;
+  constexpr static std::size_t addrs = 0x6d12d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
@@ -1218,8 +1191,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(
     ::UnityEngine::Rendering::Universal::Internal::DeferredLights_InitParams, bool)>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::_ctor)> {
-  constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x68e97b0;
+  constexpr static std::size_t size = 0x310;
+  constexpr static std::size_t addrs = 0x6d12d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1235,7 +1208,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Rendering::Universal::UniversalLightData*)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::SetupRenderGraphLights)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x68e9de8;
+  constexpr static std::size_t addrs = 0x6d135ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1254,8 +1227,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Vector2Int, ::UnityEngine::Rendering::Universal::UniversalLightData*, bool)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::SetupLights)> {
-  constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x68ea1a0;
+  constexpr static std::size_t size = 0x41c;
+  constexpr static std::size_t addrs = 0x6d139a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1273,8 +1246,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::UnityEngine::Rendering::Universal::UniversalLightData*)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::ResolveMixedLightingMode)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x68ea8bc;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x6d140c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1289,7 +1262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::DisableFramebufferFetchInput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68eacec;
+  constexpr static std::size_t addrs = 0x6d14230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1303,7 +1276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::ReleaseGbufferResources)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x68eacf4;
+  constexpr static std::size_t addrs = 0x6d14528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1317,7 +1290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::UnityEngine::RenderTextureDescriptor, int32_t)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::ReAllocateGBufferIfNeeded)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x68ead80;
+  constexpr static std::size_t addrs = 0x6d145b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1331,12 +1304,31 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::CreateGbufferResources)> {
-  constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x68eaa28;
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x6d14238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(), { "CreateGbufferResources", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredLights.CreateGbufferResourcesRenderGraph
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*,
+                                                                                                                               ::UnityEngine::Rendering::Universal::UniversalResourceData*)>(
+    &::UnityEngine::Rendering::Universal::Internal::DeferredLights::CreateGbufferResourcesRenderGraph)> {
+  constexpr static std::size_t size = 0x318;
+  constexpr static std::size_t addrs = 0x6d1478c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
+                            { "CreateGbufferResourcesRenderGraph",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>() } })));
     return ___internal_method;
   }
 };
@@ -1346,7 +1338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::UpdateDeferredInputAttachments)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x68eaf58;
+  constexpr static std::size_t addrs = 0x6d14aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1360,7 +1352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::IsRuntimeSupportedThisFrame)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x68eb22c;
+  constexpr static std::size_t addrs = 0x6d14d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1375,7 +1367,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass*, bool, bool, bool, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*,
     ::UnityEngine::Rendering::RTHandle*)>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::Setup)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x68eb2f8;
+  constexpr static std::size_t addrs = 0x6d14e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1394,7 +1386,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(
     ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass*)>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68eb52c;
+  constexpr static std::size_t addrs = 0x6d15078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1408,8 +1400,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::OnCameraCleanup)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x68eb534;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x6d15080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
@@ -1423,7 +1415,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::StencilState (*)(::UnityEngine::Rendering::StencilState, int32_t)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::OverwriteStencil)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x68eb608;
+  constexpr static std::size_t addrs = 0x6d15150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1438,26 +1430,12 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderStateBlock (*)(::UnityEngine::Rendering::RenderStateBlock, int32_t, int32_t)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::OverwriteStencil)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x68eb748;
+  constexpr static std::size_t addrs = 0x6d15290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
                                                 { "OverwriteStencil", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderStateBlock>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredLights.ClearStencilPartial
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::UnityEngine::Rendering::RasterCommandBuffer*)>(
-    &::UnityEngine::Rendering::Universal::Internal::DeferredLights::ClearStencilPartial)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x68eb8b4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
-                                                                                           { "ClearStencilPartial", {}, { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>() } })));
     return ___internal_method;
   }
 };
@@ -1467,8 +1445,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(
     ::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Rendering::Universal::UniversalLightData*,
     ::UnityEngine::Rendering::Universal::UniversalShadowData*)>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::ExecuteDeferredPass)> {
-  constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x68ebb8c;
+  constexpr static std::size_t size = 0x384;
+  constexpr static std::size_t addrs = 0x6d153fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1487,7 +1465,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalLightData*)>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::SetupShaderLightConstants)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68ea8b8;
+  constexpr static std::size_t addrs = 0x6d140c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1503,8 +1481,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalLightData*)>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::SetupMainLightConstants)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x68ec9ac;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x6d1625c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1515,13 +1493,28 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredLights.GetScreenToWorldMatrix
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Matrix4x4> (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(
+    ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::GetScreenToWorldMatrix)> {
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x6d164fc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
+                                                             { "GetScreenToWorldMatrix", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredLights.SetupMatrixConstants
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(
     ::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::SetupMatrixConstants)> {
-  constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x68ebef0;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x6d15780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1538,8 +1531,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(
     ::by_ref<::Unity::Collections::NativeArray_1<uint16_t>>, ::by_ref<::Unity::Collections::NativeArray_1<uint16_t>>,
     ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>>, bool)>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::PrecomputeLights)> {
-  constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x68ea5a4;
+  constexpr static std::size_t size = 0x304;
+  constexpr static std::size_t addrs = 0x6d13dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1558,11 +1551,28 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::UnityEngine::LightType)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::HasStencilLightsOfType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x68ec2cc;
+  constexpr static std::size_t addrs = 0x6d15818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
                                                                                            { "HasStencilLightsOfType", {}, { ::i2c::type_of<::UnityEngine::LightType>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredLights.RenderClusterLights
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(
+    ::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalShadowData*)>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::RenderClusterLights)> {
+  constexpr static std::size_t size = 0x390;
+  constexpr static std::size_t addrs = 0x6d159d4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
+            { "RenderClusterLights", {}, { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalShadowData*>() } })));
     return ___internal_method;
   }
 };
@@ -1573,7 +1583,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalLightData*, ::UnityEngine::Rendering::Universal::UniversalShadowData*, bool)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::RenderStencilLights)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x68ec488;
+  constexpr static std::size_t addrs = 0x6d15d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1592,8 +1602,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RasterCommandBuffer*, bool, ::UnityEngine::Rendering::Universal::UniversalLightData*, ::UnityEngine::Rendering::Universal::UniversalShadowData*,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>, bool, bool, int32_t)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::RenderStencilDirectionalLights)> {
-  constexpr static std::size_t size = 0x614;
-  constexpr static std::size_t addrs = 0x68ecbcc;
+  constexpr static std::size_t size = 0x610;
+  constexpr static std::size_t addrs = 0x6d16920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1614,8 +1624,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(
     ::UnityEngine::Rendering::RasterCommandBuffer*, bool, ::UnityEngine::Rendering::Universal::UniversalLightData*, ::UnityEngine::Rendering::Universal::UniversalShadowData*,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>, bool, bool)>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::RenderStencilPointLights)> {
-  constexpr static std::size_t size = 0x618;
-  constexpr static std::size_t addrs = 0x68ed1e0;
+  constexpr static std::size_t size = 0x5d4;
+  constexpr static std::size_t addrs = 0x6d16f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1635,8 +1645,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(
     ::UnityEngine::Rendering::RasterCommandBuffer*, bool, ::UnityEngine::Rendering::Universal::UniversalLightData*, ::UnityEngine::Rendering::Universal::UniversalShadowData*,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>, bool, bool)>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::RenderStencilSpotLights)> {
-  constexpr static std::size_t size = 0x6e0;
-  constexpr static std::size_t addrs = 0x68ed7f8;
+  constexpr static std::size_t size = 0x6dc;
+  constexpr static std::size_t addrs = 0x6d17504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1656,7 +1666,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::UnityEngine::Rendering::RasterCommandBuffer*)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::RenderSSAOBeforeShading)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x68ec348;
+  constexpr static std::size_t addrs = 0x6d15894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
@@ -1669,8 +1679,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::UnityEngine::Rendering::RasterCommandBuffer*, bool)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::RenderFog)> {
-  constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x68ec780;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x6d1605c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1684,12 +1694,26 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::InitStencilDeferredMaterial)> {
-  constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x68e9a68;
+  constexpr static std::size_t size = 0x328;
+  constexpr static std::size_t addrs = 0x6d132c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(), { "InitStencilDeferredMaterial", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredLights.InitClusterDeferredMaterial
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)()>(
+    &::UnityEngine::Rendering::Universal::Internal::DeferredLights::InitClusterDeferredMaterial)> {
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x6d130ac;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(), { "InitClusterDeferredMaterial", {}, {} })));
     return ___internal_method;
   }
 };
@@ -1698,7 +1722,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (*)()>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::CreateSphereMesh)> {
   constexpr static std::size_t size = 0x5d4;
-  constexpr static std::size_t addrs = 0x68ee234;
+  constexpr static std::size_t addrs = 0x6d17f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1711,7 +1735,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (*)()>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::CreateHemisphereMesh)> {
   constexpr static std::size_t size = 0x538;
-  constexpr static std::size_t addrs = 0x68ee808;
+  constexpr static std::size_t addrs = 0x6d18510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1724,7 +1748,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (*)()>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::CreateFullscreenMesh)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x68eba34;
+  constexpr static std::size_t addrs = 0x6d167c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1737,8 +1761,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(
     ::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Light*, int32_t)>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::SetRenderingLayersMask)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68ecb78;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6d16458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1756,7 +1780,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(::by_ref<::UnityEngine::Rendering::RasterCommandBuffer*>, bool, bool, bool, bool, ::by_ref<bool>)>(
         &::UnityEngine::Rendering::Universal::Internal::DeferredLights::SetAdditionalLightsShadowsKeyword)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x68ee080;
+  constexpr static std::size_t addrs = 0x6d17d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1775,7 +1799,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalShadowData*, ::UnityEngine::Light*, bool, bool, ::by_ref<bool>)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredLights::SetSoftShadowsKeyword)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x68ee144;
+  constexpr static std::size_t addrs = 0x6d17e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1793,7 +1817,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredLights::*)(
     ::UnityEngine::Rendering::RasterCommandBuffer*, int32_t, bool, bool, ::by_ref<bool>, ::by_ref<int32_t>)>(&::UnityEngine::Rendering::Universal::Internal::DeferredLights::SetLightCookiesKeyword)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x68edf38;
+  constexpr static std::size_t addrs = 0x6d17c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1879,18 +1903,6 @@ constexpr bool const& UnityEngine::Rendering::Universal::Internal::DeferredLight
 constexpr void UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_set__HasRenderingLayerPrepass_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____HasRenderingLayerPrepass_k__BackingField = value;
-}
-constexpr bool& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get__IsOverlay_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____IsOverlay_k__BackingField;
-}
-constexpr bool const& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get__IsOverlay_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____IsOverlay_k__BackingField;
-}
-constexpr void UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_set__IsOverlay_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____IsOverlay_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get__AccurateGbufferNormals_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -2152,6 +2164,18 @@ constexpr void UnityEngine::Rendering::Universal::Internal::DeferredLights::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StencilDeferredMaterial = value;
 }
+constexpr ::UnityW<::UnityEngine::Material>& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get_m_ClusterDeferredMaterial() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ClusterDeferredMaterial;
+}
+constexpr ::UnityW<::UnityEngine::Material> const& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get_m_ClusterDeferredMaterial() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ClusterDeferredMaterial;
+}
+constexpr void UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_set_m_ClusterDeferredMaterial(::UnityW<::UnityEngine::Material> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ClusterDeferredMaterial = value;
+}
 constexpr ::ArrayW<int32_t>& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get_m_StencilDeferredPasses() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StencilDeferredPasses;
@@ -2164,6 +2188,18 @@ constexpr void UnityEngine::Rendering::Universal::Internal::DeferredLights::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StencilDeferredPasses = value;
 }
+constexpr ::ArrayW<int32_t>& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get_m_ClusterDeferredPasses() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ClusterDeferredPasses;
+}
+constexpr ::ArrayW<int32_t> const& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get_m_ClusterDeferredPasses() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ClusterDeferredPasses;
+}
+constexpr void UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_set_m_ClusterDeferredPasses(::ArrayW<int32_t> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ClusterDeferredPasses = value;
+}
 constexpr ::ArrayW<::UnityEngine::Matrix4x4>& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get_m_ScreenToWorld() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScreenToWorld;
@@ -2175,6 +2211,18 @@ constexpr ::ArrayW<::UnityEngine::Matrix4x4> const& UnityEngine::Rendering::Univ
 constexpr void UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_set_m_ScreenToWorld(::ArrayW<::UnityEngine::Matrix4x4> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScreenToWorld = value;
+}
+constexpr ::UnityEngine::Rendering::ProfilingSampler*& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get_m_ProfilingSamplerDeferredShadingPass() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ProfilingSamplerDeferredShadingPass;
+}
+constexpr ::UnityEngine::Rendering::ProfilingSampler* const& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get_m_ProfilingSamplerDeferredShadingPass() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ProfilingSamplerDeferredShadingPass;
+}
+constexpr void UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_set_m_ProfilingSamplerDeferredShadingPass(::UnityEngine::Rendering::ProfilingSampler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ProfilingSamplerDeferredShadingPass = value;
 }
 constexpr ::UnityEngine::Rendering::ProfilingSampler*& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get_m_ProfilingSamplerDeferredStencilPass() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -2200,18 +2248,6 @@ constexpr void UnityEngine::Rendering::Universal::Internal::DeferredLights::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ProfilingSamplerDeferredFogPass = value;
 }
-constexpr ::UnityEngine::Rendering::ProfilingSampler*& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get_m_ProfilingSamplerClearStencilPartialPass() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ProfilingSamplerClearStencilPartialPass;
-}
-constexpr ::UnityEngine::Rendering::ProfilingSampler* const& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get_m_ProfilingSamplerClearStencilPartialPass() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ProfilingSamplerClearStencilPartialPass;
-}
-constexpr void UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_set_m_ProfilingSamplerClearStencilPartialPass(::UnityEngine::Rendering::ProfilingSampler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_ProfilingSamplerClearStencilPartialPass = value;
-}
 constexpr ::UnityEngine::Rendering::Universal::LightCookieManager*& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get_m_LightCookieManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LightCookieManager;
@@ -2223,6 +2259,18 @@ constexpr ::UnityEngine::Rendering::Universal::LightCookieManager* const& UnityE
 constexpr void UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_set_m_LightCookieManager(::UnityEngine::Rendering::Universal::LightCookieManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LightCookieManager = value;
+}
+constexpr bool& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get_m_UseDeferredPlus() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_UseDeferredPlus;
+}
+constexpr bool const& UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_get_m_UseDeferredPlus() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_UseDeferredPlus;
+}
+constexpr void UnityEngine::Rendering::Universal::Internal::DeferredLights::__cordl_internal_set_m_UseDeferredPlus(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_UseDeferredPlus = value;
 }
 inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::setStaticF_k_GBufferNames(::ArrayW<::StringW> value) {
   ::cordl_internals::setStaticField<::ArrayW<::StringW>, "k_GBufferNames", ::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(std::forward<::ArrayW<::StringW>>(value));
@@ -2242,6 +2290,12 @@ inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::setStat
 inline ::ArrayW<::StringW> UnityEngine::Rendering::Universal::Internal::DeferredLights::getStaticF_k_StencilDeferredPassNames() {
   return ::cordl_internals::getStaticField<::ArrayW<::StringW>, "k_StencilDeferredPassNames", ::UnityEngine::Rendering::Universal::Internal::DeferredLights*>();
 }
+inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::setStaticF_k_ClusterDeferredPassNames(::ArrayW<::StringW> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::StringW>, "k_ClusterDeferredPassNames", ::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(std::forward<::ArrayW<::StringW>>(value));
+}
+inline ::ArrayW<::StringW> UnityEngine::Rendering::Universal::Internal::DeferredLights::getStaticF_k_ClusterDeferredPassNames() {
+  return ::cordl_internals::getStaticField<::ArrayW<::StringW>, "k_ClusterDeferredPassNames", ::UnityEngine::Rendering::Universal::Internal::DeferredLights*>();
+}
 inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::setStaticF_k_InvalidLightOffset(uint16_t value) {
   ::cordl_internals::setStaticField<uint16_t, "k_InvalidLightOffset", ::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(std::forward<uint16_t>(value));
 }
@@ -2260,6 +2314,12 @@ inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::setStat
 inline ::StringW UnityEngine::Rendering::Universal::Internal::DeferredLights::getStaticF_k_DeferredPass() {
   return ::cordl_internals::getStaticField<::StringW, "k_DeferredPass", ::UnityEngine::Rendering::Universal::Internal::DeferredLights*>();
 }
+inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::setStaticF_k_DeferredShadingPass(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "k_DeferredShadingPass", ::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::Rendering::Universal::Internal::DeferredLights::getStaticF_k_DeferredShadingPass() {
+  return ::cordl_internals::getStaticField<::StringW, "k_DeferredShadingPass", ::UnityEngine::Rendering::Universal::Internal::DeferredLights*>();
+}
 inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::setStaticF_k_DeferredStencilPass(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "k_DeferredStencilPass", ::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(std::forward<::StringW>(value));
 }
@@ -2271,12 +2331,6 @@ inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::setStat
 }
 inline ::StringW UnityEngine::Rendering::Universal::Internal::DeferredLights::getStaticF_k_DeferredFogPass() {
   return ::cordl_internals::getStaticField<::StringW, "k_DeferredFogPass", ::UnityEngine::Rendering::Universal::Internal::DeferredLights*>();
-}
-inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::setStaticF_k_ClearStencilPartial(::StringW value) {
-  ::cordl_internals::setStaticField<::StringW, "k_ClearStencilPartial", ::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(std::forward<::StringW>(value));
-}
-inline ::StringW UnityEngine::Rendering::Universal::Internal::DeferredLights::getStaticF_k_ClearStencilPartial() {
-  return ::cordl_internals::getStaticField<::StringW, "k_ClearStencilPartial", ::UnityEngine::Rendering::Universal::Internal::DeferredLights*>();
 }
 inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::setStaticF_k_SetupLightConstants(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "k_SetupLightConstants", ::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(std::forward<::StringW>(value));
@@ -2442,16 +2496,6 @@ inline bool UnityEngine::Rendering::Universal::Internal::DeferredLights::get_Has
 inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::set_HasRenderingLayerPrepass(bool value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(), { "set_HasRenderingLayerPrepass", {}, { ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline bool UnityEngine::Rendering::Universal::Internal::DeferredLights::get_IsOverlay() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(), { "get_IsOverlay", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::set_IsOverlay(bool value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(), { "set_IsOverlay", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline bool UnityEngine::Rendering::Universal::Internal::DeferredLights::get_AccurateGbufferNormals() {
@@ -2644,6 +2688,16 @@ inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::CreateG
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(), { "CreateGbufferResources", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::CreateGbufferResourcesRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                                                                                           ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
+                          { "CreateGbufferResourcesRenderGraph",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, resourceData);
+}
 inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::UpdateDeferredInputAttachments() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(), { "UpdateDeferredInputAttachments", {}, {} })));
@@ -2692,11 +2746,6 @@ inline ::UnityEngine::Rendering::RenderStateBlock UnityEngine::Rendering::Univer
                                               { "OverwriteStencil", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderStateBlock>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderStateBlock>(nullptr, ___internal_method, block, stencilWriteMask, stencilRef);
 }
-inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::ClearStencilPartial(::UnityEngine::Rendering::RasterCommandBuffer* cmd) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
-                                                                                         { "ClearStencilPartial", {}, { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd);
-}
 inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::ExecuteDeferredPass(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
                                                                                              ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                                              ::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
@@ -2728,6 +2777,12 @@ inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::SetupMa
                        { "SetupMainLightConstants", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalLightData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, lightData);
 }
+inline ::ArrayW<::UnityEngine::Matrix4x4> UnityEngine::Rendering::Universal::Internal::DeferredLights::GetScreenToWorldMatrix(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
+                                                           { "GetScreenToWorldMatrix", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Matrix4x4>>(this, ___internal_method, cameraData);
+}
 inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::SetupMatrixConstants(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
                                                                                               ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -2753,6 +2808,15 @@ inline bool UnityEngine::Rendering::Universal::Internal::DeferredLights::HasSten
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
                                                                                          { "HasStencilLightsOfType", {}, { ::i2c::type_of<::UnityEngine::LightType>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, type);
+}
+inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::RenderClusterLights(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
+                                                                                             ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(),
+          { "RenderClusterLights", {}, { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalShadowData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, shadowData);
 }
 inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::RenderStencilLights(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
                                                                                              ::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
@@ -2826,6 +2890,11 @@ inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::RenderF
 inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::InitStencilDeferredMaterial() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(), { "InitStencilDeferredMaterial", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::Internal::DeferredLights::InitClusterDeferredMaterial() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>(), { "InitClusterDeferredMaterial", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::UnityW<::UnityEngine::Mesh> UnityEngine::Rendering::Universal::Internal::DeferredLights::CreateSphereMesh() {

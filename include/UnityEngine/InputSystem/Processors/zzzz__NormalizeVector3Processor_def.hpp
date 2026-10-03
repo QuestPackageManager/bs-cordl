@@ -29,13 +29,13 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Processors::NormalizeVector3Processor* New_ctor();
 
-  /// @brief Method Process, addr 0x65bef68, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x69eaed0, size 0xe0, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x65bf048, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69eafb0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x65bf08c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69eaff4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   NormalizeVector3Processor(NormalizeVector3Processor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11048 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

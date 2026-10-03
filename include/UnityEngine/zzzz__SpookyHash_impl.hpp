@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpookyHash_U::*)(uint16_t*)>(&::UnityEngine::SpookyHash_U::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ac88c8;
+  constexpr static std::size_t addrs = 0x6f21590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpookyHash_U>(), { ".ctor", {}, { ::i2c::type_of<uint16_t*>() } })));
@@ -66,24 +66,12 @@ constexpr ::UnityEngine::SpookyHash_U::SpookyHash_U(uint8_t* p8, uint32_t* p32, 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SpookyHash_U::SpookyHash_U() {}
-//  Writing Method size for method: ::UnityEngine::SpookyHash.AttemptDetectAllowUnalignedRead
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::SpookyHash::AttemptDetectAllowUnalignedRead)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6ac84fc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpookyHash*>(), { "AttemptDetectAllowUnalignedRead", {}, {} })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::SpookyHash.Hash
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, uint64_t, uint64_t*, uint64_t*)>(&::UnityEngine::SpookyHash::Hash)> {
-  constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x6ac818c;
+  constexpr static std::size_t size = 0x2e4;
+  constexpr static std::size_t addrs = 0x6f21008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,8 +86,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t*, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>,
                                                                 ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>)>(
     &::UnityEngine::SpookyHash::End)> {
-  constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x6ac8db0;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x6f21940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,8 +107,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>,
                                                                 ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>)>(
     &::UnityEngine::SpookyHash::EndPartial)> {
-  constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x6ac9008;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x6f21af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint64_t>, int32_t)>(&::UnityEngine::SpookyHash::Rot64)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ac9298;
+  constexpr static std::size_t addrs = 0x6f21cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,8 +139,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint64_
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, uint64_t, uint64_t*, uint64_t*)>(&::UnityEngine::SpookyHash::Short)> {
-  constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x6ac8580;
+  constexpr static std::size_t size = 0x2a4;
+  constexpr static std::size_t addrs = 0x6f212ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,8 +153,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, uint64_t,
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>)>(&::UnityEngine::SpookyHash::ShortMix)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x6ac92ac;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x6f21d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,8 +169,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint64_
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>)>(&::UnityEngine::SpookyHash::ShortEnd)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x6ac94cc;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6f21eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,8 +187,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t*, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>,
                                                                 ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>)>(
     &::UnityEngine::SpookyHash::Mix)> {
-  constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x6ac88d0;
+  constexpr static std::size_t size = 0x3a8;
+  constexpr static std::size_t addrs = 0x6f21598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,29 +202,6 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t*, ::by_
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::SpookyHash.memset
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, int32_t, uint64_t)>(&::UnityEngine::SpookyHash::memset)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6ac8d14;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpookyHash*>(), { "memset", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint64_t>() } })));
-    return ___internal_method;
-  }
-};
-inline void UnityEngine::SpookyHash::setStaticF_AllowUnalignedRead(bool value) {
-  ::cordl_internals::setStaticField<bool, "AllowUnalignedRead", ::UnityEngine::SpookyHash*>(std::forward<bool>(value));
-}
-inline bool UnityEngine::SpookyHash::getStaticF_AllowUnalignedRead() {
-  return ::cordl_internals::getStaticField<bool, "AllowUnalignedRead", ::UnityEngine::SpookyHash*>();
-}
-inline bool UnityEngine::SpookyHash::AttemptDetectAllowUnalignedRead() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpookyHash*>(), { "AttemptDetectAllowUnalignedRead", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
-}
 inline void UnityEngine::SpookyHash::Hash(void* message, uint64_t length, uint64_t* hash1, uint64_t* hash2) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpookyHash*>(),
@@ -305,11 +270,6 @@ inline void UnityEngine::SpookyHash::Mix(uint64_t* data, ::by_ref<uint64_t> s0, 
                                                   ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>(),
                                                   ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, s0, s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11);
-}
-inline void UnityEngine::SpookyHash::memset(void* dst, int32_t value, uint64_t numberOfBytes) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpookyHash*>(), { "memset", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint64_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, dst, value, numberOfBytes);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SpookyHash::SpookyHash() {}

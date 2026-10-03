@@ -158,7 +158,7 @@ public:
 
   constexpr void __cordl_internal_set_postProcessingData(::UnityEngine::Rendering::Universal::UniversalPostProcessingData* value);
 
-  /// @brief Method .ctor, addr 0x68f8c84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d2034c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -176,7 +176,7 @@ public:
   ColorGradingLutPass_PassData(ColorGradingLutPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13303 };
 
   /// @brief Field cameraData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalCameraData* ___cameraData;
@@ -404,7 +404,7 @@ public:
   ColorGradingLutPass_ShaderConstants(ColorGradingLutPass_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13304 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -423,28 +423,28 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass___c* __9;
 
-  /// @brief Field <>9__14_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__14_0,
-                      put = setStaticF___9__14_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData*,
-                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__14_0;
+  /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__12_0,
+                      put = setStaticF___9__12_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData*,
+                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__12_0;
 
   static inline ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass___c* New_ctor();
 
-  /// @brief Method <Render>b__14_0, addr 0x68face8, size 0x8c, virtual false, abstract: false, final false
-  inline void _Render_b__14_0(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
+  /// @brief Method <Render>b__12_0, addr 0x6d208c4, size 0x8c, virtual false, abstract: false, final false
+  inline void _Render_b__12_0(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x68face4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d208c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass___c* getStaticF___9();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__14_0();
+  getStaticF___9__12_0();
 
   static inline void setStaticF___9(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass___c* value);
 
-  static inline void setStaticF___9__14_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData*,
+  static inline void setStaticF___9__12_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData*,
                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
 
 protected:
@@ -462,7 +462,7 @@ public:
   ColorGradingLutPass___c(ColorGradingLutPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13305 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -483,54 +483,51 @@ public:
 
   using __c = ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass___c;
 
-  /// @brief Field m_AllowColorGradingACESHDR, offset 0xe0, size 0x1
+  /// @brief Field m_AllowColorGradingACESHDR, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get_m_AllowColorGradingACESHDR, put = __cordl_internal_set_m_AllowColorGradingACESHDR)) bool m_AllowColorGradingACESHDR;
 
-  /// @brief Field m_HdrLutFormat, offset 0xc8, size 0x4
+  /// @brief Field m_HdrLutFormat, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get_m_HdrLutFormat, put = __cordl_internal_set_m_HdrLutFormat)) ::UnityEngine::Experimental::Rendering::GraphicsFormat m_HdrLutFormat;
 
-  /// @brief Field m_InternalLut, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_InternalLut, put = __cordl_internal_set_m_InternalLut)) ::UnityEngine::Rendering::RTHandle* m_InternalLut;
-
-  /// @brief Field m_LdrLutFormat, offset 0xcc, size 0x4
+  /// @brief Field m_LdrLutFormat, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LdrLutFormat, put = __cordl_internal_set_m_LdrLutFormat)) ::UnityEngine::Experimental::Rendering::GraphicsFormat m_LdrLutFormat;
 
-  /// @brief Field m_LutBuilderHdr, offset 0xc0, size 0x8
+  /// @brief Field m_LutBuilderHdr, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_LutBuilderHdr, put = __cordl_internal_set_m_LutBuilderHdr)) ::UnityW<::UnityEngine::Material> m_LutBuilderHdr;
 
-  /// @brief Field m_LutBuilderLdr, offset 0xb8, size 0x8
+  /// @brief Field m_LutBuilderLdr, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_m_LutBuilderLdr, put = __cordl_internal_set_m_LutBuilderLdr)) ::UnityW<::UnityEngine::Material> m_LutBuilderLdr;
 
-  /// @brief Field m_PassData, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PassData, put = __cordl_internal_set_m_PassData)) ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData* m_PassData;
-
-  /// @brief Method Cleanup, addr 0x68fa708, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6d202e0, size 0x6c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ConfigureDescriptor, addr 0x68f8c94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ConfigureDescriptor, addr 0x6d1e990, size 0x50, virtual false, abstract: false, final false
   inline void ConfigureDescriptor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::PostProcessingData> postProcessingData, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
                                   ::by_ref<::UnityEngine::FilterMode> filterMode);
 
-  /// @brief Method ConfigureDescriptor, addr 0x68f8ce8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ConfigureDescriptor, addr 0x6d1e9e0, size 0x90, virtual false, abstract: false, final false
   inline void ConfigureDescriptor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalPostProcessingData*> postProcessingData,
                                   ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::by_ref<::UnityEngine::FilterMode> filterMode);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Execute, addr 0x68f8d78, size 0x1b4, virtual true, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Execute, addr 0x6d1e6a0, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x68f8f2c, size 0x12a0, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6d1ea70, size 0x12a0, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData* passData,
                                  ::UnityEngine::Rendering::RTHandle* internalLutTarget);
 
   static inline ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                                                                                              ::UnityEngine::Rendering::Universal::PostProcessData* data);
 
-  /// @brief Method Render, addr 0x68fa1cc, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6d2023c, size 0xa4, virtual true, abstract: false, final false
+  inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
+
+  /// @brief Method Render, addr 0x6d1fd10, size 0x52c, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> internalColorLut);
 
-  /// @brief Method Setup, addr 0x68f8c88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d1e98c, size 0x4, virtual false, abstract: false, final false
   inline void Setup(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> internalLut);
 
   constexpr bool const& __cordl_internal_get_m_AllowColorGradingACESHDR() const;
@@ -540,10 +537,6 @@ public:
   constexpr ::UnityEngine::Experimental::Rendering::GraphicsFormat const& __cordl_internal_get_m_HdrLutFormat() const;
 
   constexpr ::UnityEngine::Experimental::Rendering::GraphicsFormat& __cordl_internal_get_m_HdrLutFormat();
-
-  constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get_m_InternalLut() const;
-
-  constexpr ::UnityEngine::Rendering::RTHandle*& __cordl_internal_get_m_InternalLut();
 
   constexpr ::UnityEngine::Experimental::Rendering::GraphicsFormat const& __cordl_internal_get_m_LdrLutFormat() const;
 
@@ -557,15 +550,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_m_LutBuilderLdr();
 
-  constexpr ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData* const& __cordl_internal_get_m_PassData() const;
-
-  constexpr ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData*& __cordl_internal_get_m_PassData();
-
   constexpr void __cordl_internal_set_m_AllowColorGradingACESHDR(bool value);
 
   constexpr void __cordl_internal_set_m_HdrLutFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
-
-  constexpr void __cordl_internal_set_m_InternalLut(::UnityEngine::Rendering::RTHandle* value);
 
   constexpr void __cordl_internal_set_m_LdrLutFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
 
@@ -573,13 +560,11 @@ public:
 
   constexpr void __cordl_internal_set_m_LutBuilderLdr(::UnityW<::UnityEngine::Material> value);
 
-  constexpr void __cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData* value);
-
   /// [CompilerGenerated]
-  /// @brief Method <.ctor>g__Load|7_0, addr 0x68f8b90, size 0xf4, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Material> __ctor_g__Load_7_0(::UnityEngine::Shader* shader);
+  /// @brief Method <.ctor>g__Load|6_0, addr 0x6d1e898, size 0xf4, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Material> __ctor_g__Load_6_0(::UnityEngine::Shader* shader);
 
-  /// @brief Method .ctor, addr 0x68f8930, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1e6a4, size 0x1f4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::Universal::PostProcessData* data);
 
 protected:
@@ -597,46 +582,36 @@ public:
   ColorGradingLutPass(ColorGradingLutPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13306 };
 
-  /// @brief Field m_LutBuilderLdr, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field m_LutBuilderLdr, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_LutBuilderLdr;
 
-  /// @brief Field m_LutBuilderHdr, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field m_LutBuilderHdr, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_LutBuilderHdr;
 
-  /// @brief Field m_HdrLutFormat, offset: 0xc8, size: 0x4, def value: None
+  /// @brief Field m_HdrLutFormat, offset: 0x70, size: 0x4, def value: None
   ::UnityEngine::Experimental::Rendering::GraphicsFormat ___m_HdrLutFormat;
 
-  /// @brief Field m_LdrLutFormat, offset: 0xcc, size: 0x4, def value: None
+  /// @brief Field m_LdrLutFormat, offset: 0x74, size: 0x4, def value: None
   ::UnityEngine::Experimental::Rendering::GraphicsFormat ___m_LdrLutFormat;
 
-  /// @brief Field m_PassData, offset: 0xd0, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData* ___m_PassData;
-
-  /// @brief Field m_InternalLut, offset: 0xd8, size: 0x8, def value: None
-  ::UnityEngine::Rendering::RTHandle* ___m_InternalLut;
-
-  /// @brief Field m_AllowColorGradingACESHDR, offset: 0xe0, size: 0x1, def value: None
+  /// @brief Field m_AllowColorGradingACESHDR, offset: 0x78, size: 0x1, def value: None
   bool ___m_AllowColorGradingACESHDR;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass, ___m_LutBuilderLdr) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass, ___m_LutBuilderLdr) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass, ___m_LutBuilderHdr) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass, ___m_LutBuilderHdr) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass, ___m_HdrLutFormat) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass, ___m_HdrLutFormat) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass, ___m_LdrLutFormat) == 0xcc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass, ___m_LdrLutFormat) == 0x74, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass, ___m_PassData) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass, ___m_AllowColorGradingACESHDR) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass, ___m_InternalLut) == 0xd8, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass, ___m_AllowColorGradingACESHDR) == 0xe0, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass) == 0xe8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal

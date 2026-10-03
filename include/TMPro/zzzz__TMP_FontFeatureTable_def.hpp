@@ -76,25 +76,25 @@ public:
 
   static inline ::TMPro::TMP_FontFeatureTable___c* New_ctor();
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__25_0, addr 0x695f9fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__25_0, addr 0x6d66704, size 0x8, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphPairAdjustmentRecords_b__25_0(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s);
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__25_1, addr 0x695fa04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__25_1, addr 0x6d6670c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphPairAdjustmentRecords_b__25_1(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s);
 
-  /// @brief Method <SortMarkToBaseAdjustmentRecords>b__26_0, addr 0x695fa0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <SortMarkToBaseAdjustmentRecords>b__26_0, addr 0x6d66714, size 0x8, virtual false, abstract: false, final false
   inline uint32_t _SortMarkToBaseAdjustmentRecords_b__26_0(::TMPro::MarkToBaseAdjustmentRecord s);
 
-  /// @brief Method <SortMarkToBaseAdjustmentRecords>b__26_1, addr 0x695fa14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <SortMarkToBaseAdjustmentRecords>b__26_1, addr 0x6d6671c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t _SortMarkToBaseAdjustmentRecords_b__26_1(::TMPro::MarkToBaseAdjustmentRecord s);
 
-  /// @brief Method <SortMarkToMarkAdjustmentRecords>b__27_0, addr 0x695fa1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <SortMarkToMarkAdjustmentRecords>b__27_0, addr 0x6d66724, size 0x8, virtual false, abstract: false, final false
   inline uint32_t _SortMarkToMarkAdjustmentRecords_b__27_0(::TMPro::MarkToMarkAdjustmentRecord s);
 
-  /// @brief Method <SortMarkToMarkAdjustmentRecords>b__27_1, addr 0x695fa24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <SortMarkToMarkAdjustmentRecords>b__27_1, addr 0x6d6672c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t _SortMarkToMarkAdjustmentRecords_b__27_1(::TMPro::MarkToMarkAdjustmentRecord s);
 
-  /// @brief Method .ctor, addr 0x695f9f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d66700, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::TMPro::TMP_FontFeatureTable___c* getStaticF___9();
@@ -140,7 +140,7 @@ public:
   TMP_FontFeatureTable___c(TMP_FontFeatureTable___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16147 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -212,13 +212,13 @@ public:
 
   static inline ::TMPro::TMP_FontFeatureTable* New_ctor();
 
-  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x695f398, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x6d660a0, size 0x204, virtual false, abstract: false, final false
   inline void SortGlyphPairAdjustmentRecords();
 
-  /// @brief Method SortMarkToBaseAdjustmentRecords, addr 0x695f59c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method SortMarkToBaseAdjustmentRecords, addr 0x6d662a4, size 0x204, virtual false, abstract: false, final false
   inline void SortMarkToBaseAdjustmentRecords();
 
-  /// @brief Method SortMarkToMarkAdjustmentRecords, addr 0x695f7a0, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method SortMarkToMarkAdjustmentRecords, addr 0x6d664a8, size 0x204, virtual false, abstract: false, final false
   inline void SortMarkToMarkAdjustmentRecords();
 
   constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* const& __cordl_internal_get_m_GlyphPairAdjustmentRecordLookup() const;
@@ -278,37 +278,37 @@ public:
 
   constexpr void __cordl_internal_set_m_MultipleSubstitutionRecords(::System::Collections::Generic::List_1<::TMPro::MultipleSubstitutionRecord>* value);
 
-  /// @brief Method .ctor, addr 0x695f09c, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d65da4, size 0x2fc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MarkToBaseAdjustmentRecords, addr 0x695f07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarkToBaseAdjustmentRecords, addr 0x6d65d84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::TMPro::MarkToBaseAdjustmentRecord>* get_MarkToBaseAdjustmentRecords();
 
-  /// @brief Method get_MarkToMarkAdjustmentRecords, addr 0x695f08c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarkToMarkAdjustmentRecords, addr 0x6d65d94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::TMPro::MarkToMarkAdjustmentRecord>* get_MarkToMarkAdjustmentRecords();
 
-  /// @brief Method get_glyphPairAdjustmentRecords, addr 0x695f06c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphPairAdjustmentRecords, addr 0x6d65d74, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* get_glyphPairAdjustmentRecords();
 
-  /// @brief Method get_ligatureRecords, addr 0x695f05c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ligatureRecords, addr 0x6d65d64, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::TMPro::LigatureSubstitutionRecord>* get_ligatureRecords();
 
-  /// @brief Method get_multipleSubstitutionRecords, addr 0x695f04c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multipleSubstitutionRecords, addr 0x6d65d54, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::TMPro::MultipleSubstitutionRecord>* get_multipleSubstitutionRecords();
 
-  /// @brief Method set_MarkToBaseAdjustmentRecords, addr 0x695f084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MarkToBaseAdjustmentRecords, addr 0x6d65d8c, size 0x8, virtual false, abstract: false, final false
   inline void set_MarkToBaseAdjustmentRecords(::System::Collections::Generic::List_1<::TMPro::MarkToBaseAdjustmentRecord>* value);
 
-  /// @brief Method set_MarkToMarkAdjustmentRecords, addr 0x695f094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MarkToMarkAdjustmentRecords, addr 0x6d65d9c, size 0x8, virtual false, abstract: false, final false
   inline void set_MarkToMarkAdjustmentRecords(::System::Collections::Generic::List_1<::TMPro::MarkToMarkAdjustmentRecord>* value);
 
-  /// @brief Method set_glyphPairAdjustmentRecords, addr 0x695f074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyphPairAdjustmentRecords, addr 0x6d65d7c, size 0x8, virtual false, abstract: false, final false
   inline void set_glyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* value);
 
-  /// @brief Method set_ligatureRecords, addr 0x695f064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ligatureRecords, addr 0x6d65d6c, size 0x8, virtual false, abstract: false, final false
   inline void set_ligatureRecords(::System::Collections::Generic::List_1<::TMPro::LigatureSubstitutionRecord>* value);
 
-  /// @brief Method set_multipleSubstitutionRecords, addr 0x695f054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_multipleSubstitutionRecords, addr 0x6d65d5c, size 0x8, virtual false, abstract: false, final false
   inline void set_multipleSubstitutionRecords(::System::Collections::Generic::List_1<::TMPro::MultipleSubstitutionRecord>* value);
 
 protected:
@@ -326,7 +326,7 @@ public:
   TMP_FontFeatureTable(TMP_FontFeatureTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16148 };
 
   /// [SerializeField]
   /// @brief Field m_MultipleSubstitutionRecords, offset: 0x10, size: 0x8, def value: None

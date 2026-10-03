@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Win32Exception::*)()>(&::System::ComponentModel::Win32Exception::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x63e9e98;
+  constexpr static std::size_t addrs = 0x6812164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::Win32Exception*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Win32Exception::*)(int32_t)>(&::System::ComponentModel::Win32Exception::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x63e9f18;
+  constexpr static std::size_t addrs = 0x68121e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Win32Exception::*)(int32_t, ::StringW)>(&::System::ComponentModel::Win32Exception::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x63eaaf8;
+  constexpr static std::size_t addrs = 0x6812dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Win32Exception::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ComponentModel::Win32Exception::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x63eab30;
+  constexpr static std::size_t addrs = 0x6812dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::Win32Exception::*)()>(&::System::ComponentModel::Win32Exception::get_NativeErrorCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63eabc4;
+  constexpr static std::size_t addrs = 0x6812e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::Win32Exception*>(), { "get_NativeErrorCode", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Win32Exception::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ComponentModel::Win32Exception::GetObjectData)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x63eabcc;
+  constexpr static std::size_t addrs = 0x6812e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t)>(&::System::ComponentModel::Win32Exception::GetErrorMessage)> {
   constexpr static std::size_t size = 0xb9c;
-  constexpr static std::size_t addrs = 0x63e9f5c;
+  constexpr static std::size_t addrs = 0x6812228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

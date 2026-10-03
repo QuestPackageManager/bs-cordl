@@ -34,7 +34,7 @@ public:
   /// @brief Field _lightManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__lightManager, put = __cordl_internal_set__lightManager)) ::UnityW<::GlobalNamespace::LightWithIdManager> _lightManager;
 
-  /// @brief Method LateUpdate, addr 0x5984fc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5da3cc8, size 0x28, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::EnvironmentLightSimpleController* New_ctor();
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
 
-  /// @brief Method .ctor, addr 0x5984fe8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da3cf0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   EnvironmentLightSimpleController(EnvironmentLightSimpleController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5919 };
 
   /// [SerializeField]
   /// @brief Field _color, offset: 0x20, size: 0x10, def value: None

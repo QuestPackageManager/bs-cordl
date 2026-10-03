@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method .ctor, addr 0x3284850, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3508ddc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method get_materialPairs, addr 0x3284848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialPairs, addr 0x3508dd4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::BTSCharacterMaterialSwitcher_MaterialPairs*>* get_materialPairs();
 
-  /// @brief Method get_renderer, addr 0x3284840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x3508dcc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
 protected:
@@ -96,7 +96,7 @@ public:
   BTSCharacterMaterialSwitcher_RendererMaterialsPairs(BTSCharacterMaterialSwitcher_RendererMaterialsPairs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22802 };
 
   /// [SerializeField]
   /// @brief Field _renderer, offset: 0x10, size: 0x8, def value: None
@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_materialIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x32848d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3508e60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -170,7 +170,7 @@ public:
   BTSCharacterMaterialSwitcher_MaterialPairs(BTSCharacterMaterialSwitcher_MaterialPairs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22803 };
 
   /// @brief Field materialIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___materialIndex;
@@ -211,7 +211,7 @@ public:
 
   static inline ::GlobalNamespace::BTSCharacterMaterialSwitcher* New_ctor();
 
-  /// @brief Method SwapMaterials, addr 0x32845e8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method SwapMaterials, addr 0x3508b74, size 0x214, virtual false, abstract: false, final false
   inline void SwapMaterials(bool alternative);
 
   constexpr ::ArrayW<::GlobalNamespace::BTSCharacterMaterialSwitcher_RendererMaterialsPairs*> const& __cordl_internal_get__rendererMaterialsPairs() const;
@@ -220,7 +220,7 @@ public:
 
   constexpr void __cordl_internal_set__rendererMaterialsPairs(::ArrayW<::GlobalNamespace::BTSCharacterMaterialSwitcher_RendererMaterialsPairs*> value);
 
-  /// @brief Method .ctor, addr 0x328483c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3508dc8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -238,7 +238,7 @@ public:
   BTSCharacterMaterialSwitcher(BTSCharacterMaterialSwitcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22804 };
 
   /// [SerializeField]
   /// @brief Field _rendererMaterialsPairs, offset: 0x20, size: 0x8, def value: None

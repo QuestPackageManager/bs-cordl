@@ -68,6 +68,9 @@ public:
   /// @brief Field unity_StereoCameraProjection, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_unity_StereoCameraProjection, put = setStaticF_unity_StereoCameraProjection)) int32_t unity_StereoCameraProjection;
 
+  /// @brief Field unity_StereoEyeIndex, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_unity_StereoEyeIndex, put = setStaticF_unity_StereoEyeIndex)) int32_t unity_StereoEyeIndex;
+
   /// @brief Field unity_StereoMatrixInvP, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_unity_StereoMatrixInvP, put = setStaticF_unity_StereoMatrixInvP)) int32_t unity_StereoMatrixInvP;
 
@@ -89,16 +92,16 @@ public:
   /// @brief Field unity_StereoWorldSpaceCameraPos, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_unity_StereoWorldSpaceCameraPos, put = setStaticF_unity_StereoWorldSpaceCameraPos)) int32_t unity_StereoWorldSpaceCameraPos;
 
-  /// @brief Method SetBuiltinShaderConstants, addr 0x6745468, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method SetBuiltinShaderConstants, addr 0x6b59f7c, size 0x154, virtual false, abstract: false, final false
   static inline void SetBuiltinShaderConstants(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method SetBuiltinShaderConstants, addr 0x67455bc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetBuiltinShaderConstants, addr 0x6b5a0d0, size 0x64, virtual false, abstract: false, final false
   static inline void SetBuiltinShaderConstants(::UnityEngine::Rendering::RasterCommandBuffer* cmd);
 
-  /// @brief Method Update, addr 0x6745620, size 0x704, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6b5a134, size 0x6f4, virtual false, abstract: false, final false
   static inline void Update(::UnityEngine::Experimental::Rendering::XRPass* xrPass, ::UnityEngine::Rendering::CommandBuffer* cmd, bool renderIntoTexture);
 
-  /// @brief Method UpdateBuiltinShaderConstants, addr 0x6745060, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method UpdateBuiltinShaderConstants, addr 0x6b59b84, size 0x3f8, virtual false, abstract: false, final false
   static inline void UpdateBuiltinShaderConstants(::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projMatrix, bool renderIntoTexture, int32_t viewIndex);
 
   static inline ::ArrayW<::UnityEngine::Matrix4x4> getStaticF_s_cameraProjMatrix();
@@ -122,6 +125,8 @@ public:
   static inline int32_t getStaticF_unity_StereoCameraInvProjection();
 
   static inline int32_t getStaticF_unity_StereoCameraProjection();
+
+  static inline int32_t getStaticF_unity_StereoEyeIndex();
 
   static inline int32_t getStaticF_unity_StereoMatrixInvP();
 
@@ -159,6 +164,8 @@ public:
 
   static inline void setStaticF_unity_StereoCameraProjection(int32_t value);
 
+  static inline void setStaticF_unity_StereoEyeIndex(int32_t value);
+
   static inline void setStaticF_unity_StereoMatrixInvP(int32_t value);
 
   static inline void setStaticF_unity_StereoMatrixInvV(int32_t value);
@@ -188,7 +195,7 @@ public:
   XRBuiltinShaderConstants(XRBuiltinShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8716 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

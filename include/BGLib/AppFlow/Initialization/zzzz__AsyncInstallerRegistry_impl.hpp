@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncInstallerRegistry::*)(::Zenject::IInstaller*)>(
     &::BGLib::AppFlow::Initialization::AsyncInstallerRegistry::AddInstaller)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x330884c;
+  constexpr static std::size_t addrs = 0x3591410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncInstallerRegistry::*)()>(&::BGLib::AppFlow::Initialization::AsyncInstallerRegistry::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3308900;
+  constexpr static std::size_t addrs = 0x35914c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>(), { ".ctor", {}, {} })));

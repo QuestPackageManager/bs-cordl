@@ -78,19 +78,19 @@ public:
 
   constexpr void __cordl_internal_set__imageIdSmall(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5f2e45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6349ac0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activity, addr 0x5f2e444, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_activity, addr 0x6349aa8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_activity();
 
-  /// @brief Method get_id, addr 0x5f2e43c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x6349aa0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_id();
 
-  /// @brief Method get_imageIdLarge, addr 0x5f2e454, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_imageIdLarge, addr 0x6349ab8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_imageIdLarge();
 
-  /// @brief Method get_imageIdSmall, addr 0x5f2e44c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_imageIdSmall, addr 0x6349ab0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_imageIdSmall();
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IRichPresenceDefinition"
@@ -111,7 +111,7 @@ public:
   RichPresenceDefinitionSO(RichPresenceDefinitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23178 };
 
   /// [SerializeField]
   /// @brief Field _id, offset: 0x18, size: 0x8, def value: None

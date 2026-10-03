@@ -33,6 +33,9 @@ struct Allocator;
 namespace Unity::Collections {
 struct LeakCategory;
 }
+namespace Unity::Collections {
+struct MemoryLabel;
+}
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
 class UnsafeUtility;
@@ -76,7 +79,7 @@ public:
   constexpr UnsafeUtility_TypeFlagsCache_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10024 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9598 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -103,7 +106,7 @@ public:
   constexpr UnsafeUtility_AlignOfHelper_1(uint8_t dummy, T data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9599 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -118,8 +121,8 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections::LowLevel::Unsafe
-// [NativeHeader("Runtime/Export/Unsafe/UnsafeUtility.bindings.h")]
 // [StaticAccessor("UnsafeUtility", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Runtime/Export/Unsafe/UnsafeUtility.bindings.h")]
 // Dependencies System.IConvertible, System.Object
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -180,14 +183,17 @@ public:
   static inline int32_t EnumToInt(T enumValue);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method Free, addr 0x6a5ffc0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6eb1dc8, size 0x44, virtual false, abstract: false, final false
   static inline void Free(void* memory, ::Unity::Collections::Allocator allocator);
 
+  /// @brief Method Free, addr 0x6eb1e0c, size 0x44, virtual false, abstract: false, final false
+  static inline void Free(void* memory, ::Unity::Collections::MemoryLabel label);
+
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method FreeTracked, addr 0x6a5fc70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FreeTracked, addr 0x6eb194c, size 0x44, virtual false, abstract: false, final false
   static inline void FreeTracked(void* memory, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method GetReasonForArrayNonBlittable, addr 0x6a60598, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetReasonForArrayNonBlittable, addr 0x6eb23e4, size 0x50, virtual false, abstract: false, final false
   static inline ::StringW GetReasonForArrayNonBlittable(::System::Array* arr);
 
   /// @brief Method GetReasonForGenericListNonBlittable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -195,11 +201,11 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::StringW GetReasonForGenericListNonBlittable();
 
-  /// @brief Method GetReasonForTypeNonBlittableImpl, addr 0x6a60334, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method GetReasonForTypeNonBlittableImpl, addr 0x6eb2180, size 0x230, virtual false, abstract: false, final false
   static inline ::StringW GetReasonForTypeNonBlittableImpl(::System::Type* t, ::StringW name);
 
   /// [ThreadSafe]
-  /// @brief Method GetScriptingTypeFlags, addr 0x6a60290, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetScriptingTypeFlags, addr 0x6eb20dc, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetScriptingTypeFlags(::System::Type* type);
 
   /// @brief Method InternalCopyPtrToStructure, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -215,7 +221,7 @@ public:
   /// @brief Method InternalEnumToInt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void InternalEnumToInt(::by_ref<T> enumValue, ::by_ref<int32_t> intValue);
 
-  /// @brief Method IsArrayBlittable, addr 0x6a60564, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsArrayBlittable, addr 0x6eb23b0, size 0x34, virtual false, abstract: false, final false
   static inline bool IsArrayBlittable(::System::Array* arr);
 
   /// @brief Method IsBlittable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -224,10 +230,10 @@ public:
   static inline bool IsBlittable();
 
   /// [ThreadSafe]
-  /// @brief Method IsBlittable, addr 0x6a60254, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsBlittable, addr 0x6eb20a0, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsBlittable(::System::Type* type);
 
-  /// @brief Method IsBlittableValueType, addr 0x6a602cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsBlittableValueType, addr 0x6eb2118, size 0x68, virtual false, abstract: false, final false
   static inline bool IsBlittableValueType(::System::Type* t);
 
   /// @brief Method IsGenericListBlittable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -238,51 +244,60 @@ public:
   /// @brief Method IsUnmanaged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsUnmanaged();
 
-  /// [BurstAuthorizedExternalMethod]
   /// [ThreadSafe(ThrowsException = false)]
+  /// [BurstAuthorizedExternalMethod]
   /// [VisibleToOtherModules(new[] { "UnityEngine.AIModule" })]
-  /// @brief Method LeakErase, addr 0x6a5fecc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LeakErase, addr 0x6eb1ba8, size 0x44, virtual false, abstract: false, final false
   static inline int32_t LeakErase(::System::IntPtr handle, ::Unity::Collections::LeakCategory category);
 
+  /// [ThreadSafe(ThrowsException = false)]
   /// [VisibleToOtherModules(new[] { "UnityEngine.AIModule" })]
   /// [BurstAuthorizedExternalMethod]
-  /// [ThreadSafe(ThrowsException = false)]
-  /// @brief Method LeakRecord, addr 0x6a5fe78, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LeakRecord, addr 0x6eb1b54, size 0x54, virtual false, abstract: false, final false
   static inline int32_t LeakRecord(::System::IntPtr handle, ::Unity::Collections::LeakCategory category, int32_t callstacksToSkip);
 
-  /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method Malloc, addr 0x6a5ff6c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Malloc, addr 0x6eb1cb8, size 0x58, virtual false, abstract: false, final false
   static inline void* Malloc(int64_t size, int32_t alignment, ::Unity::Collections::Allocator allocator);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method MallocTracked, addr 0x6a5ff10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Malloc, addr 0x6eb1d10, size 0x5c, virtual false, abstract: false, final false
+  static inline void* Malloc(int64_t size, int32_t alignment, ::Unity::Collections::Allocator allocator, ::System::IntPtr label);
+
+  /// @brief Method Malloc, addr 0x6eb1d6c, size 0x5c, virtual false, abstract: false, final false
+  static inline void* Malloc(int64_t size, int32_t alignment, ::Unity::Collections::MemoryLabel label);
+
+  /// @brief Method MallocTracked, addr 0x6eb1bec, size 0x60, virtual false, abstract: false, final false
   static inline void* MallocTracked(int64_t size, int32_t alignment, ::Unity::Collections::Allocator allocator, int32_t callstacksToSkip);
 
-  /// @brief Method MemClear, addr 0x6a6017c, size 0x48, virtual false, abstract: false, final false
+  /// [ThreadSafe(ThrowsException = true)]
+  /// @brief Method MallocTracked, addr 0x6eb1c4c, size 0x6c, virtual false, abstract: false, final false
+  static inline void* MallocTracked(int64_t size, int32_t alignment, ::Unity::Collections::Allocator allocator, int32_t callstacksToSkip, ::System::IntPtr label);
+
+  /// @brief Method MemClear, addr 0x6eb1fc8, size 0x48, virtual false, abstract: false, final false
   static inline void MemClear(void* destination, int64_t size);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method MemCmp, addr 0x6a601c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemCmp, addr 0x6eb2010, size 0x54, virtual false, abstract: false, final false
   static inline int32_t MemCmp(void* ptr1, void* ptr2, int64_t size);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method MemCpy, addr 0x6a5ec38, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemCpy, addr 0x6eb07e4, size 0x54, virtual false, abstract: false, final false
   static inline void MemCpy(void* destination, void* source, int64_t size);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method MemCpyReplicate, addr 0x6a60004, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method MemCpyReplicate, addr 0x6eb1e50, size 0x5c, virtual false, abstract: false, final false
   static inline void MemCpyReplicate(void* destination, void* source, int32_t size, int32_t count);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method MemCpyStride, addr 0x6a60060, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MemCpyStride, addr 0x6eb1eac, size 0x74, virtual false, abstract: false, final false
   static inline void MemCpyStride(void* destination, int32_t destinationStride, void* source, int32_t sourceStride, int32_t elementSize, int32_t count);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method MemMove, addr 0x6a600d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemMove, addr 0x6eb1f20, size 0x54, virtual false, abstract: false, final false
   static inline void MemMove(void* destination, void* source, int64_t size);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method MemSet, addr 0x6a60128, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemSet, addr 0x6eb1f74, size 0x54, virtual false, abstract: false, final false
   static inline void MemSet(void* destination, uint8_t value, int64_t size);
 
   /// @brief Method ReadArrayElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -297,7 +312,7 @@ public:
   static inline int32_t SizeOf();
 
   /// [ThreadSafe]
-  /// @brief Method SizeOf, addr 0x6a60218, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SizeOf, addr 0x6eb2064, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t SizeOf(::System::Type* type);
 
   /// @brief Method WriteArrayElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -321,7 +336,7 @@ public:
   UnsafeUtility(UnsafeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10026 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9600 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

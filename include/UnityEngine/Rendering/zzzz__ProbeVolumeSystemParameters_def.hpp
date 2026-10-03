@@ -62,7 +62,7 @@ public:
                                         ::UnityEngine::Rendering::ProbeVolumeSceneData* sceneData, bool supportsRuntimeDebug) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8990 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -88,39 +88,39 @@ public:
   /// @brief Field supportDiskStreaming, offset: 0xf, size: 0x1, def value: None
   bool supportDiskStreaming;
 
-  /// [Obsolete("This field is not used anymore.")]
+  /// [Obsolete("This field is not used anymore. #from(2023.3)")]
   /// @brief Field probeDebugShader, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> probeDebugShader;
 
-  /// [Obsolete("This field is not used anymore.")]
+  /// [Obsolete("This field is not used anymore. #from(2023.3)")]
   /// @brief Field probeSamplingDebugShader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> probeSamplingDebugShader;
 
-  /// [Obsolete("This field is not used anymore.")]
+  /// [Obsolete("This field is not used anymore. #from(2023.3)")]
   /// @brief Field probeSamplingDebugTexture, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture> probeSamplingDebugTexture;
 
-  /// [Obsolete("This field is not used anymore.")]
+  /// [Obsolete("This field is not used anymore. #from(2023.3)")]
   /// @brief Field probeSamplingDebugMesh, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> probeSamplingDebugMesh;
 
-  /// [Obsolete("This field is not used anymore.")]
+  /// [Obsolete("This field is not used anymore. #from(2023.3)")]
   /// @brief Field offsetDebugShader, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> offsetDebugShader;
 
-  /// [Obsolete("This field is not used anymore.")]
+  /// [Obsolete("This field is not used anymore. #from(2023.3)")]
   /// @brief Field fragmentationDebugShader, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> fragmentationDebugShader;
 
-  /// [Obsolete("This field is not used anymore.")]
+  /// [Obsolete("This field is not used anymore. #from(2023.3)")]
   /// @brief Field scenarioBlendingShader, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> scenarioBlendingShader;
 
-  /// [Obsolete("This field is not used anymore.")]
+  /// [Obsolete("This field is not used anymore. #from(2023.3)")]
   /// @brief Field streamingUploadShader, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> streamingUploadShader;
 
-  /// [Obsolete("This field is not used anymore.")]
+  /// [Obsolete("This field is not used anymore. #from(2023.3)")]
   /// @brief Field sceneData, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProbeVolumeSceneData* sceneData;
 

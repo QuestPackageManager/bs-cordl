@@ -96,22 +96,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddUser, addr 0x6cf651c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AddUser, addr 0x718a588, size 0x158, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::GradientRemap* AddUser(::UnityEngine::UIElements::VectorImage* vi, ::UnityEngine::UIElements::VisualElement* context);
 
-  /// @brief Method Commit, addr 0x6cf64f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Commit, addr 0x718a560, size 0x28, virtual false, abstract: false, final false
   inline void Commit();
 
-  /// @brief Method Dispose, addr 0x6cf6358, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x718a3c4, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6cf63c8, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x718a434, size 0x12c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageManager* New_ctor(::UnityEngine::UIElements::AtlasBase* atlas);
 
-  /// @brief Method Register, addr 0x6cf6628, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x718a6e0, size 0x414, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* Register(::UnityEngine::UIElements::VectorImage* vi, ::UnityEngine::UIElements::VisualElement* context);
+
+  /// @brief Method RemoveUser, addr 0x718aaf4, size 0x118, virtual false, abstract: false, final false
+  inline void RemoveUser(::UnityEngine::UIElements::VectorImage* vi);
+
+  /// @brief Method Unregister, addr 0x718ac0c, size 0x160, virtual false, abstract: false, final false
+  inline void Unregister(::UnityEngine::UIElements::VectorImage* vi, ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* renderInfo);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
 
@@ -158,7 +164,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RenderInfoPool(::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool* value);
 
-  /// @brief Method .ctor, addr 0x6cf617c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x718a1e8, size 0x1cc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::AtlasBase* atlas);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>* getStaticF_instances();
@@ -167,11 +173,11 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerUnregister();
 
-  /// @brief Method get_atlas, addr 0x6cf6164, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_atlas, addr 0x718a1d0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_atlas();
 
   /// [CompilerGenerated]
-  /// @brief Method get_disposed, addr 0x6cf6348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x718a3b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
@@ -184,7 +190,7 @@ public:
   static inline void setStaticF_s_MarkerUnregister(::Unity::Profiling::ProfilerMarker value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_disposed, addr 0x6cf6350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x718a3bc, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -202,7 +208,7 @@ public:
   VectorImageManager(VectorImageManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5483 };
 
   /// @brief Field m_Atlas, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::AtlasBase* ___m_Atlas;
@@ -222,8 +228,8 @@ public:
   /// @brief Field m_LoggedExhaustedSettingsAtlas, offset: 0x38, size: 0x1, def value: None
   bool ___m_LoggedExhaustedSettingsAtlas;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x39, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

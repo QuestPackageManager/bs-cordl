@@ -11,7 +11,13 @@ namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace UnityEngine::Rendering {
+class BaseCommandBuffer;
+}
+namespace UnityEngine::Rendering {
 class CommandBuffer;
+}
+namespace UnityEngine::Rendering {
+class IComputeCommandBuffer;
 }
 namespace UnityEngine {
 class ComputeBuffer;
@@ -53,6 +59,9 @@ public:
   static inline ::UnityEngine::Rendering::ConstantBuffer_1<CBType>* New_ctor();
 
   /// @brief Method PushGlobal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void PushGlobal(::UnityEngine::Rendering::BaseCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data, int32_t shaderId);
+
+  /// @brief Method PushGlobal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void PushGlobal(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data, int32_t shaderId);
 
   /// @brief Method PushGlobal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -65,6 +74,9 @@ public:
   inline void Set(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::ComputeShader* cs, int32_t shaderId);
 
   /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Set(::UnityEngine::Rendering::IComputeCommandBuffer* cmd, ::UnityEngine::ComputeShader* cs, int32_t shaderId);
+
+  /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::ComputeShader* cs, int32_t shaderId);
 
   /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -74,10 +86,16 @@ public:
   inline void Set(::UnityEngine::MaterialPropertyBlock* mpb, int32_t shaderId);
 
   /// @brief Method SetGlobal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void SetGlobal(::UnityEngine::Rendering::BaseCommandBuffer* cmd, int32_t shaderId);
+
+  /// @brief Method SetGlobal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetGlobal(::UnityEngine::Rendering::CommandBuffer* cmd, int32_t shaderId);
 
   /// @brief Method SetGlobal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetGlobal(int32_t shaderId);
+
+  /// @brief Method UpdateData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void UpdateData(::UnityEngine::Rendering::BaseCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data);
 
   /// @brief Method UpdateData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateData(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data);
@@ -121,7 +139,7 @@ public:
   ConstantBuffer_1(ConstantBuffer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8750 };
 
   /// @brief Field m_GlobalBindings, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<int32_t>* ___m_GlobalBindings;

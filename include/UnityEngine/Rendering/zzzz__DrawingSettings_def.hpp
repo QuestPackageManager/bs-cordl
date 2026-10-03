@@ -45,8 +45,8 @@ MARK_VAL_T(::UnityEngine::Rendering::DrawingSettings);
 MARK_VAL_T(::UnityEngine::Rendering::DrawingSettings__shaderPassNames_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DrawingSettings, "UnityEngine.Rendering", "DrawingSettings");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DrawingSettings__shaderPassNames_e__FixedBuffer, "UnityEngine.Rendering", "DrawingSettings/<shaderPassNames>e__FixedBuffer");
-// [CompilerGenerated]
 // [UnsafeValueType]
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -63,7 +63,7 @@ public:
   constexpr DrawingSettings__shaderPassNames_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10412 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -97,6 +97,8 @@ public:
 
   __declspec(property(put = set_enableInstancing)) bool enableInstancing;
 
+  __declspec(property(put = set_lodCrossFadeStencilMask)) int32_t lodCrossFadeStencilMask;
+
   __declspec(property(put = set_mainLightIndex)) int32_t mainLightIndex;
 
   /// @brief Field maxShaderPasses, offset 0xffffffff, size 0x4
@@ -115,22 +117,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::DrawingSettings>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::DrawingSettings>*();
 
-  /// @brief Method Equals, addr 0x6b21454, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f7f784, size 0x100, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b210ec, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f7f508, size 0x150, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::DrawingSettings other);
 
-  /// @brief Method GetHashCode, addr 0x6b21554, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f7f884, size 0x60, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetShaderPassName, addr 0x6b20e60, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetShaderPassName, addr 0x6f7f27c, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShaderTagId GetShaderPassName(int32_t index);
 
-  /// @brief Method SetShaderPassName, addr 0x6b20fa4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SetShaderPassName, addr 0x6f7f3c0, size 0x148, virtual false, abstract: false, final false
   inline void SetShaderPassName(int32_t index, ::UnityEngine::Rendering::ShaderTagId shaderPassName);
 
-  /// @brief Method .ctor, addr 0x6b20ce8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f7f0fc, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ShaderTagId shaderPassName, ::UnityEngine::Rendering::SortingSettings sortingSettings);
 
   static inline int32_t getStaticF_maxShaderPasses();
@@ -138,33 +140,36 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::DrawingSettings>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::DrawingSettings>* i___System__IEquatable_1___UnityEngine__Rendering__DrawingSettings_();
 
-  /// @brief Method op_Equality, addr 0x6b21678, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6f7f9b0, size 0xc0, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::DrawingSettings left, ::UnityEngine::Rendering::DrawingSettings right);
 
   static inline void setStaticF_maxShaderPasses(int32_t value);
 
-  /// @brief Method set_enableDynamicBatching, addr 0x6b20dc0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_enableDynamicBatching, addr 0x6f7f1d4, size 0x10, virtual false, abstract: false, final false
   inline void set_enableDynamicBatching(bool value);
 
-  /// @brief Method set_enableInstancing, addr 0x6b20dd0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_enableInstancing, addr 0x6f7f1e4, size 0x20, virtual false, abstract: false, final false
   inline void set_enableInstancing(bool value);
 
-  /// @brief Method set_mainLightIndex, addr 0x6b20e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lodCrossFadeStencilMask, addr 0x6f7f274, size 0x8, virtual false, abstract: false, final false
+  inline void set_lodCrossFadeStencilMask(int32_t value);
+
+  /// @brief Method set_mainLightIndex, addr 0x6f7f26c, size 0x8, virtual false, abstract: false, final false
   inline void set_mainLightIndex(int32_t value);
 
-  /// @brief Method set_overrideMaterial, addr 0x6b20df0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_overrideMaterial, addr 0x6f7f204, size 0x2c, virtual false, abstract: false, final false
   inline void set_overrideMaterial(::UnityEngine::Material* value);
 
-  /// @brief Method set_overrideMaterialPassIndex, addr 0x6b20e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideMaterialPassIndex, addr 0x6f7f25c, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideMaterialPassIndex(int32_t value);
 
-  /// @brief Method set_overrideShader, addr 0x6b20e1c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_overrideShader, addr 0x6f7f230, size 0x2c, virtual false, abstract: false, final false
   inline void set_overrideShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_overrideShaderPassIndex, addr 0x6b20e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideShaderPassIndex, addr 0x6f7f264, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideShaderPassIndex(int32_t value);
 
-  /// @brief Method set_perObjectData, addr 0x6b20db8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_perObjectData, addr 0x6f7f1cc, size 0x8, virtual false, abstract: false, final false
   inline void set_perObjectData(::UnityEngine::Rendering::PerObjectData value);
 
   // Ctor Parameters []
@@ -178,17 +183,17 @@ public:
   // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_OverrideMaterialInstanceId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
   // "m_OverrideMaterialPassIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_fallbackMaterialInstanceId", ty: "int32_t", modifiers: "", def_value: None,
   // comment: None }, CppParam { name: "m_MainLightIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_UseSrpBatcher", ty: "int32_t", modifiers: "", def_value:
-  // None, comment: None }]
+  // None, comment: None }, CppParam { name: "m_LodCrossFadeStencilMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DrawingSettings(::UnityEngine::Rendering::SortingSettings m_SortingSettings, ::UnityEngine::Rendering::DrawingSettings__shaderPassNames_e__FixedBuffer shaderPassNames,
                             ::UnityEngine::Rendering::PerObjectData m_PerObjectData, ::UnityEngine::Rendering::DrawRendererFlags m_Flags, int32_t m_OverrideShaderID, int32_t m_OverrideShaderPassIndex,
-                            int32_t m_OverrideMaterialInstanceId, int32_t m_OverrideMaterialPassIndex, int32_t m_fallbackMaterialInstanceId, int32_t m_MainLightIndex,
-                            int32_t m_UseSrpBatcher) noexcept;
+                            int32_t m_OverrideMaterialInstanceId, int32_t m_OverrideMaterialPassIndex, int32_t m_fallbackMaterialInstanceId, int32_t m_MainLightIndex, int32_t m_UseSrpBatcher,
+                            int32_t m_LodCrossFadeStencilMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10413 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc4 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc8 };
 
   /// @brief Field m_SortingSettings, offset: 0x0, size: 0x60, def value: None
   ::UnityEngine::Rendering::SortingSettings m_SortingSettings;
@@ -224,6 +229,9 @@ public:
   /// @brief Field m_UseSrpBatcher, offset: 0xc0, size: 0x4, def value: None
   int32_t m_UseSrpBatcher;
 
+  /// @brief Field m_LodCrossFadeStencilMask, offset: 0xc4, size: 0x4, def value: None
+  int32_t m_LodCrossFadeStencilMask;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -249,6 +257,8 @@ static_assert(offsetof(::UnityEngine::Rendering::DrawingSettings, m_MainLightInd
 
 static_assert(offsetof(::UnityEngine::Rendering::DrawingSettings, m_UseSrpBatcher) == 0xc0, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DrawingSettings) == 0xc4, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DrawingSettings, m_LodCrossFadeStencilMask) == 0xc4, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::DrawingSettings) == 0xc8, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering

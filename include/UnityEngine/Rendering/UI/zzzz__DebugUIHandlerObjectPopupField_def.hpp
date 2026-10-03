@@ -29,21 +29,21 @@ public:
   /// @brief Field m_Index, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Index, put = __cordl_internal_set_m_Index)) int32_t m_Index;
 
-  /// @brief Method ChangeSelectedObject, addr 0x6804bf8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ChangeSelectedObject, addr 0x6c33798, size 0xe8, virtual false, abstract: false, final false
   inline void ChangeSelectedObject();
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField* New_ctor();
 
-  /// @brief Method OnDecrement, addr 0x6804d10, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnDecrement, addr 0x6c33890, size 0x10, virtual true, abstract: false, final false
   inline void OnDecrement(bool fast);
 
-  /// @brief Method OnIncrement, addr 0x6804d00, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnIncrement, addr 0x6c33880, size 0x10, virtual true, abstract: false, final false
   inline void OnIncrement(bool fast);
 
-  /// @brief Method SetWidget, addr 0x6804b94, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6c33734, size 0x64, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method UpdateValueLabel, addr 0x6804d20, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x6c338a0, size 0xf8, virtual true, abstract: false, final false
   inline void UpdateValueLabel();
 
   constexpr int32_t const& __cordl_internal_get_m_Index() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6804e18, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c33998, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   DebugUIHandlerObjectPopupField(DebugUIHandlerObjectPopupField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12530 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9447 };
 
   /// @brief Field m_Index, offset: 0x88, size: 0x4, def value: None
   int32_t ___m_Index;

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::TimeSpanArrayHelperWithString::*)(
     ::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW, ::ArrayW<::System::TimeSpan>, int32_t, int32_t)>(&::System::Xml::TimeSpanArrayHelperWithString::ReadArray)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60ff61c;
+  constexpr static std::size_t addrs = 0x651bb38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::TimeSpanArrayHelperWithString::*)(
     ::System::Xml::XmlDictionaryWriter*, ::StringW, ::StringW, ::StringW, ::ArrayW<::System::TimeSpan>, int32_t, int32_t)>(&::System::Xml::TimeSpanArrayHelperWithString::WriteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60ff654;
+  constexpr static std::size_t addrs = 0x651bb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::TimeSpanArrayHelperWithString::*)()>(&::System::Xml::TimeSpanArrayHelperWithString::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60ff690;
+  constexpr static std::size_t addrs = 0x651bbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::TimeSpanArrayHelperWithString*>(), { ".ctor", {}, {} })));

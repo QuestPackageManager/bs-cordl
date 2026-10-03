@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketCountJob::*)(int32_t)>(
     &::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketCountJob::Execute)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x68392a4;
+  constexpr static std::size_t addrs = 0x6c70200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Collections::NativeArray_1<int32_t>)>(
     &::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSumJob::AtomicIncrement)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x683930c;
+  constexpr static std::size_t addrs = 0x6c70268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSumJob>(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSumJob::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSumJob::JobIndexPrefixSum)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6839374;
+  constexpr static std::size_t addrs = 0x6c702d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSumJob>(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSumJob::*)(int32_t)>(
     &::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSumJob::Execute)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x68393bc;
+  constexpr static std::size_t addrs = 0x6c70318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ParallelSortExtensions_RadixSortPrefixSumJob::*)(int32_t)>(
     &::UnityEngine::Rendering::ParallelSortExtensions_RadixSortPrefixSumJob::Execute)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x68394a8;
+  constexpr static std::size_t addrs = 0x6c70404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketSortJob::*)(int32_t)>(
     &::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketSortJob::Execute)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6839520;
+  constexpr static std::size_t addrs = 0x6c7047c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::Unity::Collections::NativeArray_1<int32_t>)>(&::UnityEngine::Rendering::ParallelSortExtensions::ParallelSort)> {
   constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x6838da8;
+  constexpr static std::size_t addrs = 0x6c6fd04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ParallelSortExtensions*>(),
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1<int32_t>>, ::by_ref<::Unity::Collections::NativeArray_1<int32_t>>)>(
     &::UnityEngine::Rendering::ParallelSortExtensions::_ParallelSort_g__Swap_2_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6839288;
+  constexpr static std::size_t addrs = 0x6c701e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

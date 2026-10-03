@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HashFNV1A32)
-namespace System {
-class Delegate;
-}
 namespace UnityEngine {
 struct Vector2;
 }
@@ -37,31 +34,28 @@ public:
   // Declarations
   __declspec(property(get = get_value)) int32_t value;
 
-  /// @brief Method Append, addr 0x67c55c0, size 0x74, virtual false, abstract: false, final false
-  inline void Append(::System::Delegate* del);
-
-  /// @brief Method Append, addr 0x67c5490, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6be37b8, size 0x48, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> input);
 
-  /// @brief Method Append, addr 0x67c54d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6be3800, size 0x64, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> input);
 
-  /// @brief Method Append, addr 0x67c553c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6be3864, size 0x7c, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> input);
 
-  /// @brief Method Append, addr 0x67c5400, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6be3728, size 0x28, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<bool> input);
 
-  /// @brief Method Append, addr 0x67c5458, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6be3780, size 0x38, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<double_t> input);
 
-  /// @brief Method Append, addr 0x67c5428, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6be3750, size 0x30, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<float_t> input);
 
-  /// @brief Method Append, addr 0x67c53c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6be36e8, size 0x20, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<int32_t> input);
 
-  /// @brief Method Append, addr 0x67c53e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6be3708, size 0x20, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<uint32_t> input);
 
   /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -69,16 +63,13 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void Append(T input);
 
-  /// @brief Method Create, addr 0x67c53b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6be36dc, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::HashFNV1A32 Create();
 
-  /// @brief Method GetFuncHashCode, addr 0x67c5634, size 0x4c, virtual false, abstract: false, final false
-  static inline int32_t GetFuncHashCode(::System::Delegate* del);
-
-  /// @brief Method GetHashCode, addr 0x67c5688, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6be38e8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_value, addr 0x67c5680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x6be38e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
   // Ctor Parameters []
@@ -89,7 +80,7 @@ public:
   constexpr HashFNV1A32(uint32_t m_Hash) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9183 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

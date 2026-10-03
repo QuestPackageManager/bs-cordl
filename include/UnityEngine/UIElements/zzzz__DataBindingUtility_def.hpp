@@ -54,19 +54,19 @@ public:
 
   static inline ::UnityEngine::UIElements::DataBindingUtility___c* New_ctor();
 
-  /// @brief Method <.cctor>b__23_0, addr 0x6c452d0, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::Internal::TypePathVisitor* __cctor_b__23_0();
+  /// @brief Method <.cctor>b__25_0, addr 0x708e67c, size 0x44, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::Internal::TypePathVisitor* __cctor_b__25_0();
 
-  /// @brief Method <.cctor>b__23_1, addr 0x6c45314, size 0x28, virtual false, abstract: false, final false
-  inline void __cctor_b__23_1(::UnityEngine::UIElements::Internal::TypePathVisitor* v);
+  /// @brief Method <.cctor>b__25_1, addr 0x708e6c0, size 0x28, virtual false, abstract: false, final false
+  inline void __cctor_b__25_1(::UnityEngine::UIElements::Internal::TypePathVisitor* v);
 
-  /// @brief Method <.cctor>b__23_2, addr 0x6c4533c, size 0x58, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* __cctor_b__23_2();
+  /// @brief Method <.cctor>b__25_2, addr 0x708e6e8, size 0x58, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* __cctor_b__25_2();
 
-  /// @brief Method <.cctor>b__23_3, addr 0x6c45394, size 0x18, virtual false, abstract: false, final false
-  inline void __cctor_b__23_3(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* v);
+  /// @brief Method <.cctor>b__25_3, addr 0x708e740, size 0x18, virtual false, abstract: false, final false
+  inline void __cctor_b__25_3(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* v);
 
-  /// @brief Method .ctor, addr 0x6c452cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x708e678, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::DataBindingUtility___c* getStaticF___9();
@@ -88,7 +88,7 @@ public:
   DataBindingUtility___c(DataBindingUtility___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4053 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4054 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -116,7 +116,7 @@ public:
   /// @brief Field s_ReplaceIndices, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ReplaceIndices, put = setStaticF_s_ReplaceIndices)) ::System::Text::RegularExpressions::Regex* s_ReplaceIndices;
 
-  /// @brief Method TryGetBinding, addr 0x6c44de4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method TryGetBinding, addr 0x708e190, size 0x184, virtual false, abstract: false, final false
   static inline bool TryGetBinding(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
                                    ::by_ref<::UnityEngine::UIElements::BindingInfo> bindingInfo);
 
@@ -147,7 +147,7 @@ public:
   DataBindingUtility(DataBindingUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4055 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

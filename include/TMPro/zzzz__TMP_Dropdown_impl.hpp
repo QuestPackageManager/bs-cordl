@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_Text> (::TMPro::TMP_Dropdown_DropdownItem::*)()>(&::TMPro::TMP_Dropdown_DropdownItem::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950c70;
+  constexpr static std::size_t addrs = 0x6d57804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown_DropdownItem*>(), { "get_text", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_DropdownItem::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_Dropdown_DropdownItem::set_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950c78;
+  constexpr static std::size_t addrs = 0x6d5780c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Image> (::TMPro::TMP_Dropdown_DropdownItem::*)()>(&::TMPro::TMP_Dropdown_DropdownItem::get_image)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950c80;
+  constexpr static std::size_t addrs = 0x6d57814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown_DropdownItem*>(), { "get_image", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_DropdownItem::*)(::UnityEngine::UI::Image*)>(&::TMPro::TMP_Dropdown_DropdownItem::set_image)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950c88;
+  constexpr static std::size_t addrs = 0x6d5781c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::TMPro::TMP_Dropdown_DropdownItem::*)()>(&::TMPro::TMP_Dropdown_DropdownItem::get_rectTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950c90;
+  constexpr static std::size_t addrs = 0x6d57824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown_DropdownItem*>(), { "get_rectTransform", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_DropdownItem::*)(::UnityEngine::RectTransform*)>(&::TMPro::TMP_Dropdown_DropdownItem::set_rectTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950c98;
+  constexpr static std::size_t addrs = 0x6d5782c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Toggle> (::TMPro::TMP_Dropdown_DropdownItem::*)()>(&::TMPro::TMP_Dropdown_DropdownItem::get_toggle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950ca0;
+  constexpr static std::size_t addrs = 0x6d57834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown_DropdownItem*>(), { "get_toggle", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_DropdownItem::*)(::UnityEngine::UI::Toggle*)>(&::TMPro::TMP_Dropdown_DropdownItem::set_toggle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950ca8;
+  constexpr static std::size_t addrs = 0x6d5783c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_DropdownItem::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::TMPro::TMP_Dropdown_DropdownItem::OnPointerEnter)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6950cb0;
+  constexpr static std::size_t addrs = 0x6d57844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_DropdownItem::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::TMPro::TMP_Dropdown_DropdownItem::OnCancel)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6950d3c;
+  constexpr static std::size_t addrs = 0x6d578d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_DropdownItem::*)()>(&::TMPro::TMP_Dropdown_DropdownItem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6950de4;
+  constexpr static std::size_t addrs = 0x6d57978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown_DropdownItem*>(), { ".ctor", {}, {} })));
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::TMP_Dropdown_OptionData::*)()>(&::TMPro::TMP_Dropdown_OptionData::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950de8;
+  constexpr static std::size_t addrs = 0x6d5797c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown_OptionData*>(), { "get_text", {}, {} })));
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_OptionData::*)(::StringW)>(&::TMPro::TMP_Dropdown_OptionData::set_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950df0;
+  constexpr static std::size_t addrs = 0x6d57984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown_OptionData*>(), { "set_text", {}, { ::i2c::type_of<::StringW>() } })));
@@ -325,7 +325,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::TMPro::TMP_Dropdown_OptionData::*)()>(&::TMPro::TMP_Dropdown_OptionData::get_image)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950df8;
+  constexpr static std::size_t addrs = 0x6d5798c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown_OptionData*>(), { "get_image", {}, {} })));
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_OptionData::*)(::UnityEngine::Sprite*)>(&::TMPro::TMP_Dropdown_OptionData::set_image)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950e00;
+  constexpr static std::size_t addrs = 0x6d57994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::TMPro::TMP_Dropdown_OptionData::*)()>(&::TMPro::TMP_Dropdown_OptionData::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6950e08;
+  constexpr static std::size_t addrs = 0x6d5799c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown_OptionData*>(), { "get_color", {}, {} })));
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_OptionData::*)(::UnityEngine::Color)>(&::TMPro::TMP_Dropdown_OptionData::set_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6950e14;
+  constexpr static std::size_t addrs = 0x6d579a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -375,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_OptionData::*)()>(&::TMPro::TMP_Dropdown_OptionData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x694ce74;
+  constexpr static std::size_t addrs = 0x6d5389c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown_OptionData*>(), { ".ctor", {}, {} })));
@@ -387,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_OptionData::*)(::StringW)>(&::TMPro::TMP_Dropdown_OptionData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x694df44;
+  constexpr static std::size_t addrs = 0x6d5496c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown_OptionData*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -399,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_OptionData::*)(::UnityEngine::Sprite*)>(&::TMPro::TMP_Dropdown_OptionData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x694e0c4;
+  constexpr static std::size_t addrs = 0x6d54aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -412,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_OptionData::*)(::StringW, ::UnityEngine::Sprite*, ::UnityEngine::Color)>(&::TMPro::TMP_Dropdown_OptionData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6950e20;
+  constexpr static std::size_t addrs = 0x6d579b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_OptionData*>* (::TMPro::TMP_Dropdown_OptionDataList::*)()>(
     &::TMPro::TMP_Dropdown_OptionDataList::get_options)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950e30;
+  constexpr static std::size_t addrs = 0x6d579c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown_OptionDataList*>(), { "get_options", {}, {} })));
@@ -535,7 +535,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_OptionDataList::*)(::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_OptionData*>*)>(
     &::TMPro::TMP_Dropdown_OptionDataList::set_options)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950e38;
+  constexpr static std::size_t addrs = 0x6d579cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -549,7 +549,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_OptionDataList::*)()>(&::TMPro::TMP_Dropdown_OptionDataList::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x694d764;
+  constexpr static std::size_t addrs = 0x6d5418c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown_OptionDataList*>(), { ".ctor", {}, {} })));
@@ -592,7 +592,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown_DropdownEvent::*)()>(&::TMPro::TMP_Dropdown_DropdownEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x694d7d8;
+  constexpr static std::size_t addrs = 0x6d54200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown_DropdownEvent*>(), { ".ctor", {}, {} })));
@@ -613,7 +613,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown___c__DisplayClass76_0::*)()>(&::TMPro::TMP_Dropdown___c__DisplayClass76_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x694f9f8;
+  constexpr static std::size_t addrs = 0x6d5658c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown___c__DisplayClass76_0*>(), { ".ctor", {}, {} })));
@@ -625,7 +625,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown___c__DisplayClass76_0::*)(bool)>(&::TMPro::TMP_Dropdown___c__DisplayClass76_0::_Show_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6950e40;
+  constexpr static std::size_t addrs = 0x6d579d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -638,7 +638,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown___c__DisplayClass76_0::*)(bool)>(&::TMPro::TMP_Dropdown___c__DisplayClass76_0::_Show_b__1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6950e5c;
+  constexpr static std::size_t addrs = 0x6d579f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -706,7 +706,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown___c__DisplayClass76_1::*)()>(&::TMPro::TMP_Dropdown___c__DisplayClass76_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x694fd2c;
+  constexpr static std::size_t addrs = 0x6d568c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown___c__DisplayClass76_1*>(), { ".ctor", {}, {} })));
@@ -718,7 +718,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown___c__DisplayClass76_1::*)(bool)>(&::TMPro::TMP_Dropdown___c__DisplayClass76_1::_Show_b__2)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6950e78;
+  constexpr static std::size_t addrs = 0x6d57a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -769,7 +769,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90::*)(int32_t)>(&::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950780;
+  constexpr static std::size_t addrs = 0x6d57314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -783,7 +783,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90::*)()>(
     &::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6950e9c;
+  constexpr static std::size_t addrs = 0x6d57a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -796,7 +796,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90::*)()>(&::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90::MoveNext)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6950ea0;
+  constexpr static std::size_t addrs = 0x6d57a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90*>(), { "MoveNext", {}, {} })));
@@ -809,7 +809,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90::*)()>(
     &::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950f4c;
+  constexpr static std::size_t addrs = 0x6d57ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90*>(),
@@ -823,7 +823,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90::*)()>(
     &::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6950f54;
+  constexpr static std::size_t addrs = 0x6d57ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -837,7 +837,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90::*)()>(
     &::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6950f8c;
+  constexpr static std::size_t addrs = 0x6d57b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -959,7 +959,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_template)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d3b0;
+  constexpr static std::size_t addrs = 0x6d53dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "get_template", {}, {} })));
@@ -971,7 +971,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::RectTransform*)>(&::TMPro::TMP_Dropdown::set_template)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694ce44;
+  constexpr static std::size_t addrs = 0x6d5386c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -984,7 +984,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_Text> (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_captionText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d3b8;
+  constexpr static std::size_t addrs = 0x6d53de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "get_captionText", {}, {} })));
@@ -996,7 +996,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_Dropdown::set_captionText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694ce4c;
+  constexpr static std::size_t addrs = 0x6d53874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1009,7 +1009,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Image> (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_captionImage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d3c0;
+  constexpr static std::size_t addrs = 0x6d53de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "get_captionImage", {}, {} })));
@@ -1021,7 +1021,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::UI::Image*)>(&::TMPro::TMP_Dropdown::set_captionImage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d3c8;
+  constexpr static std::size_t addrs = 0x6d53df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1034,7 +1034,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Graphic> (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_placeholder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d3d0;
+  constexpr static std::size_t addrs = 0x6d53df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "get_placeholder", {}, {} })));
@@ -1046,7 +1046,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::UI::Graphic*)>(&::TMPro::TMP_Dropdown::set_placeholder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d3d8;
+  constexpr static std::size_t addrs = 0x6d53e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1059,7 +1059,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_Text> (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_itemText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d3e0;
+  constexpr static std::size_t addrs = 0x6d53e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "get_itemText", {}, {} })));
@@ -1071,7 +1071,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_Dropdown::set_itemText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694ce54;
+  constexpr static std::size_t addrs = 0x6d5387c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1084,7 +1084,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Image> (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_itemImage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d3e8;
+  constexpr static std::size_t addrs = 0x6d53e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "get_itemImage", {}, {} })));
@@ -1096,7 +1096,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::UI::Image*)>(&::TMPro::TMP_Dropdown::set_itemImage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d3f0;
+  constexpr static std::size_t addrs = 0x6d53e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1109,7 +1109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_OptionData*>* (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_options)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x694ce5c;
+  constexpr static std::size_t addrs = 0x6d53884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "get_options", {}, {} })));
@@ -1122,7 +1122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_OptionData*>*)>(
     &::TMPro::TMP_Dropdown::set_options)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x694d3f8;
+  constexpr static std::size_t addrs = 0x6d53e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1136,7 +1136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_Dropdown_DropdownEvent* (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_onValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d410;
+  constexpr static std::size_t addrs = 0x6d53e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "get_onValueChanged", {}, {} })));
@@ -1148,7 +1148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::TMPro::TMP_Dropdown_DropdownEvent*)>(&::TMPro::TMP_Dropdown::set_onValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d418;
+  constexpr static std::size_t addrs = 0x6d53e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1161,7 +1161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_alphaFadeSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d420;
+  constexpr static std::size_t addrs = 0x6d53e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "get_alphaFadeSpeed", {}, {} })));
@@ -1173,7 +1173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(float_t)>(&::TMPro::TMP_Dropdown::set_alphaFadeSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d428;
+  constexpr static std::size_t addrs = 0x6d53e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "set_alphaFadeSpeed", {}, { ::i2c::type_of<float_t>() } })));
@@ -1185,7 +1185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d430;
+  constexpr static std::size_t addrs = 0x6d53e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "get_value", {}, {} })));
@@ -1197,7 +1197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(int32_t)>(&::TMPro::TMP_Dropdown::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d438;
+  constexpr static std::size_t addrs = 0x6d53e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "set_value", {}, { ::i2c::type_of<int32_t>() } })));
@@ -1209,7 +1209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(int32_t)>(&::TMPro::TMP_Dropdown::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d5e0;
+  constexpr static std::size_t addrs = 0x6d54008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "SetValueWithoutNotify", {}, { ::i2c::type_of<int32_t>() } })));
@@ -1221,7 +1221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(int32_t, bool)>(&::TMPro::TMP_Dropdown::SetValue)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x694d440;
+  constexpr static std::size_t addrs = 0x6d53e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1234,7 +1234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_IsExpanded)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x694d5e8;
+  constexpr static std::size_t addrs = 0x6d54010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "get_IsExpanded", {}, {} })));
@@ -1246,7 +1246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_MultiSelect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d64c;
+  constexpr static std::size_t addrs = 0x6d54074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "get_MultiSelect", {}, {} })));
@@ -1258,7 +1258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(bool)>(&::TMPro::TMP_Dropdown::set_MultiSelect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x694d654;
+  constexpr static std::size_t addrs = 0x6d5407c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "set_MultiSelect", {}, { ::i2c::type_of<bool>() } })));
@@ -1270,7 +1270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x694d65c;
+  constexpr static std::size_t addrs = 0x6d54084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { ".ctor", {}, {} })));
@@ -1282,7 +1282,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::Awake)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x694d824;
+  constexpr static std::size_t addrs = 0x6d5424c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { ::i2c::class_of<::TMPro::TMP_Dropdown*>(), 4 }));
@@ -1294,7 +1294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::Start)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x694d94c;
+  constexpr static std::size_t addrs = 0x6d54374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { ::i2c::class_of<::TMPro::TMP_Dropdown*>(), 6 }));
@@ -1306,7 +1306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::OnDisable)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x694d9d8;
+  constexpr static std::size_t addrs = 0x6d54400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { ::i2c::class_of<::TMPro::TMP_Dropdown*>(), 7 }));
@@ -1318,7 +1318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::RefreshShownValue)> {
   constexpr static std::size_t size = 0x49c;
-  constexpr static std::size_t addrs = 0x694ce80;
+  constexpr static std::size_t addrs = 0x6d538a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "RefreshShownValue", {}, {} })));
@@ -1331,7 +1331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_OptionData*>*)>(
     &::TMPro::TMP_Dropdown::AddOptions)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x694dd50;
+  constexpr static std::size_t addrs = 0x6d54778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1345,7 +1345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::System::Collections::Generic::List_1<::StringW>*)>(&::TMPro::TMP_Dropdown::AddOptions)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x694ddd4;
+  constexpr static std::size_t addrs = 0x6d547fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1358,7 +1358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Sprite>>*)>(&::TMPro::TMP_Dropdown::AddOptions)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x694df54;
+  constexpr static std::size_t addrs = 0x6d5497c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1372,7 +1372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::ClearOptions)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x694e0d4;
+  constexpr static std::size_t addrs = 0x6d54afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "ClearOptions", {}, {} })));
@@ -1384,7 +1384,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::SetupTemplate)> {
   constexpr static std::size_t size = 0x670;
-  constexpr static std::size_t addrs = 0x694e190;
+  constexpr static std::size_t addrs = 0x6d54bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "SetupTemplate", {}, {} })));
@@ -1396,7 +1396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::TMPro::TMP_Dropdown::OnPointerClick)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x694e800;
+  constexpr static std::size_t addrs = 0x6d55228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { ::i2c::class_of<::TMPro::TMP_Dropdown*>(), 42 }));
@@ -1408,7 +1408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::TMPro::TMP_Dropdown::OnSubmit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x694f8d8;
+  constexpr static std::size_t addrs = 0x6d5646c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { ::i2c::class_of<::TMPro::TMP_Dropdown*>(), 43 }));
@@ -1420,7 +1420,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::TMPro::TMP_Dropdown::OnCancel)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x694f8dc;
+  constexpr static std::size_t addrs = 0x6d56470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { ::i2c::class_of<::TMPro::TMP_Dropdown*>(), 44 }));
@@ -1431,8 +1431,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdo
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::Show)> {
-  constexpr static std::size_t size = 0x10d4;
-  constexpr static std::size_t addrs = 0x694e804;
+  constexpr static std::size_t size = 0x1240;
+  constexpr static std::size_t addrs = 0x6d5522c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "Show", {}, {} })));
@@ -1444,7 +1444,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, int32_t)>(&::TMPro::TMP_Dropdown::IsEverythingValue)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x694dc44;
+  constexpr static std::size_t addrs = 0x6d5466c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1457,7 +1457,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::TMPro::TMP_Dropdown::EverythingValue)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x694fe64;
+  constexpr static std::size_t addrs = 0x6d569f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "EverythingValue", {}, { ::i2c::type_of<int32_t>() } })));
@@ -1469,7 +1469,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::TMPro::TMP_Dropdown::*)(::UnityEngine::Canvas*)>(&::TMPro::TMP_Dropdown::CreateBlocker)> {
   constexpr static std::size_t size = 0x560;
-  constexpr static std::size_t addrs = 0x694fed8;
+  constexpr static std::size_t addrs = 0x6d56a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { ::i2c::class_of<::TMPro::TMP_Dropdown*>(), 45 }));
@@ -1481,7 +1481,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::GameObject*)>(&::TMPro::TMP_Dropdown::DestroyBlocker)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6950438;
+  constexpr static std::size_t addrs = 0x6d56fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { ::i2c::class_of<::TMPro::TMP_Dropdown*>(), 46 }));
@@ -1493,7 +1493,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::TMPro::TMP_Dropdown::*)(::UnityEngine::GameObject*)>(&::TMPro::TMP_Dropdown::CreateDropdownList)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6950494;
+  constexpr static std::size_t addrs = 0x6d57028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { ::i2c::class_of<::TMPro::TMP_Dropdown*>(), 47 }));
@@ -1505,7 +1505,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::GameObject*)>(&::TMPro::TMP_Dropdown::DestroyDropdownList)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6950508;
+  constexpr static std::size_t addrs = 0x6d5709c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { ::i2c::class_of<::TMPro::TMP_Dropdown*>(), 48 }));
@@ -1518,7 +1518,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_Dropdown_DropdownItem> (::TMPro::TMP_Dropdown::*)(::TMPro::TMP_Dropdown_DropdownItem*)>(
     &::TMPro::TMP_Dropdown::CreateItem)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6950564;
+  constexpr static std::size_t addrs = 0x6d570f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { ::i2c::class_of<::TMPro::TMP_Dropdown*>(), 49 }));
@@ -1530,7 +1530,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::TMPro::TMP_Dropdown_DropdownItem*)>(&::TMPro::TMP_Dropdown::DestroyItem)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69505d8;
+  constexpr static std::size_t addrs = 0x6d5716c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { ::i2c::class_of<::TMPro::TMP_Dropdown*>(), 50 }));
@@ -1544,7 +1544,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_Dro
     ::TMPro::TMP_Dropdown_OptionData*, bool, ::TMPro::TMP_Dropdown_DropdownItem*, ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Dropdown_DropdownItem>>*)>(
     &::TMPro::TMP_Dropdown::AddItem)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x694f9fc;
+  constexpr static std::size_t addrs = 0x6d56590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1561,7 +1561,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(float_t, float_t)>(&::TMPro::TMP_Dropdown::AlphaFadeList)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x69505dc;
+  constexpr static std::size_t addrs = 0x6d57170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1574,7 +1574,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(float_t, float_t, float_t)>(&::TMPro::TMP_Dropdown::AlphaFadeList)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x694fd30;
+  constexpr static std::size_t addrs = 0x6d568c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1588,7 +1588,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(float_t)>(&::TMPro::TMP_Dropdown::SetAlpha)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6950660;
+  constexpr static std::size_t addrs = 0x6d571f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "SetAlpha", {}, { ::i2c::type_of<float_t>() } })));
@@ -1600,7 +1600,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::Hide)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x694f8e0;
+  constexpr static std::size_t addrs = 0x6d56474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "Hide", {}, {} })));
@@ -1612,7 +1612,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::TMPro::TMP_Dropdown::*)(float_t)>(&::TMPro::TMP_Dropdown::DelayedDestroyDropdownList)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x695071c;
+  constexpr static std::size_t addrs = 0x6d572b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1625,7 +1625,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::ImmediateDestroyDropdownList)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x694da70;
+  constexpr static std::size_t addrs = 0x6d54498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "ImmediateDestroyDropdownList", {}, {} })));
@@ -1637,7 +1637,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::UI::Toggle*)>(&::TMPro::TMP_Dropdown::OnSelectItem)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x6950788;
+  constexpr static std::size_t addrs = 0x6d5731c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1650,7 +1650,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::TMPro::TMP_Dropdown::FirstActiveFlagIndex)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x694dc1c;
+  constexpr static std::size_t addrs = 0x6d54644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "FirstActiveFlagIndex", {}, { ::i2c::type_of<int32_t>() } })));

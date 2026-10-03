@@ -93,7 +93,7 @@ public:
   static ::GlobalNamespace::OVRBoundary_Node const Head;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7241 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -148,7 +148,7 @@ public:
   static ::GlobalNamespace::OVRBoundary_BoundaryType const PlayArea;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7242 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -182,7 +182,7 @@ public:
   constexpr OVRBoundary_BoundaryTestResult(bool IsTriggering, float_t ClosestDistance, ::UnityEngine::Vector3 ClosestPoint, ::UnityEngine::Vector3 ClosestPointNormal) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7243 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -239,31 +239,31 @@ public:
   /// @brief Field cachedVector3fSize, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_cachedVector3fSize, put = setStaticF_cachedVector3fSize)) int32_t cachedVector3fSize;
 
-  /// @brief Method GetConfigured, addr 0x5e185d4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetConfigured, addr 0x6232350, size 0xa0, virtual false, abstract: false, final false
   inline bool GetConfigured();
 
-  /// @brief Method GetDimensions, addr 0x5e18c34, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetDimensions, addr 0x62329b0, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetDimensions(::GlobalNamespace::OVRBoundary_BoundaryType boundaryType);
 
-  /// @brief Method GetGeometry, addr 0x5e18824, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method GetGeometry, addr 0x62325a0, size 0x3e0, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3> GetGeometry(::GlobalNamespace::OVRBoundary_BoundaryType boundaryType);
 
   /// [Obsolete("Deprecated. This function will not be supported in OpenXR", false)]
-  /// @brief Method GetVisible, addr 0x5e18d14, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetVisible, addr 0x6232a90, size 0xa0, virtual false, abstract: false, final false
   inline bool GetVisible();
 
   static inline ::GlobalNamespace::OVRBoundary* New_ctor();
 
   /// [Obsolete("Deprecated. This function will not be supported in OpenXR", false)]
-  /// @brief Method SetVisible, addr 0x5e18db4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetVisible, addr 0x6232b30, size 0xa4, virtual false, abstract: false, final false
   inline void SetVisible(bool value);
 
   /// [Obsolete("Deprecated. This function will not be supported in OpenXR", false)]
-  /// @brief Method TestNode, addr 0x5e18674, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method TestNode, addr 0x62323f0, size 0xc4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRBoundary_BoundaryTestResult TestNode(::GlobalNamespace::OVRBoundary_Node node, ::GlobalNamespace::OVRBoundary_BoundaryType boundaryType);
 
   /// [Obsolete("Deprecated. This function will not be supported in OpenXR", false)]
-  /// @brief Method TestPoint, addr 0x5e18738, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method TestPoint, addr 0x62324b4, size 0xe4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRBoundary_BoundaryTestResult TestPoint(::UnityEngine::Vector3 point, ::GlobalNamespace::OVRBoundary_BoundaryType boundaryType);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& __cordl_internal_get_cachedGeometryList() const;
@@ -272,7 +272,7 @@ public:
 
   constexpr void __cordl_internal_set_cachedGeometryList(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x5e18e58, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6232bd4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<float_t> getStaticF_cachedGeometryManagedBuffer();
@@ -302,7 +302,7 @@ public:
   OVRBoundary(OVRBoundary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7244 };
 
   /// @brief Field cachedGeometryList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ___cachedGeometryList;

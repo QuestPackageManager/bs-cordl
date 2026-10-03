@@ -75,18 +75,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE LightColorEventHandler_GetColorDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x59936c4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5dae62c, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5993784, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5dae6ec, size 0x28, virtual true, abstract: false, final false
   inline ::UnityEngine::Color EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x59936b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5dae618, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::Color Invoke(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
   static inline ::GlobalNamespace::LightColorEventHandler_GetColorDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5991a88, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dac970, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -104,7 +104,7 @@ public:
   LightColorEventHandler_GetColorDelegate(LightColorEventHandler_GetColorDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5957 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -199,11 +199,11 @@ public:
 
   constexpr void __cordl_internal_set_tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x5991af4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dac9dc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::IBpmController* bpmController, ::GlobalNamespace::LightColorEventHandler_GetColorDelegate* getColor);
 
-  /// @brief Method .ctor, addr 0x59937ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dae714, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager,
                     ::GlobalNamespace::IBpmController* bpmController, ::GlobalNamespace::LightColorEventHandler_GetColorDelegate* getColor);
 
@@ -222,7 +222,7 @@ public:
   LightColorEventHandler_InitData(LightColorEventHandler_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5958 };
 
   /// @brief Field lightId, offset: 0x10, size: 0x4, def value: None
   int32_t ___lightId;
@@ -338,22 +338,22 @@ public:
   /// @brief Field _usingBoostColors, offset 0xa1, size 0x1
   __declspec(property(get = __cordl_internal_get__usingBoostColors, put = __cordl_internal_set__usingBoostColors)) bool _usingBoostColors;
 
-  /// @brief Method Cleanup, addr 0x598f804, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5daa51c, size 0x8c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleColorEvent, addr 0x599257c, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method HandleColorEvent, addr 0x5dad464, size 0x448, virtual false, abstract: false, final false
   inline void HandleColorEvent(::GlobalNamespace::LightColorBeatmapEventData* currentEventData);
 
   static inline ::GlobalNamespace::LightColorEventHandler* New_ctor(::GlobalNamespace::LightColorEventHandler_InitData* initData);
 
-  /// @brief Method SetColor, addr 0x59933ac, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x5dae314, size 0x19c, virtual false, abstract: false, final false
   inline void SetColor(float_t t);
 
-  /// @brief Method SetData, addr 0x5993548, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5dae4b0, size 0x168, virtual false, abstract: false, final false
   inline void SetData(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor, float_t fromStrobeBeatFrequency,
                       float_t toStrobeBeatFrequency, float_t fromStrobeBrightness, float_t toStrobeBrightness, bool strobeFade);
 
-  /// @brief Method UseBoostColors, addr 0x5992ca0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method UseBoostColors, addr 0x5dadb88, size 0x160, virtual false, abstract: false, final false
   inline void UseBoostColors(bool useBoostColors);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__alternativeFromColor() const;
@@ -470,7 +470,7 @@ public:
 
   constexpr void __cordl_internal_set__usingBoostColors(bool value);
 
-  /// @brief Method .ctor, addr 0x5991b10, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dac9f8, size 0x2ac, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightColorEventHandler_InitData* initData);
 
 protected:
@@ -488,7 +488,7 @@ public:
   LightColorEventHandler(LightColorEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5959 };
 
   /// @brief Field _lightId, offset: 0x10, size: 0x4, def value: None
   int32_t ____lightId;

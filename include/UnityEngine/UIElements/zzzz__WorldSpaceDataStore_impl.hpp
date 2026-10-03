@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::WorldSpaceData)>(
     &::UnityEngine::UIElements::WorldSpaceDataStore::SetWorldSpaceData)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6cd17a4;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x715e35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,12 +26,38 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::WorldSpaceData (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::WorldSpaceDataStore::GetWorldSpaceData)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6cd186c;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x715e42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::WorldSpaceDataStore*>(),
                                                                                            { "GetWorldSpaceData", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::WorldSpaceDataStore.ClearWorldSpaceData
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::WorldSpaceDataStore::ClearWorldSpaceData)> {
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x715e524;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::WorldSpaceDataStore*>(),
+                                                                                           { "ClearWorldSpaceData", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::WorldSpaceDataStore.ClearLocalBounds3DData
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::WorldSpaceDataStore::ClearLocalBounds3DData)> {
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x715e630;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::WorldSpaceDataStore*>(),
+                                                                                           { "ClearLocalBounds3DData", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
     return ___internal_method;
   }
 };
@@ -55,6 +81,16 @@ inline ::UnityEngine::UIElements::WorldSpaceData UnityEngine::UIElements::WorldS
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::WorldSpaceDataStore*>(),
                                                                                          { "GetWorldSpaceData", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::WorldSpaceData>(nullptr, ___internal_method, ve);
+}
+inline void UnityEngine::UIElements::WorldSpaceDataStore::ClearWorldSpaceData(::UnityEngine::UIElements::VisualElement* ve) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::WorldSpaceDataStore*>(),
+                                                                                         { "ClearWorldSpaceData", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ve);
+}
+inline void UnityEngine::UIElements::WorldSpaceDataStore::ClearLocalBounds3DData(::UnityEngine::UIElements::VisualElement* ve) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::WorldSpaceDataStore*>(),
+                                                                                         { "ClearLocalBounds3DData", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ve);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::WorldSpaceDataStore::WorldSpaceDataStore() {}

@@ -7,7 +7,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceAmbientOcclusionSettings_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RTHandle_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
@@ -29,9 +28,6 @@ struct TextureHandle;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class UnsafeGraphContext;
-}
-namespace UnityEngine::Rendering::Universal {
-struct RenderingData;
 }
 namespace UnityEngine::Rendering::Universal {
 struct ScreenSpaceAmbientOcclusionPass_BlurTypes;
@@ -69,17 +65,14 @@ class ContextContainer;
 namespace UnityEngine::Rendering {
 class ProfilingSampler;
 }
-namespace UnityEngine::Rendering {
-class RTHandle;
-}
-namespace UnityEngine::Rendering {
-struct ScriptableRenderContext;
-}
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
 class Texture2D;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::Universal {
@@ -156,7 +149,7 @@ public:
   static ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_BlurTypes const Kawase;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12878 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13111 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -243,7 +236,7 @@ public:
   static ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses const KawaseBlur;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12879 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13112 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -266,10 +259,10 @@ namespace UnityEngine::Rendering::Universal {
 struct CORDL_TYPE ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x68a5c08, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6cdc1f8, size 0xf0, virtual false, abstract: false, final false
   inline bool Equals(::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams> other);
 
-  /// @brief Method .ctor, addr 0x68a5b28, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cdc118, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings*> settings, bool isOrthographic);
 
   // Ctor Parameters []
@@ -286,7 +279,7 @@ public:
                                                                bool sourceDepthNormals, bool sourceDepthHigh, bool sourceDepthMedium, bool sourceDepthLow, ::UnityEngine::Vector4 ssaoParams) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13113 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
@@ -375,6 +368,9 @@ public:
   /// @brief Field cameraColor, offset 0x24, size 0x10
   __declspec(property(get = __cordl_internal_get_cameraColor, put = __cordl_internal_set_cameraColor)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle cameraColor;
 
+  /// @brief Field cameraData, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_cameraData, put = __cordl_internal_set_cameraData)) ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData;
+
   /// @brief Field cameraNormalsTexture, offset 0x64, size 0x10
   __declspec(property(get = __cordl_internal_get_cameraNormalsTexture,
                       put = __cordl_internal_set_cameraNormalsTexture)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle cameraNormalsTexture;
@@ -410,6 +406,10 @@ public:
 
   constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_cameraColor();
 
+  constexpr ::UnityEngine::Rendering::Universal::UniversalCameraData* const& __cordl_internal_get_cameraData() const;
+
+  constexpr ::UnityEngine::Rendering::Universal::UniversalCameraData*& __cordl_internal_get_cameraData();
+
   constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_cameraNormalsTexture() const;
 
   constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_cameraNormalsTexture();
@@ -436,6 +436,8 @@ public:
 
   constexpr void __cordl_internal_set_cameraColor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
+  constexpr void __cordl_internal_set_cameraData(::UnityEngine::Rendering::Universal::UniversalCameraData* value);
+
   constexpr void __cordl_internal_set_cameraNormalsTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
   constexpr void __cordl_internal_set_directLightingStrength(float_t value);
@@ -444,7 +446,7 @@ public:
 
   constexpr void __cordl_internal_set_material(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x68a5048, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cdd6dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -462,7 +464,7 @@ public:
   ScreenSpaceAmbientOcclusionPass_SSAOPassData(ScreenSpaceAmbientOcclusionPass_SSAOPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13114 };
 
   /// @brief Field afterOpaque, offset: 0x10, size: 0x1, def value: None
   bool ___afterOpaque;
@@ -491,6 +493,9 @@ public:
   /// @brief Field cameraNormalsTexture, offset: 0x64, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___cameraNormalsTexture;
 
+  /// @brief Field cameraData, offset: 0x78, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::UniversalCameraData* ___cameraData;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -512,7 +517,9 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOc
 
 static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData, ___cameraNormalsTexture) == 0x64, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData) == 0x78, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData, ___cameraData) == 0x78, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
 // [CompilerGenerated]
@@ -526,29 +533,29 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass___c* __9;
 
-  /// @brief Field <>9__52_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__52_0,
-                      put = setStaticF___9__52_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData*,
-                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* __9__52_0;
+  /// @brief Field <>9__37_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__37_0,
+                      put = setStaticF___9__37_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData*,
+                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* __9__37_0;
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__52_0, addr 0x68a8478, size 0x6cc, virtual false, abstract: false, final false
-  inline void _RecordRenderGraph_b__52_0(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData* data,
+  /// @brief Method <RecordRenderGraph>b__37_0, addr 0x6cdd738, size 0x6ec, virtual false, abstract: false, final false
+  inline void _RecordRenderGraph_b__37_0(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData* data,
                                          ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* rgContext);
 
-  /// @brief Method .ctor, addr 0x68a8474, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cdd734, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass___c* getStaticF___9();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*
-  getStaticF___9__52_0();
+  getStaticF___9__37_0();
 
   static inline void setStaticF___9(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass___c* value);
 
-  static inline void setStaticF___9__52_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData*,
+  static inline void setStaticF___9__37_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData*,
                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* value);
 
 protected:
@@ -566,7 +573,7 @@ public:
   ScreenSpaceAmbientOcclusionPass___c(ScreenSpaceAmbientOcclusionPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13115 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -574,9 +581,8 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
-// Dependencies UnityEngine.Matrix4x4, UnityEngine.RenderTextureDescriptor, UnityEngine.Rendering.RTHandle, UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionPass::BlurTypes,
-// UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionPass::SSAOMaterialParams, UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionPass::ShaderPasses,
-// UnityEngine.Rendering.Universal.ScriptableRenderPass, UnityEngine.Texture2D, UnityEngine.Vector4
+// Dependencies UnityEngine.Matrix4x4, UnityEngine.RenderTextureDescriptor, UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionPass::BlurTypes,
+// UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionPass::SSAOMaterialParams, UnityEngine.Rendering.Universal.ScriptableRenderPass, UnityEngine.Texture2D, UnityEngine.Vector4
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionPass
@@ -593,94 +599,48 @@ public:
 
   using __c = ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass___c;
 
-  __declspec(property(get = get_isRendererDeferred)) bool isRendererDeferred;
-
-  /// @brief Field m_AOPassDescriptor, offset 0x120, size 0x34
+  /// @brief Field m_AOPassDescriptor, offset 0xb0, size 0x34
   __declspec(property(get = __cordl_internal_get_m_AOPassDescriptor, put = __cordl_internal_set_m_AOPassDescriptor)) ::UnityEngine::RenderTextureDescriptor m_AOPassDescriptor;
 
-  /// @brief Field m_BilateralAfterOpaquePasses, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_m_BilateralAfterOpaquePasses,
-                      put = setStaticF_m_BilateralAfterOpaquePasses)) ::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses>
-      m_BilateralAfterOpaquePasses;
-
-  /// @brief Field m_BilateralPasses, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_m_BilateralPasses, put = setStaticF_m_BilateralPasses)) ::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses>
-      m_BilateralPasses;
-
-  /// @brief Field m_BilateralTexturesIndices, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_m_BilateralTexturesIndices, put = setStaticF_m_BilateralTexturesIndices)) ::ArrayW<int32_t> m_BilateralTexturesIndices;
-
-  /// @brief Field m_BlueNoiseTextureIndex, offset 0xbc, size 0x4
+  /// @brief Field m_BlueNoiseTextureIndex, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_m_BlueNoiseTextureIndex, put = __cordl_internal_set_m_BlueNoiseTextureIndex)) int32_t m_BlueNoiseTextureIndex;
 
-  /// @brief Field m_BlueNoiseTextures, offset 0xd0, size 0x8
+  /// @brief Field m_BlueNoiseTextures, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_m_BlueNoiseTextures, put = __cordl_internal_set_m_BlueNoiseTextures)) ::ArrayW<::UnityW<::UnityEngine::Texture2D>> m_BlueNoiseTextures;
 
-  /// @brief Field m_BlurType, offset 0x100, size 0x4
+  /// @brief Field m_BlurType, offset 0x98, size 0x4
   __declspec(property(get = __cordl_internal_get_m_BlurType, put = __cordl_internal_set_m_BlurType)) ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_BlurTypes m_BlurType;
 
-  /// @brief Field m_CameraTopLeftCorner, offset 0xd8, size 0x8
+  /// @brief Field m_CameraTopLeftCorner, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CameraTopLeftCorner, put = __cordl_internal_set_m_CameraTopLeftCorner)) ::ArrayW<::UnityEngine::Vector4> m_CameraTopLeftCorner;
 
-  /// @brief Field m_CameraViewProjections, offset 0x108, size 0x8
+  /// @brief Field m_CameraViewProjections, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CameraViewProjections, put = __cordl_internal_set_m_CameraViewProjections)) ::ArrayW<::UnityEngine::Matrix4x4> m_CameraViewProjections;
 
-  /// @brief Field m_CameraXExtent, offset 0xe0, size 0x8
+  /// @brief Field m_CameraXExtent, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CameraXExtent, put = __cordl_internal_set_m_CameraXExtent)) ::ArrayW<::UnityEngine::Vector4> m_CameraXExtent;
 
-  /// @brief Field m_CameraYExtent, offset 0xe8, size 0x8
+  /// @brief Field m_CameraYExtent, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CameraYExtent, put = __cordl_internal_set_m_CameraYExtent)) ::ArrayW<::UnityEngine::Vector4> m_CameraYExtent;
 
-  /// @brief Field m_CameraZExtent, offset 0xf0, size 0x8
+  /// @brief Field m_CameraZExtent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CameraZExtent, put = __cordl_internal_set_m_CameraZExtent)) ::ArrayW<::UnityEngine::Vector4> m_CameraZExtent;
 
-  /// @brief Field m_CurrentSettings, offset 0x158, size 0x8
+  /// @brief Field m_CurrentSettings, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CurrentSettings,
                       put = __cordl_internal_set_m_CurrentSettings)) ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings* m_CurrentSettings;
 
-  /// @brief Field m_GaussianAfterOpaquePasses, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_m_GaussianAfterOpaquePasses,
-                      put = setStaticF_m_GaussianAfterOpaquePasses)) ::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses>
-      m_GaussianAfterOpaquePasses;
-
-  /// @brief Field m_GaussianPasses, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_m_GaussianPasses, put = setStaticF_m_GaussianPasses)) ::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses>
-      m_GaussianPasses;
-
-  /// @brief Field m_GaussianTexturesIndices, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_m_GaussianTexturesIndices, put = setStaticF_m_GaussianTexturesIndices)) ::ArrayW<int32_t> m_GaussianTexturesIndices;
-
-  /// @brief Field m_KawaseAfterOpaquePasses, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_m_KawaseAfterOpaquePasses,
-                      put = setStaticF_m_KawaseAfterOpaquePasses)) ::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses>
-      m_KawaseAfterOpaquePasses;
-
-  /// @brief Field m_KawasePasses, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_m_KawasePasses, put = setStaticF_m_KawasePasses)) ::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses> m_KawasePasses;
-
-  /// @brief Field m_KawaseTexturesIndices, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_m_KawaseTexturesIndices, put = setStaticF_m_KawaseTexturesIndices)) ::ArrayW<int32_t> m_KawaseTexturesIndices;
-
-  /// @brief Field m_Material, offset 0xc0, size 0x8
+  /// @brief Field m_Material, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Material, put = __cordl_internal_set_m_Material)) ::UnityW<::UnityEngine::Material> m_Material;
 
-  /// @brief Field m_PassData, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PassData, put = __cordl_internal_set_m_PassData)) ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData* m_PassData;
-
-  /// @brief Field m_ProfilingSampler, offset 0x110, size 0x8
+  /// @brief Field m_ProfilingSampler, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ProfilingSampler, put = __cordl_internal_set_m_ProfilingSampler)) ::UnityEngine::Rendering::ProfilingSampler* m_ProfilingSampler;
 
-  /// @brief Field m_Renderer, offset 0x118, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Renderer, put = __cordl_internal_set_m_Renderer)) ::UnityEngine::Rendering::Universal::ScriptableRenderer* m_Renderer;
-
-  /// @brief Field m_SSAOParamsPrev, offset 0x160, size 0x1c
+  /// @brief Field m_SSAOParamsPrev, offset 0xf0, size 0x1c
   __declspec(property(get = __cordl_internal_get_m_SSAOParamsPrev,
                       put = __cordl_internal_set_m_SSAOParamsPrev)) ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams m_SSAOParamsPrev;
 
-  /// @brief Field m_SSAOTextures, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SSAOTextures, put = __cordl_internal_set_m_SSAOTextures)) ::ArrayW<::UnityEngine::Rendering::RTHandle*> m_SSAOTextures;
-
-  /// @brief Field m_SupportsR8RenderTextureFormat, offset 0xb8, size 0x1
+  /// @brief Field m_SupportsR8RenderTextureFormat, offset 0x5c, size 0x1
   __declspec(property(get = __cordl_internal_get_m_SupportsR8RenderTextureFormat, put = __cordl_internal_set_m_SupportsR8RenderTextureFormat)) bool m_SupportsR8RenderTextureFormat;
 
   /// @brief Field s_AmbientOcclusionParamID, offset 0xffffffff, size 0x4
@@ -688,9 +648,6 @@ public:
 
   /// @brief Field s_BlueNoiseTextureID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_BlueNoiseTextureID, put = setStaticF_s_BlueNoiseTextureID)) int32_t s_BlueNoiseTextureID;
-
-  /// @brief Field s_CameraDepthTextureID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_CameraDepthTextureID, put = setStaticF_s_CameraDepthTextureID)) int32_t s_CameraDepthTextureID;
 
   /// @brief Field s_CameraNormalsTextureID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_CameraNormalsTextureID, put = setStaticF_s_CameraNormalsTextureID)) int32_t s_CameraNormalsTextureID;
@@ -722,52 +679,36 @@ public:
   /// @brief Field s_SSAOParamsID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_SSAOParamsID, put = setStaticF_s_SSAOParamsID)) int32_t s_SSAOParamsID;
 
-  /// @brief Method CreateRenderTextureHandles, addr 0x68a67e0, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method ComputeScaleBias, addr 0x6cdc330, size 0x144, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector4 ComputeScaleBias(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*> context,
+                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
+
+  /// @brief Method CreateRenderTextureHandles, addr 0x6cdd00c, size 0x340, virtual false, abstract: false, final false
   inline void CreateRenderTextureHandles(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                                          ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> aoTexture,
                                          ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> blurTexture,
                                          ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> finalTexture);
 
-  /// @brief Method Dispose, addr 0x68a7e3c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6cdd420, size 0x10, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Execute, addr 0x68a7234, size 0x65c, virtual true, abstract: false, final false
-  inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
-
-  /// @brief Method GetPassOrder, addr 0x68a7890, size 0x1c8, virtual false, abstract: false, final false
-  static inline void GetPassOrder(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_BlurTypes blurType, bool isAfterOpaque, ::by_ref<::ArrayW<int32_t>> textureIndices,
-                                  ::by_ref<::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses>> shaderPasses);
-
-  /// @brief Method InitSSAOPassData, addr 0x68a5cf8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method InitSSAOPassData, addr 0x6cdc2e8, size 0x48, virtual false, abstract: false, final false
   inline void InitSSAOPassData(::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData*> data);
-
-  /// @brief Method IsAfterOpaquePass, addr 0x68a51f4, size 0x1c, virtual false, abstract: false, final false
-  static inline bool IsAfterOpaquePass(::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses> pass);
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass* New_ctor();
 
-  /// @brief Method OnCameraCleanup, addr 0x68a7d64, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x6cdd34c, size 0xd4, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method OnCameraSetup, addr 0x68a6b24, size 0x324, virtual true, abstract: false, final false
-  inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
-
-  /// @brief Method RecordRenderGraph, addr 0x68a5d40, size 0xaa0, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6cdc474, size 0xb98, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method RenderAndSetBaseMap, addr 0x68a7a58, size 0x30c, virtual false, abstract: false, final false
-  static inline void RenderAndSetBaseMap(::by_ref<::UnityEngine::Rendering::CommandBuffer*> cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData,
-                                         ::by_ref<::UnityEngine::Rendering::Universal::ScriptableRenderer*> renderer, ::by_ref<::UnityEngine::Material*> mat,
-                                         ::by_ref<::UnityEngine::Rendering::RTHandle*> baseMap, ::by_ref<::UnityEngine::Rendering::RTHandle*> target,
-                                         ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses pass);
-
-  /// @brief Method Setup, addr 0x68a504c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6cdb604, size 0x1c4, virtual false, abstract: false, final false
   inline bool Setup(::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings*> featureSettings, ::by_ref<::UnityEngine::Rendering::Universal::ScriptableRenderer*> renderer,
                     ::by_ref<::UnityEngine::Material*> material, ::by_ref<::ArrayW<::UnityEngine::Texture2D*>> blueNoiseTextures);
 
-  /// @brief Method SetupKeywordsAndParameters, addr 0x68a5210, size 0x918, virtual false, abstract: false, final false
+  /// @brief Method SetupKeywordsAndParameters, addr 0x6cdb7c8, size 0x950, virtual false, abstract: false, final false
   inline void SetupKeywordsAndParameters(::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings*> settings,
                                          ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData);
 
@@ -815,25 +756,13 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_m_Material();
 
-  constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData* const& __cordl_internal_get_m_PassData() const;
-
-  constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData*& __cordl_internal_get_m_PassData();
-
   constexpr ::UnityEngine::Rendering::ProfilingSampler* const& __cordl_internal_get_m_ProfilingSampler() const;
 
   constexpr ::UnityEngine::Rendering::ProfilingSampler*& __cordl_internal_get_m_ProfilingSampler();
 
-  constexpr ::UnityEngine::Rendering::Universal::ScriptableRenderer* const& __cordl_internal_get_m_Renderer() const;
-
-  constexpr ::UnityEngine::Rendering::Universal::ScriptableRenderer*& __cordl_internal_get_m_Renderer();
-
   constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams const& __cordl_internal_get_m_SSAOParamsPrev() const;
 
   constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams& __cordl_internal_get_m_SSAOParamsPrev();
-
-  constexpr ::ArrayW<::UnityEngine::Rendering::RTHandle*> const& __cordl_internal_get_m_SSAOTextures() const;
-
-  constexpr ::ArrayW<::UnityEngine::Rendering::RTHandle*>& __cordl_internal_get_m_SSAOTextures();
 
   constexpr bool const& __cordl_internal_get_m_SupportsR8RenderTextureFormat() const;
 
@@ -861,44 +790,18 @@ public:
 
   constexpr void __cordl_internal_set_m_Material(::UnityW<::UnityEngine::Material> value);
 
-  constexpr void __cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData* value);
-
   constexpr void __cordl_internal_set_m_ProfilingSampler(::UnityEngine::Rendering::ProfilingSampler* value);
-
-  constexpr void __cordl_internal_set_m_Renderer(::UnityEngine::Rendering::Universal::ScriptableRenderer* value);
 
   constexpr void __cordl_internal_set_m_SSAOParamsPrev(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams value);
 
-  constexpr void __cordl_internal_set_m_SSAOTextures(::ArrayW<::UnityEngine::Rendering::RTHandle*> value);
-
   constexpr void __cordl_internal_set_m_SupportsR8RenderTextureFormat(bool value);
 
-  /// @brief Method .ctor, addr 0x68a4e58, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cdb494, size 0x140, virtual false, abstract: false, final false
   inline void _ctor();
-
-  static inline ::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses> getStaticF_m_BilateralAfterOpaquePasses();
-
-  static inline ::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses> getStaticF_m_BilateralPasses();
-
-  static inline ::ArrayW<int32_t> getStaticF_m_BilateralTexturesIndices();
-
-  static inline ::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses> getStaticF_m_GaussianAfterOpaquePasses();
-
-  static inline ::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses> getStaticF_m_GaussianPasses();
-
-  static inline ::ArrayW<int32_t> getStaticF_m_GaussianTexturesIndices();
-
-  static inline ::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses> getStaticF_m_KawaseAfterOpaquePasses();
-
-  static inline ::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses> getStaticF_m_KawasePasses();
-
-  static inline ::ArrayW<int32_t> getStaticF_m_KawaseTexturesIndices();
 
   static inline int32_t getStaticF_s_AmbientOcclusionParamID();
 
   static inline int32_t getStaticF_s_BlueNoiseTextureID();
-
-  static inline int32_t getStaticF_s_CameraDepthTextureID();
 
   static inline int32_t getStaticF_s_CameraNormalsTextureID();
 
@@ -920,32 +823,9 @@ public:
 
   static inline int32_t getStaticF_s_SSAOParamsID();
 
-  /// @brief Method get_isRendererDeferred, addr 0x68a4de4, size 0x74, virtual false, abstract: false, final false
-  inline bool get_isRendererDeferred();
-
-  static inline void setStaticF_m_BilateralAfterOpaquePasses(::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses> value);
-
-  static inline void setStaticF_m_BilateralPasses(::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses> value);
-
-  static inline void setStaticF_m_BilateralTexturesIndices(::ArrayW<int32_t> value);
-
-  static inline void setStaticF_m_GaussianAfterOpaquePasses(::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses> value);
-
-  static inline void setStaticF_m_GaussianPasses(::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses> value);
-
-  static inline void setStaticF_m_GaussianTexturesIndices(::ArrayW<int32_t> value);
-
-  static inline void setStaticF_m_KawaseAfterOpaquePasses(::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses> value);
-
-  static inline void setStaticF_m_KawasePasses(::ArrayW<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses> value);
-
-  static inline void setStaticF_m_KawaseTexturesIndices(::ArrayW<int32_t> value);
-
   static inline void setStaticF_s_AmbientOcclusionParamID(int32_t value);
 
   static inline void setStaticF_s_BlueNoiseTextureID(int32_t value);
-
-  static inline void setStaticF_s_CameraDepthTextureID(int32_t value);
 
   static inline void setStaticF_s_CameraNormalsTextureID(int32_t value);
 
@@ -982,7 +862,7 @@ public:
   ScreenSpaceAmbientOcclusionPass(ScreenSpaceAmbientOcclusionPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13116 };
 
   /// @brief Field k_AmbientOcclusionParamName offset 0xffffffff size 0x8
   static constexpr ::ConstString k_AmbientOcclusionParamName{ u"_AmbientOcclusionParam" };
@@ -990,94 +870,79 @@ public:
   /// @brief Field k_SSAOTextureName offset 0xffffffff size 0x8
   static constexpr ::ConstString k_SSAOTextureName{ u"_ScreenSpaceOcclusionTexture" };
 
-  /// @brief Field m_SupportsR8RenderTextureFormat, offset: 0xb8, size: 0x1, def value: None
+  /// @brief Field m_SupportsR8RenderTextureFormat, offset: 0x5c, size: 0x1, def value: None
   bool ___m_SupportsR8RenderTextureFormat;
 
-  /// @brief Field m_BlueNoiseTextureIndex, offset: 0xbc, size: 0x4, def value: None
+  /// @brief Field m_BlueNoiseTextureIndex, offset: 0x60, size: 0x4, def value: None
   int32_t ___m_BlueNoiseTextureIndex;
 
-  /// @brief Field m_Material, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field m_Material, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_Material;
 
-  /// @brief Field m_PassData, offset: 0xc8, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData* ___m_PassData;
-
-  /// @brief Field m_BlueNoiseTextures, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field m_BlueNoiseTextures, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Texture2D>> ___m_BlueNoiseTextures;
 
-  /// @brief Field m_CameraTopLeftCorner, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field m_CameraTopLeftCorner, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4> ___m_CameraTopLeftCorner;
 
-  /// @brief Field m_CameraXExtent, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field m_CameraXExtent, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4> ___m_CameraXExtent;
 
-  /// @brief Field m_CameraYExtent, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field m_CameraYExtent, offset: 0x88, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4> ___m_CameraYExtent;
 
-  /// @brief Field m_CameraZExtent, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field m_CameraZExtent, offset: 0x90, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4> ___m_CameraZExtent;
 
-  /// @brief Field m_SSAOTextures, offset: 0xf8, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Rendering::RTHandle*> ___m_SSAOTextures;
-
-  /// @brief Field m_BlurType, offset: 0x100, size: 0x4, def value: None
+  /// @brief Field m_BlurType, offset: 0x98, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_BlurTypes ___m_BlurType;
 
-  /// @brief Field m_CameraViewProjections, offset: 0x108, size: 0x8, def value: None
+  /// @brief Field m_CameraViewProjections, offset: 0xa0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Matrix4x4> ___m_CameraViewProjections;
 
-  /// @brief Field m_ProfilingSampler, offset: 0x110, size: 0x8, def value: None
+  /// @brief Field m_ProfilingSampler, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProfilingSampler* ___m_ProfilingSampler;
 
-  /// @brief Field m_Renderer, offset: 0x118, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::ScriptableRenderer* ___m_Renderer;
-
-  /// @brief Field m_AOPassDescriptor, offset: 0x120, size: 0x34, def value: None
+  /// @brief Field m_AOPassDescriptor, offset: 0xb0, size: 0x34, def value: None
   ::UnityEngine::RenderTextureDescriptor ___m_AOPassDescriptor;
 
-  /// @brief Field m_CurrentSettings, offset: 0x158, size: 0x8, def value: None
+  /// @brief Field m_CurrentSettings, offset: 0xe8, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings* ___m_CurrentSettings;
 
-  /// @brief Field m_SSAOParamsPrev, offset: 0x160, size: 0x1c, def value: None
+  /// @brief Field m_SSAOParamsPrev, offset: 0xf0, size: 0x1c, def value: None
   ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams ___m_SSAOParamsPrev;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_SupportsR8RenderTextureFormat) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_SupportsR8RenderTextureFormat) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_BlueNoiseTextureIndex) == 0xbc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_BlueNoiseTextureIndex) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_Material) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_Material) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_PassData) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_BlueNoiseTextures) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_BlueNoiseTextures) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_CameraTopLeftCorner) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_CameraTopLeftCorner) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_CameraXExtent) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_CameraXExtent) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_CameraYExtent) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_CameraYExtent) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_CameraZExtent) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_CameraZExtent) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_BlurType) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_SSAOTextures) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_CameraViewProjections) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_BlurType) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_ProfilingSampler) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_CameraViewProjections) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_AOPassDescriptor) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_ProfilingSampler) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_CurrentSettings) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_Renderer) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_SSAOParamsPrev) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_AOPassDescriptor) == 0x120, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_CurrentSettings) == 0x158, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass, ___m_SSAOParamsPrev) == 0x160, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass) == 0x180, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass) == 0x110, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal

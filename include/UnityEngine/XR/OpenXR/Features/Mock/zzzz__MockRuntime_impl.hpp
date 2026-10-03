@@ -5,6 +5,7 @@
 #include "UnityEngine/XR/OpenXR/Features/Mock/zzzz__MockRuntime_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6a0e2a0;
+  constexpr static std::size_t addrs = 0x6e47b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate*>(),
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate::*)(
     ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent, uint64_t)>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6a0e30c;
+  constexpr static std::size_t addrs = 0x6e47b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate*>(),
@@ -68,7 +69,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate::*)(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent, uint64_t, ::System::AsyncCallback*,
                                                                                    ::System::Object*)>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6a0e320;
+  constexpr static std::size_t addrs = 0x6e47b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate*>(),
@@ -82,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate::*)(::System::IAsyncResult*)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a0e3c4;
+  constexpr static std::size_t addrs = 0x6e47c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate*>(),
@@ -123,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6a0d504;
+  constexpr static std::size_t addrs = 0x6e46c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*>(),
@@ -137,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate::*)(::StringW)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6a0e3d0;
+  constexpr static std::size_t addrs = 0x6e47c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*>(),
@@ -152,7 +153,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6a0e3e4;
+  constexpr static std::size_t addrs = 0x6e47c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*>(),
@@ -166,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate::*)(
     ::System::IAsyncResult*)>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6a0e404;
+  constexpr static std::size_t addrs = 0x6e47c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*>(),
@@ -210,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6a0d580;
+  constexpr static std::size_t addrs = 0x6e46d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*>(),
@@ -224,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate::*)(
     ::StringW, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult)>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6a0e428;
+  constexpr static std::size_t addrs = 0x6e47ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*>(),
@@ -239,7 +240,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate::*)(::StringW, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6a0e43c;
+  constexpr static std::size_t addrs = 0x6e47cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*>(),
@@ -253,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate::*)(::System::IAsyncResult*)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a0e4d4;
+  constexpr static std::size_t addrs = 0x6e47d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*>(),
@@ -294,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate*)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::add_onScriptEvent)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6a0ce54;
+  constexpr static std::size_t addrs = 0x6e46600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -309,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate*)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::remove_onScriptEvent)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6a0cf24;
+  constexpr static std::size_t addrs = 0x6e466d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -323,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime> (*)()>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::get_Instance)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a0cff4;
+  constexpr static std::size_t addrs = 0x6e467a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(), { "get_Instance", {}, {} })));
@@ -336,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent, uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::ReceiveScriptEvent)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6a0cd54;
+  constexpr static std::size_t addrs = 0x6e46500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -351,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(::StringW)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::BeforeFunctionCallback)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6a0cdd8;
+  constexpr static std::size_t addrs = 0x6e46584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -365,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::AfterFunctionCallback)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6a0ce0c;
+  constexpr static std::size_t addrs = 0x6e465b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -381,7 +382,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::StringW, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*)>(
         &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::SetFunctionCallback)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x6a0d170;
+  constexpr static std::size_t addrs = 0x6e468f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -399,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::SetFunctionCallback)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6a0d698;
+  constexpr static std::size_t addrs = 0x6e46e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -415,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::SetFunctionCallback)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6a0d6c4;
+  constexpr static std::size_t addrs = 0x6e46e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -430,8 +431,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate* (*)(::StringW)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::GetBeforeFunctionCallback)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6a0d048;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6e467f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -444,8 +445,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate* (*)(::StringW)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::GetAfterFunctionCallback)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6a0d0dc;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6e46874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -458,7 +459,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::ClearFunctionCallbacks)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a0d6f0;
+  constexpr static std::size_t addrs = 0x6e46e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -471,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::ResetDefaults)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6a0d744;
+  constexpr static std::size_t addrs = 0x6e46ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(), { "ResetDefaults", {}, {} })));
@@ -484,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::OnInstanceDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a0d790;
+  constexpr static std::size_t addrs = 0x6e46f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(),
@@ -497,7 +498,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::HookCreateInstance)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6a0d794;
+  constexpr static std::size_t addrs = 0x6e46f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -510,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::SetKeepFunctionCallbacks)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6a0d80c;
+  constexpr static std::size_t addrs = 0x6e46f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -524,7 +525,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType, int32_t, ::UnityEngine::Vector3, ::UnityEngine::Quaternion,
                                                                 ::UnityEngine::Vector4)>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::SetViewPose)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6a0d888;
+  constexpr static std::size_t addrs = 0x6e4700c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -542,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType, ::UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::SetViewState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6a0d974;
+  constexpr static std::size_t addrs = 0x6e470f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -560,7 +561,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType, ::UnityEngine::Vector3, ::UnityEngine::Quaternion,
                                                                 ::UnityEngine::XR::OpenXR::NativeTypes::XrSpaceLocationFlags)>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::SetSpace)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6a0d9f4;
+  constexpr static std::size_t addrs = 0x6e47178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -578,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpaceLocationFlags)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::SetSpace)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6a0dad0;
+  constexpr static std::size_t addrs = 0x6e47254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -596,7 +597,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate*)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::Internal_RegisterScriptEventCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6a0dbac;
+  constexpr static std::size_t addrs = 0x6e47330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -611,7 +612,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState, bool)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::Internal_TransitionToState)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6a0dc28;
+  constexpr static std::size_t addrs = 0x6e473ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -626,7 +627,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState (*)()>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::Internal_GetSessionState)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6a0dcb0;
+  constexpr static std::size_t addrs = 0x6e47434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -639,7 +640,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::RequestExitSession)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6a0dd14;
+  constexpr static std::size_t addrs = 0x6e47498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -652,7 +653,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::CauseInstanceLoss)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6a0dd78;
+  constexpr static std::size_t addrs = 0x6e474fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -665,11 +666,37 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::CauseUserPresenceChange)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6a0dddc;
+  constexpr static std::size_t addrs = 0x6e47560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(), { "CauseUserPresenceChange", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime.ChangeRecommendedImageRectExtents
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t, uint32_t)>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::ChangeRecommendedImageRectExtents)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6e475dc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(),
+                                                                                           { "ChangeRecommendedImageRectExtents", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime.CauseRecommendedResolutionChangedEvent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::CauseRecommendedResolutionChangedEvent)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6e4765c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(), { "CauseRecommendedResolutionChangedEvent", {}, {} })));
     return ___internal_method;
   }
 };
@@ -679,7 +706,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType, ::UnityEngine::Vector2)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::SetReferenceSpaceBounds)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6a0de58;
+  constexpr static std::size_t addrs = 0x6e476c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -694,7 +721,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<int32_t>, ::by_ref<int32_t>)>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::GetEndFrameStats)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6a0deec;
+  constexpr static std::size_t addrs = 0x6e47754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(),
@@ -708,7 +735,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType, bool)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::ActivateSecondaryView)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6a0df70;
+  constexpr static std::size_t addrs = 0x6e477d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -724,7 +751,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*)>(
         &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::MockRuntime_RegisterFunctionCallbacks)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6a0d600;
+  constexpr static std::size_t addrs = 0x6e46d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(),
@@ -740,7 +767,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, float_t, uint32_t)>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::MetaPerformanceMetrics_SeedCounterOnce_Float)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6a0dff0;
+  constexpr static std::size_t addrs = 0x6e47858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -757,7 +784,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::X
                                                                 ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceNotificationLevel)>(
     &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::PerformanceSettings_CauseNotification)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6a0e098;
+  constexpr static std::size_t addrs = 0x6e47900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -776,7 +803,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceLevelHint (*)(
     ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceDomain)>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::PerformanceSettings_GetPerformanceLevelHint)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6a0e12c;
+  constexpr static std::size_t addrs = 0x6e47994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -791,7 +818,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::Internal_IsAndroidThreadTypeRegistered)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6a0e1a8;
+  constexpr static std::size_t addrs = 0x6e47a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(),
@@ -804,7 +831,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)()>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::Internal_GetRegisteredAndroidThreadsCount)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6a0e22c;
+  constexpr static std::size_t addrs = 0x6e47a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -817,7 +844,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::IsAndroidThreadTypeRegistered)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a0e290;
+  constexpr static std::size_t addrs = 0x6e47af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -830,11 +857,40 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)()>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::GetRegisteredAndroidThreadsCount)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a0e294;
+  constexpr static std::size_t addrs = 0x6e47afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(), { "GetRegisteredAndroidThreadsCount", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime.AddTestHookGetInstanceProcAddr
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::*)(::System::Func_2<::System::IntPtr, ::System::IntPtr>*)>(
+    &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::AddTestHookGetInstanceProcAddr)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6e47b00;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(),
+                                                             { "AddTestHookGetInstanceProcAddr", {}, { ::i2c::type_of<::System::Func_2<::System::IntPtr, ::System::IntPtr>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime.ClearTestHookGetInstanceProcAddr
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::*)()>(
+    &::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::ClearTestHookGetInstanceProcAddr)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6e47b08;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(), { "ClearTestHookGetInstanceProcAddr", {}, {} })));
     return ___internal_method;
   }
 };
@@ -843,7 +899,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::*)()>(&::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0e298;
+  constexpr static std::size_t addrs = 0x6e47b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(), { ".ctor", {}, {} })));
@@ -861,6 +917,18 @@ constexpr bool const& UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::__co
 constexpr void UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::__cordl_internal_set_ignoreValidationErrors(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ignoreValidationErrors = value;
+}
+constexpr ::System::Func_2<::System::IntPtr, ::System::IntPtr>*& UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::__cordl_internal_get_MockFunctionInterceptor() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___MockFunctionInterceptor;
+}
+constexpr ::System::Func_2<::System::IntPtr, ::System::IntPtr>* const& UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::__cordl_internal_get_MockFunctionInterceptor() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___MockFunctionInterceptor;
+}
+constexpr void UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::__cordl_internal_set_MockFunctionInterceptor(::System::Func_2<::System::IntPtr, ::System::IntPtr>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___MockFunctionInterceptor = value;
 }
 inline void UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::setStaticF_s_AfterFunctionCallbacks(
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*>* value) {
@@ -1054,6 +1122,16 @@ inline void UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::CauseUserPrese
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(), { "CauseUserPresenceChange", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, hasUserPresent);
 }
+inline void UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::ChangeRecommendedImageRectExtents(uint32_t width, uint32_t height) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(),
+                                                                                         { "ChangeRecommendedImageRectExtents", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, width, height);
+}
+inline void UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::CauseRecommendedResolutionChangedEvent() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(), { "CauseRecommendedResolutionChangedEvent", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
+}
 inline void UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::SetReferenceSpaceBounds(::UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType referenceSpace, ::UnityEngine::Vector2 bounds) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1128,6 +1206,17 @@ inline uint64_t UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::GetRegiste
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(), { "GetRegisteredAndroidThreadsCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<uint64_t>(nullptr, ___internal_method);
+}
+inline void UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::AddTestHookGetInstanceProcAddr(::System::Func_2<::System::IntPtr, ::System::IntPtr>* nativeFunctionHook) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(),
+                                                           { "AddTestHookGetInstanceProcAddr", {}, { ::i2c::type_of<::System::Func_2<::System::IntPtr, ::System::IntPtr>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nativeFunctionHook);
+}
+inline void UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::ClearTestHookGetInstanceProcAddr() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(), { "ClearTestHookGetInstanceProcAddr", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*>(), { ".ctor", {}, {} })));

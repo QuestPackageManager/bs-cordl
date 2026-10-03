@@ -25,8 +25,9 @@ public:
   /// @brief Nested struct __InstanceCullerSplitDebugCounter_Unwrapped
   enum struct __InstanceCullerSplitDebugCounter_Unwrapped : int32_t {
     __E_VisibleInstances = static_cast<int32_t>(0x0),
-    __E_DrawCommands = static_cast<int32_t>(0x1),
-    __E_Count = static_cast<int32_t>(0x2),
+    __E_VisiblePrimitives = static_cast<int32_t>(0x1),
+    __E_DrawCommands = static_cast<int32_t>(0x2),
+    __E_Count = static_cast<int32_t>(0x3),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -46,17 +47,20 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InstanceCullerSplitDebugCounter(int32_t value__) noexcept;
 
-  /// @brief Field Count value: I32(2)
+  /// @brief Field Count value: I32(3)
   static ::UnityEngine::Rendering::InstanceCullerSplitDebugCounter const Count;
 
-  /// @brief Field DrawCommands value: I32(1)
+  /// @brief Field DrawCommands value: I32(2)
   static ::UnityEngine::Rendering::InstanceCullerSplitDebugCounter const DrawCommands;
 
   /// @brief Field VisibleInstances value: I32(0)
   static ::UnityEngine::Rendering::InstanceCullerSplitDebugCounter const VisibleInstances;
 
+  /// @brief Field VisiblePrimitives value: I32(1)
+  static ::UnityEngine::Rendering::InstanceCullerSplitDebugCounter const VisiblePrimitives;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18168 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

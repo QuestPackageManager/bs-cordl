@@ -8,6 +8,7 @@
 #include "System/Collections/Generic/zzzz__SortedList_2_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__PooledResourceEntry_1_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphLogger_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphResourcePool_1_def.hpp"
 // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "size", ty: "int64_t", modifiers: "", def_value: Some("{}"),
@@ -67,20 +68,21 @@ inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1___
 // Ctor Parameters []
 template <typename Type> constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1___c<Type>::RenderGraphResourcePool_1___c() {}
 template <typename Type>
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::System::ValueTuple_2<Type, int32_t>>*>*&
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::UnityEngine::Rendering::RenderGraphModule::PooledResourceEntry_1<Type>>*>*&
 UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>::__cordl_internal_get_m_ResourcePool() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResourcePool;
 }
 template <typename Type>
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::System::ValueTuple_2<Type, int32_t>>*>* const&
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t,
+                                                       ::System::Collections::Generic::SortedList_2<int32_t, ::UnityEngine::Rendering::RenderGraphModule::PooledResourceEntry_1<Type>>*>* const&
 UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>::__cordl_internal_get_m_ResourcePool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResourcePool;
 }
 template <typename Type>
 constexpr void UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>::__cordl_internal_set_m_ResourcePool(
-    ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::System::ValueTuple_2<Type, int32_t>>*>* value) {
+    ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::UnityEngine::Rendering::RenderGraphModule::PooledResourceEntry_1<Type>>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ResourcePool = value;
 }
@@ -134,15 +136,20 @@ template <typename Type> inline int32_t UnityEngine::Rendering::RenderGraphModul
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, res);
 }
-template <typename Type> inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>::ReleaseResource(int32_t hash, Type resource, int32_t currentFrameIndex) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>*>(),
-                                                                                         { "ReleaseResource", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<Type>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, hash, resource, currentFrameIndex);
+template <typename Type>
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>::ReleaseResource(int32_t hash, Type resource, int32_t currentFrameIndex, int32_t currentExecutionCount) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>*>(),
+                                                           { "ReleaseResource", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<Type>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, hash, resource, currentFrameIndex, currentExecutionCount);
 }
-template <typename Type> inline bool UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>::TryGetResource(int32_t hashCode, ::by_ref<Type> resource) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>*>(),
-                                                                                         { "TryGetResource", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<Type>>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, hashCode, resource);
+template <typename Type>
+inline bool UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>::TryGetResource(int32_t hashCode, ::by_ref<Type> resource, int32_t currentFrameIndex,
+                                                                                                       int32_t currentExecutionCount) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>*>(),
+                                              { "TryGetResource", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<Type>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, hashCode, resource, currentFrameIndex, currentExecutionCount);
 }
 template <typename Type> inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>::Cleanup() {
   auto* ___internal_method = THROW_UNLESS(
@@ -168,6 +175,16 @@ template <typename Type> inline void UnityEngine::Rendering::RenderGraphModule::
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, logger);
+}
+template <typename Type> inline float_t UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>::GetMemorySizeInMB() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>*>(), { "GetMemorySizeInMB", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
+}
+template <typename Type> inline int32_t UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>::GetNumResourcesAvailable() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>*>(), { "GetNumResourcesAvailable", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 template <typename Type> inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>::PurgeUnusedResources(int32_t currentFrameIndex) {
   auto* ___internal_method = THROW_UNLESS(

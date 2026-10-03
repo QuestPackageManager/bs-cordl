@@ -72,14 +72,14 @@ namespace ModestTree {
 class CORDL_TYPE ReflectionUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateArray, addr 0x6e423e0, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method CreateArray, addr 0x72ddf30, size 0x254, virtual false, abstract: false, final false
   static inline ::System::Array* CreateArray(::System::Type* elementType, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
-  /// @brief Method CreateGenericList, addr 0x6e42634, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method CreateGenericList, addr 0x72de184, size 0x3a0, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateGenericList(::System::Type* elementType, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
   /// [Extension]
-  /// @brief Method ToDebugString, addr 0x6e42b10, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x72de660, size 0x20, virtual false, abstract: false, final false
   static inline ::StringW ToDebugString(::System::Action* action);
 
   /// [Extension]
@@ -125,7 +125,7 @@ public:
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4> static inline ::StringW ToDebugString(::System::Func_4<TParam1, TParam2, TParam3, TParam4>* func);
 
   /// [Extension]
-  /// @brief Method ToDebugString, addr 0x6e429d4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x72de524, size 0x13c, virtual false, abstract: false, final false
   static inline ::StringW ToDebugString(::System::Reflection::MethodInfo* method);
 
 protected:
@@ -143,7 +143,7 @@ public:
   ReflectionUtil(ReflectionUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13977 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14216 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

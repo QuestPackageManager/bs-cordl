@@ -56,34 +56,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>*();
 
-  /// @brief Method Equals, addr 0x6ddd590, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x727cd78, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6ddd580, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x727cd68, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::EasingFunction other);
 
-  /// @brief Method GetHashCode, addr 0x6ddc178, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x727b960, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6ddd60c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x727cdf4, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6ddd56c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x727cd54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EasingMode mode);
 
-  /// @brief Method get_mode, addr 0x6ddd55c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x727cd44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EasingMode get_mode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>* i___System__IEquatable_1___UnityEngine__UIElements__EasingFunction_();
 
-  /// @brief Method op_Equality, addr 0x6ddd574, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x727cd5c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::EasingFunction lhs, ::UnityEngine::UIElements::EasingFunction rhs);
 
-  /// @brief Method op_Implicit, addr 0x6ddc5a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x727bd90, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EasingFunction op_Implicit___UnityEngine__UIElements__EasingFunction(::UnityEngine::UIElements::EasingMode easingMode);
 
-  /// @brief Method set_mode, addr 0x6ddd564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mode, addr 0x727cd4c, size 0x8, virtual false, abstract: false, final false
   inline void set_mode(::UnityEngine::UIElements::EasingMode value);
 
   // Ctor Parameters []
@@ -94,7 +94,7 @@ public:
   constexpr EasingFunction(::UnityEngine::UIElements::EasingMode m_Mode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4757 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -127,12 +127,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6ddd7b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x727cf9c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::EasingMode GetValue(::by_ref<::UnityEngine::UIElements::EasingFunction> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6ddd7b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x727cfa4, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::EasingFunction> container, ::UnityEngine::UIElements::EasingMode value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -147,15 +147,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6ddd73c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x727cf28, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x6ddd7a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x727cf94, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6ddd7a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x727cf8c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -173,7 +173,7 @@ public:
   PropertyBag_EasingFunction_ModeProperty(PropertyBag_EasingFunction_ModeProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4710 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4755 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
@@ -206,7 +206,7 @@ public:
 
   static inline ::UnityEngine::UIElements::EasingFunction_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6ddd678, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x727ce60, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -224,7 +224,7 @@ public:
   EasingFunction_PropertyBag(EasingFunction_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4756 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

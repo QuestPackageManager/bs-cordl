@@ -30,29 +30,33 @@ public:
   // Declarations
   __declspec(property(get = get_type, put = set_type)) ::UnityEngine::UIElements::StyleSelectorType type;
 
-  __declspec(property(get = get_value)) ::StringW value;
+  __declspec(property(get = get_value, put = set_value)) ::StringW value;
 
-  /// @brief Method CreateClass, addr 0x6c9bd20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateClass, addr 0x7115bdc, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreateClass(::StringW className);
 
-  /// @brief Method CreateId, addr 0x6c9bd38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateId, addr 0x7115bf4, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreateId(::StringW Id);
 
-  /// @brief Method CreatePredicate, addr 0x6c9bd50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreatePredicate, addr 0x7115c0c, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreatePredicate(::System::Object* predicate);
 
-  /// @brief Method ToString, addr 0x6c9bc00, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7115b18, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_type, addr 0x6c9b1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x7113654, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSelectorType get_type();
 
-  /// @brief Method get_value, addr 0x6c9b1b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x7113d90, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_value();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method set_type, addr 0x6c9bd18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x7115bd4, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::UIElements::StyleSelectorType value);
+
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
+  /// @brief Method set_value, addr 0x7115bcc, size 0x8, virtual false, abstract: false, final false
+  inline void set_value(::StringW value);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -63,7 +67,7 @@ public:
   constexpr StyleSelectorPart(::StringW m_Value, ::UnityEngine::UIElements::StyleSelectorType m_Type, ::System::Object* tempData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5143 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

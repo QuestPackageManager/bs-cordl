@@ -13,7 +13,7 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-class IScheduler;
+class BaseVisualElementPanel;
 }
 namespace UnityEngine::UIElements {
 class ScheduledItem;
@@ -37,7 +37,7 @@ public:
   /// @brief Field disableThrottling, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_disableThrottling, put = __cordl_internal_set_disableThrottling)) bool disableThrottling;
 
-  /// @brief Field frameCount, offset 0x38, size 0x8
+  /// @brief Field frameCount, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_frameCount, put = __cordl_internal_set_frameCount)) int64_t frameCount;
 
   /// @brief Field m_LastUpdatedIndex, offset 0x34, size 0x4
@@ -58,24 +58,24 @@ public:
   __declspec(property(get = __cordl_internal_get_m_UnscheduleTransactions,
                       put = __cordl_internal_set_m_UnscheduleTransactions)) ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>* m_UnscheduleTransactions;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IScheduler"
-  constexpr operator ::UnityEngine::UIElements::IScheduler*() noexcept;
+  /// @brief Field panel, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::UIElements::BaseVisualElementPanel* panel;
 
-  static inline ::UnityEngine::UIElements::TimerEventScheduler* New_ctor();
+  static inline ::UnityEngine::UIElements::TimerEventScheduler* New_ctor(::UnityEngine::UIElements::BaseVisualElementPanel* p);
 
-  /// @brief Method PrivateUnSchedule, addr 0x6dd9dac, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method PrivateUnSchedule, addr 0x727938c, size 0xcc, virtual false, abstract: false, final false
   inline bool PrivateUnSchedule(::UnityEngine::UIElements::ScheduledItem* sItem);
 
-  /// @brief Method RemovedScheduledItemAt, addr 0x6dd9b6c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RemovedScheduledItemAt, addr 0x727914c, size 0x88, virtual false, abstract: false, final false
   inline bool RemovedScheduledItemAt(int32_t index);
 
-  /// @brief Method Schedule, addr 0x6dd99a0, size 0x1cc, virtual true, abstract: false, final true
+  /// @brief Method Schedule, addr 0x7278f80, size 0x1cc, virtual false, abstract: false, final false
   inline void Schedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method Unschedule, addr 0x6dd9bf4, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method Unschedule, addr 0x72791d4, size 0x1b8, virtual false, abstract: false, final false
   inline void Unschedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method UpdateScheduledEvents, addr 0x6dd9e88, size 0x380, virtual true, abstract: false, final true
+  /// @brief Method UpdateScheduledEvents, addr 0x726e554, size 0x37c, virtual false, abstract: false, final false
   inline void UpdateScheduledEvents();
 
   constexpr bool const& __cordl_internal_get_disableThrottling() const;
@@ -106,6 +106,10 @@ public:
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>*& __cordl_internal_get_m_UnscheduleTransactions();
 
+  constexpr ::UnityEngine::UIElements::BaseVisualElementPanel* const& __cordl_internal_get_panel() const;
+
+  constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __cordl_internal_get_panel();
+
   constexpr void __cordl_internal_set_disableThrottling(bool value);
 
   constexpr void __cordl_internal_set_frameCount(int64_t value);
@@ -120,16 +124,15 @@ public:
 
   constexpr void __cordl_internal_set_m_UnscheduleTransactions(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>* value);
 
-  /// @brief Method .ctor, addr 0x6dda208, size 0xe8, virtual false, abstract: false, final false
-  inline void _ctor();
+  constexpr void __cordl_internal_set_panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  /// @brief Method get_FrameCount, addr 0x6dd9e78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method .ctor, addr 0x726b788, size 0xf0, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::BaseVisualElementPanel* p);
+
+  /// @brief Method get_FrameCount, addr 0x7279458, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_FrameCount();
 
-  /// @brief Convert to "::UnityEngine::UIElements::IScheduler"
-  constexpr ::UnityEngine::UIElements::IScheduler* i___UnityEngine__UIElements__IScheduler() noexcept;
-
-  /// @brief Method set_FrameCount, addr 0x6dd9e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FrameCount, addr 0x7279460, size 0x8, virtual false, abstract: false, final false
   inline void set_FrameCount(int64_t value);
 
 protected:
@@ -147,7 +150,7 @@ public:
   TimerEventScheduler(TimerEventScheduler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4734 };
 
   /// @brief Field m_ScheduledItems, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>* ___m_ScheduledItems;
@@ -167,7 +170,10 @@ public:
   /// @brief Field m_LastUpdatedIndex, offset: 0x34, size: 0x4, def value: None
   int32_t ___m_LastUpdatedIndex;
 
-  /// @brief Field frameCount, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field panel, offset: 0x38, size: 0x8, def value: None
+  ::UnityEngine::UIElements::BaseVisualElementPanel* ___panel;
+
+  /// @brief Field frameCount, offset: 0x40, size: 0x8, def value: None
   int64_t ___frameCount;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -185,8 +191,10 @@ static_assert(offsetof(::UnityEngine::UIElements::TimerEventScheduler, ___disabl
 
 static_assert(offsetof(::UnityEngine::UIElements::TimerEventScheduler, ___m_LastUpdatedIndex) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TimerEventScheduler, ___frameCount) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TimerEventScheduler, ___panel) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::TimerEventScheduler) == 0x40, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TimerEventScheduler, ___frameCount) == 0x40, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::TimerEventScheduler) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

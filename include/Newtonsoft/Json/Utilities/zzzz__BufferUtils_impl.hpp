@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (*)(::Newtonsoft::Json::IArrayPool_1<char16_t>*, int32_t)>(&::Newtonsoft::Json::Utilities::BufferUtils::RentBuffer)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5d29be8;
+  constexpr static std::size_t addrs = 0x61437cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Newtonsoft::Json::IArrayPool_1<char16_t>*, ::ArrayW<char16_t>)>(&::Newtonsoft::Json::Utilities::BufferUtils::ReturnBuffer)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d29cc4;
+  constexpr static std::size_t addrs = 0x61438a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (*)(::Newtonsoft::Json::IArrayPool_1<char16_t>*, int32_t, ::ArrayW<char16_t>)>(
     &::Newtonsoft::Json::Utilities::BufferUtils::EnsureBufferSize)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5d29d84;
+  constexpr static std::size_t addrs = 0x6143968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

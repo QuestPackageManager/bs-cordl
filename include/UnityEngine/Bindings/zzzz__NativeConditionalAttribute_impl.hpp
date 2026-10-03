@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeConditionalAttribute::*)(::StringW)>(&::UnityEngine::Bindings::NativeConditionalAttribute::set_Condition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb5f74;
+  constexpr static std::size_t addrs = 0x7014ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeConditionalAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::NativeConditionalAttribute::set_StubReturnStatement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb5f7c;
+  constexpr static std::size_t addrs = 0x7014adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeConditionalAttribute::*)(bool)>(&::UnityEngine::Bindings::NativeConditionalAttribute::set_Enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb5f84;
+  constexpr static std::size_t addrs = 0x7014ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeConditionalAttribute::*)(::StringW)>(&::UnityEngine::Bindings::NativeConditionalAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6bb5f8c;
+  constexpr static std::size_t addrs = 0x7014aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeConditionalAttribute::*)(::StringW, ::StringW)>(
     &::UnityEngine::Bindings::NativeConditionalAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6bb5f9c;
+  constexpr static std::size_t addrs = 0x7014afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

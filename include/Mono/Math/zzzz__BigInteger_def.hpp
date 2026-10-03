@@ -89,7 +89,7 @@ public:
   static ::Mono::Math::BigInteger_Sign const Zero;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2287 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -118,22 +118,21 @@ public:
   /// @brief Field mod, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mod, put = __cordl_internal_set_mod)) ::Mono::Math::BigInteger* mod;
 
-  /// @brief Method BarrettReduction, addr 0x5aaa6a8, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method BarrettReduction, addr 0x5edd950, size 0x25c, virtual false, abstract: false, final false
   inline void BarrettReduction(::Mono::Math::BigInteger* x);
 
-  /// @brief Method Difference, addr 0x5aaae34, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Difference, addr 0x5ede0dc, size 0x170, virtual false, abstract: false, final false
   inline ::Mono::Math::BigInteger* Difference(::Mono::Math::BigInteger* a, ::Mono::Math::BigInteger* b);
 
-  /// @brief Method Multiply, addr 0x5aaacb4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x5eddf5c, size 0x180, virtual false, abstract: false, final false
   inline ::Mono::Math::BigInteger* Multiply(::Mono::Math::BigInteger* a, ::Mono::Math::BigInteger* b);
 
   static inline ::Mono::Math::BigInteger_ModulusRing* New_ctor(::Mono::Math::BigInteger* modulus);
 
-  /// @brief Method Pow, addr 0x5aaa47c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Pow, addr 0x5edd6d8, size 0x108, virtual false, abstract: false, final false
   inline ::Mono::Math::BigInteger* Pow(::Mono::Math::BigInteger* a, ::Mono::Math::BigInteger* k);
 
-  /// [CLSCompliant(false)]
-  /// @brief Method Pow, addr 0x5aaafa4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Pow, addr 0x5ede24c, size 0x74, virtual false, abstract: false, final false
   inline ::Mono::Math::BigInteger* Pow(uint32_t b, ::Mono::Math::BigInteger* exp);
 
   constexpr ::Mono::Math::BigInteger* const& __cordl_internal_get_constant() const;
@@ -148,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set_mod(::Mono::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x5aaa3b0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5edd60c, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Math::BigInteger* modulus);
 
 protected:
@@ -166,7 +165,7 @@ public:
   BigInteger_ModulusRing(BigInteger_ModulusRing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2288 };
 
   /// @brief Field mod, offset: 0x10, size: 0x8, def value: None
   ::Mono::Math::BigInteger* ___mod;
@@ -191,46 +190,49 @@ namespace Mono::Math {
 class CORDL_TYPE BigInteger_Kernel : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Compare, addr 0x5aa8908, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x5edb9e4, size 0x144, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger_Sign Compare(::Mono::Math::BigInteger* bi1, ::Mono::Math::BigInteger* bi2);
 
-  /// @brief Method DwordDivMod, addr 0x5aab018, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method DwordDivMod, addr 0x5ede2c0, size 0x194, virtual false, abstract: false, final false
   static inline ::ArrayW<::Mono::Math::BigInteger*> DwordDivMod(::Mono::Math::BigInteger* n, uint32_t d);
 
-  /// @brief Method DwordMod, addr 0x5aa8bfc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method DwordMod, addr 0x5edbcd8, size 0x68, virtual false, abstract: false, final false
   static inline uint32_t DwordMod(::Mono::Math::BigInteger* n, uint32_t d);
 
-  /// @brief Method LeftShift, addr 0x5aa91dc, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method LeftShift, addr 0x5edc38c, size 0x1e0, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger* LeftShift(::Mono::Math::BigInteger* bi, int32_t n);
 
-  /// @brief Method MinusEq, addr 0x5aaaa14, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method MinusEq, addr 0x5eddcbc, size 0x100, virtual false, abstract: false, final false
   static inline void MinusEq(::Mono::Math::BigInteger* big, ::Mono::Math::BigInteger* small);
 
-  /// @brief Method Multiply, addr 0x5aa90f4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x5edc1b0, size 0xe4, virtual false, abstract: false, final false
   static inline void Multiply(::ArrayW<uint32_t> x, uint32_t xOffset, uint32_t xLen, ::ArrayW<uint32_t> y, uint32_t yOffset, uint32_t yLen, ::ArrayW<uint32_t> d, uint32_t dOffset);
 
-  /// @brief Method MultiplyMod2p32pmod, addr 0x5aaa904, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method MultiplyByDword, addr 0x5edc294, size 0xf4, virtual false, abstract: false, final false
+  static inline ::Mono::Math::BigInteger* MultiplyByDword(::Mono::Math::BigInteger* n, uint32_t f);
+
+  /// @brief Method MultiplyMod2p32pmod, addr 0x5eddbac, size 0x110, virtual false, abstract: false, final false
   static inline void MultiplyMod2p32pmod(::ArrayW<uint32_t> x, int32_t xOffset, int32_t xLen, ::ArrayW<uint32_t> y, int32_t yOffest, int32_t yLen, ::ArrayW<uint32_t> d, int32_t dOffset, int32_t mod);
 
-  /// @brief Method PlusEq, addr 0x5aaab14, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method PlusEq, addr 0x5edddbc, size 0x1a0, virtual false, abstract: false, final false
   static inline void PlusEq(::Mono::Math::BigInteger* bi1, ::Mono::Math::BigInteger* bi2);
 
-  /// @brief Method RightShift, addr 0x5aa93c0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method RightShift, addr 0x5edc570, size 0x180, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger* RightShift(::Mono::Math::BigInteger* bi, int32_t n);
 
-  /// @brief Method SingleByteDivideInPlace, addr 0x5aa9c98, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SingleByteDivideInPlace, addr 0x5edcecc, size 0x74, virtual false, abstract: false, final false
   static inline uint32_t SingleByteDivideInPlace(::Mono::Math::BigInteger* n, uint32_t d);
 
-  /// @brief Method Subtract, addr 0x5aa8a4c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x5edbb28, size 0x1b0, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger* Subtract(::Mono::Math::BigInteger* big, ::Mono::Math::BigInteger* small);
 
-  /// @brief Method modInverse, addr 0x5aa9e90, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method modInverse, addr 0x5edd0ec, size 0x520, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger* modInverse(::Mono::Math::BigInteger* bi, ::Mono::Math::BigInteger* modulus);
 
-  /// @brief Method modInverse, addr 0x5aab1ac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method modInverse, addr 0x5ede454, size 0xc4, virtual false, abstract: false, final false
   static inline uint32_t modInverse(::Mono::Math::BigInteger* bi, uint32_t modulus);
 
-  /// @brief Method multiByteDivide, addr 0x5aa8c64, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method multiByteDivide, addr 0x5edbd40, size 0x470, virtual false, abstract: false, final false
   static inline ::ArrayW<::Mono::Math::BigInteger*> multiByteDivide(::Mono::Math::BigInteger* bi1, ::Mono::Math::BigInteger* bi2);
 
 protected:
@@ -248,7 +250,7 @@ public:
   BigInteger_Kernel(BigInteger_Kernel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2289 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -281,78 +283,83 @@ public:
   /// @brief Field smallPrimes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_smallPrimes, put = setStaticF_smallPrimes)) ::ArrayW<uint32_t> smallPrimes;
 
-  /// @brief Method BitCount, addr 0x5aa3d24, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method BitCount, addr 0x5ed669c, size 0x6c, virtual false, abstract: false, final false
   inline int32_t BitCount();
 
-  /// @brief Method Clear, addr 0x5aa4608, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x5ed6f80, size 0x54, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Equals, addr 0x5aa9d68, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5edcfc4, size 0x128, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GeneratePseudoPrime, addr 0x5aa3a58, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GeneratePseudoPrime, addr 0x5ed63d0, size 0x60, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger* GeneratePseudoPrime(int32_t bits);
 
-  /// @brief Method GenerateRandom, addr 0x5aa9754, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GenerateRandom, addr 0x5eda268, size 0x60, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger* GenerateRandom(int32_t bits);
 
-  /// @brief Method GenerateRandom, addr 0x5aa95ec, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GenerateRandom, addr 0x5edc79c, size 0x168, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger* GenerateRandom(int32_t bits, ::System::Security::Cryptography::RandomNumberGenerator* rng);
 
-  /// @brief Method GetBytes, addr 0x5aa4988, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x5ed7300, size 0x140, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetBytes();
 
-  /// @brief Method GetHashCode, addr 0x5aa9d0c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5edcf68, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Incr2, addr 0x5aaa588, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Incr2, addr 0x5edd830, size 0x88, virtual false, abstract: false, final false
   inline void Incr2();
 
-  /// @brief Method LowestSetBit, addr 0x5aa98c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsProbablePrime, addr 0x5eda464, size 0x1ac, virtual false, abstract: false, final false
+  inline bool IsProbablePrime();
+
+  /// @brief Method LowestSetBit, addr 0x5edcb98, size 0x80, virtual false, abstract: false, final false
   inline int32_t LowestSetBit();
 
-  /// @brief Method ModInverse, addr 0x5aa3f90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ModInverse, addr 0x5ed6908, size 0x4, virtual false, abstract: false, final false
   inline ::Mono::Math::BigInteger* ModInverse(::Mono::Math::BigInteger* modulus);
 
-  /// @brief Method ModPow, addr 0x5aa44d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ModPow, addr 0x5ed6e48, size 0x7c, virtual false, abstract: false, final false
   inline ::Mono::Math::BigInteger* ModPow(::Mono::Math::BigInteger* exp, ::Mono::Math::BigInteger* n);
 
   static inline ::Mono::Math::BigInteger* New_ctor(::Mono::Math::BigInteger* bi);
 
-  /// @brief [CLSCompliant(false)]
   static inline ::Mono::Math::BigInteger* New_ctor(::Mono::Math::BigInteger* bi, uint32_t len);
 
   static inline ::Mono::Math::BigInteger* New_ctor(::ArrayW<uint8_t> inData);
 
-  /// @brief [CLSCompliant(false)]
   static inline ::Mono::Math::BigInteger* New_ctor(::Mono::Math::BigInteger_Sign sign, uint32_t len);
 
-  /// @brief [CLSCompliant(false)]
   static inline ::Mono::Math::BigInteger* New_ctor(uint32_t ui);
 
-  /// @brief Method Normalize, addr 0x5aa87c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Normalize, addr 0x5edb90c, size 0x58, virtual false, abstract: false, final false
   inline void Normalize();
 
-  /// [CLSCompliant(false)]
-  /// @brief Method SetBit, addr 0x5aa9848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Randomize, addr 0x5eda2c8, size 0x60, virtual false, abstract: false, final false
+  inline void Randomize();
+
+  /// @brief Method Randomize, addr 0x5edc904, size 0x184, virtual false, abstract: false, final false
+  inline void Randomize(::System::Security::Cryptography::RandomNumberGenerator* rng);
+
+  /// @brief Method SetBit, addr 0x5edcb1c, size 0x8, virtual false, abstract: false, final false
   inline void SetBit(uint32_t bitNum);
 
-  /// [CLSCompliant(false)]
-  /// @brief Method SetBit, addr 0x5aa9850, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetBit, addr 0x5edcb24, size 0x74, virtual false, abstract: false, final false
   inline void SetBit(uint32_t bitNum, bool value);
 
-  /// @brief Method TestBit, addr 0x5aa97b4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TestBit, addr 0x5edca88, size 0x94, virtual false, abstract: false, final false
   inline bool TestBit(int32_t bitNum);
 
-  /// @brief Method ToString, addr 0x5aa9d60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method TestBit, addr 0x5eda710, size 0x3c, virtual false, abstract: false, final false
+  inline bool TestBit(uint32_t bitNum);
+
+  /// @brief Method ToString, addr 0x5edcfbc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// [CLSCompliant(false)]
-  /// @brief Method ToString, addr 0x5aa99f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x5edcc30, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW ToString(uint32_t radix);
 
-  /// [CLSCompliant(false)]
-  /// @brief Method ToString, addr 0x5aa9a54, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x5edcc8c, size 0x240, virtual false, abstract: false, final false
   inline ::StringW ToString(uint32_t radix, ::StringW characterSet);
 
   constexpr ::ArrayW<uint32_t> const& __cordl_internal_get_data() const;
@@ -367,84 +374,80 @@ public:
 
   constexpr void __cordl_internal_set_length(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x5aa863c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5edb784, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Math::BigInteger* bi);
 
-  /// [CLSCompliant(false)]
-  /// @brief Method .ctor, addr 0x5aa86f0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5edb838, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Math::BigInteger* bi, uint32_t len);
 
-  /// @brief Method .ctor, addr 0x5aa42c0, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ed6c38, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> inData);
 
-  /// [CLSCompliant(false)]
-  /// @brief Method .ctor, addr 0x5aa85d0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5edb718, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Math::BigInteger_Sign sign, uint32_t len);
 
-  /// [CLSCompliant(false)]
-  /// @brief Method .ctor, addr 0x5aa881c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5edb964, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(uint32_t ui);
 
   static inline ::System::Security::Cryptography::RandomNumberGenerator* getStaticF_rng();
 
   static inline ::ArrayW<uint32_t> getStaticF_smallPrimes();
 
-  /// @brief Method get_Rng, addr 0x5aa9540, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_Rng, addr 0x5edc6f0, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RandomNumberGenerator* get_Rng();
 
-  /// @brief Method op_Division, addr 0x5aa90d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x5eda74c, size 0x20, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger* op_Division(::Mono::Math::BigInteger* bi1, ::Mono::Math::BigInteger* bi2);
 
-  /// @brief Method op_Equality, addr 0x5aa40f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5ed6a68, size 0xbc, virtual false, abstract: false, final false
   static inline bool op_Equality(::Mono::Math::BigInteger* bi1, ::Mono::Math::BigInteger* bi2);
 
-  /// [CLSCompliant(false)]
-  /// @brief Method op_Equality, addr 0x5aa889c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5eda328, size 0x6c, virtual false, abstract: false, final false
   static inline bool op_Equality(::Mono::Math::BigInteger* bi1, uint32_t ui);
 
-  /// @brief Method op_GreaterThan, addr 0x5aa99b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x5edcc18, size 0x18, virtual false, abstract: false, final false
   static inline bool op_GreaterThan(::Mono::Math::BigInteger* bi1, ::Mono::Math::BigInteger* bi2);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x5aa99c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x5eda394, size 0x18, virtual false, abstract: false, final false
   static inline bool op_GreaterThanOrEqual(::Mono::Math::BigInteger* bi1, ::Mono::Math::BigInteger* bi2);
 
-  /// @brief Method op_Implicit, addr 0x5aa3da4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x5ed671c, size 0xa8, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger* op_Implicit___Mono__Math__BigInteger_(int32_t value);
 
-  /// [CLSCompliant(false)]
-  /// @brief Method op_Implicit, addr 0x5aa39fc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x5ed6374, size 0x5c, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger* op_Implicit___Mono__Math__BigInteger_(uint32_t value);
 
-  /// @brief Method op_Inequality, addr 0x5aa3abc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5ed6434, size 0xbc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::Mono::Math::BigInteger* bi1, ::Mono::Math::BigInteger* bi2);
 
-  /// [CLSCompliant(false)]
-  /// @brief Method op_Inequality, addr 0x5aa9944, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5edab2c, size 0x6c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::Mono::Math::BigInteger* bi1, uint32_t ui);
 
-  /// @brief Method op_LeftShift, addr 0x5aa91d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_LeftShift, addr 0x5edc388, size 0x4, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger* op_LeftShift(::Mono::Math::BigInteger* bi1, int32_t shiftVal);
 
-  /// @brief Method op_LessThan, addr 0x5aa3d90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x5ed6708, size 0x14, virtual false, abstract: false, final false
   static inline bool op_LessThan(::Mono::Math::BigInteger* bi1, ::Mono::Math::BigInteger* bi2);
 
-  /// @brief Method op_LessThanOrEqual, addr 0x5aa99e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_LessThanOrEqual, addr 0x5eda76c, size 0x18, virtual false, abstract: false, final false
   static inline bool op_LessThanOrEqual(::Mono::Math::BigInteger* bi1, ::Mono::Math::BigInteger* bi2);
 
-  /// @brief Method op_Modulus, addr 0x5aa3f94, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Modulus, addr 0x5ed690c, size 0x24, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger* op_Modulus(::Mono::Math::BigInteger* bi1, ::Mono::Math::BigInteger* bi2);
 
-  /// [CLSCompliant(false)]
-  /// @brief Method op_Modulus, addr 0x5aa3ab8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Modulus, addr 0x5ed6430, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t op_Modulus(::Mono::Math::BigInteger* bi, uint32_t ui);
 
-  /// @brief Method op_Multiply, addr 0x5aa3b78, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x5eda610, size 0x100, virtual false, abstract: false, final false
+  static inline ::Mono::Math::BigInteger* op_Multiply(::Mono::Math::BigInteger* bi, int32_t i);
+
+  /// @brief Method op_Multiply, addr 0x5ed64f0, size 0x1ac, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger* op_Multiply(::Mono::Math::BigInteger* bi1, ::Mono::Math::BigInteger* bi2);
 
-  /// @brief Method op_RightShift, addr 0x5aa93bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_RightShift, addr 0x5edc56c, size 0x4, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger* op_RightShift(::Mono::Math::BigInteger* bi1, int32_t shiftVal);
 
-  /// @brief Method op_Subtraction, addr 0x5aa3e4c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x5ed67c4, size 0x144, virtual false, abstract: false, final false
   static inline ::Mono::Math::BigInteger* op_Subtraction(::Mono::Math::BigInteger* bi1, ::Mono::Math::BigInteger* bi2);
 
   static inline void setStaticF_rng(::System::Security::Cryptography::RandomNumberGenerator* value);
@@ -466,7 +469,7 @@ public:
   BigInteger(BigInteger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2290 };
 
   /// @brief Field length, offset: 0x10, size: 0x4, def value: None
   uint32_t ___length;

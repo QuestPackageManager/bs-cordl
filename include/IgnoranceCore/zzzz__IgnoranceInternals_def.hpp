@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::IgnoranceCore::IgnoranceInternals* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58994ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb002c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +49,7 @@ public:
   static constexpr ::ConstString Version{ u"1.4.0r2 (LTS)" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22460 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::HMUI::UISelectionState (::HMUI::NoTransitionsToggle::*)()>(&::HMUI::NoTransitionsToggle::get_selectionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5887440;
+  constexpr static std::size_t addrs = 0x5c9dc84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::NoTransitionsToggle*>(), { "get_selectionState", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionsToggle::*)(::System::Action_1<::HMUI::UISelectionState>*)>(
     &::HMUI::NoTransitionsToggle::add_selectionStateDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5887448;
+  constexpr static std::size_t addrs = 0x5c9dc8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionsToggle::*)(::System::Action_1<::HMUI::UISelectionState>*)>(
     &::HMUI::NoTransitionsToggle::remove_selectionStateDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5887508;
+  constexpr static std::size_t addrs = 0x5c9dd4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionsToggle::*)()>(&::HMUI::NoTransitionsToggle::Awake)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x58875c8;
+  constexpr static std::size_t addrs = 0x5c9de0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::NoTransitionsToggle*>(), { ::i2c::class_of<::HMUI::NoTransitionsToggle*>(), 4 }));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionsToggle::*)(::UnityEngine::UI::Selectable_SelectionState, bool)>(&::HMUI::NoTransitionsToggle::DoStateTransition)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x588767c;
+  constexpr static std::size_t addrs = 0x5c9dec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::NoTransitionsToggle*>(), { ::i2c::class_of<::HMUI::NoTransitionsToggle*>(), 26 }));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionsToggle::*)(::HMUI::UISelectionState)>(&::HMUI::NoTransitionsToggle::SetSelectionState)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58876e0;
+  constexpr static std::size_t addrs = 0x5c9df24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionsToggle::*)()>(&::HMUI::NoTransitionsToggle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5887700;
+  constexpr static std::size_t addrs = 0x5c9df44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::NoTransitionsToggle*>(), { ".ctor", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionsToggle::*)(bool)>(&::HMUI::NoTransitionsToggle::_Awake_b__6_0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5887708;
+  constexpr static std::size_t addrs = 0x5c9df4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::NoTransitionsToggle*>(), { "<Awake>b__6_0", {}, { ::i2c::type_of<bool>() } })));

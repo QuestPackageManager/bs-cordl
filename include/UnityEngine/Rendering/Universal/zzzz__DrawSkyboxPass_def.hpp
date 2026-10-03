@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x6884c50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca9900, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,7 +127,7 @@ public:
   DrawSkyboxPass_PassData(DrawSkyboxPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12972 };
 
   /// @brief Field xr, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Experimental::Rendering::XRPass* ___xr;
@@ -161,28 +161,28 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c* __9;
 
-  /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__7_0,
-                      put = setStaticF___9__7_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*,
-                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__7_0;
+  /// @brief Field <>9__6_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__6_0,
+                      put = setStaticF___9__6_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*,
+                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__6_0;
 
   static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c* New_ctor();
 
-  /// @brief Method <Render>b__7_0, addr 0x6884cac, size 0x4c, virtual false, abstract: false, final false
-  inline void _Render_b__7_0(::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
+  /// @brief Method <Render>b__6_0, addr 0x6ca995c, size 0x4c, virtual false, abstract: false, final false
+  inline void _Render_b__6_0(::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6884ca8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca9958, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c* getStaticF___9();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__7_0();
+  getStaticF___9__6_0();
 
   static inline void setStaticF___9(::UnityEngine::Rendering::Universal::DrawSkyboxPass___c* value);
 
-  static inline void setStaticF___9__7_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*,
+  static inline void setStaticF___9__6_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*,
                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
 
 protected:
@@ -200,7 +200,7 @@ public:
   DrawSkyboxPass___c(DrawSkyboxPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12973 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -219,33 +219,29 @@ public:
 
   using __c = ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c;
 
-  /// @brief Method CreateSkyBoxRendererList, addr 0x68843cc, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method CreateSkyBoxRendererList, addr 0x6ca8f10, size 0x170, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateSkyBoxRendererList(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                                   ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method CreateSkyboxRendererList, addr 0x688410c, size 0x1a0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RendererList CreateSkyboxRendererList(::UnityEngine::Rendering::ScriptableRenderContext context,
-                                                                         ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
-
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Execute, addr 0x6883fd4, size 0x138, virtual true, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Execute, addr 0x6ca8ea0, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x68842ac, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6ca9080, size 0x120, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Experimental::Rendering::XRPass* xr, ::UnityEngine::Rendering::RendererList rendererList);
 
-  /// @brief Method InitPassData, addr 0x688453c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6ca91a0, size 0x38, virtual false, abstract: false, final false
   inline void InitPassData(::by_ref<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*> passData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*> xr,
                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> handle);
 
   static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method Render, addr 0x6884574, size 0x6dc, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6ca91d8, size 0x728, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorTarget,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTarget, ::UnityEngine::Material* skyboxMaterial);
 
-  /// @brief Method .ctor, addr 0x6883f40, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca8ea4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:
@@ -263,11 +259,11 @@ public:
   DrawSkyboxPass(DrawSkyboxPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12974 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::Rendering::Universal::DrawSkyboxPass) == 0xb8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::DrawSkyboxPass) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal

@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::*)(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
         &::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::find)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x36b8570;
+  constexpr static std::size_t addrs = 0x394180c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::*)(::StringW)>(
     &::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::find)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x36c84d0;
+  constexpr static std::size_t addrs = 0x395176c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::*)()>(
     &::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36b856c;
+  constexpr static std::size_t addrs = 0x3941808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*>(), { ".ctor", {}, {} })));

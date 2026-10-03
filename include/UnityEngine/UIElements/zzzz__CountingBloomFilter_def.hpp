@@ -39,7 +39,7 @@ public:
   constexpr CountingBloomFilter__m_Counters_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4373 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4000 };
@@ -68,25 +68,25 @@ public:
   // Declarations
   using _m_Counters_e__FixedBuffer = ::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer;
 
-  /// @brief Method AdjustSlot, addr 0x6d826b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AdjustSlot, addr 0x7215a94, size 0x2c, virtual false, abstract: false, final false
   inline void AdjustSlot(uint32_t index, bool increment);
 
-  /// @brief Method ContainsHash, addr 0x6d82764, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ContainsHash, addr 0x7215b48, size 0x28, virtual false, abstract: false, final false
   inline bool ContainsHash(uint32_t hash);
 
-  /// @brief Method Hash1, addr 0x6d826dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Hash1, addr 0x7215ac0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t Hash1(uint32_t hash);
 
-  /// @brief Method Hash2, addr 0x6d826e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Hash2, addr 0x7215ac8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t Hash2(uint32_t hash);
 
-  /// @brief Method InsertHash, addr 0x6d826fc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InsertHash, addr 0x7215ae0, size 0x38, virtual false, abstract: false, final false
   inline void InsertHash(uint32_t hash);
 
-  /// @brief Method IsSlotEmpty, addr 0x6d826ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsSlotEmpty, addr 0x7215ad0, size 0x10, virtual false, abstract: false, final false
   inline bool IsSlotEmpty(uint32_t index);
 
-  /// @brief Method RemoveHash, addr 0x6d82734, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RemoveHash, addr 0x7215b18, size 0x30, virtual false, abstract: false, final false
   inline void RemoveHash(uint32_t hash);
 
   // Ctor Parameters []
@@ -97,7 +97,7 @@ public:
   constexpr CountingBloomFilter(::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer m_Counters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4374 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4000 };

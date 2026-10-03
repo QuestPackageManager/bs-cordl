@@ -117,7 +117,7 @@ public:
                                                                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23418 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -170,7 +170,7 @@ public:
                                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23419 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -223,7 +223,7 @@ public:
                                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23420 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -276,7 +276,7 @@ public:
                                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23421 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -320,7 +320,7 @@ public:
   /// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLClient"
   constexpr operator ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*() noexcept;
 
-  /// @brief Method Initialize, addr 0x32950a8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x351b918, size 0x4, virtual true, abstract: false, final true
   inline void Initialize(::StringW endpoint, ::StringW accessToken, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* customAppHeaders,
                          ::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* logger);
 
@@ -352,31 +352,31 @@ public:
              ::cordl_internals::reference_type_constraint<TViewModel>)
   inline ::System::Threading::Tasks::Task_1<TViewModel>* OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* request);
 
-  /// @brief Method OnApplicationResumed, addr 0x32950ac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnApplicationResumed, addr 0x351b91c, size 0x4, virtual true, abstract: false, final true
   inline void OnApplicationResumed();
 
-  /// @brief Method OnApplicationSuspended, addr 0x32950b0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnApplicationSuspended, addr 0x351b920, size 0x4, virtual true, abstract: false, final true
   inline void OnApplicationSuspended();
 
-  /// @brief Method PauseRequestQueue, addr 0x32950b4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method PauseRequestQueue, addr 0x351b924, size 0x4, virtual true, abstract: false, final true
   inline void PauseRequestQueue();
 
-  /// @brief Method ResetRequestForUserInitiatedRetryAsync, addr 0x32950c4, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method ResetRequestForUserInitiatedRetryAsync, addr 0x351b934, size 0x94, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* ResetRequestForUserInitiatedRetryAsync(::OculusStudios::GraphQL::ClientInterface::Request* request);
 
-  /// @brief Method ResumeRequestQueue, addr 0x32950b8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ResumeRequestQueue, addr 0x351b928, size 0x4, virtual true, abstract: false, final true
   inline void ResumeRequestQueue();
 
-  /// @brief Method SetApplicationOffline, addr 0x32950bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SetApplicationOffline, addr 0x351b92c, size 0x4, virtual true, abstract: false, final true
   inline void SetApplicationOffline();
 
-  /// @brief Method SetApplicationOnline, addr 0x32950c0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SetApplicationOnline, addr 0x351b930, size 0x4, virtual true, abstract: false, final true
   inline void SetApplicationOnline();
 
-  /// @brief Method Update, addr 0x3295158, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x351b9c8, size 0x4, virtual true, abstract: false, final true
   inline void Update(float_t deltaTime);
 
-  /// @brief Method .ctor, addr 0x329515c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x351b9cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLClient"
@@ -397,7 +397,7 @@ public:
   DummyGraphQLClient(DummyGraphQLClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23422 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

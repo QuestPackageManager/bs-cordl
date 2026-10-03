@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongPackMaskConverter::*)(::System::Type*)>(&::GlobalNamespace::SongPackMaskConverter::CanConvert)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x378526c;
+  constexpr static std::size_t addrs = 0x3a0f438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::GlobalNamespace::SongPackMaskConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::GlobalNamespace::SongPackMaskConverter::ReadJson)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x37852dc;
+  constexpr static std::size_t addrs = 0x3a0f4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPackMaskConverter::*)(::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
     &::GlobalNamespace::SongPackMaskConverter::WriteJson)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3785378;
+  constexpr static std::size_t addrs = 0x3a0f544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPackMaskConverter::*)()>(&::GlobalNamespace::SongPackMaskConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x378542c;
+  constexpr static std::size_t addrs = 0x3a0f5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMaskConverter*>(), { ".ctor", {}, {} })));

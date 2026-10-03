@@ -33,8 +33,8 @@ struct ClosestPointCommand;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ClosestPointCommand);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ClosestPointCommand, "UnityEngine", "ClosestPointCommand");
-// [NativeHeader("Runtime/Jobs/ScriptBindings/JobsBindingsTypes.h")]
 // [NativeHeader("Modules/Physics/BatchCommands/ClosestPointCommand.h")]
+// [NativeHeader("Runtime/Jobs/ScriptBindings/JobsBindingsTypes.h")]
 // Dependencies UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
@@ -52,68 +52,68 @@ public:
 
   __declspec(property(get = get_scale, put = set_scale)) ::UnityEngine::Vector3 scale;
 
-  /// @brief Method ScheduleBatch, addr 0x6b97bcc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatch, addr 0x7003598, size 0xfc, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleBatch(::Unity::Collections::NativeArray_1<::UnityEngine::ClosestPointCommand> commands,
                                                        ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> results, int32_t minCommandsPerJob, ::Unity::Jobs::JobHandle dependsOn);
 
   /// [FreeFunction("ScheduleClosestPointCommandBatch", ThrowsException = true)]
-  /// @brief Method ScheduleClosestPointCommandBatch, addr 0x6b97cc8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleClosestPointCommandBatch, addr 0x7003694, size 0x8c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleClosestPointCommandBatch(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* commands, int32_t commandLen,
                                                                           void* result, int32_t resultLen, int32_t minCommandsPerJob);
 
-  /// @brief Method ScheduleClosestPointCommandBatch_Injected, addr 0x6b97d54, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ScheduleClosestPointCommandBatch_Injected, addr 0x7003720, size 0x84, virtual false, abstract: false, final false
   static inline void ScheduleClosestPointCommandBatch_Injected(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* commands, int32_t commandLen,
                                                                void* result, int32_t resultLen, int32_t minCommandsPerJob, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method .ctor, addr 0x6b97ad4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70034a0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 point, ::UnityEngine::Collider* collider, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale);
 
-  /// @brief Method .ctor, addr 0x6b97aa4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7003470, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 point, int32_t colliderInstanceID, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale);
 
-  /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_colliderInstanceID, addr 0x6b97b74, size 0x8, virtual false, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method get_colliderInstanceID, addr 0x7003540, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_colliderInstanceID();
 
-  /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_point, addr 0x6b97b5c, size 0xc, virtual false, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method get_point, addr 0x7003528, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_position, addr 0x6b97b84, size 0xc, virtual false, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method get_position, addr 0x7003550, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_rotation, addr 0x6b97b9c, size 0xc, virtual false, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method get_rotation, addr 0x7003568, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_scale, addr 0x6b97bb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_scale, addr 0x7003580, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_scale();
 
   /// [CompilerGenerated]
-  /// @brief Method set_colliderInstanceID, addr 0x6b97b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colliderInstanceID, addr 0x7003548, size 0x8, virtual false, abstract: false, final false
   inline void set_colliderInstanceID(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_point, addr 0x6b97b68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_point, addr 0x7003534, size 0xc, virtual false, abstract: false, final false
   inline void set_point(::UnityEngine::Vector3 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_position, addr 0x6b97b90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x700355c, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_rotation, addr 0x6b97ba8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x7003574, size 0xc, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_scale, addr 0x6b97bc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_scale, addr 0x700358c, size 0xc, virtual false, abstract: false, final false
   inline void set_scale(::UnityEngine::Vector3 value);
 
   // Ctor Parameters []
@@ -128,7 +128,7 @@ public:
                                 ::UnityEngine::Quaternion _rotation_k__BackingField, ::UnityEngine::Vector3 _scale_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19097 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -143,8 +143,8 @@ public:
   /// @brief Field <colliderInstanceID>k__BackingField, offset: 0xc, size: 0x4, def value: None
   int32_t _colliderInstanceID_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <position>k__BackingField, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 _position_k__BackingField;
 

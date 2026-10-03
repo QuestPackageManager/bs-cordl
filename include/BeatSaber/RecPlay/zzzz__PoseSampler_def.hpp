@@ -31,13 +31,13 @@ namespace BeatSaber::RecPlay {
 class CORDL_TYPE PoseSampler : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindPoseSample, addr 0x32c575c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method FindPoseSample, addr 0x354cb9c, size 0x148, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::FrameSample FindPoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames, float_t time, int32_t nearest);
 
-  /// @brief Method InterpolatePoseSample, addr 0x32c58a4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method InterpolatePoseSample, addr 0x354cce4, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InterpolatePoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames, /* [IsReadOnly] */ ::by_ref<::BeatSaber::RecPlay::FrameSample> sample);
 
-  /// @brief Method SamplePose, addr 0x32c54e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SamplePose, addr 0x354c924, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose SamplePose(::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames, float_t time, ::by_ref<int32_t> nearest);
 
 protected:
@@ -55,7 +55,7 @@ public:
   PoseSampler(PoseSampler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23298 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24050 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

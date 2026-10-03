@@ -57,16 +57,16 @@ public:
              ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
   inline void AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
 
-  /// @brief Method Create, addr 0x5b71d28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5f89c7c, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder Create();
 
-  /// @brief Method SetException, addr 0x5b6fb40, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetException, addr 0x5f87a94, size 0x84, virtual false, abstract: false, final false
   inline void SetException(::System::Exception* exception);
 
-  /// @brief Method SetResult, addr 0x5b6fa28, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetResult, addr 0x5f8797c, size 0xb0, virtual false, abstract: false, final false
   inline void SetResult();
 
-  /// @brief Method SetStateMachine, addr 0x5b6f938, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetStateMachine, addr 0x5f8788c, size 0x7c, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// [DebuggerStepThrough]
@@ -77,7 +77,7 @@ public:
 
   static inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult>* getStaticF_s_cachedCompleted();
 
-  /// @brief Method get_Task, addr 0x5b6fc50, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Task, addr 0x5f87ba4, size 0x74, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* get_Task();
 
   static inline void setStaticF_s_cachedCompleted(::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult>* value);

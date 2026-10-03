@@ -25,7 +25,7 @@ MARK_REF_T(::UnityEngine::Rendering::Universal::XRSystemData_ShaderResources*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::XRSystemData*, "UnityEngine.Rendering.Universal", "XRSystemData");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::XRSystemData_ShaderResources*, "UnityEngine.Rendering.Universal", "XRSystemData/ShaderResources");
 // [ReloadGroup]
-// [Obsolete("Moved to UniversalRenderPipelineRuntimeXRResources on GraphicsSettings. #from(2023.3)", false)]
+// [Obsolete("Moved to UniversalRenderPipelineRuntimeXRResources on GraphicsSettings. #from(2023.3)")]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_xrOcclusionMeshPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x687422c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca24bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   XRSystemData_ShaderResources(XRSystemData_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12955 };
 
   /// [Reload("Shaders/XR/XROcclusionMesh.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field xrOcclusionMeshPS, offset: 0x10, size: 0x8, def value: None
@@ -91,7 +91,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::XRSystemData_ShaderR
 static_assert(sizeof(::UnityEngine::Rendering::Universal::XRSystemData_ShaderResources) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
-// [Obsolete("Moved to UniversalRenderPipelineRuntimeXRResources on GraphicsSettings. #from(2023.3)", false)]
+// [Obsolete("Moved to UniversalRenderPipelineRuntimeXRResources on GraphicsSettings. #from(2023.3)")]
 // Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -112,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set_shaders(::UnityEngine::Rendering::Universal::XRSystemData_ShaderResources* value);
 
-  /// @brief Method .ctor, addr 0x6874224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca24b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -130,9 +130,9 @@ public:
   XRSystemData(XRSystemData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12956 };
 
-  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeXRResources on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeXRResources on GraphicsSettings. #from(2023.3)")]
   /// @brief Field shaders, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::XRSystemData_ShaderResources* ___shaders;
 

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67dbcd8;
+  constexpr static std::size_t addrs = 0x6bf4098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,6 +83,18 @@ constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* const& U
 constexpr void UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext::__cordl_internal_set_executingPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___executingPass = value;
+}
+constexpr Il2CppObject*& UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext::__cordl_internal_get_compilerContext() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___compilerContext;
+}
+constexpr Il2CppObject* const& UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext::__cordl_internal_get_compilerContext() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___compilerContext;
+}
+constexpr void UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext::__cordl_internal_set_compilerContext(Il2CppObject* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___compilerContext = value;
 }
 constexpr bool& UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext::__cordl_internal_get_contextlessTesting() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

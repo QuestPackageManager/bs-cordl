@@ -53,7 +53,7 @@ public:
 
   static inline ::System::NotSupportedException* getStaticF_s_notSupported();
 
-  /// @brief Method get_DataViewSettings, addr 0x6035a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataViewSettings, addr 0x6451c98, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataViewSettingCollection* get_DataViewSettings();
 
   static inline void setStaticF_s_notSupported(::System::NotSupportedException* value);
@@ -73,7 +73,7 @@ public:
   DataViewManager(DataViewManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13801 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14040 };
 
   /// @brief Field _dataViewSettingsCollection, offset: 0x20, size: 0x8, def value: None
   ::System::Data::DataViewSettingCollection* ____dataViewSettingsCollection;

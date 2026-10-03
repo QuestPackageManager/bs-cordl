@@ -43,36 +43,36 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE ScreenSpaceAmbientOcclusion : public ::UnityEngine::Rendering::Universal::ScriptableRendererFeature {
 public:
   // Declarations
-  /// @brief Field m_BlueNoise256Textures, offset 0x28, size 0x8
+  /// @brief Field m_BlueNoise256Textures, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_BlueNoise256Textures, put = __cordl_internal_set_m_BlueNoise256Textures)) ::ArrayW<::UnityW<::UnityEngine::Texture2D>> m_BlueNoise256Textures;
 
-  /// @brief Field m_Material, offset 0x38, size 0x8
+  /// @brief Field m_Material, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Material, put = __cordl_internal_set_m_Material)) ::UnityW<::UnityEngine::Material> m_Material;
 
-  /// @brief Field m_SSAOPass, offset 0x40, size 0x8
+  /// @brief Field m_SSAOPass, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SSAOPass, put = __cordl_internal_set_m_SSAOPass)) ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass* m_SSAOPass;
 
   /// @brief Field m_Settings, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Settings, put = __cordl_internal_set_m_Settings)) ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings* m_Settings;
 
-  /// @brief Field m_Shader, offset 0x30, size 0x8
+  /// @brief Field m_Shader, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Shader, put = __cordl_internal_set_m_Shader)) ::UnityW<::UnityEngine::Shader> m_Shader;
 
   __declspec(property(get = get_settings)) ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings* settings;
 
-  /// @brief Method AddRenderPasses, addr 0x68afa64, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x6ce9344, size 0xd4, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x68af9b4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x6ce9294, size 0xb0, virtual true, abstract: false, final false
   inline void Create();
 
-  /// @brief Method Dispose, addr 0x68afd3c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6ce9818, size 0x78, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetMaterials, addr 0x68afc4c, size 0xf0, virtual false, abstract: false, final false
-  inline bool GetMaterials();
-
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion* New_ctor();
+
+  /// @brief Method TryPrepareResources, addr 0x6ce9418, size 0x400, virtual false, abstract: false, final false
+  inline bool TryPrepareResources();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Texture2D>> const& __cordl_internal_get_m_BlueNoise256Textures() const;
 
@@ -104,10 +104,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Shader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x68afdac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce9890, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_settings, addr 0x68af9ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_settings, addr 0x6ce928c, size 0x8, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings*> get_settings();
 
 protected:
@@ -125,7 +125,7 @@ public:
   ScreenSpaceAmbientOcclusion(ScreenSpaceAmbientOcclusion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13175 };
 
   /// @brief Field k_AOBlueNoiseKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString k_AOBlueNoiseKeyword{ u"_BLUE_NOISE" };
@@ -161,36 +161,30 @@ public:
   /// @brief Field m_Settings, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings* ___m_Settings;
 
-  /// [SerializeField]
-  /// [HideInInspector]
-  /// [Reload("Textures/BlueNoise256/LDR_LLL1_{0}.png", 0, 7, (UnityEngine.Rendering.ReloadAttribute::Package)1)]
-  /// @brief Field m_BlueNoise256Textures, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::UnityEngine::Texture2D>> ___m_BlueNoise256Textures;
-
-  /// [SerializeField]
-  /// [HideInInspector]
-  /// [Reload("Shaders/Utils/ScreenSpaceAmbientOcclusion.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
-  /// @brief Field m_Shader, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Shader> ___m_Shader;
-
-  /// @brief Field m_Material, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field m_Material, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_Material;
 
-  /// @brief Field m_SSAOPass, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field m_SSAOPass, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass* ___m_SSAOPass;
+
+  /// @brief Field m_Shader, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Shader> ___m_Shader;
+
+  /// @brief Field m_BlueNoise256Textures, offset: 0x40, size: 0x8, def value: None
+  ::ArrayW<::UnityW<::UnityEngine::Texture2D>> ___m_BlueNoise256Textures;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion, ___m_Settings) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion, ___m_BlueNoise256Textures) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion, ___m_Material) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion, ___m_Shader) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion, ___m_SSAOPass) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion, ___m_Material) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion, ___m_Shader) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion, ___m_SSAOPass) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion, ___m_BlueNoise256Textures) == 0x40, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion) == 0x48, "Size mismatch!");
 

@@ -46,14 +46,14 @@ public:
 
   constexpr void __cordl_internal_set__NodeType_k__BackingField(::System::Linq::Expressions::ExpressionType value);
 
-  /// @brief Method .ctor, addr 0x5f62f60, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637eedc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
   /// [CompilerGenerated]
-  /// @brief Method get_NodeType, addr 0x5f62fbc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x637ef38, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x5f62f8c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x637ef08, size 0x30, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:
@@ -71,7 +71,7 @@ public:
   LogicalBinaryExpression(LogicalBinaryExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16626 };
 
   /// [CompilerGenerated]
   /// @brief Field <NodeType>k__BackingField, offset: 0x20, size: 0x4, def value: None

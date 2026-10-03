@@ -59,10 +59,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6ba2074, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x700daa8, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x6ba2054, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700da88, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Properties::PathVisitor* visitor, ::Unity::Properties::IProperty* property);
 
   /// @brief Convert to "::System::IDisposable"
@@ -77,7 +77,7 @@ public:
   constexpr PathVisitor_PropertyScope(::Unity::Properties::PathVisitor* m_Visitor, ::Unity::Properties::IProperty* m_Property) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20772 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -138,7 +138,7 @@ public:
 
   static inline ::Unity::Properties::PathVisitor* New_ctor();
 
-  /// @brief Method Reset, addr 0x6b9e260, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x7009c1c, size 0x2c, virtual true, abstract: false, final false
   inline void Reset();
 
   /// @brief Method Unity.Properties.IPropertyBagVisitor.Visit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -180,23 +180,23 @@ public:
 
   constexpr void __cordl_internal_set_m_PathIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6b9e290, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7009c4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Path, addr 0x6ba2008, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x700da3c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Properties::PropertyPath get_Path();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Property, addr 0x6ba2024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Property, addr 0x700da58, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Properties::IProperty* get_Property();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ReadonlyVisit, addr 0x6ba2034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadonlyVisit, addr 0x700da68, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadonlyVisit();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ReturnCode, addr 0x6ba2044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReturnCode, addr 0x700da78, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Properties::VisitReturnCode get_ReturnCode();
 
   /// @brief Convert to "::Unity::Properties::IPropertyBagVisitor"
@@ -206,19 +206,19 @@ public:
   constexpr ::Unity::Properties::IPropertyVisitor* i___Unity__Properties__IPropertyVisitor() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_Path, addr 0x6ba2018, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Path, addr 0x700da4c, size 0xc, virtual false, abstract: false, final false
   inline void set_Path(::Unity::Properties::PropertyPath value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Property, addr 0x6ba202c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Property, addr 0x700da60, size 0x8, virtual false, abstract: false, final false
   inline void set_Property(::Unity::Properties::IProperty* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ReadonlyVisit, addr 0x6ba203c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReadonlyVisit, addr 0x700da70, size 0x8, virtual false, abstract: false, final false
   inline void set_ReadonlyVisit(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ReturnCode, addr 0x6ba204c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReturnCode, addr 0x700da80, size 0x8, virtual false, abstract: false, final false
   inline void set_ReturnCode(::Unity::Properties::VisitReturnCode value);
 
 protected:
@@ -236,13 +236,13 @@ public:
   PathVisitor(PathVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20773 };
 
   /// @brief Field m_PathIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_PathIndex;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Path>k__BackingField, offset: 0x18, size: 0x90, def value: None
   ::Unity::Properties::PropertyPath ____Path_k__BackingField;
 

@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(
     &::UnityEngine::TextCore::Text::MaterialManager::GetFallbackMaterial)> {
-  constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x6bc76b0;
+  constexpr static std::size_t size = 0x418;
+  constexpr static std::size_t addrs = 0x702e5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::TextCore::Text::FontAsset*, ::UnityEngine::Material*, int32_t)>(
     &::UnityEngine::TextCore::Text::MaterialManager::GetFallbackMaterial)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x6bc7d10;
+  constexpr static std::size_t addrs = 0x702ec14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(&::UnityEngine::TextCore::Text::MaterialManager::CopyMaterialPresetProperties)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x6bc7abc;
+  constexpr static std::size_t addrs = 0x702e9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

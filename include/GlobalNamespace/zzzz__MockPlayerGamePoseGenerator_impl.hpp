@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGenerator::*)(
     ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*, ::GlobalNamespace::IGameplayRpcManager*, bool)>(&::GlobalNamespace::MockPlayerGamePoseGenerator::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a82d34;
+  constexpr static std::size_t addrs = 0x5e9aba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGenerator::*)()>(&::GlobalNamespace::MockPlayerGamePoseGenerator::Dispose)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5a82f90;
+  constexpr static std::size_t addrs = 0x5e9adfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGenerator::*)()>(&::GlobalNamespace::MockPlayerGamePoseGenerator::SimulateFail)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5a8307c;
+  constexpr static std::size_t addrs = 0x5e9aee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGenerator::*)()>(&::GlobalNamespace::MockPlayerGamePoseGenerator::SimulateGiveUp)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5a83238;
+  constexpr static std::size_t addrs = 0x5e9b0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerGamePoseGenerator*>(), { "SimulateGiveUp", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LevelCompletionResults* (*)(::GlobalNamespace::LevelCompletionResults_LevelEndStateType)>(
     &::GlobalNamespace::MockPlayerGamePoseGenerator::CreateEmptyLevelCompletionResults)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5a83168;
+  constexpr static std::size_t addrs = 0x5e9afd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

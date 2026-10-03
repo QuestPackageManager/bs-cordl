@@ -20,6 +20,7 @@ struct BufferHandle;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::BufferHandle);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::BufferHandle, "UnityEngine.Rendering.RenderGraphModule", "BufferHandle");
+// [IsReadOnly]
 // [DebuggerDisplay("Buffer ({handle.index})")]
 // [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.ResourceHandle
@@ -32,21 +33,21 @@ public:
   /// @brief Field s_NullHandle, offset 0xffffffff, size 0xc
   __declspec(property(get = getStaticF_s_NullHandle, put = setStaticF_s_NullHandle)) ::UnityEngine::Rendering::RenderGraphModule::BufferHandle s_NullHandle;
 
-  /// @brief Method IsValid, addr 0x67e4530, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6c0cfa0, size 0xe4, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method .ctor, addr 0x67e43ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0ce5c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h);
 
-  /// @brief Method .ctor, addr 0x67e4400, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0ce70, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t handle, bool shared);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle getStaticF_s_NullHandle();
 
-  /// @brief Method get_nullHandle, addr 0x67e438c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_nullHandle, addr 0x6c0cdfc, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle get_nullHandle();
 
-  /// @brief Method op_Implicit, addr 0x67e4440, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c0ceb0, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::GraphicsBuffer* op_Implicit___UnityEngine__GraphicsBuffer_(::UnityEngine::Rendering::RenderGraphModule::BufferHandle buffer);
 
   static inline void setStaticF_s_NullHandle(::UnityEngine::Rendering::RenderGraphModule::BufferHandle value);
@@ -59,7 +60,7 @@ public:
   constexpr BufferHandle(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9352 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

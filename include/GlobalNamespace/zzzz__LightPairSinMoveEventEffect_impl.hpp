@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect_MovementData::*)()>(&::GlobalNamespace::LightPairSinMoveEventEffect_MovementData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x599ca88;
+  constexpr static std::size_t addrs = 0x5db7b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightPairSinMoveEventEffect_MovementData*>(), { ".ctor", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)()>(&::GlobalNamespace::LightPairSinMoveEventEffect::Start)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x599c798;
+  constexpr static std::size_t addrs = 0x5db781c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightPairSinMoveEventEffect*>(), { "Start", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)()>(&::GlobalNamespace::LightPairSinMoveEventEffect::Update)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x599ca8c;
+  constexpr static std::size_t addrs = 0x5db7b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightPairSinMoveEventEffect*>(), { "Update", {}, {} })));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)()>(&::GlobalNamespace::LightPairSinMoveEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x599cc68;
+  constexpr static std::size_t addrs = 0x5db7cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightPairSinMoveEventEffect*>(), { "OnDestroy", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::LightPairSinMoveEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x599cc84;
+  constexpr static std::size_t addrs = 0x5db7d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightPairSinMoveEventEffect*>(),
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)(int32_t, ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData*, float_t)>(
     &::GlobalNamespace::LightPairSinMoveEventEffect::UpdateMovementData)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x599ce10;
+  constexpr static std::size_t addrs = 0x5db7e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)()>(&::GlobalNamespace::LightPairSinMoveEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x599cf50;
+  constexpr static std::size_t addrs = 0x5db7fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightPairSinMoveEventEffect*>(), { ".ctor", {}, {} })));

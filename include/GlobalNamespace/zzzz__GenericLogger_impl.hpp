@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GenericLogger_ScopedStopwatch::*)(::StringW)>(&::GlobalNamespace::GenericLogger_ScopedStopwatch::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5854e68;
+  constexpr static std::size_t addrs = 0x5c6abec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GenericLogger_ScopedStopwatch::*)()>(&::GlobalNamespace::GenericLogger_ScopedStopwatch::Dispose)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5854f60;
+  constexpr static std::size_t addrs = 0x5c6ace4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GenericLogger_ScopedStopwatch*>(), { "Dispose", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::IVerboseLogger*, ::StringW)>(&::GlobalNamespace::GenericLogger::Format)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5854ba8;
+  constexpr static std::size_t addrs = 0x5c6a92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GenericLogger*>(),
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::IVerboseLogger*, ::StringW)>(&::GlobalNamespace::GenericLogger::Log)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5854ca0;
+  constexpr static std::size_t addrs = 0x5c6aa24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::GenericLogger::LogWithTimestamp)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5854d1c;
+  constexpr static std::size_t addrs = 0x5c6aaa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

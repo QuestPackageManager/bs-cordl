@@ -142,7 +142,7 @@ public:
   constexpr DictionaryWrapper_2_DictionaryEnumerator_2(::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* _e) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13390 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13629 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -204,7 +204,7 @@ public:
   DictionaryWrapper_2___c(DictionaryWrapper_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13391 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13630 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -458,7 +458,7 @@ public:
   DictionaryWrapper_2(DictionaryWrapper_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13392 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13631 };
 
   /// [Nullable(2)]
   /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None

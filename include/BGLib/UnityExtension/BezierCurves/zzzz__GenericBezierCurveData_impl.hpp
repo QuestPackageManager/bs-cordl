@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::get_startPoint)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x332c0b8;
+  constexpr static std::size_t addrs = 0x35b5348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::get_endPoint)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x332c0c4;
+  constexpr static std::size_t addrs = 0x35b5354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)(::UnityEngine::Vector3)>(
     &::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::SetStartPoint)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x332c0d0;
+  constexpr static std::size_t addrs = 0x35b5360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)(::UnityEngine::Vector3)>(
     &::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::SetEndPoint)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x332c0dc;
+  constexpr static std::size_t addrs = 0x35b536c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData* (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
         &::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::RotatePointsAroundPivot)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x332c0e8;
+  constexpr static std::size_t addrs = 0x35b5378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::RotatePointAroundPivot)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x332c34c;
+  constexpr static std::size_t addrs = 0x35b55dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x332c39c;
+  constexpr static std::size_t addrs = 0x35b562c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>(), { ".ctor", {}, {} })));

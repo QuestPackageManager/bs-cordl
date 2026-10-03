@@ -39,7 +39,7 @@ public:
   constexpr UnsafeStreamBlock__Data_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16056 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -75,7 +75,7 @@ public:
   constexpr UnsafeStreamBlock(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* Next, ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock__Data_e__FixedBuffer Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16057 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

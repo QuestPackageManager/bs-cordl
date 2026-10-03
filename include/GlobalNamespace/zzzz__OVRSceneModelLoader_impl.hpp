@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader___c__DisplayClass9_0::*)()>(&::GlobalNamespace::OVRSceneModelLoader___c__DisplayClass9_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ecb7dc;
+  constexpr static std::size_t addrs = 0x62e5cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneModelLoader___c__DisplayClass9_0*>(), { ".ctor", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader___c__DisplayClass9_0::*)(::StringW)>(
     &::GlobalNamespace::OVRSceneModelLoader___c__DisplayClass9_0::_RequestScenePermissionAsync_b__1)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5ecb7e0;
+  constexpr static std::size_t addrs = 0x62e5cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneModelLoader___c__DisplayClass9_0*>(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader___c__DisplayClass9_0::*)(::StringW)>(
     &::GlobalNamespace::OVRSceneModelLoader___c__DisplayClass9_0::_RequestScenePermissionAsync_b__2)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5ecb830;
+  constexpr static std::size_t addrs = 0x62e5d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneModelLoader___c__DisplayClass9_0*>(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::*)(int32_t)>(
     &::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecaf88;
+  constexpr static std::size_t addrs = 0x62e547c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ecb880;
+  constexpr static std::size_t addrs = 0x62e5d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::MoveNext)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5ecb884;
+  constexpr static std::size_t addrs = 0x62e5d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecb93c;
+  constexpr static std::size_t addrs = 0x62e5e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7*>(),
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5ecb944;
+  constexpr static std::size_t addrs = 0x62e5e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecb97c;
+  constexpr static std::size_t addrs = 0x62e5e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader__OnLoadSceneModelFailedPermissionNotGranted_d__10::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader__OnLoadSceneModelFailedPermissionNotGranted_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x5ecb984;
+  constexpr static std::size_t addrs = 0x62e5e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader__OnLoadSceneModelFailedPermissionNotGranted_d__10::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OVRSceneModelLoader__OnLoadSceneModelFailedPermissionNotGranted_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecbd60;
+  constexpr static std::size_t addrs = 0x62e6254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneModelLoader__OnLoadSceneModelFailedPermissionNotGranted_d__10>(),
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRSceneManager> (::GlobalNamespace::OVRSceneModelLoader::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader::get_SceneManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecab00;
+  constexpr static std::size_t addrs = 0x62e4ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneModelLoader*>(), { "get_SceneManager", {}, {} })));
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)(::GlobalNamespace::OVRSceneManager*)>(
     &::GlobalNamespace::OVRSceneModelLoader::set_SceneManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecab08;
+  constexpr static std::size_t addrs = 0x62e4ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(&::GlobalNamespace::OVRSceneModelLoader::Start)> {
   constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x5ecab10;
+  constexpr static std::size_t addrs = 0x62e5004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRSceneModelLoader::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader::AttemptToLoadSceneModel)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5ecaf34;
+  constexpr static std::size_t addrs = 0x62e5428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneModelLoader*>(), { "AttemptToLoadSceneModel", {}, {} })));
@@ -399,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(&::GlobalNamespace::OVRSceneModelLoader::OnStart)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ecaf90;
+  constexpr static std::size_t addrs = 0x62e5484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -412,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<bool> (*)()>(&::GlobalNamespace::OVRSceneModelLoader::RequestScenePermissionAsync)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ecb0d4;
+  constexpr static std::size_t addrs = 0x62e55c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneModelLoader*>(), { "RequestScenePermissionAsync", {}, {} })));
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(&::GlobalNamespace::OVRSceneModelLoader::OnLoadSceneModelFailedPermissionNotGranted)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5ecb270;
+  constexpr static std::size_t addrs = 0x62e5764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -437,7 +437,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(&::GlobalNamespace::OVRSceneModelLoader::LoadSceneModel)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5ecaf94;
+  constexpr static std::size_t addrs = 0x62e5488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneModelLoader*>(), { "LoadSceneModel", {}, {} })));
@@ -449,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(&::GlobalNamespace::OVRSceneModelLoader::OnSceneModelLoadedSuccessfully)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5ecb310;
+  constexpr static std::size_t addrs = 0x62e5804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -462,7 +462,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(&::GlobalNamespace::OVRSceneModelLoader::OnNoSceneModelToLoad)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5ecb3e8;
+  constexpr static std::size_t addrs = 0x62e58dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -475,7 +475,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(&::GlobalNamespace::OVRSceneModelLoader::OnNewSceneModelAvailable)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5ecb548;
+  constexpr static std::size_t addrs = 0x62e5a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -488,7 +488,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(&::GlobalNamespace::OVRSceneModelLoader::OnSceneCaptureReturnedWithoutError)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5ecb628;
+  constexpr static std::size_t addrs = 0x62e5b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -501,7 +501,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(&::GlobalNamespace::OVRSceneModelLoader::OnUnexpectedErrorWithSceneCapture)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5ecb700;
+  constexpr static std::size_t addrs = 0x62e5bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -514,7 +514,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(&::GlobalNamespace::OVRSceneModelLoader::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ecb7d8;
+  constexpr static std::size_t addrs = 0x62e5ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneModelLoader*>(), { ".ctor", {}, {} })));
@@ -527,7 +527,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<bool> (*)()>(
     &::GlobalNamespace::OVRSceneModelLoader::_RequestScenePermissionAsync_g__RequestPermissionOnAndroid_9_0)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x5ecb0d8;
+  constexpr static std::size_t addrs = 0x62e55cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

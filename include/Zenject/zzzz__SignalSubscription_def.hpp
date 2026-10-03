@@ -53,14 +53,14 @@ public:
   // Declarations
   static inline ::Zenject::SignalSubscription_Pool* New_ctor();
 
-  /// @brief Method __zenCreate, addr 0x6e47cfc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x72e3854, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e47d74, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x72e38cc, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e47cc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72e3818, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   SignalSubscription_Pool(SignalSubscription_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14252 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -115,24 +115,24 @@ public:
   /// @brief Convert operator to "::Zenject::IPoolable_2<::System::Action_1<::System::Object*>*,::Zenject::SignalDeclaration*>"
   constexpr operator ::Zenject::IPoolable_2<::System::Action_1<::System::Object*>*, ::Zenject::SignalDeclaration*>*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6e47908, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x72e3460, size 0xac, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Invoke, addr 0x6e46d9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x72e28f4, size 0x20, virtual false, abstract: false, final false
   inline void Invoke(::System::Object* signal);
 
   static inline ::Zenject::SignalSubscription* New_ctor(::Zenject::SignalSubscription_Pool* pool);
 
-  /// @brief Method OnDeclarationDespawned, addr 0x6e46888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDeclarationDespawned, addr 0x72e23e0, size 0x8, virtual false, abstract: false, final false
   inline void OnDeclarationDespawned();
 
-  /// @brief Method OnDespawned, addr 0x6e478dc, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method OnDespawned, addr 0x72e3434, size 0x2c, virtual true, abstract: false, final true
   inline void OnDespawned();
 
-  /// @brief Method OnSpawned, addr 0x6e47898, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method OnSpawned, addr 0x72e33f0, size 0x44, virtual true, abstract: false, final true
   inline void OnSpawned(::System::Action_1<::System::Object*>* callback, ::Zenject::SignalDeclaration* declaration);
 
-  /// @brief Method SetDefaults, addr 0x6e4787c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetDefaults, addr 0x72e33d4, size 0x10, virtual false, abstract: false, final false
   inline void SetDefaults();
 
   constexpr ::System::Action_1<::System::Object*>* const& __cordl_internal_get__callback() const;
@@ -159,17 +159,17 @@ public:
 
   constexpr void __cordl_internal_set__signalId(::Zenject::BindingId value);
 
-  /// @brief Method __zenCreate, addr 0x6e479b4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x72e350c, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e47a78, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x72e35d0, size 0x248, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e47868, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72e33c0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalSubscription_Pool* pool);
 
-  /// @brief Method get_SignalId, addr 0x6e4788c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_SignalId, addr 0x72e33e4, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::BindingId get_SignalId();
 
   /// @brief Convert to "::System::IDisposable"
@@ -194,7 +194,7 @@ public:
   SignalSubscription(SignalSubscription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14253 };
 
   /// @brief Field _pool, offset: 0x10, size: 0x8, def value: None
   ::Zenject::SignalSubscription_Pool* ____pool;

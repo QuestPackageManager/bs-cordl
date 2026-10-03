@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::get_ringPositionStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59a8540;
+  constexpr static std::size_t addrs = 0x5dc3724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsManager*>(), { "get_ringPositionStep", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>> (::GlobalNamespace::TrackLaneRingsManager::*)()>(
     &::GlobalNamespace::TrackLaneRingsManager::get_Rings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59a8548;
+  constexpr static std::size_t addrs = 0x5dc372c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsManager*>(), { "get_Rings", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::Start)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x59a8550;
+  constexpr static std::size_t addrs = 0x5dc3734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsManager*>(), { "Start", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::FixedUpdate)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x59a8814;
+  constexpr static std::size_t addrs = 0x5dc39f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsManager*>(), { "FixedUpdate", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::LateUpdate)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x59a887c;
+  constexpr static std::size_t addrs = 0x5dc3a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsManager*>(), { "LateUpdate", {}, {} })));
@@ -73,8 +73,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::OnDrawGizmosSelected)> {
-  constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x59a8904;
+  constexpr static std::size_t size = 0x348;
+  constexpr static std::size_t addrs = 0x5dc3ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsManager*>(), { "OnDrawGizmosSelected", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x59a8b80;
+  constexpr static std::size_t addrs = 0x5dc3e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsManager*>(), { ".ctor", {}, {} })));

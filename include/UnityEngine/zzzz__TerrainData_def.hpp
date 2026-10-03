@@ -12,6 +12,12 @@ CORDL_MODULE_EXPORT(TerrainData)
 namespace System {
 struct IntPtr;
 }
+namespace System {
+class Object;
+}
+namespace UnityEngine::Bindings {
+struct BlittableArrayWrapper;
+}
 namespace UnityEngine {
 struct Bounds;
 }
@@ -23,6 +29,12 @@ struct TerrainData_BoundaryValueType;
 }
 namespace UnityEngine {
 class Terrain;
+}
+namespace UnityEngine {
+struct TreeInstance;
+}
+namespace UnityEngine {
+class TreePrototype;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -106,7 +118,7 @@ public:
   static ::UnityEngine::TerrainData_BoundaryValueType const MinDetailResPerPatch;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23127 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -136,9 +148,15 @@ public:
 
   __declspec(property(get = get_bounds)) ::UnityEngine::Bounds bounds;
 
+  __declspec(property(get = get_heightmapResolution)) int32_t heightmapResolution;
+
   __declspec(property(get = get_heightmapScale)) ::UnityEngine::Vector3 heightmapScale;
 
   __declspec(property(get = get_heightmapTexture)) ::UnityW<::UnityEngine::RenderTexture> heightmapTexture;
+
+  __declspec(property(get = get_holesResolution)) int32_t holesResolution;
+
+  __declspec(property(get = get_internalHeightmapResolution)) int32_t internalHeightmapResolution;
 
   /// @brief Field k_MaximumAlphamapResolution, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_k_MaximumAlphamapResolution, put = setStaticF_k_MaximumAlphamapResolution)) int32_t k_MaximumAlphamapResolution;
@@ -166,20 +184,51 @@ public:
 
   __declspec(property(get = get_size)) ::UnityEngine::Vector3 size;
 
+  __declspec(property(get = get_treeInstances)) ::ArrayW<::UnityEngine::TreeInstance> treeInstances;
+
+  __declspec(property(get = get_treePrototypes)) ::ArrayW<::UnityEngine::TreePrototype*> treePrototypes;
+
   __declspec(property(get = get_users)) ::ArrayW<::UnityW<::UnityEngine::Terrain>> users;
 
   /// [RequiredByNativeCode]
   /// [NativeName("GetSplatDatabase().GetAlphamapResolution")]
-  /// @brief Method GetAlphamapResolutionInternal, addr 0x6bba294, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetAlphamapResolutionInternal, addr 0x701958c, size 0xa8, virtual false, abstract: false, final false
   inline float_t GetAlphamapResolutionInternal();
 
-  /// @brief Method GetAlphamapResolutionInternal_Injected, addr 0x6bba33c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAlphamapResolutionInternal_Injected, addr 0x7019634, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetAlphamapResolutionInternal_Injected(::System::IntPtr _unity_self);
 
   /// [ThreadSafe]
   /// [StaticAccessor("TerrainDataScriptingInterface", (UnityEngine.Bindings.StaticAccessorType)2)]
-  /// @brief Method GetBoundaryValue, addr 0x6bb9d70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryValue, addr 0x7018898, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetBoundaryValue(::UnityEngine::TerrainData_BoundaryValueType type);
+
+  /// @brief Method GetHeights, addr 0x7018eb8, size 0xc8, virtual false, abstract: false, final false
+  inline ::System::Object* GetHeights(int32_t xBase, int32_t yBase, int32_t width, int32_t height);
+
+  /// @brief Method GetHoles, addr 0x70190c4, size 0xd0, virtual false, abstract: false, final false
+  inline ::System::Object* GetHoles(int32_t xBase, int32_t yBase, int32_t width, int32_t height);
+
+  /// [FreeFunction("TerrainDataScriptingInterface::GetHeights", HasExplicitThis = true)]
+  /// @brief Method Internal_GetHeights, addr 0x7018f80, size 0xd8, virtual false, abstract: false, final false
+  inline ::System::Object* Internal_GetHeights(int32_t xBase, int32_t yBase, int32_t width, int32_t height);
+
+  /// @brief Method Internal_GetHeights_Injected, addr 0x7019058, size 0x6c, virtual false, abstract: false, final false
+  static inline ::System::Object* Internal_GetHeights_Injected(::System::IntPtr _unity_self, int32_t xBase, int32_t yBase, int32_t width, int32_t height);
+
+  /// [FreeFunction("TerrainDataScriptingInterface::GetHoles", HasExplicitThis = true)]
+  /// @brief Method Internal_GetHoles, addr 0x7019194, size 0xd8, virtual false, abstract: false, final false
+  inline ::System::Object* Internal_GetHoles(int32_t xBase, int32_t yBase, int32_t width, int32_t height);
+
+  /// @brief Method Internal_GetHoles_Injected, addr 0x701926c, size 0x6c, virtual false, abstract: false, final false
+  static inline ::System::Object* Internal_GetHoles_Injected(::System::IntPtr _unity_self, int32_t xBase, int32_t yBase, int32_t width, int32_t height);
+
+  /// [NativeName("GetTreeDatabase().GetInstances")]
+  /// @brief Method Internal_GetTreeInstances, addr 0x70192dc, size 0x188, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::TreeInstance> Internal_GetTreeInstances();
+
+  /// @brief Method Internal_GetTreeInstances_Injected, addr 0x7019464, size 0x44, virtual false, abstract: false, final false
+  static inline void Internal_GetTreeInstances_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
   static inline int32_t getStaticF_k_MaximumAlphamapResolution();
 
@@ -198,37 +247,60 @@ public:
   static inline int32_t getStaticF_k_MinimumDetailResolutionPerPatch();
 
   /// [NativeName("GetHeightmap().CalculateBounds")]
-  /// @brief Method get_bounds, addr 0x6bba178, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x7018d9c, size 0xd8, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
-  /// @brief Method get_bounds_Injected, addr 0x6bba250, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_bounds_Injected, addr 0x7018e74, size 0x44, virtual false, abstract: false, final false
   static inline void get_bounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds> ret);
 
+  /// @brief Method get_heightmapResolution, addr 0x7018a88, size 0x4, virtual false, abstract: false, final false
+  inline int32_t get_heightmapResolution();
+
   /// [NativeName("GetHeightmap().GetScale")]
-  /// @brief Method get_heightmapScale, addr 0x6bb9f60, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_heightmapScale, addr 0x7018b70, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_heightmapScale();
 
-  /// @brief Method get_heightmapScale_Injected, addr 0x6bba028, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_heightmapScale_Injected, addr 0x7018c38, size 0x44, virtual false, abstract: false, final false
   static inline void get_heightmapScale_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// [NativeName("GetHeightmap().GetHeightmapTexture")]
-  /// @brief Method get_heightmapTexture, addr 0x6bb9dac, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method get_heightmapTexture, addr 0x70188d4, size 0x178, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_heightmapTexture();
 
-  /// @brief Method get_heightmapTexture_Injected, addr 0x6bb9f24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_heightmapTexture_Injected, addr 0x7018a4c, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_heightmapTexture_Injected(::System::IntPtr _unity_self);
 
+  /// @brief Method get_holesResolution, addr 0x7018c7c, size 0x14, virtual false, abstract: false, final false
+  inline int32_t get_holesResolution();
+
+  /// [NativeName("GetHeightmap().GetResolution")]
+  /// @brief Method get_internalHeightmapResolution, addr 0x7018a8c, size 0xa8, virtual false, abstract: false, final false
+  inline int32_t get_internalHeightmapResolution();
+
+  /// @brief Method get_internalHeightmapResolution_Injected, addr 0x7018b34, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_internalHeightmapResolution_Injected(::System::IntPtr _unity_self);
+
   /// [NativeName("GetHeightmap().GetSize")]
-  /// @brief Method get_size, addr 0x6bba06c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x7018c90, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_size();
 
-  /// @brief Method get_size_Injected, addr 0x6bba134, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_size_Injected, addr 0x7018d58, size 0x44, virtual false, abstract: false, final false
   static inline void get_size_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_users, addr 0x6bb9aa4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_treeInstances, addr 0x70192d8, size 0x4, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::TreeInstance> get_treeInstances();
+
+  /// [FreeFunction("TerrainDataScriptingInterface::GetTreePrototypes", HasExplicitThis = true)]
+  /// @brief Method get_treePrototypes, addr 0x70194a8, size 0xa8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::TreePrototype*> get_treePrototypes();
+
+  /// @brief Method get_treePrototypes_Injected, addr 0x7019550, size 0x3c, virtual false, abstract: false, final false
+  static inline ::ArrayW<::UnityEngine::TreePrototype*> get_treePrototypes_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_users, addr 0x70185cc, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Terrain>> get_users();
 
-  /// @brief Method get_users_Injected, addr 0x6bba378, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_users_Injected, addr 0x7019670, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Terrain>> get_users_Injected(::System::IntPtr _unity_self);
 
   static inline void setStaticF_k_MaximumAlphamapResolution(int32_t value);
@@ -262,7 +334,7 @@ public:
   TerrainData(TerrainData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23128 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

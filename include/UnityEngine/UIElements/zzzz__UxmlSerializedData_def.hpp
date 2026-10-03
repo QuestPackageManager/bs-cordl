@@ -70,7 +70,7 @@ public:
   static ::UnityEngine::UIElements::UxmlSerializedData_UxmlAttributeFlags const OverriddenInUxml;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5292 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_uxmlAssetId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6cc1398, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7148be8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlSerializedData_UxmlAttributeFlags getStaticF_s_CurrentDeserializeFlags();
@@ -141,15 +141,15 @@ public:
   static constexpr ::ConstString AttributeFlagSuffix{ u"_UxmlAttributeFlags" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5293 };
 
   /// @brief Field k_DefaultFlags value: U8(1)
   static ::UnityEngine::UIElements::UxmlSerializedData_UxmlAttributeFlags const k_DefaultFlags;
 
+  /// [UxmlIgnore]
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// [SerializeField]
   /// [HideInInspector]
-  /// [UxmlIgnore]
   /// @brief Field uxmlAssetId, offset: 0x10, size: 0x4, def value: None
   int32_t ___uxmlAssetId;
 

@@ -16,7 +16,7 @@ class ShaderResources;
 MARK_REF_T(::UnityEngine::Rendering::Universal::ShaderResources*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ShaderResources*, "UnityEngine.Rendering.Universal", "ShaderResources");
 // [ReloadGroup]
-// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)", false)]
+// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)")]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilDeferredPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6874760, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca3b48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -170,76 +170,76 @@ public:
   ShaderResources(ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12961 };
 
-  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)")]
   /// [Reload("Shaders/Utils/Blit.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field blitPS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___blitPS;
 
   /// [Reload("Shaders/Utils/CopyDepth.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
-  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)")]
   /// @brief Field copyDepthPS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___copyDepthPS;
 
-  /// [Obsolete("Obsolete, this feature will be supported by new \'ScreenSpaceShadows\' renderer feature", true)]
+  /// [Obsolete("Obsolete, this feature will be supported by new \'ScreenSpaceShadows\' renderer feature. #from(2023.3) #breakingFrom(2023.3)", true)]
   /// @brief Field screenSpaceShadowPS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___screenSpaceShadowPS;
 
-  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)")]
   /// [Reload("Shaders/Utils/Sampling.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field samplingPS, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___samplingPS;
 
   /// [Reload("Shaders/Utils/StencilDeferred.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
-  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)")]
   /// @brief Field stencilDeferredPS, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___stencilDeferredPS;
 
   /// [Reload("Shaders/Utils/FallbackError.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
-  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)")]
   /// @brief Field fallbackErrorPS, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___fallbackErrorPS;
 
   /// [Reload("Shaders/Utils/FallbackLoading.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
-  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)")]
   /// @brief Field fallbackLoadingPS, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___fallbackLoadingPS;
 
-  /// [Obsolete("Use fallbackErrorPS instead", true)]
+  /// [Obsolete("Use fallbackErrorPS instead. #from(2023.3) #breakingFrom(2023.3)", true)]
   /// @brief Field materialErrorPS, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___materialErrorPS;
 
   /// [Reload("Shaders/Utils/CoreBlit.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// [SerializeField]
-  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)")]
   /// @brief Field coreBlitPS, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___coreBlitPS;
 
   /// [Reload("Shaders/Utils/CoreBlitColorAndDepth.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// [SerializeField]
-  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)")]
   /// @brief Field coreBlitColorAndDepthPS, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___coreBlitColorAndDepthPS;
 
   /// [Reload("Shaders/Utils/BlitHDROverlay.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// [SerializeField]
-  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)")]
   /// @brief Field blitHDROverlay, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___blitHDROverlay;
 
   /// [Reload("Shaders/CameraMotionVectors.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
-  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)")]
   /// @brief Field cameraMotionVector, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___cameraMotionVector;
 
   /// [Reload("Shaders/PostProcessing/LensFlareScreenSpace.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
-  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)")]
   /// @brief Field screenSpaceLensFlare, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___screenSpaceLensFlare;
 
   /// [Reload("Shaders/PostProcessing/LensFlareDataDriven.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
-  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)")]
   /// @brief Field dataDrivenLensFlare, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___dataDrivenLensFlare;
 

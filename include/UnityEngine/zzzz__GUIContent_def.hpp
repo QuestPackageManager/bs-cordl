@@ -67,7 +67,7 @@ public:
   __declspec(property(get = get_tooltip, put = set_tooltip)) ::StringW tooltip;
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
-  /// @brief Method ClearStaticCache, addr 0x6b44040, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ClearStaticCache, addr 0x6fa1450, size 0x9c, virtual false, abstract: false, final false
   static inline void ClearStaticCache();
 
   static inline ::UnityEngine::GUIContent* New_ctor();
@@ -80,13 +80,13 @@ public:
 
   static inline ::UnityEngine::GUIContent* New_ctor(::StringW text, ::StringW tooltip);
 
-  /// @brief Method SetTextWithoutNotify, addr 0x6b43f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTextWithoutNotify, addr 0x6fa131c, size 0x8, virtual false, abstract: false, final false
   inline void SetTextWithoutNotify(::StringW value);
 
-  /// @brief Method Temp, addr 0x6b41ea0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Temp, addr 0x6f9f040, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUIContent* Temp(::StringW t);
 
-  /// @brief Method ToString, addr 0x6b440dc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6fa14ec, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Action* const& __cordl_internal_get_OnTextChanged() const;
@@ -119,23 +119,23 @@ public:
 
   constexpr void __cordl_internal_set_m_Tooltip(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6b43f24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa1334, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6b43ff4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa1404, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GUIContent* src);
 
-  /// @brief Method .ctor, addr 0x6b43f40, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa1350, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
-  /// @brief Method .ctor, addr 0x6b43f78, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa1388, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::UnityEngine::Texture* image, ::StringW tooltip);
 
-  /// @brief Method .ctor, addr 0x6b43fb8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa13c8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::StringW tooltip);
 
   /// [CompilerGenerated]
-  /// @brief Method add_OnTextChanged, addr 0x6b43c68, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_OnTextChanged, addr 0x6fa1078, size 0xac, virtual false, abstract: false, final false
   inline void add_OnTextChanged(::System::Action* value);
 
   static inline ::StringW getStaticF_k_ZeroWidthSpace();
@@ -148,17 +148,17 @@ public:
 
   static inline ::UnityEngine::GUIContent* getStaticF_s_TextImage();
 
-  /// @brief Method get_text, addr 0x6b43dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x6fa11d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_textWithWhitespace, addr 0x6b43e9c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_textWithWhitespace, addr 0x6fa12ac, size 0x70, virtual false, abstract: false, final false
   inline ::StringW get_textWithWhitespace();
 
-  /// @brief Method get_tooltip, addr 0x6b4267c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tooltip, addr 0x6f9fa08, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_tooltip();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_OnTextChanged, addr 0x6b43d14, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_OnTextChanged, addr 0x6fa1124, size 0xac, virtual false, abstract: false, final false
   inline void remove_OnTextChanged(::System::Action* value);
 
   static inline void setStaticF_k_ZeroWidthSpace(::StringW value);
@@ -171,16 +171,16 @@ public:
 
   static inline void setStaticF_s_TextImage(::UnityEngine::GUIContent* value);
 
-  /// @brief Method set_image, addr 0x6b43f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_image, addr 0x6fa1324, size 0x8, virtual false, abstract: false, final false
   inline void set_image(::UnityEngine::Texture* value);
 
-  /// @brief Method set_text, addr 0x6b43dc8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x6fa11d8, size 0x58, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_textWithWhitespace, addr 0x6b43e20, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_textWithWhitespace, addr 0x6fa1230, size 0x7c, virtual false, abstract: false, final false
   inline void set_textWithWhitespace(::StringW value);
 
-  /// @brief Method set_tooltip, addr 0x6b43f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tooltip, addr 0x6fa132c, size 0x8, virtual false, abstract: false, final false
   inline void set_tooltip(::StringW value);
 
 protected:
@@ -198,7 +198,7 @@ public:
   GUIContent(GUIContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19874 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20043 };
 
   /// [SerializeField]
   /// @brief Field m_Text, offset: 0x10, size: 0x8, def value: None
@@ -216,8 +216,8 @@ public:
   /// @brief Field m_TextWithWhitespace, offset: 0x28, size: 0x8, def value: None
   ::StringW ___m_TextWithWhitespace;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field OnTextChanged, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___OnTextChanged;
 

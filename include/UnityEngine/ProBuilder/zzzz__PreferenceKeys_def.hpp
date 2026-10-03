@@ -77,7 +77,7 @@ public:
   static constexpr char16_t DEGREE_SYMBOL{ u'\u{b0}' };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17283 };
 
   /// @brief Field defaultUnwrapParameters offset 0xffffffff size 0x8
   static constexpr ::ConstString defaultUnwrapParameters{ u"pbDefaultUnwrapParameters" };

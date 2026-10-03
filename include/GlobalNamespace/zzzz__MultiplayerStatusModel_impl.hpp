@@ -9,6 +9,7 @@
 #include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusModel_def.hpp"
+#include "OculusStudios/MetaNetworking/Utils/zzzz__IMetaApiUserAgentProvider_def.hpp"
 #include "System/Net/Http/zzzz__HttpClient_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
@@ -20,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB::*)()>(
     &::GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x373195c;
+  constexpr static std::size_t addrs = 0x39baf40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,58 +50,58 @@ inline ::GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB* Global
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB::MultiplayerStatusModel_MultiplayerStatusDataFB() {}
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::*)()>(
-    &::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::MoveNext)> {
-  constexpr static std::size_t size = 0x8b8;
-  constexpr static std::size_t addrs = 0x3731960;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11::*)()>(
+    &::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11::MoveNext)> {
+  constexpr static std::size_t size = 0x8c4;
+  constexpr static std::size_t addrs = 0x39baf44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3732218;
+  constexpr static std::size_t addrs = 0x39bb808;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::MoveNext() {
+inline void GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9>(),
+inline void GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerStatusData*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::GlobalNamespace::MultiplayerStatusModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_uriBuilder_5__2", ty: "::System::UriBuilder*", modifiers: "", def_value:
 // Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9(
+constexpr ::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerStatusData*> __t__builder, ::GlobalNamespace::MultiplayerStatusModel* __4__this,
     ::System::UriBuilder* _uriBuilder_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -110,13 +111,13 @@ constexpr ::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncIn
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9() {}
+constexpr ::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__11() {}
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusModel.Init
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerStatusModel::*)()>(&::GlobalNamespace::MultiplayerStatusModel::Init)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3731714;
+  constexpr static std::size_t addrs = 0x39bacf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerStatusModel*>(), { "Init", {}, {} })));
@@ -129,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* (
     ::GlobalNamespace::MultiplayerStatusModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::MultiplayerStatusModel::GetMultiplayerStatusAsync)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3731744;
+  constexpr static std::size_t addrs = 0x39bad28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerStatusModel*>(),
@@ -142,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerStatusModel::*)()>(&::GlobalNamespace::MultiplayerStatusModel::IsAvailabilityTaskValid)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x37317bc;
+  constexpr static std::size_t addrs = 0x39bada0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerStatusModel*>(), { "IsAvailabilityTaskValid", {}, {} })));
@@ -154,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerStatusModel::*)()>(&::GlobalNamespace::MultiplayerStatusModel::StartRequest)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x373172c;
+  constexpr static std::size_t addrs = 0x39bad10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerStatusModel*>(), { "StartRequest", {}, {} })));
@@ -167,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* (::GlobalNamespace::MultiplayerStatusModel::*)()>(
     &::GlobalNamespace::MultiplayerStatusModel::GetMultiplayerStatusAsyncInternal)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3731820;
+  constexpr static std::size_t addrs = 0x39bae04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerStatusModel::*)()>(&::GlobalNamespace::MultiplayerStatusModel::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3731900;
+  constexpr static std::size_t addrs = 0x39baee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerStatusModel*>(), { ".ctor", {}, {} })));
@@ -198,6 +199,18 @@ constexpr ::GlobalNamespace::INetworkConfig* const& GlobalNamespace::Multiplayer
 constexpr void GlobalNamespace::MultiplayerStatusModel::__cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____networkConfig = value;
+}
+constexpr ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*& GlobalNamespace::MultiplayerStatusModel::__cordl_internal_get__metaApiUserAgentProvider() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____metaApiUserAgentProvider;
+}
+constexpr ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* const& GlobalNamespace::MultiplayerStatusModel::__cordl_internal_get__metaApiUserAgentProvider() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____metaApiUserAgentProvider;
+}
+constexpr void GlobalNamespace::MultiplayerStatusModel::__cordl_internal_set__metaApiUserAgentProvider(::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____metaApiUserAgentProvider = value;
 }
 constexpr ::System::Net::Http::HttpClient*& GlobalNamespace::MultiplayerStatusModel::__cordl_internal_get__client() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

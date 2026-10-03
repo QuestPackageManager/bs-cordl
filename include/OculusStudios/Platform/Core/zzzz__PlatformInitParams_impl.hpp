@@ -8,12 +8,14 @@
 #include "OculusStudios/Platform/Core/zzzz__IRichPresenceDefinition_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::OculusStudios::Platform::Core::PlatformInitParams._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformInitParams::*)()>(&::OculusStudios::Platform::Core::PlatformInitParams::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f2ede4;
+  constexpr static std::size_t addrs = 0x634a448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PlatformInitParams*>(), { ".ctor", {}, {} })));
@@ -82,6 +84,19 @@ constexpr ::System::Nullable_1<uint64_t> const& OculusStudios::Platform::Core::P
 constexpr void OculusStudios::Platform::Core::PlatformInitParams::__cordl_internal_set_graphAppId(::System::Nullable_1<uint64_t> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___graphAppId = value;
+}
+constexpr ::System::Action_1<::System::Net::Http::Headers::HttpRequestHeaders*>*& OculusStudios::Platform::Core::PlatformInitParams::__cordl_internal_get_metaApiUserAgentConfigureHeaders() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___metaApiUserAgentConfigureHeaders;
+}
+constexpr ::System::Action_1<::System::Net::Http::Headers::HttpRequestHeaders*>* const&
+OculusStudios::Platform::Core::PlatformInitParams::__cordl_internal_get_metaApiUserAgentConfigureHeaders() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___metaApiUserAgentConfigureHeaders;
+}
+constexpr void OculusStudios::Platform::Core::PlatformInitParams::__cordl_internal_set_metaApiUserAgentConfigureHeaders(::System::Action_1<::System::Net::Http::Headers::HttpRequestHeaders*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___metaApiUserAgentConfigureHeaders = value;
 }
 constexpr ::OculusStudios::Platform::Core::IPlatformLogger*& OculusStudios::Platform::Core::PlatformInitParams::__cordl_internal_get_logger() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

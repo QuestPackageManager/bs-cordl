@@ -31,25 +31,25 @@ namespace System {
 class CORDL_TYPE UriTypeConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x637ad3c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x67a2fa0, size 0xa8, virtual false, abstract: false, final false
   inline bool CanConvert(::System::Type* type);
 
-  /// @brief Method CanConvertFrom, addr 0x637ade4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x67a3048, size 0x74, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x637ae58, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x67a30bc, size 0x3c, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x637ae94, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x67a30f8, size 0x18c, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x637b020, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x67a3284, size 0x1a4, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::UriTypeConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x637ad38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a2f9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   UriTypeConverter(UriTypeConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12024 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

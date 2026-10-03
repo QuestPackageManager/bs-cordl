@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::BeatmapSaveDataVersion4::IndexFilter, int32_t)>(&::BeatmapDataLoaderVersion4::IndexFilterConverter::IsIndexFilterValid)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x376541c;
+  constexpr static std::size_t addrs = 0x39eeafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IndexFilter* (*)(::BeatmapSaveDataVersion4::IndexFilter, int32_t)>(
     &::BeatmapDataLoaderVersion4::IndexFilterConverter::Convert)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x376455c;
+  constexpr static std::size_t addrs = 0x39edc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::IntPtr, int32_t, int32_t)>(&::UnityEngine::TextCore::Text::TextSelectionService::Substring)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6c0d0bc;
+  constexpr static std::size_t addrs = 0x705fba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::UnityEngine::TextCore::Text::TextSelectionService::SelectCurrentWord)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c0d1f8;
+  constexpr static std::size_t addrs = 0x705fcdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::TextCore::Text::TextSelectionService::PreviousCodePointIndex)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d254;
+  constexpr static std::size_t addrs = 0x705fd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextSelectionService*>(),
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::TextCore::Text::TextSelectionService::NextCodePointIndex)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d298;
+  constexpr static std::size_t addrs = 0x705fd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextSelectionService*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::UnityEngine::Vector2)>(
     &::UnityEngine::TextCore::Text::TextSelectionService::GetCursorLogicalIndexFromPosition)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6c0d2dc;
+  constexpr static std::size_t addrs = 0x705fdc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::System::IntPtr, int32_t)>(
     &::UnityEngine::TextCore::Text::TextSelectionService::GetCursorPositionFromLogicalIndex)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c0d368;
+  constexpr static std::size_t addrs = 0x705fe4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::TextCore::Text::TextSelectionService::LineUpCharacterPosition)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d418;
+  constexpr static std::size_t addrs = 0x705fefc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextSelectionService*>(),
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::TextCore::Text::TextSelectionService::LineDownCharacterPosition)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d45c;
+  constexpr static std::size_t addrs = 0x705ff40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextSelectionService*>(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rect> (*)(::System::IntPtr, int32_t, int32_t)>(
     &::UnityEngine::TextCore::Text::TextSelectionService::GetHighlightRectangles)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6c0d4a0;
+  constexpr static std::size_t addrs = 0x705ff84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::TextCore::Text::TextSelectionService::GetCharacterHeightFromIndex)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d624;
+  constexpr static std::size_t addrs = 0x7060108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextSelectionService*>(),
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::TextCore::Text::TextSelectionService::GetStartOfNextWord)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d668;
+  constexpr static std::size_t addrs = 0x706014c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextSelectionService*>(),
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::TextCore::Text::TextSelectionService::GetEndOfPreviousWord)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d6ac;
+  constexpr static std::size_t addrs = 0x7060190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextSelectionService*>(),
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::TextCore::Text::TextSelectionService::GetFirstCharacterIndexOnLine)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d6f0;
+  constexpr static std::size_t addrs = 0x70601d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextSelectionService*>(),
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::TextCore::Text::TextSelectionService::GetLastCharacterIndexOnLine)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d734;
+  constexpr static std::size_t addrs = 0x7060218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextSelectionService*>(),
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::TextCore::Text::TextSelectionService::GetLineHeight)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d778;
+  constexpr static std::size_t addrs = 0x706025c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextSelectionService*>(),
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::TextCore::Text::TextSelectionService::GetLineNumber)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d7bc;
+  constexpr static std::size_t addrs = 0x70602a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextSelectionService*>(),
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<int32_t>)>(&::UnityEngine::TextCore::Text::TextSelectionService::SelectToPreviousParagraph)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d800;
+  constexpr static std::size_t addrs = 0x70602e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<int32_t>)>(&::UnityEngine::TextCore::Text::TextSelectionService::SelectToStartOfParagraph)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d844;
+  constexpr static std::size_t addrs = 0x7060328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<int32_t>)>(&::UnityEngine::TextCore::Text::TextSelectionService::SelectToEndOfParagraph)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d888;
+  constexpr static std::size_t addrs = 0x706036c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<int32_t>)>(&::UnityEngine::TextCore::Text::TextSelectionService::SelectToNextParagraph)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d8cc;
+  constexpr static std::size_t addrs = 0x70603b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::UnityEngine::TextCore::Text::TextSelectionService::SelectCurrentParagraph)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6c0d910;
+  constexpr static std::size_t addrs = 0x70603f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, int32_t, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::TextCore::Text::TextSelectionService::Substring_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c0d19c;
+  constexpr static std::size_t addrs = 0x705fc80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextSelectionService*>(),
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector2>)>(
     &::UnityEngine::TextCore::Text::TextSelectionService::GetCursorLogicalIndexFromPosition_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c0d324;
+  constexpr static std::size_t addrs = 0x705fe08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Vector2>)>(
     &::UnityEngine::TextCore::Text::TextSelectionService::GetCursorPositionFromLogicalIndex_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6c0d3c4;
+  constexpr static std::size_t addrs = 0x705fea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, int32_t, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(
     &::UnityEngine::TextCore::Text::TextSelectionService::GetHighlightRectangles_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c0d5c8;
+  constexpr static std::size_t addrs = 0x70600ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextSelectionService*>(),

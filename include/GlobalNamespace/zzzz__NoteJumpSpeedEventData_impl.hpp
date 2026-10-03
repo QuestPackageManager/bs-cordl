@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteJumpSpeedEventData* (::GlobalNamespace::NoteJumpSpeedEventData::*)()>(
     &::GlobalNamespace::NoteJumpSpeedEventData::get_previousSameTypeEventData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x325b514;
+  constexpr static std::size_t addrs = 0x34e0bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteJumpSpeedEventData* (::GlobalNamespace::NoteJumpSpeedEventData::*)()>(
     &::GlobalNamespace::NoteJumpSpeedEventData::get_nextSameTypeEventData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x325b590;
+  constexpr static std::size_t addrs = 0x34e0c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJumpSpeedEventData*>(), { "get_nextSameTypeEventData", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::NoteJumpSpeedEventData::*)()>(&::GlobalNamespace::NoteJumpSpeedEventData::get_relativeNoteJumpSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325b60c;
+  constexpr static std::size_t addrs = 0x34e0cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJumpSpeedEventData*>(), { "get_relativeNoteJumpSpeed", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJumpSpeedEventData::*)(float_t)>(&::GlobalNamespace::NoteJumpSpeedEventData::set_relativeNoteJumpSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325b614;
+  constexpr static std::size_t addrs = 0x34e0cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJumpSpeedEventData::*)(float_t, float_t, ::GlobalNamespace::EaseType, bool)>(
     &::GlobalNamespace::NoteJumpSpeedEventData::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x325b61c;
+  constexpr static std::size_t addrs = 0x34e0d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJumpSpeedEventData::*)(float_t)>(&::GlobalNamespace::NoteJumpSpeedEventData::ChangeRelativeNoteJumpSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325b660;
+  constexpr static std::size_t addrs = 0x34e0d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::NoteJumpSpeedEventData::*)()>(&::GlobalNamespace::NoteJumpSpeedEventData::GetCopy)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x325b668;
+  constexpr static std::size_t addrs = 0x34e0d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::NoteJumpSpeedEventData::*)()>(&::GlobalNamespace::NoteJumpSpeedEventData::GetDefault)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x325b6f0;
+  constexpr static std::size_t addrs = 0x34e0dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::InvalidCipherTextException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x349f0c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3728364, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x349f0cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3728368, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x349f0d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372836c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

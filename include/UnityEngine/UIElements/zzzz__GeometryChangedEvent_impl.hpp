@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GeometryChangedEvent___c::*)()>(&::UnityEngine::UIElements::GeometryChangedEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d9e9ec;
+  constexpr static std::size_t addrs = 0x722c490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GeometryChangedEvent___c*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::GeometryChangedEvent* (::UnityEngine::UIElements::GeometryChangedEvent___c::*)()>(
     &::UnityEngine::UIElements::GeometryChangedEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d9e9f0;
+  constexpr static std::size_t addrs = 0x722c494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GeometryChangedEvent___c*>(), { "<.cctor>b__0_0", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::GeometryChangedEvent* (*)(::UnityEngine::Rect, ::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::GeometryChangedEvent::GetPooled)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6d9e794;
+  constexpr static std::size_t addrs = 0x722c164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GeometryChangedEvent*>(),
@@ -69,8 +69,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GeometryChangedEvent::*)()>(&::UnityEngine::UIElements::GeometryChangedEvent::Init)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6d9e85c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x722c22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,8 +82,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GeometryChangedEvent::*)()>(&::UnityEngine::UIElements::GeometryChangedEvent::LocalInit)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d9e8bc;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x722c280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GeometryChangedEvent*>(), { "LocalInit", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::GeometryChangedEvent::*)()>(&::UnityEngine::UIElements::GeometryChangedEvent::get_oldRect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d9e8d0;
+  constexpr static std::size_t addrs = 0x722c380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GeometryChangedEvent*>(), { "get_oldRect", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GeometryChangedEvent::*)(::UnityEngine::Rect)>(&::UnityEngine::UIElements::GeometryChangedEvent::set_oldRect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d9e8dc;
+  constexpr static std::size_t addrs = 0x722c38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::GeometryChangedEvent::*)()>(&::UnityEngine::UIElements::GeometryChangedEvent::get_newRect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d9e8e8;
+  constexpr static std::size_t addrs = 0x722c398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GeometryChangedEvent*>(), { "get_newRect", {}, {} })));
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GeometryChangedEvent::*)(::UnityEngine::Rect)>(&::UnityEngine::UIElements::GeometryChangedEvent::set_newRect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d9e8f4;
+  constexpr static std::size_t addrs = 0x722c3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::GeometryChangedEvent::*)()>(&::UnityEngine::UIElements::GeometryChangedEvent::get_layoutPass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d9e900;
+  constexpr static std::size_t addrs = 0x722c3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GeometryChangedEvent*>(), { "get_layoutPass", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GeometryChangedEvent::*)(int32_t)>(&::UnityEngine::UIElements::GeometryChangedEvent::set_layoutPass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d9e908;
+  constexpr static std::size_t addrs = 0x722c3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,8 +169,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GeometryChangedEvent::*)()>(&::UnityEngine::UIElements::GeometryChangedEvent::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6d9e910;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x722c3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GeometryChangedEvent*>(), { ".ctor", {}, {} })));

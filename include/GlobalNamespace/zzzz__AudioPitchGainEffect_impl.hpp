@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)(int32_t)>(
     &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58b4af4;
+  constexpr static std::size_t addrs = 0x5ccb64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)()>(
     &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58b4b78;
+  constexpr static std::size_t addrs = 0x5ccb6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)()>(
     &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x58b4b7c;
+  constexpr static std::size_t addrs = 0x5ccb6d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)()>(
     &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58b4d0c;
+  constexpr static std::size_t addrs = 0x5ccb864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)()>(
     &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x58b4d14;
+  constexpr static std::size_t addrs = 0x5ccb86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)()>(
     &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58b4d4c;
+  constexpr static std::size_t addrs = 0x5ccb8a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect::*)()>(&::GlobalNamespace::AudioPitchGainEffect::Start)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x58b4a5c;
+  constexpr static std::size_t addrs = 0x5ccb5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect*>(), { "Start", {}, {} })));
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::AudioPitchGainEffect::*)(float_t, ::System::Action*)>(
     &::GlobalNamespace::AudioPitchGainEffect::StartEffectCoroutine)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x58b4a80;
+  constexpr static std::size_t addrs = 0x5ccb5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect*>(),
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect::*)(float_t, ::System::Action*)>(&::GlobalNamespace::AudioPitchGainEffect::StartEffect)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x58b4afc;
+  constexpr static std::size_t addrs = 0x5ccb654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect::*)()>(&::GlobalNamespace::AudioPitchGainEffect::InterruptEffect)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x58b4b24;
+  constexpr static std::size_t addrs = 0x5ccb67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect*>(), { "InterruptEffect", {}, {} })));
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect::*)(::UnityEngine::AudioSource*)>(&::GlobalNamespace::AudioPitchGainEffect::SetAudioSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58b4b60;
+  constexpr static std::size_t addrs = 0x5ccb6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect::*)()>(&::GlobalNamespace::AudioPitchGainEffect::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x58b4b68;
+  constexpr static std::size_t addrs = 0x5ccb6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect*>(), { ".ctor", {}, {} })));

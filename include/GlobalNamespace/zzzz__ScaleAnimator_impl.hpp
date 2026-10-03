@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)()>(&::GlobalNamespace::ScaleAnimator::OnDestroy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x59e8268;
+  constexpr static std::size_t addrs = 0x5e03814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleAnimator*>(), { "OnDestroy", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)()>(&::GlobalNamespace::ScaleAnimator::InitIfNeeded)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x59e82f4;
+  constexpr static std::size_t addrs = 0x5e038a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleAnimator*>(), { "InitIfNeeded", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::ScaleAnimator::SetPositionAndRotation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x59e8674;
+  constexpr static std::size_t addrs = 0x5e03c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)()>(&::GlobalNamespace::ScaleAnimator::HideInstant)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x59e86ec;
+  constexpr static std::size_t addrs = 0x5e03c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleAnimator*>(), { "HideInstant", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)()>(&::GlobalNamespace::ScaleAnimator::ShowInstant)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x59e8794;
+  constexpr static std::size_t addrs = 0x5e03d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleAnimator*>(), { "ShowInstant", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)(bool, float_t, ::GlobalNamespace::EaseType, float_t)>(&::GlobalNamespace::ScaleAnimator::Animate)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x59e8800;
+  constexpr static std::size_t addrs = 0x5e03dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)()>(&::GlobalNamespace::ScaleAnimator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59e88f0;
+  constexpr static std::size_t addrs = 0x5e03e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleAnimator*>(), { ".ctor", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)(float_t)>(&::GlobalNamespace::ScaleAnimator::_InitIfNeeded_b__7_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59e88fc;
+  constexpr static std::size_t addrs = 0x5e03ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)()>(&::GlobalNamespace::ScaleAnimator::_InitIfNeeded_b__7_2)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x59e891c;
+  constexpr static std::size_t addrs = 0x5e03ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleAnimator*>(), { "<InitIfNeeded>b__7_2", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)(float_t)>(&::GlobalNamespace::ScaleAnimator::_InitIfNeeded_b__7_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59e8948;
+  constexpr static std::size_t addrs = 0x5e03ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)()>(&::GlobalNamespace::ScaleAnimator::_InitIfNeeded_b__7_3)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x59e8968;
+  constexpr static std::size_t addrs = 0x5e03f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleAnimator*>(), { "<InitIfNeeded>b__7_3", {}, {} })));

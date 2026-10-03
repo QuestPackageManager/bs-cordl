@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ManagedSpanWrapper)
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
 // Forward declare root types
 namespace UnityEngine::Bindings {
 struct ManagedSpanWrapper;
@@ -13,10 +16,10 @@ struct ManagedSpanWrapper;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Bindings::ManagedSpanWrapper);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::ManagedSpanWrapper, "UnityEngine.Bindings", "ManagedSpanWrapper");
-// [IsByRefLike]
+// [VisibleToOtherModules]
 // [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
 // [IsReadOnly]
-// [VisibleToOtherModules]
+// [IsByRefLike]
 // Dependencies
 namespace UnityEngine::Bindings {
 // Is value type: true
@@ -24,7 +27,10 @@ namespace UnityEngine::Bindings {
 struct CORDL_TYPE ManagedSpanWrapper {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6af41e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToReadOnlySpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::System::ReadOnlySpan_1<T> ToReadOnlySpan(::UnityEngine::Bindings::ManagedSpanWrapper spanWrapper);
+
+  /// @brief Method .ctor, addr 0x6f45b00, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* begin, int32_t length);
 
   // Ctor Parameters []
@@ -35,7 +41,7 @@ public:
   constexpr ManagedSpanWrapper(void* begin, int32_t length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10065 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

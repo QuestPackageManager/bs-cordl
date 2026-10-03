@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ByteStack::*)(int32_t)>(&::System::Xml::ByteStack::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x61ac944;
+  constexpr static std::size_t addrs = 0x65d4494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ByteStack*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ByteStack::*)(uint8_t)>(&::System::Xml::ByteStack::Push)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x61ac9ac;
+  constexpr static std::size_t addrs = 0x65d44fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ByteStack*>(), { "Push", {}, { ::i2c::type_of<uint8_t>() } })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Xml::ByteStack::*)()>(&::System::Xml::ByteStack::Pop)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x61aca88;
+  constexpr static std::size_t addrs = 0x65d45d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ByteStack*>(), { "Pop", {}, {} })));

@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongScreenshotsConsoleCommand___c::*)()>(&::GlobalNamespace::RunSongScreenshotsConsoleCommand___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32e6d6c;
+  constexpr static std::size_t addrs = 0x356f0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongScreenshotsConsoleCommand___c*>(), { ".ctor", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::RunSongScreenshotsConsoleCommand___c::*)(::GlobalNamespace::BeatmapCharacteristic)>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand___c::_EnqueueScreenshotLevelManually_b__18_2)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x32e6d70;
+  constexpr static std::size_t addrs = 0x356f0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::RunSongScreenshotsConsoleCommand___c::*)(::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand___c::_EnqueueScreenshotLevelManually_b__18_3)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x32e6dcc;
+  constexpr static std::size_t addrs = 0x356f104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0::*)()>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32e6e34;
+  constexpr static std::size_t addrs = 0x356f16c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0::*)(::GlobalNamespace::BeatmapCharacteristic)>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0::_EnqueueScreenshotLevelManually_b__0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x32e6e38;
+  constexpr static std::size_t addrs = 0x356f170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18::*)()>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x1720;
-  constexpr static std::size_t addrs = 0x32e6ea8;
+  constexpr static std::size_t addrs = 0x356f1e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32e85c8;
+  constexpr static std::size_t addrs = 0x3570900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18>(),
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17::*)()>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17::MoveNext)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x32e8648;
+  constexpr static std::size_t addrs = 0x3570980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32e8910;
+  constexpr static std::size_t addrs = 0x3570c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17>(),
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20::*)(int32_t)>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e6598;
+  constexpr static std::size_t addrs = 0x356e8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20::*)()>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32e8990;
+  constexpr static std::size_t addrs = 0x3570cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20::*)()>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x32e8994;
+  constexpr static std::size_t addrs = 0x3570ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20::*)()>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e8a98;
+  constexpr static std::size_t addrs = 0x3570dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20::*)()>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x32e8aa0;
+  constexpr static std::size_t addrs = 0x3570dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20::*)()>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e8ad8;
+  constexpr static std::size_t addrs = 0x3570e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -499,7 +499,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::RunSongScreenshotsConsoleCommand::*)()>(&::GlobalNamespace::RunSongScreenshotsConsoleCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32e5c34;
+  constexpr static std::size_t addrs = 0x356df6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongScreenshotsConsoleCommand*>(),
@@ -512,7 +512,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::RunSongScreenshotsConsoleCommand::*)()>(&::GlobalNamespace::RunSongScreenshotsConsoleCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32e5c78;
+  constexpr static std::size_t addrs = 0x356dfb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongScreenshotsConsoleCommand*>(),
@@ -525,7 +525,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongScreenshotsConsoleCommand::*)()>(&::GlobalNamespace::RunSongScreenshotsConsoleCommand::Initialize)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x32e5cbc;
+  constexpr static std::size_t addrs = 0x356dff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongScreenshotsConsoleCommand*>(),
@@ -540,7 +540,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::RunSongScreenshotsConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(
         &::GlobalNamespace::RunSongScreenshotsConsoleCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x32e6214;
+  constexpr static std::size_t addrs = 0x356e54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongScreenshotsConsoleCommand*>(),
@@ -555,7 +555,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::RunSongScreenshotsConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(
         &::GlobalNamespace::RunSongScreenshotsConsoleCommand::EnqueueScreenshotLevelManually)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x32e6304;
+  constexpr static std::size_t addrs = 0x356e63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -570,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::RunSongScreenshotsConsoleCommand::*)()>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand::WaitUntilScreenshotQueueEmpty)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x32e63f8;
+  constexpr static std::size_t addrs = 0x356e730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -584,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::RunSongScreenshotsConsoleCommand::*)()>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand::WaitUntilScreenshotQueueEmptyCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32e6544;
+  constexpr static std::size_t addrs = 0x356e87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -597,7 +597,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongScreenshotsConsoleCommand::*)()>(&::GlobalNamespace::RunSongScreenshotsConsoleCommand::_ctor)> {
   constexpr static std::size_t size = 0x69c;
-  constexpr static std::size_t addrs = 0x32e65a0;
+  constexpr static std::size_t addrs = 0x356e8d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongScreenshotsConsoleCommand*>(), { ".ctor", {}, {} })));
@@ -609,7 +609,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::StringW)>(&::GlobalNamespace::RunSongScreenshotsConsoleCommand::_EnqueueScreenshotLevelManually_g__ParseNumber_18_1)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x32e6c3c;
+  constexpr static std::size_t addrs = 0x356ef74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongScreenshotsConsoleCommand*>(),
@@ -623,7 +623,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RunSongScreenshotsConsoleCommand::*)()>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand::_WaitUntilScreenshotQueueEmpty_b__19_0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x32e6cd0;
+  constexpr static std::size_t addrs = 0x356f008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -637,7 +637,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RunSongScreenshotsConsoleCommand::*)()>(
     &::GlobalNamespace::RunSongScreenshotsConsoleCommand::_WaitUntilScreenshotQueueEmptyCoroutine_b__20_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x32e6cf8;
+  constexpr static std::size_t addrs = 0x356f030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

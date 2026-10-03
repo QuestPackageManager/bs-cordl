@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController_FireworkItemParticleSystem::*)()>(
     &::GlobalNamespace::FireworkItemController_FireworkItemParticleSystem::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59819a4;
+  constexpr static std::size_t addrs = 0x5da0cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController_Pool::*)()>(&::GlobalNamespace::FireworkItemController_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x59819b0;
+  constexpr static std::size_t addrs = 0x5da0cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworkItemController_Pool*>(), { ".ctor", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::*)(int32_t)>(
     &::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x598156c;
+  constexpr static std::size_t addrs = 0x5da0890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::*)()>(
     &::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59819ec;
+  constexpr static std::size_t addrs = 0x5da0d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::*)()>(
     &::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::MoveNext)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x59819f0;
+  constexpr static std::size_t addrs = 0x5da0d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::*)()>(
     &::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5981c38;
+  constexpr static std::size_t addrs = 0x5da0f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworkItemController__FireCoroutine_d__29*>(),
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::*)()>(
     &::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5981c40;
+  constexpr static std::size_t addrs = 0x5da0f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::*)()>(
     &::GlobalNamespace::FireworkItemController__FireCoroutine_d__29::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5981c78;
+  constexpr static std::size_t addrs = 0x5da0f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController::*)(::GlobalNamespace::DirectionalLight*)>(
     &::GlobalNamespace::FireworkItemController::set_directionalLight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5981184;
+  constexpr static std::size_t addrs = 0x5da04a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController::*)(float_t)>(&::GlobalNamespace::FireworkItemController::set_directionalLightIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x598118c;
+  constexpr static std::size_t addrs = 0x5da04b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController::*)(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>*)>(
     &::GlobalNamespace::FireworkItemController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5981194;
+  constexpr static std::size_t addrs = 0x5da04b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController::*)(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>*)>(
     &::GlobalNamespace::FireworkItemController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5981254;
+  constexpr static std::size_t addrs = 0x5da0578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController::*)()>(&::GlobalNamespace::FireworkItemController::Awake)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5981314;
+  constexpr static std::size_t addrs = 0x5da0638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworkItemController*>(), { "Awake", {}, {} })));
@@ -428,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController::*)()>(&::GlobalNamespace::FireworkItemController::OnDisable)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5981398;
+  constexpr static std::size_t addrs = 0x5da06bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworkItemController*>(), { "OnDisable", {}, {} })));
@@ -440,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController::*)()>(&::GlobalNamespace::FireworkItemController::Fire)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59814f8;
+  constexpr static std::size_t addrs = 0x5da081c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworkItemController*>(), { "Fire", {}, {} })));
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::FireworkItemController::*)()>(
     &::GlobalNamespace::FireworkItemController::FireCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5981518;
+  constexpr static std::size_t addrs = 0x5da083c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworkItemController*>(), { "FireCoroutine", {}, {} })));
@@ -465,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController::*)(float_t)>(&::GlobalNamespace::FireworkItemController::SetLightsColor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5981400;
+  constexpr static std::size_t addrs = 0x5da0724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -478,7 +478,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController::*)()>(&::GlobalNamespace::FireworkItemController::PlayExplosionSound)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5981574;
+  constexpr static std::size_t addrs = 0x5da0898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworkItemController*>(), { "PlayExplosionSound", {}, {} })));
@@ -490,7 +490,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController::*)()>(&::GlobalNamespace::FireworkItemController::InitializeParticleSystem)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x5981678;
+  constexpr static std::size_t addrs = 0x5da099c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworkItemController*>(), { "InitializeParticleSystem", {}, {} })));
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworkItemController::*)()>(&::GlobalNamespace::FireworkItemController::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5981988;
+  constexpr static std::size_t addrs = 0x5da0cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworkItemController*>(), { ".ctor", {}, {} })));

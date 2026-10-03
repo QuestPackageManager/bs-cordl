@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_3<::UnityW<::GlobalNamespace::NoTransitionColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*)>(
     &::GlobalNamespace::NoTransitionColorGradientSlider::add_colorDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a2d30c;
+  constexpr static std::size_t addrs = 0x5e44bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_3<::UnityW<::GlobalNamespace::NoTransitionColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*)>(
     &::GlobalNamespace::NoTransitionColorGradientSlider::remove_colorDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a2d3cc;
+  constexpr static std::size_t addrs = 0x5e44c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionColorGradientSlider::*)()>(&::GlobalNamespace::NoTransitionColorGradientSlider::Awake)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5a2d48c;
+  constexpr static std::size_t addrs = 0x5e44d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionColorGradientSlider::*)()>(&::GlobalNamespace::NoTransitionColorGradientSlider::OnDestroy)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5a2d52c;
+  constexpr static std::size_t addrs = 0x5e44de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionColorGradientSlider::*)(::UnityEngine::Color, ::UnityEngine::Color)>(
     &::GlobalNamespace::NoTransitionColorGradientSlider::SetColors)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5a2d5b0;
+  constexpr static std::size_t addrs = 0x5e44e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoTransitionColorGradientSlider*>(),
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionColorGradientSlider::*)()>(&::GlobalNamespace::NoTransitionColorGradientSlider::UpdateVisuals)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5a2d5e0;
+  constexpr static std::size_t addrs = 0x5e44e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::NoTransitionColorGradientSlider::*)(float_t)>(
     &::GlobalNamespace::NoTransitionColorGradientSlider::TextForNormalizedValue)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5a2d7e0;
+  constexpr static std::size_t addrs = 0x5e45098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionColorGradientSlider::*)(::HMUI::TextSlider*, float_t)>(
     &::GlobalNamespace::NoTransitionColorGradientSlider::HandleNormalizedValueDidChange)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5a2d980;
+  constexpr static std::size_t addrs = 0x5e45238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionColorGradientSlider::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::GlobalNamespace::NoTransitionColorGradientSlider::OnPointerUp)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5a2d9dc;
+  constexpr static std::size_t addrs = 0x5e45294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionColorGradientSlider::*)()>(&::GlobalNamespace::NoTransitionColorGradientSlider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a2da64;
+  constexpr static std::size_t addrs = 0x5e4531c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoTransitionColorGradientSlider*>(), { ".ctor", {}, {} })));

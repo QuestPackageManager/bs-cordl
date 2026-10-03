@@ -80,6 +80,12 @@ template <typename T> inline ::System::Action_1<T>* UnityEngine::UIElements::UQu
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQueryState_1_ActionQueryMatcher<T>*>(), { "get_callBack", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Action_1<T>*>(this, ___internal_method);
 }
+template <typename T> inline void UnityEngine::UIElements::UQueryState_1_ActionQueryMatcher<T>::set_callBack(::System::Action_1<T>* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQueryState_1_ActionQueryMatcher<T>*>(), { "set_callBack", {}, { ::i2c::type_of<::System::Action_1<T>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
 template <typename T>
 inline bool UnityEngine::UIElements::UQueryState_1_ActionQueryMatcher<T>::OnRuleMatchedElement(::UnityEngine::UIElements::RuleMatcher matcher, ::UnityEngine::UIElements::VisualElement* element) {
   auto* ___internal_method =
@@ -214,6 +220,11 @@ template <typename T> inline void UnityEngine::UIElements::UQueryState_1<T>::ToL
 template <typename T> inline ::System::Collections::Generic::List_1<T>* UnityEngine::UIElements::UQueryState_1<T>::ToList() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQueryState_1<T>>(), { "ToList", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<T>*>(*this, ___internal_method);
+}
+template <typename T> inline void UnityEngine::UIElements::UQueryState_1<T>::ForEach(::System::Action_1<T>* funcCall) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQueryState_1<T>>(), { "ForEach", {}, { ::i2c::type_of<::System::Action_1<T>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, funcCall);
 }
 template <typename T> inline ::UnityEngine::UIElements::UQueryState_1_Enumerator<T> UnityEngine::UIElements::UQueryState_1<T>::GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQueryState_1<T>>(), { "GetEnumerator", {}, {} })));

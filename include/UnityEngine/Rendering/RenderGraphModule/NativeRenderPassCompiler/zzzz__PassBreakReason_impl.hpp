@@ -14,24 +14,36 @@ constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
     UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::TargetSizeMismatch{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason
     UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::NextPassReadsTexture{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason
+    UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::NextPassTargetsTexture{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::NonRasterPass{
-  static_cast<int32_t>(0x3)
+  static_cast<int32_t>(0x4)
 };
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason
-    UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::DifferentDepthTextures{ static_cast<int32_t>(0x4) };
+    UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::DifferentDepthTextures{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason
-    UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::AttachmentLimitReached{ static_cast<int32_t>(0x5) };
+    UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::AttachmentLimitReached{ static_cast<int32_t>(0x6) };
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason
-    UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::SubPassLimitReached{ static_cast<int32_t>(0x6) };
+    UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::SubPassLimitReached{ static_cast<int32_t>(0x7) };
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::EndOfGraph{
-  static_cast<int32_t>(0x7)
-};
-constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::FRStateMismatch{
   static_cast<int32_t>(0x8)
 };
-constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::Merged{
+constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::FRStateMismatch{
   static_cast<int32_t>(0x9)
 };
+constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason
+    UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::DifferentShadingRateImages{ static_cast<int32_t>(0xa) };
+constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason
+    UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::DifferentShadingRateStates{ static_cast<int32_t>(0xb) };
+constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason
+    UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::MultisampledShaderResolveMustBeLastPass{ static_cast<int32_t>(0xc) };
+constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason
+    UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::ExtendedFeatureFlagsIncompatible{ static_cast<int32_t>(0xd) };
+constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason
+    UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::PassMergingDisabled{ static_cast<int32_t>(0xe) };
+constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::Merged{
+  static_cast<int32_t>(0xf)
+};
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason::Count{
-  static_cast<int32_t>(0xa)
+  static_cast<int32_t>(0x10)
 };

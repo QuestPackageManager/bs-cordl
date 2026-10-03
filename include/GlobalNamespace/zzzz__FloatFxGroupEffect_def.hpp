@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_target(::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> value);
 
-  /// @brief Method .ctor, addr 0x5995aa8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db0adc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target);
 
 protected:
@@ -99,7 +99,7 @@ public:
   FloatFxGroupEffect_InitData(FloatFxGroupEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5979 };
 
   /// @brief Field groupId, offset: 0x10, size: 0x4, def value: None
   int32_t ___groupId;
@@ -141,10 +141,10 @@ public:
 
   constexpr void __cordl_internal_set_initData(::GlobalNamespace::FloatFxGroupEffect_InitData* value);
 
-  /// @brief Method <.ctor>b__0, addr 0x5995f38, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0, addr 0x5db0f6c, size 0x2c, virtual false, abstract: false, final false
   inline void __ctor_b__0(float_t value);
 
-  /// @brief Method .ctor, addr 0x5995f34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db0f68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,7 +162,7 @@ public:
   FloatFxGroupEffect___c__DisplayClass4_0(FloatFxGroupEffect___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5980 };
 
   /// @brief Field initData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::FloatFxGroupEffect_InitData* ___initData;
@@ -197,7 +197,7 @@ public:
   /// @brief Field _handler, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__handler, put = __cordl_internal_set__handler)) ::GlobalNamespace::FloatFxEventHandler* _handler;
 
-  /// @brief Method Cleanup, addr 0x5995bb8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5db0bec, size 0x38, virtual false, abstract: false, final false
   inline void Cleanup();
 
   static inline ::GlobalNamespace::FloatFxGroupEffect* New_ctor(::GlobalNamespace::FloatFxGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
@@ -221,7 +221,7 @@ public:
 
   constexpr void __cordl_internal_set__handler(::GlobalNamespace::FloatFxEventHandler* value);
 
-  /// @brief Method .ctor, addr 0x5995cdc, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db0d10, size 0x258, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::FloatFxGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -240,7 +240,7 @@ public:
   FloatFxGroupEffect(FloatFxGroupEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5861 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5981 };
 
   /// @brief Field _beatmapCallbacksController, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;

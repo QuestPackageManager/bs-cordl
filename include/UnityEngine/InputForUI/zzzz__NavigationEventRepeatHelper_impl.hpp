@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::NavigationEventRepeatHelper::*)()>(&::UnityEngine::InputForUI::NavigationEventRepeatHelper::Reset)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b604ac;
+  constexpr static std::size_t addrs = 0x6fc0360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::NavigationEventRepeatHelper*>(), { "Reset", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::NavigationEventRepeatHelper::*)(
     ::Unity::IntegerTime::DiscreteTime, ::UnityEngine::InputForUI::NavigationEvent_Direction, bool)>(&::UnityEngine::InputForUI::NavigationEventRepeatHelper::ShouldSendMoveEvent)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6b60514;
+  constexpr static std::size_t addrs = 0x6fc03c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::NavigationEventRepeatHelper::*)()>(&::UnityEngine::InputForUI::NavigationEventRepeatHelper::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6b5dae8;
+  constexpr static std::size_t addrs = 0x6fbd970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::NavigationEventRepeatHelper*>(), { ".ctor", {}, {} })));

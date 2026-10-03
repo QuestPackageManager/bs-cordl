@@ -70,27 +70,27 @@ public:
   /// @brief Field m_spectrumSize, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_m_spectrumSize, put = __cordl_internal_set_m_spectrumSize)) int32_t m_spectrumSize;
 
-  /// @brief Method Awake, addr 0x6441c7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6869f10, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FindAudioListener, addr 0x6441e84, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method FindAudioListener, addr 0x686a118, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioListener> FindAudioListener();
 
-  /// @brief Method Init, addr 0x643b148, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x68633dc, size 0x174, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioMonitor* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x6441f40, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x686a1d4, size 0xa8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnSceneLoaded, addr 0x6441fe8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnSceneLoaded, addr 0x686a27c, size 0x24, virtual false, abstract: false, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode loadSceneMode);
 
-  /// @brief Method Update, addr 0x6441c80, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6869f14, size 0x204, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x6441978, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x6869c0c, size 0xdc, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr float_t const& __cordl_internal_get__MaxDB_k__BackingField() const;
@@ -141,40 +141,40 @@ public:
 
   constexpr void __cordl_internal_set_m_spectrumSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x644200c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x686a2a0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method dBNormalized, addr 0x64416e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method dBNormalized, addr 0x6869974, size 0x14, virtual false, abstract: false, final false
   inline float_t dBNormalized(float_t db);
 
   /// [CompilerGenerated]
-  /// @brief Method get_MaxDB, addr 0x6441c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxDB, addr 0x6869f00, size 0x8, virtual false, abstract: false, final false
   inline float_t get_MaxDB();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Spectrum, addr 0x6441c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Spectrum, addr 0x6869ee0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> get_Spectrum();
 
-  /// @brief Method get_SpectrumDataAvailable, addr 0x6440e70, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_SpectrumDataAvailable, addr 0x6869104, size 0x64, virtual false, abstract: false, final false
   inline bool get_SpectrumDataAvailable();
 
   /// [CompilerGenerated]
-  /// @brief Method get_SpectrumHighestValues, addr 0x6441c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SpectrumHighestValues, addr 0x6869ef0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> get_SpectrumHighestValues();
 
-  /// @brief Method lin2dB, addr 0x64416ac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method lin2dB, addr 0x6869940, size 0x34, virtual false, abstract: false, final false
   inline float_t lin2dB(float_t linear);
 
   /// [CompilerGenerated]
-  /// @brief Method set_MaxDB, addr 0x6441c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxDB, addr 0x6869f08, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxDB(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Spectrum, addr 0x6441c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Spectrum, addr 0x6869ee8, size 0x8, virtual false, abstract: false, final false
   inline void set_Spectrum(::ArrayW<float_t> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_SpectrumHighestValues, addr 0x6441c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SpectrumHighestValues, addr 0x6869ef8, size 0x8, virtual false, abstract: false, final false
   inline void set_SpectrumHighestValues(::ArrayW<float_t> value);
 
 protected:
@@ -192,7 +192,7 @@ public:
   G_AudioMonitor(G_AudioMonitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22225 };
 
   /// @brief Field m_refValue offset 0xffffffff size 0x4
   static constexpr float_t m_refValue{ static_cast<float_t>(1.0f) };

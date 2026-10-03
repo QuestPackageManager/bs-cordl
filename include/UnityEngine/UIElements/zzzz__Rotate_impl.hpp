@@ -14,9 +14,24 @@
 //  Writing Method size for method: ::UnityEngine::UIElements::Rotate._ctor
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Rotate::*)(::UnityEngine::UIElements::Angle, ::UnityEngine::Vector3)>(
+    &::UnityEngine::UIElements::Rotate::_ctor)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x71070b8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Rotate>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::Angle>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::Rotate._ctor
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Rotate::*)(::UnityEngine::UIElements::Angle)>(&::UnityEngine::UIElements::Rotate::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c91810;
+  constexpr static std::size_t addrs = 0x71070cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,8 +43,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Rotate::*)(::UnityEngine::Quaternion)>(&::UnityEngine::UIElements::Rotate::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6c91874;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x7107130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,8 +56,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Rotate (*)()>(&::UnityEngine::UIElements::Rotate::Initial)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c918c8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x7107210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Rotate>(), { "Initial", {}, {} })));
@@ -54,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Rotate (*)()>(&::UnityEngine::UIElements::Rotate::None)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6c9192c;
+  constexpr static std::size_t addrs = 0x71072d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Rotate>(), { "None", {}, {} })));
@@ -66,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Angle (::UnityEngine::UIElements::Rotate::*)()>(&::UnityEngine::UIElements::Rotate::get_angle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c91984;
+  constexpr static std::size_t addrs = 0x7107328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Rotate>(), { "get_angle", {}, {} })));
@@ -78,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Rotate::*)(::UnityEngine::UIElements::Angle)>(&::UnityEngine::UIElements::Rotate::set_angle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9198c;
+  constexpr static std::size_t addrs = 0x7107330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::Rotate::*)()>(&::UnityEngine::UIElements::Rotate::get_axis)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c91994;
+  constexpr static std::size_t addrs = 0x7107338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Rotate>(), { "get_axis", {}, {} })));
@@ -103,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Rotate::*)(::UnityEngine::Vector3)>(&::UnityEngine::UIElements::Rotate::set_axis)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c919a0;
+  constexpr static std::size_t addrs = 0x7107344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,8 +130,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate)>(&::UnityEngine::UIElements::Rotate::op_Equality)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c8f408;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x7107350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,8 +144,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::U
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate)>(&::UnityEngine::UIElements::Rotate::op_Inequality)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c919ac;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x710742c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,8 +158,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::U
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Rotate::*)(::UnityEngine::UIElements::Rotate)>(&::UnityEngine::UIElements::Rotate::Equals)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c91a28;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x7107474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,8 +171,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Rotate::*)(::System::Object*)>(&::UnityEngine::UIElements::Rotate::Equals)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6c91aa8;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x71074b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,8 +184,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::Rotate::*)()>(&::UnityEngine::UIElements::Rotate::GetHashCode)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6c8f700;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x710755c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,8 +197,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::U
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::Rotate::*)()>(&::UnityEngine::UIElements::Rotate::ToString)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c91b8c;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x7107664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,14 +210,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::UIElements::Rotate::*)()>(&::UnityEngine::UIElements::Rotate::ToQuaternion)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c91c04;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x7107704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Rotate>(), { "ToQuaternion", {}, {} })));
     return ___internal_method;
   }
 };
+inline void UnityEngine::UIElements::Rotate::_ctor(::UnityEngine::UIElements::Angle angle, ::UnityEngine::Vector3 axis) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Rotate>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::Angle>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, angle, axis);
+}
 inline void UnityEngine::UIElements::Rotate::_ctor(::UnityEngine::UIElements::Angle angle) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Rotate>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::Angle>() } })));
@@ -295,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c91e04;
+  constexpr static std::size_t addrs = 0x7107968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>(),
@@ -309,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c91e0c;
+  constexpr static std::size_t addrs = 0x7107970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>(),
@@ -323,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Angle (::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::*)(::by_ref<::UnityEngine::UIElements::Rotate>)>(
     &::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c91e14;
+  constexpr static std::size_t addrs = 0x7107978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>(),
@@ -337,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::*)(
     ::by_ref<::UnityEngine::UIElements::Rotate>, ::UnityEngine::UIElements::Angle)>(&::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c91e1c;
+  constexpr static std::size_t addrs = 0x7107980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>(),
@@ -350,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::*)()>(&::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c91d3c;
+  constexpr static std::size_t addrs = 0x71078a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>(), { ".ctor", {}, {} })));
@@ -416,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c91e24;
+  constexpr static std::size_t addrs = 0x7107988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>(),
@@ -430,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c91e2c;
+  constexpr static std::size_t addrs = 0x7107990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>(),
@@ -444,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::*)(::by_ref<::UnityEngine::UIElements::Rotate>)>(
     &::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::GetValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c91e34;
+  constexpr static std::size_t addrs = 0x7107998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>(),
@@ -458,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::*)(::by_ref<::UnityEngine::UIElements::Rotate>, ::UnityEngine::Vector3)>(
     &::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::SetValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c91e40;
+  constexpr static std::size_t addrs = 0x71079a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>(),
@@ -471,7 +492,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::*)()>(&::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c91da0;
+  constexpr static std::size_t addrs = 0x7107904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>(), { ".ctor", {}, {} })));
@@ -535,8 +556,8 @@ constexpr ::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::PropertyBa
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Rotate_PropertyBag::*)()>(&::UnityEngine::UIElements::Rotate_PropertyBag::_ctor)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6c91c28;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x7107788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Rotate_PropertyBag*>(), { ".ctor", {}, {} })));

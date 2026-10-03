@@ -36,13 +36,13 @@ namespace UnityEngine::UIElements::Layout {
 class CORDL_TYPE InvokeMeasureFunctionDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6d025fc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x7197df0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::by_ref<::UnityEngine::UIElements::Layout::LayoutNode> node, float_t width, ::UnityEngine::UIElements::Layout::LayoutMeasureMode widthMode, float_t height,
                      ::UnityEngine::UIElements::Layout::LayoutMeasureMode heightMode, ::by_ref<::System::IntPtr> exception, ::by_ref<::UnityEngine::UIElements::Layout::LayoutSize> result);
 
   static inline ::UnityEngine::UIElements::Layout::InvokeMeasureFunctionDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6d0257c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7197d70, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -60,7 +60,7 @@ public:
   InvokeMeasureFunctionDelegate(InvokeMeasureFunctionDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5518 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

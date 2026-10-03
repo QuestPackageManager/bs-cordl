@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&::GlobalNamespace::EnergyMissionObjectiveChecker::OnDestroy)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5919864;
+  constexpr static std::size_t addrs = 0x5d34684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnergyMissionObjectiveChecker*>(), { "OnDestroy", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)(float_t)>(&::GlobalNamespace::EnergyMissionObjectiveChecker::HandleEnergyDidChange)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5919974;
+  constexpr static std::size_t addrs = 0x5d34794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&::GlobalNamespace::EnergyMissionObjectiveChecker::Init)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5919a9c;
+  constexpr static std::size_t addrs = 0x5d348bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&::GlobalNamespace::EnergyMissionObjectiveChecker::CheckAndUpdateStatus)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x59199e0;
+  constexpr static std::size_t addrs = 0x5d34800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnergyMissionObjectiveChecker*>(), { "CheckAndUpdateStatus", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&::GlobalNamespace::EnergyMissionObjectiveChecker::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5919c10;
+  constexpr static std::size_t addrs = 0x5d34a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnergyMissionObjectiveChecker*>(), { ".ctor", {}, {} })));

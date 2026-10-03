@@ -10,6 +10,7 @@
 #include "UnityEngine/Rendering/zzzz__RasterCommandBuffer_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 inline void UnityEngine::Rendering::Universal::PostProcessUtils_ShaderConstants::setStaticF__Grain_Texture(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "_Grain_Texture", ::UnityEngine::Rendering::Universal::PostProcessUtils_ShaderConstants*>(std::forward<int32_t>(value));
 }
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Rendering::Universal::PostProcessData*, int32_t, ::UnityEngine::Camera*, ::UnityEngine::Material*)>(
     &::UnityEngine::Rendering::Universal::PostProcessUtils::ConfigureDithering)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x68ab408;
+  constexpr static std::size_t addrs = 0x6ce08ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessUtils*>(),
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Rendering::Universal::PostProcessData*, int32_t, int32_t, int32_t, ::UnityEngine::Material*)>(
     &::UnityEngine::Rendering::Universal::PostProcessUtils::ConfigureDithering)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x68ab46c;
+  constexpr static std::size_t addrs = 0x6ce0950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessUtils*>(),
@@ -88,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::PostProcessData*, ::UnityEngine::Rendering::Universal::FilmGrain*, ::UnityEngine::Camera*,
                                                                 ::UnityEngine::Material*)>(&::UnityEngine::Rendering::Universal::PostProcessUtils::ConfigureFilmGrain)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x68ab690;
+  constexpr static std::size_t addrs = 0x6ce0b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::PostProcessData*, ::UnityEngine::Rendering::Universal::FilmGrain*, int32_t, int32_t,
                                                                 ::UnityEngine::Material*)>(&::UnityEngine::Rendering::Universal::PostProcessUtils::ConfigureFilmGrain)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x68ab6f4;
+  constexpr static std::size_t addrs = 0x6ce0bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,10 +122,44 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::PostProcessUtils.SetSourceSize
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, float_t, float_t, ::UnityEngine::RenderTexture*)>(
+    &::UnityEngine::Rendering::Universal::PostProcessUtils::SetSourceSize)> {
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x6ce0f2c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessUtils*>(),
+                                                                                           { "SetSourceSize",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<float_t>(),
+                                                                                               ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::RenderTexture*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::PostProcessUtils.SetSourceSize
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, float_t, float_t, ::UnityEngine::RenderTexture*)>(
+    &::UnityEngine::Rendering::Universal::PostProcessUtils::SetSourceSize)> {
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x6cdde24;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessUtils*>(),
+                                                                                           { "SetSourceSize",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<float_t>(),
+                                                                                               ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::RenderTexture*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::PostProcessUtils.SetSourceSize
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::PostProcessUtils::SetSourceSize)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x689f74c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6cd85c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,8 +173,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::PostProcessUtils::SetSourceSize)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x689ebfc;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6cd7a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,6 +222,23 @@ inline void UnityEngine::Rendering::Universal::PostProcessUtils::ConfigureFilmGr
                                                 { ::i2c::type_of<::UnityEngine::Rendering::Universal::PostProcessData*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::FilmGrain*>(),
                                                   ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Material*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, settings, cameraPixelWidth, cameraPixelHeight, material);
+}
+inline void UnityEngine::Rendering::Universal::PostProcessUtils::SetSourceSize(::UnityEngine::Rendering::RasterCommandBuffer* cmd, float_t width, float_t height, ::UnityEngine::RenderTexture* rt) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessUtils*>(),
+                                                                                         { "SetSourceSize",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<float_t>(),
+                                                                                             ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::RenderTexture*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, width, height, rt);
+}
+inline void UnityEngine::Rendering::Universal::PostProcessUtils::SetSourceSize(::UnityEngine::Rendering::CommandBuffer* cmd, float_t width, float_t height, ::UnityEngine::RenderTexture* rt) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessUtils*>(),
+                          { "SetSourceSize",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::RenderTexture*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, width, height, rt);
 }
 inline void UnityEngine::Rendering::Universal::PostProcessUtils::SetSourceSize(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source) {
   static auto* ___internal_method = THROW_UNLESS(

@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::D
                                                                                                                          ::System::Xml::XmlDictionaryString*, ::ArrayW<double_t>, int32_t, int32_t)>(
     &::System::Xml::DoubleArrayHelperWithDictionaryString::ReadArray)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60fed94;
+  constexpr static std::size_t addrs = 0x651b2b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::DoubleArrayHelperWithDictionaryString*>(),
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Doub
     ::System::Xml::XmlDictionaryWriter*, ::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<double_t>, int32_t, int32_t)>(
     &::System::Xml::DoubleArrayHelperWithDictionaryString::WriteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60fedcc;
+  constexpr static std::size_t addrs = 0x651b2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::DoubleArrayHelperWithDictionaryString*>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DoubleArrayHelperWithDictionaryString::*)()>(&::System::Xml::DoubleArrayHelperWithDictionaryString::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60fee08;
+  constexpr static std::size_t addrs = 0x651b324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DoubleArrayHelperWithDictionaryString*>(), { ".ctor", {}, {} })));

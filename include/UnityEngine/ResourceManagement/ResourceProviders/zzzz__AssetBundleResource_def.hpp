@@ -26,14 +26,14 @@ class UnityWebRequest;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
 }
-namespace UnityEngine::ResourceManagement::Profiling {
-struct ContentStatus;
-}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class AssetBundleRequestOptions;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct AssetBundleResource_CacheStatus;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct AssetBundleResource_LoadType;
@@ -46,9 +46,6 @@ class IAssetBundleResource;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
-}
-namespace UnityEngine::ResourceManagement::Util {
-struct BundleSource;
 }
 namespace UnityEngine::ResourceManagement::Util {
 class UnityWebRequestResult;
@@ -76,6 +73,9 @@ class AsyncOperation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct AssetBundleResource_CacheStatus;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct AssetBundleResource_LoadType;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -85,9 +85,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 class AssetBundleResource___c;
 }
 // Write type traits
+MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_CacheStatus);
 MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_LoadType);
 MARK_REF_T(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource*);
 MARK_REF_T(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource___c*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_CacheStatus, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleResource/CacheStatus");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_LoadType, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleResource/LoadType");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource*, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleResource");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource___c*, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleResource/<>c");
@@ -134,7 +136,7 @@ public:
   static ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_LoadType const Web;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19182 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -150,6 +152,65 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::Ass
 static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_LoadType) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
+// Dependencies
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+// Is value type: true
+// CS Name: UnityEngine.ResourceManagement.ResourceProviders.AssetBundleResource/CacheStatus
+struct CORDL_TYPE AssetBundleResource_CacheStatus {
+public:
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
+  /// @brief Nested struct __AssetBundleResource_CacheStatus_Unwrapped
+  enum struct __AssetBundleResource_CacheStatus_Unwrapped : int32_t {
+    __E_Unknown = static_cast<int32_t>(0x0),
+    __E_Cached = static_cast<int32_t>(0x1),
+    __E_NotCached = static_cast<int32_t>(0x2),
+  };
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __AssetBundleResource_CacheStatus_Unwrapped() const noexcept {
+    return static_cast<__AssetBundleResource_CacheStatus_Unwrapped>(this->value__);
+  }
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetBundleResource_CacheStatus();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
+  constexpr AssetBundleResource_CacheStatus(int32_t value__) noexcept;
+
+  /// @brief Field Cached value: I32(1)
+  static ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_CacheStatus const Cached;
+
+  /// @brief Field NotCached value: I32(2)
+  static ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_CacheStatus const NotCached;
+
+  /// @brief Field Unknown value: I32(0)
+  static ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_CacheStatus const Unknown;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19183 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_CacheStatus, value__) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_CacheStatus) == 0x4, "Size mismatch!");
+
+} // namespace UnityEngine::ResourceManagement::ResourceProviders
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -161,24 +222,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource___c* __9;
 
-  /// @brief Field <>9__52_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__52_0, put = setStaticF___9__52_0)) ::System::Func_2<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*, bool>* __9__52_0;
+  /// @brief Field <>9__53_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__53_0, put = setStaticF___9__53_0)) ::System::Func_2<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*, bool>* __9__53_0;
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource___c* New_ctor();
 
-  /// @brief Method <.ctor>b__52_0, addr 0x691c254, size 0x14, virtual false, abstract: false, final false
-  inline bool __ctor_b__52_0(::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* x);
+  /// @brief Method <.ctor>b__53_0, addr 0x6d43f78, size 0x14, virtual false, abstract: false, final false
+  inline bool __ctor_b__53_0(::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* x);
 
-  /// @brief Method .ctor, addr 0x691c250, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d43f74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource___c* getStaticF___9();
 
-  static inline ::System::Func_2<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*, bool>* getStaticF___9__52_0();
+  static inline ::System::Func_2<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*, bool>* getStaticF___9__53_0();
 
   static inline void setStaticF___9(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource___c* value);
 
-  static inline void setStaticF___9__52_0(::System::Func_2<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*, bool>* value);
+  static inline void setStaticF___9__53_0(::System::Func_2<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*, bool>* value);
 
 protected:
   // Ctor Parameters []
@@ -195,7 +256,7 @@ public:
   AssetBundleResource___c(AssetBundleResource___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18767 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19184 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -203,13 +264,16 @@ public:
 static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
-// Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle, UnityEngine.ResourceManagement.Util.BundleSource
+// Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.AssetBundleResource::CacheStatus, UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle,
+// UnityEngine.ResourceManagement.Util.BundleSource
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // CS Name: UnityEngine.ResourceManagement.ResourceProviders.AssetBundleResource
 class CORDL_TYPE AssetBundleResource : public ::System::Object {
 public:
   // Declarations
+  using CacheStatus = ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_CacheStatus;
+
   using LoadType = ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_LoadType;
 
   using __c = ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource___c;
@@ -217,6 +281,10 @@ public:
   __declspec(property(get = get_BytesToDownload)) int64_t BytesToDownload;
 
   __declspec(property(get = get_HasTimedOut)) bool HasTimedOut;
+
+  /// @brief Field cacheStatus, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get_cacheStatus,
+                      put = __cordl_internal_set_cacheStatus)) ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_CacheStatus cacheStatus;
 
   /// @brief Field m_AssetBundle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AssetBundle, put = __cordl_internal_set_m_AssetBundle)) ::UnityW<::UnityEngine::AssetBundle> m_AssetBundle;
@@ -251,7 +319,7 @@ public:
   /// @brief Field m_ProvideHandle, offset 0x28, size 0x18
   __declspec(property(get = __cordl_internal_get_m_ProvideHandle, put = __cordl_internal_set_m_ProvideHandle)) ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle;
 
-  /// @brief Field m_RequestCompletedCallbackCalled, offset 0x48, size 0x1
+  /// @brief Field m_RequestCompletedCallbackCalled, offset 0x4c, size 0x1
   __declspec(property(get = __cordl_internal_get_m_RequestCompletedCallbackCalled, put = __cordl_internal_set_m_RequestCompletedCallbackCalled)) bool m_RequestCompletedCallbackCalled;
 
   /// @brief Field m_RequestOperation, offset 0x18, size 0x8
@@ -261,10 +329,10 @@ public:
   __declspec(property(get = __cordl_internal_get_m_RequestRetryCallback,
                       put = __cordl_internal_set_m_RequestRetryCallback)) ::System::Func_2<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*, bool>* m_RequestRetryCallback;
 
-  /// @brief Field m_Retries, offset 0x4c, size 0x4
+  /// @brief Field m_Retries, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Retries, put = __cordl_internal_set_m_Retries)) int32_t m_Retries;
 
-  /// @brief Field m_Source, offset 0x50, size 0x4
+  /// @brief Field m_Source, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source)) ::UnityEngine::ResourceManagement::Util::BundleSource m_Source;
 
   /// @brief Field m_TimeSecSinceLastUpdate, offset 0xa8, size 0x4
@@ -292,90 +360,91 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*() noexcept;
 
-  /// @brief Method AddBeginWebRequestHandler, addr 0x691bae0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddBeginWebRequestHandler, addr 0x6d4384c, size 0x104, virtual false, abstract: false, final false
   inline void AddBeginWebRequestHandler(::UnityEngine::ResourceManagement::WebRequestQueueOperation* webRequestQueueOperation);
 
-  /// @brief Method AddBundleToProfiler, addr 0x6919708, size 0x144, virtual false, abstract: false, final false
-  inline void AddBundleToProfiler(::UnityEngine::ResourceManagement::Profiling::ContentStatus status, ::UnityEngine::ResourceManagement::Util::BundleSource source);
-
-  /// @brief Method AddCallbackInvokeIfDone, addr 0x691b5ec, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AddCallbackInvokeIfDone, addr 0x6d432ac, size 0x60, virtual false, abstract: false, final false
   inline void AddCallbackInvokeIfDone(::UnityEngine::AsyncOperation* operation, ::System::Action_1<::UnityEngine::AsyncOperation*>* callback);
 
-  /// @brief Method BeginOperation, addr 0x691a240, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method BeginOperation, addr 0x6d41dd4, size 0x298, virtual false, abstract: false, final false
   inline void BeginOperation();
 
-  /// @brief Method BeginWebRequestOperation, addr 0x691bbf4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method BeginWebRequestOperation, addr 0x6d43950, size 0xfc, virtual false, abstract: false, final false
   inline void BeginWebRequestOperation(::UnityEngine::AsyncOperation* asyncOp);
 
-  /// @brief Method CompleteBundleLoad, addr 0x691bed4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CompleteBundleLoad, addr 0x6d43c14, size 0x168, virtual false, abstract: false, final false
   inline void CompleteBundleLoad(::UnityEngine::AssetBundle* bundle);
 
-  /// @brief Method CreateWebRequest, addr 0x69194d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CreateWebRequest, addr 0x6d41840, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* CreateWebRequest(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
 
-  /// @brief Method CreateWebRequest, addr 0x69194fc, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method CreateWebRequest, addr 0x6d41868, size 0x1f8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* CreateWebRequest(::StringW url);
 
-  /// @brief Method EnqueueWebRequest, addr 0x691b9c4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method EnqueueWebRequest, addr 0x6d43730, size 0x11c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* EnqueueWebRequest(::StringW internalId);
 
-  /// @brief Method GetAssetBundle, addr 0x6919974, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method GetAssetBundle, addr 0x6d41b88, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::AssetBundle> GetAssetBundle();
 
-  /// @brief Method GetAssetPreloadRequest, addr 0x691984c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetAssetPreloadRequest, addr 0x6d41a60, size 0x128, virtual false, abstract: false, final false
   inline ::UnityEngine::AssetBundleRequest* GetAssetPreloadRequest();
 
-  /// @brief Method GetDownloadStatus, addr 0x69199a8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetDownloadStatus, addr 0x6d41bbc, size 0x154, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus();
 
-  /// @brief Method GetLoadInfo, addr 0x691b64c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetLoadInfo, addr 0x6d4330c, size 0x30, virtual false, abstract: false, final false
   static inline void GetLoadInfo(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle handle,
                                  ::by_ref<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_LoadType> loadType, ::by_ref<::StringW> path);
 
-  /// @brief Method GetLoadInfo, addr 0x691b67c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method GetLoadInfo, addr 0x6d4333c, size 0x344, virtual false, abstract: false, final false
   static inline void GetLoadInfo(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
                                  ::by_ref<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_LoadType> loadType, ::by_ref<::StringW> path);
 
-  /// @brief Method LoadLocalBundle, addr 0x691b904, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsCached, addr 0x6d41710, size 0x80, virtual false, abstract: false, final false
+  inline bool IsCached();
+
+  /// @brief Method LoadLocalBundle, addr 0x6d43680, size 0xb0, virtual false, abstract: false, final false
   inline void LoadLocalBundle();
 
-  /// @brief Method LocalRequestOperationCompleted, addr 0x691b52c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LocalRequestOperationCompleted, addr 0x6d431ec, size 0xc0, virtual false, abstract: false, final false
   inline void LocalRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource* New_ctor();
 
-  /// @brief Method OnUnloadOperationComplete, addr 0x691a238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnUnloadOperationComplete, addr 0x6d41dcc, size 0x8, virtual false, abstract: false, final false
   inline void OnUnloadOperationComplete(::UnityEngine::AsyncOperation* op);
 
-  /// @brief Method PercentComplete, addr 0x6919990, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method PercentComplete, addr 0x6d41ba4, size 0x18, virtual false, abstract: false, final false
   inline float_t PercentComplete();
 
-  /// @brief Method RemoveBundleFromProfiler, addr 0x691a1c8, size 0x70, virtual false, abstract: false, final false
-  inline void RemoveBundleFromProfiler();
-
-  /// @brief Method Start, addr 0x691a45c, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x6d4206c, size 0x4ac, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle, ::UnityEngine::AssetBundleUnloadOperation* unloadOp,
                     ::System::Func_2<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*, bool>* requestRetryCallback);
 
-  /// @brief Method Unload, addr 0x691c050, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Unload, addr 0x6d43d7c, size 0xac, virtual false, abstract: false, final false
   inline bool Unload(::by_ref<::UnityEngine::AssetBundleUnloadOperation*> unloadOp);
 
-  /// @brief Method Update, addr 0x691bd0c, size 0x1c8, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x6d43a4c, size 0x1c8, virtual true, abstract: false, final true
   inline void Update(float_t unscaledDeltaTime);
 
-  /// @brief Method WaitForCompletionHandler, addr 0x691aa78, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionHandler, addr 0x6d42758, size 0x38c, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
-  /// @brief Method WebRequestOperationCompleted, addr 0x691ae04, size 0x728, virtual false, abstract: false, final false
+  /// @brief Method WebRequestOperationCompleted, addr 0x6d42ae4, size 0x708, virtual false, abstract: false, final false
   inline void WebRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
 
   /// [CompilerGenerated]
-  /// @brief Method <AddBeginWebRequestHandler>b__45_0, addr 0x691c1f8, size 0x4, virtual false, abstract: false, final false
-  inline void _AddBeginWebRequestHandler_b__45_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
+  /// @brief Method <AddBeginWebRequestHandler>b__46_0, addr 0x6d43f1c, size 0x4, virtual false, abstract: false, final false
+  inline void _AddBeginWebRequestHandler_b__46_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetAssetPreloadRequest>b__30_0, addr 0x691c1ec, size 0xc, virtual false, abstract: false, final false
-  inline void _GetAssetPreloadRequest_b__30_0(::UnityEngine::AsyncOperation* operation);
+  /// @brief Method <GetAssetPreloadRequest>b__33_0, addr 0x6d43f10, size 0xc, virtual false, abstract: false, final false
+  inline void _GetAssetPreloadRequest_b__33_0(::UnityEngine::AsyncOperation* operation);
+
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_CacheStatus const& __cordl_internal_get_cacheStatus() const;
+
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_CacheStatus& __cordl_internal_get_cacheStatus();
 
   constexpr ::UnityW<::UnityEngine::AssetBundle> const& __cordl_internal_get_m_AssetBundle() const;
 
@@ -465,6 +534,8 @@ public:
 
   constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation*& __cordl_internal_get_m_WebRequestQueueOperation();
 
+  constexpr void __cordl_internal_set_cacheStatus(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_CacheStatus value);
+
   constexpr void __cordl_internal_set_m_AssetBundle(::UnityW<::UnityEngine::AssetBundle> value);
 
   constexpr void __cordl_internal_set_m_BytesToDownload(int64_t value);
@@ -509,13 +580,13 @@ public:
 
   constexpr void __cordl_internal_set_m_WebRequestQueueOperation(::UnityEngine::ResourceManagement::WebRequestQueueOperation* value);
 
-  /// @brief Method .ctor, addr 0x691c104, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d43e28, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BytesToDownload, addr 0x69193cc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_BytesToDownload, addr 0x6d416a0, size 0x70, virtual false, abstract: false, final false
   inline int64_t get_BytesToDownload();
 
-  /// @brief Method get_HasTimedOut, addr 0x6919390, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_HasTimedOut, addr 0x6d4166c, size 0x34, virtual false, abstract: false, final false
   inline bool get_HasTimedOut();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::IUpdateReceiver"
@@ -539,7 +610,7 @@ public:
   AssetBundleResource(AssetBundleResource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19185 };
 
   /// @brief Field k_WaitForWebRequestMainThreadSleep offset 0xffffffff size 0x4
   static constexpr int32_t k_WaitForWebRequestMainThreadSleep{ static_cast<int32_t>(0x1) };
@@ -559,13 +630,16 @@ public:
   /// @brief Field m_Options, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions* ___m_Options;
 
-  /// @brief Field m_RequestCompletedCallbackCalled, offset: 0x48, size: 0x1, def value: None
+  /// @brief Field cacheStatus, offset: 0x48, size: 0x4, def value: None
+  ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_CacheStatus ___cacheStatus;
+
+  /// @brief Field m_RequestCompletedCallbackCalled, offset: 0x4c, size: 0x1, def value: None
   bool ___m_RequestCompletedCallbackCalled;
 
-  /// @brief Field m_Retries, offset: 0x4c, size: 0x4, def value: None
+  /// @brief Field m_Retries, offset: 0x50, size: 0x4, def value: None
   int32_t ___m_Retries;
 
-  /// @brief Field m_Source, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field m_Source, offset: 0x54, size: 0x4, def value: None
   ::UnityEngine::ResourceManagement::Util::BundleSource ___m_Source;
 
   /// @brief Field m_BytesToDownload, offset: 0x58, size: 0x8, def value: None
@@ -623,11 +697,13 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::Ass
 
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource, ___m_Options) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource, ___m_RequestCompletedCallbackCalled) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource, ___cacheStatus) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource, ___m_Retries) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource, ___m_RequestCompletedCallbackCalled) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource, ___m_Source) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource, ___m_Retries) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource, ___m_Source) == 0x54, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource, ___m_BytesToDownload) == 0x58, "Offset mismatch!");
 

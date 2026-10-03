@@ -131,7 +131,7 @@ public:
   LinqExtensions___c__8_1(LinqExtensions___c__8_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14202 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -179,7 +179,7 @@ public:
   LinqExtensions___c__DisplayClass10_0_1(LinqExtensions___c__DisplayClass10_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14203 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   T ___value;
@@ -326,7 +326,7 @@ public:
   LinqExtensions__Yield_d__0_1(LinqExtensions__Yield_d__0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14204 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -401,8 +401,8 @@ public:
   /// @brief Method OnlyOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline TSource OnlyOrDefault(::System::Collections::Generic::IEnumerable_1<TSource>* source);
 
-  /// [Extension]
   /// [IteratorStateMachine(typeof(ModestTree.LinqExtensions::<Yield>d__0`1<T>))]
+  /// [Extension]
   /// @brief Method Yield, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* Yield(T item);
 
@@ -421,7 +421,7 @@ public:
   LinqExtensions(LinqExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14205 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

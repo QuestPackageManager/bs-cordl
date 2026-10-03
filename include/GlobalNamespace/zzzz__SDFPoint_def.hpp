@@ -42,13 +42,13 @@ public:
 
   constexpr void __cordl_internal_set__sqrtRadius(float_t value);
 
-  /// @brief Method .ctor, addr 0x58732e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c894b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sqrtRadius, addr 0x58732d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sqrtRadius, addr 0x5c894a8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sqrtRadius();
 
-  /// @brief Method set_sqrtRadius, addr 0x58732dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sqrtRadius, addr 0x5c894b0, size 0x8, virtual false, abstract: false, final false
   inline void set_sqrtRadius(float_t value);
 
 protected:
@@ -66,7 +66,7 @@ public:
   SDFPoint(SDFPoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20016 };
 
   /// [InfoBox("Use negative radius for the SDF to act as a negative force (multiplying rather than subtracting)", (BGLib.UnityExtension.InfoBoxAttribute::Type)1)]
   /// [SerializeField]

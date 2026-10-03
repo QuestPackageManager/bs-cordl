@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CampaignProgressModel::*)()>(&::GlobalNamespace::CampaignProgressModel::get_numberOfClearedMissions)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3755e18;
+  constexpr static std::size_t addrs = 0x39df4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CampaignProgressModel*>(), { "get_numberOfClearedMissions", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignProgressModel::*)()>(&::GlobalNamespace::CampaignProgressModel::Awake)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3755f88;
+  constexpr static std::size_t addrs = 0x39df668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CampaignProgressModel*>(), { "Awake", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CampaignProgressModel::*)(::StringW)>(&::GlobalNamespace::CampaignProgressModel::IsMissionRegistered)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3755ffc;
+  constexpr static std::size_t addrs = 0x39df6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignProgressModel::*)(::StringW)>(&::GlobalNamespace::CampaignProgressModel::RegisterMissionId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3756060;
+  constexpr static std::size_t addrs = 0x39df740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CampaignProgressModel::*)(::StringW)>(&::GlobalNamespace::CampaignProgressModel::IsMissionCleared)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x37560dc;
+  constexpr static std::size_t addrs = 0x39df7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CampaignProgressModel::*)(::StringW)>(&::GlobalNamespace::CampaignProgressModel::IsMissionFinal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3756108;
+  constexpr static std::size_t addrs = 0x39df7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignProgressModel::*)(::StringW)>(&::GlobalNamespace::CampaignProgressModel::SetFinalMissionId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3756110;
+  constexpr static std::size_t addrs = 0x39df7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CampaignProgressModel::*)(::StringW)>(&::GlobalNamespace::CampaignProgressModel::WillFinishGameAfterThisMission)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3756118;
+  constexpr static std::size_t addrs = 0x39df7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignProgressModel::*)(::StringW)>(&::GlobalNamespace::CampaignProgressModel::SetMissionCleared)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375615c;
+  constexpr static std::size_t addrs = 0x39df83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignProgressModel::*)(::StringW, bool)>(&::GlobalNamespace::CampaignProgressModel::__SetMissionCleared)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3756164;
+  constexpr static std::size_t addrs = 0x39df844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CampaignProgressModel::*)()>(&::GlobalNamespace::CampaignProgressModel::UpdateNumberOfClearedMissions)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3755e40;
+  constexpr static std::size_t addrs = 0x39df520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CampaignProgressModel*>(), { "UpdateNumberOfClearedMissions", {}, {} })));
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignProgressModel::*)()>(&::GlobalNamespace::CampaignProgressModel::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x37561ac;
+  constexpr static std::size_t addrs = 0x39df88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CampaignProgressModel*>(), { ".ctor", {}, {} })));

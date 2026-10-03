@@ -39,8 +39,10 @@ constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::
 constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::BuiltinShaderDefine::UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION{ static_cast<int32_t>(0x1d) };
 constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::BuiltinShaderDefine::UNITY_ASTC_NORMALMAP_ENCODING{ static_cast<int32_t>(0x1e) };
 constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::BuiltinShaderDefine::SHADER_API_GLES30{ static_cast<int32_t>(0x1f) };
-constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::BuiltinShaderDefine::UNITY_UNIFIED_SHADER_PRECISION_MODEL{ static_cast<int32_t>(0x20) };
-constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::BuiltinShaderDefine::UNITY_PLATFORM_SUPPORTS_WAVE_32{ static_cast<int32_t>(0x21) };
-constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::BuiltinShaderDefine::UNITY_PLATFORM_SUPPORTS_WAVE_64{ static_cast<int32_t>(0x22) };
-constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::BuiltinShaderDefine::UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK{ static_cast<int32_t>(0x23) };
-constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::BuiltinShaderDefine::UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH{ static_cast<int32_t>(0x24) };
+constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::BuiltinShaderDefine::SHADER_API_GLES31{ static_cast<int32_t>(0x20) };
+constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::BuiltinShaderDefine::SHADER_API_GLES32{ static_cast<int32_t>(0x21) };
+constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::BuiltinShaderDefine::UNITY_UNIFIED_SHADER_PRECISION_MODEL{ static_cast<int32_t>(0x22) };
+constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::BuiltinShaderDefine::UNITY_PLATFORM_SUPPORTS_WAVE_32{ static_cast<int32_t>(0x23) };
+constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::BuiltinShaderDefine::UNITY_PLATFORM_SUPPORTS_WAVE_64{ static_cast<int32_t>(0x24) };
+constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::BuiltinShaderDefine::UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK{ static_cast<int32_t>(0x25) };
+constexpr ::UnityEngine::Rendering::BuiltinShaderDefine UnityEngine::Rendering::BuiltinShaderDefine::UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH{ static_cast<int32_t>(0x26) };

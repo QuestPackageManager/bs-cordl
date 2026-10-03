@@ -70,33 +70,33 @@ public:
 
   __declspec(property(get = get_staleResourceCapacity, put = set_staleResourceCapacity)) int32_t staleResourceCapacity;
 
-  /// @brief Method AddResourceToPool, addr 0x68b88d0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method AddResourceToPool, addr 0x6ce17a0, size 0x214, virtual false, abstract: false, final false
   inline bool AddResourceToPool(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc, ::UnityEngine::Rendering::RTHandle* resource, int32_t currentFrameIndex);
 
-  /// @brief Method Cleanup, addr 0x68b8414, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6ce12e4, size 0x4bc, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method CreateTextureDesc, addr 0x68b9c40, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CreateTextureDesc, addr 0x6ce2b10, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::TextureDesc CreateTextureDesc(::UnityEngine::RenderTextureDescriptor desc,
                                                                                            ::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode textureSizeMode, int32_t anisoLevel,
                                                                                            float_t mipMapBias, ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode,
                                                                                            ::StringW name);
 
-  /// @brief Method GetHashCodeWithNameHash, addr 0x68b8ae4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeWithNameHash, addr 0x6ce19b4, size 0x58, virtual false, abstract: false, final false
   inline int32_t GetHashCodeWithNameHash(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc);
 
-  /// @brief Method LogDebugInfo, addr 0x68b93a4, size 0x89c, virtual false, abstract: false, final false
+  /// @brief Method LogDebugInfo, addr 0x6ce2274, size 0x89c, virtual false, abstract: false, final false
   inline void LogDebugInfo();
 
   static inline ::UnityEngine::Rendering::Universal::RTHandleResourcePool* New_ctor();
 
-  /// @brief Method PurgeUnusedResources, addr 0x68b8d9c, size 0x608, virtual false, abstract: false, final false
+  /// @brief Method PurgeUnusedResources, addr 0x6ce1c6c, size 0x608, virtual false, abstract: false, final false
   inline void PurgeUnusedResources(int32_t currentFrameIndex);
 
-  /// @brief Method ShouldReleaseResource, addr 0x68b8d24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ShouldReleaseResource, addr 0x6ce1bf4, size 0x78, virtual false, abstract: false, final false
   static inline bool ShouldReleaseResource(int32_t lastUsedFrameIndex, int32_t currentFrameIndex);
 
-  /// @brief Method TryGetResource, addr 0x68b8b3c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method TryGetResource, addr 0x6ce1a0c, size 0x1e8, virtual false, abstract: false, final false
   inline bool TryGetResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc, ::by_ref<::UnityEngine::Rendering::RTHandle*> resource, bool usepool);
 
   constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_RemoveList() const;
@@ -114,7 +114,7 @@ public:
   constexpr void __cordl_internal_set_m_ResourcePool(
       ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::System::ValueTuple_2<::UnityEngine::Rendering::RTHandle*, int32_t>>*>* value);
 
-  /// @brief Method .ctor, addr 0x68b9d80, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce2c74, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_s_CurrentStaleResourceCount();
@@ -123,7 +123,7 @@ public:
 
   static inline int32_t getStaticF_s_StaleResourceMaxCapacity();
 
-  /// @brief Method get_staleResourceCapacity, addr 0x68b8318, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_staleResourceCapacity, addr 0x6ce11e8, size 0x5c, virtual false, abstract: false, final false
   inline int32_t get_staleResourceCapacity();
 
   static inline void setStaticF_s_CurrentStaleResourceCount(int32_t value);
@@ -132,7 +132,7 @@ public:
 
   static inline void setStaticF_s_StaleResourceMaxCapacity(int32_t value);
 
-  /// @brief Method set_staleResourceCapacity, addr 0x68b8374, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_staleResourceCapacity, addr 0x6ce1244, size 0xa0, virtual false, abstract: false, final false
   inline void set_staleResourceCapacity(int32_t value);
 
 protected:
@@ -150,7 +150,7 @@ public:
   RTHandleResourcePool(RTHandleResourcePool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13130 };
 
   /// [TupleElementNames(new[] { "resource", "frameIndex" })]
   /// @brief Field m_ResourcePool, offset: 0x10, size: 0x8, def value: None

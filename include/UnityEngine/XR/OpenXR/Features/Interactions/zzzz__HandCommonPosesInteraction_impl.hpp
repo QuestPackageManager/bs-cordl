@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::get_devicePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a007dc;
+  constexpr static std::size_t addrs = 0x6e55ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::set_devicePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a007e4;
+  constexpr static std::size_t addrs = 0x6e55edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::get_pointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a007ec;
+  constexpr static std::size_t addrs = 0x6e55ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::set_pointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a007f4;
+  constexpr static std::size_t addrs = 0x6e55eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::get_pokePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a007fc;
+  constexpr static std::size_t addrs = 0x6e55ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::set_pokePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a00804;
+  constexpr static std::size_t addrs = 0x6e55efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::get_pinchPose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0080c;
+  constexpr static std::size_t addrs = 0x6e55f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::set_pinchPose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a00814;
+  constexpr static std::size_t addrs = 0x6e55f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,8 +134,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::FinishSetup)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6a0081c;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x6e55f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6a00918;
+  constexpr static std::size_t addrs = 0x6e56008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a0098c;
+  constexpr static std::size_t addrs = 0x6e5607c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c::*)(
     ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_DeviceConfig*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c::_AddAdditiveActions_b__17_0)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6a00990;
+  constexpr static std::size_t addrs = 0x6e56080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c::*)(
     ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionConfig*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c::_AddAdditiveActions_b__17_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6a00a48;
+  constexpr static std::size_t addrs = 0x6e56138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c::*)(
     ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionConfig*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c::_AddAdditiveActions_b__17_2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6a00a5c;
+  constexpr static std::size_t addrs = 0x6e5614c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c__DisplayClass17_0::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c__DisplayClass17_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a0077c;
+  constexpr static std::size_t addrs = 0x6e55e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -432,7 +432,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::
     ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionBinding*)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c__DisplayClass17_0::_AddAdditiveActions_b__3)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6a00a78;
+  constexpr static std::size_t addrs = 0x6e56168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::get_IsAdditive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff124;
+  constexpr static std::size_t addrs = 0x6e5481c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction*>(),
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::OnInstanceCreate)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69ff12c;
+  constexpr static std::size_t addrs = 0x6e54824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction*>(),
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::RegisterDeviceLayout)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x69ff198;
+  constexpr static std::size_t addrs = 0x6e54890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction*>(),
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::UnregisterDeviceLayout)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69ff2e0;
+  constexpr static std::size_t addrs = 0x6e549d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction*>(),
@@ -551,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_InteractionProfileType (
     ::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::*)()>(&::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::GetInteractionProfileType)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x69ff350;
+  constexpr static std::size_t addrs = 0x6e54a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction*>(),
@@ -565,7 +565,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::GetDeviceLayoutName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69ff404;
+  constexpr static std::size_t addrs = 0x6e54afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction*>(),
@@ -579,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::RegisterActionMapsWithRuntime)> {
   constexpr static std::size_t size = 0xa20;
-  constexpr static std::size_t addrs = 0x69ff448;
+  constexpr static std::size_t addrs = 0x6e54b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction*>(),
@@ -594,7 +594,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     ::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*>*,
     ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::AddAdditiveActions)> {
   constexpr static std::size_t size = 0x914;
-  constexpr static std::size_t addrs = 0x69ffe68;
+  constexpr static std::size_t addrs = 0x6e55560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction*>(),
@@ -608,7 +608,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6a00780;
+  constexpr static std::size_t addrs = 0x6e55e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -56,7 +56,7 @@ public:
   /// @brief Field types, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_types, put = __cordl_internal_set_types)) ::System::Xml::Schema::XmlSchemaObjectTable* types;
 
-  /// @brief Method AddAnnotation, addr 0x6234318, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x665bfbc, size 0x18, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
   static inline ::System::Xml::Schema::XmlSchemaRedefine* New_ctor();
@@ -85,19 +85,19 @@ public:
 
   constexpr void __cordl_internal_set_types(::System::Xml::Schema::XmlSchemaObjectTable* value);
 
-  /// @brief Method .ctor, addr 0x6234240, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x665bee4, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AttributeGroups, addr 0x6234300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeGroups, addr 0x665bfa4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_AttributeGroups();
 
-  /// @brief Method get_Groups, addr 0x6234310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Groups, addr 0x665bfb4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_Groups();
 
-  /// @brief Method get_Items, addr 0x62342f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Items, addr 0x665bf9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
 
-  /// @brief Method get_SchemaTypes, addr 0x6234308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaTypes, addr 0x665bfac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_SchemaTypes();
 
 protected:
@@ -115,7 +115,7 @@ public:
   XmlSchemaRedefine(XmlSchemaRedefine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11773 };
 
   /// @brief Field items, offset: 0x68, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaObjectCollection* ___items;

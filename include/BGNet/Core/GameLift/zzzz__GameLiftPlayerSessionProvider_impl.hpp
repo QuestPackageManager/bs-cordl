@@ -29,6 +29,7 @@
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
 #include "GlobalNamespace/zzzz__RollingAverage_def.hpp"
 #include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
+#include "OculusStudios/MetaNetworking/Utils/zzzz__IMetaApiUserAgentProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::*)()>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32c02c0;
+  constexpr static std::size_t addrs = 0x35476e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>(), { ".ctor", {}, {} })));
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::*)(
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_GetAverageLatencies_b__25_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32c02c4;
+  constexpr static std::size_t addrs = 0x35476e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::*)(
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_GetAverageLatencies_b__25_1)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32c0318;
+  constexpr static std::size_t addrs = 0x354773c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::*)(
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_GetAverageLatencies_b__25_2)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32c035c;
+  constexpr static std::size_t addrs = 0x3547780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,8 +181,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23::*)()>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23::MoveNext)> {
-  constexpr static std::size_t size = 0x15a4;
-  constexpr static std::size_t addrs = 0x32c03c0;
+  constexpr static std::size_t size = 0x15c0;
+  constexpr static std::size_t addrs = 0x35477e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32c1964;
+  constexpr static std::size_t addrs = 0x3548da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21::*)()>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x32c19e4;
+  constexpr static std::size_t addrs = 0x3548e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x32c1da4;
+  constexpr static std::size_t addrs = 0x35491e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21>(),
@@ -339,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24::*)()>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24::MoveNext)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x32c1e10;
+  constexpr static std::size_t addrs = 0x3549250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32c219c;
+  constexpr static std::size_t addrs = 0x35495dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24>(),
@@ -400,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28::*)()>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28::MoveNext)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x32c21a4;
+  constexpr static std::size_t addrs = 0x35495e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -415,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32c2558;
+  constexpr static std::size_t addrs = 0x3549998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -468,7 +469,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26::*)()>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26::MoveNext)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x32c2560;
+  constexpr static std::size_t addrs = 0x35499a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -482,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32c28a4;
+  constexpr static std::size_t addrs = 0x3549ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26>(),
@@ -529,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29::*)()>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29::MoveNext)> {
   constexpr static std::size_t size = 0x9dc;
-  constexpr static std::size_t addrs = 0x32c2924;
+  constexpr static std::size_t addrs = 0x3549d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -543,7 +544,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32c3300;
+  constexpr static std::size_t addrs = 0x354a740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -601,15 +602,19 @@ constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsin
 //  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)(
-    ::GlobalNamespace::INetworkConfig*, ::GlobalNamespace::IMultiplayerStatusModel*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_ctor)> {
-  constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x32bf034;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)(::GlobalNamespace::INetworkConfig*, ::GlobalNamespace::IMultiplayerStatusModel*,
+                                                                                                                        ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*)>(
+    &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_ctor)> {
+  constexpr static std::size_t size = 0x450;
+  constexpr static std::size_t addrs = 0x35463ac;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>(),
-                                                { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::INetworkConfig*>(), ::i2c::type_of<::GlobalNamespace::IMultiplayerStatusModel*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>(),
+                                                             { ".ctor",
+                                                               {},
+                                                               { ::i2c::type_of<::GlobalNamespace::INetworkConfig*>(), ::i2c::type_of<::GlobalNamespace::IMultiplayerStatusModel*>(),
+                                                                 ::i2c::type_of<::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*>() } })));
     return ___internal_method;
   }
 };
@@ -619,7 +624,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)()>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetMultiplayerStatusData)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x32bf3d8;
+  constexpr static std::size_t addrs = 0x35467fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -632,7 +637,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)()>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::PollUpdate)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x32bf488;
+  constexpr static std::size_t addrs = 0x35468ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>(), { "PollUpdate", {}, {} })));
@@ -647,7 +652,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
                                                                ::GlobalNamespace::GameplayServerConfiguration, ::StringW, ::StringW, ::System::Threading::CancellationToken)>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetGameLiftPlayerSessionInfo)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x32bf6bc;
+  constexpr static std::size_t addrs = 0x3546ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -666,7 +671,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)()>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::PingAllAwsGameLiftRegions)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x32bf618;
+  constexpr static std::size_t addrs = 0x3546a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -680,7 +685,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)()>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetAverageLatencies)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x32bf808;
+  constexpr static std::size_t addrs = 0x3546c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -694,7 +699,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* (
     ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)(::StringW)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::PingRegionAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x32bfa68;
+  constexpr static std::size_t addrs = 0x3546e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -707,7 +712,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetAwsGameLiftRegionEndpoint)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x32bfb44;
+  constexpr static std::size_t addrs = 0x3546f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -721,7 +726,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)()>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x32bf574;
+  constexpr static std::size_t addrs = 0x3546998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -735,7 +740,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, ::System::Nullable_1<int64_t>>>* (
     ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)(::StringW)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::PingRegionUsingGameLiftUdpPingBeaconAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x32bfbb0;
+  constexpr static std::size_t addrs = 0x3546fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>(),
@@ -748,7 +753,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetGameLiftUdpPingBeaconEndpoint)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x32bfca4;
+  constexpr static std::size_t addrs = 0x35470c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -764,7 +769,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)(::GlobalNamespace::IAuthenticationTokenProvider*, ::System::Threading::CancellationToken, bool)>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetXPlatformAccessToken)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x32bfd10;
+  constexpr static std::size_t addrs = 0x3547134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -781,7 +786,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)()>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::Dispose)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x32bfe74;
+  constexpr static std::size_t addrs = 0x3547298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>(), { "Dispose", {}, {} })));
@@ -794,7 +799,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* (
     ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)(::StringW)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_PingAllAwsGameLiftRegions_b__24_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32c0264;
+  constexpr static std::size_t addrs = 0x3547688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -809,7 +814,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, ::System::Nullable_1<int64_t>>>* (
     ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)(::StringW)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_b__28_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32c0268;
+  constexpr static std::size_t addrs = 0x354768c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>(),
@@ -961,11 +966,15 @@ inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::setStaticF__aw
 inline ::ArrayW<::StringW> BGNet::Core::GameLift::GameLiftPlayerSessionProvider::getStaticF__awsGameLiftRegions() {
   return ::cordl_internals::getStaticField<::ArrayW<::StringW>, "_awsGameLiftRegions", ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>();
 }
-inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::IMultiplayerStatusModel* multiplayerStatusModel) {
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::IMultiplayerStatusModel* multiplayerStatusModel,
+                                                                        ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>(),
-                                                           { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::INetworkConfig*>(), ::i2c::type_of<::GlobalNamespace::IMultiplayerStatusModel*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, networkConfig, multiplayerStatusModel);
+                                                           { ".ctor",
+                                                             {},
+                                                             { ::i2c::type_of<::GlobalNamespace::INetworkConfig*>(), ::i2c::type_of<::GlobalNamespace::IMultiplayerStatusModel*>(),
+                                                               ::i2c::type_of<::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, networkConfig, multiplayerStatusModel, metaApiUserAgentProvider);
 }
 inline ::System::Threading::Tasks::Task* BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetMultiplayerStatusData() {
   static auto* ___internal_method =
@@ -1054,9 +1063,10 @@ BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_PingAllAwsGameLiftRegions
                                                                                          { "<PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons>b__28_0", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, ::System::Nullable_1<int64_t>>>*>(this, ___internal_method, region);
 }
-inline ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* BGNet::Core::GameLift::GameLiftPlayerSessionProvider::New_ctor(::GlobalNamespace::INetworkConfig* networkConfig,
-                                                                                                                              ::GlobalNamespace::IMultiplayerStatusModel* multiplayerStatusModel) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>(networkConfig, multiplayerStatusModel));
+inline ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider::New_ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::IMultiplayerStatusModel* multiplayerStatusModel,
+                                                               ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>(networkConfig, multiplayerStatusModel, metaApiUserAgentProvider));
 }
 /// @brief Convert operator to "::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider"
 constexpr BGNet::Core::GameLift::GameLiftPlayerSessionProvider::operator ::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider*() noexcept {

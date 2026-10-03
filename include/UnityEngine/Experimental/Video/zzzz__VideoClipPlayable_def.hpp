@@ -22,12 +22,12 @@ struct VideoClipPlayable;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::Video::VideoClipPlayable);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::Video::VideoClipPlayable, "UnityEngine.Experimental.Video", "VideoClipPlayable");
-// [RequiredByNativeCode]
-// [NativeHeader("Runtime/Director/Core/HPlayable.h")]
-// [StaticAccessor("VideoClipPlayableBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Modules/Video/Public/ScriptBindings/VideoClipPlayable.bindings.h")]
 // [NativeHeader("Modules/Video/Public/Director/VideoClipPlayable.h")]
 // [NativeHeader("Modules/Video/Public/VideoClip.h")]
-// [NativeHeader("Modules/Video/Public/ScriptBindings/VideoClipPlayable.bindings.h")]
+// [NativeHeader("Runtime/Director/Core/HPlayable.h")]
+// [StaticAccessor("VideoClipPlayableBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Experimental::Video {
 // Is value type: true
@@ -41,10 +41,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Equals, addr 0x6e2fa2c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x72cb3d8, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Experimental::Video::VideoClipPlayable other);
 
-  /// @brief Method GetHandle, addr 0x6e2fa20, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x72cb3cc, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>"
@@ -61,7 +61,7 @@ public:
   constexpr VideoClipPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23151 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

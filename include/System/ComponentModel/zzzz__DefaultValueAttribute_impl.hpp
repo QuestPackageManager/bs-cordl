@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(int32_t)>(&::System::ComponentModel::DefaultValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63b3700;
+  constexpr static std::size_t addrs = 0x67db9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(int64_t)>(&::System::ComponentModel::DefaultValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63b3730;
+  constexpr static std::size_t addrs = 0x67db9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(double_t)>(&::System::ComponentModel::DefaultValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63b3760;
+  constexpr static std::size_t addrs = 0x67dba2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(bool)>(&::System::ComponentModel::DefaultValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63b3790;
+  constexpr static std::size_t addrs = 0x67dba5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(::StringW)>(&::System::ComponentModel::DefaultValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63b37c0;
+  constexpr static std::size_t addrs = 0x67dba8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(::System::Object*)>(&::System::ComponentModel::DefaultValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63b37c8;
+  constexpr static std::size_t addrs = 0x67dba94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::DefaultValueAttribute::*)()>(&::System::ComponentModel::DefaultValueAttribute::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63b37d0;
+  constexpr static std::size_t addrs = 0x67dba9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::DefaultValueAttribute::*)(::System::Object*)>(&::System::ComponentModel::DefaultValueAttribute::Equals)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x63b37d8;
+  constexpr static std::size_t addrs = 0x67dbaa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::DefaultValueAttribute::*)()>(&::System::ComponentModel::DefaultValueAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63b38e8;
+  constexpr static std::size_t addrs = 0x67dbbb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

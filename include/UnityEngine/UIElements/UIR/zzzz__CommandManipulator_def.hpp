@@ -12,7 +12,13 @@ namespace UnityEngine::UIElements::UIR {
 class RenderChainCommand;
 }
 namespace UnityEngine::UIElements::UIR {
-class RenderChain;
+class RenderData;
+}
+namespace UnityEngine::UIElements::UIR {
+class RenderTreeManager;
+}
+namespace UnityEngine::UIElements::UIR {
+class RenderTree;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -24,7 +30,6 @@ class CommandManipulator;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UIR::CommandManipulator*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::CommandManipulator*, "UnityEngine.UIElements.UIR", "CommandManipulator");
-// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
@@ -32,38 +37,42 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE CommandManipulator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DisableElementRendering, addr 0x6cd55e0, size 0x23c, virtual false, abstract: false, final false
-  static inline void DisableElementRendering(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, bool renderingDisabled);
+  /// @brief Method DisableElementRendering, addr 0x716383c, size 0x234, virtual false, abstract: false, final false
+  static inline void DisableElementRendering(::UnityEngine::UIElements::UIR::RenderTreeManager* renderTreeManager, ::UnityEngine::UIElements::VisualElement* ve, bool renderingDisabled);
 
-  /// @brief Method FindHeadCommandInsertionPoint, addr 0x6cd52dc, size 0x17c, virtual false, abstract: false, final false
-  static inline void FindHeadCommandInsertionPoint(::UnityEngine::UIElements::VisualElement* ve, ::by_ref<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev,
+  /// @brief Method FindHeadCommandInsertionPoint, addr 0x7163234, size 0xb0, virtual false, abstract: false, final false
+  static inline void FindHeadCommandInsertionPoint(::UnityEngine::UIElements::UIR::RenderData* renderData, ::by_ref<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev,
                                                    ::by_ref<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method FindTailCommandInsertionPoint, addr 0x6cd5458, size 0xe4, virtual false, abstract: false, final false
-  static inline void FindTailCommandInsertionPoint(::UnityEngine::UIElements::VisualElement* ve, ::by_ref<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev,
+  /// @brief Method FindPrevCommand, addr 0x7163480, size 0x58, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::UIR::RenderChainCommand* FindPrevCommand(::UnityEngine::UIElements::UIR::RenderData* candidate, bool searchFromHead);
+
+  /// @brief Method FindTailCommandInsertionPoint, addr 0x71633d0, size 0xb0, virtual false, abstract: false, final false
+  static inline void FindTailCommandInsertionPoint(::UnityEngine::UIElements::UIR::RenderData* renderData, ::by_ref<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev,
                                                    ::by_ref<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method InjectCommandInBetween, addr 0x6cd553c, size 0xa4, virtual false, abstract: false, final false
-  static inline void InjectCommandInBetween(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::RenderChainCommand* cmd,
-                                            ::UnityEngine::UIElements::UIR::RenderChainCommand* prev, ::UnityEngine::UIElements::UIR::RenderChainCommand* next);
+  /// @brief Method InjectCommandInBetween, addr 0x7163790, size 0xac, virtual false, abstract: false, final false
+  static inline void InjectCommandInBetween(::UnityEngine::UIElements::UIR::RenderChainCommand* cmd, bool isHeadCommand, ::UnityEngine::UIElements::UIR::RenderChainCommand* prev,
+                                            ::UnityEngine::UIElements::UIR::RenderChainCommand* next);
 
-  /// [Extension]
-  /// @brief Method IsParentOrAncestorOf, addr 0x6cd4d50, size 0x34, virtual false, abstract: false, final false
-  static inline bool IsParentOrAncestorOf(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElement* child);
-
-  /// @brief Method RemoveChain, addr 0x6cd51e8, size 0xf4, virtual false, abstract: false, final false
-  static inline void RemoveChain(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::RenderChainCommand* first,
+  /// @brief Method RemoveChain, addr 0x716313c, size 0xf8, virtual false, abstract: false, final false
+  static inline void RemoveChain(::UnityEngine::UIElements::UIR::RenderTree* renderTree, ::UnityEngine::UIElements::UIR::RenderChainCommand* first,
                                  ::UnityEngine::UIElements::UIR::RenderChainCommand* last);
 
-  /// @brief Method RemoveSingleCommand, addr 0x6cd581c, size 0x35c, virtual false, abstract: false, final false
-  static inline void RemoveSingleCommand(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve,
+  /// @brief Method RemoveSingleCommand, addr 0x7163a70, size 0x368, virtual false, abstract: false, final false
+  static inline void RemoveSingleCommand(::UnityEngine::UIElements::UIR::RenderTreeManager* renderTreeManager, ::UnityEngine::UIElements::UIR::RenderData* renderData,
                                          ::UnityEngine::UIElements::UIR::RenderChainCommand* cmd);
 
-  /// @brief Method ReplaceCommands, addr 0x6cd4d84, size 0x1bc, virtual false, abstract: false, final false
-  static inline void ReplaceCommands(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::EntryProcessor* processor);
+  /// @brief Method ReplaceHeadCommands, addr 0x7163050, size 0xec, virtual false, abstract: false, final false
+  static inline void ReplaceHeadCommands(::UnityEngine::UIElements::UIR::RenderTreeManager* renderTreeManager, ::UnityEngine::UIElements::UIR::RenderData* renderData,
+                                         ::UnityEngine::UIElements::UIR::EntryProcessor* processor);
 
-  /// @brief Method ResetCommands, addr 0x6cd4f40, size 0x2a8, virtual false, abstract: false, final false
-  static inline void ResetCommands(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve);
+  /// @brief Method ReplaceTailCommands, addr 0x71632e4, size 0xec, virtual false, abstract: false, final false
+  static inline void ReplaceTailCommands(::UnityEngine::UIElements::UIR::RenderTreeManager* renderTreeManager, ::UnityEngine::UIElements::UIR::RenderData* renderData,
+                                         ::UnityEngine::UIElements::UIR::EntryProcessor* processor);
+
+  /// @brief Method ResetCommands, addr 0x71634d8, size 0x2b8, virtual false, abstract: false, final false
+  static inline void ResetCommands(::UnityEngine::UIElements::UIR::RenderTreeManager* renderTreeManager, ::UnityEngine::UIElements::UIR::RenderData* renderData);
 
 protected:
   // Ctor Parameters []
@@ -80,7 +89,7 @@ public:
   CommandManipulator(CommandManipulator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5283 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5390 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

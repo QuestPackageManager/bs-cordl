@@ -13,6 +13,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourcesData)
+namespace Unity::Collections {
+struct NativeArrayOptions;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeList_1;
+}
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct ResourceVersionedData;
 }
@@ -41,18 +47,18 @@ public:
   // Declarations
   __declspec(property(get = get_Item)) ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData Item[];
 
-  /// @brief Field MaxReaders, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_MaxReaders, put = __cordl_internal_set_MaxReaders)) int32_t MaxReaders;
+  /// @brief Field MaxReaders, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_MaxReaders, put = __cordl_internal_set_MaxReaders)) ::ArrayW<int32_t> MaxReaders;
 
-  /// @brief Field MaxVersions, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_MaxVersions, put = __cordl_internal_set_MaxVersions)) int32_t MaxVersions;
+  /// @brief Field MaxVersions, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_MaxVersions, put = __cordl_internal_set_MaxVersions)) ::ArrayW<int32_t> MaxVersions;
 
   /// @brief Field readerData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_readerData,
                       put = __cordl_internal_set_readerData)) ::ArrayW<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceReaderData>>
       readerData;
 
-  /// @brief Field resourceNames, offset 0x30, size 0x8
+  /// @brief Field resourceNames, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_resourceNames,
                       put = __cordl_internal_set_resourceNames)) ::ArrayW<::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::Name>*>
       resourceNames;
@@ -69,30 +75,35 @@ public:
       put = __cordl_internal_set_versionedData)) ::ArrayW<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData>>
       versionedData;
 
-  /// @brief Method Clear, addr 0x67fd72c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method AllocateAndResizeNativeListIfNeeded, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void AllocateAndResizeNativeListIfNeeded(::by_ref<::Unity::Collections::NativeList_1<T>> nativeList, int32_t size, ::Unity::Collections::NativeArrayOptions options);
+
+  /// @brief Method Clear, addr 0x6c2bdc4, size 0x1b8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x67fe0b0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c2c988, size 0x158, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Index, addr 0x67fdfc8, size 0x70, virtual false, abstract: false, final false
-  inline int32_t Index(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h);
+  /// @brief Method Index, addr 0x6c2c77c, size 0xd4, virtual false, abstract: false, final false
+  inline int32_t Index(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h);
 
-  /// @brief Method IndexReader, addr 0x67fe038, size 0x78, virtual false, abstract: false, final false
-  inline int32_t IndexReader(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, int32_t readerID);
+  /// @brief Method IndexReader, addr 0x6c2c850, size 0x138, virtual false, abstract: false, final false
+  inline int32_t IndexReader(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h, int32_t readerID);
 
-  /// @brief Method Initialize, addr 0x67fd89c, size 0x72c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6c2bf7c, size 0x800, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData* New_ctor();
 
-  constexpr int32_t const& __cordl_internal_get_MaxReaders() const;
+  constexpr ::ArrayW<int32_t> const& __cordl_internal_get_MaxReaders() const;
 
-  constexpr int32_t& __cordl_internal_get_MaxReaders();
+  constexpr ::ArrayW<int32_t>& __cordl_internal_get_MaxReaders();
 
-  constexpr int32_t const& __cordl_internal_get_MaxVersions() const;
+  constexpr ::ArrayW<int32_t> const& __cordl_internal_get_MaxVersions() const;
 
-  constexpr int32_t& __cordl_internal_get_MaxVersions();
+  constexpr ::ArrayW<int32_t>& __cordl_internal_get_MaxVersions();
 
   constexpr ::ArrayW<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceReaderData>> const& __cordl_internal_get_readerData() const;
 
@@ -112,9 +123,9 @@ public:
 
   constexpr ::ArrayW<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData>>& __cordl_internal_get_versionedData();
 
-  constexpr void __cordl_internal_set_MaxReaders(int32_t value);
+  constexpr void __cordl_internal_set_MaxReaders(::ArrayW<int32_t> value);
 
-  constexpr void __cordl_internal_set_MaxVersions(int32_t value);
+  constexpr void __cordl_internal_set_MaxVersions(::ArrayW<int32_t> value);
 
   constexpr void __cordl_internal_set_readerData(::ArrayW<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceReaderData>> value);
 
@@ -125,10 +136,10 @@ public:
 
   constexpr void __cordl_internal_set_versionedData(::ArrayW<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData>> value);
 
-  /// @brief Method .ctor, addr 0x67fd468, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2bbfc, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x67fbb74, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6c28124, size 0x1a4, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData> get_Item(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h);
 
 protected:
@@ -146,7 +157,7 @@ public:
   ResourcesData(ResourcesData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9420 };
 
   /// @brief Field unversionedData, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData>> ___unversionedData;
@@ -157,13 +168,13 @@ public:
   /// @brief Field readerData, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceReaderData>> ___readerData;
 
-  /// @brief Field MaxVersions, offset: 0x28, size: 0x4, def value: None
-  int32_t ___MaxVersions;
+  /// @brief Field MaxVersions, offset: 0x28, size: 0x8, def value: None
+  ::ArrayW<int32_t> ___MaxVersions;
 
-  /// @brief Field MaxReaders, offset: 0x2c, size: 0x4, def value: None
-  int32_t ___MaxReaders;
+  /// @brief Field MaxReaders, offset: 0x30, size: 0x8, def value: None
+  ::ArrayW<int32_t> ___MaxReaders;
 
-  /// @brief Field resourceNames, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field resourceNames, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::Name>*> ___resourceNames;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -177,10 +188,10 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRender
 
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData, ___MaxVersions) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData, ___MaxReaders) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData, ___MaxReaders) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData, ___resourceNames) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData, ___resourceNames) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData) == 0x38, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData) == 0x40, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler

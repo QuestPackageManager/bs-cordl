@@ -84,30 +84,30 @@ public:
   /// @brief Field _wasFirst, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get__wasFirst, put = __cordl_internal_set__wasFirst)) bool _wasFirst;
 
-  /// @brief Method ChangeColor, addr 0x59e3a68, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ChangeColor, addr 0x5dfe924, size 0x9c, virtual false, abstract: false, final false
   inline void ChangeColor(::UnityEngine::Color toColor, float_t duration);
 
-  /// @brief Method HandleFirstPlayerDidChange, addr 0x59e3ea4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HandleFirstPlayerDidChange, addr 0x5dfec7c, size 0xb4, virtual false, abstract: false, final false
   inline void HandleFirstPlayerDidChange(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer* obj);
 
-  /// @brief Method HandlePlayerFailed, addr 0x59e3da4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerFailed, addr 0x5dfec64, size 0x18, virtual false, abstract: false, final false
   inline void HandlePlayerFailed();
 
   static inline ::GlobalNamespace::MultiplayerPositionDisplay* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59e3980, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dfe838, size 0xec, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59e3848, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5dfe71c, size 0x11c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x59e3b04, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5dfe9c0, size 0x4c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateColors, addr 0x59e3b50, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method UpdateColors, addr 0x5dfea0c, size 0xb8, virtual false, abstract: false, final false
   inline void UpdateColors();
 
-  /// @brief Method UpdatePosition, addr 0x59e3c08, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method UpdatePosition, addr 0x5dfeac4, size 0x1a0, virtual false, abstract: false, final false
   inline void UpdatePosition();
 
   constexpr float_t const& __cordl_internal_get__colorAnimationStartDuration() const;
@@ -206,7 +206,7 @@ public:
 
   constexpr void __cordl_internal_set__wasFirst(bool value);
 
-  /// @brief Method .ctor, addr 0x59e3f54, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dfed30, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -224,7 +224,7 @@ public:
   MultiplayerPositionDisplay(MultiplayerPositionDisplay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6177 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6297 };
 
   /// [SerializeField]
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None

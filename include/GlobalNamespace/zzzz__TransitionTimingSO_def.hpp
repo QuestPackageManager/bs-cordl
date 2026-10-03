@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method .ctor, addr 0x6446b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x686d870, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationCurve, addr 0x6446b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationCurve, addr 0x686d868, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationCurve* get_animationCurve();
 
-  /// @brief Method get_easeDuration, addr 0x6446b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeDuration, addr 0x686d860, size 0x8, virtual false, abstract: false, final false
   inline float_t get_easeDuration();
 
-  /// @brief Method get_easeType, addr 0x6446b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x686d858, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
 protected:
@@ -89,7 +89,7 @@ public:
   TransitionTimingSO(TransitionTimingSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23103 };
 
   /// [SerializeField]
   /// @brief Field _easeType, offset: 0x18, size: 0x4, def value: None

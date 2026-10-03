@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::WaitWhile::*)()>(&::UnityEngine::WaitWhile::get_keepWaiting)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6aec0fc;
+  constexpr static std::size_t addrs = 0x6f46fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::WaitWhile*>(), { ::i2c::class_of<::UnityEngine::WaitWhile*>(), 7 }));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::WaitWhile::*)(::System::Func_1<bool>*)>(&::UnityEngine::WaitWhile::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6aec1bc;
+  constexpr static std::size_t addrs = 0x6f47084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::WaitWhile::*)()>(&::UnityEngine::WaitWhile::GetTime)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6aec1cc;
+  constexpr static std::size_t addrs = 0x6f47094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::WaitWhile*>(), { "GetTime", {}, {} })));

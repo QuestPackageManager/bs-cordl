@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::*)(::StringW, ::StringW, bool)>(
     &::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63ecc6c;
+  constexpr static std::size_t addrs = 0x6814f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::*)()>(
     &::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::get_SerializerBaseTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ecc78;
+  constexpr static std::size_t addrs = 0x6814f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::*)()>(
     &::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::get_TypeId)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x63ecc80;
+  constexpr static std::size_t addrs = 0x6814f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*>(),

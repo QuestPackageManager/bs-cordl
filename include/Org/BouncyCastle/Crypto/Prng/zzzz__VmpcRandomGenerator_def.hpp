@@ -36,18 +36,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept;
 
-  /// @brief Method AddSeedMaterial, addr 0x3420c98, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0x36a9f34, size 0xc4, virtual true, abstract: false, final false
   inline void AddSeedMaterial(::ArrayW<uint8_t> seed);
 
-  /// @brief Method AddSeedMaterial, addr 0x3420d5c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0x36a9ff8, size 0x2c, virtual true, abstract: false, final false
   inline void AddSeedMaterial(int64_t seed);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator* New_ctor();
 
-  /// @brief Method NextBytes, addr 0x3420d88, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x36aa024, size 0x20, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t> bytes);
 
-  /// @brief Method NextBytes, addr 0x3420da8, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x36aa044, size 0x1f8, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t> bytes, int32_t start, int32_t len);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_P() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_s(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x3420c10, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a9eac, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"

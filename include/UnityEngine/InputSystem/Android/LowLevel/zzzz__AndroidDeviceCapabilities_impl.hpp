@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities___c::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65ace88;
+  constexpr static std::size_t addrs = 0x69d8d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities___c::*)(
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis)>(&::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities___c::_ToString_b__8_0)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x65ace8c;
+  constexpr static std::size_t addrs = 0x69d8d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities::ToJson)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x65aca58;
+  constexpr static std::size_t addrs = 0x69d88e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities (*)(::StringW)>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities::FromJson)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x65ac87c;
+  constexpr static std::size_t addrs = 0x69d8704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities::ToString)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x65acac4;
+  constexpr static std::size_t addrs = 0x69d894c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities>(),

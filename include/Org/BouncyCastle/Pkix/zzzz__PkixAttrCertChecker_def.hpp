@@ -43,7 +43,7 @@ public:
 
   static inline ::Org::BouncyCastle::Pkix::PkixAttrCertChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35bc764, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3845a00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

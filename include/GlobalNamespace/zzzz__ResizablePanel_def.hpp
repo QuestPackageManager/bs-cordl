@@ -43,13 +43,13 @@ public:
 
   static inline ::GlobalNamespace::ResizablePanel* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5873798, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5c8997c, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Resize, addr 0x5873824, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x5c89a08, size 0x220, virtual false, abstract: false, final false
   inline void Resize(::UnityEngine::Vector2 size, float_t duration);
 
-  /// @brief Method SetSize, addr 0x5873a44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetSize, addr 0x5c89c28, size 0x18, virtual false, abstract: false, final false
   inline void SetSize(::UnityEngine::Vector2 size);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x5873a5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c89c40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,7 +88,7 @@ public:
   ResizablePanel(ResizablePanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19563 };
 
   /// [SerializeField]
   /// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None

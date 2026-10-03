@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::BigInteger_ModulusRing::*)(::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger_ModulusRing::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5aaa3b0;
+  constexpr static std::size_t addrs = 0x5edd60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::BigInteger_ModulusRing::*)(::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger_ModulusRing::BarrettReduction)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x5aaa6a8;
+  constexpr static std::size_t addrs = 0x5edd950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::BigInteger_ModulusRing::*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger_ModulusRing::Multiply)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5aaacb4;
+  constexpr static std::size_t addrs = 0x5eddf5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::BigInteger_ModulusRing::*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger_ModulusRing::Difference)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5aaae34;
+  constexpr static std::size_t addrs = 0x5ede0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::BigInteger_ModulusRing::*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger_ModulusRing::Pow)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5aaa47c;
+  constexpr static std::size_t addrs = 0x5edd6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::BigInteger_ModulusRing::*)(uint32_t, ::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger_ModulusRing::Pow)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5aaafa4;
+  constexpr static std::size_t addrs = 0x5ede24c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger_Kernel::Subtract)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5aa8a4c;
+  constexpr static std::size_t addrs = 0x5edbb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger_Kernel::MinusEq)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5aaaa14;
+  constexpr static std::size_t addrs = 0x5eddcbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger_Kernel::PlusEq)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5aaab14;
+  constexpr static std::size_t addrs = 0x5edddbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger_Sign (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger_Kernel::Compare)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5aa8908;
+  constexpr static std::size_t addrs = 0x5edb9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger_Kernel::SingleByteDivideInPlace)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5aa9c98;
+  constexpr static std::size_t addrs = 0x5edcecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger_Kernel::DwordMod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5aa8bfc;
+  constexpr static std::size_t addrs = 0x5edbcd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Mono::Math::BigInteger*> (*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger_Kernel::DwordDivMod)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5aab018;
+  constexpr static std::size_t addrs = 0x5ede2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Mono::Math::BigInteger*> (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger_Kernel::multiByteDivide)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x5aa8c64;
+  constexpr static std::size_t addrs = 0x5edbd40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, int32_t)>(&::Mono::Math::BigInteger_Kernel::LeftShift)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5aa91dc;
+  constexpr static std::size_t addrs = 0x5edc38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -290,12 +290,26 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, int32_t)>(&::Mono::Math::BigInteger_Kernel::RightShift)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5aa93c0;
+  constexpr static std::size_t addrs = 0x5edc570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger_Kernel*>(), { "RightShift", {}, { ::i2c::type_of<::Mono::Math::BigInteger*>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Math::BigInteger_Kernel.MultiplyByDword
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger_Kernel::MultiplyByDword)> {
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5edc294;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger_Kernel*>(), { "MultiplyByDword", {}, { ::i2c::type_of<::Mono::Math::BigInteger*>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
@@ -305,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint32_t>, uint32_t, uint32_t, ::ArrayW<uint32_t>, uint32_t, uint32_t, ::ArrayW<uint32_t>, uint32_t)>(
     &::Mono::Math::BigInteger_Kernel::Multiply)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5aa90f4;
+  constexpr static std::size_t addrs = 0x5edc1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -323,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint32_t>, int32_t, int32_t, ::ArrayW<uint32_t>, int32_t, int32_t, ::ArrayW<uint32_t>, int32_t, int32_t)>(
     &::Mono::Math::BigInteger_Kernel::MultiplyMod2p32pmod)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5aaa904;
+  constexpr static std::size_t addrs = 0x5eddbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger_Kernel::modInverse)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5aab1ac;
+  constexpr static std::size_t addrs = 0x5ede454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -355,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger_Kernel::modInverse)> {
   constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x5aa9e90;
+  constexpr static std::size_t addrs = 0x5edd0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -421,6 +435,12 @@ inline ::Mono::Math::BigInteger* Mono::Math::BigInteger_Kernel::RightShift(::Mon
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger_Kernel*>(), { "RightShift", {}, { ::i2c::type_of<::Mono::Math::BigInteger*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*>(nullptr, ___internal_method, bi, n);
 }
+inline ::Mono::Math::BigInteger* Mono::Math::BigInteger_Kernel::MultiplyByDword(::Mono::Math::BigInteger* n, uint32_t f) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger_Kernel*>(), { "MultiplyByDword", {}, { ::i2c::type_of<::Mono::Math::BigInteger*>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*>(nullptr, ___internal_method, n, f);
+}
 inline void Mono::Math::BigInteger_Kernel::Multiply(::ArrayW<uint32_t> x, uint32_t xOffset, uint32_t xLen, ::ArrayW<uint32_t> y, uint32_t yOffset, uint32_t yLen, ::ArrayW<uint32_t> d,
                                                     uint32_t dOffset) {
   static auto* ___internal_method =
@@ -460,7 +480,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::BigInteger::*)(::Mono::Math::BigInteger_Sign, uint32_t)>(&::Mono::Math::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5aa85d0;
+  constexpr static std::size_t addrs = 0x5edb718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -473,7 +493,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::BigInteger::*)(::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5aa863c;
+  constexpr static std::size_t addrs = 0x5edb784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -486,7 +506,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::BigInteger::*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5aa86f0;
+  constexpr static std::size_t addrs = 0x5edb838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -499,7 +519,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::BigInteger::*)(::ArrayW<uint8_t>)>(&::Mono::Math::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x5aa42c0;
+  constexpr static std::size_t addrs = 0x5ed6c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
@@ -511,7 +531,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::BigInteger::*)(uint32_t)>(&::Mono::Math::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5aa881c;
+  constexpr static std::size_t addrs = 0x5edb964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { ".ctor", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -523,7 +543,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(uint32_t)>(&::Mono::Math::BigInteger::op_Implicit___Mono__Math__BigInteger_)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5aa39fc;
+  constexpr static std::size_t addrs = 0x5ed6374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "op_Implicit", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -535,7 +555,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(int32_t)>(&::Mono::Math::BigInteger::op_Implicit___Mono__Math__BigInteger_)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5aa3da4;
+  constexpr static std::size_t addrs = 0x5ed671c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "op_Implicit", {}, { ::i2c::type_of<int32_t>() } })));
@@ -547,7 +567,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_Subtraction)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5aa3e4c;
+  constexpr static std::size_t addrs = 0x5ed67c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -561,7 +581,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger::op_Modulus)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aa3ab8;
+  constexpr static std::size_t addrs = 0x5ed6430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -574,7 +594,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_Modulus)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5aa3f94;
+  constexpr static std::size_t addrs = 0x5ed690c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -588,7 +608,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_Division)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5aa90d4;
+  constexpr static std::size_t addrs = 0x5eda74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -602,7 +622,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_Multiply)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5aa3b78;
+  constexpr static std::size_t addrs = 0x5ed64f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -611,12 +631,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger*
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Mono::Math::BigInteger.op_Multiply
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, int32_t)>(&::Mono::Math::BigInteger::op_Multiply)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x5eda610;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "op_Multiply", {}, { ::i2c::type_of<::Mono::Math::BigInteger*>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Mono::Math::BigInteger.op_LeftShift
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, int32_t)>(&::Mono::Math::BigInteger::op_LeftShift)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aa91d8;
+  constexpr static std::size_t addrs = 0x5edc388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -629,7 +662,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, int32_t)>(&::Mono::Math::BigInteger::op_RightShift)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aa93bc;
+  constexpr static std::size_t addrs = 0x5edc56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -642,7 +675,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RandomNumberGenerator* (*)()>(&::Mono::Math::BigInteger::get_Rng)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5aa9540;
+  constexpr static std::size_t addrs = 0x5edc6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "get_Rng", {}, {} })));
@@ -654,7 +687,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(int32_t, ::System::Security::Cryptography::RandomNumberGenerator*)>(&::Mono::Math::BigInteger::GenerateRandom)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5aa95ec;
+  constexpr static std::size_t addrs = 0x5edc79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -668,10 +701,35 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(int32_t)>(&::Mono::Math::BigInteger::GenerateRandom)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5aa9754;
+  constexpr static std::size_t addrs = 0x5eda268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "GenerateRandom", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Math::BigInteger.Randomize
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::BigInteger::*)(::System::Security::Cryptography::RandomNumberGenerator*)>(&::Mono::Math::BigInteger::Randomize)> {
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x5edc904;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "Randomize", {}, { ::i2c::type_of<::System::Security::Cryptography::RandomNumberGenerator*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Math::BigInteger.Randomize
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::Randomize)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5eda2c8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "Randomize", {}, {} })));
     return ___internal_method;
   }
 };
@@ -680,7 +738,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::BitCount)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5aa3d24;
+  constexpr static std::size_t addrs = 0x5ed669c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "BitCount", {}, {} })));
@@ -690,9 +748,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Math::Bi
 //  Writing Method size for method: ::Mono::Math::BigInteger.TestBit
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Math::BigInteger::*)(uint32_t)>(&::Mono::Math::BigInteger::TestBit)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5eda710;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "TestBit", {}, { ::i2c::type_of<uint32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Math::BigInteger.TestBit
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Math::BigInteger::*)(int32_t)>(&::Mono::Math::BigInteger::TestBit)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5aa97b4;
+  constexpr static std::size_t addrs = 0x5edca88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "TestBit", {}, { ::i2c::type_of<int32_t>() } })));
@@ -704,7 +774,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::BigInteger::*)(uint32_t)>(&::Mono::Math::BigInteger::SetBit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aa9848;
+  constexpr static std::size_t addrs = 0x5edcb1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "SetBit", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -716,7 +786,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::BigInteger::*)(uint32_t, bool)>(&::Mono::Math::BigInteger::SetBit)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5aa9850;
+  constexpr static std::size_t addrs = 0x5edcb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -729,7 +799,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::LowestSetBit)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5aa98c4;
+  constexpr static std::size_t addrs = 0x5edcb98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "LowestSetBit", {}, {} })));
@@ -741,7 +811,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::GetBytes)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5aa4988;
+  constexpr static std::size_t addrs = 0x5ed7300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "GetBytes", {}, {} })));
@@ -753,7 +823,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger::op_Equality)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5aa889c;
+  constexpr static std::size_t addrs = 0x5eda328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -766,7 +836,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger::op_Inequality)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5aa9944;
+  constexpr static std::size_t addrs = 0x5edab2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -779,7 +849,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_Equality)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5aa40f0;
+  constexpr static std::size_t addrs = 0x5ed6a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -793,7 +863,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_Inequality)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5aa3abc;
+  constexpr static std::size_t addrs = 0x5ed6434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -807,7 +877,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_GreaterThan)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5aa99b0;
+  constexpr static std::size_t addrs = 0x5edcc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -821,7 +891,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_LessThan)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5aa3d90;
+  constexpr static std::size_t addrs = 0x5ed6708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -835,7 +905,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5aa99c8;
+  constexpr static std::size_t addrs = 0x5eda394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -849,7 +919,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_LessThanOrEqual)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5aa99e0;
+  constexpr static std::size_t addrs = 0x5eda76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -863,7 +933,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Math::BigInteger::*)(uint32_t)>(&::Mono::Math::BigInteger::ToString)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5aa99f8;
+  constexpr static std::size_t addrs = 0x5edcc30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "ToString", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -874,8 +944,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Math::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Math::BigInteger::*)(uint32_t, ::StringW)>(&::Mono::Math::BigInteger::ToString)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x5aa9a54;
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x5edcc8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -888,7 +958,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::Normalize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5aa87c4;
+  constexpr static std::size_t addrs = 0x5edb90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "Normalize", {}, {} })));
@@ -900,7 +970,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::Clear)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5aa4608;
+  constexpr static std::size_t addrs = 0x5ed6f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "Clear", {}, {} })));
@@ -912,7 +982,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::GetHashCode)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5aa9d0c;
+  constexpr static std::size_t addrs = 0x5edcf68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { ::i2c::class_of<::Mono::Math::BigInteger*>(), 2 }));
@@ -924,7 +994,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aa9d60;
+  constexpr static std::size_t addrs = 0x5edcfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { ::i2c::class_of<::Mono::Math::BigInteger*>(), 3 }));
@@ -936,7 +1006,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Math::BigInteger::*)(::System::Object*)>(&::Mono::Math::BigInteger::Equals)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5aa9d68;
+  constexpr static std::size_t addrs = 0x5edcfc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { ::i2c::class_of<::Mono::Math::BigInteger*>(), 0 }));
@@ -948,7 +1018,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::BigInteger::*)(::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::ModInverse)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aa3f90;
+  constexpr static std::size_t addrs = 0x5ed6908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -962,7 +1032,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::BigInteger::*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger::ModPow)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5aa44d0;
+  constexpr static std::size_t addrs = 0x5ed6e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -971,12 +1041,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger*
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Mono::Math::BigInteger.IsProbablePrime
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::IsProbablePrime)> {
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x5eda464;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "IsProbablePrime", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Mono::Math::BigInteger.GeneratePseudoPrime
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (*)(int32_t)>(&::Mono::Math::BigInteger::GeneratePseudoPrime)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5aa3a58;
+  constexpr static std::size_t addrs = 0x5ed63d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -989,7 +1071,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::Incr2)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5aaa588;
+  constexpr static std::size_t addrs = 0x5edd830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "Incr2", {}, {} })));
@@ -1093,6 +1175,11 @@ inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::op_Multiply(::Mono::Mat
       (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "op_Multiply", {}, { ::i2c::type_of<::Mono::Math::BigInteger*>(), ::i2c::type_of<::Mono::Math::BigInteger*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*>(nullptr, ___internal_method, bi1, bi2);
 }
+inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::op_Multiply(::Mono::Math::BigInteger* bi, int32_t i) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "op_Multiply", {}, { ::i2c::type_of<::Mono::Math::BigInteger*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*>(nullptr, ___internal_method, bi, i);
+}
 inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::op_LeftShift(::Mono::Math::BigInteger* bi1, int32_t shiftVal) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "op_LeftShift", {}, { ::i2c::type_of<::Mono::Math::BigInteger*>(), ::i2c::type_of<int32_t>() } })));
@@ -1117,9 +1204,22 @@ inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::GenerateRandom(int32_t 
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "GenerateRandom", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*>(nullptr, ___internal_method, bits);
 }
+inline void Mono::Math::BigInteger::Randomize(::System::Security::Cryptography::RandomNumberGenerator* rng) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "Randomize", {}, { ::i2c::type_of<::System::Security::Cryptography::RandomNumberGenerator*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rng);
+}
+inline void Mono::Math::BigInteger::Randomize() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "Randomize", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
 inline int32_t Mono::Math::BigInteger::BitCount() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "BitCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline bool Mono::Math::BigInteger::TestBit(uint32_t bitNum) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "TestBit", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, bitNum);
 }
 inline bool Mono::Math::BigInteger::TestBit(int32_t bitNum) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "TestBit", {}, { ::i2c::type_of<int32_t>() } })));
@@ -1228,6 +1328,10 @@ inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::ModPow(::Mono::Math::Bi
                    (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "ModPow", {}, { ::i2c::type_of<::Mono::Math::BigInteger*>(), ::i2c::type_of<::Mono::Math::BigInteger*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*>(this, ___internal_method, exp, n);
 }
+inline bool Mono::Math::BigInteger::IsProbablePrime() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "IsProbablePrime", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
 inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::GeneratePseudoPrime(int32_t bits) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "GeneratePseudoPrime", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*>(nullptr, ___internal_method, bits);
@@ -1236,21 +1340,18 @@ inline void Mono::Math::BigInteger::Incr2() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::BigInteger*>(), { "Incr2", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-/// @brief [CLSCompliant(false)]
 inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::New_ctor(::Mono::Math::BigInteger_Sign sign, uint32_t len) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Mono::Math::BigInteger*>(sign, len));
 }
 inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::New_ctor(::Mono::Math::BigInteger* bi) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Mono::Math::BigInteger*>(bi));
 }
-/// @brief [CLSCompliant(false)]
 inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::New_ctor(::Mono::Math::BigInteger* bi, uint32_t len) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Mono::Math::BigInteger*>(bi, len));
 }
 inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::New_ctor(::ArrayW<uint8_t> inData) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Mono::Math::BigInteger*>(inData));
 }
-/// @brief [CLSCompliant(false)]
 inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::New_ctor(uint32_t ui) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Mono::Math::BigInteger*>(ui));
 }

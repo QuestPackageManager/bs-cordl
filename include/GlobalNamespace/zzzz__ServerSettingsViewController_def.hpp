@@ -31,28 +31,22 @@ public:
   /// @brief Field _enabled, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__enabled, put = __cordl_internal_set__enabled)) ::UnityW<::UnityEngine::UI::Toggle> _enabled;
 
-  /// @brief Field _forceGameLift, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__forceGameLift, put = __cordl_internal_set__forceGameLift)) ::UnityW<::UnityEngine::UI::Toggle> _forceGameLift;
-
   /// @brief Field _hostName, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__hostName, put = __cordl_internal_set__hostName)) ::UnityW<::HMUI::InputFieldView> _hostName;
 
-  /// @brief Field _settingsManager, offset 0x90, size 0x8
+  /// @brief Field _settingsManager, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method DidActivate, addr 0x5a221c8, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5e3d634, size 0x1b8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5a22428, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5e3d7ec, size 0x48, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleEnabledChanged, addr 0x5a2248c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleEnabledChanged, addr 0x5e3d834, size 0x1c, virtual false, abstract: false, final false
   inline void HandleEnabledChanged(bool newValue);
 
-  /// @brief Method HandleForceGameliftChanged, addr 0x5a224d0, size 0x1c, virtual false, abstract: false, final false
-  inline void HandleForceGameliftChanged(bool newValue);
-
-  /// @brief Method HandleHostnameChanged, addr 0x5a224a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleHostnameChanged, addr 0x5e3d850, size 0x28, virtual false, abstract: false, final false
   inline void HandleHostnameChanged(::HMUI::InputFieldView* inputView);
 
   static inline ::GlobalNamespace::ServerSettingsViewController* New_ctor();
@@ -60,10 +54,6 @@ public:
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__enabled() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__enabled();
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__forceGameLift() const;
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__forceGameLift();
 
   constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get__hostName() const;
 
@@ -75,13 +65,11 @@ public:
 
   constexpr void __cordl_internal_set__enabled(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr void __cordl_internal_set__forceGameLift(::UnityW<::UnityEngine::UI::Toggle> value);
-
   constexpr void __cordl_internal_set__hostName(::UnityW<::HMUI::InputFieldView> value);
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x5a224ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e3d878, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +87,7 @@ public:
   ServerSettingsViewController(ServerSettingsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6592 };
 
   /// [SerializeField]
   /// @brief Field _enabled, offset: 0x78, size: 0x8, def value: None
@@ -109,12 +97,8 @@ public:
   /// @brief Field _hostName, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::InputFieldView> ____hostName;
 
-  /// [SerializeField]
-  /// @brief Field _forceGameLift, offset: 0x88, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Toggle> ____forceGameLift;
-
   /// [Inject]
-  /// @brief Field _settingsManager, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _settingsManager, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -124,10 +108,8 @@ static_assert(offsetof(::GlobalNamespace::ServerSettingsViewController, ____enab
 
 static_assert(offsetof(::GlobalNamespace::ServerSettingsViewController, ____hostName) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ServerSettingsViewController, ____forceGameLift) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ServerSettingsViewController, ____settingsManager) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ServerSettingsViewController, ____settingsManager) == 0x90, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::ServerSettingsViewController) == 0x98, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::ServerSettingsViewController) == 0x90, "Size mismatch!");
 
 } // namespace GlobalNamespace

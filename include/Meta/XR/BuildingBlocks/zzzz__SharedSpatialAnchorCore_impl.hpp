@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__InitSpatialAnchor_d__16::*)()>(
     &::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__InitSpatialAnchor_d__16::MoveNext)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x5a377f0;
+  constexpr static std::size_t addrs = 0x5e4f090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__InitSpatialAnchor_d__16::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__InitSpatialAnchor_d__16::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5a37c90;
+  constexpr static std::size_t addrs = 0x5e4f530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__InitSpatialAnchor_d__16>(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__InstantiateSpatialAnchor_d__15::*)()>(
     &::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__InstantiateSpatialAnchor_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x5a37cfc;
+  constexpr static std::size_t addrs = 0x5e4f59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__InstantiateSpatialAnchor_d__15::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__InstantiateSpatialAnchor_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a37ffc;
+  constexpr static std::size_t addrs = 0x5e4f89c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__InstantiateSpatialAnchor_d__15>(),
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadAndInstantiateAnchors_d__17::*)()>(
     &::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadAndInstantiateAnchors_d__17::MoveNext)> {
   constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x5a38004;
+  constexpr static std::size_t addrs = 0x5e4f8a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadAndInstantiateAnchors_d__17::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadAndInstantiateAnchors_d__17::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a3849c;
+  constexpr static std::size_t addrs = 0x5e4fd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadAndInstantiateAnchors_d__17>(),
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadAndInstantiateAnchorsFromGroup_d__18::*)()>(
     &::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadAndInstantiateAnchorsFromGroup_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x5a384a4;
+  constexpr static std::size_t addrs = 0x5e4fd44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadAndInstantiateAnchorsFromGroup_d__18::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadAndInstantiateAnchorsFromGroup_d__18::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a38880;
+  constexpr static std::size_t addrs = 0x5e50120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadSharedSpatialAnchorsRoutine_d__19::*)()>(
     &::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadSharedSpatialAnchorsRoutine_d__19::MoveNext)> {
   constexpr static std::size_t size = 0xa24;
-  constexpr static std::size_t addrs = 0x5a38888;
+  constexpr static std::size_t addrs = 0x5e50128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadSharedSpatialAnchorsRoutine_d__19::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadSharedSpatialAnchorsRoutine_d__19::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a392ac;
+  constexpr static std::size_t addrs = 0x5e50b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -387,7 +387,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Events::UnityEvent_2<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* (
         ::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::*)()>(&::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::get_OnSpatialAnchorsShareCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a368f4;
+  constexpr static std::size_t addrs = 0x5e4e194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -402,7 +402,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Buildin
     ::UnityEngine::Events::UnityEvent_2<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>*)>(
     &::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::set_OnSpatialAnchorsShareCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a368fc;
+  constexpr static std::size_t addrs = 0x5e4e19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -421,7 +421,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Events::UnityEvent_2<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRAnchor_ShareResult>* (
         ::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::*)()>(&::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::get_OnSpatialAnchorsShareToGroupCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a36904;
+  constexpr static std::size_t addrs = 0x5e4e1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -436,7 +436,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Buildin
     ::UnityEngine::Events::UnityEvent_2<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRAnchor_ShareResult>*)>(
     &::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::set_OnSpatialAnchorsShareToGroupCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a3690c;
+  constexpr static std::size_t addrs = 0x5e4e1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -455,7 +455,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Events::UnityEvent_2<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* (
         ::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::*)()>(&::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::get_OnSharedSpatialAnchorsLoadCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a36914;
+  constexpr static std::size_t addrs = 0x5e4e1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -470,7 +470,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Buildin
     ::UnityEngine::Events::UnityEvent_2<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>*)>(
     &::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::set_OnSharedSpatialAnchorsLoadCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a3691c;
+  constexpr static std::size_t addrs = 0x5e4e1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -487,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::*)()>(&::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::Start)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5a36924;
+  constexpr static std::size_t addrs = 0x5e4e1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore*>(), { "Start", {}, {} })));
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::InstantiateSpatialAnchor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5a36ac8;
+  constexpr static std::size_t addrs = 0x5e4e368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::*)(::GlobalNamespace::OVRSpatialAnchor*)>(
     &::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::InitSpatialAnchor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5a36bc8;
+  constexpr static std::size_t addrs = 0x5e4e468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore*>(),
@@ -531,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::*)(
     ::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::Guid>*)>(&::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::LoadAndInstantiateAnchors)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5a36c8c;
+  constexpr static std::size_t addrs = 0x5e4e52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore*>(),
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::*)(::UnityEngine::GameObject*, ::System::Guid)>(
     &::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::LoadAndInstantiateAnchorsFromGroup)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5a36d48;
+  constexpr static std::size_t addrs = 0x5e4e5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -562,7 +562,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Buildin
     ::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>)>(
     &::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::LoadSharedSpatialAnchorsRoutine)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5a36e0c;
+  constexpr static std::size_t addrs = 0x5e4e6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -582,7 +582,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Buildin
     ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>*)>(
     &::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::ShareSpatialAnchors)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5a36ed0;
+  constexpr static std::size_t addrs = 0x5e4e770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore*>(),
@@ -599,7 +599,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::*)(
     ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::System::Guid)>(&::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::ShareSpatialAnchors)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5a37054;
+  constexpr static std::size_t addrs = 0x5e4e8f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -617,7 +617,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Buildin
     ::GlobalNamespace::OVRSpatialAnchor_OperationResult, ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*)>(
     &::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::OnShareCompleted)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5a371c8;
+  constexpr static std::size_t addrs = 0x5e4ea68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -636,7 +636,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Buildin
     ::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>, ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*)>(
     &::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::OnShareToGroupCompleted)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x5a373b8;
+  constexpr static std::size_t addrs = 0x5e4ec58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -653,7 +653,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::*)()>(&::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::OnDestroy)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5a37644;
+  constexpr static std::size_t addrs = 0x5e4eee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore*>(), { "OnDestroy", {}, {} })));
@@ -665,7 +665,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::*)()>(&::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a377e8;
+  constexpr static std::size_t addrs = 0x5e4f088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore*>(), { ".ctor", {}, {} })));

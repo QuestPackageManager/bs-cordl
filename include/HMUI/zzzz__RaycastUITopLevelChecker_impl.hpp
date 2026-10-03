@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RaycastUITopLevelChecker::*)()>(&::HMUI::RaycastUITopLevelChecker::Awake)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x587c3b4;
+  constexpr static std::size_t addrs = 0x5c9275c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RaycastUITopLevelChecker*>(), { "Awake", {}, {} })));
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RaycastUITo
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::RaycastUITopLevelChecker::*)()>(&::HMUI::RaycastUITopLevelChecker::get_isOnTop)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x587c42c;
+  constexpr static std::size_t size = 0x254;
+  constexpr static std::size_t addrs = 0x5c927d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RaycastUITopLevelChecker*>(), { "get_isOnTop", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RaycastUITopLevelChecker::*)()>(&::HMUI::RaycastUITopLevelChecker::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x587c648;
+  constexpr static std::size_t addrs = 0x5c92a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RaycastUITopLevelChecker*>(), { ".ctor", {}, {} })));

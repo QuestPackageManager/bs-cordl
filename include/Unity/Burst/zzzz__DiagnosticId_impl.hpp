@@ -101,6 +101,7 @@ constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::ERR_Unsupport
 constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::ERR_MethodNotSupported{ static_cast<int32_t>(0x516) };
 constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::ERR_VectorsLoadFieldIsAddress{ static_cast<int32_t>(0x517) };
 constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::ERR_ConstantExpressionRequired{ static_cast<int32_t>(0x518) };
+constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::WRN_HWInstrinsicsWithFPDeterminism{ static_cast<int32_t>(0x519) };
 constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::ERR_PointerArgumentsUnexpectedAliasing{ static_cast<int32_t>(0x51e) };
 constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::ERR_LoopIntrinsicMustBeCalledInsideLoop{ static_cast<int32_t>(0x528) };
 constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::ERR_LoopUnexpectedAutoVectorization{ static_cast<int32_t>(0x529) };

@@ -67,10 +67,10 @@ public:
       put =
           __cordl_internal_set_didFinishEvent)) ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* didFinishEvent;
 
-  /// @brief Method Finish, addr 0x5975bfc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x5d9034c, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method Init, addr 0x5975c24, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5d90374, size 0x4c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
                    ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
@@ -85,15 +85,15 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x5975c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d903c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didFinishEvent, addr 0x5975a7c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5d901cc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didFinishEvent, addr 0x5975b3c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5d9028c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value);
 
 protected:
@@ -111,7 +111,7 @@ public:
   BeatmapEditorStandardLevelScenesTransitionSetupData(BeatmapEditorStandardLevelScenesTransitionSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7151 };
 
   /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x38, size: 0x8, def value: None

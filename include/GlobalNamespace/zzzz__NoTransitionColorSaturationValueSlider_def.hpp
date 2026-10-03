@@ -55,24 +55,24 @@ public:
                       put = __cordl_internal_set_colorSaturationOrValueDidChangeEvent)) ::System::Action_3<::UnityW<::GlobalNamespace::NoTransitionColorSaturationValueSlider>, ::UnityEngine::Vector2,
                                                                                                            ::GlobalNamespace::ColorChangeUIEventType>* colorSaturationOrValueDidChangeEvent;
 
-  /// @brief Method Awake, addr 0x5a2e014, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e458cc, size 0x90, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNormalizedValueDidChange, addr 0x5a2e2c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleNormalizedValueDidChange, addr 0x5e45b80, size 0x28, virtual false, abstract: false, final false
   inline void HandleNormalizedValueDidChange(::HMUI::Slider2D* slider, ::UnityEngine::Vector2 normalizedValue);
 
   static inline ::GlobalNamespace::NoTransitionColorSaturationValueSlider* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5a2e0a4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5e4595c, size 0x84, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPointerUp, addr 0x5a2e2f0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x5e45ba8, size 0x44, virtual true, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method SetHue, addr 0x5a2e128, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetHue, addr 0x5e459e0, size 0x14, virtual false, abstract: false, final false
   inline void SetHue(float_t hue);
 
-  /// @brief Method UpdateVisuals, addr 0x5a2e13c, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method UpdateVisuals, addr 0x5e459f4, size 0x18c, virtual true, abstract: false, final false
   inline void UpdateVisuals();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__darkColor() const;
@@ -108,16 +108,16 @@ public:
   constexpr void __cordl_internal_set_colorSaturationOrValueDidChangeEvent(
       ::System::Action_3<::UnityW<::GlobalNamespace::NoTransitionColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method .ctor, addr 0x5a2e334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e45bec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_colorSaturationOrValueDidChangeEvent, addr 0x5a2de94, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_colorSaturationOrValueDidChangeEvent, addr 0x5e4574c, size 0xc0, virtual false, abstract: false, final false
   inline void add_colorSaturationOrValueDidChangeEvent(
       ::System::Action_3<::UnityW<::GlobalNamespace::NoTransitionColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_colorSaturationOrValueDidChangeEvent, addr 0x5a2df54, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_colorSaturationOrValueDidChangeEvent, addr 0x5e4580c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_colorSaturationOrValueDidChangeEvent(
       ::System::Action_3<::UnityW<::GlobalNamespace::NoTransitionColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
@@ -136,7 +136,7 @@ public:
   NoTransitionColorSaturationValueSlider(NoTransitionColorSaturationValueSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23177 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23930 };
 
   /// [SerializeField]
   /// @brief Field _hue, offset: 0x13c, size: 0x4, def value: None

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RandomNumberGenerator* (*)()>(&::Mono::Security::Cryptography::KeyBuilder::get_Rng)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5ab9fbc;
+  constexpr static std::size_t addrs = 0x5ed1ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::KeyBuilder*>(), { "get_Rng", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(int32_t)>(&::Mono::Security::Cryptography::KeyBuilder::Key)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5aba028;
+  constexpr static std::size_t addrs = 0x5ed1f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(int32_t)>(&::Mono::Security::Cryptography::KeyBuilder::IV)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5aba09c;
+  constexpr static std::size_t addrs = 0x5ed1f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

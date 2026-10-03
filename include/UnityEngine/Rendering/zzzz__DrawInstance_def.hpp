@@ -30,15 +30,15 @@ public:
   constexpr DrawInstance(::UnityEngine::Rendering::DrawKey key, int32_t instanceIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17644 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18159 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
-  /// @brief Field key, offset: 0x0, size: 0x38, def value: None
+  /// @brief Field key, offset: 0x0, size: 0x3c, def value: None
   ::UnityEngine::Rendering::DrawKey key;
 
-  /// @brief Field instanceIndex, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field instanceIndex, offset: 0x3c, size: 0x4, def value: None
   int32_t instanceIndex;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -46,8 +46,8 @@ public:
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::DrawInstance, key) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DrawInstance, instanceIndex) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DrawInstance, instanceIndex) == 0x3c, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DrawInstance) == 0x3c, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DrawInstance) == 0x40, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering

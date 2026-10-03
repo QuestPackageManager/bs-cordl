@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusDeeplinkManager::*)(::System::Action_1<::GlobalNamespace::Deeplink*>*)>(
     &::GlobalNamespace::OculusDeeplinkManager::add_didReceiveDeeplinkEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x370801c;
+  constexpr static std::size_t addrs = 0x3991384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusDeeplinkManager::*)(::System::Action_1<::GlobalNamespace::Deeplink*>*)>(
     &::GlobalNamespace::OculusDeeplinkManager::remove_didReceiveDeeplinkEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x37080dc;
+  constexpr static std::size_t addrs = 0x3991444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Deeplink* (::GlobalNamespace::OculusDeeplinkManager::*)()>(&::GlobalNamespace::OculusDeeplinkManager::get_currentDeeplink)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370819c;
+  constexpr static std::size_t addrs = 0x3991504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusDeeplinkManager*>(), { "get_currentDeeplink", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusDeeplinkManager::*)()>(&::GlobalNamespace::OculusDeeplinkManager::Init)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x37081a4;
+  constexpr static std::size_t addrs = 0x399150c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusDeeplinkManager*>(), { "Init", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusDeeplinkManager::*)()>(&::GlobalNamespace::OculusDeeplinkManager::OculusPlatformWasInitialized)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3708224;
+  constexpr static std::size_t addrs = 0x399158c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusDeeplinkManager*>(), { "OculusPlatformWasInitialized", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusDeeplinkManager::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceJoinIntent*>*)>(
     &::GlobalNamespace::OculusDeeplinkManager::SetJoinIntentReceivedNotificationCallback)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x370823c;
+  constexpr static std::size_t addrs = 0x39915a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusDeeplinkManager::*)(
     ::Oculus::Platform::Models::GroupPresenceJoinIntent*, ::Oculus::Platform::Models::LaunchDetails*)>(&::GlobalNamespace::OculusDeeplinkManager::UpdateDeeplinkMessage)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x3708354;
+  constexpr static std::size_t addrs = 0x39916bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OculusDeeplinkManager::*)(::GlobalNamespace::Deeplink*)>(
     &::GlobalNamespace::OculusDeeplinkManager::IsAtLeastOneFieldPopulated)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3708590;
+  constexpr static std::size_t addrs = 0x39918f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::OculusDeeplinkManager::Log)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x37082f8;
+  constexpr static std::size_t addrs = 0x3991660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusDeeplinkManager::*)()>(&::GlobalNamespace::OculusDeeplinkManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x37085fc;
+  constexpr static std::size_t addrs = 0x3991964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusDeeplinkManager*>(), { ".ctor", {}, {} })));

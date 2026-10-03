@@ -19,11 +19,17 @@ template <typename T> class IEnumerator_1;
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+template <typename T> class Comparison_1;
 }
 namespace UnityEngine::Rendering {
 template <typename T> class ListChangedEventHandler_1;
@@ -51,14 +57,17 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) T Item[];
 
-  /// @brief Field ItemAdded, offset 0x18, size 0x8
+  /// @brief Field ItemAdded, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_ItemAdded, put = __cordl_internal_set_ItemAdded)) ::UnityEngine::Rendering::ListChangedEventHandler_1<T>* ItemAdded;
 
-  /// @brief Field ItemRemoved, offset 0x20, size 0x8
+  /// @brief Field ItemRemoved, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_ItemRemoved, put = __cordl_internal_set_ItemRemoved)) ::UnityEngine::Rendering::ListChangedEventHandler_1<T>* ItemRemoved;
 
+  /// @brief Field m_Comparison, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Comparison, put = __cordl_internal_set_m_Comparison)) ::System::Comparison_1<T>* m_Comparison;
+
   /// @brief Field m_List, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List)) ::System::Collections::Generic::IList_1<T>* m_List;
+  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List)) ::System::Collections::Generic::List_1<T>* m_List;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
   constexpr operator ::System::Collections::Generic::ICollection_1<T>*() noexcept;
@@ -98,9 +107,9 @@ public:
 
   static inline ::UnityEngine::Rendering::ObservableList_1<T>* New_ctor();
 
-  static inline ::UnityEngine::Rendering::ObservableList_1<T>* New_ctor(int32_t capacity);
+  static inline ::UnityEngine::Rendering::ObservableList_1<T>* New_ctor(int32_t capacity, ::System::Comparison_1<T>* comparison);
 
-  static inline ::UnityEngine::Rendering::ObservableList_1<T>* New_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection);
+  static inline ::UnityEngine::Rendering::ObservableList_1<T>* New_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection, ::System::Comparison_1<T>* comparison);
 
   /// @brief Method OnEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnEvent(::UnityEngine::Rendering::ListChangedEventHandler_1<T>* e, int32_t index, T item);
@@ -114,6 +123,9 @@ public:
   /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void RemoveAt(int32_t index);
 
+  /// @brief Method Sort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Sort();
+
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
@@ -125,24 +137,30 @@ public:
 
   constexpr ::UnityEngine::Rendering::ListChangedEventHandler_1<T>*& __cordl_internal_get_ItemRemoved();
 
-  constexpr ::System::Collections::Generic::IList_1<T>* const& __cordl_internal_get_m_List() const;
+  constexpr ::System::Comparison_1<T>* const& __cordl_internal_get_m_Comparison() const;
 
-  constexpr ::System::Collections::Generic::IList_1<T>*& __cordl_internal_get_m_List();
+  constexpr ::System::Comparison_1<T>*& __cordl_internal_get_m_Comparison();
+
+  constexpr ::System::Collections::Generic::List_1<T>* const& __cordl_internal_get_m_List() const;
+
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get_m_List();
 
   constexpr void __cordl_internal_set_ItemAdded(::UnityEngine::Rendering::ListChangedEventHandler_1<T>* value);
 
   constexpr void __cordl_internal_set_ItemRemoved(::UnityEngine::Rendering::ListChangedEventHandler_1<T>* value);
 
-  constexpr void __cordl_internal_set_m_List(::System::Collections::Generic::IList_1<T>* value);
+  constexpr void __cordl_internal_set_m_Comparison(::System::Comparison_1<T>* value);
+
+  constexpr void __cordl_internal_set_m_List(::System::Collections::Generic::List_1<T>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(int32_t capacity);
+  inline void _ctor(int32_t capacity, ::System::Comparison_1<T>* comparison);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<T>* collection);
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<T>* collection, ::System::Comparison_1<T>* comparison);
 
   /// [CompilerGenerated]
   /// @brief Method add_ItemAdded, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -199,17 +217,20 @@ public:
   ObservableList_1(ObservableList_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8800 };
 
   /// @brief Field m_List, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::IList_1<T>* ___m_List;
+  ::System::Collections::Generic::List_1<T>* ___m_List;
+
+  /// @brief Field m_Comparison, offset: 0x18, size: 0x8, def value: None
+  ::System::Comparison_1<T>* ___m_Comparison;
 
   /// [CompilerGenerated]
-  /// @brief Field ItemAdded, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field ItemAdded, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::ListChangedEventHandler_1<T>* ___ItemAdded;
 
   /// [CompilerGenerated]
-  /// @brief Field ItemRemoved, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field ItemRemoved, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Rendering::ListChangedEventHandler_1<T>* ___ItemRemoved;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

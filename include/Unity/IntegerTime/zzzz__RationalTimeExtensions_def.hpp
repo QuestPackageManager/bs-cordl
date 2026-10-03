@@ -26,12 +26,12 @@ namespace Unity::IntegerTime {
 class CORDL_TYPE RationalTimeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// [FreeFunction("IntegerTime::RationalTime::ConvertRate", IsFreeFunction = true, ThrowsException = true)]
   /// [Extension]
-  /// @brief Method Convert, addr 0x6a5cb10, size 0x54, virtual false, abstract: false, final false
+  /// [FreeFunction("IntegerTime::RationalTime::ConvertRate", IsFreeFunction = true, ThrowsException = true)]
+  /// @brief Method Convert, addr 0x6eae694, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::IntegerTime::RationalTime Convert(::Unity::IntegerTime::RationalTime time, ::Unity::IntegerTime::RationalTime_TicksPerSecond rate);
 
-  /// @brief Method Convert_Injected, addr 0x6a5d01c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Convert_Injected, addr 0x6eaeba0, size 0x54, virtual false, abstract: false, final false
   static inline void Convert_Injected(::by_ref<::Unity::IntegerTime::RationalTime> time, ::by_ref<::Unity::IntegerTime::RationalTime_TicksPerSecond> rate,
                                       ::by_ref<::Unity::IntegerTime::RationalTime> ret);
 
@@ -50,7 +50,7 @@ public:
   RationalTimeExtensions(RationalTimeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9513 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

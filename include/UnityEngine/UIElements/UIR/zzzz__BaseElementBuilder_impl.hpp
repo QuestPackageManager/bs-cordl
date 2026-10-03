@@ -21,12 +21,40 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BaseElementBuilder::*)(Il2CppObject*)>(&::UnityEngine::UIElements::UIR::BaseElementBuilder::Build)> {
-  constexpr static std::size_t size = 0x6bc;
-  constexpr static std::size_t addrs = 0x6cd5da4;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x716410c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BaseElementBuilder*>(), { "Build", {}, { ::i2c::type_of<Il2CppObject*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::BaseElementBuilder.BuildRenderTreeQuadElement
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BaseElementBuilder::*)(Il2CppObject*)>(
+    &::UnityEngine::UIElements::UIR::BaseElementBuilder::BuildRenderTreeQuadElement)> {
+  constexpr static std::size_t size = 0x600;
+  constexpr static std::size_t addrs = 0x7164138;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BaseElementBuilder*>(), { "BuildRenderTreeQuadElement", {}, { ::i2c::type_of<Il2CppObject*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::BaseElementBuilder.BuildStandardElement
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BaseElementBuilder::*)(Il2CppObject*)>(
+    &::UnityEngine::UIElements::UIR::BaseElementBuilder::BuildStandardElement)> {
+  constexpr static std::size_t size = 0x648;
+  constexpr static std::size_t addrs = 0x7164738;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BaseElementBuilder*>(), { "BuildStandardElement", {}, { ::i2c::type_of<Il2CppObject*>() } })));
     return ___internal_method;
   }
 };
@@ -92,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BaseElementBuilder::*)(Il2CppObject*)>(
     &::UnityEngine::UIElements::UIR::BaseElementBuilder::PushVisualElementClipping)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x6cd6460;
+  constexpr static std::size_t addrs = 0x7164e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(Il2CppObject*)>(&::UnityEngine::UIElements::UIR::BaseElementBuilder::PopVisualElementClipping)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6cd67b4;
+  constexpr static std::size_t addrs = 0x71651d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(Il2CppObject*)>(&::UnityEngine::UIElements::UIR::BaseElementBuilder::InvokeGenerateVisualContent)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6cd66b0;
+  constexpr static std::size_t addrs = 0x71650d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BaseElementBuilder::*)()>(&::UnityEngine::UIElements::UIR::BaseElementBuilder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cd6958;
+  constexpr static std::size_t addrs = 0x716537c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BaseElementBuilder*>(), { ".ctor", {}, {} })));
@@ -146,6 +174,16 @@ inline bool UnityEngine::UIElements::UIR::BaseElementBuilder::RequiresStencilMas
 inline void UnityEngine::UIElements::UIR::BaseElementBuilder::Build(Il2CppObject* mgc) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BaseElementBuilder*>(), { "Build", {}, { ::i2c::type_of<Il2CppObject*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, mgc);
+}
+inline void UnityEngine::UIElements::UIR::BaseElementBuilder::BuildRenderTreeQuadElement(Il2CppObject* mgc) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BaseElementBuilder*>(), { "BuildRenderTreeQuadElement", {}, { ::i2c::type_of<Il2CppObject*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, mgc);
+}
+inline void UnityEngine::UIElements::UIR::BaseElementBuilder::BuildStandardElement(Il2CppObject* mgc) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BaseElementBuilder*>(), { "BuildStandardElement", {}, { ::i2c::type_of<Il2CppObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, mgc);
 }
 inline void UnityEngine::UIElements::UIR::BaseElementBuilder::DrawVisualElementBackground(Il2CppObject* mgc) {

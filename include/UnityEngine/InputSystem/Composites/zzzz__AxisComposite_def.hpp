@@ -69,7 +69,7 @@ public:
   static ::UnityEngine::InputSystem::Composites::AxisComposite_WhichSideWins const Positive;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11173 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -113,12 +113,12 @@ public:
   /// @brief Field whichSideWins, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_whichSideWins, put = __cordl_internal_set_whichSideWins)) ::UnityEngine::InputSystem::Composites::AxisComposite_WhichSideWins whichSideWins;
 
-  /// @brief Method EvaluateMagnitude, addr 0x650bc38, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x6934b38, size 0x48, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::AxisComposite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x650bb24, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x6934a24, size 0x114, virtual true, abstract: false, final false
   inline float_t ReadValue(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr float_t const& __cordl_internal_get_maxValue() const;
@@ -151,10 +151,10 @@ public:
 
   constexpr void __cordl_internal_set_whichSideWins(::UnityEngine::InputSystem::Composites::AxisComposite_WhichSideWins value);
 
-  /// @brief Method .ctor, addr 0x650bc80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6934b80, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_midPoint, addr 0x650bb10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_midPoint, addr 0x6934a10, size 0x14, virtual false, abstract: false, final false
   inline float_t get_midPoint();
 
 protected:
@@ -172,7 +172,7 @@ public:
   AxisComposite(AxisComposite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11174 };
 
   /// [InputControl(layout = "Axis")]
   /// @brief Field negative, offset: 0x10, size: 0x4, def value: None

@@ -18,10 +18,10 @@ struct LayerMask;
 // Write type traits
 MARK_VAL_T(::UnityEngine::LayerMask);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LayerMask, "UnityEngine", "LayerMask");
-// [NativeClass("BitField", "struct BitField;")]
+// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
 // [NativeHeader("Runtime/BaseClasses/BitField.h")]
 // [NativeHeader("Runtime/BaseClasses/TagManager.h")]
-// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
+// [NativeClass("BitField", "struct BitField;")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -31,27 +31,27 @@ public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) int32_t value;
 
-  /// @brief Method GetMask, addr 0x6ae3e10, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetMask, addr 0x6f3e738, size 0xcc, virtual false, abstract: false, final false
   static inline int32_t GetMask(/* [ParamArray] */ ::ArrayW<::StringW> layerNames);
 
-  /// [StaticAccessor("GetTagManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
   /// [NativeMethod("StringToLayer")]
-  /// @brief Method NameToLayer, addr 0x6ae3ca8, size 0x12c, virtual false, abstract: false, final false
+  /// [StaticAccessor("GetTagManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
+  /// @brief Method NameToLayer, addr 0x6f3e5d0, size 0x12c, virtual false, abstract: false, final false
   static inline int32_t NameToLayer(::StringW layerName);
 
-  /// @brief Method NameToLayer_Injected, addr 0x6ae3dd4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method NameToLayer_Injected, addr 0x6f3e6fc, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t NameToLayer_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> layerName);
 
-  /// @brief Method get_value, addr 0x6ae3c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x6f3e5c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
-  /// @brief Method op_Implicit, addr 0x6ae3c94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6f3e5bc, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask op_Implicit___UnityEngine__LayerMask(int32_t intVal);
 
-  /// @brief Method op_Implicit, addr 0x6ae3c90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6f3e5b8, size 0x4, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::LayerMask mask);
 
-  /// @brief Method set_value, addr 0x6ae3ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x6f3e5c8, size 0x8, virtual false, abstract: false, final false
   inline void set_value(int32_t value);
 
   // Ctor Parameters []
@@ -62,7 +62,7 @@ public:
   constexpr LayerMask(int32_t m_Mask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9937 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

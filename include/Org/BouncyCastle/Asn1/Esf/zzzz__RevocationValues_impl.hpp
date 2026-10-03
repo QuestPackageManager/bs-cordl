@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Esf::RevocationValues* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Esf::RevocationValues::GetInstance)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x337709c;
+  constexpr static std::size_t addrs = 0x3600338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::RevocationValues::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Esf::RevocationValues::_ctor)> {
   constexpr static std::size_t size = 0x9f0;
-  constexpr static std::size_t addrs = 0x337713c;
+  constexpr static std::size_t addrs = 0x36003d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*>, ::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>, ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*)>(
     &::Org::BouncyCastle::Asn1::Esf::RevocationValues::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3377b2c;
+  constexpr static std::size_t addrs = 0x3600dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::RevocationValues::*)(
     ::System::Collections::IEnumerable*, ::System::Collections::IEnumerable*, ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*)>(&::Org::BouncyCastle::Asn1::Esf::RevocationValues::_ctor)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x3377bc8;
+  constexpr static std::size_t addrs = 0x3600e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*> (::Org::BouncyCastle::Asn1::Esf::RevocationValues::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::RevocationValues::GetCrlVals)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3377df4;
+  constexpr static std::size_t addrs = 0x3601090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::RevocationValues*>(), { "GetCrlVals", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*> (::Org::BouncyCastle::Asn1::Esf::RevocationValues::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::RevocationValues::GetOcspVals)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3377f1c;
+  constexpr static std::size_t addrs = 0x36011b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::RevocationValues*>(), { "GetOcspVals", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Esf::OtherRevVals* (::Org::BouncyCastle::Asn1::Esf::RevocationValues::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::RevocationValues::get_OtherRevVals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3378044;
+  constexpr static std::size_t addrs = 0x36012e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::RevocationValues*>(), { "get_OtherRevVals", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::RevocationValues::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::RevocationValues::ToAsn1Object)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x337804c;
+  constexpr static std::size_t addrs = 0x36012e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

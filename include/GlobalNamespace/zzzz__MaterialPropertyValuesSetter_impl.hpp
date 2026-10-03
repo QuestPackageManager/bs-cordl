@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::get_propertyId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5872bfc;
+  constexpr static std::size_t addrs = 0x5c88dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::*)(int32_t)>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::set_propertyId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5872c04;
+  constexpr static std::size_t addrs = 0x5c88dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5872c0c;
+  constexpr static std::size_t addrs = 0x5c88de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::RefreshPropertyId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5872bd8;
+  constexpr static std::size_t addrs = 0x5c88dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameFloatValuePair::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameFloatValuePair::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5872c2c;
+  constexpr static std::size_t addrs = 0x5c88e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameIntValuePair::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameIntValuePair::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5872c4c;
+  constexpr static std::size_t addrs = 0x5c88e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameVectorValuePair::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameVectorValuePair::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5872c6c;
+  constexpr static std::size_t addrs = 0x5c88e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameColorValuePair::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameColorValuePair::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5872c8c;
+  constexpr static std::size_t addrs = 0x5c88e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter::*)()>(&::GlobalNamespace::MaterialPropertyValuesSetter::Start)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x587280c;
+  constexpr static std::size_t addrs = 0x5c889e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyValuesSetter*>(), { "Start", {}, {} })));
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter::*)()>(&::GlobalNamespace::MaterialPropertyValuesSetter::OnValidate)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5872b38;
+  constexpr static std::size_t addrs = 0x5c88d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyValuesSetter*>(), { "OnValidate", {}, {} })));
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter::*)()>(&::GlobalNamespace::MaterialPropertyValuesSetter::RefreshPropertyIds)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5872824;
+  constexpr static std::size_t addrs = 0x5c889f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyValuesSetter*>(), { "RefreshPropertyIds", {}, {} })));
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter::*)()>(&::GlobalNamespace::MaterialPropertyValuesSetter::ApplyParams)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x587298c;
+  constexpr static std::size_t addrs = 0x5c88b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyValuesSetter*>(), { "ApplyParams", {}, {} })));
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter::*)()>(&::GlobalNamespace::MaterialPropertyValuesSetter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5872bf8;
+  constexpr static std::size_t addrs = 0x5c88dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyValuesSetter*>(), { ".ctor", {}, {} })));

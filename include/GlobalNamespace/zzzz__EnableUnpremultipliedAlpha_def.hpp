@@ -21,10 +21,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::EnableUnpremultipliedAlpha* New_ctor();
 
-  /// @brief Method Start, addr 0x5a319b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e49248, size 0x58, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method .ctor, addr 0x5a31a10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e492a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   EnableUnpremultipliedAlpha(EnableUnpremultipliedAlpha const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21340 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22060 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

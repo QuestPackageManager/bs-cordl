@@ -26,25 +26,25 @@ public:
   /// @brief Field <DefaultSeed>k__BackingField, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__DefaultSeed_k__BackingField, put = setStaticF__DefaultSeed_k__BackingField)) uint64_t _DefaultSeed_k__BackingField;
 
-  /// @brief Method Block, addr 0x5c49598, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x60621a4, size 0x8c, virtual false, abstract: false, final false
   static inline void Block(::by_ref<uint32_t> rp0, ::by_ref<uint32_t> rp1);
 
-  /// @brief Method ComputeHash32, addr 0x5c490a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash32, addr 0x6061cb4, size 0x98, virtual false, abstract: false, final false
   static inline int32_t ComputeHash32(::System::ReadOnlySpan_1<uint8_t> data, uint64_t seed);
 
-  /// @brief Method ComputeHash32, addr 0x5c49140, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash32, addr 0x6061d4c, size 0x458, virtual false, abstract: false, final false
   static inline int32_t ComputeHash32(::by_ref<uint8_t> data, int32_t count, uint64_t seed);
 
-  /// @brief Method GenerateSeed, addr 0x5c4968c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GenerateSeed, addr 0x6062298, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t GenerateSeed();
 
-  /// @brief Method _rotl, addr 0x5c49624, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method _rotl, addr 0x6062230, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t _rotl(uint32_t value, int32_t shift);
 
   static inline uint64_t getStaticF__DefaultSeed_k__BackingField();
 
   /// [CompilerGenerated]
-  /// @brief Method get_DefaultSeed, addr 0x5c49630, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultSeed, addr 0x606223c, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t get_DefaultSeed();
 
   static inline void setStaticF__DefaultSeed_k__BackingField(uint64_t value);

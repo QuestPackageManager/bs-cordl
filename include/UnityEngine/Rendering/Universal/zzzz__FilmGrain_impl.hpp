@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::FilmGrain::*)()>(&::UnityEngine::Rendering::Universal::FilmGrain::IsActive)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x687eac0;
+  constexpr static std::size_t addrs = 0x6cbdfa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::FilmGrain*>(), { "IsActive", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::FilmGrain::*)()>(&::UnityEngine::Rendering::Universal::FilmGrain::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687eb9c;
+  constexpr static std::size_t addrs = 0x6cbe07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::FilmGrain*>(), { "IsTileCompatible", {}, {} })));
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::FilmGrain::*)()>(&::UnityEngine::Rendering::Universal::FilmGrain::_ctor)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x687eba4;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x6cbe084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::FilmGrain*>(), { ".ctor", {}, {} })));

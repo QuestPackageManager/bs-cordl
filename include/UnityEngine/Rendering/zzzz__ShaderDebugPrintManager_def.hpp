@@ -81,7 +81,7 @@ public:
   ShaderDebugPrintManager_Profiling(ShaderDebugPrintManager_Profiling const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8923 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -172,7 +172,7 @@ public:
   static ::UnityEngine::Rendering::ShaderDebugPrintManager_DebugValueType const TypeUint4;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8924 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -238,30 +238,30 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::Rendering::ShaderDebugPrintManager* s_Instance;
 
-  /// @brief Method BufferReadComplete, addr 0x676e644, size 0x10c0, virtual false, abstract: false, final false
+  /// @brief Method BufferReadComplete, addr 0x6b866f4, size 0x10c0, virtual false, abstract: false, final false
   inline void BufferReadComplete(::UnityEngine::Rendering::AsyncGPUReadbackRequest request);
 
-  /// @brief Method ClearShaderDebugPrintBuffer, addr 0x676e54c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ClearShaderDebugPrintBuffer, addr 0x6b865fc, size 0xf8, virtual false, abstract: false, final false
   inline void ClearShaderDebugPrintBuffer();
 
-  /// @brief Method DebugValueTypeToElemSize, addr 0x676df94, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DebugValueTypeToElemSize, addr 0x6b86044, size 0x24, virtual false, abstract: false, final false
   inline int32_t DebugValueTypeToElemSize(::UnityEngine::Rendering::ShaderDebugPrintManager_DebugValueType type);
 
-  /// @brief Method DefaultOutput, addr 0x676f8b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method DefaultOutput, addr 0x6b87960, size 0x5c, virtual false, abstract: false, final false
   inline void DefaultOutput(::StringW line);
 
-  /// @brief Method EndFrame, addr 0x676f704, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method EndFrame, addr 0x6b877b4, size 0xc4, virtual false, abstract: false, final false
   inline void EndFrame();
 
   static inline ::UnityEngine::Rendering::ShaderDebugPrintManager* New_ctor();
 
-  /// @brief Method PrintImmediate, addr 0x676f7c8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method PrintImmediate, addr 0x6b87878, size 0xd8, virtual false, abstract: false, final false
   inline void PrintImmediate();
 
-  /// @brief Method SetShaderDebugPrintBindings, addr 0x676e3d8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method SetShaderDebugPrintBindings, addr 0x6b86488, size 0x174, virtual false, abstract: false, final false
   inline void SetShaderDebugPrintBindings(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method SetShaderDebugPrintInputConstants, addr 0x676e30c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetShaderDebugPrintInputConstants, addr 0x6b863bc, size 0xcc, virtual false, abstract: false, final false
   inline void SetShaderDebugPrintInputConstants(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ShaderDebugPrintInput input);
 
   constexpr ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* const& __cordl_internal_get_m_BufferReadCompleteAction() const;
@@ -306,7 +306,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ReadbackRequests(::System::Collections::Generic::List_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* value);
 
-  /// @brief Method .ctor, addr 0x676dfb8, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b86068, size 0x2f8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_m_ShaderPropertyIDInputFrame();
@@ -317,10 +317,10 @@ public:
 
   static inline ::UnityEngine::Rendering::ShaderDebugPrintManager* getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x676e2b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x6b86360, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ShaderDebugPrintManager* get_instance();
 
-  /// @brief Method get_outputLine, addr 0x676f8a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outputLine, addr 0x6b87950, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_outputLine();
 
   static inline void setStaticF_m_ShaderPropertyIDInputFrame(int32_t value);
@@ -331,7 +331,7 @@ public:
 
   static inline void setStaticF_s_Instance(::UnityEngine::Rendering::ShaderDebugPrintManager* value);
 
-  /// @brief Method set_outputAction, addr 0x676f8a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_outputAction, addr 0x6b87958, size 0x8, virtual false, abstract: false, final false
   inline void set_outputAction(::System::Action_1<::StringW>* value);
 
 protected:
@@ -349,7 +349,7 @@ public:
   ShaderDebugPrintManager(ShaderDebugPrintManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12056 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8925 };
 
   /// @brief Field k_FramesInFlight offset 0xffffffff size 0x4
   static constexpr int32_t k_FramesInFlight{ static_cast<int32_t>(0x4) };

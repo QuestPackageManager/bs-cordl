@@ -41,6 +41,8 @@ public:
     __E_IsDirty = static_cast<int32_t>(0x1),
     __E_HasNewLayout = static_cast<int32_t>(0x4),
     __E_DependsOnParentSize = static_cast<int32_t>(0x40),
+    __E_UsesMeasure = static_cast<int32_t>(0x80),
+    __E_UsesBaseline = static_cast<int32_t>(0x100),
     __E_Fixed = static_cast<int32_t>(0x8),
     __E_MinViolation = static_cast<int32_t>(0x10),
     __E_MaxViolation = static_cast<int32_t>(0x20),
@@ -81,8 +83,14 @@ public:
   /// @brief Field MinViolation value: I32(16)
   static ::UnityEngine::UIElements::Layout::LayoutNodeData_FlexStatus const MinViolation;
 
+  /// @brief Field UsesBaseline value: I32(256)
+  static ::UnityEngine::UIElements::Layout::LayoutNodeData_FlexStatus const UsesBaseline;
+
+  /// @brief Field UsesMeasure value: I32(128)
+  static ::UnityEngine::UIElements::Layout::LayoutNodeData_FlexStatus const UsesMeasure;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5537 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -112,41 +120,52 @@ public:
 
   __declspec(property(get = get_IsDirty, put = set_IsDirty)) bool IsDirty;
 
-  /// @brief Method get_HasNewLayout, addr 0x6d019a4, size 0xc, virtual false, abstract: false, final false
+  __declspec(property(put = set_UsesBaseline)) bool UsesBaseline;
+
+  __declspec(property(get = get_UsesMeasure, put = set_UsesMeasure)) bool UsesMeasure;
+
+  /// @brief Method get_HasNewLayout, addr 0x7196fd0, size 0xc, virtual false, abstract: false, final false
   inline bool get_HasNewLayout();
 
-  /// @brief Method get_IsDirty, addr 0x6d018a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsDirty, addr 0x7196ed4, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsDirty();
 
-  /// @brief Method set_HasNewLayout, addr 0x6d01a34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_UsesMeasure, addr 0x71970ec, size 0xc, virtual false, abstract: false, final false
+  inline bool get_UsesMeasure();
+
+  /// @brief Method set_HasNewLayout, addr 0x7197060, size 0x20, virtual false, abstract: false, final false
   inline void set_HasNewLayout(bool value);
 
-  /// @brief Method set_IsDirty, addr 0x6d01928, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_IsDirty, addr 0x7196f54, size 0x10, virtual false, abstract: false, final false
   inline void set_IsDirty(bool value);
+
+  /// @brief Method set_UsesBaseline, addr 0x7199edc, size 0x20, virtual false, abstract: false, final false
+  inline void set_UsesBaseline(bool value);
+
+  /// @brief Method set_UsesMeasure, addr 0x719717c, size 0x20, virtual false, abstract: false, final false
+  inline void set_UsesMeasure(bool value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr LayoutNodeData();
 
   // Ctor Parameters [CppParam { name: "ResolvedDimensions", ty: "::UnityEngine::UIElements::Layout::FixedBuffer2_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None,
-  // comment: None }, CppParam { name: "TargetSize", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ManagedMeasureFunctionIndex", ty: "int32_t", modifiers: "",
-  // def_value: None, comment: None }, CppParam { name: "ManagedBaselineFunctionIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ManagedOwnerIndex", ty:
-  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "LineIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Config", ty:
+  // comment: None }, CppParam { name: "TargetSize", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ManagedOwnerIndex", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "LineIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Config", ty:
   // "::UnityEngine::UIElements::Layout::LayoutHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "Parent", ty: "::UnityEngine::UIElements::Layout::LayoutHandle", modifiers:
   // "", def_value: None, comment: None }, CppParam { name: "NextChild", ty: "::UnityEngine::UIElements::Layout::LayoutHandle", modifiers: "", def_value: None, comment: None }, CppParam { name:
   // "Children", ty: "::UnityEngine::UIElements::Layout::LayoutList_1<::UnityEngine::UIElements::Layout::LayoutHandle>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Status", ty:
   // "::UnityEngine::UIElements::Layout::LayoutNodeData_FlexStatus", modifiers: "", def_value: None, comment: None }]
-  constexpr LayoutNodeData(::UnityEngine::UIElements::Layout::FixedBuffer2_1<::UnityEngine::UIElements::Layout::LayoutValue> ResolvedDimensions, float_t TargetSize,
-                           int32_t ManagedMeasureFunctionIndex, int32_t ManagedBaselineFunctionIndex, int32_t ManagedOwnerIndex, int32_t LineIndex,
-                           ::UnityEngine::UIElements::Layout::LayoutHandle Config, ::UnityEngine::UIElements::Layout::LayoutHandle Parent, ::UnityEngine::UIElements::Layout::LayoutHandle NextChild,
-                           ::UnityEngine::UIElements::Layout::LayoutList_1<::UnityEngine::UIElements::Layout::LayoutHandle> Children,
+  constexpr LayoutNodeData(::UnityEngine::UIElements::Layout::FixedBuffer2_1<::UnityEngine::UIElements::Layout::LayoutValue> ResolvedDimensions, float_t TargetSize, int32_t ManagedOwnerIndex,
+                           int32_t LineIndex, ::UnityEngine::UIElements::Layout::LayoutHandle Config, ::UnityEngine::UIElements::Layout::LayoutHandle Parent,
+                           ::UnityEngine::UIElements::Layout::LayoutHandle NextChild, ::UnityEngine::UIElements::Layout::LayoutList_1<::UnityEngine::UIElements::Layout::LayoutHandle> Children,
                            ::UnityEngine::UIElements::Layout::LayoutNodeData_FlexStatus Status) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5538 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
   /// @brief Field ResolvedDimensions, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::UIElements::Layout::FixedBuffer2_1<::UnityEngine::UIElements::Layout::LayoutValue> ResolvedDimensions;
@@ -154,31 +173,25 @@ public:
   /// @brief Field TargetSize, offset: 0x10, size: 0x4, def value: None
   float_t TargetSize;
 
-  /// @brief Field ManagedMeasureFunctionIndex, offset: 0x14, size: 0x4, def value: None
-  int32_t ManagedMeasureFunctionIndex;
-
-  /// @brief Field ManagedBaselineFunctionIndex, offset: 0x18, size: 0x4, def value: None
-  int32_t ManagedBaselineFunctionIndex;
-
-  /// @brief Field ManagedOwnerIndex, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field ManagedOwnerIndex, offset: 0x14, size: 0x4, def value: None
   int32_t ManagedOwnerIndex;
 
-  /// @brief Field LineIndex, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field LineIndex, offset: 0x18, size: 0x4, def value: None
   int32_t LineIndex;
 
-  /// @brief Field Config, offset: 0x24, size: 0x8, def value: None
+  /// @brief Field Config, offset: 0x1c, size: 0x8, def value: None
   ::UnityEngine::UIElements::Layout::LayoutHandle Config;
 
-  /// @brief Field Parent, offset: 0x2c, size: 0x8, def value: None
+  /// @brief Field Parent, offset: 0x24, size: 0x8, def value: None
   ::UnityEngine::UIElements::Layout::LayoutHandle Parent;
 
-  /// @brief Field NextChild, offset: 0x34, size: 0x8, def value: None
+  /// @brief Field NextChild, offset: 0x2c, size: 0x8, def value: None
   ::UnityEngine::UIElements::Layout::LayoutHandle NextChild;
 
-  /// @brief Field Children, offset: 0x40, size: 0x10, def value: None
+  /// @brief Field Children, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::UIElements::Layout::LayoutList_1<::UnityEngine::UIElements::Layout::LayoutHandle> Children;
 
-  /// @brief Field Status, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field Status, offset: 0x40, size: 0x4, def value: None
   ::UnityEngine::UIElements::Layout::LayoutNodeData_FlexStatus Status;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -188,24 +201,20 @@ static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, Resolv
 
 static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, TargetSize) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, ManagedMeasureFunctionIndex) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, ManagedOwnerIndex) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, ManagedBaselineFunctionIndex) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, LineIndex) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, ManagedOwnerIndex) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, Config) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, LineIndex) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, Parent) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, Config) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, NextChild) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, Parent) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, Children) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, NextChild) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, Status) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, Children) == 0x40, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNodeData, Status) == 0x50, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutNodeData) == 0x58, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutNodeData) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Layout

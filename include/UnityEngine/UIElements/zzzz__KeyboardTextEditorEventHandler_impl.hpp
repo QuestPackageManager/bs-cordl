@@ -7,19 +7,19 @@
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ExecuteCommandEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IMEEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationEventBase_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ValidateCommandEvent_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
 #include "UnityEngine/zzzz__TextEditingUtilities_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::KeyboardTextEditorEventHandler._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(
     ::UnityEngine::UIElements::TextElement*, ::UnityEngine::TextEditingUtilities*)>(&::UnityEngine::UIElements::KeyboardTextEditorEventHandler::_ctor)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6d49ffc;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x71bdb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,8 +33,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::KeyboardTextEditorEventHandler::HandleEventBubbleUp)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x6d4a11c;
+  constexpr static std::size_t size = 0x354;
+  constexpr static std::size_t addrs = 0x71bdbec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyboardTextEditorEventHandler*>(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(::UnityEngine::UIElements::FocusEvent*)>(
     &::UnityEngine::UIElements::KeyboardTextEditorEventHandler::OnFocus)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6d4b0b8;
+  constexpr static std::size_t addrs = 0x71bea1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyboardTextEditorEventHandler*>(),
@@ -62,11 +62,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(::UnityEngine::UIElements::BlurEvent*)>(
     &::UnityEngine::UIElements::KeyboardTextEditorEventHandler::OnBlur)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6d4b1b0;
+  constexpr static std::size_t addrs = 0x71beb14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyboardTextEditorEventHandler*>(),
                                                                                            { "OnBlur", {}, { ::i2c::type_of<::UnityEngine::UIElements::BlurEvent*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::KeyboardTextEditorEventHandler.OnIMEInput
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(::UnityEngine::UIElements::IMEEvent*)>(
+    &::UnityEngine::UIElements::KeyboardTextEditorEventHandler::OnIMEInput)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x71beb88;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyboardTextEditorEventHandler*>(),
+                                                                                           { "OnIMEInput", {}, { ::i2c::type_of<::UnityEngine::UIElements::IMEEvent*>() } })));
     return ___internal_method;
   }
 };
@@ -75,12 +89,26 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(::UnityEngine::UIElements::KeyDownEvent*)>(
     &::UnityEngine::UIElements::KeyboardTextEditorEventHandler::OnKeyDown)> {
-  constexpr static std::size_t size = 0x838;
-  constexpr static std::size_t addrs = 0x6d4a424;
+  constexpr static std::size_t size = 0x67c;
+  constexpr static std::size_t addrs = 0x71bdf44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyboardTextEditorEventHandler*>(),
                                                                                            { "OnKeyDown", {}, { ::i2c::type_of<::UnityEngine::UIElements::KeyDownEvent*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::KeyboardTextEditorEventHandler.ApplyTextIfNeeded
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)()>(
+    &::UnityEngine::UIElements::KeyboardTextEditorEventHandler::ApplyTextIfNeeded)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x71bee98;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyboardTextEditorEventHandler*>(), { "ApplyTextIfNeeded", {}, {} })));
     return ___internal_method;
   }
 };
@@ -89,8 +117,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(bool)>(
     &::UnityEngine::UIElements::KeyboardTextEditorEventHandler::UpdateLabel)> {
-  constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x6d4b224;
+  constexpr static std::size_t size = 0x2b4;
+  constexpr static std::size_t addrs = 0x71bebe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(::UnityEngine::UIElements::ValidateCommandEvent*)>(
     &::UnityEngine::UIElements::KeyboardTextEditorEventHandler::OnValidateCommandEvent)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x6d4ac5c;
+  constexpr static std::size_t addrs = 0x71be5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyboardTextEditorEventHandler*>(),
@@ -118,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(::UnityEngine::UIElements::ExecuteCommandEvent*)>(
     &::UnityEngine::UIElements::KeyboardTextEditorEventHandler::OnExecuteCommandEvent)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x6d4ae68;
+  constexpr static std::size_t addrs = 0x71be7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyboardTextEditorEventHandler*>(),
@@ -126,18 +154,6 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Event*& UnityEngine::UIElements::KeyboardTextEditorEventHandler::__cordl_internal_get_m_ImguiEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ImguiEvent;
-}
-constexpr ::UnityEngine::Event* const& UnityEngine::UIElements::KeyboardTextEditorEventHandler::__cordl_internal_get_m_ImguiEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ImguiEvent;
-}
-constexpr void UnityEngine::UIElements::KeyboardTextEditorEventHandler::__cordl_internal_set_m_ImguiEvent(::UnityEngine::Event* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_ImguiEvent = value;
-}
 constexpr bool& UnityEngine::UIElements::KeyboardTextEditorEventHandler::__cordl_internal_get_m_Changed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Changed;
@@ -149,6 +165,18 @@ constexpr bool const& UnityEngine::UIElements::KeyboardTextEditorEventHandler::_
 constexpr void UnityEngine::UIElements::KeyboardTextEditorEventHandler::__cordl_internal_set_m_Changed(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Changed = value;
+}
+constexpr bool& UnityEngine::UIElements::KeyboardTextEditorEventHandler::__cordl_internal_get_m_ShouldInvokeUpdateValue() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ShouldInvokeUpdateValue;
+}
+constexpr bool const& UnityEngine::UIElements::KeyboardTextEditorEventHandler::__cordl_internal_get_m_ShouldInvokeUpdateValue() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ShouldInvokeUpdateValue;
+}
+constexpr void UnityEngine::UIElements::KeyboardTextEditorEventHandler::__cordl_internal_set_m_ShouldInvokeUpdateValue(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ShouldInvokeUpdateValue = value;
 }
 inline void UnityEngine::UIElements::KeyboardTextEditorEventHandler::_ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities) {
   static auto* ___internal_method =
@@ -172,10 +200,20 @@ inline void UnityEngine::UIElements::KeyboardTextEditorEventHandler::OnBlur(::Un
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyboardTextEditorEventHandler*>(), { "OnBlur", {}, { ::i2c::type_of<::UnityEngine::UIElements::BlurEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _);
 }
+inline void UnityEngine::UIElements::KeyboardTextEditorEventHandler::OnIMEInput(::UnityEngine::UIElements::IMEEvent* _) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyboardTextEditorEventHandler*>(),
+                                                                                         { "OnIMEInput", {}, { ::i2c::type_of<::UnityEngine::UIElements::IMEEvent*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _);
+}
 inline void UnityEngine::UIElements::KeyboardTextEditorEventHandler::OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyboardTextEditorEventHandler*>(),
                                                                                          { "OnKeyDown", {}, { ::i2c::type_of<::UnityEngine::UIElements::KeyDownEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::KeyboardTextEditorEventHandler::ApplyTextIfNeeded() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyboardTextEditorEventHandler*>(), { "ApplyTextIfNeeded", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::KeyboardTextEditorEventHandler::UpdateLabel(bool generatePreview) {
   static auto* ___internal_method =

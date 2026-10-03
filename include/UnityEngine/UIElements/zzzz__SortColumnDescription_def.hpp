@@ -108,7 +108,7 @@ public:
   SortColumnDescription_UxmlObjectFactory_1(SortColumnDescription_UxmlObjectFactory_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4276 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4281 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -124,7 +124,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d62d28, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71f2a14, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -142,7 +142,7 @@ public:
   SortColumnDescription_UxmlObjectFactory(SortColumnDescription_UxmlObjectFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4282 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -211,7 +211,7 @@ public:
   SortColumnDescription_UxmlObjectTraits_1(SortColumnDescription_UxmlObjectTraits_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4278 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4283 };
 
   /// @brief Field m_ColumnName, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_ColumnName;
@@ -288,7 +288,7 @@ public:
 
   static inline ::UnityEngine::UIElements::SortColumnDescription* New_ctor(::StringW columnName, ::UnityEngine::UIElements::SortDirection direction);
 
-  /// @brief Method NotifyPropertyChanged, addr 0x6d62724, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NotifyPropertyChanged, addr 0x71f2410, size 0x4c, virtual false, abstract: false, final false
   inline void NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property);
 
   constexpr ::UnityEngine::UIElements::Column* const& __cordl_internal_get__column_k__BackingField() const;
@@ -327,21 +327,21 @@ public:
 
   constexpr void __cordl_internal_set_propertyChanged(::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>* value);
 
-  /// @brief Method .ctor, addr 0x6d62aa8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71f2794, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d62ab4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71f27a0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t columnIndex, ::UnityEngine::UIElements::SortDirection direction);
 
-  /// @brief Method .ctor, addr 0x6d62ae4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71f27d0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW columnName, ::UnityEngine::UIElements::SortDirection direction);
 
   /// [CompilerGenerated]
-  /// @brief Method add_changed, addr 0x6d62928, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_changed, addr 0x71f2614, size 0xc0, virtual false, abstract: false, final false
   inline void add_changed(::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_propertyChanged, addr 0x6d624d0, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_propertyChanged, addr 0x71f21bc, size 0xc0, virtual true, abstract: false, final true
   inline void add_propertyChanged(::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>* value);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_columnIndexProperty();
@@ -351,27 +351,27 @@ public:
   static inline ::UnityEngine::UIElements::BindingId getStaticF_directionProperty();
 
   /// [CompilerGenerated]
-  /// @brief Method get_column, addr 0x6d62844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_column, addr 0x71f2530, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Column* get_column();
 
-  /// @brief Method get_columnIndex, addr 0x6d62770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnIndex, addr 0x71f245c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columnIndex();
 
-  /// @brief Method get_columnName, addr 0x6d62650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnName, addr 0x71f233c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_columnName();
 
-  /// @brief Method get_direction, addr 0x6d62854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x71f2540, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::SortDirection get_direction();
 
   /// @brief Convert to "::UnityEngine::UIElements::INotifyBindablePropertyChanged"
   constexpr ::UnityEngine::UIElements::INotifyBindablePropertyChanged* i___UnityEngine__UIElements__INotifyBindablePropertyChanged() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_changed, addr 0x6d629e8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_changed, addr 0x71f26d4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_changed(::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_propertyChanged, addr 0x6d62590, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_propertyChanged, addr 0x71f227c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_propertyChanged(::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>* value);
 
   static inline void setStaticF_columnIndexProperty(::UnityEngine::UIElements::BindingId value);
@@ -381,16 +381,16 @@ public:
   static inline void setStaticF_directionProperty(::UnityEngine::UIElements::BindingId value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_column, addr 0x6d6284c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_column, addr 0x71f2538, size 0x8, virtual false, abstract: false, final false
   inline void set_column(::UnityEngine::UIElements::Column* value);
 
-  /// @brief Method set_columnIndex, addr 0x6d62778, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_columnIndex, addr 0x71f2464, size 0xcc, virtual false, abstract: false, final false
   inline void set_columnIndex(int32_t value);
 
-  /// @brief Method set_columnName, addr 0x6d62658, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_columnName, addr 0x71f2344, size 0xcc, virtual false, abstract: false, final false
   inline void set_columnName(::StringW value);
 
-  /// @brief Method set_direction, addr 0x6d6285c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x71f2548, size 0xcc, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::SortDirection value);
 
 protected:
@@ -408,7 +408,7 @@ public:
   SortColumnDescription(SortColumnDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4284 };
 
   /// [SerializeField]
   /// @brief Field m_ColumnIndex, offset: 0x10, size: 0x4, def value: None
@@ -422,18 +422,18 @@ public:
   /// @brief Field m_SortDirection, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::UIElements::SortDirection ___m_SortDirection;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field propertyChanged, offset: 0x28, size: 0x8, def value: None
   ::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>* ___propertyChanged;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <column>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::UIElements::Column* ____column_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field changed, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>* ___changed;
 

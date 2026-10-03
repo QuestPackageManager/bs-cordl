@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexReplacement::*)(
     ::StringW, ::System::Text::RegularExpressions::RegexNode*, ::System::Collections::Hashtable*)>(&::System::Text::RegularExpressions::RegexReplacement::_ctor)> {
   constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x638f9f0;
+  constexpr static std::size_t addrs = 0x67b7cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::RegularEx
                                                                                                                  ::System::Collections::Hashtable*, ::System::Text::RegularExpressions::RegexOptions)>(
     &::System::Text::RegularExpressions::RegexReplacement::GetOrCreate)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x63944d4;
+  constexpr static std::size_t addrs = 0x67bc7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Text::RegularExpressions::RegexReplacement::*)()>(&::System::Text::RegularExpressions::RegexReplacement::get_Pattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6394600;
+  constexpr static std::size_t addrs = 0x67bc8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::RegexReplacement*>(), { "get_Pattern", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexReplacement::*)(::System::Text::StringBuilder*, ::System::Text::RegularExpressions::Match*)>(
     &::System::Text::RegularExpressions::RegexReplacement::ReplacementImpl)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x6394608;
+  constexpr static std::size_t addrs = 0x67bc8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexReplacement::*)(
     ::System::Collections::Generic::List_1<::StringW>*, ::System::Text::RegularExpressions::Match*)>(&::System::Text::RegularExpressions::RegexReplacement::ReplacementImplRTL)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x63947a8;
+  constexpr static std::size_t addrs = 0x67bca74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Text::RegularExpressions::RegexReplacement::*)(::System::Text::RegularExpressions::Regex*, ::StringW, int32_t, int32_t)>(
     &::System::Text::RegularExpressions::RegexReplacement::Replace)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x63949dc;
+  constexpr static std::size_t addrs = 0x67bcca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

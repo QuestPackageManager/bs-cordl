@@ -56,16 +56,16 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
-  /// @brief Method MoveNext, addr 0x6c4e26c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x70975d4, size 0x58, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x6c4e28c, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x709762c, size 0x30, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method .ctor, addr 0x6c4e04c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70973b0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Hierarchy::HierarchyViewModel* hierarchyViewModel);
 
-  /// @brief Method get_Current, addr 0x6c4e200, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x7097568, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -80,15 +80,15 @@ public:
   constexpr ReadOnlyHierarchyViewModelList_Enumerator(::Unity::Hierarchy::HierarchyViewModel* m_HierarchyViewModel, ::Unity::Hierarchy::HierarchyViewModel_Enumerator m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4074 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field m_HierarchyViewModel, offset: 0x0, size: 0x8, def value: None
   ::Unity::Hierarchy::HierarchyViewModel* m_HierarchyViewModel;
 
-  /// @brief Field m_Enumerator, offset: 0x8, size: 0x28, def value: None
+  /// @brief Field m_Enumerator, offset: 0x8, size: 0x20, def value: None
   ::Unity::Hierarchy::HierarchyViewModel_Enumerator m_Enumerator;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -98,7 +98,7 @@ static_assert(offsetof(::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList
 
 static_assert(offsetof(::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator, m_Enumerator) == 0x8, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator) == 0x30, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // [DefaultMember("Item")]
@@ -135,33 +135,33 @@ public:
   /// @brief Convert operator to "::System::Collections::IList"
   constexpr operator ::System::Collections::IList*() noexcept;
 
-  /// @brief Method Add, addr 0x6c4e0e8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x7097450, size 0x38, virtual true, abstract: false, final true
   inline int32_t Add(::System::Object* value);
 
-  /// @brief Method Clear, addr 0x6c4e120, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x7097488, size 0x38, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x6c4dd0c, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x7096f2c, size 0x90, virtual true, abstract: false, final true
   inline bool Contains(::System::Object* value);
 
-  /// @brief Method CopyTo, addr 0x6c4df14, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x70971ac, size 0x188, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x6c4dfd0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x7097334, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method IndexOf, addr 0x6c4dd9c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method IndexOf, addr 0x7096fbc, size 0xbc, virtual true, abstract: false, final true
   inline int32_t IndexOf(::System::Object* value);
 
-  /// @brief Method Insert, addr 0x6c4e158, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Insert, addr 0x70974c0, size 0x38, virtual true, abstract: false, final true
   inline void Insert(int32_t index, ::System::Object* value);
 
   static inline ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList* New_ctor(::Unity::Hierarchy::HierarchyViewModel* viewModel);
 
-  /// @brief Method Remove, addr 0x6c4e190, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x70974f8, size 0x38, virtual true, abstract: false, final true
   inline void Remove(::System::Object* value);
 
-  /// @brief Method RemoveAt, addr 0x6c4e1c8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method RemoveAt, addr 0x7097530, size 0x38, virtual true, abstract: false, final true
   inline void RemoveAt(int32_t index);
 
   constexpr ::Unity::Hierarchy::HierarchyViewModel* const& __cordl_internal_get_m_HierarchyViewModel() const;
@@ -170,25 +170,25 @@ public:
 
   constexpr void __cordl_internal_set_m_HierarchyViewModel(::Unity::Hierarchy::HierarchyViewModel* value);
 
-  /// @brief Method .ctor, addr 0x6c4de58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7097078, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Hierarchy::HierarchyViewModel* viewModel);
 
-  /// @brief Method get_Count, addr 0x6c4dcf4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x7096ee0, size 0x4c, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsFixedSize, addr 0x6c4dce4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsFixedSize, addr 0x7096ed0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x6c4dcec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x7096ed8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsSynchronized, addr 0x6c4e078, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x70973e0, size 0x38, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x6c4de60, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x7097080, size 0xf4, virtual true, abstract: false, final true
   inline ::System::Object* get_Item(int32_t index);
 
-  /// @brief Method get_SyncRoot, addr 0x6c4e0b0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x7097418, size 0x38, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -200,7 +200,7 @@ public:
   /// @brief Convert to "::System::Collections::IList"
   constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
 
-  /// @brief Method set_Item, addr 0x6c4dedc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method set_Item, addr 0x7097174, size 0x38, virtual true, abstract: false, final true
   inline void set_Item(int32_t index, ::System::Object* value);
 
 protected:
@@ -218,7 +218,7 @@ public:
   ReadOnlyHierarchyViewModelList(ReadOnlyHierarchyViewModelList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4075 };
 
   /// @brief Field m_HierarchyViewModel, offset: 0x10, size: 0x8, def value: None
   ::Unity::Hierarchy::HierarchyViewModel* ___m_HierarchyViewModel;

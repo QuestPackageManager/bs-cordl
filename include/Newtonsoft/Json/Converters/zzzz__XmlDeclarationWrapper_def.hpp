@@ -56,16 +56,16 @@ public:
   constexpr void __cordl_internal_set__declaration(::System::Xml::XmlDeclaration* value);
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x5d9efe4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b8bc8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDeclaration* declaration);
 
-  /// @brief Method get_Encoding, addr 0x5d9f580, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Encoding, addr 0x61b9164, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_Encoding();
 
-  /// @brief Method get_Standalone, addr 0x5d9f5c4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Standalone, addr 0x61b91a8, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_Standalone();
 
-  /// @brief Method get_Version, addr 0x5d9f568, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Version, addr 0x61b914c, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_Version();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDeclaration"
@@ -74,10 +74,10 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  /// @brief Method set_Encoding, addr 0x5d9f598, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method set_Encoding, addr 0x61b917c, size 0x2c, virtual true, abstract: false, final true
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method set_Standalone, addr 0x5d9f5dc, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method set_Standalone, addr 0x61b91c0, size 0x18, virtual true, abstract: false, final true
   inline void set_Standalone(::StringW value);
 
 protected:
@@ -95,7 +95,7 @@ public:
   XmlDeclarationWrapper(XmlDeclarationWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13671 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13910 };
 
   /// [Nullable(1)]
   /// @brief Field _declaration, offset: 0x28, size: 0x8, def value: None

@@ -12,6 +12,10 @@ constexpr ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode UnityEng
 constexpr ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode UnityEngine::Rendering::Universal::DebugVertexAttributeMode::Texcoord1{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode UnityEngine::Rendering::Universal::DebugVertexAttributeMode::Texcoord2{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode UnityEngine::Rendering::Universal::DebugVertexAttributeMode::Texcoord3{ static_cast<int32_t>(0x4) };
-constexpr ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode UnityEngine::Rendering::Universal::DebugVertexAttributeMode::Color{ static_cast<int32_t>(0x5) };
-constexpr ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode UnityEngine::Rendering::Universal::DebugVertexAttributeMode::Tangent{ static_cast<int32_t>(0x6) };
-constexpr ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode UnityEngine::Rendering::Universal::DebugVertexAttributeMode::Normal{ static_cast<int32_t>(0x7) };
+constexpr ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode UnityEngine::Rendering::Universal::DebugVertexAttributeMode::Texcoord4{ static_cast<int32_t>(0x5) };
+constexpr ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode UnityEngine::Rendering::Universal::DebugVertexAttributeMode::Texcoord5{ static_cast<int32_t>(0x6) };
+constexpr ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode UnityEngine::Rendering::Universal::DebugVertexAttributeMode::Texcoord6{ static_cast<int32_t>(0x7) };
+constexpr ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode UnityEngine::Rendering::Universal::DebugVertexAttributeMode::Texcoord7{ static_cast<int32_t>(0x8) };
+constexpr ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode UnityEngine::Rendering::Universal::DebugVertexAttributeMode::Color{ static_cast<int32_t>(0x9) };
+constexpr ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode UnityEngine::Rendering::Universal::DebugVertexAttributeMode::Tangent{ static_cast<int32_t>(0xa) };
+constexpr ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode UnityEngine::Rendering::Universal::DebugVertexAttributeMode::Normal{ static_cast<int32_t>(0xb) };

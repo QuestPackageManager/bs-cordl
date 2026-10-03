@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HeaderParser::*)(::System::Object*, ::System::IntPtr)>(&::System::Net::HeaderParser::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x641575c;
+  constexpr static std::size_t addrs = 0x683da28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::System::Net::HeaderParser::*)(::StringW)>(&::System::Net::HeaderParser::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64157d8;
+  constexpr static std::size_t addrs = 0x683daa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::HeaderParser*>(), { ::i2c::class_of<::System::Net::HeaderParser*>(), 13 }));

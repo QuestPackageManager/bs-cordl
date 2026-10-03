@@ -75,7 +75,7 @@ public:
   static ::UnityEngine::VFX::Utility::VFXRaycastBinder_Space const World;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20268 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -142,24 +142,24 @@ public:
   __declspec(property(get = __cordl_internal_get_m_TargetPosition_position,
                       put = __cordl_internal_set_m_TargetPosition_position)) ::UnityEngine::VFX::Utility::ExposedProperty* m_TargetPosition_position;
 
-  /// @brief Method IsValid, addr 0x69e6dc0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6e243fc, size 0xec, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXRaycastBinder* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x69e6da4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6e243e0, size 0x18, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x69e6dbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6e243f8, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method ToString, addr 0x69e70f4, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6e24700, size 0x1e8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69e6eac, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x6e244e8, size 0x218, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
-  /// @brief Method UpdateSubProperties, addr 0x69e6c84, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UpdateSubProperties, addr 0x6e242c0, size 0xa8, virtual false, abstract: false, final false
   inline void UpdateSubProperties();
 
   constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_Layers() const;
@@ -228,25 +228,25 @@ public:
 
   constexpr void __cordl_internal_set_m_TargetPosition_position(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69e72dc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e248e8, size 0x100, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TargetHit, addr 0x69e6d6c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_TargetHit, addr 0x6e243a8, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_TargetHit();
 
-  /// @brief Method get_TargetNormal, addr 0x69e6d2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_TargetNormal, addr 0x6e24368, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_TargetNormal();
 
-  /// @brief Method get_TargetPosition, addr 0x69e6c44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_TargetPosition, addr 0x6e24280, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_TargetPosition();
 
-  /// @brief Method set_TargetHit, addr 0x69e6d84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_TargetHit, addr 0x6e243c0, size 0x20, virtual false, abstract: false, final false
   inline void set_TargetHit(::StringW value);
 
-  /// @brief Method set_TargetNormal, addr 0x69e6d44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_TargetNormal, addr 0x6e24380, size 0x28, virtual false, abstract: false, final false
   inline void set_TargetNormal(::StringW value);
 
-  /// @brief Method set_TargetPosition, addr 0x69e6c5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_TargetPosition, addr 0x6e24298, size 0x28, virtual false, abstract: false, final false
   inline void set_TargetPosition(::StringW value);
 
 protected:
@@ -264,7 +264,7 @@ public:
   VFXRaycastBinder(VFXRaycastBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20269 };
 
   /// [VFXPropertyBinding(new[] { "UnityEditor.VFX.Position" })]
   /// [SerializeField]

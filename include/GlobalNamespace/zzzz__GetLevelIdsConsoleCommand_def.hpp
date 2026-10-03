@@ -52,10 +52,10 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// @brief Method ExecuteAsync, addr 0x32dc748, size 0x378, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x3563ba4, size 0x378, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// @brief Method Initialize, addr 0x32dc364, size 0x3e4, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x35637c0, size 0x3e4, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::GetLevelIdsConsoleCommand* New_ctor();
@@ -78,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set__songRunningHelper(::GlobalNamespace::SongRunningHelper* value);
 
-  /// @brief Method .ctor, addr 0x32dcac0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3563f1c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32dc2dc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x3563738, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32dc320, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x356377c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -102,7 +102,7 @@ public:
   GetLevelIdsConsoleCommand(GetLevelIdsConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19737 };
 
   /// [Inject]
   /// @brief Field _songRunningHelper, offset: 0x38, size: 0x8, def value: None

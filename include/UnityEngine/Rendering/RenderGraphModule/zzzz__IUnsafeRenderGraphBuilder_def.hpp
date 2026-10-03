@@ -14,6 +14,9 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class IBaseRenderGraphBuilder;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
+class IRenderAttachmentRenderGraphBuilder;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
 class UnsafeGraphContext;
 }
 // Forward declare root types
@@ -37,6 +40,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder"
   constexpr operator ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*() noexcept;
 
+  /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IRenderAttachmentRenderGraphBuilder"
+  constexpr operator ::UnityEngine::Rendering::RenderGraphModule::IRenderAttachmentRenderGraphBuilder*() noexcept;
+
   /// @brief Method SetRenderFunc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename PassData>
     requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
@@ -48,12 +54,15 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder"
   constexpr ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* i___UnityEngine__Rendering__RenderGraphModule__IBaseRenderGraphBuilder() noexcept;
 
+  /// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IRenderAttachmentRenderGraphBuilder"
+  constexpr ::UnityEngine::Rendering::RenderGraphModule::IRenderAttachmentRenderGraphBuilder* i___UnityEngine__Rendering__RenderGraphModule__IRenderAttachmentRenderGraphBuilder() noexcept;
+
   // Ctor Parameters [CppParam { name: "", ty: "IUnsafeRenderGraphBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IUnsafeRenderGraphBuilder(IUnsafeRenderGraphBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9315 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

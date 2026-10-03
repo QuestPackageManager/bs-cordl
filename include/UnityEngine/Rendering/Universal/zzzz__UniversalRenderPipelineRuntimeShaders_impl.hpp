@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b71b4;
+  constexpr static std::size_t addrs = 0x6ce52c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b71bc;
+  constexpr static std::size_t addrs = 0x6ce52cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::get_fallbackErrorShader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b71c4;
+  constexpr static std::size_t addrs = 0x6ce52d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::set_fallbackErrorShader)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b71cc;
+  constexpr static std::size_t addrs = 0x6ce52dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::get_blitHDROverlay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b723c;
+  constexpr static std::size_t addrs = 0x6ce534c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::set_blitHDROverlay)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b7244;
+  constexpr static std::size_t addrs = 0x6ce5354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::get_coreBlitPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b72b4;
+  constexpr static std::size_t addrs = 0x6ce53c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::set_coreBlitPS)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b72bc;
+  constexpr static std::size_t addrs = 0x6ce53cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::get_coreBlitColorAndDepthPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b732c;
+  constexpr static std::size_t addrs = 0x6ce543c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::set_coreBlitColorAndDepthPS)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b7334;
+  constexpr static std::size_t addrs = 0x6ce5444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::get_samplingPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b73a4;
+  constexpr static std::size_t addrs = 0x6ce54b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,11 +165,68 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::set_samplingPS)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b73ac;
+  constexpr static std::size_t addrs = 0x6ce54bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(),
                                                                                            { "set_samplingPS", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders.GetOriginalTerrainDetailLitShader
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::GetOriginalTerrainDetailLitShader)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ce552c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(), { "GetOriginalTerrainDetailLitShader", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders.GetOriginalTerrainDetailGrassBillboardShader
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::GetOriginalTerrainDetailGrassBillboardShader)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ce5534;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(), { "GetOriginalTerrainDetailGrassBillboardShader", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders.GetOriginalTerrainDetailGrassShader
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::GetOriginalTerrainDetailGrassShader)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ce553c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(), { "GetOriginalTerrainDetailGrassShader", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders.ClearOriginalTerrainDetailShaders
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::ClearOriginalTerrainDetailShaders)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6ce5544;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(), { "ClearOriginalTerrainDetailShaders", {}, {} })));
     return ___internal_method;
   }
 };
@@ -178,8 +235,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::get_terrainDetailLitShader)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b741c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6ce5550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,8 +249,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::set_terrainDetailLitShader)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b7424;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6ce55e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(),
@@ -206,8 +263,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::get_terrainDetailGrassBillboardShader)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b7494;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6ce56f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,8 +277,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::set_terrainDetailGrassBillboardShader)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b749c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6ce5784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(),
@@ -234,8 +291,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::get_terrainDetailGrassShader)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b750c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6ce5890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -248,8 +305,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::set_terrainDetailGrassShader)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b7514;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6ce5924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(),
@@ -263,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68b7584;
+  constexpr static std::size_t addrs = 0x6ce5a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -438,6 +495,27 @@ inline void UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeSha
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(),
                                                                                          { "set_samplingPS", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::GetOriginalTerrainDetailLitShader() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(), { "GetOriginalTerrainDetailLitShader", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::GetOriginalTerrainDetailGrassBillboardShader() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(), { "GetOriginalTerrainDetailGrassBillboardShader", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::GetOriginalTerrainDetailGrassShader() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(), { "GetOriginalTerrainDetailGrassShader", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::ClearOriginalTerrainDetailShaders() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*>(), { "ClearOriginalTerrainDetailShaders", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders::get_terrainDetailLitShader() {
   static auto* ___internal_method =

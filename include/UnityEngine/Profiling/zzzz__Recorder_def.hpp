@@ -45,14 +45,14 @@ public:
 
   __declspec(property(get = get_sampleBlockCount)) int32_t sampleBlockCount;
 
-  /// @brief Method Finalize, addr 0x6afb678, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6f56864, size 0x60, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityEngine::Profiling::Recorder* New_ctor();
 
   static inline ::UnityEngine::Profiling::Recorder* New_ctor(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle handle);
 
-  /// @brief Method SetEnabled, addr 0x6afb6e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetEnabled, addr 0x6f568d4, size 0x68, virtual false, abstract: false, final false
   inline void SetEnabled(bool state);
 
   constexpr ::Unity::Profiling::ProfilerRecorder const& __cordl_internal_get_m_RecorderCPU() const;
@@ -67,32 +67,32 @@ public:
 
   constexpr void __cordl_internal_set_m_RecorderGPU(::Unity::Profiling::ProfilerRecorder value);
 
-  /// @brief Method .ctor, addr 0x6afb5e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f567d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6afb5e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f567d4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle handle);
 
   static inline ::UnityEngine::Profiling::Recorder* getStaticF_s_InvalidRecorder();
 
-  /// @brief Method get_elapsedNanoseconds, addr 0x6afb750, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_elapsedNanoseconds, addr 0x6f5693c, size 0x34, virtual false, abstract: false, final false
   inline int64_t get_elapsedNanoseconds();
 
-  /// @brief Method get_enabled, addr 0x6afb6d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x6f568c4, size 0xc, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_gpuElapsedNanoseconds, addr 0x6afb784, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_gpuElapsedNanoseconds, addr 0x6f56970, size 0x34, virtual false, abstract: false, final false
   inline int64_t get_gpuElapsedNanoseconds();
 
-  /// @brief Method get_gpuSampleBlockCount, addr 0x6afb818, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_gpuSampleBlockCount, addr 0x6f56a04, size 0x60, virtual false, abstract: false, final false
   inline int32_t get_gpuSampleBlockCount();
 
-  /// @brief Method get_sampleBlockCount, addr 0x6afb7b8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_sampleBlockCount, addr 0x6f569a4, size 0x60, virtual false, abstract: false, final false
   inline int32_t get_sampleBlockCount();
 
   static inline void setStaticF_s_InvalidRecorder(::UnityEngine::Profiling::Recorder* value);
 
-  /// @brief Method set_enabled, addr 0x6afb6e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x6f568d0, size 0x4, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
 protected:
@@ -110,7 +110,7 @@ public:
   Recorder(Recorder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10018 };
 
   /// @brief Field s_RecorderDefaultOptions value: I32(153)
   static ::Unity::Profiling::ProfilerRecorderOptions const s_RecorderDefaultOptions;

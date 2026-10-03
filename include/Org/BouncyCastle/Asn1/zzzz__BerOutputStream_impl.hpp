@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerOutputStream::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Asn1::BerOutputStream::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3689420;
+  constexpr static std::size_t addrs = 0x39126bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerOutputStream::*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::BerOutputStream::WriteObject)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x368ad0c;
+  constexpr static std::size_t addrs = 0x3913fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

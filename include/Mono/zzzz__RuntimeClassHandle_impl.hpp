@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::RuntimeClassHandle::*)(::Mono::RuntimeStructs_MonoClass*)>(&::Mono::RuntimeClassHandle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aad984;
+  constexpr static std::size_t addrs = 0x5ec5868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::RuntimeClassHandle::*)(::System::IntPtr)>(&::Mono::RuntimeClassHandle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aad98c;
+  constexpr static std::size_t addrs = 0x5ec5870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::RuntimeClassHandle>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::RuntimeStructs_MonoClass* (::Mono::RuntimeClassHandle::*)()>(&::Mono::RuntimeClassHandle::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aad994;
+  constexpr static std::size_t addrs = 0x5ec5878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::RuntimeClassHandle>(), { "get_Value", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::RuntimeClassHandle::*)(::System::Object*)>(&::Mono::RuntimeClassHandle::Equals)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5aad99c;
+  constexpr static std::size_t addrs = 0x5ec5880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::RuntimeClassHandle>(), { ::i2c::class_of<::Mono::RuntimeClassHandle>(), 0 }));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::RuntimeClassHandle::*)()>(&::Mono::RuntimeClassHandle::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aada84;
+  constexpr static std::size_t addrs = 0x5ec5968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::RuntimeClassHandle>(), { ::i2c::class_of<::Mono::RuntimeClassHandle>(), 2 }));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Mono::RuntimeStructs_MonoClass*)>(&::Mono::RuntimeClassHandle::GetTypeFromClass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aada8c;
+  constexpr static std::size_t addrs = 0x5ec5970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::RuntimeTypeHandle (::Mono::RuntimeClassHandle::*)()>(&::Mono::RuntimeClassHandle::GetTypeHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5aada94;
+  constexpr static std::size_t addrs = 0x5ec5978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::RuntimeClassHandle>(), { "GetTypeHandle", {}, {} })));

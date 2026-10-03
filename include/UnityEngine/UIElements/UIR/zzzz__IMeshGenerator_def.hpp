@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/valuew.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMeshGenerator)
@@ -23,7 +22,7 @@ namespace UnityEngine::UIElements::UIR {
 struct MeshGenerator_RectangleParams;
 }
 namespace UnityEngine::UIElements {
-class UITKTextJobSystem;
+class TextJobSystem;
 }
 namespace UnityEngine::UIElements {
 struct Vertex;
@@ -38,7 +37,7 @@ namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-struct Vector2;
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -56,19 +55,22 @@ public:
   // Declarations
   __declspec(property(put = set_currentElement)) ::UnityEngine::UIElements::VisualElement* currentElement;
 
-  __declspec(property(get = get_textJobSystem)) ::UnityEngine::UIElements::UITKTextJobSystem* textJobSystem;
+  __declspec(property(get = get_textJobSystem)) ::UnityEngine::UIElements::TextJobSystem* textJobSystem;
 
   /// @brief Method DrawBorder, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawBorder(::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams borderParams);
-
-  /// @brief Method DrawNativeText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void DrawNativeText(::ValueW<8, "UnityEngine.TextCore.Text", "NativeTextInfo"> textInfo, ::UnityEngine::Vector2 pos);
 
   /// @brief Method DrawRectangle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawRectangle(::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams rectParams);
 
   /// @brief Method DrawRectangleRepeat, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawRectangleRepeat(::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams rectParams, ::UnityEngine::Rect totalRect, float_t scaledPixelsPerPoint);
+
+  /// @brief Method DrawText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void DrawText(::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>* vertices,
+                       ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<uint16_t>>* indices,
+                       ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture2D>>* atlases,
+                       ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>* renderModes, ::System::Collections::Generic::List_1<float_t>* sdfScales);
 
   /// @brief Method DrawText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawText(::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>* vertices,
@@ -80,7 +82,7 @@ public:
   inline void ScheduleJobs(Il2CppObject* mgc);
 
   /// @brief Method get_textJobSystem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::UITKTextJobSystem* get_textJobSystem();
+  inline ::UnityEngine::UIElements::TextJobSystem* get_textJobSystem();
 
   /// @brief Method set_currentElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_currentElement(::UnityEngine::UIElements::VisualElement* value);
@@ -90,7 +92,7 @@ public:
   IMeshGenerator(IMeshGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5312 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5419 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

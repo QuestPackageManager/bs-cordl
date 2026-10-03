@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* (*)(::Oculus::Platform::Models::ChallengeEntryList*)>(
     &::Oculus::Platform::Challenges::GetNextEntries)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5de01d0;
+  constexpr static std::size_t addrs = 0x61f9db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* (*)(::Oculus::Platform::Models::ChallengeEntryList*)>(
     &::Oculus::Platform::Challenges::GetPreviousEntries)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5de0360;
+  constexpr static std::size_t addrs = 0x61f9f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* (*)(::Oculus::Platform::Models::ChallengeList*)>(
     &::Oculus::Platform::Challenges::GetNextChallenges)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5de04f0;
+  constexpr static std::size_t addrs = 0x61fa0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* (*)(::Oculus::Platform::Models::ChallengeList*)>(
     &::Oculus::Platform::Challenges::GetPreviousChallenges)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5de0680;
+  constexpr static std::size_t addrs = 0x61fa264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(::StringW, ::Oculus::Platform::ChallengeOptions*)>(
     &::Oculus::Platform::Challenges::Create)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5de0810;
+  constexpr static std::size_t addrs = 0x61fa3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&::Oculus::Platform::Challenges::DeclineInvite)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5de0988;
+  constexpr static std::size_t addrs = 0x61fa56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)(uint64_t)>(&::Oculus::Platform::Challenges::Delete)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5de0af0;
+  constexpr static std::size_t addrs = 0x61fa6d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "Delete", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&::Oculus::Platform::Challenges::Get)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5de0c4c;
+  constexpr static std::size_t addrs = 0x61fa830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "Get", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -127,7 +127,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Reque
                                                                                                                                            ::Oculus::Platform::LeaderboardStartAt)>(
     &::Oculus::Platform::Challenges::GetEntries)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5de0db4;
+  constexpr static std::size_t addrs = 0x61fa998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* (*)(uint64_t, int32_t, uint64_t)>(
     &::Oculus::Platform::Challenges::GetEntriesAfterRank)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5de0f3c;
+  constexpr static std::size_t addrs = 0x61fab20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* (*)(uint64_t, int32_t, ::Oculus::Platform::LeaderboardStartAt, ::ArrayW<uint64_t>)>(
         &::Oculus::Platform::Challenges::GetEntriesByIds)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x5de10bc;
+  constexpr static std::size_t addrs = 0x61faca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* (*)(::Oculus::Platform::ChallengeOptions*, int32_t)>(
     &::Oculus::Platform::Challenges::GetList)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5de1258;
+  constexpr static std::size_t addrs = 0x61fae3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(),
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&::Oculus::Platform::Challenges::Join)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5de13d0;
+  constexpr static std::size_t addrs = 0x61fafb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "Join", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&::Oculus::Platform::Challenges::Leave)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5de1538;
+  constexpr static std::size_t addrs = 0x61fb11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "Leave", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(uint64_t, ::Oculus::Platform::ChallengeOptions*)>(
     &::Oculus::Platform::Challenges::UpdateInfo)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5de16a0;
+  constexpr static std::size_t addrs = 0x61fb284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

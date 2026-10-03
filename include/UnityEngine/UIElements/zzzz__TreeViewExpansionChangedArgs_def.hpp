@@ -56,19 +56,19 @@ public:
 
   constexpr void __cordl_internal_set__isExpanded_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6d2c95c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70a82e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_id, addr 0x6d2c944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x70a82c8, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isAppliedToAllChildren, addr 0x6d2c954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isAppliedToAllChildren, addr 0x70a82d8, size 0x8, virtual false, abstract: false, final false
   inline void set_isAppliedToAllChildren(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isExpanded, addr 0x6d2c94c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isExpanded, addr 0x70a82d0, size 0x8, virtual false, abstract: false, final false
   inline void set_isExpanded(bool value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   TreeViewExpansionChangedArgs(TreeViewExpansionChangedArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4118 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4120 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]

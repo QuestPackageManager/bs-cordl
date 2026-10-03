@@ -1,0 +1,67 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/FixedBuffer4_1.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(FixedBuffer4_1)
+// Forward declare root types
+namespace UnityEngine::UIElements::Layout {
+template <typename T> struct FixedBuffer4_1;
+}
+// Write type traits
+MARK_GEN_VAL_T(::UnityEngine::UIElements::Layout::FixedBuffer4_1);
+DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::Layout::FixedBuffer4_1, "UnityEngine.UIElements.Layout", "FixedBuffer4`1");
+// [DefaultMember("Item")]
+// Dependencies
+namespace UnityEngine::UIElements::Layout {
+// cpp template
+template <typename T>
+// Is value type: true
+// CS Name: UnityEngine.UIElements.Layout.FixedBuffer4`1<T>
+struct CORDL_TYPE FixedBuffer4_1 {
+public:
+  // Declarations
+  __declspec(property(get = get_Item)) T Item[];
+
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::by_ref<T> get_Item(int32_t index);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FixedBuffer4_1();
+
+  // Ctor Parameters [CppParam { name: "__0", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "__1", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "__2", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "__3", ty: "T", modifiers: "", def_value: None, comment: None }]
+  constexpr FixedBuffer4_1(T __0, T __1, T __2, T __3) noexcept;
+
+  /// @brief Field Length offset 0xffffffff size 0x4
+  static constexpr int32_t Length{ static_cast<int32_t>(0x4) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5540 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+
+  /// [SerializeField]
+  /// @brief Field __0, offset: 0x0, size: 0x8, def value: None
+  T __0;
+
+  /// [SerializeField]
+  /// @brief Field __1, offset: 0x8, size: 0x8, def value: None
+  T __1;
+
+  /// [SerializeField]
+  /// @brief Field __2, offset: 0x10, size: 0x8, def value: None
+  T __2;
+
+  /// [SerializeField]
+  /// @brief Field __3, offset: 0x18, size: 0x8, def value: None
+  T __3;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+} // namespace UnityEngine::UIElements::Layout

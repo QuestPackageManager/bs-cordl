@@ -35,7 +35,7 @@ public:
   constexpr PerformanceToolLauncherOverrideConfig(bool enableAutoplay, bool enableRecording) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24444 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };

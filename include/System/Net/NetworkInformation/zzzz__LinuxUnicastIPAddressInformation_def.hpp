@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_address(::System::Net::IPAddress* value);
 
-  /// @brief Method .ctor, addr 0x6355e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x677dd8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* address);
 
-  /// @brief Method get_Address, addr 0x6355e28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Address, addr 0x677dd94, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::IPAddress* get_Address();
 
 protected:
@@ -56,7 +56,7 @@ public:
   LinuxUnicastIPAddressInformation(LinuxUnicastIPAddressInformation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12635 };
 
   /// @brief Field address, offset: 0x10, size: 0x8, def value: None
   ::System::Net::IPAddress* ___address;

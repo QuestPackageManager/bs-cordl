@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeallocateOnJobCompletionAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a5fe60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eb1b3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   NativeContainerSupportsDeallocateOnJobCompletionAttribute(NativeContainerSupportsDeallocateOnJobCompletionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9588 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,7 +26,7 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::BerNull* Instance;
 
-  /// @brief Method Encode, addr 0x36897cc, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x3912a68, size 0xe4, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   /// @brief [Obsolete("Use static Instance object")]
@@ -35,10 +35,10 @@ public:
   static inline ::Org::BouncyCastle::Asn1::BerNull* New_ctor(int32_t dummy);
 
   /// [Obsolete("Use static Instance object")]
-  /// @brief Method .ctor, addr 0x368971c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39129b8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3689774, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3912a10, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(int32_t dummy);
 
   static inline ::Org::BouncyCastle::Asn1::BerNull* getStaticF_Instance();

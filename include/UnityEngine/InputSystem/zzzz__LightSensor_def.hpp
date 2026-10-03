@@ -33,15 +33,15 @@ public:
   /// @brief [InputControl(displayName = "Light Level", noisy = true)]
   __declspec(property(get = get_lightLevel, put = set_lightLevel)) ::UnityEngine::InputSystem::Controls::AxisControl* lightLevel;
 
-  /// @brief Method FinishSetup, addr 0x6566838, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6992080, size 0x70, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x6566758, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x6991fa0, size 0x50, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::LightSensor* New_ctor();
 
-  /// @brief Method OnRemoved, addr 0x65667a8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x6991ff0, size 0x90, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__lightLevel_k__BackingField() const;
@@ -50,27 +50,27 @@ public:
 
   constexpr void __cordl_internal_set__lightLevel_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x65668a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69920f0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::LightSensor* getStaticF__current_k__BackingField();
 
   /// [CompilerGenerated]
-  /// @brief Method get_current, addr 0x65666bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x6991f04, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LightSensor* get_current();
 
   /// [CompilerGenerated]
-  /// @brief Method get_lightLevel, addr 0x65666ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightLevel, addr 0x6991ef4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_lightLevel();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::LightSensor* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_current, addr 0x6566708, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x6991f50, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::LightSensor* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_lightLevel, addr 0x65666b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightLevel, addr 0x6991efc, size 0x8, virtual false, abstract: false, final false
   inline void set_lightLevel(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
 protected:
@@ -88,7 +88,7 @@ public:
   LightSensor(LightSensor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10728 };
 
   /// [CompilerGenerated]
   /// @brief Field <lightLevel>k__BackingField, offset: 0x188, size: 0x8, def value: None

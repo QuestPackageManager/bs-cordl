@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE ColorSchemeConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromNetSerializable, addr 0x5a27180, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method FromNetSerializable, addr 0x5cf5b68, size 0x194, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorScheme* FromNetSerializable(::GlobalNamespace::ColorSchemeNetSerializable serialized);
 
 protected:
@@ -43,7 +43,7 @@ public:
   ColorSchemeConverter(ColorSchemeConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6627 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,6 +3,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::PointerMoveEvent___c._ctor
@@ -10,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerMoveEvent___c::*)()>(&::UnityEngine::UIElements::PointerMoveEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6da46a4;
+  constexpr static std::size_t addrs = 0x7232ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent___c*>(), { ".ctor", {}, {} })));
@@ -23,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PointerMoveEvent* (::UnityEngine::UIElements::PointerMoveEvent___c::*)()>(
     &::UnityEngine::UIElements::PointerMoveEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6da46a8;
+  constexpr static std::size_t addrs = 0x7232ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent___c*>(), { "<.cctor>b__0_0", {}, {} })));
@@ -55,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PointerMoveEvent::*)()>(&::UnityEngine::UIElements::PointerMoveEvent::get_isHandledByDraggable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da40bc;
+  constexpr static std::size_t addrs = 0x723296c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), { "get_isHandledByDraggable", {}, {} })));
@@ -67,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerMoveEvent::*)(bool)>(&::UnityEngine::UIElements::PointerMoveEvent::set_isHandledByDraggable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da40c4;
+  constexpr static std::size_t addrs = 0x7232974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PointerMoveEvent::*)()>(&::UnityEngine::UIElements::PointerMoveEvent::get_isPointerDown)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6da40cc;
+  constexpr static std::size_t addrs = 0x723297c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), { "get_isPointerDown", {}, {} })));
@@ -92,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PointerMoveEvent::*)()>(&::UnityEngine::UIElements::PointerMoveEvent::get_isPointerUp)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6da413c;
+  constexpr static std::size_t addrs = 0x72329ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), { "get_isPointerUp", {}, {} })));
@@ -103,8 +105,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerMoveEvent::*)()>(&::UnityEngine::UIElements::PointerMoveEvent::Init)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6da41b0;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x7232a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,8 +118,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerMoveEvent::*)()>(&::UnityEngine::UIElements::PointerMoveEvent::LocalInit)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6da4204;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x7232aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), { "LocalInit", {}, {} })));
@@ -128,11 +130,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerMoveEvent::*)()>(&::UnityEngine::UIElements::PointerMoveEvent::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6da42b4;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x7232b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PointerMoveEvent.GetPooledCompatibilityMouseEvent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IMouseEvent* (::UnityEngine::UIElements::PointerMoveEvent::*)()>(
+    &::UnityEngine::UIElements::PointerMoveEvent::GetPooledCompatibilityMouseEvent)> {
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x7232bcc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), { ::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), 45 }));
     return ___internal_method;
   }
 };
@@ -141,8 +157,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerMoveEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::PointerMoveEvent::PreDispatch)> {
-  constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x6da4308;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x7232cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,11 +172,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerMoveEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::PointerMoveEvent::PostDispatch)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6da4548;
+  constexpr static std::size_t addrs = 0x7232d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), { ::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), 9 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PointerMoveEvent.Dispatch
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerMoveEvent::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
+    &::UnityEngine::UIElements::PointerMoveEvent::Dispatch)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x7232e34;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), { ::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -206,6 +236,11 @@ inline void UnityEngine::UIElements::PointerMoveEvent::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::IMouseEvent* UnityEngine::UIElements::PointerMoveEvent::GetPooledCompatibilityMouseEvent() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), 45 })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IMouseEvent*>(this, ___internal_method);
+}
 inline void UnityEngine::UIElements::PointerMoveEvent::PreDispatch(::UnityEngine::UIElements::IPanel* panel) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), 7 })));
@@ -214,6 +249,11 @@ inline void UnityEngine::UIElements::PointerMoveEvent::PreDispatch(::UnityEngine
 inline void UnityEngine::UIElements::PointerMoveEvent::PostDispatch(::UnityEngine::UIElements::IPanel* panel) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), 9 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, panel);
+}
+inline void UnityEngine::UIElements::PointerMoveEvent::Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::PointerMoveEvent*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, panel);
 }
 inline ::UnityEngine::UIElements::PointerMoveEvent* UnityEngine::UIElements::PointerMoveEvent::New_ctor() {

@@ -6,12 +6,46 @@
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__StringComparison_def.hpp"
+//  Writing Method size for method: ::System::MemoryExtensions.Contains
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::StringComparison)>(
+    &::System::MemoryExtensions::Contains)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6063110;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::System::MemoryExtensions*>(),
+            { "Contains", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::StringComparison>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::MemoryExtensions.Equals
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::StringComparison)>(
+    &::System::MemoryExtensions::Equals)> {
+  constexpr static std::size_t size = 0x2fc;
+  constexpr static std::size_t addrs = 0x6063354;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::System::MemoryExtensions*>(),
+            { "Equals", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::StringComparison>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::MemoryExtensions.EqualsOrdinal
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>)>(&::System::MemoryExtensions::EqualsOrdinal)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5c4a4f4;
+  constexpr static std::size_t addrs = 0x6063650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>)>(&::System::MemoryExtensions::EqualsOrdinalIgnoreCase)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5c4a5ec;
+  constexpr static std::size_t addrs = 0x6063748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, char16_t)>(&::System::MemoryExtensions::Contains)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5c4a6ac;
+  constexpr static std::size_t addrs = 0x6063808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,12 +82,29 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOn
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::MemoryExtensions.IndexOf
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::StringComparison)>(
+    &::System::MemoryExtensions::IndexOf)> {
+  constexpr static std::size_t size = 0x22c;
+  constexpr static std::size_t addrs = 0x6063128;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::System::MemoryExtensions*>(),
+            { "IndexOf", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::StringComparison>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::MemoryExtensions.ToUpperInvariant
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<char16_t>, ::System::Span_1<char16_t>)>(&::System::MemoryExtensions::ToUpperInvariant)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x5c4a750;
+  constexpr static std::size_t addrs = 0x60638ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::StringComparison)>(
     &::System::MemoryExtensions::EndsWith)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x5c4a8e8;
+  constexpr static std::size_t addrs = 0x6063a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,12 +130,29 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOn
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::MemoryExtensions.StartsWith
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::StringComparison)>(
+    &::System::MemoryExtensions::StartsWith)> {
+  constexpr static std::size_t size = 0x308;
+  constexpr static std::size_t addrs = 0x6063d54;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::System::MemoryExtensions*>(),
+            { "StartsWith", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::StringComparison>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::MemoryExtensions.AsSpan
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::StringW)>(&::System::MemoryExtensions::AsSpan)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5c4abf8;
+  constexpr static std::size_t addrs = 0x606405c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::MemoryExtensions*>(), { "AsSpan", {}, { ::i2c::type_of<::StringW>() } })));
@@ -96,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::StringW, int32_t)>(&::System::MemoryExtensions::AsSpan)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5c4ac50;
+  constexpr static std::size_t addrs = 0x60640b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::StringW, int32_t, int32_t)>(&::System::MemoryExtensions::AsSpan)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5c4acd0;
+  constexpr static std::size_t addrs = 0x6064134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::MemoryExtensions::Trim)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5c41394;
+  constexpr static std::size_t addrs = 0x6059f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::MemoryExtensions::TrimStart)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5c4ad64;
+  constexpr static std::size_t addrs = 0x60641c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::MemoryExtensions::TrimEnd)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5c4ae54;
+  constexpr static std::size_t addrs = 0x60642b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,6 +225,22 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<
     return ___internal_method;
   }
 };
+inline bool System::MemoryExtensions::Contains(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::StringComparison comparisonType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::System::MemoryExtensions*>(),
+          { "Contains", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::StringComparison>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, span, value, comparisonType);
+}
+inline bool System::MemoryExtensions::Equals(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> other, ::System::StringComparison comparisonType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::System::MemoryExtensions*>(),
+          { "Equals", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::StringComparison>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, span, other, comparisonType);
+}
 inline bool System::MemoryExtensions::EqualsOrdinal(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::MemoryExtensions*>(),
@@ -175,6 +259,14 @@ inline bool System::MemoryExtensions::Contains(::System::ReadOnlySpan_1<char16_t
                    (::i2c::find_method(::i2c::class_of<::System::MemoryExtensions*>(), { "Contains", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<char16_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, source, value);
 }
+inline int32_t System::MemoryExtensions::IndexOf(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::StringComparison comparisonType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::System::MemoryExtensions*>(),
+          { "IndexOf", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::StringComparison>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, span, value, comparisonType);
+}
 inline int32_t System::MemoryExtensions::ToUpperInvariant(::System::ReadOnlySpan_1<char16_t> source, ::System::Span_1<char16_t> destination) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::MemoryExtensions*>(),
@@ -187,6 +279,14 @@ inline bool System::MemoryExtensions::EndsWith(::System::ReadOnlySpan_1<char16_t
       (::i2c::find_method(
           ::i2c::class_of<::System::MemoryExtensions*>(),
           { "EndsWith", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::StringComparison>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, span, value, comparisonType);
+}
+inline bool System::MemoryExtensions::StartsWith(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::StringComparison comparisonType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::System::MemoryExtensions*>(),
+          { "StartsWith", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::System::StringComparison>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, span, value, comparisonType);
 }
 template <typename T> inline ::System::Span_1<T> System::MemoryExtensions::AsSpan(::ArrayW<T> array, int32_t start) {

@@ -48,64 +48,64 @@ public:
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)2, (System.Runtime.ConstrainedExecution.Cer)1)]
-  /// @brief Method Add, addr 0x5c92cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x60ac840, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr Add(::System::IntPtr pointer, int32_t offset);
 
-  /// @brief Method Equals, addr 0x5c92c3c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60ac784, size 0x34, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x5c8ed08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x60a8850, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method IsNull, addr 0x5c92d10, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x60ac858, size 0x10, virtual false, abstract: false, final false
   inline bool IsNull();
 
-  /// @brief Method System.IEquatable<System.IntPtr>.Equals, addr 0x5c92d20, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.IEquatable<System.IntPtr>.Equals, addr 0x60ac868, size 0x10, virtual true, abstract: false, final true
   inline bool System_IEquatable_System_IntPtr__Equals(::System::IntPtr other);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5c92b88, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x60ac6d0, size 0xac, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method ToInt32, addr 0x5c92c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x60ac7b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t ToInt32();
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method ToInt64, addr 0x5c92c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x60ac77c, size 0x8, virtual false, abstract: false, final false
   inline int64_t ToInt64();
 
   /// [CLSCompliant(false)]
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method ToPointer, addr 0x5c92c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToPointer, addr 0x60ac7c0, size 0x8, virtual false, abstract: false, final false
   inline void* ToPointer();
 
-  /// @brief Method ToString, addr 0x5c92c80, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x60ac7c8, size 0x24, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x5c92ca4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x60ac7ec, size 0x20, virtual false, abstract: false, final false
   inline ::StringW ToString(::StringW format);
 
-  /// @brief Method .ctor, addr 0x5c92b1c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ac664, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)2, (System.Runtime.ConstrainedExecution.Cer)1)]
-  /// @brief Method .ctor, addr 0x5c92b00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ac648, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)2, (System.Runtime.ConstrainedExecution.Cer)1)]
-  /// @brief Method .ctor, addr 0x5c92b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ac654, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)2, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// [CLSCompliant(false)]
-  /// @brief Method .ctor, addr 0x5c92b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ac65c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(void* value);
 
   static inline ::System::IntPtr getStaticF_Zero();
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method get_Size, addr 0x5c8eb84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x60a86cc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t get_Size();
 
   /// @brief Convert to "::System::IEquatable_1<::System::IntPtr>"
@@ -115,42 +115,42 @@ public:
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)2, (System.Runtime.ConstrainedExecution.Cer)1)]
-  /// @brief Method op_Addition, addr 0x5c92d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x60ac848, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Addition(::System::IntPtr pointer, int32_t offset);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method op_Equality, addr 0x5c92cc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x60ac80c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::IntPtr value1, ::System::IntPtr value2);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)2, (System.Runtime.ConstrainedExecution.Cer)1)]
-  /// @brief Method op_Explicit, addr 0x5c92cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x60ac824, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(int32_t value);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)2, (System.Runtime.ConstrainedExecution.Cer)1)]
-  /// @brief Method op_Explicit, addr 0x5c92ce4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x60ac82c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(int64_t value);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)2, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// [CLSCompliant(false)]
-  /// @brief Method op_Explicit, addr 0x5c92ce8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x60ac830, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(void* value);
 
-  /// @brief Method op_Explicit, addr 0x5c92cec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x60ac834, size 0x4, virtual false, abstract: false, final false
   static inline int32_t op_Explicit_int32_t(::System::IntPtr value);
 
-  /// @brief Method op_Explicit, addr 0x5c92cf0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x60ac838, size 0x4, virtual false, abstract: false, final false
   static inline int64_t op_Explicit_int64_t(::System::IntPtr value);
 
   /// [CLSCompliant(false)]
-  /// @brief Method op_Explicit, addr 0x5c92cf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x60ac83c, size 0x4, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::System::IntPtr value);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method op_Inequality, addr 0x5c92cd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x60ac818, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::IntPtr value1, ::System::IntPtr value2);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)2, (System.Runtime.ConstrainedExecution.Cer)1)]
-  /// @brief Method op_Subtraction, addr 0x5c92d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x60ac850, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Subtraction(::System::IntPtr pointer, int32_t offset);
 
   static inline void setStaticF_Zero(::System::IntPtr value);

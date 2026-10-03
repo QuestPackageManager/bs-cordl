@@ -30,19 +30,19 @@ class CORDL_TYPE PointerEventDataExtension : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method GetRay, addr 0x5e4f3a0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetRay, addr 0x6269134, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Ray GetRay(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
   /// [Extension]
-  /// @brief Method GetSwipeStart, addr 0x5e4f434, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetSwipeStart, addr 0x62691c8, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetSwipeStart(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
   /// [Extension]
-  /// @brief Method IsVRPointer, addr 0x5e4f324, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsVRPointer, addr 0x62690b8, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsVRPointer(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
   /// [Extension]
-  /// @brief Method SetSwipeStart, addr 0x5e4f4b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetSwipeStart, addr 0x6269248, size 0x90, virtual false, abstract: false, final false
   static inline void SetSwipeStart(::UnityEngine::EventSystems::PointerEventData* pointerEventData, ::UnityEngine::Vector2 start);
 
 protected:
@@ -60,7 +60,7 @@ public:
   PointerEventDataExtension(PointerEventDataExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8678 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

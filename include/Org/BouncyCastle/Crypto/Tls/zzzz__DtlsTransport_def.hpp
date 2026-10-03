@@ -39,21 +39,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCloseable*() noexcept;
 
-  /// @brief Method Close, addr 0x346b33c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x36f45d8, size 0x20, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetReceiveLimit, addr 0x346ac04, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetReceiveLimit, addr 0x36f3ea0, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetReceiveLimit();
 
-  /// @brief Method GetSendLimit, addr 0x346ac24, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetSendLimit, addr 0x36f3ec0, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetSendLimit();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsTransport* New_ctor(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer);
 
-  /// @brief Method Receive, addr 0x346ac44, size 0x3a4, virtual true, abstract: false, final false
+  /// @brief Method Receive, addr 0x36f3ee0, size 0x3a4, virtual true, abstract: false, final false
   inline int32_t Receive(::ArrayW<uint8_t> buf, int32_t off, int32_t len, int32_t waitMillis);
 
-  /// @brief Method Send, addr 0x346afe8, size 0x354, virtual true, abstract: false, final false
+  /// @brief Method Send, addr 0x36f4284, size 0x354, virtual true, abstract: false, final false
   inline void Send(::ArrayW<uint8_t> buf, int32_t off, int32_t len);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* const& __cordl_internal_get_mRecordLayer() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_mRecordLayer(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* value);
 
-  /// @brief Method .ctor, addr 0x346abfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36f3e98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::DatagramTransport"

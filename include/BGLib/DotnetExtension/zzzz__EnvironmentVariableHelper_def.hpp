@@ -22,10 +22,10 @@ namespace BGLib::DotnetExtension {
 class CORDL_TYPE EnvironmentVariableHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetDirectoryPath, addr 0x330f27c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetDirectoryPath, addr 0x3597d40, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW GetDirectoryPath(::StringW variableName);
 
-  /// @brief Method SetDirectoryPath, addr 0x330f320, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method SetDirectoryPath, addr 0x3597de4, size 0x120, virtual false, abstract: false, final false
   static inline void SetDirectoryPath(::StringW variableName, ::StringW path);
 
 protected:
@@ -43,7 +43,7 @@ public:
   EnvironmentVariableHelper(EnvironmentVariableHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21265 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

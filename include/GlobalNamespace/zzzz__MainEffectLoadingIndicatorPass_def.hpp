@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_upWS(::UnityEngine::Vector4 value);
 
-  /// @brief Method .ctor, addr 0x5f45858, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6360f5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -128,7 +128,7 @@ public:
   MainEffectLoadingIndicatorPass_PassData(MainEffectLoadingIndicatorPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21131 };
 
   /// @brief Field spinnerMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___spinnerMaterial;
@@ -179,10 +179,10 @@ public:
 
   static inline ::GlobalNamespace::MainEffectLoadingIndicatorPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__18_0, addr 0x5f458b4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__18_0, addr 0x6360fb8, size 0x15c, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__18_0(::GlobalNamespace::MainEffectLoadingIndicatorPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x5f458b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6360fb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MainEffectLoadingIndicatorPass___c* getStaticF___9();
@@ -211,7 +211,7 @@ public:
   MainEffectLoadingIndicatorPass___c(MainEffectLoadingIndicatorPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20644 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21132 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -230,10 +230,10 @@ public:
 
   using __c = ::GlobalNamespace::MainEffectLoadingIndicatorPass___c;
 
-  /// @brief Field <secSinceShown>k__BackingField, offset 0xc0, size 0x4
+  /// @brief Field <secSinceShown>k__BackingField, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get__secSinceShown_k__BackingField, put = __cordl_internal_set__secSinceShown_k__BackingField)) float_t _secSinceShown_k__BackingField;
 
-  /// @brief Field _spinnerMaterial, offset 0xb8, size 0x8
+  /// @brief Field _spinnerMaterial, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__spinnerMaterial, put = __cordl_internal_set__spinnerMaterial)) ::UnityW<::UnityEngine::Material> _spinnerMaterial;
 
   /// @brief Field kMainTexId, offset 0xffffffff, size 0x4
@@ -253,13 +253,13 @@ public:
 
   __declspec(property(get = get_secSinceShown, put = set_secSinceShown)) float_t secSinceShown;
 
-  /// @brief Method Dispose, addr 0x5f434f0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x635ecb8, size 0x60, virtual false, abstract: false, final false
   inline void Dispose();
 
   static inline ::GlobalNamespace::MainEffectLoadingIndicatorPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* shader,
                                                                             ::UnityEngine::Texture2D* spinnerTexture);
 
-  /// @brief Method RecordRenderGraph, addr 0x5f450cc, size 0x64c, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x63607d0, size 0x64c, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
   constexpr float_t const& __cordl_internal_get__secSinceShown_k__BackingField() const;
@@ -274,7 +274,7 @@ public:
 
   constexpr void __cordl_internal_set__spinnerMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x5f43638, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x635ed70, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* shader, ::UnityEngine::Texture2D* spinnerTexture);
 
   static inline int32_t getStaticF_kMainTexId();
@@ -288,7 +288,7 @@ public:
   static inline int32_t getStaticF_kUpWSId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_secSinceShown, addr 0x5f450bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_secSinceShown, addr 0x63607c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_secSinceShown();
 
   static inline void setStaticF_kMainTexId(int32_t value);
@@ -302,7 +302,7 @@ public:
   static inline void setStaticF_kUpWSId(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_secSinceShown, addr 0x5f450c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_secSinceShown, addr 0x63607c8, size 0x8, virtual false, abstract: false, final false
   inline void set_secSinceShown(float_t value);
 
 protected:
@@ -320,7 +320,7 @@ public:
   MainEffectLoadingIndicatorPass(MainEffectLoadingIndicatorPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21133 };
 
   /// @brief Field kDistanceM offset 0xffffffff size 0x4
   static constexpr float_t kDistanceM{ static_cast<float_t>(0.75f) };
@@ -337,20 +337,20 @@ public:
   /// @brief Field kSpinnerVertexCount offset 0xffffffff size 0x4
   static constexpr int32_t kSpinnerVertexCount{ static_cast<int32_t>(0x6) };
 
-  /// @brief Field _spinnerMaterial, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _spinnerMaterial, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____spinnerMaterial;
 
   /// [CompilerGenerated]
-  /// @brief Field <secSinceShown>k__BackingField, offset: 0xc0, size: 0x4, def value: None
+  /// @brief Field <secSinceShown>k__BackingField, offset: 0x68, size: 0x4, def value: None
   float_t ____secSinceShown_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::MainEffectLoadingIndicatorPass, ____spinnerMaterial) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainEffectLoadingIndicatorPass, ____spinnerMaterial) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainEffectLoadingIndicatorPass, ____secSinceShown_k__BackingField) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainEffectLoadingIndicatorPass, ____secSinceShown_k__BackingField) == 0x68, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::MainEffectLoadingIndicatorPass) == 0xc8, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::MainEffectLoadingIndicatorPass) == 0x70, "Size mismatch!");
 
 } // namespace GlobalNamespace

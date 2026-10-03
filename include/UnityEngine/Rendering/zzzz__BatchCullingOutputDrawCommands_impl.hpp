@@ -6,21 +6,22 @@
 #include "UnityEngine/Rendering/zzzz__BatchDrawCommandProcedural_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchDrawCommand_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchDrawRange_def.hpp"
+#include "UnityEngine/zzzz__EntityId_def.hpp"
 // Ctor Parameters [CppParam { name: "drawCommands", ty: "::UnityEngine::Rendering::BatchDrawCommand*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indirectDrawCommands",
 // ty: "::UnityEngine::Rendering::BatchDrawCommandIndirect*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "proceduralDrawCommands", ty:
 // "::UnityEngine::Rendering::BatchDrawCommandProcedural*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "proceduralIndirectDrawCommands", ty:
 // "::UnityEngine::Rendering::BatchDrawCommandProceduralIndirect*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visibleInstances", ty: "int32_t*", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "drawRanges", ty: "::UnityEngine::Rendering::BatchDrawRange*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "instanceSortingPositions", ty: "float_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawCommandPickingInstanceIDs", ty: "int32_t*", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "drawCommandCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indirectDrawCommandCount", ty: "int32_t",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "proceduralDrawCommandCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "proceduralIndirectDrawCommandCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visibleInstanceCount", ty: "int32_t", modifiers: "", def_value:
+// "instanceSortingPositions", ty: "float_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawCommandPickingEntityIds", ty: "::UnityEngine::EntityId*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "drawCommandCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indirectDrawCommandCount", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "proceduralDrawCommandCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "proceduralIndirectDrawCommandCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visibleInstanceCount", ty: "int32_t", modifiers: "", def_value:
 // Some("{}"), comment: None }, CppParam { name: "drawRangeCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceSortingPositionFloatCount", ty:
 // "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::BatchCullingOutputDrawCommands::BatchCullingOutputDrawCommands(
     ::UnityEngine::Rendering::BatchDrawCommand* drawCommands, ::UnityEngine::Rendering::BatchDrawCommandIndirect* indirectDrawCommands,
     ::UnityEngine::Rendering::BatchDrawCommandProcedural* proceduralDrawCommands, ::UnityEngine::Rendering::BatchDrawCommandProceduralIndirect* proceduralIndirectDrawCommands,
-    int32_t* visibleInstances, ::UnityEngine::Rendering::BatchDrawRange* drawRanges, float_t* instanceSortingPositions, int32_t* drawCommandPickingInstanceIDs, int32_t drawCommandCount,
+    int32_t* visibleInstances, ::UnityEngine::Rendering::BatchDrawRange* drawRanges, float_t* instanceSortingPositions, ::UnityEngine::EntityId* drawCommandPickingEntityIds, int32_t drawCommandCount,
     int32_t indirectDrawCommandCount, int32_t proceduralDrawCommandCount, int32_t proceduralIndirectDrawCommandCount, int32_t visibleInstanceCount, int32_t drawRangeCount,
     int32_t instanceSortingPositionFloatCount) noexcept {
   this->drawCommands = drawCommands;
@@ -30,7 +31,7 @@ constexpr ::UnityEngine::Rendering::BatchCullingOutputDrawCommands::BatchCulling
   this->visibleInstances = visibleInstances;
   this->drawRanges = drawRanges;
   this->instanceSortingPositions = instanceSortingPositions;
-  this->drawCommandPickingInstanceIDs = drawCommandPickingInstanceIDs;
+  this->drawCommandPickingEntityIds = drawCommandPickingEntityIds;
   this->drawCommandCount = drawCommandCount;
   this->indirectDrawCommandCount = indirectDrawCommandCount;
   this->proceduralDrawCommandCount = proceduralDrawCommandCount;

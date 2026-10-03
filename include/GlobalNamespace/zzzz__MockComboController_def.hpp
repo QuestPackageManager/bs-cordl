@@ -52,26 +52,26 @@ public:
 
   constexpr void __cordl_internal_set_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x59f427c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e0f844, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x59f4124, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x5e0f6ec, size 0xac, virtual true, abstract: false, final true
   inline void add_comboBreakingEventHappenedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_comboDidChangeEvent, addr 0x59f3fa4, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_comboDidChangeEvent, addr 0x5e0f56c, size 0xc0, virtual true, abstract: false, final true
   inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
   /// @brief Convert to "::GlobalNamespace::IComboController"
   constexpr ::GlobalNamespace::IComboController* i___GlobalNamespace__IComboController() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x59f41d0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x5e0f798, size 0xac, virtual true, abstract: false, final true
   inline void remove_comboBreakingEventHappenedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_comboDidChangeEvent, addr 0x59f4064, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_comboDidChangeEvent, addr 0x5e0f62c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -89,7 +89,7 @@ public:
   MockComboController(MockComboController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6259 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6379 };
 
   /// [CompilerGenerated]
   /// @brief Field comboDidChangeEvent, offset: 0x10, size: 0x8, def value: None

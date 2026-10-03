@@ -3,9 +3,13 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(RenderGraphGraphicsAutomatedTests)
+namespace System {
+template <typename T> struct Nullable_1;
+}
 namespace System {
 template <typename T> class Predicate_1;
 }
@@ -40,10 +44,10 @@ public:
 
   static inline ::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x683ce08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c75a90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_activatedFromCommandLine>b__1_0, addr 0x683ce0c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <get_activatedFromCommandLine>b__1_0, addr 0x6c75a94, size 0x4c, virtual false, abstract: false, final false
   inline bool _get_activatedFromCommandLine_b__1_0(::StringW arg);
 
   static inline ::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c* getStaticF___9();
@@ -69,7 +73,7 @@ public:
   RenderGraphGraphicsAutomatedTests___c(RenderGraphGraphicsAutomatedTests___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12788 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -77,7 +81,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies System.Object
+// Dependencies System.Nullable`1<T>, System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphGraphicsAutomatedTests
@@ -89,16 +93,36 @@ public:
   /// @brief Field <enabled>k__BackingField, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF__enabled_k__BackingField, put = setStaticF__enabled_k__BackingField)) bool _enabled_k__BackingField;
 
+  /// @brief Field <forceRenderGraphState>k__BackingField, offset 0xffffffff, size 0x2
+  __declspec(property(get = getStaticF__forceRenderGraphState_k__BackingField, put = setStaticF__forceRenderGraphState_k__BackingField)) ::System::Nullable_1<bool>
+      _forceRenderGraphState_k__BackingField;
+
   static inline bool getStaticF__enabled_k__BackingField();
 
-  /// @brief Method get_activatedFromCommandLine, addr 0x683cbf8, size 0x10c, virtual false, abstract: false, final false
+  static inline ::System::Nullable_1<bool> getStaticF__forceRenderGraphState_k__BackingField();
+
+  /// @brief Method get_activatedFromCommandLine, addr 0x6c75730, size 0x10c, virtual false, abstract: false, final false
   static inline bool get_activatedFromCommandLine();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enabled, addr 0x683cd04, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x6c7583c, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
+  /// [CompilerGenerated]
+  /// @brief Method get_forceRenderGraphState, addr 0x6c758fc, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::Nullable_1<bool> get_forceRenderGraphState();
+
   static inline void setStaticF__enabled_k__BackingField(bool value);
+
+  static inline void setStaticF__forceRenderGraphState_k__BackingField(::System::Nullable_1<bool> value);
+
+  /// [CompilerGenerated]
+  /// @brief Method set_enabled, addr 0x6c75898, size 0x64, virtual false, abstract: false, final false
+  static inline void set_enabled(bool value);
+
+  /// [CompilerGenerated]
+  /// @brief Method set_forceRenderGraphState, addr 0x6c75958, size 0x60, virtual false, abstract: false, final false
+  static inline void set_forceRenderGraphState(::System::Nullable_1<bool> value);
 
 protected:
   // Ctor Parameters []
@@ -115,7 +139,7 @@ public:
   RenderGraphGraphicsAutomatedTests(RenderGraphGraphicsAutomatedTests const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12789 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

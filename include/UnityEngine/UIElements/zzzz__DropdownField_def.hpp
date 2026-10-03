@@ -56,7 +56,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::DropdownField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d3e834, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b1d30, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   DropdownField_UxmlFactory(DropdownField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4185 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -96,7 +96,7 @@ public:
   /// @brief Field m_Index, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Index, put = __cordl_internal_set_m_Index)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_Index;
 
-  /// @brief Method Init, addr 0x6d3e89c, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x71b1d98, size 0x198, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::DropdownField_UxmlTraits* New_ctor();
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Index(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d3ea4c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b1f30, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -131,7 +131,7 @@ public:
   DropdownField_UxmlTraits(DropdownField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4186 };
 
   /// @brief Field m_Index, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_Index;
@@ -164,10 +164,10 @@ public:
 
   static inline ::UnityEngine::UIElements::DropdownField* New_ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x6d3e7a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b1ca4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d3e7b0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b1cac, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
 protected:
@@ -185,11 +185,11 @@ public:
   DropdownField(DropdownField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4187 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::DropdownField) == 0x560, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::DropdownField) == 0x3a0, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

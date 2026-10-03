@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MaterialParameter::*)(::UnityEngine::Material*, bool)>(&::UnityEngine::Rendering::MaterialParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67ce560;
+  constexpr static std::size_t addrs = 0x6bec564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

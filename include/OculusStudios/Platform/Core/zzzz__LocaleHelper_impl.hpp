@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::OculusStudios::Platform::Core::LocaleHelper::GetSystemLocale)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f2e9dc;
+  constexpr static std::size_t addrs = 0x634a040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::LocaleHelper*>(), { "GetSystemLocale", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::SystemLanguage)>(&::OculusStudios::Platform::Core::LocaleHelper::ToLocale)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x5f2ea4c;
+  constexpr static std::size_t addrs = 0x634a0b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

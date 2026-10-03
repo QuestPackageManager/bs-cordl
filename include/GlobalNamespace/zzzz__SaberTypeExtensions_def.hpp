@@ -30,27 +30,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE SaberTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MainSaber, addr 0x3781834, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MainSaber, addr 0x3a0ba00, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SaberType MainSaber(bool leftHanded);
 
   /// [Extension]
-  /// @brief Method MatchesColorType, addr 0x377ec80, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MatchesColorType, addr 0x3a08ee4, size 0x20, virtual false, abstract: false, final false
   static inline bool MatchesColorType(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::ColorType colorType);
 
   /// [Extension]
-  /// @brief Method Node, addr 0x3781824, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Node, addr 0x3a0b9f0, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRNode Node(::GlobalNamespace::SaberType saberType);
 
   /// [Extension]
-  /// @brief Method ToColorType, addr 0x3781938, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToColorType, addr 0x3a0bb04, size 0x80, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorType ToColorType(::GlobalNamespace::SaberType saberType);
 
   /// [Extension]
-  /// @brief Method ToHandString, addr 0x3781840, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ToHandString, addr 0x3a0ba0c, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW ToHandString(::GlobalNamespace::SaberType saberType);
 
   /// [Extension]
-  /// @brief Method ToSaberType, addr 0x37818b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToSaberType, addr 0x3a0ba84, size 0x80, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SaberType ToSaberType(::GlobalNamespace::ColorType colorType);
 
 protected:
@@ -68,7 +68,7 @@ public:
   SaberTypeExtensions(SaberTypeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21929 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

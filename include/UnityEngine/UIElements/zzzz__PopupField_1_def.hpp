@@ -10,7 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PopupField_1)
 namespace UnityEngine::UIElements {
-class IGenericMenu;
+class AbstractGenericMenu;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class PopupField_1___c__DisplayClass27_0;
@@ -78,7 +78,7 @@ public:
   PopupField_1___c__DisplayClass27_0(PopupField_1___c__DisplayClass27_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4284 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4289 };
 
   /// @brief Field item, offset: 0x10, size: 0x8, def value: None
   T ___item;
@@ -114,7 +114,7 @@ public:
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
-  /// @brief Field m_Index, offset 0x55c, size 0x4
+  /// @brief Field m_Index, offset 0x39c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Index, put = __cordl_internal_set_m_Index)) int32_t m_Index;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
@@ -123,7 +123,7 @@ public:
   __declspec(property(get = get_value, put = set_value)) T value;
 
   /// @brief Method AddMenuItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void AddMenuItems(::UnityEngine::UIElements::IGenericMenu* menu);
+  inline void AddMenuItems(::UnityEngine::UIElements::AbstractGenericMenu* menu);
 
   /// @brief Method ChangeValueFromMenu, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ChangeValueFromMenu(T menuItem);
@@ -191,9 +191,9 @@ public:
   PopupField_1(PopupField_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4285 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4290 };
 
-  /// @brief Field m_Index, offset: 0x55c, size: 0x4, def value: None
+  /// @brief Field m_Index, offset: 0x39c, size: 0x4, def value: None
   int32_t ___m_Index;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

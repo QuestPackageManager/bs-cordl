@@ -78,7 +78,7 @@ public:
   constexpr TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_TransformJobData(::System::IntPtr TransformAccessArray, int32_t IsReadOnly) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10023 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -125,7 +125,7 @@ public:
   TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction(TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10024 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -164,7 +164,7 @@ public:
   constexpr IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10025 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -219,7 +219,7 @@ public:
   IJobParallelForTransformExtensions(IJobParallelForTransformExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10026 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

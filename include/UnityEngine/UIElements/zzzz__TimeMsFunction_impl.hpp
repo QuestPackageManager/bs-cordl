@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TimeMsFunction::*)(::System::Object*, ::System::IntPtr)>(&::UnityEngine::UIElements::TimeMsFunction::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6db898c;
+  constexpr static std::size_t addrs = 0x726c8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::TimeMsFunction::*)()>(&::UnityEngine::UIElements::TimeMsFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6db89f4;
+  constexpr static std::size_t addrs = 0x726c934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

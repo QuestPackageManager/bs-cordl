@@ -26,7 +26,7 @@ public:
   /// @brief Field <Type>k__BackingField, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField)) ::System::Type* _Type_k__BackingField;
 
-  /// @brief Method GetMessageForType, addr 0x6b9e638, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetMessageForType, addr 0x7009ff4, size 0x8c, virtual false, abstract: false, final false
   static inline ::StringW GetMessageForType(::System::Type* type);
 
   static inline ::Unity::Properties::MissingPropertyBagException* New_ctor(::System::Type* type);
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6b9e5b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7009f74, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
 protected:
@@ -55,10 +55,10 @@ public:
   MissingPropertyBagException(MissingPropertyBagException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20699 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Type>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 

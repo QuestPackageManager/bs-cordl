@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberModelController::*)(::UnityEngine::Transform*, ::GlobalNamespace::Saber*, ::UnityEngine::Color, ::StringW)>(
     &::GlobalNamespace::SaberModelController::Init)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x59f0764;
+  constexpr static std::size_t addrs = 0x5e0bd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberModelController::*)(::GlobalNamespace::SaberType)>(&::GlobalNamespace::SaberModelController::InitColor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x59f09b8;
+  constexpr static std::size_t addrs = 0x5e0bf80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberModelController::*)()>(&::GlobalNamespace::SaberModelController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59f0b34;
+  constexpr static std::size_t addrs = 0x5e0c0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberModelController*>(), { ".ctor", {}, {} })));

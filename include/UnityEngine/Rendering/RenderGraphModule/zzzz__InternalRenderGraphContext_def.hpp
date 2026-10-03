@@ -36,7 +36,10 @@ public:
   /// @brief Field cmd, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_cmd, put = __cordl_internal_set_cmd)) ::UnityEngine::Rendering::CommandBuffer* cmd;
 
-  /// @brief Field contextlessTesting, offset 0x38, size 0x1
+  /// @brief Field compilerContext, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_compilerContext, put = __cordl_internal_set_compilerContext)) Il2CppObject* compilerContext;
+
+  /// @brief Field contextlessTesting, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_contextlessTesting, put = __cordl_internal_set_contextlessTesting)) bool contextlessTesting;
 
   /// @brief Field defaultResources, offset 0x28, size 0x8
@@ -57,6 +60,10 @@ public:
   constexpr ::UnityEngine::Rendering::CommandBuffer* const& __cordl_internal_get_cmd() const;
 
   constexpr ::UnityEngine::Rendering::CommandBuffer*& __cordl_internal_get_cmd();
+
+  constexpr Il2CppObject* const& __cordl_internal_get_compilerContext() const;
+
+  constexpr Il2CppObject*& __cordl_internal_get_compilerContext();
 
   constexpr bool const& __cordl_internal_get_contextlessTesting() const;
 
@@ -80,6 +87,8 @@ public:
 
   constexpr void __cordl_internal_set_cmd(::UnityEngine::Rendering::CommandBuffer* value);
 
+  constexpr void __cordl_internal_set_compilerContext(Il2CppObject* value);
+
   constexpr void __cordl_internal_set_contextlessTesting(bool value);
 
   constexpr void __cordl_internal_set_defaultResources(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* value);
@@ -90,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set_renderGraphPool(::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* value);
 
-  /// @brief Method .ctor, addr 0x67dbcd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bf4098, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +117,7 @@ public:
   InternalRenderGraphContext(InternalRenderGraphContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9324 };
 
   /// @brief Field renderContext, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::ScriptableRenderContext ___renderContext;
@@ -125,7 +134,10 @@ public:
   /// @brief Field executingPass, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* ___executingPass;
 
-  /// @brief Field contextlessTesting, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field compilerContext, offset: 0x38, size: 0x8, def value: None
+  Il2CppObject* ___compilerContext;
+
+  /// @brief Field contextlessTesting, offset: 0x40, size: 0x1, def value: None
   bool ___contextlessTesting;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -141,8 +153,10 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::InternalRend
 
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext, ___executingPass) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext, ___contextlessTesting) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext, ___compilerContext) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext) == 0x40, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext, ___contextlessTesting) == 0x40, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::RenderGraphModule

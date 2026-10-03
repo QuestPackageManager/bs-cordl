@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::RumbleHapticFeedbackPlayer::*)(::UnityEngine::XR::XRNode, ::BeatSaber::Haptics::HapticPresetSO*)>(
     &::BeatSaber::Haptics::RumbleHapticFeedbackPlayer::PlayHapticFeedback)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3297dc0;
+  constexpr static std::size_t addrs = 0x351ea84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Haptics::RumbleHapticFeedbackPlayer::*)(::BeatSaber::Haptics::HapticPresetSO*, ::UnityEngine::XR::XRNode)>(
     &::BeatSaber::Haptics::RumbleHapticFeedbackPlayer::CanPlayHapticPreset)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3298c1c;
+  constexpr static std::size_t addrs = 0x351f8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::RumbleHapticFeedbackPlayer::*)()>(&::BeatSaber::Haptics::RumbleHapticFeedbackPlayer::LateUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3298c58;
+  constexpr static std::size_t addrs = 0x351f91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::RumbleHapticFeedbackPlayer*>(), { "LateUpdate", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::RumbleHapticFeedbackPlayer::*)()>(&::BeatSaber::Haptics::RumbleHapticFeedbackPlayer::UpdateRumbles)> {
   constexpr static std::size_t size = 0x4f8;
-  constexpr static std::size_t addrs = 0x3298c5c;
+  constexpr static std::size_t addrs = 0x351f920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::RumbleHapticFeedbackPlayer*>(), { "UpdateRumbles", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Haptics::RumbleData* (::BeatSaber::Haptics::RumbleHapticFeedbackPlayer::*)(::UnityEngine::XR::XRNode, ::System::Object*)>(
     &::BeatSaber::Haptics::RumbleHapticFeedbackPlayer::GetRumble)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3298a50;
+  constexpr static std::size_t addrs = 0x351f714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::RumbleHapticFeedbackPlayer*>(),
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::RumbleHapticFeedbackPlayer::*)()>(&::BeatSaber::Haptics::RumbleHapticFeedbackPlayer::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3299154;
+  constexpr static std::size_t addrs = 0x351fe18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::RumbleHapticFeedbackPlayer*>(), { ".ctor", {}, {} })));

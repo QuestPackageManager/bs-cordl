@@ -38,6 +38,10 @@ namespace UnityEngine::ProBuilder::Shapes {
 class CORDL_TYPE Stairs : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
+  __declspec(property(get = get_circumference, put = set_circumference)) float_t circumference;
+
+  __declspec(property(get = get_innerRadius, put = set_innerRadius)) float_t innerRadius;
+
   /// @brief Field m_Circumference, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Circumference, put = __cordl_internal_set_m_Circumference)) float_t m_Circumference;
 
@@ -61,21 +65,26 @@ public:
 
   __declspec(property(get = get_sides, put = set_sides)) bool sides;
 
-  /// @brief Method BuildCurvedStairs, addr 0x670a0f4, size 0x1090, virtual false, abstract: false, final false
+  __declspec(property(get = get_stepsCount, put = set_stepsCount)) int32_t stepsCount;
+
+  /// @brief Method BuildCurvedStairs, addr 0x6b1f00c, size 0x1090, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds BuildCurvedStairs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method BuildStairs, addr 0x670b184, size 0xec0, virtual false, abstract: false, final false
+  /// @brief Method BuildStairs, addr 0x6b2009c, size 0xec0, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds BuildStairs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method CopyShape, addr 0x6709ff0, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x6b1ef08, size 0xb8, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Stairs* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x670a0a8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x6b1efc0, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method UpdateBounds, addr 0x670c044, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method SetParametersToBuiltInShape, addr 0x6b1eee4, size 0x24, virtual true, abstract: false, final false
+  inline void SetParametersToBuiltInShape();
+
+  /// @brief Method UpdateBounds, addr 0x6b20f5c, size 0x13c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   constexpr float_t const& __cordl_internal_get_m_Circumference() const;
@@ -120,14 +129,32 @@ public:
 
   constexpr void __cordl_internal_set_m_StepsHeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x670c180, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b21098, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sides, addr 0x6709fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_circumference, addr 0x6b1eeb4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_circumference();
+
+  /// @brief Method get_innerRadius, addr 0x6b1eed4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_innerRadius();
+
+  /// @brief Method get_sides, addr 0x6b1eec4, size 0x8, virtual false, abstract: false, final false
   inline bool get_sides();
 
-  /// @brief Method set_sides, addr 0x6709fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stepsCount, addr 0x6b1eea4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_stepsCount();
+
+  /// @brief Method set_circumference, addr 0x6b1eebc, size 0x8, virtual false, abstract: false, final false
+  inline void set_circumference(float_t value);
+
+  /// @brief Method set_innerRadius, addr 0x6b1eedc, size 0x8, virtual false, abstract: false, final false
+  inline void set_innerRadius(float_t value);
+
+  /// @brief Method set_sides, addr 0x6b1eecc, size 0x8, virtual false, abstract: false, final false
   inline void set_sides(bool value);
+
+  /// @brief Method set_stepsCount, addr 0x6b1eeac, size 0x8, virtual false, abstract: false, final false
+  inline void set_stepsCount(int32_t value);
 
 protected:
   // Ctor Parameters []
@@ -144,7 +171,7 @@ public:
   Stairs(Stairs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17373 };
 
   /// [SerializeField]
   /// @brief Field m_StepGenerationType, offset: 0x10, size: 0x4, def value: None

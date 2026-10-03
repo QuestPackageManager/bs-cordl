@@ -17,6 +17,7 @@
 #include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsEntitlementModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLightEventConverterNoConvert_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
@@ -34,26 +35,26 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader___c::*)()>(&::GlobalNamespace::BeatmapDataLoader___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x37120a0;
+  constexpr static std::size_t addrs = 0x399afe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader___c._CreateOrGetTransformedBeatmapDataAsync_b__10_0
+//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader___c._CreateOrGetTransformedBeatmapDataAsync_b__9_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader___c::*)(::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*)>(
-    &::GlobalNamespace::BeatmapDataLoader___c::_CreateOrGetTransformedBeatmapDataAsync_b__10_0)> {
+    &::GlobalNamespace::BeatmapDataLoader___c::_CreateOrGetTransformedBeatmapDataAsync_b__9_0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x37120a4;
+  constexpr static std::size_t addrs = 0x399afe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader___c*>(),
-                            { "<CreateOrGetTransformedBeatmapDataAsync>b__10_0", {}, { ::i2c::type_of<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>() } })));
+                            { "<CreateOrGetTransformedBeatmapDataAsync>b__9_0", {}, { ::i2c::type_of<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>() } })));
     return ___internal_method;
   }
 };
@@ -63,24 +64,23 @@ inline void GlobalNamespace::BeatmapDataLoader___c::setStaticF___9(::GlobalNames
 inline ::GlobalNamespace::BeatmapDataLoader___c* GlobalNamespace::BeatmapDataLoader___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::BeatmapDataLoader___c*, "<>9", ::GlobalNamespace::BeatmapDataLoader___c*>();
 }
-inline void GlobalNamespace::BeatmapDataLoader___c::setStaticF___9__10_0(::System::Action_1<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>* value) {
-  ::cordl_internals::setStaticField<::System::Action_1<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>*, "<>9__10_0", ::GlobalNamespace::BeatmapDataLoader___c*>(
+inline void GlobalNamespace::BeatmapDataLoader___c::setStaticF___9__9_0(::System::Action_1<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>* value) {
+  ::cordl_internals::setStaticField<::System::Action_1<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>*, "<>9__9_0", ::GlobalNamespace::BeatmapDataLoader___c*>(
       std::forward<::System::Action_1<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>*>(value));
 }
-inline ::System::Action_1<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>* GlobalNamespace::BeatmapDataLoader___c::getStaticF___9__10_0() {
-  return ::cordl_internals::getStaticField<::System::Action_1<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>*, "<>9__10_0",
-                                           ::GlobalNamespace::BeatmapDataLoader___c*>();
+inline ::System::Action_1<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>* GlobalNamespace::BeatmapDataLoader___c::getStaticF___9__9_0() {
+  return ::cordl_internals::getStaticField<::System::Action_1<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>*, "<>9__9_0", ::GlobalNamespace::BeatmapDataLoader___c*>();
 }
 inline void GlobalNamespace::BeatmapDataLoader___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::BeatmapDataLoader___c::_CreateOrGetTransformedBeatmapDataAsync_b__10_0(
+inline void GlobalNamespace::BeatmapDataLoader___c::_CreateOrGetTransformedBeatmapDataAsync_b__9_0(
     /* [Nullable(new[] { 0, 2 })] */ ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* t) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader___c*>(),
-                          { "<CreateOrGetTransformedBeatmapDataAsync>b__10_0", {}, { ::i2c::type_of<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader___c*>(),
+                                       { "<CreateOrGetTransformedBeatmapDataAsync>b__9_0", {}, { ::i2c::type_of<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, t);
 }
 inline ::GlobalNamespace::BeatmapDataLoader___c* GlobalNamespace::BeatmapDataLoader___c::New_ctor() {
@@ -88,52 +88,52 @@ inline ::GlobalNamespace::BeatmapDataLoader___c* GlobalNamespace::BeatmapDataLoa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataLoader___c::BeatmapDataLoader___c() {}
-//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10::*)()>(
-    &::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10::MoveNext)> {
-  constexpr static std::size_t size = 0x8ec;
-  constexpr static std::size_t addrs = 0x37120cc;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9::*)()>(
+    &::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9::MoveNext)> {
+  constexpr static std::size_t size = 0x8b4;
+  constexpr static std::size_t addrs = 0x399b010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3712a78;
+  constexpr static std::size_t addrs = 0x399b8c4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10::MoveNext() {
+inline void GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 inline void
-GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10>(),
+GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -148,7 +148,7 @@ GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10
 // comment: None }, CppParam { name: "screenDisplacementEffects", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10(
+constexpr ::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*> __t__builder,
     ::System::Nullable_1<::GlobalNamespace::BeatmapLevelDataVersion> beatmapLevelDataVersion, ::GlobalNamespace::BeatmapDataLoader* __4__this,
     ::GlobalNamespace::IBeatmapLevelData* preloadedBeatmapLevelData, ::GlobalNamespace::BeatmapKey beatmapKey, bool useCache, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
@@ -173,51 +173,51 @@ constexpr ::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDat
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10() {}
-//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13.MoveNext
+constexpr ::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__9() {}
+//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13::*)()>(
-    &::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12::*)()>(
+    &::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x738;
-  constexpr static std::size_t addrs = 0x3712af8;
+  constexpr static std::size_t addrs = 0x399b944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x37133c4;
+  constexpr static std::size_t addrs = 0x399c210;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13::MoveNext() {
+inline void GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13>(),
+inline void GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -232,7 +232,7 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value:
 // Some("{}"), comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: Some("{}"),
 // comment: None }]
-constexpr ::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13::BeatmapDataLoader__LoadAndTransformAsync_d__13(
+constexpr ::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12::BeatmapDataLoader__LoadAndTransformAsync_d__12(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*> __t__builder,
     ::GlobalNamespace::IBeatmapLevelData* preloadedBeatmapLevelData, ::GlobalNamespace::BeatmapDataLoader* __4__this, ::GlobalNamespace::BeatmapKey beatmapKey,
     ::GlobalNamespace::BeatmapLevelDataVersion version, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::UnityW<::GlobalNamespace::EnvironmentInfoSO> targetEnvironmentInfo,
@@ -255,14 +255,14 @@ constexpr ::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13::Bea
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13::BeatmapDataLoader__LoadAndTransformAsync_d__13() {}
+constexpr ::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__12::BeatmapDataLoader__LoadAndTransformAsync_d__12() {}
 //  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__5.MoveNext
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__5::*)()>(
     &::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__5::MoveNext)> {
-  constexpr static std::size_t size = 0x6c4;
-  constexpr static std::size_t addrs = 0x3713444;
+  constexpr static std::size_t size = 0x3d0;
+  constexpr static std::size_t addrs = 0x399c290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__5::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__5::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3713b08;
+  constexpr static std::size_t addrs = 0x399c660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__5>(),
@@ -305,68 +305,128 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapDataBasicInfo*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
 // "beatmapLevelData", ty: "::GlobalNamespace::IBeatmapLevelData*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_beatmapJson_5__2", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Version*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__3", ty:
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::BeatmapDataLoader*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__5::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__5(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapDataBasicInfo*> __t__builder, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData,
-    ::GlobalNamespace::BeatmapKey beatmapKey, ::StringW _beatmapJson_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Version*> __u__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__3) noexcept {
+    ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapDataLoader* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->beatmapLevelData = beatmapLevelData;
   this->beatmapKey = beatmapKey;
-  this->_beatmapJson_5__2 = _beatmapJson_5__2;
+  this->__4__this = __4__this;
   this->__u__1 = __u__1;
   this->__u__2 = __u__2;
-  this->__u__3 = __u__3;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__5::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__5() {}
-//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8::*)()>(
-    &::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8::MoveNext)> {
-  constexpr static std::size_t size = 0xc34;
-  constexpr static std::size_t addrs = 0x3713b88;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6::*)()>(
+    &::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6::MoveNext)> {
+  constexpr static std::size_t size = 0x53c;
+  constexpr static std::size_t addrs = 0x399c6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x37148f0;
+  constexpr static std::size_t addrs = 0x399cc1c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8>(), { "MoveNext", {}, {} })));
+inline void GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8>(),
+inline void GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapDataBasicInfo*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "beatmapJson", ty:
+// "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Version*>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*>", modifiers: "", def_value:
+// Some("{}"), comment: None }]
+constexpr ::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapDataBasicInfo*> __t__builder, ::StringW beatmapJson,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Version*> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__2) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->beatmapJson = beatmapJson;
+  this->__u__1 = __u__1;
+  this->__u__2 = __u__2;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__6() {}
+//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7::*)()>(
+    &::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7::MoveNext)> {
+  constexpr static std::size_t size = 0x9cc;
+  constexpr static std::size_t addrs = 0x399cc9c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7>(), { "MoveNext", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x399d79c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7>(),
+                                                                                           { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline void GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7>(),
+                                                                                         { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -374,40 +434,129 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // "playerSpecificSettings", ty: "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "beatmapKey", ty:
 // "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "targetEnvironmentInfo", ty: "::GlobalNamespace::IEnvironmentInfo*", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "beatmapLevelData", ty: "::GlobalNamespace::IBeatmapLevelData*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "startBpm", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "loadingForDesignatedEnvironment", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None
-// }, CppParam { name: "beatmapLevelDataVersion", ty: "::GlobalNamespace::BeatmapLevelDataVersion", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "originalEnvironmentInfo",
-// ty: "::GlobalNamespace::IEnvironmentInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::StringW>>", modifiers: "", def_value: Some("{}"), comment: None
-// }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapData*>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8::BeatmapDataLoader__LoadBeatmapDataAsync_d__8(
+// "__4__this", ty: "::GlobalNamespace::BeatmapDataLoader*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "startBpm", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "loadingForDesignatedEnvironment", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "originalEnvironmentInfo", ty:
+// "::GlobalNamespace::IEnvironmentInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "beatmapLevelDataVersion", ty: "::GlobalNamespace::BeatmapLevelDataVersion",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::StringW>>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7::BeatmapDataLoader__LoadBeatmapDataAsync_d__7(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*> __t__builder,
     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::IEnvironmentInfo* targetEnvironmentInfo,
-    ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, float_t startBpm, bool loadingForDesignatedEnvironment, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
-    ::GlobalNamespace::IEnvironmentInfo* originalEnvironmentInfo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::StringW>> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapData*> __u__2) noexcept {
+    ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapDataLoader* __4__this, float_t startBpm, bool loadingForDesignatedEnvironment,
+    ::GlobalNamespace::IEnvironmentInfo* originalEnvironmentInfo, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::StringW>> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->playerSpecificSettings = playerSpecificSettings;
   this->beatmapKey = beatmapKey;
   this->targetEnvironmentInfo = targetEnvironmentInfo;
   this->beatmapLevelData = beatmapLevelData;
+  this->__4__this = __4__this;
   this->startBpm = startBpm;
   this->loadingForDesignatedEnvironment = loadingForDesignatedEnvironment;
-  this->beatmapLevelDataVersion = beatmapLevelDataVersion;
   this->originalEnvironmentInfo = originalEnvironmentInfo;
+  this->beatmapLevelDataVersion = beatmapLevelDataVersion;
   this->gameplayModifiers = gameplayModifiers;
   this->__u__1 = __u__1;
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8::BeatmapDataLoader__LoadBeatmapDataAsync_d__8() {}
+constexpr ::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__7::BeatmapDataLoader__LoadBeatmapDataAsync_d__7() {}
+//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8::*)()>(
+    &::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8::MoveNext)> {
+  constexpr static std::size_t size = 0x5f8;
+  constexpr static std::size_t addrs = 0x399d81c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8>(), { "MoveNext", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x399de14;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8>(),
+                                                                                           { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline void GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8>(),
+                                                                                         { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "beatmapJson", ty:
+// "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "defaultLightshowDataJson", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "startBpm", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "loadingForDesignatedEnvironment", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "targetEnvironmentInfo", ty:
+// "::GlobalNamespace::IEnvironmentInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "beatmapLevelDataVersion", ty: "::GlobalNamespace::BeatmapLevelDataVersion",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "playerSpecificSettings", ty: "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "audioDataJson", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lightshowDataJson", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "originalEnvironmentInfo", ty: "::GlobalNamespace::IEnvironmentInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_lightEventConverter_5__2", ty:
+// "::GlobalNamespace::BeatmapLightEventConverterNoConvert*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_beatmapData_5__3", ty: "::GlobalNamespace::BeatmapData*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Version*>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapData*>", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*> __t__builder, ::StringW beatmapJson, ::StringW defaultLightshowDataJson,
+    ::GlobalNamespace::BeatmapKey beatmapKey, float_t startBpm, bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* targetEnvironmentInfo,
+    ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::StringW audioDataJson, ::StringW lightshowDataJson,
+    ::GlobalNamespace::IEnvironmentInfo* originalEnvironmentInfo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+    ::GlobalNamespace::BeatmapLightEventConverterNoConvert* _lightEventConverter_5__2, ::GlobalNamespace::BeatmapData* _beatmapData_5__3,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Version*> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapData*> __u__2) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->beatmapJson = beatmapJson;
+  this->defaultLightshowDataJson = defaultLightshowDataJson;
+  this->beatmapKey = beatmapKey;
+  this->startBpm = startBpm;
+  this->loadingForDesignatedEnvironment = loadingForDesignatedEnvironment;
+  this->targetEnvironmentInfo = targetEnvironmentInfo;
+  this->beatmapLevelDataVersion = beatmapLevelDataVersion;
+  this->playerSpecificSettings = playerSpecificSettings;
+  this->audioDataJson = audioDataJson;
+  this->lightshowDataJson = lightshowDataJson;
+  this->originalEnvironmentInfo = originalEnvironmentInfo;
+  this->gameplayModifiers = gameplayModifiers;
+  this->_lightEventConverter_5__2 = _lightEventConverter_5__2;
+  this->_beatmapData_5__3 = _beatmapData_5__3;
+  this->__u__1 = __u__1;
+  this->__u__2 = __u__2;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8::BeatmapDataLoader__LoadBeatmapDataFromJsonAsync_d__8() {}
 //  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader::*)(::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::BeatmapLevelsEntitlementModel*)>(
     &::GlobalNamespace::BeatmapDataLoader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3711428;
+  constexpr static std::size_t addrs = 0x399a78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -421,8 +570,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* (
     ::GlobalNamespace::BeatmapDataLoader::*)(::GlobalNamespace::IBeatmapLevelData*, ::GlobalNamespace::BeatmapKey)>(&::GlobalNamespace::BeatmapDataLoader::LoadBasicBeatmapDataAsync)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3711430;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x399a794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -431,33 +580,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader.LoadBasicBeatmapData
+//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader.LoadBasicBeatmapDataAsync
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataBasicInfo* (
-    ::GlobalNamespace::BeatmapDataLoader::*)(::GlobalNamespace::IBeatmapLevelData*, ::by_ref<::GlobalNamespace::BeatmapKey>)>(&::GlobalNamespace::BeatmapDataLoader::LoadBasicBeatmapData)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3711528;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* (::GlobalNamespace::BeatmapDataLoader::*)(::StringW)>(
+    &::GlobalNamespace::BeatmapDataLoader::LoadBasicBeatmapDataAsync)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x399a898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader*>(),
-                                         { "LoadBasicBeatmapData", {}, { ::i2c::type_of<::GlobalNamespace::IBeatmapLevelData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader.LoadBasicBeatmapData
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataBasicInfo* (::GlobalNamespace::BeatmapDataLoader::*)(::StringW)>(
-    &::GlobalNamespace::BeatmapDataLoader::LoadBasicBeatmapData)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3711604;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader*>(), { "LoadBasicBeatmapData", {}, { ::i2c::type_of<::StringW>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader*>(), { "LoadBasicBeatmapDataAsync", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
@@ -468,8 +601,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::BeatmapDataLoader::*)(::GlobalNamespace::IBeatmapLevelData*, ::GlobalNamespace::BeatmapKey, float_t, bool, ::GlobalNamespace::IEnvironmentInfo*,
                                              ::GlobalNamespace::IEnvironmentInfo*, ::GlobalNamespace::BeatmapLevelDataVersion, ::GlobalNamespace::GameplayModifiers*,
                                              ::GlobalNamespace::PlayerSpecificSettings*)>(&::GlobalNamespace::BeatmapDataLoader::LoadBeatmapDataAsync)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x37116f8;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x399a978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -483,25 +616,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader.LoadBeatmapData
+//  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoader.LoadBeatmapDataFromJsonAsync
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (
-    ::GlobalNamespace::BeatmapDataLoader::*)(::GlobalNamespace::IBeatmapLevelData*, ::GlobalNamespace::BeatmapKey, float_t, bool, ::GlobalNamespace::IEnvironmentInfo*,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* (
+    ::GlobalNamespace::BeatmapDataLoader::*)(::StringW, ::StringW, ::StringW, ::StringW, ::GlobalNamespace::BeatmapKey, float_t, bool, ::GlobalNamespace::IEnvironmentInfo*,
                                              ::GlobalNamespace::IEnvironmentInfo*, ::GlobalNamespace::BeatmapLevelDataVersion, ::GlobalNamespace::GameplayModifiers*,
-                                             ::GlobalNamespace::PlayerSpecificSettings*)>(&::GlobalNamespace::BeatmapDataLoader::LoadBeatmapData)> {
-  constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x371183c;
+                                             ::GlobalNamespace::PlayerSpecificSettings*)>(&::GlobalNamespace::BeatmapDataLoader::LoadBeatmapDataFromJsonAsync)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x399aacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader*>(),
-                                                             { "LoadBeatmapData",
-                                                               {},
-                                                               { ::i2c::type_of<::GlobalNamespace::IBeatmapLevelData*>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(), ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::IEnvironmentInfo*>(), ::i2c::type_of<::GlobalNamespace::IEnvironmentInfo*>(),
-                                                                 ::i2c::type_of<::GlobalNamespace::BeatmapLevelDataVersion>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(),
-                                                                 ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>() } })));
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader*>(),
+                                         { "LoadBeatmapDataFromJsonAsync",
+                                           {},
+                                           { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(),
+                                             ::i2c::type_of<::GlobalNamespace::BeatmapKey>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::IEnvironmentInfo*>(),
+                                             ::i2c::type_of<::GlobalNamespace::IEnvironmentInfo*>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevelDataVersion>(),
+                                             ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>() } })));
     return ___internal_method;
   }
 };
@@ -513,7 +647,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
                                              ::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::EnvironmentInfoSO*, bool, bool, ::GlobalNamespace::IBeatmapLevelData*,
                                              ::System::Nullable_1<::GlobalNamespace::BeatmapLevelDataVersion>)>(&::GlobalNamespace::BeatmapDataLoader::CreateOrGetTransformedBeatmapDataAsync)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3711ce8;
+  constexpr static std::size_t addrs = 0x399ac2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -534,7 +668,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*)>(
     &::GlobalNamespace::BeatmapDataLoader::IsCachedEntryStale)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3711e34;
+  constexpr static std::size_t addrs = 0x399ad78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -548,7 +682,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataLoader::*)()>(&::GlobalNamespace::BeatmapDataLoader::ClearLastUsedBeatmapCache)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3711ef8;
+  constexpr static std::size_t addrs = 0x399ae3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader*>(), { "ClearLastUsedBeatmapCache", {}, {} })));
@@ -563,7 +697,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
                                              ::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::IBeatmapLevelData*,
                                              ::GlobalNamespace::BeatmapLevelDataVersion, bool)>(&::GlobalNamespace::BeatmapDataLoader::LoadAndTransformAsync)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3711f00;
+  constexpr static std::size_t addrs = 0x399ae44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -639,17 +773,10 @@ GlobalNamespace::BeatmapDataLoader::LoadBasicBeatmapDataAsync(::GlobalNamespace:
                                               { "LoadBasicBeatmapDataAsync", {}, { ::i2c::type_of<::GlobalNamespace::IBeatmapLevelData*>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>*>(this, ___internal_method, beatmapLevelData, beatmapKey);
 }
-inline ::GlobalNamespace::BeatmapDataBasicInfo* GlobalNamespace::BeatmapDataLoader::LoadBasicBeatmapData(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData,
-                                                                                                         /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader*>(),
-                                              { "LoadBasicBeatmapData", {}, { ::i2c::type_of<::GlobalNamespace::IBeatmapLevelData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapDataBasicInfo*>(this, ___internal_method, beatmapLevelData, beatmapKey);
-}
-inline ::GlobalNamespace::BeatmapDataBasicInfo* GlobalNamespace::BeatmapDataLoader::LoadBasicBeatmapData(::StringW beatmapJson) {
+inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* GlobalNamespace::BeatmapDataLoader::LoadBasicBeatmapDataAsync(::StringW beatmapJson) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader*>(), { "LoadBasicBeatmapData", {}, { ::i2c::type_of<::StringW>() } })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapDataBasicInfo*>(this, ___internal_method, beatmapJson);
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader*>(), { "LoadBasicBeatmapDataAsync", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>*>(this, ___internal_method, beatmapJson);
 }
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*
 GlobalNamespace::BeatmapDataLoader::LoadBeatmapDataAsync(/* [Nullable(1)] */ ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapKey beatmapKey, float_t startBpm,
@@ -668,20 +795,22 @@ GlobalNamespace::BeatmapDataLoader::LoadBeatmapDataAsync(/* [Nullable(1)] */ ::G
       this, ___internal_method, beatmapLevelData, beatmapKey, startBpm, loadingForDesignatedEnvironment, targetEnvironmentInfo, originalEnvironmentInfo, beatmapLevelDataVersion, gameplayModifiers,
       playerSpecificSettings);
 }
-inline ::GlobalNamespace::IReadonlyBeatmapData* GlobalNamespace::BeatmapDataLoader::LoadBeatmapData(
-    ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapKey beatmapKey, float_t startBpm, bool loadingForDesignatedEnvironment,
-    ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::IEnvironmentInfo* lightshowEnvironmentInfo, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
-    /* [Nullable(2)] */ ::GlobalNamespace::GameplayModifiers* gameplayModifiers, /* [Nullable(2)] */ ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings) {
+inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GlobalNamespace::BeatmapDataLoader::LoadBeatmapDataFromJsonAsync(
+    ::StringW audioDataJson, ::StringW beatmapJson, ::StringW lightshowDataJson, ::StringW defaultLightshowDataJson, ::GlobalNamespace::BeatmapKey beatmapKey, float_t startBpm,
+    bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* targetEnvironmentInfo, ::GlobalNamespace::IEnvironmentInfo* originalEnvironmentInfo,
+    ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader*>(),
-                                                           { "LoadBeatmapData",
-                                                             {},
-                                                             { ::i2c::type_of<::GlobalNamespace::IBeatmapLevelData*>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(), ::i2c::type_of<float_t>(),
-                                                               ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::IEnvironmentInfo*>(), ::i2c::type_of<::GlobalNamespace::IEnvironmentInfo*>(),
-                                                               ::i2c::type_of<::GlobalNamespace::BeatmapLevelDataVersion>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(),
-                                                               ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>() } })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IReadonlyBeatmapData*>(this, ___internal_method, beatmapLevelData, beatmapKey, startBpm, loadingForDesignatedEnvironment,
-                                                                                       environmentInfo, lightshowEnvironmentInfo, beatmapLevelDataVersion, gameplayModifiers, playerSpecificSettings);
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoader*>(),
+                                       { "LoadBeatmapDataFromJsonAsync",
+                                         {},
+                                         { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(),
+                                           ::i2c::type_of<::GlobalNamespace::BeatmapKey>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::IEnvironmentInfo*>(),
+                                           ::i2c::type_of<::GlobalNamespace::IEnvironmentInfo*>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevelDataVersion>(),
+                                           ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>(
+      this, ___internal_method, audioDataJson, beatmapJson, lightshowDataJson, defaultLightshowDataJson, beatmapKey, startBpm, loadingForDesignatedEnvironment, targetEnvironmentInfo,
+      originalEnvironmentInfo, beatmapLevelDataVersion, gameplayModifiers, playerSpecificSettings);
 }
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GlobalNamespace::BeatmapDataLoader::CreateOrGetTransformedBeatmapDataAsync(
     ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
@@ -727,7 +856,6 @@ inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapDat
                                                                                                                             playerSpecificSettings, targetEnvironmentInfo, originalEnvironmentInfo,
                                                                                                                             preloadedBeatmapLevelData, version, screenDisplacementEffects);
 }
-/// [NullableContext(2)]
 /// @brief [Inject]
 inline ::GlobalNamespace::BeatmapDataLoader* GlobalNamespace::BeatmapDataLoader::New_ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
                                                                                           ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel) {

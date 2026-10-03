@@ -4,6 +4,7 @@
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
+#include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ConvertMeshJobData_def.hpp"
 // Ctor Parameters [CppParam { name: "vertSrc", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vertDst", ty: "::System::IntPtr", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "vertCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "transform", ty:
@@ -16,13 +17,14 @@
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indexCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indexOffset", ty:
 // "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "flipIndices", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "forceZ",
 // ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "positionZ", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "remapUVs", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "atlasRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }]
+// "remapUVs", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "atlasRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "layoutSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::ConvertMeshJobData::ConvertMeshJobData(::System::IntPtr vertSrc, ::System::IntPtr vertDst, int32_t vertCount, ::UnityEngine::Matrix4x4 transform,
                                                                                  ::UnityEngine::Color32 xformClipPages, ::UnityEngine::Color32 ids, ::UnityEngine::Color32 addFlags,
                                                                                  ::UnityEngine::Color32 opacityPage, ::UnityEngine::Color32 textCoreSettingsPage, int32_t usesTextCoreSettings,
                                                                                  float_t textureId, int32_t gradientSettingsIndexOffset, ::System::IntPtr indexSrc, ::System::IntPtr indexDst,
                                                                                  int32_t indexCount, int32_t indexOffset, int32_t flipIndices, int32_t forceZ, float_t positionZ, int32_t remapUVs,
-                                                                                 ::UnityEngine::Rect atlasRect) noexcept {
+                                                                                 ::UnityEngine::Rect atlasRect, ::UnityEngine::Vector2 layoutSize) noexcept {
   this->vertSrc = vertSrc;
   this->vertDst = vertDst;
   this->vertCount = vertCount;
@@ -44,6 +46,7 @@ constexpr ::UnityEngine::UIElements::UIR::ConvertMeshJobData::ConvertMeshJobData
   this->positionZ = positionZ;
   this->remapUVs = remapUVs;
   this->atlasRect = atlasRect;
+  this->layoutSize = layoutSize;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::ConvertMeshJobData::ConvertMeshJobData() {}

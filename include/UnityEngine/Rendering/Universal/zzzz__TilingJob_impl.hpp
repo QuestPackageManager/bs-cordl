@@ -22,7 +22,7 @@
 // "::Unity::Mathematics::float3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lightDirectionVS", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: Some("{}"),
 // comment: None }, CppParam { name: "cosHalfAngle", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "coneHeight", ty: "float_t", modifiers: "", def_value:
 // Some("{}"), comment: None }]
-constexpr ::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0::TilingJob___c__DisplayClass19_0(::UnityEngine::Rendering::VisibleLight light,
+constexpr ::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0::TilingJob___c__DisplayClass20_0(::UnityEngine::Rendering::VisibleLight light,
                                                                                                                 ::Unity::Mathematics::float3 lightPositionVS,
                                                                                                                 ::Unity::Mathematics::float3 lightDirectionVS, float_t cosHalfAngle,
                                                                                                                 float_t coneHeight) noexcept {
@@ -33,11 +33,11 @@ constexpr ::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0::
   this->coneHeight = coneHeight;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0::TilingJob___c__DisplayClass19_0() {}
+constexpr ::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0::TilingJob___c__DisplayClass20_0() {}
 // Ctor Parameters [CppParam { name: "light", ty: "::UnityEngine::Rendering::VisibleLight", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lightPosVS", ty:
 // "::Unity::Mathematics::float3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lightDirVS", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: Some("{}"),
 // comment: None }, CppParam { name: "cosHalfAngle", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0::TilingJob___c__DisplayClass20_0(::UnityEngine::Rendering::VisibleLight light, ::Unity::Mathematics::float3 lightPosVS,
+constexpr ::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass21_0::TilingJob___c__DisplayClass21_0(::UnityEngine::Rendering::VisibleLight light, ::Unity::Mathematics::float3 lightPosVS,
                                                                                                                 ::Unity::Mathematics::float3 lightDirVS, float_t cosHalfAngle) noexcept {
   this->light = light;
   this->lightPosVS = lightPosVS;
@@ -45,13 +45,13 @@ constexpr ::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0::
   this->cosHalfAngle = cosHalfAngle;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0::TilingJob___c__DisplayClass20_0() {}
+constexpr ::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass21_0::TilingJob___c__DisplayClass21_0() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::TilingJob.Execute
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TilingJob::*)(int32_t)>(&::UnityEngine::Rendering::Universal::TilingJob::Execute)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x68c227c;
+  constexpr static std::size_t addrs = 0x6cf970c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TilingJob::*)(int32_t)>(&::UnityEngine::Rendering::Universal::TilingJob::TileLight)> {
   constexpr static std::size_t size = 0x1b90;
-  constexpr static std::size_t addrs = 0x68c2ffc;
+  constexpr static std::size_t addrs = 0x6cfa484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,8 +76,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TilingJob::*)(int32_t)>(&::UnityEngine::Rendering::Universal::TilingJob::TileLightOrthographic)> {
-  constexpr static std::size_t size = 0xc68;
-  constexpr static std::size_t addrs = 0x68c2394;
+  constexpr static std::size_t size = 0xc60;
+  constexpr static std::size_t addrs = 0x6cf9824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,8 +89,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TilingJob::*)(int32_t)>(&::UnityEngine::Rendering::Universal::TilingJob::TileReflectionProbe)> {
-  constexpr static std::size_t size = 0x7dc;
-  constexpr static std::size_t addrs = 0x68c4b8c;
+  constexpr static std::size_t size = 0x8b8;
+  constexpr static std::size_t addrs = 0x6cfc014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float2 (::UnityEngine::Rendering::Universal::TilingJob::*)(::Unity::Mathematics::float3)>(
     &::UnityEngine::Rendering::Universal::TilingJob::ViewToTileSpace)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x68c6680;
+  constexpr static std::size_t addrs = 0x6cfdbe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float2 (::UnityEngine::Rendering::Universal::TilingJob::*)(::Unity::Mathematics::float3)>(
     &::UnityEngine::Rendering::Universal::TilingJob::ViewToTileSpaceOrthographic)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68c7518;
+  constexpr static std::size_t addrs = 0x6cfea7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TilingJob>(),
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TilingJob::*)(::Unity::Mathematics::float3)>(
     &::UnityEngine::Rendering::Universal::TilingJob::ExpandY)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x68c5368;
+  constexpr static std::size_t addrs = 0x6cfc8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TilingJob::*)(::Unity::Mathematics::float3)>(
     &::UnityEngine::Rendering::Universal::TilingJob::ExpandOrthographic)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x68c7230;
+  constexpr static std::size_t addrs = 0x6cfe794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TilingJob::*)(::by_ref<::UnityEngine::Rendering::Universal::InclusiveRange>, float_t)>(
     &::UnityEngine::Rendering::Universal::TilingJob::ExpandRangeOrthographic)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x68c743c;
+  constexpr static std::size_t addrs = 0x6cfe9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::UnityEngine::Rendering::Universal::TilingJob::square)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c5484;
+  constexpr static std::size_t addrs = 0x6cfc9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Mathematics::float2, float_t, float_t, float_t, ::by_ref<::Unity::Mathematics::float2>,
                                                                 ::by_ref<::Unity::Mathematics::float2>)>(&::UnityEngine::Rendering::Universal::TilingJob::GetSphereHorizon)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x68c548c;
+  constexpr static std::size_t addrs = 0x6cfc9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Mathematics::float3, float_t, float_t, float_t, float_t, ::by_ref<::Unity::Mathematics::float3>,
                                                                 ::by_ref<::Unity::Mathematics::float3>)>(&::UnityEngine::Rendering::Universal::TilingJob::GetSphereYPlaneHorizon)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x68c6e20;
+  constexpr static std::size_t addrs = 0x6cfe384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3, float_t, float_t, ::by_ref<::Unity::Mathematics::float3>,
                                                                 ::by_ref<::Unity::Mathematics::float3>)>(&::UnityEngine::Rendering::Universal::TilingJob::GetCircleClipPoints)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x68c5a00;
+  constexpr static std::size_t addrs = 0x6cfcf64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<float_t, float_t> (*)(float_t, float_t, ::Unity::Mathematics::float3)>(
     &::UnityEngine::Rendering::Universal::TilingJob::IntersectEllipseLine)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x68c758c;
+  constexpr static std::size_t addrs = 0x6cfeaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +260,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Mathema
                                                                 ::by_ref<::Unity::Mathematics::float2>, ::by_ref<::Unity::Mathematics::float2>)>(
     &::UnityEngine::Rendering::Universal::TilingJob::GetProjectedCircleHorizon)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x68c57f0;
+  constexpr static std::size_t addrs = 0x6cfcd54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t, ::Unity
                                                                 float_t, ::by_ref<::Unity::Mathematics::float3>, ::by_ref<::Unity::Mathematics::float3>)>(
     &::UnityEngine::Rendering::Universal::TilingJob::IntersectCircleYPlane)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x68c6704;
+  constexpr static std::size_t addrs = 0x6cfdc68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -300,7 +300,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Mathema
                                                                 ::Unity::Mathematics::float3, ::by_ref<::Unity::Mathematics::float3>, ::by_ref<::Unity::Mathematics::float3>)>(
     &::UnityEngine::Rendering::Universal::TilingJob::GetConeSideTangentPoints)> {
   constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x68c619c;
+  constexpr static std::size_t addrs = 0x6cfd700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float3 (*)(float_t, ::Unity::Mathematics::float3, ::Unity::Mathematics::float3, float_t, ::Unity::Mathematics::float3,
                                                                                         ::Unity::Mathematics::float3, float_t)>(&::UnityEngine::Rendering::Universal::TilingJob::EvaluateNearConic)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x68c5e9c;
+  constexpr static std::size_t addrs = 0x6cfd400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float2 (*)(::Unity::Mathematics::float2, ::Unity::Mathematics::float2, float_t, ::Unity::Mathematics::float2,
                                                                                         ::Unity::Mathematics::float2)>(&::UnityEngine::Rendering::Universal::TilingJob::FindNearConicTangentTheta)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x68c5c14;
+  constexpr static std::size_t addrs = 0x6cfd178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float2 (*)(float_t, ::Unity::Mathematics::float3, ::Unity::Mathematics::float3, float_t, ::Unity::Mathematics::float3,
                                                                                         ::Unity::Mathematics::float3, float_t)>(&::UnityEngine::Rendering::Universal::TilingJob::FindNearConicYTheta)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x68c69a8;
+  constexpr static std::size_t addrs = 0x6cfdf0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -370,57 +370,57 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::flo
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::TilingJob._TileLight_g__SpherePointIsValid_19_0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Mathematics::float3, ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0>)>(
-    &::UnityEngine::Rendering::Universal::TilingJob::_TileLight_g__SpherePointIsValid_19_0)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x68c5700;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TilingJob>(),
-                                         { "<TileLight>g__SpherePointIsValid|19_0",
-                                           {},
-                                           { ::i2c::type_of<::Unity::Mathematics::float3>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::TilingJob._TileLight_g__ConicPointIsValid_19_1
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Mathematics::float3, ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0>)>(
-    &::UnityEngine::Rendering::Universal::TilingJob::_TileLight_g__ConicPointIsValid_19_1)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x68c607c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TilingJob>(),
-                                         { "<TileLight>g__ConicPointIsValid|19_1",
-                                           {},
-                                           { ::i2c::type_of<::Unity::Mathematics::float3>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::TilingJob._TileLightOrthographic_g__SpherePointIsValid_20_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::TilingJob._TileLight_g__SpherePointIsValid_20_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Mathematics::float3, ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0>)>(
-    &::UnityEngine::Rendering::Universal::TilingJob::_TileLightOrthographic_g__SpherePointIsValid_20_0)> {
+    &::UnityEngine::Rendering::Universal::TilingJob::_TileLight_g__SpherePointIsValid_20_0)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x68c734c;
+  constexpr static std::size_t addrs = 0x6cfcc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TilingJob>(),
-                                         { "<TileLightOrthographic>g__SpherePointIsValid|20_0",
+                                         { "<TileLight>g__SpherePointIsValid|20_0",
                                            {},
                                            { ::i2c::type_of<::Unity::Mathematics::float3>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::TilingJob._TileLight_g__ConicPointIsValid_20_1
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Mathematics::float3, ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0>)>(
+    &::UnityEngine::Rendering::Universal::TilingJob::_TileLight_g__ConicPointIsValid_20_1)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x6cfd5e0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TilingJob>(),
+                                         { "<TileLight>g__ConicPointIsValid|20_1",
+                                           {},
+                                           { ::i2c::type_of<::Unity::Mathematics::float3>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::TilingJob._TileLightOrthographic_g__SpherePointIsValid_21_0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Mathematics::float3, ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass21_0>)>(
+    &::UnityEngine::Rendering::Universal::TilingJob::_TileLightOrthographic_g__SpherePointIsValid_21_0)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x6cfe8b0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TilingJob>(),
+                                         { "<TileLightOrthographic>g__SpherePointIsValid|21_0",
+                                           {},
+                                           { ::i2c::type_of<::Unity::Mathematics::float3>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass21_0>>() } })));
     return ___internal_method;
   }
 };
@@ -592,35 +592,35 @@ inline ::Unity::Mathematics::float2 UnityEngine::Rendering::Universal::TilingJob
   return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::float2>(nullptr, ___internal_method, near, o, d, r, u, v, y);
 }
 inline bool
-UnityEngine::Rendering::Universal::TilingJob::_TileLight_g__SpherePointIsValid_19_0(::Unity::Mathematics::float3 p,
-                                                                                    ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0> _cordl_fixed_empty_name_whitespace) {
+UnityEngine::Rendering::Universal::TilingJob::_TileLight_g__SpherePointIsValid_20_0(::Unity::Mathematics::float3 p,
+                                                                                    ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0> _cordl_fixed_empty_name_whitespace) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TilingJob>(),
-                                       { "<TileLight>g__SpherePointIsValid|19_0",
+                                       { "<TileLight>g__SpherePointIsValid|20_0",
                                          {},
-                                         { ::i2c::type_of<::Unity::Mathematics::float3>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0>>() } })));
+                                         { ::i2c::type_of<::Unity::Mathematics::float3>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, p, _cordl_fixed_empty_name_whitespace);
 }
 inline bool
-UnityEngine::Rendering::Universal::TilingJob::_TileLight_g__ConicPointIsValid_19_1(::Unity::Mathematics::float3 p,
-                                                                                   ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0> _cordl_fixed_empty_name_whitespace) {
+UnityEngine::Rendering::Universal::TilingJob::_TileLight_g__ConicPointIsValid_20_1(::Unity::Mathematics::float3 p,
+                                                                                   ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0> _cordl_fixed_empty_name_whitespace) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TilingJob>(),
-                                       { "<TileLight>g__ConicPointIsValid|19_1",
-                                         {},
-                                         { ::i2c::type_of<::Unity::Mathematics::float3>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0>>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, p, _cordl_fixed_empty_name_whitespace);
-}
-inline bool UnityEngine::Rendering::Universal::TilingJob::_TileLightOrthographic_g__SpherePointIsValid_20_0(
-    ::Unity::Mathematics::float3 p, ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0> _cordl_fixed_empty_name_whitespace) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TilingJob>(),
-                                       { "<TileLightOrthographic>g__SpherePointIsValid|20_0",
+                                       { "<TileLight>g__ConicPointIsValid|20_1",
                                          {},
                                          { ::i2c::type_of<::Unity::Mathematics::float3>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, p, _cordl_fixed_empty_name_whitespace);
+}
+inline bool UnityEngine::Rendering::Universal::TilingJob::_TileLightOrthographic_g__SpherePointIsValid_21_0(
+    ::Unity::Mathematics::float3 p, ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass21_0> _cordl_fixed_empty_name_whitespace) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TilingJob>(),
+                                       { "<TileLightOrthographic>g__SpherePointIsValid|21_0",
+                                         {},
+                                         { ::i2c::type_of<::Unity::Mathematics::float3>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass21_0>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, p, _cordl_fixed_empty_name_whitespace);
 }
 /// @brief Convert operator to "::Unity::Jobs::IJobFor"
@@ -633,9 +633,10 @@ constexpr ::Unity::Jobs::IJobFor* UnityEngine::Rendering::Universal::TilingJob::
 }
 // Ctor Parameters [CppParam { name: "lights", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
 // name: "reflectionProbes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "tileRanges", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "itemsPerTile",
-// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rangesPerItem", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "worldToViews", ty: "::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tileScale", ty:
+// "reflectionProbeRotation", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tileRanges", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "itemsPerTile", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rangesPerItem", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "worldToViews", ty:
+// "::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tileScale", ty:
 // "::Unity::Mathematics::float2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tileScaleInv", ty: "::Unity::Mathematics::float2", modifiers: "", def_value: Some("{}"),
 // comment: None }, CppParam { name: "viewPlaneBottoms", ty: "::UnityEngine::Rendering::Universal::Fixed2_1<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
 // "viewPlaneTops", ty: "::UnityEngine::Rendering::Universal::Fixed2_1<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "viewToViewportScaleBiases", ty:
@@ -646,13 +647,14 @@ constexpr ::Unity::Jobs::IJobFor* UnityEngine::Rendering::Universal::TilingJob::
 // comment: None }, CppParam { name: "m_CenterOffset", ty: "::Unity::Mathematics::float2", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::TilingJob::TilingJob(
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> lights, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe> reflectionProbes,
-    ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange> tileRanges, int32_t itemsPerTile, int32_t rangesPerItem,
+    bool reflectionProbeRotation, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange> tileRanges, int32_t itemsPerTile, int32_t rangesPerItem,
     ::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4> worldToViews, ::Unity::Mathematics::float2 tileScale, ::Unity::Mathematics::float2 tileScaleInv,
     ::UnityEngine::Rendering::Universal::Fixed2_1<float_t> viewPlaneBottoms, ::UnityEngine::Rendering::Universal::Fixed2_1<float_t> viewPlaneTops,
     ::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4> viewToViewportScaleBiases, ::Unity::Mathematics::int2 tileCount, float_t near, bool isOrthographic,
     ::UnityEngine::Rendering::Universal::InclusiveRange m_TileYRange, int32_t m_Offset, int32_t m_ViewIndex, ::Unity::Mathematics::float2 m_CenterOffset) noexcept {
   this->lights = lights;
   this->reflectionProbes = reflectionProbes;
+  this->reflectionProbeRotation = reflectionProbeRotation;
   this->tileRanges = tileRanges;
   this->itemsPerTile = itemsPerTile;
   this->rangesPerItem = rangesPerItem;

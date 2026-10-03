@@ -4,7 +4,9 @@
 #include "UnityEngine/zzzz__NoAllocHelpers_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/zzzz__NoAllocHelpers_def.hpp"
 template <typename T> constexpr ::ArrayW<T>& UnityEngine::NoAllocHelpers_ListPrivateFieldAccess_1<T>::__cordl_internal_get__items() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -49,11 +51,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Array*)>(&::UnityEngine::NoAllocHelpers::SafeLength)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ae5c90;
+  constexpr static std::size_t addrs = 0x6f40554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::NoAllocHelpers*>(), { "SafeLength", {}, { ::i2c::type_of<::System::Array*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::NoAllocHelpers.PrepareListForNativeFill
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Array* (*)(::System::Object*, ::System::Type*, int32_t)>(&::UnityEngine::NoAllocHelpers::PrepareListForNativeFill)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6f40564;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::NoAllocHelpers*>(),
+                                                { "PrepareListForNativeFill", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -83,6 +99,13 @@ template <typename T> inline ::ArrayW<T> UnityEngine::NoAllocHelpers::ExtractArr
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<T>>(nullptr, ___internal_method, list);
 }
+template <typename T> inline ::System::ReadOnlySpan_1<T> UnityEngine::NoAllocHelpers::CreateReadOnlySpan(::System::Collections::Generic::List_1<T>* list) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::NoAllocHelpers*>(), { "CreateReadOnlySpan", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Collections::Generic::List_1<T>*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::System::ReadOnlySpan_1<T>>(nullptr, ___internal_method, list);
+}
 template <typename T> inline void UnityEngine::NoAllocHelpers::ResetListContents(::System::Collections::Generic::List_1<T>* list, ::System::ReadOnlySpan_1<T> span) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -91,14 +114,18 @@ template <typename T> inline void UnityEngine::NoAllocHelpers::ResetListContents
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, list, span);
 }
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::NoAllocHelpers::ResetListSize(::System::Collections::Generic::List_1<T>* list, int32_t size) {
+template <typename T> inline void UnityEngine::NoAllocHelpers::ResetListSize(::System::Collections::Generic::List_1<T>* list, int32_t size) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::NoAllocHelpers*>(),
                                               { "ResetListSize", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Collections::Generic::List_1<T>*>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, list, size);
+}
+inline ::System::Array* UnityEngine::NoAllocHelpers::PrepareListForNativeFill(::System::Object* list, ::System::Type* elementType, int32_t newSize) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::NoAllocHelpers*>(),
+                                                           { "PrepareListForNativeFill", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Array*>(nullptr, ___internal_method, list, elementType, newSize);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::NoAllocHelpers::NoAllocHelpers() {}

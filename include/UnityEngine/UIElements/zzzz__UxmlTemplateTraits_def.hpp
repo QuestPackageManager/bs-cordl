@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Src(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6cbb874, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7143b30, size 0x100, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   UxmlTemplateTraits(UxmlTemplateTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5140 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5238 };
 
   /// @brief Field m_Name, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Name;

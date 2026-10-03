@@ -25,11 +25,13 @@ public:
 
   /// @brief Nested struct __RenderDataFlags_Unwrapped
   enum struct __RenderDataFlags_Unwrapped : int32_t {
-    __E_IsInChain = static_cast<int32_t>(0x1),
-    __E_IsGroupTransform = static_cast<int32_t>(0x2),
-    __E_IsIgnoringDynamicColorHint = static_cast<int32_t>(0x4),
-    __E_HasExtraData = static_cast<int32_t>(0x8),
-    __E_HasExtraMeshes = static_cast<int32_t>(0x10),
+    __E_IsGroupTransform = static_cast<int32_t>(0x1),
+    __E_IsIgnoringDynamicColorHint = static_cast<int32_t>(0x2),
+    __E_HasExtraData = static_cast<int32_t>(0x4),
+    __E_HasExtraMeshes = static_cast<int32_t>(0x8),
+    __E_IsSubTreeQuad = static_cast<int32_t>(0x10),
+    __E_IsNestedRenderTreeRoot = static_cast<int32_t>(0x20),
+    __E_IsClippingRectDirty = static_cast<int32_t>(0x40),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -49,23 +51,29 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderDataFlags(int32_t value__) noexcept;
 
-  /// @brief Field HasExtraData value: I32(8)
+  /// @brief Field HasExtraData value: I32(4)
   static ::UnityEngine::UIElements::UIR::RenderDataFlags const HasExtraData;
 
-  /// @brief Field HasExtraMeshes value: I32(16)
+  /// @brief Field HasExtraMeshes value: I32(8)
   static ::UnityEngine::UIElements::UIR::RenderDataFlags const HasExtraMeshes;
 
-  /// @brief Field IsGroupTransform value: I32(2)
+  /// @brief Field IsClippingRectDirty value: I32(64)
+  static ::UnityEngine::UIElements::UIR::RenderDataFlags const IsClippingRectDirty;
+
+  /// @brief Field IsGroupTransform value: I32(1)
   static ::UnityEngine::UIElements::UIR::RenderDataFlags const IsGroupTransform;
 
-  /// @brief Field IsIgnoringDynamicColorHint value: I32(4)
+  /// @brief Field IsIgnoringDynamicColorHint value: I32(2)
   static ::UnityEngine::UIElements::UIR::RenderDataFlags const IsIgnoringDynamicColorHint;
 
-  /// @brief Field IsInChain value: I32(1)
-  static ::UnityEngine::UIElements::UIR::RenderDataFlags const IsInChain;
+  /// @brief Field IsNestedRenderTreeRoot value: I32(32)
+  static ::UnityEngine::UIElements::UIR::RenderDataFlags const IsNestedRenderTreeRoot;
+
+  /// @brief Field IsSubTreeQuad value: I32(16)
+  static ::UnityEngine::UIElements::UIR::RenderDataFlags const IsSubTreeQuad;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5336 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5435 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__EntityId_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cmath>
 #include <cstddef>
-#include <cstdint>
 CORDL_MODULE_EXPORT(RaycastHit2D)
 namespace UnityEngine {
 class Collider2D;
@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::RaycastHit2D);
 DEFINE_IL2CPP_CLASS(::UnityEngine::RaycastHit2D, "UnityEngine", "RaycastHit2D");
 // [NativeHeader("Runtime/Interfaces/IPhysics2D.h")]
 // [NativeClass("RaycastHit2D", "struct RaycastHit2D;")]
-// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
-// Dependencies UnityEngine.Vector2
+// [RequiredByNativeCode(Optional = true, GenerateProxy = false)]
+// Dependencies UnityEngine.EntityId, UnityEngine.Vector2
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.RaycastHit2D
@@ -41,19 +41,19 @@ public:
 
   __declspec(property(get = get_point)) ::UnityEngine::Vector2 point;
 
-  /// @brief Method get_collider, addr 0x6b70e7c, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method get_collider, addr 0x6fd1488, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider2D> get_collider();
 
-  /// @brief Method get_distance, addr 0x6b70e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x6fd1478, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_fraction, addr 0x6b70e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fraction, addr 0x6fd1480, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fraction();
 
-  /// @brief Method get_normal, addr 0x6b70e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x6fd1470, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_normal();
 
-  /// @brief Method get_point, addr 0x6b70e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x6fd1468, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_point();
 
   // Ctor Parameters []
@@ -62,12 +62,13 @@ public:
 
   // Ctor Parameters [CppParam { name: "m_Centroid", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Point", ty: "::UnityEngine::Vector2", modifiers:
   // "", def_value: None, comment: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Distance", ty: "float_t",
-  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Fraction", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Collider", ty: "int32_t",
-  // modifiers: "", def_value: None, comment: None }]
-  constexpr RaycastHit2D(::UnityEngine::Vector2 m_Centroid, ::UnityEngine::Vector2 m_Point, ::UnityEngine::Vector2 m_Normal, float_t m_Distance, float_t m_Fraction, int32_t m_Collider) noexcept;
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Fraction", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Collider", ty:
+  // "::UnityEngine::EntityId", modifiers: "", def_value: None, comment: None }]
+  constexpr RaycastHit2D(::UnityEngine::Vector2 m_Centroid, ::UnityEngine::Vector2 m_Point, ::UnityEngine::Vector2 m_Normal, float_t m_Distance, float_t m_Fraction,
+                         ::UnityEngine::EntityId m_Collider) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21503 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
@@ -94,7 +95,7 @@ public:
 
   /// [NativeName("collider")]
   /// @brief Field m_Collider, offset: 0x20, size: 0x4, def value: None
-  int32_t m_Collider;
+  ::UnityEngine::EntityId m_Collider;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

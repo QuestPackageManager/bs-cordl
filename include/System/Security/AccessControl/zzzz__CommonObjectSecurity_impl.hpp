@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::CommonObjectSecurity::*)(bool)>(&::System::Security::AccessControl::CommonObjectSecurity::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1ed40;
+  constexpr static std::size_t addrs = 0x5f36c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::AuthorizationRuleCollection* (
     ::System::Security::AccessControl::CommonObjectSecurity::*)(bool, bool, ::System::Type*)>(&::System::Security::AccessControl::CommonObjectSecurity::GetAccessRules)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b1ee2c;
+  constexpr static std::size_t addrs = 0x5f36d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

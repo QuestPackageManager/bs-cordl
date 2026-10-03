@@ -68,11 +68,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x59ca2e4, size 0x51c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5de55ac, size 0x520, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x59ca800, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5de5acc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -92,7 +92,7 @@ public:
                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6110 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6230 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -153,11 +153,11 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x59ca2e0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5de55a8, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// [AsyncStateMachine(typeof(MockBeatmapLoader::<GetBeatmapData>d__4))]
-  /// @brief Method GetBeatmapData, addr 0x59ca1f0, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method GetBeatmapData, addr 0x5de54b8, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MockBeatmapData*>* GetBeatmapData(::GlobalNamespace::BeatmapKeyNetSerializable* beatmap,
                                                                                                  ::System::Threading::CancellationToken cancellationToken);
 
@@ -182,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set__environmentsListModel(::GlobalNamespace::EnvironmentsListModel* value);
 
-  /// @brief Method .ctor, addr 0x59ca1e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de54ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
                     ::GlobalNamespace::EnvironmentsListModel* environmentsListModel);
 
@@ -207,7 +207,7 @@ public:
   MockBeatmapLoader(MockBeatmapLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6111 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6231 };
 
   /// @brief Field _beatmapLevelsModel, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;

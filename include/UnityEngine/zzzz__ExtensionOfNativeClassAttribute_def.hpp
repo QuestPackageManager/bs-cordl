@@ -12,9 +12,9 @@ class ExtensionOfNativeClassAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::ExtensionOfNativeClassAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ExtensionOfNativeClassAttribute*, "UnityEngine", "ExtensionOfNativeClassAttribute");
+// [RequiredByNativeCode]
 // [AttributeUsage((System.AttributeTargets)1028, Inherited = true)]
 // [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-// [RequiredByNativeCode]
 // Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::UnityEngine::ExtensionOfNativeClassAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6ae002c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f3a4a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   ExtensionOfNativeClassAttribute(ExtensionOfNativeClassAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9931 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

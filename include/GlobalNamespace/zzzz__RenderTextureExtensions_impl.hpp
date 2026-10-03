@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)(::UnityEngine::RenderTexture*)>(&::GlobalNamespace::RenderTextureExtensions::GetTexture2D)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3326960;
+  constexpr static std::size_t addrs = 0x35afbcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -8,10 +8,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderPassEvent_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPassInput_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ClearFlag_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RTHandle_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RenderBufferStoreAction_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
@@ -30,9 +26,6 @@ class RenderGraph;
 }
 namespace UnityEngine::Rendering::Universal {
 class DebugHandler;
-}
-namespace UnityEngine::Rendering::Universal {
-class RenderGraphSettings;
 }
 namespace UnityEngine::Rendering::Universal {
 struct RenderPassEvent;
@@ -74,9 +67,6 @@ namespace UnityEngine::Rendering {
 struct RenderBufferStoreAction;
 }
 namespace UnityEngine::Rendering {
-struct RenderTargetIdentifier;
-}
-namespace UnityEngine::Rendering {
 struct ScriptableRenderContext;
 }
 namespace UnityEngine::Rendering {
@@ -101,67 +91,53 @@ class ScriptableRenderPass;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::ScriptableRenderPass*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ScriptableRenderPass*, "UnityEngine.Rendering.Universal", "ScriptableRenderPass");
-// Dependencies System.Object, Unity.Collections.NativeArray`1<T>, UnityEngine.Color, UnityEngine.Experimental.Rendering.GraphicsFormat, UnityEngine.Rendering.ClearFlag,
-// UnityEngine.Rendering.RTHandle, UnityEngine.Rendering.RenderBufferStoreAction, UnityEngine.Rendering.Universal.RenderPassEvent, UnityEngine.Rendering.Universal.ScriptableRenderPassInput
+// Dependencies System.Object, Unity.Collections.NativeArray`1<T>, UnityEngine.Experimental.Rendering.GraphicsFormat, UnityEngine.Rendering.Universal.RenderPassEvent,
+// UnityEngine.Rendering.Universal.ScriptableRenderPassInput
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.ScriptableRenderPass
 class CORDL_TYPE ScriptableRenderPass : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <breakGBufferAndDeferredRenderPass>k__BackingField, offset 0x53, size 0x1
-  __declspec(property(get = __cordl_internal_get__breakGBufferAndDeferredRenderPass_k__BackingField,
-                      put = __cordl_internal_set__breakGBufferAndDeferredRenderPass_k__BackingField)) bool _breakGBufferAndDeferredRenderPass_k__BackingField;
-
-  /// @brief Field <isBlitRenderPass>k__BackingField, offset 0x51, size 0x1
+  /// @brief Field <isBlitRenderPass>k__BackingField, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__isBlitRenderPass_k__BackingField, put = __cordl_internal_set__isBlitRenderPass_k__BackingField)) bool _isBlitRenderPass_k__BackingField;
-
-  /// @brief Field <overrideCameraTarget>k__BackingField, offset 0x50, size 0x1
-  __declspec(property(get = __cordl_internal_get__overrideCameraTarget_k__BackingField, put = __cordl_internal_set__overrideCameraTarget_k__BackingField)) bool _overrideCameraTarget_k__BackingField;
 
   /// @brief Field <renderPassEvent>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__renderPassEvent_k__BackingField,
                       put = __cordl_internal_set__renderPassEvent_k__BackingField)) ::UnityEngine::Rendering::Universal::RenderPassEvent _renderPassEvent_k__BackingField;
 
-  /// @brief Field <renderPassQueueIndex>k__BackingField, offset 0x54, size 0x4
+  /// @brief Field <renderPassQueueIndex>k__BackingField, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__renderPassQueueIndex_k__BackingField,
                       put = __cordl_internal_set__renderPassQueueIndex_k__BackingField)) int32_t _renderPassQueueIndex_k__BackingField;
 
-  /// @brief Field <renderTargetFormat>k__BackingField, offset 0x78, size 0x8
+  /// @brief Field <renderTargetFormat>k__BackingField, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__renderTargetFormat_k__BackingField,
                       put = __cordl_internal_set__renderTargetFormat_k__BackingField)) ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat>
       _renderTargetFormat_k__BackingField;
 
-  /// @brief Field <requiresIntermediateTexture>k__BackingField, offset 0x24, size 0x1
+  /// @brief Field <requiresIntermediateTexture>k__BackingField, offset 0x14, size 0x1
   __declspec(property(get = __cordl_internal_get__requiresIntermediateTexture_k__BackingField,
                       put = __cordl_internal_set__requiresIntermediateTexture_k__BackingField)) bool _requiresIntermediateTexture_k__BackingField;
 
-  /// @brief Field <useNativeRenderPass>k__BackingField, offset 0x52, size 0x1
-  __declspec(property(get = __cordl_internal_get__useNativeRenderPass_k__BackingField, put = __cordl_internal_set__useNativeRenderPass_k__BackingField)) bool _useNativeRenderPass_k__BackingField;
-
-  __declspec(property(get = get_breakGBufferAndDeferredRenderPass, put = set_breakGBufferAndDeferredRenderPass)) bool breakGBufferAndDeferredRenderPass;
-
+  /// @brief [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
   __declspec(property(get = get_clearColor)) ::UnityEngine::Color clearColor;
 
+  /// @brief [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
   __declspec(property(get = get_clearFlag)) ::UnityEngine::Rendering::ClearFlag clearFlag;
 
-  /// @brief [Obsolete("Use colorAttachmentHandle", true)]
-  __declspec(property(get = get_colorAttachment)) ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorAttachment;
-
+  /// @brief [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
   __declspec(property(get = get_colorAttachmentHandle)) ::UnityEngine::Rendering::RTHandle* colorAttachmentHandle;
 
+  /// @brief [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
   __declspec(property(get = get_colorAttachmentHandles)) ::ArrayW<::UnityEngine::Rendering::RTHandle*> colorAttachmentHandles;
 
-  /// @brief [Obsolete("Use colorAttachmentHandles", true)]
-  __declspec(property(get = get_colorAttachments)) ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorAttachments;
-
+  /// @brief [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
   __declspec(property(get = get_colorStoreActions)) ::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction> colorStoreActions;
 
-  /// @brief [Obsolete("Use depthAttachmentHandle", true)]
-  __declspec(property(get = get_depthAttachment)) ::UnityEngine::Rendering::RenderTargetIdentifier depthAttachment;
-
+  /// @brief [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
   __declspec(property(get = get_depthAttachmentHandle)) ::UnityEngine::Rendering::RTHandle* depthAttachmentHandle;
 
+  /// @brief [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
   __declspec(property(get = get_depthStoreAction)) ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction;
 
   __declspec(property(get = get_input)) ::UnityEngine::Rendering::Universal::ScriptableRenderPassInput input;
@@ -171,60 +147,20 @@ public:
   /// @brief Field k_CameraTarget, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_CameraTarget, put = setStaticF_k_CameraTarget)) ::UnityEngine::Rendering::RTHandle* k_CameraTarget;
 
-  /// @brief Field m_ClearColor, offset 0xa8, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_ClearColor, put = __cordl_internal_set_m_ClearColor)) ::UnityEngine::Color m_ClearColor;
-
-  /// @brief Field m_ClearFlag, offset 0xa4, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_ClearFlag, put = __cordl_internal_set_m_ClearFlag)) ::UnityEngine::Rendering::ClearFlag m_ClearFlag;
-
-  /// @brief Field m_ColorAttachmentIndices, offset 0x58, size 0x10
+  /// @brief Field m_ColorAttachmentIndices, offset 0x30, size 0x10
   __declspec(property(get = __cordl_internal_get_m_ColorAttachmentIndices, put = __cordl_internal_set_m_ColorAttachmentIndices)) ::Unity::Collections::NativeArray_1<int32_t> m_ColorAttachmentIndices;
 
-  /// @brief Field m_ColorAttachments, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ColorAttachments, put = __cordl_internal_set_m_ColorAttachments)) ::ArrayW<::UnityEngine::Rendering::RTHandle*> m_ColorAttachments;
-
-  /// @brief Field m_ColorStoreActions, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ColorStoreActions, put = __cordl_internal_set_m_ColorStoreActions)) ::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction> m_ColorStoreActions;
-
-  /// @brief Field m_DepthAttachment, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DepthAttachment, put = __cordl_internal_set_m_DepthAttachment)) ::UnityEngine::Rendering::RTHandle* m_DepthAttachment;
-
-  /// @brief Field m_DepthStoreAction, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DepthStoreAction, put = __cordl_internal_set_m_DepthStoreAction)) ::UnityEngine::Rendering::RenderBufferStoreAction m_DepthStoreAction;
-
-  /// @brief Field m_Input, offset 0xa0, size 0x4
+  /// @brief Field m_Input, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Input, put = __cordl_internal_set_m_Input)) ::UnityEngine::Rendering::Universal::ScriptableRenderPassInput m_Input;
 
-  /// @brief Field m_InputAttachmentIndices, offset 0x68, size 0x10
+  /// @brief Field m_InputAttachmentIndices, offset 0x40, size 0x10
   __declspec(property(get = __cordl_internal_get_m_InputAttachmentIndices, put = __cordl_internal_set_m_InputAttachmentIndices)) ::Unity::Collections::NativeArray_1<int32_t> m_InputAttachmentIndices;
 
-  /// @brief Field m_InputAttachmentIsTransient, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_InputAttachmentIsTransient, put = __cordl_internal_set_m_InputAttachmentIsTransient)) ::ArrayW<bool> m_InputAttachmentIsTransient;
-
-  /// @brief Field m_InputAttachments, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_InputAttachments, put = __cordl_internal_set_m_InputAttachments)) ::ArrayW<::UnityEngine::Rendering::RTHandle*> m_InputAttachments;
-
-  /// @brief Field m_OverriddenColorStoreActions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OverriddenColorStoreActions, put = __cordl_internal_set_m_OverriddenColorStoreActions)) ::ArrayW<bool> m_OverriddenColorStoreActions;
-
-  /// @brief Field m_OverriddenDepthStoreAction, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_OverriddenDepthStoreAction, put = __cordl_internal_set_m_OverriddenDepthStoreAction)) bool m_OverriddenDepthStoreAction;
-
-  /// @brief Field m_PassName, offset 0x40, size 0x8
+  /// @brief Field m_PassName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PassName, put = __cordl_internal_set_m_PassName)) ::StringW m_PassName;
 
-  /// @brief Field m_ProfingSampler, offset 0x38, size 0x8
+  /// @brief Field m_ProfingSampler, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ProfingSampler, put = __cordl_internal_set_m_ProfingSampler)) ::UnityEngine::Rendering::ProfilingSampler* m_ProfingSampler;
-
-  /// @brief Field m_RenderGraphSettings, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RenderGraphSettings,
-                      put = __cordl_internal_set_m_RenderGraphSettings)) ::UnityEngine::Rendering::Universal::RenderGraphSettings* m_RenderGraphSettings;
-
-  __declspec(property(get = get_overriddenColorStoreActions)) ::ArrayW<bool> overriddenColorStoreActions;
-
-  __declspec(property(get = get_overriddenDepthStoreAction)) bool overriddenDepthStoreAction;
-
-  __declspec(property(get = get_overrideCameraTarget, put = set_overrideCameraTarget)) bool overrideCameraTarget;
 
   __declspec(property(get = get_passName)) ::StringW passName;
 
@@ -238,175 +174,119 @@ public:
 
   __declspec(property(get = get_requiresIntermediateTexture, put = set_requiresIntermediateTexture)) bool requiresIntermediateTexture;
 
-  __declspec(property(get = get_useNativeRenderPass, put = set_useNativeRenderPass)) bool useNativeRenderPass;
-
   /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IRenderGraphRecorder"
   constexpr operator ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphRecorder*() noexcept;
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Blit, addr 0x68645d4, size 0x8c, virtual false, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Blit, addr 0x6c9ab10, size 0x4, virtual false, abstract: false, final false
   inline void Blit(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> data, ::UnityEngine::Material* material, int32_t passIndex);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Blit, addr 0x68646ec, size 0x5c, virtual false, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Blit, addr 0x6c9ab14, size 0x4, virtual false, abstract: false, final false
   inline void Blit(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> data, ::UnityEngine::Rendering::RTHandle* source,
                    ::UnityEngine::Material* material, int32_t passIndex);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Blit, addr 0x68644a8, size 0x12c, virtual false, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Blit, addr 0x6c9ab0c, size 0x4, virtual false, abstract: false, final false
   inline void Blit(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination, ::UnityEngine::Material* material,
                    int32_t passIndex);
 
-  /// [Obsolete("Use RTHandles for source and destination", true)]
-  /// @brief Method Blit, addr 0x686445c, size 0x4c, virtual false, abstract: false, final false
-  inline void Blit(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Rendering::RenderTargetIdentifier destination,
-                   ::UnityEngine::Material* material, int32_t passIndex);
-
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Configure, addr 0x68642d8, size 0x4, virtual true, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Configure, addr 0x6c9ab00, size 0x4, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method ConfigureClear, addr 0x68642c4, size 0x10, virtual false, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method ConfigureClear, addr 0x6c9aaf8, size 0x4, virtual false, abstract: false, final false
   inline void ConfigureClear(::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method ConfigureColorStoreAction, addr 0x6863cf0, size 0x54, virtual false, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method ConfigureColorStoreAction, addr 0x6c9aad8, size 0x4, virtual false, abstract: false, final false
   inline void ConfigureColorStoreAction(::UnityEngine::Rendering::RenderBufferStoreAction storeAction, uint32_t attachmentIndex);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method ConfigureColorStoreActions, addr 0x6863d44, size 0xf0, virtual false, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method ConfigureColorStoreActions, addr 0x6c9aadc, size 0x4, virtual false, abstract: false, final false
   inline void ConfigureColorStoreActions(::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction> storeActions);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method ConfigureDepthStoreAction, addr 0x6863e34, size 0x10, virtual false, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method ConfigureDepthStoreAction, addr 0x6c9aae0, size 0x4, virtual false, abstract: false, final false
   inline void ConfigureDepthStoreAction(::UnityEngine::Rendering::RenderBufferStoreAction storeAction);
 
-  /// @brief Method ConfigureInput, addr 0x6863ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ConfigureInput, addr 0x6c9abc8, size 0x8, virtual false, abstract: false, final false
   inline void ConfigureInput(::UnityEngine::Rendering::Universal::ScriptableRenderPassInput passInput);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method ConfigureInputAttachments, addr 0x6863e44, size 0x80, virtual false, abstract: false, final false
-  inline void ConfigureInputAttachments(::UnityEngine::Rendering::RTHandle* input, bool isTransient);
-
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method ConfigureInputAttachments, addr 0x6863ec4, size 0x8, virtual false, abstract: false, final false
-  inline void ConfigureInputAttachments(::ArrayW<::UnityEngine::Rendering::RTHandle*> inputs);
-
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method ConfigureInputAttachments, addr 0x6861210, size 0x8, virtual false, abstract: false, final false
-  inline void ConfigureInputAttachments(::ArrayW<::UnityEngine::Rendering::RTHandle*> inputs, ::ArrayW<bool> isTransient);
-
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method ConfigureTarget, addr 0x6864190, size 0x74, virtual false, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method ConfigureTarget, addr 0x6c9aaf0, size 0x4, virtual false, abstract: false, final false
   inline void ConfigureTarget(::UnityEngine::Rendering::RTHandle* colorAttachment);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method ConfigureTarget, addr 0x6863fe0, size 0x9c, virtual false, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method ConfigureTarget, addr 0x6c9aae8, size 0x4, virtual false, abstract: false, final false
   inline void ConfigureTarget(::UnityEngine::Rendering::RTHandle* colorAttachment, ::UnityEngine::Rendering::RTHandle* depthAttachment);
 
-  /// [Obsolete("Use RTHandle for colorAttachment", true)]
-  /// @brief Method ConfigureTarget, addr 0x6864144, size 0x4c, virtual false, abstract: false, final false
-  inline void ConfigureTarget(::UnityEngine::Rendering::RenderTargetIdentifier colorAttachment);
-
-  /// [Obsolete("Use RTHandles for colorAttachment and depthAttachment", true)]
-  /// @brief Method ConfigureTarget, addr 0x6863f94, size 0x4c, virtual false, abstract: false, final false
-  inline void ConfigureTarget(::UnityEngine::Rendering::RenderTargetIdentifier colorAttachment, ::UnityEngine::Rendering::RenderTargetIdentifier depthAttachment);
-
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method ConfigureTarget, addr 0x6864250, size 0x74, virtual false, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method ConfigureTarget, addr 0x6c9aaf4, size 0x4, virtual false, abstract: false, final false
   inline void ConfigureTarget(::ArrayW<::UnityEngine::Rendering::RTHandle*> colorAttachments);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method ConfigureTarget, addr 0x6854598, size 0x2ec, virtual false, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method ConfigureTarget, addr 0x6c9aaec, size 0x4, virtual false, abstract: false, final false
   inline void ConfigureTarget(::ArrayW<::UnityEngine::Rendering::RTHandle*> colorAttachments, ::UnityEngine::Rendering::RTHandle* depthAttachment);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method ConfigureTarget, addr 0x68640c8, size 0x7c, virtual false, abstract: false, final false
-  inline void ConfigureTarget(::ArrayW<::UnityEngine::Rendering::RTHandle*> colorAttachments, ::UnityEngine::Rendering::RTHandle* depthAttachment,
-                              ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat> formats);
-
-  /// [Obsolete("Use RTHandles for colorAttachments", true)]
-  /// @brief Method ConfigureTarget, addr 0x6864204, size 0x4c, virtual false, abstract: false, final false
-  inline void ConfigureTarget(::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorAttachments);
-
-  /// [Obsolete("Use RTHandles for colorAttachments and depthAttachment", true)]
-  /// @brief Method ConfigureTarget, addr 0x686407c, size 0x4c, virtual false, abstract: false, final false
-  inline void ConfigureTarget(::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorAttachments, ::UnityEngine::Rendering::RenderTargetIdentifier depthAttachment);
-
-  /// @brief Method CreateDrawingSettings, addr 0x68648b0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreateDrawingSettings, addr 0x6c9adf8, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DrawingSettings CreateDrawingSettings(::UnityEngine::Rendering::ShaderTagId shaderTagId, ::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
                                                                          ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                          ::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::UnityEngine::Rendering::SortingCriteria sortingCriteria);
 
-  /// @brief Method CreateDrawingSettings, addr 0x6864748, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CreateDrawingSettings, addr 0x6c9ac90, size 0x168, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DrawingSettings CreateDrawingSettings(::UnityEngine::Rendering::ShaderTagId shaderTagId, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData,
                                                                          ::UnityEngine::Rendering::SortingCriteria sortingCriteria);
 
-  /// @brief Method CreateDrawingSettings, addr 0x6864af8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreateDrawingSettings, addr 0x6c9b040, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DrawingSettings CreateDrawingSettings(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* shaderTagIdList,
                                                                          ::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
                                                                          ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                          ::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::UnityEngine::Rendering::SortingCriteria sortingCriteria);
 
-  /// @brief Method CreateDrawingSettings, addr 0x6864990, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CreateDrawingSettings, addr 0x6c9aed8, size 0x168, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DrawingSettings CreateDrawingSettings(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* shaderTagIdList,
                                                                          ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData,
                                                                          ::UnityEngine::Rendering::SortingCriteria sortingCriteria);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Execute, addr 0x68642e4, size 0xbc, virtual true, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Execute, addr 0x6c9ab08, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
-  /// @brief Method FrameCleanup, addr 0x6863aac, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method FrameCleanup, addr 0x6c9aa88, size 0xc, virtual true, abstract: false, final false
   inline void FrameCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method GetActiveDebugHandler, addr 0x6863c98, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetActiveDebugHandler, addr 0x6c9ab78, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::DebugHandler* GetActiveDebugHandler(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method GetRenderPassEventRange, addr 0x6864c28, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetRenderPassEventRange, addr 0x6c9b170, size 0x178, virtual false, abstract: false, final false
   static inline int32_t GetRenderPassEventRange(::UnityEngine::Rendering::Universal::RenderPassEvent renderPassEvent);
-
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method IsInputAttachmentTransient, addr 0x6863f00, size 0x30, virtual false, abstract: false, final false
-  inline bool IsInputAttachmentTransient(int32_t idx);
 
   static inline ::UnityEngine::Rendering::Universal::ScriptableRenderPass* New_ctor();
 
-  /// @brief Method OnCameraCleanup, addr 0x68642dc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x6c9abd0, size 0x4, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method OnCameraSetup, addr 0x68642d4, size 0x4, virtual true, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method OnCameraSetup, addr 0x6c9aafc, size 0x4, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method OnFinishCameraStackRendering, addr 0x68642e0, size 0x4, virtual true, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method OnFinishCameraStackRendering, addr 0x6c9ab04, size 0x4, virtual true, abstract: false, final false
   inline void OnFinishCameraStackRendering(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method RecordRenderGraph, addr 0x68643a0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6c9abd4, size 0xbc, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method ResetTarget, addr 0x6863f30, size 0x64, virtual false, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method ResetTarget, addr 0x6c9aae4, size 0x4, virtual false, abstract: false, final false
   inline void ResetTarget();
-
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method SetInputAttachmentTransient, addr 0x6863ecc, size 0x34, virtual false, abstract: false, final false
-  inline void SetInputAttachmentTransient(int32_t idx, bool isTransient);
-
-  constexpr bool const& __cordl_internal_get__breakGBufferAndDeferredRenderPass_k__BackingField() const;
-
-  constexpr bool& __cordl_internal_get__breakGBufferAndDeferredRenderPass_k__BackingField();
 
   constexpr bool const& __cordl_internal_get__isBlitRenderPass_k__BackingField() const;
 
   constexpr bool& __cordl_internal_get__isBlitRenderPass_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__overrideCameraTarget_k__BackingField() const;
-
-  constexpr bool& __cordl_internal_get__overrideCameraTarget_k__BackingField();
 
   constexpr ::UnityEngine::Rendering::Universal::RenderPassEvent const& __cordl_internal_get__renderPassEvent_k__BackingField() const;
 
@@ -424,37 +304,9 @@ public:
 
   constexpr bool& __cordl_internal_get__requiresIntermediateTexture_k__BackingField();
 
-  constexpr bool const& __cordl_internal_get__useNativeRenderPass_k__BackingField() const;
-
-  constexpr bool& __cordl_internal_get__useNativeRenderPass_k__BackingField();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_ClearColor() const;
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_m_ClearColor();
-
-  constexpr ::UnityEngine::Rendering::ClearFlag const& __cordl_internal_get_m_ClearFlag() const;
-
-  constexpr ::UnityEngine::Rendering::ClearFlag& __cordl_internal_get_m_ClearFlag();
-
   constexpr ::Unity::Collections::NativeArray_1<int32_t> const& __cordl_internal_get_m_ColorAttachmentIndices() const;
 
   constexpr ::Unity::Collections::NativeArray_1<int32_t>& __cordl_internal_get_m_ColorAttachmentIndices();
-
-  constexpr ::ArrayW<::UnityEngine::Rendering::RTHandle*> const& __cordl_internal_get_m_ColorAttachments() const;
-
-  constexpr ::ArrayW<::UnityEngine::Rendering::RTHandle*>& __cordl_internal_get_m_ColorAttachments();
-
-  constexpr ::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction> const& __cordl_internal_get_m_ColorStoreActions() const;
-
-  constexpr ::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction>& __cordl_internal_get_m_ColorStoreActions();
-
-  constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get_m_DepthAttachment() const;
-
-  constexpr ::UnityEngine::Rendering::RTHandle*& __cordl_internal_get_m_DepthAttachment();
-
-  constexpr ::UnityEngine::Rendering::RenderBufferStoreAction const& __cordl_internal_get_m_DepthStoreAction() const;
-
-  constexpr ::UnityEngine::Rendering::RenderBufferStoreAction& __cordl_internal_get_m_DepthStoreAction();
 
   constexpr ::UnityEngine::Rendering::Universal::ScriptableRenderPassInput const& __cordl_internal_get_m_Input() const;
 
@@ -464,22 +316,6 @@ public:
 
   constexpr ::Unity::Collections::NativeArray_1<int32_t>& __cordl_internal_get_m_InputAttachmentIndices();
 
-  constexpr ::ArrayW<bool> const& __cordl_internal_get_m_InputAttachmentIsTransient() const;
-
-  constexpr ::ArrayW<bool>& __cordl_internal_get_m_InputAttachmentIsTransient();
-
-  constexpr ::ArrayW<::UnityEngine::Rendering::RTHandle*> const& __cordl_internal_get_m_InputAttachments() const;
-
-  constexpr ::ArrayW<::UnityEngine::Rendering::RTHandle*>& __cordl_internal_get_m_InputAttachments();
-
-  constexpr ::ArrayW<bool> const& __cordl_internal_get_m_OverriddenColorStoreActions() const;
-
-  constexpr ::ArrayW<bool>& __cordl_internal_get_m_OverriddenColorStoreActions();
-
-  constexpr bool const& __cordl_internal_get_m_OverriddenDepthStoreAction() const;
-
-  constexpr bool& __cordl_internal_get_m_OverriddenDepthStoreAction();
-
   constexpr ::StringW const& __cordl_internal_get_m_PassName() const;
 
   constexpr ::StringW& __cordl_internal_get_m_PassName();
@@ -488,15 +324,7 @@ public:
 
   constexpr ::UnityEngine::Rendering::ProfilingSampler*& __cordl_internal_get_m_ProfingSampler();
 
-  constexpr ::UnityEngine::Rendering::Universal::RenderGraphSettings* const& __cordl_internal_get_m_RenderGraphSettings() const;
-
-  constexpr ::UnityEngine::Rendering::Universal::RenderGraphSettings*& __cordl_internal_get_m_RenderGraphSettings();
-
-  constexpr void __cordl_internal_set__breakGBufferAndDeferredRenderPass_k__BackingField(bool value);
-
   constexpr void __cordl_internal_set__isBlitRenderPass_k__BackingField(bool value);
-
-  constexpr void __cordl_internal_set__overrideCameraTarget_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__renderPassEvent_k__BackingField(::UnityEngine::Rendering::Universal::RenderPassEvent value);
 
@@ -506,167 +334,104 @@ public:
 
   constexpr void __cordl_internal_set__requiresIntermediateTexture_k__BackingField(bool value);
 
-  constexpr void __cordl_internal_set__useNativeRenderPass_k__BackingField(bool value);
-
-  constexpr void __cordl_internal_set_m_ClearColor(::UnityEngine::Color value);
-
-  constexpr void __cordl_internal_set_m_ClearFlag(::UnityEngine::Rendering::ClearFlag value);
-
   constexpr void __cordl_internal_set_m_ColorAttachmentIndices(::Unity::Collections::NativeArray_1<int32_t> value);
-
-  constexpr void __cordl_internal_set_m_ColorAttachments(::ArrayW<::UnityEngine::Rendering::RTHandle*> value);
-
-  constexpr void __cordl_internal_set_m_ColorStoreActions(::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction> value);
-
-  constexpr void __cordl_internal_set_m_DepthAttachment(::UnityEngine::Rendering::RTHandle* value);
-
-  constexpr void __cordl_internal_set_m_DepthStoreAction(::UnityEngine::Rendering::RenderBufferStoreAction value);
 
   constexpr void __cordl_internal_set_m_Input(::UnityEngine::Rendering::Universal::ScriptableRenderPassInput value);
 
   constexpr void __cordl_internal_set_m_InputAttachmentIndices(::Unity::Collections::NativeArray_1<int32_t> value);
 
-  constexpr void __cordl_internal_set_m_InputAttachmentIsTransient(::ArrayW<bool> value);
-
-  constexpr void __cordl_internal_set_m_InputAttachments(::ArrayW<::UnityEngine::Rendering::RTHandle*> value);
-
-  constexpr void __cordl_internal_set_m_OverriddenColorStoreActions(::ArrayW<bool> value);
-
-  constexpr void __cordl_internal_set_m_OverriddenDepthStoreAction(bool value);
-
   constexpr void __cordl_internal_set_m_PassName(::StringW value);
 
   constexpr void __cordl_internal_set_m_ProfingSampler(::UnityEngine::Rendering::ProfilingSampler* value);
 
-  constexpr void __cordl_internal_set_m_RenderGraphSettings(::UnityEngine::Rendering::Universal::RenderGraphSettings* value);
-
-  /// @brief Method .ctor, addr 0x6853dd8, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c8c628, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::RTHandle* getStaticF_k_CameraTarget();
 
-  /// [CompilerGenerated]
-  /// @brief Method get_breakGBufferAndDeferredRenderPass, addr 0x6863c68, size 0x8, virtual false, abstract: false, final false
-  inline bool get_breakGBufferAndDeferredRenderPass();
-
-  /// @brief Method get_clearColor, addr 0x6863c14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_clearColor, addr 0x6c9aac4, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_clearColor();
 
-  /// @brief Method get_clearFlag, addr 0x6863c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearFlag, addr 0x6c9aabc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ClearFlag get_clearFlag();
 
-  /// @brief Method get_colorAttachment, addr 0x6863b14, size 0x4c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> get_colorAttachment();
-
-  /// @brief Method get_colorAttachmentHandle, addr 0x6863bb4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_colorAttachmentHandle, addr 0x6c9aa9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_colorAttachmentHandle();
 
-  /// @brief Method get_colorAttachmentHandles, addr 0x6863bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorAttachmentHandles, addr 0x6c9aa94, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RTHandle*> get_colorAttachmentHandles();
 
-  /// @brief Method get_colorAttachments, addr 0x6863ac8, size 0x4c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> get_colorAttachments();
-
-  /// @brief Method get_colorStoreActions, addr 0x6863be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorStoreActions, addr 0x6c9aaac, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction> get_colorStoreActions();
 
-  /// @brief Method get_depthAttachment, addr 0x6863b60, size 0x4c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderTargetIdentifier get_depthAttachment();
-
-  /// @brief Method get_depthAttachmentHandle, addr 0x6863bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthAttachmentHandle, addr 0x6c9aaa4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_depthAttachmentHandle();
 
-  /// @brief Method get_depthStoreAction, addr 0x6863bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthStoreAction, addr 0x6c9aab4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderBufferStoreAction get_depthStoreAction();
 
-  /// @brief Method get_input, addr 0x6863c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_input, addr 0x6c9ab28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderPassInput get_input();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isBlitRenderPass, addr 0x6863c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isBlitRenderPass, addr 0x6c9ab48, size 0x8, virtual false, abstract: false, final false
   inline bool get_isBlitRenderPass();
 
-  /// @brief Method get_overriddenColorStoreActions, addr 0x6863bf4, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<bool> get_overriddenColorStoreActions();
-
-  /// @brief Method get_overriddenDepthStoreAction, addr 0x6863bfc, size 0x8, virtual false, abstract: false, final false
-  inline bool get_overriddenDepthStoreAction();
-
-  /// [CompilerGenerated]
-  /// @brief Method get_overrideCameraTarget, addr 0x6863c38, size 0x8, virtual false, abstract: false, final false
-  inline bool get_overrideCameraTarget();
-
-  /// @brief Method get_passName, addr 0x6863c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_passName, addr 0x6c9ab40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_passName();
 
-  /// @brief Method get_profilingSampler, addr 0x6854ca8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_profilingSampler, addr 0x6c8e310, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProfilingSampler* get_profilingSampler();
 
   /// [CompilerGenerated]
-  /// @brief Method get_renderPassEvent, addr 0x6863ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderPassEvent, addr 0x6c9ab18, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::RenderPassEvent get_renderPassEvent();
 
   /// [CompilerGenerated]
-  /// @brief Method get_renderPassQueueIndex, addr 0x6863c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderPassQueueIndex, addr 0x6c9ab58, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_renderPassQueueIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_renderTargetFormat, addr 0x6863c88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderTargetFormat, addr 0x6c9ab68, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat> get_renderTargetFormat();
 
   /// [CompilerGenerated]
-  /// @brief Method get_requiresIntermediateTexture, addr 0x6863c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requiresIntermediateTexture, addr 0x6c9ab30, size 0x8, virtual false, abstract: false, final false
   inline bool get_requiresIntermediateTexture();
-
-  /// [CompilerGenerated]
-  /// @brief Method get_useNativeRenderPass, addr 0x6863c58, size 0x8, virtual false, abstract: false, final false
-  inline bool get_useNativeRenderPass();
 
   /// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IRenderGraphRecorder"
   constexpr ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphRecorder* i___UnityEngine__Rendering__RenderGraphModule__IRenderGraphRecorder() noexcept;
 
-  /// @brief Method op_GreaterThan, addr 0x6864c00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x6c9b148, size 0x28, virtual false, abstract: false, final false
   static inline bool op_GreaterThan(::UnityEngine::Rendering::Universal::ScriptableRenderPass* lhs, ::UnityEngine::Rendering::Universal::ScriptableRenderPass* rhs);
 
-  /// @brief Method op_LessThan, addr 0x6864bd8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x6c9b120, size 0x28, virtual false, abstract: false, final false
   static inline bool op_LessThan(::UnityEngine::Rendering::Universal::ScriptableRenderPass* lhs, ::UnityEngine::Rendering::Universal::ScriptableRenderPass* rhs);
 
   static inline void setStaticF_k_CameraTarget(::UnityEngine::Rendering::RTHandle* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_breakGBufferAndDeferredRenderPass, addr 0x6863c70, size 0x8, virtual false, abstract: false, final false
-  inline void set_breakGBufferAndDeferredRenderPass(bool value);
-
-  /// [CompilerGenerated]
-  /// @brief Method set_isBlitRenderPass, addr 0x6863c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isBlitRenderPass, addr 0x6c9ab50, size 0x8, virtual false, abstract: false, final false
   inline void set_isBlitRenderPass(bool value);
 
-  /// [CompilerGenerated]
-  /// @brief Method set_overrideCameraTarget, addr 0x6863c40, size 0x8, virtual false, abstract: false, final false
-  inline void set_overrideCameraTarget(bool value);
-
-  /// @brief Method set_profilingSampler, addr 0x6854050, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_profilingSampler, addr 0x6c8c6bc, size 0x44, virtual false, abstract: false, final false
   inline void set_profilingSampler(::UnityEngine::Rendering::ProfilingSampler* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_renderPassEvent, addr 0x6863ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderPassEvent, addr 0x6c9ab20, size 0x8, virtual false, abstract: false, final false
   inline void set_renderPassEvent(::UnityEngine::Rendering::Universal::RenderPassEvent value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_renderPassQueueIndex, addr 0x6863c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderPassQueueIndex, addr 0x6c9ab60, size 0x8, virtual false, abstract: false, final false
   inline void set_renderPassQueueIndex(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_renderTargetFormat, addr 0x6863c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderTargetFormat, addr 0x6c9ab70, size 0x8, virtual false, abstract: false, final false
   inline void set_renderTargetFormat(::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_requiresIntermediateTexture, addr 0x6863c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_requiresIntermediateTexture, addr 0x6c9ab38, size 0x8, virtual false, abstract: false, final false
   inline void set_requiresIntermediateTexture(bool value);
-
-  /// [CompilerGenerated]
-  /// @brief Method set_useNativeRenderPass, addr 0x6863c60, size 0x8, virtual false, abstract: false, final false
-  inline void set_useNativeRenderPass(bool value);
 
 protected:
   // Ctor Parameters []
@@ -683,139 +448,66 @@ public:
   ScriptableRenderPass(ScriptableRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12934 };
 
   /// [CompilerGenerated]
   /// @brief Field <renderPassEvent>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::RenderPassEvent ____renderPassEvent_k__BackingField;
 
-  /// @brief Field m_ColorStoreActions, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction> ___m_ColorStoreActions;
-
-  /// @brief Field m_DepthStoreAction, offset: 0x20, size: 0x4, def value: None
-  ::UnityEngine::Rendering::RenderBufferStoreAction ___m_DepthStoreAction;
-
   /// [CompilerGenerated]
-  /// @brief Field <requiresIntermediateTexture>k__BackingField, offset: 0x24, size: 0x1, def value: None
+  /// @brief Field <requiresIntermediateTexture>k__BackingField, offset: 0x14, size: 0x1, def value: None
   bool ____requiresIntermediateTexture_k__BackingField;
 
-  /// @brief Field m_OverriddenColorStoreActions, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<bool> ___m_OverriddenColorStoreActions;
-
-  /// @brief Field m_OverriddenDepthStoreAction, offset: 0x30, size: 0x1, def value: None
-  bool ___m_OverriddenDepthStoreAction;
-
-  /// @brief Field m_ProfingSampler, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field m_ProfingSampler, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProfilingSampler* ___m_ProfingSampler;
 
-  /// @brief Field m_PassName, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field m_PassName, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_PassName;
 
-  /// @brief Field m_RenderGraphSettings, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::RenderGraphSettings* ___m_RenderGraphSettings;
-
   /// [CompilerGenerated]
-  /// @brief Field <overrideCameraTarget>k__BackingField, offset: 0x50, size: 0x1, def value: None
-  bool ____overrideCameraTarget_k__BackingField;
-
-  /// [CompilerGenerated]
-  /// @brief Field <isBlitRenderPass>k__BackingField, offset: 0x51, size: 0x1, def value: None
+  /// @brief Field <isBlitRenderPass>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____isBlitRenderPass_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <useNativeRenderPass>k__BackingField, offset: 0x52, size: 0x1, def value: None
-  bool ____useNativeRenderPass_k__BackingField;
-
-  /// [CompilerGenerated]
-  /// @brief Field <breakGBufferAndDeferredRenderPass>k__BackingField, offset: 0x53, size: 0x1, def value: None
-  bool ____breakGBufferAndDeferredRenderPass_k__BackingField;
-
-  /// [CompilerGenerated]
-  /// @brief Field <renderPassQueueIndex>k__BackingField, offset: 0x54, size: 0x4, def value: None
+  /// @brief Field <renderPassQueueIndex>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   int32_t ____renderPassQueueIndex_k__BackingField;
 
-  /// @brief Field m_ColorAttachmentIndices, offset: 0x58, size: 0x10, def value: None
+  /// @brief Field m_ColorAttachmentIndices, offset: 0x30, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> ___m_ColorAttachmentIndices;
 
-  /// @brief Field m_InputAttachmentIndices, offset: 0x68, size: 0x10, def value: None
+  /// @brief Field m_InputAttachmentIndices, offset: 0x40, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> ___m_InputAttachmentIndices;
 
   /// [CompilerGenerated]
-  /// @brief Field <renderTargetFormat>k__BackingField, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field <renderTargetFormat>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat> ____renderTargetFormat_k__BackingField;
 
-  /// @brief Field m_ColorAttachments, offset: 0x80, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Rendering::RTHandle*> ___m_ColorAttachments;
-
-  /// @brief Field m_InputAttachments, offset: 0x88, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Rendering::RTHandle*> ___m_InputAttachments;
-
-  /// @brief Field m_InputAttachmentIsTransient, offset: 0x90, size: 0x8, def value: None
-  ::ArrayW<bool> ___m_InputAttachmentIsTransient;
-
-  /// @brief Field m_DepthAttachment, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::Rendering::RTHandle* ___m_DepthAttachment;
-
-  /// @brief Field m_Input, offset: 0xa0, size: 0x4, def value: None
+  /// @brief Field m_Input, offset: 0x58, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ScriptableRenderPassInput ___m_Input;
-
-  /// @brief Field m_ClearFlag, offset: 0xa4, size: 0x4, def value: None
-  ::UnityEngine::Rendering::ClearFlag ___m_ClearFlag;
-
-  /// @brief Field m_ClearColor, offset: 0xa8, size: 0x10, def value: None
-  ::UnityEngine::Color ___m_ClearColor;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ____renderPassEvent_k__BackingField) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_ColorStoreActions) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ____requiresIntermediateTexture_k__BackingField) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_DepthStoreAction) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_ProfingSampler) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ____requiresIntermediateTexture_k__BackingField) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_PassName) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_OverriddenColorStoreActions) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ____isBlitRenderPass_k__BackingField) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_OverriddenDepthStoreAction) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ____renderPassQueueIndex_k__BackingField) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_ProfingSampler) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_ColorAttachmentIndices) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_PassName) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_InputAttachmentIndices) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_RenderGraphSettings) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ____renderTargetFormat_k__BackingField) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ____overrideCameraTarget_k__BackingField) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_Input) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ____isBlitRenderPass_k__BackingField) == 0x51, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ____useNativeRenderPass_k__BackingField) == 0x52, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ____breakGBufferAndDeferredRenderPass_k__BackingField) == 0x53, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ____renderPassQueueIndex_k__BackingField) == 0x54, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_ColorAttachmentIndices) == 0x58, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_InputAttachmentIndices) == 0x68, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ____renderTargetFormat_k__BackingField) == 0x78, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_ColorAttachments) == 0x80, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_InputAttachments) == 0x88, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_InputAttachmentIsTransient) == 0x90, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_DepthAttachment) == 0x98, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_Input) == 0xa0, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_ClearFlag) == 0xa4, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderPass, ___m_ClearColor) == 0xa8, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::Universal::ScriptableRenderPass) == 0xb8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::ScriptableRenderPass) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
