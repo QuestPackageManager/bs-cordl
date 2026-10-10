@@ -64,7 +64,7 @@ public:
          float_t energy, float_t songTime, bool invalidated);
 
   /// @brief Method ProcessScore, addr 0x3997c8c, size 0x148, virtual false, abstract: false, final false
-  static inline void ProcessScore(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData,
+  static inline void ProcessScore(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::PlayerData* playerData,
                                   ::GlobalNamespace::PlayerLevelStatsData* playerLevelStats, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
                                   ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData, ::GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel);
 

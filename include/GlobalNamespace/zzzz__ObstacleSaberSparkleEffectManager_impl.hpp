@@ -183,7 +183,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::B
 //  Writing Method size for method: ::GlobalNamespace::ObstacleSaberSparkleEffectManager.IntersectBoxSurfacePose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bounds>, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::Pose>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bounds const>, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::Pose>)>(
     &::GlobalNamespace::ObstacleSaberSparkleEffectManager::IntersectBoxSurfacePose)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x5d9e6cc;
@@ -192,7 +192,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffectManager*>(),
                                                                                            { "IntersectBoxSurfacePose",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<::UnityEngine::Vector3>(),
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Bounds const>>(), ::i2c::type_of<::UnityEngine::Vector3>(),
                                                                                                ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::by_ref<::UnityEngine::Pose>>() } })));
     return ___internal_method;
   }
@@ -200,7 +200,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
 //  Writing Method size for method: ::GlobalNamespace::ObstacleSaberSparkleEffectManager.IntersectBoxSurfacePosition
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bounds>, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::Vector3>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bounds const>, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::Vector3>)>(
     &::GlobalNamespace::ObstacleSaberSparkleEffectManager::IntersectBoxSurfacePosition)> {
   constexpr static std::size_t size = 0x2fc;
   constexpr static std::size_t addrs = 0x5d9e8a8;
@@ -209,7 +209,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffectManager*>(),
                                                                                            { "IntersectBoxSurfacePosition",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<::UnityEngine::Vector3>(),
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Bounds const>>(), ::i2c::type_of<::UnityEngine::Vector3>(),
                                                                                                ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
     return ___internal_method;
   }
@@ -217,7 +217,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
 //  Writing Method size for method: ::GlobalNamespace::ObstacleSaberSparkleEffectManager.FindBoxSurfaceRotation
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Bounds>, ::UnityEngine::Vector3)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Bounds const>, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::ObstacleSaberSparkleEffectManager::FindBoxSurfaceRotation)> {
   constexpr static std::size_t size = 0x1ac;
   constexpr static std::size_t addrs = 0x5d9eba4;
@@ -225,7 +225,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffectManager*>(),
-                                                             { "FindBoxSurfaceRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+                                                             { "FindBoxSurfaceRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bounds const>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
@@ -424,29 +424,29 @@ inline bool GlobalNamespace::ObstacleSaberSparkleEffectManager::IntersectBounds(
                                        { "IntersectBounds", {}, { ::i2c::type_of<::UnityEngine::Bounds>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, bounds, start, end);
 }
-inline bool GlobalNamespace::ObstacleSaberSparkleEffectManager::IntersectBoxSurfacePose(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 start,
+inline bool GlobalNamespace::ObstacleSaberSparkleEffectManager::IntersectBoxSurfacePose(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> bounds, ::UnityEngine::Vector3 start,
                                                                                         ::UnityEngine::Vector3 end, ::by_ref<::UnityEngine::Pose> hit) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffectManager*>(),
                                                                                          { "IntersectBoxSurfacePose",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<::UnityEngine::Vector3>(),
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Bounds const>>(), ::i2c::type_of<::UnityEngine::Vector3>(),
                                                                                              ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::by_ref<::UnityEngine::Pose>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, bounds, start, end, hit);
 }
-inline bool GlobalNamespace::ObstacleSaberSparkleEffectManager::IntersectBoxSurfacePosition(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 start,
+inline bool GlobalNamespace::ObstacleSaberSparkleEffectManager::IntersectBoxSurfacePosition(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> bounds, ::UnityEngine::Vector3 start,
                                                                                             ::UnityEngine::Vector3 end, ::by_ref<::UnityEngine::Vector3> hit) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffectManager*>(),
                                                                                          { "IntersectBoxSurfacePosition",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<::UnityEngine::Vector3>(),
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Bounds const>>(), ::i2c::type_of<::UnityEngine::Vector3>(),
                                                                                              ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, bounds, start, end, hit);
 }
-inline ::UnityEngine::Quaternion GlobalNamespace::ObstacleSaberSparkleEffectManager::FindBoxSurfaceRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds,
+inline ::UnityEngine::Quaternion GlobalNamespace::ObstacleSaberSparkleEffectManager::FindBoxSurfaceRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> bounds,
                                                                                                             ::UnityEngine::Vector3 position) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffectManager*>(),
-                                                           { "FindBoxSurfaceRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+                                                           { "FindBoxSurfaceRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bounds const>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, bounds, position);
 }
 inline void GlobalNamespace::ObstacleSaberSparkleEffectManager::_ctor() {

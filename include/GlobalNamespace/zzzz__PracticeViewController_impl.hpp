@@ -141,7 +141,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Practi
 //  Writing Method size for method: ::GlobalNamespace::PracticeViewController.Init
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(::by_ref<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(::by_ref<::GlobalNamespace::BeatmapKey const>, ::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::PracticeViewController::Init)> {
   constexpr static std::size_t size = 0x16c;
   constexpr static std::size_t addrs = 0x5e37e34;
@@ -149,7 +149,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeViewController*>(),
-                                                             { "Init", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>() } })));
+                                                             { "Init", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>() } })));
     return ___internal_method;
   }
 };
@@ -596,10 +596,10 @@ inline ::GlobalNamespace::PracticeSettings* GlobalNamespace::PracticeViewControl
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeViewController*>(), { "get_practiceSettings", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PracticeSettings*>(this, ___internal_method);
 }
-inline void GlobalNamespace::PracticeViewController::Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel) {
+inline void GlobalNamespace::PracticeViewController::Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeViewController*>(),
-                                                           { "Init", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>() } })));
+                                                           { "Init", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapKey, beatmapLevel);
 }
 inline void GlobalNamespace::PracticeViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {

@@ -75,7 +75,7 @@ public:
   static inline float_t Dot(::UnityEngine::Vector4 a, ::UnityEngine::Vector4 b);
 
   /// @brief Method Dot, addr 0x6f2ea04, size 0x28, virtual false, abstract: false, final false
-  static inline float_t Dot(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> b);
+  static inline float_t Dot(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> b);
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6f2e644, size 0xac, virtual true, abstract: false, final false
@@ -87,7 +87,7 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6f2e72c, size 0x4c, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> other);
 
   /// [IsReadOnly]
   /// @brief Method GetHashCode, addr 0x6f2e5d8, size 0x6c, virtual true, abstract: false, final false
@@ -97,10 +97,10 @@ public:
   static inline ::UnityEngine::Vector4 Lerp(::UnityEngine::Vector4 a, ::UnityEngine::Vector4 b, float_t t);
 
   /// @brief Method Magnitude, addr 0x6f2ea2c, size 0x80, virtual false, abstract: false, final false
-  static inline float_t Magnitude(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> a);
+  static inline float_t Magnitude(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> a);
 
   /// @brief Method Normalize, addr 0x6f2e778, size 0xe4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector4 Normalize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> a);
+  static inline ::UnityEngine::Vector4 Normalize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> a);
 
   /// @brief Method Normalize, addr 0x6f2e85c, size 0xa4, virtual false, abstract: false, final false
   inline void Normalize();

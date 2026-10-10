@@ -146,7 +146,7 @@ public:
   inline void EnableRectClipping(::UnityEngine::Rect rect);
 
   /// @brief Method EnableRectClipping_Injected, addr 0x727f1cc, size 0x44, virtual false, abstract: false, final false
-  static inline void EnableRectClipping_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect> rect);
+  static inline void EnableRectClipping_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect const> rect);
 
   /// @brief Method GetAlpha, addr 0x7280614, size 0x14, virtual false, abstract: false, final false
   inline float_t GetAlpha();
@@ -217,7 +217,7 @@ public:
   inline void SetColor(::UnityEngine::Color color);
 
   /// @brief Method SetColor_Injected, addr 0x727f010, size 0x44, virtual false, abstract: false, final false
-  static inline void SetColor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Color> color);
+  static inline void SetColor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Color const> color);
 
   /// @brief Method SetMaterial, addr 0x727f480, size 0xc8, virtual false, abstract: false, final false
   inline void SetMaterial(::UnityEngine::Material* material, int32_t index);
@@ -365,7 +365,7 @@ public:
   inline void set_clippingSoftness(::UnityEngine::Vector2 value);
 
   /// @brief Method set_clippingSoftness_Injected, addr 0x727f380, size 0x44, virtual false, abstract: false, final false
-  static inline void set_clippingSoftness_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
+  static inline void set_clippingSoftness_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2 const> value);
 
   /// @brief Method set_cull, addr 0x727ee94, size 0x90, virtual false, abstract: false, final false
   inline void set_cull(bool value);

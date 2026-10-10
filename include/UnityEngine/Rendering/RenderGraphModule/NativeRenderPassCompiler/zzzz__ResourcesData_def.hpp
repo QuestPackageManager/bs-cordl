@@ -87,10 +87,10 @@ public:
   inline void Dispose();
 
   /// @brief Method Index, addr 0x6c2c77c, size 0xd4, virtual false, abstract: false, final false
-  inline int32_t Index(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h);
+  inline int32_t Index(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h);
 
   /// @brief Method IndexReader, addr 0x6c2c850, size 0x138, virtual false, abstract: false, final false
-  inline int32_t IndexReader(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h, int32_t readerID);
+  inline int32_t IndexReader(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, int32_t readerID);
 
   /// @brief Method Initialize, addr 0x6c2bf7c, size 0x800, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources);

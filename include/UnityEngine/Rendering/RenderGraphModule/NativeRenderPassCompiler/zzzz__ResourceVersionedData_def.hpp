@@ -25,13 +25,13 @@ struct CORDL_TYPE ResourceVersionedData {
 public:
   // Declarations
   /// @brief Method RegisterReadingPass, addr 0x6c2b834, size 0x150, virtual false, abstract: false, final false
-  inline void RegisterReadingPass(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h, int32_t passId, int32_t index);
+  inline void RegisterReadingPass(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, int32_t passId, int32_t index);
 
   /// @brief Method RemoveReadingPass, addr 0x6c2b984, size 0x278, virtual false, abstract: false, final false
-  inline void RemoveReadingPass(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h, int32_t passId);
+  inline void RemoveReadingPass(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, int32_t passId);
 
   /// @brief Method SetWritingPass, addr 0x6c2b824, size 0x10, virtual false, abstract: false, final false
-  inline void SetWritingPass(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h, int32_t passId);
+  inline void SetWritingPass(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, int32_t passId);
 
   // Ctor Parameters []
   // @brief default ctor

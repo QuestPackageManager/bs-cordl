@@ -10,7 +10,7 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::HMAsyncRequest* (
-    ::GlobalNamespace::PlatformLeaderboardsHandler::*)(::by_ref<::GlobalNamespace::BeatmapKey>, int32_t, int32_t, ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope, uint64_t,
+    ::GlobalNamespace::PlatformLeaderboardsHandler::*)(::by_ref<::GlobalNamespace::BeatmapKey const>, int32_t, int32_t, ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope, uint64_t,
                                                        ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler*)>(&::GlobalNamespace::PlatformLeaderboardsHandler::GetScores)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::HMAsyncRequest* GlobalNamespace::PlatformLeaderboardsHandler::GetScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count,
+inline ::GlobalNamespace::HMAsyncRequest* GlobalNamespace::PlatformLeaderboardsHandler::GetScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, int32_t count,
                                                                                                   int32_t fromRank, ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scope,
                                                                                                   uint64_t referencePlayerId,
                                                                                                   ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler) {

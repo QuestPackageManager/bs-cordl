@@ -367,7 +367,7 @@ public:
   constexpr operator ::Unity::Collections::INativeList_1<T>*();
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Add(/* [IsReadOnly] */ ::by_ref<T> value);
+  inline void Add(/* [IsReadOnly] */ ::by_ref<T const> value);
 
   /// @brief Method AddNoResize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddNoResize(T value);
@@ -387,7 +387,7 @@ public:
   inline void AddRangeNoResize(void* ptr, int32_t count);
 
   /// @brief Method AddReplicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AddReplicate(/* [IsReadOnly] */ ::by_ref<T> value, int32_t count);
+  inline void AddReplicate(/* [IsReadOnly] */ ::by_ref<T const> value, int32_t count);
 
   /// @brief Method AsParallelReader, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1_ParallelReader<T> AsParallelReader();
@@ -437,10 +437,10 @@ public:
   inline void Clear();
 
   /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void CopyFrom(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>> other);
+  inline void CopyFrom(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> const> other);
 
   /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void CopyFrom(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<T>> other);
+  inline void CopyFrom(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<T> const> other);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>* Create(int32_t initialCapacity, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator,

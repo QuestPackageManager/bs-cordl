@@ -12,13 +12,13 @@ template <typename TStateTable, typename TType, typename TState> inline void Glo
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, type, state);
 }
 template <typename TStateTable, typename TType, typename TState>
-inline TStateTable GlobalNamespace::IStateTable_3<TStateTable, TType, TState>::GetDelta(/* [IsReadOnly] */ ::by_ref<TStateTable> stateTable) {
+inline TStateTable GlobalNamespace::IStateTable_3<TStateTable, TType, TState>::GetDelta(/* [IsReadOnly] */ ::by_ref<TStateTable const> stateTable) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<TStateTable>(this, ___internal_method, stateTable);
 }
 template <typename TStateTable, typename TType, typename TState>
-inline TStateTable GlobalNamespace::IStateTable_3<TStateTable, TType, TState>::ApplyDelta(/* [IsReadOnly] */ ::by_ref<TStateTable> delta) {
+inline TStateTable GlobalNamespace::IStateTable_3<TStateTable, TType, TState>::ApplyDelta(/* [IsReadOnly] */ ::by_ref<TStateTable const> delta) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<TStateTable>(this, ___internal_method, delta);

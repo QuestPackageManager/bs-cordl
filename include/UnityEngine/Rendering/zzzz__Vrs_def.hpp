@@ -485,8 +485,8 @@ public:
 
   /// @brief Method ShadingRateImageToColorMaskTexture, addr 0x6bee584, size 0x930, virtual false, abstract: false, final false
   static inline void ShadingRateImageToColorMaskTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> sriTextureHandle,
-                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> colorMaskHandle);
+                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> sriTextureHandle,
+                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> colorMaskHandle);
 
   /// @brief Method ShadingRateImageToColorMaskTextureBlit, addr 0x6bef6e8, size 0x2cc, virtual false, abstract: false, final false
   static inline void ShadingRateImageToColorMaskTextureBlit(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* sriSource,

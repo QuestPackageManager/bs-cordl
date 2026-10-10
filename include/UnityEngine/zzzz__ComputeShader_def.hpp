@@ -74,7 +74,7 @@ public:
   inline void DisableKeyword(::StringW keyword);
 
   /// @brief Method DisableKeyword, addr 0x6f49e94, size 0x2c, virtual false, abstract: false, final false
-  inline void DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword);
 
   /// @brief Method DisableKeyword_Injected, addr 0x6f49928, size 0x44, virtual false, abstract: false, final false
   static inline void DisableKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
@@ -84,7 +84,7 @@ public:
   inline void DisableLocalKeyword(::UnityEngine::Rendering::LocalKeyword keyword);
 
   /// @brief Method DisableLocalKeyword_Injected, addr 0x6f49c74, size 0x44, virtual false, abstract: false, final false
-  static inline void DisableLocalKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  static inline void DisableLocalKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword);
 
   /// [NativeName("DispatchComputeShader")]
   /// @brief Method Dispatch, addr 0x6f491ec, size 0xa8, virtual false, abstract: false, final false
@@ -112,7 +112,7 @@ public:
   inline void EnableKeyword(::StringW keyword);
 
   /// @brief Method EnableKeyword, addr 0x6f49e68, size 0x2c, virtual false, abstract: false, final false
-  inline void EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword);
 
   /// @brief Method EnableKeyword_Injected, addr 0x6f49784, size 0x44, virtual false, abstract: false, final false
   static inline void EnableKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
@@ -122,7 +122,7 @@ public:
   inline void EnableLocalKeyword(::UnityEngine::Rendering::LocalKeyword keyword);
 
   /// @brief Method EnableLocalKeyword_Injected, addr 0x6f49ba8, size 0x44, virtual false, abstract: false, final false
-  static inline void EnableLocalKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  static inline void EnableLocalKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword);
 
   /// [NativeMethod(Name = "ComputeShaderScripting::FindKernel", HasExplicitThis = true, IsFreeFunction = true, ThrowsException = true)]
   /// [RequiredByNativeCode]
@@ -200,7 +200,7 @@ public:
   inline bool IsKeywordEnabled(::StringW keyword);
 
   /// @brief Method IsKeywordEnabled, addr 0x6f49eec, size 0x30, virtual false, abstract: false, final false
-  inline bool IsKeywordEnabled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline bool IsKeywordEnabled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword);
 
   /// @brief Method IsKeywordEnabled_Injected, addr 0x6f49adc, size 0x44, virtual false, abstract: false, final false
   static inline bool IsKeywordEnabled_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
@@ -210,7 +210,7 @@ public:
   inline bool IsLocalKeywordEnabled(::UnityEngine::Rendering::LocalKeyword keyword);
 
   /// @brief Method IsLocalKeywordEnabled_Injected, addr 0x6f49e24, size 0x44, virtual false, abstract: false, final false
-  static inline bool IsLocalKeywordEnabled_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  static inline bool IsLocalKeywordEnabled_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword);
 
   /// [FreeFunction("ComputeShaderScripting::IsSupported", HasExplicitThis = true)]
   /// @brief Method IsSupported, addr 0x6f49f1c, size 0x88, virtual false, abstract: false, final false
@@ -319,14 +319,14 @@ public:
   inline void SetInts(int32_t nameID, /* [ParamArray] */ ::ArrayW<int32_t> values);
 
   /// @brief Method SetKeyword, addr 0x6f49ec0, size 0x2c, virtual false, abstract: false, final false
-  inline void SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
+  inline void SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword, bool value);
 
   /// [FreeFunction("ComputeShaderScripting::SetKeyword", HasExplicitThis = true)]
   /// @brief Method SetLocalKeyword, addr 0x6f49cb8, size 0x90, virtual false, abstract: false, final false
   inline void SetLocalKeyword(::UnityEngine::Rendering::LocalKeyword keyword, bool value);
 
   /// @brief Method SetLocalKeyword_Injected, addr 0x6f49d48, size 0x54, virtual false, abstract: false, final false
-  static inline void SetLocalKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
+  static inline void SetLocalKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword, bool value);
 
   /// @brief Method SetMatrix, addr 0x6f4a40c, size 0x50, virtual false, abstract: false, final false
   inline void SetMatrix(::StringW name, ::UnityEngine::Matrix4x4 val);
@@ -346,7 +346,7 @@ public:
   static inline void SetMatrixArray_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values);
 
   /// @brief Method SetMatrix_Injected, addr 0x6f48164, size 0x54, virtual false, abstract: false, final false
-  static inline void SetMatrix_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Matrix4x4> val);
+  static inline void SetMatrix_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Matrix4x4 const> val);
 
   /// @brief Method SetRayTracingAccelerationStructure, addr 0x6f4a73c, size 0x3c, virtual false, abstract: false, final false
   inline void SetRayTracingAccelerationStructure(int32_t kernelIndex, ::StringW name, ::UnityEngine::Rendering::RayTracingAccelerationStructure* accelerationStructure);
@@ -419,7 +419,7 @@ public:
   static inline void SetVectorArray_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values);
 
   /// @brief Method SetVector_Injected, addr 0x6f48080, size 0x54, virtual false, abstract: false, final false
-  static inline void SetVector_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector4> val);
+  static inline void SetVector_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector4 const> val);
 
   /// @brief Method .ctor, addr 0x6f4a2f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();

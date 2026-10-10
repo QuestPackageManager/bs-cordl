@@ -26,8 +26,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::ReadOn
 //  Writing Method size for method: ::UnityEngine::Rendering::SpeedTreeWindManager.UpdateWindAndWriteBufferWindParams_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator>, bool)>(
-    &::UnityEngine::Rendering::SpeedTreeWindManager::UpdateWindAndWriteBufferWindParams_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator const>,
+                                                                bool)>(&::UnityEngine::Rendering::SpeedTreeWindManager::UpdateWindAndWriteBufferWindParams_Injected)> {
   constexpr static std::size_t size = 0x1c0;
   constexpr static std::size_t addrs = 0x701b464;
 
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
                                                              { "UpdateWindAndWriteBufferWindParams_Injected",
                                                                {},
                                                                { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator>>(), ::i2c::type_of<bool>() } })));
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator const>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -52,13 +52,14 @@ inline void UnityEngine::Rendering::SpeedTreeWindManager::UpdateWindAndWriteBuff
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, renderersID, windParams, history);
 }
 inline void UnityEngine::Rendering::SpeedTreeWindManager::UpdateWindAndWriteBufferWindParams_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> renderersID,
-                                                                                                      ::by_ref<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator> windParams, bool history) {
+                                                                                                      ::by_ref<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator const> windParams,
+                                                                                                      bool history) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SpeedTreeWindManager*>(),
                                                            { "UpdateWindAndWriteBufferWindParams_Injected",
                                                              {},
                                                              { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator>>(), ::i2c::type_of<bool>() } })));
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator const>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, renderersID, windParams, history);
 }
 // Ctor Parameters []

@@ -1155,7 +1155,7 @@ public:
   static inline bool CanAddCopyPassMSAA(bool bindTextureMS);
 
   /// @brief Method CanAddCopyPassMSAA, addr 0x6c15614, size 0xa4, virtual false, abstract: false, final false
-  static inline bool CanAddCopyPassMSAA(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> sourceDesc);
+  static inline bool CanAddCopyPassMSAA(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> sourceDesc);
 
   /// @brief Method CopyRenderFunc, addr 0x6c16340, size 0x88, virtual false, abstract: false, final false
   static inline void CopyRenderFunc(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
@@ -1169,7 +1169,7 @@ public:
   /// [Extension]
   /// @brief Method IsFramebufferFetchSupportedOnCurrentPlatform, addr 0x6c1575c, size 0xb8, virtual false, abstract: false, final false
   static inline bool IsFramebufferFetchSupportedOnCurrentPlatform(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph,
-                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tex);
+                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> tex);
 
   /// @brief Method IsTextureXR, addr 0x6c163c8, size 0x160, virtual false, abstract: false, final false
   static inline bool IsTextureXR(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo> destDesc, int32_t sourceSlice, int32_t destinationSlice, int32_t numSlices, int32_t numMips);

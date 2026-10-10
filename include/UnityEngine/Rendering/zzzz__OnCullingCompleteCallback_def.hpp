@@ -41,16 +41,17 @@ class CORDL_TYPE OnCullingCompleteCallback : public ::System::MulticastDelegate 
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x6c4ec1c, size 0xf0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::Unity::Jobs::JobHandle jobHandle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cullingContext,
-                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingOutput> cullingOutput, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(::Unity::Jobs::JobHandle jobHandle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cullingContext,
+                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingOutput const> cullingOutput, ::System::AsyncCallback* callback,
+                                             ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x6c4ed0c, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cullingContext,
-                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingOutput> cullingOutput, ::System::IAsyncResult* result);
+  inline void EndInvoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cullingContext,
+                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingOutput const> cullingOutput, ::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x6c4ec08, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::Unity::Jobs::JobHandle jobHandle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cullingContext,
-                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingOutput> cullingOutput);
+  inline void Invoke(::Unity::Jobs::JobHandle jobHandle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cullingContext,
+                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingOutput const> cullingOutput);
 
   static inline ::UnityEngine::Rendering::OnCullingCompleteCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 

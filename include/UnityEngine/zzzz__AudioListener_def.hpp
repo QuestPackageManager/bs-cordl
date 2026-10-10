@@ -47,7 +47,7 @@ public:
 
   /// [NativeThrows]
   /// @brief Method GetOutputDataHelper, addr 0x6e9d4b4, size 0x128, virtual false, abstract: false, final false
-  static inline void GetOutputDataHelper(::by_ref<::ArrayW<float_t>> samples, int32_t channel);
+  static inline void GetOutputDataHelper(::ArrayW<float_t> samples, int32_t channel);
 
   /// @brief Method GetOutputDataHelper_Injected, addr 0x6e9d5dc, size 0x44, virtual false, abstract: false, final false
   static inline void GetOutputDataHelper_Injected(::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> samples, int32_t channel);
@@ -61,7 +61,7 @@ public:
 
   /// [NativeThrows]
   /// @brief Method GetSpectrumDataHelper, addr 0x6e9d620, size 0x12c, virtual false, abstract: false, final false
-  static inline void GetSpectrumDataHelper(::by_ref<::ArrayW<float_t>> samples, int32_t channel, ::UnityEngine::FFTWindow window);
+  static inline void GetSpectrumDataHelper(::ArrayW<float_t> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
   /// @brief Method GetSpectrumDataHelper_Injected, addr 0x6e9d74c, size 0x54, virtual false, abstract: false, final false
   static inline void GetSpectrumDataHelper_Injected(::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> samples, int32_t channel, ::UnityEngine::FFTWindow window);

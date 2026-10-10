@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::TexturePool.GetResourceName
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::TexturePool::*)(::by_ref<::UnityEngine::Rendering::RTHandle*>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::TexturePool::*)(::by_ref<::UnityEngine::Rendering::RTHandle* const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::TexturePool::GetResourceName)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6c14eac;
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine:
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::TexturePool.GetResourceSize
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::Rendering::RenderGraphModule::TexturePool::*)(::by_ref<::UnityEngine::Rendering::RTHandle*>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::Rendering::RenderGraphModule::TexturePool::*)(::by_ref<::UnityEngine::Rendering::RTHandle* const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::TexturePool::GetResourceSize)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6c14ecc;
@@ -90,12 +90,12 @@ inline void UnityEngine::Rendering::RenderGraphModule::TexturePool::ReleaseInter
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TexturePool*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, res);
 }
-inline ::StringW UnityEngine::Rendering::RenderGraphModule::TexturePool::GetResourceName(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> res) {
+inline ::StringW UnityEngine::Rendering::RenderGraphModule::TexturePool::GetResourceName(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle* const> res) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TexturePool*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, res);
 }
-inline int64_t UnityEngine::Rendering::RenderGraphModule::TexturePool::GetResourceSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> res) {
+inline int64_t UnityEngine::Rendering::RenderGraphModule::TexturePool::GetResourceSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle* const> res) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TexturePool*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<int64_t>(this, ___internal_method, res);

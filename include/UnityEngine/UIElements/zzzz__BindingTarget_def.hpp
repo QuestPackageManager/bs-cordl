@@ -28,7 +28,7 @@ struct CORDL_TYPE BindingTarget {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x70863f8, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId);
+  inline void _ctor(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId);
 
   // Ctor Parameters []
   // @brief default ctor

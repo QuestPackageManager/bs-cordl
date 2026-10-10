@@ -286,7 +286,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RayTracingAccelerationStructure::*)(
-    ::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig>, ::UnityEngine::Matrix4x4, ::System::Nullable_1<::UnityEngine::Matrix4x4>, uint32_t)>(
+    ::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig const>, ::UnityEngine::Matrix4x4, ::System::Nullable_1<::UnityEngine::Matrix4x4>, uint32_t)>(
     &::UnityEngine::Rendering::RayTracingAccelerationStructure::AddInstance)> {
   constexpr static std::size_t size = 0x2b8;
   constexpr static std::size_t addrs = 0x6f6702c;
@@ -296,7 +296,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RayTracingAccelerationStructure*>(),
                                                              { "AddInstance",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig>>(), ::i2c::type_of<::UnityEngine::Matrix4x4>(),
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig const>>(), ::i2c::type_of<::UnityEngine::Matrix4x4>(),
                                                                  ::i2c::type_of<::System::Nullable_1<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
@@ -493,7 +493,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Rendering::RayTracingAccelerationStructure.Create_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Rendering::RayTracingAccelerationStructure_Settings>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Rendering::RayTracingAccelerationStructure_Settings const>)>(
     &::UnityEngine::Rendering::RayTracingAccelerationStructure::Create_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6f675b8;
@@ -501,7 +501,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RayTracingAccelerationStructure*>(),
-                                                             { "Create_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RayTracingAccelerationStructure_Settings>>() } })));
+                                                             { "Create_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RayTracingAccelerationStructure_Settings const>>() } })));
     return ___internal_method;
   }
 };
@@ -535,17 +535,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Rendering::RayTracingAccelerationStructure.UpdateInstanceTransform_Handle_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Matrix4x4>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Matrix4x4 const>)>(
     &::UnityEngine::Rendering::RayTracingAccelerationStructure::UpdateInstanceTransform_Handle_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6f67674;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::UnityEngine::Rendering::RayTracingAccelerationStructure*>(),
-                         { "UpdateInstanceTransform_Handle_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::RayTracingAccelerationStructure*>(),
+            { "UpdateInstanceTransform_Handle_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>() } })));
     return ___internal_method;
   }
 };
@@ -580,18 +580,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Rendering::RayTracingAccelerationStructure.AddMeshInstance_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig>, ::by_ref<::UnityEngine::Matrix4x4>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig const>, ::by_ref<::UnityEngine::Matrix4x4 const>,
                                                                    ::UnityEngine::Matrix4x4*, uint32_t)>(&::UnityEngine::Rendering::RayTracingAccelerationStructure::AddMeshInstance_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x6f67770;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RayTracingAccelerationStructure*>(),
-                                                             { "AddMeshInstance_Injected",
-                                                               {},
-                                                               { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig>>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::UnityEngine::Matrix4x4*>(), ::i2c::type_of<uint32_t>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RayTracingAccelerationStructure*>(),
+                                                { "AddMeshInstance_Injected",
+                                                  {},
+                                                  { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig const>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::UnityEngine::Matrix4x4*>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
@@ -626,14 +626,14 @@ inline void UnityEngine::Rendering::RayTracingAccelerationStructure::_ctor(::Uni
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::RayTracingAccelerationStructure_Settings>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, settings);
 }
-inline int32_t UnityEngine::Rendering::RayTracingAccelerationStructure::AddInstance(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig> config,
+inline int32_t UnityEngine::Rendering::RayTracingAccelerationStructure::AddInstance(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig const> config,
                                                                                     ::UnityEngine::Matrix4x4 matrix,
                                                                                     /* [DefaultValue("null")] */ ::System::Nullable_1<::UnityEngine::Matrix4x4> prevMatrix, uint32_t id) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RayTracingAccelerationStructure*>(),
                                                            { "AddInstance",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig>>(), ::i2c::type_of<::UnityEngine::Matrix4x4>(),
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig const>>(), ::i2c::type_of<::UnityEngine::Matrix4x4>(),
                                                                ::i2c::type_of<::System::Nullable_1<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, config, matrix, prevMatrix, id);
 }
@@ -709,10 +709,10 @@ inline void UnityEngine::Rendering::RayTracingAccelerationStructure::ClearInstan
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RayTracingAccelerationStructure*>(), { "ClearInstances_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self);
 }
-inline ::System::IntPtr UnityEngine::Rendering::RayTracingAccelerationStructure::Create_Injected(::by_ref<::UnityEngine::Rendering::RayTracingAccelerationStructure_Settings> desc) {
+inline ::System::IntPtr UnityEngine::Rendering::RayTracingAccelerationStructure::Create_Injected(::by_ref<::UnityEngine::Rendering::RayTracingAccelerationStructure_Settings const> desc) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RayTracingAccelerationStructure*>(),
-                                                           { "Create_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RayTracingAccelerationStructure_Settings>>() } })));
+                                                           { "Create_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RayTracingAccelerationStructure_Settings const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, desc);
 }
 inline void UnityEngine::Rendering::RayTracingAccelerationStructure::Destroy_Injected(::System::IntPtr accelStruct) {
@@ -726,11 +726,13 @@ inline void UnityEngine::Rendering::RayTracingAccelerationStructure::RemoveInsta
                                                            { "RemoveInstance_InstanceID_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, instanceID);
 }
-inline void UnityEngine::Rendering::RayTracingAccelerationStructure::UpdateInstanceTransform_Handle_Injected(::System::IntPtr _unity_self, int32_t handle, ::by_ref<::UnityEngine::Matrix4x4> matrix) {
+inline void UnityEngine::Rendering::RayTracingAccelerationStructure::UpdateInstanceTransform_Handle_Injected(::System::IntPtr _unity_self, int32_t handle,
+                                                                                                             ::by_ref<::UnityEngine::Matrix4x4 const> matrix) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RayTracingAccelerationStructure*>(),
-                          { "UpdateInstanceTransform_Handle_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Rendering::RayTracingAccelerationStructure*>(),
+          { "UpdateInstanceTransform_Handle_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, handle, matrix);
 }
 inline void UnityEngine::Rendering::RayTracingAccelerationStructure::UpdateInstanceMask_Handle_Injected(::System::IntPtr _unity_self, int32_t handle, uint32_t mask) {
@@ -745,14 +747,15 @@ inline void UnityEngine::Rendering::RayTracingAccelerationStructure::UpdateInsta
                                                            { "UpdateInstanceID_Handle_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, handle, id);
 }
-inline int32_t UnityEngine::Rendering::RayTracingAccelerationStructure::AddMeshInstance_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig> config,
-                                                                                                 ::by_ref<::UnityEngine::Matrix4x4> matrix, ::UnityEngine::Matrix4x4* prevMatrix, uint32_t id) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RayTracingAccelerationStructure*>(),
-                                                           { "AddMeshInstance_Injected",
-                                                             {},
-                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig>>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::UnityEngine::Matrix4x4*>(), ::i2c::type_of<uint32_t>() } })));
+inline int32_t UnityEngine::Rendering::RayTracingAccelerationStructure::AddMeshInstance_Injected(::System::IntPtr _unity_self,
+                                                                                                 ::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig const> config,
+                                                                                                 ::by_ref<::UnityEngine::Matrix4x4 const> matrix, ::UnityEngine::Matrix4x4* prevMatrix, uint32_t id) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RayTracingAccelerationStructure*>(),
+                                              { "AddMeshInstance_Injected",
+                                                {},
+                                                { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig const>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::UnityEngine::Matrix4x4*>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, _unity_self, config, matrix, prevMatrix, id);
 }
 inline ::UnityEngine::Rendering::RayTracingAccelerationStructure*

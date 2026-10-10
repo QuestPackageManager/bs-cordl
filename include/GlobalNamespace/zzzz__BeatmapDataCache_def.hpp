@@ -75,7 +75,7 @@ public:
 
   /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x399a520, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, /* [Nullable(2)] */ ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, /* [Nullable(2)] */ ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                     ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, bool screenDisplacementEffects);
 
@@ -161,10 +161,10 @@ public:
                       put = __cordl_internal_set_transformedBeatmapDataTask)) ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask;
 
   /// @brief Method AreSameBeatmapDataCached, addr 0x399a428, size 0x34, virtual false, abstract: false, final false
-  inline bool AreSameBeatmapDataCached(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key);
+  inline bool AreSameBeatmapDataCached(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey const> key);
 
   static inline ::GlobalNamespace::BeatmapDataCache*
-  New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key,
+  New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey const> key,
            /* [Nullable(new[] { 1, 2 })] */ ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask);
 
   constexpr ::GlobalNamespace::BeatmapDataCache_CacheKey const& __cordl_internal_get__key() const;
@@ -180,7 +180,7 @@ public:
   constexpr void __cordl_internal_set_transformedBeatmapDataTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* value);
 
   /// @brief Method .ctor, addr 0x399a40c, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key,
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey const> key,
                     /* [Nullable(new[] { 1, 2 })] */ ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask);
 
 protected:

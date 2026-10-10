@@ -110,15 +110,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Audio::Gen
 //  Writing Method size for method: ::UnityEngine::Audio::ControlContext.Configure
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::ControlContext::*)(::UnityEngine::Audio::GeneratorInstance, ::by_ref<::UnityEngine::Audio::AudioFormat>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::ControlContext::*)(::UnityEngine::Audio::GeneratorInstance, ::by_ref<::UnityEngine::Audio::AudioFormat const>)>(
     &::UnityEngine::Audio::ControlContext::Configure)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x6eaaa14;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(),
-                                                { "Configure", {}, { ::i2c::type_of<::UnityEngine::Audio::GeneratorInstance>(), ::i2c::type_of<::by_ref<::UnityEngine::Audio::AudioFormat>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(),
+                                         { "Configure", {}, { ::i2c::type_of<::UnityEngine::Audio::GeneratorInstance>(), ::i2c::type_of<::by_ref<::UnityEngine::Audio::AudioFormat const>>() } })));
     return ___internal_method;
   }
 };
@@ -162,14 +163,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngin
 //  Writing Method size for method: ::UnityEngine::Audio::ControlContext.CreateManualControlContext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Audio::ControlContext_Manual (*)(::by_ref<::UnityEngine::Audio::AudioFormat>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Audio::ControlContext_Manual (*)(::by_ref<::UnityEngine::Audio::AudioFormat const>)>(
     &::UnityEngine::Audio::ControlContext::CreateManualControlContext)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x6eaac78;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(),
-                                                                                           { "CreateManualControlContext", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::AudioFormat>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(), { "CreateManualControlContext", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::AudioFormat const>>() } })));
     return ___internal_method;
   }
 };
@@ -372,16 +374,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::by_ref<
 //  Writing Method size for method: ::UnityEngine::Audio::ControlContext.InternalSetConfigurationManualControlContext_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::by_ref<::UnityEngine::AudioConfiguration>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::by_ref<::UnityEngine::AudioConfiguration const>)>(
     &::UnityEngine::Audio::ControlContext::InternalSetConfigurationManualControlContext_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6eab230;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(),
-                                         { "InternalSetConfigurationManualControlContext_Injected", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(),
+                            { "InternalSetConfigurationManualControlContext_Injected", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration const>>() } })));
     return ___internal_method;
   }
 };
@@ -402,16 +404,16 @@ template <typename TRealtime, typename TControl>
            ::cordl_internals::default_constructor_constraint<TRealtime> && ::cordl_internals::type_constraint<TControl, ::UnityEngine::Audio::GeneratorInstance_IControl_1<TRealtime>*> &&
            ::cordl_internals::value_type_constraint<TControl> && ::cordl_internals::default_constructor_constraint<TControl>)
 inline ::UnityEngine::Audio::GeneratorInstance
-UnityEngine::Audio::ControlContext::AllocateGenerator(/* [IsReadOnly] */ ::by_ref<TRealtime> realtimeState, /* [IsReadOnly] */ ::by_ref<TControl> controlState,
+UnityEngine::Audio::ControlContext::AllocateGenerator(/* [IsReadOnly] */ ::by_ref<TRealtime const> realtimeState, /* [IsReadOnly] */ ::by_ref<TControl const> controlState,
                                                       ::System::Nullable_1<::UnityEngine::Audio::AudioFormat> nestedFormat,
-                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorInstance_CreationParameters> creationParameters) {
+                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorInstance_CreationParameters const> creationParameters) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(),
-                                       { "AllocateGenerator",
-                                         { ::i2c::class_of<TRealtime>(), ::i2c::class_of<TControl>() },
-                                         { ::i2c::type_of<::by_ref<TRealtime>>(), ::i2c::type_of<::by_ref<TControl>>(), ::i2c::type_of<::System::Nullable_1<::UnityEngine::Audio::AudioFormat>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Audio::ProcessorInstance_CreationParameters>>() } })));
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(), { "AllocateGenerator",
+                                                                                                  { ::i2c::class_of<TRealtime>(), ::i2c::class_of<TControl>() },
+                                                                                                  { ::i2c::type_of<::by_ref<TRealtime const>>(), ::i2c::type_of<::by_ref<TControl const>>(),
+                                                                                                    ::i2c::type_of<::System::Nullable_1<::UnityEngine::Audio::AudioFormat>>(),
+                                                                                                    ::i2c::type_of<::by_ref<::UnityEngine::Audio::ProcessorInstance_CreationParameters const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TRealtime>(), ::i2c::class_of<TControl>() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Audio::GeneratorInstance>(*this, ___internal_method, realtimeState, controlState, nestedFormat, creationParameters);
 }
@@ -420,14 +422,14 @@ template <typename TRealtime, typename TControl>
            ::cordl_internals::default_constructor_constraint<TRealtime> && ::cordl_internals::type_constraint<TControl, ::UnityEngine::Audio::RootOutputInstance_IControl_1<TRealtime>*> &&
            ::cordl_internals::value_type_constraint<TControl> && ::cordl_internals::default_constructor_constraint<TControl>)
 inline ::UnityEngine::Audio::RootOutputInstance
-UnityEngine::Audio::ControlContext::AllocateRootOutput(/* [IsReadOnly] */ ::by_ref<TRealtime> realtimeState, /* [IsReadOnly] */ ::by_ref<TControl> controlState,
-                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorInstance_CreationParameters> creationParameters) {
+UnityEngine::Audio::ControlContext::AllocateRootOutput(/* [IsReadOnly] */ ::by_ref<TRealtime const> realtimeState, /* [IsReadOnly] */ ::by_ref<TControl const> controlState,
+                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorInstance_CreationParameters const> creationParameters) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(), { "AllocateRootOutput",
                                                                                                   { ::i2c::class_of<TRealtime>(), ::i2c::class_of<TControl>() },
-                                                                                                  { ::i2c::type_of<::by_ref<TRealtime>>(), ::i2c::type_of<::by_ref<TControl>>(),
-                                                                                                    ::i2c::type_of<::by_ref<::UnityEngine::Audio::ProcessorInstance_CreationParameters>>() } })));
+                                                                                                  { ::i2c::type_of<::by_ref<TRealtime const>>(), ::i2c::type_of<::by_ref<TControl const>>(),
+                                                                                                    ::i2c::type_of<::by_ref<::UnityEngine::Audio::ProcessorInstance_CreationParameters const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TRealtime>(), ::i2c::class_of<TControl>() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Audio::RootOutputInstance>(*this, ___internal_method, realtimeState, controlState, creationParameters);
 }
@@ -491,10 +493,11 @@ inline ::UnityEngine::Audio::GeneratorInstance_Configuration UnityEngine::Audio:
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(), { "GetConfiguration", {}, { ::i2c::type_of<::UnityEngine::Audio::GeneratorInstance>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Audio::GeneratorInstance_Configuration>(*this, ___internal_method, generatorInstance);
 }
-inline void UnityEngine::Audio::ControlContext::Configure(::UnityEngine::Audio::GeneratorInstance generatorInstance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat> format) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(),
-                                              { "Configure", {}, { ::i2c::type_of<::UnityEngine::Audio::GeneratorInstance>(), ::i2c::type_of<::by_ref<::UnityEngine::Audio::AudioFormat>>() } })));
+inline void UnityEngine::Audio::ControlContext::Configure(::UnityEngine::Audio::GeneratorInstance generatorInstance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> format) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(),
+                                       { "Configure", {}, { ::i2c::type_of<::UnityEngine::Audio::GeneratorInstance>(), ::i2c::type_of<::by_ref<::UnityEngine::Audio::AudioFormat const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, generatorInstance, format);
 }
 inline bool UnityEngine::Audio::ControlContext::get_IsSystemWideReconfiguring() {
@@ -510,9 +513,10 @@ inline void UnityEngine::Audio::ControlContext::WaitForBuiltInQueueFlush() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(), { "WaitForBuiltInQueueFlush", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-inline ::UnityEngine::Audio::ControlContext_Manual UnityEngine::Audio::ControlContext::CreateManualControlContext(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat> format) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(),
-                                                                                         { "CreateManualControlContext", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::AudioFormat>>() } })));
+inline ::UnityEngine::Audio::ControlContext_Manual UnityEngine::Audio::ControlContext::CreateManualControlContext(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> format) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(), { "CreateManualControlContext", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::AudioFormat const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Audio::ControlContext_Manual>(nullptr, ___internal_method, format);
 }
 inline ::UnityEngine::Audio::ProcessorInstance_AvailableData UnityEngine::Audio::ControlContext::UnityEngine_Audio_ProcessorInstance_IContext_GetAvailableData(::Unity::Audio::Handle handle) {
@@ -588,10 +592,10 @@ inline ::UnityEngine::Audio::ProcessorInstance_AvailableData UnityEngine::Audio:
 }
 template <typename T>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::Audio::ControlContext::SendData(::UnityEngine::Audio::ProcessorInstance processorInstance, /* [IsReadOnly] */ ::by_ref<T> data) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(),
-                                                           { "SendData", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::Audio::ProcessorInstance>(), ::i2c::type_of<::by_ref<T>>() } })));
+inline void UnityEngine::Audio::ControlContext::SendData(::UnityEngine::Audio::ProcessorInstance processorInstance, /* [IsReadOnly] */ ::by_ref<T const> data) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(),
+                                              { "SendData", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::Audio::ProcessorInstance>(), ::i2c::type_of<::by_ref<T const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, processorInstance, data);
 }
@@ -602,11 +606,11 @@ inline void UnityEngine::Audio::ControlContext::InternalEndMixManualControlConte
                                        { "InternalEndMixManualControlContext_Injected", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, header, data);
 }
-inline void UnityEngine::Audio::ControlContext::InternalSetConfigurationManualControlContext_Injected(void* header, ::by_ref<::UnityEngine::AudioConfiguration> config) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(),
-                                       { "InternalSetConfigurationManualControlContext_Injected", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration>>() } })));
+inline void UnityEngine::Audio::ControlContext::InternalSetConfigurationManualControlContext_Injected(void* header, ::by_ref<::UnityEngine::AudioConfiguration const> config) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext>(),
+                          { "InternalSetConfigurationManualControlContext_Injected", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, header, config);
 }
 /// @brief Convert operator to "::UnityEngine::Audio::ProcessorInstance_IContext"
@@ -681,14 +685,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audi
 //  Writing Method size for method: ::UnityEngine::Audio::ControlContext_Manual.SetConfiguration
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::ControlContext_Manual::*)(::by_ref<::UnityEngine::Audio::AudioFormat>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::ControlContext_Manual::*)(::by_ref<::UnityEngine::Audio::AudioFormat const>)>(
     &::UnityEngine::Audio::ControlContext_Manual::SetConfiguration)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6eab424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext_Manual>(),
-                                                                                           { "SetConfiguration", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::AudioFormat>>() } })));
+                                                                                           { "SetConfiguration", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::AudioFormat const>>() } })));
     return ___internal_method;
   }
 };
@@ -707,7 +711,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audi
 //  Writing Method size for method: ::UnityEngine::Audio::ControlContext_Manual._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::ControlContext_Manual::*)(::by_ref<::UnityEngine::Audio::ControlContext>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::ControlContext_Manual::*)(::by_ref<::UnityEngine::Audio::ControlContext const>)>(
     &::UnityEngine::Audio::ControlContext_Manual::_ctor)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6eaada8;
@@ -715,7 +719,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audi
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext_Manual>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::ControlContext>>() } })));
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext_Manual>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::ControlContext const>>() } })));
     return ___internal_method;
   }
 };
@@ -737,19 +741,19 @@ inline void UnityEngine::Audio::ControlContext_Manual::Update() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext_Manual>(), { "Update", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void UnityEngine::Audio::ControlContext_Manual::SetConfiguration(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat> format) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext_Manual>(), { "SetConfiguration", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::AudioFormat>>() } })));
+inline void UnityEngine::Audio::ControlContext_Manual::SetConfiguration(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> format) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext_Manual>(),
+                                                                                         { "SetConfiguration", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::AudioFormat const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, format);
 }
 inline void UnityEngine::Audio::ControlContext_Manual::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext_Manual>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void UnityEngine::Audio::ControlContext_Manual::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ControlContext> context) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext_Manual>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::ControlContext>>() } })));
+inline void UnityEngine::Audio::ControlContext_Manual::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ControlContext const> context) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ControlContext_Manual>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::ControlContext const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, context);
 }
 /// @brief Convert operator to "::System::IDisposable"

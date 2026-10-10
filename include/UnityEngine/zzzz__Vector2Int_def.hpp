@@ -81,7 +81,7 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6f2dc90, size 0x2c, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2Int> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2Int const> other);
 
   /// @brief Method FloorToInt, addr 0x6f2dab8, size 0xcc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int FloorToInt(::UnityEngine::Vector2 v);

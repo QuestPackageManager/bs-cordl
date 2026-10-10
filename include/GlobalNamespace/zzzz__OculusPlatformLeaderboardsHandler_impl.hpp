@@ -338,7 +338,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::HMAsyncRequest* (
-    ::GlobalNamespace::OculusPlatformLeaderboardsHandler::*)(::by_ref<::GlobalNamespace::BeatmapKey>, int32_t, int32_t, ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope, uint64_t,
+    ::GlobalNamespace::OculusPlatformLeaderboardsHandler::*)(::by_ref<::GlobalNamespace::BeatmapKey const>, int32_t, int32_t, ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope, uint64_t,
                                                              ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler*)>(
     &::GlobalNamespace::OculusPlatformLeaderboardsHandler::GetScores)> {
   constexpr static std::size_t size = 0x27c;
@@ -416,7 +416,7 @@ inline bool GlobalNamespace::OculusPlatformLeaderboardsHandler::CheckMessageForV
                                                                                          { "CheckMessageForValidRequest", {}, { ::i2c::type_of<::Oculus::Platform::Message*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, message);
 }
-inline ::GlobalNamespace::HMAsyncRequest* GlobalNamespace::OculusPlatformLeaderboardsHandler::GetScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count,
+inline ::GlobalNamespace::HMAsyncRequest* GlobalNamespace::OculusPlatformLeaderboardsHandler::GetScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, int32_t count,
                                                                                                         int32_t fromRank, ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scope,
                                                                                                         uint64_t referencePlayerId,
                                                                                                         ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler) {

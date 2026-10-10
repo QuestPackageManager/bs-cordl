@@ -25,10 +25,10 @@ class CORDL_TYPE TexturePool : public ::UnityEngine::Rendering::RenderGraphModul
 public:
   // Declarations
   /// @brief Method GetResourceName, addr 0x6c14eac, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW GetResourceName(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> res);
+  inline ::StringW GetResourceName(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle* const> res);
 
   /// @brief Method GetResourceSize, addr 0x6c14ecc, size 0x1c, virtual true, abstract: false, final false
-  inline int64_t GetResourceSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> res);
+  inline int64_t GetResourceSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle* const> res);
 
   /// @brief Method GetResourceTypeName, addr 0x6c14ee8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetResourceTypeName();

@@ -293,7 +293,7 @@ public:
   inline void Internal_LookAt(::UnityEngine::Vector3 worldPosition, ::UnityEngine::Vector3 worldUp);
 
   /// @brief Method Internal_LookAt_Injected, addr 0x6f5312c, size 0x54, virtual false, abstract: false, final false
-  static inline void Internal_LookAt_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> worldPosition, ::by_ref<::UnityEngine::Vector3> worldUp);
+  static inline void Internal_LookAt_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> worldPosition, ::by_ref<::UnityEngine::Vector3 const> worldUp);
 
   /// @brief Method InverseTransformDirection, addr 0x6f534a8, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 InverseTransformDirection(::UnityEngine::Vector3 direction);
@@ -302,7 +302,7 @@ public:
   inline ::UnityEngine::Vector3 InverseTransformDirection(float_t x, float_t y, float_t z);
 
   /// @brief Method InverseTransformDirection_Injected, addr 0x6f5354c, size 0x54, virtual false, abstract: false, final false
-  static inline void InverseTransformDirection_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> direction, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void InverseTransformDirection_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> direction, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// @brief Method InverseTransformDirections, addr 0x6f5371c, size 0xd8, virtual false, abstract: false, final false
   inline void InverseTransformDirections(::System::ReadOnlySpan_1<::UnityEngine::Vector3> directions, ::System::Span_1<::UnityEngine::Vector3> transformedDirections);
@@ -325,7 +325,7 @@ public:
   inline ::UnityEngine::Vector3 InverseTransformPoint(float_t x, float_t y, float_t z);
 
   /// @brief Method InverseTransformPoint_Injected, addr 0x6f5447c, size 0x54, virtual false, abstract: false, final false
-  static inline void InverseTransformPoint_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void InverseTransformPoint_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> position, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// @brief Method InverseTransformPoints, addr 0x6f5464c, size 0xd8, virtual false, abstract: false, final false
   inline void InverseTransformPoints(::System::ReadOnlySpan_1<::UnityEngine::Vector3> positions, ::System::Span_1<::UnityEngine::Vector3> transformedPositions);
@@ -348,7 +348,7 @@ public:
   inline ::UnityEngine::Vector3 InverseTransformVector(float_t x, float_t y, float_t z);
 
   /// @brief Method InverseTransformVector_Injected, addr 0x6f53ce4, size 0x54, virtual false, abstract: false, final false
-  static inline void InverseTransformVector_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> vector, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void InverseTransformVector_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> vector, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// @brief Method InverseTransformVectors, addr 0x6f53eb4, size 0xd8, virtual false, abstract: false, final false
   inline void InverseTransformVectors(::System::ReadOnlySpan_1<::UnityEngine::Vector3> vectors, ::System::Span_1<::UnityEngine::Vector3> transformedVectors);
@@ -437,17 +437,17 @@ public:
   inline void RotateAroundInternal(::UnityEngine::Vector3 axis, float_t angle);
 
   /// @brief Method RotateAroundInternal_Injected, addr 0x6f52c9c, size 0x54, virtual false, abstract: false, final false
-  static inline void RotateAroundInternal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> axis, float_t angle);
+  static inline void RotateAroundInternal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> axis, float_t angle);
 
   /// [Obsolete("warning use Transform.Rotate instead.")]
   /// @brief Method RotateAroundLocal, addr 0x6f5573c, size 0xa0, virtual false, abstract: false, final false
   inline void RotateAroundLocal(::UnityEngine::Vector3 axis, float_t angle);
 
   /// @brief Method RotateAroundLocal_Injected, addr 0x6f557dc, size 0x54, virtual false, abstract: false, final false
-  static inline void RotateAroundLocal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> axis, float_t angle);
+  static inline void RotateAroundLocal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> axis, float_t angle);
 
   /// @brief Method RotateAround_Injected, addr 0x6f556e8, size 0x54, virtual false, abstract: false, final false
-  static inline void RotateAround_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> axis, float_t angle);
+  static inline void RotateAround_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> axis, float_t angle);
 
   /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method SendTransformChangedScale, addr 0x6f551d4, size 0x78, virtual false, abstract: false, final false
@@ -479,20 +479,20 @@ public:
   inline void SetLocalEulerAngles(::UnityEngine::Vector3 euler, ::UnityEngine::RotationOrder order);
 
   /// @brief Method SetLocalEulerAngles_Injected, addr 0x6f5127c, size 0x54, virtual false, abstract: false, final false
-  static inline void SetLocalEulerAngles_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> euler, ::UnityEngine::RotationOrder order);
+  static inline void SetLocalEulerAngles_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> euler, ::UnityEngine::RotationOrder order);
 
   /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method SetLocalEulerHint, addr 0x6f512d0, size 0x90, virtual false, abstract: false, final false
   inline void SetLocalEulerHint(::UnityEngine::Vector3 euler);
 
   /// @brief Method SetLocalEulerHint_Injected, addr 0x6f51360, size 0x44, virtual false, abstract: false, final false
-  static inline void SetLocalEulerHint_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> euler);
+  static inline void SetLocalEulerHint_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> euler);
 
   /// @brief Method SetLocalPositionAndRotation, addr 0x6f52464, size 0x9c, virtual false, abstract: false, final false
   inline void SetLocalPositionAndRotation(::UnityEngine::Vector3 localPosition, ::UnityEngine::Quaternion localRotation);
 
   /// @brief Method SetLocalPositionAndRotation_Injected, addr 0x6f52500, size 0x54, virtual false, abstract: false, final false
-  static inline void SetLocalPositionAndRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> localPosition, ::by_ref<::UnityEngine::Quaternion> localRotation);
+  static inline void SetLocalPositionAndRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> localPosition, ::by_ref<::UnityEngine::Quaternion const> localRotation);
 
   /// @brief Method SetParent, addr 0x6f520e4, size 0x8, virtual false, abstract: false, final false
   inline void SetParent(::UnityEngine::Transform* p);
@@ -508,7 +508,7 @@ public:
   inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
   /// @brief Method SetPositionAndRotation_Injected, addr 0x6f52410, size 0x54, virtual false, abstract: false, final false
-  static inline void SetPositionAndRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Quaternion> rotation);
+  static inline void SetPositionAndRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> position, ::by_ref<::UnityEngine::Quaternion const> rotation);
 
   /// [NativeMethod("SetRotationOrder")]
   /// [NativeConditional("UNITY_EDITOR")]
@@ -531,7 +531,7 @@ public:
   inline ::UnityEngine::Vector3 TransformDirection(float_t x, float_t y, float_t z);
 
   /// @brief Method TransformDirection_Injected, addr 0x6f53180, size 0x54, virtual false, abstract: false, final false
-  static inline void TransformDirection_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> direction, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void TransformDirection_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> direction, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// @brief Method TransformDirections, addr 0x6f53350, size 0xd8, virtual false, abstract: false, final false
   inline void TransformDirections(::System::ReadOnlySpan_1<::UnityEngine::Vector3> directions, ::System::Span_1<::UnityEngine::Vector3> transformedDirections);
@@ -554,7 +554,7 @@ public:
   inline ::UnityEngine::Vector3 TransformPoint(float_t x, float_t y, float_t z);
 
   /// @brief Method TransformPoint_Injected, addr 0x6f540b0, size 0x54, virtual false, abstract: false, final false
-  static inline void TransformPoint_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void TransformPoint_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> position, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// @brief Method TransformPoints, addr 0x6f54280, size 0xd8, virtual false, abstract: false, final false
   inline void TransformPoints(::System::ReadOnlySpan_1<::UnityEngine::Vector3> positions, ::System::Span_1<::UnityEngine::Vector3> transformedPositions);
@@ -577,7 +577,7 @@ public:
   inline ::UnityEngine::Vector3 TransformVector(float_t x, float_t y, float_t z);
 
   /// @brief Method TransformVector_Injected, addr 0x6f53918, size 0x54, virtual false, abstract: false, final false
-  static inline void TransformVector_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> vector, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void TransformVector_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> vector, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// @brief Method TransformVectors, addr 0x6f53ae8, size 0xd8, virtual false, abstract: false, final false
   inline void TransformVectors(::System::ReadOnlySpan_1<::UnityEngine::Vector3> vectors, ::System::Span_1<::UnityEngine::Vector3> transformedVectors);
@@ -761,19 +761,19 @@ public:
   inline void set_localPosition(::UnityEngine::Vector3 value);
 
   /// @brief Method set_localPosition_Injected, addr 0x6f5109c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_localPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_localPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_localRotation, addr 0x6f51694, size 0x90, virtual false, abstract: false, final false
   inline void set_localRotation(::UnityEngine::Quaternion value);
 
   /// @brief Method set_localRotation_Injected, addr 0x6f51b54, size 0x44, virtual false, abstract: false, final false
-  static inline void set_localRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion> value);
+  static inline void set_localRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion const> value);
 
   /// @brief Method set_localScale, addr 0x6f51dfc, size 0x90, virtual false, abstract: false, final false
   inline void set_localScale(::UnityEngine::Vector3 value);
 
   /// @brief Method set_localScale_Injected, addr 0x6f51e8c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_localScale_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_localScale_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_parent, addr 0x6f51ed4, size 0xc0, virtual false, abstract: false, final false
   inline void set_parent(::UnityEngine::Transform* value);
@@ -785,7 +785,7 @@ public:
   inline void set_position(::UnityEngine::Vector3 value);
 
   /// @brief Method set_position_Injected, addr 0x6f51014, size 0x44, virtual false, abstract: false, final false
-  static inline void set_position_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_position_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_right, addr 0x6f517ac, size 0xa0, virtual false, abstract: false, final false
   inline void set_right(::UnityEngine::Vector3 value);
@@ -797,7 +797,7 @@ public:
   inline void set_rotationOrder(::UnityEngine::RotationOrder value);
 
   /// @brief Method set_rotation_Injected, addr 0x6f51acc, size 0x44, virtual false, abstract: false, final false
-  static inline void set_rotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion> value);
+  static inline void set_rotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion const> value);
 
   /// @brief Method set_up, addr 0x6f518d4, size 0xa0, virtual false, abstract: false, final false
   inline void set_up(::UnityEngine::Vector3 value);

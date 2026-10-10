@@ -365,18 +365,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::VRController.UpdatePoseOffset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::XR::XRNode>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::XR::XRNode const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>,
                                                                 ::by_ref<::UnityEngine::Pose>)>(&::GlobalNamespace::VRController::UpdatePoseOffset)> {
   constexpr static std::size_t size = 0x16c;
   constexpr static std::size_t addrs = 0x5c72b84;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "UpdatePoseOffset",
-                                                                                   {},
-                                                                                   { ::i2c::type_of<::by_ref<::UnityEngine::XR::XRNode>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                     ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Pose>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(),
+                                                             { "UpdatePoseOffset",
+                                                               {},
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::XR::XRNode const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Pose>>() } })));
     return ___internal_method;
   }
 };
@@ -711,13 +711,15 @@ inline void GlobalNamespace::VRController::SetupVRPlatformHelper() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "SetupVRPlatformHelper", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::VRController::UpdatePoseOffset(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::XRNode> node, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> customPositionOffset,
-                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> customRotationOffset, ::by_ref<::UnityEngine::Pose> poseOffset) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(),
-                                                                                         { "UpdatePoseOffset",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::XR::XRNode>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Pose>>() } })));
+inline void GlobalNamespace::VRController::UpdatePoseOffset(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::XRNode const> node,
+                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> customPositionOffset,
+                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> customRotationOffset, ::by_ref<::UnityEngine::Pose> poseOffset) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(),
+                                                           { "UpdatePoseOffset",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::XR::XRNode const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Pose>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, node, customPositionOffset, customRotationOffset, poseOffset);
 }
 inline void GlobalNamespace::VRController::UpdateAnchorOffsetPose() {

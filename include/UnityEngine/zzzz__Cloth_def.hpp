@@ -59,7 +59,7 @@ public:
   inline void set_externalAcceleration(::UnityEngine::Vector3 value);
 
   /// @brief Method set_externalAcceleration_Injected, addr 0x6ead1d4, size 0x44, virtual false, abstract: false, final false
-  static inline void set_externalAcceleration_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_externalAcceleration_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
 protected:
   // Ctor Parameters []

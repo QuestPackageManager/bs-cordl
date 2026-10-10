@@ -62,8 +62,8 @@ public:
   static inline ::System::IntPtr CreateNative(::UnityEngine::Color32 tl, ::UnityEngine::Color32 tr, ::UnityEngine::Color32 bl, ::UnityEngine::Color32 br, ::System::IntPtr managedObject);
 
   /// @brief Method CreateNative_Injected, addr 0x7054bbc, size 0x6c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr CreateNative_Injected(::by_ref<::UnityEngine::Color32> tl, ::by_ref<::UnityEngine::Color32> tr, ::by_ref<::UnityEngine::Color32> bl,
-                                                       ::by_ref<::UnityEngine::Color32> br, ::System::IntPtr managedObject);
+  static inline ::System::IntPtr CreateNative_Injected(::by_ref<::UnityEngine::Color32 const> tl, ::by_ref<::UnityEngine::Color32 const> tr, ::by_ref<::UnityEngine::Color32 const> bl,
+                                                       ::by_ref<::UnityEngine::Color32 const> br, ::System::IntPtr managedObject);
 
   /// @brief Method DestroyNative, addr 0x7054794, size 0x44, virtual false, abstract: false, final false
   static inline void DestroyNative(::System::IntPtr nativeInstance, ::System::IntPtr managedObject);
@@ -87,8 +87,8 @@ public:
   static inline void UpdateNative(::System::IntPtr instance, ::UnityEngine::Color32 tl, ::UnityEngine::Color32 tr, ::UnityEngine::Color32 bl, ::UnityEngine::Color32 br);
 
   /// @brief Method UpdateNative_Injected, addr 0x7054c28, size 0x6c, virtual false, abstract: false, final false
-  static inline void UpdateNative_Injected(::System::IntPtr instance, ::by_ref<::UnityEngine::Color32> tl, ::by_ref<::UnityEngine::Color32> tr, ::by_ref<::UnityEngine::Color32> bl,
-                                           ::by_ref<::UnityEngine::Color32> br);
+  static inline void UpdateNative_Injected(::System::IntPtr instance, ::by_ref<::UnityEngine::Color32 const> tl, ::by_ref<::UnityEngine::Color32 const> tr, ::by_ref<::UnityEngine::Color32 const> bl,
+                                           ::by_ref<::UnityEngine::Color32 const> br);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_bottomLeft() const;
 

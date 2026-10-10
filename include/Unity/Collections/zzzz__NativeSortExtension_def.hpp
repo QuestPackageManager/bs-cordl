@@ -207,7 +207,7 @@ public:
   template <typename T, typename U>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-  static inline void HeapSortStruct(void* array, /* [IsReadOnly] */ ::by_ref<int32_t> lo, /* [IsReadOnly] */ ::by_ref<int32_t> hi, U comp);
+  static inline void HeapSortStruct(void* array, /* [IsReadOnly] */ ::by_ref<int32_t const> lo, /* [IsReadOnly] */ ::by_ref<int32_t const> hi, U comp);
 
   /// @brief Method Heapify, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename U>
@@ -219,7 +219,7 @@ public:
   template <typename T, typename U>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-  static inline void HeapifyStruct(void* array, int32_t i, int32_t n, /* [IsReadOnly] */ ::by_ref<int32_t> lo, U comp);
+  static inline void HeapifyStruct(void* array, int32_t i, int32_t n, /* [IsReadOnly] */ ::by_ref<int32_t const> lo, U comp);
 
   /// @brief Method InsertionSort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename U>
@@ -231,7 +231,7 @@ public:
   template <typename T, typename U>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-  static inline void InsertionSortStruct(void* array, /* [IsReadOnly] */ ::by_ref<int32_t> lo, /* [IsReadOnly] */ ::by_ref<int32_t> hi, U comp);
+  static inline void InsertionSortStruct(void* array, /* [IsReadOnly] */ ::by_ref<int32_t const> lo, /* [IsReadOnly] */ ::by_ref<int32_t const> hi, U comp);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(Unity.Collections.NativeSortExtension::DefaultComparer`1<T>) })]
   /// @brief Method IntroSort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -250,7 +250,7 @@ public:
   template <typename T, typename U>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-  static inline void IntroSortStruct_R(void* array, /* [IsReadOnly] */ ::by_ref<int32_t> lo, /* [IsReadOnly] */ ::by_ref<int32_t> _hi, int32_t depth, U comp);
+  static inline void IntroSortStruct_R(void* array, /* [IsReadOnly] */ ::by_ref<int32_t const> lo, /* [IsReadOnly] */ ::by_ref<int32_t const> _hi, int32_t depth, U comp);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(Unity.Collections.NativeSortExtension::DefaultComparer`1<T>) })]
   /// @brief Method IntroSort_R, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -269,7 +269,7 @@ public:
   template <typename T, typename U>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-  static inline int32_t PartitionStruct(void* array, /* [IsReadOnly] */ ::by_ref<int32_t> lo, /* [IsReadOnly] */ ::by_ref<int32_t> hi, U comp);
+  static inline int32_t PartitionStruct(void* array, /* [IsReadOnly] */ ::by_ref<int32_t const> lo, /* [IsReadOnly] */ ::by_ref<int32_t const> hi, U comp);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]

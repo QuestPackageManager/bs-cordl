@@ -885,7 +885,7 @@ public:
   static inline void ReleaseStringChars(::UnityEngine::AndroidJNI_JStringBinding str);
 
   /// @brief Method ReleaseStringChars_Injected, addr 0x6e71c98, size 0x3c, virtual false, abstract: false, final false
-  static inline void ReleaseStringChars_Injected(::by_ref<::UnityEngine::AndroidJNI_JStringBinding> str);
+  static inline void ReleaseStringChars_Injected(::by_ref<::UnityEngine::AndroidJNI_JStringBinding const> str);
 
   /// [ThreadSafe]
   /// @brief Method SetBooleanArrayElement, addr 0x6e77ec0, size 0x54, virtual false, abstract: false, final false

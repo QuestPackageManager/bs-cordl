@@ -2072,7 +2072,7 @@ public:
   inline void Cleanup(bool cleanScenarioList);
 
   /// @brief Method CleanupPerScenarioData, addr 0x6baa7c0, size 0x144, virtual false, abstract: false, final false
-  inline void CleanupPerScenarioData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData> data);
+  inline void CleanupPerScenarioData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData const> data);
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellData* New_ctor();
 
@@ -4247,7 +4247,7 @@ public:
   inline void InitStreaming();
 
   /// @brief Method Initialize, addr 0x6b98f68, size 0x4a4, virtual false, abstract: false, final false
-  inline void Initialize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters> parameters);
+  inline void Initialize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters const> parameters);
 
   /// @brief Method InitializeDebug, addr 0x6b8ac4c, size 0x24, virtual false, abstract: false, final false
   inline void InitializeDebug();

@@ -210,17 +210,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Play
 //  Writing Method size for method: ::UnityEngine::Playables::PlayableGraph.SynchronizeEvaluation_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableGraph>, ::by_ref<::UnityEngine::Playables::PlayableGraph>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableGraph>, ::by_ref<::UnityEngine::Playables::PlayableGraph const>)>(
     &::UnityEngine::Playables::PlayableGraph::SynchronizeEvaluation_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f5fe14;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Playables::PlayableGraph>(),
-            { "SynchronizeEvaluation_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableGraph>(),
+                                         { "SynchronizeEvaluation_Injected",
+                                           {},
+                                           { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph const>>() } })));
     return ___internal_method;
   }
 };
@@ -298,8 +299,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Playables::PlayableGraph.ConnectInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableGraph>, ::by_ref<::UnityEngine::Playables::PlayableHandle>, int32_t,
-                                                                ::by_ref<::UnityEngine::Playables::PlayableHandle>, int32_t)>(&::UnityEngine::Playables::PlayableGraph::ConnectInternal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableGraph>, ::by_ref<::UnityEngine::Playables::PlayableHandle const>, int32_t,
+                                                                ::by_ref<::UnityEngine::Playables::PlayableHandle const>, int32_t)>(
+    &::UnityEngine::Playables::PlayableGraph::ConnectInternal_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x6f601cc;
 
@@ -308,8 +310,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableGraph>(),
                                                 { "ConnectInternal_Injected",
                                                   {},
-                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(),
-                                                    ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(), ::i2c::type_of<int32_t>() } })));
+                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle const>>(),
+                                                    ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle const>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -398,12 +400,12 @@ inline bool UnityEngine::Playables::PlayableGraph::ConnectInternal(::UnityEngine
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, source, sourceOutputPort, destination, destinationInputPort);
 }
 inline void UnityEngine::Playables::PlayableGraph::SynchronizeEvaluation_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> _unity_self,
-                                                                                  ::by_ref<::UnityEngine::Playables::PlayableGraph> playable) {
+                                                                                  ::by_ref<::UnityEngine::Playables::PlayableGraph const> playable) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Playables::PlayableGraph>(),
-          { "SynchronizeEvaluation_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableGraph>(),
+                                              { "SynchronizeEvaluation_Injected",
+                                                {},
+                                                { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, playable);
 }
 inline void UnityEngine::Playables::PlayableGraph::CreatePlayableHandle_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> _unity_self,
@@ -443,14 +445,15 @@ inline void UnityEngine::Playables::PlayableGraph::GetFrameRate_Injected(::by_re
                           { "GetFrameRate_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::FrameRate>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, ret);
 }
-inline bool UnityEngine::Playables::PlayableGraph::ConnectInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableHandle> source,
-                                                                            int32_t sourceOutputPort, ::by_ref<::UnityEngine::Playables::PlayableHandle> destination, int32_t destinationInputPort) {
+inline bool UnityEngine::Playables::PlayableGraph::ConnectInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> _unity_self,
+                                                                            ::by_ref<::UnityEngine::Playables::PlayableHandle const> source, int32_t sourceOutputPort,
+                                                                            ::by_ref<::UnityEngine::Playables::PlayableHandle const> destination, int32_t destinationInputPort) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableGraph>(),
                                               { "ConnectInternal_Injected",
                                                 {},
-                                                { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(),
-                                                  ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(), ::i2c::type_of<int32_t>() } })));
+                                                { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle const>>(),
+                                                  ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle const>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, source, sourceOutputPort, destination, destinationInputPort);
 }
 // Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value:

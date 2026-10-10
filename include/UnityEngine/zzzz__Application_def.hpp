@@ -136,7 +136,7 @@ class CORDL_TYPE Application_MemoryUsageChangedCallback : public ::System::Multi
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x6ebb8ec, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ApplicationMemoryUsageChange> usage);
+  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ApplicationMemoryUsageChange const> usage);
 
   static inline ::UnityEngine::Application_MemoryUsageChangedCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 

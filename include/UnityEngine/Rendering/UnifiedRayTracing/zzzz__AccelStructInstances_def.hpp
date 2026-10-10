@@ -369,7 +369,7 @@ public:
 
   /// @brief Method AddInstance, addr 0x6e023d0, size 0x340, virtual false, abstract: false, final false
   inline void AddInstance(::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation slotAllocation,
-                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc> meshInstance, uint32_t materialID, uint32_t renderingLayerMask);
+                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc const> meshInstance, uint32_t materialID, uint32_t renderingLayerMask);
 
   /// @brief Method AddInstances, addr 0x6e02710, size 0x12c, virtual false, abstract: false, final false
   inline int32_t AddInstances(::System::Span_1<::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc> meshInstances, ::System::Span_1<uint32_t> materialIDs,

@@ -695,7 +695,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::by_ref<:
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsBody_IsValid_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody const>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsBody_IsValid_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fd208c;
@@ -703,14 +703,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                             { "PhysicsBody_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody>>() } })));
+                                                             { "PhysicsBody_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsBody_GetBodyType_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsBody_BodyType (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsBody_BodyType (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody const>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsBody_GetBodyType_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fd2108;
@@ -718,14 +718,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPh
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                             { "PhysicsBody_GetBodyType_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody>>() } })));
+                                                             { "PhysicsBody_GetBodyType_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsBody_GetCallbackTarget_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody const>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsBody_GetCallbackTarget_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fd2184;
@@ -733,7 +733,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::b
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                             { "PhysicsBody_GetCallbackTarget_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody>>() } })));
+                                                             { "PhysicsBody_GetCallbackTarget_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody const>>() } })));
     return ___internal_method;
   }
 };
@@ -756,7 +756,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::by_ref<:
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsJoint_IsValid_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint const>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsJoint_IsValid_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fd22b4;
@@ -764,14 +764,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                             { "PhysicsJoint_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint>>() } })));
+                                                             { "PhysicsJoint_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsJoint_GetJointType_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsJoint_JointType (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsJoint_JointType (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint const>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsJoint_GetJointType_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fd2330;
@@ -779,14 +779,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPh
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                             { "PhysicsJoint_GetJointType_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint>>() } })));
+                                                             { "PhysicsJoint_GetJointType_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsJoint_GetCallbackTarget_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint const>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsJoint_GetCallbackTarget_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fd23ac;
@@ -794,7 +794,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::b
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                             { "PhysicsJoint_GetCallbackTarget_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint>>() } })));
+                                                             { "PhysicsJoint_GetCallbackTarget_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint const>>() } })));
     return ___internal_method;
   }
 };
@@ -919,7 +919,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, ::by_re
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsRotate_IsValid_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate const>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsRotate_IsValid_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fd291c;
@@ -927,14 +927,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                             { "PhysicsRotate_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate>>() } })));
+                                                             { "PhysicsRotate_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsRotate_GetAngle_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate const>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsRotate_GetAngle_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fd2998;
@@ -942,14 +942,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::Un
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                             { "PhysicsRotate_GetAngle_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate>>() } })));
+                                                             { "PhysicsRotate_GetAngle_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsAABB_IsValid_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB const>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsAABB_IsValid_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fd2a1c;
@@ -957,15 +957,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                             { "PhysicsAABB_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB>>() } })));
+                                                             { "PhysicsAABB_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsGlobal_PopulateWorldTransformWrite_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>, ::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
-    &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsGlobal_PopulateWorldTransformWrite_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<int32_t (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>, ::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+        &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsGlobal_PopulateWorldTransformWrite_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6fd2b98;
 
@@ -974,7 +975,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::Un
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
                                                              { "PhysicsGlobal_PopulateWorldTransformWrite_Injected",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>>(), ::i2c::type_of<::System::IntPtr>(),
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>>(), ::i2c::type_of<::System::IntPtr>(),
                                                                  ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
     return ___internal_method;
   }
@@ -1014,7 +1015,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsShape_IsValid_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape const>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsShape_IsValid_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fd2d78;
@@ -1022,14 +1023,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                             { "PhysicsShape_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape>>() } })));
+                                                             { "PhysicsShape_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsShape_GetShapeType_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape_ShapeType (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape_ShapeType (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape const>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsShape_GetShapeType_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fd2df4;
@@ -1037,14 +1038,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPh
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                             { "PhysicsShape_GetShapeType_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape>>() } })));
+                                                             { "PhysicsShape_GetShapeType_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsShape_GetCallbackTarget_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape const>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsShape_GetCallbackTarget_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fd2e70;
@@ -1052,22 +1053,22 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::b
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                             { "PhysicsShape_GetCallbackTarget_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape>>() } })));
+                                                             { "PhysicsShape_GetCallbackTarget_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsContactId_IsValid_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId const>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsContactId_IsValid_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fd2ef4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                             { "PhysicsContactId_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
+                                                { "PhysicsContactId_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId const>>() } })));
     return ___internal_method;
   }
 };
@@ -1090,7 +1091,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::by_ref<:
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsWorld_IsValid_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_IsValid_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fd3030;
@@ -1098,32 +1099,32 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                             { "PhysicsWorld_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>>() } })));
+                                                             { "PhysicsWorld_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsWorld_SetTransformWriteTweens_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_SetTransformWriteTweens_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6fd3114;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                         { "PhysicsWorld_SetTransformWriteTweens_Injected",
-                                           {},
-                                           { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
+                            { "PhysicsWorld_SetTransformWriteTweens_Injected",
+                              {},
+                              { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsWorld_GetBodyUpdateCallbackTargets_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>, ::Unity::Collections::Allocator,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>, ::Unity::Collections::Allocator,
                                                                 ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_BodyUpdateCallbackTargets>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_GetBodyUpdateCallbackTargets_Injected)> {
   constexpr static std::size_t size = 0x54;
@@ -1134,7 +1135,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
                                                              { "PhysicsWorld_GetBodyUpdateCallbackTargets_Injected",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
                                                                  ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_BodyUpdateCallbackTargets>>() } })));
     return ___internal_method;
   }
@@ -1142,7 +1143,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsWorld_GetTriggerCallbackTargets_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>, ::Unity::Collections::Allocator,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>, ::Unity::Collections::Allocator,
                                                                 ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_TriggerCallbackTargets>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_GetTriggerCallbackTargets_Injected)> {
   constexpr static std::size_t size = 0x54;
@@ -1153,7 +1154,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
                                                              { "PhysicsWorld_GetTriggerCallbackTargets_Injected",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
                                                                  ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_TriggerCallbackTargets>>() } })));
     return ___internal_method;
   }
@@ -1161,7 +1162,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsWorld_GetContactCallbackTargets_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>, ::Unity::Collections::Allocator,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>, ::Unity::Collections::Allocator,
                                                                 ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ContactCallbackTargets>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_GetContactCallbackTargets_Injected)> {
   constexpr static std::size_t size = 0x54;
@@ -1172,7 +1173,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
                                                              { "PhysicsWorld_GetContactCallbackTargets_Injected",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
                                                                  ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ContactCallbackTargets>>() } })));
     return ___internal_method;
   }
@@ -1180,7 +1181,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsWorld_GetJointThresholdCallbackTargets_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>, ::Unity::Collections::Allocator,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>, ::Unity::Collections::Allocator,
                                                                 ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_JointThresholdCallbackTargets>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_GetJointThresholdCallbackTargets_Injected)> {
   constexpr static std::size_t size = 0x54;
@@ -1191,7 +1192,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
                                                              { "PhysicsWorld_GetJointThresholdCallbackTargets_Injected",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
                                                                  ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_JointThresholdCallbackTargets>>() } })));
     return ___internal_method;
   }
@@ -1217,7 +1218,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D.PhysicsWorld_DrawAllWorlds_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB const>)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_DrawAllWorlds_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fd37a8;
@@ -1225,7 +1226,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                             { "PhysicsWorld_DrawAllWorlds_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB>>() } })));
+                                                             { "PhysicsWorld_DrawAllWorlds_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB const>>() } })));
     return ___internal_method;
   }
 };
@@ -1464,23 +1465,23 @@ inline void UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsB
                           { "PhysicsBody_GetDefaultDefinition_Injected", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBodyDefinition>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, useSettings, ret);
 }
-inline bool UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsBody_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody> body) {
+inline bool UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsBody_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody const> body) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                           { "PhysicsBody_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody>>() } })));
+                                                           { "PhysicsBody_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, body);
 }
 inline ::UnityEngine::LowLevelPhysics2D::PhysicsBody_BodyType
-UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsBody_GetBodyType_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody> body) {
+UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsBody_GetBodyType_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody const> body) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                           { "PhysicsBody_GetBodyType_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody>>() } })));
+                                                           { "PhysicsBody_GetBodyType_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::LowLevelPhysics2D::PhysicsBody_BodyType>(nullptr, ___internal_method, body);
 }
-inline ::System::Object* UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsBody_GetCallbackTarget_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody> body) {
+inline ::System::Object* UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsBody_GetCallbackTarget_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody const> body) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                           { "PhysicsBody_GetCallbackTarget_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody>>() } })));
+                                                           { "PhysicsBody_GetCallbackTarget_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, body);
 }
 inline void UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsChain_GetDefaultDefinition_Injected(bool useSettings,
@@ -1491,23 +1492,23 @@ inline void UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsC
                           { "PhysicsChain_GetDefaultDefinition_Injected", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsChainDefinition>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, useSettings, ret);
 }
-inline bool UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsJoint_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint> joint) {
+inline bool UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsJoint_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint const> joint) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                           { "PhysicsJoint_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint>>() } })));
+                                                           { "PhysicsJoint_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, joint);
 }
 inline ::UnityEngine::LowLevelPhysics2D::PhysicsJoint_JointType
-UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsJoint_GetJointType_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint> joint) {
+UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsJoint_GetJointType_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint const> joint) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                           { "PhysicsJoint_GetJointType_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint>>() } })));
+                                                           { "PhysicsJoint_GetJointType_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::LowLevelPhysics2D::PhysicsJoint_JointType>(nullptr, ___internal_method, joint);
 }
-inline ::System::Object* UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsJoint_GetCallbackTarget_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint> joint) {
+inline ::System::Object* UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsJoint_GetCallbackTarget_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint const> joint) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                           { "PhysicsJoint_GetCallbackTarget_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint>>() } })));
+                                                           { "PhysicsJoint_GetCallbackTarget_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, joint);
 }
 inline void UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::DistanceJoint_GetDefaultDefinition_Injected(bool useSettings,
@@ -1568,31 +1569,33 @@ inline void UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsR
                                        { "PhysicsRotate_CreateAngle_Injected", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, angle, ret);
 }
-inline bool UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsRotate_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate> rotation) {
+inline bool UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsRotate_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate const> rotation) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                           { "PhysicsRotate_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate>>() } })));
+                                                           { "PhysicsRotate_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, rotation);
 }
-inline float_t UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsRotate_GetAngle_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate> rotate) {
+inline float_t UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsRotate_GetAngle_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate const> rotate) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                           { "PhysicsRotate_GetAngle_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate>>() } })));
+                                                           { "PhysicsRotate_GetAngle_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate const>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, rotate);
 }
-inline bool UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsAABB_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB> aabb) {
+inline bool UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsAABB_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB const> aabb) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                           { "PhysicsAABB_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB>>() } })));
+                                                           { "PhysicsAABB_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, aabb);
 }
-inline int32_t UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsGlobal_PopulateWorldTransformWrite_Injected(
-    ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld> world, ::System::IntPtr transformAccessArrayIntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> transformWriteTweensArray) {
+inline int32_t
+UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsGlobal_PopulateWorldTransformWrite_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const> world,
+                                                                                                               ::System::IntPtr transformAccessArrayIntPtr,
+                                                                                                               ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> transformWriteTweensArray) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
                                                            { "PhysicsGlobal_PopulateWorldTransformWrite_Injected",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>>(), ::i2c::type_of<::System::IntPtr>(),
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>>(), ::i2c::type_of<::System::IntPtr>(),
                                                                ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, world, transformAccessArrayIntPtr, transformWriteTweensArray);
 }
@@ -1611,29 +1614,29 @@ inline void UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsS
                                        { "PhysicsShape_GetDefaultSurfaceMaterial_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape_SurfaceMaterial>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline bool UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsShape_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape> shape) {
+inline bool UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsShape_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape const> shape) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                           { "PhysicsShape_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape>>() } })));
+                                                           { "PhysicsShape_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, shape);
 }
 inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape_ShapeType
-UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsShape_GetShapeType_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape> shape) {
+UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsShape_GetShapeType_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape const> shape) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                           { "PhysicsShape_GetShapeType_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape>>() } })));
+                                                           { "PhysicsShape_GetShapeType_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::LowLevelPhysics2D::PhysicsShape_ShapeType>(nullptr, ___internal_method, shape);
 }
-inline ::System::Object* UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsShape_GetCallbackTarget_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape> shape) {
+inline ::System::Object* UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsShape_GetCallbackTarget_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape const> shape) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                           { "PhysicsShape_GetCallbackTarget_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape>>() } })));
+                                                           { "PhysicsShape_GetCallbackTarget_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, shape);
 }
-inline bool UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsContactId_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId> contactId) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                           { "PhysicsContactId_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId>>() } })));
+inline bool UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsContactId_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId const> contactId) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
+                                              { "PhysicsContactId_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, contactId);
 }
 inline void UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_GetDefaultDefinition_Injected(bool useSettings,
@@ -1644,65 +1647,65 @@ inline void UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsW
                           { "PhysicsWorld_GetDefaultDefinition_Injected", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorldDefinition>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, useSettings, ret);
 }
-inline bool UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld> world) {
+inline bool UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const> world) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                           { "PhysicsWorld_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>>() } })));
+                                                           { "PhysicsWorld_IsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, world);
 }
-inline void UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_SetTransformWriteTweens_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld> world,
+inline void UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_SetTransformWriteTweens_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const> world,
                                                                                                                       ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> transformWriteTweens) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                       { "PhysicsWorld_SetTransformWriteTweens_Injected",
-                                         {},
-                                         { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
+                          { "PhysicsWorld_SetTransformWriteTweens_Injected",
+                            {},
+                            { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, world, transformWriteTweens);
 }
 inline void UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_GetBodyUpdateCallbackTargets_Injected(
-    ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld> world, ::Unity::Collections::Allocator allocator,
+    ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const> world, ::Unity::Collections::Allocator allocator,
     ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_BodyUpdateCallbackTargets> ret) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
                                                            { "PhysicsWorld_GetBodyUpdateCallbackTargets_Injected",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
                                                                ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_BodyUpdateCallbackTargets>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, world, allocator, ret);
 }
 inline void
-UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_GetTriggerCallbackTargets_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld> world,
+UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_GetTriggerCallbackTargets_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const> world,
                                                                                                             ::Unity::Collections::Allocator allocator,
                                                                                                             ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_TriggerCallbackTargets> ret) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
                                                            { "PhysicsWorld_GetTriggerCallbackTargets_Injected",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
                                                                ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_TriggerCallbackTargets>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, world, allocator, ret);
 }
 inline void
-UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_GetContactCallbackTargets_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld> world,
+UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_GetContactCallbackTargets_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const> world,
                                                                                                             ::Unity::Collections::Allocator allocator,
                                                                                                             ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ContactCallbackTargets> ret) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
                                                            { "PhysicsWorld_GetContactCallbackTargets_Injected",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
                                                                ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ContactCallbackTargets>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, world, allocator, ret);
 }
 inline void UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_GetJointThresholdCallbackTargets_Injected(
-    ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld> world, ::Unity::Collections::Allocator allocator,
+    ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const> world, ::Unity::Collections::Allocator allocator,
     ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_JointThresholdCallbackTargets> ret) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
                                                            { "PhysicsWorld_GetJointThresholdCallbackTargets_Injected",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const>>(), ::i2c::type_of<::Unity::Collections::Allocator>(),
                                                                ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_JointThresholdCallbackTargets>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, world, allocator, ret);
 }
@@ -1716,10 +1719,10 @@ inline ::System::IntPtr UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting
                                          { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, editorResourceName, playerResourceName);
 }
-inline void UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_DrawAllWorlds_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB> drawAABB) {
+inline void UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D::PhysicsWorld_DrawAllWorlds_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB const> drawAABB) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D*>(),
-                                                           { "PhysicsWorld_DrawAllWorlds_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB>>() } })));
+                                                           { "PhysicsWorld_DrawAllWorlds_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, drawAABB);
 }
 // Ctor Parameters []

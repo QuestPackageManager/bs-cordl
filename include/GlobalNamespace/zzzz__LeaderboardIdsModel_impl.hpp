@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::LeaderboardIdsModel.TryGetPlatformLeaderboardId
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LeaderboardIdsModel::*)(::by_ref<::GlobalNamespace::BeatmapKey>, ::by_ref<::StringW>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LeaderboardIdsModel::*)(::by_ref<::GlobalNamespace::BeatmapKey const>, ::by_ref<::StringW>)>(
     &::GlobalNamespace::LeaderboardIdsModel::TryGetPlatformLeaderboardId)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x39e0794;
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardIdsModel*>(),
-                                                { "TryGetPlatformLeaderboardId", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+                                                { "TryGetPlatformLeaderboardId", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
     return ___internal_method;
   }
 };
@@ -54,10 +54,10 @@ inline void GlobalNamespace::LeaderboardIdsModel::_ctor(::System::Collections::G
                                                            { ".ctor", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, idsMaps);
 }
-inline bool GlobalNamespace::LeaderboardIdsModel::TryGetPlatformLeaderboardId(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::by_ref<::StringW> platformLeaderboardId) {
+inline bool GlobalNamespace::LeaderboardIdsModel::TryGetPlatformLeaderboardId(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::by_ref<::StringW> platformLeaderboardId) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardIdsModel*>(),
-                                              { "TryGetPlatformLeaderboardId", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+                                              { "TryGetPlatformLeaderboardId", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, beatmapKey, platformLeaderboardId);
 }
 inline ::GlobalNamespace::LeaderboardIdsModel* GlobalNamespace::LeaderboardIdsModel::New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* idsMaps) {

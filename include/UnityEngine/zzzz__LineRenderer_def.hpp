@@ -44,7 +44,7 @@ public:
   inline void SetPosition(int32_t index, ::UnityEngine::Vector3 position);
 
   /// @brief Method SetPosition_Injected, addr 0x6ee1150, size 0x54, virtual false, abstract: false, final false
-  static inline void SetPosition_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Vector3> position);
+  static inline void SetPosition_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Vector3 const> position);
 
   /// @brief Method .ctor, addr 0x6ee11a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();

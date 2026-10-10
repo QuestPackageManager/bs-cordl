@@ -24,10 +24,10 @@ class CORDL_TYPE IHierarchyProperty_1 {
 public:
   // Declarations
   /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline T GetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline T GetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, T value);
+  inline void SetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, T value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IHierarchyProperty_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies

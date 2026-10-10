@@ -74,7 +74,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::BaseCommandBuffer.ValidateTextureHandle
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BaseCommandBuffer::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BaseCommandBuffer::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(
     &::UnityEngine::Rendering::BaseCommandBuffer::ValidateTextureHandle)> {
   constexpr static std::size_t size = 0x1ec;
   constexpr static std::size_t addrs = 0x6b64050;
@@ -82,14 +82,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BaseCommandBuffer*>(),
-                                                             { "ValidateTextureHandle", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+                                                             { "ValidateTextureHandle", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::BaseCommandBuffer.ValidateTextureHandleRead
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BaseCommandBuffer::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BaseCommandBuffer::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(
     &::UnityEngine::Rendering::BaseCommandBuffer::ValidateTextureHandleRead)> {
   constexpr static std::size_t size = 0x19c;
   constexpr static std::size_t addrs = 0x6b6423c;
@@ -97,14 +97,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BaseCommandBuffer*>(),
-                                                             { "ValidateTextureHandleRead", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+                                                             { "ValidateTextureHandleRead", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::BaseCommandBuffer.ValidateTextureHandleWrite
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BaseCommandBuffer::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BaseCommandBuffer::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(
     &::UnityEngine::Rendering::BaseCommandBuffer::ValidateTextureHandleWrite)> {
   constexpr static std::size_t size = 0x200;
   constexpr static std::size_t addrs = 0x6b643d8;
@@ -112,7 +112,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BaseCommandBuffer*>(),
-                                                             { "ValidateTextureHandleWrite", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+                                                             { "ValidateTextureHandleWrite", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
     return ___internal_method;
   }
 };
@@ -165,22 +165,22 @@ inline void UnityEngine::Rendering::BaseCommandBuffer::ThrowIfRasterNotAllowed()
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BaseCommandBuffer*>(), { "ThrowIfRasterNotAllowed", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::BaseCommandBuffer::ValidateTextureHandle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> h) {
+inline void UnityEngine::Rendering::BaseCommandBuffer::ValidateTextureHandle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> h) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BaseCommandBuffer*>(),
-                                                           { "ValidateTextureHandle", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+                                                           { "ValidateTextureHandle", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, h);
 }
-inline void UnityEngine::Rendering::BaseCommandBuffer::ValidateTextureHandleRead(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> h) {
+inline void UnityEngine::Rendering::BaseCommandBuffer::ValidateTextureHandleRead(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> h) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BaseCommandBuffer*>(),
-                                                           { "ValidateTextureHandleRead", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+                                                           { "ValidateTextureHandleRead", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, h);
 }
-inline void UnityEngine::Rendering::BaseCommandBuffer::ValidateTextureHandleWrite(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> h) {
+inline void UnityEngine::Rendering::BaseCommandBuffer::ValidateTextureHandleWrite(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> h) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BaseCommandBuffer*>(),
-                                                           { "ValidateTextureHandleWrite", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+                                                           { "ValidateTextureHandleWrite", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, h);
 }
 inline ::UnityEngine::Rendering::BaseCommandBuffer* UnityEngine::Rendering::BaseCommandBuffer::New_ctor(::UnityEngine::Rendering::CommandBuffer* wrapped,

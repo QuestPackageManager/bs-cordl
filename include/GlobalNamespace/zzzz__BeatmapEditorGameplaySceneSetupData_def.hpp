@@ -26,7 +26,7 @@ public:
   /// @brief Field data, offset 0x10, size 0x58
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::GlobalNamespace::BeatmapEditorStartTestLevelData data;
 
-  static inline ::GlobalNamespace::BeatmapEditorGameplaySceneSetupData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data);
+  static inline ::GlobalNamespace::BeatmapEditorGameplaySceneSetupData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData const> data);
 
   constexpr ::GlobalNamespace::BeatmapEditorStartTestLevelData const& __cordl_internal_get_data() const;
 
@@ -35,7 +35,7 @@ public:
   constexpr void __cordl_internal_set_data(::GlobalNamespace::BeatmapEditorStartTestLevelData value);
 
   /// @brief Method .ctor, addr 0x5d2745c, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData const> data);
 
 protected:
   // Ctor Parameters []

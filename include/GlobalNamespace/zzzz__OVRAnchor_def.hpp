@@ -1009,7 +1009,7 @@ public:
   inline void ResetDynamicObjects();
 
   /// @brief Method SetDynamicObjectState, addr 0x6223890, size 0xc, virtual false, abstract: false, final false
-  inline void SetDynamicObjectState(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRAnchor_TrackerConfiguration> other);
+  inline void SetDynamicObjectState(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRAnchor_TrackerConfiguration const> other);
 
   /// @brief Method ToDynamicObjectClasses, addr 0x62237c8, size 0xc0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRNativeList_1<::GlobalNamespace::OVRPlugin_DynamicObjectClass> ToDynamicObjectClasses(::Unity::Collections::Allocator allocator);

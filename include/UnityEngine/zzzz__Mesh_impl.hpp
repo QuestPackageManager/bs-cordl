@@ -265,18 +265,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Mesh_MeshData.SetSubMeshImpl_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor>, ::UnityEngine::Rendering::MeshUpdateFlags)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor const>, ::UnityEngine::Rendering::MeshUpdateFlags)>(
     &::UnityEngine::Mesh_MeshData::SetSubMeshImpl_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6f0d2b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshData>(),
-                                                             { "SetSubMeshImpl_Injected",
-                                                               {},
-                                                               { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SubMeshDescriptor>>(),
-                                                                 ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshData>(), { "SetSubMeshImpl_Injected",
+                                                                                                                {},
+                                                                                                                { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(),
+                                                                                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SubMeshDescriptor const>>(),
+                                                                                                                  ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
     return ___internal_method;
   }
 };
@@ -387,14 +387,14 @@ inline void UnityEngine::Mesh_MeshData::SetVertexBufferParamsFromArray_Injected(
                                                 { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self, vertexCount, attributes);
 }
-inline void UnityEngine::Mesh_MeshData::SetSubMeshImpl_Injected(::System::IntPtr self, int32_t index, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor> desc,
+inline void UnityEngine::Mesh_MeshData::SetSubMeshImpl_Injected(::System::IntPtr self, int32_t index, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor const> desc,
                                                                 ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshData>(),
-                                                           { "SetSubMeshImpl_Injected",
-                                                             {},
-                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SubMeshDescriptor>>(),
-                                                               ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshData>(), { "SetSubMeshImpl_Injected",
+                                                                                                              {},
+                                                                                                              { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(),
+                                                                                                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SubMeshDescriptor const>>(),
+                                                                                                                ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self, index, desc, flags);
 }
 // Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
@@ -1244,22 +1244,22 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh
 //  Writing Method size for method: ::UnityEngine::Mesh.GetTrianglesNonAllocImpl
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh::*)(::by_ref<::ArrayW<int32_t>>, int32_t, bool, int32_t)>(&::UnityEngine::Mesh::GetTrianglesNonAllocImpl)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh::*)(::ArrayW<int32_t>, int32_t, bool, int32_t)>(&::UnityEngine::Mesh::GetTrianglesNonAllocImpl)> {
   constexpr static std::size_t size = 0x17c;
   constexpr static std::size_t addrs = 0x6efe7a8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
-                            { "GetTrianglesNonAllocImpl", {}, { ::i2c::type_of<::by_ref<::ArrayW<int32_t>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
+                                         { "GetTrianglesNonAllocImpl", {}, { ::i2c::type_of<::ArrayW<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Mesh.GetTrianglesNonAllocImpl16
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh::*)(::by_ref<::ArrayW<uint16_t>>, int32_t, bool, int32_t)>(&::UnityEngine::Mesh::GetTrianglesNonAllocImpl16)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh::*)(::ArrayW<uint16_t>, int32_t, bool, int32_t)>(&::UnityEngine::Mesh::GetTrianglesNonAllocImpl16)> {
   constexpr static std::size_t size = 0x17c;
   constexpr static std::size_t addrs = 0x6efe990;
 
@@ -1267,37 +1267,37 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
-                            { "GetTrianglesNonAllocImpl16", {}, { ::i2c::type_of<::by_ref<::ArrayW<uint16_t>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+                            { "GetTrianglesNonAllocImpl16", {}, { ::i2c::type_of<::ArrayW<uint16_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Mesh.GetIndicesNonAllocImpl
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh::*)(::by_ref<::ArrayW<int32_t>>, int32_t, bool, int32_t)>(&::UnityEngine::Mesh::GetIndicesNonAllocImpl)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh::*)(::ArrayW<int32_t>, int32_t, bool, int32_t)>(&::UnityEngine::Mesh::GetIndicesNonAllocImpl)> {
   constexpr static std::size_t size = 0x17c;
   constexpr static std::size_t addrs = 0x6efeb78;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
-                            { "GetIndicesNonAllocImpl", {}, { ::i2c::type_of<::by_ref<::ArrayW<int32_t>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
+                                         { "GetIndicesNonAllocImpl", {}, { ::i2c::type_of<::ArrayW<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Mesh.GetIndicesNonAllocImpl16
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh::*)(::by_ref<::ArrayW<uint16_t>>, int32_t, bool, int32_t)>(&::UnityEngine::Mesh::GetIndicesNonAllocImpl16)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh::*)(::ArrayW<uint16_t>, int32_t, bool, int32_t)>(&::UnityEngine::Mesh::GetIndicesNonAllocImpl16)> {
   constexpr static std::size_t size = 0x17c;
   constexpr static std::size_t addrs = 0x6efed60;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
-                            { "GetIndicesNonAllocImpl16", {}, { ::i2c::type_of<::by_ref<::ArrayW<uint16_t>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
+                                         { "GetIndicesNonAllocImpl16", {}, { ::i2c::type_of<::ArrayW<uint16_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -1975,26 +1975,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::Unity
 //  Writing Method size for method: ::UnityEngine::Mesh.GetBoneWeightsNonAllocImpl
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh::*)(::by_ref<::ArrayW<::UnityEngine::BoneWeight>>)>(&::UnityEngine::Mesh::GetBoneWeightsNonAllocImpl)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::BoneWeight>)>(&::UnityEngine::Mesh::GetBoneWeightsNonAllocImpl)> {
   constexpr static std::size_t size = 0x15c;
   constexpr static std::size_t addrs = 0x6f02034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetBoneWeightsNonAllocImpl", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::BoneWeight>>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetBoneWeightsNonAllocImpl", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::BoneWeight>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Mesh.GetBindposesNonAllocImpl
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh::*)(::by_ref<::ArrayW<::UnityEngine::Matrix4x4>>)>(&::UnityEngine::Mesh::GetBindposesNonAllocImpl)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Mesh::GetBindposesNonAllocImpl)> {
   constexpr static std::size_t size = 0x15c;
   constexpr static std::size_t addrs = 0x6f021d4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetBindposesNonAllocImpl", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::Matrix4x4>>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetBindposesNonAllocImpl", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Matrix4x4>>() } })));
     return ___internal_method;
   }
 };
@@ -2213,14 +2213,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::M
 //  Writing Method size for method: ::UnityEngine::Mesh.GetLodsNonAlloc
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh::*)(::by_ref<::ArrayW<::UnityEngine::MeshLodRange>>, int32_t)>(&::UnityEngine::Mesh::GetLodsNonAlloc)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::MeshLodRange>, int32_t)>(&::UnityEngine::Mesh::GetLodsNonAlloc)> {
   constexpr static std::size_t size = 0x164;
   constexpr static std::size_t addrs = 0x6f032cc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetLodsNonAlloc", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::MeshLodRange>>>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetLodsNonAlloc", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::MeshLodRange>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -5694,13 +5694,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Mesh
 //  Writing Method size for method: ::UnityEngine::Mesh.FromInstanceID_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::EntityId>)>(&::UnityEngine::Mesh::FromInstanceID_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::EntityId const>)>(&::UnityEngine::Mesh::FromInstanceID_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6efcbb0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "FromInstanceID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "FromInstanceID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>() } })));
     return ___internal_method;
   }
 };
@@ -6877,18 +6877,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Mesh.SetSubMesh_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor>, ::UnityEngine::Rendering::MeshUpdateFlags)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor const>, ::UnityEngine::Rendering::MeshUpdateFlags)>(
     &::UnityEngine::Mesh::SetSubMesh_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6f02760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
-                                                             { "SetSubMesh_Injected",
-                                                               {},
-                                                               { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SubMeshDescriptor>>(),
-                                                                 ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetSubMesh_Injected",
+                                                                                                        {},
+                                                                                                        { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(),
+                                                                                                          ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SubMeshDescriptor const>>(),
+                                                                                                          ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
     return ___internal_method;
   }
 };
@@ -6959,14 +6959,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Mesh.SetLodSelectionCurve_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Mesh_LodSelectionCurve>)>(&::UnityEngine::Mesh::SetLodSelectionCurve_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Mesh_LodSelectionCurve const>)>(&::UnityEngine::Mesh::SetLodSelectionCurve_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f02ce4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
-                                                { "SetLodSelectionCurve_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Mesh_LodSelectionCurve>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
+                                         { "SetLodSelectionCurve_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Mesh_LodSelectionCurve const>>() } })));
     return ___internal_method;
   }
 };
@@ -7008,18 +7009,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Mesh.SetLodImpl_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, int32_t, ::by_ref<::UnityEngine::MeshLodRange>, ::UnityEngine::Rendering::MeshUpdateFlags)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, int32_t, ::by_ref<::UnityEngine::MeshLodRange const>, ::UnityEngine::Rendering::MeshUpdateFlags)>(
     &::UnityEngine::Mesh::SetLodImpl_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x6f030a0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetLodImpl_Injected",
-                                                                       {},
-                                                                       { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
-                                                                         ::i2c::type_of<::by_ref<::UnityEngine::MeshLodRange>>(), ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
+                                                             { "SetLodImpl_Injected",
+                                                               {},
+                                                               { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::MeshLodRange const>>(), ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
     return ___internal_method;
   }
 };
@@ -7115,14 +7116,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Mesh.set_bounds_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bounds>)>(&::UnityEngine::Mesh::set_bounds_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bounds const>)>(&::UnityEngine::Mesh::set_bounds_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f038ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "set_bounds_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>() } })));
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "set_bounds_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds const>>() } })));
     return ___internal_method;
   }
 };
@@ -7493,32 +7494,32 @@ inline void UnityEngine::Mesh::SetIndicesNativeArrayImpl(int32_t submesh, ::Unit
                               ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, submesh, topology, indicesFormat, indices, arrayStart, arraySize, calculateBounds, baseVertex, meshlod);
 }
-inline void UnityEngine::Mesh::GetTrianglesNonAllocImpl(::by_ref<::ArrayW<int32_t>> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
-                          { "GetTrianglesNonAllocImpl", {}, { ::i2c::type_of<::by_ref<::ArrayW<int32_t>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+inline void UnityEngine::Mesh::GetTrianglesNonAllocImpl(::ArrayW<int32_t> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
+                                       { "GetTrianglesNonAllocImpl", {}, { ::i2c::type_of<::ArrayW<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, values, submesh, applyBaseVertex, meshlod);
 }
-inline void UnityEngine::Mesh::GetTrianglesNonAllocImpl16(::by_ref<::ArrayW<uint16_t>> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
-                          { "GetTrianglesNonAllocImpl16", {}, { ::i2c::type_of<::by_ref<::ArrayW<uint16_t>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+inline void UnityEngine::Mesh::GetTrianglesNonAllocImpl16(::ArrayW<uint16_t> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
+                                       { "GetTrianglesNonAllocImpl16", {}, { ::i2c::type_of<::ArrayW<uint16_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, values, submesh, applyBaseVertex, meshlod);
 }
-inline void UnityEngine::Mesh::GetIndicesNonAllocImpl(::by_ref<::ArrayW<int32_t>> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
-                          { "GetIndicesNonAllocImpl", {}, { ::i2c::type_of<::by_ref<::ArrayW<int32_t>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+inline void UnityEngine::Mesh::GetIndicesNonAllocImpl(::ArrayW<int32_t> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
+                                       { "GetIndicesNonAllocImpl", {}, { ::i2c::type_of<::ArrayW<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, values, submesh, applyBaseVertex, meshlod);
 }
-inline void UnityEngine::Mesh::GetIndicesNonAllocImpl16(::by_ref<::ArrayW<uint16_t>> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
-                          { "GetIndicesNonAllocImpl16", {}, { ::i2c::type_of<::by_ref<::ArrayW<uint16_t>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+inline void UnityEngine::Mesh::GetIndicesNonAllocImpl16(::ArrayW<uint16_t> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
+                                       { "GetIndicesNonAllocImpl16", {}, { ::i2c::type_of<::ArrayW<uint16_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, values, submesh, applyBaseVertex, meshlod);
 }
 inline void UnityEngine::Mesh::PrintErrorCantAccessChannel(::UnityEngine::Rendering::VertexAttribute ch) {
@@ -7785,14 +7786,14 @@ inline ::System::IntPtr UnityEngine::Mesh::GetBindposesArray() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetBindposesArray", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(this, ___internal_method);
 }
-inline void UnityEngine::Mesh::GetBoneWeightsNonAllocImpl(::by_ref<::ArrayW<::UnityEngine::BoneWeight>> values) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetBoneWeightsNonAllocImpl", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::BoneWeight>>>() } })));
+inline void UnityEngine::Mesh::GetBoneWeightsNonAllocImpl(::ArrayW<::UnityEngine::BoneWeight> values) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetBoneWeightsNonAllocImpl", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::BoneWeight>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, values);
 }
-inline void UnityEngine::Mesh::GetBindposesNonAllocImpl(::by_ref<::ArrayW<::UnityEngine::Matrix4x4>> values) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetBindposesNonAllocImpl", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::Matrix4x4>>>() } })));
+inline void UnityEngine::Mesh::GetBindposesNonAllocImpl(::ArrayW<::UnityEngine::Matrix4x4> values) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetBindposesNonAllocImpl", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Matrix4x4>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, values);
 }
 inline bool UnityEngine::Mesh::get_isReadable() {
@@ -7882,10 +7883,10 @@ inline ::ArrayW<::UnityEngine::MeshLodRange> UnityEngine::Mesh::GetLodsAlloc(int
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetLodsAlloc", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::MeshLodRange>>(this, ___internal_method, subMeshIndex);
 }
-inline void UnityEngine::Mesh::GetLodsNonAlloc(::by_ref<::ArrayW<::UnityEngine::MeshLodRange>> levels, int32_t subMeshIndex) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetLodsNonAlloc", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::MeshLodRange>>>(), ::i2c::type_of<int32_t>() } })));
+inline void UnityEngine::Mesh::GetLodsNonAlloc(::ArrayW<::UnityEngine::MeshLodRange> levels, int32_t subMeshIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetLodsNonAlloc", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::MeshLodRange>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, levels, subMeshIndex);
 }
 inline int32_t UnityEngine::Mesh::GetLodCount() {
@@ -9780,9 +9781,9 @@ inline void UnityEngine::Mesh::CombineMeshes(::ArrayW<::UnityEngine::CombineInst
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "CombineMeshes", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::CombineInstance>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, combine);
 }
-inline ::System::IntPtr UnityEngine::Mesh::FromInstanceID_Injected(::by_ref<::UnityEngine::EntityId> id) {
+inline ::System::IntPtr UnityEngine::Mesh::FromInstanceID_Injected(::by_ref<::UnityEngine::EntityId const> id) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "FromInstanceID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "FromInstanceID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, id);
 }
 inline ::UnityEngine::Rendering::IndexFormat UnityEngine::Mesh::get_indexFormat_Injected(::System::IntPtr _unity_self) {
@@ -10325,14 +10326,14 @@ inline void UnityEngine::Mesh::set_subMeshCount_Injected(::System::IntPtr _unity
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "set_subMeshCount_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
 }
-inline void UnityEngine::Mesh::SetSubMesh_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor> desc,
+inline void UnityEngine::Mesh::SetSubMesh_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor const> desc,
                                                    ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
-                                                           { "SetSubMesh_Injected",
-                                                             {},
-                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SubMeshDescriptor>>(),
-                                                               ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetSubMesh_Injected",
+                                                                                                      {},
+                                                                                                      { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(),
+                                                                                                        ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SubMeshDescriptor const>>(),
+                                                                                                        ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, index, desc, flags);
 }
 inline void UnityEngine::Mesh::GetSubMesh_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor> ret) {
@@ -10366,10 +10367,11 @@ inline void UnityEngine::Mesh::SetLodCount_Injected(::System::IntPtr _unity_self
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetLodCount_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, numLevels);
 }
-inline void UnityEngine::Mesh::SetLodSelectionCurve_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Mesh_LodSelectionCurve> lodSelectionCurve) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
-                                              { "SetLodSelectionCurve_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Mesh_LodSelectionCurve>>() } })));
+inline void UnityEngine::Mesh::SetLodSelectionCurve_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Mesh_LodSelectionCurve const> lodSelectionCurve) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
+                                       { "SetLodSelectionCurve_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Mesh_LodSelectionCurve const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, lodSelectionCurve);
 }
 inline void UnityEngine::Mesh::SetLodsFromArray_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> levelRanges, int32_t start, int32_t count, int32_t submesh,
@@ -10391,14 +10393,14 @@ inline void UnityEngine::Mesh::SetLodsFromNativeArray_Injected(::System::IntPtr 
                                                                                            ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, lodLevels, count, submesh, flags);
 }
-inline void UnityEngine::Mesh::SetLodImpl_Injected(::System::IntPtr _unity_self, int32_t subMeshIndex, int32_t level, ::by_ref<::UnityEngine::MeshLodRange> levelRange,
+inline void UnityEngine::Mesh::SetLodImpl_Injected(::System::IntPtr _unity_self, int32_t subMeshIndex, int32_t level, ::by_ref<::UnityEngine::MeshLodRange const> levelRange,
                                                    ::UnityEngine::Rendering::MeshUpdateFlags flags) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetLodImpl_Injected",
-                                                                     {},
-                                                                     { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
-                                                                       ::i2c::type_of<::by_ref<::UnityEngine::MeshLodRange>>(), ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
+                                                           { "SetLodImpl_Injected",
+                                                             {},
+                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::MeshLodRange const>>(), ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, subMeshIndex, level, levelRange, flags);
 }
 inline void UnityEngine::Mesh::GetLodsAlloc_Injected(::System::IntPtr _unity_self, int32_t subMeshIndex, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret) {
@@ -10442,10 +10444,10 @@ inline void UnityEngine::Mesh::get_bounds_Injected(::System::IntPtr _unity_self,
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "get_bounds_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, ret);
 }
-inline void UnityEngine::Mesh::set_bounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds> value) {
+inline void UnityEngine::Mesh::set_bounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds const> value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "set_bounds_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>() } })));
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "set_bounds_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
 }
 inline void UnityEngine::Mesh::ClearImpl_Injected(::System::IntPtr _unity_self, bool keepVertexLayout) {

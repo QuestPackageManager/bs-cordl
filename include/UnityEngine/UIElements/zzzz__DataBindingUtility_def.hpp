@@ -117,7 +117,7 @@ public:
   __declspec(property(get = getStaticF_s_ReplaceIndices, put = setStaticF_s_ReplaceIndices)) ::System::Text::RegularExpressions::Regex* s_ReplaceIndices;
 
   /// @brief Method TryGetBinding, addr 0x708e190, size 0x184, virtual false, abstract: false, final false
-  static inline bool TryGetBinding(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+  static inline bool TryGetBinding(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
                                    ::by_ref<::UnityEngine::UIElements::BindingInfo> bindingInfo);
 
   static inline ::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>* getStaticF_k_AutoCompleteVisitors();

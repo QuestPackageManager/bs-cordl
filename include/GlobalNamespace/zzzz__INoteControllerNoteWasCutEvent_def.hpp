@@ -25,7 +25,7 @@ class CORDL_TYPE INoteControllerNoteWasCutEvent {
 public:
   // Declarations
   /// @brief Method HandleNoteControllerNoteWasCut, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void HandleNoteControllerNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteControllerNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo);
 
   // Ctor Parameters [CppParam { name: "", ty: "INoteControllerNoteWasCutEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies

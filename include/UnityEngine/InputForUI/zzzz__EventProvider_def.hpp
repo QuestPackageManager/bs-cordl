@@ -259,7 +259,7 @@ public:
   static inline void Bootstrap();
 
   /// @brief Method Dispatch, addr 0x6fbb568, size 0x234, virtual false, abstract: false, final false
-  static inline void Dispatch(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev);
+  static inline void Dispatch(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event const> ev);
 
   /// @brief Method Initialize, addr 0x6fbb1dc, size 0x1d8, virtual false, abstract: false, final false
   static inline void Initialize();

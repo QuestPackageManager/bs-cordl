@@ -42,7 +42,7 @@ public:
   /// @brief Field gameplayModifiers, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  static inline ::GlobalNamespace::StandardGameplaySceneSetupData* New_ctor(bool autoRestart, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+  static inline ::GlobalNamespace::StandardGameplaySceneSetupData* New_ctor(bool autoRestart, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey,
                                                                             ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   constexpr bool const& __cordl_internal_get_autoRestart() const;
@@ -70,7 +70,7 @@ public:
   constexpr void __cordl_internal_set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
   /// @brief Method .ctor, addr 0x5d2840c, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(bool autoRestart, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+  inline void _ctor(bool autoRestart, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
 protected:

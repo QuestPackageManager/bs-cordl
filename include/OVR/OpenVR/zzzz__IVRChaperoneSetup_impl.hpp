@@ -357,7 +357,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRC
 //  Writing Method size for method: ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo::*)(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>>, ::by_ref<uint32_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo::*)(::ArrayW<::OVR::OpenVR::HmdQuad_t>, ::by_ref<uint32_t>)>(
     &::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x624d0d4;
@@ -372,7 +372,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRC
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo::*)(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>>, ::by_ref<uint32_t>, ::System::AsyncCallback*, ::System::Object*)>(
+    ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo::*)(::ArrayW<::OVR::OpenVR::HmdQuad_t>, ::by_ref<uint32_t>, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo::BeginInvoke)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x624d0e8;
@@ -402,12 +402,12 @@ inline void OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo::_ctor
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline bool OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo::Invoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount) {
+inline bool OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo::Invoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pQuadsBuffer, punQuadsCount);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo::BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount,
+inline ::System::IAsyncResult* OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo::BeginInvoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount,
                                                                                                           ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo*>(), 14 })));
@@ -440,7 +440,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRC
 //  Writing Method size for method: ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo::*)(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>>, ::by_ref<uint32_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo::*)(::ArrayW<::OVR::OpenVR::HmdQuad_t>, ::by_ref<uint32_t>)>(
     &::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x624d1e4;
@@ -454,8 +454,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRC
 //  Writing Method size for method: ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo.BeginInvoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo::*)(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>>, ::by_ref<uint32_t>, ::System::AsyncCallback*, ::System::Object*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo::*)(::ArrayW<::OVR::OpenVR::HmdQuad_t>, ::by_ref<uint32_t>,
+                                                                                                                                                 ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo::BeginInvoke)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x624d1f8;
@@ -485,12 +485,12 @@ inline void OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo::_ctor(::
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline bool OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo::Invoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount) {
+inline bool OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo::Invoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pQuadsBuffer, punQuadsCount);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo::BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount,
+inline ::System::IAsyncResult* OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo::BeginInvoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount,
                                                                                                        ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo*>(), 14 })));
@@ -778,7 +778,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRC
 //  Writing Method size for method: ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo::*)(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>>, uint32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo::*)(::ArrayW<::OVR::OpenVR::HmdQuad_t>, uint32_t)>(
     &::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x624d678;
@@ -792,8 +792,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRC
 //  Writing Method size for method: ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo.BeginInvoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo::*)(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>>, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo::*)(::ArrayW<::OVR::OpenVR::HmdQuad_t>, uint32_t,
+                                                                                                                                                    ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo::BeginInvoke)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x624d68c;
@@ -823,12 +823,12 @@ inline void OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo::_ctor
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo::Invoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, uint32_t unQuadsCount) {
+inline void OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo::Invoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, uint32_t unQuadsCount) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pQuadsBuffer, unQuadsCount);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo::BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, uint32_t unQuadsCount,
+inline ::System::IAsyncResult* OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo::BeginInvoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, uint32_t unQuadsCount,
                                                                                                           ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo*>(), 14 })));
@@ -1202,7 +1202,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRC
 //  Writing Method size for method: ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo::*)(::by_ref<::ArrayW<uint8_t>>, uint32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo::*)(::ArrayW<uint8_t>, uint32_t)>(
     &::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x624dc3c;
@@ -1217,7 +1217,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRC
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo::*)(::by_ref<::ArrayW<uint8_t>>, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo::*)(::ArrayW<uint8_t>, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo::BeginInvoke)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x624dc50;
@@ -1247,13 +1247,13 @@ inline void OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo::_
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo::Invoke(::by_ref<::ArrayW<uint8_t>> pTagsBuffer, uint32_t unTagCount) {
+inline void OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo::Invoke(::ArrayW<uint8_t> pTagsBuffer, uint32_t unTagCount) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pTagsBuffer, unTagCount);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo::BeginInvoke(::by_ref<::ArrayW<uint8_t>> pTagsBuffer, uint32_t unTagCount,
-                                                                                                              ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult* OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo::BeginInvoke(::ArrayW<uint8_t> pTagsBuffer, uint32_t unTagCount, ::System::AsyncCallback* callback,
+                                                                                                              ::System::Object* object) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, pTagsBuffer, unTagCount, callback, object);
@@ -1286,7 +1286,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRC
 //  Writing Method size for method: ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo::*)(::by_ref<::ArrayW<uint8_t>>, ::by_ref<uint32_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo::*)(::ArrayW<uint8_t>, ::by_ref<uint32_t>)>(
     &::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x624dd38;
@@ -1300,9 +1300,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRC
 //  Writing Method size for method: ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo.BeginInvoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo::*)(::by_ref<::ArrayW<uint8_t>>, ::by_ref<uint32_t>,
-                                                                                                                                                     ::System::AsyncCallback*, ::System::Object*)>(
-    &::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo::*)(::ArrayW<uint8_t>, ::by_ref<uint32_t>, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo::BeginInvoke)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x624dd4c;
 
@@ -1331,12 +1331,12 @@ inline void OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo::_cto
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline bool OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo::Invoke(::by_ref<::ArrayW<uint8_t>> pTagsBuffer, ::by_ref<uint32_t> punTagCount) {
+inline bool OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo::Invoke(::ArrayW<uint8_t> pTagsBuffer, ::by_ref<uint32_t> punTagCount) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pTagsBuffer, punTagCount);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo::BeginInvoke(::by_ref<::ArrayW<uint8_t>> pTagsBuffer, ::by_ref<uint32_t> punTagCount,
+inline ::System::IAsyncResult* OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo::BeginInvoke(::ArrayW<uint8_t> pTagsBuffer, ::by_ref<uint32_t> punTagCount,
                                                                                                            ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo*>(), 14 })));
@@ -1369,7 +1369,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRC
 //  Writing Method size for method: ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo::*)(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>>, uint32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo::*)(::ArrayW<::OVR::OpenVR::HmdQuad_t>, uint32_t)>(
     &::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x624de48;
@@ -1383,9 +1383,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRC
 //  Writing Method size for method: ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo.BeginInvoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo::*)(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>>, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
-    &::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo::*)(::ArrayW<::OVR::OpenVR::HmdQuad_t>, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo::BeginInvoke)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x624de5c;
 
@@ -1414,12 +1414,12 @@ inline void OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo::_ctor(
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline bool OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo::Invoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, uint32_t unQuadsCount) {
+inline bool OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo::Invoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, uint32_t unQuadsCount) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pQuadsBuffer, unQuadsCount);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo::BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, uint32_t unQuadsCount,
+inline ::System::IAsyncResult* OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo::BeginInvoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, uint32_t unQuadsCount,
                                                                                                          ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo*>(), 14 })));
@@ -1452,7 +1452,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRC
 //  Writing Method size for method: ::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo::*)(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>>, ::by_ref<uint32_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo::*)(::ArrayW<::OVR::OpenVR::HmdQuad_t>, ::by_ref<uint32_t>)>(
     &::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x624df5c;
@@ -1466,8 +1466,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRC
 //  Writing Method size for method: ::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo.BeginInvoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo::*)(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>>, ::by_ref<uint32_t>, ::System::AsyncCallback*, ::System::Object*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo::*)(::ArrayW<::OVR::OpenVR::HmdQuad_t>, ::by_ref<uint32_t>,
+                                                                                                                                                ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo::BeginInvoke)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x624df70;
@@ -1497,12 +1497,12 @@ inline void OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo::_ctor(::S
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline bool OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo::Invoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount) {
+inline bool OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo::Invoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pQuadsBuffer, punQuadsCount);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo::BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount,
+inline ::System::IAsyncResult* OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo::BeginInvoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount,
                                                                                                       ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo*>(), 14 })));

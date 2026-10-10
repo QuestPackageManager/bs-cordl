@@ -35,10 +35,10 @@ public:
   inline void CopyTo(T* dstBuffer, int32_t startDstIndex, int32_t copyCount);
 
   /// @brief Method GetUnchecked, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::by_ref<T> GetUnchecked(/* [IsReadOnly] */ ::by_ref<int32_t> index);
+  inline ::by_ref<T> GetUnchecked(/* [IsReadOnly] */ ::by_ref<int32_t const> index);
 
   /// @brief Method TryAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryAdd(/* [IsReadOnly] */ ::by_ref<T> value);
+  inline bool TryAdd(/* [IsReadOnly] */ ::by_ref<T const> value);
 
   /// @brief Method TryCopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryCopyFrom(T* srcPtr, int32_t count);
@@ -59,7 +59,7 @@ public:
   inline int32_t get_Count();
 
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::by_ref<T> get_Item(/* [IsReadOnly] */ ::by_ref<int32_t> index);
+  inline ::by_ref<T> get_Item(/* [IsReadOnly] */ ::by_ref<int32_t const> index);
 
   // Ctor Parameters []
   // @brief default ctor

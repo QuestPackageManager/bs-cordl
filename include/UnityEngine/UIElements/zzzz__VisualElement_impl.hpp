@@ -4918,7 +4918,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualElement.IsPartOfCapturedChain
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::IEventHandler*>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::IEventHandler* const>)>(
     &::UnityEngine::UIElements::VisualElement::IsPartOfCapturedChain)> {
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x70d6694;
@@ -4926,8 +4926,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::U
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                            { "IsPartOfCapturedChain", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::IEventHandler*>>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+            { "IsPartOfCapturedChain", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::IEventHandler* const>>() } })));
     return ___internal_method;
   }
 };
@@ -9656,11 +9657,12 @@ inline void UnityEngine::UIElements::VisualElement::UpdateHoverPseudoState() {
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline bool UnityEngine::UIElements::VisualElement::IsPartOfCapturedChain(::UnityEngine::UIElements::VisualElement* self,
-                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::IEventHandler*> capturingElement) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
-                          { "IsPartOfCapturedChain", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::IEventHandler*>>() } })));
+                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::IEventHandler* const> capturingElement) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
+                       { "IsPartOfCapturedChain", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::IEventHandler* const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, self, capturingElement);
 }
 inline void UnityEngine::UIElements::VisualElement::UpdateHoverPseudoStateAfterCaptureChange(int32_t pointerId) {

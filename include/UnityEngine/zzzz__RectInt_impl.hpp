@@ -280,13 +280,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rect
 //  Writing Method size for method: ::UnityEngine::RectInt.Equals
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::RectInt::*)(::by_ref<::UnityEngine::RectInt>)>(&::UnityEngine::RectInt::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::RectInt::*)(::by_ref<::UnityEngine::RectInt const>)>(&::UnityEngine::RectInt::Equals)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x6ed5814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::RectInt>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::RectInt const>>() } })));
     return ___internal_method;
   }
 };
@@ -391,9 +391,9 @@ inline bool UnityEngine::RectInt::Equals(::UnityEngine::RectInt other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::RectInt>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline bool UnityEngine::RectInt::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RectInt> other) {
+inline bool UnityEngine::RectInt::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RectInt const> other) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::RectInt>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::RectInt const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::RectInt>"

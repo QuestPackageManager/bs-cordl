@@ -54,7 +54,7 @@ public:
   static inline ::GlobalNamespace::EditableBeatmapSelectionView* New_ctor();
 
   /// @brief Method SetBeatmap, addr 0x5d867a0, size 0x60, virtual true, abstract: false, final false
-  inline void SetBeatmap(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SetBeatmap(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   /// @brief Method SetVisibility, addr 0x5d7c85c, size 0x28, virtual false, abstract: false, final false
   inline void SetVisibility(bool visible);

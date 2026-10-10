@@ -73,11 +73,11 @@ public:
   constexpr operator ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>>*();
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState> const> other);
 
   /// @brief Method IEquatableByReference<StateBuffer<TStateTable,TType,TState>.TimestampedStateTable>.Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool IEquatableByReference_StateBuffer_TStateTable_TType_TState__TimestampedStateTable__Equals(
-      /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>> other);
+      /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState> const> other);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::SyncStateId id, int64_t time, TStateTable state);
@@ -252,7 +252,7 @@ public:
   inline TState GetState(TType type, int64_t time);
 
   /// @brief Method InsertState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void InsertState(/* [IsReadOnly] */ ::by_ref<TStateTable> state, int64_t time);
+  inline void InsertState(/* [IsReadOnly] */ ::by_ref<TStateTable const> state, int64_t time);
 
   static inline ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* New_ctor(int32_t size, ::GlobalNamespace::StateBuffer_3_InterpolationDelegate<TStateTable, TType, TState>* interpolator,
                                                                                        ::GlobalNamespace::StateBuffer_3_SmoothingDelegate<TStateTable, TType, TState>* smoother);

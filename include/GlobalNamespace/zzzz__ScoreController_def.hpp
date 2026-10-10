@@ -260,7 +260,7 @@ public:
   inline void DespawnScoringElement(::GlobalNamespace::ScoringElement* scoringElement);
 
   /// @brief Method HandleNoteWasCut, addr 0x5e10f64, size 0x4c4, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo);
 
   /// @brief Method HandleNoteWasMissed, addr 0x5e114e0, size 0x254, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);

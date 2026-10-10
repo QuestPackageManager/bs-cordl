@@ -54,7 +54,7 @@ public:
   __declspec(property(get = __cordl_internal_get_missionObjectives, put = __cordl_internal_set_missionObjectives)) ::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives;
 
   static inline ::GlobalNamespace::MissionGameplaySceneSetupData* New_ctor(::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart,
-                                                                           /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                           /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                            ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText);
 
   constexpr bool const& __cordl_internal_get_autoRestart() const;
@@ -94,7 +94,7 @@ public:
   constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*> value);
 
   /// @brief Method .ctor, addr 0x5d8ce70, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+  inline void _ctor(::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey,
                     ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText);
 
 protected:

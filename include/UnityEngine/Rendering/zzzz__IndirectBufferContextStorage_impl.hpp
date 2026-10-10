@@ -363,15 +363,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::IndirectBufferContextStorage::*)(
-    ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::IndirectBufferAllocInfo>)>(&::UnityEngine::Rendering::IndirectBufferContextStorage::CopyFromStaging)> {
+    ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::IndirectBufferAllocInfo const>)>(&::UnityEngine::Rendering::IndirectBufferContextStorage::CopyFromStaging)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x6c671bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::IndirectBufferContextStorage>(),
-                            { "CopyFromStaging", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::IndirectBufferAllocInfo>>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::IndirectBufferContextStorage>(),
+            { "CopyFromStaging", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::IndirectBufferAllocInfo const>>() } })));
     return ___internal_method;
   }
 };
@@ -536,11 +537,12 @@ inline ::UnityEngine::Rendering::IndirectBufferAllocInfo UnityEngine::Rendering:
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::IndirectBufferAllocInfo>(*this, ___internal_method, contextIndex);
 }
 inline void UnityEngine::Rendering::IndirectBufferContextStorage::CopyFromStaging(::UnityEngine::Rendering::CommandBuffer* cmd,
-                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::IndirectBufferAllocInfo> allocInfo) {
+                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::IndirectBufferAllocInfo const> allocInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::IndirectBufferContextStorage>(),
-                          { "CopyFromStaging", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::IndirectBufferAllocInfo>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Rendering::IndirectBufferContextStorage>(),
+          { "CopyFromStaging", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::IndirectBufferAllocInfo const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmd, allocInfo);
 }
 inline ::UnityEngine::Rendering::IndirectBufferLimits UnityEngine::Rendering::IndirectBufferContextStorage::GetLimits(int32_t contextIndex) {

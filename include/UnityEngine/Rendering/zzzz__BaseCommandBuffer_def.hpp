@@ -56,17 +56,17 @@ public:
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
   /// @brief Method ValidateTextureHandle, addr 0x6b64050, size 0x1ec, virtual false, abstract: false, final false
-  inline void ValidateTextureHandle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> h);
+  inline void ValidateTextureHandle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> h);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
   /// @brief Method ValidateTextureHandleRead, addr 0x6b6423c, size 0x19c, virtual false, abstract: false, final false
-  inline void ValidateTextureHandleRead(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> h);
+  inline void ValidateTextureHandleRead(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> h);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
   /// @brief Method ValidateTextureHandleWrite, addr 0x6b643d8, size 0x200, virtual false, abstract: false, final false
-  inline void ValidateTextureHandleWrite(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> h);
+  inline void ValidateTextureHandleWrite(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> h);
 
   constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* const& __cordl_internal_get_m_ExecutingPass() const;
 

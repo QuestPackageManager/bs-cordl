@@ -1904,7 +1904,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.OccluderVersionString
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OccluderVersionString)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x6c3adec;
@@ -1912,14 +1912,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::b
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                                                             { "OccluderVersionString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));
+                                                             { "OccluderVersionString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.OcclusionTestString
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OcclusionTestString)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x6c3ae6c;
@@ -1927,14 +1927,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::b
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                                                             { "OcclusionTestString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));
+                                                             { "OcclusionTestString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.VisibleInstancesString
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::VisibleInstancesString)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6c3aef4;
@@ -1942,14 +1942,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::b
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                                                             { "VisibleInstancesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));
+                                                             { "VisibleInstancesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.CulledInstancesString
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::CulledInstancesString)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6c3af68;
@@ -1957,14 +1957,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::b
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                                                             { "CulledInstancesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));
+                                                             { "CulledInstancesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.VisiblePrimitivesString
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::VisiblePrimitivesString)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6c3afdc;
@@ -1972,14 +1972,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::b
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                                                             { "VisiblePrimitivesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));
+                                                             { "VisiblePrimitivesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.CulledPrimitivesString
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::CulledPrimitivesString)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6c3b050;
@@ -1987,7 +1987,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::b
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                                                             { "CulledPrimitivesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));
+                                                             { "CulledPrimitivesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>>() } })));
     return ___internal_method;
   }
 };
@@ -2234,40 +2234,41 @@ inline ::UnityEngine::Rendering::Table_DebugUI_Row* UnityEngine::Rendering::Debu
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(), { "AddInstanceCullerViewDataRow", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Table_DebugUI_Row*>(nullptr, ___internal_method, viewIndex);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OccluderVersionString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OccluderVersionString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                                                           { "OccluderVersionString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));
+                                                           { "OccluderVersionString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, stats);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OcclusionTestString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OcclusionTestString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                                                           { "OcclusionTestString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));
+                                                           { "OcclusionTestString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, stats);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::VisibleInstancesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::VisibleInstancesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                                                           { "VisibleInstancesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));
+                                                           { "VisibleInstancesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, stats);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::CulledInstancesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::CulledInstancesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                                                           { "CulledInstancesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));
+                                                           { "CulledInstancesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, stats);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::VisiblePrimitivesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
+inline ::System::Object*
+UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::VisiblePrimitivesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                                                           { "VisiblePrimitivesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));
+                                                           { "VisiblePrimitivesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, stats);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::CulledPrimitivesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::CulledPrimitivesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                                                           { "CulledPrimitivesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));
+                                                           { "CulledPrimitivesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, stats);
 }
 inline ::UnityEngine::Rendering::Table_DebugUI_Row* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddInstanceOcclusionPassDataRow(int32_t eventIndex) {

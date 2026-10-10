@@ -231,11 +231,12 @@ public:
   static inline int32_t GetMaxCacheSizeForWeightInByte(int32_t weight, bool hasMipmap, ::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
   /// @brief Method GetPayloadScaleOffset, addr 0x6bc5164, size 0xd0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector4 GetPayloadScaleOffset(::UnityEngine::Texture* texture, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> scaleOffset);
+  inline ::UnityEngine::Vector4 GetPayloadScaleOffset(::UnityEngine::Texture* texture, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> scaleOffset);
 
   /// @brief Method GetPayloadScaleOffset, addr 0x6bc52c0, size 0x38, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector4 GetPayloadScaleOffset(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> textureSize, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> paddingSize,
-                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> scaleOffset);
+  static inline ::UnityEngine::Vector4 GetPayloadScaleOffset(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> textureSize,
+                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> paddingSize,
+                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> scaleOffset);
 
   /// @brief Method GetPowerOfTwoTextureSize, addr 0x6bc5234, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetPowerOfTwoTextureSize(::UnityEngine::Texture* texture);

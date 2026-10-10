@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
 //  Writing Method size for method: ::GlobalNamespace::LevelCompletionResultsHelper.ProcessScore
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::PlayerData*, ::GlobalNamespace::PlayerLevelStatsData*,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::GlobalNamespace::BeatmapKey const>, ::GlobalNamespace::PlayerData*, ::GlobalNamespace::PlayerLevelStatsData*,
                                                                 ::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::PlatformLeaderboardsModel*)>(
     &::GlobalNamespace::LevelCompletionResultsHelper::ProcessScore)> {
   constexpr static std::size_t size = 0x148;
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Globa
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelCompletionResultsHelper*>(),
                                                              { "ProcessScore",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::GlobalNamespace::PlayerData*>(),
+                                                               { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(), ::i2c::type_of<::GlobalNamespace::PlayerData*>(),
                                                                  ::i2c::type_of<::GlobalNamespace::PlayerLevelStatsData*>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>(),
                                                                  ::i2c::type_of<::GlobalNamespace::IReadonlyBeatmapData*>(), ::i2c::type_of<::GlobalNamespace::PlatformLeaderboardsModel*>() } })));
     return ___internal_method;
@@ -78,7 +78,7 @@ GlobalNamespace::LevelCompletionResultsHelper::Create(::GlobalNamespace::IReadon
       nullptr, ___internal_method, beatmapData, beatmapObjectExecutionRatings, gameplayModifiers, gameplayModifiersModel, multipliedScore, modifiedScore, maxCombo, saberActivityValues,
       leftSaberMovementDistance, rightSaberMovementDistance, handActivityValues, leftHandMovementDistance, rightHandMovementDistance, levelEndStateType, levelEndAction, energy, songTime, invalidated);
 }
-inline void GlobalNamespace::LevelCompletionResultsHelper::ProcessScore(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData,
+inline void GlobalNamespace::LevelCompletionResultsHelper::ProcessScore(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::PlayerData* playerData,
                                                                         ::GlobalNamespace::PlayerLevelStatsData* playerLevelStats, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
                                                                         ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
                                                                         ::GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel) {
@@ -86,7 +86,7 @@ inline void GlobalNamespace::LevelCompletionResultsHelper::ProcessScore(/* [IsRe
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelCompletionResultsHelper*>(),
                                                            { "ProcessScore",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::GlobalNamespace::PlayerData*>(),
+                                                             { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(), ::i2c::type_of<::GlobalNamespace::PlayerData*>(),
                                                                ::i2c::type_of<::GlobalNamespace::PlayerLevelStatsData*>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>(),
                                                                ::i2c::type_of<::GlobalNamespace::IReadonlyBeatmapData*>(), ::i2c::type_of<::GlobalNamespace::PlatformLeaderboardsModel*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, beatmapKey, playerData, playerLevelStats, levelCompletionResults, transformedBeatmapData, platformLeaderboardsModel);

@@ -460,61 +460,62 @@ inline void Unity::Collections::NativeSortExtension::IntroSortStruct(void* array
 template <typename T, typename U>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-inline void Unity::Collections::NativeSortExtension::IntroSortStruct_R(void* array, /* [IsReadOnly] */ ::by_ref<int32_t> lo, /* [IsReadOnly] */ ::by_ref<int32_t> _hi, int32_t depth, U comp) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeSortExtension*>(),
-                                       { "IntroSortStruct_R",
-                                         { ::i2c::class_of<T>(), ::i2c::class_of<U>() },
-                                         { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<U>() } })));
+inline void Unity::Collections::NativeSortExtension::IntroSortStruct_R(void* array, /* [IsReadOnly] */ ::by_ref<int32_t const> lo, /* [IsReadOnly] */ ::by_ref<int32_t const> _hi, int32_t depth,
+                                                                       U comp) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeSortExtension*>(),
+                          { "IntroSortStruct_R",
+                            { ::i2c::class_of<T>(), ::i2c::class_of<U>() },
+                            { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<int32_t const>>(), ::i2c::type_of<::by_ref<int32_t const>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<U>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array, lo, _hi, depth, comp);
 }
 template <typename T, typename U>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-inline void Unity::Collections::NativeSortExtension::InsertionSortStruct(void* array, /* [IsReadOnly] */ ::by_ref<int32_t> lo, /* [IsReadOnly] */ ::by_ref<int32_t> hi, U comp) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeSortExtension*>(),
-                                                           { "InsertionSortStruct",
-                                                             { ::i2c::class_of<T>(), ::i2c::class_of<U>() },
-                                                             { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<U>() } })));
+inline void Unity::Collections::NativeSortExtension::InsertionSortStruct(void* array, /* [IsReadOnly] */ ::by_ref<int32_t const> lo, /* [IsReadOnly] */ ::by_ref<int32_t const> hi, U comp) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeSortExtension*>(),
+                                              { "InsertionSortStruct",
+                                                { ::i2c::class_of<T>(), ::i2c::class_of<U>() },
+                                                { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<int32_t const>>(), ::i2c::type_of<::by_ref<int32_t const>>(), ::i2c::type_of<U>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array, lo, hi, comp);
 }
 template <typename T, typename U>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-inline int32_t Unity::Collections::NativeSortExtension::PartitionStruct(void* array, /* [IsReadOnly] */ ::by_ref<int32_t> lo, /* [IsReadOnly] */ ::by_ref<int32_t> hi, U comp) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeSortExtension*>(),
-                                                           { "PartitionStruct",
-                                                             { ::i2c::class_of<T>(), ::i2c::class_of<U>() },
-                                                             { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<U>() } })));
+inline int32_t Unity::Collections::NativeSortExtension::PartitionStruct(void* array, /* [IsReadOnly] */ ::by_ref<int32_t const> lo, /* [IsReadOnly] */ ::by_ref<int32_t const> hi, U comp) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeSortExtension*>(),
+                                              { "PartitionStruct",
+                                                { ::i2c::class_of<T>(), ::i2c::class_of<U>() },
+                                                { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<int32_t const>>(), ::i2c::type_of<::by_ref<int32_t const>>(), ::i2c::type_of<U>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, array, lo, hi, comp);
 }
 template <typename T, typename U>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-inline void Unity::Collections::NativeSortExtension::HeapSortStruct(void* array, /* [IsReadOnly] */ ::by_ref<int32_t> lo, /* [IsReadOnly] */ ::by_ref<int32_t> hi, U comp) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeSortExtension*>(),
-                                                           { "HeapSortStruct",
-                                                             { ::i2c::class_of<T>(), ::i2c::class_of<U>() },
-                                                             { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<U>() } })));
+inline void Unity::Collections::NativeSortExtension::HeapSortStruct(void* array, /* [IsReadOnly] */ ::by_ref<int32_t const> lo, /* [IsReadOnly] */ ::by_ref<int32_t const> hi, U comp) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeSortExtension*>(),
+                                              { "HeapSortStruct",
+                                                { ::i2c::class_of<T>(), ::i2c::class_of<U>() },
+                                                { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<int32_t const>>(), ::i2c::type_of<::by_ref<int32_t const>>(), ::i2c::type_of<U>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array, lo, hi, comp);
 }
 template <typename T, typename U>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-inline void Unity::Collections::NativeSortExtension::HeapifyStruct(void* array, int32_t i, int32_t n, /* [IsReadOnly] */ ::by_ref<int32_t> lo, U comp) {
+inline void Unity::Collections::NativeSortExtension::HeapifyStruct(void* array, int32_t i, int32_t n, /* [IsReadOnly] */ ::by_ref<int32_t const> lo, U comp) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeSortExtension*>(),
                                               { "HeapifyStruct",
                                                 { ::i2c::class_of<T>(), ::i2c::class_of<U>() },
-                                                { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<U>() } })));
+                                                { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t const>>(), ::i2c::type_of<U>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array, i, n, lo, comp);
 }

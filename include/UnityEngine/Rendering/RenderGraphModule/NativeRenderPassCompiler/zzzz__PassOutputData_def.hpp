@@ -26,7 +26,7 @@ struct CORDL_TYPE PassOutputData {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x6c26f18, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> resource);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> resource);
 
   // Ctor Parameters []
   // @brief default ctor

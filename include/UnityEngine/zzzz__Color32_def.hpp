@@ -72,7 +72,7 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6f24288, size 0x14, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Color32> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Color32 const> other);
 
   /// [IsReadOnly]
   /// @brief Method GetHashCode, addr 0x6f241f4, size 0x8, virtual true, abstract: false, final false

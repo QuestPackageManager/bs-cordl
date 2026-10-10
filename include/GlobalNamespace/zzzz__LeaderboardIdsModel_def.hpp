@@ -38,7 +38,7 @@ public:
   static inline ::GlobalNamespace::LeaderboardIdsModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* idsMaps);
 
   /// @brief Method TryGetPlatformLeaderboardId, addr 0x39e0794, size 0x7c, virtual false, abstract: false, final false
-  inline bool TryGetPlatformLeaderboardId(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::by_ref<::StringW> platformLeaderboardId);
+  inline bool TryGetPlatformLeaderboardId(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::by_ref<::StringW> platformLeaderboardId);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* const& __cordl_internal_get__leaderboardIds() const;
 

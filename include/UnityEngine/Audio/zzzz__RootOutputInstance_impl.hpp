@@ -14,7 +14,7 @@
 #include "UnityEngine/Audio/zzzz__RootOutputInstance_def.hpp"
 template <typename TRealtime>
 inline ::Unity::Jobs::JobHandle UnityEngine::Audio::RootOutputInstance_IControl_1<TRealtime>::Configure(::UnityEngine::Audio::ControlContext context, ::by_ref<TRealtime> realtime,
-                                                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat> format) {
+                                                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> format) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Audio::RootOutputInstance_IControl_1<TRealtime>*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(this, ___internal_method, context, realtime, format);
@@ -33,7 +33,7 @@ UnityEngine::Audio::RootOutputInstance_IControl_1<TRealtime>::i___UnityEngine__A
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::UnityEngine::Audio::RootOutputInstance_IRealtime::*)(
-    ::by_ref<::UnityEngine::Audio::RealtimeContext>, ::UnityEngine::Audio::ProcessorInstance_Pipe)>(&::UnityEngine::Audio::RootOutputInstance_IRealtime::EarlyProcessing)> {
+    ::by_ref<::UnityEngine::Audio::RealtimeContext const>, ::UnityEngine::Audio::ProcessorInstance_Pipe)>(&::UnityEngine::Audio::RootOutputInstance_IRealtime::EarlyProcessing)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle 
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::RootOutputInstance_IRealtime::*)(
-    ::by_ref<::UnityEngine::Audio::RealtimeContext>, ::UnityEngine::Audio::ProcessorInstance_Pipe, ::Unity::Jobs::JobHandle)>(&::UnityEngine::Audio::RootOutputInstance_IRealtime::Process)> {
+    ::by_ref<::UnityEngine::Audio::RealtimeContext const>, ::UnityEngine::Audio::ProcessorInstance_Pipe, ::Unity::Jobs::JobHandle)>(&::UnityEngine::Audio::RootOutputInstance_IRealtime::Process)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audi
 //  Writing Method size for method: ::UnityEngine::Audio::RootOutputInstance_IRealtime.EndProcessing
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::RootOutputInstance_IRealtime::*)(::by_ref<::UnityEngine::Audio::RealtimeContext>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::RootOutputInstance_IRealtime::*)(::by_ref<::UnityEngine::Audio::RealtimeContext const>,
                                                                                                                     ::UnityEngine::Audio::ProcessorInstance_Pipe, ::UnityEngine::Audio::ChannelBuffer)>(
     &::UnityEngine::Audio::RootOutputInstance_IRealtime::EndProcessing)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
@@ -85,19 +85,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audi
     return ___internal_method;
   }
 };
-inline ::Unity::Jobs::JobHandle UnityEngine::Audio::RootOutputInstance_IRealtime::EarlyProcessing(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext> context,
+inline ::Unity::Jobs::JobHandle UnityEngine::Audio::RootOutputInstance_IRealtime::EarlyProcessing(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext const> context,
                                                                                                   ::UnityEngine::Audio::ProcessorInstance_Pipe pipe) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Audio::RootOutputInstance_IRealtime*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(this, ___internal_method, context, pipe);
 }
-inline void UnityEngine::Audio::RootOutputInstance_IRealtime::Process(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext> context, ::UnityEngine::Audio::ProcessorInstance_Pipe pipe,
-                                                                      ::Unity::Jobs::JobHandle input) {
+inline void UnityEngine::Audio::RootOutputInstance_IRealtime::Process(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext const> context,
+                                                                      ::UnityEngine::Audio::ProcessorInstance_Pipe pipe, ::Unity::Jobs::JobHandle input) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Audio::RootOutputInstance_IRealtime*>(), 1 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, pipe, input);
 }
-inline void UnityEngine::Audio::RootOutputInstance_IRealtime::EndProcessing(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext> context,
+inline void UnityEngine::Audio::RootOutputInstance_IRealtime::EndProcessing(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext const> context,
                                                                             ::UnityEngine::Audio::ProcessorInstance_Pipe pipe, ::UnityEngine::Audio::ChannelBuffer output) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Audio::RootOutputInstance_IRealtime*>(), 2 })));
@@ -119,14 +119,14 @@ constexpr ::UnityEngine::Audio::ProcessorInstance_IRealtime* UnityEngine::Audio:
 //  Writing Method size for method: ::UnityEngine::Audio::RootOutputInstance.op_Implicit___UnityEngine__Audio__ProcessorInstance
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Audio::ProcessorInstance (*)(::by_ref<::UnityEngine::Audio::RootOutputInstance>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Audio::ProcessorInstance (*)(::by_ref<::UnityEngine::Audio::RootOutputInstance const>)>(
     &::UnityEngine::Audio::RootOutputInstance::op_Implicit___UnityEngine__Audio__ProcessorInstance)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6eabb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::RootOutputInstance>(),
-                                                                                           { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::RootOutputInstance>>() } })));
+                                                                                           { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::RootOutputInstance const>>() } })));
     return ___internal_method;
   }
 };
@@ -214,10 +214,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audi
   }
 };
 inline ::UnityEngine::Audio::ProcessorInstance
-UnityEngine::Audio::RootOutputInstance::op_Implicit___UnityEngine__Audio__ProcessorInstance(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RootOutputInstance> root) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::RootOutputInstance>(), { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::RootOutputInstance>>() } })));
+UnityEngine::Audio::RootOutputInstance::op_Implicit___UnityEngine__Audio__ProcessorInstance(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RootOutputInstance const> root) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::RootOutputInstance>(),
+                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::RootOutputInstance const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Audio::ProcessorInstance>(nullptr, ___internal_method, root);
 }
 inline bool UnityEngine::Audio::RootOutputInstance::Equals(::UnityEngine::Audio::RootOutputInstance other) {

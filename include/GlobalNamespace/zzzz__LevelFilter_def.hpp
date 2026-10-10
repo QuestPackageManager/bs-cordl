@@ -313,7 +313,7 @@ public:
                     ::GlobalNamespace::IEntitlementModel* levelsModel, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method IsWithoutFilter, addr 0x39b48b0, size 0x9c, virtual false, abstract: false, final false
-  static inline bool IsWithoutFilter(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter, bool ignoreFilterBySongs);
+  static inline bool IsWithoutFilter(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter const> filter, bool ignoreFilterBySongs);
 
   /// [CompilerGenerated]
   /// @brief Method <FilterLevelByText>g__CalculateMatchScore|15_1, addr 0x39b51ec, size 0x114, virtual false, abstract: false, final false

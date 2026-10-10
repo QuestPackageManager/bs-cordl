@@ -6,14 +6,14 @@
 //  Writing Method size for method: ::UnityEngine::UIElements::BindablePropertyChangedEventArgs._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BindablePropertyChangedEventArgs::*)(::by_ref<::UnityEngine::UIElements::BindingId>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BindablePropertyChangedEventArgs::*)(::by_ref<::UnityEngine::UIElements::BindingId const>)>(
     &::UnityEngine::UIElements::BindablePropertyChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x708e770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>(),
-                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>() } })));
     return ___internal_method;
   }
 };
@@ -31,9 +31,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::BindablePropertyChangedEventArgs::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> propertyName) {
+inline void UnityEngine::UIElements::BindablePropertyChangedEventArgs::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> propertyName) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>(),
-                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, propertyName);
 }
 inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BindablePropertyChangedEventArgs::get_propertyName() {

@@ -43,10 +43,10 @@ public:
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry2D(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
   /// @brief Method RaycastTry2D_Injected, addr 0x6fc13e0, size 0x64, virtual false, abstract: false, final false
-  static inline ::System::IntPtr RaycastTry2D_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
+  static inline ::System::IntPtr RaycastTry2D_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::Ray const> ray, float_t distance, int32_t layerMask);
 
   /// @brief Method RaycastTry_Injected, addr 0x6fc120c, size 0x64, virtual false, abstract: false, final false
-  static inline ::System::IntPtr RaycastTry_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
+  static inline ::System::IntPtr RaycastTry_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::Ray const> ray, float_t distance, int32_t layerMask);
 
 protected:
   // Ctor Parameters []

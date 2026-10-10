@@ -104,7 +104,7 @@ public:
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   /// @brief Method Init, addr 0x3a09708, size 0xd4, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteData* noteData,
+  inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo, ::GlobalNamespace::NoteData* noteData,
                                                              ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale,
                                                              ::UnityEngine::Vector3 moveVec);
 

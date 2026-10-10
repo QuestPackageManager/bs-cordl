@@ -259,7 +259,7 @@ public:
   constexpr operator ::Unity::Collections::INativeDisposable*();
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Add(/* [IsReadOnly] */ ::by_ref<::System::IntPtr> value);
+  inline void Add(/* [IsReadOnly] */ ::by_ref<::System::IntPtr const> value);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(void* value);

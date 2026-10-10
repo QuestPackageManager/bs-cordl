@@ -36,7 +36,7 @@ public:
   static inline ::UnityEngine::PhysicsScene GetPhysicsScene_Internal(::UnityEngine::SceneManagement::Scene scene);
 
   /// @brief Method GetPhysicsScene_Internal_Injected, addr 0x70018c0, size 0x44, virtual false, abstract: false, final false
-  static inline void GetPhysicsScene_Internal_Injected(::by_ref<::UnityEngine::SceneManagement::Scene> scene, ::by_ref<::UnityEngine::PhysicsScene> ret);
+  static inline void GetPhysicsScene_Internal_Injected(::by_ref<::UnityEngine::SceneManagement::Scene const> scene, ::by_ref<::UnityEngine::PhysicsScene> ret);
 
 protected:
   // Ctor Parameters []

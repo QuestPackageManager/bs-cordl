@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::Prime::ConfidenceFactor (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(
     &::Mono::Math::Prime::Generator::PrimeGeneratorBase::get_Confidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ec3700;
+  constexpr static std::size_t addrs = 0x5edeca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::Prime::PrimalityTest* (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(
     &::Mono::Math::Prime::Generator::PrimeGeneratorBase::get_PrimalityTest)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5ec3708;
+  constexpr static std::size_t addrs = 0x5edeca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(
     &::Mono::Math::Prime::Generator::PrimeGeneratorBase::get_TrialDivisionBounds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ec377c;
+  constexpr static std::size_t addrs = 0x5eded1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&::Mono::Math::Prime::Generator::PrimeGeneratorBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ec3784;
+  constexpr static std::size_t addrs = 0x5eded24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>(), { ".ctor", {}, {} })));

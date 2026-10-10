@@ -194,16 +194,17 @@ public:
                       put = __cordl_internal_set_sparkleEffectDidStartEvent)) ::System::Action_1<::GlobalNamespace::SaberType>* sparkleEffectDidStartEvent;
 
   /// @brief Method FindBoxSurfaceRotation, addr 0x5d9eba4, size 0x1ac, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion FindBoxSurfaceRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 position);
+  static inline ::UnityEngine::Quaternion FindBoxSurfaceRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> bounds, ::UnityEngine::Vector3 position);
 
   /// @brief Method IntersectBounds, addr 0x5d9e710, size 0x198, virtual false, abstract: false, final false
   static inline bool IntersectBounds(::UnityEngine::Bounds bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end);
 
   /// @brief Method IntersectBoxSurfacePose, addr 0x5d9e6cc, size 0x44, virtual false, abstract: false, final false
-  static inline bool IntersectBoxSurfacePose(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::by_ref<::UnityEngine::Pose> hit);
+  static inline bool IntersectBoxSurfacePose(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end,
+                                             ::by_ref<::UnityEngine::Pose> hit);
 
   /// @brief Method IntersectBoxSurfacePosition, addr 0x5d9e8a8, size 0x2fc, virtual false, abstract: false, final false
-  static inline bool IntersectBoxSurfacePosition(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end,
+  static inline bool IntersectBoxSurfacePosition(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end,
                                                  ::by_ref<::UnityEngine::Vector3> hit);
 
   /// @brief Method IntersectSaberWithObstacles, addr 0x5d9e3a8, size 0x324, virtual false, abstract: false, final false

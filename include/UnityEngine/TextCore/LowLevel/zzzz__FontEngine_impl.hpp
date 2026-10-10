@@ -401,23 +401,23 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::FontEngine.TryAddGlyphToTexture_Internal
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<bool (*)(uint32_t, int32_t, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>>, ::by_ref<int32_t>,
-                         ::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>>, ::by_ref<int32_t>, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::UnityEngine::Texture2D*,
-                         ::by_ref<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>)>(&::UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphToTexture_Internal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, int32_t, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::ArrayW<::UnityEngine::TextCore::GlyphRect>, ::by_ref<int32_t>,
+                                                                ::ArrayW<::UnityEngine::TextCore::GlyphRect>, ::by_ref<int32_t>, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode,
+                                                                ::UnityEngine::Texture2D*, ::by_ref<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>)>(
+    &::UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphToTexture_Internal)> {
   constexpr static std::size_t size = 0x244;
   constexpr static std::size_t addrs = 0x701d3a4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::FontEngine*>(),
-                                                             { "TryAddGlyphToTexture_Internal",
-                                                               {},
-                                                               { ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphPackingMode>(),
-                                                                 ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
-                                                                 ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
-                                                                 ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::i2c::type_of<::UnityEngine::Texture2D*>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::FontEngine*>(),
+                            { "TryAddGlyphToTexture_Internal",
+                              {},
+                              { ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphPackingMode>(),
+                                ::i2c::type_of<::ArrayW<::UnityEngine::TextCore::GlyphRect>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::ArrayW<::UnityEngine::TextCore::GlyphRect>>(),
+                                ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::i2c::type_of<::UnityEngine::Texture2D*>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>>() } })));
     return ___internal_method;
   }
 };
@@ -447,23 +447,23 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::FontEngine.TryAddGlyphsToTexture_Internal
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(
-    ::ArrayW<uint32_t>, int32_t, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>>, ::by_ref<int32_t>,
-    ::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>>, ::by_ref<int32_t>, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::UnityEngine::Texture2D*,
-    ::by_ref<::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>>, ::by_ref<int32_t>)>(&::UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphsToTexture_Internal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<uint32_t>, int32_t, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::ArrayW<::UnityEngine::TextCore::GlyphRect>,
+                                                                ::by_ref<int32_t>, ::ArrayW<::UnityEngine::TextCore::GlyphRect>, ::by_ref<int32_t>, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode,
+                                                                ::UnityEngine::Texture2D*, ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>, ::by_ref<int32_t>)>(
+    &::UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphsToTexture_Internal)> {
   constexpr static std::size_t size = 0x338;
   constexpr static std::size_t addrs = 0x701def0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::FontEngine*>(),
-                                                { "TryAddGlyphsToTexture_Internal",
-                                                  {},
-                                                  { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphPackingMode>(),
-                                                    ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
-                                                    ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
-                                                    ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::i2c::type_of<::UnityEngine::Texture2D*>(),
-                                                    ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::FontEngine*>(),
+                            { "TryAddGlyphsToTexture_Internal",
+                              {},
+                              { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphPackingMode>(),
+                                ::i2c::type_of<::ArrayW<::UnityEngine::TextCore::GlyphRect>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::ArrayW<::UnityEngine::TextCore::GlyphRect>>(),
+                                ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::i2c::type_of<::UnityEngine::Texture2D*>(),
+                                ::i2c::type_of<::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
     return ___internal_method;
   }
 };
@@ -543,16 +543,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::FontEngine.GetLigatureSubstitutionRecordsFromMarshallingArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::ArrayW<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::GetLigatureSubstitutionRecordsFromMarshallingArray)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x701e6b8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::FontEngine*>(),
-                            { "GetLigatureSubstitutionRecordsFromMarshallingArray", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::FontEngine*>(),
+                                         { "GetLigatureSubstitutionRecordsFromMarshallingArray", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>>() } })));
     return ___internal_method;
   }
 };
@@ -1401,19 +1401,19 @@ inline bool UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphToTexture(ui
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, glyphIndex, padding, packingMode, freeGlyphRects, usedGlyphRects, renderMode, texture, glyph);
 }
 inline bool UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphToTexture_Internal(uint32_t glyphIndex, int32_t padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode,
-                                                                                       ::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>> freeGlyphRects, ::by_ref<int32_t> freeGlyphRectCount,
-                                                                                       ::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>> usedGlyphRects, ::by_ref<int32_t> usedGlyphRectCount,
+                                                                                       ::ArrayW<::UnityEngine::TextCore::GlyphRect> freeGlyphRects, ::by_ref<int32_t> freeGlyphRectCount,
+                                                                                       ::ArrayW<::UnityEngine::TextCore::GlyphRect> usedGlyphRects, ::by_ref<int32_t> usedGlyphRectCount,
                                                                                        ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, ::UnityEngine::Texture2D* texture,
                                                                                        ::by_ref<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyph) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::FontEngine*>(),
-                                                           { "TryAddGlyphToTexture_Internal",
-                                                             {},
-                                                             { ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphPackingMode>(),
-                                                               ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
-                                                               ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
-                                                               ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::i2c::type_of<::UnityEngine::Texture2D*>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::FontEngine*>(),
+                          { "TryAddGlyphToTexture_Internal",
+                            {},
+                            { ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphPackingMode>(),
+                              ::i2c::type_of<::ArrayW<::UnityEngine::TextCore::GlyphRect>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::ArrayW<::UnityEngine::TextCore::GlyphRect>>(),
+                              ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::i2c::type_of<::UnityEngine::Texture2D*>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, glyphIndex, padding, packingMode, freeGlyphRects, freeGlyphRectCount, usedGlyphRects, usedGlyphRectCount, renderMode,
                                                    texture, glyph);
 }
@@ -1435,20 +1435,19 @@ inline bool UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphsToTexture(:
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, glyphIndexes, padding, packingMode, freeGlyphRects, usedGlyphRects, renderMode, texture, glyphs);
 }
 inline bool UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphsToTexture_Internal(::ArrayW<uint32_t> glyphIndex, int32_t padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode,
-                                                                                        ::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>> freeGlyphRects, ::by_ref<int32_t> freeGlyphRectCount,
-                                                                                        ::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>> usedGlyphRects, ::by_ref<int32_t> usedGlyphRectCount,
+                                                                                        ::ArrayW<::UnityEngine::TextCore::GlyphRect> freeGlyphRects, ::by_ref<int32_t> freeGlyphRectCount,
+                                                                                        ::ArrayW<::UnityEngine::TextCore::GlyphRect> usedGlyphRects, ::by_ref<int32_t> usedGlyphRectCount,
                                                                                         ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, ::UnityEngine::Texture2D* texture,
-                                                                                        ::by_ref<::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>> glyphs,
-                                                                                        ::by_ref<int32_t> glyphCount) {
+                                                                                        ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyphs, ::by_ref<int32_t> glyphCount) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::FontEngine*>(),
-                                              { "TryAddGlyphsToTexture_Internal",
-                                                {},
-                                                { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphPackingMode>(),
-                                                  ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
-                                                  ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
-                                                  ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::i2c::type_of<::UnityEngine::Texture2D*>(),
-                                                  ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::FontEngine*>(),
+                          { "TryAddGlyphsToTexture_Internal",
+                            {},
+                            { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphPackingMode>(),
+                              ::i2c::type_of<::ArrayW<::UnityEngine::TextCore::GlyphRect>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::ArrayW<::UnityEngine::TextCore::GlyphRect>>(),
+                              ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::i2c::type_of<::UnityEngine::Texture2D*>(),
+                              ::i2c::type_of<::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, glyphIndex, padding, packingMode, freeGlyphRects, freeGlyphRectCount, usedGlyphRects, usedGlyphRectCount, renderMode,
                                                    texture, glyphs, glyphCount);
 }
@@ -1480,12 +1479,12 @@ inline int32_t UnityEngine::TextCore::LowLevel::FontEngine::PopulateLigatureSubs
                                               { "PopulateLigatureSubstitutionRecordMarshallingArray", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, glyphIndexes, recordCount);
 }
-inline int32_t UnityEngine::TextCore::LowLevel::FontEngine::GetLigatureSubstitutionRecordsFromMarshallingArray(
-    ::by_ref<::ArrayW<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>> ligatureSubstitutionRecords) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::FontEngine*>(),
-                          { "GetLigatureSubstitutionRecordsFromMarshallingArray", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>>>() } })));
+inline int32_t
+UnityEngine::TextCore::LowLevel::FontEngine::GetLigatureSubstitutionRecordsFromMarshallingArray(::ArrayW<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord> ligatureSubstitutionRecords) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::FontEngine*>(),
+                                       { "GetLigatureSubstitutionRecordsFromMarshallingArray", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, ligatureSubstitutionRecords);
 }
 inline ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> UnityEngine::TextCore::LowLevel::FontEngine::GetGlyphPairAdjustmentTable(::ArrayW<uint32_t> glyphIndexes) {

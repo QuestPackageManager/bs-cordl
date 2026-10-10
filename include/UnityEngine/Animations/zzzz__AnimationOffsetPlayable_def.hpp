@@ -70,8 +70,8 @@ public:
                                           ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
 
   /// @brief Method CreateHandleInternal_Injected, addr 0x6e97ca4, size 0x5c, virtual false, abstract: false, final false
-  static inline bool CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> graph, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Quaternion> rotation,
-                                                   ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
+  static inline bool CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph const> graph, ::by_ref<::UnityEngine::Vector3 const> position,
+                                                   ::by_ref<::UnityEngine::Quaternion const> rotation, ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
 
   /// @brief Method Equals, addr 0x6e97bec, size 0xb8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationOffsetPlayable other);

@@ -215,63 +215,64 @@ public:
   inline bool WriteLong(int64_t value);
 
   /// @brief Method WritePackedDouble, addr 0x68d6eb4, size 0x8, virtual false, abstract: false, final false
-  inline bool WritePackedDouble(double_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedDouble(double_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedDoubleDelta, addr 0x68d6ebc, size 0xcc, virtual false, abstract: false, final false
-  inline bool WritePackedDoubleDelta(double_t value, double_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedDoubleDelta(double_t value, double_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedFixedString128Delta, addr 0x68d719c, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedFixedString128Delta(::Unity::Collections::FixedString128Bytes str, ::Unity::Collections::FixedString128Bytes baseline,
-                                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedFixedString32Delta, addr 0x68d7014, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedFixedString32Delta(::Unity::Collections::FixedString32Bytes str, ::Unity::Collections::FixedString32Bytes baseline,
-                                            /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                            /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedFixedString4096Delta, addr 0x68d71c4, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedFixedString4096Delta(::Unity::Collections::FixedString4096Bytes str, ::Unity::Collections::FixedString4096Bytes baseline,
-                                              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedFixedString512Delta, addr 0x68d71b0, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedFixedString512Delta(::Unity::Collections::FixedString512Bytes str, ::Unity::Collections::FixedString512Bytes baseline,
-                                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedFixedString64Delta, addr 0x68d7188, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedFixedString64Delta(::Unity::Collections::FixedString64Bytes str, ::Unity::Collections::FixedString64Bytes baseline,
-                                            /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                            /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedFixedStringDelta, addr 0x68d7028, size 0x160, virtual false, abstract: false, final false
-  inline bool WritePackedFixedStringDelta(uint8_t* data, uint32_t length, uint8_t* baseData, uint32_t baseLength, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedFixedStringDelta(uint8_t* data, uint32_t length, uint8_t* baseData, uint32_t baseLength,
+                                          /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedFloat, addr 0x68d6e24, size 0x8, virtual false, abstract: false, final false
-  inline bool WritePackedFloat(float_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedFloat(float_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedFloatDelta, addr 0x68d6e2c, size 0x88, virtual false, abstract: false, final false
-  inline bool WritePackedFloatDelta(float_t value, float_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedFloatDelta(float_t value, float_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedInt, addr 0x68d6e0c, size 0xc, virtual false, abstract: false, final false
-  inline bool WritePackedInt(int32_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedInt(int32_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedIntDelta, addr 0x68d6f9c, size 0x14, virtual false, abstract: false, final false
-  inline bool WritePackedIntDelta(int32_t value, int32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedIntDelta(int32_t value, int32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedLong, addr 0x68d6e18, size 0xc, virtual false, abstract: false, final false
-  inline bool WritePackedLong(int64_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedLong(int64_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedLongDelta, addr 0x68d6fb0, size 0x14, virtual false, abstract: false, final false
-  inline bool WritePackedLongDelta(int64_t value, int64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedLongDelta(int64_t value, int64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedUInt, addr 0x68d6cd0, size 0xf4, virtual false, abstract: false, final false
-  inline bool WritePackedUInt(uint32_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedUInt(uint32_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedUIntDelta, addr 0x68d6f88, size 0x14, virtual false, abstract: false, final false
-  inline bool WritePackedUIntDelta(uint32_t value, uint32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedUIntDelta(uint32_t value, uint32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedULong, addr 0x68d6dc4, size 0x48, virtual false, abstract: false, final false
-  inline bool WritePackedULong(uint64_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedULong(uint64_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WritePackedULongDelta, addr 0x68d6fc4, size 0x14, virtual false, abstract: false, final false
-  inline bool WritePackedULongDelta(uint64_t value, uint64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedULongDelta(uint64_t value, uint64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method WriteRawBits, addr 0x68d6c6c, size 0x64, virtual false, abstract: false, final false
   inline bool WriteRawBits(uint32_t value, int32_t numbits);

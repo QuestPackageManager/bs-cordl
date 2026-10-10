@@ -64,7 +64,7 @@ public:
   constexpr ::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyId>* i___System__IEquatable_1___Unity__Hierarchy__HierarchyPropertyId_();
 
   /// @brief Method op_Equality, addr 0x6f98958, size 0x14, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> rhs);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId const> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId const> rhs);
 
   static inline void setStaticF_s_Null(::Unity::Hierarchy::HierarchyPropertyId value);
 

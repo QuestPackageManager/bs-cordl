@@ -246,7 +246,7 @@ public:
   static inline void SetSubMeshImpl(::System::IntPtr self, int32_t index, ::UnityEngine::Rendering::SubMeshDescriptor desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetSubMeshImpl_Injected, addr 0x6f0d2b0, size 0x5c, virtual false, abstract: false, final false
-  static inline void SetSubMeshImpl_Injected(::System::IntPtr self, int32_t index, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor> desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
+  static inline void SetSubMeshImpl_Injected(::System::IntPtr self, int32_t index, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor const> desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetVertexBufferParams, addr 0x6f0d348, size 0x8, virtual false, abstract: false, final false
   inline void SetVertexBufferParams(int32_t vertexCount, /* [ParamArray] */ ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
@@ -600,7 +600,7 @@ public:
   static inline ::UnityW<::UnityEngine::Mesh> FromInstanceID(::UnityEngine::EntityId id);
 
   /// @brief Method FromInstanceID_Injected, addr 0x6efcbb0, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr FromInstanceID_Injected(::by_ref<::UnityEngine::EntityId> id);
+  static inline ::System::IntPtr FromInstanceID_Injected(::by_ref<::UnityEngine::EntityId const> id);
 
   /// @brief Method GetAllBoneWeights, addr 0x6f01568, size 0x64, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::BoneWeight1> GetAllBoneWeights();
@@ -666,7 +666,7 @@ public:
 
   /// [FreeFunction(Name = "MeshScripting::ExtractBindPosesIntoArray", HasExplicitThis = true)]
   /// @brief Method GetBindposesNonAllocImpl, addr 0x6f021d4, size 0x15c, virtual false, abstract: false, final false
-  inline void GetBindposesNonAllocImpl(::by_ref<::ArrayW<::UnityEngine::Matrix4x4>> values);
+  inline void GetBindposesNonAllocImpl(::ArrayW<::UnityEngine::Matrix4x4> values);
 
   /// @brief Method GetBindposesNonAllocImpl_Injected, addr 0x6f02330, size 0x44, virtual false, abstract: false, final false
   static inline void GetBindposesNonAllocImpl_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> values);
@@ -760,7 +760,7 @@ public:
 
   /// [FreeFunction(Name = "MeshScripting::ExtractBoneWeightsIntoArray", HasExplicitThis = true)]
   /// @brief Method GetBoneWeightsNonAllocImpl, addr 0x6f02034, size 0x15c, virtual false, abstract: false, final false
-  inline void GetBoneWeightsNonAllocImpl(::by_ref<::ArrayW<::UnityEngine::BoneWeight>> values);
+  inline void GetBoneWeightsNonAllocImpl(::ArrayW<::UnityEngine::BoneWeight> values);
 
   /// @brief Method GetBoneWeightsNonAllocImpl_Injected, addr 0x6f02190, size 0x44, virtual false, abstract: false, final false
   static inline void GetBoneWeightsNonAllocImpl_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> values);
@@ -852,11 +852,11 @@ public:
 
   /// [FreeFunction(Name = "MeshScripting::ExtractIndicesToArray", HasExplicitThis = true)]
   /// @brief Method GetIndicesNonAllocImpl, addr 0x6efeb78, size 0x17c, virtual false, abstract: false, final false
-  inline void GetIndicesNonAllocImpl(::by_ref<::ArrayW<int32_t>> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod);
+  inline void GetIndicesNonAllocImpl(::ArrayW<int32_t> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod);
 
   /// [FreeFunction(Name = "MeshScripting::ExtractIndicesToArray16", HasExplicitThis = true)]
   /// @brief Method GetIndicesNonAllocImpl16, addr 0x6efed60, size 0x17c, virtual false, abstract: false, final false
-  inline void GetIndicesNonAllocImpl16(::by_ref<::ArrayW<uint16_t>> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod);
+  inline void GetIndicesNonAllocImpl16(::ArrayW<uint16_t> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod);
 
   /// @brief Method GetIndicesNonAllocImpl16_Injected, addr 0x6efeedc, size 0x6c, virtual false, abstract: false, final false
   static inline void GetIndicesNonAllocImpl16_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> values, int32_t submesh, bool applyBaseVertex,
@@ -910,7 +910,7 @@ public:
 
   /// [FreeFunction(Name = "MeshScripting::GetLodsNonAlloc", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetLodsNonAlloc, addr 0x6f032cc, size 0x164, virtual false, abstract: false, final false
-  inline void GetLodsNonAlloc(::by_ref<::ArrayW<::UnityEngine::MeshLodRange>> levels, int32_t subMeshIndex);
+  inline void GetLodsNonAlloc(::ArrayW<::UnityEngine::MeshLodRange> levels, int32_t subMeshIndex);
 
   /// @brief Method GetLodsNonAlloc_Injected, addr 0x6f03430, size 0x54, virtual false, abstract: false, final false
   static inline void GetLodsNonAlloc_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> levels, int32_t subMeshIndex);
@@ -999,11 +999,11 @@ public:
 
   /// [FreeFunction(Name = "MeshScripting::ExtractTrianglesToArray", HasExplicitThis = true)]
   /// @brief Method GetTrianglesNonAllocImpl, addr 0x6efe7a8, size 0x17c, virtual false, abstract: false, final false
-  inline void GetTrianglesNonAllocImpl(::by_ref<::ArrayW<int32_t>> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod);
+  inline void GetTrianglesNonAllocImpl(::ArrayW<int32_t> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod);
 
   /// [FreeFunction(Name = "MeshScripting::ExtractTrianglesToArray16", HasExplicitThis = true)]
   /// @brief Method GetTrianglesNonAllocImpl16, addr 0x6efe990, size 0x17c, virtual false, abstract: false, final false
-  inline void GetTrianglesNonAllocImpl16(::by_ref<::ArrayW<uint16_t>> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod);
+  inline void GetTrianglesNonAllocImpl16(::ArrayW<uint16_t> values, int32_t submesh, bool applyBaseVertex, int32_t meshlod);
 
   /// @brief Method GetTrianglesNonAllocImpl16_Injected, addr 0x6efeb0c, size 0x6c, virtual false, abstract: false, final false
   static inline void GetTrianglesNonAllocImpl16_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> values, int32_t submesh, bool applyBaseVertex,
@@ -1570,7 +1570,7 @@ public:
   inline void SetLodImpl(int32_t subMeshIndex, int32_t level, ::UnityEngine::MeshLodRange levelRange, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetLodImpl_Injected, addr 0x6f030a0, size 0x6c, virtual false, abstract: false, final false
-  static inline void SetLodImpl_Injected(::System::IntPtr _unity_self, int32_t subMeshIndex, int32_t level, ::by_ref<::UnityEngine::MeshLodRange> levelRange,
+  static inline void SetLodImpl_Injected(::System::IntPtr _unity_self, int32_t subMeshIndex, int32_t level, ::by_ref<::UnityEngine::MeshLodRange const> levelRange,
                                          ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// [FreeFunction("MeshScripting::SetLodSelectionCurve", HasExplicitThis = true, ThrowsException = true)]
@@ -1578,7 +1578,7 @@ public:
   inline void SetLodSelectionCurve(::UnityEngine::Mesh_LodSelectionCurve lodSelectionCurve);
 
   /// @brief Method SetLodSelectionCurve_Injected, addr 0x6f02ce4, size 0x44, virtual false, abstract: false, final false
-  static inline void SetLodSelectionCurve_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Mesh_LodSelectionCurve> lodSelectionCurve);
+  static inline void SetLodSelectionCurve_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Mesh_LodSelectionCurve const> lodSelectionCurve);
 
   /// @brief Method SetLods, addr 0x6f0b6b4, size 0x2e8, virtual false, abstract: false, final false
   inline void SetLods(::ArrayW<::UnityEngine::MeshLodRange> levels, int32_t start, int32_t count, int32_t submesh, ::UnityEngine::Rendering::MeshUpdateFlags flags);
@@ -1674,7 +1674,8 @@ public:
   inline void SetSubMesh(int32_t index, ::UnityEngine::Rendering::SubMeshDescriptor desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetSubMesh_Injected, addr 0x6f02760, size 0x5c, virtual false, abstract: false, final false
-  static inline void SetSubMesh_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor> desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
+  static inline void SetSubMesh_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor const> desc,
+                                         ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method SetSubMeshes, addr 0x6f0b12c, size 0x28, virtual false, abstract: false, final false
   inline void SetSubMeshes(::ArrayW<::UnityEngine::Rendering::SubMeshDescriptor> desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
@@ -2146,7 +2147,7 @@ public:
   inline void set_bounds(::UnityEngine::Bounds value);
 
   /// @brief Method set_bounds_Injected, addr 0x6f038ac, size 0x44, virtual false, abstract: false, final false
-  static inline void set_bounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds> value);
+  static inline void set_bounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds const> value);
 
   /// @brief Method set_colors, addr 0x6f05318, size 0x64, virtual false, abstract: false, final false
   inline void set_colors(::ArrayW<::UnityEngine::Color> value);

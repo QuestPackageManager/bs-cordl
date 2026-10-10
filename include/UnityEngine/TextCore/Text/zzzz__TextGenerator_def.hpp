@@ -713,7 +713,7 @@ public:
   inline bool PopulateFontAsset(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement> textProcessingArray);
 
   /// @brief Method PopulateTextBackingArray, addr 0x704cbc8, size 0xd4, virtual false, abstract: false, final false
-  inline void PopulateTextBackingArray(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> sourceText);
+  inline void PopulateTextBackingArray(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText const> sourceText);
 
   /// @brief Method PopulateTextProcessingArray, addr 0x704cc9c, size 0xd24, virtual false, abstract: false, final false
   inline void PopulateTextProcessingArray(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);

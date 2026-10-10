@@ -78,8 +78,9 @@ public:
                                                                                      float_t distance, int32_t layerMask);
 
   /// @brief Method GetRayIntersectionAll_Internal_Injected, addr 0x6fd1080, size 0x7c, virtual false, abstract: false, final false
-  static inline void GetRayIntersectionAll_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene2D> physicsScene, ::by_ref<::UnityEngine::Vector3> origin, ::by_ref<::UnityEngine::Vector3> direction,
-                                                             float_t distance, int32_t layerMask, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
+  static inline void GetRayIntersectionAll_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene2D const> physicsScene, ::by_ref<::UnityEngine::Vector3 const> origin,
+                                                             ::by_ref<::UnityEngine::Vector3 const> direction, float_t distance, int32_t layerMask,
+                                                             ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
   /// [ExcludeFromDocs]
   /// [Obsolete("GetRayIntersectionNonAlloc is deprecated. Please use GetRayIntersection.", false)]

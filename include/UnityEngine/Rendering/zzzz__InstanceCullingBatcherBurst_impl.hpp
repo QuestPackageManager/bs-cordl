@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate::*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>,
+    ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>)>(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::Rendering::
-        InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1<int32_t>>,
+        InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>,
                                                                                                 ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>,
                                                                                                 ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>,
                                                                                                 ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>,
@@ -104,7 +104,8 @@ inline void UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstan
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1);
 }
 inline void UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> drawInstanceIndices, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> drawInstanceIndices,
+    ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>> batchHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>> drawBatches) {
@@ -114,7 +115,8 @@ inline void UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstan
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, drawInstanceIndices, drawInstances, rangeHash, batchHash, drawRanges, drawBatches);
 }
 inline ::System::IAsyncResult* UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate::BeginInvoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> drawInstanceIndices, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> drawInstanceIndices,
+    ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>> batchHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>> drawBatches,
@@ -174,7 +176,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1<int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>,
+    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>,
                          ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>,
                          ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>,
                          ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>)>(
@@ -187,7 +189,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$BurstDirectCall*>(),
                                                              { "Invoke",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
@@ -217,7 +219,8 @@ inline ::System::IntPtr UnityEngine::Rendering::InstanceCullingBatcherBurst_Remo
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
 }
 inline void UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$BurstDirectCall::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> drawInstanceIndices, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> drawInstanceIndices,
+    ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>> batchHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>> drawBatches) {
@@ -225,7 +228,7 @@ inline void UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstan
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$BurstDirectCall*>(),
                                                            { "Invoke",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
@@ -254,10 +257,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$PostfixBurstDelegate::*)(
-    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>, ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>,
+    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const>, ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>)>(
@@ -277,14 +280,14 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::Rendering::
-        InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$PostfixBurstDelegate::*)(bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>,
-                                                                                        ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>,
+        InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$PostfixBurstDelegate::*)(bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const>,
+                                                                                        ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>,
                                                                                         ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId,
-                                                                                                                                               ::UnityEngine::Rendering::BatchMeshID>>,
+                                                                                                                                               ::UnityEngine::Rendering::BatchMeshID> const>,
                                                                                         ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId,
-                                                                                                                                               ::UnityEngine::Rendering::BatchMaterialID>>,
-                                                                                        ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId,
-                                                                                                                                               ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>,
+                                                                                                                                               ::UnityEngine::Rendering::BatchMaterialID> const>,
+                                                                                        ::by_ref<::Unity::Collections::NativeParallelHashMap_2<
+                                                                                            ::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>,
                                                                                         ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>,
                                                                                         ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>,
                                                                                         ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>,
@@ -325,11 +328,11 @@ inline void UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatche
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1);
 }
 inline void UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$PostfixBurstDelegate::Invoke(
-    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>> instances,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>> batchMeshHash,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>> batchMaterialHash,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialDataHash,
+    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const> instances,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> const> batchMeshHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDataHash,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>> batchHash,
@@ -341,11 +344,11 @@ inline void UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatche
                                                    drawRanges, batchHash, drawBatches, drawInstances);
 }
 inline ::System::IAsyncResult* UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$PostfixBurstDelegate::BeginInvoke(
-    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>> instances,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>> batchMeshHash,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>> batchMaterialHash,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialDataHash,
+    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const> instances,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> const> batchMeshHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDataHash,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>> batchHash,
@@ -405,10 +408,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>, ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>,
+    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const>, ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$BurstDirectCall::Invoke)> {
@@ -416,21 +419,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
   constexpr static std::size_t addrs = 0x6c53a48;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$BurstDirectCall*>(),
-                                         { "Invoke",
-                                           {},
-                                           { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$BurstDirectCall*>(),
+                            { "Invoke",
+                              {},
+                              { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>() } })));
     return ___internal_method;
   }
 };
@@ -453,30 +456,30 @@ inline ::System::IntPtr UnityEngine::Rendering::InstanceCullingBatcherBurst_Crea
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
 }
 inline void UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$BurstDirectCall::Invoke(
-    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>> instances,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>> batchMeshHash,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>> batchMaterialHash,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialDataHash,
+    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const> instances,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> const> batchMeshHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDataHash,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>> batchHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>> drawBatches, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$BurstDirectCall*>(),
-                                       { "Invoke",
-                                         {},
-                                         { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$BurstDirectCall*>(),
+                          { "Invoke",
+                            {},
+                            { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, implicitInstanceIndices, instances, rendererData, batchMeshHash, batchMaterialHash, packedMaterialDataHash, rangeHash,
                                                    drawRanges, batchHash, drawBatches, drawInstances);
 }
@@ -486,7 +489,7 @@ constexpr ::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatche
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::UnityEngine::Rendering::RangeKey>, ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>,
+    static_cast<void (*)(::by_ref<::UnityEngine::Rendering::RangeKey const>, ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>,
                          ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawRange)> {
   constexpr static std::size_t size = 0x1a4;
   constexpr static std::size_t addrs = 0x6c52ab4;
@@ -496,7 +499,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
                                                              { "RemoveDrawRange",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RangeKey>>(),
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RangeKey const>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>() } })));
     return ___internal_method;
@@ -505,7 +508,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::Rendering::InstanceCullingBatcherBurst.RemoveDrawBatch
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::DrawKey>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::DrawKey const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>,
                                                                 ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>,
                                                                 ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>,
                                                                 ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>)>(
@@ -514,15 +517,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
   constexpr static std::size_t addrs = 0x6c52c58;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
-                            { "RemoveDrawBatch",
-                              {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::DrawKey>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
+                                                             { "RemoveDrawBatch",
+                                                               {},
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::DrawKey const>>(),
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>>() } })));
     return ___internal_method;
   }
 };
@@ -530,7 +533,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>,
+    ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawInstanceIndices)> {
@@ -542,7 +545,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
                                                              { "RemoveDrawInstanceIndices",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
@@ -555,7 +558,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Rendering::DrawRange> (*)(
-    ::by_ref<::UnityEngine::Rendering::RangeKey>, ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>,
+    ::by_ref<::UnityEngine::Rendering::RangeKey const>, ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>,
     ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst::EditDrawRange)> {
   constexpr static std::size_t size = 0x178;
   constexpr static std::size_t addrs = 0x6c52fb0;
@@ -565,7 +568,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::R
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
                                                              { "EditDrawRange",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RangeKey>>(),
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RangeKey const>>(),
                                                                  ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>(),
                                                                  ::i2c::type_of<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>() } })));
     return ___internal_method;
@@ -575,19 +578,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Rendering::DrawBatch> (*)(
-    ::by_ref<::UnityEngine::Rendering::DrawKey>, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor>, ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>,
-    ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst::EditDrawBatch)> {
+    ::by_ref<::UnityEngine::Rendering::DrawKey const>, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor const>,
+    ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>)>(
+    &::UnityEngine::Rendering::InstanceCullingBatcherBurst::EditDrawBatch)> {
   constexpr static std::size_t size = 0x1b4;
   constexpr static std::size_t addrs = 0x6c53128;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
-                                                             { "EditDrawBatch",
-                                                               {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::DrawKey>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SubMeshDescriptor>>(),
-                                                                 ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>(),
-                                                                 ::i2c::type_of<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
+                                                { "EditDrawBatch",
+                                                  {},
+                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::DrawKey const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SubMeshDescriptor const>>(),
+                                                    ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>(),
+                                                    ::i2c::type_of<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>() } })));
     return ___internal_method;
   }
 };
@@ -595,7 +599,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    int32_t, bool, ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>, ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>,
+    int32_t, bool, ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>, ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>,
     ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>,
     ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>,
     ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>, ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>,
@@ -609,7 +613,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
                                                 { "ProcessRenderer",
                                                   {},
-                                                  { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>>(),
+                                                  { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>>(),
                                                     ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>>(),
                                                     ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>(),
                                                     ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>(),
@@ -626,10 +630,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>, ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>,
+    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const>, ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst::CreateDrawBatches)> {
@@ -637,21 +641,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
   constexpr static std::size_t addrs = 0x6c52914;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
-                                         { "CreateDrawBatches",
-                                           {},
-                                           { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
+                            { "CreateDrawBatches",
+                              {},
+                              { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>() } })));
     return ___internal_method;
   }
 };
@@ -659,7 +663,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>,
+    ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawInstanceIndices$BurstManaged)> {
@@ -671,7 +675,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
                                                              { "RemoveDrawInstanceIndices$BurstManaged",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
@@ -684,10 +688,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>, ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>,
+    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const>, ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst::CreateDrawBatches$BurstManaged)> {
@@ -695,37 +699,37 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
   constexpr static std::size_t addrs = 0x6c53dec;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
-                                         { "CreateDrawBatches$BurstManaged",
-                                           {},
-                                           { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
+                            { "CreateDrawBatches$BurstManaged",
+                              {},
+                              { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawRange(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RangeKey> key,
+inline void UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawRange(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RangeKey const> key,
                                                                                  ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
                                                                                  ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
                                                            { "RemoveDrawRange",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RangeKey>>(),
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RangeKey const>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, key, rangeHash, drawRanges);
 }
-inline void UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawBatch(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::DrawKey> key,
+inline void UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawBatch(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::DrawKey const> key,
                                                                                  ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges,
                                                                                  ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
                                                                                  ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>> batchHash,
@@ -735,22 +739,24 @@ inline void UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawBatch
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
                           { "RemoveDrawBatch",
                             {},
-                            { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::DrawKey>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
+                            { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::DrawKey const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, key, drawRanges, rangeHash, batchHash, drawBatches);
 }
-inline void UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawInstanceIndices(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> drawInstanceIndices, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>> batchHash,
-    ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>> drawBatches) {
+inline void
+UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawInstanceIndices(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> drawInstanceIndices,
+                                                                               ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances,
+                                                                               ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
+                                                                               ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>> batchHash,
+                                                                               ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges,
+                                                                               ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>> drawBatches) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
                                                            { "RemoveDrawInstanceIndices",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
@@ -759,32 +765,32 @@ inline void UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawInsta
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, drawInstanceIndices, drawInstances, rangeHash, batchHash, drawRanges, drawBatches);
 }
 inline ::by_ref<::UnityEngine::Rendering::DrawRange>
-UnityEngine::Rendering::InstanceCullingBatcherBurst::EditDrawRange(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RangeKey> key,
+UnityEngine::Rendering::InstanceCullingBatcherBurst::EditDrawRange(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RangeKey const> key,
                                                                    ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> rangeHash,
                                                                    ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> drawRanges) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
                                                            { "EditDrawRange",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RangeKey>>(),
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RangeKey const>>(),
                                                                ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>(),
                                                                ::i2c::type_of<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>() } })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<::UnityEngine::Rendering::DrawRange>>(nullptr, ___internal_method, key, rangeHash, drawRanges);
 }
 inline ::by_ref<::UnityEngine::Rendering::DrawBatch> UnityEngine::Rendering::InstanceCullingBatcherBurst::EditDrawBatch(
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::DrawKey> key, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor> subMeshDescriptor,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::DrawKey const> key, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor const> subMeshDescriptor,
     ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> batchHash, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
-                                                           { "EditDrawBatch",
-                                                             {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::DrawKey>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SubMeshDescriptor>>(),
-                                                               ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>(),
-                                                               ::i2c::type_of<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
+                                              { "EditDrawBatch",
+                                                {},
+                                                { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::DrawKey const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SubMeshDescriptor const>>(),
+                                                  ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>(),
+                                                  ::i2c::type_of<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>() } })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<::UnityEngine::Rendering::DrawBatch>>(nullptr, ___internal_method, key, subMeshDescriptor, batchHash, drawBatches);
 }
 inline void UnityEngine::Rendering::InstanceCullingBatcherBurst::ProcessRenderer(
-    int32_t i, bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+    int32_t i, bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
     ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> batchMeshHash,
     ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDataHash,
     ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> batchMaterialHash,
@@ -795,7 +801,7 @@ inline void UnityEngine::Rendering::InstanceCullingBatcherBurst::ProcessRenderer
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
                                               { "ProcessRenderer",
                                                 {},
-                                                { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>>(),
+                                                { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>>(),
                                                   ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>>(),
                                                   ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>(),
                                                   ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>(),
@@ -809,35 +815,36 @@ inline void UnityEngine::Rendering::InstanceCullingBatcherBurst::ProcessRenderer
                                                    drawInstances, rangeHash, drawRanges, batchHash, drawBatches);
 }
 inline void UnityEngine::Rendering::InstanceCullingBatcherBurst::CreateDrawBatches(
-    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>> instances,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>> batchMeshHash,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>> batchMaterialHash,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialDataHash,
+    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const> instances,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> const> batchMeshHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDataHash,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>> batchHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>> drawBatches, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
-                                       { "CreateDrawBatches",
-                                         {},
-                                         { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
+                          { "CreateDrawBatches",
+                            {},
+                            { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, implicitInstanceIndices, instances, rendererData, batchMeshHash, batchMaterialHash, packedMaterialDataHash, rangeHash,
                                                    drawRanges, batchHash, drawBatches, drawInstances);
 }
 inline void UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawInstanceIndices$BurstManaged(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> drawInstanceIndices, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> drawInstanceIndices,
+    ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>> batchHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>> drawBatches) {
@@ -845,7 +852,7 @@ inline void UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawInsta
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
                                                            { "RemoveDrawInstanceIndices$BurstManaged",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
@@ -854,30 +861,30 @@ inline void UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawInsta
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, drawInstanceIndices, drawInstances, rangeHash, batchHash, drawRanges, drawBatches);
 }
 inline void UnityEngine::Rendering::InstanceCullingBatcherBurst::CreateDrawBatches$BurstManaged(
-    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>> instances,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>> batchMeshHash,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>> batchMaterialHash,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialDataHash,
+    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const> instances,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> const> batchMeshHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDataHash,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>> batchHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>> drawBatches, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
-                                       { "CreateDrawBatches$BurstManaged",
-                                         {},
-                                         { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcherBurst*>(),
+                          { "CreateDrawBatches$BurstManaged",
+                            {},
+                            { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, implicitInstanceIndices, instances, rendererData, batchMeshHash, batchMaterialHash, packedMaterialDataHash, rangeHash,
                                                    drawRanges, batchHash, drawBatches, drawInstances);
 }

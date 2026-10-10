@@ -50,13 +50,13 @@ public:
   /// [RequiredByNativeCode(GenerateProxy = true)]
   /// @brief Method InvokeGPUDrivenLODGroupDataNativeCallback, addr 0x6f88eb8, size 0x20, virtual false, abstract: false, final false
   static inline void InvokeGPUDrivenLODGroupDataNativeCallback(::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback* callback,
-                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative> lodGroupDataNative,
+                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative const> lodGroupDataNative,
                                                                ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* target);
 
   /// [RequiredByNativeCode(GenerateProxy = true)]
   /// @brief Method InvokeGPUDrivenRendererDataNativeCallback, addr 0x6f88ed8, size 0x20, virtual false, abstract: false, final false
   static inline void InvokeGPUDrivenRendererDataNativeCallback(::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback* callback,
-                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative> rendererDataNative,
+                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative const> rendererDataNative,
                                                                ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                                ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials,
                                                                ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* target);

@@ -32,7 +32,7 @@ class CORDL_TYPE GPUDrivenLODGroupDataNativeCallback : public ::System::Multicas
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x6f88d7c, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative> lodGroupDataNative, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* callback);
+  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative const> lodGroupDataNative, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* callback);
 
   static inline ::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 

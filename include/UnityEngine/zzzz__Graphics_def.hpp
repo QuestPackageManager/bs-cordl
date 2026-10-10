@@ -146,7 +146,7 @@ public:
   static inline void Blit4(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Vector2 scale, ::UnityEngine::Vector2 offset);
 
   /// @brief Method Blit4_Injected, addr 0x6eda07c, size 0x5c, virtual false, abstract: false, final false
-  static inline void Blit4_Injected(::System::IntPtr source, ::System::IntPtr dest, ::by_ref<::UnityEngine::Vector2> scale, ::by_ref<::UnityEngine::Vector2> offset);
+  static inline void Blit4_Injected(::System::IntPtr source, ::System::IntPtr dest, ::by_ref<::UnityEngine::Vector2 const> scale, ::by_ref<::UnityEngine::Vector2 const> offset);
 
   /// @brief Method CheckLoadActionValid, addr 0x6eda1cc, size 0x6c, virtual false, abstract: false, final false
   static inline void CheckLoadActionValid(::UnityEngine::Rendering::RenderBufferLoadAction load, ::StringW bufferType);
@@ -283,7 +283,7 @@ public:
                                                         ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
 
   /// @brief Method Internal_DrawMeshInstancedIndirect_Injected, addr 0x6ed9b6c, size 0xc4, virtual false, abstract: false, final false
-  static inline void Internal_DrawMeshInstancedIndirect_Injected(::System::IntPtr mesh, int32_t submeshIndex, ::System::IntPtr material, ::by_ref<::UnityEngine::Bounds> bounds,
+  static inline void Internal_DrawMeshInstancedIndirect_Injected(::System::IntPtr mesh, int32_t submeshIndex, ::System::IntPtr material, ::by_ref<::UnityEngine::Bounds const> bounds,
                                                                  ::System::IntPtr bufferWithArgs, int32_t argsOffset, ::System::IntPtr properties,
                                                                  ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int32_t layer, ::System::IntPtr camera,
                                                                  ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::System::IntPtr lightProbeProxyVolume);
@@ -298,10 +298,10 @@ public:
   static inline void Internal_DrawMeshNow2(/* [NotNull] */ ::UnityEngine::Mesh* mesh, int32_t subsetIndex, ::UnityEngine::Matrix4x4 matrix);
 
   /// @brief Method Internal_DrawMeshNow2_Injected, addr 0x6ed92d4, size 0x54, virtual false, abstract: false, final false
-  static inline void Internal_DrawMeshNow2_Injected(::System::IntPtr mesh, int32_t subsetIndex, ::by_ref<::UnityEngine::Matrix4x4> matrix);
+  static inline void Internal_DrawMeshNow2_Injected(::System::IntPtr mesh, int32_t subsetIndex, ::by_ref<::UnityEngine::Matrix4x4 const> matrix);
 
   /// @brief Method Internal_DrawMesh_Injected, addr 0x6ed9528, size 0xc4, virtual false, abstract: false, final false
-  static inline void Internal_DrawMesh_Injected(::System::IntPtr mesh, int32_t submeshIndex, ::by_ref<::UnityEngine::Matrix4x4> matrix, ::System::IntPtr material, int32_t layer,
+  static inline void Internal_DrawMesh_Injected(::System::IntPtr mesh, int32_t submeshIndex, ::by_ref<::UnityEngine::Matrix4x4 const> matrix, ::System::IntPtr material, int32_t layer,
                                                 ::System::IntPtr camera, ::System::IntPtr properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows,
                                                 ::System::IntPtr probeAnchor, ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::System::IntPtr lightProbeProxyVolume);
 
@@ -321,7 +321,7 @@ public:
                                               ::UnityEngine::Rendering::RenderBufferStoreAction depthSA);
 
   /// @brief Method Internal_SetMRTFullSetup_Injected, addr 0x6ed8dc0, size 0x9c, virtual false, abstract: false, final false
-  static inline void Internal_SetMRTFullSetup_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> color, ::by_ref<::UnityEngine::RenderBuffer> depth, int32_t mip,
+  static inline void Internal_SetMRTFullSetup_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> color, ::by_ref<::UnityEngine::RenderBuffer const> depth, int32_t mip,
                                                        ::UnityEngine::CubemapFace face, int32_t depthSlice, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> colorLA,
                                                        ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> colorSA, ::UnityEngine::Rendering::RenderBufferLoadAction depthLA,
                                                        ::UnityEngine::Rendering::RenderBufferStoreAction depthSA);
@@ -335,7 +335,7 @@ public:
   static inline void Internal_SetRTSimple(::UnityEngine::RenderBuffer color, ::UnityEngine::RenderBuffer depth, int32_t mip, ::UnityEngine::CubemapFace face, int32_t depthSlice);
 
   /// @brief Method Internal_SetRTSimple_Injected, addr 0x6ed8afc, size 0x6c, virtual false, abstract: false, final false
-  static inline void Internal_SetRTSimple_Injected(::by_ref<::UnityEngine::RenderBuffer> color, ::by_ref<::UnityEngine::RenderBuffer> depth, int32_t mip, ::UnityEngine::CubemapFace face,
+  static inline void Internal_SetRTSimple_Injected(::by_ref<::UnityEngine::RenderBuffer const> color, ::by_ref<::UnityEngine::RenderBuffer const> depth, int32_t mip, ::UnityEngine::CubemapFace face,
                                                    int32_t depthSlice);
 
   /// [ExcludeFromDocs]

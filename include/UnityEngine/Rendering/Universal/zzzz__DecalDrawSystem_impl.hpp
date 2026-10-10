@@ -176,14 +176,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalDrawSystem.Execute
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalDrawSystem::*)(::by_ref<::UnityEngine::Rendering::Universal::CameraData>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalDrawSystem::*)(::by_ref<::UnityEngine::Rendering::Universal::CameraData const>)>(
     &::UnityEngine::Rendering::Universal::DecalDrawSystem::Execute)> {
   constexpr static std::size_t size = 0x1d4;
   constexpr static std::size_t addrs = 0x6c926f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalDrawSystem*>(),
-                                                                                           { "Execute", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>() } })));
+                                                                                           { "Execute", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData const>>() } })));
     return ___internal_method;
   }
 };
@@ -191,7 +191,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalDrawSystem::*)(
-    ::by_ref<::UnityEngine::Rendering::Universal::CameraData>, ::UnityEngine::Rendering::Universal::DecalEntityChunk*, ::UnityEngine::Rendering::Universal::DecalCachedChunk*,
+    ::by_ref<::UnityEngine::Rendering::Universal::CameraData const>, ::UnityEngine::Rendering::Universal::DecalEntityChunk*, ::UnityEngine::Rendering::Universal::DecalCachedChunk*,
     ::UnityEngine::Rendering::Universal::DecalDrawCallChunk*, int32_t)>(&::UnityEngine::Rendering::Universal::DecalDrawSystem::Execute)> {
   constexpr static std::size_t size = 0x1b8;
   constexpr static std::size_t addrs = 0x6c928cc;
@@ -201,7 +201,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalDrawSystem*>(),
                                                 { "Execute",
                                                   {},
-                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>(),
+                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData const>>(),
                                                     ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntityChunk*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalCachedChunk*>(),
                                                     ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalDrawCallChunk*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
@@ -211,7 +211,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalDrawSystem::*)(
-    ::by_ref<::UnityEngine::Rendering::Universal::CameraData>, ::UnityEngine::Rendering::Universal::DecalEntityChunk*, ::UnityEngine::Rendering::Universal::DecalCachedChunk*,
+    ::by_ref<::UnityEngine::Rendering::Universal::CameraData const>, ::UnityEngine::Rendering::Universal::DecalEntityChunk*, ::UnityEngine::Rendering::Universal::DecalCachedChunk*,
     ::UnityEngine::Rendering::Universal::DecalDrawCallChunk*)>(&::UnityEngine::Rendering::Universal::DecalDrawSystem::Draw)> {
   constexpr static std::size_t size = 0x250;
   constexpr static std::size_t addrs = 0x6c92d38;
@@ -222,7 +222,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalDrawSystem*>(),
                             { "Draw",
                               {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntityChunk*>(),
+                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData const>>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntityChunk*>(),
                                 ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalCachedChunk*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalDrawCallChunk*>() } })));
     return ___internal_method;
   }
@@ -231,7 +231,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalDrawSystem::*)(
-    ::by_ref<::UnityEngine::Rendering::Universal::CameraData>, ::UnityEngine::Rendering::Universal::DecalEntityChunk*, ::UnityEngine::Rendering::Universal::DecalCachedChunk*,
+    ::by_ref<::UnityEngine::Rendering::Universal::CameraData const>, ::UnityEngine::Rendering::Universal::DecalEntityChunk*, ::UnityEngine::Rendering::Universal::DecalCachedChunk*,
     ::UnityEngine::Rendering::Universal::DecalDrawCallChunk*)>(&::UnityEngine::Rendering::Universal::DecalDrawSystem::DrawInstanced)> {
   constexpr static std::size_t size = 0x2b4;
   constexpr static std::size_t addrs = 0x6c92a84;
@@ -242,7 +242,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalDrawSystem*>(),
                             { "DrawInstanced",
                               {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntityChunk*>(),
+                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData const>>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntityChunk*>(),
                                 ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalCachedChunk*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalDrawCallChunk*>() } })));
     return ___internal_method;
   }
@@ -400,12 +400,12 @@ inline void UnityEngine::Rendering::Universal::DecalDrawSystem::DrawInstanced(::
                                                   ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, decalEntityChunk, decalCachedChunk, decalDrawCallChunk, passIndex);
 }
-inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Execute(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
+inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Execute(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalDrawSystem*>(),
-                                                                                         { "Execute", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>() } })));
+                                                                                         { "Execute", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cameraData);
 }
-inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Execute(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData,
+inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Execute(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData,
                                                                         ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
                                                                         ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk,
                                                                         ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk, int32_t count) {
@@ -413,12 +413,12 @@ inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Execute(/* [IsRe
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalDrawSystem*>(),
                                               { "Execute",
                                                 {},
-                                                { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntityChunk*>(),
-                                                  ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalCachedChunk*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalDrawCallChunk*>(),
-                                                  ::i2c::type_of<int32_t>() } })));
+                                                { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData const>>(),
+                                                  ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntityChunk*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalCachedChunk*>(),
+                                                  ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalDrawCallChunk*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cameraData, decalEntityChunk, decalCachedChunk, decalDrawCallChunk, count);
 }
-inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Draw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData,
+inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Draw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData,
                                                                      ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
                                                                      ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk,
                                                                      ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk) {
@@ -427,11 +427,11 @@ inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Draw(/* [IsReadO
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalDrawSystem*>(),
                                        { "Draw",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntityChunk*>(),
+                                         { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData const>>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntityChunk*>(),
                                            ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalCachedChunk*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalDrawCallChunk*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cameraData, decalEntityChunk, decalCachedChunk, decalDrawCallChunk);
 }
-inline void UnityEngine::Rendering::Universal::DecalDrawSystem::DrawInstanced(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData,
+inline void UnityEngine::Rendering::Universal::DecalDrawSystem::DrawInstanced(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData,
                                                                               ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
                                                                               ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk,
                                                                               ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk) {
@@ -440,7 +440,7 @@ inline void UnityEngine::Rendering::Universal::DecalDrawSystem::DrawInstanced(/*
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalDrawSystem*>(),
                                        { "DrawInstanced",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntityChunk*>(),
+                                         { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData const>>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntityChunk*>(),
                                            ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalCachedChunk*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalDrawCallChunk*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cameraData, decalEntityChunk, decalCachedChunk, decalDrawCallChunk);
 }

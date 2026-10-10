@@ -61,11 +61,11 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method GetTextureUVOrigin, addr 0x6c02e5c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> textureHandle);
+  inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> textureHandle);
 
   /// @brief Method UnityEngine.Rendering.RenderGraphModule.IDerivedRendergraphContext.GetTextureUVOrigin, addr 0x6c02ec4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin
-  UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> textureHandle);
+  UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> textureHandle);
 
   /// @brief Method get_cmd, addr 0x6c02e7c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* get_cmd();

@@ -236,7 +236,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Screen.SetResolution_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, ::UnityEngine::FullScreenMode, ::by_ref<::UnityEngine::RefreshRate>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, ::UnityEngine::FullScreenMode, ::by_ref<::UnityEngine::RefreshRate const>)>(
     &::UnityEngine::Screen::SetResolution_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6ed8560;
@@ -246,7 +246,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Screen*>(), { "SetResolution_Injected",
                                                                                              {},
                                                                                              { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::FullScreenMode>(),
-                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::RefreshRate>>() } })));
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::RefreshRate const>>() } })));
     return ___internal_method;
   }
 };
@@ -345,12 +345,12 @@ inline void UnityEngine::Screen::get_safeArea_Injected(::by_ref<::UnityEngine::R
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Screen*>(), { "get_safeArea_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::Screen::SetResolution_Injected(int32_t width, int32_t height, ::UnityEngine::FullScreenMode fullscreenMode, ::by_ref<::UnityEngine::RefreshRate> preferredRefreshRate) {
+inline void UnityEngine::Screen::SetResolution_Injected(int32_t width, int32_t height, ::UnityEngine::FullScreenMode fullscreenMode, ::by_ref<::UnityEngine::RefreshRate const> preferredRefreshRate) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Screen*>(), { "SetResolution_Injected",
                                                                                            {},
                                                                                            { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::FullScreenMode>(),
-                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::RefreshRate>>() } })));
+                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::RefreshRate const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, width, height, fullscreenMode, preferredRefreshRate);
 }
 inline void UnityEngine::Screen::get_resolutions_Injected(::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret) {

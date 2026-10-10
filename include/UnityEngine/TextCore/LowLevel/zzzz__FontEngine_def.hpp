@@ -208,7 +208,7 @@ public:
 
   /// [NativeMethod(Name = "TextCore::FontEngine::GetLigatureSubstitutionRecordsFromMarshallingArray", IsFreeFunction = true)]
   /// @brief Method GetLigatureSubstitutionRecordsFromMarshallingArray, addr 0x701e6b8, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t GetLigatureSubstitutionRecordsFromMarshallingArray(::by_ref<::ArrayW<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>> ligatureSubstitutionRecords);
+  static inline int32_t GetLigatureSubstitutionRecordsFromMarshallingArray(::ArrayW<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord> ligatureSubstitutionRecords);
 
   /// @brief Method GetMarkToBaseAdjustmentRecords, addr 0x701f12c, size 0x12c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord> GetMarkToBaseAdjustmentRecords(::ArrayW<uint32_t> glyphIndexes);
@@ -366,8 +366,8 @@ public:
   /// [NativeMethod(Name = "TextCore::FontEngine::TryAddGlyphToTexture", IsThreadSafe = true, IsFreeFunction = true)]
   /// @brief Method TryAddGlyphToTexture_Internal, addr 0x701d3a4, size 0x244, virtual false, abstract: false, final false
   static inline bool TryAddGlyphToTexture_Internal(uint32_t glyphIndex, int32_t padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode,
-                                                   ::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>> freeGlyphRects, ::by_ref<int32_t> freeGlyphRectCount,
-                                                   ::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>> usedGlyphRects, ::by_ref<int32_t> usedGlyphRectCount,
+                                                   ::ArrayW<::UnityEngine::TextCore::GlyphRect> freeGlyphRects, ::by_ref<int32_t> freeGlyphRectCount,
+                                                   ::ArrayW<::UnityEngine::TextCore::GlyphRect> usedGlyphRects, ::by_ref<int32_t> usedGlyphRectCount,
                                                    ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, ::UnityEngine::Texture2D* texture,
                                                    ::by_ref<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyph);
 
@@ -388,10 +388,10 @@ public:
   /// [NativeMethod(Name = "TextCore::FontEngine::TryAddGlyphsToTexture", IsThreadSafe = true, IsFreeFunction = true)]
   /// @brief Method TryAddGlyphsToTexture_Internal, addr 0x701def0, size 0x338, virtual false, abstract: false, final false
   static inline bool TryAddGlyphsToTexture_Internal(::ArrayW<uint32_t> glyphIndex, int32_t padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode,
-                                                    ::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>> freeGlyphRects, ::by_ref<int32_t> freeGlyphRectCount,
-                                                    ::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>> usedGlyphRects, ::by_ref<int32_t> usedGlyphRectCount,
+                                                    ::ArrayW<::UnityEngine::TextCore::GlyphRect> freeGlyphRects, ::by_ref<int32_t> freeGlyphRectCount,
+                                                    ::ArrayW<::UnityEngine::TextCore::GlyphRect> usedGlyphRects, ::by_ref<int32_t> usedGlyphRectCount,
                                                     ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, ::UnityEngine::Texture2D* texture,
-                                                    ::by_ref<::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>> glyphs, ::by_ref<int32_t> glyphCount);
+                                                    ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyphs, ::by_ref<int32_t> glyphCount);
 
   /// @brief Method TryAddGlyphsToTexture_Internal_Injected, addr 0x701e228, size 0xa8, virtual false, abstract: false, final false
   static inline bool TryAddGlyphsToTexture_Internal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> glyphIndex, int32_t padding,

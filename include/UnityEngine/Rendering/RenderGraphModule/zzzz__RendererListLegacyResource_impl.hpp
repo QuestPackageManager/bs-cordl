@@ -5,20 +5,22 @@
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource::*)(::by_ref<bool>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource::*)(::by_ref<bool const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource::_ctor)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6c134d8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<bool>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<bool const>>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource::_ctor(/* [IsReadOnly] */ ::by_ref<bool> active) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<bool>>() } })));
+inline void UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource::_ctor(/* [IsReadOnly] */ ::by_ref<bool const> active) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<bool const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, active);
 }
 // Ctor Parameters [CppParam { name: "rendererList", ty: "::UnityEngine::Rendering::RendererList", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isActive", ty: "bool",

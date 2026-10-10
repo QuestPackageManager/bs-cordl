@@ -60,14 +60,14 @@ class CORDL_TYPE BurstSliderSpawner_ProcessNoteDataDelegate : public ::System::M
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x5ce1d5c, size 0xb4, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNote,
+  inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData const> noteSpawnData, bool forceIsFirstNote,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x5ce1e10, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, ::System::IAsyncResult* result);
+  inline void EndInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData const> noteSpawnData, ::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x5ce1d48, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNote);
+  inline void Invoke(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData const> noteSpawnData, bool forceIsFirstNote);
 
   static inline ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -111,7 +111,7 @@ public:
                                  ::by_ref<::UnityEngine::Vector2> tangent);
 
   /// @brief Method ProcessSliderData, addr 0x5ce17b8, size 0x40c, virtual false, abstract: false, final false
-  static inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData, bool forceIsFirstNote,
+  static inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData const> sliderSpawnData, bool forceIsFirstNote,
                                        ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider, ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate* processNoteData);
 
 protected:

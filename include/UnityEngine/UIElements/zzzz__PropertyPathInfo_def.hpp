@@ -29,7 +29,7 @@ struct CORDL_TYPE PropertyPathInfo {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x708e168, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> propertyPath, ::System::Type* type);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> propertyPath, ::System::Type* type);
 
   // Ctor Parameters []
   // @brief default ctor

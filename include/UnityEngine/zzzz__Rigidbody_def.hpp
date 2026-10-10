@@ -143,7 +143,7 @@ public:
                                 /* [DefaultValue("ForceMode.Force)")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddExplosionForce_Injected, addr 0x7008740, size 0x7c, virtual false, abstract: false, final false
-  static inline void AddExplosionForce_Injected(::System::IntPtr _unity_self, float_t explosionForce, ::by_ref<::UnityEngine::Vector3> explosionPosition, float_t explosionRadius,
+  static inline void AddExplosionForce_Injected(::System::IntPtr _unity_self, float_t explosionForce, ::by_ref<::UnityEngine::Vector3 const> explosionPosition, float_t explosionRadius,
                                                 /* [DefaultValue("0.0f")] */ float_t upwardsModifier, /* [DefaultValue("ForceMode.Force)")] */ ::UnityEngine::ForceMode mode);
 
   /// [ExcludeFromDocs]
@@ -168,11 +168,11 @@ public:
   inline void AddForceAtPosition(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 position, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddForceAtPosition_Injected, addr 0x700860c, size 0x5c, virtual false, abstract: false, final false
-  static inline void AddForceAtPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, ::by_ref<::UnityEngine::Vector3> position,
+  static inline void AddForceAtPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> force, ::by_ref<::UnityEngine::Vector3 const> position,
                                                  /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddForce_Injected, addr 0x70081c0, size 0x54, virtual false, abstract: false, final false
-  static inline void AddForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
+  static inline void AddForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// [ExcludeFromDocs]
   /// @brief Method AddRelativeForce, addr 0x7008324, size 0x8, virtual false, abstract: false, final false
@@ -189,7 +189,7 @@ public:
   inline void AddRelativeForce(float_t x, float_t y, float_t z, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddRelativeForce_Injected, addr 0x70082d0, size 0x54, virtual false, abstract: false, final false
-  static inline void AddRelativeForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
+  static inline void AddRelativeForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// [ExcludeFromDocs]
   /// @brief Method AddRelativeTorque, addr 0x7008544, size 0x8, virtual false, abstract: false, final false
@@ -206,7 +206,7 @@ public:
   inline void AddRelativeTorque(float_t x, float_t y, float_t z, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddRelativeTorque_Injected, addr 0x70084f0, size 0x54, virtual false, abstract: false, final false
-  static inline void AddRelativeTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
+  static inline void AddRelativeTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// [ExcludeFromDocs]
   /// @brief Method AddTorque, addr 0x7008434, size 0x8, virtual false, abstract: false, final false
@@ -223,7 +223,7 @@ public:
   inline void AddTorque(float_t x, float_t y, float_t z, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddTorque_Injected, addr 0x70083e0, size 0x54, virtual false, abstract: false, final false
-  static inline void AddTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
+  static inline void AddTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method ClosestPointOnBounds, addr 0x70088dc, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ClosestPointOnBounds(::UnityEngine::Vector3 position);
@@ -252,27 +252,28 @@ public:
   inline ::UnityEngine::Vector3 GetPointVelocity(::UnityEngine::Vector3 worldPoint);
 
   /// @brief Method GetPointVelocity_Injected, addr 0x7007888, size 0x54, virtual false, abstract: false, final false
-  static inline void GetPointVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> worldPoint, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void GetPointVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> worldPoint, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// @brief Method GetRelativePointVelocity, addr 0x70076dc, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetRelativePointVelocity(::UnityEngine::Vector3 relativePoint);
 
   /// @brief Method GetRelativePointVelocity_Injected, addr 0x7007788, size 0x54, virtual false, abstract: false, final false
-  static inline void GetRelativePointVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> relativePoint, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void GetRelativePointVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> relativePoint, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// [NativeName("ClosestPointOnBounds")]
   /// @brief Method Internal_ClosestPointOnBounds, addr 0x70087d0, size 0xb0, virtual false, abstract: false, final false
   inline void Internal_ClosestPointOnBounds(::UnityEngine::Vector3 point, ::by_ref<::UnityEngine::Vector3> outPos, ::by_ref<float_t> distance);
 
   /// @brief Method Internal_ClosestPointOnBounds_Injected, addr 0x7008880, size 0x5c, virtual false, abstract: false, final false
-  static inline void Internal_ClosestPointOnBounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> point, ::by_ref<::UnityEngine::Vector3> outPos, ::by_ref<float_t> distance);
+  static inline void Internal_ClosestPointOnBounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> point, ::by_ref<::UnityEngine::Vector3> outPos,
+                                                            ::by_ref<float_t> distance);
 
   /// [NativeName("SweepTestAll")]
   /// @brief Method Internal_SweepTestAll, addr 0x7008c1c, size 0x18c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit> Internal_SweepTestAll(::UnityEngine::Vector3 direction, float_t maxDistance, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
   /// @brief Method Internal_SweepTestAll_Injected, addr 0x7008da8, size 0x6c, virtual false, abstract: false, final false
-  static inline void Internal_SweepTestAll_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> direction, float_t maxDistance,
+  static inline void Internal_SweepTestAll_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> direction, float_t maxDistance,
                                                     ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
   /// @brief Method IsSleeping, addr 0x70073ec, size 0x80, virtual false, abstract: false, final false
@@ -288,16 +289,16 @@ public:
   inline void MovePosition(::UnityEngine::Vector3 position);
 
   /// @brief Method MovePosition_Injected, addr 0x7007118, size 0x44, virtual false, abstract: false, final false
-  static inline void MovePosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> position);
+  static inline void MovePosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> position);
 
   /// @brief Method MoveRotation, addr 0x700715c, size 0x98, virtual false, abstract: false, final false
   inline void MoveRotation(::UnityEngine::Quaternion rotation);
 
   /// @brief Method MoveRotation_Injected, addr 0x70071f4, size 0x44, virtual false, abstract: false, final false
-  static inline void MoveRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion> rotation);
+  static inline void MoveRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion const> rotation);
 
   /// @brief Method Move_Injected, addr 0x70072dc, size 0x54, virtual false, abstract: false, final false
-  static inline void Move_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Quaternion> rotation);
+  static inline void Move_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> position, ::by_ref<::UnityEngine::Quaternion const> rotation);
 
   static inline ::UnityEngine::Rigidbody* New_ctor();
 
@@ -358,8 +359,8 @@ public:
                                                           /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
   /// @brief Method SweepTest_Injected, addr 0x7008a78, size 0x7c, virtual false, abstract: false, final false
-  static inline void SweepTest_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> direction, float_t maxDistance, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction,
-                                        ::by_ref<bool> hasHit, ::by_ref<::UnityEngine::RaycastHit> ret);
+  static inline void SweepTest_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> direction, float_t maxDistance,
+                                        ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction, ::by_ref<bool> hasHit, ::by_ref<::UnityEngine::RaycastHit> ret);
 
   /// @brief Method WakeUp, addr 0x70074a8, size 0x80, virtual false, abstract: false, final false
   inline void WakeUp();
@@ -563,7 +564,7 @@ public:
   inline void set_angularVelocity(::UnityEngine::Vector3 value);
 
   /// @brief Method set_angularVelocity_Injected, addr 0x7004c1c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_angularVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_angularVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_automaticCenterOfMass, addr 0x7005a0c, size 0x90, virtual false, abstract: false, final false
   inline void set_automaticCenterOfMass(bool value);
@@ -581,7 +582,7 @@ public:
   inline void set_centerOfMass(::UnityEngine::Vector3 value);
 
   /// @brief Method set_centerOfMass_Injected, addr 0x7005c5c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_centerOfMass_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_centerOfMass_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_collisionDetectionMode, addr 0x700587c, size 0x90, virtual false, abstract: false, final false
   inline void set_collisionDetectionMode(::UnityEngine::CollisionDetectionMode value);
@@ -608,7 +609,7 @@ public:
   inline void set_excludeLayers(::UnityEngine::LayerMask value);
 
   /// @brief Method set_excludeLayers_Injected, addr 0x7007c98, size 0x44, virtual false, abstract: false, final false
-  static inline void set_excludeLayers_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::LayerMask> value);
+  static inline void set_excludeLayers_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::LayerMask const> value);
 
   /// @brief Method set_freezeRotation, addr 0x700567c, size 0x34, virtual false, abstract: false, final false
   inline void set_freezeRotation(bool value);
@@ -617,7 +618,7 @@ public:
   inline void set_includeLayers(::UnityEngine::LayerMask value);
 
   /// @brief Method set_includeLayers_Injected, addr 0x7007e4c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_includeLayers_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::LayerMask> value);
+  static inline void set_includeLayers_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::LayerMask const> value);
 
   /// @brief Method set_inertiaTensor, addr 0x70061b4, size 0x98, virtual false, abstract: false, final false
   inline void set_inertiaTensor(::UnityEngine::Vector3 value);
@@ -626,10 +627,10 @@ public:
   inline void set_inertiaTensorRotation(::UnityEngine::Quaternion value);
 
   /// @brief Method set_inertiaTensorRotation_Injected, addr 0x700608c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_inertiaTensorRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion> value);
+  static inline void set_inertiaTensorRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion const> value);
 
   /// @brief Method set_inertiaTensor_Injected, addr 0x700624c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_inertiaTensor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_inertiaTensor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_interpolation, addr 0x7006954, size 0x90, virtual false, abstract: false, final false
   inline void set_interpolation(::UnityEngine::RigidbodyInterpolation value);
@@ -653,7 +654,7 @@ public:
   inline void set_linearVelocity(::UnityEngine::Vector3 value);
 
   /// @brief Method set_linearVelocity_Injected, addr 0x7004a5c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_linearVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_linearVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_mass, addr 0x700504c, size 0x90, virtual false, abstract: false, final false
   inline void set_mass(float_t value);
@@ -683,13 +684,13 @@ public:
   inline void set_position(::UnityEngine::Vector3 value);
 
   /// @brief Method set_position_Injected, addr 0x7006698, size 0x44, virtual false, abstract: false, final false
-  static inline void set_position_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_position_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_rotation, addr 0x70067bc, size 0x98, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
   /// @brief Method set_rotation_Injected, addr 0x7006854, size 0x44, virtual false, abstract: false, final false
-  static inline void set_rotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion> value);
+  static inline void set_rotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion const> value);
 
   /// @brief Method set_sleepThreshold, addr 0x7006c74, size 0x90, virtual false, abstract: false, final false
   inline void set_sleepThreshold(float_t value);

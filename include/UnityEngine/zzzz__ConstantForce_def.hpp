@@ -68,25 +68,25 @@ public:
   inline void set_force(::UnityEngine::Vector3 value);
 
   /// @brief Method set_force_Injected, addr 0x6feedc0, size 0x44, virtual false, abstract: false, final false
-  static inline void set_force_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_force_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_relativeForce, addr 0x6fef0a8, size 0x98, virtual false, abstract: false, final false
   inline void set_relativeForce(::UnityEngine::Vector3 value);
 
   /// @brief Method set_relativeForce_Injected, addr 0x6fef140, size 0x44, virtual false, abstract: false, final false
-  static inline void set_relativeForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_relativeForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_relativeTorque, addr 0x6fef268, size 0x98, virtual false, abstract: false, final false
   inline void set_relativeTorque(::UnityEngine::Vector3 value);
 
   /// @brief Method set_relativeTorque_Injected, addr 0x6fef300, size 0x44, virtual false, abstract: false, final false
-  static inline void set_relativeTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_relativeTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_torque, addr 0x6feeee8, size 0x98, virtual false, abstract: false, final false
   inline void set_torque(::UnityEngine::Vector3 value);
 
   /// @brief Method set_torque_Injected, addr 0x6feef80, size 0x44, virtual false, abstract: false, final false
-  static inline void set_torque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_torque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
 protected:
   // Ctor Parameters []

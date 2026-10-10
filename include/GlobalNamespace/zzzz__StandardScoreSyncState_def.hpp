@@ -126,16 +126,16 @@ public:
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
   /// @brief Method ApplyDelta, addr 0x3545b44, size 0x24, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::StandardScoreSyncState ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> delta);
+  inline ::GlobalNamespace::StandardScoreSyncState ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState const> delta);
 
   /// @brief Method Deserialize, addr 0x3545c7c, size 0xa8, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   /// @brief Method Equals, addr 0x3545d24, size 0x5c, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState const> other);
 
   /// @brief Method GetDelta, addr 0x3545b20, size 0x24, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::StandardScoreSyncState GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> stateTable);
+  inline ::GlobalNamespace::StandardScoreSyncState GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState const> stateTable);
 
   /// @brief Method GetSize, addr 0x3545d80, size 0xfc, virtual true, abstract: false, final true
   inline int32_t GetSize();
@@ -144,15 +144,15 @@ public:
   inline int32_t GetState(::GlobalNamespace::StandardScoreSyncState_Score s);
 
   /// @brief Method IEquatableByReference<StandardScoreSyncState>.Equals, addr 0x3545ec4, size 0x4, virtual true, abstract: false, final true
-  inline bool IEquatableByReference_StandardScoreSyncState__Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> other);
+  inline bool IEquatableByReference_StandardScoreSyncState__Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState const> other);
 
   /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta, addr 0x3545ea0, size 0x24, virtual true, abstract: false, final true
   inline ::GlobalNamespace::StandardScoreSyncState
-  IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> delta);
+  IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState const> delta);
 
   /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta, addr 0x3545e7c, size 0x24, virtual true, abstract: false, final true
   inline ::GlobalNamespace::StandardScoreSyncState
-  IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> stateTable);
+  IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState const> stateTable);
 
   /// @brief Method Serialize, addr 0x3545bc0, size 0xbc, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);

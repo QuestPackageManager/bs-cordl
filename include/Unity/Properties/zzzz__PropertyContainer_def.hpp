@@ -315,11 +315,11 @@ public:
 
   /// @brief Method TryGetProperty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer>
-  static inline bool TryGetProperty(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, ::by_ref<::Unity::Properties::IProperty*> property);
+  static inline bool TryGetProperty(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path, ::by_ref<::Unity::Properties::IProperty*> property);
 
   /// @brief Method TryGetProperty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer>
-  static inline bool TryGetProperty(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, ::by_ref<::Unity::Properties::IProperty*> property,
+  static inline bool TryGetProperty(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path, ::by_ref<::Unity::Properties::IProperty*> property,
                                     ::by_ref<::Unity::Properties::VisitReturnCode> returnCode);
 
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -327,7 +327,7 @@ public:
 
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer, typename TValue>
-  static inline bool TryGetValue(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, ::by_ref<TValue> value,
+  static inline bool TryGetValue(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path, ::by_ref<TValue> value,
                                  ::by_ref<::Unity::Properties::VisitReturnCode> returnCode);
 
 protected:

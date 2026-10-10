@@ -45,8 +45,8 @@ public:
 
   /// @brief Method CalculateBadgeData, addr 0x39bd740, size 0x14, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
-                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
-                                                                          float_t randomMultiplier);
+                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel,
+                                                                          /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, float_t randomMultiplier);
 
   /// @brief Method CalculateMax, addr 0x39bd754, size 0x564, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMax(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,

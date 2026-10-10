@@ -166,12 +166,12 @@ public:
   /// @brief Method ComputeSplitVisibilityMask, addr 0x6c40bdc, size 0x17c, virtual false, abstract: false, final false
   static inline uint32_t ComputeSplitVisibilityMask(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4> planePackets,
                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo> splitInfos,
-                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> bounds);
+                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB const> bounds);
 
   /// @brief Method Create, addr 0x6c40668, size 0x440, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::FrustumPlaneCuller Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
+  static inline ::UnityEngine::Rendering::FrustumPlaneCuller Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cc,
                                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> receiverPlanes,
-                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller> receiverSphereCuller,
+                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller const> receiverSphereCuller,
                                                                     ::Unity::Collections::Allocator allocator);
 
   /// @brief Method Dispose, addr 0x6c405d8, size 0x90, virtual false, abstract: false, final false

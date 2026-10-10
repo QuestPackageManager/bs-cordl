@@ -27,15 +27,15 @@ constexpr ::GlobalNamespace::AutoRecord_Beatmap::AutoRecord_Beatmap() {}
 //  Writing Method size for method: ::GlobalNamespace::AutoRecord.CreatePlayerPoseFrames
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::RecPlay::PlayerPoseFrames (*)(::by_ref<::GlobalNamespace::AutoRecord_Beatmap>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::RecPlay::PlayerPoseFrames (*)(::by_ref<::GlobalNamespace::AutoRecord_Beatmap const>)>(
     &::GlobalNamespace::AutoRecord::CreatePlayerPoseFrames)> {
   constexpr static std::size_t size = 0x908;
   constexpr static std::size_t addrs = 0x5d14080;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutoRecord*>(), { "CreatePlayerPoseFrames", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::AutoRecord_Beatmap>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutoRecord*>(), { "CreatePlayerPoseFrames", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::AutoRecord_Beatmap const>>() } })));
     return ___internal_method;
   }
 };
@@ -119,10 +119,10 @@ inline void GlobalNamespace::AutoRecord::setStaticF_kCutEndOffset(::UnityEngine:
 inline ::UnityEngine::Pose GlobalNamespace::AutoRecord::getStaticF_kCutEndOffset() {
   return ::cordl_internals::getStaticField<::UnityEngine::Pose, "kCutEndOffset", ::GlobalNamespace::AutoRecord*>();
 }
-inline ::BeatSaber::RecPlay::PlayerPoseFrames GlobalNamespace::AutoRecord::CreatePlayerPoseFrames(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::AutoRecord_Beatmap> beatmap) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutoRecord*>(), { "CreatePlayerPoseFrames", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::AutoRecord_Beatmap>>() } })));
+inline ::BeatSaber::RecPlay::PlayerPoseFrames GlobalNamespace::AutoRecord::CreatePlayerPoseFrames(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::AutoRecord_Beatmap const> beatmap) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutoRecord*>(), { "CreatePlayerPoseFrames", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::AutoRecord_Beatmap const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::BeatSaber::RecPlay::PlayerPoseFrames>(nullptr, ___internal_method, beatmap);
 }
 inline void GlobalNamespace::AutoRecord::AddNoteHandFrames(::GlobalNamespace::NoteData* note, int32_t noteLineCount, float_t cutStart, float_t cutEnd, ::UnityEngine::Quaternion trackOrientation,

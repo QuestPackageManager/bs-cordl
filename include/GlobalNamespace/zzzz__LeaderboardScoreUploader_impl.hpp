@@ -299,7 +299,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::LeaderboardScoreUploader_ScoreData._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardScoreUploader_ScoreData::*)(uint64_t, ::by_ref<::GlobalNamespace::BeatmapKey>, int32_t, int32_t, bool,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardScoreUploader_ScoreData::*)(uint64_t, ::by_ref<::GlobalNamespace::BeatmapKey const>, int32_t, int32_t, bool,
                                                                                                                        int32_t, int32_t, int32_t, int32_t, ::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::LeaderboardScoreUploader_ScoreData::_ctor)> {
   constexpr static std::size_t size = 0x38;
@@ -310,7 +310,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardScoreUploader_ScoreData*>(),
                                                              { ".ctor",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<int32_t>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(), ::i2c::type_of<int32_t>(),
                                                                  ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
                                                                  ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
     return ___internal_method;
@@ -553,21 +553,21 @@ inline void GlobalNamespace::LeaderboardScoreUploader_ScoreData::set_maxCombo(in
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardScoreUploader_ScoreData*>(), { "set_maxCombo", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LeaderboardScoreUploader_ScoreData::_ctor(uint64_t playerId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore,
+inline void GlobalNamespace::LeaderboardScoreUploader_ScoreData::_ctor(uint64_t playerId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, int32_t multipliedScore,
                                                                        int32_t modifiedScore, bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t maxCombo,
                                                                        ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardScoreUploader_ScoreData*>(),
                                                            { ".ctor",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<int32_t>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(), ::i2c::type_of<int32_t>(),
                                                                ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
                                                                ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, playerId, beatmapKey, multipliedScore, modifiedScore, fullCombo, goodCutsCount, badCutsCount, missedCount, maxCombo,
                                                    gameplayModifiers);
 }
 inline ::GlobalNamespace::LeaderboardScoreUploader_ScoreData* GlobalNamespace::LeaderboardScoreUploader_ScoreData::New_ctor(uint64_t playerId,
-                                                                                                                            /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                                                                                            /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey,
                                                                                                                             int32_t multipliedScore, int32_t modifiedScore, bool fullCombo,
                                                                                                                             int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount,
                                                                                                                             int32_t maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {

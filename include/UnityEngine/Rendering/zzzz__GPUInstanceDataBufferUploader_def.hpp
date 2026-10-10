@@ -439,7 +439,7 @@ public:
   inline ::Unity::Jobs::JobHandle WriteInstanceDataJob(int32_t parameterIndex, ::Unity::Collections::NativeArray_1<T> instanceData, ::Unity::Collections::NativeArray_1<int32_t> gatherIndices);
 
   /// @brief Method .ctor, addr 0x6c5593c, size 0x260, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>> descriptions, int32_t capacity,
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceComponentDesc> const> descriptions, int32_t capacity,
                     ::UnityEngine::Rendering::InstanceType instanceType);
 
   /// @brief Convert to "::System::IDisposable"

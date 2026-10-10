@@ -315,7 +315,7 @@ public:
 
   /// @brief Method EstimateScaleFactorNeededToFitAllShadowsInAtlas, addr 0x6cc0624, size 0x60, virtual false, abstract: false, final false
   static inline int32_t EstimateScaleFactorNeededToFitAllShadowsInAtlas(
-      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest>> shadowResolutionRequests,
+      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest> const> shadowResolutionRequests,
       int32_t endIndex, int32_t atlasSize);
 
   /// @brief Method GetAtlasSize, addr 0x6cc06bc, size 0x8, virtual false, abstract: false, final false

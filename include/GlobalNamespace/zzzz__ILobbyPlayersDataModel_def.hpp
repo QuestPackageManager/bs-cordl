@@ -84,7 +84,7 @@ public:
   inline void RequestKickPlayer(::StringW kickedUserId);
 
   /// @brief Method SetLocalPlayerBeatmapLevel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetLocalPlayerBeatmapLevel(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SetLocalPlayerBeatmapLevel(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   /// @brief Method SetLocalPlayerGameplayModifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetLocalPlayerGameplayModifiers(::GlobalNamespace::GameplayModifiers* modifiers);

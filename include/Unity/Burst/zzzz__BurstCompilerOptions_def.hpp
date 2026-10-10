@@ -130,7 +130,7 @@ public:
   inline void MaybeTriggerRecompilation();
 
   /// @brief Method MergeAttributes, addr 0x689aa80, size 0x138, virtual false, abstract: false, final false
-  static inline void MergeAttributes(::by_ref<::Unity::Burst::BurstCompileAttribute*> memberAttribute, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstCompileAttribute*> assemblyAttribute);
+  static inline void MergeAttributes(::by_ref<::Unity::Burst::BurstCompileAttribute*> memberAttribute, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstCompileAttribute* const> assemblyAttribute);
 
   static inline ::Unity::Burst::BurstCompilerOptions* New_ctor();
 

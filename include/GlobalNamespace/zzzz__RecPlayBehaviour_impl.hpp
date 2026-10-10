@@ -187,14 +187,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::RecPlay::Pla
 //  Writing Method size for method: ::GlobalNamespace::RecPlayBehaviour.SavePlayerPoseFrames
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames>)>(&::GlobalNamespace::RecPlayBehaviour::SavePlayerPoseFrames)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames const>)>(&::GlobalNamespace::RecPlayBehaviour::SavePlayerPoseFrames)> {
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x5d16070;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(),
-                                                             { "SavePlayerPoseFrames", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(),
+                                                { "SavePlayerPoseFrames", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames const>>() } })));
     return ___internal_method;
   }
 };
@@ -443,10 +443,10 @@ inline ::BeatSaber::RecPlay::PlayerPoseFrames GlobalNamespace::RecPlayBehaviour:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(), { "LoadLevelRecording", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::BeatSaber::RecPlay::PlayerPoseFrames>(nullptr, ___internal_method, path);
 }
-inline void GlobalNamespace::RecPlayBehaviour::SavePlayerPoseFrames(::StringW path, /* [IsReadOnly] */ ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames> frames) {
+inline void GlobalNamespace::RecPlayBehaviour::SavePlayerPoseFrames(::StringW path, /* [IsReadOnly] */ ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames const> frames) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(),
-                                                           { "SavePlayerPoseFrames", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames>>() } })));
+                                                           { "SavePlayerPoseFrames", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, path, frames);
 }
 inline void GlobalNamespace::RecPlayBehaviour::_ctor() {

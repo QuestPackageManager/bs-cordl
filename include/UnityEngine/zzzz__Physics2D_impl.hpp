@@ -288,19 +288,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine
 //  Writing Method size for method: ::UnityEngine::Physics2D.GetRayIntersectionAll_Internal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene2D>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, float_t, int32_t,
-                                                                ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(&::UnityEngine::Physics2D::GetRayIntersectionAll_Internal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene2D const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, float_t,
+                                                                int32_t, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(
+    &::UnityEngine::Physics2D::GetRayIntersectionAll_Internal_Injected)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x6fd1080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics2D*>(),
-                            { "GetRayIntersectionAll_Internal_Injected",
-                              {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene2D>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics2D*>(), { "GetRayIntersectionAll_Internal_Injected",
+                                                                            {},
+                                                                            { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene2D const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
+                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
     return ___internal_method;
   }
 };
@@ -441,16 +442,16 @@ inline int32_t UnityEngine::Physics2D::GetRayIntersectionNonAlloc(::UnityEngine:
                           { "GetRayIntersectionNonAlloc", {}, { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<::ArrayW<::UnityEngine::RaycastHit2D>>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, ray, results, distance);
 }
-inline void UnityEngine::Physics2D::GetRayIntersectionAll_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene2D> physicsScene, ::by_ref<::UnityEngine::Vector3> origin,
-                                                                            ::by_ref<::UnityEngine::Vector3> direction, float_t distance, int32_t layerMask,
+inline void UnityEngine::Physics2D::GetRayIntersectionAll_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene2D const> physicsScene, ::by_ref<::UnityEngine::Vector3 const> origin,
+                                                                            ::by_ref<::UnityEngine::Vector3 const> direction, float_t distance, int32_t layerMask,
                                                                             ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics2D*>(), { "GetRayIntersectionAll_Internal_Injected",
-                                                                                       {},
-                                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene2D>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                         ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
-                                                                                         ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics2D*>(), { "GetRayIntersectionAll_Internal_Injected",
+                                                                          {},
+                                                                          { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene2D const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                            ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
+                                                                            ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, physicsScene, origin, direction, distance, layerMask, ret);
 }
 // Ctor Parameters []

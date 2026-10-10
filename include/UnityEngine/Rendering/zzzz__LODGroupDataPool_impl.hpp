@@ -141,7 +141,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::LODGroupDataPool.UpdateLODGroupTransformData
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LODGroupDataPool::*)(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LODGroupDataPool::*)(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData const>)>(
     &::UnityEngine::Rendering::LODGroupDataPool::UpdateLODGroupTransformData)> {
   constexpr static std::size_t size = 0x17c;
   constexpr static std::size_t addrs = 0x6c67b54;
@@ -149,14 +149,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPool*>(),
-                                                             { "UpdateLODGroupTransformData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData>>() } })));
+                                                             { "UpdateLODGroupTransformData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::LODGroupDataPool.UpdateLODGroupData
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LODGroupDataPool::*)(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LODGroupDataPool::*)(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData const>)>(
     &::UnityEngine::Rendering::LODGroupDataPool::UpdateLODGroupData)> {
   constexpr static std::size_t size = 0x264;
   constexpr static std::size_t addrs = 0x6c67cd0;
@@ -164,7 +164,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPool*>(),
-                                                             { "UpdateLODGroupData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData>>() } })));
+                                                             { "UpdateLODGroupData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData const>>() } })));
     return ___internal_method;
   }
 };
@@ -283,16 +283,16 @@ inline void UnityEngine::Rendering::LODGroupDataPool::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPool*>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::LODGroupDataPool::UpdateLODGroupTransformData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> inputData) {
+inline void UnityEngine::Rendering::LODGroupDataPool::UpdateLODGroupTransformData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData const> inputData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPool*>(),
-                                                           { "UpdateLODGroupTransformData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData>>() } })));
+                                                           { "UpdateLODGroupTransformData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inputData);
 }
-inline void UnityEngine::Rendering::LODGroupDataPool::UpdateLODGroupData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> inputData) {
+inline void UnityEngine::Rendering::LODGroupDataPool::UpdateLODGroupData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData const> inputData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPool*>(),
-                                                           { "UpdateLODGroupData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData>>() } })));
+                                                           { "UpdateLODGroupData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inputData);
 }
 inline void UnityEngine::Rendering::LODGroupDataPool::FreeLODGroupData(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> destroyedLODGroupsID) {

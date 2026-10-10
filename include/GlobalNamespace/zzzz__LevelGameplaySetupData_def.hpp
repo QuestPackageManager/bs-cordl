@@ -47,10 +47,11 @@ public:
 
   static inline ::GlobalNamespace::LevelGameplaySetupData* New_ctor();
 
-  static inline ::GlobalNamespace::LevelGameplaySetupData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  static inline ::GlobalNamespace::LevelGameplaySetupData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey,
+                                                                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   /// @brief Method SetBeatmapKey, addr 0x39c03f4, size 0xc, virtual false, abstract: false, final false
-  inline void SetBeatmapKey(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SetBeatmapKey(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   /// @brief Method SetGameplayModifiers, addr 0x39c0400, size 0x84, virtual false, abstract: false, final false
   inline void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
@@ -71,7 +72,7 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x39c02f0, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   /// @brief Method get_beatmapKey, addr 0x39c0278, size 0xc, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();

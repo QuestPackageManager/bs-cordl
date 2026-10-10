@@ -25,7 +25,7 @@ struct CORDL_TYPE OccluderDerivedData {
 public:
   // Declarations
   /// @brief Method FromParameters, addr 0x6c646cc, size 0x2a8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::OccluderDerivedData FromParameters(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdate);
+  static inline ::UnityEngine::Rendering::OccluderDerivedData FromParameters(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderSubviewUpdate const> occluderSubviewUpdate);
 
   // Ctor Parameters []
   // @brief default ctor

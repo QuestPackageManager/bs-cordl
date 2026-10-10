@@ -192,7 +192,7 @@ public:
   /// @brief Method CreateRendererList_Internal_Injected, addr 0x6f83cfc, size 0xa4, virtual false, abstract: false, final false
   static inline void CreateRendererList_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr cullResults,
                                                           ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings, ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings,
-                                                          ::by_ref<::UnityEngine::Rendering::ShaderTagId> tagName, bool isPassTagName, ::System::IntPtr tagValues, ::System::IntPtr stateBlocks,
+                                                          ::by_ref<::UnityEngine::Rendering::ShaderTagId const> tagName, bool isPassTagName, ::System::IntPtr tagValues, ::System::IntPtr stateBlocks,
                                                           int32_t stateCount, ::by_ref<::UnityEngine::Rendering::RendererList> ret);
 
   /// @brief Method CreateShadowRendererList, addr 0x6f84c40, size 0x94, virtual false, abstract: false, final false
@@ -221,8 +221,9 @@ public:
 
   /// @brief Method CreateSkyboxRendererList_Internal_Injected, addr 0x6f83fec, size 0x8c, virtual false, abstract: false, final false
   static inline void CreateSkyboxRendererList_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr camera, int32_t mode,
-                                                                ::by_ref<::UnityEngine::Matrix4x4> proj, ::by_ref<::UnityEngine::Matrix4x4> view, ::by_ref<::UnityEngine::Matrix4x4> projR,
-                                                                ::by_ref<::UnityEngine::Matrix4x4> viewR, ::by_ref<::UnityEngine::Rendering::RendererList> ret);
+                                                                ::by_ref<::UnityEngine::Matrix4x4 const> proj, ::by_ref<::UnityEngine::Matrix4x4 const> view,
+                                                                ::by_ref<::UnityEngine::Matrix4x4 const> projR, ::by_ref<::UnityEngine::Matrix4x4 const> viewR,
+                                                                ::by_ref<::UnityEngine::Rendering::RendererList> ret);
 
   /// @brief Method CreateUIOverlayRendererList, addr 0x6f851b8, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateUIOverlayRendererList(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::UISubset uiSubset);
@@ -316,10 +317,10 @@ public:
   static inline void Internal_CullShadowCasters(::UnityEngine::Rendering::ScriptableRenderContext renderLoop, ::System::IntPtr context);
 
   /// @brief Method Internal_CullShadowCasters_Injected, addr 0x6f8377c, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_CullShadowCasters_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> renderLoop, ::System::IntPtr context);
+  static inline void Internal_CullShadowCasters_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const> renderLoop, ::System::IntPtr context);
 
   /// @brief Method Internal_Cull_Injected, addr 0x6f8369c, size 0x54, virtual false, abstract: false, final false
-  static inline void Internal_Cull_Injected(::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters> parameters, ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> renderLoop,
+  static inline void Internal_Cull_Injected(::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters> parameters, ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const> renderLoop,
                                             ::System::IntPtr results);
 
   /// @brief Method Internal_GetPtr, addr 0x6f83bf0, size 0x8, virtual false, abstract: false, final false
@@ -339,7 +340,7 @@ public:
 
   /// @brief Method QueryRendererListStatus_Internal_Injected, addr 0x6f84580, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RendererListStatus QueryRendererListStatus_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self,
-                                                                                                       ::by_ref<::UnityEngine::Rendering::RendererList> handle);
+                                                                                                       ::by_ref<::UnityEngine::Rendering::RendererList const> handle);
 
   /// @brief Method Submit, addr 0x6f845c4, size 0x78, virtual false, abstract: false, final false
   inline void Submit();

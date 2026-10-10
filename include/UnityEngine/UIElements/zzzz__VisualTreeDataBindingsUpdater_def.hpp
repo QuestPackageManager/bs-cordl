@@ -249,8 +249,8 @@ public:
   __declspec(property(get = getStaticF_s_UpdateProfilerMarker, put = setStaticF_s_UpdateProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_UpdateProfilerMarker;
 
   /// @brief Method CacheAndLogBindingResult, addr 0x70906c0, size 0x11c, virtual false, abstract: false, final false
-  inline void CacheAndLogBindingResult(bool appliedOnUiCache, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData,
-                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingResult> result);
+  inline void CacheAndLogBindingResult(bool appliedOnUiCache, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData* const> bindingData,
+                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingResult const> result);
 
   /// @brief Method Dispose, addr 0x70923ec, size 0x3c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
@@ -259,10 +259,10 @@ public:
   inline ::System::ValueTuple_2<bool, int64_t> GetDataSourceVersion(::System::Object* source);
 
   /// @brief Method IsPrefix, addr 0x7092190, size 0x16c, virtual false, abstract: false, final false
-  inline bool IsPrefix(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> prefix, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path);
+  inline bool IsPrefix(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> prefix, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path);
 
   /// @brief Method LogResult, addr 0x70907dc, size 0x144, virtual false, abstract: false, final false
-  inline void LogResult(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingResult> result);
+  inline void LogResult(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingResult const> result);
 
   static inline ::UnityEngine::UIElements::VisualTreeDataBindingsUpdater* New_ctor();
 

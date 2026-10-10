@@ -44,13 +44,13 @@ public:
   static inline void SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
   /// @brief Method SetupProperties, addr 0x6d2edec, size 0xe0, virtual false, abstract: false, final false
-  static inline void SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
+  static inline void SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData);
 
   /// @brief Method SetupProperties, addr 0x6d2eecc, size 0x90, virtual false, abstract: false, final false
-  static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
+  static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData);
 
   /// @brief Method SetupProperties, addr 0x6d2ef5c, size 0x2a8, virtual false, abstract: false, final false
-  static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData);
+  static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData* const> cameraData);
 
   static inline ::ArrayW<::UnityEngine::Matrix4x4> getStaticF_s_NormalReconstructionMatrix();
 

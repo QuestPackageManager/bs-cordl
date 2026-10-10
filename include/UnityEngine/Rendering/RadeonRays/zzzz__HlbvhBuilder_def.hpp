@@ -160,7 +160,7 @@ public:
   /// @brief Method Execute, addr 0x6dfba98, size 0x4e4, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* vertices, int32_t verticesOffset, uint32_t vertexStride, ::UnityEngine::GraphicsBuffer* indices,
                       int32_t indicesOffset, int32_t baseIndex, ::UnityEngine::Rendering::RadeonRays::IndexFormat indexFormat, uint32_t triangleCount, ::UnityEngine::GraphicsBuffer* scratch,
-                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct> result);
+                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const> result);
 
   /// @brief Method GetBvhNodeCount, addr 0x6dfb23c, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t GetBvhNodeCount(uint32_t leafCount);

@@ -712,7 +712,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGenerator.PopulateTextBackingArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(::by_ref<::UnityEngine::TextCore::Text::RenderedText>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(::by_ref<::UnityEngine::TextCore::Text::RenderedText const>)>(
     &::UnityEngine::TextCore::Text::TextGenerator::PopulateTextBackingArray)> {
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x704cbc8;
@@ -720,7 +720,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Text
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGenerator*>(),
-                                                             { "PopulateTextBackingArray", {}, { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText>>() } })));
+                                                             { "PopulateTextBackingArray", {}, { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText const>>() } })));
     return ___internal_method;
   }
 };
@@ -2587,10 +2587,10 @@ inline ::UnityEngine::TextCore::Text::TextElement* UnityEngine::TextCore::Text::
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::TextElement*>(this, ___internal_method, generationSettings, unicode, fontAsset, fontStyle, fontWeight,
                                                                                           isUsingAlternativeTypeface, populateLigatures);
 }
-inline void UnityEngine::TextCore::Text::TextGenerator::PopulateTextBackingArray(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> sourceText) {
+inline void UnityEngine::TextCore::Text::TextGenerator::PopulateTextBackingArray(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText const> sourceText) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGenerator*>(),
-                                                           { "PopulateTextBackingArray", {}, { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText>>() } })));
+                                                           { "PopulateTextBackingArray", {}, { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sourceText);
 }
 inline void UnityEngine::TextCore::Text::TextGenerator::PopulateTextProcessingArray(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings) {

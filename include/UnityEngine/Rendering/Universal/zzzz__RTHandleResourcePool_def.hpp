@@ -71,7 +71,8 @@ public:
   __declspec(property(get = get_staleResourceCapacity, put = set_staleResourceCapacity)) int32_t staleResourceCapacity;
 
   /// @brief Method AddResourceToPool, addr 0x6ce17a0, size 0x214, virtual false, abstract: false, final false
-  inline bool AddResourceToPool(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc, ::UnityEngine::Rendering::RTHandle* resource, int32_t currentFrameIndex);
+  inline bool AddResourceToPool(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> texDesc, ::UnityEngine::Rendering::RTHandle* resource,
+                                int32_t currentFrameIndex);
 
   /// @brief Method Cleanup, addr 0x6ce12e4, size 0x4bc, virtual false, abstract: false, final false
   inline void Cleanup();
@@ -83,7 +84,7 @@ public:
                                                                                            ::StringW name);
 
   /// @brief Method GetHashCodeWithNameHash, addr 0x6ce19b4, size 0x58, virtual false, abstract: false, final false
-  inline int32_t GetHashCodeWithNameHash(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc);
+  inline int32_t GetHashCodeWithNameHash(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> texDesc);
 
   /// @brief Method LogDebugInfo, addr 0x6ce2274, size 0x89c, virtual false, abstract: false, final false
   inline void LogDebugInfo();
@@ -97,7 +98,7 @@ public:
   static inline bool ShouldReleaseResource(int32_t lastUsedFrameIndex, int32_t currentFrameIndex);
 
   /// @brief Method TryGetResource, addr 0x6ce1a0c, size 0x1e8, virtual false, abstract: false, final false
-  inline bool TryGetResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc, ::by_ref<::UnityEngine::Rendering::RTHandle*> resource, bool usepool);
+  inline bool TryGetResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> texDesc, ::by_ref<::UnityEngine::Rendering::RTHandle*> resource, bool usepool);
 
   constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_RemoveList() const;
 

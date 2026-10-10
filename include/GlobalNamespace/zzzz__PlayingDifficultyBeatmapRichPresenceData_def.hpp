@@ -50,9 +50,9 @@ public:
   constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
 
   /// @brief Method GetDestinationLocalizedString, addr 0x5d1a354, size 0x190, virtual false, abstract: false, final false
-  static inline ::StringW GetDestinationLocalizedString(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+  static inline ::StringW GetDestinationLocalizedString(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  static inline ::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+  static inline ::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey,
                                                                                       ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   constexpr ::StringW const& __cordl_internal_get__apiName_k__BackingField() const;
@@ -80,7 +80,7 @@ public:
   constexpr void __cordl_internal_set__localizedDescription(::StringW value);
 
   /// @brief Method .ctor, addr 0x5d1a4e4, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   /// [CompilerGenerated]
   /// @brief Method get_apiName, addr 0x5d1a324, size 0x8, virtual true, abstract: false, final true

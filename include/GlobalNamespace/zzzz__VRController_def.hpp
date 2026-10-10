@@ -168,8 +168,8 @@ public:
   inline void UpdateAnchorOffsetPose(::UnityEngine::Pose poseOffset);
 
   /// @brief Method UpdatePoseOffset, addr 0x5c72b84, size 0x16c, virtual false, abstract: false, final false
-  static inline void UpdatePoseOffset(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::XRNode> node, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> customPositionOffset,
-                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> customRotationOffset, ::by_ref<::UnityEngine::Pose> poseOffset);
+  static inline void UpdatePoseOffset(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::XRNode const> node, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> customPositionOffset,
+                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> customRotationOffset, ::by_ref<::UnityEngine::Pose> poseOffset);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__lastTrackedPosition() const;
 

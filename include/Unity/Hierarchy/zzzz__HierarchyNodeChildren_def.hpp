@@ -105,7 +105,7 @@ public:
   inline bool MoveNext();
 
   /// @brief Method .ctor, addr 0x6f93d28, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNodeChildren> enumerable);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNodeChildren const> enumerable);
 
   /// @brief Method get_Current, addr 0x6f93db8, size 0x80, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Hierarchy::HierarchyNode> get_Current();

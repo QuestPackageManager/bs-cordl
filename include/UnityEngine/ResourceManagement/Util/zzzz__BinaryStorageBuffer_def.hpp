@@ -1052,7 +1052,7 @@ public:
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  inline uint32_t Write(uint32_t offset, /* [IsReadOnly] */ ::by_ref<T> val);
+  inline uint32_t Write(uint32_t offset, /* [IsReadOnly] */ ::by_ref<T const> val);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
@@ -1067,7 +1067,7 @@ public:
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  inline uint32_t Write(/* [IsReadOnly] */ ::by_ref<T> val);
+  inline uint32_t Write(/* [IsReadOnly] */ ::by_ref<T const> val);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>

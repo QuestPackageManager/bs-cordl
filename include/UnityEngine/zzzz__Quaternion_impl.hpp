@@ -9,15 +9,16 @@
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_FromToRotation
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>)>(
     &::UnityEngine::Quaternion::Internal_FromToRotation)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x6f29d84;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                                { "Internal_FromToRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                         { "Internal_FromToRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
@@ -38,13 +39,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_Inverse
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Quaternion>)>(&::UnityEngine::Quaternion::Internal_Inverse)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Quaternion const>)>(&::UnityEngine::Quaternion::Internal_Inverse)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x6f29e68;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_Inverse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_Inverse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>() } })));
     return ___internal_method;
   }
 };
@@ -64,7 +65,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_Slerp
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Quaternion>, float_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Quaternion const>, float_t)>(
     &::UnityEngine::Quaternion::Internal_Slerp)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x6f29f28;
@@ -72,32 +73,34 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                            { "Internal_Slerp", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<float_t>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Quaternion>(),
+            { "Internal_Slerp", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_SlerpUnclamped
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Quaternion>, float_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Quaternion const>, float_t)>(
     &::UnityEngine::Quaternion::Internal_SlerpUnclamped)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x6f29ffc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Quaternion>(),
-            { "Internal_SlerpUnclamped", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<float_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                         { "Internal_SlerpUnclamped",
+                                           {},
+                                           { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_Lerp
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Quaternion>, float_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Quaternion const>, float_t)>(
     &::UnityEngine::Quaternion::Internal_Lerp)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x6f2a0d0;
@@ -105,8 +108,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                            { "Internal_Lerp", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<float_t>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Quaternion>(),
+            { "Internal_Lerp", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
@@ -155,7 +159,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion
 //  Writing Method size for method: ::UnityEngine::Quaternion.SlerpUnclamped
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Quaternion>, float_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Quaternion const>, float_t)>(
     &::UnityEngine::Quaternion::SlerpUnclamped)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6f2a24c;
@@ -163,65 +167,66 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                            { "SlerpUnclamped", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<float_t>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Quaternion>(),
+            { "SlerpUnclamped", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_FromEulerRad
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Quaternion::Internal_FromEulerRad)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::Quaternion::Internal_FromEulerRad)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x6f2a250;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_FromEulerRad", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_FromEulerRad", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_ToEulerRad
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::by_ref<::UnityEngine::Quaternion>)>(&::UnityEngine::Quaternion::Internal_ToEulerRad)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::by_ref<::UnityEngine::Quaternion const>)>(&::UnityEngine::Quaternion::Internal_ToEulerRad)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6f2a2ec;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_ToEulerRad", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_ToEulerRad", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_ToAxisAngleRad
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<float_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<float_t>)>(
     &::UnityEngine::Quaternion::Internal_ToAxisAngleRad)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6f2a38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Quaternion>(),
-            { "Internal_ToAxisAngleRad", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_ToAxisAngleRad",
+                                                                                                {},
+                                                                                                { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                                                  ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_AngleAxis
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(float_t, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Quaternion::Internal_AngleAxis)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(float_t, ::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::Quaternion::Internal_AngleAxis)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x6f2a3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_AngleAxis", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_AngleAxis", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
@@ -241,15 +246,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_LookRotation
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>)>(
     &::UnityEngine::Quaternion::Internal_LookRotation)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x6f2a4c0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                                { "Internal_LookRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                         { "Internal_LookRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
@@ -270,14 +276,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion
 //  Writing Method size for method: ::UnityEngine::Quaternion.LookRotation
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Quaternion::LookRotation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>)>(
+    &::UnityEngine::Quaternion::LookRotation)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6f2a5a4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                                             { "LookRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                                { "LookRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
@@ -391,14 +398,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t)>(&::Uni
 //  Writing Method size for method: ::UnityEngine::Quaternion.Dot
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Quaternion>)>(&::UnityEngine::Quaternion::Dot)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Quaternion const>)>(&::UnityEngine::Quaternion::Dot)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x6f2a80c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                                             { "Dot", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                                { "Dot", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>() } })));
     return ___internal_method;
   }
 };
@@ -432,29 +439,29 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Quat
 //  Writing Method size for method: ::UnityEngine::Quaternion.SetLookRotation
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Quaternion::*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Quaternion::*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>)>(
     &::UnityEngine::Quaternion::SetLookRotation)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x6f2a8f8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                                             { "SetLookRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                                { "SetLookRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Quaternion.Angle
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Quaternion>)>(&::UnityEngine::Quaternion::Angle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Quaternion const>)>(&::UnityEngine::Quaternion::Angle)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x6f2a91c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                                             { "Angle", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                                { "Angle", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>() } })));
     return ___internal_method;
   }
 };
@@ -553,13 +560,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion
 //  Writing Method size for method: ::UnityEngine::Quaternion.Normalize
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Quaternion>)>(&::UnityEngine::Quaternion::Normalize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Quaternion const>)>(&::UnityEngine::Quaternion::Normalize)> {
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x6f2ac50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Normalize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Normalize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>() } })));
     return ___internal_method;
   }
 };
@@ -627,13 +634,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Quat
 //  Writing Method size for method: ::UnityEngine::Quaternion.Equals
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Quaternion::*)(::by_ref<::UnityEngine::Quaternion>)>(&::UnityEngine::Quaternion::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Quaternion::*)(::by_ref<::UnityEngine::Quaternion const>)>(&::UnityEngine::Quaternion::Equals)> {
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x6f2b174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>() } })));
     return ___internal_method;
   }
 };
@@ -665,7 +672,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine:
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_FromToRotation_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Quaternion::Internal_FromToRotation_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6f29de4;
@@ -673,17 +680,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                            { "Internal_FromToRotation_Injected",
-                              {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_FromToRotation_Injected",
+                                                                            {},
+                                                                            { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_Inverse_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Quaternion>)>(&::UnityEngine::Quaternion::Internal_Inverse_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Quaternion>)>(
+    &::UnityEngine::Quaternion::Internal_Inverse_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f29ec0;
 
@@ -691,83 +699,85 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                         { "Internal_Inverse_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+                                         { "Internal_Inverse_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_Slerp_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Quaternion>, float_t, ::by_ref<::UnityEngine::Quaternion>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Quaternion const>, float_t, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Quaternion::Internal_Slerp_Injected)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x6f29f98;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_Slerp_Injected",
-                                                                                         {},
-                                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                                                           ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_Slerp_Injected",
+                                                                            {},
+                                                                            { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                              ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_SlerpUnclamped_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Quaternion>, float_t, ::by_ref<::UnityEngine::Quaternion>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Quaternion const>, float_t, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Quaternion::Internal_SlerpUnclamped_Injected)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x6f2a06c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_SlerpUnclamped_Injected",
-                                                                                         {},
-                                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                                                           ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_SlerpUnclamped_Injected",
+                                                                            {},
+                                                                            { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                              ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_Lerp_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Quaternion>, float_t, ::by_ref<::UnityEngine::Quaternion>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Quaternion const>, float_t, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Quaternion::Internal_Lerp_Injected)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x6f2a140;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_Lerp_Injected",
-                                                                                         {},
-                                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                                                           ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_Lerp_Injected",
+                                                                            {},
+                                                                            { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                              ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_FromEulerRad_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>)>(&::UnityEngine::Quaternion::Internal_FromEulerRad_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Quaternion>)>(
+    &::UnityEngine::Quaternion::Internal_FromEulerRad_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f2a2a8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                         { "Internal_FromEulerRad_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                            { "Internal_FromEulerRad_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_ToEulerRad_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Quaternion::Internal_ToEulerRad_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Vector3>)>(
+    &::UnityEngine::Quaternion::Internal_ToEulerRad_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f2a348;
 
@@ -775,14 +785,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                         { "Internal_ToEulerRad_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+                                         { "Internal_ToEulerRad_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_AngleAxis_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Quaternion::Internal_AngleAxis_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6f2a448;
@@ -792,14 +802,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, ::by_re
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::UnityEngine::Quaternion>(),
-            { "Internal_AngleAxis_Injected", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+            { "Internal_AngleAxis_Injected", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Quaternion.Internal_LookRotation_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Quaternion::Internal_LookRotation_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6f2a520;
@@ -807,10 +817,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                            { "Internal_LookRotation_Injected",
-                              {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_LookRotation_Injected",
+                                                                            {},
+                                                                            { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
     return ___internal_method;
   }
 };
@@ -820,11 +830,12 @@ inline void UnityEngine::Quaternion::setStaticF_identityQuaternion(::UnityEngine
 inline ::UnityEngine::Quaternion UnityEngine::Quaternion::getStaticF_identityQuaternion() {
   return ::cordl_internals::getStaticField<::UnityEngine::Quaternion, "identityQuaternion", ::UnityEngine::Quaternion>();
 }
-inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_FromToRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> fromDirection,
-                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> toDirection) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                              { "Internal_FromToRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_FromToRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> fromDirection,
+                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> toDirection) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                       { "Internal_FromToRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, fromDirection, toDirection);
 }
 inline ::UnityEngine::Quaternion UnityEngine::Quaternion::FromToRotation(::UnityEngine::Vector3 fromDirection, ::UnityEngine::Vector3 toDirection) {
@@ -833,9 +844,9 @@ inline ::UnityEngine::Quaternion UnityEngine::Quaternion::FromToRotation(::Unity
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "FromToRotation", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, fromDirection, toDirection);
 }
-inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_Inverse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> rotation) {
+inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_Inverse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> rotation) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_Inverse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_Inverse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, rotation);
 }
 inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Inverse(::UnityEngine::Quaternion rotation) {
@@ -843,28 +854,31 @@ inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Inverse(::UnityEngine:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Inverse", {}, { ::i2c::type_of<::UnityEngine::Quaternion>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, rotation);
 }
-inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_Slerp(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b,
+inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_Slerp(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b,
                                                                          float_t t) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                          { "Internal_Slerp", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, a, b, t);
-}
-inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_SlerpUnclamped(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b,
-                                                                                  float_t t) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::UnityEngine::Quaternion>(),
-          { "Internal_SlerpUnclamped", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<float_t>() } })));
+          { "Internal_Slerp", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, a, b, t);
 }
-inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_Lerp(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b, float_t t) {
+inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_SlerpUnclamped(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a,
+                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b, float_t t) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                          { "Internal_Lerp", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<float_t>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Quaternion>(),
+          { "Internal_SlerpUnclamped", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, a, b, t);
+}
+inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_Lerp(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b,
+                                                                        float_t t) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Quaternion>(),
+          { "Internal_Lerp", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, a, b, t);
 }
 inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Slerp(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b, float_t t) {
@@ -885,36 +899,38 @@ inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Lerp(::UnityEngine::Qu
                                                            { "Lerp", {}, { ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, a, b, t);
 }
-inline ::UnityEngine::Quaternion UnityEngine::Quaternion::SlerpUnclamped(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b,
+inline ::UnityEngine::Quaternion UnityEngine::Quaternion::SlerpUnclamped(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b,
                                                                          float_t t) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                          { "SlerpUnclamped", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, a, b, t);
-}
-inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_FromEulerRad(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> euler) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_FromEulerRad", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, euler);
-}
-inline ::UnityEngine::Vector3 UnityEngine::Quaternion::Internal_ToEulerRad(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> rotation) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_ToEulerRad", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, rotation);
-}
-inline void UnityEngine::Quaternion::Internal_ToAxisAngleRad(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> q, ::by_ref<::UnityEngine::Vector3> axis, ::by_ref<float_t> angle) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::UnityEngine::Quaternion>(),
-          { "Internal_ToAxisAngleRad", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, q, axis, angle);
+          { "SlerpUnclamped", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, a, b, t);
 }
-inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_AngleAxis(float_t angle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> axis) {
+inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_FromEulerRad(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> euler) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_FromEulerRad", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, euler);
+}
+inline ::UnityEngine::Vector3 UnityEngine::Quaternion::Internal_ToEulerRad(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> rotation) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_ToEulerRad", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, rotation);
+}
+inline void UnityEngine::Quaternion::Internal_ToAxisAngleRad(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> q, ::by_ref<::UnityEngine::Vector3> axis, ::by_ref<float_t> angle) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_AngleAxis", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                       { "Internal_ToAxisAngleRad",
+                                         {},
+                                         { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, q, axis, angle);
+}
+inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_AngleAxis(float_t angle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> axis) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_AngleAxis", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, angle, axis);
 }
 inline ::UnityEngine::Quaternion UnityEngine::Quaternion::AngleAxis(float_t angle, ::UnityEngine::Vector3 axis) {
@@ -922,11 +938,12 @@ inline ::UnityEngine::Quaternion UnityEngine::Quaternion::AngleAxis(float_t angl
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "AngleAxis", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, angle, axis);
 }
-inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_LookRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> forward,
-                                                                                /* [IsReadOnly] [DefaultValue("Vector3.up")] */ ::by_ref<::UnityEngine::Vector3> upwards) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                              { "Internal_LookRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Internal_LookRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> forward,
+                                                                                /* [IsReadOnly] [DefaultValue("Vector3.up")] */ ::by_ref<::UnityEngine::Vector3 const> upwards) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                       { "Internal_LookRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, forward, upwards);
 }
 inline ::UnityEngine::Quaternion UnityEngine::Quaternion::LookRotation(::UnityEngine::Vector3 forward, /* [DefaultValue("Vector3.up")] */ ::UnityEngine::Vector3 upwards) {
@@ -935,11 +952,11 @@ inline ::UnityEngine::Quaternion UnityEngine::Quaternion::LookRotation(::UnityEn
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "LookRotation", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, forward, upwards);
 }
-inline ::UnityEngine::Quaternion UnityEngine::Quaternion::LookRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> forward,
-                                                                       /* [DefaultValue("Vector3.up")] [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> upwards) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                                           { "LookRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+inline ::UnityEngine::Quaternion UnityEngine::Quaternion::LookRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> forward,
+                                                                       /* [DefaultValue("Vector3.up")] [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> upwards) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                              { "LookRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, forward, upwards);
 }
 inline ::UnityEngine::Quaternion UnityEngine::Quaternion::LookRotation(::UnityEngine::Vector3 forward) {
@@ -985,10 +1002,10 @@ inline bool UnityEngine::Quaternion::IsEqualUsingDot(float_t dot) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "IsEqualUsingDot", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, dot);
 }
-inline float_t UnityEngine::Quaternion::Dot(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                                           { "Dot", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+inline float_t UnityEngine::Quaternion::Dot(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                              { "Dot", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, a, b);
 }
 inline void UnityEngine::Quaternion::SetLookRotation(::UnityEngine::Vector3 view) {
@@ -1002,16 +1019,17 @@ inline void UnityEngine::Quaternion::SetLookRotation(::UnityEngine::Vector3 view
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "SetLookRotation", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, view, up);
 }
-inline void UnityEngine::Quaternion::SetLookRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> view, /* [IsReadOnly] [DefaultValue("Vector3.up")] */ ::by_ref<::UnityEngine::Vector3> up) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                                           { "SetLookRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+inline void UnityEngine::Quaternion::SetLookRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> view,
+                                                     /* [IsReadOnly] [DefaultValue("Vector3.up")] */ ::by_ref<::UnityEngine::Vector3 const> up) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                              { "SetLookRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, view, up);
 }
-inline float_t UnityEngine::Quaternion::Angle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                                           { "Angle", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+inline float_t UnityEngine::Quaternion::Angle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                              { "Angle", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, a, b);
 }
 inline ::UnityEngine::Vector3 UnityEngine::Quaternion::Internal_MakePositive(::UnityEngine::Vector3 euler) {
@@ -1049,9 +1067,9 @@ inline ::UnityEngine::Quaternion UnityEngine::Quaternion::RotateTowards(::UnityE
                                               { "RotateTowards", {}, { ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, from, to, maxDegreesDelta);
 }
-inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Normalize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> q) {
+inline ::UnityEngine::Quaternion UnityEngine::Quaternion::Normalize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> q) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Normalize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Normalize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, q);
 }
 inline void UnityEngine::Quaternion::Normalize() {
@@ -1075,9 +1093,9 @@ inline bool UnityEngine::Quaternion::Equals(::UnityEngine::Quaternion other) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Quaternion>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline bool UnityEngine::Quaternion::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> other) {
+inline bool UnityEngine::Quaternion::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> other) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline ::StringW UnityEngine::Quaternion::ToString() {
@@ -1089,79 +1107,82 @@ inline ::StringW UnityEngine::Quaternion::ToString(::StringW format, ::System::I
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "ToString", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::IFormatProvider*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method, format, formatProvider);
 }
-inline void UnityEngine::Quaternion::Internal_FromToRotation_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> fromDirection,
-                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> toDirection, ::by_ref<::UnityEngine::Quaternion> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_FromToRotation_Injected",
-                                                                                              {},
-                                                                                              { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                                ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+inline void UnityEngine::Quaternion::Internal_FromToRotation_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> fromDirection,
+                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> toDirection, ::by_ref<::UnityEngine::Quaternion> ret) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_FromToRotation_Injected",
+                                                                                                                                         {},
+                                                                                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, fromDirection, toDirection, ret);
 }
-inline void UnityEngine::Quaternion::Internal_Inverse_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> rotation, ::by_ref<::UnityEngine::Quaternion> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                              { "Internal_Inverse_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rotation, ret);
-}
-inline void UnityEngine::Quaternion::Internal_Slerp_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b, float_t t,
-                                                             ::by_ref<::UnityEngine::Quaternion> ret) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_Slerp_Injected",
-                                                                                       {},
-                                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                                                         ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b, t, ret);
-}
-inline void UnityEngine::Quaternion::Internal_SlerpUnclamped_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b, float_t t,
-                                                                      ::by_ref<::UnityEngine::Quaternion> ret) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_SlerpUnclamped_Injected",
-                                                                                       {},
-                                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                                                         ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b, t, ret);
-}
-inline void UnityEngine::Quaternion::Internal_Lerp_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b, float_t t,
-                                                            ::by_ref<::UnityEngine::Quaternion> ret) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_Lerp_Injected",
-                                                                                       {},
-                                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                                                         ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b, t, ret);
-}
-inline void UnityEngine::Quaternion::Internal_FromEulerRad_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> euler, ::by_ref<::UnityEngine::Quaternion> ret) {
+inline void UnityEngine::Quaternion::Internal_Inverse_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> rotation, ::by_ref<::UnityEngine::Quaternion> ret) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                       { "Internal_FromEulerRad_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, euler, ret);
-}
-inline void UnityEngine::Quaternion::Internal_ToEulerRad_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> rotation, ::by_ref<::UnityEngine::Vector3> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
-                                              { "Internal_ToEulerRad_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+                                       { "Internal_Inverse_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rotation, ret);
 }
-inline void UnityEngine::Quaternion::Internal_AngleAxis_Injected(float_t angle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> axis, ::by_ref<::UnityEngine::Quaternion> ret) {
+inline void UnityEngine::Quaternion::Internal_Slerp_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b, float_t t,
+                                                             ::by_ref<::UnityEngine::Quaternion> ret) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_Slerp_Injected",
+                                                                          {},
+                                                                          { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                            ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b, t, ret);
+}
+inline void UnityEngine::Quaternion::Internal_SlerpUnclamped_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b,
+                                                                      float_t t, ::by_ref<::UnityEngine::Quaternion> ret) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_SlerpUnclamped_Injected",
+                                                                          {},
+                                                                          { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                            ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b, t, ret);
+}
+inline void UnityEngine::Quaternion::Internal_Lerp_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b, float_t t,
+                                                            ::by_ref<::UnityEngine::Quaternion> ret) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_Lerp_Injected",
+                                                                          {},
+                                                                          { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                            ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b, t, ret);
+}
+inline void UnityEngine::Quaternion::Internal_FromEulerRad_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> euler, ::by_ref<::UnityEngine::Quaternion> ret) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                       { "Internal_FromEulerRad_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, euler, ret);
+}
+inline void UnityEngine::Quaternion::Internal_ToEulerRad_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> rotation, ::by_ref<::UnityEngine::Vector3> ret) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(),
+                                       { "Internal_ToEulerRad_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rotation, ret);
+}
+inline void UnityEngine::Quaternion::Internal_AngleAxis_Injected(float_t angle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> axis, ::by_ref<::UnityEngine::Quaternion> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::UnityEngine::Quaternion>(),
-          { "Internal_AngleAxis_Injected", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+          { "Internal_AngleAxis_Injected", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, angle, axis, ret);
 }
-inline void UnityEngine::Quaternion::Internal_LookRotation_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> forward,
-                                                                    /* [IsReadOnly] [DefaultValue("Vector3.up")] */ ::by_ref<::UnityEngine::Vector3> upwards, ::by_ref<::UnityEngine::Quaternion> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_LookRotation_Injected",
-                                                                                              {},
-                                                                                              { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                                ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+inline void UnityEngine::Quaternion::Internal_LookRotation_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> forward,
+                                                                    /* [IsReadOnly] [DefaultValue("Vector3.up")] */ ::by_ref<::UnityEngine::Vector3 const> upwards,
+                                                                    ::by_ref<::UnityEngine::Quaternion> ret) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Internal_LookRotation_Injected",
+                                                                                                                                         {},
+                                                                                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, forward, upwards, ret);
 }
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Quaternion>"

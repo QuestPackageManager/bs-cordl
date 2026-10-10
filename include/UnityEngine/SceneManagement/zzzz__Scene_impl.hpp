@@ -260,100 +260,101 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Scen
 //  Writing Method size for method: ::UnityEngine::SceneManagement::Scene.IsValidInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::SceneManagement::SceneHandle>)>(&::UnityEngine::SceneManagement::Scene::IsValidInternal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::SceneManagement::SceneHandle const>)>(&::UnityEngine::SceneManagement::Scene::IsValidInternal_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6f5a3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::Scene>(),
-                                                             { "IsValidInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle>>() } })));
+                                                             { "IsValidInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::SceneManagement::Scene.GetPathInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::SceneManagement::SceneHandle>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::SceneManagement::SceneHandle const>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::SceneManagement::Scene::GetPathInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f5a4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::SceneManagement::Scene>(),
-            { "GetPathInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::Scene>(), { "GetPathInternal_Injected",
+                                                                                                            {},
+                                                                                                            { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle const>>(),
+                                                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::SceneManagement::Scene.GetNameInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::SceneManagement::SceneHandle>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::SceneManagement::SceneHandle const>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::SceneManagement::Scene::GetNameInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f5a5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::SceneManagement::Scene>(),
-            { "GetNameInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::Scene>(), { "GetNameInternal_Injected",
+                                                                                                            {},
+                                                                                                            { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle const>>(),
+                                                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::SceneManagement::Scene.GetGUIDInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::SceneManagement::SceneHandle>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::SceneManagement::SceneHandle const>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::SceneManagement::Scene::GetGUIDInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f5a6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::SceneManagement::Scene>(),
-            { "GetGUIDInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::Scene>(), { "GetGUIDInternal_Injected",
+                                                                                                            {},
+                                                                                                            { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle const>>(),
+                                                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::SceneManagement::Scene.GetIsLoadedInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::SceneManagement::SceneHandle>)>(&::UnityEngine::SceneManagement::Scene::GetIsLoadedInternal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::SceneManagement::SceneHandle const>)>(&::UnityEngine::SceneManagement::Scene::GetIsLoadedInternal_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6f5a780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::Scene>(),
-                                                             { "GetIsLoadedInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle>>() } })));
+                                                             { "GetIsLoadedInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::SceneManagement::Scene.GetRootCountInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::UnityEngine::SceneManagement::SceneHandle>)>(&::UnityEngine::SceneManagement::Scene::GetRootCountInternal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::UnityEngine::SceneManagement::SceneHandle const>)>(
+    &::UnityEngine::SceneManagement::Scene::GetRootCountInternal_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6f5a7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::Scene>(),
-                                                             { "GetRootCountInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle>>() } })));
+                                                             { "GetRootCountInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::SceneManagement::Scene.GetRootGameObjectsInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::SceneManagement::SceneHandle>, ::System::Object*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::SceneManagement::SceneHandle const>, ::System::Object*)>(
     &::UnityEngine::SceneManagement::Scene::GetRootGameObjectsInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f5a880;
@@ -362,7 +363,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::Scene>(),
-                            { "GetRootGameObjectsInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle>>(), ::i2c::type_of<::System::Object*>() } })));
+                            { "GetRootGameObjectsInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle const>>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
@@ -456,56 +457,56 @@ inline bool UnityEngine::SceneManagement::Scene::Equals(::System::Object* other)
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::SceneManagement::Scene>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline bool UnityEngine::SceneManagement::Scene::IsValidInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle> sceneHandle) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::Scene>(), { "IsValidInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle>>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, sceneHandle);
-}
-inline void UnityEngine::SceneManagement::Scene::GetPathInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle> sceneHandle,
-                                                                          ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::SceneManagement::Scene>(),
-          { "GetPathInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sceneHandle, ret);
-}
-inline void UnityEngine::SceneManagement::Scene::GetNameInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle> sceneHandle,
-                                                                          ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::SceneManagement::Scene>(),
-          { "GetNameInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sceneHandle, ret);
-}
-inline void UnityEngine::SceneManagement::Scene::GetGUIDInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle> sceneHandle,
-                                                                          ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::SceneManagement::Scene>(),
-          { "GetGUIDInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sceneHandle, ret);
-}
-inline bool UnityEngine::SceneManagement::Scene::GetIsLoadedInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle> sceneHandle) {
+inline bool UnityEngine::SceneManagement::Scene::IsValidInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle const> sceneHandle) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::Scene>(),
-                                                           { "GetIsLoadedInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle>>() } })));
+                                                           { "IsValidInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, sceneHandle);
 }
-inline int32_t UnityEngine::SceneManagement::Scene::GetRootCountInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle> sceneHandle) {
+inline void UnityEngine::SceneManagement::Scene::GetPathInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle const> sceneHandle,
+                                                                          ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::Scene>(), { "GetPathInternal_Injected",
+                                                                                                                       {},
+                                                                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle const>>(),
+                                                                                                                         ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sceneHandle, ret);
+}
+inline void UnityEngine::SceneManagement::Scene::GetNameInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle const> sceneHandle,
+                                                                          ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::Scene>(), { "GetNameInternal_Injected",
+                                                                                                                       {},
+                                                                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle const>>(),
+                                                                                                                         ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sceneHandle, ret);
+}
+inline void UnityEngine::SceneManagement::Scene::GetGUIDInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle const> sceneHandle,
+                                                                          ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::Scene>(), { "GetGUIDInternal_Injected",
+                                                                                                                       {},
+                                                                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle const>>(),
+                                                                                                                         ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sceneHandle, ret);
+}
+inline bool UnityEngine::SceneManagement::Scene::GetIsLoadedInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle const> sceneHandle) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::Scene>(),
-                                                           { "GetRootCountInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle>>() } })));
+                                                           { "GetIsLoadedInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, sceneHandle);
+}
+inline int32_t UnityEngine::SceneManagement::Scene::GetRootCountInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle const> sceneHandle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::Scene>(),
+                                                           { "GetRootCountInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, sceneHandle);
 }
-inline void UnityEngine::SceneManagement::Scene::GetRootGameObjectsInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle> sceneHandle, ::System::Object* resultRootList) {
+inline void UnityEngine::SceneManagement::Scene::GetRootGameObjectsInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle const> sceneHandle, ::System::Object* resultRootList) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::Scene>(),
-                          { "GetRootGameObjectsInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle>>(), ::i2c::type_of<::System::Object*>() } })));
+                          { "GetRootGameObjectsInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::SceneHandle const>>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sceneHandle, resultRootList);
 }
 // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::SceneManagement::SceneHandle", modifiers: "", def_value: Some("{}"), comment: None }]

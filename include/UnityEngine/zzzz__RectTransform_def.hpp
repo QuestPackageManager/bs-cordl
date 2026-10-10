@@ -373,13 +373,13 @@ public:
   inline void set_anchorMax(::UnityEngine::Vector2 value);
 
   /// @brief Method set_anchorMax_Injected, addr 0x6f4f564, size 0x44, virtual false, abstract: false, final false
-  static inline void set_anchorMax_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
+  static inline void set_anchorMax_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2 const> value);
 
   /// @brief Method set_anchorMin, addr 0x6f4f334, size 0x8c, virtual false, abstract: false, final false
   inline void set_anchorMin(::UnityEngine::Vector2 value);
 
   /// @brief Method set_anchorMin_Injected, addr 0x6f4f3c0, size 0x44, virtual false, abstract: false, final false
-  static inline void set_anchorMin_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
+  static inline void set_anchorMin_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2 const> value);
 
   /// @brief Method set_anchoredPosition, addr 0x6f4f67c, size 0x8c, virtual false, abstract: false, final false
   inline void set_anchoredPosition(::UnityEngine::Vector2 value);
@@ -388,7 +388,7 @@ public:
   inline void set_anchoredPosition3D(::UnityEngine::Vector3 value);
 
   /// @brief Method set_anchoredPosition_Injected, addr 0x6f4f708, size 0x44, virtual false, abstract: false, final false
-  static inline void set_anchoredPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
+  static inline void set_anchoredPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2 const> value);
 
   /// @brief Method set_drivenByObject, addr 0x6f50094, size 0xb8, virtual false, abstract: false, final false
   inline void set_drivenByObject(::UnityEngine::Object* value);
@@ -412,7 +412,7 @@ public:
   inline void set_pivot(::UnityEngine::Vector2 value);
 
   /// @brief Method set_pivot_Injected, addr 0x6f4fa50, size 0x44, virtual false, abstract: false, final false
-  static inline void set_pivot_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
+  static inline void set_pivot_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2 const> value);
 
   /// @brief Method set_sendChildDimensionsChange, addr 0x6f503c4, size 0x88, virtual false, abstract: false, final false
   inline void set_sendChildDimensionsChange(bool value);
@@ -424,7 +424,7 @@ public:
   inline void set_sizeDelta(::UnityEngine::Vector2 value);
 
   /// @brief Method set_sizeDelta_Injected, addr 0x6f4f8ac, size 0x44, virtual false, abstract: false, final false
-  static inline void set_sizeDelta_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
+  static inline void set_sizeDelta_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2 const> value);
 
 protected:
   // Ctor Parameters []

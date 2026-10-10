@@ -48,22 +48,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::SettingsApplicatorSO.ApplyGameSettings
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::by_ref<::BeatSaber::Settings::Settings>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::by_ref<::BeatSaber::Settings::Settings const>)>(
     &::GlobalNamespace::SettingsApplicatorSO::ApplyGameSettings)> {
   constexpr static std::size_t size = 0x10c;
   constexpr static std::size_t addrs = 0x5d1c190;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsApplicatorSO*>(), { "ApplyGameSettings", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsApplicatorSO*>(),
+                                                                                           { "ApplyGameSettings", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SettingsApplicatorSO.ApplyGraphicSettings
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::by_ref<::BeatSaber::Settings::Settings>, ::GlobalNamespace::SceneType)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::by_ref<::BeatSaber::Settings::Settings const>, ::GlobalNamespace::SceneType)>(
     &::GlobalNamespace::SettingsApplicatorSO::ApplyGraphicSettings)> {
   constexpr static std::size_t size = 0x3c0;
   constexpr static std::size_t addrs = 0x5d1bd54;
@@ -77,7 +76,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::SettingsApplicatorSO.ApplyWindowSettings
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::by_ref<::BeatSaber::Settings::WindowSettings>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::by_ref<::BeatSaber::Settings::WindowSettings const>)>(
     &::GlobalNamespace::SettingsApplicatorSO::ApplyWindowSettings)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5d1c414;
@@ -244,17 +243,16 @@ inline void GlobalNamespace::SettingsApplicatorSO::remove_roomTransformOffsetDid
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsApplicatorSO*>(), { "remove_roomTransformOffsetDidUpdateEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::SettingsApplicatorSO::ApplyGameSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsApplicatorSO*>(), { "ApplyGameSettings", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>() } })));
+inline void GlobalNamespace::SettingsApplicatorSO::ApplyGameSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsApplicatorSO*>(),
+                                                                                         { "ApplyGameSettings", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, settings);
 }
-inline void GlobalNamespace::SettingsApplicatorSO::ApplyGraphicSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType) {
+inline void GlobalNamespace::SettingsApplicatorSO::ApplyGraphicSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings, ::GlobalNamespace::SceneType sceneType) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SettingsApplicatorSO*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, settings, sceneType);
 }
-inline void GlobalNamespace::SettingsApplicatorSO::ApplyWindowSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::WindowSettings> settings) {
+inline void GlobalNamespace::SettingsApplicatorSO::ApplyWindowSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::WindowSettings const> settings) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SettingsApplicatorSO*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, settings);
 }

@@ -76,7 +76,7 @@ public:
   __declspec(property(get = get_overrideMaterial, put = set_overrideMaterial)) ::UnityW<::UnityEngine::Material> overrideMaterial;
 
   /// @brief Method Draw, addr 0x6c92d38, size 0x250, virtual false, abstract: false, final false
-  inline void Draw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
+  inline void Draw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
                    ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk);
 
   /// @brief Method Draw, addr 0x6c92418, size 0x220, virtual false, abstract: false, final false
@@ -84,7 +84,7 @@ public:
                    ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk, int32_t passIndex);
 
   /// @brief Method DrawInstanced, addr 0x6c92a84, size 0x2b4, virtual false, abstract: false, final false
-  inline void DrawInstanced(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
+  inline void DrawInstanced(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
                             ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk);
 
   /// @brief Method DrawInstanced, addr 0x6c921a8, size 0x270, virtual false, abstract: false, final false
@@ -92,10 +92,10 @@ public:
                             ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk, int32_t passIndex);
 
   /// @brief Method Execute, addr 0x6c926f8, size 0x1d4, virtual false, abstract: false, final false
-  inline void Execute(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
+  inline void Execute(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData);
 
   /// @brief Method Execute, addr 0x6c928cc, size 0x1b8, virtual false, abstract: false, final false
-  inline void Execute(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
+  inline void Execute(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
                       ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk, int32_t count);
 
   /// @brief Method Execute, addr 0x6c91f1c, size 0xb4, virtual false, abstract: false, final false

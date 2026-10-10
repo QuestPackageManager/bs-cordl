@@ -45,7 +45,7 @@ public:
   static inline void CancelInternal(::Unity::IO::LowLevel::Unsafe::ReadHandle handle);
 
   /// @brief Method CancelInternal_Injected, addr 0x6eb0ff4, size 0x3c, virtual false, abstract: false, final false
-  static inline void CancelInternal_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> handle);
+  static inline void CancelInternal_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const> handle);
 
   /// @brief Method Dispose, addr 0x6eb0ce0, size 0xfc, virtual true, abstract: false, final true
   inline void Dispose();
@@ -56,7 +56,7 @@ public:
   static inline ::Unity::Jobs::JobHandle GetJobHandle(::Unity::IO::LowLevel::Unsafe::ReadHandle handle);
 
   /// @brief Method GetJobHandle_Injected, addr 0x6eb1214, size 0x44, virtual false, abstract: false, final false
-  static inline void GetJobHandle_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> handle, ::by_ref<::Unity::Jobs::JobHandle> ret);
+  static inline void GetJobHandle_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const> handle, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
   /// [ThreadAndSerializationSafe]
   /// [FreeFunction("AsyncReadManagerManaged::GetReadStatus", IsThreadSafe = true)]
@@ -64,7 +64,7 @@ public:
   static inline ::Unity::IO::LowLevel::Unsafe::ReadStatus GetReadStatus(::Unity::IO::LowLevel::Unsafe::ReadHandle handle);
 
   /// @brief Method GetReadStatus_Injected, addr 0x6eb1160, size 0x3c, virtual false, abstract: false, final false
-  static inline ::Unity::IO::LowLevel::Unsafe::ReadStatus GetReadStatus_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> handle);
+  static inline ::Unity::IO::LowLevel::Unsafe::ReadStatus GetReadStatus_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const> handle);
 
   /// [ThreadAndSerializationSafe]
   /// [FreeFunction("AsyncReadManagerManaged::IsReadHandleValid", IsThreadSafe = true)]
@@ -72,7 +72,7 @@ public:
   static inline bool IsReadHandleValid(::Unity::IO::LowLevel::Unsafe::ReadHandle handle);
 
   /// @brief Method IsReadHandleValid_Injected, addr 0x6eb11d8, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsReadHandleValid_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> handle);
+  static inline bool IsReadHandleValid_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const> handle);
 
   /// @brief Method IsValid, addr 0x6eb0c54, size 0x48, virtual false, abstract: false, final false
   inline bool IsValid();
@@ -83,7 +83,7 @@ public:
   static inline void ReleaseReadHandle(::Unity::IO::LowLevel::Unsafe::ReadHandle handle);
 
   /// @brief Method ReleaseReadHandle_Injected, addr 0x6eb119c, size 0x3c, virtual false, abstract: false, final false
-  static inline void ReleaseReadHandle_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> handle);
+  static inline void ReleaseReadHandle_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const> handle);
 
   /// @brief Method get_JobHandle, addr 0x6eb1030, size 0xa4, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle get_JobHandle();

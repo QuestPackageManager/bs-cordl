@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(
-    ::by_ref<::GlobalNamespace::LevelFilter>, ::ArrayW<::GlobalNamespace::BeatmapCharacteristic>)>(&::GlobalNamespace::SearchFilterParamsViewController::Setup)> {
+    ::by_ref<::GlobalNamespace::LevelFilter const>, ::ArrayW<::GlobalNamespace::BeatmapCharacteristic>)>(&::GlobalNamespace::SearchFilterParamsViewController::Setup)> {
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x5d71e8c;
 
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SearchFilterParamsViewController*>(),
-                                         { "Setup", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter>>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>>() } })));
+                                         { "Setup", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter const>>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>>() } })));
     return ___internal_method;
   }
 };
@@ -166,15 +166,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::SearchFilterParamsViewController.Refresh
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(::by_ref<::GlobalNamespace::LevelFilter>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(::by_ref<::GlobalNamespace::LevelFilter const>)>(
     &::GlobalNamespace::SearchFilterParamsViewController::Refresh)> {
   constexpr static std::size_t size = 0x3dc;
   constexpr static std::size_t addrs = 0x5d71ecc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SearchFilterParamsViewController*>(), { "Refresh", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SearchFilterParamsViewController*>(),
+                                                                                           { "Refresh", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter const>>() } })));
     return ___internal_method;
   }
 };
@@ -437,11 +436,12 @@ GlobalNamespace::SearchFilterParamsViewController::remove_didFinishEvent(::Syste
                           { "remove_didFinishEvent", {}, { ::i2c::type_of<::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::SearchFilterParamsViewController::Setup(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter,
+inline void GlobalNamespace::SearchFilterParamsViewController::Setup(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter const> filter,
                                                                      ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> notAllowedCharacteristics) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SearchFilterParamsViewController*>(),
-                                              { "Setup", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter>>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SearchFilterParamsViewController*>(),
+                                       { "Setup", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter const>>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, filter, notAllowedCharacteristics);
 }
 inline void GlobalNamespace::SearchFilterParamsViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
@@ -480,10 +480,9 @@ inline void GlobalNamespace::SearchFilterParamsViewController::HandleFilterByNot
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SearchFilterParamsViewController*>(), { "HandleFilterByNotOwnedValueValueChanged", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, isOn);
 }
-inline void GlobalNamespace::SearchFilterParamsViewController::Refresh(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SearchFilterParamsViewController*>(), { "Refresh", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter>>() } })));
+inline void GlobalNamespace::SearchFilterParamsViewController::Refresh(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter const> filter) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SearchFilterParamsViewController*>(),
+                                                                                         { "Refresh", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, filter);
 }
 inline void GlobalNamespace::SearchFilterParamsViewController::_ctor() {

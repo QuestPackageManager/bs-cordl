@@ -466,41 +466,42 @@ public:
   constexpr operator ::System::IDisposable*();
 
   /// @brief Method AddOcclusionCullingDispatch, addr 0x6c4d018, size 0xaf8, virtual false, abstract: false, final false
-  inline void AddOcclusionCullingDispatch(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
-                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings> subviewSettings,
-                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::IndirectBufferContextHandles> bufferHandles,
-                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles, ::UnityEngine::Rendering::RenderersBatchersContext* batchersContext);
+  inline void AddOcclusionCullingDispatch(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings const> settings,
+                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings const> subviewSettings,
+                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::IndirectBufferContextHandles const> bufferHandles,
+                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles const> occluderHandles,
+                                          ::UnityEngine::Rendering::RenderersBatchersContext* batchersContext);
 
   /// @brief Method AnimateCrossFades, addr 0x6c4b978, size 0x278, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle AnimateCrossFades(::UnityEngine::Rendering::CPUPerCameraInstanceData perCameraInstanceData, ::UnityEngine::Rendering::BatchCullingContext cc,
                                                     ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData_PerCameraInstanceDataArrays> cameraInstanceData, ::by_ref<bool> hasAnimatedCrossfade);
 
   /// @brief Method ComputeWorstCaseDrawCommandCount, addr 0x6c4c0ec, size 0xec, virtual false, abstract: false, final false
-  inline int32_t ComputeWorstCaseDrawCommandCount(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc, ::UnityEngine::Rendering::BinningConfig binningConfig,
+  inline int32_t ComputeWorstCaseDrawCommandCount(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cc, ::UnityEngine::Rendering::BinningConfig binningConfig,
                                                   ::UnityEngine::Rendering::CPUDrawInstanceData* drawInstanceData);
 
   /// @brief Method CreateCompactedVisibilityMaskJob, addr 0x6c4cac4, size 0x154, virtual false, abstract: false, final false
-  inline ::Unity::Jobs::JobHandle CreateCompactedVisibilityMaskJob(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData,
+  inline ::Unity::Jobs::JobHandle CreateCompactedVisibilityMaskJob(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly const> instanceData,
                                                                    ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::Unity::Jobs::JobHandle cullingJobHandle);
 
   /// @brief Method CreateCullJobTree, addr 0x6c4c1d8, size 0x8ec, virtual false, abstract: false, final false
-  inline ::Unity::Jobs::JobHandle CreateCullJobTree(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc, ::UnityEngine::Rendering::BatchCullingOutput cullingOutput,
-                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData,
-                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly> sharedInstanceData,
-                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData,
-                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly> instanceDataBuffer,
+  inline ::Unity::Jobs::JobHandle CreateCullJobTree(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cc, ::UnityEngine::Rendering::BatchCullingOutput cullingOutput,
+                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly const> instanceData,
+                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly const> sharedInstanceData,
+                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData const> perCameraInstanceData,
+                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly const> instanceDataBuffer,
                                                     ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData> lodGroupCullingData,
                                                     ::UnityEngine::Rendering::CPUDrawInstanceData* drawInstanceData,
                                                     ::Unity::Collections::NativeParallelHashMap_2<uint32_t, ::UnityEngine::Rendering::BatchID> batchIDs, float_t smallMeshScreenPercentage,
                                                     ::UnityEngine::Rendering::OcclusionCullingCommon* occlusionCullingCommon);
 
   /// @brief Method CreateFrustumCullingJob, addr 0x6c4bbf0, size 0x4fc, virtual false, abstract: false, final false
-  inline ::Unity::Jobs::JobHandle CreateFrustumCullingJob(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
-                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData,
-                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly> sharedInstanceData,
-                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData,
+  inline ::Unity::Jobs::JobHandle CreateFrustumCullingJob(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cc,
+                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly const> instanceData,
+                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly const> sharedInstanceData,
+                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData const> perCameraInstanceData,
                                                           ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData> lodGroupCullingData,
-                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BinningConfig> binningConfig, float_t smallMeshScreenPercentage,
+                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BinningConfig const> binningConfig, float_t smallMeshScreenPercentage,
                                                           ::UnityEngine::Rendering::OcclusionCullingCommon* occlusionCullingCommon,
                                                           ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::Unity::Collections::NativeArray_1<uint8_t> rendererMeshLodSettings,
                                                           ::Unity::Collections::NativeArray_1<uint8_t> rendererCrossFadeValues);
@@ -530,7 +531,8 @@ public:
   inline void InstanceOccludersUpdated(int32_t viewInstanceID, int32_t subviewMask, ::UnityEngine::Rendering::RenderersBatchersContext* batchersContext);
 
   /// @brief Method InstanceOcclusionTest, addr 0x6c41f88, size 0x4f4, virtual false, abstract: false, final false
-  inline void InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
+  inline void InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings const> settings,
                                     ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest> subviewOcclusionTests,
                                     ::UnityEngine::Rendering::RenderersBatchersContext* batchersContext);
 

@@ -74,11 +74,11 @@ public:
 
   /// [ExcludeFromDocs]
   /// @brief Method op_Equality, addr 0x6f93778, size 0x2c, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> rhs);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> rhs);
 
   /// [ExcludeFromDocs]
   /// @brief Method op_Inequality, addr 0x6f93ce4, size 0x2c, virtual false, abstract: false, final false
-  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> rhs);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> rhs);
 
   static inline void setStaticF_s_Null(::Unity::Hierarchy::HierarchyNode value);
 

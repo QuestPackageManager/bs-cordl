@@ -68,18 +68,17 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions::Write
 }
 template <typename T>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void* Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions::AddressOf(/* [IsReadOnly] */ ::by_ref<T> value) {
+inline void* Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions::AddressOf(/* [IsReadOnly] */ ::by_ref<T const> value) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions*>(),
-                                                                                              { "AddressOf", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
+                                                                                              { "AddressOf", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void*>(nullptr, ___internal_method, value);
 }
 template <typename T>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::by_ref<T> Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions::AsRef(/* [IsReadOnly] */ ::by_ref<T> value) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions*>(), { "AsRef", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
+inline ::by_ref<T> Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions::AsRef(/* [IsReadOnly] */ ::by_ref<T const> value) {
+  static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions*>(),
+                                                                                              { "AsRef", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(nullptr, ___internal_method, value);
 }

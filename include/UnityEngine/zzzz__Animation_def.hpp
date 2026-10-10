@@ -497,7 +497,7 @@ public:
   inline void set_localBounds(::UnityEngine::Bounds value);
 
   /// @brief Method set_localBounds_Injected, addr 0x6e87560, size 0x44, virtual false, abstract: false, final false
-  static inline void set_localBounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds> value);
+  static inline void set_localBounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds const> value);
 
   /// @brief Method set_playAutomatically, addr 0x6e84c38, size 0x90, virtual false, abstract: false, final false
   inline void set_playAutomatically(bool value);

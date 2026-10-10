@@ -333,18 +333,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespac
 //  Writing Method size for method: ::GlobalNamespace::NoteMovement.Init
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteMovement::*)(float_t, float_t, ::by_ref<::GlobalNamespace::NoteSpawnData>, float_t, float_t, bool, bool)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteMovement::*)(float_t, float_t, ::by_ref<::GlobalNamespace::NoteSpawnData const>, float_t, float_t, bool, bool)>(
     &::GlobalNamespace::NoteMovement::Init)> {
   constexpr static std::size_t size = 0x188;
   constexpr static std::size_t addrs = 0x5cea8d8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteMovement*>(), { "Init",
-                                                                                   {},
-                                                                                   { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NoteSpawnData>>(),
-                                                                                     ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteMovement*>(),
+                                                             { "Init",
+                                                               {},
+                                                               { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NoteSpawnData const>>(),
+                                                                 ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -778,14 +778,14 @@ inline float_t GlobalNamespace::NoteMovement::get_distanceToPlayer() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteMovement*>(), { "get_distanceToPlayer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline void GlobalNamespace::NoteMovement::Init(float_t noteTime, float_t worldRotation, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t flipYSide,
+inline void GlobalNamespace::NoteMovement::Init(float_t noteTime, float_t worldRotation, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData const> noteSpawnData, float_t flipYSide,
                                                 float_t endRotation, bool rotateTowardsPlayer, bool useRandomRotation) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteMovement*>(), { "Init",
-                                                                                 {},
-                                                                                 { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NoteSpawnData>>(),
-                                                                                   ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteMovement*>(),
+                                                           { "Init",
+                                                             {},
+                                                             { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NoteSpawnData const>>(),
+                                                               ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteTime, worldRotation, noteSpawnData, flipYSide, endRotation, rotateTowardsPlayer, useRandomRotation);
 }
 inline void GlobalNamespace::NoteMovement::Awake() {

@@ -23,17 +23,17 @@ public:
   template <typename A, typename B>
     requires(::cordl_internals::value_type_constraint<A> && ::cordl_internals::default_constructor_constraint<A> && ::cordl_internals::value_type_constraint<B> &&
              ::cordl_internals::default_constructor_constraint<B>)
-  static inline void ExpectAliased(/* [IsReadOnly] */ ::by_ref<A> a, /* [IsReadOnly] */ ::by_ref<B> b);
+  static inline void ExpectAliased(/* [IsReadOnly] */ ::by_ref<A const> a, /* [IsReadOnly] */ ::by_ref<B const> b);
 
   /// @brief Method ExpectAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename A>
     requires(::cordl_internals::value_type_constraint<A> && ::cordl_internals::default_constructor_constraint<A>)
-  static inline void ExpectAliased(/* [IsReadOnly] */ ::by_ref<A> a, void* b);
+  static inline void ExpectAliased(/* [IsReadOnly] */ ::by_ref<A const> a, void* b);
 
   /// @brief Method ExpectAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename B>
     requires(::cordl_internals::value_type_constraint<B> && ::cordl_internals::default_constructor_constraint<B>)
-  static inline void ExpectAliased(void* a, /* [IsReadOnly] */ ::by_ref<B> b);
+  static inline void ExpectAliased(void* a, /* [IsReadOnly] */ ::by_ref<B const> b);
 
   /// @brief Method ExpectAliased, addr 0x68cfd4c, size 0x4, virtual false, abstract: false, final false
   static inline void ExpectAliased(void* a, void* b);
@@ -42,17 +42,17 @@ public:
   template <typename A, typename B>
     requires(::cordl_internals::value_type_constraint<A> && ::cordl_internals::default_constructor_constraint<A> && ::cordl_internals::value_type_constraint<B> &&
              ::cordl_internals::default_constructor_constraint<B>)
-  static inline void ExpectNotAliased(/* [IsReadOnly] */ ::by_ref<A> a, /* [IsReadOnly] */ ::by_ref<B> b);
+  static inline void ExpectNotAliased(/* [IsReadOnly] */ ::by_ref<A const> a, /* [IsReadOnly] */ ::by_ref<B const> b);
 
   /// @brief Method ExpectNotAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename A>
     requires(::cordl_internals::value_type_constraint<A> && ::cordl_internals::default_constructor_constraint<A>)
-  static inline void ExpectNotAliased(/* [IsReadOnly] */ ::by_ref<A> a, void* b);
+  static inline void ExpectNotAliased(/* [IsReadOnly] */ ::by_ref<A const> a, void* b);
 
   /// @brief Method ExpectNotAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename B>
     requires(::cordl_internals::value_type_constraint<B> && ::cordl_internals::default_constructor_constraint<B>)
-  static inline void ExpectNotAliased(void* a, /* [IsReadOnly] */ ::by_ref<B> b);
+  static inline void ExpectNotAliased(void* a, /* [IsReadOnly] */ ::by_ref<B const> b);
 
   /// @brief Method ExpectNotAliased, addr 0x68cfd50, size 0x4, virtual false, abstract: false, final false
   static inline void ExpectNotAliased(void* a, void* b);

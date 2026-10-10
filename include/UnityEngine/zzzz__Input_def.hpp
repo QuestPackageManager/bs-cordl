@@ -179,7 +179,7 @@ public:
   static inline void set_compositionCursorPos(::UnityEngine::Vector2 value);
 
   /// @brief Method set_compositionCursorPos_Injected, addr 0x6fc20f0, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_compositionCursorPos_Injected(::by_ref<::UnityEngine::Vector2> value);
+  static inline void set_compositionCursorPos_Injected(::by_ref<::UnityEngine::Vector2 const> value);
 
   /// @brief Method set_imeCompositionMode, addr 0x6fc1ef4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_imeCompositionMode(::UnityEngine::IMECompositionMode value);

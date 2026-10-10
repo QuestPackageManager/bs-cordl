@@ -46,7 +46,7 @@ public:
   inline int32_t Read();
 
   /// @brief Method Read, addr 0x603a0dc, size 0x28c, virtual true, abstract: false, final false
-  inline int32_t Read(::by_ref<::ArrayW<char16_t>> dest_buffer, int32_t index, int32_t count);
+  inline int32_t Read(::ArrayW<char16_t> dest_buffer, int32_t index, int32_t count);
 
   /// @brief Method ReadLine, addr 0x603a50c, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW ReadLine();

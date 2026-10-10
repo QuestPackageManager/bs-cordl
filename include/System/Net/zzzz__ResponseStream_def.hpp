@@ -100,7 +100,7 @@ public:
   static inline ::System::Net::ResponseStream* New_ctor(::System::IO::Stream* stream, ::System::Net::HttpListenerResponse* response, bool ignore_errors);
 
   /// @brief Method Read, addr 0x6764c0c, size 0x38, virtual true, abstract: false, final false
-  inline int32_t Read(::by_ref<::ArrayW<uint8_t>> buffer, int32_t offset, int32_t count);
+  inline int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
   /// @brief Method Seek, addr 0x6764cb4, size 0x38, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);

@@ -109,14 +109,15 @@ public:
 
   /// @brief Method GetSetValueErrorString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue>
-  static inline ::StringW GetSetValueErrorString(::Unity::Properties::VisitReturnCode returnCode, ::System::Object* source, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> sourcePath,
-                                                 ::System::Object* target, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> targetPath, TValue extractedValueFromSource);
+  static inline ::StringW GetSetValueErrorString(::Unity::Properties::VisitReturnCode returnCode, ::System::Object* source,
+                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> sourcePath, ::System::Object* target,
+                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> targetPath, TValue extractedValueFromSource);
 
   /// @brief Method UpdateSource, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename TValue> inline ::UnityEngine::UIElements::BindingResult UpdateSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::by_ref<TValue> value);
+  template <typename TValue> inline ::UnityEngine::UIElements::BindingResult UpdateSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context, ::by_ref<TValue> value);
 
   /// @brief Method UpdateUI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename TValue> inline ::UnityEngine::UIElements::BindingResult UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::by_ref<TValue> value);
+  template <typename TValue> inline ::UnityEngine::UIElements::BindingResult UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context, ::by_ref<TValue> value);
 
   constexpr ::Unity::Properties::PropertyPath const& __cordl_internal_get__dataSourcePath_k__BackingField() const;
 

@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RadeonRays::HlbvhBuilder::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::GraphicsBuffer*, int32_t, uint32_t, ::UnityEngine::GraphicsBuffer*, int32_t, int32_t, ::UnityEngine::Rendering::RadeonRays::IndexFormat,
-    uint32_t, ::UnityEngine::GraphicsBuffer*, ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct>)>(&::UnityEngine::Rendering::RadeonRays::HlbvhBuilder::Execute)> {
+    uint32_t, ::UnityEngine::GraphicsBuffer*, ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const>)>(&::UnityEngine::Rendering::RadeonRays::HlbvhBuilder::Execute)> {
   constexpr static std::size_t size = 0x4e4;
   constexpr static std::size_t addrs = 0x6dfba98;
 
@@ -140,7 +140,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                   { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(), ::i2c::type_of<int32_t>(),
                                                     ::i2c::type_of<uint32_t>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
                                                     ::i2c::type_of<::UnityEngine::Rendering::RadeonRays::IndexFormat>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct>>() } })));
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const>>() } })));
     return ___internal_method;
   }
 };
@@ -261,7 +261,7 @@ inline uint32_t UnityEngine::Rendering::RadeonRays::HlbvhBuilder::GetResultDataS
 inline void UnityEngine::Rendering::RadeonRays::HlbvhBuilder::Execute(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* vertices, int32_t verticesOffset,
                                                                       uint32_t vertexStride, ::UnityEngine::GraphicsBuffer* indices, int32_t indicesOffset, int32_t baseIndex,
                                                                       ::UnityEngine::Rendering::RadeonRays::IndexFormat indexFormat, uint32_t triangleCount, ::UnityEngine::GraphicsBuffer* scratch,
-                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct> result) {
+                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const> result) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RadeonRays::HlbvhBuilder*>(),
                                               { "Execute",
@@ -269,7 +269,7 @@ inline void UnityEngine::Rendering::RadeonRays::HlbvhBuilder::Execute(::UnityEng
                                                 { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(), ::i2c::type_of<int32_t>(),
                                                   ::i2c::type_of<uint32_t>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
                                                   ::i2c::type_of<::UnityEngine::Rendering::RadeonRays::IndexFormat>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct>>() } })));
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, vertices, verticesOffset, vertexStride, indices, indicesOffset, baseIndex, indexFormat, triangleCount, scratch,
                                                    result);
 }

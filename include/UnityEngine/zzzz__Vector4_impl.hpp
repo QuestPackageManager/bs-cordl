@@ -151,26 +151,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Vect
 //  Writing Method size for method: ::UnityEngine::Vector4.Equals
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Vector4::*)(::by_ref<::UnityEngine::Vector4>)>(&::UnityEngine::Vector4::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Vector4::*)(::by_ref<::UnityEngine::Vector4 const>)>(&::UnityEngine::Vector4::Equals)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x6f2e72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Vector4.Normalize
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::by_ref<::UnityEngine::Vector4>)>(&::UnityEngine::Vector4::Normalize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::by_ref<::UnityEngine::Vector4 const>)>(&::UnityEngine::Vector4::Normalize)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x6f2e778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Normalize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Normalize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
     return ___internal_method;
   }
 };
@@ -214,27 +214,27 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine
 //  Writing Method size for method: ::UnityEngine::Vector4.Dot
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Vector4>)>(&::UnityEngine::Vector4::Dot)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Vector4 const>, ::by_ref<::UnityEngine::Vector4 const>)>(&::UnityEngine::Vector4::Dot)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x6f2ea04;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Dot", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(),
+                                                             { "Dot", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Vector4.Magnitude
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Vector4>)>(&::UnityEngine::Vector4::Magnitude)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Vector4 const>)>(&::UnityEngine::Vector4::Magnitude)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x6f2ea2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Magnitude", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Magnitude", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
     return ___internal_method;
   }
 };
@@ -560,14 +560,14 @@ inline bool UnityEngine::Vector4::Equals(::UnityEngine::Vector4 other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Vector4>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline bool UnityEngine::Vector4::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> other) {
+inline bool UnityEngine::Vector4::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> other) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline ::UnityEngine::Vector4 UnityEngine::Vector4::Normalize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> a) {
+inline ::UnityEngine::Vector4 UnityEngine::Vector4::Normalize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> a) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Normalize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Normalize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4>(nullptr, ___internal_method, a);
 }
 inline void UnityEngine::Vector4::Normalize() {
@@ -583,15 +583,15 @@ inline float_t UnityEngine::Vector4::Dot(::UnityEngine::Vector4 a, ::UnityEngine
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Dot", {}, { ::i2c::type_of<::UnityEngine::Vector4>(), ::i2c::type_of<::UnityEngine::Vector4>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, a, b);
 }
-inline float_t UnityEngine::Vector4::Dot(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> b) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Dot", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+inline float_t UnityEngine::Vector4::Dot(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> b) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(),
+                                                           { "Dot", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, a, b);
 }
-inline float_t UnityEngine::Vector4::Magnitude(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> a) {
+inline float_t UnityEngine::Vector4::Magnitude(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> a) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Magnitude", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector4>(), { "Magnitude", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, a);
 }
 inline float_t UnityEngine::Vector4::get_magnitude() {

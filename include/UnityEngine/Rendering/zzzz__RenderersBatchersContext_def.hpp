@@ -260,25 +260,25 @@ public:
   inline ::UnityEngine::Rendering::InstanceHandle GetRendererInstanceHandle(::UnityEngine::EntityId rendererID);
 
   /// @brief Method GetVisibleTreeInstances, addr 0x6c6f1a4, size 0x1c, virtual false, abstract: false, final false
-  inline void GetVisibleTreeInstances(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks,
-                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray> processedBits, ::Unity::Collections::NativeList_1<int32_t> visibeTreeRendererIDs,
+  inline void GetVisibleTreeInstances(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray const> compactedVisibilityMasks,
+                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray const> processedBits, ::Unity::Collections::NativeList_1<int32_t> visibeTreeRendererIDs,
                                       ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> visibeTreeInstances, bool becomeVisibleOnly,
                                       ::by_ref<int32_t> becomeVisibeTreeInstancesCount);
 
   /// @brief Method GrowInstanceBuffer, addr 0x6c6e834, size 0xdc, virtual false, abstract: false, final false
-  inline void GrowInstanceBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
+  inline void GrowInstanceBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo const> instanceNumInfo);
 
   /// @brief Method InitializeInstanceTransforms, addr 0x6c6ec04, size 0x6c, virtual false, abstract: false, final false
   inline void InitializeInstanceTransforms(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices,
                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> prevLocalToWorldMatrices);
 
-  static inline ::UnityEngine::Rendering::RenderersBatchersContext* New_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersBatchersContextDesc> desc,
+  static inline ::UnityEngine::Rendering::RenderersBatchersContext* New_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersBatchersContextDesc const> desc,
                                                                              ::UnityEngine::Rendering::GPUDrivenProcessor* gpuDrivenProcessor,
                                                                              ::UnityEngine::Rendering::GPUResidentDrawerResources* resources);
 
   /// @brief Method ReallocateAndGetInstances, addr 0x6c6ea74, size 0x28, virtual false, abstract: false, final false
-  inline void ReallocateAndGetInstances(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+  inline void ReallocateAndGetInstances(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
                                         ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
   /// @brief Method ScheduleCollectInstancesLODGroupAndMasksJob, addr 0x6c6f03c, size 0x18, virtual false, abstract: false, final false
@@ -304,7 +304,7 @@ public:
 
   /// @brief Method ScheduleUpdateInstanceDataJob, addr 0x6c6ea9c, size 0x28, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleUpdateInstanceDataJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
-                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData);
+                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData);
 
   /// @brief Method SubmitToGpu, addr 0x6c6ebdc, size 0x28, virtual false, abstract: false, final false
   inline void SubmitToGpu(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices,
@@ -315,7 +315,7 @@ public:
                           bool submitOnlyWrittenParams);
 
   /// @brief Method TransformLODGroupData, addr 0x6c6e99c, size 0x14, virtual false, abstract: false, final false
-  inline void TransformLODGroupData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData);
+  inline void TransformLODGroupData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData const> lodGroupData);
 
   /// @brief Method TransformLODGroups, addr 0x6c6ef7c, size 0xa8, virtual false, abstract: false, final false
   inline void TransformLODGroups(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> lodGroupsID);
@@ -340,13 +340,13 @@ public:
   inline void UpdateInstanceWindDataHistory(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices);
 
   /// @brief Method UpdateLODGroupData, addr 0x6c6e988, size 0x14, virtual false, abstract: false, final false
-  inline void UpdateLODGroupData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData);
+  inline void UpdateLODGroupData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData const> lodGroupData);
 
   /// @brief Method UpdateLODGroups, addr 0x6c6e9cc, size 0xa8, virtual false, abstract: false, final false
   inline void UpdateLODGroups(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> changedID);
 
   /// @brief Method UpdatePerFrameInstanceVisibility, addr 0x6c6f024, size 0x18, virtual false, abstract: false, final false
-  inline void UpdatePerFrameInstanceVisibility(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks);
+  inline void UpdatePerFrameInstanceVisibility(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray const> compactedVisibilityMasks);
 
   constexpr ::UnityEngine::Rendering::SphericalHarmonicsL2 const& __cordl_internal_get_m_CachedAmbientProbe() const;
 
@@ -439,7 +439,7 @@ public:
   constexpr void __cordl_internal_set_m_UploadResources(::UnityEngine::Rendering::GPUInstanceDataBufferUploader_GPUResources value);
 
   /// @brief Method .ctor, addr 0x6c6dc64, size 0x364, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersBatchersContextDesc> desc, ::UnityEngine::Rendering::GPUDrivenProcessor* gpuDrivenProcessor,
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersBatchersContextDesc const> desc, ::UnityEngine::Rendering::GPUDrivenProcessor* gpuDrivenProcessor,
                     ::UnityEngine::Rendering::GPUResidentDrawerResources* resources);
 
   /// @brief Method get_activeLodGroupCount, addr 0x6c6da18, size 0x14, virtual false, abstract: false, final false

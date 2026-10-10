@@ -89,13 +89,13 @@ public:
   static inline float_t Angle(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to);
 
   /// @brief Method Angle, addr 0x6f29264, size 0x124, virtual false, abstract: false, final false
-  static inline float_t Angle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> to);
+  static inline float_t Angle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> to);
 
   /// @brief Method Cross, addr 0x6f289e0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Cross(::UnityEngine::Vector3 lhs, ::UnityEngine::Vector3 rhs);
 
   /// @brief Method Cross, addr 0x6f28a08, size 0x40, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 Cross(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> rhs);
+  static inline ::UnityEngine::Vector3 Cross(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> rhs);
 
   /// @brief Method Distance, addr 0x6f29500, size 0xa4, virtual false, abstract: false, final false
   static inline float_t Distance(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
@@ -104,7 +104,7 @@ public:
   static inline float_t Dot(::UnityEngine::Vector3 lhs, ::UnityEngine::Vector3 rhs);
 
   /// @brief Method Dot, addr 0x6f28f48, size 0x28, virtual false, abstract: false, final false
-  static inline float_t Dot(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> rhs);
+  static inline float_t Dot(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> rhs);
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6f28a94, size 0x9c, virtual true, abstract: false, final false
@@ -116,7 +116,7 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6f28b60, size 0x3c, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> other);
 
   /// [IsReadOnly]
   /// @brief Method GetHashCode, addr 0x6f28a48, size 0x4c, virtual true, abstract: false, final false
@@ -135,19 +135,19 @@ public:
   static inline ::UnityEngine::Vector3 Max(::UnityEngine::Vector3 lhs, ::UnityEngine::Vector3 rhs);
 
   /// @brief Method Max, addr 0x6f2973c, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 Max(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> rhs);
+  static inline ::UnityEngine::Vector3 Max(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> rhs);
 
   /// @brief Method Min, addr 0x6f296dc, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Min(::UnityEngine::Vector3 lhs, ::UnityEngine::Vector3 rhs);
 
   /// @brief Method Min, addr 0x6f296f8, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 Min(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> rhs);
+  static inline ::UnityEngine::Vector3 Min(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> rhs);
 
   /// @brief Method Normalize, addr 0x6f28bd4, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Normalize(::UnityEngine::Vector3 value);
 
   /// @brief Method Normalize, addr 0x6f28cb4, size 0xe4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 Normalize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> value);
+  static inline ::UnityEngine::Vector3 Normalize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method Normalize, addr 0x6f28d98, size 0xb4, virtual false, abstract: false, final false
   inline void Normalize();

@@ -718,7 +718,7 @@ public:
   inline void NotifyChange(::UnityEngine::UIElements::ColumnDataType type);
 
   /// @brief Method NotifyPropertyChanged, addr 0x71e33f8, size 0x4c, virtual false, abstract: false, final false
-  inline void NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property);
+  inline void NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> property);
 
   constexpr ::StringW const& __cordl_internal_get__bindingPath_k__BackingField() const;
 

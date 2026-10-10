@@ -116,12 +116,12 @@ template <typename Type> inline void UnityEngine::Rendering::RenderGraphModule::
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, res);
 }
-template <typename Type> inline ::StringW UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>::GetResourceName(/* [IsReadOnly] */ ::by_ref<Type> res) {
+template <typename Type> inline ::StringW UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>::GetResourceName(/* [IsReadOnly] */ ::by_ref<Type const> res) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, res);
 }
-template <typename Type> inline int64_t UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>::GetResourceSize(/* [IsReadOnly] */ ::by_ref<Type> res) {
+template <typename Type> inline int64_t UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>::GetResourceSize(/* [IsReadOnly] */ ::by_ref<Type const> res) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<Type>*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<int64_t>(this, ___internal_method, res);

@@ -542,7 +542,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::GraphicsBuffer*,
-                                                                                                        ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>, bool)>(
+                                                                                                        ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources const>, bool)>(
     &::UnityEngine::Rendering::GPUPrefixSum::ExecuteCommonIndirect)> {
   constexpr static std::size_t size = 0x37c;
   constexpr static std::size_t addrs = 0x6bdfb44;
@@ -553,7 +553,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                              { "ExecuteCommonIndirect",
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>>(), ::i2c::type_of<bool>() } })));
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources const>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -561,7 +561,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(
-    ::UnityEngine::Rendering::IComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchDirect)> {
+    ::UnityEngine::Rendering::IComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchDirect)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x6bdfec0;
 
@@ -570,7 +570,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
-            { "DispatchDirect", {}, { ::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs>>() } })));
+            { "DispatchDirect", {}, { ::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const>>() } })));
     return ___internal_method;
   }
 };
@@ -578,15 +578,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(
-    ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchDirect)> {
+    ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchDirect)> {
   constexpr static std::size_t size = 0x1f0;
   constexpr static std::size_t addrs = 0x6bdff60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
-                            { "DispatchDirect", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs>>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+            { "DispatchDirect", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const>>() } })));
     return ___internal_method;
   }
 };
@@ -594,7 +595,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(
-    ::UnityEngine::Rendering::IComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchIndirect)> {
+    ::UnityEngine::Rendering::IComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchIndirect)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x6be0150;
 
@@ -604,7 +605,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
                             { "DispatchIndirect",
                               {},
-                              { ::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs>>() } })));
+                              { ::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const>>() } })));
     return ___internal_method;
   }
 };
@@ -612,7 +613,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(
-    ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchIndirect)> {
+    ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchIndirect)> {
   constexpr static std::size_t size = 0x1e4;
   constexpr static std::size_t addrs = 0x6be01f0;
 
@@ -621,7 +622,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
-            { "DispatchIndirect", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs>>() } })));
+            { "DispatchIndirect", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const>>() } })));
     return ___internal_method;
   }
 };
@@ -638,48 +639,50 @@ inline ::UnityEngine::Vector4 UnityEngine::Rendering::GPUPrefixSum::PackPrefixSu
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4>(*this, ___internal_method, a, b, c, d);
 }
 inline void UnityEngine::Rendering::GPUPrefixSum::ExecuteCommonIndirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, ::UnityEngine::GraphicsBuffer* inputBuffer,
-                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources> supportResources, bool isExclusive) {
+                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources const> supportResources, bool isExclusive) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
                                                            { "ExecuteCommonIndirect",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>>(), ::i2c::type_of<bool>() } })));
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources const>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmdBuffer, inputBuffer, supportResources, isExclusive);
 }
 inline void UnityEngine::Rendering::GPUPrefixSum::DispatchDirect(::UnityEngine::Rendering::IComputeCommandBuffer* cmdBuffer,
-                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs> arguments) {
+                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const> arguments) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
-          { "DispatchDirect", {}, { ::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs>>() } })));
+          { "DispatchDirect", {}, { ::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmdBuffer, arguments);
 }
 inline void UnityEngine::Rendering::GPUPrefixSum::DispatchDirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer,
-                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs> arguments) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
-                          { "DispatchDirect", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs>>() } })));
+                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const> arguments) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                       { "DispatchDirect", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmdBuffer, arguments);
 }
 inline void UnityEngine::Rendering::GPUPrefixSum::DispatchIndirect(::UnityEngine::Rendering::IComputeCommandBuffer* cmdBuffer,
-                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs> arguments) {
+                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const> arguments) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
-          { "DispatchIndirect", {}, { ::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs>>() } })));
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                          { "DispatchIndirect",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmdBuffer, arguments);
 }
 inline void UnityEngine::Rendering::GPUPrefixSum::DispatchIndirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer,
-                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs> arguments) {
+                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const> arguments) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
-          { "DispatchIndirect", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs>>() } })));
+          { "DispatchIndirect", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmdBuffer, arguments);
 }
 // Ctor Parameters [CppParam { name: "resources", ty: "::UnityEngine::Rendering::GPUPrefixSum_SystemResources", modifiers: "", def_value: Some("{}"), comment: None }]

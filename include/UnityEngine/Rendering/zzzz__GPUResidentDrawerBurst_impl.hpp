@@ -36,8 +36,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyMaterials_000000EA$PostfixBurstDelegate::*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>,
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>)>(
     &::UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyMaterials_000000EA$PostfixBurstDelegate::Invoke)> {
@@ -55,9 +55,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyMaterials_000000EA$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>,
+    ::UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyMaterials_000000EA$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>,
                                                                                                          ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<
-                                                                                                             ::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>,
+                                                                                                             ::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>,
                                                                                                          ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>,
                                                                                                          ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>,
                                                                                                          ::by_ref<
@@ -97,8 +97,8 @@ inline void UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyMaterials_000
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1);
 }
 inline void UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyMaterials_000000EA$PostfixBurstDelegate::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>> batchMaterialHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> supportedMaterialIDs, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedMaterialIDs,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> supportedPackedMaterialDatas) {
   auto* ___internal_method = THROW_UNLESS(
@@ -107,8 +107,8 @@ inline void UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyMaterials_000
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, materialIDs, batchMaterialHash, supportedMaterialIDs, unsupportedMaterialIDs, supportedPackedMaterialDatas);
 }
 inline ::System::IAsyncResult* UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyMaterials_000000EA$PostfixBurstDelegate::BeginInvoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>> batchMaterialHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> supportedMaterialIDs, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedMaterialIDs,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> supportedPackedMaterialDatas, ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
     ::System::Object* _cordl_fixed_empty_name_whitespace_param_6) {
@@ -164,8 +164,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>,
-                         ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>,
+    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>,
+                         ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>,
                          ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>,
                          ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>)>(
         &::UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyMaterials_000000EA$BurstDirectCall::Invoke)> {
@@ -173,16 +173,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
   constexpr static std::size_t addrs = 0x6c460b8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyMaterials_000000EA$BurstDirectCall*>(),
-                                         { "Invoke",
-                                           {},
-                                           { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyMaterials_000000EA$BurstDirectCall*>(),
+            { "Invoke",
+              {},
+              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>>(),
+                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(),
+                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>() } })));
     return ___internal_method;
   }
 };
@@ -204,8 +204,8 @@ inline ::System::IntPtr UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyM
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
 }
 inline void UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyMaterials_000000EA$BurstDirectCall::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>> batchMaterialHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> supportedMaterialIDs, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedMaterialIDs,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> supportedPackedMaterialDatas) {
   static auto* ___internal_method =
@@ -213,8 +213,8 @@ inline void UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyMaterials_000
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyMaterials_000000EA$BurstDirectCall*>(),
                                        { "Invoke",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>>(),
+                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>>(),
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(),
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(),
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>() } })));
@@ -241,8 +241,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$PostfixBurstDelegate::*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>>,
-    ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>)>(
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const>,
+    ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>)>(
     &::UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$PostfixBurstDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6c46ea8;
@@ -259,9 +259,9 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::Rendering::
-        GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>,
-                                                                                          ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>>,
-                                                                                          ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>,
+        GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>,
+                                                                                          ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const>,
+                                                                                          ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>,
                                                                                           ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>, ::System::AsyncCallback*,
                                                                                           ::System::Object*)>(
     &::UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$PostfixBurstDelegate::BeginInvoke)> {
@@ -298,9 +298,9 @@ inline void UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsupportedRender
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1);
 }
 inline void UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$PostfixBurstDelegate::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> unsupportedMaterials,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>> materialIDArrays,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>> rendererGroups,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> unsupportedMaterials,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const> materialIDArrays,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroups,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedRenderers) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass,
@@ -308,9 +308,9 @@ inline void UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsupportedRender
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, unsupportedMaterials, materialIDArrays, rendererGroups, unsupportedRenderers);
 }
 inline ::System::IAsyncResult* UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$PostfixBurstDelegate::BeginInvoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> unsupportedMaterials,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>> materialIDArrays,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>> rendererGroups,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> unsupportedMaterials,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const> materialIDArrays,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroups,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedRenderers, ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
     ::System::Object* _cordl_fixed_empty_name_whitespace_param_5) {
   auto* ___internal_method =
@@ -366,10 +366,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$BurstDirectCall.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>>,
-                         ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>)>(
-        &::UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$BurstDirectCall::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const>,
+    ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>)>(
+    &::UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x6c46198;
 
@@ -378,9 +378,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$BurstDirectCall*>(),
                                                              { "Invoke",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>>>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const>>(),
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>() } })));
     return ___internal_method;
   }
@@ -405,17 +405,17 @@ inline ::System::IntPtr UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsup
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
 }
 inline void UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$BurstDirectCall::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> unsupportedMaterials,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>> materialIDArrays,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>> rendererGroups,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> unsupportedMaterials,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const> materialIDArrays,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroups,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedRenderers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$BurstDirectCall*>(),
                                                            { "Invoke",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>>>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                                                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const>>(),
+                                                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, unsupportedMaterials, materialIDArrays, rendererGroups, unsupportedRenderers);
 }
@@ -440,8 +440,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$PostfixBurstDelegate::*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>,
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>,
     ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>)>(
     &::UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$PostfixBurstDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
@@ -459,11 +459,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::Rendering::
-        GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>,
-                                                                                                       ::by_ref<
-                                                                                                           ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>,
+        GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>,
+                                                                                                       ::by_ref<::Unity::Collections::NativeArray_1<
+                                                                                                           ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>,
                                                                                                        ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<
-                                                                                                           ::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>,
+                                                                                                           ::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>,
                                                                                                        ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>,
                                                                                                        ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$PostfixBurstDelegate::BeginInvoke)> {
@@ -500,9 +500,9 @@ inline void UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChang
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1);
 }
 inline void UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$PostfixBurstDelegate::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialDatas,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDatas,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialHash,
     ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>> filteredMaterials) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass,
@@ -510,9 +510,9 @@ inline void UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChang
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, materialIDs, packedMaterialDatas, packedMaterialHash, filteredMaterials);
 }
 inline ::System::IAsyncResult* UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$PostfixBurstDelegate::BeginInvoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialDatas,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDatas,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialHash,
     ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>> filteredMaterials, ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
     ::System::Object* _cordl_fixed_empty_name_whitespace_param_5) {
   auto* ___internal_method = THROW_UNLESS(
@@ -569,24 +569,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$BurstDirectCall.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>,
-                         ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>,
-                         ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>)>(
-        &::UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$BurstDirectCall::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>,
+    ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>)>(
+    &::UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0x17c;
   constexpr static std::size_t addrs = 0x6c46260;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$BurstDirectCall*>(),
-                            { "Invoke",
-                              {},
-                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$BurstDirectCall*>(),
+                         { "Invoke",
+                           {},
+                           { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
+                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
+                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>>() } })));
     return ___internal_method;
   }
 };
@@ -611,18 +612,18 @@ inline ::System::IntPtr UnityEngine::Rendering::GPUResidentDrawerBurst_GetMateri
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
 }
 inline void UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$BurstDirectCall::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialDatas,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDatas,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialHash,
     ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>> filteredMaterials) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$BurstDirectCall*>(),
                           { "Invoke",
                             {},
-                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
-                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
+                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, materialIDs, packedMaterialDatas, packedMaterialHash, filteredMaterials);
 }
@@ -633,34 +634,34 @@ constexpr ::UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChang
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>,
-                         ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>,
+    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>,
+                         ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>,
                          ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>,
                          ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>)>(&::UnityEngine::Rendering::GPUResidentDrawerBurst::ClassifyMaterials)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6c45b54;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
-                                         { "ClassifyMaterials",
-                                           {},
-                                           { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
+            { "ClassifyMaterials",
+              {},
+              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>>(),
+                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(),
+                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUResidentDrawerBurst.FindUnsupportedRenderers
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>>,
-                         ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>)>(
-        &::UnityEngine::Rendering::GPUResidentDrawerBurst::FindUnsupportedRenderers)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const>,
+    ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>)>(
+    &::UnityEngine::Rendering::GPUResidentDrawerBurst::FindUnsupportedRenderers)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6c45b58;
 
@@ -669,9 +670,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
                                                              { "FindUnsupportedRenderers",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>>>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const>>(),
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>() } })));
     return ___internal_method;
   }
@@ -679,23 +680,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUResidentDrawerBurst.GetMaterialsWithChangedPackedMaterial
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>,
-                         ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>,
-                         ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>)>(&::UnityEngine::Rendering::GPUResidentDrawerBurst::GetMaterialsWithChangedPackedMaterial)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>,
+    ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>)>(&::UnityEngine::Rendering::GPUResidentDrawerBurst::GetMaterialsWithChangedPackedMaterial)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6c45b5c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
-                            { "GetMaterialsWithChangedPackedMaterial",
-                              {},
-                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
+                         { "GetMaterialsWithChangedPackedMaterial",
+                           {},
+                           { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
+                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
+                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>>() } })));
     return ___internal_method;
   }
 };
@@ -703,34 +705,34 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>,
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>)>(&::UnityEngine::Rendering::GPUResidentDrawerBurst::ClassifyMaterials$BurstManaged)> {
   constexpr static std::size_t size = 0x480;
   constexpr static std::size_t addrs = 0x6c463dc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
-                                         { "ClassifyMaterials$BurstManaged",
-                                           {},
-                                           { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(),
-                                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
+            { "ClassifyMaterials$BurstManaged",
+              {},
+              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>>(),
+                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(),
+                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUResidentDrawerBurst.FindUnsupportedRenderers$BurstManaged
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>>,
-                         ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>)>(
-        &::UnityEngine::Rendering::GPUResidentDrawerBurst::FindUnsupportedRenderers$BurstManaged)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const>,
+    ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>)>(
+    &::UnityEngine::Rendering::GPUResidentDrawerBurst::FindUnsupportedRenderers$BurstManaged)> {
   constexpr static std::size_t size = 0x1cc;
   constexpr static std::size_t addrs = 0x6c4685c;
 
@@ -739,9 +741,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
                                                              { "FindUnsupportedRenderers$BurstManaged",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>>>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const>>(),
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>() } })));
     return ___internal_method;
   }
@@ -750,28 +752,29 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>,
-    ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>,
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>,
+    ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>,
     ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>)>(&::UnityEngine::Rendering::GPUResidentDrawerBurst::GetMaterialsWithChangedPackedMaterial$BurstManaged)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x6c46a28;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
-                            { "GetMaterialsWithChangedPackedMaterial$BurstManaged",
-                              {},
-                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
+                         { "GetMaterialsWithChangedPackedMaterial$BurstManaged",
+                           {},
+                           { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
+                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
+                             ::i2c::type_of<::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>>() } })));
     return ___internal_method;
   }
 };
 inline void UnityEngine::Rendering::GPUResidentDrawerBurst::ClassifyMaterials(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>> batchMaterialHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> supportedMaterialIDs, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedMaterialIDs,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> supportedPackedMaterialDatas) {
   static auto* ___internal_method =
@@ -779,47 +782,47 @@ inline void UnityEngine::Rendering::GPUResidentDrawerBurst::ClassifyMaterials(
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
                                        { "ClassifyMaterials",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>>(),
+                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>>(),
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(),
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(),
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, materialIDs, batchMaterialHash, supportedMaterialIDs, unsupportedMaterialIDs, supportedPackedMaterialDatas);
 }
 inline void UnityEngine::Rendering::GPUResidentDrawerBurst::FindUnsupportedRenderers(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> unsupportedMaterials,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>> materialIDArrays,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>> rendererGroups,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> unsupportedMaterials,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const> materialIDArrays,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroups,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedRenderers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
                                                            { "FindUnsupportedRenderers",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>>>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                                                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const>>(),
+                                                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, unsupportedMaterials, materialIDArrays, rendererGroups, unsupportedRenderers);
 }
 inline void UnityEngine::Rendering::GPUResidentDrawerBurst::GetMaterialsWithChangedPackedMaterial(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialDatas,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDatas,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialHash,
     ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>> filteredMaterials) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
                           { "GetMaterialsWithChangedPackedMaterial",
                             {},
-                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
-                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
+                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, materialIDs, packedMaterialDatas, packedMaterialHash, filteredMaterials);
 }
 inline void UnityEngine::Rendering::GPUResidentDrawerBurst::ClassifyMaterials$BurstManaged(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>> batchMaterialHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> supportedMaterialIDs, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedMaterialIDs,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> supportedPackedMaterialDatas) {
   static auto* ___internal_method =
@@ -827,41 +830,41 @@ inline void UnityEngine::Rendering::GPUResidentDrawerBurst::ClassifyMaterials$Bu
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
                                        { "ClassifyMaterials$BurstManaged",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>>>(),
+                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const>>(),
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(),
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>(),
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, materialIDs, batchMaterialHash, supportedMaterialIDs, unsupportedMaterialIDs, supportedPackedMaterialDatas);
 }
 inline void UnityEngine::Rendering::GPUResidentDrawerBurst::FindUnsupportedRenderers$BurstManaged(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> unsupportedMaterials,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>> materialIDArrays,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>> rendererGroups,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> unsupportedMaterials,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const> materialIDArrays,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroups,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedRenderers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
                                                            { "FindUnsupportedRenderers$BurstManaged",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>>>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                                                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const>>(),
+                                                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, unsupportedMaterials, materialIDArrays, rendererGroups, unsupportedRenderers);
 }
 inline void UnityEngine::Rendering::GPUResidentDrawerBurst::GetMaterialsWithChangedPackedMaterial$BurstManaged(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialDatas,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialHash,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDatas,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialHash,
     ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>> filteredMaterials) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawerBurst*>(),
                           { "GetMaterialsWithChangedPackedMaterial$BurstManaged",
                             {},
-                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
-                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>(),
+                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>(),
                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, materialIDs, packedMaterialDatas, packedMaterialHash, filteredMaterials);
 }

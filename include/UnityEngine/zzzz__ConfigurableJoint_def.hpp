@@ -307,13 +307,13 @@ public:
   inline void set_angularXDrive(::UnityEngine::JointDrive value);
 
   /// @brief Method set_angularXDrive_Injected, addr 0x6fee0b0, size 0x44, virtual false, abstract: false, final false
-  static inline void set_angularXDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointDrive> value);
+  static inline void set_angularXDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointDrive const> value);
 
   /// @brief Method set_angularXLimitSpring, addr 0x6fec64c, size 0x94, virtual false, abstract: false, final false
   inline void set_angularXLimitSpring(::UnityEngine::SoftJointLimitSpring value);
 
   /// @brief Method set_angularXLimitSpring_Injected, addr 0x6fec6e0, size 0x44, virtual false, abstract: false, final false
-  static inline void set_angularXLimitSpring_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimitSpring> value);
+  static inline void set_angularXLimitSpring_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimitSpring const> value);
 
   /// @brief Method set_angularXMotion, addr 0x6febfc8, size 0x90, virtual false, abstract: false, final false
   inline void set_angularXMotion(::UnityEngine::ConfigurableJointMotion value);
@@ -325,7 +325,7 @@ public:
   inline void set_angularYLimit(::UnityEngine::SoftJointLimit value);
 
   /// @brief Method set_angularYLimit_Injected, addr 0x6fecf94, size 0x44, virtual false, abstract: false, final false
-  static inline void set_angularYLimit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit> value);
+  static inline void set_angularYLimit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit const> value);
 
   /// @brief Method set_angularYMotion, addr 0x6fec158, size 0x90, virtual false, abstract: false, final false
   inline void set_angularYMotion(::UnityEngine::ConfigurableJointMotion value);
@@ -337,19 +337,19 @@ public:
   inline void set_angularYZDrive(::UnityEngine::JointDrive value);
 
   /// @brief Method set_angularYZDrive_Injected, addr 0x6fee264, size 0x44, virtual false, abstract: false, final false
-  static inline void set_angularYZDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointDrive> value);
+  static inline void set_angularYZDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointDrive const> value);
 
   /// @brief Method set_angularYZLimitSpring, addr 0x6fec800, size 0x94, virtual false, abstract: false, final false
   inline void set_angularYZLimitSpring(::UnityEngine::SoftJointLimitSpring value);
 
   /// @brief Method set_angularYZLimitSpring_Injected, addr 0x6fec894, size 0x44, virtual false, abstract: false, final false
-  static inline void set_angularYZLimitSpring_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimitSpring> value);
+  static inline void set_angularYZLimitSpring_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimitSpring const> value);
 
   /// @brief Method set_angularZLimit, addr 0x6fed0bc, size 0x98, virtual false, abstract: false, final false
   inline void set_angularZLimit(::UnityEngine::SoftJointLimit value);
 
   /// @brief Method set_angularZLimit_Injected, addr 0x6fed154, size 0x44, virtual false, abstract: false, final false
-  static inline void set_angularZLimit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit> value);
+  static inline void set_angularZLimit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit const> value);
 
   /// @brief Method set_angularZMotion, addr 0x6fec2e8, size 0x90, virtual false, abstract: false, final false
   inline void set_angularZMotion(::UnityEngine::ConfigurableJointMotion value);
@@ -367,7 +367,7 @@ public:
   inline void set_highAngularXLimit(::UnityEngine::SoftJointLimit value);
 
   /// @brief Method set_highAngularXLimit_Injected, addr 0x6fecdd4, size 0x44, virtual false, abstract: false, final false
-  static inline void set_highAngularXLimit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit> value);
+  static inline void set_highAngularXLimit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit const> value);
 
   /// @brief Method set_linearLimit, addr 0x6fec9bc, size 0x98, virtual false, abstract: false, final false
   inline void set_linearLimit(::UnityEngine::SoftJointLimit value);
@@ -376,16 +376,16 @@ public:
   inline void set_linearLimitSpring(::UnityEngine::SoftJointLimitSpring value);
 
   /// @brief Method set_linearLimitSpring_Injected, addr 0x6fec52c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_linearLimitSpring_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimitSpring> value);
+  static inline void set_linearLimitSpring_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimitSpring const> value);
 
   /// @brief Method set_linearLimit_Injected, addr 0x6feca54, size 0x44, virtual false, abstract: false, final false
-  static inline void set_linearLimit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit> value);
+  static inline void set_linearLimit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit const> value);
 
   /// @brief Method set_lowAngularXLimit, addr 0x6fecb7c, size 0x98, virtual false, abstract: false, final false
   inline void set_lowAngularXLimit(::UnityEngine::SoftJointLimit value);
 
   /// @brief Method set_lowAngularXLimit_Injected, addr 0x6fecc14, size 0x44, virtual false, abstract: false, final false
-  static inline void set_lowAngularXLimit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit> value);
+  static inline void set_lowAngularXLimit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit const> value);
 
   /// @brief Method set_projectionAngle, addr 0x6fee840, size 0x90, virtual false, abstract: false, final false
   inline void set_projectionAngle(float_t value);
@@ -415,13 +415,13 @@ public:
   inline void set_secondaryAxis(::UnityEngine::Vector3 value);
 
   /// @brief Method set_secondaryAxis_Injected, addr 0x6feba18, size 0x44, virtual false, abstract: false, final false
-  static inline void set_secondaryAxis_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_secondaryAxis_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_slerpDrive, addr 0x6fee384, size 0x94, virtual false, abstract: false, final false
   inline void set_slerpDrive(::UnityEngine::JointDrive value);
 
   /// @brief Method set_slerpDrive_Injected, addr 0x6fee418, size 0x44, virtual false, abstract: false, final false
-  static inline void set_slerpDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointDrive> value);
+  static inline void set_slerpDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointDrive const> value);
 
   /// @brief Method set_swapBodies, addr 0x6feeb68, size 0x90, virtual false, abstract: false, final false
   inline void set_swapBodies(bool value);
@@ -433,31 +433,31 @@ public:
   inline void set_targetAngularVelocity(::UnityEngine::Vector3 value);
 
   /// @brief Method set_targetAngularVelocity_Injected, addr 0x6fedd6c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_targetAngularVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_targetAngularVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_targetPosition, addr 0x6fed27c, size 0x98, virtual false, abstract: false, final false
   inline void set_targetPosition(::UnityEngine::Vector3 value);
 
   /// @brief Method set_targetPosition_Injected, addr 0x6fed314, size 0x44, virtual false, abstract: false, final false
-  static inline void set_targetPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_targetPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_targetRotation, addr 0x6fedb14, size 0x98, virtual false, abstract: false, final false
   inline void set_targetRotation(::UnityEngine::Quaternion value);
 
   /// @brief Method set_targetRotation_Injected, addr 0x6fedbac, size 0x44, virtual false, abstract: false, final false
-  static inline void set_targetRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion> value);
+  static inline void set_targetRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion const> value);
 
   /// @brief Method set_targetVelocity, addr 0x6fed43c, size 0x98, virtual false, abstract: false, final false
   inline void set_targetVelocity(::UnityEngine::Vector3 value);
 
   /// @brief Method set_targetVelocity_Injected, addr 0x6fed4d4, size 0x44, virtual false, abstract: false, final false
-  static inline void set_targetVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_targetVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_xDrive, addr 0x6fed5f4, size 0x94, virtual false, abstract: false, final false
   inline void set_xDrive(::UnityEngine::JointDrive value);
 
   /// @brief Method set_xDrive_Injected, addr 0x6fed688, size 0x44, virtual false, abstract: false, final false
-  static inline void set_xDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointDrive> value);
+  static inline void set_xDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointDrive const> value);
 
   /// @brief Method set_xMotion, addr 0x6febb18, size 0x90, virtual false, abstract: false, final false
   inline void set_xMotion(::UnityEngine::ConfigurableJointMotion value);
@@ -469,7 +469,7 @@ public:
   inline void set_yDrive(::UnityEngine::JointDrive value);
 
   /// @brief Method set_yDrive_Injected, addr 0x6fed83c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_yDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointDrive> value);
+  static inline void set_yDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointDrive const> value);
 
   /// @brief Method set_yMotion, addr 0x6febca8, size 0x90, virtual false, abstract: false, final false
   inline void set_yMotion(::UnityEngine::ConfigurableJointMotion value);
@@ -481,7 +481,7 @@ public:
   inline void set_zDrive(::UnityEngine::JointDrive value);
 
   /// @brief Method set_zDrive_Injected, addr 0x6fed9f0, size 0x44, virtual false, abstract: false, final false
-  static inline void set_zDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointDrive> value);
+  static inline void set_zDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointDrive const> value);
 
   /// @brief Method set_zMotion, addr 0x6febe38, size 0x90, virtual false, abstract: false, final false
   inline void set_zMotion(::UnityEngine::ConfigurableJointMotion value);

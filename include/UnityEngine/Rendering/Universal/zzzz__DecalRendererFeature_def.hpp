@@ -240,10 +240,10 @@ public:
   static inline ::UnityEngine::Rendering::Universal::DecalRendererFeature* New_ctor();
 
   /// @brief Method OnCameraPreCull, addr 0x6ca6a44, size 0x140, virtual true, abstract: false, final false
-  inline void OnCameraPreCull(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
+  inline void OnCameraPreCull(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData);
 
   /// @brief Method RecreateSystemsIfNeeded, addr 0x6ca6444, size 0x600, virtual false, abstract: false, final false
-  inline bool RecreateSystemsIfNeeded(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
+  inline bool RecreateSystemsIfNeeded(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData);
 
   /// @brief Method RequireRenderingLayers, addr 0x6ca5d48, size 0xc8, virtual true, abstract: false, final false
   inline bool RequireRenderingLayers(bool isDeferred, bool needsGBufferAccurateNormals, ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event> atEvent,
@@ -251,7 +251,7 @@ public:
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
   /// @brief Method SetupRenderPasses, addr 0x6ca5bf4, size 0x4, virtual true, abstract: false, final false
-  inline void SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
+  inline void SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData const> renderingData);
 
   constexpr ::UnityEngine::Rendering::Universal::DBufferCopyDepthPass* const& __cordl_internal_get_m_CopyDepthPass() const;
 

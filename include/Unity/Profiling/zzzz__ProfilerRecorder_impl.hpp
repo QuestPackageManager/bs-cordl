@@ -360,7 +360,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Profiling:
 //  Writing Method size for method: ::Unity::Profiling::ProfilerRecorder.Create_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>, int32_t, ::Unity::Profiling::ProfilerRecorderOptions,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle const>, int32_t, ::Unity::Profiling::ProfilerRecorderOptions,
                                                                 ::by_ref<::Unity::Profiling::ProfilerRecorder>)>(&::Unity::Profiling::ProfilerRecorder::Create_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6eaf7dc;
@@ -370,7 +370,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
                                                              { "Create_Injected",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>>(), ::i2c::type_of<int32_t>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle const>>(), ::i2c::type_of<int32_t>(),
                                                                  ::i2c::type_of<::Unity::Profiling::ProfilerRecorderOptions>(), ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>() } })));
     return ___internal_method;
   }
@@ -378,7 +378,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::Unity::Profiling::ProfilerRecorder.Control_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Profiling::ProfilerRecorder>, ::Unity::Profiling::ProfilerRecorder_ControlOptions)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Profiling::ProfilerRecorder const>, ::Unity::Profiling::ProfilerRecorder_ControlOptions)>(
     &::Unity::Profiling::ProfilerRecorder::Control_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6eaf838;
@@ -386,42 +386,45 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
-                            { "Control_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>(), ::i2c::type_of<::Unity::Profiling::ProfilerRecorder_ControlOptions>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
+            { "Control_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>(), ::i2c::type_of<::Unity::Profiling::ProfilerRecorder_ControlOptions>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Profiling::ProfilerRecorder.GetValueUnitType_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerMarkerDataUnit (*)(::by_ref<::Unity::Profiling::ProfilerRecorder>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerMarkerDataUnit (*)(::by_ref<::Unity::Profiling::ProfilerRecorder const>)>(
     &::Unity::Profiling::ProfilerRecorder::GetValueUnitType_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6eaf87c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
-                                                                                           { "GetValueUnitType_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(), { "GetValueUnitType_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Profiling::ProfilerRecorder.GetLastValue_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::by_ref<::Unity::Profiling::ProfilerRecorder>)>(&::Unity::Profiling::ProfilerRecorder::GetLastValue_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::by_ref<::Unity::Profiling::ProfilerRecorder const>)>(&::Unity::Profiling::ProfilerRecorder::GetLastValue_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6eaf8b8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
-                                                                                           { "GetLastValue_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(), { "GetLastValue_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Profiling::ProfilerRecorder.GetCount_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::Unity::Profiling::ProfilerRecorder>, ::Unity::Profiling::ProfilerRecorder_CountOptions)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::Unity::Profiling::ProfilerRecorder const>, ::Unity::Profiling::ProfilerRecorder_CountOptions)>(
     &::Unity::Profiling::ProfilerRecorder::GetCount_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6eaf8f4;
@@ -429,55 +432,55 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::Un
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
-                            { "GetCount_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>(), ::i2c::type_of<::Unity::Profiling::ProfilerRecorder_CountOptions>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
+            { "GetCount_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>(), ::i2c::type_of<::Unity::Profiling::ProfilerRecorder_CountOptions>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Profiling::ProfilerRecorder.GetValid_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Profiling::ProfilerRecorder>)>(&::Unity::Profiling::ProfilerRecorder::GetValid_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Profiling::ProfilerRecorder const>)>(&::Unity::Profiling::ProfilerRecorder::GetValid_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6eaf938;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(), { "GetValid_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
+                                                                                           { "GetValid_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Profiling::ProfilerRecorder.GetWrapped_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Profiling::ProfilerRecorder>)>(&::Unity::Profiling::ProfilerRecorder::GetWrapped_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Profiling::ProfilerRecorder const>)>(&::Unity::Profiling::ProfilerRecorder::GetWrapped_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6eaf974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
-                                                                                           { "GetWrapped_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>() } })));
+                                                                                           { "GetWrapped_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Profiling::ProfilerRecorder.GetRunning_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Profiling::ProfilerRecorder>)>(&::Unity::Profiling::ProfilerRecorder::GetRunning_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Profiling::ProfilerRecorder const>)>(&::Unity::Profiling::ProfilerRecorder::GetRunning_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6eaf9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
-                                                                                           { "GetRunning_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>() } })));
+                                                                                           { "GetRunning_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Profiling::ProfilerRecorder.GetSampleInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Profiling::ProfilerRecorder>, int32_t, ::by_ref<::Unity::Profiling::ProfilerRecorderSample>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Profiling::ProfilerRecorder const>, int32_t, ::by_ref<::Unity::Profiling::ProfilerRecorderSample>)>(
     &::Unity::Profiling::ProfilerRecorder::GetSampleInternal_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6eaf9ec;
@@ -487,7 +490,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(), { "GetSampleInternal_Injected",
                                                                                                     {},
-                                                                                                    { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>(), ::i2c::type_of<int32_t>(),
+                                                                                                    { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>(), ::i2c::type_of<int32_t>(),
                                                                                                       ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorderSample>>() } })));
     return ___internal_method;
   }
@@ -622,65 +625,66 @@ inline void Unity::Profiling::ProfilerRecorder::CheckInitializedAndThrow() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(), { "CheckInitializedAndThrow", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void Unity::Profiling::ProfilerRecorder::Create_Injected(::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle> statHandle, int32_t maxSampleCount,
+inline void Unity::Profiling::ProfilerRecorder::Create_Injected(::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle const> statHandle, int32_t maxSampleCount,
                                                                 ::Unity::Profiling::ProfilerRecorderOptions options, ::by_ref<::Unity::Profiling::ProfilerRecorder> ret) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
                                                            { "Create_Injected",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>>(), ::i2c::type_of<int32_t>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle const>>(), ::i2c::type_of<int32_t>(),
                                                                ::i2c::type_of<::Unity::Profiling::ProfilerRecorderOptions>(), ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, statHandle, maxSampleCount, options, ret);
 }
-inline void Unity::Profiling::ProfilerRecorder::Control_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle, ::Unity::Profiling::ProfilerRecorder_ControlOptions options) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
-                          { "Control_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>(), ::i2c::type_of<::Unity::Profiling::ProfilerRecorder_ControlOptions>() } })));
+inline void Unity::Profiling::ProfilerRecorder::Control_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle, ::Unity::Profiling::ProfilerRecorder_ControlOptions options) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
+                       { "Control_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>(), ::i2c::type_of<::Unity::Profiling::ProfilerRecorder_ControlOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, options);
 }
-inline ::Unity::Profiling::ProfilerMarkerDataUnit Unity::Profiling::ProfilerRecorder::GetValueUnitType_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
-                                                                                         { "GetValueUnitType_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::Unity::Profiling::ProfilerMarkerDataUnit>(nullptr, ___internal_method, handle);
-}
-inline int64_t Unity::Profiling::ProfilerRecorder::GetLastValue_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
-                                                                                         { "GetLastValue_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>() } })));
-  return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method, handle);
-}
-inline int32_t Unity::Profiling::ProfilerRecorder::GetCount_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle, ::Unity::Profiling::ProfilerRecorder_CountOptions countOptions) {
+inline ::Unity::Profiling::ProfilerMarkerDataUnit Unity::Profiling::ProfilerRecorder::GetValueUnitType_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
-                          { "GetCount_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>(), ::i2c::type_of<::Unity::Profiling::ProfilerRecorder_CountOptions>() } })));
+      (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(), { "GetValueUnitType_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Profiling::ProfilerMarkerDataUnit>(nullptr, ___internal_method, handle);
+}
+inline int64_t Unity::Profiling::ProfilerRecorder::GetLastValue_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
+                                                                                         { "GetLastValue_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method, handle);
+}
+inline int32_t Unity::Profiling::ProfilerRecorder::GetCount_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle, ::Unity::Profiling::ProfilerRecorder_CountOptions countOptions) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
+                       { "GetCount_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>(), ::i2c::type_of<::Unity::Profiling::ProfilerRecorder_CountOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, handle, countOptions);
 }
-inline bool Unity::Profiling::ProfilerRecorder::GetValid_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(), { "GetValid_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>() } })));
+inline bool Unity::Profiling::ProfilerRecorder::GetValid_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
+                                                                                         { "GetValid_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handle);
 }
-inline bool Unity::Profiling::ProfilerRecorder::GetWrapped_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(), { "GetWrapped_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>() } })));
+inline bool Unity::Profiling::ProfilerRecorder::GetWrapped_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
+                                                                                         { "GetWrapped_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handle);
 }
-inline bool Unity::Profiling::ProfilerRecorder::GetRunning_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(), { "GetRunning_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>() } })));
+inline bool Unity::Profiling::ProfilerRecorder::GetRunning_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(),
+                                                                                         { "GetRunning_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handle);
 }
-inline void Unity::Profiling::ProfilerRecorder::GetSampleInternal_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle, int32_t index,
+inline void Unity::Profiling::ProfilerRecorder::GetSampleInternal_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle, int32_t index,
                                                                            ::by_ref<::Unity::Profiling::ProfilerRecorderSample> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(), { "GetSampleInternal_Injected",
-                                                                                                         {},
-                                                                                                         { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder>>(), ::i2c::type_of<int32_t>(),
-                                                                                                           ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorderSample>>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorder>(), { "GetSampleInternal_Injected",
+                                                                                                  {},
+                                                                                                  { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorder const>>(), ::i2c::type_of<int32_t>(),
+                                                                                                    ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerRecorderSample>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, index, ret);
 }
 /// @brief Convert operator to "::System::IDisposable"

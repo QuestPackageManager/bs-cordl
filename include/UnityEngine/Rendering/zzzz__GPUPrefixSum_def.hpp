@@ -699,20 +699,20 @@ public:
   using SystemResources = ::UnityEngine::Rendering::GPUPrefixSum_SystemResources;
 
   /// @brief Method DispatchDirect, addr 0x6bdff60, size 0x1f0, virtual false, abstract: false, final false
-  inline void DispatchDirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs> arguments);
+  inline void DispatchDirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const> arguments);
 
   /// @brief Method DispatchDirect, addr 0x6bdfec0, size 0xa0, virtual false, abstract: false, final false
-  inline void DispatchDirect(::UnityEngine::Rendering::IComputeCommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs> arguments);
+  inline void DispatchDirect(::UnityEngine::Rendering::IComputeCommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const> arguments);
 
   /// @brief Method DispatchIndirect, addr 0x6be01f0, size 0x1e4, virtual false, abstract: false, final false
-  inline void DispatchIndirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs> arguments);
+  inline void DispatchIndirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const> arguments);
 
   /// @brief Method DispatchIndirect, addr 0x6be0150, size 0xa0, virtual false, abstract: false, final false
-  inline void DispatchIndirect(::UnityEngine::Rendering::IComputeCommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs> arguments);
+  inline void DispatchIndirect(::UnityEngine::Rendering::IComputeCommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const> arguments);
 
   /// @brief Method ExecuteCommonIndirect, addr 0x6bdfb44, size 0x37c, virtual false, abstract: false, final false
   inline void ExecuteCommonIndirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, ::UnityEngine::GraphicsBuffer* inputBuffer,
-                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources> supportResources, bool isExclusive);
+                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources const> supportResources, bool isExclusive);
 
   /// @brief Method PackPrefixSumArgs, addr 0x6bdfb30, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 PackPrefixSumArgs(int32_t a, int32_t b, int32_t c, int32_t d);

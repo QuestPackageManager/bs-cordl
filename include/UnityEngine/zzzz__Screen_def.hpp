@@ -68,7 +68,7 @@ public:
   static inline void SetResolution(int32_t width, int32_t height, ::UnityEngine::FullScreenMode fullscreenMode, ::UnityEngine::RefreshRate preferredRefreshRate);
 
   /// @brief Method SetResolution_Injected, addr 0x6ed8560, size 0x5c, virtual false, abstract: false, final false
-  static inline void SetResolution_Injected(int32_t width, int32_t height, ::UnityEngine::FullScreenMode fullscreenMode, ::by_ref<::UnityEngine::RefreshRate> preferredRefreshRate);
+  static inline void SetResolution_Injected(int32_t width, int32_t height, ::UnityEngine::FullScreenMode fullscreenMode, ::by_ref<::UnityEngine::RefreshRate const> preferredRefreshRate);
 
   /// @brief Method get_currentResolution, addr 0x6ed8398, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Resolution get_currentResolution();

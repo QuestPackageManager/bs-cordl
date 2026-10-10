@@ -136,8 +136,9 @@ template <typename T> inline void Unity::Collections::NativeList_1<T>::AddRangeN
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(), { "AddRangeNoResize", {}, { ::i2c::type_of<::Unity::Collections::NativeList_1<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, list);
 }
-template <typename T> inline void Unity::Collections::NativeList_1<T>::Add(/* [IsReadOnly] */ ::by_ref<T> value) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(), { "Add", {}, { ::i2c::type_of<::by_ref<T>>() } })));
+template <typename T> inline void Unity::Collections::NativeList_1<T>::Add(/* [IsReadOnly] */ ::by_ref<T const> value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(), { "Add", {}, { ::i2c::type_of<::by_ref<T const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
 template <typename T> inline void Unity::Collections::NativeList_1<T>::AddRange(::Unity::Collections::NativeArray_1<T> array) {
@@ -150,9 +151,9 @@ template <typename T> inline void Unity::Collections::NativeList_1<T>::AddRange(
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(), { "AddRange", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, ptr, count);
 }
-template <typename T> inline void Unity::Collections::NativeList_1<T>::AddReplicate(/* [IsReadOnly] */ ::by_ref<T> value, int32_t count) {
+template <typename T> inline void Unity::Collections::NativeList_1<T>::AddReplicate(/* [IsReadOnly] */ ::by_ref<T const> value, int32_t count) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(), { "AddReplicate", {}, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<int32_t>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(), { "AddReplicate", {}, { ::i2c::type_of<::by_ref<T const>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value, count);
 }
 template <typename T> inline void Unity::Collections::NativeList_1<T>::InsertRangeWithBeginEnd(int32_t begin, int32_t end) {
@@ -235,19 +236,22 @@ template <typename T> inline ::Unity::Collections::NativeArray_1<T> Unity::Colle
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(), { "ToArray", {}, { ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(*this, ___internal_method, allocator);
 }
-template <typename T> inline void Unity::Collections::NativeList_1<T>::CopyFrom(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<T>> other) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(), { "CopyFrom", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T>>>() } })));
+template <typename T> inline void Unity::Collections::NativeList_1<T>::CopyFrom(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<T> const> other) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(), { "CopyFrom", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-template <typename T> inline void Unity::Collections::NativeList_1<T>::CopyFrom(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>> other) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(),
-                                                                                         { "CopyFrom", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>>>() } })));
+template <typename T> inline void Unity::Collections::NativeList_1<T>::CopyFrom(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> const> other) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(),
+                                                           { "CopyFrom", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-template <typename T> inline void Unity::Collections::NativeList_1<T>::CopyFrom(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeList_1<T>> other) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(), { "CopyFrom", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<T>>>() } })));
+template <typename T> inline void Unity::Collections::NativeList_1<T>::CopyFrom(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeList_1<T> const> other) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeList_1<T>>(), { "CopyFrom", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
 template <typename T> inline ::Unity::Collections::NativeArray_1_Enumerator<T> Unity::Collections::NativeList_1<T>::GetEnumerator() {

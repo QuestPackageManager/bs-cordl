@@ -21,7 +21,7 @@ class CORDL_TYPE IEquatableByReference_1 {
 public:
   // Declarations
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<T> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<T const> other);
 
   // Ctor Parameters [CppParam { name: "", ty: "IEquatableByReference_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies

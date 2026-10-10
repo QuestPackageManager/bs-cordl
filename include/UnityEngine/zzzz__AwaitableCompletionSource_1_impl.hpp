@@ -37,9 +37,9 @@ template <typename T> inline void UnityEngine::AwaitableCompletionSource_1<T>::s
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AwaitableCompletionSource_1<T>*>(), { "set_Awaitable", {}, { ::i2c::type_of<::UnityEngine::Awaitable_1<T>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T> inline void UnityEngine::AwaitableCompletionSource_1<T>::SetResult(/* [IsReadOnly] */ ::by_ref<T> value) {
+template <typename T> inline void UnityEngine::AwaitableCompletionSource_1<T>::SetResult(/* [IsReadOnly] */ ::by_ref<T const> value) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AwaitableCompletionSource_1<T>*>(), { "SetResult", {}, { ::i2c::type_of<::by_ref<T>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AwaitableCompletionSource_1<T>*>(), { "SetResult", {}, { ::i2c::type_of<::by_ref<T const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename T> inline void UnityEngine::AwaitableCompletionSource_1<T>::SetException(::System::Exception* exception) {
@@ -52,9 +52,9 @@ template <typename T> inline bool UnityEngine::AwaitableCompletionSource_1<T>::C
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AwaitableCompletionSource_1<T>*>(), { "CheckAndAcquireCompletionState", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T> inline bool UnityEngine::AwaitableCompletionSource_1<T>::TrySetResult(/* [IsReadOnly] */ ::by_ref<T> value) {
+template <typename T> inline bool UnityEngine::AwaitableCompletionSource_1<T>::TrySetResult(/* [IsReadOnly] */ ::by_ref<T const> value) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AwaitableCompletionSource_1<T>*>(), { "TrySetResult", {}, { ::i2c::type_of<::by_ref<T>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AwaitableCompletionSource_1<T>*>(), { "TrySetResult", {}, { ::i2c::type_of<::by_ref<T const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, value);
 }
 template <typename T> inline bool UnityEngine::AwaitableCompletionSource_1<T>::TrySetException(::System::Exception* exception) {

@@ -26,7 +26,7 @@ class CORDL_TYPE QuestSettingsApplicatorSO : public ::GlobalNamespace::SettingsA
 public:
   // Declarations
   /// @brief Method ApplyGraphicSettings, addr 0x5d1bab0, size 0x2a4, virtual true, abstract: false, final false
-  inline void ApplyGraphicSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType);
+  inline void ApplyGraphicSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings, ::GlobalNamespace::SceneType sceneType);
 
   static inline ::GlobalNamespace::QuestSettingsApplicatorSO* New_ctor();
 

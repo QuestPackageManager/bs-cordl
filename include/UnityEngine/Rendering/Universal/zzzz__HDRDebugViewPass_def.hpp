@@ -568,7 +568,7 @@ public:
 
   /// @brief Method ExecuteHDRDebugViewFinalPass, addr 0x6cc317c, size 0x474, virtual false, abstract: false, final false
   static inline void ExecuteHDRDebugViewFinalPass(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
-                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::HDRDebugViewPass_PassDataDebugView*> data,
+                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::HDRDebugViewPass_PassDataDebugView* const> data,
                                                   ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Vector4 scaleBias, ::UnityEngine::Rendering::RTHandle* destination,
                                                   ::UnityEngine::Rendering::RTHandle* xyTarget);
 

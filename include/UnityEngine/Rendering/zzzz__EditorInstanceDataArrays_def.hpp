@@ -37,7 +37,7 @@ struct CORDL_TYPE EditorInstanceDataArrays_ReadOnly {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x6c5969c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData const> instanceData);
 
   // Ctor Parameters []
   // @brief default ctor

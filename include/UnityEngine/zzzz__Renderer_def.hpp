@@ -105,10 +105,10 @@ public:
 
   /// [FreeFunction(Name = "RendererScripting::GetSharedMaterialArray", HasExplicitThis = true)]
   /// @brief Method CopySharedMaterialArray, addr 0x6ee319c, size 0x90, virtual false, abstract: false, final false
-  inline void CopySharedMaterialArray(::by_ref<::ArrayW<::UnityEngine::Material*>> m);
+  inline void CopySharedMaterialArray(::ArrayW<::UnityEngine::Material*> m);
 
   /// @brief Method CopySharedMaterialArray_Injected, addr 0x6ee322c, size 0x44, virtual false, abstract: false, final false
-  static inline void CopySharedMaterialArray_Injected(::System::IntPtr _unity_self, ::by_ref<::ArrayW<::UnityEngine::Material*>> m);
+  static inline void CopySharedMaterialArray_Injected(::System::IntPtr _unity_self, ::ArrayW<::UnityEngine::Material*> m);
 
   /// [NativeName("GetLightmapST")]
   /// @brief Method GetLightmapST, addr 0x6ee43e0, size 0xac, virtual false, abstract: false, final false
@@ -279,7 +279,7 @@ public:
   inline void set_bounds(::UnityEngine::Bounds value);
 
   /// @brief Method set_bounds_Injected, addr 0x6ee2bac, size 0x44, virtual false, abstract: false, final false
-  static inline void set_bounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds> value);
+  static inline void set_bounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds const> value);
 
   /// @brief Method set_enabled, addr 0x6ee365c, size 0x90, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
@@ -298,7 +298,7 @@ public:
   inline void set_localBounds(::UnityEngine::Bounds value);
 
   /// @brief Method set_localBounds_Injected, addr 0x6ee2c80, size 0x44, virtual false, abstract: false, final false
-  static inline void set_localBounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds> value);
+  static inline void set_localBounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds const> value);
 
   /// @brief Method set_material, addr 0x6ee466c, size 0x4, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);

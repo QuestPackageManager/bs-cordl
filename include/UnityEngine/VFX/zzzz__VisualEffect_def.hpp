@@ -233,14 +233,14 @@ public:
   inline void SetVector2(int32_t nameID, ::UnityEngine::Vector2 v);
 
   /// @brief Method SetVector2_Injected, addr 0x72cab8c, size 0x54, virtual false, abstract: false, final false
-  static inline void SetVector2_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector2> v);
+  static inline void SetVector2_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector2 const> v);
 
   /// [FreeFunction(Name = "VisualEffectBindings::SetValueFromScript<Vector3f>", HasExplicitThis = true)]
   /// @brief Method SetVector3, addr 0x72cabe0, size 0xa8, virtual false, abstract: false, final false
   inline void SetVector3(int32_t nameID, ::UnityEngine::Vector3 v);
 
   /// @brief Method SetVector3_Injected, addr 0x72cac88, size 0x54, virtual false, abstract: false, final false
-  static inline void SetVector3_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector3> v);
+  static inline void SetVector3_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector3 const> v);
 
   /// @brief Method SetVector4, addr 0x72cb0e4, size 0x54, virtual false, abstract: false, final false
   inline void SetVector4(::StringW name, ::UnityEngine::Vector4 v);
@@ -250,7 +250,7 @@ public:
   inline void SetVector4(int32_t nameID, ::UnityEngine::Vector4 v);
 
   /// @brief Method SetVector4_Injected, addr 0x72cad84, size 0x54, virtual false, abstract: false, final false
-  static inline void SetVector4_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector4> v);
+  static inline void SetVector4_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector4 const> v);
 
   /// @brief Method Simulate, addr 0x72cb25c, size 0xa0, virtual false, abstract: false, final false
   inline void Simulate(float_t stepDeltaTime, uint32_t stepCount);

@@ -97,13 +97,13 @@ public:
   __declspec(property(get = __cordl_internal_get_roomTransformOffsetDidUpdateEvent, put = __cordl_internal_set_roomTransformOffsetDidUpdateEvent)) ::System::Action* roomTransformOffsetDidUpdateEvent;
 
   /// @brief Method ApplyGameSettings, addr 0x5d1c190, size 0x10c, virtual false, abstract: false, final false
-  inline void ApplyGameSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings);
+  inline void ApplyGameSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings);
 
   /// @brief Method ApplyGraphicSettings, addr 0x5d1bd54, size 0x3c0, virtual true, abstract: false, final false
-  inline void ApplyGraphicSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType);
+  inline void ApplyGraphicSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings, ::GlobalNamespace::SceneType sceneType);
 
   /// @brief Method ApplyWindowSettings, addr 0x5d1c414, size 0x4, virtual true, abstract: false, final false
-  inline void ApplyWindowSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::WindowSettings> settings);
+  inline void ApplyWindowSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::WindowSettings const> settings);
 
   static inline ::GlobalNamespace::SettingsApplicatorSO* New_ctor();
 

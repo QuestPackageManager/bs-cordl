@@ -36,8 +36,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
 //  Writing Method size for method: ::UnityEngine::UIElements::UITKTextHandle.ComputeNativeTextSize
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextHandle::*)(::by_ref<::StringW>, float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode, float_t,
-                                                                                                           ::UnityEngine::UIElements::VisualElement_MeasureMode, ::System::Nullable_1<float_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UITKTextHandle::*)(
+    ::by_ref<::StringW const>, float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode, float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode, ::System::Nullable_1<float_t>)>(
     &::UnityEngine::UIElements::UITKTextHandle::ComputeNativeTextSize)> {
   constexpr static std::size_t size = 0x254;
   constexpr static std::size_t addrs = 0x711e48c;
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextHandle*>(),
                                          { "ComputeNativeTextSize",
                                            {},
-                                           { ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement_MeasureMode>(),
+                                           { ::i2c::type_of<::by_ref<::StringW const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement_MeasureMode>(),
                                              ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement_MeasureMode>(), ::i2c::type_of<::System::Nullable_1<float_t>>() } })));
     return ___internal_method;
   }
@@ -451,7 +451,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::UITKTextHandle::*)(
-    ::by_ref<::UnityEngine::TextCore::Text::RenderedText>, float_t, float_t, ::System::Nullable_1<float_t>)>(&::UnityEngine::UIElements::UITKTextHandle::ComputeTextSize)> {
+    ::by_ref<::UnityEngine::TextCore::Text::RenderedText const>, float_t, float_t, ::System::Nullable_1<float_t>)>(&::UnityEngine::UIElements::UITKTextHandle::ComputeTextSize)> {
   constexpr static std::size_t size = 0x16c;
   constexpr static std::size_t addrs = 0x7120368;
 
@@ -459,7 +459,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (:
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextHandle*>(),
                                                                                            { "ComputeTextSize",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText>>(), ::i2c::type_of<float_t>(),
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText const>>(), ::i2c::type_of<float_t>(),
                                                                                                ::i2c::type_of<float_t>(), ::i2c::type_of<::System::Nullable_1<float_t>>() } })));
     return ___internal_method;
   }
@@ -793,7 +793,7 @@ inline ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>*>(
       this, ___internal_method);
 }
-inline void UnityEngine::UIElements::UITKTextHandle::ComputeNativeTextSize(/* [IsReadOnly] */ ::by_ref<::StringW> textToMeasure, float_t width,
+inline void UnityEngine::UIElements::UITKTextHandle::ComputeNativeTextSize(/* [IsReadOnly] */ ::by_ref<::StringW const> textToMeasure, float_t width,
                                                                            ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t height,
                                                                            ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode, ::System::Nullable_1<float_t> fontsize) {
   static auto* ___internal_method =
@@ -801,7 +801,7 @@ inline void UnityEngine::UIElements::UITKTextHandle::ComputeNativeTextSize(/* [I
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextHandle*>(),
                                        { "ComputeNativeTextSize",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement_MeasureMode>(),
+                                         { ::i2c::type_of<::by_ref<::StringW const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement_MeasureMode>(),
                                            ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement_MeasureMode>(), ::i2c::type_of<::System::Nullable_1<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, textToMeasure, width, widthMode, height, heightMode, fontsize);
 }
@@ -956,12 +956,12 @@ inline ::UnityEngine::Vector2 UnityEngine::UIElements::UITKTextHandle::ComputeTe
                                            ::i2c::type_of<::UnityEngine::UIElements::VisualElement_MeasureMode>(), ::i2c::type_of<::System::Nullable_1<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method, textToMeasure, width, widthMode, height, heightMode, fontsize);
 }
-inline ::UnityEngine::Vector2 UnityEngine::UIElements::UITKTextHandle::ComputeTextSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> textToMeasure, float_t width,
+inline ::UnityEngine::Vector2 UnityEngine::UIElements::UITKTextHandle::ComputeTextSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText const> textToMeasure, float_t width,
                                                                                        float_t height, ::System::Nullable_1<float_t> fontsize) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextHandle*>(),
                                                                                          { "ComputeTextSize",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText>>(), ::i2c::type_of<float_t>(),
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText const>>(), ::i2c::type_of<float_t>(),
                                                                                              ::i2c::type_of<float_t>(), ::i2c::type_of<::System::Nullable_1<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method, textToMeasure, width, height, fontsize);
 }

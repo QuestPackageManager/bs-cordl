@@ -190,7 +190,7 @@ public:
   static inline ::UnityW<::UnityEngine::LightProbes> GetInstantiatedLightProbesForScene(::UnityEngine::SceneManagement::Scene scene);
 
   /// @brief Method GetInstantiatedLightProbesForScene_Injected, addr 0x6eddd00, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetInstantiatedLightProbesForScene_Injected(::by_ref<::UnityEngine::SceneManagement::Scene> scene);
+  static inline ::System::IntPtr GetInstantiatedLightProbesForScene_Injected(::by_ref<::UnityEngine::SceneManagement::Scene const> scene);
 
   /// [Obsolete("Use GetInterpolatedProbe instead.", true)]
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
@@ -202,7 +202,7 @@ public:
   static inline void GetInterpolatedProbe(::UnityEngine::Vector3 position, ::UnityEngine::Renderer* renderer, ::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> probe);
 
   /// @brief Method GetInterpolatedProbe_Injected, addr 0x6edd43c, size 0x54, virtual false, abstract: false, final false
-  static inline void GetInterpolatedProbe_Injected(::by_ref<::UnityEngine::Vector3> position, ::System::IntPtr renderer, ::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> probe);
+  static inline void GetInterpolatedProbe_Injected(::by_ref<::UnityEngine::Vector3 const> position, ::System::IntPtr renderer, ::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> probe);
 
   /// [NativeName("GetLightProbePositionsSelf")]
   /// [FreeFunction(HasExplicitThis = true)]
@@ -218,7 +218,7 @@ public:
   static inline ::UnityW<::UnityEngine::LightProbes> GetSharedLightProbesForScene(::UnityEngine::SceneManagement::Scene scene);
 
   /// @brief Method GetSharedLightProbesForScene_Injected, addr 0x6eddba4, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetSharedLightProbesForScene_Injected(::by_ref<::UnityEngine::SceneManagement::Scene> scene);
+  static inline ::System::IntPtr GetSharedLightProbesForScene_Injected(::by_ref<::UnityEngine::SceneManagement::Scene const> scene);
 
   /// [RequiredByNativeCode]
   /// @brief Method Internal_CallLightProbesUpdatedFunction, addr 0x6edcecc, size 0x68, virtual false, abstract: false, final false
@@ -420,7 +420,7 @@ public:
   inline void set_boundingBox(::UnityEngine::Bounds value);
 
   /// @brief Method set_boundingBox_Injected, addr 0x6edf1b0, size 0x44, virtual false, abstract: false, final false
-  static inline void set_boundingBox_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds> value);
+  static inline void set_boundingBox_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds const> value);
 
   /// @brief Method set_coefficients, addr 0x6edfb2c, size 0x4, virtual false, abstract: false, final false
   inline void set_coefficients(::ArrayW<float_t> value);

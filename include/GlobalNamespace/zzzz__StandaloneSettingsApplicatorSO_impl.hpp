@@ -6,7 +6,7 @@
 //  Writing Method size for method: ::GlobalNamespace::StandaloneSettingsApplicatorSO.ApplyWindowSettings
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneSettingsApplicatorSO::*)(::by_ref<::BeatSaber::Settings::WindowSettings>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneSettingsApplicatorSO::*)(::by_ref<::BeatSaber::Settings::WindowSettings const>)>(
     &::GlobalNamespace::StandaloneSettingsApplicatorSO::ApplyWindowSettings)> {
   constexpr static std::size_t size = 0x15c;
   constexpr static std::size_t addrs = 0x5d1c418;
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::StandaloneSettingsApplicatorSO::ApplyWindowSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::WindowSettings> settings) {
+inline void GlobalNamespace::StandaloneSettingsApplicatorSO::ApplyWindowSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::WindowSettings const> settings) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::StandaloneSettingsApplicatorSO*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, settings);

@@ -24,7 +24,7 @@ class CORDL_TYPE LocalLeaderboardsIdModel : public ::System::Object {
 public:
   // Declarations
   /// @brief Method GetLocalLeaderboardID, addr 0x39e0160, size 0x8, virtual false, abstract: false, final false
-  static inline ::StringW GetLocalLeaderboardID(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  static inline ::StringW GetLocalLeaderboardID(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   static inline ::GlobalNamespace::LocalLeaderboardsIdModel* New_ctor();
 

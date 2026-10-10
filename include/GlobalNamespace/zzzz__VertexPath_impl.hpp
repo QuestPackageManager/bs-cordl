@@ -113,20 +113,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VertexPath::*)(
-    ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, float_t, ::by_ref<::UnityEngine::Vector3>,
-    ::by_ref<float_t>, ::by_ref<::GlobalNamespace::VertexPath_Vertex>, ::by_ref<int32_t>)>(&::GlobalNamespace::VertexPath::AddVertex)> {
+    ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, float_t,
+    ::by_ref<::UnityEngine::Vector3>, ::by_ref<float_t>, ::by_ref<::GlobalNamespace::VertexPath_Vertex>, ::by_ref<int32_t>)>(&::GlobalNamespace::VertexPath::AddVertex)> {
   constexpr static std::size_t size = 0x56c;
   constexpr static std::size_t addrs = 0x5d1f724;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VertexPath*>(),
-                                         { "AddVertex",
-                                           {},
-                                           { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                             ::i2c::type_of<::by_ref<float_t>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::VertexPath_Vertex>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VertexPath*>(), { "AddVertex",
+                                                                                 {},
+                                                                                 { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                                   ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                                   ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<float_t>>(),
+                                                                                   ::i2c::type_of<::by_ref<::GlobalNamespace::VertexPath_Vertex>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
     return ___internal_method;
   }
 };
@@ -232,18 +232,18 @@ inline void GlobalNamespace::VertexPath::SplitBezierPathIntoFixNumberOfSegments(
                                                            { "SplitBezierPathIntoFixNumberOfSegments", {}, { ::i2c::type_of<::GlobalNamespace::BezierPath*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bezierPath, numberOfVertexSegments);
 }
-inline void GlobalNamespace::VertexPath::AddVertex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p0, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p1,
-                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p3, float_t t,
+inline void GlobalNamespace::VertexPath::AddVertex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p0, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p1,
+                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p3, float_t t,
                                                    ::by_ref<::UnityEngine::Vector3> lastRotationAxis, ::by_ref<float_t> currentPathLength, ::by_ref<::GlobalNamespace::VertexPath_Vertex> lastVertex,
                                                    ::by_ref<int32_t> vertCount) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VertexPath*>(),
-                                       { "AddVertex",
-                                         {},
-                                         { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                           ::i2c::type_of<::by_ref<float_t>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::VertexPath_Vertex>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VertexPath*>(), { "AddVertex",
+                                                                               {},
+                                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                                 ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<float_t>>(),
+                                                                                 ::i2c::type_of<::by_ref<::GlobalNamespace::VertexPath_Vertex>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, p0, p1, p2, p3, t, lastRotationAxis, currentPathLength, lastVertex, vertCount);
 }
 inline ::GlobalNamespace::VertexPath* GlobalNamespace::VertexPath::New_ctor(int32_t numberOfPathSegments) {

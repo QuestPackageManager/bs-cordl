@@ -335,7 +335,7 @@ public:
   inline void DirectionNavigation(::Unity::IntegerTime::DiscreteTime currentTime);
 
   /// @brief Method DispatchFromCallback, addr 0x690f6f0, size 0x124, virtual false, abstract: false, final false
-  inline void DispatchFromCallback(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev);
+  inline void DispatchFromCallback(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event const> ev);
 
   /// @brief Method FindActionAndRegisterCallback, addr 0x6910e34, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* FindActionAndRegisterCallback(::StringW actionNameOrId, ::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>* callback);
@@ -424,7 +424,7 @@ public:
   static inline int32_t SortEvents(::UnityEngine::InputForUI::Event a, ::UnityEngine::InputForUI::Event b);
 
   /// @brief Method ToPointerStateEvent, addr 0x690f488, size 0x110, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputForUI::PointerEvent ToPointerStateEvent(::Unity::IntegerTime::DiscreteTime currentTime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::PointerState> state,
+  inline ::UnityEngine::InputForUI::PointerEvent ToPointerStateEvent(::Unity::IntegerTime::DiscreteTime currentTime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::PointerState const> state,
                                                                      ::UnityEngine::InputForUI::EventSource eventSource);
 
   /// @brief Method UnregisterAction, addr 0x6910e84, size 0x2c, virtual false, abstract: false, final false

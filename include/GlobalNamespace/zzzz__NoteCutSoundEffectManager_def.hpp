@@ -219,7 +219,7 @@ public:
   inline void HandleNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController);
 
   /// @brief Method HandleNoteWasCut, addr 0x5cd00e0, size 0x170, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo);
 
   /// @brief Method HandleNoteWasSpawned, addr 0x5ccfb2c, size 0x584, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);

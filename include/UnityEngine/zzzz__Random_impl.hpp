@@ -173,13 +173,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Random.set_state_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Random_State>)>(&::UnityEngine::Random::set_state_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Random_State const>)>(&::UnityEngine::Random::set_state_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6f324d4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Random*>(), { "set_state_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Random_State>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Random*>(), { "set_state_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Random_State const>>() } })));
     return ___internal_method;
   }
 };
@@ -268,9 +268,9 @@ inline void UnityEngine::Random::get_state_Injected(::by_ref<::UnityEngine::Rand
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Random*>(), { "get_state_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Random_State>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::Random::set_state_Injected(::by_ref<::UnityEngine::Random_State> value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Random*>(), { "set_state_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Random_State>>() } })));
+inline void UnityEngine::Random::set_state_Injected(::by_ref<::UnityEngine::Random_State const> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Random*>(), { "set_state_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Random_State const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 inline void UnityEngine::Random::get_onUnitSphere_Injected(::by_ref<::UnityEngine::Vector3> ret) {

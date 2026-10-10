@@ -393,7 +393,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::PointerEvent (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(
-    ::Unity::IntegerTime::DiscreteTime, ::by_ref<::UnityEngine::InputForUI::PointerState>, ::UnityEngine::InputForUI::EventSource)>(
+    ::Unity::IntegerTime::DiscreteTime, ::by_ref<::UnityEngine::InputForUI::PointerState const>, ::UnityEngine::InputForUI::EventSource)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ToPointerStateEvent)> {
   constexpr static std::size_t size = 0x110;
   constexpr static std::size_t addrs = 0x690f488;
@@ -403,7 +403,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
                                                              { "ToPointerStateEvent",
                                                                {},
-                                                               { ::i2c::type_of<::Unity::IntegerTime::DiscreteTime>(), ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::PointerState>>(),
+                                                               { ::i2c::type_of<::Unity::IntegerTime::DiscreteTime>(), ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::PointerState const>>(),
                                                                  ::i2c::type_of<::UnityEngine::InputForUI::EventSource>() } })));
     return ___internal_method;
   }
@@ -453,14 +453,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::I
 //  Writing Method size for method: ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider.DispatchFromCallback
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::by_ref<::UnityEngine::InputForUI::Event>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::by_ref<::UnityEngine::InputForUI::Event const>)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::DispatchFromCallback)> {
   constexpr static std::size_t size = 0x124;
   constexpr static std::size_t addrs = 0x690f6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
-                                                                                           { "DispatchFromCallback", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event>>() } })));
+                                                                                           { "DispatchFromCallback", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event const>>() } })));
     return ___internal_method;
   }
 };
@@ -1083,12 +1083,12 @@ inline ::UnityEngine::Vector2 UnityEngine::InputSystem::Plugins::InputForUI::Inp
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, position, targetDisplay);
 }
 inline ::UnityEngine::InputForUI::PointerEvent UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ToPointerStateEvent(
-    ::Unity::IntegerTime::DiscreteTime currentTime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::PointerState> state, ::UnityEngine::InputForUI::EventSource eventSource) {
+    ::Unity::IntegerTime::DiscreteTime currentTime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::PointerState const> state, ::UnityEngine::InputForUI::EventSource eventSource) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
                                                            { "ToPointerStateEvent",
                                                              {},
-                                                             { ::i2c::type_of<::Unity::IntegerTime::DiscreteTime>(), ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::PointerState>>(),
+                                                             { ::i2c::type_of<::Unity::IntegerTime::DiscreteTime>(), ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::PointerState const>>(),
                                                                ::i2c::type_of<::UnityEngine::InputForUI::EventSource>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputForUI::PointerEvent>(this, ___internal_method, currentTime, state, eventSource);
 }
@@ -1108,9 +1108,9 @@ UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::GetPointerSt
                                                                                          { "GetPointerStateForSource", {}, { ::i2c::type_of<::UnityEngine::InputForUI::EventSource>() } })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<::UnityEngine::InputForUI::PointerState>>(this, ___internal_method, eventSource);
 }
-inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::DispatchFromCallback(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev) {
+inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::DispatchFromCallback(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event const> ev) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
-                                                                                         { "DispatchFromCallback", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event>>() } })));
+                                                                                         { "DispatchFromCallback", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ev);
 }
 inline int32_t UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::FindTouchFingerIndex(::UnityEngine::InputSystem::Touchscreen* touchscreen,

@@ -19,13 +19,13 @@ template <typename TControl, typename TRealtime>
            ::cordl_internals::default_constructor_constraint<TControl> && ::cordl_internals::type_constraint<TRealtime, ::UnityEngine::Audio::ProcessorInstance_IRealtime*> &&
            ::cordl_internals::value_type_constraint<TRealtime> && ::cordl_internals::default_constructor_constraint<TRealtime>)
 inline void UnityEngine::Audio::ProcessorExtensions::DispatchGenericControl(::by_ref<TControl> control, ::by_ref<TRealtime> realtime,
-                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorHeader> header, void* additionalPtr,
+                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorHeader const> header, void* additionalPtr,
                                                                             ::UnityEngine::Audio::ControlFunction function) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ProcessorExtensions*>(),
                                               { "DispatchGenericControl",
                                                 { ::i2c::class_of<TControl>(), ::i2c::class_of<TRealtime>() },
-                                                { ::i2c::type_of<::by_ref<TControl>>(), ::i2c::type_of<::by_ref<TRealtime>>(), ::i2c::type_of<::by_ref<::UnityEngine::Audio::ProcessorHeader>>(),
+                                                { ::i2c::type_of<::by_ref<TControl>>(), ::i2c::type_of<::by_ref<TRealtime>>(), ::i2c::type_of<::by_ref<::UnityEngine::Audio::ProcessorHeader const>>(),
                                                   ::i2c::type_of<void*>(), ::i2c::type_of<::UnityEngine::Audio::ControlFunction>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TControl>(), ::i2c::class_of<TRealtime>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, control, realtime, header, additionalPtr, function);
@@ -33,13 +33,14 @@ inline void UnityEngine::Audio::ProcessorExtensions::DispatchGenericControl(::by
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::UnityEngine::Audio::ProcessorInstance_IRealtime*> && ::cordl_internals::value_type_constraint<T> &&
            ::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::Audio::ProcessorExtensions::DispatchGenericProcessor(::by_ref<T> processor, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorHeader> header, void* additionalPtr,
-                                                                              ::UnityEngine::Audio::ProcessorFunction function) {
-  static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ProcessorExtensions*>(),
-                                                                                              { "DispatchGenericProcessor",
-                                                                                                { ::i2c::class_of<T>() },
-                                                                                                { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<::UnityEngine::Audio::ProcessorHeader>>(),
-                                                                                                  ::i2c::type_of<void*>(), ::i2c::type_of<::UnityEngine::Audio::ProcessorFunction>() } })));
+inline void UnityEngine::Audio::ProcessorExtensions::DispatchGenericProcessor(::by_ref<T> processor, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorHeader const> header,
+                                                                              void* additionalPtr, ::UnityEngine::Audio::ProcessorFunction function) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ProcessorExtensions*>(), { "DispatchGenericProcessor",
+                                                                                           { ::i2c::class_of<T>() },
+                                                                                           { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<::UnityEngine::Audio::ProcessorHeader const>>(),
+                                                                                             ::i2c::type_of<void*>(), ::i2c::type_of<::UnityEngine::Audio::ProcessorFunction>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, processor, header, additionalPtr, function);
 }

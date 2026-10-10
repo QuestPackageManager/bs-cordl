@@ -39,14 +39,14 @@ public:
     requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::Audio::ProcessorInstance_IControl_1<TRealtime>*> && ::cordl_internals::value_type_constraint<TControl> &&
              ::cordl_internals::default_constructor_constraint<TControl> && ::cordl_internals::type_constraint<TRealtime, ::UnityEngine::Audio::ProcessorInstance_IRealtime*> &&
              ::cordl_internals::value_type_constraint<TRealtime> && ::cordl_internals::default_constructor_constraint<TRealtime>)
-  static inline void DispatchGenericControl(::by_ref<TControl> control, ::by_ref<TRealtime> realtime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorHeader> header, void* additionalPtr,
-                                            ::UnityEngine::Audio::ControlFunction function);
+  static inline void DispatchGenericControl(::by_ref<TControl> control, ::by_ref<TRealtime> realtime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorHeader const> header,
+                                            void* additionalPtr, ::UnityEngine::Audio::ControlFunction function);
 
   /// @brief Method DispatchGenericProcessor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Audio::ProcessorInstance_IRealtime*> && ::cordl_internals::value_type_constraint<T> &&
              ::cordl_internals::default_constructor_constraint<T>)
-  static inline void DispatchGenericProcessor(::by_ref<T> processor, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorHeader> header, void* additionalPtr,
+  static inline void DispatchGenericProcessor(::by_ref<T> processor, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorHeader const> header, void* additionalPtr,
                                               ::UnityEngine::Audio::ProcessorFunction function);
 
 protected:

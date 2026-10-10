@@ -297,36 +297,38 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Playables::PlayableOutputHandle.SetSourcePlayable_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableOutputHandle>, ::by_ref<::UnityEngine::Playables::PlayableHandle>, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableOutputHandle>, ::by_ref<::UnityEngine::Playables::PlayableHandle const>, int32_t)>(
     &::UnityEngine::Playables::PlayableOutputHandle::SetSourcePlayable_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6f61b34;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(),
-                                                                                           { "SetSourcePlayable_Injected",
-                                                                                             {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableOutputHandle>>(),
-                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(),
+                                                             { "SetSourcePlayable_Injected",
+                                                               {},
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableOutputHandle>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle const>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Playables::PlayableOutputHandle.PushNotification_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableOutputHandle>, ::by_ref<::UnityEngine::Playables::PlayableHandle>, ::UnityEngine::Playables::INotification*, ::System::Object*)>(
-        &::UnityEngine::Playables::PlayableOutputHandle::PushNotification_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableOutputHandle>, ::by_ref<::UnityEngine::Playables::PlayableHandle const>,
+                                                                ::UnityEngine::Playables::INotification*, ::System::Object*)>(
+    &::UnityEngine::Playables::PlayableOutputHandle::PushNotification_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6f61cb4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(),
-                                                { "PushNotification_Injected",
-                                                  {},
-                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableOutputHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(),
-                                                    ::i2c::type_of<::UnityEngine::Playables::INotification*>(), ::i2c::type_of<::System::Object*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(),
+                                         { "PushNotification_Injected",
+                                           {},
+                                           { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableOutputHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle const>>(),
+                                             ::i2c::type_of<::UnityEngine::Playables::INotification*>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
@@ -456,23 +458,25 @@ inline void UnityEngine::Playables::PlayableOutputHandle::GetSourcePlayable_Inje
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, ret);
 }
 inline void UnityEngine::Playables::PlayableOutputHandle::SetSourcePlayable_Injected(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> _unity_self,
-                                                                                     ::by_ref<::UnityEngine::Playables::PlayableHandle> target, int32_t port) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(),
-                                                                                         { "SetSourcePlayable_Injected",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableOutputHandle>>(),
-                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(), ::i2c::type_of<int32_t>() } })));
+                                                                                     ::by_ref<::UnityEngine::Playables::PlayableHandle const> target, int32_t port) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(),
+                                                           { "SetSourcePlayable_Injected",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableOutputHandle>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle const>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, target, port);
 }
 inline void UnityEngine::Playables::PlayableOutputHandle::PushNotification_Injected(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> _unity_self,
-                                                                                    ::by_ref<::UnityEngine::Playables::PlayableHandle> origin, ::UnityEngine::Playables::INotification* notification,
-                                                                                    ::System::Object* context) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(),
-                                              { "PushNotification_Injected",
-                                                {},
-                                                { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableOutputHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(),
-                                                  ::i2c::type_of<::UnityEngine::Playables::INotification*>(), ::i2c::type_of<::System::Object*>() } })));
+                                                                                    ::by_ref<::UnityEngine::Playables::PlayableHandle const> origin,
+                                                                                    ::UnityEngine::Playables::INotification* notification, ::System::Object* context) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(),
+                                       { "PushNotification_Injected",
+                                         {},
+                                         { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableOutputHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle const>>(),
+                                           ::i2c::type_of<::UnityEngine::Playables::INotification*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, origin, notification, context);
 }
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>"

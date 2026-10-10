@@ -6,10 +6,10 @@
 #include "UnityEngine/Audio/zzzz__ProcessorInstance_def.hpp"
 template <typename T>
   requires(::cordl_internals::reference_type_constraint<T>)
-inline T UnityEngine::Audio::MessageExtensions::Get(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorInstance_Message> message) {
+inline T UnityEngine::Audio::MessageExtensions::Get(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorInstance_Message const> message) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::MessageExtensions*>(),
-                                                           { "Get", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::ProcessorInstance_Message>>() } })));
+                                                           { "Get", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::ProcessorInstance_Message const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, message);
 }

@@ -87,7 +87,7 @@ public:
   /// @brief Method IncreaseNumberOfGameplays, addr 0x39d1c30, size 0x10, virtual false, abstract: false, final false
   inline void IncreaseNumberOfGameplays();
 
-  static inline ::GlobalNamespace::PlayerLevelStatsData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  static inline ::GlobalNamespace::PlayerLevelStatsData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   static inline ::GlobalNamespace::PlayerLevelStatsData* New_ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic);
 
@@ -152,7 +152,7 @@ public:
   constexpr void __cordl_internal_set__validScore(bool value);
 
   /// @brief Method .ctor, addr 0x39d1830, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   /// @brief Method .ctor, addr 0x39d76d4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic);

@@ -55,13 +55,13 @@ public:
   static inline bool ClearCachedVersionInternal(::StringW assetBundleName, ::UnityEngine::Hash128 hash);
 
   /// @brief Method ClearCachedVersionInternal_Injected, addr 0x6ebbfa4, size 0x44, virtual false, abstract: false, final false
-  static inline bool ClearCachedVersionInternal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> assetBundleName, ::by_ref<::UnityEngine::Hash128> hash);
+  static inline bool ClearCachedVersionInternal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> assetBundleName, ::by_ref<::UnityEngine::Hash128 const> hash);
 
   /// @brief Method ClearCachedVersions, addr 0x6ebc048, size 0x148, virtual false, abstract: false, final false
   static inline bool ClearCachedVersions(::StringW assetBundleName, ::UnityEngine::Hash128 hash, bool keepInputVersion);
 
   /// @brief Method ClearCachedVersions_Injected, addr 0x6ebc1f8, size 0x54, virtual false, abstract: false, final false
-  static inline bool ClearCachedVersions_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> assetBundleName, ::by_ref<::UnityEngine::Hash128> hash, bool keepInputVersion);
+  static inline bool ClearCachedVersions_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> assetBundleName, ::by_ref<::UnityEngine::Hash128 const> hash, bool keepInputVersion);
 
   /// @brief Method ClearOtherCachedVersions, addr 0x6ebbfe8, size 0x60, virtual false, abstract: false, final false
   static inline bool ClearOtherCachedVersions(::StringW assetBundleName, ::UnityEngine::Hash128 hash);
@@ -84,7 +84,7 @@ public:
 
   /// @brief Method IsVersionCached_Injected, addr 0x6ebc4b0, size 0x54, virtual false, abstract: false, final false
   static inline bool IsVersionCached_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> url, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> assetBundleName,
-                                              ::by_ref<::UnityEngine::Hash128> hash);
+                                              ::by_ref<::UnityEngine::Hash128 const> hash);
 
   /// [NativeName("Caching_GetCurrentCacheHandle")]
   /// @brief Method get_currentCacheForWriting, addr 0x6ebcaac, size 0x44, virtual false, abstract: false, final false
@@ -113,7 +113,7 @@ public:
   static inline void set_currentCacheForWriting(::UnityEngine::Cache value);
 
   /// @brief Method set_currentCacheForWriting_Injected, addr 0x6ebcb6c, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_currentCacheForWriting_Injected(::by_ref<::UnityEngine::Cache> value);
+  static inline void set_currentCacheForWriting_Injected(::by_ref<::UnityEngine::Cache const> value);
 
 protected:
   // Ctor Parameters []

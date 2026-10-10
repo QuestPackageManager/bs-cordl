@@ -209,13 +209,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::CutScoreBuffer.Init
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CutScoreBuffer::*)(::by_ref<::GlobalNamespace::NoteCutInfo>)>(&::GlobalNamespace::CutScoreBuffer::Init)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CutScoreBuffer::*)(::by_ref<::GlobalNamespace::NoteCutInfo const>)>(&::GlobalNamespace::CutScoreBuffer::Init)> {
   constexpr static std::size_t size = 0x26c;
   constexpr static std::size_t addrs = 0x5e0ebb8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "Init", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "Init", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo const>>() } })));
     return ___internal_method;
   }
 };
@@ -461,9 +461,9 @@ inline void GlobalNamespace::CutScoreBuffer::UnregisterDidFinishReceiver(::Globa
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "UnregisterDidFinishReceiver", {}, { ::i2c::type_of<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, receiver);
 }
-inline bool GlobalNamespace::CutScoreBuffer::Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "Init", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo>>() } })));
+inline bool GlobalNamespace::CutScoreBuffer::Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "Init", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, noteCutInfo);
 }
 inline void GlobalNamespace::CutScoreBuffer::RefreshScores() {

@@ -475,14 +475,14 @@ public:
   static inline ::GlobalNamespace::PerformanceConfigurationChecks* New_ctor();
 
   /// @brief Method SetExpected, addr 0x5d0b8ac, size 0x378, virtual false, abstract: false, final false
-  inline bool SetExpected(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings,
+  inline bool SetExpected(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings,
                           ::GlobalNamespace::GameplayModifierMask modifiers, ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState);
 
   /// @brief Method VerifyEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void VerifyEntry(::StringW name, T expected, T actual);
 
   /// @brief Method VerifyExpected, addr 0x5d0bc24, size 0x1530, virtual false, abstract: false, final false
-  inline bool VerifyExpected(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings,
+  inline bool VerifyExpected(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings,
                              ::GlobalNamespace::GameplayModifierMask modifiers, ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState);
 
   constexpr ::GlobalNamespace::PerformanceConfigurationChecks_AppConfig const& __cordl_internal_get_appConfig() const;

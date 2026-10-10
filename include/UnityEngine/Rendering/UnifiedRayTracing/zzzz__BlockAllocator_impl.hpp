@@ -244,14 +244,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)(
-    ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>)>(&::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::FreeAllocation)> {
+    ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>)>(&::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::FreeAllocation)> {
   constexpr static std::size_t size = 0x16c;
   constexpr static std::size_t addrs = 0x6e036b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator>(),
-                                                             { "FreeAllocation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>>() } })));
+                                                             { "FreeAllocation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>>() } })));
     return ___internal_method;
   }
 };
@@ -259,7 +259,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation> (
-    ::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)(::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>, int32_t)>(
+    ::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)(::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>, int32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::SplitAllocation)> {
   constexpr static std::size_t size = 0x318;
   constexpr static std::size_t addrs = 0x6e083bc;
@@ -268,7 +268,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::R
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator>(),
-                            { "SplitAllocation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>>(), ::i2c::type_of<int32_t>() } })));
+                            { "SplitAllocation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -343,19 +343,20 @@ inline int32_t UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::MergeB
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator>(), { "MergeBlockFrontBack", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, freeBlockId);
 }
-inline void UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::FreeAllocation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation> allocation) {
+inline void
+UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::FreeAllocation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const> allocation) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator>(),
-                                                           { "FreeAllocation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>>() } })));
+                                                           { "FreeAllocation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, allocation);
 }
 inline ::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>
-UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::SplitAllocation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation> allocation,
+UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::SplitAllocation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const> allocation,
                                                                            int32_t count) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator>(),
-                                       { "SplitAllocation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>>(), ::i2c::type_of<int32_t>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator>(),
+                          { "SplitAllocation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>>(*this, ___internal_method, allocation, count);
 }
 /// @brief Convert operator to "::System::IDisposable"

@@ -121,7 +121,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Chun
 //  Writing Method size for method: ::System::Net::ChunkedInputStream.Read
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::ChunkedInputStream::*)(::by_ref<::ArrayW<uint8_t>>, int32_t, int32_t)>(&::System::Net::ChunkedInputStream::Read)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::ChunkedInputStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::ChunkedInputStream::Read)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6850f44;
 
@@ -241,7 +241,7 @@ inline void System::Net::ChunkedInputStream::_ctor(::System::Net::HttpListenerCo
                                                                                                   ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, stream, buffer, offset, length);
 }
-inline int32_t System::Net::ChunkedInputStream::Read(::by_ref<::ArrayW<uint8_t>> buffer, int32_t offset, int32_t count) {
+inline int32_t System::Net::ChunkedInputStream::Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Net::ChunkedInputStream*>(), 35 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, buffer, offset, count);
 }

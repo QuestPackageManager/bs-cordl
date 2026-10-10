@@ -160,7 +160,7 @@ public:
   inline void DisableKeyword(::StringW keyword);
 
   /// @brief Method DisableKeyword, addr 0x6eef068, size 0x2c, virtual false, abstract: false, final false
-  inline void DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword);
 
   /// @brief Method DisableKeyword_Injected, addr 0x6eeea0c, size 0x44, virtual false, abstract: false, final false
   static inline void DisableKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
@@ -170,13 +170,13 @@ public:
   inline void DisableLocalKeyword(::UnityEngine::Rendering::LocalKeyword keyword);
 
   /// @brief Method DisableLocalKeyword_Injected, addr 0x6eeede8, size 0x44, virtual false, abstract: false, final false
-  static inline void DisableLocalKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  static inline void DisableLocalKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword);
 
   /// @brief Method EnableKeyword, addr 0x6eee6a8, size 0x190, virtual false, abstract: false, final false
   inline void EnableKeyword(::StringW keyword);
 
   /// @brief Method EnableKeyword, addr 0x6eef03c, size 0x2c, virtual false, abstract: false, final false
-  inline void EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword);
 
   /// @brief Method EnableKeyword_Injected, addr 0x6eee838, size 0x44, virtual false, abstract: false, final false
   static inline void EnableKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
@@ -186,14 +186,14 @@ public:
   inline void EnableLocalKeyword(::UnityEngine::Rendering::LocalKeyword keyword);
 
   /// @brief Method EnableLocalKeyword_Injected, addr 0x6eeecec, size 0x44, virtual false, abstract: false, final false
-  static inline void EnableLocalKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  static inline void EnableLocalKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword);
 
   /// @brief Method ExtractColorArray, addr 0x6ef4b30, size 0x128, virtual false, abstract: false, final false
   inline void ExtractColorArray(int32_t name, ::System::Collections::Generic::List_1<::UnityEngine::Color>* values);
 
   /// [FreeFunction(Name = "MaterialScripting::ExtractColorArray", HasExplicitThis = true)]
   /// @brief Method ExtractColorArrayImpl, addr 0x6ef3ee0, size 0x188, virtual false, abstract: false, final false
-  inline void ExtractColorArrayImpl(int32_t name, ::by_ref<::ArrayW<::UnityEngine::Color>> val);
+  inline void ExtractColorArrayImpl(int32_t name, ::ArrayW<::UnityEngine::Color> val);
 
   /// @brief Method ExtractColorArrayImpl_Injected, addr 0x6ef4068, size 0x54, virtual false, abstract: false, final false
   static inline void ExtractColorArrayImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> val);
@@ -203,7 +203,7 @@ public:
 
   /// [FreeFunction(Name = "MaterialScripting::ExtractFloatArray", HasExplicitThis = true)]
   /// @brief Method ExtractFloatArrayImpl, addr 0x6ef3b28, size 0x188, virtual false, abstract: false, final false
-  inline void ExtractFloatArrayImpl(int32_t name, ::by_ref<::ArrayW<float_t>> val);
+  inline void ExtractFloatArrayImpl(int32_t name, ::ArrayW<float_t> val);
 
   /// @brief Method ExtractFloatArrayImpl_Injected, addr 0x6ef3cb0, size 0x54, virtual false, abstract: false, final false
   static inline void ExtractFloatArrayImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> val);
@@ -213,7 +213,7 @@ public:
 
   /// [FreeFunction(Name = "MaterialScripting::ExtractMatrixArray", HasExplicitThis = true)]
   /// @brief Method ExtractMatrixArrayImpl, addr 0x6ef40bc, size 0x188, virtual false, abstract: false, final false
-  inline void ExtractMatrixArrayImpl(int32_t name, ::by_ref<::ArrayW<::UnityEngine::Matrix4x4>> val);
+  inline void ExtractMatrixArrayImpl(int32_t name, ::ArrayW<::UnityEngine::Matrix4x4> val);
 
   /// @brief Method ExtractMatrixArrayImpl_Injected, addr 0x6ef4244, size 0x54, virtual false, abstract: false, final false
   static inline void ExtractMatrixArrayImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> val);
@@ -223,7 +223,7 @@ public:
 
   /// [FreeFunction(Name = "MaterialScripting::ExtractVectorArray", HasExplicitThis = true)]
   /// @brief Method ExtractVectorArrayImpl, addr 0x6ef3d04, size 0x188, virtual false, abstract: false, final false
-  inline void ExtractVectorArrayImpl(int32_t name, ::by_ref<::ArrayW<::UnityEngine::Vector4>> val);
+  inline void ExtractVectorArrayImpl(int32_t name, ::ArrayW<::UnityEngine::Vector4> val);
 
   /// @brief Method ExtractVectorArrayImpl_Injected, addr 0x6ef3e8c, size 0x54, virtual false, abstract: false, final false
   static inline void ExtractVectorArrayImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> val);
@@ -688,7 +688,7 @@ public:
   inline bool IsKeywordEnabled(::StringW keyword);
 
   /// @brief Method IsKeywordEnabled, addr 0x6eef0c0, size 0x30, virtual false, abstract: false, final false
-  inline bool IsKeywordEnabled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline bool IsKeywordEnabled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword);
 
   /// @brief Method IsKeywordEnabled_Injected, addr 0x6eeebf0, size 0x44, virtual false, abstract: false, final false
   static inline bool IsKeywordEnabled_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
@@ -698,7 +698,7 @@ public:
   inline bool IsLocalKeywordEnabled(::UnityEngine::Rendering::LocalKeyword keyword);
 
   /// @brief Method IsLocalKeywordEnabled_Injected, addr 0x6eeeff8, size 0x44, virtual false, abstract: false, final false
-  static inline bool IsLocalKeywordEnabled_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  static inline bool IsLocalKeywordEnabled_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword);
 
   /// [FreeFunction("MaterialScripting::Lerp", HasExplicitThis = true)]
   /// [NativeThrows]
@@ -769,7 +769,7 @@ public:
   inline void SetColorImpl(int32_t name, ::UnityEngine::Color value);
 
   /// @brief Method SetColorImpl_Injected, addr 0x6ef17e8, size 0x54, virtual false, abstract: false, final false
-  static inline void SetColorImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Color> value);
+  static inline void SetColorImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Color const> value);
 
   /// @brief Method SetConstantBuffer, addr 0x6ef5010, size 0x48, virtual false, abstract: false, final false
   inline void SetConstantBuffer(::StringW name, ::UnityEngine::ComputeBuffer* value, int32_t offset, int32_t size);
@@ -866,14 +866,14 @@ public:
   inline void SetInteger(int32_t nameID, int32_t value);
 
   /// @brief Method SetKeyword, addr 0x6eef094, size 0x2c, virtual false, abstract: false, final false
-  inline void SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
+  inline void SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword, bool value);
 
   /// [FreeFunction("MaterialScripting::SetKeyword", HasExplicitThis = true)]
   /// @brief Method SetLocalKeyword, addr 0x6eeee2c, size 0xc0, virtual false, abstract: false, final false
   inline void SetLocalKeyword(::UnityEngine::Rendering::LocalKeyword keyword, bool value);
 
   /// @brief Method SetLocalKeyword_Injected, addr 0x6eeeeec, size 0x54, virtual false, abstract: false, final false
-  static inline void SetLocalKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
+  static inline void SetLocalKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword, bool value);
 
   /// @brief Method SetMatrix, addr 0x6ef4ec4, size 0x4c, virtual false, abstract: false, final false
   inline void SetMatrix(::StringW name, ::UnityEngine::Matrix4x4 value);
@@ -908,7 +908,7 @@ public:
   inline void SetMatrixImpl(int32_t name, ::UnityEngine::Matrix4x4 value);
 
   /// @brief Method SetMatrixImpl_Injected, addr 0x6ef18fc, size 0x54, virtual false, abstract: false, final false
-  static inline void SetMatrixImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Matrix4x4> value);
+  static inline void SetMatrixImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Matrix4x4 const> value);
 
   /// @brief Method SetOverrideTag, addr 0x6ef0024, size 0x210, virtual false, abstract: false, final false
   inline void SetOverrideTag(::StringW tag, ::StringW val);
@@ -974,7 +974,7 @@ public:
   inline void SetTextureOffsetImpl(int32_t name, ::UnityEngine::Vector2 offset);
 
   /// @brief Method SetTextureOffsetImpl_Injected, addr 0x6ef4484, size 0x54, virtual false, abstract: false, final false
-  static inline void SetTextureOffsetImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Vector2> offset);
+  static inline void SetTextureOffsetImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Vector2 const> offset);
 
   /// @brief Method SetTextureScale, addr 0x6ef5aec, size 0x38, virtual false, abstract: false, final false
   inline void SetTextureScale(::StringW name, ::UnityEngine::Vector2 value);
@@ -987,7 +987,7 @@ public:
   inline void SetTextureScaleImpl(int32_t name, ::UnityEngine::Vector2 scale);
 
   /// @brief Method SetTextureScaleImpl_Injected, addr 0x6ef459c, size 0x54, virtual false, abstract: false, final false
-  static inline void SetTextureScaleImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Vector2> scale);
+  static inline void SetTextureScaleImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Vector2 const> scale);
 
   /// @brief Method SetVector, addr 0x6ef4e70, size 0x50, virtual false, abstract: false, final false
   inline void SetVector(::StringW name, ::UnityEngine::Vector4 value);

@@ -190,10 +190,10 @@ public:
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method Contains, addr 0x6f937a4, size 0x58, virtual false, abstract: false, final false
-  inline bool Contains(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline bool Contains(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method Contains_Injected, addr 0x6f97b50, size 0x44, virtual false, abstract: false, final false
-  static inline bool Contains_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  static inline bool Contains_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [FreeFunction("HierarchyFlattenedBindings::Create", IsThreadSafe = true)]
   /// @brief Method Create, addr 0x6f9781c, size 0x78, virtual false, abstract: false, final false
@@ -218,7 +218,7 @@ public:
   inline void Dispose(bool disposing);
 
   /// @brief Method EnumerateChildren, addr 0x6f97b94, size 0x1c, virtual false, abstract: false, final false
-  inline ::Unity::Hierarchy::HierarchyFlattenedChildrenEnumerable EnumerateChildren(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline ::Unity::Hierarchy::HierarchyFlattenedChildrenEnumerable EnumerateChildren(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method Finalize, addr 0x6f97914, size 0x48, virtual true, abstract: false, final false
   inline void Finalize();
@@ -231,10 +231,10 @@ public:
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method IndexOf, addr 0x6f937fc, size 0x58, virtual false, abstract: false, final false
-  inline int32_t IndexOf(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline int32_t IndexOf(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method IndexOf_Injected, addr 0x6f97b0c, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t IndexOf_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  static inline int32_t IndexOf_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   static inline ::Unity::Hierarchy::HierarchyFlattened* New_ctor(::Unity::Hierarchy::Hierarchy* hierarchy);
 

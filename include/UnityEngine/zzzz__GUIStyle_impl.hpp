@@ -1057,25 +1057,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Sy
 //  Writing Method size for method: ::UnityEngine::GUIStyle.Internal_Draw_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rect>, ::UnityEngine::GUIContent*, bool, bool, bool, bool)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rect const>, ::UnityEngine::GUIContent*, bool, bool, bool, bool)>(
     &::UnityEngine::GUIStyle::Internal_Draw_Injected)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x6fa7e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(),
-                                                             { "Internal_Draw_Injected",
-                                                               {},
-                                                               { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::UnityEngine::GUIContent*>(),
-                                                                 ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(), { "Internal_Draw_Injected",
+                                                                                                            {},
+                                                                                                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(),
+                                                                                                              ::i2c::type_of<::UnityEngine::GUIContent*>(), ::i2c::type_of<bool>(),
+                                                                                                              ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::GUIStyle.Internal_Draw2_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rect>, ::UnityEngine::GUIContent*, int32_t, bool)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rect const>, ::UnityEngine::GUIContent*, int32_t, bool)>(
     &::UnityEngine::GUIStyle::Internal_Draw2_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x6fa7f74;
@@ -1084,7 +1084,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(), { "Internal_Draw2_Injected",
                                                                                                {},
-                                                                                               { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(),
+                                                                                               { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(),
                                                                                                  ::i2c::type_of<::UnityEngine::GUIContent*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
@@ -1092,18 +1092,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::GUIStyle.Internal_CalcSizeWithConstraints_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::GUIContent*, ::by_ref<::UnityEngine::Vector2>, ::by_ref<::UnityEngine::Vector2>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::GUIContent*, ::by_ref<::UnityEngine::Vector2 const>, ::by_ref<::UnityEngine::Vector2>)>(
     &::UnityEngine::GUIStyle::Internal_CalcSizeWithConstraints_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6fa80a4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(), { "Internal_CalcSizeWithConstraints_Injected",
-                                                                                        {},
-                                                                                        { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::UnityEngine::GUIContent*>(),
-                                                                                          ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(), { "Internal_CalcSizeWithConstraints_Injected",
+                                                                           {},
+                                                                           { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::UnityEngine::GUIContent*>(),
+                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
     return ___internal_method;
   }
 };
@@ -1142,25 +1142,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::GUIStyle.Internal_GetTextRectOffset_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rect>, ::UnityEngine::GUIContent*, ::by_ref<::UnityEngine::Vector2>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rect const>, ::UnityEngine::GUIContent*, ::by_ref<::UnityEngine::Vector2 const>,
                                                                 ::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::GUIStyle::Internal_GetTextRectOffset_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x6fa83e0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(),
-                                                             { "Internal_GetTextRectOffset_Injected",
-                                                               {},
-                                                               { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::UnityEngine::GUIContent*>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(),
+                                                { "Internal_GetTextRectOffset_Injected",
+                                                  {},
+                                                  { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::UnityEngine::GUIContent*>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::GUIStyle.SetMouseTooltip_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Rect>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Rect const>)>(
     &::UnityEngine::GUIStyle::SetMouseTooltip_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6fa844c;
@@ -1169,7 +1169,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(),
-                            { "SetMouseTooltip_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
+                            { "SetMouseTooltip_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>() } })));
     return ___internal_method;
   }
 };
@@ -1783,32 +1783,32 @@ inline ::System::IntPtr UnityEngine::GUIStyle::GetRectOffsetPtr_Injected(::Syste
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(), { "GetRectOffsetPtr_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, _unity_self, idx);
 }
-inline void UnityEngine::GUIStyle::Internal_Draw_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect> screenRect, ::UnityEngine::GUIContent* content, bool isHover, bool isActive,
+inline void UnityEngine::GUIStyle::Internal_Draw_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect const> screenRect, ::UnityEngine::GUIContent* content, bool isHover, bool isActive,
                                                           bool on, bool hasKeyboardFocus) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(),
                                                            { "Internal_Draw_Injected",
                                                              {},
-                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::UnityEngine::GUIContent*>(),
+                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::UnityEngine::GUIContent*>(),
                                                                ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, screenRect, content, isHover, isActive, on, hasKeyboardFocus);
 }
-inline void UnityEngine::GUIStyle::Internal_Draw2_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect> position, ::UnityEngine::GUIContent* content, int32_t controlID, bool on) {
+inline void UnityEngine::GUIStyle::Internal_Draw2_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect const> position, ::UnityEngine::GUIContent* content, int32_t controlID, bool on) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(), { "Internal_Draw2_Injected",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(),
+                                                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(),
                                                                                                ::i2c::type_of<::UnityEngine::GUIContent*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, position, content, controlID, on);
 }
-inline void UnityEngine::GUIStyle::Internal_CalcSizeWithConstraints_Injected(::System::IntPtr _unity_self, ::UnityEngine::GUIContent* content, ::by_ref<::UnityEngine::Vector2> maxSize,
+inline void UnityEngine::GUIStyle::Internal_CalcSizeWithConstraints_Injected(::System::IntPtr _unity_self, ::UnityEngine::GUIContent* content, ::by_ref<::UnityEngine::Vector2 const> maxSize,
                                                                              ::by_ref<::UnityEngine::Vector2> ret) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(), { "Internal_CalcSizeWithConstraints_Injected",
-                                                                                      {},
-                                                                                      { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::UnityEngine::GUIContent*>(),
-                                                                                        ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(), { "Internal_CalcSizeWithConstraints_Injected",
+                                                                         {},
+                                                                         { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::UnityEngine::GUIContent*>(),
+                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, content, maxSize, ret);
 }
 inline float_t UnityEngine::GUIStyle::Internal_CalcHeight_Injected(::System::IntPtr _unity_self, ::UnityEngine::GUIContent* content, float_t width) {
@@ -1826,21 +1826,21 @@ inline void UnityEngine::GUIStyle::Internal_CalcMinMaxWidth_Injected(::System::I
           { "Internal_CalcMinMaxWidth_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::UnityEngine::GUIContent*>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, content, ret);
 }
-inline void UnityEngine::GUIStyle::Internal_GetTextRectOffset_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect> screenRect, ::UnityEngine::GUIContent* content,
-                                                                       ::by_ref<::UnityEngine::Vector2> textSize, ::by_ref<::UnityEngine::Vector2> ret) {
+inline void UnityEngine::GUIStyle::Internal_GetTextRectOffset_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect const> screenRect, ::UnityEngine::GUIContent* content,
+                                                                       ::by_ref<::UnityEngine::Vector2 const> textSize, ::by_ref<::UnityEngine::Vector2> ret) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(),
                                                            { "Internal_GetTextRectOffset_Injected",
                                                              {},
-                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::UnityEngine::GUIContent*>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::UnityEngine::GUIContent*>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, screenRect, content, textSize, ret);
 }
-inline void UnityEngine::GUIStyle::SetMouseTooltip_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> tooltip, ::by_ref<::UnityEngine::Rect> screenRect) {
+inline void UnityEngine::GUIStyle::SetMouseTooltip_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> tooltip, ::by_ref<::UnityEngine::Rect const> screenRect) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(),
-                          { "SetMouseTooltip_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
+                          { "SetMouseTooltip_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, tooltip, screenRect);
 }
 inline bool UnityEngine::GUIStyle::IsTooltipActive_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> tooltip) {

@@ -19,7 +19,7 @@
 //  Writing Method size for method: ::UnityEngine::Rendering::RTHandle.SetCustomHandleProperties
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RTHandle::*)(::by_ref<::UnityEngine::Rendering::RTHandleProperties>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RTHandle::*)(::by_ref<::UnityEngine::Rendering::RTHandleProperties const>)>(
     &::UnityEngine::Rendering::RTHandle::SetCustomHandleProperties)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6bc775c;
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RTHandle*>(),
-                                                             { "SetCustomHandleProperties", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RTHandleProperties>>() } })));
+                                                             { "SetCustomHandleProperties", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RTHandleProperties const>>() } })));
     return ___internal_method;
   }
 };
@@ -565,10 +565,10 @@ constexpr void UnityEngine::Rendering::RTHandle::__cordl_internal_set__reference
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____referenceSize_k__BackingField = value;
 }
-inline void UnityEngine::Rendering::RTHandle::SetCustomHandleProperties(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandleProperties> properties) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RTHandle*>(), { "SetCustomHandleProperties", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RTHandleProperties>>() } })));
+inline void UnityEngine::Rendering::RTHandle::SetCustomHandleProperties(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandleProperties const> properties) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RTHandle*>(),
+                                                           { "SetCustomHandleProperties", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RTHandleProperties const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, properties);
 }
 inline void UnityEngine::Rendering::RTHandle::ClearCustomHandleProperties() {

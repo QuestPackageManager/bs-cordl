@@ -78,15 +78,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::ReceiverPlanes.Create
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ReceiverPlanes (*)(::by_ref<::UnityEngine::Rendering::BatchCullingContext>, ::Unity::Collections::Allocator)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ReceiverPlanes (*)(::by_ref<::UnityEngine::Rendering::BatchCullingContext const>, ::Unity::Collections::Allocator)>(
     &::UnityEngine::Rendering::ReceiverPlanes::Create)> {
   constexpr static std::size_t size = 0x7cc;
   constexpr static std::size_t addrs = 0x6c3fe0c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverPlanes>(),
-                                                { "Create", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverPlanes>(),
+                                         { "Create", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext const>>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
     return ___internal_method;
   }
 };
@@ -113,11 +114,12 @@ inline void UnityEngine::Rendering::ReceiverPlanes::Dispose(::Unity::Jobs::JobHa
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverPlanes>(), { "Dispose", {}, { ::i2c::type_of<::Unity::Jobs::JobHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, job);
 }
-inline ::UnityEngine::Rendering::ReceiverPlanes UnityEngine::Rendering::ReceiverPlanes::Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
+inline ::UnityEngine::Rendering::ReceiverPlanes UnityEngine::Rendering::ReceiverPlanes::Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cc,
                                                                                                ::Unity::Collections::Allocator allocator) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverPlanes>(),
-                                              { "Create", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverPlanes>(),
+                                       { "Create", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext const>>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ReceiverPlanes>(nullptr, ___internal_method, cc, allocator);
 }
 // Ctor Parameters [CppParam { name: "planes", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Plane>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:

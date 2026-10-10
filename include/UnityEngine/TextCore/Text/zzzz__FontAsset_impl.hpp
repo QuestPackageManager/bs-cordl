@@ -2640,7 +2640,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(
-    ::by_ref<::UnityEngine::TextCore::FaceInfo>, ::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::EntityId>,
+    ::by_ref<::UnityEngine::TextCore::FaceInfo const>, ::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::EntityId const>,
     ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>,
     ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, uint8_t, float_t, int32_t, ::System::IntPtr)>(&::UnityEngine::TextCore::Text::FontAsset::Create_Injected)> {
   constexpr static std::size_t size = 0xc8;
@@ -2651,8 +2651,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAsset*>(),
                                                 { "Create_Injected",
                                                   {},
-                                                  { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::FaceInfo>>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>(),
+                                                  { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::FaceInfo const>>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>(),
                                                     ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
                                                     ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>(),
                                                     ::i2c::type_of<uint8_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>() } })));
@@ -2662,14 +2662,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::FontAsset.UpdateFaceInfo_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::TextCore::FaceInfo>)>(&::UnityEngine::TextCore::Text::FontAsset::UpdateFaceInfo_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::TextCore::FaceInfo const>)>(
+    &::UnityEngine::TextCore::Text::FontAsset::UpdateFaceInfo_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x703c1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAsset*>(),
-                                                { "UpdateFaceInfo_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::TextCore::FaceInfo>>() } })));
+                                                { "UpdateFaceInfo_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::TextCore::FaceInfo const>>() } })));
     return ___internal_method;
   }
 };
@@ -4451,9 +4452,9 @@ inline void UnityEngine::TextCore::Text::FontAsset::UpdateWeightFallbacks_Inject
                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ptr, regularFallbacks, italicFallbacks);
 }
-inline ::System::IntPtr UnityEngine::TextCore::Text::FontAsset::Create_Injected(::by_ref<::UnityEngine::TextCore::FaceInfo> faceInfo, ::System::IntPtr sourceFontFile,
+inline ::System::IntPtr UnityEngine::TextCore::Text::FontAsset::Create_Injected(::by_ref<::UnityEngine::TextCore::FaceInfo const> faceInfo, ::System::IntPtr sourceFontFile,
                                                                                 ::System::IntPtr sourceFont_EditorRef, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> sourceFontFilePath,
-                                                                                ::by_ref<::UnityEngine::EntityId> fontEntityId, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> fallbacks,
+                                                                                ::by_ref<::UnityEngine::EntityId const> fontEntityId, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> fallbacks,
                                                                                 ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> weightFallbacks,
                                                                                 ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> italicFallbacks,
                                                                                 ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, uint8_t italicSlant, float_t boldWeight,
@@ -4462,18 +4463,18 @@ inline ::System::IntPtr UnityEngine::TextCore::Text::FontAsset::Create_Injected(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAsset*>(),
                                               { "Create_Injected",
                                                 {},
-                                                { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::FaceInfo>>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>(),
+                                                { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::FaceInfo const>>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>(),
                                                   ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
                                                   ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>(),
                                                   ::i2c::type_of<uint8_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, faceInfo, sourceFontFile, sourceFont_EditorRef, sourceFontFilePath, fontEntityId, fallbacks,
                                                                weightFallbacks, italicFallbacks, renderMode, italicSlant, boldWeight, boldSpacing, managedObject);
 }
-inline void UnityEngine::TextCore::Text::FontAsset::UpdateFaceInfo_Injected(::System::IntPtr ptr, ::by_ref<::UnityEngine::TextCore::FaceInfo> faceInfo) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAsset*>(),
-                                                           { "UpdateFaceInfo_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::TextCore::FaceInfo>>() } })));
+inline void UnityEngine::TextCore::Text::FontAsset::UpdateFaceInfo_Injected(::System::IntPtr ptr, ::by_ref<::UnityEngine::TextCore::FaceInfo const> faceInfo) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAsset*>(),
+                                              { "UpdateFaceInfo_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::TextCore::FaceInfo const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ptr, faceInfo);
 }
 inline ::UnityEngine::TextCore::Text::FontAsset* UnityEngine::TextCore::Text::FontAsset::New_ctor() {

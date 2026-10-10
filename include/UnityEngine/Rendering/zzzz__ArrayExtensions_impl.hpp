@@ -42,13 +42,13 @@ template <typename T> inline void UnityEngine::Rendering::ArrayExtensions::Resiz
 }
 template <typename T>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::Rendering::ArrayExtensions::FillArray(::by_ref<::Unity::Collections::NativeArray_1<T>> array, /* [IsReadOnly] */ ::by_ref<T> value, int32_t startIndex, int32_t length) {
+inline void UnityEngine::Rendering::ArrayExtensions::FillArray(::by_ref<::Unity::Collections::NativeArray_1<T>> array, /* [IsReadOnly] */ ::by_ref<T const> value, int32_t startIndex, int32_t length) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ArrayExtensions*>(),
                           { "FillArray",
                             { ::i2c::class_of<T>() },
-                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T>>>(), ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T>>>(), ::i2c::type_of<::by_ref<T const>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array, value, startIndex, length);
 }

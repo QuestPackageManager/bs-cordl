@@ -578,28 +578,30 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
 //  Writing Method size for method: ::GlobalNamespace::OVRSpaceQuery.ToV1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryInfo (*)(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryInfo (*)(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 const>)>(
     &::GlobalNamespace::OVRSpaceQuery::ToV1)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x62ece20;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(), { "ToV1", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(), { "ToV1", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRSpaceQuery.ToV2
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 (*)(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 (*)(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo const>)>(
     &::GlobalNamespace::OVRSpaceQuery::ToV2)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x62ece34;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(), { "ToV2", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(), { "ToV2", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo const>>() } })));
     return ___internal_method;
   }
 };
@@ -624,17 +626,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> (*)(
-    ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>, ::GlobalNamespace::OVRPlugin_Result, ::by_ref<::StringW>)>(&::GlobalNamespace::OVRSpaceQuery::PostProcessQuery)> {
+    ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>, ::GlobalNamespace::OVRPlugin_Result, ::by_ref<::StringW const>)>(&::GlobalNamespace::OVRSpaceQuery::PostProcessQuery)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x62ec31c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(), { "PostProcessQuery",
-                                                                                                 {},
-                                                                                                 { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>>(),
-                                                                                                   ::i2c::type_of<::GlobalNamespace::OVRPlugin_Result>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(), { "PostProcessQuery",
+                                                                                    {},
+                                                                                    { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>>(),
+                                                                                      ::i2c::type_of<::GlobalNamespace::OVRPlugin_Result>(), ::i2c::type_of<::by_ref<::StringW const>>() } })));
     return ___internal_method;
   }
 };
@@ -725,14 +727,16 @@ inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 GlobalNamespace::OVRSpaceQue
                        { "ForGroupThrow", {}, { ::i2c::type_of<::System::Guid>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Guid>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>(nullptr, ___internal_method, groupUuid, argName, anchorIds);
 }
-inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo GlobalNamespace::OVRSpaceQuery::ToV1(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query2) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(), { "ToV1", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>>() } })));
+inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo GlobalNamespace::OVRSpaceQuery::ToV1(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 const> query2) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(), { "ToV1", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_SpaceQueryInfo>(nullptr, ___internal_method, query2);
 }
-inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 GlobalNamespace::OVRSpaceQuery::ToV2(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo> query1) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(), { "ToV2", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo>>() } })));
+inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 GlobalNamespace::OVRSpaceQuery::ToV2(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo const> query1) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(), { "ToV2", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>(nullptr, ___internal_method, query1);
 }
 inline ::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> GlobalNamespace::OVRSpaceQuery::AppendAnchors(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query,
@@ -744,14 +748,14 @@ inline ::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> Gl
           { "AppendAnchors", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Guid>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW>>(nullptr, ___internal_method, query, anchorIds);
 }
-inline ::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW>
-GlobalNamespace::OVRSpaceQuery::PostProcessQuery(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query, ::GlobalNamespace::OVRPlugin_Result result, /* [IsReadOnly] */ ::by_ref<::StringW> why) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(), { "PostProcessQuery",
-                                                                                               {},
-                                                                                               { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>>(),
-                                                                                                 ::i2c::type_of<::GlobalNamespace::OVRPlugin_Result>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+inline ::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> GlobalNamespace::OVRSpaceQuery::PostProcessQuery(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query,
+                                                                                                                               ::GlobalNamespace::OVRPlugin_Result result,
+                                                                                                                               /* [IsReadOnly] */ ::by_ref<::StringW const> why) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(),
+                                                                                         { "PostProcessQuery",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>>(),
+                                                                                             ::i2c::type_of<::GlobalNamespace::OVRPlugin_Result>(), ::i2c::type_of<::by_ref<::StringW const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW>>(nullptr, ___internal_method, query, result, why);
 }
 // Ctor Parameters []

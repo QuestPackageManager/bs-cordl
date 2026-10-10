@@ -280,15 +280,15 @@ public:
 
   /// @brief Method CreateInstanceDataBuffer, addr 0x6c6dfc8, size 0x40c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* CreateInstanceDataBuffer(::UnityEngine::Rendering::RenderersParameters_Flags flags,
-                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
+                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo const> instanceNumInfo);
 
   /// [CompilerGenerated]
   /// @brief Method <.ctor>g__GetParamInfo|15_0, addr 0x6c6f230, size 0xd0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RenderersParameters_ParamInfo __ctor_g__GetParamInfo_15_0(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer,
-                                                                                                    int32_t paramNameIdx, bool assertOnFail);
+  static inline ::UnityEngine::Rendering::RenderersParameters_ParamInfo
+  __ctor_g__GetParamInfo_15_0(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer* const> instanceDataBuffer, int32_t paramNameIdx, bool assertOnFail);
 
   /// @brief Method .ctor, addr 0x6c6e3d4, size 0x2bc, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer* const> instanceDataBuffer);
 
   static inline int32_t getStaticF_s_uintSize();
 

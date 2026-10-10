@@ -30,7 +30,7 @@ public:
   /// @brief Field hasSong, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_hasSong, put = __cordl_internal_set_hasSong)) bool hasSong;
 
-  static inline ::GlobalNamespace::MultiplayerLevelSceneSetupData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong);
+  static inline ::GlobalNamespace::MultiplayerLevelSceneSetupData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, bool hasSong);
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get_beatmapKey() const;
 
@@ -45,7 +45,7 @@ public:
   constexpr void __cordl_internal_set_hasSong(bool value);
 
   /// @brief Method .ctor, addr 0x5d28314, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, bool hasSong);
 
 protected:
   // Ctor Parameters []

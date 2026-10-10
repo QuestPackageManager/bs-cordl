@@ -282,7 +282,7 @@ public:
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method TryConvert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource, typename TDestination>
-  static inline bool TryConvert(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::ConversionRegistry> registry, ::by_ref<TSource> source, ::by_ref<TDestination> destination);
+  static inline bool TryConvert(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::ConversionRegistry const> registry, ::by_ref<TSource> source, ::by_ref<TDestination> destination);
 
   /// @brief Method TryConvert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource, typename TDestination> static inline bool TryConvert(::by_ref<TSource> source, ::by_ref<TDestination> destination);

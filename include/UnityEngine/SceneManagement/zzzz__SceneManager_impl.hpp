@@ -484,13 +484,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::SceneManagement::SceneManager.SetActiveScene_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::SceneManagement::Scene>)>(&::UnityEngine::SceneManagement::SceneManager::SetActiveScene_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::SceneManagement::Scene const>)>(&::UnityEngine::SceneManagement::SceneManager::SetActiveScene_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6f5b52c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
-                                                                                           { "SetActiveScene_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
+                                                             { "SetActiveScene_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene const>>() } })));
     return ___internal_method;
   }
 };
@@ -528,32 +529,34 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::by_re
 //  Writing Method size for method: ::UnityEngine::SceneManagement::SceneManager.UnloadSceneAsyncInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::SceneManagement::Scene>, ::UnityEngine::SceneManagement::UnloadSceneOptions)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::SceneManagement::Scene const>, ::UnityEngine::SceneManagement::UnloadSceneOptions)>(
     &::UnityEngine::SceneManagement::SceneManager::UnloadSceneAsyncInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f5b874;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
-            { "UnloadSceneAsyncInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene>>(), ::i2c::type_of<::UnityEngine::SceneManagement::UnloadSceneOptions>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
+                                         { "UnloadSceneAsyncInternal_Injected",
+                                           {},
+                                           { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene const>>(), ::i2c::type_of<::UnityEngine::SceneManagement::UnloadSceneOptions>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::SceneManagement::SceneManager.MoveGameObjectToScene_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::SceneManagement::Scene>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::SceneManagement::Scene const>)>(
     &::UnityEngine::SceneManagement::SceneManager::MoveGameObjectToScene_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f5ba68;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
-                                                { "MoveGameObjectToScene_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
+                                         { "MoveGameObjectToScene_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene const>>() } })));
     return ___internal_method;
   }
 };
@@ -796,9 +799,10 @@ inline void UnityEngine::SceneManagement::SceneManager::GetActiveScene_Injected(
                                                                                          { "GetActiveScene_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline bool UnityEngine::SceneManagement::SceneManager::SetActiveScene_Injected(::by_ref<::UnityEngine::SceneManagement::Scene> scene) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
-                                                                                         { "SetActiveScene_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene>>() } })));
+inline bool UnityEngine::SceneManagement::SceneManager::SetActiveScene_Injected(::by_ref<::UnityEngine::SceneManagement::Scene const> scene) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
+                                                           { "SetActiveScene_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, scene);
 }
 inline void UnityEngine::SceneManagement::SceneManager::GetSceneByName_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, ::by_ref<::UnityEngine::SceneManagement::Scene> ret) {
@@ -815,19 +819,20 @@ inline void UnityEngine::SceneManagement::SceneManager::GetSceneAt_Injected(int3
                                                            { "GetSceneAt_Injected", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, index, ret);
 }
-inline ::System::IntPtr UnityEngine::SceneManagement::SceneManager::UnloadSceneAsyncInternal_Injected(::by_ref<::UnityEngine::SceneManagement::Scene> scene,
+inline ::System::IntPtr UnityEngine::SceneManagement::SceneManager::UnloadSceneAsyncInternal_Injected(::by_ref<::UnityEngine::SceneManagement::Scene const> scene,
                                                                                                       ::UnityEngine::SceneManagement::UnloadSceneOptions options) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
-          { "UnloadSceneAsyncInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene>>(), ::i2c::type_of<::UnityEngine::SceneManagement::UnloadSceneOptions>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
+                                              { "UnloadSceneAsyncInternal_Injected",
+                                                {},
+                                                { ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene const>>(), ::i2c::type_of<::UnityEngine::SceneManagement::UnloadSceneOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, scene, options);
 }
-inline void UnityEngine::SceneManagement::SceneManager::MoveGameObjectToScene_Injected(::System::IntPtr go, ::by_ref<::UnityEngine::SceneManagement::Scene> scene) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
-                                              { "MoveGameObjectToScene_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene>>() } })));
+inline void UnityEngine::SceneManagement::SceneManager::MoveGameObjectToScene_Injected(::System::IntPtr go, ::by_ref<::UnityEngine::SceneManagement::Scene const> scene) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
+                                       { "MoveGameObjectToScene_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, go, scene);
 }
 // Ctor Parameters []

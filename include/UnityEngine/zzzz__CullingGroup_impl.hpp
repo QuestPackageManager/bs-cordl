@@ -364,16 +364,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::CullingGroup.SetDistanceReferencePoint_InternalVector3_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3 const>)>(
     &::UnityEngine::CullingGroup::SetDistanceReferencePoint_InternalVector3_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6ec8424;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::CullingGroup*>(),
-                                         { "SetDistanceReferencePoint_InternalVector3_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::CullingGroup*>(),
+                            { "SetDistanceReferencePoint_InternalVector3_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
@@ -529,11 +529,11 @@ inline void UnityEngine::CullingGroup::SetBoundingDistances_Injected(::System::I
                                        { "SetBoundingDistances_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, distances);
 }
-inline void UnityEngine::CullingGroup::SetDistanceReferencePoint_InternalVector3_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> point) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::CullingGroup*>(),
-                                       { "SetDistanceReferencePoint_InternalVector3_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+inline void UnityEngine::CullingGroup::SetDistanceReferencePoint_InternalVector3_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> point) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::CullingGroup*>(),
+                          { "SetDistanceReferencePoint_InternalVector3_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, point);
 }
 inline void UnityEngine::CullingGroup::FinalizerFailure_Injected(::System::IntPtr _unity_self) {

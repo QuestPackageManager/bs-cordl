@@ -400,16 +400,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflec
 //  Writing Method size for method: ::Unity::Burst::BurstCompilerOptions.MergeAttributes
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstCompileAttribute*>, ::by_ref<::Unity::Burst::BurstCompileAttribute*>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstCompileAttribute*>, ::by_ref<::Unity::Burst::BurstCompileAttribute* const>)>(
     &::Unity::Burst::BurstCompilerOptions::MergeAttributes)> {
   constexpr static std::size_t size = 0x138;
   constexpr static std::size_t addrs = 0x689aa80;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstCompilerOptions*>(),
-                            { "MergeAttributes", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstCompileAttribute*>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstCompileAttribute*>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::Unity::Burst::BurstCompilerOptions*>(),
+                         { "MergeAttributes", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstCompileAttribute*>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstCompileAttribute* const>>() } })));
     return ___internal_method;
   }
 };
@@ -763,11 +764,12 @@ inline bool Unity::Burst::BurstCompilerOptions::HasBurstCompileAttribute(::Syste
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, member);
 }
 inline void Unity::Burst::BurstCompilerOptions::MergeAttributes(::by_ref<::Unity::Burst::BurstCompileAttribute*> memberAttribute,
-                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstCompileAttribute*> assemblyAttribute) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstCompilerOptions*>(),
-                          { "MergeAttributes", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstCompileAttribute*>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstCompileAttribute*>>() } })));
+                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstCompileAttribute* const> assemblyAttribute) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::Unity::Burst::BurstCompilerOptions*>(),
+                       { "MergeAttributes", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstCompileAttribute*>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstCompileAttribute* const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, memberAttribute, assemblyAttribute);
 }
 inline bool Unity::Burst::BurstCompilerOptions::TryGetOptions(::System::Reflection::MemberInfo* member, ::by_ref<::StringW> flagsOut, bool isForILPostProcessing, bool isForCompilerClient,

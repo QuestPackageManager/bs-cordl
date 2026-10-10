@@ -758,17 +758,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
 //  Writing Method size for method: ::UnityEngine::Rendering::CoreUtils.SetShadingRateImage
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier const>)>(
     &::UnityEngine::Rendering::CoreUtils::SetShadingRateImage)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6bdbf68;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::UnityEngine::Rendering::CoreUtils*>(),
-                         { "SetShadingRateImage", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::CoreUtils*>(),
+            { "SetShadingRateImage", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier const>>() } })));
     return ___internal_method;
   }
 };
@@ -2056,12 +2056,12 @@ inline void UnityEngine::Rendering::CoreUtils::SetShadingRateCombiner(::UnityEng
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, stage, combiner);
 }
 inline void UnityEngine::Rendering::CoreUtils::SetShadingRateImage(::UnityEngine::Rendering::CommandBuffer* cmd,
-                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> shadingRateImage) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::UnityEngine::Rendering::CoreUtils*>(),
-                       { "SetShadingRateImage", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier>>() } })));
+                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier const> shadingRateImage) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Rendering::CoreUtils*>(),
+          { "SetShadingRateImage", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, shadingRateImage);
 }
 inline void UnityEngine::Rendering::CoreUtils::SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorBuffers,

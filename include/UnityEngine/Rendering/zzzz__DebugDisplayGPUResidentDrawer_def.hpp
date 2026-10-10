@@ -962,10 +962,10 @@ public:
   static inline ::UnityEngine::Rendering::Table_DebugUI_Row* AddOcclusionContextDataRow(int32_t index);
 
   /// @brief Method CulledInstancesString, addr 0x6c3af68, size 0x74, virtual false, abstract: false, final false
-  static inline ::System::Object* CulledInstancesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats);
+  static inline ::System::Object* CulledInstancesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats);
 
   /// @brief Method CulledPrimitivesString, addr 0x6c3b050, size 0x74, virtual false, abstract: false, final false
-  static inline ::System::Object* CulledPrimitivesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats);
+  static inline ::System::Object* CulledPrimitivesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats);
 
   /// @brief Method GetInstanceCullerViewCount, addr 0x6c3a5cc, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetInstanceCullerViewCount();
@@ -991,10 +991,10 @@ public:
   static inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* New_ctor();
 
   /// @brief Method OccluderVersionString, addr 0x6c3adec, size 0x80, virtual false, abstract: false, final false
-  static inline ::System::Object* OccluderVersionString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats);
+  static inline ::System::Object* OccluderVersionString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats);
 
   /// @brief Method OcclusionTestString, addr 0x6c3ae6c, size 0x88, virtual false, abstract: false, final false
-  static inline ::System::Object* OcclusionTestString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats);
+  static inline ::System::Object* OcclusionTestString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats);
 
   /// @brief Method TryGetScreenClearColor, addr 0x6c3bf14, size 0x8, virtual true, abstract: false, final true
   inline bool TryGetScreenClearColor(::by_ref<::UnityEngine::Color> color);
@@ -1003,10 +1003,10 @@ public:
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel();
 
   /// @brief Method VisibleInstancesString, addr 0x6c3aef4, size 0x74, virtual false, abstract: false, final false
-  static inline ::System::Object* VisibleInstancesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats);
+  static inline ::System::Object* VisibleInstancesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats);
 
   /// @brief Method VisiblePrimitivesString, addr 0x6c3afdc, size 0x74, virtual false, abstract: false, final false
-  static inline ::System::Object* VisiblePrimitivesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats);
+  static inline ::System::Object* VisiblePrimitivesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats);
 
   constexpr bool const& __cordl_internal_get_occluderContextStats() const;
 

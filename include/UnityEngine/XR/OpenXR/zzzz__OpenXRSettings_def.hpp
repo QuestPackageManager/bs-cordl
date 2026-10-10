@@ -812,7 +812,7 @@ public:
   static inline bool Internal_GetAllowRecentering();
 
   /// @brief Method Internal_GetColorSubmissionModes, addr 0x6e2cee0, size 0xe8, virtual false, abstract: false, final false
-  static inline int32_t Internal_GetColorSubmissionModes(::by_ref<::ArrayW<int32_t>> colorSubmissionMode, int32_t arraySize);
+  static inline int32_t Internal_GetColorSubmissionModes(::ArrayW<int32_t> colorSubmissionMode, int32_t arraySize);
 
   /// @brief Method Internal_GetDepthSubmissionMode, addr 0x6e2d344, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode Internal_GetDepthSubmissionMode();

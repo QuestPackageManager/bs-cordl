@@ -8,7 +8,7 @@
 //  Writing Method size for method: ::GlobalNamespace::BeatmapSelectionView.SetBeatmap
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapSelectionView::*)(::by_ref<::GlobalNamespace::BeatmapKey>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapSelectionView::*)(::by_ref<::GlobalNamespace::BeatmapKey const>)>(
     &::GlobalNamespace::BeatmapSelectionView::SetBeatmap)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x5d85ccc;
@@ -55,7 +55,7 @@ constexpr void GlobalNamespace::BeatmapSelectionView::__cordl_internal_set__noLe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noLevelText = value;
 }
-inline void GlobalNamespace::BeatmapSelectionView::SetBeatmap(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline void GlobalNamespace::BeatmapSelectionView::SetBeatmap(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BeatmapSelectionView*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapKey);
 }

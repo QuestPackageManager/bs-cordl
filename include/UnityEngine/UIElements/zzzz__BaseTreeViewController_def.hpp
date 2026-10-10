@@ -943,10 +943,10 @@ public:
   inline void CollapseItemByIndex(int32_t index, bool collapseAllChildren, bool refresh);
 
   /// @brief Method CollapseItemByNode, addr 0x709a5c4, size 0x484, virtual false, abstract: false, final false
-  inline void CollapseItemByNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool collapseAllChildren, bool refresh);
+  inline void CollapseItemByNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, bool collapseAllChildren, bool refresh);
 
   /// @brief Method CreateNode, addr 0x709ad68, size 0xb0, virtual false, abstract: false, final false
-  inline ::Unity::Hierarchy::HierarchyNode CreateNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> parent);
+  inline ::Unity::Hierarchy::HierarchyNode CreateNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> parent);
 
   /// @brief Method DisposeHierarchy, addr 0x7097ab0, size 0x64, virtual false, abstract: false, final false
   inline void DisposeHierarchy();
@@ -961,7 +961,7 @@ public:
   inline void ExpandItemByIndex(int32_t index, bool expandAllChildren, bool refresh);
 
   /// @brief Method ExpandItemByNode, addr 0x7099f74, size 0x580, virtual false, abstract: false, final false
-  inline void ExpandItemByNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool expandAllChildren, bool refresh);
+  inline void ExpandItemByNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, bool expandAllChildren, bool refresh);
 
   /// @brief Method Finalize, addr 0x7097a6c, size 0x44, virtual true, abstract: false, final false
   inline void Finalize();
@@ -1066,10 +1066,10 @@ public:
   inline void UpdateHierarchy();
 
   /// @brief Method UpdateIdToNodeDictionary, addr 0x709ae18, size 0x154, virtual false, abstract: false, final false
-  inline void UpdateIdToNodeDictionary(int32_t id, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool isAdd);
+  inline void UpdateIdToNodeDictionary(int32_t id, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, bool isAdd);
 
   /// @brief Method UpdateSortOrder, addr 0x70983c8, size 0x22c, virtual false, abstract: false, final false
-  inline void UpdateSortOrder(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> newParent, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> insertedNode,
+  inline void UpdateSortOrder(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> newParent, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> insertedNode,
                               int32_t insertedIndex);
 
   constexpr ::System::Action_1<::UnityEngine::UIElements::TreeViewExpansionChangedArgs*>* const& __cordl_internal_get_itemExpandedChanged() const;

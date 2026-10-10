@@ -103,9 +103,9 @@ public:
   __declspec(property(get = __cordl_internal_get_vertexCount, put = __cordl_internal_set_vertexCount)) int32_t vertexCount;
 
   /// @brief Method AddVertex, addr 0x5d1f724, size 0x56c, virtual false, abstract: false, final false
-  inline void AddVertex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p0, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p2,
-                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p3, float_t t, ::by_ref<::UnityEngine::Vector3> lastRotationAxis, ::by_ref<float_t> currentPathLength,
-                        ::by_ref<::GlobalNamespace::VertexPath_Vertex> lastVertex, ::by_ref<int32_t> vertCount);
+  inline void AddVertex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p0, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p1,
+                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p3, float_t t,
+                        ::by_ref<::UnityEngine::Vector3> lastRotationAxis, ::by_ref<float_t> currentPathLength, ::by_ref<::GlobalNamespace::VertexPath_Vertex> lastVertex, ::by_ref<int32_t> vertCount);
 
   /// @brief Method GetPoint, addr 0x5d1f6ec, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(int32_t index);

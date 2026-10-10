@@ -1912,9 +1912,9 @@ inline bool GlobalNamespace::GameSettingsCommand::SetPropertyValue(::StringW pro
 }
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
-inline ::StringW GlobalNamespace::GameSettingsCommand::ToString(/* [IsReadOnly] */ ::by_ref<T> value) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameSettingsCommand*>(), { "ToString", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
+inline ::StringW GlobalNamespace::GameSettingsCommand::ToString(/* [IsReadOnly] */ ::by_ref<T const> value) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameSettingsCommand*>(), { "ToString", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, value);
 }

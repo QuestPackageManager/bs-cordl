@@ -680,9 +680,9 @@ public:
   __declspec(property(get = getStaticF_s_SSAOParamsID, put = setStaticF_s_SSAOParamsID)) int32_t s_SSAOParamsID;
 
   /// @brief Method ComputeScaleBias, addr 0x6cdc330, size 0x144, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector4 ComputeScaleBias(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*> context,
-                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
+  static inline ::UnityEngine::Vector4 ComputeScaleBias(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* const> context,
+                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination);
 
   /// @brief Method CreateRenderTextureHandles, addr 0x6cdd00c, size 0x340, virtual false, abstract: false, final false
   inline void CreateRenderTextureHandles(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,

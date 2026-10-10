@@ -66,7 +66,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::St
 //  Writing Method size for method: ::System::IO::StringReader.Read
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::StringReader::*)(::by_ref<::ArrayW<char16_t>>, int32_t, int32_t)>(&::System::IO::StringReader::Read)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::StringReader::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::IO::StringReader::Read)> {
   constexpr static std::size_t size = 0x188;
   constexpr static std::size_t addrs = 0x6031208;
 
@@ -168,7 +168,7 @@ inline int32_t System::IO::StringReader::Read() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::IO::StringReader*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline int32_t System::IO::StringReader::Read(::by_ref<::ArrayW<char16_t>> buffer, int32_t index, int32_t count) {
+inline int32_t System::IO::StringReader::Read(::ArrayW<char16_t> buffer, int32_t index, int32_t count) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::IO::StringReader*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, buffer, index, count);
 }

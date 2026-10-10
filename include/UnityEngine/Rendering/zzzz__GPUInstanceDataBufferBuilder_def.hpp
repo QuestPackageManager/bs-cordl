@@ -54,7 +54,7 @@ public:
                            ::UnityEngine::Rendering::InstanceComponentGroup componentGroup);
 
   /// @brief Method Build, addr 0x6c5503c, size 0x88c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* Build(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
+  inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* Build(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo const> instanceNumInfo);
 
   /// @brief Method CreateMetadataValue, addr 0x6c54ef4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::MetadataValue CreateMetadataValue(int32_t nameID, int32_t gpuAddress, bool isOverridden);

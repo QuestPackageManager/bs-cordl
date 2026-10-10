@@ -1058,14 +1058,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int32_t
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::OpenXRSettings.Internal_GetColorSubmissionModes
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::ArrayW<int32_t>>, int32_t)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_GetColorSubmissionModes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<int32_t>, int32_t)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_GetColorSubmissionModes)> {
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x6e2cee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(),
-                                                             { "Internal_GetColorSubmissionModes", {}, { ::i2c::type_of<::by_ref<::ArrayW<int32_t>>>(), ::i2c::type_of<int32_t>() } })));
+                                                             { "Internal_GetColorSubmissionModes", {}, { ::i2c::type_of<::ArrayW<int32_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -1735,10 +1735,10 @@ inline void UnityEngine::XR::OpenXR::OpenXRSettings::Internal_SetColorSubmission
                                                            { "Internal_SetColorSubmissionModes", {}, { ::i2c::type_of<::ArrayW<int32_t>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, colorSubmissionMode, arraySize);
 }
-inline int32_t UnityEngine::XR::OpenXR::OpenXRSettings::Internal_GetColorSubmissionModes(::by_ref<::ArrayW<int32_t>> colorSubmissionMode, int32_t arraySize) {
+inline int32_t UnityEngine::XR::OpenXR::OpenXRSettings::Internal_GetColorSubmissionModes(::ArrayW<int32_t> colorSubmissionMode, int32_t arraySize) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(),
-                                                           { "Internal_GetColorSubmissionModes", {}, { ::i2c::type_of<::by_ref<::ArrayW<int32_t>>>(), ::i2c::type_of<int32_t>() } })));
+                                                           { "Internal_GetColorSubmissionModes", {}, { ::i2c::type_of<::ArrayW<int32_t>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, colorSubmissionMode, arraySize);
 }
 inline bool UnityEngine::XR::OpenXR::OpenXRSettings::Internal_GetIsUsingLegacyXRDisplay() {

@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::RecPlay::Fra
 //  Writing Method size for method: ::BeatSaber::RecPlay::PoseSampler.InterpolatePoseSample
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::ArrayW<::BeatSaber::RecPlay::PoseFrame>, ::by_ref<::BeatSaber::RecPlay::FrameSample>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::ArrayW<::BeatSaber::RecPlay::PoseFrame>, ::by_ref<::BeatSaber::RecPlay::FrameSample const>)>(
     &::BeatSaber::RecPlay::PoseSampler::InterpolatePoseSample)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x354cce4;
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(:
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::BeatSaber::RecPlay::PoseSampler*>(),
-                            { "InterpolatePoseSample", {}, { ::i2c::type_of<::ArrayW<::BeatSaber::RecPlay::PoseFrame>>(), ::i2c::type_of<::by_ref<::BeatSaber::RecPlay::FrameSample>>() } })));
+                            { "InterpolatePoseSample", {}, { ::i2c::type_of<::ArrayW<::BeatSaber::RecPlay::PoseFrame>>(), ::i2c::type_of<::by_ref<::BeatSaber::RecPlay::FrameSample const>>() } })));
     return ___internal_method;
   }
 };
@@ -65,11 +65,11 @@ inline ::BeatSaber::RecPlay::FrameSample BeatSaber::RecPlay::PoseSampler::FindPo
   return ::cordl_internals::RunMethodRethrow<::BeatSaber::RecPlay::FrameSample>(nullptr, ___internal_method, frames, time, nearest);
 }
 inline ::UnityEngine::Pose BeatSaber::RecPlay::PoseSampler::InterpolatePoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames,
-                                                                                  /* [IsReadOnly] */ ::by_ref<::BeatSaber::RecPlay::FrameSample> sample) {
+                                                                                  /* [IsReadOnly] */ ::by_ref<::BeatSaber::RecPlay::FrameSample const> sample) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::BeatSaber::RecPlay::PoseSampler*>(),
-                          { "InterpolatePoseSample", {}, { ::i2c::type_of<::ArrayW<::BeatSaber::RecPlay::PoseFrame>>(), ::i2c::type_of<::by_ref<::BeatSaber::RecPlay::FrameSample>>() } })));
+                          { "InterpolatePoseSample", {}, { ::i2c::type_of<::ArrayW<::BeatSaber::RecPlay::PoseFrame>>(), ::i2c::type_of<::by_ref<::BeatSaber::RecPlay::FrameSample const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Pose>(nullptr, ___internal_method, frames, sample);
 }
 // Ctor Parameters []

@@ -10,32 +10,33 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataSourceContextChanged::*)(
-    ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId>, ::by_ref<::UnityEngine::UIElements::DataSourceContext>,
-    ::by_ref<::UnityEngine::UIElements::DataSourceContext>)>(&::UnityEngine::UIElements::DataSourceContextChanged::_ctor)> {
+    ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId const>, ::by_ref<::UnityEngine::UIElements::DataSourceContext const>,
+    ::by_ref<::UnityEngine::UIElements::DataSourceContext const>)>(&::UnityEngine::UIElements::DataSourceContextChanged::_ctor)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x7089dac;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataSourceContextChanged>(),
-                                         { ".ctor",
-                                           {},
-                                           { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataSourceContext>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataSourceContext>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataSourceContextChanged>(),
+                            { ".ctor",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataSourceContext const>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataSourceContext const>>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::DataSourceContextChanged::_ctor(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
-                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataSourceContext> previousContext,
-                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataSourceContext> newContext) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataSourceContextChanged>(),
-                                       { ".ctor",
-                                         {},
-                                         { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataSourceContext>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataSourceContext>>() } })));
+inline void UnityEngine::UIElements::DataSourceContextChanged::_ctor(::UnityEngine::UIElements::VisualElement* element,
+                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
+                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataSourceContext const> previousContext,
+                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataSourceContext const> newContext) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataSourceContextChanged>(),
+                          { ".ctor",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataSourceContext const>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataSourceContext const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, element, bindingId, previousContext, newContext);
 }
 // Ctor Parameters [CppParam { name: "m_TargetElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BindingId", ty:

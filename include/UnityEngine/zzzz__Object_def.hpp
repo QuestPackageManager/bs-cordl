@@ -142,7 +142,7 @@ public:
   static inline bool DoesObjectWithInstanceIDExist(::UnityEngine::EntityId instanceID);
 
   /// @brief Method DoesObjectWithInstanceIDExist_Injected, addr 0x6f45bd0, size 0x3c, virtual false, abstract: false, final false
-  static inline bool DoesObjectWithInstanceIDExist_Injected(::by_ref<::UnityEngine::EntityId> instanceID);
+  static inline bool DoesObjectWithInstanceIDExist_Injected(::by_ref<::UnityEngine::EntityId const> instanceID);
 
   /// [FreeFunction("GetSceneManager().DontDestroyOnLoad", ThrowsException = true)]
   /// @brief Method DontDestroyOnLoad, addr 0x6f447ac, size 0xb8, virtual false, abstract: false, final false
@@ -192,10 +192,10 @@ public:
   static inline ::UnityW<::UnityEngine::Object> FindObjectFromInstanceIDThreadSafe(::UnityEngine::EntityId instanceID);
 
   /// @brief Method FindObjectFromInstanceIDThreadSafe_Injected, addr 0x6f45e0c, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Object> FindObjectFromInstanceIDThreadSafe_Injected(::by_ref<::UnityEngine::EntityId> instanceID);
+  static inline ::UnityW<::UnityEngine::Object> FindObjectFromInstanceIDThreadSafe_Injected(::by_ref<::UnityEngine::EntityId const> instanceID);
 
   /// @brief Method FindObjectFromInstanceID_Injected, addr 0x6f45d54, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr FindObjectFromInstanceID_Injected(::by_ref<::UnityEngine::EntityId> instanceID);
+  static inline ::System::IntPtr FindObjectFromInstanceID_Injected(::by_ref<::UnityEngine::EntityId const> instanceID);
 
   /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)0)]
   /// [Obsolete("Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType", false)]
@@ -271,7 +271,7 @@ public:
   static inline ::UnityW<::UnityEngine::Object> ForceLoadFromInstanceID(::UnityEngine::EntityId instanceID);
 
   /// @brief Method ForceLoadFromInstanceID_Injected, addr 0x6f46078, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr ForceLoadFromInstanceID_Injected(::by_ref<::UnityEngine::EntityId> instanceID);
+  static inline ::System::IntPtr ForceLoadFromInstanceID_Injected(::by_ref<::UnityEngine::EntityId const> instanceID);
 
   /// @brief Method GetCachedPtr, addr 0x6f430c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr GetCachedPtr();
@@ -301,7 +301,7 @@ public:
   static inline ::System::IntPtr GetPtrFromInstanceID(::UnityEngine::EntityId instanceID, ::System::Type* objectType, ::by_ref<bool> isMonoBehaviour);
 
   /// @brief Method GetPtrFromInstanceID_Injected, addr 0x6f45edc, size 0x54, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetPtrFromInstanceID_Injected(::by_ref<::UnityEngine::EntityId> instanceID, ::System::Type* objectType, ::by_ref<bool> isMonoBehaviour);
+  static inline ::System::IntPtr GetPtrFromInstanceID_Injected(::by_ref<::UnityEngine::EntityId const> instanceID, ::System::Type* objectType, ::by_ref<bool> isMonoBehaviour);
 
   /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)3)]
   /// @brief Method Instantiate, addr 0x6f43afc, size 0xdc, virtual false, abstract: false, final false
@@ -430,7 +430,7 @@ public:
   static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingleWithParams(/* [NotNull] */ ::UnityEngine::Object* data, ::UnityEngine::InstantiateParameters parameters);
 
   /// @brief Method Internal_CloneSingleWithParams_Injected, addr 0x6f454a0, size 0x44, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Internal_CloneSingleWithParams_Injected(::System::IntPtr data, ::by_ref<::UnityEngine::InstantiateParameters> parameters);
+  static inline ::System::IntPtr Internal_CloneSingleWithParams_Injected(::System::IntPtr data, ::by_ref<::UnityEngine::InstantiateParameters const> parameters);
 
   /// [FreeFunction("CloneObject")]
   /// @brief Method Internal_CloneSingleWithParent, addr 0x6f4417c, size 0x1d8, virtual false, abstract: false, final false
@@ -444,7 +444,7 @@ public:
   static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingleWithScene(/* [NotNull] */ ::UnityEngine::Object* data, ::UnityEngine::SceneManagement::Scene scene);
 
   /// @brief Method Internal_CloneSingleWithScene_Injected, addr 0x6f452c4, size 0x44, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Internal_CloneSingleWithScene_Injected(::System::IntPtr data, ::by_ref<::UnityEngine::SceneManagement::Scene> scene);
+  static inline ::System::IntPtr Internal_CloneSingleWithScene_Injected(::System::IntPtr data, ::by_ref<::UnityEngine::SceneManagement::Scene const> scene);
 
   /// @brief Method Internal_CloneSingle_Injected, addr 0x6f45288, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_CloneSingle_Injected(::System::IntPtr data);
@@ -455,7 +455,7 @@ public:
                                                                      ::System::IntPtr positions, int32_t positionsCount, ::System::IntPtr rotations, int32_t rotationsCount);
 
   /// @brief Method Internal_InstantiateAsyncWithParams_Injected, addr 0x6f45850, size 0x84, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Internal_InstantiateAsyncWithParams_Injected(::System::IntPtr original, int32_t count, ::by_ref<::UnityEngine::InstantiateParameters> parameters,
+  static inline ::System::IntPtr Internal_InstantiateAsyncWithParams_Injected(::System::IntPtr original, int32_t count, ::by_ref<::UnityEngine::InstantiateParameters const> parameters,
                                                                               ::System::IntPtr positions, int32_t positionsCount, ::System::IntPtr rotations, int32_t rotationsCount);
 
   /// [FreeFunction("InstantiateObject")]
@@ -468,8 +468,8 @@ public:
                                                                                      ::UnityEngine::InstantiateParameters parameters);
 
   /// @brief Method Internal_InstantiateSingleWithParams_Injected, addr 0x6f45694, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Internal_InstantiateSingleWithParams_Injected(::System::IntPtr data, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Quaternion> rotation,
-                                                                               ::by_ref<::UnityEngine::InstantiateParameters> parameters);
+  static inline ::System::IntPtr Internal_InstantiateSingleWithParams_Injected(::System::IntPtr data, ::by_ref<::UnityEngine::Vector3 const> position,
+                                                                               ::by_ref<::UnityEngine::Quaternion const> rotation, ::by_ref<::UnityEngine::InstantiateParameters const> parameters);
 
   /// [FreeFunction("InstantiateObject")]
   /// @brief Method Internal_InstantiateSingleWithParent, addr 0x6f4390c, size 0x1f0, virtual false, abstract: false, final false
@@ -477,11 +477,11 @@ public:
                                                                                      ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
 
   /// @brief Method Internal_InstantiateSingleWithParent_Injected, addr 0x6f45928, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Internal_InstantiateSingleWithParent_Injected(::System::IntPtr data, ::System::IntPtr parent, ::by_ref<::UnityEngine::Vector3> pos,
-                                                                               ::by_ref<::UnityEngine::Quaternion> rot);
+  static inline ::System::IntPtr Internal_InstantiateSingleWithParent_Injected(::System::IntPtr data, ::System::IntPtr parent, ::by_ref<::UnityEngine::Vector3 const> pos,
+                                                                               ::by_ref<::UnityEngine::Quaternion const> rot);
 
   /// @brief Method Internal_InstantiateSingle_Injected, addr 0x6f458d4, size 0x54, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Internal_InstantiateSingle_Injected(::System::IntPtr data, ::by_ref<::UnityEngine::Vector3> pos, ::by_ref<::UnityEngine::Quaternion> rot);
+  static inline ::System::IntPtr Internal_InstantiateSingle_Injected(::System::IntPtr data, ::by_ref<::UnityEngine::Vector3 const> pos, ::by_ref<::UnityEngine::Quaternion const> rot);
 
   /// @brief Method IsNativeObjectAlive, addr 0x6f42fc0, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsNativeObjectAlive(::UnityEngine::Object* o);

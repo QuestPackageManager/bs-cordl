@@ -55,7 +55,7 @@ public:
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle GetByName_Unsafe(::Unity::Profiling::ProfilerCategory category, char16_t* name, int32_t nameLen);
 
   /// @brief Method GetByName_Unsafe_Injected, addr 0x6eaff6c, size 0x5c, virtual false, abstract: false, final false
-  static inline void GetByName_Unsafe_Injected(::by_ref<::Unity::Profiling::ProfilerCategory> category, char16_t* name, int32_t nameLen,
+  static inline void GetByName_Unsafe_Injected(::by_ref<::Unity::Profiling::ProfilerCategory const> category, char16_t* name, int32_t nameLen,
                                                ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle> ret);
 
   /// [NativeMethod(IsThreadSafe = true)]
@@ -63,7 +63,7 @@ public:
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle GetByName__Unmanaged(::Unity::Profiling::ProfilerCategory category, uint8_t* name, int32_t nameLen);
 
   /// @brief Method GetByName__Unmanaged_Injected, addr 0x6eafea4, size 0x5c, virtual false, abstract: false, final false
-  static inline void GetByName__Unmanaged_Injected(::by_ref<::Unity::Profiling::ProfilerCategory> category, uint8_t* name, int32_t nameLen,
+  static inline void GetByName__Unmanaged_Injected(::by_ref<::Unity::Profiling::ProfilerCategory const> category, uint8_t* name, int32_t nameLen,
                                                    ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle> ret);
 
   /// @brief Method GetDescription, addr 0x6eafaf0, size 0xdc, virtual false, abstract: false, final false
@@ -74,7 +74,7 @@ public:
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription GetDescriptionInternal(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle handle);
 
   /// @brief Method GetDescriptionInternal_Injected, addr 0x6eaffc8, size 0x44, virtual false, abstract: false, final false
-  static inline void GetDescriptionInternal_Injected(::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle> handle,
+  static inline void GetDescriptionInternal_Injected(::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle const> handle,
                                                      ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription> ret);
 
   constexpr uint64_t const& __cordl_internal_get_handle() const;

@@ -190,14 +190,14 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// @brief Method Add, addr 0x6f96530, size 0x4, virtual false, abstract: false, final false
-  inline ::Unity::Hierarchy::HierarchyNode Add(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> parent);
+  inline ::Unity::Hierarchy::HierarchyNode Add(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> parent);
 
   /// [FreeFunction("HierarchyBindings::AddNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method AddNode, addr 0x6f96534, size 0x70, virtual false, abstract: false, final false
-  inline ::Unity::Hierarchy::HierarchyNode AddNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> parent);
+  inline ::Unity::Hierarchy::HierarchyNode AddNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> parent);
 
   /// @brief Method AddNode_Injected, addr 0x6f96c94, size 0x54, virtual false, abstract: false, final false
-  static inline void AddNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> parent, ::by_ref<::Unity::Hierarchy::HierarchyNode> ret);
+  static inline void AddNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> parent, ::by_ref<::Unity::Hierarchy::HierarchyNode> ret);
 
   /// [FreeFunction("HierarchyBindings::Create", IsThreadSafe = true)]
   /// @brief Method Create, addr 0x6f962ec, size 0x54, virtual false, abstract: false, final false
@@ -218,24 +218,24 @@ public:
   inline void Dispose(bool disposing);
 
   /// @brief Method EnumerateChildren, addr 0x6f96880, size 0x34, virtual false, abstract: false, final false
-  inline ::Unity::Hierarchy::HierarchyNodeChildren EnumerateChildren(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline ::Unity::Hierarchy::HierarchyNodeChildren EnumerateChildren(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [FreeFunction("HierarchyBindings::EnumerateChildrenPtr", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method EnumerateChildrenPtr, addr 0x6f968b4, size 0x58, virtual false, abstract: false, final false
-  inline ::System::IntPtr EnumerateChildrenPtr(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline ::System::IntPtr EnumerateChildrenPtr(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method EnumerateChildrenPtr_Injected, addr 0x6f96d3c, size 0x44, virtual false, abstract: false, final false
-  static inline ::System::IntPtr EnumerateChildrenPtr_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  static inline ::System::IntPtr EnumerateChildrenPtr_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method EnumerateNodeTypeHandlersBase, addr 0x6f96490, size 0x4, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable EnumerateNodeTypeHandlersBase();
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method Exists, addr 0x6f96494, size 0x58, virtual false, abstract: false, final false
-  inline bool Exists(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline bool Exists(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method Exists_Injected, addr 0x6f964ec, size 0x44, virtual false, abstract: false, final false
-  static inline bool Exists_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  static inline bool Exists_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method Finalize, addr 0x6f96350, size 0x48, virtual true, abstract: false, final false
   inline void Finalize();
@@ -245,17 +245,17 @@ public:
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method GetChildren, addr 0x6f966d4, size 0x158, virtual false, abstract: false, final false
-  inline ::ArrayW<::Unity::Hierarchy::HierarchyNode> GetChildren(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline ::ArrayW<::Unity::Hierarchy::HierarchyNode> GetChildren(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method GetChildrenCount, addr 0x6f9690c, size 0x58, virtual false, abstract: false, final false
-  inline int32_t GetChildrenCount(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline int32_t GetChildrenCount(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method GetChildrenCount_Injected, addr 0x6f96964, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t GetChildrenCount_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  static inline int32_t GetChildrenCount_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method GetChildren_Injected, addr 0x6f9682c, size 0x54, virtual false, abstract: false, final false
-  static inline void GetChildren_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+  static inline void GetChildren_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                                           ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.HierarchyModule" })]
@@ -276,7 +276,7 @@ public:
 
   /// [FreeFunction("HierarchyBindings::GetOrCreateProperty", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method GetOrCreateProperty, addr 0x6f96d80, size 0x170, virtual false, abstract: false, final false
-  inline ::Unity::Hierarchy::HierarchyPropertyId GetOrCreateProperty(::StringW name, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyDescriptor> descriptor);
+  inline ::Unity::Hierarchy::HierarchyPropertyId GetOrCreateProperty(::StringW name, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyDescriptor const> descriptor);
 
   /// @brief Method GetOrCreatePropertyUnmanaged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
@@ -285,23 +285,23 @@ public:
 
   /// @brief Method GetOrCreateProperty_Injected, addr 0x6f96ef0, size 0x5c, virtual false, abstract: false, final false
   static inline void GetOrCreateProperty_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name,
-                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyDescriptor> descriptor, ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> ret);
+                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyDescriptor const> descriptor, ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> ret);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method GetParent, addr 0x6f96610, size 0x70, virtual false, abstract: false, final false
-  inline ::Unity::Hierarchy::HierarchyNode GetParent(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline ::Unity::Hierarchy::HierarchyNode GetParent(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method GetParent_Injected, addr 0x6f96680, size 0x54, virtual false, abstract: false, final false
-  static inline void GetParent_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::by_ref<::Unity::Hierarchy::HierarchyNode> ret);
+  static inline void GetParent_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::by_ref<::Unity::Hierarchy::HierarchyNode> ret);
 
   /// [FreeFunction("HierarchyBindings::GetPropertyRaw", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method GetPropertyRaw, addr 0x6f97038, size 0x70, virtual false, abstract: false, final false
-  inline void* GetPropertyRaw(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+  inline void* GetPropertyRaw(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId const> property, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                               ::by_ref<int32_t> size);
 
   /// @brief Method GetPropertyRaw_Injected, addr 0x6f970a8, size 0x5c, virtual false, abstract: false, final false
-  static inline void* GetPropertyRaw_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property,
-                                              /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::by_ref<int32_t> size);
+  static inline void* GetPropertyRaw_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId const> property,
+                                              /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::by_ref<int32_t> size);
 
   /// [RequiredByNativeCode]
   /// @brief Method InvokeHandlerCreated, addr 0x6f97174, size 0x190, virtual false, abstract: false, final false
@@ -313,37 +313,37 @@ public:
 
   /// [FreeFunction("HierarchyBindings::SetNodeParent", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method SetNodeParent, addr 0x6f965a8, size 0x68, virtual false, abstract: false, final false
-  inline void SetNodeParent(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> parent);
+  inline void SetNodeParent(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> parent);
 
   /// @brief Method SetNodeParent_Injected, addr 0x6f96ce8, size 0x54, virtual false, abstract: false, final false
-  static inline void SetNodeParent_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
-                                            /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> parent);
+  static inline void SetNodeParent_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
+                                            /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> parent);
 
   /// @brief Method SetParent, addr 0x6f965a4, size 0x4, virtual false, abstract: false, final false
-  inline void SetParent(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> parent);
+  inline void SetParent(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> parent);
 
   /// [FreeFunction("HierarchyBindings::SetPropertyRaw", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method SetPropertyRaw, addr 0x6f96f4c, size 0x80, virtual false, abstract: false, final false
-  inline void SetPropertyRaw(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, void* ptr,
+  inline void SetPropertyRaw(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId const> property, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, void* ptr,
                              int32_t size);
 
   /// @brief Method SetPropertyRaw_Injected, addr 0x6f96fcc, size 0x6c, virtual false, abstract: false, final false
-  static inline void SetPropertyRaw_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property,
-                                             /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, void* ptr, int32_t size);
+  static inline void SetPropertyRaw_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId const> property,
+                                             /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, void* ptr, int32_t size);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method SetSortIndex, addr 0x6f969a8, size 0x68, virtual false, abstract: false, final false
-  inline void SetSortIndex(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, int32_t sortIndex);
+  inline void SetSortIndex(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, int32_t sortIndex);
 
   /// @brief Method SetSortIndex_Injected, addr 0x6f96a10, size 0x54, virtual false, abstract: false, final false
-  static inline void SetSortIndex_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, int32_t sortIndex);
+  static inline void SetSortIndex_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, int32_t sortIndex);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method SortChildren, addr 0x6f96a64, size 0x58, virtual false, abstract: false, final false
-  inline void SortChildren(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline void SortChildren(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method SortChildren_Injected, addr 0x6f96abc, size 0x44, virtual false, abstract: false, final false
-  static inline void SortChildren_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  static inline void SortChildren_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method Update, addr 0x6f96b00, size 0x50, virtual false, abstract: false, final false

@@ -210,14 +210,14 @@ constexpr ::GlobalNamespace::LevelFilter___c__DisplayClass14_1::LevelFilter___c_
 //  Writing Method size for method: ::GlobalNamespace::LevelFilter.IsWithoutFilter
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::LevelFilter>, bool)>(&::GlobalNamespace::LevelFilter::IsWithoutFilter)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::LevelFilter const>, bool)>(&::GlobalNamespace::LevelFilter::IsWithoutFilter)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x39b48b0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(), { "IsWithoutFilter", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter>>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(),
+                                                             { "IsWithoutFilter", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter const>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -358,10 +358,10 @@ inline void GlobalNamespace::LevelFilter::setStaticF_bpmOptions(::ArrayW<float_t
 inline ::ArrayW<float_t> GlobalNamespace::LevelFilter::getStaticF_bpmOptions() {
   return ::cordl_internals::getStaticField<::ArrayW<float_t>, "bpmOptions", ::GlobalNamespace::LevelFilter>();
 }
-inline bool GlobalNamespace::LevelFilter::IsWithoutFilter(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter, bool ignoreFilterBySongs) {
+inline bool GlobalNamespace::LevelFilter::IsWithoutFilter(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter const> filter, bool ignoreFilterBySongs) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(), { "IsWithoutFilter", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter>>(), ::i2c::type_of<bool>() } })));
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(), { "IsWithoutFilter", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter const>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, filter, ignoreFilterBySongs);
 }
 inline ::System::Threading::Tasks::Task_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>*

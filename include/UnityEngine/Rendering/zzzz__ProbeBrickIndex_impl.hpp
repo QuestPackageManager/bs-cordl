@@ -408,7 +408,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int3
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeBrickIndex.MarkBrickInPhysicalBuffer
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeBrickIndex::*)(::by_ref<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeBrickIndex::*)(::by_ref<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo const>,
                                                                                                            ::UnityEngine::Vector3Int, ::UnityEngine::Vector3Int, int32_t, int32_t, int32_t)>(
     &::UnityEngine::Rendering::ProbeBrickIndex::MarkBrickInPhysicalBuffer)> {
   constexpr static std::size_t size = 0x334;
@@ -419,7 +419,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex*>(),
                                                 { "MarkBrickInPhysicalBuffer",
                                                   {},
-                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo>>(), ::i2c::type_of<::UnityEngine::Vector3Int>(),
+                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo const>>(), ::i2c::type_of<::UnityEngine::Vector3Int>(),
                                                     ::i2c::type_of<::UnityEngine::Vector3Int>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
@@ -729,14 +729,14 @@ inline int32_t UnityEngine::Rendering::ProbeBrickIndex::LocationToIndex(int32_t 
                                        { "LocationToIndex", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector3Int>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, x, y, z, sizeOfValid);
 }
-inline void UnityEngine::Rendering::ProbeBrickIndex::MarkBrickInPhysicalBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo> entry,
+inline void UnityEngine::Rendering::ProbeBrickIndex::MarkBrickInPhysicalBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo const> entry,
                                                                                ::UnityEngine::Vector3Int brickMin, ::UnityEngine::Vector3Int brickMax, int32_t brickSubdivLevel,
                                                                                int32_t entrySubdivLevel, int32_t idx) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex*>(),
                                               { "MarkBrickInPhysicalBuffer",
                                                 {},
-                                                { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo>>(), ::i2c::type_of<::UnityEngine::Vector3Int>(),
+                                                { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo const>>(), ::i2c::type_of<::UnityEngine::Vector3Int>(),
                                                   ::i2c::type_of<::UnityEngine::Vector3Int>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, entry, brickMin, brickMax, brickSubdivLevel, entrySubdivLevel, idx);
 }

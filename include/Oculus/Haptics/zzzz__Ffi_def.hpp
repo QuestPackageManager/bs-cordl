@@ -560,8 +560,8 @@ public:
   static inline ::Oculus::Haptics::Ffi_Result initialize_with_ovr_plugin(::StringW game_engine_name, ::StringW game_engine_version, ::StringW game_engine_haptics_sdk_version);
 
   /// @brief Method initialize_with_ovr_plugin_bytes, addr 0x61ccb10, size 0xac, virtual false, abstract: false, final false
-  static inline ::Oculus::Haptics::Ffi_Result initialize_with_ovr_plugin_bytes(::ByRefConst<::ArrayW<uint8_t>> game_engine_name, ::ByRefConst<::ArrayW<uint8_t>> game_engine_version,
-                                                                               ::ByRefConst<::ArrayW<uint8_t>> game_engine_haptics_sdk_version);
+  static inline ::Oculus::Haptics::Ffi_Result initialize_with_ovr_plugin_bytes(::ArrayW<uint8_t> game_engine_name, ::ArrayW<uint8_t> game_engine_version,
+                                                                               ::ArrayW<uint8_t> game_engine_haptics_sdk_version);
 
   /// @brief Method initialized, addr 0x61cbab8, size 0x90, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result initialized(::by_ref<bool> initialized);
@@ -570,7 +570,7 @@ public:
   static inline ::Oculus::Haptics::Ffi_Result load_clip(::StringW data, ::by_ref<int32_t> clip_id_out);
 
   /// @brief Method load_clip_bytes, addr 0x61ccd64, size 0x9c, virtual false, abstract: false, final false
-  static inline ::Oculus::Haptics::Ffi_Result load_clip_bytes(::ByRefConst<::ArrayW<uint8_t>> data, uint32_t data_length, ::by_ref<int32_t> clip_id_out);
+  static inline ::Oculus::Haptics::Ffi_Result load_clip_bytes(::ArrayW<uint8_t> data, uint32_t data_length, ::by_ref<int32_t> clip_id_out);
 
   /// @brief Method player_amplitude, addr 0x61cc24c, size 0x84, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result player_amplitude(int32_t playerId, ::by_ref<float_t> amplitude);

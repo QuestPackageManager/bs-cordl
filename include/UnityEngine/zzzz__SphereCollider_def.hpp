@@ -53,7 +53,7 @@ public:
   inline void set_center(::UnityEngine::Vector3 value);
 
   /// @brief Method set_center_Injected, addr 0x70090d8, size 0x44, virtual false, abstract: false, final false
-  static inline void set_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_radius, addr 0x70091d8, size 0x90, virtual false, abstract: false, final false
   inline void set_radius(float_t value);

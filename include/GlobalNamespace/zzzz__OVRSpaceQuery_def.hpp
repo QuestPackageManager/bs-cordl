@@ -384,15 +384,15 @@ public:
 
   /// @brief Method PostProcessQuery, addr 0x62ec31c, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> PostProcessQuery(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query,
-                                                                                                        ::GlobalNamespace::OVRPlugin_Result result, /* [IsReadOnly] */ ::by_ref<::StringW> why);
+                                                                                                        ::GlobalNamespace::OVRPlugin_Result result, /* [IsReadOnly] */ ::by_ref<::StringW const> why);
 
   /// [Extension]
   /// @brief Method ToV1, addr 0x62ece20, size 0x14, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo ToV1(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query2);
+  static inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo ToV1(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 const> query2);
 
   /// [Extension]
   /// @brief Method ToV2, addr 0x62ece34, size 0x38, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 ToV2(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo> query1);
+  static inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 ToV2(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo const> query1);
 
   static inline ::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType> getStaticF_s_ComponentTypes();
 

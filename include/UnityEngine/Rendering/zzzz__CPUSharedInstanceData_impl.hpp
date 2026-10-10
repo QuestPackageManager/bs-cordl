@@ -52,14 +52,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::*)(::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::*)(::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData const>)>(
     &::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::_ctor)> {
   constexpr static std::size_t size = 0x504;
   constexpr static std::size_t addrs = 0x6c5c194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>(),
-                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>() } })));
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData const>>() } })));
     return ___internal_method;
   }
 };
@@ -123,16 +123,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::*)(
-    ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>, ::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::InstanceToIndex)> {
+    ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly const>, ::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::InstanceToIndex)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x6c5caa4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>(),
-                         { "InstanceToIndex", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>(),
+            { "InstanceToIndex", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly const>>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
@@ -146,9 +146,9 @@ inline int32_t UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::get_insta
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>(), { "get_instancesLength", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline void UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> instanceData) {
+inline void UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData const> instanceData) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>(),
-                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>() } })));
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instanceData);
 }
 inline int32_t UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::SharedInstanceToIndex(::UnityEngine::Rendering::SharedInstanceHandle instance) {
@@ -171,12 +171,13 @@ inline bool UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::IsValidIndex
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>(), { "IsValidIndex", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, index);
 }
-inline int32_t UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::InstanceToIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData,
+inline int32_t UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::InstanceToIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly const> instanceData,
                                                                                        ::UnityEngine::Rendering::InstanceHandle instance) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>(),
-                          { "InstanceToIndex", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>(),
+          { "InstanceToIndex", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly const>>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, instanceData, instance);
 }
 // Ctor Parameters [CppParam { name: "instanceIndices", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
@@ -357,7 +358,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CPUSharedInstanceData::*)(
-    ::by_ref<::UnityEngine::Rendering::CPUInstanceData>, ::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUSharedInstanceData::InstanceToIndex)> {
+    ::by_ref<::UnityEngine::Rendering::CPUInstanceData const>, ::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUSharedInstanceData::InstanceToIndex)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6c5b584;
 
@@ -365,7 +366,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
-                            { "InstanceToIndex", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+                            { "InstanceToIndex", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData const>>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
@@ -625,15 +626,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUSharedInstanceData::*)(
-    ::UnityEngine::Rendering::SharedInstanceHandle, ::by_ref<::UnityEngine::Rendering::AABB>)>(&::UnityEngine::Rendering::CPUSharedInstanceData::Set_LocalAABB)> {
+    ::UnityEngine::Rendering::SharedInstanceHandle, ::by_ref<::UnityEngine::Rendering::AABB const>)>(&::UnityEngine::Rendering::CPUSharedInstanceData::Set_LocalAABB)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6c5be88;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
-                                         { "Set_LocalAABB", {}, { ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
+                            { "Set_LocalAABB", {}, { ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB const>>() } })));
     return ___internal_method;
   }
 };
@@ -702,16 +703,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUSharedInstanceData::*)(
-    ::UnityEngine::Rendering::SharedInstanceHandle, ::by_ref<::UnityEngine::Rendering::SmallEntityIdArray>)>(&::UnityEngine::Rendering::CPUSharedInstanceData::Set_MaterialIDs)> {
+    ::UnityEngine::Rendering::SharedInstanceHandle, ::by_ref<::UnityEngine::Rendering::SmallEntityIdArray const>)>(&::UnityEngine::Rendering::CPUSharedInstanceData::Set_MaterialIDs)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x6c5bf7c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
-                         { "Set_MaterialIDs", {}, { ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SmallEntityIdArray>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
+            { "Set_MaterialIDs", {}, { ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SmallEntityIdArray const>>() } })));
     return ___internal_method;
   }
 };
@@ -719,22 +720,22 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUSharedInstanceData::*)(
-    ::UnityEngine::Rendering::SharedInstanceHandle, ::UnityEngine::EntityId, ::by_ref<::UnityEngine::Rendering::SmallEntityIdArray>, int32_t, ::by_ref<::UnityEngine::Rendering::AABB>,
+    ::UnityEngine::Rendering::SharedInstanceHandle, ::UnityEngine::EntityId, ::by_ref<::UnityEngine::Rendering::SmallEntityIdArray const>, int32_t, ::by_ref<::UnityEngine::Rendering::AABB const>,
     ::UnityEngine::Rendering::TransformUpdateFlags, ::UnityEngine::Rendering::InstanceFlags, uint32_t, ::UnityEngine::Rendering::GPUDrivenMeshLodInfo, int32_t, int32_t)>(
     &::UnityEngine::Rendering::CPUSharedInstanceData::Set)> {
   constexpr static std::size_t size = 0x154;
   constexpr static std::size_t addrs = 0x6c5c00c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
-                            { "Set",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<::UnityEngine::EntityId>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SmallEntityIdArray>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB>>(),
-                                ::i2c::type_of<::UnityEngine::Rendering::TransformUpdateFlags>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceFlags>(), ::i2c::type_of<uint32_t>(),
-                                ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenMeshLodInfo>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
+                                                             { "Set",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<::UnityEngine::EntityId>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SmallEntityIdArray const>>(), ::i2c::type_of<int32_t>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB const>>(), ::i2c::type_of<::UnityEngine::Rendering::TransformUpdateFlags>(),
+                                                                 ::i2c::type_of<::UnityEngine::Rendering::InstanceFlags>(), ::i2c::type_of<uint32_t>(),
+                                                                 ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenMeshLodInfo>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -817,12 +818,12 @@ inline ::UnityEngine::Rendering::SharedInstanceHandle UnityEngine::Rendering::CP
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(), { "IndexToSharedInstance", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::SharedInstanceHandle>(*this, ___internal_method, index);
 }
-inline int32_t UnityEngine::Rendering::CPUSharedInstanceData::InstanceToIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
+inline int32_t UnityEngine::Rendering::CPUSharedInstanceData::InstanceToIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData const> instanceData,
                                                                               ::UnityEngine::Rendering::InstanceHandle instance) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
-                          { "InstanceToIndex", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+                          { "InstanceToIndex", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData const>>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, instanceData, instance);
 }
 inline bool UnityEngine::Rendering::CPUSharedInstanceData::IsValidInstance(::UnityEngine::Rendering::SharedInstanceHandle instance) {
@@ -921,11 +922,11 @@ inline void UnityEngine::Rendering::CPUSharedInstanceData::Set_MeshID(::UnityEng
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, meshID);
 }
 inline void UnityEngine::Rendering::CPUSharedInstanceData::Set_LocalAABB(::UnityEngine::Rendering::SharedInstanceHandle instance,
-                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> localAABB) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
-                                       { "Set_LocalAABB", {}, { ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB>>() } })));
+                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB const> localAABB) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
+                          { "Set_LocalAABB", {}, { ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, localAABB);
 }
 inline void UnityEngine::Rendering::CPUSharedInstanceData::Set_Flags(::UnityEngine::Rendering::SharedInstanceHandle instance, ::UnityEngine::Rendering::CPUSharedInstanceFlags instanceFlags) {
@@ -954,27 +955,28 @@ inline void UnityEngine::Rendering::CPUSharedInstanceData::Set_RefCount(::UnityE
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, refCount);
 }
 inline void UnityEngine::Rendering::CPUSharedInstanceData::Set_MaterialIDs(::UnityEngine::Rendering::SharedInstanceHandle instance,
-                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SmallEntityIdArray> materialIDs) {
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SmallEntityIdArray const> materialIDs) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
-                          { "Set_MaterialIDs", {}, { ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SmallEntityIdArray>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
+          { "Set_MaterialIDs", {}, { ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SmallEntityIdArray const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, materialIDs);
 }
 inline void UnityEngine::Rendering::CPUSharedInstanceData::Set(::UnityEngine::Rendering::SharedInstanceHandle instance, ::UnityEngine::EntityId rendererGroupID,
-                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SmallEntityIdArray> materialIDs, int32_t meshID,
-                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> localAABB,
+                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SmallEntityIdArray const> materialIDs, int32_t meshID,
+                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB const> localAABB,
                                                                ::UnityEngine::Rendering::TransformUpdateFlags transformUpdateFlags, ::UnityEngine::Rendering::InstanceFlags instanceFlags,
                                                                uint32_t lodGroupAndMask, ::UnityEngine::Rendering::GPUDrivenMeshLodInfo meshLodInfo, int32_t gameObjectLayer, int32_t refCount) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
-                          { "Set",
-                            {},
-                            { ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<::UnityEngine::EntityId>(),
-                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SmallEntityIdArray>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB>>(),
-                              ::i2c::type_of<::UnityEngine::Rendering::TransformUpdateFlags>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceFlags>(), ::i2c::type_of<uint32_t>(),
-                              ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenMeshLodInfo>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
+                                                           { "Set",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<::UnityEngine::EntityId>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SmallEntityIdArray const>>(), ::i2c::type_of<int32_t>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB const>>(), ::i2c::type_of<::UnityEngine::Rendering::TransformUpdateFlags>(),
+                                                               ::i2c::type_of<::UnityEngine::Rendering::InstanceFlags>(), ::i2c::type_of<uint32_t>(),
+                                                               ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenMeshLodInfo>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, rendererGroupID, materialIDs, meshID, localAABB, transformUpdateFlags, instanceFlags, lodGroupAndMask,
                                                    meshLodInfo, gameObjectLayer, refCount);
 }

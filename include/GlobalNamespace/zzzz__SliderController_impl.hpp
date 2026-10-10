@@ -659,8 +659,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespac
 //  Writing Method size for method: ::GlobalNamespace::SliderController.Init
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)(
-    ::GlobalNamespace::SliderController_LengthType, ::GlobalNamespace::SliderData*, ::by_ref<::GlobalNamespace::SliderSpawnData>, float_t, float_t)>(&::GlobalNamespace::SliderController::Init)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)(::GlobalNamespace::SliderController_LengthType, ::GlobalNamespace::SliderData*,
+                                                                                                     ::by_ref<::GlobalNamespace::SliderSpawnData const>, float_t, float_t)>(
+    &::GlobalNamespace::SliderController::Init)> {
   constexpr static std::size_t size = 0x478;
   constexpr static std::size_t addrs = 0x5d90f4c;
 
@@ -670,7 +671,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                              { "Init",
                                                                {},
                                                                { ::i2c::type_of<::GlobalNamespace::SliderController_LengthType>(), ::i2c::type_of<::GlobalNamespace::SliderData*>(),
-                                                                 ::i2c::type_of<::by_ref<::GlobalNamespace::SliderSpawnData>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+                                                                 ::i2c::type_of<::by_ref<::GlobalNamespace::SliderSpawnData const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
@@ -875,15 +876,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::SliderController.HandleNoteWasCut
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)(::GlobalNamespace::NoteController*, ::by_ref<::GlobalNamespace::NoteCutInfo>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)(::GlobalNamespace::NoteController*, ::by_ref<::GlobalNamespace::NoteCutInfo const>)>(
     &::GlobalNamespace::SliderController::HandleNoteWasCut)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x5d943c0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(),
-                                                { "HandleNoteWasCut", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(),
+                                         { "HandleNoteWasCut", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo const>>() } })));
     return ___internal_method;
   }
 };
@@ -1326,13 +1328,13 @@ inline ::UnityW<::GlobalNamespace::SliderIntensityEffect> GlobalNamespace::Slide
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::SliderIntensityEffect>>(this, ___internal_method);
 }
 inline void GlobalNamespace::SliderController::Init(::GlobalNamespace::SliderController_LengthType lengthType, ::GlobalNamespace::SliderData* sliderData,
-                                                    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData, float_t noteUniformScale, float_t randomValue) {
+                                                    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData const> sliderSpawnData, float_t noteUniformScale, float_t randomValue) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(),
                                                            { "Init",
                                                              {},
                                                              { ::i2c::type_of<::GlobalNamespace::SliderController_LengthType>(), ::i2c::type_of<::GlobalNamespace::SliderData*>(),
-                                                               ::i2c::type_of<::by_ref<::GlobalNamespace::SliderSpawnData>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+                                                               ::i2c::type_of<::by_ref<::GlobalNamespace::SliderSpawnData const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, lengthType, sliderData, sliderSpawnData, noteUniformScale, randomValue);
 }
 inline void GlobalNamespace::SliderController::Awake() {
@@ -1403,10 +1405,10 @@ inline void GlobalNamespace::SliderController::HandleNoteWasMissed(::GlobalNames
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "HandleNoteWasMissed", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteController);
 }
-inline void GlobalNamespace::SliderController::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
+inline void GlobalNamespace::SliderController::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(),
-                                              { "HandleNoteWasCut", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo>>() } })));
+                                              { "HandleNoteWasCut", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteController, noteCutInfo);
 }
 inline void GlobalNamespace::SliderController::HandleFadeInDidStart() {

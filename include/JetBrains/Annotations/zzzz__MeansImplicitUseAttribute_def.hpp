@@ -20,7 +20,7 @@ class MeansImplicitUseAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::MeansImplicitUseAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::MeansImplicitUseAttribute*, "JetBrains.Annotations", "MeansImplicitUseAttribute");
-// [AttributeUsage((System.AttributeTargets)16388)]
+// [AttributeUsage((System.AttributeTargets)18436)]
 // Dependencies JetBrains.Annotations.ImplicitUseKindFlags, JetBrains.Annotations.ImplicitUseTargetFlags, System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -28,12 +28,6 @@ namespace JetBrains::Annotations {
 class CORDL_TYPE MeansImplicitUseAttribute : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief [UsedImplicitly]
-  __declspec(property(get = get_TargetFlags, put = set_TargetFlags)) ::JetBrains::Annotations::ImplicitUseTargetFlags TargetFlags;
-
-  /// @brief [UsedImplicitly]
-  __declspec(property(get = get_UseKindFlags, put = set_UseKindFlags)) ::JetBrains::Annotations::ImplicitUseKindFlags UseKindFlags;
-
   /// @brief Field <TargetFlags>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__TargetFlags_k__BackingField,
                       put = __cordl_internal_set__TargetFlags_k__BackingField)) ::JetBrains::Annotations::ImplicitUseTargetFlags _TargetFlags_k__BackingField;
@@ -43,10 +37,6 @@ public:
                       put = __cordl_internal_set__UseKindFlags_k__BackingField)) ::JetBrains::Annotations::ImplicitUseKindFlags _UseKindFlags_k__BackingField;
 
   static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor();
-
-  static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
-
-  static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
 
   static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags,
                                                                               ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
@@ -63,33 +53,11 @@ public:
 
   constexpr void __cordl_internal_set__UseKindFlags_k__BackingField(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
-  /// @brief Method .ctor, addr 0x72d9ad0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eb2acc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x72d9af4, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
-
-  /// @brief Method .ctor, addr 0x72d9ae8, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
-
-  /// @brief Method .ctor, addr 0x72d9ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eb2adc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
-
-  /// [CompilerGenerated]
-  /// @brief Method get_TargetFlags, addr 0x72d9b10, size 0x8, virtual false, abstract: false, final false
-  inline ::JetBrains::Annotations::ImplicitUseTargetFlags get_TargetFlags();
-
-  /// [CompilerGenerated]
-  /// @brief Method get_UseKindFlags, addr 0x72d9b00, size 0x8, virtual false, abstract: false, final false
-  inline ::JetBrains::Annotations::ImplicitUseKindFlags get_UseKindFlags();
-
-  /// [CompilerGenerated]
-  /// @brief Method set_TargetFlags, addr 0x72d9b18, size 0x8, virtual false, abstract: false, final false
-  inline void set_TargetFlags(::JetBrains::Annotations::ImplicitUseTargetFlags value);
-
-  /// [CompilerGenerated]
-  /// @brief Method set_UseKindFlags, addr 0x72d9b08, size 0x8, virtual false, abstract: false, final false
-  inline void set_UseKindFlags(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
 protected:
   // Ctor Parameters []
@@ -106,12 +74,14 @@ public:
   MeansImplicitUseAttribute(MeansImplicitUseAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9608 };
 
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <UseKindFlags>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::JetBrains::Annotations::ImplicitUseKindFlags ____UseKindFlags_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
   /// @brief Field <TargetFlags>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::JetBrains::Annotations::ImplicitUseTargetFlags ____TargetFlags_k__BackingField;

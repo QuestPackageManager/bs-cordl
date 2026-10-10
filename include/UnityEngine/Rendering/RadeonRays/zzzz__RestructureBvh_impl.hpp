@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RadeonRays::RestructureBvh::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::GraphicsBuffer*, int32_t, uint32_t, uint32_t, ::UnityEngine::GraphicsBuffer*,
-    ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct>)>(&::UnityEngine::Rendering::RadeonRays::RestructureBvh::Execute)> {
+    ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const>)>(&::UnityEngine::Rendering::RadeonRays::RestructureBvh::Execute)> {
   constexpr static std::size_t size = 0x394;
   constexpr static std::size_t addrs = 0x6dfd6f4;
 
@@ -129,7 +129,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(),
                                                                  ::i2c::type_of<int32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct>>() } })));
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const>>() } })));
     return ___internal_method;
   }
 };
@@ -245,14 +245,14 @@ inline uint32_t UnityEngine::Rendering::RadeonRays::RestructureBvh::GetBvhNodeCo
 }
 inline void UnityEngine::Rendering::RadeonRays::RestructureBvh::Execute(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* vertices, int32_t verticesOffset,
                                                                         uint32_t vertexStride, uint32_t triangleCount, ::UnityEngine::GraphicsBuffer* scratch,
-                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct> result) {
+                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const> result) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RadeonRays::RestructureBvh*>(),
                                                            { "Execute",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(), ::i2c::type_of<int32_t>(),
                                                                ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct>>() } })));
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, vertices, verticesOffset, vertexStride, triangleCount, scratch, result);
 }
 inline void UnityEngine::Rendering::RadeonRays::RestructureBvh::BindKernelArguments(::UnityEngine::Rendering::CommandBuffer* cmd, int32_t kernel, ::UnityEngine::GraphicsBuffer* vertices,

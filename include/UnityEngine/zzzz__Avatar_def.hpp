@@ -92,7 +92,7 @@ public:
   inline ::UnityEngine::Quaternion Internal_GetZYPostQ(int32_t humanId, ::UnityEngine::Quaternion parentQ, ::UnityEngine::Quaternion q);
 
   /// @brief Method Internal_GetZYPostQ_Injected, addr 0x6e95464, size 0x6c, virtual false, abstract: false, final false
-  static inline void Internal_GetZYPostQ_Injected(::System::IntPtr _unity_self, int32_t humanId, ::by_ref<::UnityEngine::Quaternion> parentQ, ::by_ref<::UnityEngine::Quaternion> q,
+  static inline void Internal_GetZYPostQ_Injected(::System::IntPtr _unity_self, int32_t humanId, ::by_ref<::UnityEngine::Quaternion const> parentQ, ::by_ref<::UnityEngine::Quaternion const> q,
                                                   ::by_ref<::UnityEngine::Quaternion> ret);
 
   /// [NativeMethod("GetZYRoll")]
@@ -100,7 +100,7 @@ public:
   inline ::UnityEngine::Quaternion Internal_GetZYRoll(int32_t humanId, ::UnityEngine::Vector3 uvw);
 
   /// @brief Method Internal_GetZYRoll_Injected, addr 0x6e954d0, size 0x5c, virtual false, abstract: false, final false
-  static inline void Internal_GetZYRoll_Injected(::System::IntPtr _unity_self, int32_t humanId, ::by_ref<::UnityEngine::Vector3> uvw, ::by_ref<::UnityEngine::Quaternion> ret);
+  static inline void Internal_GetZYRoll_Injected(::System::IntPtr _unity_self, int32_t humanId, ::by_ref<::UnityEngine::Vector3 const> uvw, ::by_ref<::UnityEngine::Quaternion> ret);
 
   static inline ::UnityEngine::Avatar* New_ctor();
 

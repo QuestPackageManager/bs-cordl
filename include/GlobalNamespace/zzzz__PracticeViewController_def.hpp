@@ -285,7 +285,7 @@ public:
   inline void HandleSongStartSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
   /// @brief Method Init, addr 0x5e37e34, size 0x16c, virtual false, abstract: false, final false
-  inline void Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+  inline void Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   /// [AsyncStateMachine(typeof(PracticeViewController::<LoadSong>d__32))]
   /// @brief Method LoadSong, addr 0x5e381a8, size 0xc4, virtual false, abstract: false, final false

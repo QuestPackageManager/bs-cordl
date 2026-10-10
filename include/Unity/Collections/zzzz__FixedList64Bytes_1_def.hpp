@@ -148,10 +148,10 @@ public:
   constexpr operator ::Unity::Collections::INativeList_1<T>*();
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Add(/* [IsReadOnly] */ ::by_ref<T> item);
+  inline void Add(/* [IsReadOnly] */ ::by_ref<T const> item);
 
   /// @brief Method AddNoResize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AddNoResize(/* [IsReadOnly] */ ::by_ref<T> item);
+  inline void AddNoResize(/* [IsReadOnly] */ ::by_ref<T const> item);
 
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddRange(void* ptr, int32_t length);
@@ -160,7 +160,7 @@ public:
   inline void AddRangeNoResize(void* ptr, int32_t length);
 
   /// @brief Method AddReplicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AddReplicate(/* [IsReadOnly] */ ::by_ref<T> value, int32_t count);
+  inline void AddReplicate(/* [IsReadOnly] */ ::by_ref<T const> value, int32_t count);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
@@ -209,19 +209,19 @@ public:
   inline int32_t GetHashCode();
 
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> other);
+  inline int32_t Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T> const> other);
 
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> other);
+  inline int32_t Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T> const> other);
 
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> other);
+  inline int32_t Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T> const> other);
 
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> other);
+  inline int32_t Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T> const> other);
 
   /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Insert(int32_t index, /* [IsReadOnly] */ ::by_ref<T> item);
+  inline void Insert(int32_t index, /* [IsReadOnly] */ ::by_ref<T const> item);
 
   /// @brief Method InsertRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InsertRange(int32_t index, int32_t count);
@@ -255,16 +255,16 @@ public:
   inline ::Unity::Collections::NativeArray_1<T> ToNativeArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> other);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T> const> other);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> other);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T> const> other);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> other);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T> const> other);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> other);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T> const> other);
 
   /// [IsReadOnly]
   /// @brief Method get_Buffer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -343,46 +343,51 @@ public:
   constexpr ::Unity::Collections::INativeList_1<T>* i___Unity__Collections__INativeList_1_T_();
 
   /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T> const> b);
 
   /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T> const> b);
 
   /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T> const> b);
 
   /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T> const> b);
 
   /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> b);
 
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Unity::Collections::FixedList64Bytes_1<T> op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> other);
+  static inline ::Unity::Collections::FixedList64Bytes_1<T>
+  op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T> const> other);
 
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Unity::Collections::FixedList64Bytes_1<T> op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> other);
+  static inline ::Unity::Collections::FixedList64Bytes_1<T>
+  op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T> const> other);
 
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Unity::Collections::FixedList64Bytes_1<T> op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> other);
+  static inline ::Unity::Collections::FixedList64Bytes_1<T>
+  op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T> const> other);
 
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Unity::Collections::FixedList64Bytes_1<T> op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> other);
+  static inline ::Unity::Collections::FixedList64Bytes_1<T>
+  op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T> const> other);
 
   /// @brief Method op_Inequality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T> const> b);
 
   /// @brief Method op_Inequality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T> const> b);
 
   /// @brief Method op_Inequality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a,
+                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T> const> b);
 
   /// @brief Method op_Inequality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T> const> b);
 
   /// @brief Method op_Inequality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> b);
 
   /// @brief Method set_Capacity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void set_Capacity(int32_t value);

@@ -58,8 +58,8 @@ public:
                                                    ::System::IntPtr cullResults, ::System::IntPtr customPassCullResults);
 
   /// @brief Method Internal_ProcessCameraCommand_Injected, addr 0x72c89cc, size 0x6c, virtual false, abstract: false, final false
-  static inline void Internal_ProcessCameraCommand_Injected(::System::IntPtr cam, ::System::IntPtr cmd, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings> camXRSettings, ::System::IntPtr cullResults,
-                                                            ::System::IntPtr customPassCullResults);
+  static inline void Internal_ProcessCameraCommand_Injected(::System::IntPtr cam, ::System::IntPtr cmd, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings const> camXRSettings,
+                                                            ::System::IntPtr cullResults, ::System::IntPtr customPassCullResults);
 
   /// @brief Method IsCameraBufferNeeded, addr 0x72c8a38, size 0xcc, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::VFXCameraBufferTypes IsCameraBufferNeeded(/* [NotNull] */ ::UnityEngine::Camera* cam);
@@ -74,7 +74,7 @@ public:
   static inline void PrepareCamera(/* [NotNull] */ ::UnityEngine::Camera* cam, ::UnityEngine::VFX::VFXCameraXRSettings camXRSettings);
 
   /// @brief Method PrepareCamera_Injected, addr 0x72c87e0, size 0x44, virtual false, abstract: false, final false
-  static inline void PrepareCamera_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings> camXRSettings);
+  static inline void PrepareCamera_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings const> camXRSettings);
 
   /// @brief Method ProcessCameraCommand, addr 0x72c8824, size 0x8c, virtual false, abstract: false, final false
   static inline void ProcessCameraCommand(::UnityEngine::Camera* cam, ::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::VFX::VFXCameraXRSettings camXRSettings,

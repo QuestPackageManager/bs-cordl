@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::NullableAttribute::*)(uint8_t)>(&::System::Runtime::CompilerServices::NullableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x359fce0;
+  constexpr static std::size_t addrs = 0x5cc4c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::NullableAttribute::*)(::ArrayW<uint8_t>)>(
     &::System::Runtime::CompilerServices::NullableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359fd58;
+  constexpr static std::size_t addrs = 0x5cc4c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

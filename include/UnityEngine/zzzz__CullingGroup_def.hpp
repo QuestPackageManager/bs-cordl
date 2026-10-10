@@ -223,7 +223,7 @@ public:
   inline void SetDistanceReferencePoint_InternalVector3(::UnityEngine::Vector3 point);
 
   /// @brief Method SetDistanceReferencePoint_InternalVector3_Injected, addr 0x6ec8424, size 0x44, virtual false, abstract: false, final false
-  static inline void SetDistanceReferencePoint_InternalVector3_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> point);
+  static inline void SetDistanceReferencePoint_InternalVector3_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> point);
 
   constexpr ::UnityEngine::CullingGroup_StateChanged* const& __cordl_internal_get_m_OnStateChanged() const;
 

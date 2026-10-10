@@ -25,13 +25,13 @@ public:
   /// @brief Method AddressOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  static inline void* AddressOf(/* [IsReadOnly] */ ::by_ref<T> value);
+  static inline void* AddressOf(/* [IsReadOnly] */ ::by_ref<T const> value);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method AsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  static inline ::by_ref<T> AsRef(/* [IsReadOnly] */ ::by_ref<T> value);
+  static inline ::by_ref<T> AsRef(/* [IsReadOnly] */ ::by_ref<T const> value);
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]

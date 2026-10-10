@@ -124,9 +124,9 @@ public:
     requires(::cordl_internals::type_constraint<TRealtime, ::UnityEngine::Audio::GeneratorInstance_IRealtime*> && ::cordl_internals::value_type_constraint<TRealtime> &&
              ::cordl_internals::default_constructor_constraint<TRealtime> && ::cordl_internals::type_constraint<TControl, ::UnityEngine::Audio::GeneratorInstance_IControl_1<TRealtime>*> &&
              ::cordl_internals::value_type_constraint<TControl> && ::cordl_internals::default_constructor_constraint<TControl>)
-  inline ::UnityEngine::Audio::GeneratorInstance AllocateGenerator(/* [IsReadOnly] */ ::by_ref<TRealtime> realtimeState, /* [IsReadOnly] */ ::by_ref<TControl> controlState,
+  inline ::UnityEngine::Audio::GeneratorInstance AllocateGenerator(/* [IsReadOnly] */ ::by_ref<TRealtime const> realtimeState, /* [IsReadOnly] */ ::by_ref<TControl const> controlState,
                                                                    ::System::Nullable_1<::UnityEngine::Audio::AudioFormat> nestedFormat,
-                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorInstance_CreationParameters> creationParameters);
+                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorInstance_CreationParameters const> creationParameters);
 
   /// [IsReadOnly]
   /// @brief Method AllocateRootOutput, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -134,18 +134,18 @@ public:
     requires(::cordl_internals::type_constraint<TRealtime, ::UnityEngine::Audio::RootOutputInstance_IRealtime*> && ::cordl_internals::value_type_constraint<TRealtime> &&
              ::cordl_internals::default_constructor_constraint<TRealtime> && ::cordl_internals::type_constraint<TControl, ::UnityEngine::Audio::RootOutputInstance_IControl_1<TRealtime>*> &&
              ::cordl_internals::value_type_constraint<TControl> && ::cordl_internals::default_constructor_constraint<TControl>)
-  inline ::UnityEngine::Audio::RootOutputInstance AllocateRootOutput(/* [IsReadOnly] */ ::by_ref<TRealtime> realtimeState, /* [IsReadOnly] */ ::by_ref<TControl> controlState,
-                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorInstance_CreationParameters> creationParameters);
+  inline ::UnityEngine::Audio::RootOutputInstance AllocateRootOutput(/* [IsReadOnly] */ ::by_ref<TRealtime const> realtimeState, /* [IsReadOnly] */ ::by_ref<TControl const> controlState,
+                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorInstance_CreationParameters const> creationParameters);
 
   /// [RequiredByNativeCode(GenerateProxy = true)]
   /// @brief Method CleanupHeader, addr 0x6eab050, size 0x28, virtual false, abstract: false, final false
   static inline void CleanupHeader(::by_ref<::UnityEngine::Audio::ControlHeader> header);
 
   /// @brief Method Configure, addr 0x6eaaa14, size 0x68, virtual false, abstract: false, final false
-  inline void Configure(::UnityEngine::Audio::GeneratorInstance generatorInstance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat> format);
+  inline void Configure(::UnityEngine::Audio::GeneratorInstance generatorInstance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> format);
 
   /// @brief Method CreateManualControlContext, addr 0x6eaac78, size 0xc4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Audio::ControlContext_Manual CreateManualControlContext(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat> format);
+  static inline ::UnityEngine::Audio::ControlContext_Manual CreateManualControlContext(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> format);
 
   /// @brief Method Destroy, addr 0x6eaa8cc, size 0x2c, virtual false, abstract: false, final false
   inline void Destroy(::UnityEngine::Audio::GeneratorInstance generatorInstance);
@@ -194,7 +194,7 @@ public:
   static inline void InternalSetConfigurationManualControlContext(void* header, ::UnityEngine::AudioConfiguration config);
 
   /// @brief Method InternalSetConfigurationManualControlContext_Injected, addr 0x6eab230, size 0x44, virtual false, abstract: false, final false
-  static inline void InternalSetConfigurationManualControlContext_Injected(void* header, ::by_ref<::UnityEngine::AudioConfiguration> config);
+  static inline void InternalSetConfigurationManualControlContext_Injected(void* header, ::by_ref<::UnityEngine::AudioConfiguration const> config);
 
   /// [NativeMethod(Name = "audio::UpdateManualControlContext", IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method InternalUpdateManualControlContext, addr 0x6eab1f4, size 0x3c, virtual false, abstract: false, final false
@@ -224,7 +224,7 @@ public:
   /// @brief Method SendData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  inline void SendData(::UnityEngine::Audio::ProcessorInstance processorInstance, /* [IsReadOnly] */ ::by_ref<T> data);
+  inline void SendData(::UnityEngine::Audio::ProcessorInstance processorInstance, /* [IsReadOnly] */ ::by_ref<T const> data);
 
   /// @brief Method SendManagedMessage, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
@@ -316,13 +316,13 @@ public:
   inline void EndMix(::UnityEngine::Audio::ChannelBuffer result);
 
   /// @brief Method SetConfiguration, addr 0x6eab424, size 0x5c, virtual false, abstract: false, final false
-  inline void SetConfiguration(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat> format);
+  inline void SetConfiguration(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> format);
 
   /// @brief Method Update, addr 0x6eab3e8, size 0x3c, virtual false, abstract: false, final false
   inline void Update();
 
   /// @brief Method .ctor, addr 0x6eaada8, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ControlContext> context);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ControlContext const> context);
 
   /// @brief Method get_context, addr 0x6eab2ac, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::ControlContext get_context();

@@ -561,7 +561,7 @@ public:
   inline void HandleMultiplayerSessionManagerPlayerStateChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
   /// @brief Method ILobbyPlayersDataModel.SetLocalPlayerBeatmapLevel, addr 0x39c4f4c, size 0x4, virtual true, abstract: false, final true
-  inline void ILobbyPlayersDataModel_SetLocalPlayerBeatmapLevel(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void ILobbyPlayersDataModel_SetLocalPlayerBeatmapLevel(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   static inline ::GlobalNamespace::LobbyPlayersDataModel* New_ctor();
 
@@ -572,7 +572,7 @@ public:
   inline void RequestKickPlayer(::StringW userId);
 
   /// @brief Method SetLocalPlayerBeatmapLevel, addr 0x39c1a88, size 0x15c, virtual false, abstract: false, final false
-  inline void SetLocalPlayerBeatmapLevel(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SetLocalPlayerBeatmapLevel(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   /// @brief Method SetLocalPlayerGameplayModifiers, addr 0x39c1cb4, size 0x13c, virtual true, abstract: false, final true
   inline void SetLocalPlayerGameplayModifiers(::GlobalNamespace::GameplayModifiers* modifiers);
@@ -600,7 +600,7 @@ public:
   inline void SetOwnedSongPacks();
 
   /// @brief Method SetPlayerBeatmapLevel, addr 0x39c16c8, size 0xb0, virtual false, abstract: false, final false
-  inline void SetPlayerBeatmapLevel(::StringW userId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SetPlayerBeatmapLevel(::StringW userId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   /// @brief Method SetPlayerGameplayModifiers, addr 0x39c1794, size 0x88, virtual false, abstract: false, final false
   inline void SetPlayerGameplayModifiers(::StringW userId, ::GlobalNamespace::GameplayModifiers* modifiers);

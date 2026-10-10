@@ -525,7 +525,7 @@ public:
   static inline ::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor* New_ctor(::UnityEngine::UIElements::DefaultEventSystem* eventSystem);
 
   /// @brief Method OnEvent, addr 0x723c890, size 0xb8, virtual false, abstract: false, final false
-  inline bool OnEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev);
+  inline bool OnEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event const> ev);
 
   /// @brief Method ProcessCommandEvent, addr 0x723ddd8, size 0x90, virtual false, abstract: false, final false
   inline void ProcessCommandEvent(::UnityEngine::InputForUI::CommandEvent commandEvent);

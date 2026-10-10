@@ -266,7 +266,7 @@ public:
   static inline ::System::IntPtr CreateStencilState(::UnityEngine::Rendering::StencilState stencilState);
 
   /// @brief Method CreateStencilState_Injected, addr 0x715f8c0, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr CreateStencilState_Injected(::by_ref<::UnityEngine::Rendering::StencilState> stencilState);
+  static inline ::System::IntPtr CreateStencilState_Injected(::by_ref<::UnityEngine::Rendering::StencilState const> stencilState);
 
   /// [ThreadSafe]
   /// @brief Method DisableScissor, addr 0x715f810, size 0x28, virtual false, abstract: false, final false
@@ -352,7 +352,7 @@ public:
   static inline void SetScissorRect(::UnityEngine::RectInt scissorRect);
 
   /// @brief Method SetScissorRect_Injected, addr 0x715f7d4, size 0x3c, virtual false, abstract: false, final false
-  static inline void SetScissorRect_Injected(::by_ref<::UnityEngine::RectInt> scissorRect);
+  static inline void SetScissorRect_Injected(::by_ref<::UnityEngine::RectInt const> scissorRect);
 
   /// [ThreadSafe]
   /// @brief Method SetStencilState, addr 0x715f8fc, size 0x44, virtual false, abstract: false, final false

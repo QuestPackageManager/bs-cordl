@@ -166,8 +166,7 @@ class CORDL_TYPE UnsafeNativeMethods_EtwEnableCallback : public ::System::Multic
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x65b2920, size 0x18, virtual true, abstract: false, final false
-  inline void Invoke(::by_ref<::System::Guid> sourceId, ::ByRefConst<int32_t> isEnabled, ::ByRefConst<uint8_t> level, ::ByRefConst<int64_t> matchAnyKeywords, ::ByRefConst<int64_t> matchAllKeywords,
-                     ::ByRefConst<void*> filterData, ::ByRefConst<void*> callbackContext);
+  inline void Invoke(::by_ref<::System::Guid const> sourceId, int32_t isEnabled, uint8_t level, int64_t matchAnyKeywords, int64_t matchAllKeywords, void* filterData, void* callbackContext);
 
   static inline ::System::Runtime::Interop::UnsafeNativeMethods_EtwEnableCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -209,21 +208,21 @@ public:
   using EventData = ::System::Runtime::Interop::UnsafeNativeMethods_EventData;
 
   /// @brief Method EventActivityIdControl, addr 0x65b26e0, size 0x84, virtual false, abstract: false, final false
-  static inline uint32_t EventActivityIdControl(::ByRefConst<int32_t> ControlCode, ::by_ref<::System::Guid> ActivityId);
+  static inline uint32_t EventActivityIdControl(int32_t ControlCode, ::by_ref<::System::Guid> ActivityId);
 
   /// @brief Method EventEnabled, addr 0x65b25b4, size 0x8c, virtual false, abstract: false, final false
-  static inline bool EventEnabled(::ByRefConst<int64_t> registrationHandle, ::by_ref<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor);
+  static inline bool EventEnabled(int64_t registrationHandle, ::by_ref<::System::Runtime::Diagnostics::EventDescriptor const> eventDescriptor);
 
   /// @brief Method EventRegister, addr 0x65b248c, size 0xa8, virtual false, abstract: false, final false
-  static inline uint32_t EventRegister(::by_ref<::System::Guid> providerId, ::ByRefConst<::System::Runtime::Interop::UnsafeNativeMethods_EtwEnableCallback*> enableCallback,
-                                       ::ByRefConst<void*> callbackContext, ::by_ref<int64_t> registrationHandle);
+  static inline uint32_t EventRegister(::by_ref<::System::Guid const> providerId, ::System::Runtime::Interop::UnsafeNativeMethods_EtwEnableCallback* enableCallback, void* callbackContext,
+                                       ::by_ref<int64_t> registrationHandle);
 
   /// @brief Method EventUnregister, addr 0x65b2534, size 0x80, virtual false, abstract: false, final false
-  static inline uint32_t EventUnregister(::ByRefConst<int64_t> registrationHandle);
+  static inline uint32_t EventUnregister(int64_t registrationHandle);
 
   /// @brief Method EventWrite, addr 0x65b2640, size 0xa0, virtual false, abstract: false, final false
-  static inline uint32_t EventWrite(::ByRefConst<int64_t> registrationHandle, ::by_ref<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor, ::ByRefConst<uint32_t> userDataCount,
-                                    ::ByRefConst<::System::Runtime::Interop::UnsafeNativeMethods_EventData*> userData);
+  static inline uint32_t EventWrite(int64_t registrationHandle, ::by_ref<::System::Runtime::Diagnostics::EventDescriptor const> eventDescriptor, uint32_t userDataCount,
+                                    ::System::Runtime::Interop::UnsafeNativeMethods_EventData* userData);
 
   /// @brief Method RegisterEventSource, addr 0x65b22e0, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Runtime::Interop::SafeEventLogWriteHandle* RegisterEventSource(::StringW uncServerName, ::StringW sourceName);

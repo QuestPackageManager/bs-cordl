@@ -288,7 +288,7 @@ public:
   static inline ::UnityEngine::Vector2 GetPivotAsPercent(::UnityEngine::UIElements::Pivot origin);
 
   /// @brief Method IsValidBounds, addr 0x724b324, size 0x34, virtual false, abstract: false, final false
-  static inline bool IsValidBounds(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> b);
+  static inline bool IsValidBounds(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> b);
 
   /// @brief Method LateUpdate, addr 0x724a138, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();

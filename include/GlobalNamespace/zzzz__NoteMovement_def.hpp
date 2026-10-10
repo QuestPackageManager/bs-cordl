@@ -143,7 +143,7 @@ public:
   inline void HandleNoteJumpNoteJumpDidPassHalf();
 
   /// @brief Method Init, addr 0x5cea8d8, size 0x188, virtual false, abstract: false, final false
-  inline void Init(float_t noteTime, float_t worldRotation, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t flipYSide, float_t endRotation,
+  inline void Init(float_t noteTime, float_t worldRotation, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData const> noteSpawnData, float_t flipYSide, float_t endRotation,
                    bool rotateTowardsPlayer, bool useRandomRotation);
 
   /// @brief Method ManualUpdate, addr 0x5cea288, size 0xec, virtual false, abstract: false, final false

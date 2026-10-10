@@ -66,13 +66,13 @@ public:
   static inline ::UnityEngine::UIElements::Binding* New_ctor();
 
   /// @brief Method OnActivated, addr 0x708634c, size 0x4, virtual true, abstract: false, final false
-  inline void OnActivated(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingActivationContext> context);
+  inline void OnActivated(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingActivationContext const> context);
 
   /// @brief Method OnDataSourceChanged, addr 0x7086354, size 0x4, virtual true, abstract: false, final false
-  inline void OnDataSourceChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataSourceContextChanged> context);
+  inline void OnDataSourceChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataSourceContextChanged const> context);
 
   /// @brief Method OnDeactivated, addr 0x7086350, size 0x4, virtual true, abstract: false, final false
-  inline void OnDeactivated(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingActivationContext> context);
+  inline void OnDeactivated(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingActivationContext const> context);
 
   /// @brief Method ResetPanelLogLevel, addr 0x708627c, size 0x90, virtual false, abstract: false, final false
   static inline void ResetPanelLogLevel(::UnityEngine::UIElements::IPanel* panel);

@@ -207,13 +207,13 @@ public:
   static inline void set_ambientEquatorColor(::UnityEngine::Color value);
 
   /// @brief Method set_ambientEquatorColor_Injected, addr 0x6ee4dac, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_ambientEquatorColor_Injected(::by_ref<::UnityEngine::Color> value);
+  static inline void set_ambientEquatorColor_Injected(::by_ref<::UnityEngine::Color const> value);
 
   /// @brief Method set_ambientGroundColor, addr 0x6ee4e6c, size 0x44, virtual false, abstract: false, final false
   static inline void set_ambientGroundColor(::UnityEngine::Color value);
 
   /// @brief Method set_ambientGroundColor_Injected, addr 0x6ee4eb0, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_ambientGroundColor_Injected(::by_ref<::UnityEngine::Color> value);
+  static inline void set_ambientGroundColor_Injected(::by_ref<::UnityEngine::Color const> value);
 
   /// @brief Method set_ambientIntensity, addr 0x6ee4800, size 0x38, virtual false, abstract: false, final false
   static inline void set_ambientIntensity(float_t value);
@@ -222,7 +222,7 @@ public:
   static inline void set_ambientLight(::UnityEngine::Color value);
 
   /// @brief Method set_ambientLight_Injected, addr 0x6ee4fb4, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_ambientLight_Injected(::by_ref<::UnityEngine::Color> value);
+  static inline void set_ambientLight_Injected(::by_ref<::UnityEngine::Color const> value);
 
   /// @brief Method set_ambientMode, addr 0x6ee4ba4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_ambientMode(::UnityEngine::Rendering::AmbientMode value);
@@ -231,13 +231,13 @@ public:
   static inline void set_ambientProbe(::UnityEngine::Rendering::SphericalHarmonicsL2 value);
 
   /// @brief Method set_ambientProbe_Injected, addr 0x6ee55c8, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_ambientProbe_Injected(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> value);
+  static inline void set_ambientProbe_Injected(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2 const> value);
 
   /// @brief Method set_ambientSkyColor, addr 0x6ee4c64, size 0x44, virtual false, abstract: false, final false
   static inline void set_ambientSkyColor(::UnityEngine::Color value);
 
   /// @brief Method set_ambientSkyColor_Injected, addr 0x6ee4ca8, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_ambientSkyColor_Injected(::by_ref<::UnityEngine::Color> value);
+  static inline void set_ambientSkyColor_Injected(::by_ref<::UnityEngine::Color const> value);
 
   /// @brief Method set_ambientSkyboxAmount, addr 0x6ee47c8, size 0x38, virtual false, abstract: false, final false
   static inline void set_ambientSkyboxAmount(float_t value);
@@ -272,7 +272,7 @@ public:
   static inline void set_fogColor(::UnityEngine::Color value);
 
   /// @brief Method set_fogColor_Injected, addr 0x6ee4ae0, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_fogColor_Injected(::by_ref<::UnityEngine::Color> value);
+  static inline void set_fogColor_Injected(::by_ref<::UnityEngine::Color const> value);
 
   /// @brief Method set_fogDensity, addr 0x6ee4b44, size 0x38, virtual false, abstract: false, final false
   static inline void set_fogDensity(float_t value);
@@ -317,7 +317,7 @@ public:
   static inline void set_subtractiveShadowColor(::UnityEngine::Color value);
 
   /// @brief Method set_subtractiveShadowColor_Injected, addr 0x6ee50b8, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_subtractiveShadowColor_Injected(::by_ref<::UnityEngine::Color> value);
+  static inline void set_subtractiveShadowColor_Injected(::by_ref<::UnityEngine::Color const> value);
 
   /// @brief Method set_sun, addr 0x6ee5428, size 0x80, virtual false, abstract: false, final false
   static inline void set_sun(::UnityEngine::Light* value);

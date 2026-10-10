@@ -120,7 +120,7 @@ public:
   inline int32_t AddKey_Internal(::UnityEngine::Keyframe key);
 
   /// @brief Method AddKey_Internal_Injected, addr 0x6eb83a8, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t AddKey_Internal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Keyframe> key);
+  static inline int32_t AddKey_Internal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Keyframe const> key);
 
   /// [FreeFunction("AnimationCurveBindings::ClearKeys", HasExplicitThis = true, IsThreadSafe = true)]
   /// @brief Method ClearKeys, addr 0x6eb84a8, size 0x50, virtual false, abstract: false, final false
@@ -200,7 +200,7 @@ public:
   inline int32_t MoveKey(int32_t index, ::UnityEngine::Keyframe key);
 
   /// @brief Method MoveKey_Injected, addr 0x6eb8454, size 0x54, virtual false, abstract: false, final false
-  static inline int32_t MoveKey_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Keyframe> key);
+  static inline int32_t MoveKey_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Keyframe const> key);
 
   /// @brief [RequiredByNativeCode]
   static inline ::UnityEngine::AnimationCurve* New_ctor();

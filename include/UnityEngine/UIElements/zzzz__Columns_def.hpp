@@ -592,7 +592,7 @@ public:
   inline void NotifyChange(::UnityEngine::UIElements::ColumnsDataType type);
 
   /// @brief Method NotifyPropertyChanged, addr 0x71e9df0, size 0x4c, virtual false, abstract: false, final false
-  inline void NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property);
+  inline void NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> property);
 
   /// @brief Method OnColumnChanged, addr 0x71eb9d8, size 0x58, virtual false, abstract: false, final false
   inline void OnColumnChanged(::UnityEngine::UIElements::Column* column, ::UnityEngine::UIElements::ColumnDataType type);

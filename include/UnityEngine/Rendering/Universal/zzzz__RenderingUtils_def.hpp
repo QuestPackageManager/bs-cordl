@@ -236,12 +236,13 @@ public:
                                                                                 ::UnityEngine::Rendering::SortingCriteria sortingCriteria);
 
   /// @brief Method CreateRTHandleAllocInfo, addr 0x6cf0d1c, size 0x94, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RTHandleAllocInfo CreateRTHandleAllocInfo(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
+  static inline ::UnityEngine::Rendering::RTHandleAllocInfo CreateRTHandleAllocInfo(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor const> descriptor,
                                                                                     ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, int32_t anisoLevel,
                                                                                     float_t mipMapBias, ::StringW name);
 
   /// @brief Method CreateRTHandleAllocInfo, addr 0x6cf0db0, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RTHandleAllocInfo CreateRTHandleAllocInfo(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> descriptor, ::StringW name);
+  static inline ::UnityEngine::Rendering::RTHandleAllocInfo CreateRTHandleAllocInfo(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> descriptor,
+                                                                                    ::StringW name);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
@@ -288,9 +289,9 @@ public:
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier GetCameraTargetIdentifier(::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
   /// @brief Method GetFinalBlitScaleBias, addr 0x6cda054, size 0x164, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector4 GetFinalBlitScaleBias(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext> renderGraphContext,
-                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
+  static inline ::UnityEngine::Vector4 GetFinalBlitScaleBias(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext const> renderGraphContext,
+                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination);
 
   /// @brief Method GetLastValidColorBufferIndex, addr 0x6ced85c, size 0x124, virtual false, abstract: false, final false
   static inline int32_t GetLastValidColorBufferIndex(::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorBuffers);
@@ -305,8 +306,8 @@ public:
   static inline int32_t IndexOf(::ArrayW<::UnityEngine::Rendering::RTHandle*> source, ::UnityEngine::Rendering::RenderTargetIdentifier value);
 
   /// @brief Method IsHandleYFlipped, addr 0x6cf0ca4, size 0x78, virtual false, abstract: false, final false
-  static inline bool IsHandleYFlipped(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext> renderGraphContext,
-                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> textureHandle);
+  static inline bool IsHandleYFlipped(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext const> renderGraphContext,
+                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> textureHandle);
 
   /// @brief Method IsMRT, addr 0x6cedaa4, size 0x64, virtual false, abstract: false, final false
   static inline bool IsMRT(::ArrayW<::UnityEngine::Rendering::RTHandle*> colorBuffers);
@@ -318,41 +319,42 @@ public:
   static inline bool MultisampleDepthResolveSupported();
 
   /// @brief Method RTHandleNeedsReAlloc, addr 0x6cee3e4, size 0x2e8, virtual false, abstract: false, final false
-  static inline bool RTHandleNeedsReAlloc(::UnityEngine::Rendering::RTHandle* handle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> descriptor, bool scaled);
+  static inline bool RTHandleNeedsReAlloc(::UnityEngine::Rendering::RTHandle* handle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> descriptor,
+                                          bool scaled);
 
   /// @brief Method ReAllocateHandleIfNeeded, addr 0x6cef898, size 0x350, virtual false, abstract: false, final false
   static inline bool ReAllocateHandleIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle, ::UnityEngine::Rendering::RenderGraphModule::TextureDesc descriptor, ::StringW name);
 
   /// @brief Method ReAllocateHandleIfNeeded, addr 0x6cef480, size 0x418, virtual false, abstract: false, final false
-  static inline bool ReAllocateHandleIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
+  static inline bool ReAllocateHandleIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor const> descriptor,
                                               ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
 
   /// @brief Method ReAllocateHandleIfNeeded, addr 0x6cefbe8, size 0x474, virtual false, abstract: false, final false
   static inline bool ReAllocateHandleIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle, ::UnityEngine::Vector2 scaleFactor,
-                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
+                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor const> descriptor, ::UnityEngine::FilterMode filterMode,
                                               ::UnityEngine::TextureWrapMode wrapMode, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
 
   /// @brief Method ReAllocateHandleIfNeeded, addr 0x6cf005c, size 0x494, virtual false, abstract: false, final false
   static inline bool ReAllocateHandleIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle, ::UnityEngine::Rendering::ScaleFunc* scaleFunc,
-                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
+                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor const> descriptor, ::UnityEngine::FilterMode filterMode,
                                               ::UnityEngine::TextureWrapMode wrapMode, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
 
   /// [Obsolete("This method will be removed in a future release. Please use ReAllocateHandleIfNeeded instead. #from(2023.3)")]
   /// @brief Method ReAllocateIfNeeded, addr 0x6cee8b8, size 0x33c, virtual false, abstract: false, final false
-  static inline bool ReAllocateIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
+  static inline bool ReAllocateIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor const> descriptor,
                                         ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
 
   /// [Obsolete("This method will be removed in a future release. Please use ReAllocateHandleIfNeeded instead. #from(2023.3)")]
   /// @brief Method ReAllocateIfNeeded, addr 0x6ceece0, size 0x3b4, virtual false, abstract: false, final false
   static inline bool ReAllocateIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle, ::UnityEngine::Vector2 scaleFactor,
-                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode,
-                                        bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
+                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor const> descriptor, ::UnityEngine::FilterMode filterMode,
+                                        ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
 
   /// [Obsolete("This method will be removed in a future release. Please use ReAllocateHandleIfNeeded instead. #from(2023.3)")]
   /// @brief Method ReAllocateIfNeeded, addr 0x6cef094, size 0x3ec, virtual false, abstract: false, final false
   static inline bool ReAllocateIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle, ::UnityEngine::Rendering::ScaleFunc* scaleFunc,
-                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode,
-                                        bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
+                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor const> descriptor, ::UnityEngine::FilterMode filterMode,
+                                        ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
 
   /// @brief Method SequenceEqual, addr 0x6cee08c, size 0x260, virtual false, abstract: false, final false
   static inline bool SequenceEqual(::ArrayW<::UnityEngine::Rendering::RTHandle*> left, ::ArrayW<::UnityEngine::Rendering::RTHandle*> right);
@@ -361,7 +363,7 @@ public:
   static inline bool SetMaxRTHandlePoolCapacity(int32_t capacity);
 
   /// @brief Method SetScaleBiasRt, addr 0x6cec204, size 0x1a0, virtual false, abstract: false, final false
-  static inline void SetScaleBiasRt(::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData,
+  static inline void SetScaleBiasRt(::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData* const> cameraData,
                                     ::UnityEngine::Rendering::RTHandle* rTHandle);
 
   /// @brief Method SetViewAndProjectionMatrices, addr 0x6cebe14, size 0x124, virtual false, abstract: false, final false

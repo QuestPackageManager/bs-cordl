@@ -1115,7 +1115,7 @@ public:
   inline ::UnityW<::UnityEngine::Material> CreateUnityMaterial(::GlobalNamespace::OVRMaterialData matData, bool loadMips);
 
   /// @brief Method DetectTextureQuality, addr 0x626b8b4, size 0xc0, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRTextureQualityFiltering DetectTextureQuality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Texture2D*> srcTexture);
+  static inline ::GlobalNamespace::OVRTextureQualityFiltering DetectTextureQuality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Texture2D* const> srcTexture);
 
   /// @brief Method FlipTriangleIndices, addr 0x626d1c8, size 0x70, virtual false, abstract: false, final false
   static inline void FlipTriangleIndices(::by_ref<::ArrayW<int32_t>> indices);

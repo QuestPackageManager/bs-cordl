@@ -64,15 +64,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::ReceiverSphereCuller.Create
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ReceiverSphereCuller (*)(::by_ref<::UnityEngine::Rendering::BatchCullingContext>, ::Unity::Collections::Allocator)>(
-    &::UnityEngine::Rendering::ReceiverSphereCuller::Create)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ReceiverSphereCuller (*)(::by_ref<::UnityEngine::Rendering::BatchCullingContext const>,
+                                                                                                          ::Unity::Collections::Allocator)>(&::UnityEngine::Rendering::ReceiverSphereCuller::Create)> {
   constexpr static std::size_t size = 0x230;
   constexpr static std::size_t addrs = 0x6c40e60;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverSphereCuller>(),
-                                                { "Create", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverSphereCuller>(),
+                                         { "Create", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext const>>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
     return ___internal_method;
   }
 };
@@ -98,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<uint32_t (*)(::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo>,
-                             ::Unity::Mathematics::float3x3, ::by_ref<::UnityEngine::Rendering::AABB>)>(&::UnityEngine::Rendering::ReceiverSphereCuller::ComputeSplitVisibilityMask)> {
+                             ::Unity::Mathematics::float3x3, ::by_ref<::UnityEngine::Rendering::AABB const>)>(&::UnityEngine::Rendering::ReceiverSphereCuller::ComputeSplitVisibilityMask)> {
   constexpr static std::size_t size = 0x28c;
   constexpr static std::size_t addrs = 0x6c411bc;
 
@@ -109,7 +110,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                {},
                                                                { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Plane>>(),
                                                                  ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo>>(),
-                                                                 ::i2c::type_of<::Unity::Mathematics::float3x3>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB>>() } })));
+                                                                 ::i2c::type_of<::Unity::Mathematics::float3x3>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB const>>() } })));
     return ___internal_method;
   }
 };
@@ -128,11 +129,12 @@ inline bool UnityEngine::Rendering::ReceiverSphereCuller::UseReceiverPlanes() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverSphereCuller>(), { "UseReceiverPlanes", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::ReceiverSphereCuller UnityEngine::Rendering::ReceiverSphereCuller::Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
+inline ::UnityEngine::Rendering::ReceiverSphereCuller UnityEngine::Rendering::ReceiverSphereCuller::Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cc,
                                                                                                            ::Unity::Collections::Allocator allocator) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverSphereCuller>(),
-                                              { "Create", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverSphereCuller>(),
+                                       { "Create", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext const>>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ReceiverSphereCuller>(nullptr, ___internal_method, cc, allocator);
 }
 inline float_t UnityEngine::Rendering::ReceiverSphereCuller::DistanceUntilCylinderFullyCrossesPlane(::Unity::Mathematics::float3 cylinderCenter, ::Unity::Mathematics::float3 cylinderDirection,
@@ -148,14 +150,14 @@ inline float_t UnityEngine::Rendering::ReceiverSphereCuller::DistanceUntilCylind
 inline uint32_t UnityEngine::Rendering::ReceiverSphereCuller::ComputeSplitVisibilityMask(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> lightFacingFrustumPlanes,
                                                                                          ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo> splitInfos,
                                                                                          ::Unity::Mathematics::float3x3 worldToLightSpaceRotation,
-                                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> bounds) {
+                                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB const> bounds) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverSphereCuller>(),
                                                            { "ComputeSplitVisibilityMask",
                                                              {},
                                                              { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Plane>>(),
                                                                ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo>>(),
-                                                               ::i2c::type_of<::Unity::Mathematics::float3x3>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB>>() } })));
+                                                               ::i2c::type_of<::Unity::Mathematics::float3x3>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB const>>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, lightFacingFrustumPlanes, splitInfos, worldToLightSpaceRotation, bounds);
 }
 // Ctor Parameters [CppParam { name: "splitInfos", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo>", modifiers: "", def_value: Some("{}"), comment:

@@ -259,8 +259,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings>, ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest>)>(
-    &::UnityEngine::Rendering::GPUResidentBatcher::InstanceOcclusionTest)> {
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings const>,
+    ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest>)>(&::UnityEngine::Rendering::GPUResidentBatcher::InstanceOcclusionTest)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6c41f4c;
 
@@ -269,7 +269,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                            { "InstanceOcclusionTest",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
-                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings>>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings const>>(),
                                                                                                ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest>>() } })));
     return ___internal_method;
   }
@@ -278,19 +278,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::OccluderParameters>, ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>)>(
-    &::UnityEngine::Rendering::GPUResidentBatcher::UpdateInstanceOccluders)> {
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::OccluderParameters const>,
+    ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>)>(&::UnityEngine::Rendering::GPUResidentBatcher::UpdateInstanceOccluders)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6c4247c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
-                                         { "UpdateInstanceOccluders",
-                                           {},
-                                           { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters>>(),
-                                             ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
+                                                                                           { "UpdateInstanceOccluders",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters const>>(),
+                                                                                               ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>() } })));
     return ___internal_method;
   }
 };
@@ -359,7 +358,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(
-    ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>*,
+    ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>*,
     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>*)>(&::UnityEngine::Rendering::GPUResidentBatcher::UpdateRendererInstancesAndBatches)> {
   constexpr static std::size_t size = 0x2a8;
   constexpr static std::size_t addrs = 0x6c425e4;
@@ -368,7 +367,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
                                                                                            { "UpdateRendererInstancesAndBatches",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>>(),
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>>(),
                                                                                                ::i2c::type_of<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>*>(),
                                                                                                ::i2c::type_of<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>*>() } })));
     return ___internal_method;
@@ -378,7 +377,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(
-    ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>*,
+    ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>*,
     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>*)>(&::UnityEngine::Rendering::GPUResidentBatcher::UpdateRendererBatches)> {
   constexpr static std::size_t size = 0x140;
   constexpr static std::size_t addrs = 0x6c4288c;
@@ -387,7 +386,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
                                                                                            { "UpdateRendererBatches",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>>(),
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>>(),
                                                                                                ::i2c::type_of<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>*>(),
                                                                                                ::i2c::type_of<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>*>() } })));
     return ___internal_method;
@@ -566,26 +565,26 @@ inline void UnityEngine::Rendering::GPUResidentBatcher::FreeRendererGroupInstanc
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rendererGroupIDs);
 }
 inline void UnityEngine::Rendering::GPUResidentBatcher::InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
+                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings const> settings,
                                                                               ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest> subviewOcclusionTests) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
-                                       { "InstanceOcclusionTest",
-                                         {},
-                                         { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings>>(),
-                                           ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
+                                                                                         { "InstanceOcclusionTest",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
+                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings const>>(),
+                                                                                             ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, settings, subviewOcclusionTests);
 }
 inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters const> occluderParams,
                                                                                 ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
-                                              { "UpdateInstanceOccluders",
-                                                {},
-                                                { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters>>(),
-                                                  ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
+                                       { "UpdateInstanceOccluders",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters const>>(),
+                                           ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, occluderParams, occluderSubviewUpdates);
 }
 inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateRenderers(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> renderersID, bool materialUpdateOnly) {
@@ -615,24 +614,24 @@ inline void UnityEngine::Rendering::GPUResidentBatcher::OnSetupAmbientProbe() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "OnSetupAmbientProbe", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateRendererInstancesAndBatches(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateRendererInstancesAndBatches(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
                                                                                           ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                                                           ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
                                                                                          { "UpdateRendererInstancesAndBatches",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>>(),
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>>(),
                                                                                              ::i2c::type_of<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>*>(),
                                                                                              ::i2c::type_of<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rendererData, meshes, materials);
 }
-inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateRendererBatches(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateRendererBatches(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
                                                                               ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                                               ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
                                                                                          { "UpdateRendererBatches",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>>(),
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>>(),
                                                                                              ::i2c::type_of<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>*>(),
                                                                                              ::i2c::type_of<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rendererData, meshes, materials);

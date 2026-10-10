@@ -146,7 +146,7 @@ public:
   inline bool CompareTagHandle_Internal(::UnityEngine::TagHandle tag);
 
   /// @brief Method CompareTagHandle_Internal_Injected, addr 0x6f3d1d4, size 0x44, virtual false, abstract: false, final false
-  static inline bool CompareTagHandle_Internal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::TagHandle> tag);
+  static inline bool CompareTagHandle_Internal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::TagHandle const> tag);
 
   /// [FreeFunction(Name = "GameObjectBindings::CompareTag", HasExplicitThis = true)]
   /// @brief Method CompareTag_Internal, addr 0x6f3cf78, size 0x178, virtual false, abstract: false, final false
@@ -356,7 +356,7 @@ public:
   static inline ::UnityEngine::SceneManagement::Scene GetSceneInternal(::UnityEngine::EntityId entityId);
 
   /// @brief Method GetSceneInternal_Injected, addr 0x6f3e3c0, size 0x44, virtual false, abstract: false, final false
-  static inline void GetSceneInternal_Injected(::by_ref<::UnityEngine::EntityId> entityId, ::by_ref<::UnityEngine::SceneManagement::Scene> ret);
+  static inline void GetSceneInternal_Injected(::by_ref<::UnityEngine::EntityId const> entityId, ::by_ref<::UnityEngine::SceneManagement::Scene> ret);
 
   /// @brief Method InstantiateGameObjects, addr 0x6f3e17c, size 0x1f4, virtual false, abstract: false, final false
   static inline void InstantiateGameObjects(::UnityEngine::EntityId sourceEntityId, int32_t count, ::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> newEntityIds,
@@ -373,8 +373,8 @@ public:
                                             ::Unity::Collections::NativeArray_1<int32_t> newTransformInstanceIDs, ::UnityEngine::SceneManagement::Scene destinationScene);
 
   /// @brief Method InstantiateGameObjects_Injected, addr 0x6f3df68, size 0x6c, virtual false, abstract: false, final false
-  static inline void InstantiateGameObjects_Injected(::by_ref<::UnityEngine::EntityId> sourceInstanceID, ::System::IntPtr newInstanceIDs, ::System::IntPtr newTransformInstanceIDs, int32_t count,
-                                                     ::by_ref<::UnityEngine::SceneManagement::Scene> destinationScene);
+  static inline void InstantiateGameObjects_Injected(::by_ref<::UnityEngine::EntityId const> sourceInstanceID, ::System::IntPtr newInstanceIDs, ::System::IntPtr newTransformInstanceIDs, int32_t count,
+                                                     ::by_ref<::UnityEngine::SceneManagement::Scene const> destinationScene);
 
   /// [FreeFunction(Name = "MonoAddComponentWithType", HasExplicitThis = true)]
   /// @brief Method Internal_AddComponentWithType, addr 0x6f3bd3c, size 0x158, virtual false, abstract: false, final false

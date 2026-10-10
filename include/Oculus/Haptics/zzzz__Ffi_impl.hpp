@@ -294,17 +294,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Haptics::Ffi_Re
 //  Writing Method size for method: ::Oculus::Haptics::Ffi.initialize_with_ovr_plugin_bytes
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Haptics::Ffi_Result (*)(::ByRefConst<::ArrayW<uint8_t>>, ::ByRefConst<::ArrayW<uint8_t>>, ::ByRefConst<::ArrayW<uint8_t>>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Haptics::Ffi_Result (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Oculus::Haptics::Ffi::initialize_with_ovr_plugin_bytes)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x61ccb10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::Ffi*>(), { "initialize_with_ovr_plugin_bytes",
-                                                                                              {},
-                                                                                              { ::i2c::type_of<::ByRefConst<::ArrayW<uint8_t>>>(), ::i2c::type_of<::ByRefConst<::ArrayW<uint8_t>>>(),
-                                                                                                ::i2c::type_of<::ByRefConst<::ArrayW<uint8_t>>>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::Ffi*>(),
+                            { "initialize_with_ovr_plugin_bytes", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>() } })));
     return ___internal_method;
   }
 };
@@ -409,14 +408,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Haptics::Ffi_Re
 //  Writing Method size for method: ::Oculus::Haptics::Ffi.load_clip_bytes
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Haptics::Ffi_Result (*)(::ByRefConst<::ArrayW<uint8_t>>, uint32_t, ::by_ref<int32_t>)>(&::Oculus::Haptics::Ffi::load_clip_bytes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Haptics::Ffi_Result (*)(::ArrayW<uint8_t>, uint32_t, ::by_ref<int32_t>)>(&::Oculus::Haptics::Ffi::load_clip_bytes)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x61ccd64;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::Ffi*>(),
-                                                { "load_clip_bytes", {}, { ::i2c::type_of<::ByRefConst<::ArrayW<uint8_t>>>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::Ffi*>(),
+                                                             { "load_clip_bytes", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
     return ___internal_method;
   }
 };
@@ -712,13 +711,12 @@ inline ::Oculus::Haptics::Ffi_Result Oculus::Haptics::Ffi::initialize_with_callb
                                               { "initialize_with_callback_backend", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::Oculus::Haptics::Ffi_HapticsSdkPlayCallback*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Haptics::Ffi_Result>(nullptr, ___internal_method, context, playCallback);
 }
-inline ::Oculus::Haptics::Ffi_Result Oculus::Haptics::Ffi::initialize_with_ovr_plugin_bytes(::ByRefConst<::ArrayW<uint8_t>> game_engine_name, ::ByRefConst<::ArrayW<uint8_t>> game_engine_version,
-                                                                                            ::ByRefConst<::ArrayW<uint8_t>> game_engine_haptics_sdk_version) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::Ffi*>(), { "initialize_with_ovr_plugin_bytes",
-                                                                                            {},
-                                                                                            { ::i2c::type_of<::ByRefConst<::ArrayW<uint8_t>>>(), ::i2c::type_of<::ByRefConst<::ArrayW<uint8_t>>>(),
-                                                                                              ::i2c::type_of<::ByRefConst<::ArrayW<uint8_t>>>() } })));
+inline ::Oculus::Haptics::Ffi_Result Oculus::Haptics::Ffi::initialize_with_ovr_plugin_bytes(::ArrayW<uint8_t> game_engine_name, ::ArrayW<uint8_t> game_engine_version,
+                                                                                            ::ArrayW<uint8_t> game_engine_haptics_sdk_version) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::Ffi*>(),
+                                       { "initialize_with_ovr_plugin_bytes", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Haptics::Ffi_Result>(nullptr, ___internal_method, game_engine_name, game_engine_version, game_engine_haptics_sdk_version);
 }
 inline ::Oculus::Haptics::Ffi_Result Oculus::Haptics::Ffi::initialize_with_ovr_plugin(::StringW game_engine_name, ::StringW game_engine_version, ::StringW game_engine_haptics_sdk_version) {
@@ -755,10 +753,10 @@ inline ::Oculus::Haptics::Ffi_Result Oculus::Haptics::Ffi::set_suspended(bool su
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::Ffi*>(), { "set_suspended", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Haptics::Ffi_Result>(nullptr, ___internal_method, suspended);
 }
-inline ::Oculus::Haptics::Ffi_Result Oculus::Haptics::Ffi::load_clip_bytes(::ByRefConst<::ArrayW<uint8_t>> data, uint32_t data_length, ::by_ref<int32_t> clip_id_out) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::Ffi*>(),
-                                              { "load_clip_bytes", {}, { ::i2c::type_of<::ByRefConst<::ArrayW<uint8_t>>>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+inline ::Oculus::Haptics::Ffi_Result Oculus::Haptics::Ffi::load_clip_bytes(::ArrayW<uint8_t> data, uint32_t data_length, ::by_ref<int32_t> clip_id_out) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::Ffi*>(),
+                                                           { "load_clip_bytes", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Haptics::Ffi_Result>(nullptr, ___internal_method, data, data_length, clip_id_out);
 }
 inline ::Oculus::Haptics::Ffi_Result Oculus::Haptics::Ffi::load_clip(::StringW data, ::by_ref<int32_t> clip_id_out) {

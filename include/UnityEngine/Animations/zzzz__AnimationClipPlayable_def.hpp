@@ -62,7 +62,7 @@ public:
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::AnimationClip* clip, ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
 
   /// @brief Method CreateHandleInternal_Injected, addr 0x6e96278, size 0x54, virtual false, abstract: false, final false
-  static inline bool CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> graph, ::System::IntPtr clip, ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
+  static inline bool CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph const> graph, ::System::IntPtr clip, ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
 
   /// @brief Method Equals, addr 0x6e95fdc, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationClipPlayable other);

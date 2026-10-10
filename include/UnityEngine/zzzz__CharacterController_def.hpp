@@ -60,7 +60,7 @@ public:
   inline ::UnityEngine::CollisionFlags Move(::UnityEngine::Vector3 motion);
 
   /// @brief Method Move_Injected, addr 0x6fe7c6c, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::CollisionFlags Move_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> motion);
+  static inline ::UnityEngine::CollisionFlags Move_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> motion);
 
   static inline ::UnityEngine::CharacterController* New_ctor();
 
@@ -68,7 +68,7 @@ public:
   inline bool SimpleMove(::UnityEngine::Vector3 speed);
 
   /// @brief Method SimpleMove_Injected, addr 0x6fe7b90, size 0x44, virtual false, abstract: false, final false
-  static inline bool SimpleMove_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> speed);
+  static inline bool SimpleMove_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> speed);
 
   /// @brief Method .ctor, addr 0x6fe8e38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
@@ -156,7 +156,7 @@ public:
   inline void set_center(::UnityEngine::Vector3 value);
 
   /// @brief Method set_center_Injected, addr 0x6fe83b8, size 0x44, virtual false, abstract: false, final false
-  static inline void set_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_detectCollisions, addr 0x6fe8b18, size 0x90, virtual false, abstract: false, final false
   inline void set_detectCollisions(bool value);

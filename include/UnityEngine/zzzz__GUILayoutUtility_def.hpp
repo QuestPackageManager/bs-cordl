@@ -233,7 +233,7 @@ public:
   static inline void Internal_MoveWindow(int32_t windowID, ::UnityEngine::Rect r);
 
   /// @brief Method Internal_MoveWindow_Injected, addr 0x6fa3054, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_MoveWindow_Injected(int32_t windowID, ::by_ref<::UnityEngine::Rect> r);
+  static inline void Internal_MoveWindow_Injected(int32_t windowID, ::by_ref<::UnityEngine::Rect const> r);
 
   /// @brief Method Layout, addr 0x6fa0a50, size 0x278, virtual false, abstract: false, final false
   static inline void Layout();

@@ -217,8 +217,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DrawSkyboxPass::*)(
-    ::by_ref<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*>, ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*>,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>)>(&::UnityEngine::Rendering::Universal::DrawSkyboxPass::InitPassData)> {
+    ::by_ref<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*>, ::by_ref<::UnityEngine::Experimental::Rendering::XRPass* const>,
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const>)>(&::UnityEngine::Rendering::Universal::DrawSkyboxPass::InitPassData)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x6ca91a0;
 
@@ -227,8 +227,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                            { "InitPassData",
                                                                                              {},
                                                                                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*>>(),
-                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Experimental::Rendering::XRPass*>>(),
-                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>>() } })));
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Experimental::Rendering::XRPass* const>>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const>>() } })));
     return ___internal_method;
   }
 };
@@ -286,14 +286,14 @@ inline void UnityEngine::Rendering::Universal::DrawSkyboxPass::ExecutePass(::Uni
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, xr, rendererList);
 }
 inline void UnityEngine::Rendering::Universal::DrawSkyboxPass::InitPassData(::by_ref<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*> passData,
-                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*> xr,
-                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> handle) {
+                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Experimental::Rendering::XRPass* const> xr,
+                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const> handle) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawSkyboxPass*>(),
                                                                                          { "InitPassData",
                                                                                            {},
                                                                                            { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*>>(),
-                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Experimental::Rendering::XRPass*>>(),
-                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>>() } })));
+                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Experimental::Rendering::XRPass* const>>(),
+                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, passData, xr, handle);
 }
 inline void UnityEngine::Rendering::Universal::DrawSkyboxPass::Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,

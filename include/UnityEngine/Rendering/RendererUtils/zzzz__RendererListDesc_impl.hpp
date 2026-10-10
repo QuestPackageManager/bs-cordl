@@ -96,7 +96,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::RendererUtils::RendererListDesc.ConvertToParameters
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RendererListParams (*)(::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RendererListParams (*)(::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc const>)>(
     &::UnityEngine::Rendering::RendererUtils::RendererListDesc::ConvertToParameters)> {
   constexpr static std::size_t size = 0x750;
   constexpr static std::size_t addrs = 0x6f8bf00;
@@ -104,7 +104,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RendererUtils::RendererListDesc>(),
-                                                             { "ConvertToParameters", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc>>() } })));
+                                                             { "ConvertToParameters", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc const>>() } })));
     return ___internal_method;
   }
 };
@@ -142,10 +142,10 @@ inline bool UnityEngine::Rendering::RendererUtils::RendererListDesc::IsValid() {
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
 inline ::UnityEngine::Rendering::RendererListParams
-UnityEngine::Rendering::RendererUtils::RendererListDesc::ConvertToParameters(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc> desc) {
+UnityEngine::Rendering::RendererUtils::RendererListDesc::ConvertToParameters(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc const> desc) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RendererUtils::RendererListDesc>(),
-                                                           { "ConvertToParameters", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc>>() } })));
+                                                           { "ConvertToParameters", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RendererListParams>(nullptr, ___internal_method, desc);
 }
 // Ctor Parameters [CppParam { name: "sortingCriteria", ty: "::UnityEngine::Rendering::SortingCriteria", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:

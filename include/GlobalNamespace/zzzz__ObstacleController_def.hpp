@@ -482,7 +482,7 @@ public:
   inline void Hide(bool hide);
 
   /// @brief Method Init, addr 0x5cf0600, size 0x4a0, virtual true, abstract: false, final false
-  inline void Init(::GlobalNamespace::ObstacleData* obstacleData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
+  inline void Init(::GlobalNamespace::ObstacleData* obstacleData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData const> obstacleSpawnData);
 
   /// @brief Method InitGraphics, addr 0x5cf0aa0, size 0x110, virtual false, abstract: false, final false
   inline void InitGraphics(::BeatSaber::Settings::Settings settings);

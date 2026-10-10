@@ -140,7 +140,7 @@ public:
   inline void Release();
 
   /// @brief Method SetCustomHandleProperties, addr 0x6bc775c, size 0x20, virtual false, abstract: false, final false
-  inline void SetCustomHandleProperties(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandleProperties> properties);
+  inline void SetCustomHandleProperties(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandleProperties const> properties);
 
   /// @brief Method SetRenderTexture, addr 0x6bc78cc, size 0x4c, virtual false, abstract: false, final false
   inline void SetRenderTexture(::UnityEngine::RenderTexture* rt, bool transferOwnership);

@@ -206,8 +206,8 @@ public:
   inline void HiddenStateDidChange(bool hide);
 
   /// @brief Method Init, addr 0x5ce66f0, size 0x18c, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType,
-                   float_t uniformScale);
+  inline void Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData const> noteSpawnData,
+                   ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType, float_t uniformScale);
 
   /// @brief Method ManualUpdate, addr 0x5ce7068, size 0x24, virtual true, abstract: false, final false
   inline void ManualUpdate();

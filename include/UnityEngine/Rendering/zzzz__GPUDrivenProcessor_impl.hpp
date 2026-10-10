@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor___c::*)(
-    ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative>, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*,
+    ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative const>, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*,
     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*, ::UnityEngine::Rendering::GPUDrivenRendererDataCallback*)>(
     &::UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_0)> {
   constexpr static std::size_t size = 0x2b0;
@@ -67,7 +67,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor___c*>(),
                                                                                            { "<.cctor>b__34_0",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative>>(),
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative const>>(),
                                                                                                ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*>(),
                                                                                                ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenRendererDataCallback*>() } })));
@@ -77,18 +77,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor___c.__cctor_b__34_1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor___c::*)(
-    ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative>, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*)>(&::UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor___c::*)(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative const>,
+                                                                                                                  ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*)>(
+    &::UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_1)> {
   constexpr static std::size_t size = 0x15c;
   constexpr static std::size_t addrs = 0x6f8a148;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor___c*>(),
-                            { "<.cctor>b__34_1",
-                              {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor___c*>(),
+                                                                                           { "<.cctor>b__34_1",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative const>>(),
+                                                                                               ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>() } })));
     return ___internal_method;
   }
 };
@@ -103,27 +103,26 @@ inline void UnityEngine::Rendering::GPUDrivenProcessor___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_0(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative> nativeData,
+inline void UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_0(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative const> nativeData,
                                                                             ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                                             ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials,
                                                                             ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* callback) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor___c*>(),
                                                                                          { "<.cctor>b__34_0",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative>>(),
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative const>>(),
                                                                                              ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*>(),
                                                                                              ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenRendererDataCallback*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nativeData, meshes, materials, callback);
 }
-inline void UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_1(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative> nativeData,
+inline void UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_1(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative const> nativeData,
                                                                             ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* callback) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor___c*>(),
-                          { "<.cctor>b__34_1",
-                            {},
-                            { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor___c*>(),
+                                                                                         { "<.cctor>b__34_1",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative const>>(),
+                                                                                             ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nativeData, callback);
 }
 inline ::UnityEngine::Rendering::GPUDrivenProcessor___c* UnityEngine::Rendering::GPUDrivenProcessor___c::New_ctor() {

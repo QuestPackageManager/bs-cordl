@@ -44,10 +44,11 @@ template <typename DataType> inline void UnityEngine::Rendering::RenderGraphModu
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::FixedAttachmentArray_1<DataType>>(), { "Clear", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-template <typename DataType> inline int32_t UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::FixedAttachmentArray_1<DataType>::Add(/* [IsReadOnly] */ ::by_ref<DataType> data) {
+template <typename DataType>
+inline int32_t UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::FixedAttachmentArray_1<DataType>::Add(/* [IsReadOnly] */ ::by_ref<DataType const> data) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::FixedAttachmentArray_1<DataType>>(),
-                                                           { "Add", {}, { ::i2c::type_of<::by_ref<DataType>>() } })));
+                                                           { "Add", {}, { ::i2c::type_of<::by_ref<DataType const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, data);
 }
 template <typename DataType> inline ::by_ref<DataType> UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::FixedAttachmentArray_1<DataType>::get_Item(int32_t index) {

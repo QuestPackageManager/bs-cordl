@@ -3626,7 +3626,7 @@ public:
 
   /// @brief Method CalcBloomResolution, addr 0x6cc94e4, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int CalcBloomResolution(::UnityEngine::Rendering::Universal::Bloom* bloom,
-                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> bloomSourceDesc);
+                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> bloomSourceDesc);
 
   /// @brief Method CalcCropExtents, addr 0x6ccd7c4, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 CalcCropExtents(::UnityEngine::Camera* camera, float_t d, int32_t width, int32_t height);
@@ -3639,12 +3639,12 @@ public:
 
   /// @brief Method CreateCompatibleTexture, addr 0x6cc7238, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateCompatibleTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc,
+                                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> desc,
                                                                                                    ::StringW name, bool clear, ::UnityEngine::FilterMode filterMode);
 
   /// @brief Method CreateCompatibleTexture, addr 0x6cc7140, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateCompatibleTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                                                                                                    ::StringW name, bool clear, ::UnityEngine::FilterMode filterMode);
 
   /// @brief Method Dispose, addr 0x6cc6c14, size 0x14, virtual false, abstract: false, final false
@@ -3677,7 +3677,7 @@ public:
   /// @brief Method LensFlareDataDrivenComputeOcclusion, addr 0x6cce71c, size 0x5d4, virtual false, abstract: false, final false
   inline void LensFlareDataDrivenComputeOcclusion(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                                                   ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> srcDesc);
+                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> srcDesc);
 
   /// @brief Method MakeCompatible, addr 0x6cc7220, size 0x18, virtual false, abstract: false, final false
   static inline void MakeCompatible(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc);
@@ -3689,83 +3689,88 @@ public:
   inline void PrepareBokehKernel(float_t maxRadius, float_t rcpAspect);
 
   /// @brief Method RenderBloomTexture, addr 0x6cc96a0, size 0x9ac, virtual false, abstract: false, final false
-  inline void RenderBloomTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+  inline void RenderBloomTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                                  ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination, bool enableAlphaOutput);
 
   /// @brief Method RenderDoF, addr 0x6ccb19c, size 0x1cc, virtual false, abstract: false, final false
   inline void RenderDoF(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
-                        ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                        ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                         ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
 
   /// @brief Method RenderDoFBokeh, addr 0x6ccc10c, size 0xd2c, virtual false, abstract: false, final false
   inline void RenderDoFBokeh(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
-                             ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination, ::by_ref<::UnityEngine::Material*> dofMaterial);
+                             ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination, ::by_ref<::UnityEngine::Material*> dofMaterial);
 
   /// @brief Method RenderDoFGaussian, addr 0x6ccb368, size 0xda4, virtual false, abstract: false, final false
   inline void RenderDoFGaussian(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
-                                ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
+                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                                 ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::by_ref<::UnityEngine::Material*> dofMaterial);
 
   /// @brief Method RenderFinalBlit, addr 0x6cd0fe8, size 0x7d4, virtual false, abstract: false, final false
   inline void RenderFinalBlit(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
-                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> postProcessingTarget,
+                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> overlayUITexture,
+                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> postProcessingTarget,
                               ::by_ref<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph_FinalBlitSettings> settings);
 
   /// @brief Method RenderFinalFSRScale, addr 0x6cd0ad8, size 0x510, virtual false, abstract: false, final false
-  inline void RenderFinalFSRScale(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> srcDesc,
-                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
-                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> dstDesc, bool enableAlphaOutput);
+  inline void RenderFinalFSRScale(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> srcDesc,
+                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
+                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> dstDesc, bool enableAlphaOutput);
 
   /// @brief Method RenderFinalPassRenderGraph, addr 0x6cd17bc, size 0x86c, virtual false, abstract: false, final false
   inline void RenderFinalPassRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
-                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> postProcessingTarget, bool enableColorEncodingIfNeeded);
+                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> overlayUITexture,
+                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> postProcessingTarget, bool enableColorEncodingIfNeeded);
 
   /// @brief Method RenderFinalSetup, addr 0x6cd03b0, size 0x728, virtual false, abstract: false, final false
   inline void RenderFinalSetup(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
+                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
                                ::by_ref<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph_FinalBlitSettings> settings, bool isActiveTargetBackBuffer);
 
   /// @brief Method RenderLensFlareDataDriven, addr 0x6ccecf0, size 0x6a0, virtual false, abstract: false, final false
   inline void RenderLensFlareDataDriven(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                                         ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
-                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> srcDesc);
+                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
+                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> srcDesc);
 
   /// @brief Method RenderLensFlareScreenSpace, addr 0x6ccf5dc, size 0x798, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle RenderLensFlareScreenSpace(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Camera* camera,
-                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> srcDesc,
+                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> srcDesc,
                                                                                                ::UnityEngine::Rendering::RenderGraphModule::TextureHandle originalBloomTexture,
                                                                                                ::UnityEngine::Rendering::RenderGraphModule::TextureHandle screenSpaceLensFlareBloomMipTexture,
                                                                                                bool sameBloomInputOutputTex);
 
   /// @brief Method RenderMotionBlur, addr 0x6ccdce8, size 0x7ac, virtual false, abstract: false, final false
   inline void RenderMotionBlur(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
-                               ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                               ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
+                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                                ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
 
   /// @brief Method RenderPaniniProjection, addr 0x6ccd0ac, size 0x6c0, virtual false, abstract: false, final false
   inline void RenderPaniniProjection(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Camera* camera,
-                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                                      ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
 
   /// @brief Method RenderPostProcessingRenderGraph, addr 0x6cd305c, size 0x1124, virtual false, abstract: false, final false
   inline void RenderPostProcessingRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> activeCameraColorTexture,
-                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> lutTexture,
-                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
-                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> postProcessingTarget, bool hasFinalPass,
+                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> activeCameraColorTexture,
+                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> lutTexture,
+                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> overlayUITexture,
+                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> postProcessingTarget, bool hasFinalPass,
                                               bool resolveToDebugScreen, bool enableColorEndingIfNeeded);
 
   /// @brief Method RenderSMAA, addr 0x6cc7800, size 0x179c, virtual false, abstract: false, final false
   inline void RenderSMAA(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
-                         ::UnityEngine::Rendering::Universal::AntialiasingQuality antialiasingQuality, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                         ::UnityEngine::Rendering::Universal::AntialiasingQuality antialiasingQuality,
+                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                          ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> SMAATarget);
 
   /// @brief Method RenderSTP, addr 0x6ccd970, size 0x378, virtual false, abstract: false, final false
@@ -3775,7 +3780,7 @@ public:
 
   /// @brief Method RenderStopNaN, addr 0x6cc7374, size 0x48c, virtual false, abstract: false, final false
   inline void RenderStopNaN(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> activeCameraColor,
+                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> activeCameraColor,
                             ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> stopNaNTarget);
 
   /// @brief Method RenderTemporalAA, addr 0x6ccd85c, size 0x114, virtual false, abstract: false, final false
@@ -3786,11 +3791,11 @@ public:
   /// @brief Method RenderUberPost, addr 0x6cd2238, size 0xe24, virtual false, abstract: false, final false
   inline void RenderUberPost(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                              ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::Universal::UniversalPostProcessingData* postProcessingData,
-                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> sourceTexture,
-                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destTexture,
-                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> lutTexture,
-                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> bloomTexture,
-                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture, bool requireHDROutput, bool enableAlphaOutput);
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> sourceTexture,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destTexture,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> lutTexture,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> bloomTexture,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> overlayUITexture, bool requireHDROutput, bool enableAlphaOutput);
 
   /// @brief Method RequireHDROutput, addr 0x6cc6d88, size 0x38, virtual false, abstract: false, final false
   static inline bool RequireHDROutput(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
@@ -3803,15 +3808,15 @@ public:
                                    ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, bool isActiveTargetBackBuffer);
 
   /// @brief Method ScaleViewportAndBlit, addr 0x6ccffb4, size 0x178, virtual false, abstract: false, final false
-  static inline void ScaleViewportAndBlit(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext> context,
-                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
+  static inline void ScaleViewportAndBlit(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext const> context,
+                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
                                           ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Material* material, bool isActiveTargetBackBuffer);
 
   /// @brief Method ScaleViewportAndDrawVisibilityMesh, addr 0x6cd012c, size 0x284, virtual false, abstract: false, final false
-  static inline void ScaleViewportAndDrawVisibilityMesh(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext> context,
-                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
+  static inline void ScaleViewportAndDrawVisibilityMesh(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext const> context,
+                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
                                                         ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Material* material, bool isActiveTargetBackBuffer);
 
   /// @brief Method SetupChromaticAberration, addr 0x6cd4488, size 0x10c, virtual false, abstract: false, final false
@@ -3838,7 +3843,7 @@ public:
 
   /// @brief Method UberPostSetupBloomPass, addr 0x6cc8f9c, size 0x548, virtual false, abstract: false, final false
   inline void UberPostSetupBloomPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* rendergraph, ::UnityEngine::Material* uberMaterial,
-                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> srcDesc);
+                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> srcDesc);
 
   /// @brief Method UpdateCameraResolution, addr 0x6cc6dc0, size 0x380, virtual false, abstract: false, final false
   inline void UpdateCameraResolution(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,

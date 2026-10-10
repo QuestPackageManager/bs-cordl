@@ -831,28 +831,28 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Syste
 //  Writing Method size for method: ::System::Decimal_DecCalc.VarDecCmp
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::System::Decimal>, ::by_ref<::System::Decimal>)>(&::System::Decimal_DecCalc::VarDecCmp)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::System::Decimal const>, ::by_ref<::System::Decimal const>)>(&::System::Decimal_DecCalc::VarDecCmp)> {
   constexpr static std::size_t size = 0x148;
   constexpr static std::size_t addrs = 0x60bc638;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarDecCmp", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>(), ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(),
+                                                             { "VarDecCmp", {}, { ::i2c::type_of<::by_ref<::System::Decimal const>>(), ::i2c::type_of<::by_ref<::System::Decimal const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Decimal_DecCalc.VarDecCmpSub
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::System::Decimal>, ::by_ref<::System::Decimal>)>(&::System::Decimal_DecCalc::VarDecCmpSub)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::System::Decimal const>, ::by_ref<::System::Decimal const>)>(&::System::Decimal_DecCalc::VarDecCmpSub)> {
   constexpr static std::size_t size = 0x1d4;
   constexpr static std::size_t addrs = 0x60c2164;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarDecCmpSub", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>(), ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(),
+                                                             { "VarDecCmpSub", {}, { ::i2c::type_of<::by_ref<::System::Decimal const>>(), ::i2c::type_of<::by_ref<::System::Decimal const>>() } })));
     return ___internal_method;
   }
 };
@@ -901,39 +901,39 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(double_t, ::by_r
 //  Writing Method size for method: ::System::Decimal_DecCalc.VarR4FromDec
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::System::Decimal>)>(&::System::Decimal_DecCalc::VarR4FromDec)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::System::Decimal const>)>(&::System::Decimal_DecCalc::VarR4FromDec)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x60bf654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarR4FromDec", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarR4FromDec", {}, { ::i2c::type_of<::by_ref<::System::Decimal const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Decimal_DecCalc.VarR8FromDec
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::by_ref<::System::Decimal>)>(&::System::Decimal_DecCalc::VarR8FromDec)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::by_ref<::System::Decimal const>)>(&::System::Decimal_DecCalc::VarR8FromDec)> {
   constexpr static std::size_t size = 0x110;
   constexpr static std::size_t addrs = 0x60befcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarR8FromDec", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarR8FromDec", {}, { ::i2c::type_of<::by_ref<::System::Decimal const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Decimal_DecCalc.GetHashCode
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::System::Decimal>)>(&::System::Decimal_DecCalc::GetHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::System::Decimal const>)>(&::System::Decimal_DecCalc::GetHashCode)> {
   constexpr static std::size_t size = 0x14c;
   constexpr static std::size_t addrs = 0x60bd3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "GetHashCode", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "GetHashCode", {}, { ::i2c::type_of<::by_ref<::System::Decimal const>>() } })));
     return ___internal_method;
   }
 };
@@ -1188,16 +1188,16 @@ inline void System::Decimal_DecCalc::DecAddSub(::by_ref<::System::Decimal_DecCal
                                        { "DecAddSub", {}, { ::i2c::type_of<::by_ref<::System::Decimal_DecCalc>>(), ::i2c::type_of<::by_ref<::System::Decimal_DecCalc>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, d1, d2, sign);
 }
-inline int32_t System::Decimal_DecCalc::VarDecCmp(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d1, /* [IsReadOnly] */ ::by_ref<::System::Decimal> d2) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarDecCmp", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>(), ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
+inline int32_t System::Decimal_DecCalc::VarDecCmp(/* [IsReadOnly] */ ::by_ref<::System::Decimal const> d1, /* [IsReadOnly] */ ::by_ref<::System::Decimal const> d2) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(),
+                                                           { "VarDecCmp", {}, { ::i2c::type_of<::by_ref<::System::Decimal const>>(), ::i2c::type_of<::by_ref<::System::Decimal const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, d1, d2);
 }
-inline int32_t System::Decimal_DecCalc::VarDecCmpSub(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d1, /* [IsReadOnly] */ ::by_ref<::System::Decimal> d2) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarDecCmpSub", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>(), ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
+inline int32_t System::Decimal_DecCalc::VarDecCmpSub(/* [IsReadOnly] */ ::by_ref<::System::Decimal const> d1, /* [IsReadOnly] */ ::by_ref<::System::Decimal const> d2) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(),
+                                                           { "VarDecCmpSub", {}, { ::i2c::type_of<::by_ref<::System::Decimal const>>(), ::i2c::type_of<::by_ref<::System::Decimal const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, d1, d2);
 }
 inline void System::Decimal_DecCalc::VarDecMul(::by_ref<::System::Decimal_DecCalc> d1, ::by_ref<::System::Decimal_DecCalc> d2) {
@@ -1218,19 +1218,19 @@ inline void System::Decimal_DecCalc::VarDecFromR8(double_t input, ::by_ref<::Sys
                    (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarDecFromR8", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<::by_ref<::System::Decimal_DecCalc>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, input, result);
 }
-inline float_t System::Decimal_DecCalc::VarR4FromDec(/* [IsReadOnly] */ ::by_ref<::System::Decimal> value) {
+inline float_t System::Decimal_DecCalc::VarR4FromDec(/* [IsReadOnly] */ ::by_ref<::System::Decimal const> value) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarR4FromDec", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarR4FromDec", {}, { ::i2c::type_of<::by_ref<::System::Decimal const>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, value);
 }
-inline double_t System::Decimal_DecCalc::VarR8FromDec(/* [IsReadOnly] */ ::by_ref<::System::Decimal> value) {
+inline double_t System::Decimal_DecCalc::VarR8FromDec(/* [IsReadOnly] */ ::by_ref<::System::Decimal const> value) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarR8FromDec", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarR8FromDec", {}, { ::i2c::type_of<::by_ref<::System::Decimal const>>() } })));
   return ::cordl_internals::RunMethodRethrow<double_t>(nullptr, ___internal_method, value);
 }
-inline int32_t System::Decimal_DecCalc::GetHashCode(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d) {
+inline int32_t System::Decimal_DecCalc::GetHashCode(/* [IsReadOnly] */ ::by_ref<::System::Decimal const> d) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "GetHashCode", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "GetHashCode", {}, { ::i2c::type_of<::by_ref<::System::Decimal const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, d);
 }
 inline void System::Decimal_DecCalc::VarDecDiv(::by_ref<::System::Decimal_DecCalc> d1, ::by_ref<::System::Decimal_DecCalc> d2) {
@@ -1489,13 +1489,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Decimal::
 //  Writing Method size for method: ::System::Decimal._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Decimal::*)(::by_ref<::System::Decimal>, int32_t)>(&::System::Decimal::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Decimal::*)(::by_ref<::System::Decimal const>, int32_t)>(&::System::Decimal::_ctor)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x60bbe00;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::System::Decimal const>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -2655,9 +2655,9 @@ inline void System::Decimal::System_Runtime_Serialization_IDeserializationCallba
       (::i2c::find_method(::i2c::class_of<::System::Decimal>(), { "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, sender);
 }
-inline void System::Decimal::_ctor(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d, int32_t flags) {
+inline void System::Decimal::_ctor(/* [IsReadOnly] */ ::by_ref<::System::Decimal const> d, int32_t flags) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>(), ::i2c::type_of<int32_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::System::Decimal const>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, d, flags);
 }
 inline ::System::Decimal System::Decimal::Abs(::by_ref<::System::Decimal> d) {

@@ -185,7 +185,7 @@ public:
   inline void OnRead(::System::IAsyncResult* base_ares);
 
   /// @brief Method Read, addr 0x6850f44, size 0x3c, virtual true, abstract: false, final false
-  inline int32_t Read(::by_ref<::ArrayW<uint8_t>> buffer, int32_t offset, int32_t count);
+  inline int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
   constexpr ::System::Net::HttpListenerContext* const& __cordl_internal_get_context() const;
 

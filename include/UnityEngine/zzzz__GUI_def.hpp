@@ -269,7 +269,7 @@ public:
   static inline void set_backgroundColor(::UnityEngine::Color value);
 
   /// @brief Method set_backgroundColor_Injected, addr 0x6f9e438, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_backgroundColor_Injected(::by_ref<::UnityEngine::Color> value);
+  static inline void set_backgroundColor_Injected(::by_ref<::UnityEngine::Color const> value);
 
   /// @brief Method set_changed, addr 0x6f9e628, size 0x3c, virtual false, abstract: false, final false
   static inline void set_changed(bool value);
@@ -278,13 +278,13 @@ public:
   static inline void set_color(::UnityEngine::Color value);
 
   /// @brief Method set_color_Injected, addr 0x6f9e2ac, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_color_Injected(::by_ref<::UnityEngine::Color> value);
+  static inline void set_color_Injected(::by_ref<::UnityEngine::Color const> value);
 
   /// @brief Method set_contentColor, addr 0x6f9e53c, size 0x88, virtual false, abstract: false, final false
   static inline void set_contentColor(::UnityEngine::Color value);
 
   /// @brief Method set_contentColor_Injected, addr 0x6f9e5c4, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_contentColor_Injected(::by_ref<::UnityEngine::Color> value);
+  static inline void set_contentColor_Injected(::by_ref<::UnityEngine::Color const> value);
 
   /// @brief Method set_enabled, addr 0x6f9e68c, size 0x3c, virtual false, abstract: false, final false
   static inline void set_enabled(bool value);

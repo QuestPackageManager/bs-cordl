@@ -205,17 +205,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::GUIClip.Internal_Push_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rect>, ::by_ref<::UnityEngine::Vector2>, ::by_ref<::UnityEngine::Vector2>, bool)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rect const>, ::by_ref<::UnityEngine::Vector2 const>, ::by_ref<::UnityEngine::Vector2 const>, bool)>(
     &::UnityEngine::GUIClip::Internal_Push_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6fa0de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIClip*>(), { "Internal_Push_Injected",
-                                                                                              {},
-                                                                                              { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(),
-                                                                                                ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<bool>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIClip*>(), { "Internal_Push_Injected",
+                                                                          {},
+                                                                          { ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(),
+                                                                            ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -235,31 +236,30 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::GUIClip.SetMatrix_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::GUIClip::SetMatrix_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4 const>)>(&::UnityEngine::GUIClip::SetMatrix_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fa0ea8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIClip*>(), { "SetMatrix_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIClip*>(), { "SetMatrix_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::GUIClip.Internal_PushParentClip_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Rect>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4 const>, ::by_ref<::UnityEngine::Matrix4x4 const>, ::by_ref<::UnityEngine::Rect const>)>(
     &::UnityEngine::GUIClip::Internal_PushParentClip_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6fa0f78;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIClip*>(),
-                            { "Internal_PushParentClip_Injected",
-                              {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIClip*>(), { "Internal_PushParentClip_Injected",
+                                                                                                                                         {},
+                                                                                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(),
+                                                                                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(),
+                                                                                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>() } })));
     return ___internal_method;
   }
 };
@@ -321,13 +321,14 @@ inline void UnityEngine::GUIClip::get_visibleRect_Injected(::by_ref<::UnityEngin
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIClip*>(), { "get_visibleRect_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::GUIClip::Internal_Push_Injected(::by_ref<::UnityEngine::Rect> screenRect, ::by_ref<::UnityEngine::Vector2> scrollOffset, ::by_ref<::UnityEngine::Vector2> renderOffset,
-                                                         bool resetOffset) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIClip*>(), { "Internal_Push_Injected",
-                                                                                            {},
-                                                                                            { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(),
-                                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<bool>() } })));
+inline void UnityEngine::GUIClip::Internal_Push_Injected(::by_ref<::UnityEngine::Rect const> screenRect, ::by_ref<::UnityEngine::Vector2 const> scrollOffset,
+                                                         ::by_ref<::UnityEngine::Vector2 const> renderOffset, bool resetOffset) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIClip*>(), { "Internal_Push_Injected",
+                                                                                     {},
+                                                                                     { ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(),
+                                                                                       ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, screenRect, scrollOffset, renderOffset, resetOffset);
 }
 inline void UnityEngine::GUIClip::GetMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4> ret) {
@@ -335,19 +336,18 @@ inline void UnityEngine::GUIClip::GetMatrix_Injected(::by_ref<::UnityEngine::Mat
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIClip*>(), { "GetMatrix_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::GUIClip::SetMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4> m) {
+inline void UnityEngine::GUIClip::SetMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4 const> m) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIClip*>(), { "SetMatrix_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIClip*>(), { "SetMatrix_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, m);
 }
-inline void UnityEngine::GUIClip::Internal_PushParentClip_Injected(::by_ref<::UnityEngine::Matrix4x4> renderTransform, ::by_ref<::UnityEngine::Matrix4x4> inputTransform,
-                                                                   ::by_ref<::UnityEngine::Rect> clipRect) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIClip*>(),
-                          { "Internal_PushParentClip_Injected",
-                            {},
-                            { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
+inline void UnityEngine::GUIClip::Internal_PushParentClip_Injected(::by_ref<::UnityEngine::Matrix4x4 const> renderTransform, ::by_ref<::UnityEngine::Matrix4x4 const> inputTransform,
+                                                                   ::by_ref<::UnityEngine::Rect const> clipRect) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIClip*>(), { "Internal_PushParentClip_Injected",
+                                                                                                                                       {},
+                                                                                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(),
+                                                                                                                                         ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(),
+                                                                                                                                         ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, renderTransform, inputTransform, clipRect);
 }
 // Ctor Parameters []

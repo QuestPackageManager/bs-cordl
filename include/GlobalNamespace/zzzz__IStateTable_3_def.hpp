@@ -22,10 +22,10 @@ class CORDL_TYPE IStateTable_3 {
 public:
   // Declarations
   /// @brief Method ApplyDelta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline TStateTable ApplyDelta(/* [IsReadOnly] */ ::by_ref<TStateTable> delta);
+  inline TStateTable ApplyDelta(/* [IsReadOnly] */ ::by_ref<TStateTable const> delta);
 
   /// @brief Method GetDelta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline TStateTable GetDelta(/* [IsReadOnly] */ ::by_ref<TStateTable> stateTable);
+  inline TStateTable GetDelta(/* [IsReadOnly] */ ::by_ref<TStateTable const> stateTable);
 
   /// @brief Method GetSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetSize();

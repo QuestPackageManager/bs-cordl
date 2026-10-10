@@ -145,7 +145,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::T
 //  Writing Method size for method: ::UnityEngine::Networking::DownloadHandlerTexture.Create_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerTexture*, ::by_ref<::UnityEngine::Networking::DownloadedTextureParams>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerTexture*, ::by_ref<::UnityEngine::Networking::DownloadedTextureParams const>)>(
     &::UnityEngine::Networking::DownloadHandlerTexture::Create_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x72c6f1c;
@@ -153,9 +153,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Un
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Networking::DownloadHandlerTexture*>(),
-            { "Create_Injected", {}, { ::i2c::type_of<::UnityEngine::Networking::DownloadHandlerTexture*>(), ::i2c::type_of<::by_ref<::UnityEngine::Networking::DownloadedTextureParams>>() } })));
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerTexture*>(),
+                            { "Create_Injected",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::Networking::DownloadHandlerTexture*>(), ::i2c::type_of<::by_ref<::UnityEngine::Networking::DownloadedTextureParams const>>() } })));
     return ___internal_method;
   }
 };
@@ -228,12 +229,12 @@ inline ::UnityW<::UnityEngine::Texture2D> UnityEngine::Networking::DownloadHandl
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Texture2D>>(nullptr, ___internal_method, www);
 }
 inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerTexture::Create_Injected(::UnityEngine::Networking::DownloadHandlerTexture* obj,
-                                                                                         ::by_ref<::UnityEngine::Networking::DownloadedTextureParams> parameters) {
+                                                                                         ::by_ref<::UnityEngine::Networking::DownloadedTextureParams const> parameters) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::UnityEngine::Networking::DownloadHandlerTexture*>(),
-          { "Create_Injected", {}, { ::i2c::type_of<::UnityEngine::Networking::DownloadHandlerTexture*>(), ::i2c::type_of<::by_ref<::UnityEngine::Networking::DownloadedTextureParams>>() } })));
+          { "Create_Injected", {}, { ::i2c::type_of<::UnityEngine::Networking::DownloadHandlerTexture*>(), ::i2c::type_of<::by_ref<::UnityEngine::Networking::DownloadedTextureParams const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, obj, parameters);
 }
 inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerTexture::InternalGetTextureNative_Injected(::System::IntPtr _unity_self) {

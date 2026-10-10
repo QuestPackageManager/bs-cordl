@@ -118,18 +118,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation::*)(
-    ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::PostProcessingPass>, int32_t, ::UnityEngine::UIElements::FilterFunction)>(
+    ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::PostProcessingPass const>, int32_t, ::UnityEngine::UIElements::FilterFunction)>(
     &::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation::Init)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x717e404;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation*>(),
-                                                             { "Init",
-                                                               {},
-                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::PostProcessingPass>>(),
-                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::FilterFunction>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation*>(),
+                                                { "Init",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::PostProcessingPass const>>(),
+                                                    ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::FilterFunction>() } })));
     return ___internal_method;
   }
 };
@@ -427,14 +427,14 @@ inline ::UnityEngine::UIElements::FilterFunction UnityEngine::UIElements::UIR::R
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::FilterFunction>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation::Init(::UnityEngine::UIElements::VisualElement* ve,
-                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::PostProcessingPass> filterPass, int32_t filterPassIndex,
+                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::PostProcessingPass const> filterPass, int32_t filterPassIndex,
                                                                                    ::UnityEngine::UIElements::FilterFunction filter) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation*>(),
-                                                           { "Init",
-                                                             {},
-                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::PostProcessingPass>>(),
-                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::FilterFunction>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation*>(),
+                                              { "Init",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::PostProcessingPass const>>(),
+                                                  ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::FilterFunction>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve, filterPass, filterPassIndex, filter);
 }
 inline void UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation::Init(::UnityEngine::UIElements::UIR::RenderTree* renderTree) {

@@ -45,7 +45,7 @@ public:
   inline ::Unity::Hierarchy::HierarchyFlattenedChildrenEnumerable_Enumerator GetEnumerator();
 
   /// @brief Method .ctor, addr 0x6f934e0, size 0x240, virtual false, abstract: false, final false
-  inline void _ctor(::Unity::Hierarchy::HierarchyFlattened* hierarchyFlattened, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline void _ctor(::Unity::Hierarchy::HierarchyFlattened* hierarchyFlattened, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   // Ctor Parameters []
   // @brief default ctor

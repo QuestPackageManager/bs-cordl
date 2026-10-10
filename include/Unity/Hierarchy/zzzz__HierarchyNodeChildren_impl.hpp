@@ -72,14 +72,14 @@ constexpr ::Unity::Hierarchy::HierarchyNodeChildren::HierarchyNodeChildren() {}
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyNodeChildren_Enumerator._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyNodeChildren_Enumerator::*)(::by_ref<::Unity::Hierarchy::HierarchyNodeChildren>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyNodeChildren_Enumerator::*)(::by_ref<::Unity::Hierarchy::HierarchyNodeChildren const>)>(
     &::Unity::Hierarchy::HierarchyNodeChildren_Enumerator::_ctor)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6f93d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeChildren_Enumerator>(),
-                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNodeChildren>>() } })));
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNodeChildren const>>() } })));
     return ___internal_method;
   }
 };
@@ -108,9 +108,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy:
     return ___internal_method;
   }
 };
-inline void Unity::Hierarchy::HierarchyNodeChildren_Enumerator::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNodeChildren> enumerable) {
+inline void Unity::Hierarchy::HierarchyNodeChildren_Enumerator::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNodeChildren const> enumerable) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeChildren_Enumerator>(),
-                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNodeChildren>>() } })));
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNodeChildren const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, enumerable);
 }
 inline ::by_ref<::Unity::Hierarchy::HierarchyNode> Unity::Hierarchy::HierarchyNodeChildren_Enumerator::get_Current() {

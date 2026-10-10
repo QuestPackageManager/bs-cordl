@@ -105,7 +105,7 @@ public:
                       put = __cordl_internal_set__sliderInteractionManagers)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* _sliderInteractionManagers;
 
   /// @brief Method HandleNoteWasCut, addr 0x5d9c374, size 0x19c, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo);
 
   /// @brief Method IsArcHapticsCurrentlyActive, addr 0x5d9c9bc, size 0x98, virtual false, abstract: false, final false
   inline bool IsArcHapticsCurrentlyActive(::GlobalNamespace::ColorType colorType);
@@ -122,10 +122,10 @@ public:
   inline void PlayHitNoteHapticEffect(::GlobalNamespace::NoteCutInfo noteCutInfo, ::GlobalNamespace::NoteData* noteData);
 
   /// @brief Method SpawnBombCutEffect, addr 0x5d9c900, size 0x50, virtual false, abstract: false, final false
-  inline void SpawnBombCutEffect(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController);
+  inline void SpawnBombCutEffect(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo, ::GlobalNamespace::NoteController* noteController);
 
   /// @brief Method SpawnNoteCutEffect, addr 0x5d9c510, size 0x2ec, virtual false, abstract: false, final false
-  inline void SpawnNoteCutEffect(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController, int32_t sparkleParticlesCount,
+  inline void SpawnNoteCutEffect(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo, ::GlobalNamespace::NoteController* noteController, int32_t sparkleParticlesCount,
                                  int32_t explosionParticlesCount);
 
   /// @brief Method Start, addr 0x5d9c138, size 0x1a4, virtual false, abstract: false, final false

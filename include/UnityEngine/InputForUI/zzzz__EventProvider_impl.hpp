@@ -184,13 +184,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityE
 //  Writing Method size for method: ::UnityEngine::InputForUI::EventProvider.Dispatch
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::InputForUI::Event>)>(&::UnityEngine::InputForUI::EventProvider::Dispatch)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::InputForUI::Event const>)>(&::UnityEngine::InputForUI::EventProvider::Dispatch)> {
   constexpr static std::size_t size = 0x234;
   constexpr static std::size_t addrs = 0x6fbb568;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider*>(), { "Dispatch", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider*>(), { "Dispatch", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event const>>() } })));
     return ___internal_method;
   }
 };
@@ -335,9 +336,10 @@ inline void UnityEngine::InputForUI::EventProvider::SetEnabled(bool enable) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider*>(), { "SetEnabled", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, enable);
 }
-inline void UnityEngine::InputForUI::EventProvider::Dispatch(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider*>(), { "Dispatch", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event>>() } })));
+inline void UnityEngine::InputForUI::EventProvider::Dispatch(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event const> ev) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider*>(), { "Dispatch", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ev);
 }
 inline void UnityEngine::InputForUI::EventProvider::Bootstrap() {

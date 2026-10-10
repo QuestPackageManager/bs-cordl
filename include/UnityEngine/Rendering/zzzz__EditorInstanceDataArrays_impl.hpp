@@ -7,20 +7,20 @@
 //  Writing Method size for method: ::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly::*)(::by_ref<::UnityEngine::Rendering::CPUInstanceData>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly::*)(::by_ref<::UnityEngine::Rendering::CPUInstanceData const>)>(
     &::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6c5969c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly>(),
-                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>() } })));
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData const>>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData) {
+inline void UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData const> instanceData) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly>(),
-                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>() } })));
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instanceData);
 }
 // Ctor Parameters []

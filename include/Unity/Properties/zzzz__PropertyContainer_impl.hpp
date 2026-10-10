@@ -258,25 +258,25 @@ inline bool Unity::Properties::PropertyContainer::TryAccept(::Unity::Properties:
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, visitor, container, returnCode, parameters);
 }
 template <typename TContainer>
-inline bool Unity::Properties::PropertyContainer::TryGetProperty(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path,
+inline bool Unity::Properties::PropertyContainer::TryGetProperty(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path,
                                                                  ::by_ref<::Unity::Properties::IProperty*> property) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyContainer*>(),
-                          { "TryGetProperty",
-                            { ::i2c::class_of<TContainer>() },
-                            { ::i2c::type_of<::by_ref<TContainer>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::by_ref<::Unity::Properties::IProperty*>>() } })));
+      (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyContainer*>(), { "TryGetProperty",
+                                                                                        { ::i2c::class_of<TContainer>() },
+                                                                                        { ::i2c::type_of<::by_ref<TContainer>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(),
+                                                                                          ::i2c::type_of<::by_ref<::Unity::Properties::IProperty*>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TContainer>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, container, path, property);
 }
 template <typename TContainer>
-inline bool Unity::Properties::PropertyContainer::TryGetProperty(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path,
+inline bool Unity::Properties::PropertyContainer::TryGetProperty(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path,
                                                                  ::by_ref<::Unity::Properties::IProperty*> property, ::by_ref<::Unity::Properties::VisitReturnCode> returnCode) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyContainer*>(),
                                                            { "TryGetProperty",
                                                              { ::i2c::class_of<TContainer>() },
-                                                             { ::i2c::type_of<::by_ref<TContainer>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(),
+                                                             { ::i2c::type_of<::by_ref<TContainer>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Properties::IProperty*>>(), ::i2c::type_of<::by_ref<::Unity::Properties::VisitReturnCode>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TContainer>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, container, path, property, returnCode);
@@ -291,13 +291,13 @@ template <typename TContainer, typename TValue> inline bool Unity::Properties::P
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, container, name, value);
 }
 template <typename TContainer, typename TValue>
-inline bool Unity::Properties::PropertyContainer::TryGetValue(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, ::by_ref<TValue> value,
+inline bool Unity::Properties::PropertyContainer::TryGetValue(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path, ::by_ref<TValue> value,
                                                               ::by_ref<::Unity::Properties::VisitReturnCode> returnCode) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyContainer*>(), { "TryGetValue",
                                                                                         { ::i2c::class_of<TContainer>(), ::i2c::class_of<TValue>() },
-                                                                                        { ::i2c::type_of<::by_ref<TContainer>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(),
+                                                                                        { ::i2c::type_of<::by_ref<TContainer>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(),
                                                                                           ::i2c::type_of<::by_ref<TValue>>(), ::i2c::type_of<::by_ref<::Unity::Properties::VisitReturnCode>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TContainer>(), ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, container, path, value, returnCode);

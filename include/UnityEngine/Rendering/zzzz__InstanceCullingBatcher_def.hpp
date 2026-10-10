@@ -150,7 +150,7 @@ public:
 
   /// @brief Method BuildBatch, addr 0x6c5284c, size 0xc8, virtual false, abstract: false, final false
   inline void BuildBatch(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
-                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData, bool registerMaterialsAndMeshes);
+                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData, bool registerMaterialsAndMeshes);
 
   /// @brief Method DestroyDrawInstances, addr 0x6c51808, size 0x1c, virtual false, abstract: false, final false
   inline void DestroyDrawInstances(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
@@ -200,8 +200,8 @@ public:
   inline void PostCullBeginCameraRendering(::UnityEngine::Rendering::RenderRequestBatcherContext context);
 
   /// @brief Method RegisterBatchMaterials, addr 0x6c52124, size 0x62c, virtual false, abstract: false, final false
-  inline void RegisterBatchMaterials(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> usedMaterialIDs,
-                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> usedPackedMaterialDatas);
+  inline void RegisterBatchMaterials(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> usedMaterialIDs,
+                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> usedPackedMaterialDatas);
 
   /// @brief Method RegisterBatchMeshes, addr 0x6c51c8c, size 0x498, virtual false, abstract: false, final false
   inline void RegisterBatchMeshes(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> meshIDs);

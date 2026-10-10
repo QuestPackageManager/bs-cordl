@@ -37,7 +37,7 @@ public:
   inline bool IsValid();
 
   /// @brief Method .ctor, addr 0x6c0ce5c, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h);
 
   /// @brief Method .ctor, addr 0x6c0ce70, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t handle, bool shared);

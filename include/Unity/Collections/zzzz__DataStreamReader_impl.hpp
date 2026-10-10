@@ -373,21 +373,22 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Collec
 //  Writing Method size for method: ::Unity::Collections::DataStreamReader.ReadPackedUInt
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedUInt)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x68d5874;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                                                           { "ReadPackedUInt", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadPackedUInt", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamReader.ReadPackedUIntInternal
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collections::DataStreamReader::*)(int32_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collections::DataStreamReader::*)(int32_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedUIntInternal)> {
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x68d5880;
@@ -395,7 +396,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collec
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                { "ReadPackedUIntInternal", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                { "ReadPackedUIntInternal", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -440,122 +441,127 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collec
 //  Writing Method size for method: ::Unity::Collections::DataStreamReader.ReadPackedULong
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedULong)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x68d5a44;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                                                           { "ReadPackedULong", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadPackedULong", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamReader.ReadPackedInt
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedInt)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x68d5a88;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                                                           { "ReadPackedInt", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadPackedInt", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamReader.ReadPackedLong
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedLong)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x68d5aac;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                                                           { "ReadPackedLong", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadPackedLong", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamReader.ReadPackedFloat
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedFloat)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x68d5afc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                                                           { "ReadPackedFloat", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadPackedFloat", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamReader.ReadPackedDouble
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedDouble)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x68d5b84;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                                                           { "ReadPackedDouble", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
+                                                             { "ReadPackedDouble", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamReader.ReadPackedIntDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::DataStreamReader::*)(int32_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::DataStreamReader::*)(int32_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedIntDelta)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x68d5c6c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                             { "ReadPackedIntDelta", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
+                                                { "ReadPackedIntDelta", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamReader.ReadPackedUIntDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collections::DataStreamReader::*)(uint32_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collections::DataStreamReader::*)(uint32_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedUIntDelta)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x68d5c94;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                             { "ReadPackedUIntDelta", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
+                                                { "ReadPackedUIntDelta", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamReader.ReadPackedLongDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Collections::DataStreamReader::*)(int64_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Collections::DataStreamReader::*)(int64_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedLongDelta)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x68d5cbc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                             { "ReadPackedLongDelta", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
+                                                { "ReadPackedLongDelta", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamReader.ReadPackedULongDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collections::DataStreamReader::*)(uint64_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collections::DataStreamReader::*)(uint64_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedULongDelta)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x68d5cd8;
@@ -563,29 +569,29 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collec
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                { "ReadPackedULongDelta", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                { "ReadPackedULongDelta", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamReader.ReadPackedFloatDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Collections::DataStreamReader::*)(float_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Collections::DataStreamReader::*)(float_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedFloatDelta)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x68d5b04;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                             { "ReadPackedFloatDelta", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
+                                                { "ReadPackedFloatDelta", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamReader.ReadPackedDoubleDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Collections::DataStreamReader::*)(double_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Collections::DataStreamReader::*)(double_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedDoubleDelta)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x68d5b8c;
@@ -593,7 +599,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Collec
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                { "ReadPackedDoubleDelta", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                { "ReadPackedDoubleDelta", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -695,7 +701,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Collec
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString32Bytes (::Unity::Collections::DataStreamReader::*)(
-    ::Unity::Collections::FixedString32Bytes, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedString32Delta)> {
+    ::Unity::Collections::FixedString32Bytes, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedString32Delta)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x68d6008;
 
@@ -704,7 +710,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Fix
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-            { "ReadPackedFixedString32Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString32Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+            { "ReadPackedFixedString32Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString32Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -712,7 +718,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Fix
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString64Bytes (::Unity::Collections::DataStreamReader::*)(
-    ::Unity::Collections::FixedString64Bytes, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedString64Delta)> {
+    ::Unity::Collections::FixedString64Bytes, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedString64Delta)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x68d61c0;
 
@@ -721,7 +727,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Fix
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-            { "ReadPackedFixedString64Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString64Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+            { "ReadPackedFixedString64Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString64Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -729,7 +735,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Fix
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString128Bytes (::Unity::Collections::DataStreamReader::*)(
-    ::Unity::Collections::FixedString128Bytes, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedString128Delta)> {
+    ::Unity::Collections::FixedString128Bytes, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedString128Delta)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x68d623c;
 
@@ -738,7 +744,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Fix
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-            { "ReadPackedFixedString128Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString128Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+            { "ReadPackedFixedString128Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString128Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -746,7 +752,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Fix
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString512Bytes (::Unity::Collections::DataStreamReader::*)(
-    ::Unity::Collections::FixedString512Bytes, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedString512Delta)> {
+    ::Unity::Collections::FixedString512Bytes, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedString512Delta)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x68d62c0;
 
@@ -755,7 +761,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Fix
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-            { "ReadPackedFixedString512Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString512Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+            { "ReadPackedFixedString512Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString512Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -763,16 +769,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Fix
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString4096Bytes (::Unity::Collections::DataStreamReader::*)(
-    ::Unity::Collections::FixedString4096Bytes, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedString4096Delta)> {
+    ::Unity::Collections::FixedString4096Bytes, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedString4096Delta)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x68d6360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-            { "ReadPackedFixedString4096Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString4096Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
+                                                { "ReadPackedFixedString4096Delta",
+                                                  {},
+                                                  { ::i2c::type_of<::Unity::Collections::FixedString4096Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -780,7 +786,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Fix
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Collections::DataStreamReader::*)(::Unity::Collections::NativeArray_1<uint8_t>, ::Unity::Collections::NativeArray_1<uint8_t>,
-                                                                                                            ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+                                                                                                            ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedFixedStringDelta)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x68d6408;
@@ -791,7 +797,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Collec
                                                              { "ReadPackedFixedStringDelta",
                                                                {},
                                                                { ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -799,17 +805,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Collec
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Collections::DataStreamReader::*)(
-    uint8_t*, int32_t, uint8_t*, uint16_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedStringDeltaInternal)> {
+    uint8_t*, int32_t, uint8_t*, uint16_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedStringDeltaInternal)> {
   constexpr static std::size_t size = 0x148;
   constexpr static std::size_t addrs = 0x68d6078;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadPackedFixedStringDeltaInternal",
-                                                                                         {},
-                                                                                         { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t*>(),
-                                                                                           ::i2c::type_of<uint16_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
+                                                             { "ReadPackedFixedStringDeltaInternal",
+                                                               {},
+                                                               { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint16_t>(),
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -959,15 +965,16 @@ inline double_t Unity::Collections::DataStreamReader::ReadDouble() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadDouble", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<double_t>(*this, ___internal_method);
 }
-inline uint32_t Unity::Collections::DataStreamReader::ReadPackedUInt(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                                                         { "ReadPackedUInt", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+inline uint32_t Unity::Collections::DataStreamReader::ReadPackedUInt(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadPackedUInt", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(*this, ___internal_method, model);
 }
-inline uint32_t Unity::Collections::DataStreamReader::ReadPackedUIntInternal(int32_t maxSymbolLength, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                           { "ReadPackedUIntInternal", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+inline uint32_t Unity::Collections::DataStreamReader::ReadPackedUIntInternal(int32_t maxSymbolLength, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
+                                              { "ReadPackedUIntInternal", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(*this, ___internal_method, maxSymbolLength, model);
 }
 inline void Unity::Collections::DataStreamReader::FillBitBuffer() {
@@ -984,65 +991,69 @@ inline uint32_t Unity::Collections::DataStreamReader::ReadRawBits(int32_t numbit
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadRawBits", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(*this, ___internal_method, numbits);
 }
-inline uint64_t Unity::Collections::DataStreamReader::ReadPackedULong(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                                                         { "ReadPackedULong", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+inline uint64_t Unity::Collections::DataStreamReader::ReadPackedULong(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadPackedULong", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<uint64_t>(*this, ___internal_method, model);
 }
-inline int32_t Unity::Collections::DataStreamReader::ReadPackedInt(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline int32_t Unity::Collections::DataStreamReader::ReadPackedInt(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                                                         { "ReadPackedInt", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                                                         { "ReadPackedInt", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, model);
 }
-inline int64_t Unity::Collections::DataStreamReader::ReadPackedLong(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                                                         { "ReadPackedLong", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+inline int64_t Unity::Collections::DataStreamReader::ReadPackedLong(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadPackedLong", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int64_t>(*this, ___internal_method, model);
 }
-inline float_t Unity::Collections::DataStreamReader::ReadPackedFloat(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                                                         { "ReadPackedFloat", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+inline float_t Unity::Collections::DataStreamReader::ReadPackedFloat(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadPackedFloat", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method, model);
 }
-inline double_t Unity::Collections::DataStreamReader::ReadPackedDouble(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                                                         { "ReadPackedDouble", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+inline double_t Unity::Collections::DataStreamReader::ReadPackedDouble(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadPackedDouble", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<double_t>(*this, ___internal_method, model);
 }
-inline int32_t Unity::Collections::DataStreamReader::ReadPackedIntDelta(int32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                           { "ReadPackedIntDelta", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+inline int32_t Unity::Collections::DataStreamReader::ReadPackedIntDelta(int32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
+                                              { "ReadPackedIntDelta", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, baseline, model);
 }
-inline uint32_t Unity::Collections::DataStreamReader::ReadPackedUIntDelta(uint32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                           { "ReadPackedUIntDelta", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+inline uint32_t Unity::Collections::DataStreamReader::ReadPackedUIntDelta(uint32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
+                                              { "ReadPackedUIntDelta", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(*this, ___internal_method, baseline, model);
 }
-inline int64_t Unity::Collections::DataStreamReader::ReadPackedLongDelta(int64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                           { "ReadPackedLongDelta", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+inline int64_t Unity::Collections::DataStreamReader::ReadPackedLongDelta(int64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
+                                              { "ReadPackedLongDelta", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int64_t>(*this, ___internal_method, baseline, model);
 }
-inline uint64_t Unity::Collections::DataStreamReader::ReadPackedULongDelta(uint64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                           { "ReadPackedULongDelta", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+inline uint64_t Unity::Collections::DataStreamReader::ReadPackedULongDelta(uint64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
+                                              { "ReadPackedULongDelta", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<uint64_t>(*this, ___internal_method, baseline, model);
 }
-inline float_t Unity::Collections::DataStreamReader::ReadPackedFloatDelta(float_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                           { "ReadPackedFloatDelta", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+inline float_t Unity::Collections::DataStreamReader::ReadPackedFloatDelta(float_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
+                                              { "ReadPackedFloatDelta", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method, baseline, model);
 }
-inline double_t Unity::Collections::DataStreamReader::ReadPackedDoubleDelta(double_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-                                                           { "ReadPackedDoubleDelta", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+inline double_t Unity::Collections::DataStreamReader::ReadPackedDoubleDelta(double_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
+                                              { "ReadPackedDoubleDelta", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<double_t>(*this, ___internal_method, baseline, model);
 }
 inline ::Unity::Collections::FixedString32Bytes Unity::Collections::DataStreamReader::ReadFixedString32() {
@@ -1077,70 +1088,74 @@ inline uint16_t Unity::Collections::DataStreamReader::ReadFixedStringInternal(ui
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadFixedStringInternal", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<uint16_t>(*this, ___internal_method, data, maxLength);
 }
-inline ::Unity::Collections::FixedString32Bytes Unity::Collections::DataStreamReader::ReadPackedFixedString32Delta(::Unity::Collections::FixedString32Bytes baseline,
-                                                                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline ::Unity::Collections::FixedString32Bytes
+Unity::Collections::DataStreamReader::ReadPackedFixedString32Delta(::Unity::Collections::FixedString32Bytes baseline,
+                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-          { "ReadPackedFixedString32Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString32Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+          { "ReadPackedFixedString32Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString32Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString32Bytes>(*this, ___internal_method, baseline, model);
 }
-inline ::Unity::Collections::FixedString64Bytes Unity::Collections::DataStreamReader::ReadPackedFixedString64Delta(::Unity::Collections::FixedString64Bytes baseline,
-                                                                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline ::Unity::Collections::FixedString64Bytes
+Unity::Collections::DataStreamReader::ReadPackedFixedString64Delta(::Unity::Collections::FixedString64Bytes baseline,
+                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-          { "ReadPackedFixedString64Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString64Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+          { "ReadPackedFixedString64Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString64Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString64Bytes>(*this, ___internal_method, baseline, model);
 }
-inline ::Unity::Collections::FixedString128Bytes Unity::Collections::DataStreamReader::ReadPackedFixedString128Delta(::Unity::Collections::FixedString128Bytes baseline,
-                                                                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline ::Unity::Collections::FixedString128Bytes
+Unity::Collections::DataStreamReader::ReadPackedFixedString128Delta(::Unity::Collections::FixedString128Bytes baseline,
+                                                                    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-          { "ReadPackedFixedString128Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString128Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+          { "ReadPackedFixedString128Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString128Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(*this, ___internal_method, baseline, model);
 }
-inline ::Unity::Collections::FixedString512Bytes Unity::Collections::DataStreamReader::ReadPackedFixedString512Delta(::Unity::Collections::FixedString512Bytes baseline,
-                                                                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline ::Unity::Collections::FixedString512Bytes
+Unity::Collections::DataStreamReader::ReadPackedFixedString512Delta(::Unity::Collections::FixedString512Bytes baseline,
+                                                                    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-          { "ReadPackedFixedString512Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString512Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+          { "ReadPackedFixedString512Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString512Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(*this, ___internal_method, baseline, model);
 }
 inline ::Unity::Collections::FixedString4096Bytes
 Unity::Collections::DataStreamReader::ReadPackedFixedString4096Delta(::Unity::Collections::FixedString4096Bytes baseline,
-                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::Unity::Collections::DataStreamReader>(),
-          { "ReadPackedFixedString4096Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString4096Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+          { "ReadPackedFixedString4096Delta", {}, { ::i2c::type_of<::Unity::Collections::FixedString4096Bytes>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString4096Bytes>(*this, ___internal_method, baseline, model);
 }
 inline uint16_t Unity::Collections::DataStreamReader::ReadPackedFixedStringDelta(::Unity::Collections::NativeArray_1<uint8_t> data, ::Unity::Collections::NativeArray_1<uint8_t> baseData,
-                                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+                                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(),
                                                            { "ReadPackedFixedStringDelta",
                                                              {},
                                                              { ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                               ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<uint16_t>(*this, ___internal_method, data, baseData, model);
 }
 inline uint16_t Unity::Collections::DataStreamReader::ReadPackedFixedStringDeltaInternal(uint8_t* data, int32_t maxLength, uint8_t* baseData, uint16_t baseLength,
-                                                                                         /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+                                                                                         /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadPackedFixedStringDeltaInternal",
                                                                                        {},
                                                                                        { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint16_t>(),
-                                                                                         ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                                                         ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<uint16_t>(*this, ___internal_method, data, maxLength, baseData, baseLength, model);
 }
 inline void Unity::Collections::DataStreamReader::CheckRead() {

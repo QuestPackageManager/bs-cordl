@@ -386,7 +386,7 @@ public:
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  inline void Update(/* [IsReadOnly] */ ::by_ref<T> input);
+  inline void Update(/* [IsReadOnly] */ ::by_ref<T const> input);
 
   /// @brief Method Update, addr 0x68f5084, size 0x2a4, virtual false, abstract: false, final false
   inline void Update(void* input, int32_t length);
@@ -733,7 +733,7 @@ public:
   /// @brief Method Hash128, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  static inline ::Unity::Mathematics::uint4 Hash128(/* [IsReadOnly] */ ::by_ref<T> input);
+  static inline ::Unity::Mathematics::uint4 Hash128(/* [IsReadOnly] */ ::by_ref<T const> input);
 
   /// @brief Method Hash128, addr 0x68f2eb4, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint4 Hash128(void* input, void* destination, int64_t length);
@@ -781,7 +781,7 @@ public:
   /// @brief Method Hash64, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  static inline ::Unity::Mathematics::uint2 Hash64(/* [IsReadOnly] */ ::by_ref<T> input);
+  static inline ::Unity::Mathematics::uint2 Hash64(/* [IsReadOnly] */ ::by_ref<T const> input);
 
   /// @brief Method Hash64, addr 0x68f288c, size 0x98, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint2 Hash64(void* input, int64_t length);

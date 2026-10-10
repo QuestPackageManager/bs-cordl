@@ -182,13 +182,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
 //  Writing Method size for method: ::UnityEngine::Rendering::LocalKeyword.IsOverridable_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::LocalKeyword>)>(&::UnityEngine::Rendering::LocalKeyword::IsOverridable_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::LocalKeyword const>)>(&::UnityEngine::Rendering::LocalKeyword::IsOverridable_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6f8a918;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LocalKeyword>(),
-                                                                                           { "IsOverridable_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LocalKeyword>(),
+                                                             { "IsOverridable_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword const>>() } })));
     return ___internal_method;
   }
 };
@@ -312,9 +313,10 @@ inline int32_t UnityEngine::Rendering::LocalKeyword::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::LocalKeyword>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::LocalKeyword::IsOverridable_Injected(::by_ref<::UnityEngine::Rendering::LocalKeyword> kw) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LocalKeyword>(),
-                                                                                         { "IsOverridable_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
+inline bool UnityEngine::Rendering::LocalKeyword::IsOverridable_Injected(::by_ref<::UnityEngine::Rendering::LocalKeyword const> kw) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LocalKeyword>(), { "IsOverridable_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, kw);
 }
 inline uint32_t UnityEngine::Rendering::LocalKeyword::GetShaderKeywordCount_Injected(::System::IntPtr shader) {

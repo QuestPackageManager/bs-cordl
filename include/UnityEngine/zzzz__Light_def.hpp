@@ -262,7 +262,7 @@ public:
   inline void set_color(::UnityEngine::Color value);
 
   /// @brief Method set_color_Injected, addr 0x6ef92b8, size 0x44, virtual false, abstract: false, final false
-  static inline void set_color_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Color> value);
+  static inline void set_color_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Color const> value);
 
   /// @brief Method set_intensity, addr 0x6ef9530, size 0x90, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);

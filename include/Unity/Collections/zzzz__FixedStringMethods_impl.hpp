@@ -465,10 +465,10 @@ template <typename T, typename T2>
            ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> input) {
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> input) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                                           { "Append", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
+                                                           { "Append", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2 const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, input);
 }
@@ -477,10 +477,10 @@ template <typename T, typename T2>
            ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-inline ::Unity::Collections::CopyError Unity::Collections::FixedStringMethods::CopyFrom(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> input) {
+inline ::Unity::Collections::CopyError Unity::Collections::FixedStringMethods::CopyFrom(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> input) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                                           { "CopyFrom", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
+                                                           { "CopyFrom", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2 const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::CopyError>(nullptr, ___internal_method, fs, input);
 }
@@ -528,10 +528,10 @@ template <typename T, typename T2>
            ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-inline ::Unity::Collections::CopyError Unity::Collections::FixedStringMethods::CopyFromTruncated(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> input) {
+inline ::Unity::Collections::CopyError Unity::Collections::FixedStringMethods::CopyFromTruncated(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> input) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                              { "CopyFromTruncated", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
+                                              { "CopyFromTruncated", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2 const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::CopyError>(nullptr, ___internal_method, fs, input);
 }
@@ -542,11 +542,13 @@ template <typename T, typename U, typename T0>
            ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U> &&
            ::cordl_internals::type_constraint<T0, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T0, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0>)
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0) {
-  static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                                                                              { "AppendFormat",
-                                                                                                { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>() },
-                                                                                                { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U>>(), ::i2c::type_of<::by_ref<T0>>() } })));
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T0 const> arg0) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
+                                                           { "AppendFormat",
+                                                             { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>() },
+                                                             { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U const>>(), ::i2c::type_of<::by_ref<T0 const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, dest, format, arg0);
 }
@@ -559,13 +561,13 @@ template <typename T, typename U, typename T0, typename T1>
            ::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0> &&
            ::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T1> arg1) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                                           { "AppendFormat",
-                                                             { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>() },
-                                                             { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U>>(), ::i2c::type_of<::by_ref<T0>>(), ::i2c::type_of<::by_ref<T1>>() } })));
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T1 const> arg1) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
+                                              { "AppendFormat",
+                                                { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>() },
+                                                { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U const>>(), ::i2c::type_of<::by_ref<T0 const>>(), ::i2c::type_of<::by_ref<T1 const>>() } })));
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, dest, format, arg0, arg1);
@@ -581,14 +583,14 @@ template <typename T, typename U, typename T0, typename T1, typename T2>
            ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
            ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T1> arg1, /* [IsReadOnly] */ ::by_ref<T2> arg2) {
-  static auto* ___internal_method_base = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                          { "AppendFormat",
-                            { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>() },
-                            { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U>>(), ::i2c::type_of<::by_ref<T0>>(), ::i2c::type_of<::by_ref<T1>>(), ::i2c::type_of<::by_ref<T2>>() } })));
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
+                                                           { "AppendFormat",
+                                                             { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>() },
+                                                             { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U const>>(), ::i2c::type_of<::by_ref<T0 const>>(),
+                                                               ::i2c::type_of<::by_ref<T1 const>>(), ::i2c::type_of<::by_ref<T2 const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, dest, format, arg0, arg1, arg2);
@@ -606,15 +608,15 @@ template <typename T, typename U, typename T0, typename T1, typename T2, typenam
            ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
            ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T1> arg1, /* [IsReadOnly] */ ::by_ref<T2> arg2,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T3> arg3) {
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T3 const> arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "AppendFormat",
                                                              { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>() },
-                                                             { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U>>(), ::i2c::type_of<::by_ref<T0>>(), ::i2c::type_of<::by_ref<T1>>(),
-                                                               ::i2c::type_of<::by_ref<T2>>(), ::i2c::type_of<::by_ref<T3>>() } })));
+                                                             { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U const>>(), ::i2c::type_of<::by_ref<T0 const>>(),
+                                                               ::i2c::type_of<::by_ref<T1 const>>(), ::i2c::type_of<::by_ref<T2 const>>(), ::i2c::type_of<::by_ref<T3 const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(),
                                                                                                                      ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, dest, format, arg0, arg1, arg2, arg3);
@@ -634,16 +636,16 @@ template <typename T, typename U, typename T0, typename T1, typename T2, typenam
            ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3> &&
            ::cordl_internals::type_constraint<T4, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T4, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<T4> && ::cordl_internals::default_constructor_constraint<T4>)
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T1> arg1, /* [IsReadOnly] */ ::by_ref<T2> arg2,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4) {
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T3 const> arg3, /* [IsReadOnly] */ ::by_ref<T4 const> arg4) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                           { "AppendFormat",
                             { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>(), ::i2c::class_of<T4>() },
-                            { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U>>(), ::i2c::type_of<::by_ref<T0>>(), ::i2c::type_of<::by_ref<T1>>(), ::i2c::type_of<::by_ref<T2>>(),
-                              ::i2c::type_of<::by_ref<T3>>(), ::i2c::type_of<::by_ref<T4>>() } })));
+                            { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U const>>(), ::i2c::type_of<::by_ref<T0 const>>(), ::i2c::type_of<::by_ref<T1 const>>(),
+                              ::i2c::type_of<::by_ref<T2 const>>(), ::i2c::type_of<::by_ref<T3 const>>(), ::i2c::type_of<::by_ref<T4 const>>() } })));
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(),
                                                                                        ::i2c::class_of<T3>(), ::i2c::class_of<T4>() })));
@@ -663,17 +665,18 @@ template <typename T, typename U, typename T0, typename T1, typename T2, typenam
       ::cordl_internals::type_constraint<T4, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T4, ::Unity::Collections::IUTF8Bytes*> &&
       ::cordl_internals::value_type_constraint<T4> && ::cordl_internals::default_constructor_constraint<T4> && ::cordl_internals::type_constraint<T5, ::Unity::Collections::INativeList_1<uint8_t>*> &&
       ::cordl_internals::type_constraint<T5, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T5> && ::cordl_internals::default_constructor_constraint<T5>)
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T1> arg1, /* [IsReadOnly] */ ::by_ref<T2> arg2,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T5> arg5) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                                           { "AppendFormat",
-                                                             { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>(),
-                                                               ::i2c::class_of<T4>(), ::i2c::class_of<T5>() },
-                                                             { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U>>(), ::i2c::type_of<::by_ref<T0>>(), ::i2c::type_of<::by_ref<T1>>(),
-                                                               ::i2c::type_of<::by_ref<T2>>(), ::i2c::type_of<::by_ref<T3>>(), ::i2c::type_of<::by_ref<T4>>(), ::i2c::type_of<::by_ref<T5>>() } })));
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T3 const> arg3, /* [IsReadOnly] */ ::by_ref<T4 const> arg4,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T5 const> arg5) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
+          { "AppendFormat",
+            { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>(), ::i2c::class_of<T4>(), ::i2c::class_of<T5>() },
+            { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U const>>(), ::i2c::type_of<::by_ref<T0 const>>(), ::i2c::type_of<::by_ref<T1 const>>(), ::i2c::type_of<::by_ref<T2 const>>(),
+              ::i2c::type_of<::by_ref<T3 const>>(), ::i2c::type_of<::by_ref<T4 const>>(), ::i2c::type_of<::by_ref<T5 const>>() } })));
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(),
                                                                                        ::i2c::class_of<T3>(), ::i2c::class_of<T4>(), ::i2c::class_of<T5>() })));
@@ -695,18 +698,18 @@ template <typename T, typename U, typename T0, typename T1, typename T2, typenam
       ::cordl_internals::type_constraint<T5, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T5> && ::cordl_internals::default_constructor_constraint<T5> &&
       ::cordl_internals::type_constraint<T6, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T6, ::Unity::Collections::IUTF8Bytes*> &&
       ::cordl_internals::value_type_constraint<T6> && ::cordl_internals::default_constructor_constraint<T6>)
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T1> arg1, /* [IsReadOnly] */ ::by_ref<T2> arg2,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T5> arg5, /* [IsReadOnly] */ ::by_ref<T6> arg6) {
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T3 const> arg3, /* [IsReadOnly] */ ::by_ref<T4 const> arg4,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T5 const> arg5, /* [IsReadOnly] */ ::by_ref<T6 const> arg6) {
   static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                       { "AppendFormat",
-                                         { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>(),
-                                           ::i2c::class_of<T4>(), ::i2c::class_of<T5>(), ::i2c::class_of<T6>() },
-                                         { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U>>(), ::i2c::type_of<::by_ref<T0>>(), ::i2c::type_of<::by_ref<T1>>(), ::i2c::type_of<::by_ref<T2>>(),
-                                           ::i2c::type_of<::by_ref<T3>>(), ::i2c::type_of<::by_ref<T4>>(), ::i2c::type_of<::by_ref<T5>>(), ::i2c::type_of<::by_ref<T6>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
+                                                           { "AppendFormat",
+                                                             { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>(),
+                                                               ::i2c::class_of<T4>(), ::i2c::class_of<T5>(), ::i2c::class_of<T6>() },
+                                                             { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U const>>(), ::i2c::type_of<::by_ref<T0 const>>(),
+                                                               ::i2c::type_of<::by_ref<T1 const>>(), ::i2c::type_of<::by_ref<T2 const>>(), ::i2c::type_of<::by_ref<T3 const>>(),
+                                                               ::i2c::type_of<::by_ref<T4 const>>(), ::i2c::type_of<::by_ref<T5 const>>(), ::i2c::type_of<::by_ref<T6 const>>() } })));
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(),
                                                                                        ::i2c::class_of<T3>(), ::i2c::class_of<T4>(), ::i2c::class_of<T5>(), ::i2c::class_of<T6>() })));
@@ -729,18 +732,19 @@ template <typename T, typename U, typename T0, typename T1, typename T2, typenam
       ::cordl_internals::type_constraint<T6, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T6, ::Unity::Collections::IUTF8Bytes*> &&
       ::cordl_internals::value_type_constraint<T6> && ::cordl_internals::default_constructor_constraint<T6> && ::cordl_internals::type_constraint<T7, ::Unity::Collections::INativeList_1<uint8_t>*> &&
       ::cordl_internals::type_constraint<T7, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T7> && ::cordl_internals::default_constructor_constraint<T7>)
-inline ::Unity::Collections::FormatError
-Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0, /* [IsReadOnly] */ ::by_ref<T1> arg1,
-                                                     /* [IsReadOnly] */ ::by_ref<T2> arg2, /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4,
-                                                     /* [IsReadOnly] */ ::by_ref<T5> arg5, /* [IsReadOnly] */ ::by_ref<T6> arg6, /* [IsReadOnly] */ ::by_ref<T7> arg7) {
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T3 const> arg3, /* [IsReadOnly] */ ::by_ref<T4 const> arg4,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T5 const> arg5, /* [IsReadOnly] */ ::by_ref<T6 const> arg6,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T7 const> arg7) {
   static auto* ___internal_method_base = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                          { "AppendFormat",
-                            { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>(), ::i2c::class_of<T4>(),
-                              ::i2c::class_of<T5>(), ::i2c::class_of<T6>(), ::i2c::class_of<T7>() },
-                            { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U>>(), ::i2c::type_of<::by_ref<T0>>(), ::i2c::type_of<::by_ref<T1>>(), ::i2c::type_of<::by_ref<T2>>(),
-                              ::i2c::type_of<::by_ref<T3>>(), ::i2c::type_of<::by_ref<T4>>(), ::i2c::type_of<::by_ref<T5>>(), ::i2c::type_of<::by_ref<T6>>(), ::i2c::type_of<::by_ref<T7>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
+                                              { "AppendFormat",
+                                                { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>(),
+                                                  ::i2c::class_of<T4>(), ::i2c::class_of<T5>(), ::i2c::class_of<T6>(), ::i2c::class_of<T7>() },
+                                                { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U const>>(), ::i2c::type_of<::by_ref<T0 const>>(), ::i2c::type_of<::by_ref<T1 const>>(),
+                                                  ::i2c::type_of<::by_ref<T2 const>>(), ::i2c::type_of<::by_ref<T3 const>>(), ::i2c::type_of<::by_ref<T4 const>>(),
+                                                  ::i2c::type_of<::by_ref<T5 const>>(), ::i2c::type_of<::by_ref<T6 const>>(), ::i2c::type_of<::by_ref<T7 const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(),
                                                                           ::i2c::class_of<T3>(), ::i2c::class_of<T4>(), ::i2c::class_of<T5>(), ::i2c::class_of<T6>(), ::i2c::class_of<T7>() })));
@@ -765,19 +769,20 @@ template <typename T, typename U, typename T0, typename T1, typename T2, typenam
       ::cordl_internals::type_constraint<T7, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T7> && ::cordl_internals::default_constructor_constraint<T7> &&
       ::cordl_internals::type_constraint<T8, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T8, ::Unity::Collections::IUTF8Bytes*> &&
       ::cordl_internals::value_type_constraint<T8> && ::cordl_internals::default_constructor_constraint<T8>)
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T1> arg1, /* [IsReadOnly] */ ::by_ref<T2> arg2,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T5> arg5, /* [IsReadOnly] */ ::by_ref<T6> arg6,
-                                                                                              /* [IsReadOnly] */ ::by_ref<T7> arg7, /* [IsReadOnly] */ ::by_ref<T8> arg8) {
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T3 const> arg3, /* [IsReadOnly] */ ::by_ref<T4 const> arg4,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T5 const> arg5, /* [IsReadOnly] */ ::by_ref<T6 const> arg6,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T7 const> arg7, /* [IsReadOnly] */ ::by_ref<T8 const> arg8) {
   static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                                           { "AppendFormat",
-                                                             { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>(),
-                                                               ::i2c::class_of<T4>(), ::i2c::class_of<T5>(), ::i2c::class_of<T6>(), ::i2c::class_of<T7>(), ::i2c::class_of<T8>() },
-                                                             { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U>>(), ::i2c::type_of<::by_ref<T0>>(), ::i2c::type_of<::by_ref<T1>>(),
-                                                               ::i2c::type_of<::by_ref<T2>>(), ::i2c::type_of<::by_ref<T3>>(), ::i2c::type_of<::by_ref<T4>>(), ::i2c::type_of<::by_ref<T5>>(),
-                                                               ::i2c::type_of<::by_ref<T6>>(), ::i2c::type_of<::by_ref<T7>>(), ::i2c::type_of<::by_ref<T8>>() } })));
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
+                                       { "AppendFormat",
+                                         { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>(),
+                                           ::i2c::class_of<T4>(), ::i2c::class_of<T5>(), ::i2c::class_of<T6>(), ::i2c::class_of<T7>(), ::i2c::class_of<T8>() },
+                                         { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U const>>(), ::i2c::type_of<::by_ref<T0 const>>(), ::i2c::type_of<::by_ref<T1 const>>(),
+                                           ::i2c::type_of<::by_ref<T2 const>>(), ::i2c::type_of<::by_ref<T3 const>>(), ::i2c::type_of<::by_ref<T4 const>>(), ::i2c::type_of<::by_ref<T5 const>>(),
+                                           ::i2c::type_of<::by_ref<T6 const>>(), ::i2c::type_of<::by_ref<T7 const>>(), ::i2c::type_of<::by_ref<T8 const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>(),
@@ -805,18 +810,19 @@ template <typename T, typename U, typename T0, typename T1, typename T2, typenam
       ::cordl_internals::value_type_constraint<T8> && ::cordl_internals::default_constructor_constraint<T8> && ::cordl_internals::type_constraint<T9, ::Unity::Collections::INativeList_1<uint8_t>*> &&
       ::cordl_internals::type_constraint<T9, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T9> && ::cordl_internals::default_constructor_constraint<T9>)
 inline ::Unity::Collections::FormatError
-Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0, /* [IsReadOnly] */ ::by_ref<T1> arg1,
-                                                     /* [IsReadOnly] */ ::by_ref<T2> arg2, /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4,
-                                                     /* [IsReadOnly] */ ::by_ref<T5> arg5, /* [IsReadOnly] */ ::by_ref<T6> arg6, /* [IsReadOnly] */ ::by_ref<T7> arg7,
-                                                     /* [IsReadOnly] */ ::by_ref<T8> arg8, /* [IsReadOnly] */ ::by_ref<T9> arg9) {
+Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                     /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2, /* [IsReadOnly] */ ::by_ref<T3 const> arg3,
+                                                     /* [IsReadOnly] */ ::by_ref<T4 const> arg4, /* [IsReadOnly] */ ::by_ref<T5 const> arg5, /* [IsReadOnly] */ ::by_ref<T6 const> arg6,
+                                                     /* [IsReadOnly] */ ::by_ref<T7 const> arg7, /* [IsReadOnly] */ ::by_ref<T8 const> arg8, /* [IsReadOnly] */ ::by_ref<T9 const> arg9) {
   static auto* ___internal_method_base = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                              { "AppendFormat",
-                                                { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>(),
-                                                  ::i2c::class_of<T4>(), ::i2c::class_of<T5>(), ::i2c::class_of<T6>(), ::i2c::class_of<T7>(), ::i2c::class_of<T8>(), ::i2c::class_of<T9>() },
-                                                { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U>>(), ::i2c::type_of<::by_ref<T0>>(), ::i2c::type_of<::by_ref<T1>>(),
-                                                  ::i2c::type_of<::by_ref<T2>>(), ::i2c::type_of<::by_ref<T3>>(), ::i2c::type_of<::by_ref<T4>>(), ::i2c::type_of<::by_ref<T5>>(),
-                                                  ::i2c::type_of<::by_ref<T6>>(), ::i2c::type_of<::by_ref<T7>>(), ::i2c::type_of<::by_ref<T8>>(), ::i2c::type_of<::by_ref<T9>>() } })));
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
+                          { "AppendFormat",
+                            { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>(), ::i2c::class_of<T4>(),
+                              ::i2c::class_of<T5>(), ::i2c::class_of<T6>(), ::i2c::class_of<T7>(), ::i2c::class_of<T8>(), ::i2c::class_of<T9>() },
+                            { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U const>>(), ::i2c::type_of<::by_ref<T0 const>>(), ::i2c::type_of<::by_ref<T1 const>>(),
+                              ::i2c::type_of<::by_ref<T2 const>>(), ::i2c::type_of<::by_ref<T3 const>>(), ::i2c::type_of<::by_ref<T4 const>>(), ::i2c::type_of<::by_ref<T5 const>>(),
+                              ::i2c::type_of<::by_ref<T6 const>>(), ::i2c::type_of<::by_ref<T7 const>>(), ::i2c::type_of<::by_ref<T8 const>>(), ::i2c::type_of<::by_ref<T9 const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>(),
@@ -991,10 +997,10 @@ template <typename T, typename T2>
            ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-inline int32_t Unity::Collections::FixedStringMethods::IndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other) {
+inline int32_t Unity::Collections::FixedStringMethods::IndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> other) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                                           { "IndexOf", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
+                                                           { "IndexOf", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2 const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, other);
 }
@@ -1003,12 +1009,12 @@ template <typename T, typename T2>
            ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-inline int32_t Unity::Collections::FixedStringMethods::IndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other, int32_t startIndex, int32_t distance) {
-  static auto* ___internal_method_base = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-          { "IndexOf", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+inline int32_t Unity::Collections::FixedStringMethods::IndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> other, int32_t startIndex, int32_t distance) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
+                                                           { "IndexOf",
+                                                             { ::i2c::class_of<T>(), ::i2c::class_of<T2>() },
+                                                             { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2 const>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, other, startIndex, distance);
 }
@@ -1017,10 +1023,10 @@ template <typename T, typename T2>
            ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-inline bool Unity::Collections::FixedStringMethods::Contains(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other) {
+inline bool Unity::Collections::FixedStringMethods::Contains(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> other) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                                           { "Contains", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
+                                                           { "Contains", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2 const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, fs, other);
 }
@@ -1061,10 +1067,10 @@ template <typename T, typename T2>
            ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-inline int32_t Unity::Collections::FixedStringMethods::LastIndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                                           { "LastIndexOf", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
+inline int32_t Unity::Collections::FixedStringMethods::LastIndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> other) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
+                                              { "LastIndexOf", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2 const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, other);
 }
@@ -1073,12 +1079,12 @@ template <typename T, typename T2>
            ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-inline int32_t Unity::Collections::FixedStringMethods::LastIndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other, int32_t startIndex, int32_t distance) {
+inline int32_t Unity::Collections::FixedStringMethods::LastIndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> other, int32_t startIndex, int32_t distance) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "LastIndexOf",
                                                              { ::i2c::class_of<T>(), ::i2c::class_of<T2>() },
-                                                             { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+                                                             { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2 const>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, other, startIndex, distance);
 }
@@ -1097,10 +1103,10 @@ template <typename T, typename T2>
            ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-inline int32_t Unity::Collections::FixedStringMethods::CompareTo(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other) {
+inline int32_t Unity::Collections::FixedStringMethods::CompareTo(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> other) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                                           { "CompareTo", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
+                                                           { "CompareTo", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2 const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, other);
 }
@@ -1119,10 +1125,10 @@ template <typename T, typename T2>
            ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-inline bool Unity::Collections::FixedStringMethods::Equals(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other) {
+inline bool Unity::Collections::FixedStringMethods::Equals(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> other) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                                           { "Equals", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
+                                                           { "Equals", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2 const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, fs, other);
 }
@@ -1198,10 +1204,10 @@ template <typename T, typename U>
            ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
-inline bool Unity::Collections::FixedStringMethods::StartsWith(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<U> other) {
+inline bool Unity::Collections::FixedStringMethods::StartsWith(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<U const> other) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                                           { "StartsWith", { ::i2c::class_of<T>(), ::i2c::class_of<U>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U>>() } })));
+                                                           { "StartsWith", { ::i2c::class_of<T>(), ::i2c::class_of<U>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, fs, other);
 }
@@ -1220,10 +1226,10 @@ template <typename T, typename U>
            ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
            ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> &&
            ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
-inline bool Unity::Collections::FixedStringMethods::EndsWith(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<U> other) {
+inline bool Unity::Collections::FixedStringMethods::EndsWith(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<U const> other) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
-                                                           { "EndsWith", { ::i2c::class_of<T>(), ::i2c::class_of<U>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U>>() } })));
+                                                           { "EndsWith", { ::i2c::class_of<T>(), ::i2c::class_of<U>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, fs, other);
 }

@@ -56,13 +56,13 @@ public:
   constexpr operator ::System::IFormattable*();
 
   /// @brief Method Angle, addr 0x6f2a91c, size 0x68, virtual false, abstract: false, final false
-  static inline float_t Angle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b);
+  static inline float_t Angle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b);
 
   /// @brief Method AngleAxis, addr 0x6f2a49c, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion AngleAxis(float_t angle, ::UnityEngine::Vector3 axis);
 
   /// @brief Method Dot, addr 0x6f2a80c, size 0x28, virtual false, abstract: false, final false
-  static inline float_t Dot(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b);
+  static inline float_t Dot(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b);
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6f2af20, size 0x160, virtual true, abstract: false, final false
@@ -74,7 +74,7 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6f2b174, size 0x104, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> other);
 
   /// @brief Method Euler, addr 0x6f2aac4, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Euler(::UnityEngine::Vector3 euler);
@@ -91,79 +91,81 @@ public:
 
   /// [FreeFunction("QuaternionScripting::AngleAxis", IsThreadSafe = true)]
   /// @brief Method Internal_AngleAxis, addr 0x6f2a3e0, size 0x68, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion Internal_AngleAxis(float_t angle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> axis);
+  static inline ::UnityEngine::Quaternion Internal_AngleAxis(float_t angle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> axis);
 
   /// @brief Method Internal_AngleAxis_Injected, addr 0x6f2a448, size 0x54, virtual false, abstract: false, final false
-  static inline void Internal_AngleAxis_Injected(float_t angle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> axis, ::by_ref<::UnityEngine::Quaternion> ret);
+  static inline void Internal_AngleAxis_Injected(float_t angle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> axis, ::by_ref<::UnityEngine::Quaternion> ret);
 
   /// [FreeFunction("EulerToQuaternion", IsThreadSafe = true)]
   /// @brief Method Internal_FromEulerRad, addr 0x6f2a250, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion Internal_FromEulerRad(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> euler);
+  static inline ::UnityEngine::Quaternion Internal_FromEulerRad(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> euler);
 
   /// @brief Method Internal_FromEulerRad_Injected, addr 0x6f2a2a8, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_FromEulerRad_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> euler, ::by_ref<::UnityEngine::Quaternion> ret);
+  static inline void Internal_FromEulerRad_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> euler, ::by_ref<::UnityEngine::Quaternion> ret);
 
   /// [FreeFunction("FromToQuaternionSafe", IsThreadSafe = true)]
   /// @brief Method Internal_FromToRotation, addr 0x6f29d84, size 0x60, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion Internal_FromToRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> fromDirection, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> toDirection);
+  static inline ::UnityEngine::Quaternion Internal_FromToRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> fromDirection,
+                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> toDirection);
 
   /// @brief Method Internal_FromToRotation_Injected, addr 0x6f29de4, size 0x54, virtual false, abstract: false, final false
-  static inline void Internal_FromToRotation_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> fromDirection, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> toDirection,
+  static inline void Internal_FromToRotation_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> fromDirection, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> toDirection,
                                                       ::by_ref<::UnityEngine::Quaternion> ret);
 
   /// [FreeFunction("QuaternionScripting::Inverse", IsThreadSafe = true)]
   /// @brief Method Internal_Inverse, addr 0x6f29e68, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion Internal_Inverse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> rotation);
+  static inline ::UnityEngine::Quaternion Internal_Inverse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> rotation);
 
   /// @brief Method Internal_Inverse_Injected, addr 0x6f29ec0, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_Inverse_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> rotation, ::by_ref<::UnityEngine::Quaternion> ret);
+  static inline void Internal_Inverse_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> rotation, ::by_ref<::UnityEngine::Quaternion> ret);
 
   /// [FreeFunction("QuaternionScripting::Lerp", IsThreadSafe = true)]
   /// @brief Method Internal_Lerp, addr 0x6f2a0d0, size 0x70, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion Internal_Lerp(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b, float_t t);
+  static inline ::UnityEngine::Quaternion Internal_Lerp(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b, float_t t);
 
   /// @brief Method Internal_Lerp_Injected, addr 0x6f2a140, size 0x64, virtual false, abstract: false, final false
-  static inline void Internal_Lerp_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b, float_t t,
+  static inline void Internal_Lerp_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b, float_t t,
                                             ::by_ref<::UnityEngine::Quaternion> ret);
 
   /// [FreeFunction("QuaternionScripting::LookRotation", IsThreadSafe = true)]
   /// @brief Method Internal_LookRotation, addr 0x6f2a4c0, size 0x60, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion Internal_LookRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> forward,
-                                                                /* [IsReadOnly] [DefaultValue("Vector3.up")] */ ::by_ref<::UnityEngine::Vector3> upwards);
+  static inline ::UnityEngine::Quaternion Internal_LookRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> forward,
+                                                                /* [IsReadOnly] [DefaultValue("Vector3.up")] */ ::by_ref<::UnityEngine::Vector3 const> upwards);
 
   /// @brief Method Internal_LookRotation_Injected, addr 0x6f2a520, size 0x54, virtual false, abstract: false, final false
-  static inline void Internal_LookRotation_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> forward,
-                                                    /* [IsReadOnly] [DefaultValue("Vector3.up")] */ ::by_ref<::UnityEngine::Vector3> upwards, ::by_ref<::UnityEngine::Quaternion> ret);
+  static inline void Internal_LookRotation_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> forward,
+                                                    /* [IsReadOnly] [DefaultValue("Vector3.up")] */ ::by_ref<::UnityEngine::Vector3 const> upwards, ::by_ref<::UnityEngine::Quaternion> ret);
 
   /// @brief Method Internal_MakePositive, addr 0x6f2a984, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Internal_MakePositive(::UnityEngine::Vector3 euler);
 
   /// [FreeFunction("QuaternionScripting::Slerp", IsThreadSafe = true)]
   /// @brief Method Internal_Slerp, addr 0x6f29f28, size 0x70, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion Internal_Slerp(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b, float_t t);
+  static inline ::UnityEngine::Quaternion Internal_Slerp(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b, float_t t);
 
   /// [FreeFunction("QuaternionScripting::SlerpUnclamped", IsThreadSafe = true)]
   /// @brief Method Internal_SlerpUnclamped, addr 0x6f29ffc, size 0x70, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion Internal_SlerpUnclamped(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b, float_t t);
+  static inline ::UnityEngine::Quaternion Internal_SlerpUnclamped(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b,
+                                                                  float_t t);
 
   /// @brief Method Internal_SlerpUnclamped_Injected, addr 0x6f2a06c, size 0x64, virtual false, abstract: false, final false
-  static inline void Internal_SlerpUnclamped_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b, float_t t,
+  static inline void Internal_SlerpUnclamped_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b, float_t t,
                                                       ::by_ref<::UnityEngine::Quaternion> ret);
 
   /// @brief Method Internal_Slerp_Injected, addr 0x6f29f98, size 0x64, virtual false, abstract: false, final false
-  static inline void Internal_Slerp_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b, float_t t,
+  static inline void Internal_Slerp_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b, float_t t,
                                              ::by_ref<::UnityEngine::Quaternion> ret);
 
   /// [FreeFunction("QuaternionScripting::ToAxisAngle", IsThreadSafe = true)]
   /// @brief Method Internal_ToAxisAngleRad, addr 0x6f2a38c, size 0x54, virtual false, abstract: false, final false
-  static inline void Internal_ToAxisAngleRad(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> q, ::by_ref<::UnityEngine::Vector3> axis, ::by_ref<float_t> angle);
+  static inline void Internal_ToAxisAngleRad(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> q, ::by_ref<::UnityEngine::Vector3> axis, ::by_ref<float_t> angle);
 
   /// [FreeFunction("QuaternionScripting::ToEuler", IsThreadSafe = true)]
   /// @brief Method Internal_ToEulerRad, addr 0x6f2a2ec, size 0x5c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 Internal_ToEulerRad(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> rotation);
+  static inline ::UnityEngine::Vector3 Internal_ToEulerRad(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> rotation);
 
   /// @brief Method Internal_ToEulerRad_Injected, addr 0x6f2a348, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_ToEulerRad_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> rotation, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void Internal_ToEulerRad_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> rotation, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// @brief Method Inverse, addr 0x6f29f04, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Inverse(::UnityEngine::Quaternion rotation);
@@ -182,11 +184,11 @@ public:
   static inline ::UnityEngine::Quaternion LookRotation(::UnityEngine::Vector3 forward, /* [DefaultValue("Vector3.up")] */ ::UnityEngine::Vector3 upwards);
 
   /// @brief Method LookRotation, addr 0x6f2a5a4, size 0x4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion LookRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> forward,
-                                                       /* [DefaultValue("Vector3.up")] [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> upwards);
+  static inline ::UnityEngine::Quaternion LookRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> forward,
+                                                       /* [DefaultValue("Vector3.up")] [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> upwards);
 
   /// @brief Method Normalize, addr 0x6f2ac50, size 0xd0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion Normalize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> q);
+  static inline ::UnityEngine::Quaternion Normalize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> q);
 
   /// @brief Method Normalize, addr 0x6f2ad20, size 0xc4, virtual false, abstract: false, final false
   inline void Normalize();
@@ -202,7 +204,7 @@ public:
   inline void SetLookRotation(::UnityEngine::Vector3 view, /* [DefaultValue("Vector3.up")] */ ::UnityEngine::Vector3 up);
 
   /// @brief Method SetLookRotation, addr 0x6f2a8f8, size 0x24, virtual false, abstract: false, final false
-  inline void SetLookRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> view, /* [IsReadOnly] [DefaultValue("Vector3.up")] */ ::by_ref<::UnityEngine::Vector3> up);
+  inline void SetLookRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> view, /* [IsReadOnly] [DefaultValue("Vector3.up")] */ ::by_ref<::UnityEngine::Vector3 const> up);
 
   /// @brief Method Slerp, addr 0x6f2a1a4, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Slerp(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b, float_t t);
@@ -211,7 +213,7 @@ public:
   static inline ::UnityEngine::Quaternion SlerpUnclamped(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b, float_t t);
 
   /// @brief Method SlerpUnclamped, addr 0x6f2a24c, size 0x4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion SlerpUnclamped(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> b, float_t t);
+  static inline ::UnityEngine::Quaternion SlerpUnclamped(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> b, float_t t);
 
   /// @brief Method ToAngleAxis, addr 0x6f2ab08, size 0x6c, virtual false, abstract: false, final false
   inline void ToAngleAxis(::by_ref<float_t> angle, ::by_ref<::UnityEngine::Vector3> axis);

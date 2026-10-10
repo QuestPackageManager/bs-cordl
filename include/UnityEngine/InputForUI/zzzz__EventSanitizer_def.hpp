@@ -38,7 +38,7 @@ public:
   inline void BeforeProviderUpdate();
 
   /// @brief Method Inspect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Inspect(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev);
+  inline void Inspect(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event const> ev);
 
   /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset();
@@ -70,7 +70,7 @@ public:
   inline void BeforeProviderUpdate();
 
   /// @brief Method Inspect, addr 0x6fbb79c, size 0x104, virtual false, abstract: false, final false
-  inline void Inspect(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev);
+  inline void Inspect(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event const> ev);
 
   /// @brief Method Reset, addr 0x6fbb8a0, size 0x110, virtual false, abstract: false, final false
   inline void Reset();

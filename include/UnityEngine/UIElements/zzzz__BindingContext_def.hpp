@@ -43,8 +43,8 @@ public:
   __declspec(property(get = get_targetElement)) ::UnityEngine::UIElements::VisualElement* targetElement;
 
   /// @brief Method .ctor, addr 0x7086398, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::VisualElement* targetElement, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
-                    /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> resolvedDataSourcePath, ::System::Object* resolvedDataSource);
+  inline void _ctor(::UnityEngine::UIElements::VisualElement* targetElement, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
+                    /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> resolvedDataSourcePath, ::System::Object* resolvedDataSource);
 
   /// @brief Method get_bindingId, addr 0x7086370, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingId get_bindingId();

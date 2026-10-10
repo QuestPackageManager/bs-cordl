@@ -1406,7 +1406,7 @@ public:
   inline void BeginRenderGraphXRRendering(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
   /// @brief Method CalculateBillboardProperties, addr 0x6c9c208, size 0x410, virtual false, abstract: false, final false
-  static inline void CalculateBillboardProperties(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> worldToCameraMatrix, ::by_ref<::UnityEngine::Vector3> billboardTangent,
+  static inline void CalculateBillboardProperties(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> worldToCameraMatrix, ::by_ref<::UnityEngine::Vector3> billboardTangent,
                                                   ::by_ref<::UnityEngine::Vector3> billboardNormal, ::by_ref<float_t> cameraXZAngle);
 
   /// @brief Method CalculateSplitEventRange, addr 0x6c9f5cc, size 0x108, virtual false, abstract: false, final false
@@ -1485,7 +1485,7 @@ public:
   inline void OnFinishRenderGraphRendering(::UnityEngine::Rendering::CommandBuffer* cmd);
 
   /// @brief Method OnPreCullRenderPasses, addr 0x6c9fa08, size 0xd0, virtual false, abstract: false, final false
-  inline void OnPreCullRenderPasses(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
+  inline void OnPreCullRenderPasses(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData);
 
   /// @brief Method OnRecordRenderGraph, addr 0x6c9d6d0, size 0x4, virtual true, abstract: false, final false
   inline void OnRecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ScriptableRenderContext context);
@@ -1529,8 +1529,8 @@ public:
   inline void SetPerCameraBillboardProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
   /// @brief Method SetPerCameraClippingPlaneProperties, addr 0x6c9c618, size 0x22c, virtual false, abstract: false, final false
-  inline void SetPerCameraClippingPlaneProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData,
-                                                  bool isTargetFlipped);
+  inline void SetPerCameraClippingPlaneProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
+                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData* const> cameraData, bool isTargetFlipped);
 
   /// @brief Method SetPerCameraShaderVariables, addr 0x6c9b844, size 0x7f4, virtual false, abstract: false, final false
   inline void SetPerCameraShaderVariables(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
@@ -1555,7 +1555,7 @@ public:
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
   /// @brief Method SetupRenderPasses, addr 0x6c9b350, size 0x4, virtual false, abstract: false, final false
-  inline void SetupRenderPasses(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
+  inline void SetupRenderPasses(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData const> renderingData);
 
   /// @brief Method SortStable, addr 0x6c9f130, size 0x130, virtual false, abstract: false, final false
   static inline void SortStable(::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::ScriptableRenderPass*>* list);

@@ -506,8 +506,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
 //  Writing Method size for method: ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc>,
-                                                                                                                           ::UnityEngine::ComputeShader*, ::UnityEngine::ComputeShader*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(
+    ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc const>, ::UnityEngine::ComputeShader*, ::UnityEngine::ComputeShader*)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::_ctor)> {
   constexpr static std::size_t size = 0x3bc;
   constexpr static std::size_t addrs = 0x6dff5cc;
@@ -516,7 +516,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
                                                                                            { ".ctor",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc>>(),
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc const>>(),
                                                                                                ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<::UnityEngine::ComputeShader*>() } })));
     return ___internal_method;
   }
@@ -785,17 +785,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 //  Writing Method size for method: ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool.FindSubmeshEntryInDesc
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::by_ref<::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolSubmeshData>>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::by_ref<::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolSubmeshData> const>)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::FindSubmeshEntryInDesc)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6e05ce8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
-                         { "FindSubmeshEntryInDesc", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolSubmeshData>>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
+            { "FindSubmeshEntryInDesc", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolSubmeshData> const>>() } })));
     return ___internal_method;
   }
 };
@@ -818,8 +818,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool.Register
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolEntryDesc>,
-                                                                                                                           ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(
+    ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolEntryDesc const>, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle>)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::Register)> {
   constexpr static std::size_t size = 0x6c0;
   constexpr static std::size_t addrs = 0x6e05d2c;
@@ -828,7 +828,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
                                                                                            { "Register",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolEntryDesc>>(),
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolEntryDesc const>>(),
                                                                                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle>>() } })));
     return ___internal_method;
   }
@@ -913,21 +913,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(
-    ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::IndexFormat, ::by_ref<::UnityEngine::GraphicsBuffer*>,
-    ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>, int32_t, int32_t, int32_t, int32_t, ::UnityEngine::GraphicsBuffer*)>(
+    ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::IndexFormat, ::by_ref<::UnityEngine::GraphicsBuffer* const>,
+    ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>, int32_t, int32_t, int32_t, int32_t, ::UnityEngine::GraphicsBuffer*)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::AddIndexUpdateCommand)> {
   constexpr static std::size_t size = 0x28c;
   constexpr static std::size_t addrs = 0x6e058d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
-                            { "AddIndexUpdateCommand",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::IndexFormat>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::GraphicsBuffer*>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>>(),
-                                ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
+                                                { "AddIndexUpdateCommand",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::IndexFormat>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::GraphicsBuffer* const>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>>(), ::i2c::type_of<int32_t>(),
+                                                    ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>() } })));
     return ___internal_method;
   }
 };
@@ -935,9 +935,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(
-    ::UnityEngine::Rendering::CommandBuffer*, int32_t, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo>,
-    ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo>, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo>,
-    ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo>, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>,
+    ::UnityEngine::Rendering::CommandBuffer*, int32_t, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const>,
+    ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const>, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const>,
+    ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const>, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>,
     ::UnityEngine::GraphicsBuffer*)>(&::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::AddVertexUpdateCommand)> {
   constexpr static std::size_t size = 0x498;
   constexpr static std::size_t addrs = 0x6e0543c;
@@ -949,11 +949,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                             { "AddVertexUpdateCommand",
                               {},
                               { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<int32_t>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>() } })));
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>() } })));
     return ___internal_method;
   }
 };
@@ -1330,12 +1330,12 @@ inline int32_t UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::get_mesh
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(), { "get_meshChunkTablesEntryCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc> desc,
+inline void UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc const> desc,
                                                                            ::UnityEngine::ComputeShader* geometryPoolShader, ::UnityEngine::ComputeShader* copyShader) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
                                                                                          { ".ctor",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc>>(),
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc const>>(),
                                                                                              ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<::UnityEngine::ComputeShader*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, desc, geometryPoolShader, copyShader);
 }
@@ -1445,12 +1445,12 @@ inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle UnityEngi
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle>(this, ___internal_method, mesh);
 }
 inline int32_t UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::FindSubmeshEntryInDesc(
-    int32_t submeshIndex, /* [IsReadOnly] */ ::by_ref<::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolSubmeshData>> submeshData) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
-                       { "FindSubmeshEntryInDesc", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolSubmeshData>>>() } })));
+    int32_t submeshIndex, /* [IsReadOnly] */ ::by_ref<::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolSubmeshData> const> submeshData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
+          { "FindSubmeshEntryInDesc", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolSubmeshData> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, submeshIndex, submeshData);
 }
 inline bool UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::Register(::UnityEngine::Mesh* mesh, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle> outHandle) {
@@ -1460,12 +1460,12 @@ inline bool UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::Register(::
                                        { "Register", {}, { ::i2c::type_of<::UnityEngine::Mesh*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, mesh, outHandle);
 }
-inline bool UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::Register(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolEntryDesc> entryDesc,
+inline bool UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::Register(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolEntryDesc const> entryDesc,
                                                                               ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle> outHandle) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
                                                                                          { "Register",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolEntryDesc>>(),
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolEntryDesc const>>(),
                                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, entryDesc, outHandle);
 }
@@ -1499,42 +1499,43 @@ inline ::UnityEngine::Rendering::CommandBuffer* UnityEngine::Rendering::UnifiedR
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(), { "AllocateCommandBuffer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::CommandBuffer*>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::AddIndexUpdateCommand(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, ::UnityEngine::Rendering::IndexFormat inputFormat,
-                                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::GraphicsBuffer*> inputBuffer,
-                                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation> location,
-                                                                                           int32_t firstVertex, int32_t inputOffset, int32_t indexCount, int32_t outputOffset,
-                                                                                           ::UnityEngine::GraphicsBuffer* outputIdxBuffer) {
+inline void UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::AddIndexUpdateCommand(
+    ::UnityEngine::Rendering::CommandBuffer* cmdBuffer, ::UnityEngine::Rendering::IndexFormat inputFormat, /* [IsReadOnly] */ ::by_ref<::UnityEngine::GraphicsBuffer* const> inputBuffer,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const> location, int32_t firstVertex, int32_t inputOffset, int32_t indexCount,
+    int32_t outputOffset, ::UnityEngine::GraphicsBuffer* outputIdxBuffer) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
+                                                           { "AddIndexUpdateCommand",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::IndexFormat>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::GraphicsBuffer* const>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>>(), ::i2c::type_of<int32_t>(),
+                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmdBuffer, inputFormat, inputBuffer, location, firstVertex, inputOffset, indexCount, outputOffset, outputIdxBuffer);
+}
+inline void
+UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::AddVertexUpdateCommand(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, int32_t baseVertexOffset,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const> pos,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const> uv0,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const> uv1,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const> n,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const> location,
+                                                                                ::UnityEngine::GraphicsBuffer* outputVertexBuffer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
-                          { "AddIndexUpdateCommand",
+                          { "AddVertexUpdateCommand",
                             {},
-                            { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::IndexFormat>(),
-                              ::i2c::type_of<::by_ref<::UnityEngine::GraphicsBuffer*>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>>(),
-                              ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmdBuffer, inputFormat, inputBuffer, location, firstVertex, inputOffset, indexCount, outputOffset, outputIdxBuffer);
-}
-inline void UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::AddVertexUpdateCommand(
-    ::UnityEngine::Rendering::CommandBuffer* cmdBuffer, int32_t baseVertexOffset, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo> pos,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo> uv0,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo> uv1,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo> n,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation> location, ::UnityEngine::GraphicsBuffer* outputVertexBuffer) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
-                                       { "AddVertexUpdateCommand",
-                                         {},
-                                         { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<int32_t>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>() } })));
+                            { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<int32_t>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmdBuffer, baseVertexOffset, pos, uv0, uv1, n, location, outputVertexBuffer);
 }
 inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*
-UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::New_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc> desc,
+UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::New_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc const> desc,
                                                                   ::UnityEngine::ComputeShader* geometryPoolShader, ::UnityEngine::ComputeShader* copyShader) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(desc, geometryPoolShader, copyShader));
 }

@@ -256,7 +256,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCullingBatcher::*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>)>(
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>)>(
     &::UnityEngine::Rendering::InstanceCullingBatcher::RegisterBatchMaterials)> {
   constexpr static std::size_t size = 0x62c;
   constexpr static std::size_t addrs = 0x6c52124;
@@ -266,8 +266,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcher*>(),
                                                              { "RegisterBatchMaterials",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>() } })));
+                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>() } })));
     return ___internal_method;
   }
 };
@@ -294,7 +294,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle 
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCullingBatcher::*)(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>,
-                                                                                                                  ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>, bool)>(
+                                                                                                                  ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>, bool)>(
     &::UnityEngine::Rendering::InstanceCullingBatcher::BuildBatch)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x6c5284c;
@@ -305,7 +305,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                              { "BuildBatch",
                                                                {},
                                                                { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>>(), ::i2c::type_of<bool>() } })));
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -606,14 +606,14 @@ inline void UnityEngine::Rendering::InstanceCullingBatcher::RegisterBatchMeshes(
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, meshIDs);
 }
 inline void UnityEngine::Rendering::InstanceCullingBatcher::RegisterBatchMaterials(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> usedMaterialIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> usedPackedMaterialDatas) {
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> usedMaterialIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> usedPackedMaterialDatas) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcher*>(),
                                                            { "RegisterBatchMaterials",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>>() } })));
+                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                                                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, usedMaterialIDs, usedPackedMaterialDatas);
 }
 inline ::Unity::Jobs::JobHandle
@@ -628,14 +628,14 @@ UnityEngine::Rendering::InstanceCullingBatcher::SchedulePackedMaterialCacheUpdat
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(this, ___internal_method, materialIDs, packedMaterialDatas);
 }
 inline void UnityEngine::Rendering::InstanceCullingBatcher::BuildBatch(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
-                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
                                                                        bool registerMaterialsAndMeshes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcher*>(),
                                                            { "BuildBatch",
                                                              {},
                                                              { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>>(), ::i2c::type_of<bool>() } })));
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, instances, rendererData, registerMaterialsAndMeshes);
 }
 inline void UnityEngine::Rendering::InstanceCullingBatcher::InstanceOccludersUpdated(int32_t viewInstanceID, int32_t subviewMask) {

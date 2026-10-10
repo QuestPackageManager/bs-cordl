@@ -353,7 +353,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Avatar.Internal_GetZYPostQ_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Quaternion>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Quaternion const>,
                                                                 ::by_ref<::UnityEngine::Quaternion>)>(&::UnityEngine::Avatar::Internal_GetZYPostQ_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x6e95464;
@@ -363,15 +363,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Avatar*>(), { "Internal_GetZYPostQ_Injected",
                                                                          {},
-                                                                         { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+                                                                         { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Avatar.Internal_GetZYRoll_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Avatar::Internal_GetZYRoll_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6e954d0;
@@ -380,7 +380,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Avatar*>(), { "Internal_GetZYRoll_Injected",
                                                                                                                                         {},
                                                                                                                                         { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(),
-                                                                                                                                          ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                                                                                          ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
                                                                                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
     return ___internal_method;
   }
@@ -531,23 +531,22 @@ inline void UnityEngine::Avatar::Internal_GetPostRotation_Injected(::System::Int
                           { "Internal_GetPostRotation_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, humanId, ret);
 }
-inline void UnityEngine::Avatar::Internal_GetZYPostQ_Injected(::System::IntPtr _unity_self, int32_t humanId, ::by_ref<::UnityEngine::Quaternion> parentQ, ::by_ref<::UnityEngine::Quaternion> q,
-                                                              ::by_ref<::UnityEngine::Quaternion> ret) {
+inline void UnityEngine::Avatar::Internal_GetZYPostQ_Injected(::System::IntPtr _unity_self, int32_t humanId, ::by_ref<::UnityEngine::Quaternion const> parentQ,
+                                                              ::by_ref<::UnityEngine::Quaternion const> q, ::by_ref<::UnityEngine::Quaternion> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Avatar*>(), { "Internal_GetZYPostQ_Injected",
                                                                        {},
-                                                                       { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                                         ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+                                                                       { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                         ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, humanId, parentQ, q, ret);
 }
-inline void UnityEngine::Avatar::Internal_GetZYRoll_Injected(::System::IntPtr _unity_self, int32_t humanId, ::by_ref<::UnityEngine::Vector3> uvw, ::by_ref<::UnityEngine::Quaternion> ret) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Avatar*>(), { "Internal_GetZYRoll_Injected",
-                                                                                    {},
-                                                                                    { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                      ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
+inline void UnityEngine::Avatar::Internal_GetZYRoll_Injected(::System::IntPtr _unity_self, int32_t humanId, ::by_ref<::UnityEngine::Vector3 const> uvw, ::by_ref<::UnityEngine::Quaternion> ret) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Avatar*>(), { "Internal_GetZYRoll_Injected",
+                                                                                                                                      {},
+                                                                                                                                      { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(),
+                                                                                                                                        ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                                                                                        ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, humanId, uvw, ret);
 }
 inline void UnityEngine::Avatar::Internal_GetLimitSign_Injected(::System::IntPtr _unity_self, int32_t humanId, ::by_ref<::UnityEngine::Vector3> ret) {

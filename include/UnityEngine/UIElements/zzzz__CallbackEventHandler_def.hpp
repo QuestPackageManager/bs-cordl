@@ -120,7 +120,7 @@ public:
   static inline ::UnityEngine::UIElements::CallbackEventHandler* New_ctor();
 
   /// @brief Method NotifyPropertyChanged, addr 0x7229ec0, size 0x1c4, virtual false, abstract: false, final false
-  inline void NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property);
+  inline void NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> property);
 
   /// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TEventType>

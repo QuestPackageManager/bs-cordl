@@ -479,13 +479,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::OcclusionCullingCommon.UseOcclusionDebug
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::OccluderContext>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::UseOcclusionDebug)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::OccluderContext const>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::UseOcclusionDebug)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6c69d28;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
-                                                                                           { "UseOcclusionDebug", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderContext>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
+                                                             { "UseOcclusionDebug", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderContext const>>() } })));
     return ___internal_method;
   }
 };
@@ -493,8 +494,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon::*)(
-    ::UnityEngine::Rendering::ComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::OccluderContext>, ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings>,
-    ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings>, ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader>, bool)>(
+    ::UnityEngine::Rendering::ComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::OccluderContext const>, ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings const>,
+    ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings const>, ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader const>, bool)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::PrepareCulling)> {
   constexpr static std::size_t size = 0x1cc;
   constexpr static std::size_t addrs = 0x6c69d38;
@@ -504,46 +505,48 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
                                                 { "PrepareCulling",
                                                   {},
-                                                  { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderContext>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader>>(), ::i2c::type_of<bool>() } })));
+                                                  { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderContext const>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings const>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings const>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader const>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::OcclusionCullingCommon.SetDepthPyramid
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader>, int32_t,
-                                                                ::by_ref<::UnityEngine::Rendering::OccluderHandles>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::SetDepthPyramid)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader const>, int32_t,
+                                                                ::by_ref<::UnityEngine::Rendering::OccluderHandles const>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::SetDepthPyramid)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x6c6a598;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
-                                                { "SetDepthPyramid",
-                                                  {},
-                                                  { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader>>(),
-                                                    ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
+                                         { "SetDepthPyramid",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader const>>(),
+                                             ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::OcclusionCullingCommon.SetDebugPyramid
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader>, int32_t,
-                                                                ::by_ref<::UnityEngine::Rendering::OccluderHandles>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::SetDebugPyramid)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader const>, int32_t,
+                                                                ::by_ref<::UnityEngine::Rendering::OccluderHandles const>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::SetDebugPyramid)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x6c6a634;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
-                                                { "SetDebugPyramid",
-                                                  {},
-                                                  { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader>>(),
-                                                    ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
+                                         { "SetDebugPyramid",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader const>>(),
+                                             ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles const>>() } })));
     return ___internal_method;
   }
 };
@@ -552,7 +555,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*, int32_t,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::RenderDebugOcclusionTestOverlay)> {
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::RenderDebugOcclusionTestOverlay)> {
   constexpr static std::size_t size = 0x878;
   constexpr static std::size_t addrs = 0x6c6a718;
 
@@ -563,7 +566,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                          { "RenderDebugOcclusionTestOverlay",
                                            {},
                                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                                             ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+                                             ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
     return ___internal_method;
   }
 };
@@ -572,18 +575,18 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*, ::UnityEngine::Vector2, float_t,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::RenderDebugOccluderOverlay)> {
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::RenderDebugOccluderOverlay)> {
   constexpr static std::size_t size = 0x598;
   constexpr static std::size_t addrs = 0x6c6b104;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
-                            { "RenderDebugOccluderOverlay",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                                ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
+                                                             { "RenderDebugOccluderOverlay",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
+                                                                 ::i2c::type_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(), ::i2c::type_of<::UnityEngine::Vector2>(),
+                                                                 ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
     return ___internal_method;
   }
 };
@@ -606,16 +609,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::OccluderHandles (::UnityEngine::Rendering::OcclusionCullingCommon::*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::OccluderParameters>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::PrepareOccluders)> {
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::OccluderParameters const>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::PrepareOccluders)> {
   constexpr static std::size_t size = 0x250;
   constexpr static std::size_t addrs = 0x6c6b69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
-            { "PrepareOccluders", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters>>() } })));
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
+                            { "PrepareOccluders",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters const>>() } })));
     return ___internal_method;
   }
 };
@@ -623,8 +627,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon::*)(
-    ::UnityEngine::Rendering::ComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::OccluderParameters>, ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>,
-    ::by_ref<::UnityEngine::Rendering::OccluderHandles>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::CreateFarDepthPyramid)> {
+    ::UnityEngine::Rendering::ComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::OccluderParameters const>, ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>,
+    ::by_ref<::UnityEngine::Rendering::OccluderHandles const>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::CreateFarDepthPyramid)> {
   constexpr static std::size_t size = 0x224;
   constexpr static std::size_t addrs = 0x6c6bd88;
 
@@ -633,9 +637,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
                                                 { "CreateFarDepthPyramid",
                                                   {},
-                                                  { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters>>(),
+                                                  { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters const>>(),
                                                     ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles>>() } })));
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles const>>() } })));
     return ___internal_method;
   }
 };
@@ -643,19 +647,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::OcclusionCullingCommon::*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::OccluderParameters>, ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>)>(
-    &::UnityEngine::Rendering::OcclusionCullingCommon::UpdateInstanceOccluders)> {
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::OccluderParameters const>,
+    ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::UpdateInstanceOccluders)> {
   constexpr static std::size_t size = 0x79c;
   constexpr static std::size_t addrs = 0x6c6bfac;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
-                                         { "UpdateInstanceOccluders",
-                                           {},
-                                           { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters>>(),
-                                             ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
+                                                                                           { "UpdateInstanceOccluders",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters const>>(),
+                                                                                               ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>() } })));
     return ___internal_method;
   }
 };
@@ -1058,71 +1061,74 @@ inline void UnityEngine::Rendering::OcclusionCullingCommon::Init(::UnityEngine::
                                                                                          { "Init", {}, { ::i2c::type_of<::UnityEngine::Rendering::GPUResidentDrawerResources*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, resources);
 }
-inline bool UnityEngine::Rendering::OcclusionCullingCommon::UseOcclusionDebug(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
-                                                                                         { "UseOcclusionDebug", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderContext>>() } })));
+inline bool UnityEngine::Rendering::OcclusionCullingCommon::UseOcclusionDebug(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext const> occluderCtx) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
+                                                           { "UseOcclusionDebug", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderContext const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, occluderCtx);
 }
 inline void UnityEngine::Rendering::OcclusionCullingCommon::PrepareCulling(::UnityEngine::Rendering::ComputeCommandBuffer* cmd,
-                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx,
-                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
-                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings> subviewSettings,
-                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader> shader, bool useOcclusionDebug) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
-                                                           { "PrepareCulling",
-                                                             {},
-                                                             { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderContext>>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings>>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings>>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader>>(), ::i2c::type_of<bool>() } })));
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext const> occluderCtx,
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings const> settings,
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings const> subviewSettings,
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader const> shader, bool useOcclusionDebug) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
+                                              { "PrepareCulling",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderContext const>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings const>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings const>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader const>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, occluderCtx, settings, subviewSettings, shader, useOcclusionDebug);
 }
 inline void UnityEngine::Rendering::OcclusionCullingCommon::SetDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd,
-                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader> shader, int32_t kernel,
-                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
-                                              { "SetDepthPyramid",
-                                                {},
-                                                { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader>>(),
-                                                  ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles>>() } })));
+                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader const> shader, int32_t kernel,
+                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles const> occluderHandles) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
+                                       { "SetDepthPyramid",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader const>>(),
+                                           ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, shader, kernel, occluderHandles);
 }
 inline void UnityEngine::Rendering::OcclusionCullingCommon::SetDebugPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd,
-                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader> shader, int32_t kernel,
-                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
-                                              { "SetDebugPyramid",
-                                                {},
-                                                { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader>>(),
-                                                  ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles>>() } })));
+                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader const> shader, int32_t kernel,
+                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles const> occluderHandles) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
+                                       { "SetDebugPyramid",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader const>>(),
+                                           ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, shader, kernel, occluderHandles);
 }
 inline void UnityEngine::Rendering::OcclusionCullingCommon::RenderDebugOcclusionTestOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                             ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* debugSettings, int32_t viewInstanceID,
-                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> colorBuffer) {
+                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> colorBuffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
                                        { "RenderDebugOcclusionTestOverlay",
                                          {},
                                          { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                                           ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+                                           ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, debugSettings, viewInstanceID, colorBuffer);
 }
 inline void UnityEngine::Rendering::OcclusionCullingCommon::RenderDebugOccluderOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                        ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* debugSettings, ::UnityEngine::Vector2 screenPos,
                                                                                        float_t maxHeight,
-                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> colorBuffer) {
+                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> colorBuffer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
                           { "RenderDebugOccluderOverlay",
                             {},
                             { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
-                              ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+                              ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, debugSettings, screenPos, maxHeight, colorBuffer);
 }
 inline void UnityEngine::Rendering::OcclusionCullingCommon::DispatchDebugClear(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, int32_t viewInstanceID) {
@@ -1133,36 +1139,38 @@ inline void UnityEngine::Rendering::OcclusionCullingCommon::DispatchDebugClear(:
 }
 inline ::UnityEngine::Rendering::OccluderHandles
 UnityEngine::Rendering::OcclusionCullingCommon::PrepareOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
-          { "PrepareOccluders", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::OccluderHandles>(this, ___internal_method, renderGraph, occluderParams);
-}
-inline void UnityEngine::Rendering::OcclusionCullingCommon::CreateFarDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd,
-                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
-                                                                                  ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates,
-                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles) {
+                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters const> occluderParams) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
-                          { "CreateFarDepthPyramid",
+                          { "PrepareOccluders",
                             {},
-                            { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters>>(),
-                              ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles>>() } })));
+                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::OccluderHandles>(this, ___internal_method, renderGraph, occluderParams);
+}
+inline void UnityEngine::Rendering::OcclusionCullingCommon::CreateFarDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd,
+                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters const> occluderParams,
+                                                                                  ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates,
+                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles const> occluderHandles) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
+                                              { "CreateFarDepthPyramid",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters const>>(),
+                                                  ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, occluderParams, occluderSubviewUpdates, occluderHandles);
 }
 inline bool UnityEngine::Rendering::OcclusionCullingCommon::UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
+                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters const> occluderParams,
                                                                                     ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
-                                              { "UpdateInstanceOccluders",
-                                                {},
-                                                { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters>>(),
-                                                  ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
+                                       { "UpdateInstanceOccluders",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters const>>(),
+                                           ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, renderGraph, occluderParams, occluderSubviewUpdates);
 }
 inline void UnityEngine::Rendering::OcclusionCullingCommon::UpdateSilhouettePlanes(int32_t viewInstanceID, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> planes) {

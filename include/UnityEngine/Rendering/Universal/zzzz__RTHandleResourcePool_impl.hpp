@@ -43,8 +43,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::RTHandleResourcePool.AddResourceToPool
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>, ::UnityEngine::Rendering::RTHandle*, int32_t)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::AddResourceToPool)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>,
+                                                                                                                           ::UnityEngine::Rendering::RTHandle*, int32_t)>(
+    &::UnityEngine::Rendering::Universal::RTHandleResourcePool::AddResourceToPool)> {
   constexpr static std::size_t size = 0x214;
   constexpr static std::size_t addrs = 0x6ce17a0;
 
@@ -52,7 +53,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(),
                                                                                            { "AddResourceToPool",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>(),
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
@@ -60,7 +61,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::RTHandleResourcePool.TryGetResource
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>,
                                                                                                                            ::by_ref<::UnityEngine::Rendering::RTHandle*>, bool)>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::TryGetResource)> {
   constexpr static std::size_t size = 0x1e8;
@@ -70,7 +71,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(),
                                                                                            { "TryGetResource",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>(),
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>(),
                                                                                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RTHandle*>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
@@ -130,15 +131,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::RTHandleResourcePool.GetHashCodeWithNameHash
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>)>(
-    &::UnityEngine::Rendering::Universal::RTHandleResourcePool::GetHashCodeWithNameHash)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::GetHashCodeWithNameHash)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x6ce19b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(),
-                                                             { "GetHashCodeWithNameHash", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>() } })));
+                                                             { "GetHashCodeWithNameHash", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>() } })));
     return ___internal_method;
   }
 };
@@ -229,21 +230,21 @@ inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::set_staleRe
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(), { "set_staleResourceCapacity", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline bool UnityEngine::Rendering::Universal::RTHandleResourcePool::AddResourceToPool(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc,
+inline bool UnityEngine::Rendering::Universal::RTHandleResourcePool::AddResourceToPool(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> texDesc,
                                                                                        ::UnityEngine::Rendering::RTHandle* resource, int32_t currentFrameIndex) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(),
                                                                                          { "AddResourceToPool",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>(),
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, texDesc, resource, currentFrameIndex);
 }
-inline bool UnityEngine::Rendering::Universal::RTHandleResourcePool::TryGetResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc,
+inline bool UnityEngine::Rendering::Universal::RTHandleResourcePool::TryGetResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> texDesc,
                                                                                     ::by_ref<::UnityEngine::Rendering::RTHandle*> resource, bool usepool) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(),
                                                                                          { "TryGetResource",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>(),
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>(),
                                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RTHandle*>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, texDesc, resource, usepool);
 }
@@ -265,10 +266,10 @@ inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::LogDebugInf
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(), { "LogDebugInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::Universal::RTHandleResourcePool::GetHashCodeWithNameHash(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc) {
+inline int32_t UnityEngine::Rendering::Universal::RTHandleResourcePool::GetHashCodeWithNameHash(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> texDesc) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(),
-                                                           { "GetHashCodeWithNameHash", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>() } })));
+                                                           { "GetHashCodeWithNameHash", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, texDesc);
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::TextureDesc

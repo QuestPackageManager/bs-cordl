@@ -58,8 +58,8 @@ public:
   inline bool ConnectInternal(::UnityEngine::Playables::PlayableHandle source, int32_t sourceOutputPort, ::UnityEngine::Playables::PlayableHandle destination, int32_t destinationInputPort);
 
   /// @brief Method ConnectInternal_Injected, addr 0x6f601cc, size 0x6c, virtual false, abstract: false, final false
-  static inline bool ConnectInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableHandle> source, int32_t sourceOutputPort,
-                                              ::by_ref<::UnityEngine::Playables::PlayableHandle> destination, int32_t destinationInputPort);
+  static inline bool ConnectInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableHandle const> source, int32_t sourceOutputPort,
+                                              ::by_ref<::UnityEngine::Playables::PlayableHandle const> destination, int32_t destinationInputPort);
 
   /// [FreeFunction("PlayableGraphBindings::CreatePlayableHandle", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method CreatePlayableHandle, addr 0x6f5f5d0, size 0x54, virtual false, abstract: false, final false
@@ -128,7 +128,7 @@ public:
   inline void SynchronizeEvaluation(::UnityEngine::Playables::PlayableGraph playable);
 
   /// @brief Method SynchronizeEvaluation_Injected, addr 0x6f5fe14, size 0x44, virtual false, abstract: false, final false
-  static inline void SynchronizeEvaluation_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableGraph> playable);
+  static inline void SynchronizeEvaluation_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableGraph const> playable);
 
   // Ctor Parameters []
   // @brief default ctor

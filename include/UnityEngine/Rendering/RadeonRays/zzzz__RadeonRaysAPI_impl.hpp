@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RadeonRays::MeshBuildInfo, ::UnityEngine::Rendering::RadeonRays::BuildFlags, ::UnityEngine::GraphicsBuffer*,
-    ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct>)>(&::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::BuildMeshAccelStruct)> {
+    ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const>)>(&::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::BuildMeshAccelStruct)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x6dfd618;
 
@@ -112,7 +112,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::RadeonRays::MeshBuildInfo>(),
                                                                  ::i2c::type_of<::UnityEngine::Rendering::RadeonRays::BuildFlags>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct>>() } })));
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const>>() } })));
     return ___internal_method;
   }
 };
@@ -283,14 +283,14 @@ inline int32_t UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::BvhLeafNodeSiz
 }
 inline void UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::BuildMeshAccelStruct(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RadeonRays::MeshBuildInfo buildInfo,
                                                                                     ::UnityEngine::Rendering::RadeonRays::BuildFlags buildFlags, ::UnityEngine::GraphicsBuffer* scratchBuffer,
-                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct> result) {
+                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const> result) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI*>(),
                                                            { "BuildMeshAccelStruct",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::RadeonRays::MeshBuildInfo>(),
                                                                ::i2c::type_of<::UnityEngine::Rendering::RadeonRays::BuildFlags>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct>>() } })));
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, buildInfo, buildFlags, scratchBuffer, result);
 }
 inline ::UnityEngine::Rendering::RadeonRays::MeshBuildMemoryRequirements

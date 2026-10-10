@@ -61,7 +61,7 @@ public:
   __declspec(property(get = getStaticF_s_EmptyName, put = setStaticF_s_EmptyName)) ::UnityEngine::Rendering::ShaderTagId s_EmptyName;
 
   /// @brief Method ConvertToParameters, addr 0x6f8bf00, size 0x750, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RendererListParams ConvertToParameters(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc> desc);
+  static inline ::UnityEngine::Rendering::RendererListParams ConvertToParameters(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc const> desc);
 
   /// @brief Method IsValid, addr 0x6f8bddc, size 0x124, virtual false, abstract: false, final false
   inline bool IsValid();

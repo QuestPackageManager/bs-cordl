@@ -66,7 +66,7 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6ed376c, size 0x40, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Plane> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Plane const> other);
 
   /// [IsReadOnly]
   /// @brief Method GetDistanceToPoint, addr 0x6ed3488, size 0x24, virtual false, abstract: false, final false
@@ -74,7 +74,7 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method GetDistanceToPoint, addr 0x6ed34ac, size 0x30, virtual false, abstract: false, final false
-  inline float_t GetDistanceToPoint(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> point);
+  inline float_t GetDistanceToPoint(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> point);
 
   /// [IsReadOnly]
   /// @brief Method GetHashCode, addr 0x6ed37ac, size 0x64, virtual true, abstract: false, final false

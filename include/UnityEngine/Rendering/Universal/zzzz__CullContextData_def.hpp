@@ -48,7 +48,7 @@ public:
   inline void Reset();
 
   /// @brief Method SetRenderContext, addr 0x6bf1c74, size 0x64, virtual false, abstract: false, final false
-  inline void SetRenderContext(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> renderContext);
+  inline void SetRenderContext(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const> renderContext);
 
   constexpr ::System::Nullable_1<::UnityEngine::Rendering::ScriptableRenderContext> const& __cordl_internal_get_m_RenderContext() const;
 

@@ -32,7 +32,7 @@ public:
   /// @brief Method FillArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  static inline void FillArray(::by_ref<::Unity::Collections::NativeArray_1<T>> array, /* [IsReadOnly] */ ::by_ref<T> value, int32_t startIndex, int32_t length);
+  static inline void FillArray(::by_ref<::Unity::Collections::NativeArray_1<T>> array, /* [IsReadOnly] */ ::by_ref<T const> value, int32_t startIndex, int32_t length);
 
   /// @brief Method ResizeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ResizeArray(::by_ref<::ArrayW<T>> array, int32_t capacity);

@@ -134,33 +134,33 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
 //  Writing Method size for method: ::UnityEngine::Rendering::PowerOfTwoTextureAtlas.GetPayloadScaleOffset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::PowerOfTwoTextureAtlas::*)(::UnityEngine::Texture*, ::by_ref<::UnityEngine::Vector4>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::PowerOfTwoTextureAtlas::*)(::UnityEngine::Texture*, ::by_ref<::UnityEngine::Vector4 const>)>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetPayloadScaleOffset)> {
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x6bc5164;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PowerOfTwoTextureAtlas*>(),
-                                                             { "GetPayloadScaleOffset", {}, { ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PowerOfTwoTextureAtlas*>(),
+                                                { "GetPayloadScaleOffset", {}, { ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::PowerOfTwoTextureAtlas.GetPayloadScaleOffset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::by_ref<::UnityEngine::Vector2>, ::by_ref<::UnityEngine::Vector2>, ::by_ref<::UnityEngine::Vector4>)>(
-    &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetPayloadScaleOffset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::by_ref<::UnityEngine::Vector2 const>, ::by_ref<::UnityEngine::Vector2 const>,
+                                                                                  ::by_ref<::UnityEngine::Vector4 const>)>(&::UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetPayloadScaleOffset)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x6bc52c0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PowerOfTwoTextureAtlas*>(),
-                            { "GetPayloadScaleOffset",
-                              {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PowerOfTwoTextureAtlas*>(),
+                                                             { "GetPayloadScaleOffset",
+                                                               {},
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
     return ___internal_method;
   }
 };
@@ -459,21 +459,22 @@ inline int32_t UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetTexturePadding
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PowerOfTwoTextureAtlas*>(), { "GetTexturePadding", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline ::UnityEngine::Vector4 UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetPayloadScaleOffset(::UnityEngine::Texture* texture, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> scaleOffset) {
+inline ::UnityEngine::Vector4 UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetPayloadScaleOffset(::UnityEngine::Texture* texture,
+                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> scaleOffset) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PowerOfTwoTextureAtlas*>(),
-                                                           { "GetPayloadScaleOffset", {}, { ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+                                                           { "GetPayloadScaleOffset", {}, { ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4>(this, ___internal_method, texture, scaleOffset);
 }
-inline ::UnityEngine::Vector4 UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetPayloadScaleOffset(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> textureSize,
-                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> paddingSize,
-                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> scaleOffset) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PowerOfTwoTextureAtlas*>(),
-                          { "GetPayloadScaleOffset",
-                            {},
-                            { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+inline ::UnityEngine::Vector4 UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetPayloadScaleOffset(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> textureSize,
+                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> paddingSize,
+                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> scaleOffset) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PowerOfTwoTextureAtlas*>(),
+                                                           { "GetPayloadScaleOffset",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4>(nullptr, ___internal_method, textureSize, paddingSize, scaleOffset);
 }
 inline void UnityEngine::Rendering::PowerOfTwoTextureAtlas::Blit2DTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector4 scaleOffset, ::UnityEngine::Texture* texture,

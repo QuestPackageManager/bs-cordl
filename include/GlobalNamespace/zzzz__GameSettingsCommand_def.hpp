@@ -277,7 +277,7 @@ public:
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
-  static inline ::StringW ToString(/* [IsReadOnly] */ ::by_ref<T> value);
+  static inline ::StringW ToString(/* [IsReadOnly] */ ::by_ref<T const> value);
 
   /// [CompilerGenerated]
   /// @brief Method <Initialize>b__12_0, addr 0x355c564, size 0x58, virtual false, abstract: false, final false

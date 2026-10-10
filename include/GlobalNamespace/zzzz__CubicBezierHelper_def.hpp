@@ -27,24 +27,25 @@ class CORDL_TYPE CubicBezierHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Method EstimateCurveLength, addr 0x35ae428, size 0x2f8, virtual false, abstract: false, final false
-  static inline float_t EstimateCurveLength(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p0, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p1,
-                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p3);
+  static inline float_t EstimateCurveLength(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p0, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p1,
+                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p3);
 
   /// @brief Method EvaluateCurve, addr 0x35adc10, size 0x90, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 EvaluateCurve(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c1,
-                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a2, float_t t);
+  static inline ::UnityEngine::Vector3 EvaluateCurve(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c1,
+                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a2, float_t t);
 
   /// @brief Method EvaluateCurveDerivative, addr 0x35adca0, size 0xb4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 EvaluateCurveDerivative(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c1,
-                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a2, float_t t);
+  static inline ::UnityEngine::Vector3 EvaluateCurveDerivative(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c1,
+                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a2, float_t t);
 
   /// @brief Method EvaluateCurveSecondDerivative, addr 0x35add54, size 0xa4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 EvaluateCurveSecondDerivative(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c1,
-                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a2, float_t t);
+  static inline ::UnityEngine::Vector3 EvaluateCurveSecondDerivative(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c1,
+                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a2,
+                                                                     float_t t);
 
   /// @brief Method Normal, addr 0x35addf8, size 0x170, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 Normal(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c1,
-                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a2, float_t t);
+  static inline ::UnityEngine::Vector3 Normal(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c1,
+                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a2, float_t t);
 
   /// @brief Method SplitCurve, addr 0x35adf68, size 0x4c0, virtual false, abstract: false, final false
   static inline void SplitCurve(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points, float_t t);

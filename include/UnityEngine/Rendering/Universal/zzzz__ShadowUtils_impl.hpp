@@ -646,13 +646,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::R
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::ShadowUtils.GetPunctualLightShadowSlicesCount
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::UnityEngine::LightType>)>(&::UnityEngine::Rendering::Universal::ShadowUtils::GetPunctualLightShadowSlicesCount)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::UnityEngine::LightType const>)>(&::UnityEngine::Rendering::Universal::ShadowUtils::GetPunctualLightShadowSlicesCount)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6cf2d10;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShadowUtils*>(),
-                                                                                           { "GetPunctualLightShadowSlicesCount", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LightType>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShadowUtils*>(),
+                                                             { "GetPunctualLightShadowSlicesCount", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LightType const>>() } })));
     return ___internal_method;
   }
 };
@@ -1046,9 +1047,9 @@ inline bool UnityEngine::Rendering::Universal::ShadowUtils::IsValidShadowCasting
                                                                ::i2c::type_of<::UnityEngine::LightType>(), ::i2c::type_of<::UnityEngine::LightShadows>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, lightData, i, lightType, lightShadows, shadowStrength);
 }
-inline int32_t UnityEngine::Rendering::Universal::ShadowUtils::GetPunctualLightShadowSlicesCount(/* [IsReadOnly] */ ::by_ref<::UnityEngine::LightType> lightType) {
+inline int32_t UnityEngine::Rendering::Universal::ShadowUtils::GetPunctualLightShadowSlicesCount(/* [IsReadOnly] */ ::by_ref<::UnityEngine::LightType const> lightType) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShadowUtils*>(),
-                                                                                         { "GetPunctualLightShadowSlicesCount", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LightType>>() } })));
+                                                                                         { "GetPunctualLightShadowSlicesCount", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LightType const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, lightType);
 }
 inline bool UnityEngine::Rendering::Universal::ShadowUtils::FastApproximately(float_t a, float_t b) {

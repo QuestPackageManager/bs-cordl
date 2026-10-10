@@ -111,13 +111,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Colo
 //  Writing Method size for method: ::UnityEngine::Color32.Equals
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Color32::*)(::by_ref<::UnityEngine::Color32>)>(&::UnityEngine::Color32::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Color32::*)(::by_ref<::UnityEngine::Color32 const>)>(&::UnityEngine::Color32::Equals)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6f24288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Color32>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color32>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Color32>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>() } })));
     return ___internal_method;
   }
 };
@@ -229,9 +229,9 @@ inline bool UnityEngine::Color32::Equals(::UnityEngine::Color32 other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Color32>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Color32>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline bool UnityEngine::Color32::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Color32> other) {
+inline bool UnityEngine::Color32::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Color32 const> other) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Color32>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color32>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Color32>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline ::StringW UnityEngine::Color32::ToString() {

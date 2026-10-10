@@ -193,7 +193,7 @@ public:
   /// @brief Field uploadAttemptCount, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_uploadAttemptCount, put = __cordl_internal_set_uploadAttemptCount)) int32_t uploadAttemptCount;
 
-  static inline ::GlobalNamespace::LeaderboardScoreUploader_ScoreData* New_ctor(uint64_t playerId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore,
+  static inline ::GlobalNamespace::LeaderboardScoreUploader_ScoreData* New_ctor(uint64_t playerId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, int32_t multipliedScore,
                                                                                 int32_t modifiedScore, bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount,
                                                                                 int32_t maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
@@ -270,8 +270,8 @@ public:
   constexpr void __cordl_internal_set_uploadAttemptCount(int32_t value);
 
   /// @brief Method .ctor, addr 0x39e0e2c, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(uint64_t playerId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore, int32_t modifiedScore, bool fullCombo, int32_t goodCutsCount,
-                    int32_t badCutsCount, int32_t missedCount, int32_t maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  inline void _ctor(uint64_t playerId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, int32_t multipliedScore, int32_t modifiedScore, bool fullCombo,
+                    int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   /// [CompilerGenerated]
   /// @brief Method get_badCutsCount, addr 0x39e0dfc, size 0x8, virtual false, abstract: false, final false

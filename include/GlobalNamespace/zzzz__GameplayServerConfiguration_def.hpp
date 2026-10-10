@@ -81,7 +81,7 @@ public:
   inline bool Equals(::GlobalNamespace::GameplayServerConfiguration other);
 
   /// @brief Method Equals, addr 0x3538824, size 0x6c, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration const> other);
 
   /// @brief Method GetHashCode, addr 0x3538960, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
@@ -108,10 +108,12 @@ public:
   constexpr ::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>* i___System__IEquatable_1___GlobalNamespace__GameplayServerConfiguration_();
 
   /// @brief Method op_Equality, addr 0x35389a0, size 0x4, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration const> a,
+                                 /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration const> b);
 
   /// @brief Method op_Inequality, addr 0x35389a4, size 0x18, virtual false, abstract: false, final false
-  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration const> a,
+                                   /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration const> b);
 
   // Ctor Parameters []
   // @brief default ctor

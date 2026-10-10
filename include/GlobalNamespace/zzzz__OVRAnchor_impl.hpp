@@ -686,7 +686,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::OVRAnchor_TrackerConfiguration.SetDynamicObjectState
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor_TrackerConfiguration::*)(::by_ref<::GlobalNamespace::OVRAnchor_TrackerConfiguration>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor_TrackerConfiguration::*)(::by_ref<::GlobalNamespace::OVRAnchor_TrackerConfiguration const>)>(
     &::GlobalNamespace::OVRAnchor_TrackerConfiguration::SetDynamicObjectState)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6223890;
@@ -694,7 +694,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor_TrackerConfiguration>(),
-                                                             { "SetDynamicObjectState", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRAnchor_TrackerConfiguration>>() } })));
+                                                             { "SetDynamicObjectState", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRAnchor_TrackerConfiguration const>>() } })));
     return ___internal_method;
   }
 };
@@ -829,10 +829,10 @@ inline void GlobalNamespace::OVRAnchor_TrackerConfiguration::ResetDynamicObjects
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor_TrackerConfiguration>(), { "ResetDynamicObjects", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OVRAnchor_TrackerConfiguration::SetDynamicObjectState(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRAnchor_TrackerConfiguration> other) {
+inline void GlobalNamespace::OVRAnchor_TrackerConfiguration::SetDynamicObjectState(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRAnchor_TrackerConfiguration const> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor_TrackerConfiguration>(),
-                                                           { "SetDynamicObjectState", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRAnchor_TrackerConfiguration>>() } })));
+                                                           { "SetDynamicObjectState", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRAnchor_TrackerConfiguration const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
 inline void GlobalNamespace::OVRAnchor_TrackerConfiguration::GetTrackableTypes(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes) {

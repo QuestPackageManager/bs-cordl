@@ -23,7 +23,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback::*)(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback::*)(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative const>,
                                                                                                                                ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*)>(
     &::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
@@ -40,7 +40,7 @@ inline void UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback::_ctor(:
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback::Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative> lodGroupDataNative,
+inline void UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback::Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative const> lodGroupDataNative,
                                                                                 ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* callback) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback*>(), 13 })));

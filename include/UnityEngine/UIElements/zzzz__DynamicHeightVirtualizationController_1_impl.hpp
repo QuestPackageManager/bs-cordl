@@ -630,14 +630,15 @@ template <typename T> inline void UnityEngine::UIElements::DynamicHeightVirtuali
 }
 template <typename T>
 inline float_t UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::_GetContentHeightForIndex_g__GetContentHeightFromCachedHeight_67_0(
-    int32_t index, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1_ContentHeightCacheInfo<T>> heightInfo,
+    int32_t index, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1_ContentHeightCacheInfo<T> const> heightInfo,
     ::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1___c__DisplayClass67_0<T>> _cordl_fixed_empty_name_whitespace) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>*>(),
-                                              { "<GetContentHeightForIndex>g__GetContentHeightFromCachedHeight|67_0",
-                                                {},
-                                                { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1_ContentHeightCacheInfo<T>>>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1___c__DisplayClass67_0<T>>>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>*>(),
+                                       { "<GetContentHeightForIndex>g__GetContentHeightFromCachedHeight|67_0",
+                                         {},
+                                         { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1_ContentHeightCacheInfo<T> const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1___c__DisplayClass67_0<T>>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, index, heightInfo, _cordl_fixed_empty_name_whitespace);
 }
 template <typename T>

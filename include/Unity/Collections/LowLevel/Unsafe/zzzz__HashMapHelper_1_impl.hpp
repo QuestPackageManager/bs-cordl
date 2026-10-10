@@ -130,14 +130,14 @@ template <typename TKey> inline int32_t Unity::Collections::LowLevel::Unsafe::Ha
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>>(), { "GetCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-template <typename TKey> inline int32_t Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>::GetBucket(/* [IsReadOnly] */ ::by_ref<TKey> key) {
+template <typename TKey> inline int32_t Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>::GetBucket(/* [IsReadOnly] */ ::by_ref<TKey const> key) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>>(), { "GetBucket", {}, { ::i2c::type_of<::by_ref<TKey>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>>(), { "GetBucket", {}, { ::i2c::type_of<::by_ref<TKey const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, key);
 }
-template <typename TKey> inline int32_t Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>::TryAdd(/* [IsReadOnly] */ ::by_ref<TKey> key) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>>(), { "TryAdd", {}, { ::i2c::type_of<::by_ref<TKey>>() } })));
+template <typename TKey> inline int32_t Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>::TryAdd(/* [IsReadOnly] */ ::by_ref<TKey const> key) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>>(), { "TryAdd", {}, { ::i2c::type_of<::by_ref<TKey const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, key);
 }
 template <typename TKey> inline int32_t Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>::Find(TKey key) {

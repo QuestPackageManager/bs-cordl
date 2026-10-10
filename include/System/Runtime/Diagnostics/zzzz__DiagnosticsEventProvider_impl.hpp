@@ -101,19 +101,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::DiagnosticsEventProvider::*)(
-    ::by_ref<::System::Guid>, ::ByRefConst<int32_t>, ::ByRefConst<uint8_t>, ::ByRefConst<int64_t>, ::ByRefConst<int64_t>, ::ByRefConst<void*>, ::ByRefConst<void*>)>(
-    &::System::Runtime::Diagnostics::DiagnosticsEventProvider::EtwEnableCallBack)> {
+    ::by_ref<::System::Guid const>, int32_t, uint8_t, int64_t, int64_t, void*, void*)>(&::System::Runtime::Diagnostics::DiagnosticsEventProvider::EtwEnableCallBack)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x65b2bbc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticsEventProvider*>(),
-                            { "EtwEnableCallBack",
-                              {},
-                              { ::i2c::type_of<::by_ref<::System::Guid>>(), ::i2c::type_of<::ByRefConst<int32_t>>(), ::i2c::type_of<::ByRefConst<uint8_t>>(), ::i2c::type_of<::ByRefConst<int64_t>>(),
-                                ::i2c::type_of<::ByRefConst<int64_t>>(), ::i2c::type_of<::ByRefConst<void*>>(), ::i2c::type_of<::ByRefConst<void*>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticsEventProvider*>(),
+                                                             { "EtwEnableCallBack",
+                                                               {},
+                                                               { ::i2c::type_of<::by_ref<::System::Guid const>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t>(), ::i2c::type_of<int64_t>(),
+                                                                 ::i2c::type_of<int64_t>(), ::i2c::type_of<void*>(), ::i2c::type_of<void*>() } })));
     return ___internal_method;
   }
 };
@@ -367,16 +365,14 @@ inline void System::Runtime::Diagnostics::DiagnosticsEventProvider::Deregister()
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticsEventProvider*>(), { "Deregister", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Runtime::Diagnostics::DiagnosticsEventProvider::EtwEnableCallBack(::by_ref<::System::Guid> sourceId, ::ByRefConst<int32_t> isEnabled, ::ByRefConst<uint8_t> setLevel,
-                                                                                      ::ByRefConst<int64_t> anyKeyword, ::ByRefConst<int64_t> allKeyword, ::ByRefConst<void*> filterData,
-                                                                                      ::ByRefConst<void*> callbackContext) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticsEventProvider*>(),
-                          { "EtwEnableCallBack",
-                            {},
-                            { ::i2c::type_of<::by_ref<::System::Guid>>(), ::i2c::type_of<::ByRefConst<int32_t>>(), ::i2c::type_of<::ByRefConst<uint8_t>>(), ::i2c::type_of<::ByRefConst<int64_t>>(),
-                              ::i2c::type_of<::ByRefConst<int64_t>>(), ::i2c::type_of<::ByRefConst<void*>>(), ::i2c::type_of<::ByRefConst<void*>>() } })));
+inline void System::Runtime::Diagnostics::DiagnosticsEventProvider::EtwEnableCallBack(::by_ref<::System::Guid const> sourceId, int32_t isEnabled, uint8_t setLevel, int64_t anyKeyword,
+                                                                                      int64_t allKeyword, void* filterData, void* callbackContext) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticsEventProvider*>(),
+                                                           { "EtwEnableCallBack",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::System::Guid const>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t>(), ::i2c::type_of<int64_t>(),
+                                                               ::i2c::type_of<int64_t>(), ::i2c::type_of<void*>(), ::i2c::type_of<void*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sourceId, isEnabled, setLevel, anyKeyword, allKeyword, filterData, callbackContext);
 }
 inline void System::Runtime::Diagnostics::DiagnosticsEventProvider::OnControllerCommand() {

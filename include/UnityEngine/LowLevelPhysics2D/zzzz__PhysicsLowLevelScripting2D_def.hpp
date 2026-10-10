@@ -248,21 +248,21 @@ public:
   static inline bool PhysicsAABB_IsValid(::UnityEngine::LowLevelPhysics2D::PhysicsAABB aabb);
 
   /// @brief Method PhysicsAABB_IsValid_Injected, addr 0x6fd2a1c, size 0x3c, virtual false, abstract: false, final false
-  static inline bool PhysicsAABB_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB> aabb);
+  static inline bool PhysicsAABB_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB const> aabb);
 
   /// [NativeMethod(Name = "PhysicsBody::GetBodyType", IsThreadSafe = true)]
   /// @brief Method PhysicsBody_GetBodyType, addr 0x6fd20c8, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsBody_BodyType PhysicsBody_GetBodyType(::UnityEngine::LowLevelPhysics2D::PhysicsBody body);
 
   /// @brief Method PhysicsBody_GetBodyType_Injected, addr 0x6fd2108, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LowLevelPhysics2D::PhysicsBody_BodyType PhysicsBody_GetBodyType_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody> body);
+  static inline ::UnityEngine::LowLevelPhysics2D::PhysicsBody_BodyType PhysicsBody_GetBodyType_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody const> body);
 
   /// [NativeMethod(Name = "PhysicsBody::GetCallbackTarget", IsThreadSafe = true)]
   /// @brief Method PhysicsBody_GetCallbackTarget, addr 0x6fd2144, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Object* PhysicsBody_GetCallbackTarget(::UnityEngine::LowLevelPhysics2D::PhysicsBody body);
 
   /// @brief Method PhysicsBody_GetCallbackTarget_Injected, addr 0x6fd2184, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::Object* PhysicsBody_GetCallbackTarget_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody> body);
+  static inline ::System::Object* PhysicsBody_GetCallbackTarget_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody const> body);
 
   /// [NativeMethod(Name = "PhysicsBody::GetDefaultDefinition", IsThreadSafe = true)]
   /// @brief Method PhysicsBody_GetDefaultDefinition, addr 0x6fd1f94, size 0x70, virtual false, abstract: false, final false
@@ -276,7 +276,7 @@ public:
   static inline bool PhysicsBody_IsValid(::UnityEngine::LowLevelPhysics2D::PhysicsBody body);
 
   /// @brief Method PhysicsBody_IsValid_Injected, addr 0x6fd208c, size 0x3c, virtual false, abstract: false, final false
-  static inline bool PhysicsBody_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody> body);
+  static inline bool PhysicsBody_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBody const> body);
 
   /// [NativeMethod(Name = "PhysicsChain::GetDefaultDefinition", IsThreadSafe = true)]
   /// @brief Method PhysicsChain_GetDefaultDefinition, addr 0x6fd21c0, size 0x6c, virtual false, abstract: false, final false
@@ -290,7 +290,7 @@ public:
   static inline bool PhysicsContactId_IsValid(::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId contactId);
 
   /// @brief Method PhysicsContactId_IsValid_Injected, addr 0x6fd2ef4, size 0x3c, virtual false, abstract: false, final false
-  static inline bool PhysicsContactId_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId> contactId);
+  static inline bool PhysicsContactId_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId const> contactId);
 
   /// [NativeMethod(Name = "PhysicsLowLevel2D::GetBypassLowLevel")]
   /// [StaticAccessor("GetPhysicsLowLevel2D()", (UnityEngine.Bindings.StaticAccessorType)1)]
@@ -309,7 +309,7 @@ public:
                                                                   ::System::Span_1<::UnityEngine::LowLevelPhysics2D::PhysicsBody_TransformWriteTween> transformWriteTweensArray);
 
   /// @brief Method PhysicsGlobal_PopulateWorldTransformWrite_Injected, addr 0x6fd2b98, size 0x54, virtual false, abstract: false, final false
-  static inline int32_t PhysicsGlobal_PopulateWorldTransformWrite_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld> world, ::System::IntPtr transformAccessArrayIntPtr,
+  static inline int32_t PhysicsGlobal_PopulateWorldTransformWrite_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const> world, ::System::IntPtr transformAccessArrayIntPtr,
                                                                            ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> transformWriteTweensArray);
 
   /// [NativeMethod(Name = "PhysicsJoint::GetCallbackTarget", IsThreadSafe = true)]
@@ -317,21 +317,21 @@ public:
   static inline ::System::Object* PhysicsJoint_GetCallbackTarget(::UnityEngine::LowLevelPhysics2D::PhysicsJoint joint);
 
   /// @brief Method PhysicsJoint_GetCallbackTarget_Injected, addr 0x6fd23ac, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::Object* PhysicsJoint_GetCallbackTarget_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint> joint);
+  static inline ::System::Object* PhysicsJoint_GetCallbackTarget_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint const> joint);
 
   /// [NativeMethod(Name = "PhysicsJoint::GetJointType", IsThreadSafe = true)]
   /// @brief Method PhysicsJoint_GetJointType, addr 0x6fd22f0, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsJoint_JointType PhysicsJoint_GetJointType(::UnityEngine::LowLevelPhysics2D::PhysicsJoint joint);
 
   /// @brief Method PhysicsJoint_GetJointType_Injected, addr 0x6fd2330, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LowLevelPhysics2D::PhysicsJoint_JointType PhysicsJoint_GetJointType_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint> joint);
+  static inline ::UnityEngine::LowLevelPhysics2D::PhysicsJoint_JointType PhysicsJoint_GetJointType_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint const> joint);
 
   /// [NativeMethod(Name = "PhysicsJoint::IsValid", IsThreadSafe = true)]
   /// @brief Method PhysicsJoint_IsValid, addr 0x6fd2270, size 0x44, virtual false, abstract: false, final false
   static inline bool PhysicsJoint_IsValid(::UnityEngine::LowLevelPhysics2D::PhysicsJoint joint);
 
   /// @brief Method PhysicsJoint_IsValid_Injected, addr 0x6fd22b4, size 0x3c, virtual false, abstract: false, final false
-  static inline bool PhysicsJoint_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint> joint);
+  static inline bool PhysicsJoint_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsJoint const> joint);
 
   /// [NativeMethod(Name = "PhysicsMath::Atan2", IsThreadSafe = true)]
   /// @brief Method PhysicsMath_Atan2, addr 0x6fd2a58, size 0x40, virtual false, abstract: false, final false
@@ -349,21 +349,21 @@ public:
   static inline float_t PhysicsRotate_GetAngle(::UnityEngine::LowLevelPhysics2D::PhysicsRotate rotate);
 
   /// @brief Method PhysicsRotate_GetAngle_Injected, addr 0x6fd2998, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t PhysicsRotate_GetAngle_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate> rotate);
+  static inline float_t PhysicsRotate_GetAngle_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate const> rotate);
 
   /// [NativeMethod(Name = "PhysicsRotate::IsValid", IsThreadSafe = true)]
   /// @brief Method PhysicsRotate_IsValid, addr 0x6fd28d8, size 0x44, virtual false, abstract: false, final false
   static inline bool PhysicsRotate_IsValid(::UnityEngine::LowLevelPhysics2D::PhysicsRotate rotation);
 
   /// @brief Method PhysicsRotate_IsValid_Injected, addr 0x6fd291c, size 0x3c, virtual false, abstract: false, final false
-  static inline bool PhysicsRotate_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate> rotation);
+  static inline bool PhysicsRotate_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate const> rotation);
 
   /// [NativeMethod(Name = "PhysicsShape::GetCallbackTarget", IsThreadSafe = true)]
   /// @brief Method PhysicsShape_GetCallbackTarget, addr 0x6fd2e30, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Object* PhysicsShape_GetCallbackTarget(::UnityEngine::LowLevelPhysics2D::PhysicsShape shape);
 
   /// @brief Method PhysicsShape_GetCallbackTarget_Injected, addr 0x6fd2e70, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::Object* PhysicsShape_GetCallbackTarget_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape> shape);
+  static inline ::System::Object* PhysicsShape_GetCallbackTarget_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape const> shape);
 
   /// [NativeMethod(Name = "PhysicsShape::GetDefaultDefinition", IsThreadSafe = true)]
   /// @brief Method PhysicsShape_GetDefaultDefinition, addr 0x6fd2bec, size 0x70, virtual false, abstract: false, final false
@@ -384,21 +384,21 @@ public:
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape_ShapeType PhysicsShape_GetShapeType(::UnityEngine::LowLevelPhysics2D::PhysicsShape shape);
 
   /// @brief Method PhysicsShape_GetShapeType_Injected, addr 0x6fd2df4, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape_ShapeType PhysicsShape_GetShapeType_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape> shape);
+  static inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape_ShapeType PhysicsShape_GetShapeType_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape const> shape);
 
   /// [NativeMethod(Name = "PhysicsShape::IsValid", IsThreadSafe = true)]
   /// @brief Method PhysicsShape_IsValid, addr 0x6fd2d34, size 0x44, virtual false, abstract: false, final false
   static inline bool PhysicsShape_IsValid(::UnityEngine::LowLevelPhysics2D::PhysicsShape shape);
 
   /// @brief Method PhysicsShape_IsValid_Injected, addr 0x6fd2d78, size 0x3c, virtual false, abstract: false, final false
-  static inline bool PhysicsShape_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape> shape);
+  static inline bool PhysicsShape_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShape const> shape);
 
   /// [NativeMethod(Name = "PhysicsWorld::DrawAllWorlds")]
   /// @brief Method PhysicsWorld_DrawAllWorlds, addr 0x6fd3764, size 0x44, virtual false, abstract: false, final false
   static inline void PhysicsWorld_DrawAllWorlds(::UnityEngine::LowLevelPhysics2D::PhysicsAABB drawAABB);
 
   /// @brief Method PhysicsWorld_DrawAllWorlds_Injected, addr 0x6fd37a8, size 0x3c, virtual false, abstract: false, final false
-  static inline void PhysicsWorld_DrawAllWorlds_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB> drawAABB);
+  static inline void PhysicsWorld_DrawAllWorlds_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsAABB const> drawAABB);
 
   /// [NativeMethod(Name = "PhysicsWorld::GetBodyUpdateCallbackTargets", IsThreadSafe = true)]
   /// @brief Method PhysicsWorld_GetBodyUpdateCallbackTargets, addr 0x6fd3158, size 0x5c, virtual false, abstract: false, final false
@@ -406,7 +406,7 @@ public:
                                                                                                                                        ::Unity::Collections::Allocator allocator);
 
   /// @brief Method PhysicsWorld_GetBodyUpdateCallbackTargets_Injected, addr 0x6fd31b4, size 0x54, virtual false, abstract: false, final false
-  static inline void PhysicsWorld_GetBodyUpdateCallbackTargets_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld> world, ::Unity::Collections::Allocator allocator,
+  static inline void PhysicsWorld_GetBodyUpdateCallbackTargets_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const> world, ::Unity::Collections::Allocator allocator,
                                                                         ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_BodyUpdateCallbackTargets> ret);
 
   /// [NativeMethod(Name = "PhysicsWorld::GetContactCallbackTargets", IsThreadSafe = true)]
@@ -415,7 +415,7 @@ public:
                                                                                                                                  ::Unity::Collections::Allocator allocator);
 
   /// @brief Method PhysicsWorld_GetContactCallbackTargets_Injected, addr 0x6fd332c, size 0x54, virtual false, abstract: false, final false
-  static inline void PhysicsWorld_GetContactCallbackTargets_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld> world, ::Unity::Collections::Allocator allocator,
+  static inline void PhysicsWorld_GetContactCallbackTargets_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const> world, ::Unity::Collections::Allocator allocator,
                                                                      ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ContactCallbackTargets> ret);
 
   /// [NativeMethod(Name = "PhysicsWorld::GetDefaultDefinition", IsThreadSafe = true)]
@@ -431,7 +431,7 @@ public:
                                                                                                                                                ::Unity::Collections::Allocator allocator);
 
   /// @brief Method PhysicsWorld_GetJointThresholdCallbackTargets_Injected, addr 0x6fd33dc, size 0x54, virtual false, abstract: false, final false
-  static inline void PhysicsWorld_GetJointThresholdCallbackTargets_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld> world, ::Unity::Collections::Allocator allocator,
+  static inline void PhysicsWorld_GetJointThresholdCallbackTargets_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const> world, ::Unity::Collections::Allocator allocator,
                                                                             ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_JointThresholdCallbackTargets> ret);
 
   /// [NativeMethod(Name = "PhysicsWorld::GetRenderMaterial", IsThreadSafe = true)]
@@ -448,7 +448,7 @@ public:
                                                                                                                                  ::Unity::Collections::Allocator allocator);
 
   /// @brief Method PhysicsWorld_GetTriggerCallbackTargets_Injected, addr 0x6fd3270, size 0x54, virtual false, abstract: false, final false
-  static inline void PhysicsWorld_GetTriggerCallbackTargets_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld> world, ::Unity::Collections::Allocator allocator,
+  static inline void PhysicsWorld_GetTriggerCallbackTargets_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const> world, ::Unity::Collections::Allocator allocator,
                                                                      ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_TriggerCallbackTargets> ret);
 
   /// [NativeMethod(Name = "PhysicsWorld::IsValid", IsThreadSafe = true)]
@@ -456,7 +456,7 @@ public:
   static inline bool PhysicsWorld_IsValid(::UnityEngine::LowLevelPhysics2D::PhysicsWorld world);
 
   /// @brief Method PhysicsWorld_IsValid_Injected, addr 0x6fd3030, size 0x3c, virtual false, abstract: false, final false
-  static inline bool PhysicsWorld_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld> world);
+  static inline bool PhysicsWorld_IsValid_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const> world);
 
   /// [NativeMethod(Name = "PhysicsWorld::SetTransformWriteTweens", IsThreadSafe = true)]
   /// @brief Method PhysicsWorld_SetTransformWriteTweens, addr 0x6fd306c, size 0xa8, virtual false, abstract: false, final false
@@ -464,7 +464,7 @@ public:
                                                           ::System::ReadOnlySpan_1<::UnityEngine::LowLevelPhysics2D::PhysicsBody_TransformWriteTween> transformWriteTweens);
 
   /// @brief Method PhysicsWorld_SetTransformWriteTweens_Injected, addr 0x6fd3114, size 0x44, virtual false, abstract: false, final false
-  static inline void PhysicsWorld_SetTransformWriteTweens_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld> world,
+  static inline void PhysicsWorld_SetTransformWriteTweens_Injected(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld const> world,
                                                                    ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> transformWriteTweens);
 
   /// [NativeMethod(Name = "PhysicsRelativeJoint::GetDefaultDefinition", IsThreadSafe = true)]

@@ -85,7 +85,7 @@ public:
   /// @brief Field showRestartButton, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_showRestartButton, put = __cordl_internal_set_showRestartButton)) bool showRestartButton;
 
-  static inline ::GlobalNamespace::PauseMenuManager_InitData* New_ctor(::StringW backButtonText, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+  static inline ::GlobalNamespace::PauseMenuManager_InitData* New_ctor(::StringW backButtonText, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey,
                                                                        ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool showRestartButton, bool showLevelBar);
 
   constexpr ::StringW const& __cordl_internal_get_backButtonText() const;
@@ -119,7 +119,7 @@ public:
   constexpr void __cordl_internal_set_showRestartButton(bool value);
 
   /// @brief Method .ctor, addr 0x5dd0e9c, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW backButtonText, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool showRestartButton,
+  inline void _ctor(::StringW backButtonText, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool showRestartButton,
                     bool showLevelBar);
 
 protected:

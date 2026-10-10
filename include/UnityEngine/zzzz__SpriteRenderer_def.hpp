@@ -218,7 +218,7 @@ public:
   inline void set_color(::UnityEngine::Color value);
 
   /// @brief Method set_color_Injected, addr 0x6eb3b28, size 0x44, virtual false, abstract: false, final false
-  static inline void set_color_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Color> value);
+  static inline void set_color_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Color const> value);
 
   /// @brief Method set_drawMode, addr 0x6eb3400, size 0x90, virtual false, abstract: false, final false
   inline void set_drawMode(::UnityEngine::SpriteDrawMode value);
@@ -254,7 +254,7 @@ public:
   inline void set_size(::UnityEngine::Vector2 value);
 
   /// @brief Method set_size_Injected, addr 0x6eb3644, size 0x44, virtual false, abstract: false, final false
-  static inline void set_size_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
+  static inline void set_size_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2 const> value);
 
   /// @brief Method set_sprite, addr 0x6eb3240, size 0xc0, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);

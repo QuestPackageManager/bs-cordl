@@ -676,8 +676,8 @@ public:
   static inline void CreateHbFaceIfNeeded();
 
   /// @brief Method Create_Injected, addr 0x703c128, size 0xc8, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Create_Injected(::by_ref<::UnityEngine::TextCore::FaceInfo> faceInfo, ::System::IntPtr sourceFontFile, ::System::IntPtr sourceFont_EditorRef,
-                                                 ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> sourceFontFilePath, ::by_ref<::UnityEngine::EntityId> fontEntityId,
+  static inline ::System::IntPtr Create_Injected(::by_ref<::UnityEngine::TextCore::FaceInfo const> faceInfo, ::System::IntPtr sourceFontFile, ::System::IntPtr sourceFont_EditorRef,
+                                                 ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> sourceFontFilePath, ::by_ref<::UnityEngine::EntityId const> fontEntityId,
                                                  ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> fallbacks, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> weightFallbacks,
                                                  ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> italicFallbacks, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode,
                                                  uint8_t italicSlant, float_t boldWeight, int32_t boldSpacing, ::System::IntPtr managedObject);
@@ -908,7 +908,7 @@ public:
   static inline void UpdateFaceInfo(::System::IntPtr ptr, ::UnityEngine::TextCore::FaceInfo faceInfo);
 
   /// @brief Method UpdateFaceInfo_Injected, addr 0x703c1f0, size 0x44, virtual false, abstract: false, final false
-  static inline void UpdateFaceInfo_Injected(::System::IntPtr ptr, ::by_ref<::UnityEngine::TextCore::FaceInfo> faceInfo);
+  static inline void UpdateFaceInfo_Injected(::System::IntPtr ptr, ::by_ref<::UnityEngine::TextCore::FaceInfo const> faceInfo);
 
   /// @brief Method UpdateFallbacks, addr 0x703b5a4, size 0x78, virtual false, abstract: false, final false
   inline void UpdateFallbacks();

@@ -38,8 +38,8 @@ class CORDL_TYPE GPUDrivenRendererDataCallback : public ::System::MulticastDeleg
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x6f88e10, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
-                     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
+  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
+                     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 
   static inline ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 

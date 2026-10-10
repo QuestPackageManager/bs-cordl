@@ -7,7 +7,7 @@
 //  Writing Method size for method: ::GlobalNamespace::QuestSettingsApplicatorSO.ApplyGraphicSettings
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestSettingsApplicatorSO::*)(::by_ref<::BeatSaber::Settings::Settings>, ::GlobalNamespace::SceneType)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestSettingsApplicatorSO::*)(::by_ref<::BeatSaber::Settings::Settings const>, ::GlobalNamespace::SceneType)>(
     &::GlobalNamespace::QuestSettingsApplicatorSO::ApplyGraphicSettings)> {
   constexpr static std::size_t size = 0x2a4;
   constexpr static std::size_t addrs = 0x5d1bab0;
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::QuestSettingsApplicatorSO::ApplyGraphicSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType) {
+inline void GlobalNamespace::QuestSettingsApplicatorSO::ApplyGraphicSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings, ::GlobalNamespace::SceneType sceneType) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::QuestSettingsApplicatorSO*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, settings, sceneType);

@@ -198,18 +198,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Run
 //  Writing Method size for method: ::System::IO::MonoIO.Write
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::ByRefConst<::ArrayW<uint8_t>>, int32_t, int32_t, ::by_ref<::System::IO::MonoIOError>)>(
-    &::System::IO::MonoIO::Write)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::ArrayW<uint8_t>, int32_t, int32_t, ::by_ref<::System::IO::MonoIOError>)>(&::System::IO::MonoIO::Write)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6036fc8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::System::IO::MonoIO*>(), { "Write",
-                                                                                     {},
-                                                                                     { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::ByRefConst<::ArrayW<uint8_t>>>(), ::i2c::type_of<int32_t>(),
-                                                                                       ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::System::IO::MonoIOError>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::MonoIO*>(), { "Write",
+                                                                                            {},
+                                                                                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>(),
+                                                                                              ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::System::IO::MonoIOError>>() } })));
     return ___internal_method;
   }
 };
@@ -561,13 +559,12 @@ inline int32_t System::IO::MonoIO::Read(::System::Runtime::InteropServices::Safe
                                                                                      ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::System::IO::MonoIOError>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, safeHandle, dest, dest_offset, count, error);
 }
-inline int32_t System::IO::MonoIO::Write(::System::IntPtr handle, ::ByRefConst<::ArrayW<uint8_t>> src, int32_t src_offset, int32_t count, ::by_ref<::System::IO::MonoIOError> error) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::System::IO::MonoIO*>(), { "Write",
-                                                                                   {},
-                                                                                   { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::ByRefConst<::ArrayW<uint8_t>>>(), ::i2c::type_of<int32_t>(),
-                                                                                     ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::System::IO::MonoIOError>>() } })));
+inline int32_t System::IO::MonoIO::Write(::System::IntPtr handle, ::ArrayW<uint8_t> src, int32_t src_offset, int32_t count, ::by_ref<::System::IO::MonoIOError> error) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::MonoIO*>(), { "Write",
+                                                                                          {},
+                                                                                          { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>(),
+                                                                                            ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::System::IO::MonoIOError>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, handle, src, src_offset, count, error);
 }
 inline int32_t System::IO::MonoIO::Write(::System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayW<uint8_t> src, int32_t src_offset, int32_t count,

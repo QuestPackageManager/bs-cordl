@@ -117,8 +117,8 @@ public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x6c46bb0, size 0x148, virtual true, abstract: false, final false
   inline ::System::IAsyncResult*
-  BeginInvoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>> batchMaterialHash,
+  BeginInvoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
               ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> supportedMaterialIDs, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedMaterialIDs,
               ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> supportedPackedMaterialDatas,
               ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace, ::System::Object* _cordl_fixed_empty_name_whitespace_param_6);
@@ -127,8 +127,8 @@ public:
   inline void EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
   /// @brief Method Invoke, addr 0x6c46b9c, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>> batchMaterialHash,
+  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
                      ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> supportedMaterialIDs,
                      ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedMaterialIDs,
                      ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> supportedPackedMaterialDatas);
@@ -180,11 +180,11 @@ public:
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
   /// @brief Method Invoke, addr 0x6c460b8, size 0xe0, virtual false, abstract: false, final false
-  static inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-                            /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>> batchMaterialHash,
-                            ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> supportedMaterialIDs,
-                            ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedMaterialIDs,
-                            ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> supportedPackedMaterialDatas);
+  static inline void
+  Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+         /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
+         ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> supportedMaterialIDs, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedMaterialIDs,
+         ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> supportedPackedMaterialDatas);
 
   static inline ::System::IntPtr getStaticF_Pointer();
 
@@ -222,9 +222,9 @@ class CORDL_TYPE GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$Postfi
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x6c46ebc, size 0x128, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> unsupportedMaterials,
-                                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>> materialIDArrays,
-                                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>> rendererGroups,
+  inline ::System::IAsyncResult* BeginInvoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> unsupportedMaterials,
+                                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const> materialIDArrays,
+                                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroups,
                                              ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedRenderers, ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
                                              ::System::Object* _cordl_fixed_empty_name_whitespace_param_5);
 
@@ -232,9 +232,9 @@ public:
   inline void EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
   /// @brief Method Invoke, addr 0x6c46ea8, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> unsupportedMaterials,
-                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>> materialIDArrays,
-                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>> rendererGroups,
+  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> unsupportedMaterials,
+                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const> materialIDArrays,
+                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroups,
                      ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedRenderers);
 
   static inline ::UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$PostfixBurstDelegate* New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
@@ -284,9 +284,9 @@ public:
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
   /// @brief Method Invoke, addr 0x6c46198, size 0xc8, virtual false, abstract: false, final false
-  static inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> unsupportedMaterials,
-                            /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>> materialIDArrays,
-                            /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>> rendererGroups,
+  static inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> unsupportedMaterials,
+                            /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const> materialIDArrays,
+                            /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroups,
                             ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedRenderers);
 
   static inline ::System::IntPtr getStaticF_Pointer();
@@ -325,21 +325,21 @@ class CORDL_TYPE GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_00
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x6c471a8, size 0x128, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult*
-  BeginInvoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialDatas,
-              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialHash,
-              ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>> filteredMaterials, ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
-              ::System::Object* _cordl_fixed_empty_name_whitespace_param_5);
+  inline ::System::IAsyncResult* BeginInvoke(
+      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDatas,
+      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialHash,
+      ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>> filteredMaterials, ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
+      ::System::Object* _cordl_fixed_empty_name_whitespace_param_5);
 
   /// @brief Method EndInvoke, addr 0x6c472d0, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
   /// @brief Method Invoke, addr 0x6c47194, size 0x14, virtual true, abstract: false, final false
   inline void
-  Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-         /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialDatas,
-         /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialHash,
+  Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+         /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDatas,
+         /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialHash,
          ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>> filteredMaterials);
 
   static inline ::UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$PostfixBurstDelegate*
@@ -391,9 +391,9 @@ public:
 
   /// @brief Method Invoke, addr 0x6c46260, size 0x17c, virtual false, abstract: false, final false
   static inline void
-  Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-         /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialDatas,
-         /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialHash,
+  Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+         /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDatas,
+         /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialHash,
          ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>> filteredMaterials);
 
   static inline ::System::IntPtr getStaticF_Pointer();
@@ -447,8 +447,8 @@ public:
   /// [MonoPInvokeCallback(typeof(UnityEngine.Rendering.UnityEngine.Rendering.GPUResidentDrawerBurst::ClassifyMaterials_000000EA$PostfixBurstDelegate))]
   /// @brief Method ClassifyMaterials, addr 0x6c45b54, size 0x4, virtual false, abstract: false, final false
   static inline void
-  ClassifyMaterials(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-                    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>> batchMaterialHash,
+  ClassifyMaterials(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+                    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
                     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> supportedMaterialIDs,
                     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedMaterialIDs,
                     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> supportedPackedMaterialDatas);
@@ -456,41 +456,42 @@ public:
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// @brief Method ClassifyMaterials$BurstManaged, addr 0x6c463dc, size 0x480, virtual false, abstract: false, final false
   static inline void ClassifyMaterials$BurstManaged(
-      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID>> batchMaterialHash,
+      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
       ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> supportedMaterialIDs, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedMaterialIDs,
       ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> supportedPackedMaterialDatas);
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// [MonoPInvokeCallback(typeof(UnityEngine.Rendering.UnityEngine.Rendering.GPUResidentDrawerBurst::FindUnsupportedRenderers_000000EB$PostfixBurstDelegate))]
   /// @brief Method FindUnsupportedRenderers, addr 0x6c45b58, size 0x4, virtual false, abstract: false, final false
-  static inline void FindUnsupportedRenderers(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> unsupportedMaterials,
-                                              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>> materialIDArrays,
-                                              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>> rendererGroups,
+  static inline void FindUnsupportedRenderers(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> unsupportedMaterials,
+                                              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const> materialIDArrays,
+                                              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroups,
                                               ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedRenderers);
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// @brief Method FindUnsupportedRenderers$BurstManaged, addr 0x6c4685c, size 0x1cc, virtual false, abstract: false, final false
-  static inline void FindUnsupportedRenderers$BurstManaged(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> unsupportedMaterials,
-                                                           /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray>> materialIDArrays,
-                                                           /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>> rendererGroups,
-                                                           ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedRenderers);
+  static inline void
+  FindUnsupportedRenderers$BurstManaged(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> unsupportedMaterials,
+                                        /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const> materialIDArrays,
+                                        /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroups,
+                                        ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedRenderers);
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// [MonoPInvokeCallback(typeof(UnityEngine.Rendering.UnityEngine.Rendering.GPUResidentDrawerBurst::GetMaterialsWithChangedPackedMaterial_000000EC$PostfixBurstDelegate))]
   /// @brief Method GetMaterialsWithChangedPackedMaterial, addr 0x6c45b5c, size 0x4, virtual false, abstract: false, final false
   static inline void GetMaterialsWithChangedPackedMaterial(
-      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialDatas,
-      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialHash,
+      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDatas,
+      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialHash,
       ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>> filteredMaterials);
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// @brief Method GetMaterialsWithChangedPackedMaterial$BurstManaged, addr 0x6c46a28, size 0xf4, virtual false, abstract: false, final false
   static inline void GetMaterialsWithChangedPackedMaterial$BurstManaged(
-      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> materialIDs,
-      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialDatas,
-      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> packedMaterialHash,
+      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
+      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDatas,
+      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialHash,
       ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>> filteredMaterials);
 
 protected:

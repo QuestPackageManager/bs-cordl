@@ -35,28 +35,28 @@ public:
   __declspec(property(get = get_value)) int32_t value;
 
   /// @brief Method Append, addr 0x6be37b8, size 0x48, virtual false, abstract: false, final false
-  inline void Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> input);
 
   /// @brief Method Append, addr 0x6be3800, size 0x64, virtual false, abstract: false, final false
-  inline void Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> input);
 
   /// @brief Method Append, addr 0x6be3864, size 0x7c, virtual false, abstract: false, final false
-  inline void Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> input);
 
   /// @brief Method Append, addr 0x6be3728, size 0x28, virtual false, abstract: false, final false
-  inline void Append(/* [IsReadOnly] */ ::by_ref<bool> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<bool const> input);
 
   /// @brief Method Append, addr 0x6be3780, size 0x38, virtual false, abstract: false, final false
-  inline void Append(/* [IsReadOnly] */ ::by_ref<double_t> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<double_t const> input);
 
   /// @brief Method Append, addr 0x6be3750, size 0x30, virtual false, abstract: false, final false
-  inline void Append(/* [IsReadOnly] */ ::by_ref<float_t> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<float_t const> input);
 
   /// @brief Method Append, addr 0x6be36e8, size 0x20, virtual false, abstract: false, final false
-  inline void Append(/* [IsReadOnly] */ ::by_ref<int32_t> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<int32_t const> input);
 
   /// @brief Method Append, addr 0x6be3708, size 0x20, virtual false, abstract: false, final false
-  inline void Append(/* [IsReadOnly] */ ::by_ref<uint32_t> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<uint32_t const> input);
 
   /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>

@@ -136,7 +136,7 @@ public:
   static inline ::UnityEngine::Rendering::Universal::ScriptableRendererFeature* New_ctor();
 
   /// @brief Method OnCameraPreCull, addr 0x6ca7134, size 0x4, virtual true, abstract: false, final false
-  inline void OnCameraPreCull(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
+  inline void OnCameraPreCull(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData);
 
   /// @brief Method OnEnable, addr 0x6ca7138, size 0xa8, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -153,7 +153,7 @@ public:
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
   /// @brief Method SetupRenderPasses, addr 0x6ca7120, size 0x4, virtual true, abstract: false, final false
-  inline void SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
+  inline void SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData const> renderingData);
 
   constexpr bool const& __cordl_internal_get_m_Active() const;
 

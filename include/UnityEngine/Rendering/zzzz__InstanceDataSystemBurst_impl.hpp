@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$PostfixBurstDelegate::*)(
-    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>>,
-    ::by_ref<::Unity::Collections::NativeArray_1<int32_t>>, ::by_ref<::Unity::Collections::NativeArray_1<int32_t>>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
+    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const>,
+    ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>, ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
     ::by_ref<::UnityEngine::Rendering::CPUInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
     ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
@@ -58,9 +58,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::Rendering::
-        InstanceDataSystemBurst_ReallocateInstances_000002A0$PostfixBurstDelegate::*)(bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>,
-                                                                                      ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>>,
-                                                                                      ::by_ref<::Unity::Collections::NativeArray_1<int32_t>>, ::by_ref<::Unity::Collections::NativeArray_1<int32_t>>,
+        InstanceDataSystemBurst_ReallocateInstances_000002A0$PostfixBurstDelegate::*)(bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>,
+                                                                                      ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const>,
+                                                                                      ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>,
+                                                                                      ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>,
                                                                                       ::by_ref<::UnityEngine::Rendering::InstanceAllocators>, ::by_ref<::UnityEngine::Rendering::CPUInstanceData>,
                                                                                       ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>,
                                                                                       ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
@@ -101,9 +102,9 @@ inline void UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1);
 }
 inline void UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$PostfixBurstDelegate::Invoke(
-    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> rendererGroupIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>> packedRendererData,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instanceOffsets, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instanceCounts,
+    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> rendererGroupIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const> packedRendererData,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instanceOffsets, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instanceCounts,
     ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
     ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
     ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>> instances,
@@ -115,9 +116,9 @@ inline void UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_
                                                    instanceData, perCameraInstanceData, sharedInstanceData, instances, rendererGroupInstanceMultiHash);
 }
 inline ::System::IAsyncResult* UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$PostfixBurstDelegate::BeginInvoke(
-    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> rendererGroupIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>> packedRendererData,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instanceOffsets, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instanceCounts,
+    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> rendererGroupIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const> packedRendererData,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instanceOffsets, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instanceCounts,
     ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
     ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
     ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>> instances,
@@ -176,8 +177,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>>,
-    ::by_ref<::Unity::Collections::NativeArray_1<int32_t>>, ::by_ref<::Unity::Collections::NativeArray_1<int32_t>>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
+    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const>,
+    ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>, ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
     ::by_ref<::UnityEngine::Rendering::CPUInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
     ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
@@ -191,9 +192,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$BurstDirectCall*>(),
                             { "Invoke",
                               {},
-                              { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(),
+                              { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>>(),
@@ -220,25 +221,25 @@ inline ::System::IntPtr UnityEngine::Rendering::InstanceDataSystemBurst_Realloca
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
 }
 inline void UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$BurstDirectCall::Invoke(
-    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> rendererGroupIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>> packedRendererData,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instanceOffsets, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instanceCounts,
+    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> rendererGroupIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const> packedRendererData,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instanceOffsets, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instanceCounts,
     ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
     ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
     ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>> instances,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$BurstDirectCall*>(),
-                                       { "Invoke",
-                                         {},
-                                         { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$BurstDirectCall*>(),
+                          { "Invoke",
+                            {},
+                            { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, implicitInstanceIndices, rendererGroupIDs, packedRendererData, instanceOffsets, instanceCounts, instanceAllocators,
                                                    instanceData, perCameraInstanceData, sharedInstanceData, instances, rendererGroupInstanceMultiHash);
 }
@@ -263,7 +264,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate::*)(
-    ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>, ::by_ref<::UnityEngine::Rendering::CPUInstanceData>,
+    ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>, ::by_ref<::UnityEngine::Rendering::CPUInstanceData>,
     ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate::Invoke)> {
@@ -281,14 +282,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>,
-                                                                                                                   ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
-                                                                                                                   ::by_ref<::UnityEngine::Rendering::CPUInstanceData>,
-                                                                                                                   ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>,
-                                                                                                                   ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
-                                                                                                                   ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<
-                                                                                                                       int32_t, ::UnityEngine::Rendering::InstanceHandle>>,
-                                                                                                                   ::System::AsyncCallback*, ::System::Object*)>(
+    ::UnityEngine::Rendering::
+        InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>,
+                                                                                             ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
+                                                                                             ::by_ref<::UnityEngine::Rendering::CPUInstanceData>,
+                                                                                             ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>,
+                                                                                             ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
+                                                                                             ::by_ref<
+                                                                                                 ::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>,
+                                                                                             ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x190;
   constexpr static std::size_t addrs = 0x6c636e8;
@@ -323,9 +325,9 @@ inline void UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupIns
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1);
 }
 inline void UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>> rendererGroupsID, ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators,
-    ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData,
-    ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroupsID,
+    ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
+    ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass,
@@ -334,9 +336,9 @@ inline void UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupIns
                                                    rendererGroupInstanceMultiHash);
 }
 inline ::System::IAsyncResult* UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate::BeginInvoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>> rendererGroupsID, ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators,
-    ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData,
-    ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroupsID,
+    ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
+    ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash,
     ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace, ::System::Object* _cordl_fixed_empty_name_whitespace_param_7) {
   auto* ___internal_method =
@@ -394,7 +396,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
+    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
                          ::by_ref<::UnityEngine::Rendering::CPUInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
                          ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
         &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$BurstDirectCall::Invoke)> {
@@ -407,7 +409,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$BurstDirectCall*>(),
                             { "Invoke",
                               {},
-                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>>(),
+                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
@@ -435,16 +437,16 @@ inline ::System::IntPtr UnityEngine::Rendering::InstanceDataSystemBurst_FreeRend
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
 }
 inline void UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$BurstDirectCall::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>> rendererGroupsID, ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators,
-    ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData,
-    ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroupsID,
+    ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
+    ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$BurstDirectCall*>(),
                                        { "Invoke",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>>(),
+                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>>(),
                                            ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
                                            ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
@@ -472,7 +474,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate::*)(
-    ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
+    ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
     ::by_ref<::UnityEngine::Rendering::CPUInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate::Invoke)> {
@@ -491,7 +493,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::Rendering::
-        InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>>,
+        InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const>,
                                                                                 ::by_ref<::UnityEngine::Rendering::InstanceAllocators>, ::by_ref<::UnityEngine::Rendering::CPUInstanceData>,
                                                                                 ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
                                                                                 ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>,
@@ -530,7 +532,7 @@ inline void UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1);
 }
 inline void UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>> instances,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const> instances,
     ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
     ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash) {
@@ -540,7 +542,7 @@ inline void UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, instances, instanceAllocators, instanceData, perCameraInstanceData, sharedInstanceData, rendererGroupInstanceMultiHash);
 }
 inline ::System::IAsyncResult* UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate::BeginInvoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>> instances,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const> instances,
     ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
     ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash,
@@ -596,7 +598,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
+    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
                          ::by_ref<::UnityEngine::Rendering::CPUInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
                          ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
         &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$BurstDirectCall::Invoke)> {
@@ -609,7 +611,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$BurstDirectCall*>(),
                             { "Invoke",
                               {},
-                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>>>(),
+                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
@@ -633,7 +635,7 @@ inline ::System::IntPtr UnityEngine::Rendering::InstanceDataSystemBurst_FreeInst
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
 }
 inline void UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$BurstDirectCall::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>> instances,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const> instances,
     ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
     ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash) {
@@ -642,7 +644,7 @@ inline void UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$BurstDirectCall*>(),
                                        { "Invoke",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>>>(),
+                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const>>(),
                                            ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
                                            ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
@@ -654,8 +656,8 @@ constexpr ::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>>,
-    ::by_ref<::Unity::Collections::NativeArray_1<int32_t>>, ::by_ref<::Unity::Collections::NativeArray_1<int32_t>>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
+    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const>,
+    ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>, ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
     ::by_ref<::UnityEngine::Rendering::CPUInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
     ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(&::UnityEngine::Rendering::InstanceDataSystemBurst::ReallocateInstances)> {
@@ -668,9 +670,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst*>(),
                             { "ReallocateInstances",
                               {},
-                              { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(),
+                              { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>>(),
@@ -682,7 +684,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>, ::by_ref<::UnityEngine::Rendering::CPUInstanceData>,
+    ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>, ::by_ref<::UnityEngine::Rendering::CPUInstanceData>,
     ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(&::UnityEngine::Rendering::InstanceDataSystemBurst::FreeRendererGroupInstances)> {
   constexpr static std::size_t size = 0x4;
@@ -694,7 +696,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst*>(),
                             { "FreeRendererGroupInstances",
                               {},
-                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>>(),
+                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
@@ -705,7 +707,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
+    ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
     ::by_ref<::UnityEngine::Rendering::CPUInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(&::UnityEngine::Rendering::InstanceDataSystemBurst::FreeInstances)> {
   constexpr static std::size_t size = 0x4;
@@ -717,7 +719,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst*>(),
                             { "FreeInstances",
                               {},
-                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>>>(),
+                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
@@ -728,8 +730,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>>,
-    ::by_ref<::Unity::Collections::NativeArray_1<int32_t>>, ::by_ref<::Unity::Collections::NativeArray_1<int32_t>>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
+    bool, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const>,
+    ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>, ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
     ::by_ref<::UnityEngine::Rendering::CPUInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
     ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
@@ -743,9 +745,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst*>(),
                             { "ReallocateInstances$BurstManaged",
                               {},
-                              { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>>>(),
-                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(),
+                              { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const>>(),
+                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>>(),
@@ -757,7 +759,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
+    static_cast<void (*)(::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
                          ::by_ref<::UnityEngine::Rendering::CPUInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
                          ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
         &::UnityEngine::Rendering::InstanceDataSystemBurst::FreeRendererGroupInstances$BurstManaged)> {
@@ -770,7 +772,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst*>(),
                             { "FreeRendererGroupInstances$BurstManaged",
                               {},
-                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>>(),
+                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
@@ -781,7 +783,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
+    ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const>, ::by_ref<::UnityEngine::Rendering::InstanceAllocators>,
     ::by_ref<::UnityEngine::Rendering::CPUInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(&::UnityEngine::Rendering::InstanceDataSystemBurst::FreeInstances$BurstManaged)> {
   constexpr static std::size_t size = 0x338;
@@ -793,7 +795,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst*>(),
                             { "FreeInstances$BurstManaged",
                               {},
-                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>>>(),
+                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
                                 ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
@@ -801,39 +803,39 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
   }
 };
 inline void UnityEngine::Rendering::InstanceDataSystemBurst::ReallocateInstances(
-    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> rendererGroupIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>> packedRendererData,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instanceOffsets, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instanceCounts,
+    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> rendererGroupIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const> packedRendererData,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instanceOffsets, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instanceCounts,
     ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
     ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
     ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>> instances,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst*>(),
-                                       { "ReallocateInstances",
-                                         {},
-                                         { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst*>(),
+                          { "ReallocateInstances",
+                            {},
+                            { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, implicitInstanceIndices, rendererGroupIDs, packedRendererData, instanceOffsets, instanceCounts, instanceAllocators,
                                                    instanceData, perCameraInstanceData, sharedInstanceData, instances, rendererGroupInstanceMultiHash);
 }
 inline void UnityEngine::Rendering::InstanceDataSystemBurst::FreeRendererGroupInstances(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>> rendererGroupsID, ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators,
-    ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData,
-    ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroupsID,
+    ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
+    ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst*>(),
                                        { "FreeRendererGroupInstances",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>>(),
+                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>>(),
                                            ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
                                            ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
@@ -841,7 +843,7 @@ inline void UnityEngine::Rendering::InstanceDataSystemBurst::FreeRendererGroupIn
                                                    rendererGroupInstanceMultiHash);
 }
 inline void UnityEngine::Rendering::InstanceDataSystemBurst::FreeInstances(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>> instances,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const> instances,
     ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
     ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash) {
@@ -850,46 +852,46 @@ inline void UnityEngine::Rendering::InstanceDataSystemBurst::FreeInstances(
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst*>(),
                                        { "FreeInstances",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>>>(),
+                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const>>(),
                                            ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
                                            ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, instances, instanceAllocators, instanceData, perCameraInstanceData, sharedInstanceData, rendererGroupInstanceMultiHash);
 }
 inline void UnityEngine::Rendering::InstanceDataSystemBurst::ReallocateInstances$BurstManaged(
-    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> rendererGroupIDs,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>> packedRendererData,
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instanceOffsets, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instanceCounts,
+    bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> rendererGroupIDs,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const> packedRendererData,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instanceOffsets, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instanceCounts,
     ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
     ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
     ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>> instances,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst*>(),
-                                       { "ReallocateInstances$BurstManaged",
-                                         {},
-                                         { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>>(),
-                                           ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst*>(),
+                          { "ReallocateInstances$BurstManaged",
+                            {},
+                            { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>>(),
+                              ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, implicitInstanceIndices, rendererGroupIDs, packedRendererData, instanceOffsets, instanceCounts, instanceAllocators,
                                                    instanceData, perCameraInstanceData, sharedInstanceData, instances, rendererGroupInstanceMultiHash);
 }
 inline void UnityEngine::Rendering::InstanceDataSystemBurst::FreeRendererGroupInstances$BurstManaged(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>> rendererGroupsID, ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators,
-    ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData,
-    ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroupsID,
+    ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
+    ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst*>(),
                                        { "FreeRendererGroupInstances$BurstManaged",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>>>(),
+                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const>>(),
                                            ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
                                            ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));
@@ -897,7 +899,7 @@ inline void UnityEngine::Rendering::InstanceDataSystemBurst::FreeRendererGroupIn
                                                    rendererGroupInstanceMultiHash);
 }
 inline void UnityEngine::Rendering::InstanceDataSystemBurst::FreeInstances$BurstManaged(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>> instances,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const> instances,
     ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
     ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash) {
@@ -906,7 +908,7 @@ inline void UnityEngine::Rendering::InstanceDataSystemBurst::FreeInstances$Burst
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst*>(),
                                        { "FreeInstances$BurstManaged",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>>>(),
+                                         { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const>>(),
                                            ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceAllocators>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>(),
                                            ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>(),
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>>() } })));

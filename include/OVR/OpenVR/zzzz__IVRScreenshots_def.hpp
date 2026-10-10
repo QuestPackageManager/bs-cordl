@@ -152,13 +152,13 @@ class CORDL_TYPE IVRScreenshots__HookScreenshot : public ::System::MulticastDele
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x62598c0, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::EVRScreenshotType>> pSupportedTypes, int32_t numTypes, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::OVR::OpenVR::EVRScreenshotType> pSupportedTypes, int32_t numTypes, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x625991c, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError EndInvoke(::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x62598ac, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRScreenshotError Invoke(::by_ref<::ArrayW<::OVR::OpenVR::EVRScreenshotType>> pSupportedTypes, int32_t numTypes);
+  inline ::OVR::OpenVR::EVRScreenshotError Invoke(::ArrayW<::OVR::OpenVR::EVRScreenshotType> pSupportedTypes, int32_t numTypes);
 
   static inline ::OVR::OpenVR::IVRScreenshots__HookScreenshot* New_ctor(::System::Object* object, ::System::IntPtr method);
 

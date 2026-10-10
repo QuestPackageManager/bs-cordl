@@ -82,7 +82,7 @@ public:
   inline ::UnityEngine::Rendering::SharedInstanceHandle IndexToSharedInstance(int32_t index);
 
   /// @brief Method InstanceToIndex, addr 0x6c5caa4, size 0x8c, virtual false, abstract: false, final false
-  inline int32_t InstanceToIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData, ::UnityEngine::Rendering::InstanceHandle instance);
+  inline int32_t InstanceToIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly const> instanceData, ::UnityEngine::Rendering::InstanceHandle instance);
 
   /// @brief Method IsValidIndex, addr 0x6c5c9a0, size 0x104, virtual false, abstract: false, final false
   inline bool IsValidIndex(int32_t index);
@@ -94,7 +94,7 @@ public:
   inline int32_t SharedInstanceToIndex(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
   /// @brief Method .ctor, addr 0x6c5c194, size 0x504, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> instanceData);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData const> instanceData);
 
   /// @brief Method get_handlesLength, addr 0x6c5c698, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_handlesLength();
@@ -266,7 +266,7 @@ public:
   inline void Initialize(int32_t initCapacity);
 
   /// @brief Method InstanceToIndex, addr 0x6c5b584, size 0x54, virtual false, abstract: false, final false
-  inline int32_t InstanceToIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData, ::UnityEngine::Rendering::InstanceHandle instance);
+  inline int32_t InstanceToIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData const> instanceData, ::UnityEngine::Rendering::InstanceHandle instance);
 
   /// @brief Method IsFreeInstanceHandle, addr 0x6c5b730, size 0x128, virtual false, abstract: false, final false
   inline bool IsFreeInstanceHandle(::UnityEngine::Rendering::SharedInstanceHandle instance);
@@ -282,9 +282,10 @@ public:
 
   /// @brief Method Set, addr 0x6c5c00c, size 0x154, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::Rendering::SharedInstanceHandle instance, ::UnityEngine::EntityId rendererGroupID,
-                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SmallEntityIdArray> materialIDs, int32_t meshID, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> localAABB,
-                  ::UnityEngine::Rendering::TransformUpdateFlags transformUpdateFlags, ::UnityEngine::Rendering::InstanceFlags instanceFlags, uint32_t lodGroupAndMask,
-                  ::UnityEngine::Rendering::GPUDrivenMeshLodInfo meshLodInfo, int32_t gameObjectLayer, int32_t refCount);
+                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SmallEntityIdArray const> materialIDs, int32_t meshID,
+                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB const> localAABB, ::UnityEngine::Rendering::TransformUpdateFlags transformUpdateFlags,
+                  ::UnityEngine::Rendering::InstanceFlags instanceFlags, uint32_t lodGroupAndMask, ::UnityEngine::Rendering::GPUDrivenMeshLodInfo meshLodInfo, int32_t gameObjectLayer,
+                  int32_t refCount);
 
   /// @brief Method SetDefault, addr 0x6c5b984, size 0x7c, virtual false, abstract: false, final false
   inline void SetDefault(::UnityEngine::Rendering::SharedInstanceHandle instance);
@@ -299,10 +300,10 @@ public:
   inline void Set_LODGroupAndMask(::UnityEngine::Rendering::SharedInstanceHandle instance, uint32_t lodGroupAndMask);
 
   /// @brief Method Set_LocalAABB, addr 0x6c5be88, size 0x44, virtual false, abstract: false, final false
-  inline void Set_LocalAABB(::UnityEngine::Rendering::SharedInstanceHandle instance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> localAABB);
+  inline void Set_LocalAABB(::UnityEngine::Rendering::SharedInstanceHandle instance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB const> localAABB);
 
   /// @brief Method Set_MaterialIDs, addr 0x6c5bf7c, size 0x90, virtual false, abstract: false, final false
-  inline void Set_MaterialIDs(::UnityEngine::Rendering::SharedInstanceHandle instance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SmallEntityIdArray> materialIDs);
+  inline void Set_MaterialIDs(::UnityEngine::Rendering::SharedInstanceHandle instance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SmallEntityIdArray const> materialIDs);
 
   /// @brief Method Set_MeshID, addr 0x6c5be5c, size 0x2c, virtual false, abstract: false, final false
   inline void Set_MeshID(::UnityEngine::Rendering::SharedInstanceHandle instance, int32_t meshID);

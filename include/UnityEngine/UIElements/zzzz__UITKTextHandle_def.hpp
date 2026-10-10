@@ -142,7 +142,7 @@ public:
   inline void CacheTextGenerationInfo();
 
   /// @brief Method ComputeNativeTextSize, addr 0x711e48c, size 0x254, virtual false, abstract: false, final false
-  inline void ComputeNativeTextSize(/* [IsReadOnly] */ ::by_ref<::StringW> textToMeasure, float_t width, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t height,
+  inline void ComputeNativeTextSize(/* [IsReadOnly] */ ::by_ref<::StringW const> textToMeasure, float_t width, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t height,
                                     ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode, ::System::Nullable_1<float_t> fontsize);
 
   /// @brief Method ComputeSettingsAndUpdate, addr 0x71204d4, size 0x7c, virtual false, abstract: false, final false
@@ -153,7 +153,7 @@ public:
                                                 ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode, ::System::Nullable_1<float_t> fontsize);
 
   /// @brief Method ComputeTextSize, addr 0x7120368, size 0x16c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 ComputeTextSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> textToMeasure, float_t width, float_t height,
+  inline ::UnityEngine::Vector2 ComputeTextSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText const> textToMeasure, float_t width, float_t height,
                                                 ::System::Nullable_1<float_t> fontsize);
 
   /// [NullableContext(2)]

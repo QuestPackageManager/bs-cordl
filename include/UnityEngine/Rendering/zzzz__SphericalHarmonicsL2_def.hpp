@@ -45,7 +45,7 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6f7b480, size 0xc4, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2 const> other);
 
   /// [IsReadOnly]
   /// @brief Method GetHashCode, addr 0x6f7b0c0, size 0x264, virtual true, abstract: false, final false

@@ -93,7 +93,7 @@ public:
   static inline bool IsOverridable(::UnityEngine::Rendering::LocalKeyword kw);
 
   /// @brief Method IsOverridable_Injected, addr 0x6f8a918, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsOverridable_Injected(::by_ref<::UnityEngine::Rendering::LocalKeyword> kw);
+  static inline bool IsOverridable_Injected(::by_ref<::UnityEngine::Rendering::LocalKeyword const> kw);
 
   /// @brief Method ToString, addr 0x6f8b1e4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();

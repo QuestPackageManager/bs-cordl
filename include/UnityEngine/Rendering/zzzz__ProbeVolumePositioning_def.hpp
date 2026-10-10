@@ -40,21 +40,21 @@ public:
   __declspec(property(get = getStaticF_m_Axes, put = setStaticF_m_Axes)) ::ArrayW<::UnityEngine::Vector3> m_Axes;
 
   /// @brief Method OBBAABBIntersect, addr 0x6bb2938, size 0x560, virtual false, abstract: false, final false
-  static inline bool OBBAABBIntersect(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> b,
-                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> aAABB);
+  static inline bool OBBAABBIntersect(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume const> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> b,
+                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> aAABB);
 
   /// @brief Method OBBContains, addr 0x6bb2860, size 0xd8, virtual false, abstract: false, final false
-  static inline bool OBBContains(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> obb, ::UnityEngine::Vector3 point);
+  static inline bool OBBContains(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume const> obb, ::UnityEngine::Vector3 point);
 
   /// @brief Method OBBIntersect, addr 0x6bb2060, size 0x718, virtual false, abstract: false, final false
-  static inline bool OBBIntersect(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a,
-                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> b);
+  static inline bool OBBIntersect(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume const> a,
+                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume const> b);
 
   /// @brief Method ProjectAABB, addr 0x6bb2e98, size 0xa0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2 ProjectAABB(/* [IsReadOnly] */ ::by_ref<::ArrayW<::UnityEngine::Vector3>> corners, ::UnityEngine::Vector3 axis);
+  static inline ::UnityEngine::Vector2 ProjectAABB(/* [IsReadOnly] */ ::by_ref<::ArrayW<::UnityEngine::Vector3> const> corners, ::UnityEngine::Vector3 axis);
 
   /// @brief Method ProjectOBB, addr 0x6bb2778, size 0xe8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2 ProjectOBB(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a, ::UnityEngine::Vector3 axis);
+  static inline ::UnityEngine::Vector2 ProjectOBB(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume const> a, ::UnityEngine::Vector3 axis);
 
   static inline ::ArrayW<::UnityEngine::Vector3> getStaticF_m_AABBCorners();
 

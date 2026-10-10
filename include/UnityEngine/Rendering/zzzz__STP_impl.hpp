@@ -1508,7 +1508,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureHandle (*)(
-    ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
+    ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
     ::UnityEngine::Rendering::RenderGraphModule::AccessFlags)>(&::UnityEngine::Rendering::STP::UseTexture)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x6bbead0;
@@ -1518,7 +1518,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::STP*>(), { "UseTexture",
                                                                                                      {},
                                                                                                      { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(),
-                                                                                                       ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                                                                                       ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                                                                                        ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::AccessFlags>() } })));
     return ___internal_method;
   }
@@ -1626,13 +1626,13 @@ inline void UnityEngine::Rendering::STP::PopulateConstantData(::by_ref<::UnityEn
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle
 UnityEngine::Rendering::STP::UseTexture(::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder,
-                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> texture,
+                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> texture,
                                         ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::STP*>(), { "UseTexture",
                                                                                                    {},
                                                                                                    { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(),
-                                                                                                     ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                                                                                     ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                                                                                      ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::AccessFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(nullptr, ___internal_method, builder, texture, flags);
 }

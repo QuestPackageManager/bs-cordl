@@ -477,14 +477,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::by_re
 //  Writing Method size for method: ::UnityEngine::GUILayoutUtility.Internal_MoveWindow_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::by_ref<::UnityEngine::Rect>)>(&::UnityEngine::GUILayoutUtility::Internal_MoveWindow_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::by_ref<::UnityEngine::Rect const>)>(&::UnityEngine::GUILayoutUtility::Internal_MoveWindow_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6fa3054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayoutUtility*>(),
-                                                             { "Internal_MoveWindow_Injected", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
+                                                             { "Internal_MoveWindow_Injected", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>() } })));
     return ___internal_method;
   }
 };
@@ -671,10 +671,10 @@ inline void UnityEngine::GUILayoutUtility::Internal_GetWindowRect_Injected(int32
                                                            { "Internal_GetWindowRect_Injected", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, windowID, ret);
 }
-inline void UnityEngine::GUILayoutUtility::Internal_MoveWindow_Injected(int32_t windowID, ::by_ref<::UnityEngine::Rect> r) {
+inline void UnityEngine::GUILayoutUtility::Internal_MoveWindow_Injected(int32_t windowID, ::by_ref<::UnityEngine::Rect const> r) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayoutUtility*>(),
-                                                           { "Internal_MoveWindow_Injected", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
+                                                           { "Internal_MoveWindow_Injected", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, windowID, r);
 }
 // Ctor Parameters []

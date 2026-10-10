@@ -630,7 +630,7 @@ public:
   static inline void SetShadingRateFragmentSize(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ShadingRateFragmentSize baseShadingRateFragmentSize);
 
   /// @brief Method SetShadingRateImage, addr 0x6bdbf68, size 0x10, virtual false, abstract: false, final false
-  static inline void SetShadingRateImage(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> shadingRateImage);
+  static inline void SetShadingRateImage(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier const> shadingRateImage);
 
   /// @brief Method SetViewport, addr 0x6bdb720, size 0x78, virtual false, abstract: false, final false
   static inline void SetViewport(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* target);

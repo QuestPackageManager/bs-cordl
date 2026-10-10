@@ -66,7 +66,7 @@ public:
 
   /// @brief Method AddDepthAttachmentFirstDuringMerge, addr 0x6c2abe0, size 0x2d8, virtual false, abstract: false, final false
   inline void AddDepthAttachmentFirstDuringMerge(Il2CppObject* contextData,
-                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> depthAttachment);
+                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData const> depthAttachment);
 
   /// @brief Method AreExtendedFeatureFlagsCompatible, addr 0x6c298b0, size 0x8, virtual false, abstract: false, final false
   static inline bool AreExtendedFeatureFlagsCompatible(::UnityEngine::Rendering::RenderGraphModule::ExtendedFeatureFlags flags0,

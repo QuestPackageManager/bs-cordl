@@ -215,7 +215,7 @@ public:
   inline void Init(::UnityEngine::UIElements::UIR::RenderTree* renderTree);
 
   /// @brief Method Init, addr 0x717e404, size 0x80, virtual false, abstract: false, final false
-  inline void Init(::UnityEngine::UIElements::VisualElement* ve, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::PostProcessingPass> filterPass, int32_t filterPassIndex,
+  inline void Init(::UnityEngine::UIElements::VisualElement* ve, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::PostProcessingPass const> filterPass, int32_t filterPassIndex,
                    ::UnityEngine::UIElements::FilterFunction filter);
 
   /// @brief Method InitPointers, addr 0x717fe48, size 0x10, virtual false, abstract: false, final false

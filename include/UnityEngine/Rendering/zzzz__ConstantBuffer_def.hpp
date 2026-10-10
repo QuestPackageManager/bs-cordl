@@ -50,47 +50,47 @@ public:
   /// @brief Method Push, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename CBType>
     requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
-  static inline void Push(::UnityEngine::Rendering::BaseCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data, ::UnityEngine::Material* mat, int32_t shaderId);
+  static inline void Push(::UnityEngine::Rendering::BaseCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType const> data, ::UnityEngine::Material* mat, int32_t shaderId);
 
   /// @brief Method Push, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename CBType>
     requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
-  static inline void Push(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data, ::UnityEngine::ComputeShader* cs, int32_t shaderId);
+  static inline void Push(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType const> data, ::UnityEngine::ComputeShader* cs, int32_t shaderId);
 
   /// @brief Method Push, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename CBType>
     requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
-  static inline void Push(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data, ::UnityEngine::Material* mat, int32_t shaderId);
+  static inline void Push(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType const> data, ::UnityEngine::Material* mat, int32_t shaderId);
 
   /// @brief Method Push, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename CBType>
     requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
-  static inline void Push(::UnityEngine::Rendering::IComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data, ::UnityEngine::ComputeShader* cs, int32_t shaderId);
+  static inline void Push(::UnityEngine::Rendering::IComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType const> data, ::UnityEngine::ComputeShader* cs, int32_t shaderId);
 
   /// @brief Method Push, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename CBType>
     requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
-  static inline void Push(/* [IsReadOnly] */ ::by_ref<CBType> data, ::UnityEngine::ComputeShader* cs, int32_t shaderId);
+  static inline void Push(/* [IsReadOnly] */ ::by_ref<CBType const> data, ::UnityEngine::ComputeShader* cs, int32_t shaderId);
 
   /// @brief Method Push, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename CBType>
     requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
-  static inline void Push(/* [IsReadOnly] */ ::by_ref<CBType> data, ::UnityEngine::Material* mat, int32_t shaderId);
+  static inline void Push(/* [IsReadOnly] */ ::by_ref<CBType const> data, ::UnityEngine::Material* mat, int32_t shaderId);
 
   /// @brief Method PushGlobal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename CBType>
     requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
-  static inline void PushGlobal(::UnityEngine::Rendering::BaseCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data, int32_t shaderId);
+  static inline void PushGlobal(::UnityEngine::Rendering::BaseCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType const> data, int32_t shaderId);
 
   /// @brief Method PushGlobal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename CBType>
     requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
-  static inline void PushGlobal(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data, int32_t shaderId);
+  static inline void PushGlobal(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType const> data, int32_t shaderId);
 
   /// @brief Method PushGlobal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename CBType>
     requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
-  static inline void PushGlobal(/* [IsReadOnly] */ ::by_ref<CBType> data, int32_t shaderId);
+  static inline void PushGlobal(/* [IsReadOnly] */ ::by_ref<CBType const> data, int32_t shaderId);
 
   /// @brief Method Register, addr 0x6b6c950, size 0xd4, virtual false, abstract: false, final false
   static inline void Register(::UnityEngine::Rendering::ConstantBufferBase* cb);
@@ -136,17 +136,17 @@ public:
   /// @brief Method UpdateData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename CBType>
     requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
-  static inline void UpdateData(::UnityEngine::Rendering::BaseCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data);
+  static inline void UpdateData(::UnityEngine::Rendering::BaseCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType const> data);
 
   /// @brief Method UpdateData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename CBType>
     requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
-  static inline void UpdateData(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data);
+  static inline void UpdateData(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType const> data);
 
   /// @brief Method UpdateData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename CBType>
     requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
-  static inline void UpdateData(/* [IsReadOnly] */ ::by_ref<CBType> data);
+  static inline void UpdateData(/* [IsReadOnly] */ ::by_ref<CBType const> data);
 
   /// @brief Method .ctor, addr 0x6b6ca24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();

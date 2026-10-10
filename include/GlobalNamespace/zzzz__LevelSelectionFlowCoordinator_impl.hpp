@@ -27,7 +27,7 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator_State::*)(
-    ::System::Nullable_1<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>, ::GlobalNamespace::BeatmapLevelPack*, ::by_ref<::GlobalNamespace::BeatmapKey>,
+    ::System::Nullable_1<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>, ::GlobalNamespace::BeatmapLevelPack*, ::by_ref<::GlobalNamespace::BeatmapKey const>,
     ::GlobalNamespace::BeatmapLevel*)>(&::GlobalNamespace::LevelSelectionFlowCoordinator_State::_ctor)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5d40ba8;
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                             { ".ctor",
                               {},
                               { ::i2c::type_of<::System::Nullable_1<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevelPack*>(),
-                                ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>() } })));
+                                ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>() } })));
     return ___internal_method;
   }
 };
@@ -124,15 +124,15 @@ constexpr void GlobalNamespace::LevelSelectionFlowCoordinator_State::__cordl_int
   this->___beatmapLevel = value;
 }
 inline void GlobalNamespace::LevelSelectionFlowCoordinator_State::_ctor(::System::Nullable_1<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory> levelCategory,
-                                                                        ::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
-                                                                        ::GlobalNamespace::BeatmapLevel* beatmapLevel) {
+                                                                        ::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack,
+                                                                        /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSelectionFlowCoordinator_State*>(),
                           { ".ctor",
                             {},
                             { ::i2c::type_of<::System::Nullable_1<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevelPack*>(),
-                              ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>() } })));
+                              ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, levelCategory, beatmapLevelPack, beatmapKey, beatmapLevel);
 }
 inline void GlobalNamespace::LevelSelectionFlowCoordinator_State::_ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack) {
@@ -149,7 +149,7 @@ inline void GlobalNamespace::LevelSelectionFlowCoordinator_State::_ctor(::Global
 }
 inline ::GlobalNamespace::LevelSelectionFlowCoordinator_State*
 GlobalNamespace::LevelSelectionFlowCoordinator_State::New_ctor(::System::Nullable_1<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory> levelCategory,
-                                                               ::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                               ::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey,
                                                                ::GlobalNamespace::BeatmapLevel* beatmapLevel) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LevelSelectionFlowCoordinator_State*>(levelCategory, beatmapLevelPack, beatmapKey, beatmapLevel));
 }
@@ -466,7 +466,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::LevelSelectionFlowCoordinator.SelectionDidChange
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(::GlobalNamespace::BeatmapLevelPack*, ::by_ref<::GlobalNamespace::BeatmapKey>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(::GlobalNamespace::BeatmapLevelPack*, ::by_ref<::GlobalNamespace::BeatmapKey const>)>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::SelectionDidChange)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5d401a8;
@@ -870,7 +870,7 @@ inline void GlobalNamespace::LevelSelectionFlowCoordinator::PracticeButtonWasPre
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::LevelSelectionFlowCoordinator*>(), 27 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelSelectionFlowCoordinator::SelectionDidChange(::GlobalNamespace::BeatmapLevelPack* pack, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline void GlobalNamespace::LevelSelectionFlowCoordinator::SelectionDidChange(::GlobalNamespace::BeatmapLevelPack* pack, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::LevelSelectionFlowCoordinator*>(), 28 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pack, beatmapKey);

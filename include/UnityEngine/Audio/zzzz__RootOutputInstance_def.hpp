@@ -107,7 +107,7 @@ public:
   constexpr operator ::UnityEngine::Audio::ProcessorInstance_IControl_1<TRealtime>*() noexcept;
 
   /// @brief Method Configure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Unity::Jobs::JobHandle Configure(::UnityEngine::Audio::ControlContext context, ::by_ref<TRealtime> realtime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat> format);
+  inline ::Unity::Jobs::JobHandle Configure(::UnityEngine::Audio::ControlContext context, ::by_ref<TRealtime> realtime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> format);
 
   /// @brief Convert to "::UnityEngine::Audio::ProcessorInstance_IControl_1<TRealtime>"
   constexpr ::UnityEngine::Audio::ProcessorInstance_IControl_1<TRealtime>* i___UnityEngine__Audio__ProcessorInstance_IControl_1_TRealtime_() noexcept;
@@ -135,13 +135,14 @@ public:
   constexpr operator ::UnityEngine::Audio::ProcessorInstance_IRealtime*() noexcept;
 
   /// @brief Method EarlyProcessing, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Unity::Jobs::JobHandle EarlyProcessing(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext> context, ::UnityEngine::Audio::ProcessorInstance_Pipe pipe);
+  inline ::Unity::Jobs::JobHandle EarlyProcessing(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext const> context, ::UnityEngine::Audio::ProcessorInstance_Pipe pipe);
 
   /// @brief Method EndProcessing, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void EndProcessing(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext> context, ::UnityEngine::Audio::ProcessorInstance_Pipe pipe, ::UnityEngine::Audio::ChannelBuffer output);
+  inline void EndProcessing(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext const> context, ::UnityEngine::Audio::ProcessorInstance_Pipe pipe,
+                            ::UnityEngine::Audio::ChannelBuffer output);
 
   /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Process(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext> context, ::UnityEngine::Audio::ProcessorInstance_Pipe pipe, ::Unity::Jobs::JobHandle input);
+  inline void Process(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext const> context, ::UnityEngine::Audio::ProcessorInstance_Pipe pipe, ::Unity::Jobs::JobHandle input);
 
   /// @brief Method RemovedFromProcessing, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemovedFromProcessing();
@@ -195,7 +196,7 @@ public:
   static inline bool op_Equality(::UnityEngine::Audio::RootOutputInstance a, ::UnityEngine::Audio::RootOutputInstance b);
 
   /// @brief Method op_Implicit, addr 0x6eabb18, size 0x14, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Audio::ProcessorInstance op_Implicit___UnityEngine__Audio__ProcessorInstance(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RootOutputInstance> root);
+  static inline ::UnityEngine::Audio::ProcessorInstance op_Implicit___UnityEngine__Audio__ProcessorInstance(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RootOutputInstance const> root);
 
   /// @brief Method op_Inequality, addr 0x6eabc10, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Audio::RootOutputInstance a, ::UnityEngine::Audio::RootOutputInstance b);

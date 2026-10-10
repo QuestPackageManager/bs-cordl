@@ -890,26 +890,27 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Sprite.CreateSpriteWithoutTextureScripting_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Rect>, ::by_ref<::UnityEngine::Vector2>, float_t, ::System::IntPtr)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Rect const>, ::by_ref<::UnityEngine::Vector2 const>, float_t, ::System::IntPtr)>(
     &::UnityEngine::Sprite::CreateSpriteWithoutTextureScripting_Injected)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x6eb4f54;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(), { "CreateSpriteWithoutTextureScripting_Injected",
-                                                                                             {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(),
-                                                                                               ::i2c::type_of<float_t>(), ::i2c::type_of<::System::IntPtr>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(), { "CreateSpriteWithoutTextureScripting_Injected",
+                                                                                      {},
+                                                                                      { ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(),
+                                                                                        ::i2c::type_of<float_t>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Sprite.CreateSprite_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rect>, ::by_ref<::UnityEngine::Vector2>, float_t, uint32_t,
-                                                                            ::UnityEngine::SpriteMeshType, ::by_ref<::UnityEngine::Vector4>, bool, ::ArrayW<::UnityEngine::SecondarySpriteTexture>)>(
-    &::UnityEngine::Sprite::CreateSprite_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rect const>, ::by_ref<::UnityEngine::Vector2 const>, float_t, uint32_t, ::UnityEngine::SpriteMeshType,
+                                     ::by_ref<::UnityEngine::Vector4 const>, bool, ::ArrayW<::UnityEngine::SecondarySpriteTexture>)>(&::UnityEngine::Sprite::CreateSprite_Injected)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x6eb5168;
 
@@ -919,9 +920,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Sy
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(),
                                          { "CreateSprite_Injected",
                                            {},
-                                           { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(),
-                                             ::i2c::type_of<float_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::UnityEngine::SpriteMeshType>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>(),
-                                             ::i2c::type_of<bool>(), ::i2c::type_of<::ArrayW<::UnityEngine::SecondarySpriteTexture>>() } })));
+                                           { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(),
+                                             ::i2c::type_of<float_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::UnityEngine::SpriteMeshType>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::ArrayW<::UnityEngine::SecondarySpriteTexture>>() } })));
     return ___internal_method;
   }
 };
@@ -1657,25 +1658,27 @@ inline void UnityEngine::Sprite::GetPadding_Injected(::System::IntPtr _unity_sel
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(), { "GetPadding_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, ret);
 }
-inline ::System::IntPtr UnityEngine::Sprite::CreateSpriteWithoutTextureScripting_Injected(::by_ref<::UnityEngine::Rect> rect, ::by_ref<::UnityEngine::Vector2> pivot, float_t pixelsToUnits,
+inline ::System::IntPtr UnityEngine::Sprite::CreateSpriteWithoutTextureScripting_Injected(::by_ref<::UnityEngine::Rect const> rect, ::by_ref<::UnityEngine::Vector2 const> pivot, float_t pixelsToUnits,
                                                                                           ::System::IntPtr texture) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(), { "CreateSpriteWithoutTextureScripting_Injected",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(),
-                                                                                             ::i2c::type_of<float_t>(), ::i2c::type_of<::System::IntPtr>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(), { "CreateSpriteWithoutTextureScripting_Injected",
+                                                                                    {},
+                                                                                    { ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(),
+                                                                                      ::i2c::type_of<float_t>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, rect, pivot, pixelsToUnits, texture);
 }
-inline ::System::IntPtr UnityEngine::Sprite::CreateSprite_Injected(::System::IntPtr texture, ::by_ref<::UnityEngine::Rect> rect, ::by_ref<::UnityEngine::Vector2> pivot, float_t pixelsPerUnit,
-                                                                   uint32_t extrude, ::UnityEngine::SpriteMeshType meshType, ::by_ref<::UnityEngine::Vector4> border, bool generateFallbackPhysicsShape,
-                                                                   ::ArrayW<::UnityEngine::SecondarySpriteTexture> secondaryTexture) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(),
-                                              { "CreateSprite_Injected",
-                                                {},
-                                                { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(),
-                                                  ::i2c::type_of<float_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::UnityEngine::SpriteMeshType>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::ArrayW<::UnityEngine::SecondarySpriteTexture>>() } })));
+inline ::System::IntPtr UnityEngine::Sprite::CreateSprite_Injected(::System::IntPtr texture, ::by_ref<::UnityEngine::Rect const> rect, ::by_ref<::UnityEngine::Vector2 const> pivot,
+                                                                   float_t pixelsPerUnit, uint32_t extrude, ::UnityEngine::SpriteMeshType meshType, ::by_ref<::UnityEngine::Vector4 const> border,
+                                                                   bool generateFallbackPhysicsShape, ::ArrayW<::UnityEngine::SecondarySpriteTexture> secondaryTexture) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(),
+                                       { "CreateSprite_Injected",
+                                         {},
+                                         { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(),
+                                           ::i2c::type_of<float_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::UnityEngine::SpriteMeshType>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::ArrayW<::UnityEngine::SecondarySpriteTexture>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit, extrude, meshType, border, generateFallbackPhysicsShape,
                                                                secondaryTexture);
 }

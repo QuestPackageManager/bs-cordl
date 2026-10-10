@@ -98,10 +98,10 @@ public:
   /// @brief Method ComputeSplitVisibilityMask, addr 0x6c411bc, size 0x28c, virtual false, abstract: false, final false
   static inline uint32_t ComputeSplitVisibilityMask(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> lightFacingFrustumPlanes,
                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo> splitInfos,
-                                                    ::Unity::Mathematics::float3x3 worldToLightSpaceRotation, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> bounds);
+                                                    ::Unity::Mathematics::float3x3 worldToLightSpaceRotation, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB const> bounds);
 
   /// @brief Method Create, addr 0x6c40e60, size 0x230, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::ReceiverSphereCuller Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc, ::Unity::Collections::Allocator allocator);
+  static inline ::UnityEngine::Rendering::ReceiverSphereCuller Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cc, ::Unity::Collections::Allocator allocator);
 
   /// @brief Method CreateEmptyForTesting, addr 0x6c40d58, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ReceiverSphereCuller CreateEmptyForTesting(::Unity::Collections::Allocator allocator);

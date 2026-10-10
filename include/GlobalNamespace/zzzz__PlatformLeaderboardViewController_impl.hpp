@@ -314,7 +314,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespac
 //  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController.SetData
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)(::by_ref<::GlobalNamespace::BeatmapKey>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)(::by_ref<::GlobalNamespace::BeatmapKey const>)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::SetData)> {
   constexpr static std::size_t size = 0x11c;
   constexpr static std::size_t addrs = 0x5d65068;
@@ -846,7 +846,7 @@ inline ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> GlobalNamespace::P
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { "get_leaderboardsModel", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::PlatformLeaderboardsModel>>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlatformLeaderboardViewController::SetData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline void GlobalNamespace::PlatformLeaderboardViewController::SetData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapKey);

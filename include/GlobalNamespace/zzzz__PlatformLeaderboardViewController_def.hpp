@@ -457,7 +457,7 @@ public:
   inline int32_t ScoreScopeToScoreScopeIndex(::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scoresScope);
 
   /// @brief Method SetData, addr 0x5d65068, size 0x11c, virtual true, abstract: false, final false
-  inline void SetData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SetData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   /// [CompilerGenerated]
   /// @brief Method <RefreshBeatLeaderboards>b__38_0, addr 0x5d6658c, size 0x50, virtual false, abstract: false, final false

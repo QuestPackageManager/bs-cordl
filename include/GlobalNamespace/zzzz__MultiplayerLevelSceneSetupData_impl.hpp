@@ -7,14 +7,15 @@
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLevelSceneSetupData._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLevelSceneSetupData::*)(::by_ref<::GlobalNamespace::BeatmapKey>, bool)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLevelSceneSetupData::*)(::by_ref<::GlobalNamespace::BeatmapKey const>, bool)>(
     &::GlobalNamespace::MultiplayerLevelSceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x5d28314;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelSceneSetupData*>(),
-                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelSceneSetupData*>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -42,12 +43,13 @@ constexpr void GlobalNamespace::MultiplayerLevelSceneSetupData::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasSong = value;
 }
-inline void GlobalNamespace::MultiplayerLevelSceneSetupData::_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelSceneSetupData*>(),
-                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<bool>() } })));
+inline void GlobalNamespace::MultiplayerLevelSceneSetupData::_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, bool hasSong) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelSceneSetupData*>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapKey, hasSong);
 }
-inline ::GlobalNamespace::MultiplayerLevelSceneSetupData* GlobalNamespace::MultiplayerLevelSceneSetupData::New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+inline ::GlobalNamespace::MultiplayerLevelSceneSetupData* GlobalNamespace::MultiplayerLevelSceneSetupData::New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey,
                                                                                                                     bool hasSong) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MultiplayerLevelSceneSetupData*>(beatmapKey, hasSong));
 }

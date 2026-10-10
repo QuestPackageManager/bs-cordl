@@ -40,8 +40,8 @@ public:
 
   /// @brief Method CalculateBadgeData, addr 0x39bc76c, size 0x434, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
-                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
-                                                                          float_t randomMultiplier);
+                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel,
+                                                                          /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, float_t randomMultiplier);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataFullComboSO* New_ctor();
 

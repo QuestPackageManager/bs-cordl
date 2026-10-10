@@ -600,7 +600,7 @@ public:
   inline void set_backgroundColor(::UnityEngine::Color value);
 
   /// @brief Method set_backgroundColor_Injected, addr 0x6ec9f7c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_backgroundColor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Color> value);
+  static inline void set_backgroundColor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Color const> value);
 
   /// @brief Method set_bakedTexture, addr 0x6ecacbc, size 0xe8, virtual false, abstract: false, final false
   inline void set_bakedTexture(::UnityEngine::Texture* value);
@@ -624,7 +624,7 @@ public:
   inline void set_center(::UnityEngine::Vector3 value);
 
   /// @brief Method set_center_Injected, addr 0x6ec8b54, size 0x44, virtual false, abstract: false, final false
-  static inline void set_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_clearFlags, addr 0x6ec9cb8, size 0xb8, virtual false, abstract: false, final false
   inline void set_clearFlags(::UnityEngine::Rendering::ReflectionProbeClearFlags value);
@@ -714,7 +714,7 @@ public:
   inline void set_size(::UnityEngine::Vector3 value);
 
   /// @brief Method set_size_Injected, addr 0x6ec8944, size 0x44, virtual false, abstract: false, final false
-  static inline void set_size_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_size_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_timeSlicingMode, addr 0x6ecaa0c, size 0xb8, virtual false, abstract: false, final false
   inline void set_timeSlicingMode(::UnityEngine::Rendering::ReflectionProbeTimeSlicingMode value);

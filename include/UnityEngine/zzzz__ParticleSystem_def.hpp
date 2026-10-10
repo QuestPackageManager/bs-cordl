@@ -559,7 +559,7 @@ public:
   inline void set_startColorBlittable(::UnityEngine::ParticleSystem_MinMaxGradientBlittable value);
 
   /// @brief Method set_startColorBlittable_Injected, addr 0x6fc99c8, size 0x44, virtual false, abstract: false, final false
-  static inline void set_startColorBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_MainModule> _unity_self, ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable> value);
+  static inline void set_startColorBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_MainModule> _unity_self, ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable const> value);
 
   /// [NativeThrows]
   /// @brief Method set_startDelayMultiplier, addr 0x6fc4b48, size 0x4c, virtual false, abstract: false, final false
@@ -573,7 +573,7 @@ public:
   inline void set_startLifetimeBlittable(::UnityEngine::ParticleSystem_MinMaxCurveBlittable value);
 
   /// @brief Method set_startLifetimeBlittable_Injected, addr 0x6fc970c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_startLifetimeBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_MainModule> _unity_self, ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable> value);
+  static inline void set_startLifetimeBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_MainModule> _unity_self, ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const> value);
 
   /// [NativeThrows]
   /// @brief Method set_startLifetimeMultiplier, addr 0x6fc5a0c, size 0x4c, virtual false, abstract: false, final false
@@ -607,7 +607,7 @@ public:
   inline void set_startSpeedBlittable(::UnityEngine::ParticleSystem_MinMaxCurveBlittable value);
 
   /// @brief Method set_startSpeedBlittable_Injected, addr 0x6fc9804, size 0x44, virtual false, abstract: false, final false
-  static inline void set_startSpeedBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_MainModule> _unity_self, ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable> value);
+  static inline void set_startSpeedBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_MainModule> _unity_self, ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const> value);
 
   /// [NativeThrows]
   /// @brief Method set_startSpeedMultiplier, addr 0x6fc523c, size 0x4c, virtual false, abstract: false, final false
@@ -674,7 +674,7 @@ public:
   inline void set_rateOverTimeBlittable(::UnityEngine::ParticleSystem_MinMaxCurveBlittable value);
 
   /// @brief Method set_rateOverTimeBlittable_Injected, addr 0x6fc9a50, size 0x44, virtual false, abstract: false, final false
-  static inline void set_rateOverTimeBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_EmissionModule> _unity_self, ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable> value);
+  static inline void set_rateOverTimeBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_EmissionModule> _unity_self, ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const> value);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -732,7 +732,7 @@ public:
   inline void set_rotation(::UnityEngine::Vector3 value);
 
   /// @brief Method set_rotation_Injected, addr 0x6fc9d18, size 0x44, virtual false, abstract: false, final false
-  static inline void set_rotation_Injected(::by_ref<::UnityEngine::ParticleSystem_ShapeModule> _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_rotation_Injected(::by_ref<::UnityEngine::ParticleSystem_ShapeModule> _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -1176,7 +1176,7 @@ struct CORDL_TYPE ParticleSystem_MinMaxCurveBlittable {
 public:
   // Declarations
   /// @brief Method FromMixMaxCurve, addr 0x6fc9f4c, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ParticleSystem_MinMaxCurveBlittable FromMixMaxCurve(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurve> minMaxCurve);
+  static inline ::UnityEngine::ParticleSystem_MinMaxCurveBlittable FromMixMaxCurve(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurve const> minMaxCurve);
 
   /// @brief Method op_Implicit, addr 0x6fc96a0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ParticleSystem_MinMaxCurveBlittable op_Implicit___UnityEngine__ParticleSystem_MinMaxCurveBlittable(::UnityEngine::ParticleSystem_MinMaxCurve minMaxCurve);
@@ -1315,10 +1315,10 @@ struct CORDL_TYPE ParticleSystem_MinMaxGradientBlittable {
 public:
   // Declarations
   /// @brief Method FromMixMaxGradient, addr 0x6fca048, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ParticleSystem_MinMaxGradientBlittable FromMixMaxGradient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradient> minMaxGradient);
+  static inline ::UnityEngine::ParticleSystem_MinMaxGradientBlittable FromMixMaxGradient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradient const> minMaxGradient);
 
   /// @brief Method ToMinMaxGradient, addr 0x6fc9f90, size 0xb8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ParticleSystem_MinMaxGradient ToMinMaxGradient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable> minMaxGradientBlittable);
+  static inline ::UnityEngine::ParticleSystem_MinMaxGradient ToMinMaxGradient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable const> minMaxGradientBlittable);
 
   /// @brief Method op_Implicit, addr 0x6fc98c0, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ParticleSystem_MinMaxGradient op_Implicit___UnityEngine__ParticleSystem_MinMaxGradient(::UnityEngine::ParticleSystem_MinMaxGradientBlittable minMaxGradientBlittable);
@@ -2901,7 +2901,7 @@ public:
   static inline void EmitOld_Internal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_Particle> particle);
 
   /// @brief Method Emit_Injected, addr 0x6fc8888, size 0x54, virtual false, abstract: false, final false
-  static inline void Emit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_EmitParams> emitParams, int32_t count);
+  static inline void Emit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_EmitParams const> emitParams, int32_t count);
 
   /// [NativeName("SyncJobs()->Emit")]
   /// @brief Method Emit_Internal, addr 0x6fc871c, size 0x90, virtual false, abstract: false, final false
@@ -2959,23 +2959,23 @@ public:
   static inline int32_t GetParticleMeshIndex_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_Particle> particle);
 
   /// @brief Method GetParticles, addr 0x6fc7198, size 0xc, virtual false, abstract: false, final false
-  inline int32_t GetParticles(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles);
+  inline int32_t GetParticles(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles);
 
   /// @brief Method GetParticles, addr 0x6fc7190, size 0x8, virtual false, abstract: false, final false
-  inline int32_t GetParticles(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size);
+  inline int32_t GetParticles(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, int32_t size);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::GetParticles", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetParticles, addr 0x6fc6f8c, size 0x1a8, virtual false, abstract: false, final false
-  inline int32_t GetParticles(/* [NotNull] */ ::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size, int32_t offset);
+  inline int32_t GetParticles(/* [NotNull] */ ::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, int32_t size, int32_t offset);
 
   /// @brief Method GetParticles, addr 0x6fc733c, size 0xc, virtual false, abstract: false, final false
-  inline int32_t GetParticles(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles);
+  inline int32_t GetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles);
 
   /// @brief Method GetParticles, addr 0x6fc7334, size 0x8, virtual false, abstract: false, final false
-  inline int32_t GetParticles(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size);
+  inline int32_t GetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, int32_t size);
 
   /// @brief Method GetParticles, addr 0x6fc72c0, size 0x74, virtual false, abstract: false, final false
-  inline int32_t GetParticles(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size, int32_t offset);
+  inline int32_t GetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, int32_t size, int32_t offset);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::GetParticlesWithNativeArray", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetParticlesWithNativeArray, addr 0x6fc71a4, size 0xb0, virtual false, abstract: false, final false
@@ -3061,49 +3061,49 @@ public:
   inline void SetManagedJobHandle(::Unity::Jobs::JobHandle handle);
 
   /// @brief Method SetManagedJobHandle_Injected, addr 0x6fc93bc, size 0x44, virtual false, abstract: false, final false
-  static inline void SetManagedJobHandle_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Jobs::JobHandle> handle);
+  static inline void SetManagedJobHandle_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Jobs::JobHandle const> handle);
 
   /// [FreeFunction(Name = "ParticleSystemGeometryJob::SetMaximumPreMappedBufferCounts")]
   /// @brief Method SetMaximumPreMappedBufferCounts, addr 0x6fc8d88, size 0x44, virtual false, abstract: false, final false
   static inline void SetMaximumPreMappedBufferCounts(int32_t vertexBuffersCount, int32_t indexBuffersCount);
 
   /// @brief Method SetParticles, addr 0x6fc6ddc, size 0xc, virtual false, abstract: false, final false
-  inline void SetParticles(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles);
+  inline void SetParticles(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles);
 
   /// @brief Method SetParticles, addr 0x6fc6dd4, size 0x8, virtual false, abstract: false, final false
-  inline void SetParticles(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size);
+  inline void SetParticles(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, int32_t size);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::SetParticles", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetParticles, addr 0x6fc6c00, size 0x178, virtual false, abstract: false, final false
-  inline void SetParticles(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size, int32_t offset);
+  inline void SetParticles(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, int32_t size, int32_t offset);
 
   /// @brief Method SetParticles, addr 0x6fc6f80, size 0xc, virtual false, abstract: false, final false
-  inline void SetParticles(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles);
+  inline void SetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles);
 
   /// @brief Method SetParticles, addr 0x6fc6f78, size 0x8, virtual false, abstract: false, final false
-  inline void SetParticles(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size);
+  inline void SetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, int32_t size);
 
   /// @brief Method SetParticles, addr 0x6fc6f04, size 0x74, virtual false, abstract: false, final false
-  inline void SetParticles(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size, int32_t offset);
+  inline void SetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, int32_t size, int32_t offset);
 
   /// @brief Method SetParticlesAndTrails, addr 0x6fc7ef4, size 0x34, virtual false, abstract: false, final false
-  inline void SetParticlesAndTrails(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, ::UnityEngine::ParticleSystem_Trails trailData);
+  inline void SetParticlesAndTrails(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData);
 
   /// @brief Method SetParticlesAndTrails, addr 0x6fc7ec4, size 0x30, virtual false, abstract: false, final false
-  inline void SetParticlesAndTrails(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size);
+  inline void SetParticlesAndTrails(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::SetParticlesAndTrailData", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetParticlesAndTrails, addr 0x6fc7cdc, size 0x17c, virtual false, abstract: false, final false
-  inline void SetParticlesAndTrails(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size, int32_t offset);
+  inline void SetParticlesAndTrails(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size, int32_t offset);
 
   /// @brief Method SetParticlesAndTrails, addr 0x6fc812c, size 0x34, virtual false, abstract: false, final false
-  inline void SetParticlesAndTrails(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles, ::UnityEngine::ParticleSystem_Trails trailData);
+  inline void SetParticlesAndTrails(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData);
 
   /// @brief Method SetParticlesAndTrails, addr 0x6fc80fc, size 0x30, virtual false, abstract: false, final false
-  inline void SetParticlesAndTrails(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size);
+  inline void SetParticlesAndTrails(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size);
 
   /// @brief Method SetParticlesAndTrails, addr 0x6fc805c, size 0xa0, virtual false, abstract: false, final false
-  inline void SetParticlesAndTrails(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size,
+  inline void SetParticlesAndTrails(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size,
                                     int32_t offset);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::SetParticlesAndTrailDataWithNativeArray", HasExplicitThis = true, ThrowsException = true)]
@@ -3111,12 +3111,12 @@ public:
   inline void SetParticlesAndTrailsWithNativeArray(::System::IntPtr particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t particlesLength, int32_t size, int32_t offset);
 
   /// @brief Method SetParticlesAndTrailsWithNativeArray_Injected, addr 0x6fc7fe8, size 0x74, virtual false, abstract: false, final false
-  static inline void SetParticlesAndTrailsWithNativeArray_Injected(::System::IntPtr _unity_self, ::System::IntPtr particles, ::by_ref<::UnityEngine::ParticleSystem_Trails> trailData,
+  static inline void SetParticlesAndTrailsWithNativeArray_Injected(::System::IntPtr _unity_self, ::System::IntPtr particles, ::by_ref<::UnityEngine::ParticleSystem_Trails const> trailData,
                                                                    int32_t particlesLength, int32_t size, int32_t offset);
 
   /// @brief Method SetParticlesAndTrails_Injected, addr 0x6fc7e58, size 0x6c, virtual false, abstract: false, final false
   static inline void SetParticlesAndTrails_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> particles,
-                                                    ::by_ref<::UnityEngine::ParticleSystem_Trails> trailData, int32_t size, int32_t offset);
+                                                    ::by_ref<::UnityEngine::ParticleSystem_Trails const> trailData, int32_t size, int32_t offset);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::SetParticlesWithNativeArray", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetParticlesWithNativeArray, addr 0x6fc6de8, size 0xb0, virtual false, abstract: false, final false
@@ -3132,7 +3132,7 @@ public:
   inline void SetPlaybackState(::UnityEngine::ParticleSystem_PlaybackState playbackState);
 
   /// @brief Method SetPlaybackState_Injected, addr 0x6fc7994, size 0x44, virtual false, abstract: false, final false
-  static inline void SetPlaybackState_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_PlaybackState> playbackState);
+  static inline void SetPlaybackState_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_PlaybackState const> playbackState);
 
   /// [Obsolete("SetTrails is deprecated. Use SetParticlesAndTrails() instead. Avoid SetTrails when ParticleSystem.trails.dieWithParticles is false.", false)]
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::SetTrailData", HasExplicitThis = true)]
@@ -3140,7 +3140,7 @@ public:
   inline void SetTrails(::UnityEngine::ParticleSystem_Trails trailData);
 
   /// @brief Method SetTrails_Injected, addr 0x6fc480c, size 0x44, virtual false, abstract: false, final false
-  static inline void SetTrails_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_Trails> trailData);
+  static inline void SetTrails_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_Trails const> trailData);
 
   /// @brief Method Simulate, addr 0x6fc8298, size 0x10, virtual false, abstract: false, final false
   inline void Simulate(float_t t);
@@ -3194,7 +3194,7 @@ public:
   inline void TriggerSubEmitterForParticle(int32_t subEmitterIndex, ::UnityEngine::ParticleSystem_Particle particle);
 
   /// @brief Method TriggerSubEmitterForParticle_Injected, addr 0x6fc8c74, size 0x54, virtual false, abstract: false, final false
-  static inline void TriggerSubEmitterForParticle_Injected(::System::IntPtr _unity_self, int32_t subEmitterIndex, ::by_ref<::UnityEngine::ParticleSystem_Particle> particle);
+  static inline void TriggerSubEmitterForParticle_Injected(::System::IntPtr _unity_self, int32_t subEmitterIndex, ::by_ref<::UnityEngine::ParticleSystem_Particle const> particle);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::TriggerSubEmitterForParticles", HasExplicitThis = true)]
   /// @brief Method TriggerSubEmitterForParticles, addr 0x6fc8a9c, size 0x1d8, virtual false, abstract: false, final false

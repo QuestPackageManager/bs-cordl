@@ -46,7 +46,7 @@ public:
   static inline ::GlobalNamespace::LevelStatsView* New_ctor();
 
   /// @brief Method ShowStats, addr 0x5cf2d40, size 0x2c, virtual false, abstract: false, final false
-  inline void ShowStats(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData);
+  inline void ShowStats(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::PlayerData* playerData);
 
   /// @brief Method ShowStats, addr 0x5cf2d6c, size 0x170, virtual false, abstract: false, final false
   inline void ShowStats(::GlobalNamespace::PlayerLevelStatsData* playerLevelStats);
